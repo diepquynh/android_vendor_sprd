@@ -1,0 +1,169 @@
+SPRD Sensor HAL
+
+This provides an overview of sensor hal layer.
+
+You need to configure kernel before porting sensor hal layer. Make sure all
+sensors can be attached.
+
+
+Directory structure
+===================
+
++- Android.mk           - main makefile
++- sensors.cpp          - HAL main file
++- sensors.h            - header of main file
++- SensorBase.cpp       - base class for use
++- SensorBase.h         - header of base class
++- InputEventReader.cpp - input class
++- InputEventReader.h   - header of input class
++- SensorCoordinate.cpp - coordinate tool
++- SensorCoordinate.h   - header of coordinate tool
++- AccSensor.h          - header of ACC sensor class
++- Acc_<xxx>.cpp        - Specific sensor class
++- ...                  - more Acc sensors
++- OriSensor.h          - header of ORI sensor class
++- Ori_<xxx>.cpp        - Specific sensor class
++- ...                  - more Ori sensors
++- PlsSensor.h          - header of PLS sensor class
++- Pls_<xxx>.cpp        - Specific sensor class
++- ...                  - more Pls sensors
+
+Configure sensor
+================
+
+1. Add configuration item
+-------------------------
+- Pick sensor name from sensor class file name.
+  Sensor name: [Acc|Ori|Pls]_<name>.cpp
+  For example: If the sensor class file name is "Acc_Lis3dh.cpp", the sensor
+               name is "Lis3dh".
+
+- Give the sensor name to specific config-item.
+  Config-item: Acc_<name>.cpp  ->  BOARD_HAVE_ACC
+               Ori_<name>.cpp  ->  BOARD_HAVE_ORI
+               Pls_<name>.cpp  ->  BOARD_HAVE_PLS
+  For example: If the sensor class file name is "Acc_Lis3dh.cpp", the
+               specific config-item is "BOARD_HAVE_ACC".
+
+- Put the config-item line into "BoardConfig.mk" of your board.
+  For example: If the sensor class file name is Acc_Lis3dh.cpp, add the line
+               "BOARD_HAVE_ACC := Lis3dh" into "BoardConfig.mk".
+
+* If there already the same config-item line in the "BoardConfig.mk", then
+  replace it.
+
+2. Set install direction
+------------------------
+- Find out sensor's install direction
+  * Definition of sensor placement on target board
+  * 
+  *               up
+  *       +---------------+
+  *       |+-------------+|
+  *       ||             ||
+  * left  ||             || right
+  *       ||             ||
+  *       ||   screen    ||
+  *       ||             ||
+  *       ||             ||
+  *       |+-------------+|
+  *       |---------------|
+  *       |[ ] [ ] [ ] [ ]|
+  *       | 1   2   3   * |
+  *       | 4   5   6   0 |
+  *       | 7   8   9   # |
+  *       +---------------+
+  *              down
+  *
+  *                               left    right   up      down       direction
+  * OBVERSE_X_AXIS_FORWARD         Y+      Y-      X+      X-     ->     0
+  * OBVERSE_X_AXIS_RIGHTWARD       X-      X+      Y+      Y-     ->     1
+  * OBVERSE_X_AXIS_BACKWARD        Y-      Y+      X-      X+     ->     2
+  * OBVERSE_X_AXIS_LEFTWARD        X+      X-      Y-      Y+     ->     3
+  * REVERSE_X_AXIS_FORWARD         Y-      Y+      X+      X-     ->     4
+  * REVERSE_X_AXIS_RIGHTWARD       X-      X+      Y-      Y+     ->     5
+  * REVERSE_X_AXIS_BACKWARD        Y+      Y-      X-      X+     ->     6
+  * REVERSE_X_AXIS_LEFTWARD        X+      X-      Y+      Y-     ->     7
+
+- Give the sensor direction to specific config-item.
+  Config-item: Acc_<name>.cpp  ->  BOARD_ACC_INSTALL
+               Ori_<name>.cpp  ->  BOARD_ORI_INSTALL
+  For example: If the sensor class file name is "Acc_Lis3dh.cpp", the
+               specific config-item is "BOARD_ACC_INSTALL".
+
+- Put the config-item line into "BoardConfig.mk" of your board.
+  For example: If the sensor class file name is Acc_Lis3dh.cpp and install
+               direction is 7, add the line "BOARD_ACC_INSTALL := 7" 
+               into "BoardConfig.mk".
+
+* If there already the same config-item line in the "BoardConfig.mk", then
+  replace it.
+
+Porting new sensor
+==================
+
+1. Add new sensor class
+-----------------------
+
+- Copy and rename a exists sensor class, such as copy "Acc_Lis3dh.cpp" into
+  a new file named "Acc_MMA8452.cpp"
+  Please be attention to the new name. It must be like "Acc_<name>.cpp" for
+  Acc class, "Ori_<name>.cpp" for Ori class, "Pls_<name>.cpp" for Pls class.
+
+- Set the new sensor information into sSensorList[].
+  About sSensorList[] please reference:
+  "hardware/libhardware/include/hardware/sensors.h"
+
+- Modify the ioctl or input config to get the right data from the sensor.
+  In most cases, the following functions should be changed:
+  1. AccSensor::setEnable
+  2. AccSensor::setDelay
+  3. AccSensor::readEvents
+
+2. Add new sensor config
+------------------------
+
+- Modify the config-item in "BoardConfig.mk" to compile the new file.
+  For example: If the new file name is Acc_MMA8452.cpp, Modify the
+               config-item into "BOARD_HAVE_ACC := MMA8452".
+
+3. Compile and debug
+--------------------
+
+- Do as you wish!
+
+Quick config list
+=================
+- ACCELERATION
+  BOARD_HAVE_ACC := <name>
+  Already support names:
+  1. Lis3dh
+  2. Kionix
+  3. Adxl
+
+- MAGNETIC_FIELD&ORIENTATION
+  BOARD_HAVE_ORI := <name>
+  Already support names:
+  1. Akm
+
+- LIGHT&PROXIMITY
+  BOARD_HAVE_PLS := <name>
+  Already support names:
+  1. AL3006
+  2. MD2771
+
+NULL sensor config
+==================
+
+If the board doesn't have Magnetic sensor, you can just add
+"BOARD_HAVE_ORI := NULL" into "BoardConfig.mk", or "BOARD_HAVE_PLS := NULL"
+for no proximity sensor and light sensor use.
+
+If you even don't have acceleration sensor, you can add "BOARD_HAVE_ACC := NULL"
+into "BoardConfig.mk". But if you remove acceleration sensor, then the Magnetic
+sensor can no be used any more.
+
+Automatic adaptation
+====================
+
+- to be continued...

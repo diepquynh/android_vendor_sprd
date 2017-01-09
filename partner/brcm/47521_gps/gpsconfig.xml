@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glgps xmlns="http://www.glpals.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.glpals.com/ glconfig.xsd" >
+  <!--HAL Confguration LogDirectory="/data/gps/log/" -->
+  <hal 
+       PortName="/dev/ttyS3"
+       BaudRate="921600"
+       GpioNStdbyPath="/sys/class/gpio/gpio96/value"
+       GpioDelayMs="250"
+       Log="FILE"
+       cLogEnabled="true" 
+       acLogDirectory="/data/gps/log"
+  />
+
+  <gll 
+       LogPriMask="LOG_INFO"
+       LogFacMask="LOG_DEFAULT"
+       FrqPlan="FRQ_PLAN_26MHZ_2PPM"
+       RfType="GL_RF_4752_BRCM_EXT_LNA"
+  />
+
+  <!-- Periodic Position with the ROM almanac ignored for simulator testing -->
+<job id="Simulator_Periodic">
+    <task id="cont" repeat="1">
+        <startup ignore_rom_alm="true" />
+        <req_pos validfix="2000" duration_sec="2000"/>      
+    </task>
+</job>
+
+</glgps>

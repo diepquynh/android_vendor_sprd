@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="operator">
+    <!-- bug#182200 -->
+    <!-- SPRD: delete useless items to optimizate efficiency for bug277529 -->
+        <item>China Mobile=China Mobile</item>
+        <item>China Unicom=China Unicom</item>
+        <item>CHN-UNICOM=China Unicom</item>
+        <item>CMCC=China Mobile</item>
+        <item>CUCC=China Unicom</item>
+        <item>FarEasTone=FarEasTone</item>
+        <item>Chungwa=Chungwa</item>
+        <item>Taiwan Mobile=Taiwan Mobile</item>
+    </string-array>
+
+    <!-- SPRD: add array for bug258526 @{ -->
+    <string-array name="spn">
+        <item>China Mobile=China Mobile</item>
+        <item>CMCC=China Mobile</item>
+        <item>UNICOM=China Unicom</item>
+        <item>CUCC=China Unicom</item>
+    </string-array>
+    <!-- @} -->
+</resources>

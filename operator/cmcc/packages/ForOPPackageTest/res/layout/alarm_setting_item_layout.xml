@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:paddingTop="6dip"
+  android:paddingBottom="6dip"
+  
+>
+
+<TextView
+  android:id="@+id/alarm_item"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:textAppearance="?android:attr/textAppearanceLarge"
+  android:paddingLeft="10dip"
+/>
+
+<TextView
+  android:id="@+id/alarm_item_value"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:textAppearance="?android:attr/textAppearanceSmall"
+
+  android:paddingLeft="10dip"
+/>
+
+
+</LinearLayout>
+
+<!--android:textSize="24dip"
+	android:textStyle="bold"
+	android:textSize="16dip"-->

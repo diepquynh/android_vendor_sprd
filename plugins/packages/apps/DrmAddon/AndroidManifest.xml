@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="addon.sprd.drm"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+    />
+
+    <application>
+        <meta-data
+            android:name="isFeatureAddon"
+            android:value="true" />
+        <meta-data
+            android:name="targetPackages"
+            android:value="com.android.gallery3d;com.sprd.fileexplorer" />
+        <!-- TODO considered to use the resource to parse those metas -->
+        <meta-data
+            android:name="featureClassNames"
+            android:value="com.sprd.drmvideoplugin.AddonVideoDrmUtils;com.sprd.drmgalleryplugin.app.AddonGalleryAppImpl;com.sprd.drmgalleryplugin.ui.AddonMenuExecutor;com.sprd.drmgalleryplugin.data.AddonLocalMediaItem;com.sprd.drmgalleryplugin.app.AddonSomePage;com.sprd.drmgalleryplugin.ui.AddonSlotRenderer;com.sprd.fileexploreraddon.FileExplorerAppUtilsAddon;com.sprd.fileexploreraddon.util.FileCopyTaskUtilsAddon;com.sprd.fileexploreraddon.util.FileUtilUtilsAddon;com.sprd.fileexploreraddon.adapters.FileListAdapterUtilsAddon;com.sprd.fileexploreraddon.adapters.MultiSelectFileAdapterUtilsAddon;com.sprd.fileexploreraddon.adapters.QuickScanCursorAdapterUtilsAddon;com.sprd.fileexploreraddon.adapters.SearchListAdapterUtilsAddon;com.sprd.fileexploreraddon.activities.FileSearchActivityUtilsAddon;com.sprd.fileexploreraddon.activities.FileSearchResultActivityUtilsAddon;com.sprd.fileexploreraddon.activities.MultiSelectActivityUtilsAddon;com.sprd.fileexploreraddon.activities.FilePickerActivityUtilsAddon;com.sprd.fileexploreraddon.fragments.DetailedListFragmentUtilsAddon;com.sprd.fileexploreraddon.activities.OverViewActivityUtilsAddo;plugin.sprd.drm.PluginDrmUtils;plugin.sprd.drm.PluginModelUtils;plugin.sprd.drm.PluginUiUtils;addon.sprd.launcher3.appsort.SprdAppSortAddon;addon.sprd.launcher3.drm.AddonLauncherDrmUtils;addon.sprd.downloadprovider.AddonDownloadsDRMUtils;addon.sprd.downloadprovider.AddonOpenHelperUtils;addon.sprd.downloadprovider.AddonDownloaduiDRMUtils;addon.sprd.browser.plugindrm.AddOnBrowserPlugInDrm;sprd.plugindrm.AddOnDocumentsUIPlugInDrm;plugin.sprd.emailxposed.AddonEmailDrmUtils;plugin.sprd.drmxposed.AddonMusicDRM" />
+    </application>
+
+</manifest>
+

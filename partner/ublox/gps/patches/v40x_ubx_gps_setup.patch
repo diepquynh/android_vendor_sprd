@@ -1,0 +1,71 @@
+diff --git a/ubx-setup.sh b/ubx-setup.sh
+new file mode 100755
+index 0000000..16dcc74
+--- /dev/null
++++ b/ubx-setup.sh
+@@ -0,0 +1,14 @@
++#!/system/bin/sh
++
++# set static IP
++#ifconfig eth0 10.64.4.50 netmask 255.255.0.0
++#route add default gw 10.64.4.1 dev eth0
++
++# use DHCP and use our DNS server
++netcfg eth0 dhcp &
++setprop net.dns1 10.64.252.32
++
++
++
++# change privileges of UART4 in pandaboard
++chmod 0666 /dev/ttyO3
+diff --git a/device.mk b/device.mk
+index e04afa2..a5382fe 100644
+--- a/device.mk
++++ b/device.mk
+@@ -31,4 +31,7 @@ PRODUCT_COPY_FILES := \
+         device/ti/panda/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
+ 	frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
+ 	frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
+-	frameworks/native/data/etc/android.hardware.usb.accessory.xml:system/etc/permissions/android.hardware.usb.accessory.xml
++	frameworks/native/data/etc/android.hardware.usb.accessory.xml:system/etc/permissions/android.hardware.usb.accessory.xml \
++	device/ti/panda/ubx-setup.sh:system/etc/ubx-setup.sh \
++ 	hardware/u-blox/gps/gps.conf:system/etc/gps.conf \
++	hardware/u-blox/gps/u-blox.conf:system/etc/u-blox.conf
+
+ PRODUCT_PACKAGES := \
+         make_ext4fs \
+diff --git a/fstab.omap4pandaboard b/fstab.omap4pandaboard
+index 7a40110..be349db 100644
+--- a/fstab.omap4pandaboard
++++ b/fstab.omap4pandaboard
+@@ -4,7 +4,7 @@
+ # specify MF_CHECK, and must come before any filesystems that do specify MF_CHECK
+ 
+ 
+-/dev/block/platform/omap/omap_hsmmc.0/by-name/system    /system             ext4      ro                                                    wait
++/dev/block/platform/omap/omap_hsmmc.0/by-name/system    /system             ext4      rw                                                    wait
+ /dev/block/platform/omap/omap_hsmmc.0/by-name/cache     /cache              ext4      noatime,nosuid,nodev,nomblk_io_submit,errors=panic    wait
+ /dev/block/platform/omap/omap_hsmmc.0/by-name/userdata  /data               ext4      noatime,nosuid,nodev,nomblk_io_submit,errors=panic    wait
+ 
+diff --git a/init.omap4pandaboard.rc b/init.omap4pandaboard.rc
+index bac0fa2..da52463 100644
+--- a/init.omap4pandaboard.rc
++++ b/init.omap4pandaboard.rc
+@@ -20,6 +20,8 @@ on post-fs-data
+ on boot
+ 	mount debugfs /sys/kernel/debug /sys/kernel/debug
+ 	chmod 0666 /dev/pvrsrvkm
++    chmod 0755 /system/etc/ubx-setup.sh
++    start ubx-setup
+ 
+ on fs
+ 	mount_all /fstab.omap4pandaboard
+@@ -89,3 +91,8 @@ service dhcpcd_eth0 /system/bin/dhcpcd -ABKL
+ service iprenew_eth0 /system/bin/dhcpcd -n
+     disabled
+     oneshot
++
++service ubx-setup /system/etc/ubx-setup.sh
++    user root
++    group root
++    oneshot

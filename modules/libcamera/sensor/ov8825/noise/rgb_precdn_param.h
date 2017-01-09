@@ -1,0 +1,475 @@
+/*param0.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x0000,
+	/*thru1*/
+	0x0000,
+	/*thrv0*/
+	0x0000,
+	/*thrv1*/
+	0x0000,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param1.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x0000,
+	/*thru1*/
+	0x0000,
+	/*thrv0*/
+	0x0000,
+	/*thrv1*/
+	0x0000,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param2.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param3.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param4.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param5.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param6.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param7.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param8.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param9.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param10.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param11.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param12.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param13.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param14.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param15.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param16.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param17.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param18.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param19.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param20.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param21.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param22.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param23.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x000A,
+	/*thru1*/
+	0x001E,
+	/*thrv0*/
+	0x000A,
+	/*thrv1*/
+	0x001E,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x00A0,
+	/*bypass*/
+	0x00000001,
+}
+,
+/*param24.*/
+/*sensor_rgb_precdn_level*/
+{
+	/*thru0*/
+	0x0000,
+	/*thru1*/
+	0x0000,
+	/*thrv0*/
+	0x0000,
+	/*thrv1*/
+	0x0000,
+	/*median_mode*/
+	0x0000,
+	/*median_thr*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="plugins.sprd.FolderPlugins"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <application>
+        <meta-data
+            android:name="isFeatureAddon"
+            android:value="true" />
+        <meta-data
+            android:name="targetPackages"
+            android:value="com.android.launcher3" />
+        <meta-data
+            android:name="featureClassNames"
+            android:value="plugins.sprd.Folder.AddonFolderPlugins;
+                           plugins.sprd.Folder.AddonAppFolderDbInfo;
+                           plugins.sprd.Folder.FolderIconPluginAddon;
+                           plugins.sprd.Folder.LauncherUtilsAddon;
+                           plugins.sprd.Folder.LauncherAppStateUtilsAddon;
+                           plugins.sprd.Folder.LauncherBackupAgentHelperUtilsAddon;
+                           plugins.sprd.Folder.ItemInfoUtilsAddon;
+                           plugins.sprd.Folder.AddonPluginWorkspace;
+                           plugins.sprd.Folder.AddonAllAppsContainerView;
+                           plugins.sprd.Folder.AllAppsGridAdapterUtilsAddon;
+                           plugins.sprd.Folder.AllAppsRecyclerViewUtilsAddon;
+                           plugins.sprd.Folder.AddonPluginWorkspace;
+                           plugins.sprd.Folder.LauncherClingsVolteUtilsAddon;
+                           plugins.sprd.Folder.LauncherModelUtilsAddon;
+                           plugins.sprd.Folder.AddonAlphabeticalAppsList;
+                           plugins.sprd.Folder.AddonPluginWorkspace" />
+    </application>
+
+</manifest>

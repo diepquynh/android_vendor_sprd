@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/app_name">
+    <PreferenceCategory android:key="apct_settings_category"
+            android:title="@string/apct_settings_category">
+
+        <PreferenceScreen android:key="apct_settings"
+                android:title="@string/apct_settings" 
+                android:summary="@string/apct_settings_summary">
+            <intent
+                android:action="com.sprd.APCT.APCT_SETTINGS"
+                android:targetPackage="com.sprd.APCT"
+                android:targetClass="com.sprd.APCT.APCTSettings" />
+        </PreferenceScreen> 
+    </PreferenceCategory>
+
+    <PreferenceCategory android:key="base_performance_category"
+            android:title="@string/base_performance_category">
+
+        <CheckBoxPreference
+            android:key="chip_temp"
+            android:title="@string/chip_temp"
+            android:summary="@string/chip_temp_summary"/>
+
+        <CheckBoxPreference
+            android:key="app_launch_time"
+            android:title="@string/app_launch_time"
+            android:summary="@string/app_launch_time_summary"/>
+
+        <CheckBoxPreference
+            android:key="fps_disp"
+            android:title="@string/fps_disp"
+            android:summary="@string/fps_display_summary"/>
+
+        <CheckBoxPreference
+            android:key="meminfo_disp"
+            android:title="@string/meminfo_disp"
+            android:summary="@string/meminfo_display_summary"/>
+
+        <CheckBoxPreference
+            android:key="pwron_time"
+            android:title="@string/pwron_time"
+            android:summary="@string/power_on_time_summary"/>
+
+        <CheckBoxPreference
+            android:key="net_search_time"
+            android:title="@string/net_search_time"
+            android:summary="@string/network_search_time_summary"/>
+
+        <CheckBoxPreference
+            android:key="camera_init_time"
+            android:title="@string/camera_init_time"
+            android:summary="@string/cam_init_time_summary"/>
+
+        <CheckBoxPreference
+            android:key="enable_power_off_time"
+            android:title="@string/poweroff_time"
+            android:summary="@string/power_off_time_summary"/>
+            
+        <CheckBoxPreference
+            android:key="charge_time"
+            android:title="@string/charge_time"
+            android:summary="@string/charge_time_summary"/>
+
+        <CheckBoxPreference
+            android:key="return_to_idle_time"
+            android:title="@string/return_to_idle_time"
+            android:summary="@string/home_to_idle_time_summary"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:key="deep_performance_category"
+            android:title="@string/deep_performance_category">
+        <CheckBoxPreference
+            android:key="app_data"
+            android:title="@string/app_data"
+            android:summary="@string/app_launch_detail_summary"/>
+
+        <CheckBoxPreference
+            android:key="boot_data"
+            android:title="@string/boot_data"
+            android:summary="@string/boot_data_detail_summary"/>
+
+        <CheckBoxPreference
+            android:key="top_recorder"
+            android:title="@string/top_recorder"
+            android:summary="@string/top_recorder_summary"/>
+
+        <CheckBoxPreference
+            android:key="procrank_recorder"
+            android:title="@string/procrank_recorder"
+            android:summary="@string/procrank_recorder_summary"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:key="system_performance_category"
+            android:title="@string/system_performance_category">
+
+        <PreferenceScreen android:key="tp_rate"
+                android:title="@string/tp_rate" 
+                android:summary="@string/tp_rate_summary">
+            <intent
+                android:action="com.sprd.APCT.TP_RATE"
+                android:targetPackage="com.sprd.APCT"
+                android:targetClass="com.sprd.APCT.APCTTpRate" />
+        </PreferenceScreen>                
+                
+        <PreferenceScreen android:key="sensor_rate"
+                android:title="@string/sensor_rate"
+                android:summary="@string/sensor_rate_summary" >
+            <intent
+                android:action="com.sprd.APCT.SENSOR_RATE"
+                android:targetPackage="com.sprd.APCT"
+                android:targetClass="com.sprd.APCT.APCTSensorRate" />
+        </PreferenceScreen>                
+
+                
+        <PreferenceScreen android:key="ram_throughput"
+                android:title="@string/ram_throughput"
+                android:summary="@string/ram_throughput_summary">
+            <intent
+                android:action="com.sprd.APCT.RAM_THROUGHPUT"
+                android:targetPackage="com.sprd.APCT"
+                android:targetClass="com.sprd.APCT.APCTRam" />
+        </PreferenceScreen>                
+
+                
+        <PreferenceScreen android:key="rom_wr_speed"
+                android:title="@string/rom_wr_speed"
+                android:summary="@string/rom_wr_speed_summary">
+            <intent
+                android:action="com.sprd.APCT.ROM_SPEED"
+                android:targetPackage="com.sprd.APCT"
+                android:targetClass="com.sprd.APCT.APCTRom" />
+        </PreferenceScreen>                
+
+                
+        <PreferenceScreen android:key="realtime_top"
+                android:title="@string/realtime_top" 
+                android:summary="@string/realtime_top_summary">
+            <intent
+                android:action="com.sprd.APCT.TOP"
+                android:targetPackage="com.sprd.APCT"
+                android:targetClass="com.sprd.APCT.APCTTop" />
+        </PreferenceScreen>                
+
+                
+        <PreferenceScreen android:key="procrank_result"
+                android:title="@string/procrank_result" 
+                android:summary="@string/procrank_result_summary">
+            <intent
+                android:action="com.sprd.APCT.PROCRANK"
+                android:targetPackage="com.sprd.APCT"
+                android:targetClass="com.sprd.APCT.APCTProcrank" />
+        </PreferenceScreen>                
+
+                
+        <PreferenceScreen android:key="processinfo"
+                android:title="@string/processinfo" 
+                android:summary="@string/processinfo_summary">
+            <intent
+                android:action="com.sprd.APCT.PS_INFO"
+                android:targetPackage="com.sprd.APCT"
+                android:targetClass="com.sprd.APCT.APCTPsinfo" />
+        </PreferenceScreen>                
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MainActivity的布局文件 -->
+<LinearLayout
+	android:id="@+id/pagelayout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/main_background"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+		<LinearLayout
+			android:id="@+id/widget35"
+			android:layout_width="fill_parent"
+			android:layout_height="50dp"
+			android:background="@drawable/title_background"
+			>
+			<RelativeLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+			<TextView
+				android:id="@+id/tvTitle"
+				android:layout_width="wrap_content"
+				android:layout_height="50dp"
+				android:text="@string/mynote"
+				android:textSize="20sp"
+				android:gravity="center_vertical|left"
+				android:layout_alignParentLeft="true"
+				android:paddingLeft="8px"
+				/>
+			<ImageButton
+				android:id="@+id/imageButton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical|right"
+				android:layout_alignParentRight="true"
+				/>
+			</RelativeLayout>
+		</LinearLayout>
+		<ListView
+			android:id="@+id/page_list"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:cacheColorHint="#00000000"
+			android:layout_weight="5" 
+			/>
+
+<LinearLayout
+	android:id="@+id/delete_softkey"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:layout_gravity="bottom" 
+
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+	<Button
+		android:id="@+id/Delete_OK"
+		android:layout_width="106dip"
+		android:layout_height="wrap_content"
+
+		android:textSize="18sp"
+		android:textStyle="bold"
+		android:textColor="@color/black"
+        android:gravity="center"
+		android:layout_gravity="bottom" 
+        android:layout_centerVertical="true"
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+
+		/>
+	<Button
+		android:id="@+id/Select_All"
+		android:layout_width="106dip"
+		android:layout_height="wrap_content"
+		
+		android:textSize="18sp"
+		android:textStyle="bold"
+		android:textColor="@color/black"
+        android:gravity="center"
+		android:layout_gravity="bottom" 
+        android:layout_centerVertical="true"
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+
+		/>
+	<Button
+		android:id="@+id/Delete_CANCEL"		
+		android:layout_width="106dip"
+		android:layout_height="wrap_content"
+
+		android:textSize="18sp"
+		android:textStyle="bold"
+		android:textColor="@color/black"
+        android:gravity="center"
+		android:layout_gravity="bottom" 
+        android:layout_centerVertical="true"
+
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+		/>
+	
+</LinearLayout>
+
+
+<!-- cacheColorHint 设置使得listview滑动时背景为透明，默认背景色为黑色 -->
+</LinearLayout>

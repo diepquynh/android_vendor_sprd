@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="plugin.sprdst.contactsblacklist"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:sharedUserId="sprd.plugin">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+    />
+
+    <application>
+        <meta-data
+            android:name="isFeatureAddon"
+            android:value="true" />
+        <meta-data
+            android:name="targetPackages"
+            android:value="com.android.contacts" />
+        <!-- TODO considered to use the resource to parse those metas -->
+        <meta-data
+            android:name="featureClassNames"
+            android:value="plugin.sprdst.contactsblacklist.AddonBlackListUtils" />
+    </application>
+
+</manifest>

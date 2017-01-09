@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 显示记录时ListView中每一行的布局方式 -->
+<LinearLayout
+	android:id="@+id/listview_linearlayout"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+	<TextView
+		android:id="@+id/tv_left"
+		android:background="@color/transparent"
+		android:layout_width="180dp"
+		android:layout_height="wrap_content"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		android:paddingTop="4dp"
+		android:paddingLeft="6dp"
+		android:maxLines="4"
+		android:lines="2"
+		android:minHeight="50dp"
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+		android:textColor="#000000"
+		android:textColorHighlight="#008000" 
+		/>
+	<ImageView
+		android:id="@+id/clock_image"  
+		android:layout_width="16dp"  
+		android:layout_height="16dp"  
+		android:layout_centerInParent="true"  
+
+		android:layout_gravity="center_vertical"
+		/>  
+
+    <FrameLayout
+        android:layout_width="fill_parent"  
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|right"
+		>
+		  
+	<TextView
+		android:id="@+id/tv_right"
+		android:background="@color/transparent"
+		android:layout_width="120dp"
+		android:layout_height="wrap_content"
+		android:textSize="15dp"
+		
+		android:paddingLeft="5dp"
+		android:paddingRight="5dp"
+		android:paddingBottom="3dp"
+		android:layout_gravity="center_vertical|right"
+		/>
+		
+	<CheckBox
+		android:id="@+id/check"  
+		android:layout_width="fill_parent"  
+		android:layout_height="36dip"  
+		android:layout_marginLeft="24dip"
+	
+		android:layout_centerInParent="true"  
+		android:layout_gravity="center"
+
+		android:checked="false"  
+        android:focusable="false"    
+        android:focusableInTouchMode="false"    
+        android:clickable="false"           
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+		/>  
+		
+		</FrameLayout>
+		
+</LinearLayout>
+<!--  -->

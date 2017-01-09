@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--SPRD: Drm feature start @{ -->
+    <string name="drm_consume_title">消費DRM權限</string>
+    <string name="drm_consume_hint">您的操作將會消費DRM權限</string>
+    <string name="drm_info">保護信息</string>
+    <string name="file_name">文件名</string>
+    <string name="rights_validity">數字版權</string>
+    <string name="rights_status">保護狀態</string>
+    <string name="start_time">開始</string>
+    <string name="end_time">結束</string>
+    <string name="expiration_time">到期時間</string>
+    <string name="remain_times">剩餘使用次數</string>
+    <string name="invalid_rights">本文件沒有可用的證書</string>
+    <string name="choose_drm_alert">Drm文件不可用，請選擇其他文件</string>
+    <string name="rights_validity_valid">有效</string>
+    <string name="rights_validity_invalid">無效</string>
+    <string name="rights_status_share">允許被轉發</string>
+    <string name="rights_status_not_share">不允許被轉發</string>
+    <string name="drm_rights_no_limit">無限制</string>
+    <string name="drm_rights_unknown">未知</string>
+    <string name="drm_rights_inactive">版權未激活</string>
+    <string name="drm_consumed">您的操作已經消費DRM權限</string>
+    <string name="drm_unit_minutes">秒</string>
+    <string name="drm_file_invalid">文件已過期</string>
+    <!--SPRD: Drm feature end @} -->
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright 2009 - 2013 Broadcom Corporation
+**
+** This program is the proprietary software of Broadcom Corporation and/or its
+** licensors, and may only be used, duplicated, modified or distributed
+** pursuant to the terms and conditions of a separate, written license
+** agreement executed between you and Broadcom (an "Authorized License").
+** Except as set forth in an Authorized License, Broadcom grants no license
+** (express or implied), right to use, or waiver of any kind with respect to
+** the Software, and Broadcom expressly reserves all rights in and to the
+** Software and all intellectual property rights therein.
+** IF YOU HAVE NO AUTHORIZED LICENSE, THEN YOU HAVE NO RIGHT TO USE THIS
+** SOFTWARE IN ANY WAY, AND SHOULD IMMEDIATELY NOTIFY BROADCOM AND DISCONTINUE
+** ALL USE OF THE SOFTWARE.
+**
+** Except as expressly set forth in the Authorized License,
+**
+** 1.     This program, including its structure, sequence and organization,
+**        constitutes the valuable trade secrets of Broadcom, and you shall
+**        use all reasonable efforts to protect the confidentiality thereof,
+**        and to use this information only in connection with your use of
+**        Broadcom integrated circuit products.
+**
+** 2.     TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SOFTWARE IS PROVIDED
+**        "AS IS" AND WITH ALL FAULTS AND BROADCOM MAKES NO PROMISES,
+**        REPRESENTATIONS OR WARRANTIES, EITHER EXPRESS, IMPLIED, STATUTORY,
+**        OR OTHERWISE, WITH RESPECT TO THE SOFTWARE.  BROADCOM SPECIFICALLY
+**        DISCLAIMS ANY AND ALL IMPLIED WARRANTIES OF TITLE, MERCHANTABILITY,
+**        NONINFRINGEMENT, FITNESS FOR A PARTICULAR PURPOSE, LACK OF VIRUSES,
+**        ACCURACY OR COMPLETENESS, QUIET ENJOYMENT, QUIET POSSESSION OR
+**        CORRESPONDENCE TO DESCRIPTION. YOU ASSUME THE ENTIRE RISK ARISING OUT
+**        OF USE OR PERFORMANCE OF THE SOFTWARE.
+**
+** 3.     TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL BROADCOM OR
+**        ITS LICENSORS BE LIABLE FOR
+**        (i)   CONSEQUENTIAL, INCIDENTAL, SPECIAL, INDIRECT, OR EXEMPLARY
+**              DAMAGES WHATSOEVER ARISING OUT OF OR IN ANY WAY RELATING TO
+**              YOUR USE OF OR INABILITY TO USE THE SOFTWARE EVEN IF BROADCOM
+**              HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES; OR
+**        (ii)  ANY AMOUNT IN EXCESS OF THE AMOUNT ACTUALLY PAID FOR THE
+**              SOFTWARE ITSELF OR U.S. $1, WHICHEVER IS GREATER. THESE
+**              LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF
+**              ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
+*/
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+       <CheckBoxPreference
+    	android:key="fm_pref_enabled" 
+        android:title="@string/pref_menu_text_radio_enabled" 
+        android:summary="@string/pref_menu_text_radio_enabled_summary"                
+        android:defaultValue="false"/>
+    -->
+    <com.broadcom.bt.app.fm.rx.CyclingPreference
+        android:defaultValue="0"
+        android:dialogTitle="@string/pref_menu_text_audio_mode_dialog_title"
+        android:entries="@array/fm_audio_modes"
+        android:entryValues="@array/fm_audio_modes_vals"
+        android:key="fm_pref_audio_mode"
+        android:summary="@string/pref_menu_text_audio_mode_summary"
+        android:title="@string/pref_menu_text_audio_mode" />
+    <com.broadcom.bt.app.fm.rx.CyclingPreference
+        android:defaultValue="2"
+        android:dialogTitle="@string/pref_menu_text_audio_path_dialog_title"
+        android:entries="@array/fm_audio_path"
+        android:entryValues="@array/fm_audio_path_vals"
+        android:key="fm_pref_audio_path"
+        android:summary="@string/pref_menu_text_audio_path_summary"
+        android:title="@string/pref_menu_text_audio_path" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:dialogTitle="@string/pref_menu_text_rds_enabled_dialog_title"
+        android:entries="@array/fm_rds_modes"
+        android:entryValues="@array/fm_rds_modes_vals"
+        android:key="fm_pref_rds_enabled_2"
+        android:summary="@string/pref_menu_text_rds_enabled_summary"
+        android:title="@string/pref_menu_text_rds_enabled" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:dependency="fm_pref_rds_enabled_2"
+        android:key="fm_pref_af_enabled"
+        android:summary="@string/pref_menu_text_af_enabled_summary"
+        android:title="@string/pref_menu_text_af_enabled" />
+
+    <PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:summary="@string/pref_menu_text_advanced_settings_summary"
+        android:title="@string/pref_menu_text_advanced_settings" >
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/pref_menu_text_world_region_dialog_title"
+            android:entries="@array/fm_world_regions"
+            android:entryValues="@array/fm_world_regions_vals"
+            android:key="fm_pref_world_region"
+            android:summary="@string/pref_menu_text_world_region_summary"
+            android:title="@string/pref_menu_text_world_region" />
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/pref_menu_text_scan_step_dialog_title"
+            android:entries="@array/fm_scan_steps"
+            android:entryValues="@array/fm_scan_steps_vals"
+            android:key="fm_pref_scan_step"
+            android:summary="@string/pref_menu_text_scan_step_summary"
+            android:title="@string/pref_menu_text_scan_step" />
+        <!-- Removed the Deemphasis option from the Fm Radio Settings, as the deemphasis time value will get save based on World region -->
+        <!--
+             <ListPreference
+		    android:key="fm_pref_deemphasis"
+		    android:defaultValue="64"
+		    android:title="@string/pref_menu_text_deemphasis"
+		    android:summary="@string/pref_menu_text_deemphasis_summary"
+		    android:entries="@array/fm_deemphasis_times"
+		    android:entryValues="@array/fm_deemphasis_times_vals"
+		    android:dialogTitle="@string/pref_menu_text_deemphasis_dialog_title" />
+        -->
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="fm_pref_live_polling"
+            android:summary="@string/pref_menu_text_live_polling_summary"
+            android:title="@string/pref_menu_text_live_polling" />
+
+        <ListPreference
+            android:defaultValue="2000"
+            android:dialogTitle="@string/pref_menu_text_live_poll_int_dialog_title"
+            android:entries="@array/fm_live_polling_intervals"
+            android:entryValues="@array/fm_live_polling_intervals_vals"
+            android:key="fm_pref_live_polling_interval"
+            android:summary="@string/pref_menu_text_live_poll_int_summary"
+            android:title="@string/pref_menu_text_live_poll_int" />
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="@string/pref_menu_text_nfl_mode_dialog_title"
+            android:entries="@array/fm_nfl_modes"
+            android:entryValues="@array/fm_nfl_modes_vals"
+            android:key="fm_pref_nfl_mode"
+            android:summary="@string/pref_menu_text_nfl_mode_summary"
+            android:title="@string/pref_menu_text_nfl_mode" />
+
+        <com.broadcom.bt.app.fm.FmSnrThresholdBar
+            android:defaultValue="0"
+            android:dialogTitle="@string/pref_menu_set_snr_thres_value"
+            android:key="fm_pref_snr_thres"
+            android:singleLine="true"
+            android:title="@string/pref_menu_set_snr_thres_setting" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

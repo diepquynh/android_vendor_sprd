@@ -1,0 +1,134 @@
+diff --git a/common/apps/dm/src/com/spreadtrum/dm/DmService.java b/common/apps/dm/src/com/spreadtrum/dm/DmService.java
+index d6d5ac8..ba453d0 100755
+--- a/common/apps/dm/src/com/spreadtrum/dm/DmService.java
++++ b/common/apps/dm/src/com/spreadtrum/dm/DmService.java
+@@ -62,7 +62,8 @@ public class DmService extends Service {
+     private static boolean mSelfRegSwitch = true; // true: open self registe
+                                                   // function false:close self
+                                                   // registe function
+-
++    private Object mRunning = null;
++    private boolean mVdmcReady= true;												 
+     private static final String PREFERENCE_NAME = "LastImsi";
+ 
+     private static int MODE = MODE_PRIVATE;
+@@ -311,6 +312,7 @@ public class DmService extends Service {
+ 
+     @Override
+     public void onCreate() {
++        mRunning = new Object();
+         mPhoneCnt = TelephonyManager.getPhoneCount();
+         mSmsReady = new boolean[mPhoneCnt];
+         mInService = new boolean[mPhoneCnt];
+@@ -406,6 +408,7 @@ public class DmService extends Service {
+         Log.d(TAG, "onDestroy: DmService is killed!");
+         mInstance = null;
+         mContext = null;
++	mRunning = null;
+ 	mDmNativeInterface = null;
+     }
+ 
+@@ -413,7 +416,64 @@ public class DmService extends Service {
+     public IBinder onBind(Intent intent) {
+         return null;
+     }
++   public void VDMCNotifyExit()
++   {
++       synchronized(mRunning)
++   	{
++   	mVdmcReady = true;
++	mRunning.notifyAll();
++   	}
++   }
++   
++   public int onStartCommand(Intent intent, int flags, int startId) {
++        Log.d(TAG, "onStartCommand: intent = " + intent + ", startId = " + startId);
++        mStartid = startId;
++        if (intent == null) {
++            return START_STICKY;
++        }
++        if (intent.getAction().equals("com.android.dm.SelfReg")) {
++            Log.d(TAG, "onStartCommand: com.android.dm.SelfReg");
++            if (getSelfRegSwitch()) {
++                setIsHaveSendSelfRegMsg(mContext, false);
++                for(int phoneId = 0; phoneId < mPhoneCnt; phoneId++){
++//                    mTelephonyManager[phoneId].listen(mPhoneStateListener[phoneId],
++//                            PhoneStateListener.LISTEN_SERVICE_STATE);
++                }
++            }
++        } else if (intent.getAction().equals("com.android.dm.NIA")) {
++            Log.d(TAG, "onStartCommand: com.android.dm.NIA");
++		if ( isSelfRegOk())
++		{
++	           initConnectParam(); // insure dm connect network param is properly
++	                                // set
++	            byte[] body = intent.getByteArrayExtra("msg_body");
++	            String origin = intent.getStringExtra("msg_org");
+ 
++	            Log.d(TAG, "onStartcommand: mInstance = " + mInstance);
++	            Log.d(TAG, "onStartcommand: mContext = " + mContext);
++	            Log.d(TAG, "onStartcommand: this = " + this);
++		    synchronized(mRunning)
++		    	{
++		    	if (mVdmcReady == false)
++		    		{
++		    		try{
++		    		mRunning.wait(120000);
++		    		 }catch(InterruptedException ex)
++		    		 	{
++		    		 	Log.d(TAG, "onStartcommand: mRunning.wait exception ");
++		    		 	}
++		    		}
++			 mVdmcReady = false;
++		    	}
++	            Vdmc.getInstance().startVDM(mContext, Vdmc.SessionType.DM_SESSION_SERVER, body, origin);
++		}
++		else
++			Log.d(TAG, "onStartcommand: selfregister not ok");
++        }
++   	
++   	return START_STICKY;
++   	}
++/*	
+     @Deprecated
+     public void onStart(Intent intent, int startId) {
+         Log.d(TAG, "onStart: intent = " + intent + ", startId = " + startId);
+@@ -431,13 +491,7 @@ public class DmService extends Service {
+ //                    mTelephonyManager[phoneId].listen(mPhoneStateListener[phoneId],
+ //                            PhoneStateListener.LISTEN_SERVICE_STATE);
+                 }
+-                /*
+-                 * if (isNeedSelfReg()) { setIsHaveSendSelfRegMsg(mContext,
+-                 * false); mTelephonyManager.listen(mPhoneStateListener,
+-                 * PhoneStateListener.LISTEN_SERVICE_STATE); } else {
+-                 * setSelfRegState(mContext, true); //mContext.stopService(new
+-                 * Intent("com.android.dm.SelfReg")); }
+-                 */
++ 
+             }
+         } else if (intent.getAction().equals("com.android.dm.NIA")) {
+             Log.d(TAG, "onStart: com.android.dm.NIA");
+@@ -458,7 +512,7 @@ public class DmService extends Service {
+ 			Log.d(TAG, "onStart: selfregister not ok");
+         }
+     }
+-
++*/
+     public static DmService getInstance() {
+         if (null == mInstance) {
+             mInstance = new DmService();
+diff --git a/common/apps/dm/src/com/spreadtrum/dm/vdmc/Vdmc.java b/common/apps/dm/src/com/spreadtrum/dm/vdmc/Vdmc.java
+index 51f8b13..766b1f2 100755
+--- a/common/apps/dm/src/com/spreadtrum/dm/vdmc/Vdmc.java
++++ b/common/apps/dm/src/com/spreadtrum/dm/vdmc/Vdmc.java
+@@ -395,7 +395,9 @@ public class Vdmc {
+             Log.d(TAG, "stopVDM : release wake lock ");
+             mWakeLock.release();
+         }
+-	System.gc();		
++	System.gc();	
++	DmService.getInstance().VDMCNotifyExit();
++		
+ 	//DmService.getInstance().clearDmNativeInterface();
+ 	//DmService.getInstance().getDmNativeInterface();
+     }

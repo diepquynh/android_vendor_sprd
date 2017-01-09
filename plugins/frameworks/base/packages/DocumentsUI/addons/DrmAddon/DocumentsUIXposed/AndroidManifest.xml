@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="addon.sprd.documentsui.plugindrm"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+    />
+
+    <application>
+        <meta-data
+            android:name="isFeatureAddon"
+            android:value="true" />
+        <meta-data
+            android:name="targetPackages"
+            android:value="com.android.documentsui" />
+        <!-- TODO considered to use the resource to parse those metas -->
+        <meta-data
+            android:name="featureClassNames"
+            android:value="addon.sprd.documentsui.plugindrm.AddOnDocumentsUIPlugInDrm" />
+    </application>
+
+</manifest>

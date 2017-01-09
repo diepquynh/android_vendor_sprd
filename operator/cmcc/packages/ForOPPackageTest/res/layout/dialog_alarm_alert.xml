@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 闹铃起闹时弹出对话框的布局文件 -->
+<RelativeLayout
+	android:id="@+id/dialog_alarmAlert"
+	android:layout_width="fill_parent"
+	android:layout_height="100dp"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+	<TextView
+		android:id="@+id/tv_note_content"
+		android:layout_width="fill_parent"
+		android:layout_height="50dp"
+		android:textSize="20sp"	
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:textColor="@color/white"
+		
+		/>
+	 <Button
+		android:id="@+id/cancel_alarm"
+		android:layout_width="240dp"
+		android:layout_height="40dp"
+		android:text="@string/Cancel"
+		android:gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:layout_centerHorizontal="true"
+        	android:layout_alignParentBottom="true"
+		android:layout_gravity="bottom"
+		/>
+
+</RelativeLayout>

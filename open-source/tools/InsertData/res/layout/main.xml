@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal" android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	 
+	 	<LinearLayout 
+	 		android:layout_width="77dip"
+	 		android:layout_height="77dip"
+	 		android:gravity="center">
+		    <ImageView android:id="@+id/img"      
+		      android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="5px"/>
+	    </LinearLayout>
+	    <LinearLayout android:orientation="vertical"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:gravity="center_vertical"
+	        android:layout_marginLeft="5dip">
+	 
+	        <TextView android:id="@+id/title"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#FFFFFFFF"
+	            android:textSize="22px"
+	            android:layout_gravity="center" />
+	        <TextView android:id="@+id/info"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#FFFFFFFF"
+	            android:textSize="13px"
+	            android:layout_gravity="center" />
+	 
+	    </LinearLayout>
+ 
+	</LinearLayout>
+<!--  
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000">
+	    <TextView 
+		        android:id="@+id/call_title" 
+		        android:layout_width="80dip"
+	            android:layout_height="40dip"
+	            android:selectAllOnFocus="true" 
+		        android:text="@string/call_title"	
+		        android:visibility="gone"/>   
+		<TextView 
+		    android:id="@+id/sms_title" 
+		    android:layout_width="80dip"
+			android:layout_height="40dip"       
+		    android:text="@string/sms_title"
+		    android:visibility="gone"/>   
+	   	 <TextView 
+		        android:id="@+id/contacts_title" 
+		        android:layout_width="80dip"
+	            android:layout_height="40dip"       
+		        android:text="@string/contacts_title"
+		        android:visibility="gone"/>   
+	</LinearLayout>-->

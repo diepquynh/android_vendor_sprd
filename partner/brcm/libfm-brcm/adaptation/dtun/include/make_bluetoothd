@@ -1,0 +1,57 @@
+#!/bin/bash
+
+ANDROID_BASE=android-2.3_r1
+
+# Fetch required AOSP source
+echo "Fetching bionic ..."
+git clone -q git://android.git.kernel.org/platform/bionic bionic
+cd bionic; git checkout -q $ANDROID_BASE; cd - &> /dev/null
+
+echo "Fetching build ..."
+git clone -q git://android.git.kernel.org/platform/build build
+cd build; git checkout -q $ANDROID_BASE; git am ../patches/build.patch &> /dev/null; cd - &> /dev/null
+
+echo "Fetching external/apache-http ..."
+git clone -q git://android.git.kernel.org/platform/external/apache-http external/apache-http
+cd external/apache-http; git checkout -q $ANDROID_BASE; cd - &> /dev/null
+
+echo "Fetching external/bluetooth/bluez ..."
+git clone -q git://android.git.kernel.org/platform/external/bluetooth/bluez external/bluetooth/bluez
+cd external/bluetooth/bluez; git checkout -q $ANDROID_BASE; git am ../../../patches/bluez.patch &> /dev/null; cd - &> /dev/null
+
+echo "Fetching external/bluetooth/glib ..."
+git clone -q git://android.git.kernel.org/platform/external/bluetooth/glib external/bluetooth/glib
+cd external/bluetooth/glib; git checkout -q $ANDROID_BASE; cd - &> /dev/null
+
+echo "Fetching external/dbus ..."
+git clone -q git://android.git.kernel.org/platform/external/dbus external/dbus
+cd external/dbus; git checkout -q $ANDROID_BASE; cd - &> /dev/null
+
+echo "Fetching external/elfcopy ..."
+git clone -q git://android.git.kernel.org/platform/external/elfcopy external/elfcopy
+cd external/elfcopy; git checkout -q $ANDROID_BASE; cd - &> /dev/null
+
+echo "Fetching external/elfutils ..."
+git clone -q git://android.git.kernel.org/platform/external/elfutils external/elfutils
+cd external/elfutils; git checkout -q $ANDROID_BASE; cd - &> /dev/null
+
+echo "Fetching external/svox ..."
+git clone -q git://android.git.kernel.org/platform/external/svox external/svox
+cd external/svox; git checkout -q $ANDROID_BASE; cd - &> /dev/null
+
+echo "Fetching frameworks/base ..."
+git clone -q git://android.git.kernel.org/platform/frameworks/base frameworks/base
+cd frameworks/base; git checkout -q $ANDROID_BASE; cd - &> /dev/null
+
+echo "Fetching prebuilt toolchain binaries ..."
+git clone -q git://android.git.kernel.org/platform/prebuilt prebuilt
+cd prebuilt; git checkout -q $ANDROID_BASE; cd - &> /dev/null
+
+echo "Fetching system/core ..."
+git clone -q git://android.git.kernel.org/platform/system/core system/core
+cd system/core; git checkout -q $ANDROID_BASE; cd - &> /dev/null
+
+# Build bluetoothd
+echo "Building bluetoothd ..."
+make bluetoothd
+echo "Building bluetoothd done"; echo

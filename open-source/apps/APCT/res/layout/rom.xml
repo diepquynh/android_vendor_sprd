@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:title="@string/rom_wr_speed"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_rw_dir"
+        android:layout_marginBottom="30px"
+        android:layout_width="150px"
+        android:layout_height="wrap_content"
+        android:text="@string/dir_txt"
+        android:textColor="@android:color/black" />
+
+    <Spinner
+        android:id="@+id/spinner_rw_dir"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txt_rw_dir"
+        android:layout_marginLeft="10px"
+        android:layout_alignTop="@id/txt_rw_dir"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txt_rw_size"
+        android:layout_below="@id/txt_rw_dir"
+        android:layout_marginBottom="50px"
+        android:layout_width="150px"
+        android:layout_height="wrap_content"
+        android:text="@string/file_size_txt"
+        android:textColor="@android:color/black"  />
+
+    <EditText
+        android:id="@+id/et_rw_size"
+        android:layout_toRightOf="@id/txt_rw_size"
+        android:layout_marginLeft="10px"
+        android:layout_alignTop="@id/txt_rw_size"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="@android:color/black" />
+
+   <Button
+        android:id="@+id/StartBn"
+        android:layout_below="@id/txt_rw_size"
+        android:layout_marginBottom="20px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_execute"/>
+
+    <TextView
+        android:id="@+id/txt_rw_result"
+        android:layout_below="@id/StartBn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black" />
+</RelativeLayout>

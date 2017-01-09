@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background ="#afb4db"
+        android:gravity="top" >
+	 <FrameLayout
+            android:id="@+id/frameLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+ 
+            <com.spreadst.drag.PreScrollLayout     
+	                android:id="@+id/ScrollLayout"    
+	                android:layout_width="fill_parent"    
+	                android:layout_height="fill_parent"/>  
+
+	 </FrameLayout>   
+
+
+ </RelativeLayout>

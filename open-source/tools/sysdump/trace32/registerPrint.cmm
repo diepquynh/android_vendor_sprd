@@ -1,0 +1,428 @@
+;print the register value
+
+local &register_name
+entry &register_name
+
+if ("&board"=="sc8825")
+(
+	if ("&register_name"=="ahb")
+		(
+			data.print %Binary.Long &AHB_BASE+0x0200   \
+						&AHB_BASE+0x1200   \
+						&AHB_BASE+0x2200   \
+						&AHB_BASE+0x0204   \
+						&AHB_BASE+0x1204   \
+						&AHB_BASE+0x2200   \
+						&AHB_BASE+0x0208   \
+						&AHB_BASE+0x1208   \
+						&AHB_BASE+0x2208   \
+						&AHB_BASE+0x020c   \
+						&AHB_BASE+0x120c   \
+						&AHB_BASE+0x2208   \
+						&AHB_BASE+0x0210   \
+						&AHB_BASE+0x1210   \
+						&AHB_BASE+0x2210   \
+						&AHB_BASE+0x0214   \
+						&AHB_BASE+0x1214   \
+						&AHB_BASE+0x2214   \
+						&AHB_BASE+0x0218   \
+						&AHB_BASE+0x1218   \
+						&AHB_BASE+0x2218   \
+						&AHB_BASE+0x021C   \
+						&AHB_BASE+0x121C   \
+						&AHB_BASE+0x221C   \
+						&AHB_BASE+0x0220   \
+						&AHB_BASE+0x1220   \
+						&AHB_BASE+0x2220   \
+						&AHB_BASE+0x0224   \
+						&AHB_BASE+0x1224   \
+						&AHB_BASE+0x2224   \
+						&AHB_BASE+0x0228   \
+						&AHB_BASE+0x1228   \
+						&AHB_BASE+0x2228   \
+						&AHB_BASE+0x022C   \
+						&AHB_BASE+0x122C   \
+						&AHB_BASE+0x222C   \
+						&AHB_BASE+0x0230   \
+						&AHB_BASE+0x1230   \
+						&AHB_BASE+0x2230   \
+						&AHB_BASE+0x0234   \
+						&AHB_BASE+0x0238   \
+						&AHB_BASE+0x1238   \
+						&AHB_BASE+0x2238   \
+						&AHB_BASE+0x023C   \
+						&AHB_BASE+0x123C   \
+						&AHB_BASE+0x223C   \
+						&AHB_BASE+0x0240   \
+						&AHB_BASE+0x1240   \
+						&AHB_BASE+0x2240   \
+						&AHB_BASE+0x0244   \
+						&AHB_BASE+0x1244   \
+						&AHB_BASE+0x2244   \
+						&AHB_BASE+0x0248   \
+						&AHB_BASE+0x1248   \
+						&AHB_BASE+0x2248   \
+						&AHB_BASE+0x024C   \
+						&AHB_BASE+0x124C   \
+						&AHB_BASE+0x224C   \
+						&AHB_BASE+0x0250   \
+						&AHB_BASE+0x1250   \
+						&AHB_BASE+0x2250   \
+						&AHB_BASE+0x0254   \
+						&AHB_BASE+0x1254   \
+						&AHB_BASE+0x2254   \
+						&AHB_BASE+0x0258   \
+						&AHB_BASE+0x1258   \
+						&AHB_BASE+0x2258   \
+						&AHB_BASE+0x025C   \
+						&AHB_BASE+0x125C   \
+						&AHB_BASE+0x225C   \
+						&AHB_BASE+0x0260   \
+						&AHB_BASE+0x0280   \
+						&AHB_BASE+0x1280   \
+						&AHB_BASE+0x2280   \
+						&AHB_BASE+0x0284   \
+						&AHB_BASE+0x1284   \
+						&AHB_BASE+0x2284   \
+						&AHB_BASE+0x0288   \
+						&AHB_BASE+0x1288   \
+						&AHB_BASE+0x2288   \
+						&AHB_BASE+0x028C   \
+						&AHB_BASE+0x128C   \
+						&AHB_BASE+0x228C   \
+						&AHB_BASE+0x0290   \
+						&AHB_BASE+0x1290   \
+						&AHB_BASE+0x2290   \
+						&AHB_BASE+0x02A0   \
+						&AHB_BASE+0x12A0   \
+						&AHB_BASE+0x22A0   \
+						&AHB_BASE+0x02A4   \
+						&AHB_BASE+0x12A4   \
+						&AHB_BASE+0x22A4   \
+						&AHB_BASE+0x02A4   \
+						&AHB_BASE+0x12A4   \
+						&AHB_BASE+0x22A4   \
+						&AHB_BASE+0x02A8   \
+						&AHB_BASE+0x12A8   \
+						&AHB_BASE+0x22A8   \
+						&AHB_BASE+0x02C0   \
+						&AHB_BASE+0x12C0   \
+						&AHB_BASE+0x22C0   \
+						&AHB_BASE+0x0300   \
+						&AHB_BASE+0x1300   \
+						&AHB_BASE+0x2300   \
+						&AHB_BASE+0x0304   \
+						&AHB_BASE+0x1304   \
+						&AHB_BASE+0x2304   \
+						&AHB_BASE+0x0308   \
+						&AHB_BASE+0x1308   \
+						&AHB_BASE+0x2308   \
+						&AHB_BASE+0x0308   \
+						&AHB_BASE+0x1308   \
+						&AHB_BASE+0x2308   \
+						&AHB_BASE+0x030C   \
+						&AHB_BASE+0x130C   \
+						&AHB_BASE+0x230C   \
+						&AHB_BASE+0x0310   \
+						&AHB_BASE+0x1310   \
+						&AHB_BASE+0x2310   \
+						&AHB_BASE+0x0310   \
+						&AHB_BASE+0x1310   \
+						&AHB_BASE+0x2310   \
+						&AHB_BASE+0x0314   \
+						&AHB_BASE+0x1314   \
+						&AHB_BASE+0x2314   \
+						&AHB_BASE+0x0318   \
+						&AHB_BASE+0x1318   \
+						&AHB_BASE+0x2318   \
+						&AHB_BASE+0x031C   \
+						&AHB_BASE+0x131C   \
+						&AHB_BASE+0x231C   \
+						&AHB_BASE+0x0320   \
+						&AHB_BASE+0x1320   \
+						&AHB_BASE+0x2320   \
+						&AHB_BASE+0x0324   \
+						&AHB_BASE+0x1324   \
+						&AHB_BASE+0x2324   \
+						&AHB_BASE+0x0328   \
+						&AHB_BASE+0x1328   \
+						&AHB_BASE+0x2328   \
+						&AHB_BASE+0x032C   \
+						&AHB_BASE+0x132C   \
+						&AHB_BASE+0x232C   \
+						&AHB_BASE+0x0330   \
+						&AHB_BASE+0x1330   \
+						&AHB_BASE+0x2330   \
+						&AHB_BASE+0x0334   \
+						&AHB_BASE+0x1334   \
+						&AHB_BASE+0x2334   \
+						&AHB_BASE+0x0340   \
+						&AHB_BASE+0x1340   \
+						&AHB_BASE+0x2340   \
+						&AHB_BASE+0x0344   \
+						&AHB_BASE+0x1344   \
+						&AHB_BASE+0x2344   \
+						&AHB_BASE+0x0350   \
+						&AHB_BASE+0x1350   \
+						&AHB_BASE+0x2350   \
+						&AHB_BASE+0x0354   \
+						&AHB_BASE+0x1354   \
+						&AHB_BASE+0x2354   \
+						&AHB_BASE+0x0360   \
+						&AHB_BASE+0x1360   \
+						&AHB_BASE+0x2360   \
+						&AHB_BASE+0x0364   \
+						&AHB_BASE+0x1364   \
+						&AHB_BASE+0x2364   \
+						&AHB_BASE+0x0370   \
+						&AHB_BASE+0x1370   \
+						&AHB_BASE+0x2370   \
+						&AHB_BASE+0x0374   \
+						&AHB_BASE+0x1374   \
+						&AHB_BASE+0x2374   \
+						&AHB_BASE+0x0378   \
+						&AHB_BASE+0x1378   \
+						&AHB_BASE+0x2378   \
+						&AHB_BASE+0x037C   \
+						&AHB_BASE+0x137C   \
+						&AHB_BASE+0x237C   \
+						&AHB_BASE+0x0380   \
+						&AHB_BASE+0x1380   \
+						&AHB_BASE+0x2380   \
+						&AHB_BASE+0x0384   \
+						&AHB_BASE+0x1384   \
+						&AHB_BASE+0x2384   \
+						&AHB_BASE+0x03FC
+
+		)
+	else if ("&register_name"=="intc0")
+		(
+			data.print %Binary.Long  &INTC0_BASE+0x0000   \
+						&INTC0_BASE+0x0004   \
+						&INTC0_BASE+0x0008   \
+						&INTC0_BASE+0x000C   \
+						&INTC0_BASE+0x0010   \
+						&INTC0_BASE+0x0014   \
+						&INTC0_BASE+0x0018   \
+						&INTC0_BASE+0x0020   \
+						&INTC0_BASE+0x0024   \
+						&INTC0_BASE+0x0028   \
+						&INTC0_BASE+0x002C   \
+						&INTC0_BASE+0x0030   \
+						&INTC0_BASE+0x0034   \
+						&INTC0_BASE+0x0038
+		)
+	else if ("&register_name"=="adi")
+		(
+			data.print %Binary.Long &ADI_BASE+0x0000   \
+						&ADI_BASE+0x0004   \
+						&ADI_BASE+0x0008   \
+						&ADI_BASE+0x000C   \
+						&ADI_BASE+0x0010   \
+						&ADI_BASE+0x0014   \
+						&ADI_BASE+0x0018   \
+						&ADI_BASE+0x0024   \
+						&ADI_BASE+0x0028   \
+						&ADI_BASE+0x002C   \
+						&ADI_BASE+0x0030   \
+						&ADI_BASE+0x0034
+
+		)
+	else if ("&register_name"=="gpio")
+		(
+			data.print %Binary.Long &GPIO_BASE+0x0000   \
+						&GPIO_BASE+0x0004   \
+						&GPIO_BASE+0x0008   \
+						&GPIO_BASE+0x000C   \
+						&GPIO_BASE+0x0010   \
+						&GPIO_BASE+0x0014   \
+						&GPIO_BASE+0x0018   \
+						&GPIO_BASE+0x001C   \
+						&GPIO_BASE+0x0020   \
+						&GPIO_BASE+0x0024   \
+						&GPIO_BASE+0x0028
+
+		)
+	else if ("&register_name"=="eic")
+		(
+			data.print %Binary.Long &EIC_BASE+0x0000   \
+						&EIC_BASE+0x0004   \
+						&EIC_BASE+0x0014   \
+						&EIC_BASE+0x0018   \
+						&EIC_BASE+0x001C   \
+						&EIC_BASE+0x0020   \
+						&EIC_BASE+0x0024   \
+						&EIC_BASE+0x0028   \
+						&EIC_BASE+0x0040   \
+						&EIC_BASE+0x0044   \
+						&EIC_BASE+0x0048   \
+						&EIC_BASE+0x004C   \
+						&EIC_BASE+0x0050   \
+						&EIC_BASE+0x0054   \
+						&EIC_BASE+0x0058   \
+						&EIC_BASE+0x005C
+	
+		)
+	else if ("&register_name"=="timer")
+		(
+			data.print %Binary.Long &GPTIMER_BASE+0x0000   \
+						&GPTIMER_BASE+0x0004   \
+						&GPTIMER_BASE+0x0008   \
+						&GPTIMER_BASE+0x000C   \
+						&GPTIMER_BASE+0x0020   \
+						&GPTIMER_BASE+0x0024   \
+						&GPTIMER_BASE+0x0028   \
+						&GPTIMER_BASE+0x002C   \
+						&GPTIMER_BASE+0x0040   \
+						&GPTIMER_BASE+0x0044   \
+						&GPTIMER_BASE+0x0048   \
+						&GPTIMER_BASE+0x004C
+		)
+	else if ("&register_name"=="greg")
+		(
+			data.print %Binary.Long &GREG_BASE+0x0004   \
+							&GREG_BASE+0x0008   \
+							&GREG_BASE+0x1008   \
+							&GREG_BASE+0x2008   \
+							&GREG_BASE+0x000C   \
+							&GREG_BASE+0x100C   \
+							&GREG_BASE+0x200C   \
+							&GREG_BASE+0x0018   \
+							&GREG_BASE+0x1018   \
+							&GREG_BASE+0x2018   \
+							&GREG_BASE+0x001C   \
+							&GREG_BASE+0x101C   \
+							&GREG_BASE+0x201C   \
+							&GREG_BASE+0x0020   \
+							&GREG_BASE+0x1020   \
+							&GREG_BASE+0x2020   \
+							&GREG_BASE+0x0024   \
+							&GREG_BASE+0x1024   \
+							&GREG_BASE+0x2024   \
+							&GREG_BASE+0x0024   \
+							&GREG_BASE+0x1024   \
+							&GREG_BASE+0x2024   \
+							&GREG_BASE+0x0028   \
+							&GREG_BASE+0x1028   \
+							&GREG_BASE+0x2028   \
+							&GREG_BASE+0x002C   \
+							&GREG_BASE+0x102C   \
+							&GREG_BASE+0x202C   \
+							&GREG_BASE+0x0030   \
+							&GREG_BASE+0x1030   \
+							&GREG_BASE+0x2030   \
+							&GREG_BASE+0x0034   \
+							&GREG_BASE+0x003C   \
+							&GREG_BASE+0x103C   \
+							&GREG_BASE+0x203C   \
+							&GREG_BASE+0x0040   \
+							&GREG_BASE+0x1040   \
+							&GREG_BASE+0x2040   \
+							&GREG_BASE+0x0044   \
+							&GREG_BASE+0x1044   \
+							&GREG_BASE+0x2044   \
+							&GREG_BASE+0x0048   \
+							&GREG_BASE+0x1048   \
+							&GREG_BASE+0x2048   \
+							&GREG_BASE+0x004C   \
+							&GREG_BASE+0x104C   \
+							&GREG_BASE+0x204C   \
+							&GREG_BASE+0x0050   \
+							&GREG_BASE+0x1050   \
+							&GREG_BASE+0x2050   \
+							&GREG_BASE+0x0058   \
+							&GREG_BASE+0x1058   \
+							&GREG_BASE+0x2058   \
+							&GREG_BASE+0x005C   \
+							&GREG_BASE+0x105C   \
+							&GREG_BASE+0x205C   \
+							&GREG_BASE+0x0060   \
+							&GREG_BASE+0x1060   \
+							&GREG_BASE+0x2060   \
+							&GREG_BASE+0x0064   \
+							&GREG_BASE+0x0068   \
+							&GREG_BASE+0x1068   \
+							&GREG_BASE+0x2068   \
+							&GREG_BASE+0x006C   \
+							&GREG_BASE+0x106C   \
+							&GREG_BASE+0x206C   \
+							&GREG_BASE+0x0070   \
+							&GREG_BASE+0x1070   \
+							&GREG_BASE+0x2070   \
+							&GREG_BASE+0x0074   \
+							&GREG_BASE+0x1074   \
+							&GREG_BASE+0x2074   \
+							&GREG_BASE+0x0078   \
+							&GREG_BASE+0x1078   \
+							&GREG_BASE+0x2078   \
+							&GREG_BASE+0x007C   \
+							&GREG_BASE+0x107C   \
+							&GREG_BASE+0x207C   \
+							&GREG_BASE+0x0080   \
+							&GREG_BASE+0x1080   \
+							&GREG_BASE+0x2080   \
+							&GREG_BASE+0x0084   \
+							&GREG_BASE+0x1084   \
+							&GREG_BASE+0x2084   \
+							&GREG_BASE+0x0088   \
+							&GREG_BASE+0x1088   \
+							&GREG_BASE+0x2088   \
+							&GREG_BASE+0x008C   \
+							&GREG_BASE+0x108C   \
+							&GREG_BASE+0x208C   \
+							&GREG_BASE+0x0090   \
+							&GREG_BASE+0x1090   \
+							&GREG_BASE+0x2090   \
+							&GREG_BASE+0x0094   \
+							&GREG_BASE+0x1094   \
+							&GREG_BASE+0x2094   \
+							&GREG_BASE+0x009C   \
+							&GREG_BASE+0x109C   \
+							&GREG_BASE+0x209C   \
+							&GREG_BASE+0x00A0   \
+							&GREG_BASE+0x10A0   \
+							&GREG_BASE+0x20A0   \
+							&GREG_BASE+0x00A4   \
+							&GREG_BASE+0x00A8   \
+							&GREG_BASE+0x10A8   \
+							&GREG_BASE+0x20A8   \
+							&GREG_BASE+0x00AC   \
+							&GREG_BASE+0x10AC   \
+							&GREG_BASE+0x20AC   \
+							&GREG_BASE+0x00B0   \
+							&GREG_BASE+0x10B0   \
+							&GREG_BASE+0x20B0   \
+							&GREG_BASE+0x00B4   \
+							&GREG_BASE+0x10B4   \
+							&GREG_BASE+0x20B4   \
+							&GREG_BASE+0x00B8   \
+							&GREG_BASE+0x10B8   \
+							&GREG_BASE+0x20B8   \
+							&GREG_BASE+0x00BC   \
+							&GREG_BASE+0x10BC   \
+							&GREG_BASE+0x20BC   \
+							&GREG_BASE+0x00C0   \
+							&GREG_BASE+0x10C0   \
+							&GREG_BASE+0x20C0   \
+							&GREG_BASE+0x00C4   \
+							&GREG_BASE+0x10C4   \
+							&GREG_BASE+0x20C4   \
+							&GREG_BASE+0x00C8   \
+							&GREG_BASE+0x10C8   \
+							&GREG_BASE+0x20C8   \
+							&GREG_BASE+0x00CC   \
+							&GREG_BASE+0x10CC   \
+							&GREG_BASE+0x20CC   \
+							&GREG_BASE+0x00D0   \
+							&GREG_BASE+0x10D0   \
+							&GREG_BASE+0x20D0   \
+							&GREG_BASE+0x00D4   \
+							&GREG_BASE+0x10D4   \
+							&GREG_BASE+0x20D4   \
+							&GREG_BASE+0x00D8   \
+							&GREG_BASE+0x10D8   \
+							&GREG_BASE+0x20D8   \
+							&GREG_BASE+0x0100
+		)
+)
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Created by Spreadst -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/delete_cell_layout_in_edit_mode_pressed" />
+    <item android:state_focused="true" android:state_window_focused="true" android:drawable="@drawable/delete_cell_layout_in_edit_mode_normal" />
+    <item android:state_focused="true" android:state_window_focused="false" android:drawable="@drawable/delete_cell_layout_in_edit_mode_normal" />
+    <item android:drawable="@drawable/delete_cell_layout_in_edit_mode_normal" />
+</selector>

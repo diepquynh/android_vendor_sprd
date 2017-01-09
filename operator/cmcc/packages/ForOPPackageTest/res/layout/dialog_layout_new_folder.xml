@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 新建文件夹对话框的布局文件 -->
+<LinearLayout
+	android:id="@+id/dialog_layout_new_folder_root"
+	android:layout_width="fill_parent"
+	android:layout_height="60px"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+	<EditText
+		android:id="@+id/et_dialog_new_folder"
+		android:layout_width="fill_parent"
+		android:layout_height="50dp"
+		/>
+</LinearLayout>

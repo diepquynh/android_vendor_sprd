@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:title="@string/ram_throughput"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_rw_size"
+        android:layout_marginBottom="50px"
+        android:layout_width="120px"
+        android:layout_height="wrap_content"
+        android:text="@string/size_txt"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/et_rw_size"
+        android:layout_toRightOf="@id/txt_rw_size"
+        android:layout_marginLeft="10px"
+        android:layout_alignTop="@id/txt_rw_size"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txt_rw_count"
+        android:layout_below="@id/txt_rw_size"
+        android:layout_marginBottom="50px"
+        android:layout_width="120px"
+        android:layout_height="wrap_content"
+        android:text="@string/count_txt"
+        android:textColor="@android:color/black"  />
+
+    <EditText
+        android:id="@+id/et_rw_count"
+        android:layout_toRightOf="@id/txt_rw_count"
+        android:layout_marginLeft="10px"
+        android:layout_alignTop="@id/txt_rw_count"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:inputType="number"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txt_rw_process"
+        android:layout_below="@id/txt_rw_count"
+        android:layout_marginBottom="50px"
+        android:layout_width="120px"
+        android:layout_height="wrap_content"
+        android:text="@string/process_txt"
+        android:textColor="@android:color/black"  />
+
+    <EditText
+        android:id="@+id/et_rw_process"
+        android:layout_toRightOf="@id/txt_rw_process"
+        android:layout_marginLeft="10px"
+        android:layout_alignTop="@id/txt_rw_process"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="@android:color/black" />
+
+   <Button
+        android:id="@+id/StartBn"
+        android:layout_below="@id/txt_rw_process"
+        android:layout_marginBottom="80px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_execute"/>
+
+    <TextView
+        android:id="@+id/txt_rw_result"
+        android:layout_below="@id/StartBn"
+        android:layout_marginBottom="50px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black" />
+</RelativeLayout>

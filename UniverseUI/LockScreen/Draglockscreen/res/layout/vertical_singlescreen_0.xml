@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout    
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:layout_width="fill_parent"    
+android:layout_height="fill_parent"
+>
+<RelativeLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="top">
+	<LinearLayout 
+		android:id ="@+id/unlockblock"
+		android:orientation="vertical" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true">
+        <RelativeLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="10dip"/>
+         <RelativeLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="top">
+        	<TextView
+            android:id="@+id/mmstext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="22dip"
+            android:layout_marginTop="16dip"
+            android:textColor="#FFFFFF"/>
+            <TextView
+            android:id="@+id/phonetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="20dip"
+            android:layout_marginLeft="22dip"
+            android:layout_marginTop="16dip"
+            android:textColor="#FFFFFF"/>
+              <LinearLayout
+                android:id="@+id/unlock_layout" 
+				android:orientation="vertical" 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" 
+		        android:layout_gravity="top"
+                android:layout_centerHorizontal="true">
+                <!-- 
+                <android.widget.DigitalClock android:id="@+id/time"
+			        android:layout_width="fill_parent" 
+			   		android:layout_height="wrap_content"
+			        android:layout_gravity="top"
+			        android:textSize="35px"/> -->
+			    <LinearLayout
+	                android:id="@+id/time_layout" 
+					android:orientation="vertical" 
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" 
+			        android:layout_gravity="center_horizontal"
+			        android:layout_marginRight="5dip"
+	                android:layout_centerHorizontal="true"/>
+			    <TextView  
+					android:id="@+id/date"
+				    android:layout_width="wrap_content" 
+				    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+				    android:singleLine="true"
+				    android:layout_marginLeft="5dip"
+				    android:textColor="#FFFFFF"/>
+              
+           	  </LinearLayout>
+           	  <ImageView
+              android:id="@+id/imageView1"
+              android:layout_width="wrap_content"
+              android:layout_height="30dip"
+              android:layout_centerHorizontal="true" 
+              android:layout_toRightOf="@id/mmstext"
+              android:layout_marginTop="15dip"/>
+            
+              <ImageView
+              android:id="@+id/imageView2"
+              android:layout_width="wrap_content"
+              android:layout_height="30dip"
+              android:layout_centerHorizontal="true" 
+              android:layout_toLeftOf="@id/phonetext"
+              android:layout_marginTop="15dip"/>
+        </RelativeLayout>
+        <RelativeLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="5dip"/>
+        <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content">
+            <ImageView android:id="@+id/arrow"
+                android:layout_width="wrap_content" 
+                		android:layout_height="wrap_content"
+                		android:layout_centerHorizontal="true"
+                        android:gravity="top"/>
+            <RelativeLayout
+                android:id="@+id/empty_space"
+	            android:layout_width="fill_parent"
+	            android:layout_height="13dip"
+	            android:layout_below="@+id/arrow"/>
+            <TextView  
+					android:id="@+id/prompt"
+				    android:layout_width="wrap_content" 
+				    android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+					android:gravity="bottom"
+					android:layout_below="@+id/empty_space"/>
+        </RelativeLayout>
+        <RelativeLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="5dip"/>
+		<RelativeLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content">
+	
+			        <TextView
+		            android:id="@+id/mmsprompt"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentLeft="true"
+		            android:layout_centerHorizontal="true"
+		            android:visibility="gone"/>
+		        
+		            <TextView
+		            android:id="@+id/phoneprompt"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentLeft="true"
+		            android:layout_centerHorizontal="true"
+		            android:visibility="gone"
+		            android:layout_below="@+id/mmsprompt"/>
+		 </RelativeLayout>  
+    </LinearLayout>    
+</RelativeLayout>
+</FrameLayout>   

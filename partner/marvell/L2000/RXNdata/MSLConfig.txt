@@ -1,0 +1,347 @@
+// Copyright (c) 2012 Rx Networks, Inc. All rights reserved.
+//
+// Property of Rx Networks
+// Proprietary and Confidential
+// Do NOT distribute
+// 
+// Any use, distribution, or copying of this document requires a 
+// license agreement with Rx Networks. 
+// Any product development based on the contents of this document 
+// requires a license agreement with Rx Networks. 
+// If you have received this document in error, please notify the 
+// sender immediately by telephone and email, delete the original 
+// document from your electronic files, and destroy any printed 
+// versions.
+//
+// This file contains sample configuration data only and the data carries no 
+// warranty whatsoever.
+//
+//
+// PGPS and XYBRID Mobile Suite Configuration Parameter Storage File.
+//
+// Preceed comments with "//".
+// Max line length is 256 chars (including terminators).
+// All parameters must be delimited by <ParamName>: <Param> (note the space between the ':' and <Param>)
+// <ParamName> must be a single word without spaces.
+// <Param> may be a string or data value (convertable to double) and must be terminated by ' ', '\r' or '\n'.
+// <Param> values will be internally clamped to the min value specified (if below this min value).
+// <Param> values will be internally clamped to the max value specified (if above this max value).
+
+// -----------------------
+// Common Elements
+// -----------------------
+
+// Config File Version. Value is string.
+Config_File_Ver: 1.12.0
+
+// ---------------------------------
+// Device Configuration Specific Elements
+// ---------------------------------
+
+// Vendor ID. Rx Networks will provide a client ID to each customer to support licensing and access to PGPS seeds
+// and clock updates.
+// A default developer client ID that is used for evaluation purposes is "evaluation".
+Vendor_ID: uted45wEaL
+
+// Model ID. Each vendor should specify a model ID to support access to PGPS seeds and clock updates.
+// A default model ID is provided.
+Model_ID: Q1MwMg
+
+// License Key file path. Path to the RxN license key file that is used to support evaluation or licensed product use.
+// Note that the path is typically relative but can be explicit from file system root. Max path is 512 chars.
+// Default behaviour is to have the key file adjacent to the executable that uses the MSL library (./license.key)
+Lic_Key_Path: /system/etc/license.key
+
+// Security Key file path. Path to the RxN security key file that is used to support evalutation or licensed product use.
+// Note that the path is typically relative but can be explicit from file system root. Max path is 512 chars.
+// Default behaviour is to have the key file adjacent to the executable that consumes the MSL library (./security.key)
+Sec_Key_Path: /system/etc/security.key
+
+// Pantry file path. Path to the PGPS local data store.
+// The following folders will be created under it: pred and eph 
+// Note that the path is typically relative but can be explicit from file system root. Max path is 512 chars.
+// Default path ./RXN will be used if missing
+Pantry_Path: /data/system/gps/mrvlgps/rxn/RXN
+
+// CL Log file path. Path to the Chipset Library Log file.
+// Note that the path is typically relative but can be explicit from file system root. Max path is 512 chars.
+// Default path ./CL_Log.txt will be used if missing
+CL_Log_Path: /data/system/gps/mrvlgps/rxn/CL_Log.txt
+
+// MSL Log file path. Path to the Mobile Suite Library Log file.
+// Note that the path is typically relative but can be explicit from file system root. Max path is 512 chars.
+// Default path ./MSL_Log.txt will be used if missing
+MSL_Log_Path: /data/system/gps/mrvlgps/rxn/MSL_Log.txt
+
+// CL configuration string.
+// The configuration string used to connect to the GPS receiver. The contents are chipset-dependent. 
+// Note that max length is 512 chars.
+// e.g.: CL_Config_Str: P:COM1:|B:115200|s:4|Z:FFF7
+// e.g.: CL_Config_Str: IP:127.0.0.1|In:1235|Out:1234|Prst:/etc/RXN/ClkOff|S:04|Z:0xFFFF
+// e.g.: CL_Config_Str: ./RINEX_OUT.txt|w+
+CL_Config_Str: L:127.0.0.1|R:127.0.0.1|Local IF:mlan0|Prst:/etc/RXN/ClkOff|S:04|Z:0xFFFF
+
+// ---------------------------------
+// MSL Logging Specific Elements
+// ---------------------------------
+
+// Max Log Filesize in kB. Set to ensure that the MSL log does not take up too much file system space.
+// Value in kB. Min value: 1. Max value: 1048576 (1GB). Default value: 10240 (10240kB = 10 MB). Logging is disabled once
+// maximum file size is reached.
+Log_Max_Size: 10240
+
+// Logging severity threshold. Set to match a severity to ensure that log entries labeled with this severity (or lower) are
+// included within your log (default 1 - Errors). Severity levels follow:
+// 0 - Fatal: Unrecoverable failure from which system is in indeterminate state, unwise to proceed.
+// 1 - Errors: Recoverable errors, program can continue.
+// 2 - Warnings: Not as serious as errors.
+// 3 - Information: Useful data regarding flow of the code.
+// 4 - Trace: Supports RxN internal debugging only.
+// Min value: 0. Max Value 4. Default value: 1.
+Log_Sev_Threshold: 4
+
+// Log zone mask. Log entries can be separated by zone (in addition to severity). Only if log entries with specified
+// zone match up with the mask provided below will these entries be logged (regardless of severity).
+// Zones follow:
+// Zone 1 (0x0001) ?Misc functions (catch all).
+// Zone 2 (0x0002) ?Third Party log entry.
+// Zone 3 (0x0004) ?Init/Shutdown functions.
+// Zone 4 (0x0008) ?Serial Port I/O functions.
+// Zone 5 (0x0010) ?File I/O functions.
+// Zones 6 - 16 - Reserved for future or RxN internal use.
+// Note there are no min or max values and Default mask value: 0xFFFF.
+Log_Zone_Mask: 0xFFFF
+
+// ---------------------------------
+// MSL General Behavioural Elements
+// ---------------------------------
+
+// How frequently to check the seed for required clock or seed updates.
+// Value in sec. Min value: 60. Max value: 14400. Default 3600.
+System_Check_Freq: 3600
+
+// Time to wait during start up before making seed or SNTP request.
+// Value in sec. Min value: 0 Max value: 604800. Default value: 10.
+Startup_Data_Wait_Duration: 10
+
+// Rx Networks does not recommend using device system time as a source of time.
+// If there are not other available options for a time source, then this parameter
+// will enable to use of system time as a source of time.
+// Set to 1 to enable use of system time, 0 to never use system time.
+Use_System_Time: 0
+
+// If set to 1, download operations will only occur when a network connection is available. If set to 0 
+// download operations will not verify network connection. This is currently only fully implemented in Android.
+Respect_Data_Settings: 1
+
+// ---------------------------------
+// Core Library Configuration Elements
+// ---------------------------------
+
+// Reference GPS Week used to determine GPS week roll over (%1024)
+Base_GPS_Week: 670
+
+// How long extended ephemeris should be used before being replaced by broadcast ephemeris.
+// Value in sec. Min value: 0, Max value: 14400. Default 300.
+TOE_Eph_Dur: 300 
+
+// How long a GPS receiver will retain and use an ephemeris past its Time of Ephemeris value. 
+// Value in sec. Min value: 3600. Max value: 14400. Default 7200.
+TOE_Chip_Exp: 7200
+
+// EE supplied by the MSL (using the RXN_MSL_GetAssistance function) must have a URE value at
+// or below this threshold. If EE has URE above this threshold for any PRN/SV, no assistance
+// data will be provided for that PRN/SV.
+// Value in meters. Min value: 20. Max Value: 200. Default value: 100.
+URE_Threshold: 100
+
+// EE supplied by the MSL (using the RXN_MSL_GetAssistance function) must have a FT value at
+// or below this threshold. If EE has FT above this threshold for any PRN/SV, no assistance
+// data will be provided for that PRN/SV.
+// Value in meters. Min value: 20. Max Value: 200. Default value: 100.
+FT_Threshold: 100
+
+// ---------------------------------
+// Autonomous Mode Specific Elements
+// ---------------------------------
+
+// Seed start time offset from TOE.
+// Value in sec. Min value: -14400. Max value. 14400.  Default -7200.
+TOE_Buf_Offset: -7200 
+
+// Control the number of BCE records used in autonomous mode assistance.  Set to 0 to disable
+// autonomous mode assistance.  Set to -1 to allow the software to decide.  Set to 1 or 2 to 
+// specify the number of segments.
+Autonomous_Segments: -1
+
+// ---------------------------------
+// Connected Mode Specific Elements
+// ---------------------------------
+
+// ******** max number of server accesses is 3 per week any combo of Seed accesses or Clock Updates
+// ******** max frequency of accesses is every 48 hours
+
+// Seed Host Format Field. Specifies the format of the PGPS seed DNS entries. The '%' char within this
+// field will be replaced by 1 - N where 'N' is specified as the Seed_Max_Host_Idx (see below).
+// Default "pgps7-%.gpstream.net " supporting access to pgps7-1.gpstream.net, pgps7-2.gpstream.net and
+// (assuming Seed_Max_Host_Idx = 3) pgps7-3.gpstream.net.
+Seed_Host: marvell-%.pgps.gpstream.net
+
+// Max index for the DNS entry specfied within the "Seed_Host" value. See Seed_Host comments for details.
+// Default value: 3.
+Seed_Max_Host_Idx: 3
+
+// Seed Host Port. Port used for PGPS seed server comms. Default value: 9280.
+Seed_Port: 9280, 80
+
+// Maximum number of failed retry, before stopping further seed downloads until Seed_Retry_Timer has elapsed.
+// Min value: 0. Max value: 5. Default value: 3.
+//notice:this parameter has been removed to "mrvl_agps_default.conf"!!!
+//Seed_Retry_Max: 3
+
+// How frequent we hit the seed server after a failed initial attempt.
+// Value in sec. Min value: 0. Max value: 604800. Default value: 60.
+Seed_Retry_Period: 60
+
+// Duration till the next set of retries to seed server after Seed_Retry_Max failures have been reached.
+// Value in sec. Min value: 86400 (1 day). Max value: 604800. Default value: 86400 (1 day).
+Seed_Retry_Timer: 86400
+
+// This parameter enables older seeds to be downloaded for testing.  Set the age  in days.  This is 
+// currently only supported on integration servers and must always be set to 0 for  production servers.  
+// Min value: 0.  Max value: 14.  Default value: 0.
+Seed_Age: 0
+
+// SNTP Host Format Field. Specifies the format of the SNTP DNS entries. 
+// Default "time1.gpstream.net " supporting access to Rx Networks SNTP time server.
+SNTP_Host: time1.gpstream.net
+
+// SNTP Host Port. Port used for SNTP time server comms. Default value: 123.
+SNTP_Port: 123
+
+// Maximum allowable uncertainty for GPS clock for SNTP requests.
+// Value in sec. Min value: 0. Max value: 7200. Default Value: 3.
+SNTP_GPSTime_Uncert_Thresh: 3
+
+// How frequent we hit the SNTP server after a failed initial attempt.
+// Value in sec. Min value: 0. Max value: 604800. Default value: 60.
+SNTP_Retry_Period: 60
+
+// Maximum number of failed retry, before stopping further seed downloads until SNTP_Retry_Timer has elapsed.
+// Min value: 0. Max value: 5. Default value: 3.
+SNTP_Retry_Max: 3
+
+// Duration till the next set of retries to SNTP server after SNTP_Retry_Max failures have been reached.
+// Value in sec. Min value: 86400 (1 day). Max value: 604800. Default value: 86400 (1 day).
+SNTP_Retry_Timer: 86400
+
+
+// ---------------------------------
+// Constellation Specific Elements
+// ---------------------------------
+
+// Constellation configuration.  This is a priority list of constellations that will be processed.
+// If a constellation is not in the list, it will be omitted.  Known values are GPS and GLONASS.
+Constel_Config: GPS, GLONASS
+
+// Number of seconds to propagate forward when extended ephemeris is generated. When a system check is performed it will ensure a 
+// minimum of GPS_Prop_Fwd is complete.
+// Value in sec. Min value: 14400 Max value: 1209600 (14 days). Default 1209600 (14 days). Please use multiples of 14400 (4 hours)
+GPS_Prop_Fwd: 1209600
+
+// How old the seed should be before being replaced. Please note that if set to a value less than 16 hours (for testing)
+// there is a potential to download the same seed from the server.
+// Value in sec. Min value: 86400 (1 day). Max value: 1209600 (14 days). Default value: 345600 (4 days)
+GPS_Seed_Update_Age: 345600
+
+// Maximum randomized offset to be added to the Seed_Update_Age for server access load balancing.
+// Value in sec. Min value: 0. Max value: Max value: 86400. Default 21600 (6 hours)
+GPS_Seed_Update_Age_Offset: 21600
+
+// How old the seed should be before a clock drift update is applied. Note that a value
+// of '0' stipulates that no clock drift updates are to occur.
+// Value in sec. Min value: 86400 (1 day). Max value: 604800. Default value: 345600 (4 days)
+GPS_Clock_Update_Age: 345600
+
+// How Maximum offset used by a random function to added to the Clock_Update_Age for server access load balancing.
+// Value in sec. Min value: 0. Max value: Max value: 86400. Default 21600 (6 hours)
+GPS_Clock_Update_Age_Offset: 21600
+
+// Number of seconds to propagate forward when extended ephemeris is generated. When a system check is performed it will ensure a 
+// minimum of GLO_Prop_Fwd is complete.
+// Value in sec. Min value: 14400 Max value: 1209600 (14 days). Default 1209600 (14 days). Please use multiples of 14400 (4 hours)
+GLO_Prop_Fwd: 1209600
+
+// How old the seed should be before being replaced. Please note that if set to a value less than 16 hours (for testing)
+// there is a potential to download the same seed from the server.
+// Value in sec. Min value: 86400 (1 day). Max value: 1209600 (14 days). Default value: 345600 (4 days)
+GLO_Seed_Update_Age: 345600
+
+// Maximum randomized offset to be added to the Seed_Update_Age for server access load balancing.
+// Value in sec. Min value: 0. Max value: Max value: 86400. Default 21600 (6 hours)
+GLO_Seed_Update_Age_Offset: 21600
+
+// How old the seed should be before a clock updated. Note that a value
+// of '0' stipulates that no clock updates are to occur.
+// Value in sec. Min value: 86400 (1 day). Max value: 604800. Default value: 345600 (4 days)
+GLO_Clock_Update_Age: 345600
+
+// How Maximum offset used by a random function to added to the Clock_Update_Age for server access load balancing.
+// Value in sec. Min value: 0. Max value: Max value: 86400. Default 21600 (6 hours)
+GLO_Clock_Update_Age_Offset: 21600
+
+// Enable En to be written in extended ephemeris.  En is the number of days since the sv received
+// updated ephemeris from the control segment.  For artificially produced EE, En is set to the seed 
+// age in days.  However, while it is possible to get good results from EE that is several days old, 
+// some chipsets may discard this assistance because BCE of this age would have no value.  Because 
+// of this, En is set to 0 by default.
+// Set to 1 to enable En to be provided in assistance.  Set to 0 to always set En to 0.
+GLO_Enable_En: 0
+
+// GLONASS time is bounded to 15 minute intervals.  The MSL by default allows assistance to be
+// requested for any time, whether that time is a valid GLONASS time or not.  Use this flag to
+// force assistance to be requested for the tb values at the :15 and :45 minute period, emulating GLONASS
+// BCE behaviour.
+// Set to 0 to use continuous time. Set to 1 to use bounded GLONASS time (Default).
+GLO_Use_Bounded_Time: 1
+
+// ---------------------------------
+// XYBRID RT Configuration Elements
+// ---------------------------------
+
+//******** XYBRID RT is Rx Networks' WiFi and Cellular based location lookup service.
+//******** This technology can be used in conjunction with PGPS to further improve TTFF or can be used on its 
+//******** own as a location provider. Please contact Rx Networks if you would like an evaluation account.
+
+// XYBRID Host Format Field. Specifies the format of the XYBRID DNS entries. The '%' char within this
+// field will be replaced by 1 - N where 'N' is specified as the Xybrid_Max_Host_Idx (see below).
+// Default "xybrid%.gpstream.net" supporting access to xybrid1.gpstream.net and xybrid2.gpstream.net
+// (assuming Xybrid_Max_Host_Idx = 2).
+Xybrid_Host: xybrid-int.gpstream.net
+
+// Max index for the DNS entry specfied within the "XYBRID_Host". See XYBRID_Host comments for details.
+// Default value: 2.
+Xybrid_Max_Host_Idx: 2
+
+// XYBRID Host Port. Port used for XYBRID server. Default value: 9380.
+Xybrid_Port: 9380
+
+// XYBRID Vendor ID.  The vendor ID used to authenticate to the XYBRID server.  Rx Networks will provide 
+// a XYBRID Vendor ID to each customer.  Default value: evaluation
+Xybrid_VendorID: yarIdWyg
+
+// XYBRID Vendor Salt.  The vendor Salt is used to authenticate to the XYBRID server.  Rx Networks will provide 
+// a XYBRID Vendor Salt to each customer.  
+Xybrid_VendorSalt:
+
+// When the XYBRID RT server requests an Measured Position Request (MPR), an observation of the current GPS position
+// along with Wi-Fi and cell data is sent to the server.  However, for testing it may be preferable to disable this
+// behaviour.  
+// Set to 0 to disable MPR responses.  Set to 1 to enable MPR responses (Default).
+Xybrid_EnableObservations: 1
+
+// Set to 1 to enable Wi-Fi scans for XYBRID RT (Default) and set to 0 to disable Wi-Fi scanning.
+Xybrid_UseWiFi: 1
+
+// Set to 1 to enable cell id scans for XYBRID RT (Default) and set to 0 to disable cell id scanning.
+Xybrid_UseCell: 1

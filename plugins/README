@@ -1,0 +1,39 @@
+The folder of packages is cloned from platform/packages, but it is only one git repository in vendor/sprd/plugins/.git
+
+===============================
+Intial plugin
+===============================
+1. You can intialize your addon into the packages/apps/YourModules/addons/AddonName
+2. Use "include $(BUILD_ADDON_PACKAGE)" instead of $(BUILD_PACKAGE) in Android.mk
+3. We suggest you initial your addon in a dependency way, build your full Android.mk and AndroidManifest.xml for fast debugging and feature change in future.
+
+===============================
+Combine plugins into one
+===============================
+1. The combined package is the final package included into build system
+2. You may use the demo as follow to create a combined module
+
+LOCAL_PATH := $(call my-dir)
+src_dirs := ../Mms/addons/Drm/src \
+            ../FileExplorer/addons/Drm/src \
+            ../Gallery2/addons/Drm/src
+            <the path from current>/<Package>/addons/<Module>/src
+
+res_dirs := ../Mms/addons/Drm/res \
+            ../FileExplorer/addons/Drm/res \
+            ../Gallery2/addons/Drm/res
+            <the path from current>/<Package>/addons/<Module>/res
+
+# This flag must be added to avoid build error
+LOCAL_AAPT_FLAGS := \
+    --auto-add-overlay
+
+LOCAL_SRC_FILES := $(call all-java-files-under,$(src_dirs))
+
+LOCAL_RES_DIR := $(addprefix $(LOCAL_PATH)/, $(res_dirs))
+
+LOCAL_PACKAGE_NAME := DrmAddon
+
+# Warning, please use the BUILD_ADDON_PACKAGE instead of BUILD_PACKAGE when building the addon
+include $(BUILD_ADDON_PACKAGE)
+include $(call all-makefiles-under,$(LOCAL_PATH))

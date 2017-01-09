@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hasmter_border"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+     <!-- prompt message and call -->
+    <ImageView 
+        android:id="@+id/hasmter_prompt_call"
+        android:layout_width="78px"
+        android:layout_height="78px"
+        android:layout_x="56px"
+        android:layout_y="200px"/>
+        
+    <ImageView 
+        android:id="@+id/hasmter_prompt_message"
+        android:layout_width="78px"
+        android:layout_height="78px"
+        android:layout_x="275px"
+        android:layout_y="56px"/>
+        
+        
+    <!-- hasmter -->
+    <ImageView 
+        android:id="@+id/hasmter_control_call"
+        android:layout_width="270px"
+        android:layout_height="270px"
+        android:layout_x="-24px"
+        android:layout_y="246px"/>
+        
+    <ImageView 
+        android:id="@+id/hasmter_control_message"
+        android:layout_width="270px"
+        android:layout_height="270px"
+        android:layout_x="198px"
+        android:layout_y="103px"/>
+        
+    <ImageView 
+        android:id="@+id/hasmter_control_home"
+        android:layout_width="270px"
+        android:layout_height="270px"
+        android:layout_x="223px"
+        android:layout_y="355px"/>
+        
+    <!-- guide text -->
+    <TextView  
+        android:id="@+id/unlockText"
+        android:layout_width="252px" 
+        android:layout_height="54px"
+        android:layout_x="28px"
+        android:layout_y="625px"
+        android:textSize="15dip"
+        android:singleLine="true"
+        android:textColor="#000000"/>
+     
+    <TextView 
+        android:id="@+id/tv_phone"
+        android:layout_x="42px"
+        android:layout_y="480px"
+        android:layout_width="144px"
+        android:layout_height="42px"
+        android:textSize="18dip"
+        android:textColor="#fff5db00"
+        android:gravity="center"
+        />
+        
+    <TextView 
+        android:id="@+id/tv_message"
+        android:layout_x="257px"
+        android:layout_y="339px"
+        android:layout_width="144px"
+        android:layout_height="42px"
+        android:textSize="18dip"
+        android:textColor="#fff5db00"
+        android:gravity="center"
+        />
+        
+    <TextView 
+        android:id="@+id/tv_home"
+        android:layout_x="287px"
+        android:layout_y="591px"
+        android:layout_width="144px"
+        android:layout_height="42px"
+        android:textSize="18dip"
+        android:textColor="#fff5db00"
+        android:gravity="center"
+        />
+        
+</AbsoluteLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Spreadst -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/menu_desktop_settings" >
+
+    <PreferenceCategory android:title="@string/add_to_desktop_category" >
+        <Preference
+            android:key="go_all_widgets"
+            android:title="@string/go_all_widgets" />
+        <Preference
+            android:key="go_all_applications"
+            android:title="@string/go_all_apps" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/work_screen_settings" >
+        <ListPreference
+            android:entries="@array/workspace_style_entries"
+            android:entryValues="@array/workspace_style_values"
+            android:key="workspace_pref_key_animation"
+            android:persistent="false"
+            android:title="@string/transition_style" />
+        <ListPreference
+            android:entries="@array/pageview_style_entries"
+            android:entryValues="@array/pageview_style_values"
+            android:key="pageview_pref_key_animation"
+            android:persistent="false"
+            android:title="@string/pageview_transition_style" />
+
+        <Preference
+            android:key="set_wallpager"
+            android:title="@string/set_desktop_wallpager" />
+        <!-- SPRD Feature 254796, delete mainmenu wallpaper set.@{
+        <Preference
+            android:key="set_mainmenu_wallpager"
+            android:title="@string/set_mainmenu_wallpager" />
+        @} -->
+        <Preference
+            android:key="set_lockscreen_wallpager"
+            android:title="@string/set_lockscreen_wallpager" />
+        <Preference
+            android:key="set_all_wallpager"
+            android:title="@string/set_all_wallpager" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,179 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/layout_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/layout_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="140dip"
+            android:gravity="left|bottom" />
+            <!-- SPRD: Modify 20130823 Spreadst of Bug 204585 S2lockscreen add carrier info @{ -->
+            <LinearLayout
+                android:id="@+id/carrier"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dip"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" />
+            <!-- @} -->
+            <!-- SPRD: Modify 20131009 Spreadst of Bug 222504 add emergencycall @{ -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_below="@+id/carrier" >
+                <Button
+                    android:id="@+id/emergencycallbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_marginBottom="5dip"
+                    android:drawablePadding="4dip" />
+            </LinearLayout>
+            <!-- @} -->
+        <!-- SPRD: Modify 20140207 Spreadst of Bug 267015 add owner info text for UUI lockscreen @{ -->
+        <TextView
+            android:id="@+id/owner_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dip"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="marquee" />
+        <!-- @} -->
+        <TextView
+            android:id="@+id/text_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="96dip"
+            android:layout_marginLeft="16dip"
+            android:shadowColor="#000000"
+            android:shadowDx="0.3"
+            android:shadowDy="0.3"
+            android:shadowRadius="1.0"
+            android:singleLine="true"
+            android:textColor="#DCDCDC"
+            android:textSize="24dip" />
+
+        <ImageView
+            android:id="@+id/battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="64dip"
+            android:layout_marginLeft="13dip"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/battery_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="68dip"
+            android:layout_marginLeft="50dip"
+            android:shadowColor="#000000"
+            android:shadowDx="0.3"
+            android:shadowDy="0.3"
+            android:shadowRadius="1.0"
+            android:singleLine="true"
+            android:textColor="#DCDCDC"
+            android:textSize="14dip" />
+
+        <ImageView
+            android:id="@+id/miss_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dip"
+            android:layout_marginTop="182dip"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/phone_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dip"
+            android:layout_marginTop="240dip"
+            android:shadowColor="#000000"
+            android:shadowDx="0.3"
+            android:shadowDy="0.3"
+            android:shadowRadius="0.1"
+            android:singleLine="true"
+            android:textColor="#DCDCDC"
+            android:textSize="18dip"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/miss_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dip"
+            android:layout_marginTop="182dip"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/msg_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="85dip"
+            android:layout_marginTop="240dip"
+            android:shadowColor="#000000"
+            android:shadowDx="0.3"
+            android:shadowDy="0.3"
+            android:shadowRadius="0.1"
+            android:singleLine="true"
+            android:textColor="#DCDCDC"
+            android:textSize="18dip"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lock_layout_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <RelativeLayout
+        android:id="@+id/lock_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ad_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/big_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

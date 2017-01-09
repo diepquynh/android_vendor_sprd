@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.sprdroid.note">
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"></uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+    
+    <!-- 解锁的权限 -->
+	<uses-permission android:name="android.permission.DISABLE_KEYGUARD"></uses-permission>
+	<!-- 亮屏的权限 -->
+	<uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/> 
+
+	<application android:icon="@drawable/note_icon"
+		android:label="@string/app_name"
+		android:theme="@style/Note_Theme">
+		<activity android:name=".NoteActivity"
+			 android:screenOrientation="nosensor">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		
+			 <!--android:windowSoftInputMode="adjustPan"-->
+		<activity android:name=".NoteEditor"
+			 android:launchMode="singleTop" 
+			 android:windowSoftInputMode="stateVisible|adjustResize"
+			 android:screenOrientation="nosensor">
+			<intent-filter>
+                	<action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+		</activity>
+
+		<activity android:name=".FolderActivity"
+			android:screenOrientation="nosensor">
+			<intent-filter>
+                	<action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+		</activity>
+
+		<activity android:name=".DeleteRecordsActivity"/>
+
+		<activity android:name=".AlarmActivity"
+			android:screenOrientation="nosensor">
+			<intent-filter>
+                	<action android:name="android.intent.action.MAIN" /> 
+                	<category android:name="android.intent.category.DEFAULT" />   
+            </intent-filter>
+		</activity>
+
+		<activity android:name="AlarmAlert" 
+				android:excludeFromRecents="true" 
+				android:theme="@android:style/Theme.Dialog"
+				android:launchMode="singleTask" 
+				android:taskAffinity=":AlarmAlert"
+				android:screenOrientation="nosensor"
+				android:configChanges="orientation|keyboardHidden|keyboard|navigation" >
+				<intent-filter>
+					<action android:name="com.sprdroid.note.STOP_ALARM" />
+
+				</intent-filter>
+		</activity>
+
+
+		<activity android:name="MusicPicker">
+			<intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />  
+				<data android:mimeType="audio/ogg" />
+            </intent-filter>
+		</activity>
+	
+
+		<receiver android:name="CallAlarm" android:process=":remote" >
+			<intent-filter>  
+				<action android:name="android.intent.action.ACTION_CALL"/> 
+				<action android:name="android.intent.action.SMS"/> 
+				<action android:name="android.intent.action.PHONE_STATE"/> 
+				<action android:name="android.intent.action.ANSWER"/> 
+				<action android:name="android.provider.Telephony.SMS_RECEIVED" /> 
+ 
+			</intent-filter> 
+		</receiver>
+		
+		<service android:name="AlarmService">
+				<intent-filter> 
+					<action android:name="com.sprdroid.note.STOP_ALARM" />	
+								
+				</intent-filter> 	
+		</service>
+
+		<provider android:name="DBOperations"
+                android:authorities="com.sprdroid.note"
+                android:exported="true"/>
+	</application>
+
+</manifest> 
+
+<!--  android:screenOrientation="nosensor"   -->

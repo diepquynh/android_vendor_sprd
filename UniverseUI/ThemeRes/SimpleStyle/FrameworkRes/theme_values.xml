@@ -1,0 +1,79 @@
+<MIUI_Theme_Values>
+    <!-- The main blue color in holo -->
+    <color name="holo_blue_light">#00afff</color>
+    <color name="notification_template_icon_low_bg_color">#23235235</color>
+    <color name="notification_template_icon_bg_color">#23235235</color>
+    <color name="notification_template_text">#ff000000</color>
+    <color name="custom_notification_item_background_color">#ffffffff</color>
+    <color name="custom_notification_item_background_color_pressed">#ff0096ff</color>
+
+    <!-- notification content styles color -->
+    <color name="statusbar_notification_title_text_color">#ffffffff</color>
+    <color name="statusbar_notification_content_text_color">#ff999999</color>
+    <color name="statusbar_notification_emphasis_text_color">#ffcccccc</color>
+    <color name="statusbar_notification_action_button_text_color">#ffcccccc</color>
+    <color name="statusbar_notification_bigpicture_action_bg">#cc111111</color>
+    <color name="statusbar_notification_icon_bg">#3333B5E5</color>
+    <color name="statusbar_notification_icon_low_bg">#0cffffff</color>
+    <!-- SPRD: Resolve the text color of the actionbar -->
+    <!-- Primary -->
+    <color name="ab_primary_text_bright_foreground_disabled_holo_dark">#80ffffff</color>
+    <color name="ab_primary_text_bright_foreground_disabled_holo_light">#80ffffff</color>
+    <color name="ab_primary_text_bright_foreground_holo_dark">#ffffffff</color>
+    <color name="ab_primary_text_bright_foreground_holo_light">#ffffffff</color>
+
+    <!-- Secondary -->
+    <color name="ab_secondary_text_dim_foreground_holo_dark">#ffffff</color>
+    <color name="ab_secondary_text_dim_foreground_holo_light">#ffffff</color>
+    <color name="ab_secondary_text_dim_foreground_disabled_holo_dark">#80ffffff</color>
+    <color name="ab_secondary_text_dim_foreground_disabled_holo_light">#80ffffff</color>
+    <color name="ab_secondary_text_bright_foreground_holo_dark">#ffffffff</color>
+    <color name="ab_secondary_text_bright_foreground_holo_light">#ffffffff</color>
+    <dimen name="preference_screen_header_padding_side">0dip</dimen>
+    <dimen name="preference_item_padding_side">16dip</dimen>
+    <dimen name="preference_item_padding_inner">16dip</dimen>
+    <dimen name="preference_child_padding_side">16dip</dimen>
+    <dimen name="preference_fragment_padding_side">0dip</dimen>
+    <dimen name="action_menu_divider_padding">14dip</dimen>
+    <!-- Resize search view height in UniverseUI -->
+    <dimen name="search_view_src_text_height">16dp</dimen>
+    <dimen name="search_view_min_height">36dp</dimen>
+    <!-- Dialog button padding -->
+    <dimen name="dialog_button_bar_padding_top">5dip</dimen>
+    <dimen name="dialog_button_bar_padding_left">4dip</dimen>
+    <dimen name="dialog_button_bar_padding_right">4dip</dimen>
+    <dimen name="dialog_button_bar_padding_bottom">2dip</dimen>
+    <dimen name="dialog_button_bar_divider_padding">0dip</dimen>
+    <dimen name="dialog_button_padding_left">0dip</dimen>
+    <dimen name="dialog_button_padding_right">0dip</dimen>
+    <bool name="config_hasPermanentMenuKey">true</bool>
+    <!-- If actionbar has tabs, whether split it down -->
+    <bool name="config_alternativePanelStyle">true</bool>
+    <integer name="dialog_config_mediumAnimTime">0</integer>
+    <color name="background_holo_light">#ffffffff</color>
+    <color name="screen_background_holo_light">#ffffffff</color>
+    <color name="switch_thumb_foreground_holo_dark">#ff000000</color>
+    <color name="switch_thumb_foreground_holo_light">#ff000000</color>
+    <dimen name="action_bar_tab_divider_padding">0dp</dimen>
+    <integer name="action_bar_tab_show_dividers">0</integer>
+
+    <!-- Window background -->
+    <color name="screen_background_dark_overlay_start">#ff000000</color>
+    <color name="screen_background_dark_overlay_end">#ff000000</color>
+    <integer name="screen_background_dark_gradient_angle">270</integer>
+
+    <color name="screen_background_light_overlay_start">#ffffffff</color>
+    <color name="screen_background_light_overlay_end">#ffffffff</color>
+    <integer name="screen_background_light_gradient_angle">270</integer>
+
+    <integer name="action_bar_default_display_options">0x8</integer>
+<!--
+            <flag name="none" value="0" />
+            <flag name="useLogo" value="0x1" />
+            <flag name="showHome" value="0x2" />
+            <flag name="homeAsUp" value="0x4" />
+            <flag name="showTitle" value="0x8" />
+            <flag name="showCustom" value="0x10" />
+            <flag name="disableHome" value="0x20" />
+-->
+</MIUI_Theme_Values>

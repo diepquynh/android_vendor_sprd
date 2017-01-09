@@ -1,0 +1,76 @@
+# The Spreadtrum Communication Inc. 2015
+
+# The feature modules contains much types of features like vendors or function,
+# such as vendors like oversea/cmcc/reliance and other function features like
+# multi-user/multi-lang and so on.
+
+# The features module folders is treated as a top kind of feature, every
+# folder must have a config.mk, and you can customize your features entry
+# into config.mk. The features entry is a build var, the list as follows:
+
+# *BUT* for future developements, the developers *MUST* and prefix "FEATURES."
+# such as FEATURES.PRODUCT_PACAKGES or FEATURES.PRODUCT_PROPERTY_OVERRIDES
+
+# _product_var_list := \
+    PRODUCT_NAME \
+    PRODUCT_MODEL \
+    PRODUCT_LOCALES \
+    PRODUCT_AAPT_CONFIG \
+    PRODUCT_AAPT_PREF_CONFIG \
+    PRODUCT_AAPT_PREBUILT_DPI \
+    PRODUCT_PACKAGES \
+    PRODUCT_PACKAGES_DEBUG \
+    PRODUCT_PACKAGES_ENG \
+    PRODUCT_PACKAGES_TESTS \
+    PRODUCT_DEVICE \
+    PRODUCT_MANUFACTURER \
+    PRODUCT_BRAND \
+    PRODUCT_PROPERTY_OVERRIDES \
+    PRODUCT_DEFAULT_PROPERTY_OVERRIDES \
+    PRODUCT_CHARACTERISTICS \
+    PRODUCT_COPY_FILES \
+    PRODUCT_OTA_PUBLIC_KEYS \
+    PRODUCT_EXTRA_RECOVERY_KEYS \
+    PRODUCT_PACKAGE_OVERLAYS \
+    DEVICE_PACKAGE_OVERLAYS \
+    PRODUCT_SDK_ATREE_FILES \
+    PRODUCT_SDK_ADDON_NAME \
+    PRODUCT_SDK_ADDON_COPY_FILES \
+    PRODUCT_SDK_ADDON_COPY_MODULES \
+    PRODUCT_SDK_ADDON_DOC_MODULES \
+    PRODUCT_SDK_ADDON_SYS_IMG_SOURCE_PROP \
+    PRODUCT_DEFAULT_WIFI_CHANNELS \
+    PRODUCT_DEFAULT_DEV_CERTIFICATE \
+    PRODUCT_RESTRICT_VENDOR_FILES \
+    PRODUCT_VENDOR_KERNEL_HEADERS \
+    PRODUCT_BOOT_JARS \
+    PRODUCT_SUPPORTS_BOOT_SIGNER \
+    PRODUCT_SUPPORTS_VBOOT \
+    PRODUCT_SUPPORTS_VERITY \
+    PRODUCT_OEM_PROPERTIES \
+    PRODUCT_SYSTEM_PROPERTY_BLACKLIST \
+    PRODUCT_SYSTEM_SERVER_JARS \
+    PRODUCT_VBOOT_SIGNING_KEY \
+    PRODUCT_VERITY_SIGNING_KEY \
+    PRODUCT_SYSTEM_VERITY_PARTITION \
+    PRODUCT_VENDOR_VERITY_PARTITION \
+    PRODUCT_DEX_PREOPT_MODULE_CONFIGS \
+    PRODUCT_DEX_PREOPT_DEFAULT_FLAGS \
+    PRODUCT_DEX_PREOPT_BOOT_FLAGS \
+
+# The features folder also is the name of the top feature, you can
+# put the name into PRODUCT_REVISION, and add include $(APPLY_PRODUCT_REVISION)
+# to gather them in product lunch entry.
+
+# FOR EXAMPLE:
+
+# The device sp9830aea_5m_h100 device which define its lunch entry in
+# device/sprd/sp9830aea_5m_h100/sp9830aea_5m_h100.mk, now he wants to
+# gather oversea features, you can do action as follow:
+
+# 1. Fork a new product makefile lunch entry from sp9830aea_5m_h100.mk,
+#    you can named it as sp9830aea5mh100oversea.mk. And the "fork" means
+#    you should inherit configurations from sp9830aea_5m_h100.mk by
+#    "include device/sprd/sp9830aea_5m_h100/sp9830aea_5m_h100.mk"
+# 2. Add PRODUCT_REVISION := oversea and include $(APPLY_PRODUCT_REVISION)
+#    after include the product configuration you last inherited

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义我们用的字符串变量,这样比固化到程序中灵活性更高 -->
+<resources>
+    <string name="hello">Welcome</string>
+    <string name="app_name">展訊便簽</string>
+   	<!-- 比较通用的字段 -->
+   <string name="new_note">新建便簽</string>
+   <string name="edit_note">編輯便簽</string>
+    <string name="delete">刪除</string>
+    <string name="select_all">標記全部</string>
+    <string name="delete_all">刪除全部</string>
+    <string name="save">保存</string>
+    <string name="delete_note">確定刪除便簽/檔夾?</string>
+    <string name="delete_all_note">確定刪除全部便簽和檔夾?</string>
+    <string name="save_success">保存成功</string>
+    <string name="delete_success">刪除成功</string>
+    <string name="save_failed">內容為空，保存失敗!</string>
+    <string name="list_is_empty">列表為空，刪除失敗!</string>
+    <string name="selected_is_empty">選擇為空，刪除失敗!</string>
+    <string name="Deleting">正在刪除，請稍等！</string> 
+    <string name="tel">撥打電話</string>
+    <string name="web">瀏覽網頁</string>
+    <string name="email">發送郵件</string>
+    <string name="mynote">展訊便簽</string>
+
+    <string name="note_link_other">Open map</string>
+    <string name="PM">下午</string>
+    <string name="AM">上午</string>
+    <!-- 菜单 -->
+    <string name="contextmenu">選項菜單</string> 
+    <string name="new_folder">新建文件夾</string>
+    <string name="edit_folder_title">修改檔夾名</string>
+    <string name="movetoFolder">移進文件夾</string>
+    <string name="moveoutFolder">移出文件夾</string>
+    <string name="setAlarm">設置便簽鬧鈴</string>
+    <string name="add_shortcut_to_home">添加快捷方式</string>
+
+    <string name="toast_add_fail">達到便簽數限制，請刪除部分便簽再重試！</string>
+    <string name="toast_edit_outbound">達到便簽可編輯字數上限，請刪除部分內容再重試！</string>
+    <string name="no_folder_found">不存在文件夾!</string>
+    <string name="folder_add_fail">創建失敗，請輸入文件夾名！</string>
+    <string name="folder_name_out_of_bound">檔夾名只允許輸入18字元！</string>
+
+    <string name="start_alarm">開啟鬧鈴</string>
+    <string name="alarm_date_setting">鬧鈴日期設置</string>
+    <string name="alarm_time_setting">鬧鈴時間設置</string>
+    <string name="alarm_is_repeat">重複鬧鈴</string>
+    <string name="alarm_is_vibrate">震動鬧鈴</string>
+    <string name="alarm_rings">鬧鍾鈴聲</string>
+
+    <string name="set_time_frist">請設置鬧鍾鈴聲先！</string>
+    <string name="date_time_setted">已有相同鬧鈴時間設置，請重置時間！</string>
+    <string name="setVibrate">震動設置</string>
+    <string name="enableAlarm">開啟鬧鈴</string>
+    <string name="set_alarm_ringtone">設置鬧鈴鈴聲</string>
+    <string name="default_rings_name">默認鈴聲</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+
+	<!-- Button组件显示 的字符串 -->
+    <string name="Ok">完成</string>
+    <string name="Cancel">取消</string>
+
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">便簽鬧鈴</string>
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label">鬧鈴暫停</string>
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+    <string name="alarm_notify_snooze_text">鬧鈴通知，點擊取消！</string>
+    <!-- Toast that appears after Alarm is snoozed from the Alarm
+         dialog. Says the alarm will snooze for xxx minutes.  -->
+    <string name="alarm_alert_snooze_set">便簽鬧鈴關閉 !</string>
+    
+    <string name="notify_ticker">便簽鬧鍾事件！</string>
+    <string name="Note_Alarm_Notify">便簽鬧鈴通知!</string>
+    <string name="input_content">請先輸入便簽內容，再設置鬧鈴!</string>
+    <string name="set_time_fail">設定時間失敗</string>
+    <string name="set_date_fail">設定日期失敗</string>
+</resources>

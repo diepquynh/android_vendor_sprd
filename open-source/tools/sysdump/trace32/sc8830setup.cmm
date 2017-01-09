@@ -1,0 +1,30 @@
+; list of the registers' physical address and virtual address
+
+global &AHB_BASE
+global &INTC0_BASE
+global &ADI_BASE
+global &GPIO_BASE
+global &EIC_BASE
+global &GREG_BASE
+
+global &AHB_PHY_BASE
+global &INTC0_PHY_BASE
+global &ADI_PHY_BASE
+global &GPIO_PHY_BASE
+global &EIC_PHY_BASE
+global &GREG_PHY_BASE
+
+
+&AHB_BASE = 0xeb130000
+&INTC0_BASE = 0xeb3b0000
+&ADI_BASE = 0xeb1f0000
+&GPIO_BASE = 0xeb220000
+&EIC_BASE = 0xeb200000
+&GREG_BASE = 0xeb240000
+
+&AHB_PHY_BASE = 0X20D00000
+&INTC0_PHY_BASE = 0X71400000
+&ADI_PHY_BASE = 0X40030000
+&GPIO_PHY_BASE = 0X40280000
+;&EIC_PHY_BASE = 0X40210000
+;&GREG_PHY_BASE = 0X402E0000

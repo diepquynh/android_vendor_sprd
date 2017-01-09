@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+	<Button
+		android:layout_width="@dimen/pass_fail_button_size"
+		android:layout_height="@dimen/pass_fail_button_size" android:id="@+id/btn_pass"
+		android:text="@string/text_pass" android:layout_alignParentBottom="true"></Button>
+
+	<Button android:layout_width="wrap_content"
+		android:layout_centerInParent="true" android:layout_height="wrap_content"
+		android:id="@+id/btn_retry" android:text="@string/text_change_camera"
+        android:layout_alignParentBottom="true"></Button>
+
+	<Button
+		android:layout_alignParentRight="true"
+		android:layout_width="@dimen/pass_fail_button_size"
+		android:layout_height="@dimen/pass_fail_button_size"
+        android:layout_alignParentBottom="true"
+		android:id="@+id/btn_fail" android:text="@string/text_fail"></Button>
+
+</RelativeLayout>

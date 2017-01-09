@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="top" >
+        <FrameLayout
+            android:id="@+id/frameLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+        <!-- SPRD: Modify 20131009 Spreadst of Bug 222504 add emergencycall @{ -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <!-- SPRD: Modify 20130822 Spreadst of Bug 204612 draglockscreen carrier show wrong @{ -->
+            <LinearLayout
+                android:id="@+id/carrier"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dip"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" />
+            <!-- @} -->
+            <Button
+                android:id="@+id/emergencycallbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="120dip"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="4dip" />
+            <!-- SPRD: Modify 20140207 Spreadst of Bug 267015 add owner info text for UUI lockscreen @{ -->
+            <TextView
+                android:id="@+id/owner_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="170dip"
+                android:gravity="center"
+                android:singleLine="true"
+                android:ellipsize="marquee" />
+            <!-- @} -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dip"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+                <ImageView
+                android:id="@+id/battery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+                <TextView
+                android:id="@+id/battery_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:shadowColor="#000000"
+                android:shadowDx="0.3"
+                android:shadowDy="0.3"
+                android:shadowRadius="1.0"
+                android:singleLine="true"
+                android:textColor="#DCDCDC"
+                android:textSize="14dip" />
+            </LinearLayout>
+        </FrameLayout>
+        <!-- @} -->
+</RelativeLayout>

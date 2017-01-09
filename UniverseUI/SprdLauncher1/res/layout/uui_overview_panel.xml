@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Spreadst -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|bottom"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/overview_panel_bottom_padding" >
+
+    <!-- SPRD: Fix bug268943, Fix bug332094 @{ -->
+    <TextView
+        android:id="@+id/customrize_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="4dp"
+        android:drawableTop="@drawable/wallpaper_button"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_horizontal"
+        android:text="@string/customrize_button_text"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:singleLine="true" />
+    <!-- @} -->
+
+    <!-- SPRD: Fix bug332094 @{
+    <Space
+        android:layout_width="@dimen/overview_panel_buttonSpacing"
+        android:layout_height="wrap_content" />
+    @} -->
+
+    <!-- SPRD: Fix bug268943, Fix bug332094 @{ -->
+    <TextView
+        android:id="@+id/widget_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="4dp"
+        android:drawableTop="@drawable/widget_button"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_horizontal"
+        android:text="@string/widget_button_text"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:singleLine="true" />
+    <!-- @} -->
+
+    <!-- SPRD: Fix bug332094 @{
+    <Space
+        android:layout_width="@dimen/overview_panel_buttonSpacing"
+        android:layout_height="wrap_content" />
+    @} -->
+
+    <!-- SPRD: Fix bug268943, Fix bug332094 @{ -->
+    <TextView
+        android:id="@+id/editpage_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="4dp"
+        android:drawableTop="@drawable/setting_button"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_horizontal"
+        android:text="@string/editor_page_button_text"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:singleLine="true" />
+    <!-- @} -->
+
+</LinearLayout>

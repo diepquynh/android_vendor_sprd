@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hasmter_border"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+     <!-- prompt message and call -->
+    <ImageView 
+        android:id="@+id/hasmter_prompt_call"
+        android:layout_width="52px"
+        android:layout_height="52px"
+        android:layout_x="37px"
+        android:layout_y="133px"/>
+        
+    <ImageView 
+        android:id="@+id/hasmter_prompt_message"
+        android:layout_width="52px"
+        android:layout_height="52px"
+        android:layout_x="183px"
+        android:layout_y="51px"/>
+        
+    <!-- guide text -->
+    <TextView  
+        android:id="@+id/unlockText"
+        android:layout_width="168px" 
+        android:layout_height="36px"
+        android:layout_x="4px"
+        android:layout_y="401px"
+        android:singleLine="true"/>
+     
+    <TextView 
+        android:id="@+id/tv_phone"
+        android:layout_x="28px"
+        android:layout_y="321px"
+        android:layout_width="96px"
+        android:layout_height="28px"
+        android:textSize="12dip"
+        android:textColor="#fff5db00"
+        android:gravity="center"
+        />
+        
+    <TextView 
+        android:id="@+id/tv_message"
+        android:layout_x="178px"
+        android:layout_y="239px"
+        android:layout_width="96px"
+        android:layout_height="28px"
+        android:textSize="12dip"
+        android:textColor="#fff5db00"
+        android:gravity="center"
+        />
+        
+    <TextView 
+        android:id="@+id/tv_home"
+        android:layout_x="197px"
+        android:layout_y="394px"
+        android:layout_width="96px"
+        android:layout_height="28px"
+        android:textSize="12dip"
+        android:textColor="#fff5db00"
+        android:gravity="center"
+        />
+        
+    <!-- hasmter -->
+    <ImageView 
+        android:id="@+id/hasmter_control_call"
+        android:layout_width="180px"
+        android:layout_height="180px"
+        android:layout_x="-16px"
+        android:layout_y="164px"/>
+        
+    <ImageView 
+        android:id="@+id/hasmter_control_message"
+        android:layout_width="180px"
+        android:layout_height="180px"
+        android:layout_x="132px"
+        android:layout_y="82px"/>
+        
+    <ImageView 
+        android:id="@+id/hasmter_control_home"
+        android:layout_width="180px"
+        android:layout_height="180px"
+        android:layout_x="147px"
+        android:layout_y="237px"/>
+</AbsoluteLayout>

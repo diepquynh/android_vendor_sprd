@@ -1,0 +1,12 @@
+In order for the u-blox Android Gps driver to use the u-blox.conf file,
+copy u-blox.conf to /system/etc on the target device.
+
+When under development this folder can be found in the rootfs folder.
+
+The file permissions need to be set to allow the file to be readable.
+
+e.g.
+- Copy the u-blox.conf file to the rootfs location & set permissions:
+---------------------------------------------------------------------
+> sudo cp <root>/hardware/u-blox/gps/u-blox.conf  rootfs_dir/system/etc/u-blox.conf
+> sudo chmod 644 u-blox.conf

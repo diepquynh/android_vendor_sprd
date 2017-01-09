@@ -1,0 +1,448 @@
+<?xml version="1.0"?>
+<sllconfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="sllconfig.xsd">
+  <!-- KMINI PHONE CONFIG FILE -->
+  <Pta><!-- HarrierTracker=2 HarrierEngine=3 -->
+    <PtaType>3</PtaType>
+  </Pta>
+  
+  <!-- The presence of any files here will override embedded images -->
+  <CodeloadConfiguration>
+    <!-- Range: [0-5] -->
+    <ClNumFiles>2</ClNumFiles>
+    <ClFile1>/system/etc/HARRIER_ASIC_PATCH.bin</ClFile1>
+    <ClFile2>CHIP_CONFIG</ClFile2>
+    <ClFile3>/data/clFile3</ClFile3>
+    <ClFile4>/data/clFile4</ClFile4>
+    <ClFile5>/data/clFile5</ClFile5>
+    <ClAddr1>0x00200000</ClAddr1>
+    <ClAddr2>0x00202400</ClAddr2>
+    <ClAddr3>0x00000000</ClAddr3>
+    <ClAddr4>0x00000000</ClAddr4>
+    <ClAddr5>0x00000000</ClAddr5>
+    <!-- Engine=0x000000C1, Tracker=0x002000E1 -->
+    <ExecAddr>0x000000C1</ExecAddr>
+  </CodeloadConfiguration>
+
+  <!-- If no values present, default values inside SirfNav are taken.
+    Refer to SIRF_MSG_SSB_CHIP_CONFIG message description inside
+    Protocols_OSP.xml for details -->
+  <Chip_Configuration>
+    <!-- If no values present, default values inside SirfNav are taken.
+      Refer to SIRF_MSG_SSB_CHIP_CONFIG message description inside
+      Protocols_OSP.xml for details -->
+    <RefClkFrequency></RefClkFrequency>
+    <RefClkUncertainty></RefClkUncertainty>
+    <RefClkOffset></RefClkOffset>
+    <RefClkWarmupDelay></RefClkWarmupDelay>
+    <RefClkControl></RefClkControl>
+    <!-- week number specifying the date of manufacture of the crystal -->
+    <RefClkMfgWeek></RefClkMfgWeek>
+    <RefClkXOCoeff0></RefClkXOCoeff0>
+    <RefClkXOCoeff1></RefClkXOCoeff1>
+    <RefClkXOCoeff2></RefClkXOCoeff2>
+    <RefClkXOCoeff3></RefClkXOCoeff3>
+    <RefClkXOTempCenter></RefClkXOTempCenter>
+    <RfMiscCtrl></RfMiscCtrl>
+    <IoPin0></IoPin0>
+    <IoPin1></IoPin1>
+    <IoPin2></IoPin2>
+    <IoPin3></IoPin3>
+    <!-- IoPin4 is used for the External LNA -->
+    <IoPin4>73</IoPin4>
+    <IoPin5></IoPin5>
+    <IoPin6></IoPin6>
+    <IoPin7></IoPin7>
+    <IoPin8></IoPin8>
+    <IoPin9></IoPin9>
+    <!-- IoPinSWFuncs: 3..0   gps on pin,    0 = invalid, 1=GPIO0, 2=GPIO1, etc.
+                         7..4   drsync pin,    0 = invalid, 1=GPIO0, 2=GPIO1, etc.
+                         11..8  host wake pin, 0 = invalid, 1=GPIO0, 2=GPIO1, etc.
+                         15..12 test mode pin,  0 = invalid, 1=GPIO0, 2=GPIO1, etc. -->
+    <PinSWFunctions>5</PinSWFunctions>
+    <IoPinSclkSelect></IoPinSclkSelect>
+    <IoPinEITWakeSetting></IoPinEITWakeSetting>
+    <UartBaudRate>921600</UartBaudRate>
+    <UartHwFc>1</UartHwFc>
+    <!-- 
+        LNA Configuration:
+        Bit 0: 1-enable external LNA, 0-internal
+        Bit 3: 1-use bits 4:7 for external LNA bias value
+        Bits4-7: Bias value
+    -->
+    <LnaType>0x1</LnaType>
+    <VoltageControl></VoltageControl>
+    <TempRecControl></TempRecControl>
+    <MiscSensorI2CSpeed></MiscSensorI2CSpeed>
+    <!-- Following 5 parameters configures the wakesignaling, see SC-503148-DD for more details. -->
+    <!-- SleepPolicy: Both Sleep Never=3, Chip Never Sleeps, Host Sleeps=2, Chip Sleeps, Host Never Sleeps=1, Both Sleep Always=0 -->
+    <SleepPolicy>3</SleepPolicy>
+    <!-- WakePolicy: Both use UART=3, Chip wake with UART, Host wake with HW=2, Chip wake with HW, Host wake with UART=1, Both use HW=0 -->
+    <WakePolicy>0</WakePolicy>
+    <TO1></TO1>
+    <WT1></WT1>
+    <WT2></WT2>
+    <!-- The primary GNSS constellation to be used -->
+    <!-- GPS=0x00 GLO=0x01 GAL=0x02 BDS=0x03 -->
+    <GNSSPrimaryConstDef></GNSSPrimaryConstDef>
+    
+    <!-- Bit masks indicating technologies which are:
+         Constraints: Enabled for usage (unconstrained)
+         GPS= 0x0001 GLO= 0x0002 GALILEO=  0x0004 BEIDOU= 0x0008
+         SBAS=0x0010 QZSS=0x0020 QZSS_IMES=0x0040 MGPS=   0x0080
+         EOTD=0x0400 CELL=0x0800 WIFI=     0x1000 MEMS=   0x8000
+    -->
+    <GNSSConstConstraintDef></GNSSConstConstraintDef>
+    
+    <!-- 32 LPRAM allocation members, each one represents number of 32-bit ints for that user -->
+    <LPRAMAllocateArray></LPRAMAllocateArray>
+
+    <!-- AidingConfiguration: 0x01=Precise Time, 0x02=Coarse Time
+                              0x10=Counter Freq, 0x20=Message Freq 
+                              0 = Not supported
+                              Only select one of each type -->
+    <AidingConfiguration></AidingConfiguration>
+  </Chip_Configuration>
+
+  <StartupConfiguration>
+    <!-- Hot=0  Warm=2 Cold=4 Factory=8 -->
+    <!-- LTSTest: 4 -->
+    <StartMode>0</StartMode>
+    <!-- DisableAllMessages=0x0  EnableNavLabMessages=0x01
+         EnableDebugMessages=0x2 EnableAllMessages=0x03 -->
+    <DebugFlag>0x3</DebugFlag>
+
+	<!-- SMDK section -->
+    <!-- Default: 460800 -->
+    <CodeLoadBaudRate>1500000</CodeLoadBaudRate>
+    <DataPort>/dev/ttyS3</DataPort>
+    <OnOffPort>/sys/class/sec/gps/GPS_PWR_EN/value</OnOffPort>
+    <!-- None=0x00 UartDtr=0x02 UartShell=0x03 UartRx=0x04
+         UartRts=0x05 UartShellHiLo=0x06 -->
+    <OnOffControl>1</OnOffControl>
+    <ResetPort>/sys/class/sec/gps/GPS_RESET/value</ResetPort>
+    <!-- None=0x00 UartDtr=0x02 UartShell=0x03 UartRx=0x04
+         UartRts=0x05 UartShellHiLo=0x06 -->
+    <ResetControl>1</ResetControl>
+
+    <HostWakePort></HostWakePort>
+    <!-- None=0x0 UartDtr=0x02 UartShell=0x03 UartRx=0x04
+           UartRts=0x05 UartShellHiLo=0x06
+           EMU-Control=0x07
+           UART-CTS=0x08    -->
+    <HostWakeControl>0</HostWakeControl>
+
+    <!--- NoIntegrityCheck=0 FullIntegrityCheck=1 FastIntegrityCheck=2 -->
+    <CodeRamIntegrityCheck>2</CodeRamIntegrityCheck>
+  </StartupConfiguration>
+
+  <Sif>
+    <!-- Mixed=0 SGEE=1 CGEE=2 Disable=3 -->
+    <!-- LTSTest: 3 -->
+    <OperationMode>0</OperationMode>
+    <!-- Available=0 None=1 -->
+    <IsGpsTimeSrcAvail>1</IsGpsTimeSrcAvail>
+    <!-- SubFrame=0 BeAndIno=1 Both=2 -->
+    <CgeeInputMethod>0</CgeeInputMethod>
+    <!-- SirfNav=0 ExtApp=1 -->
+    <SgeeInputMethod>0</SgeeInputMethod>
+    <!-- Number of valid hours in SGEE File -->
+    <SgeeValidityTimeInHours>60</SgeeValidityTimeInHours>
+    <!-- GPS=0x01 GLO=0x02 BDS=0x04 GAL=0x08 -->
+    <SgeeConstellation>0x0F</SgeeConstellation>
+    <SgeeSvrFileNameGps>/gps/sifgps.f2p3enc.ee</SgeeSvrFileNameGps>
+    <SgeeSvrFileNameGlo>/glonass/sifglo.f2p3enc.ee</SgeeSvrFileNameGlo>
+    <SgeeSvrFileNameBds>/beidou/sifbds.f2p3enc.ee</SgeeSvrFileNameBds>
+    <SgeeSvrAddressGps>sgee.ssi.samsung.com</SgeeSvrAddressGps>
+    <SgeeSvrAddressGlo>sgee.ssi.samsung.com</SgeeSvrAddressGlo>
+    <SgeeSvrAddressBds>sgee.ssi.samsung.com</SgeeSvrAddressBds>
+    <SgeeSvrPortGps>80</SgeeSvrPortGps>
+    <SgeeSvrPortGlo>80</SgeeSvrPortGlo>
+    <SgeeSvrPortBds>80</SgeeSvrPortBds>
+    <SgeeSvrAuthCodeGps>TG9jYXRpb25TZXJ2ZXI6TG9jYXRpb25TZXJ2ZXJUZXN0</SgeeSvrAuthCodeGps>
+    <SgeeSvrAuthCodeGlo>TG9jYXRpb25TZXJ2ZXI6TG9jYXRpb25TZXJ2ZXJUZXN0</SgeeSvrAuthCodeGlo>
+    <SgeeSvrAuthCodeBds>TG9jYXRpb25TZXJ2ZXI6TG9jYXRpb25TZXJ2ZXJUZXN0</SgeeSvrAuthCodeBds>
+
+    <UridInfoValidFlag>No</UridInfoValidFlag>
+    <UridOemId>12345678</UridOemId>
+    <UridDeviceId>1234567890123456</UridDeviceId>
+  </Sif>
+  
+  <!-- This section contains the logging settings for SLL only -->
+  <Log>
+    <!-- ERROR=0x01 WARNING=0x02 INFO=0x04 STATE=0x08 FUNC=0x10 ALL=0xFF -->
+    <Level>0xFF</Level>
+    <!-- SLL=0x0001 SM=0x0002 PM=0x0004 SUPL20=0x0010 GNSS_PTA=0x0020
+         MEMS_PTA=0x0040 WIFI_PTA=0x0080 SIF=0x0100 ASN1=0x0200 PC= 0x0400 
+         CP=0x0800 TCP_OSP=0x2000 RAW= 0x4000 AGPS-0x8000 ALL=0xFFFF -->
+    <Modules>0xFFFF</Modules>
+    <!-- Log file size is in MB  -->
+    <TextLogSize>128</TextLogSize>
+    <NavLogSize>128</NavLogSize>
+    <CtLogSize>128</CtLogSize>
+    <!-- Log file rollover: logF.1->logF.2; logF->logF.1; new logF created -->
+    <TextLogName></TextLogName>
+    <NavLogName></NavLogName>
+    <CtLogName></CtLogName>
+    <GlLogName></GlLogName>
+  </Log>
+  
+  <Slocate>
+    <!-- SLocate proxy mode control -->
+    <ProxyModeEnable>No</ProxyModeEnable>
+    <!-- SLocate proxy server IP -->
+    <SvrAddress>127.0.0.1</SvrAddress>
+    <!-- SLocate proxy server port -->
+    <SvrPort>7555</SvrPort>
+  </Slocate>
+
+  <TestMode>
+    <!-- TestMode control -->
+    <IsTestMode>No</IsTestMode>
+    <ModeNum>0x11</ModeNum>
+    <SvId0>6</SvId0>
+    <SvId1>7</SvId1>
+    <SvId2>8</SvId2>
+    <SvId3>9</SvId3>
+    <Period>45</Period>
+    <NoOfTracks>12</NoOfTracks>
+  </TestMode>
+
+  <CwConfig>
+    <!-- CwConfig/TestMode3 control -->
+    <IsCwConfig>No</IsCwConfig>
+    <!-- GPS 8F0 1 Capture -->
+    <CwMode>0x35</CwMode>
+    <Tm3File>tm3_gps_8f0_1_128kb.bin</Tm3File>
+    <!-- 128KB -->
+    <Tm3FileSize>131072</Tm3FileSize>
+  </CwConfig>
+  
+  <SETCaps>
+    <IsMSB>Yes</IsMSB>
+    <IsMSA>Yes</IsMSA>            
+    <IsAutonomous>Yes</IsAutonomous>
+    <IsGps>Yes</IsGps>
+    <IsGlo>Yes</IsGlo>
+    <IsEcid>No</IsEcid>
+    <IsEotd>No</IsEotd>
+    <ISOtdoa>No</ISOtdoa>
+    <IsRrlp>Yes</IsRrlp>
+    <IsRrc>No</IsRrc>
+    <IsLpp>No</IsLpp>
+    <!-- Enable this and disable <isSupl20> to run SUPL1 -->
+    <IsSupl10>No</IsSupl10>
+    <!-- SUPL1 minor version -->
+    <Supl10MinorVersion>0</Supl10MinorVersion>
+    <!-- Enable this and disable <isSupl10> to run SUPL2 -->
+    <IsSupl20>Yes</IsSupl20>
+    <!-- SUPL2 minor version -->
+    <Supl20MinorVersion>0</Supl20MinorVersion>
+  </SETCaps>
+  
+  <Aiding>
+    <!-- NoAiding=0 Local(SIF)=1 Network=2 LBS=5 -->
+    <AidingType>2</AidingType>
+  </Aiding>
+
+  <Agnss>
+    <NwkParamsOverwrite>Yes</NwkParamsOverwrite>
+    <IsSlpFQDNAuthCheckEnable>No</IsSlpFQDNAuthCheckEnable>
+    <IsSecure>Yes</IsSecure>
+    <!-- SHA1=1  SHA256=256 -->
+    <ShaVariant>1</ShaVariant>
+    <!-- TLS1_0=0 TLS1_1=1 -->
+    <TlsVariant>0</TlsVariant>
+    <NumOfCertiFiles>1</NumOfCertiFiles>
+    <!-- LTSTest: /system/etc/spirentroot.pem -->
+    <CertiFileName>/system/etc/ca.pem</CertiFileName>
+    <!-- SUPL server IP -->
+    <!-- LTSTest: www.spirent-lcs.com -->
+    <ServerAddress>supl.google.com</ServerAddress>
+    <!-- SUPL server port For None-secure, use: 7276 -->
+    <ServerPort>7275</ServerPort>
+  </Agnss>
+ 
+  <!-- Frequency Aiding Section -->
+  <RefFreq>
+    <!-- Invalid=0 Center=1 Delta=2 -->
+    <RefFreqType>1</RefFreqType>
+    <RefFreqVal>26000000</RefFreqVal>
+    <!-- Invalid=0 PPM=1 HZ=2 -->
+    <RefFreqAccuracyUnit>1</RefFreqAccuracyUnit>
+    <RefFreqAccuracyVal>30</RefFreqAccuracyVal>
+    <!-- R0,R1,SE_ME_DELAY, not required if RefFreqVal == RefClkFrequency -->
+    <RefFreqEARCParams>0,0,0</RefFreqEARCParams>
+  </RefFreq>
+
+  <RefLoc>
+    <!-- Absent=0 Present=1 UseExisting=2 -->
+    <RefLocFlag>1</RefLocFlag>
+    <RefLocLat>37.3</RefLocLat>
+    <RefLocLon>-121.9</RefLocLon>
+    <!-- In meters -->
+    <RefLocHorError>1000</RefLocHorError>
+    <!-- In meters -->
+    <RefLocVerError>100</RefLocVerError>
+  </RefLoc>
+
+  <LocationId>
+    <!-- For field operation, NO need to load this XML file -->
+    <!-- LTSTest: /system/etc/LocationId.xml -->
+    <IsLocIdOverWrite>No</IsLocIdOverWrite>
+    <LocIdConfigFile>/data/gps/LocationId.xml</LocIdConfigFile>
+  </LocationId>
+
+  <CellId>
+    <!-- Set this to Yes to use configuration settings --> 
+    <CellIdOverWrite>No</CellIdOverWrite>
+    <!-- GSM=1 WCDMA=2 LTE=4 -->
+    <CellIdType>1</CellIdType>
+    <CellIdMcc>114</CellIdMcc>
+    <CellIdMnc>115</CellIdMnc>
+    <CellIdLac>116</CellIdLac>
+    <CellIdCid>117</CellIdCid>
+  </CellId>
+ 
+  <Mems>
+    <IsMemsAccelEnable>Yes</IsMemsAccelEnable>
+    <IsMemsMagnEnable>Yes</IsMemsMagnEnable>
+    <IsMemsGyroEnable>Yes</IsMemsGyroEnable>
+  </Mems>
+   
+  <!-- Debug level and debug level filtering for SiRFNav -->
+  <SiRFInternalDebug>
+    <!-- 0 = Clears all individual debug levels and disables debug level
+       filtering, Enable Level 1 flag (all modules)
+       1 = Add Level. Copies all individual debug levels (below),
+       Enable Level 1 flag (all modules) ,
+       2 = Turn off Level 1 flag (all modules), does NOT disable debug
+       level filtering (if enabled), need to use 0 to set defaults.
+       3 = Turn off Level 1 flag (all modules), Copies all individual
+       debug levels (below) and enable Debug Level Filtering -->
+    <DebugLevel>1</DebugLevel>
+    <!-- DSP,     INTC,    KA,        HWTIMER, UART,    MEMORY,  PWRCLK,
+         MISC,    SPI,     CBHANDLER, CHDEVICE,INSAMPLE,AGC,     CLKGEN,
+         ATXCTRL, ACQ,     TRACK,     XCOR,    CW,      DGPSTRK, DRM,
+         OS,      RESET,   PWRMGRCTRL,CTRLPLATDATA,     NVM -->
+    <Filter1>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</Filter1>
+    <!-- HOSTIO,   MITASK,    UIDBG,     PWRMGRLOGIC,    AIDING,  CTRLDATA,
+         GPSRXCTRL,ATXCTRLMGR,VISLIST,   MIGPS,          NAV,     DGPSAPP,
+         BEP,      SL,        UIGPS,     SSB,            NMEA,    QOS,
+         SVDATA,   TASKCTRL,  SPISLV,    MEI,            SIF,     ACT,
+         DUMMY1 -->
+    <Filter2>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</Filter2>
+  </SiRFInternalDebug>
+
+  <LocTech>
+    <!-- The primary GNSS constellation to be used -->
+    <!-- GPS=0x00 GLO=0x01 GAL=0x02 BDS=0x03 -->
+    <PrimaryConst>0x00</PrimaryConst>
+
+    <!-- Bit masks indicating technologies which are:
+         Constraints: Enabled for usage (unconstrained)
+         Requirements: Required to be used
+         GPS= 0x0001 GLO= 0x0002 GALILEO=  0x0004 COMPASS=0x0008
+         SBAS=0x0010 QZSS=0x0020 QZSS_IMES=0x0040 MGPS=   0x0080
+         EOTD=0x0400 CELL=0x0800 WIFI=     0x1000 MEMS=   0x8000
+    -->
+    <Constraints>0x003F</Constraints>
+    <Requirements>0x003F</Requirements>
+  </LocTech>
+
+  <!-- Whether to enable static nav feature -->
+  <StaticNav>Yes</StaticNav>
+
+  <PosReq>
+    <Repeat>1</Repeat>
+    <Delay>1</Delay>
+    <!-- Default=0 AreaEventTrigger=1 PeriodicTrigger=2 MOLR=3 -->
+    <PosReqType>0</PosReqType>
+    
+    <PositionParams>
+      <!-- InfinitiveNumberOfFixes=0 -->
+      <NumOfFixes>30000</NumOfFixes>
+      <!-- Range: [1, 65535] -->
+      <TimeBetweenFixes>1</TimeBetweenFixes>
+      <!-- In meters -->
+      <HorizontalAccuracy>100</HorizontalAccuracy>
+      <!-- In meters -->
+      <VerticalAccuracy>200</VerticalAccuracy>
+      <!-- In seconds -->
+      <MaxResponseTime>128</MaxResponseTime>
+      <!-- In seconds NoAge=0 -->
+      <MaxLocAge>0</MaxLocAge>
+      <!-- NoPriority=0 Time=1 Accuracy=2 UseEntireTime=3 -->
+      <Priority>0</Priority>
+      <!-- MSA=0 MSB=1 NONE=2 -->
+      <PreferredMethod>1</PreferredMethod>
+      <IsNMEA>Yes</IsNMEA>
+      <IsMeasurement>No</IsMeasurement>
+      <IsPosition>Yes</IsPosition>
+      <IsOSPPosition>Yes</IsOSPPosition>
+      <IsAllOSP>No</IsAllOSP>
+      <IsCostAllowed>Yes</IsCostAllowed>
+      <!-- Minimum=1 Medium=2 Maxium=3 -->
+      <PosReqPowerCtrl>3</PosReqPowerCtrl>
+      <!-- Minimum=1 Medium=2 Maxium=3 -->
+      <IdlePowerControl></IdlePowerControl>
+    </PositionParams>
+    
+    <TriggerParams>
+      <LocalGeofenceEnable>No</LocalGeofenceEnable>
+      <IsStartTime>No</IsStartTime>
+      <!-- Relative to now in seconds -->
+      <StartTime>30</StartTime>
+      <IsStopTime>No</IsStopTime>
+      <!-- Relative to now in seconds -->
+      <StopTime>240</StopTime>
+      <!-- Entering=0 Inside=1 Outside=2 Leaving=3 -->
+      <AreaEventTriggerType>0</AreaEventTriggerType>
+      <!-- Circle=1 Elipse=2 Polygon=3 -->
+      <EventTriggerShape>1</EventTriggerShape>
+      <EventTriggerCircleCenterLat>35.66667</EventTriggerCircleCenterLat>
+      <EventTriggerCircleCenterLon>139.75</EventTriggerCircleCenterLon>
+      <!-- In meters -->
+      <EventTriggerCircleRadius>1000</EventTriggerCircleRadius>
+    </TriggerParams>
+   
+    <Supl2Params>
+      <EnableCloseNiSession>Yes</EnableCloseNiSession>
+      <SuplNiUdpPort>4519</SuplNiUdpPort>
+      <QopInSuplStart>Yes</QopInSuplStart>
+      <IsThirdPartyParamsValid>No</IsThirdPartyParamsValid>
+      <ThirdPartyParamIdType>1</ThirdPartyParamIdType>
+      <ThirdPartyParamIdValueType1>MyLogicalName</ThirdPartyParamIdValueType1>
+      <SuplNiUdpPort>4520</SuplNiUdpPort>
+    </Supl2Params> 
+   
+    <PosReqParamsOverWrite>Yes</PosReqParamsOverWrite>
+  </PosReq>
+
+  <!-- This section is only for Windows SllConsoleApp -->
+  <ConsoleApp>
+    <SETId>
+      <!-- NONE=0 IMSI=1 MSISDN=2 -->
+      <SETIdType>1</SETIdType>
+      <SETIdString>1234567890123456</SETIdString>
+    </SETId>
+  
+    <SessionSet>
+      <Id>1</Id>
+      <!-- Number of concurrent sessions. Range: [1-16] -->
+      <ConCurRepeat>1</ConCurRepeat>
+      <!-- Time delay between each back-to-back session in seconds -->
+      <Delay>1</Delay>  
+    </SessionSet>
+  </ConsoleApp>
+
+  <!-- This section is only for AndroidApp -->
+  <GlueLayer>
+    <ResetOnInit>No</ResetOnInit>
+    <IsAngryGpsConfigEnable>Yes</IsAngryGpsConfigEnable>
+    <IsNmeaLogEnable>No</IsNmeaLogEnable>
+    <IsUseDelayedStart>No</IsUseDelayedStart>
+    <DelayedStartTime>0</DelayedStartTime>
+    <!-- In meters -->
+    <DefaultHorAccuracy3GPP>102</DefaultHorAccuracy3GPP>
+  </GlueLayer>
+</sllconfig>

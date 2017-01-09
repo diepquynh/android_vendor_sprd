@@ -1,0 +1,58 @@
+!!!! Note: pls modify default value by HEX  mode, heading with 0x
+ 
+typedef struct 
+{
+    uint8	pskey_cmd;
+    uint8   g_dbg_source_sink_syn_test_data;
+    uint8   g_sys_sleep_in_standby_supported;
+    uint8   g_sys_sleep_master_supported;
+    uint8   g_sys_sleep_slave_supported;
+    uint32  default_ahb_clk;
+    uint32  device_class;
+    uint32  win_ext;
+    uint32  g_aGainValue[6];
+    uint32  g_aPowerValue[5];
+    uint8   feature_set[16];
+    uint8   device_addr[6];   
+    uint8  g_sys_sco_transmit_mode;
+    uint8  g_sys_uart0_communication_supported;
+    uint8 edr_tx_edr_delay;
+    uint8 edr_rx_edr_delay;
+    uint32 g_PrintLevel;
+    uint16 uart_rx_watermark;
+    uint16 uart_flow_control_thld;
+    uint32 comp_id;
+	uint16 pcm_clk_divd;
+	uint16 half_word_reserved;
+	uint32 pcm_config;
+    uint32  reserved[8];
+}BT_PSKEY_CONFIG_INFO_T;
+
+value:
+{
+0x5,
+0,
+0x1,
+0x1,
+0x1,
+0x18cba80,
+0x001f00,
+0x1e,
+{0,0x1,0x2,0x3,0x4,0x5},
+{0Xd0418CFE,0Xd2438CFE,0Xd4438CFE,0xD6438CFE,0xd8048CFE},
+{0xFF, 0xFF, 0x8D, 0xFE, 0x9B, 0x3F, 0x79, 0x83,0xFF, 0xA7, 0xFF, 0x7F, 0x00, 0xE0, 0xF7, 0x3E},
+{0x11, 0xFF, 0x0, 0x22, 0x2D, 0xAE},
+0,
+0x1,
+0x5,
+0x0e,
+0xFFFFFFFF,
+0x30,
+0x3f,
+0,
+0x65,
+0,
+0,
+{0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000}
+}
+

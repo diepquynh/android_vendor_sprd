@@ -1,0 +1,14 @@
+The OpenMAX IL Bellagio package ver. 0.9.2.1 has been released. 
+The main additions to this delivery are:
+	- An optional support to components quality levels has been added.
+  The global setting of quality level for a component has been added.
+  Optionally a component can provide support for Set/GetQualityLevel functions.
+  These functions will globally set a group of Parameters that 
+  represents a certain quality level. If this setting causes a change
+  in any output port parameter the PortSettingsChange event is generated.
+  The quality levels allow the IL Client to handle the resource usage of 
+  components given a quality of service policy.
+  This change is not part of the OpenMAX standard and it is an optional
+  feature of the Bellagio components. The old components are still
+  compatible with new version of Bellagio.
+

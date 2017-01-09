@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:gravity="center" >
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:background="#7F7F7F"
+            android:textSize="20dip"
+            android:text="@string/camera_selected" />
+        
+        <RadioGroup
+            android:id="@+id/camera_select"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal" >
+            
+            <RadioButton
+                android:id="@+id/main_back_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dip"
+                android:checked="true"
+                android:gravity="center"
+                android:text="@string/main_back_camera" />
+                        
+            <RadioButton
+                android:id="@+id/sub_front_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:gravity="center"
+                android:text="@string/sub_front_camera" />
+        </RadioGroup>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:gravity="left" >
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7F7F7F"
+            android:gravity="left"
+            android:textSize="20dip"
+            android:text="@string/camera_repeat_times" />
+        <EditText
+            android:id="@+id/camera_repeat_times"
+            android:inputType="date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:maxLength="7"
+            android:textColorHint="#FF000000"
+            android:hint="@string/default_repeat_times_200" />
+ 	</LinearLayout>
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:gravity="center" >
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#7F7F7F"
+            android:gravity="left"
+            android:textSize="20dip"
+            android:text="@string/camera_test_item_select" />
+        
+        <RadioGroup
+            android:id="@+id/camera_test_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+            
+            <RadioButton
+                android:id="@+id/camera_takephoto_repeat_test"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/camera_takephoto_repeat_test" />
+                        
+            <RadioButton
+                android:id="@+id/camera_switch_test"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/camera_switch_test" />
+            
+            <RadioButton
+                android:id="@+id/camera_open_off_test"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/camera_pen_off_test" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ok_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ok_button" />
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/back_return" />
+        
+    </LinearLayout>
+        
+</LinearLayout>

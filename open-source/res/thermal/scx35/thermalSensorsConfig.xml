@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<ThermalConfig>
+	<config_version>0.1</config_version>
+	<sensor>
+		<sensor_name>cpu sensor</sensor_name>
+		<sensor_file>/sys/class/thermal/thermal_zone1/temp</sensor_file>
+		<polling_delay>2000</polling_delay>
+		<AvgPeriod>120000</AvgPeriod>
+		<zone_level id="0" type="active">
+			<temp>60000</temp>
+			<trip id="0" >
+				<action name="cpu" arg="0,4,1300000" file="/sys/class/thermal/cooling_device0/cur_ctrl_param" />
+				<action name="charge" arg="0" file="/sys/class/power_supply/battery/chg_cool_state" />
+				<action name="wifi" arg="0thermal" file="/sys/class/net/wlan0/sprd_power_control/reduce_power" />
+				<action name="brightness" arg="100" file="" />
+			</trip>
+			<trip id="1" >
+				<action name="cpu" arg="1,4,1200000" file="/sys/class/thermal/cooling_device0/cur_ctrl_param" />
+				<action name="charge" arg="1" file="/sys/class/power_supply/battery/chg_cool_state" />
+				<action name="wifi" arg="1thermal" file="/sys/class/net/wlan0/sprd_power_control/reduce_power" />
+				<action name="brightness" arg="50" file="" />
+			</trip>
+			<trip id="2" >
+				<action name="cpu" arg="2,4,1000000" file="/sys/class/thermal/cooling_device0/cur_ctrl_param" />
+			</trip>
+		</zone_level>
+		<zone_level id = "1" type = "hot">
+			<temp>85000</temp>
+			<trip id="0" >
+				<action name="cpu" arg="3,3,1000000" file="/sys/class/thermal/cooling_device0/cur_ctrl_param" />
+			</trip>
+		</zone_level>
+		<zone_level id = "2" type = "hot">
+			<temp>95000</temp>
+			<trip id="0" >
+				<action name="cpu" arg="4,2,100000" file="/sys/class/thermal/cooling_device0/cur_ctrl_param" />
+			</trip>
+		</zone_level>
+		<zone_level id = "3" type = "hot">
+			<temp>105000</temp>
+			<trip id="0" >
+				<action name="cpu" arg="5,1,768000" file="/sys/class/thermal/cooling_device0/cur_ctrl_param" />
+			</trip>
+		</zone_level>
+		<zone_level id="4" type="critical">
+			<temp>110000</temp>
+			<trip id ="0" >
+				<action name="shutdown" arg="" file=""/>
+			</trip>
+		</zone_level>
+	</sensor>
+	<sensor>
+		<sensor_name>gpu sensor</sensor_name>
+		<sensor_file>/sys/class/thermal/thermal_zone2/temp</sensor_file>
+		<polling_delay>2000</polling_delay>
+		<AvgPeriod>120000</AvgPeriod>
+		<zone_level id = "1" type = "hot">
+			<temp>80000</temp>
+			<trip id="0" >
+				<action name="gpu" arg="512000" file="/sys/module/mali/parameters/gpu_freq_max_limit" />
+			</trip>
+		</zone_level>
+		<zone_level id = "2" type = "hot">
+			<temp>90000</temp>
+			<trip id="0" >
+				<action name="gpu" arg="384000" file="/sys/module/mali/parameters/gpu_freq_max_limit" />
+			</trip>
+		</zone_level>
+		<zone_level id = "3" type = "hot">
+			<temp>100000</temp>
+			<trip id="0" >
+				<action name="gpu" arg="153600" file="/sys/module/mali/parameters/gpu_freq_max_limit" />
+			</trip>
+		</zone_level>
+		<zone_level id="4" type="critical">
+			<temp>110000</temp>
+			<trip id ="0" >
+				<action name="shutdown" arg="" file=""/>
+			</trip>
+		</zone_level>
+	</sensor>
+</ThermalConfig>

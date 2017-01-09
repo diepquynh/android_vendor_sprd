@@ -1,0 +1,31 @@
+bluetoothd for Broadcom stack (BTL-A)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Copyright (C) 2009-2011 Broadcom Corporation
+
+Compilation
+===========
+
+In order to compile bluetoothd for Broadcom stack (BTL-A) you need to have the Android build system setup on your linux PC.
+
+To compile run:
+    $ ./make_bluetoothd
+bluetoothd will be available as out/target/product/generic/system/bin/bluetoothd
+The generated associated lib files will be available at out/target/product/generic/system/lib
+
+Installation
+============
+
+bluetoothd resides as /system/bin/bluetoothd on the phone.
+The lib files reside at /system/lib on the phone.
+
+bluetoothd along with the lib files needs to be built into the android system image as per Android build system.
+
+Information
+===========
+
+For information about Android build system, please visit:
+    http://developer.android.com
+
+For information about Android Open Source Project (AOSP) source code, please visit
+    http://android.git.kernel.org/

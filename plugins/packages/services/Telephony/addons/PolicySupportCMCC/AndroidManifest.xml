@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="plugin.sprd.policysupportoperator"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <application>
+        <meta-data
+            android:name="isFeatureAddon"
+            android:value="true" />
+        <meta-data
+            android:name="targetPackages"
+            android:value="com.android.internal.telephony.policy;com.android.phone" />
+        <meta-data
+            android:name="featureClassNames"
+            android:value="plugin.sprd.policysupportoperator.PolicySupportOperator" />
+
+    </application>
+
+</manifest>

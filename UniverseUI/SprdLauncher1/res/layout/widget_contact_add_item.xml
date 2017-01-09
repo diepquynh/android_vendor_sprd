@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contacts_cell_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/widgets_desktopcontact_bg" >
+
+    <ImageView
+        android:id="@+id/contacts_cell_photo"
+        android:layout_width="@dimen/add_photo_width"
+        android:layout_height="@dimen/add_photo_height"
+        android:layout_gravity="center"
+        android:src="@drawable/widgets_desktopcontact_icon_noperson" />
+    <QuickContactBadge
+        android:id="@+id/contacts_cell_badge"
+        android:layout_width="@dimen/add_photo_width"
+        android:layout_height="@dimen/add_photo_height"
+        android:layout_gravity="center"
+        style="@style/ContactBadge" />
+
+    <TextView
+        android:id="@+id/contacts_cell_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/add_photo_width"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/widgets_desktopcontact_bottom_bar"
+        android:gravity="center_horizontal"
+        android:text="@string/application_name"
+        android:textColor="#1d1d1d"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:layout_marginBottom="7dp"/>
+
+    <ImageView
+        android:id="@+id/contacts_cell_phone_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/widgets_desktopcontact_icon_phone"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/contacts_cell_phone_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="33dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/widgets_desktopcontact_icon_numb"
+        android:gravity="center"
+        android:maxWidth="10dp"
+        android:numeric="integer"
+        android:padding="1dp"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textSize="7sp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/contacts_cell_msg_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/widgets_desktopcontact_icon_message"
+        android:visibility="gone"/>
+<!-- SPRD : fix bug205301 right margin too small android:layout_marginRight="8dp"-->
+    <TextView
+        android:id="@+id/contacts_cell_msg_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="33dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/widgets_desktopcontact_icon_numb"
+        android:gravity="center"
+        android:maxWidth="10dp"
+        android:numeric="integer"
+        android:padding="1dp"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textSize="7sp"
+        android:visibility="gone"/>
+
+</FrameLayout>

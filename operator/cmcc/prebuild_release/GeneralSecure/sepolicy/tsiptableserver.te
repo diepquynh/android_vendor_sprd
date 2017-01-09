@@ -1,0 +1,12 @@
+# installer daemon
+type tsiptableserver, domain;
+type tsiptableserver_exec, exec_type, file_type;
+
+init_daemon_domain(tsiptableserver)
+typeattribute tsiptableserver mlstrustedsubject;
+
+allow tsiptableserver shell_exec:file { read open execute execute_no_trans };
+allow tsiptableserver system_file:file { execute_no_trans };
+allow tsiptableserver tsiptableserver:rawip_socket { create getopt setopt };
+allow tsiptableserver tsiptableserver:capability { net_raw net_admin };
+

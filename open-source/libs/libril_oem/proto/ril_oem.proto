@@ -1,0 +1,250 @@
+option java_package = "com.android.internal.telephony";
+option java_outer_classname = "RilOemMsg";
+option optimize_for = LITE_RUNTIME;
+
+//
+// RIL_REQUEST_OEM_HOOK_RAW instead of SPRD Request
+// funcID used to distinguish from different kinds of requests
+// subFuncId used to distinguish from different requests with same funcId.
+// For subFuncId, its meaning for different requests is introduced in the comments
+//                could refer to the definition in sprd_ril_oem.h
+//
+
+message OemMsg{
+          required FuncId funcId = 1;
+          optional SubFuncId subFuncId = 2;
+          repeated fixed32 intPayload = 3;
+          repeated string strPayload = 4;
+}
+
+enum FuncId {
+          OEM_REQ_FUNCID_UNKNOWN = 0;
+
+          //
+          // Blacklist
+          // For subFuncId : OEM_REQ_SUBFUNCID_1 corresponding to
+          //                 OEM_REQ_SUBFUNC_ID_MINMATCH 1
+          // For subFuncId : OEM_REQ_SUBFUNCID_2 corresponding to
+          //                 OEM_REQ_SUBFUNC_ID_BLACKLIST 2
+          //
+          OEM_REQ_FUNCID_CALL_BLACKLIST = 1;
+
+          //
+          // Icc Card
+          //
+          OEM_REQ_FUNCID_SIM_POWER = 2;
+
+          //
+          // Icc FDN
+          //
+          OEM_REQ_FUNCID_GET_REMAIN_TIMES = 3;
+
+          //
+          // STK Call
+          //
+          OEM_REQ_FUNCID_STK_DIAL = 4;
+
+          //
+          // Query COLR/COLP
+          // For subFuncId : OEM_REQ_SUBFUNCID_1 corresponding to
+          //                 OEM_REQ_SUBFUNCID_QUERY_COLP 1
+          // For subFuncId : OEM_REQ_SUBFUNCID_2 corresponding to
+          //                 OEM_REQ_SUBFUNCID_QUERY_COLR 2
+          //
+          OEM_REQ_FUNCID_QUERY_COLP_COLR = 5;
+
+          //
+          // MMI Enter SIM
+          //
+          OEM_REQ_FUNCID_MMI_ENTER_SIM = 6;
+
+          //
+          // Video Phone
+          // For subFuncId : OEM_REQ_SUBFUNCID_1 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VIDEOPHONE_DIAL 1
+          // For subFuncId : OEM_REQ_SUBFUNCID_2 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VIDEOPHONE_CODEC 2
+          // For subFuncId : OEM_REQ_SUBFUNCID_3 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VIDEOPHONE_HANGUP 3
+          // For subFuncId : OEM_REQ_SUBFUNCID_4 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VIDEOPHONE_ANSWER 4
+          // For subFuncId : OEM_REQ_SUBFUNCID_5 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VIDEOPHONE_FALLBACK 5
+          // For subFuncId : OEM_REQ_SUBFUNCID_6 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VIDEOPHONE_STRING 6
+          // For subFuncId : OEM_REQ_SUBFUNCID_7 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VIDEOPHONE_LOCAL_MEDIA 7
+          // For subFuncId : OEM_REQ_SUBFUNCID_8 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VIDEOPHONE_RECORD_VIDEO 8
+          // For subFuncId : OEM_REQ_SUBFUNCID_9 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VIDEOPHONE_RECORD_AUDIO 9
+          // For subFuncId : OEM_REQ_SUBFUNCID_10 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VIDEOPHONE_TEST 10
+          // For subFuncId : OEM_REQ_SUBFUNCID_11 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VIDEOPHONE_GET_CURRENT_VIDEOCALLS 11
+          // For subFuncId : OEM_REQ_SUBFUNCID_12 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VIDEOPHONE_CONTROL_IFRAME 12
+          // For subFuncId : OEM_REQ_SUBFUNCID_13 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VIDEOPHONE_SET_VOICERECORDTYPE 13
+          // For subFuncId : OEM_REQ_SUBFUNCID_14 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VIDEOPHONE_CONTROL_AUDIO 14
+          //
+          OEM_REQ_FUNCID_VIDEOPHONE = 7;
+
+          //
+          // MBBMS
+          // For subFuncId : OEM_REQ_SUBFUNCID_1 corresponding to
+          //                 OEM_REQ_SUBFUNCID_MBBMS_GSM_AUTHEN 1
+          // For subFuncId : OEM_REQ_SUBFUNCID_2 corresponding to
+          //                 OEM_REQ_SUBFUNCID_MBBMS_SIM_TYPE 2
+          //
+          OEM_REQ_FUNCID_MBBMS = 8;
+
+          //
+          // Get SIM Capacity
+          //
+          OEM_REQ_FUNCID_GET_SIM_CAPACITY = 9;
+
+          //
+          // End All Connections
+          //
+          OEM_REQ_FUNCID_END_ALL_CONNECTIONS = 10;
+
+          //
+          // Set Cmms
+          //
+          OEM_REQ_FUNCID_SET_CMMS = 11;
+
+          //
+          // CSFallBack
+          // For subFuncId : OEM_REQ_SUBFUNCID_1 corresponding to
+          //                 OEM_REQ_SUBFUNCID_CALL_CSFALLBACK_ACCEPT 1
+          // For subFuncId : OEM_REQ_SUBFUNCID_2 corresponding to
+          //                 OEM_REQ_SUBFUNCID_CALL_CSFALLBACK_REJECT 2
+          //
+          OEM_REQ_FUNCID_CSFALLBACK = 12;
+
+          //
+          // Priority Network
+          // For subFuncId : OEM_REQ_SUBFUNCID_1 corresponding to
+          //                 OEM_REQ_SUBFUNCID_SET_PRIORITY_NETWORK_MODE 1
+          // For subFuncId : OEM_REQ_SUBFUNCID_2 corresponding to
+          //                 OEM_REQ_SUBFUNCID_GET_PRIORITY_NETWORK_MODE 2
+          //
+          OEM_REQ_FUNCID_PRIORITY_NETWORK = 13;
+
+          //
+          // Band Info
+          //
+          OEM_REQ_FUNCID_GET_BAND_INFO = 14;
+
+          //
+          //Switch 3_wire/BT/Wifi
+          // For subFuncId : OEM_REQ_SUBFUNCID_1 corresponding to
+          //                 OEM_REQ_SUBFUNCID_SWITCH_BAND_INFO_REPORT 1
+          // For subFuncId : OEM_REQ_SUBFUNCID_2 corresponding to
+          //                 OEM_REQ_SUBFUNCID_SWITCH_3_WIRE 2
+          // For subFuncId : OEM_REQ_SUBFUNCID_3 corresponding to
+          //                 OEM_REQ_SUBFUNCID_SWITCH_BT 3
+          // For subFuncId : OEM_REQ_SUBFUNCID_4 corresponding to
+          //                 OEM_REQ_SUBFUNCID_SWITCH_WIFI 4
+          //
+          OEM_REQ_FUNCID_SWITCH = 15;
+
+          //
+          // Stop Query Available Networks
+          //
+          OEM_REQ_FUNCID_STOP_QUERY_AVAILABLE_NETWORKS = 16;
+
+          //
+          // Init ISIM
+          //
+          OEM_REQ_FUNCID_INIT_ISIM = 17;
+
+          //
+          // IMS
+          // For subFuncId : OEM_REQ_SUBFUNCID_1 corresponding to
+          //                 OEM_REQ_SUBFUNCID_SET_IMS_VOICE_CALL_AVAILABILITY 1
+          // For subFuncId : OEM_REQ_SUBFUNCID_2 corresponding to
+          //                 OEM_REQ_SUBFUNCID_GET_IMS_VOICE_CALL_AVAILABILITY 2
+          // For subFuncId : OEM_REQ_SUBFUNCID_3 corresponding to
+          //                 OEM_REQ_SUBFUNCID_REGISTER_IMS_IMPU 3
+          // For subFuncId : OEM_REQ_SUBFUNCID_4 corresponding to
+          //                 OEM_REQ_SUBFUNCID_REGISTER_IMS_IMPI 4
+          // For subFuncId : OEM_REQ_SUBFUNCID_5 corresponding to
+          //                 OEM_REQ_SUBFUNCID_REGISTER_IMS_DOMAIN 5
+          // For subFuncId : OEM_REQ_SUBFUNCID_6 corresponding to
+          //                 OEM_REQ_SUBFUNCID_REGISTER_IMS_IMEI 6
+          // For subFuncId : OEM_REQ_SUBFUNCID_7 corresponding to
+          //                 OEM_REQ_SUBFUNCID_REGISTER_IMS_XCAP 7
+          // For subFuncId : OEM_REQ_SUBFUNCID_8 corresponding to
+          //                 OEM_REQ_SUBFUNCID_REGISTER_IMS_BSF 8
+          // For subFuncId : OEM_REQ_SUBFUNCID_9 corresponding to
+          //                 OEM_REQ_SUBFUNCID_DISABLE_IMS 9
+          // For subFuncId : OEM_REQ_SUBFUNCID_10 corresponding to
+          //                 OEM_REQ_SUBFUNCID_SET_IMS_SMSC 10
+          // For subFuncId : OEM_REQ_SUBFUNCID_11 corresponding to
+          //                 OEM_REQ_SUBFUNCID_SET_INITIAL_ATTACH_IMS_APN 11
+          //
+          OEM_REQ_FUNCID_IMS = 18;
+
+          //
+          // Volte
+          // For subFuncId : OEM_REQ_SUBFUNCID_1 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VOLTE_CALL_FALL_BACK_TO_VOICE 1
+          // For subFuncId : OEM_REQ_SUBFUNCID_2 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VOLTE_INITIAL_GROUP_CALL 2
+          // For subFuncId : OEM_REQ_SUBFUNCID_3 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VOLTE_ADD_TO_GROUP_CALL 3
+          // For subFuncId : OEM_REQ_SUBFUNCID_4 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VOLTE_SET_CONFERENCE_URI 4
+          // For subFuncId : OEM_REQ_SUBFUNCID_5 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VOLTE_CALL_REQUEST_MEDIA_CHANGE 5
+          // For subFuncId : OEM_REQ_SUBFUNCID_6 corresponding to
+          //                 OEM_REQ_SUBFUNCID_VOLTE_CALL_RESPONSE_MEDIA_CHANGE 6
+          // For subFuncId : OEM_REQ_SUBFUNCID_7 corresponding to
+          //                 OEM_REQ_SUBFUNCID_GET_CURRENT_CALLS_VOLTE 7
+          //
+          OEM_REQ_FUNCID_VOLTE = 19;
+
+          // Enable Broadcase SMS
+          OEM_REQ_FUNCID_ENABLE_BROADCAST_SMS = 20;
+
+          //
+          // Simlock
+          // For subFuncId : OEM_REQ_SUBFUNCID_1 corresponding to
+          //                 OEM_REQ_SUBFUNCID_GET_SIMLOCK_REMAIN_TIMES 1
+          // For subFuncId : OEM_REQ_SUBFUNCID_2 corresponding to
+          //                 OEM_REQ_SUBFUNCID_GET_SIMLOCK_STATUS 2
+          // For subFuncId : OEM_REQ_SUBFUNCID_3 corresponding to
+          //                 OEM_REQ_SUBFUNCID_GET_SIMLOCK_DUMMYS 3
+          // For subFuncId : OEM_REQ_SUBFUNCID_4 corresponding to
+          //                 OEM_REQ_SUBFUNCID_GET_SIMLOCK_WHITELIST 4
+          //
+          OEM_REQ_FUNCID_SIMLOCK = 21;
+}
+
+
+enum SubFuncId {
+          OEM_REQ_SUBFUNCID_1 = 1;
+          OEM_REQ_SUBFUNCID_2 = 2;
+          OEM_REQ_SUBFUNCID_3 = 3;
+          OEM_REQ_SUBFUNCID_4 = 4;
+          OEM_REQ_SUBFUNCID_5 = 5;
+          OEM_REQ_SUBFUNCID_6 = 6;
+          OEM_REQ_SUBFUNCID_7 = 7;
+          OEM_REQ_SUBFUNCID_8 = 8;
+          OEM_REQ_SUBFUNCID_9 = 9;
+          OEM_REQ_SUBFUNCID_10 = 10;
+          OEM_REQ_SUBFUNCID_11 = 11;
+          OEM_REQ_SUBFUNCID_12 = 12;
+          OEM_REQ_SUBFUNCID_13 = 13;
+          OEM_REQ_SUBFUNCID_14 = 14;
+}
+
+
+
+
+
+
+

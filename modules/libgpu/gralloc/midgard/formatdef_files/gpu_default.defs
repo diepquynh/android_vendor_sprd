@@ -1,0 +1,82 @@
+/*
+ * Copyright (C) 2014 ARM Limited. All rights reserved.
+ *
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+#include <cutils/memory.h>
+
+static int16_t pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_LAST];
+
+static void gpu_read_blkinit(struct hwblk *blk,int16_t **array)
+{
+	android_memset16((uint16_t*) pref_formats, (uint16_t) DEFAULT_WEIGHT_UNSUPPORTED, sizeof(uint16_t) * GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_LAST);
+
+	blk->usage = GRALLOC_USAGE_HW_TEXTURE |
+		     GRALLOC_USAGE_HW_VIDEO_ENCODER |
+		     GRALLOC_USAGE_HW_CAMERA_MASK |
+		     GRALLOC_USAGE_VIDEO_BUFFER |
+		     GRALLOC_USAGE_CAMERA_BUFFER |
+		     GRALLOC_USAGE_HW_TILE_ALIGN;
+
+	/* Compatible internal formats for a specific input format will also be initialized */
+	/* Preference on RGBA compared to BGRA because of GLES readback */
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_RGBA_8888] = DEFAULT_WEIGHT_SUPPORTED+10;
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_RGBX_8888] = DEFAULT_WEIGHT_SUPPORTED;
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_BGRA_8888] = DEFAULT_WEIGHT_SUPPORTED;
+
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_RGB_888] = DEFAULT_WEIGHT_SUPPORTED;
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_RGB_565] = DEFAULT_WEIGHT_SUPPORTED;
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_YV12] = DEFAULT_WEIGHT_SUPPORTED;
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_NV12] = DEFAULT_WEIGHT_SUPPORTED;
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_NV21] = DEFAULT_WEIGHT_SUPPORTED;
+
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_sRGB_A_8888] = DEFAULT_WEIGHT_SUPPORTED;
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_sRGB_X_8888] = DEFAULT_WEIGHT_SUPPORTED;
+
+	*array = pref_formats;
+}
+
+
+static void gpu_write_blkinit(struct hwblk *blk,int16_t **array)
+{
+	android_memset16((uint16_t*) pref_formats, (uint16_t) DEFAULT_WEIGHT_UNSUPPORTED, sizeof(uint16_t) * GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_LAST);
+
+	blk->usage = GRALLOC_USAGE_HW_RENDER |
+		     GRALLOC_USAGE_HW_VIDEO_ENCODER |
+		     GRALLOC_USAGE_HW_CAMERA_MASK |
+		     GRALLOC_USAGE_OVERLAY_BUFFER |
+		     GRALLOC_USAGE_VIDEO_BUFFER |
+		     GRALLOC_USAGE_CAMERA_BUFFER |
+		     GRALLOC_USAGE_HW_TILE_ALIGN;
+
+	/* Compatible internal formats for a specific input format will also be initialized */
+	/* Preference on RGBA compared to BGRA because of GLES readback */
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_RGBA_8888] = DEFAULT_WEIGHT_SUPPORTED+10;
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_RGBX_8888] = DEFAULT_WEIGHT_SUPPORTED;
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_BGRA_8888] = DEFAULT_WEIGHT_SUPPORTED;
+
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_RGB_888] = DEFAULT_WEIGHT_SUPPORTED;
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_RGB_565] = DEFAULT_WEIGHT_SUPPORTED;
+
+    pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_YV12] = DEFAULT_WEIGHT_SUPPORTED;
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_NV12] = DEFAULT_WEIGHT_SUPPORTED;
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_NV21] = DEFAULT_WEIGHT_SUPPORTED;
+
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_sRGB_A_8888] = DEFAULT_WEIGHT_SUPPORTED;
+	pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_sRGB_X_8888] = DEFAULT_WEIGHT_SUPPORTED;
+
+	*array = pref_formats;
+}

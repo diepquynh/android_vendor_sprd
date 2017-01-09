@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 显示记录时ListView中每一行的布局方式 -->
+<LinearLayout
+	android:id="@+id/delete_softkey"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:layout_gravity="bottom" 
+
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+	<Button
+		android:id="@+id/Delete_OK"
+		android:layout_width="160dip"
+		android:layout_height="wrap_content"
+
+		android:textSize="18sp"
+		android:textStyle="bold"
+		android:textColor="@color/black"
+        android:gravity="center"
+		android:layout_gravity="bottom" 
+        android:layout_centerVertical="true"
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+
+		/>
+
+	<Button
+		android:id="@+id/Delete_CANCEL"		
+		android:layout_width="160dip"
+		android:layout_height="wrap_content"
+
+		android:textSize="18sp"
+		android:textStyle="bold"
+		android:textColor="@color/black"
+        android:gravity="center"
+		android:layout_gravity="bottom" 
+        android:layout_centerVertical="true"
+
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+
+		/>
+	
+</LinearLayout>

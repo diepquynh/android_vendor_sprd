@@ -1,0 +1,32 @@
+Pinmap介绍：
+
+1.PinMapChipData文件夹存放原始数据文件(CSV文件和CFG文件)。
+
+2.CSV文件和CFG文件同时存在，则可以在工具New Pinmap界面选择该工程。
+
+3.PinMapPrjData文件夹存放了一个默认生成的工程，供参考使用。
+
+4.Prj文件为工程文件，所有界面信息都存储在里面。
+
+5.CFG文件为配置文件，输出文件的值依赖该文件。
+
+6.h文件为输出文件。
+
+7.New Pinmap按钮，创建一个新的工程。(工程信息来自于PinMapChipData文件夹)
+
+8.Open Pinmap按钮，打开一个存在的工程。(工程文件为.prj文件)
+
+9.Save Pinmap按钮，保存当前编辑的工程。(生成或者修改已经存在的.h,.prj,.cfg文件)
+
+10.Tool.ini文件可以配置界面控件类型，例如：“label”控件无法编辑
+	I/O Name          = label
+	Int Mode          = CHECKBOX
+	Function Sel      = list
+	Drive Strength    = list
+	Active Pull       = list
+	Slepp I/O         = label
+	Sleep Pull        = label
+	Sleep With        = list
+	Remark            = label
+
+

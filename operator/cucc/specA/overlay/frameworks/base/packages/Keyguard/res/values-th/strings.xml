@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="keyguard_password_enter_pin_code">"พิมพ์รหัส PIN"</string>
+<string name="keyguard_password_enter_puk_code">"พิมพ์ PUK และรหัส PIN ใหม่"</string>
+<string name="keyguard_password_enter_puk_prompt">"รหัส PUK ของซิม"</string>
+<string name="keyguard_password_enter_pin_prompt">"รหัส PIN ของซิมใหม่"</string>
+<string name="keyguard_password_entry_touch_hint">"<font size="17">"แตะเพื่อพิมพ์รหัสผ่าน"</font>"</string>
+<string name="keyguard_password_enter_password_code">"พิมพ์รหัสผ่านเพื่อปลดล็อก"</string>
+<string name="keyguard_password_enter_pin_password_code">"พิมพ์ PIN เพื่อปลดล็อก"</string>
+<string name="keyguard_password_wrong_pin_code">"รหัส PIN ไม่ถูกต้อง"</string>
+<string name="keyguard_label_text">"หากต้องการปลดล็อก กด เมนู ตามด้วย 0"</string>
+<string name="faceunlock_multiple_failures">"มีความพยายามที่จะใช้ Face Unlock เกินขีดจำกัด"</string>
+<string name="keyguard_charged">"ชาร์จแล้ว"</string>
+<string name="keyguard_plugged_in">"กำลังชาร์จ"</string>
+<string name="keyguard_low_battery">"เสียบที่ชาร์จของคุณ"</string>
+<string name="keyguard_instructions_when_pattern_disabled">"กด เมนู เพื่อปลดล็อก"</string>
+<string name="keyguard_network_locked_message">"ล็อกเครือข่ายไว้"</string>
+<string name="keyguard_missing_sim_message_short">ไม่มีSIMการ์ด</string>
+<string name="keyguard_missing_sim_message" product="tablet">"ไม่มีซิมการ์ดในแท็บเล็ต"</string>
+<string name="keyguard_missing_sim_message" product="default">"ไม่มีซิมการ์ดในโทรศัพท์"</string>
+<string name="keyguard_missing_sim_instructions">"ใส่ซิมการ์ด"</string>
+<string name="keyguard_missing_sim_instructions_long">"ไม่มีหรือไม่สามารถอ่านซิมการ์ดได้ โปรดใส่ซิมการ์ด"</string>
+<string name="keyguard_permanent_disabled_sim_message_short">"ซิมการ์ดใช้ไม่ได้"</string>
+<string name="keyguard_permanent_disabled_sim_instructions">"ซิมการ์ดของคุณถูกปิดใช้งานอย่างถาวร\nติดต่อผู้ให้บริการระบบไร้สายของคุณเพื่อรับซิมการ์ดใหม่"</string>
+<string name="keyguard_sim_locked_message">"ซิมการ์ดถูกล็อก"</string>
+<string name="keyguard_sim_puk_locked_message">"ซิมการ์ดถูกล็อกด้วย PUK"</string>
+<string name="keyguard_sim_unlock_progress_dialog_message">"กำลังปลดล็อกซิมการ์ด…"</string>
+<string name="keyguard_accessibility_widget_changed">"%1$s วิดเจ็ต %2$d ของ %3$d"</string>
+<string name="keyguard_accessibility_add_widget">"เพิ่มวิดเจ็ต"</string>
+<string name="keyguard_accessibility_widget_empty_slot">ว่าง</string>
+<string name="keyguard_accessibility_unlock_area_expanded">"ขยายพื้นที่ปลดล็อกแล้ว"</string>
+<string name="keyguard_accessibility_unlock_area_collapsed">"ยุบพื้นที่ปลดล็อกแล้ว"</string>
+<string name="keyguard_accessibility_widget">"วิดเจ็ต <xliff:g id="WIDGET_INDEX">%1$s</xliff:g>"</string>
+<string name="keyguard_accessibility_user_selector">"ตัวเลือกผู้ใช้"</string>
+<string name="keyguard_accessibility_status">"รายงานการส่ง"</string>
+<string name="keyguard_accessibility_camera">"กล้อง"</string>
+<string name="keygaurd_accessibility_media_controls">"การควบคุมสื่อ"</string>
+<string name="keyguard_accessibility_widget_reorder_start">"เริ่มเรียงลำดับวิดเจ็ตใหม่"</string>
+<string name="keyguard_accessibility_widget_reorder_end">"เรียงลำดับวิดเจ็ตใหม่เสร็จแล้ว"</string>
+<string name="keyguard_accessibility_widget_deleted">"ลบวิดเจ็ต <xliff:g id="WIDGET_INDEX">%1$s</xliff:g> แล้ว"</string>
+<string name="keyguard_accessibility_expand_lock_area">"ขยายพื้นที่ปลดล็อก"</string>
+<string name="keyguard_accessibility_slide_unlock">"การปลดล็อกด้วยการเลื่อน"</string>
+<string name="keyguard_accessibility_pattern_unlock">"การปลดล็อกด้วยรูปแบบ"</string>
+<string name="keyguard_accessibility_face_unlock">"การปลดล็อกด้วยใบหน้า"</string>
+<string name="keyguard_accessibility_pin_unlock">"การปลดล็อกด้วย PIN"</string>
+<string name="keyguard_accessibility_password_unlock">"การปลดล็อกด้วยรหัสผ่าน"</string>
+<string name="keyguard_accessibility_pattern_area">"พื้นที่สำหรับรูปแบบ"</string>
+<string name="keyguard_accessibility_slide_area">"พื้นที่สำหรับการเลื่อน"</string>
+<string name="keyguard_accessibility_transport_prev_description">"ปุ่มแทร็กก่อนหน้า"</string>
+<string name="keyguard_accessibility_transport_next_description">"ปุ่มแทร็กถัดไป"</string>
+<string name="keyguard_accessibility_transport_pause_description">"ปุ่มหยุดชั่วคราว"</string>
+<string name="keyguard_accessibility_transport_play_description">"ปุ่มเล่น"</string>
+<string name="keyguard_accessibility_transport_stop_description">"ปุ่มหยุด"</string>
+<string name="keyguard_accessibility_transport_thumbs_up_description">"สุดยอด"</string>
+<string name="keyguard_accessibility_transport_thumbs_down_description">"ไม่ชอบ"</string>
+<string name="keyguard_accessibility_transport_heart_description">"หัวใจ"</string>
+<string name="keyguard_accessibility_show_bouncer">"ปลดล็อกเพื่อดำเนินการต่อ"</string>
+<string name="keyguard_accessibility_hide_bouncer">"ยกเลิกการเปิดใช้งานแล้ว"</string>
+<string name="keyguard_accessibility_delete_widget_start">"ลาก <xliff:g id="WIDGET_INDEX">%1$s</xliff:g> เพื่อลบ"</string>
+<string name="keyguard_accessibility_delete_widget_end">"<xliff:g id="WIDGET_INDEX">%1$s</xliff:g> จะไม่ถูกลบ"</string>
+<string name="password_keyboard_label_symbol_key">"?123"</string>
+<string name="keyboardview_keycode_cancel">"ยกเลิก"</string>
+<string name="keyboardview_keycode_done">"เสร็จสิ้น"</string>
+<string name="keyboardview_keycode_mode_change">"เปลี่ยนโหมด"</string>
+<string name="description_target_unlock">"ปลดล็อก"</string>
+<string name="description_target_camera">"กล้อง"</string>
+<string name="description_target_silent">"ปิดเสียง"</string>
+<string name="description_target_soundon">"เปิดเสียง"</string>
+<string name="description_target_search">"ค้นหา"</string>
+<string name="description_direction_up">"เลื่อนขึ้นเพื่อ <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>"</string>
+<string name="description_direction_down">"เลื่อนลงเพื่อ <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>"</string>
+<string name="description_direction_left">"เลื่อนไปทางซ้ายเพื่อ <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>"</string>
+<string name="description_direction_right">"เลื่อนไปทางขวาเพื่อ <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>"</string>
+<string name="user_switched">"ผู้ใช้ปัจจุบัน <xliff:g id="NAME">%1$s</xliff:g>"</string>
+<string name="kg_emergency_call_label">"หมายเลขฉุกเฉิน"</string>
+<string name="kg_forgot_pattern_button_text">"ลืมรูปแบบใช่หรือไม่"</string>
+<string name="kg_wrong_pattern">"รูปแบบไม่ถูกต้อง"</string>
+<string name="kg_wrong_password">"รหัสผ่านไม่ถูกต้อง"</string>
+<string name="kg_wrong_pin">"PIN ไม่ถูกต้อง"</string>
+<string name="kg_too_many_failed_attempts_countdown">"ลองใหม่อีกครั้งใน <xliff:g id="NUMBER">%d</xliff:g> วินาที"</string>
+<string name="kg_pattern_instructions">"วาดรูปแบบของคุณ"</string>
+<string name="kg_sim_pin_instructions">"ป้อน PIN ของซิม"</string>
+<string name="kg_pin_instructions">"ป้อน PIN"</string>
+<string name="kg_password_instructions">"ป้อนรหัสผ่าน"</string>
+<string name="kg_puk_enter_puk_hint">"ซิมการ์ดถูกปิดใช้งานแล้วในตอนนี้ ป้อนรหัส PUK เพื่อดำเนินการต่อ โปรดติดต่อผู้ให้บริการสำหรับรายละเอียด"</string>
+<string name="kg_puk_enter_pin_hint">"ป้อนรหัส PIN ที่ต้องการ"</string>
+<string name="kg_enter_confirm_pin_hint">"ยืนยันรหัส PIN ที่ต้องการ"</string>
+<string name="kg_sim_unlock_progress_dialog_message">"กำลังปลดล็อกซิมการ์ด…"</string>
+<string name="kg_invalid_sim_pin_hint">"พิมพ์ PIN ซึ่งเป็นเลข 4-8 หลัก"</string>
+<string name="kg_invalid_sim_puk_hint">"รหัส PUK ต้องเป็นตัวเลขอย่างน้อย 8 หลัก"</string>
+<string name="kg_invalid_puk">"ใส่รหัส PUK ที่ถูกต้องอีกครั้ง การพยายามซ้ำหลายครั้งจะทำให้ซิมการ์ดถูกปิดใช้งานอย่างถาวร"</string>
+<string name="kg_invalid_confirm_pin_hint" product="default">"รหัส PIN ไม่ตรง"</string>
+<string name="kg_login_too_many_attempts">"ลองหลายรูปแบบมากเกินไป"</string>
+<string name="kg_login_instructions">"หากต้องการปลดล็อก ให้ลงชื่อเข้าใช้ด้วยบัญชี Google ของคุณ"</string>
+<string name="kg_login_username_hint">"ชื่อผู้ใช้ (อีเมล)"</string>
+<string name="kg_login_password_hint">"รหัสผ่าน"</string>
+<string name="kg_login_submit_button">"ลงชื่อเข้าใช้"</string>
+<string name="kg_login_invalid_input">"ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง"</string>
+<string name="kg_login_account_recovery_hint">""หากลืมชื่อผู้ใช้หรือรหัสผ่าน\nโปรดไปที่ "<b>"google.com/accounts/recovery"</b>"</string>
+<string name="kg_login_checking_password">"กำลังตรวจสอบบัญชี…"</string>
+<string name="kg_too_many_failed_pin_attempts_dialog_message">"คุณพิมพ์ PIN ไม่ถูกต้องไป <xliff:g id="NUMBER_0">%d</xliff:g> ครั้งแล้ว \n\nโปรดลองอีกครั้งใน <xliff:g id="NUMBER_1">%d</xliff:g> วินาที"</string>
+<string name="kg_too_many_failed_password_attempts_dialog_message">"คุณพิมพ์รหัสผ่านไม่ถูกต้องไป <xliff:g id="NUMBER_0">%d</xliff:g> ครั้งแล้ว \n\nโปรดลองอีกครั้งใน <xliff:g id="NUMBER_1">%d</xliff:g> วินาที"</string>
+<string name="kg_too_many_failed_pattern_attempts_dialog_message">"คุณวาดรูปแบบการปลดล็อกไม่ถูกต้องไป <xliff:g id="NUMBER_0">%d</xliff:g> ครั้งแล้ว \n\nโปรดลองอีกครั้งใน <xliff:g id="NUMBER_1">%d</xliff:g> วินาที"</string>
+<string name="kg_failed_attempts_almost_at_wipe" product="tablet">"คุณพยายามปลดล็อกแท็บเล็ตอย่างไม่ถูกต้อง <xliff:g id="NUMBER_0">%d</xliff:g> ครั้งแล้ว หากพยายามแล้วไม่สำเร็จอีก <xliff:g id="NUMBER_1">%d</xliff:g> ครั้ง แท็บเล็ตจะถูกรีเซ็ตเป็นค่าเริ่มต้นจากโรงงานและข้อมูลผู้ใช้ทั้งหมดจะหายไป"</string>
+<string name="kg_failed_attempts_almost_at_wipe" product="default">"คุณพยายามปลดล็อกโทรศัพท์อย่างไม่ถูกต้อง <xliff:g id="NUMBER_0">%d</xliff:g> ครั้งแล้ว หากพยายามแล้วไม่สำเร็จอีก <xliff:g id="NUMBER_1">%d</xliff:g> ครั้ง โทรศัพท์จะถูกรีเซ็ตเป็นค่าเริ่มต้นจากโรงงานและข้อมูลผู้ใช้ทั้งหมดจะหายไป"</string>
+<string name="kg_failed_attempts_now_wiping" product="tablet">"คุณพยายามปลดล็อกแท็บเล็ตอย่างไม่ถูกต้อง <xliff:g id="NUMBER">%d</xliff:g> ครั้งแล้ว ขณะนี้แท็บเล็ตจะถูกรีเซ็ตเป็นค่าเริ่มต้นจากโรงงาน"</string>
+<string name="kg_failed_attempts_now_wiping" product="default">"คุณพยายามปลดล็อกโทรศัพท์อย่างไม่ถูกต้อง <xliff:g id="NUMBER">%d</xliff:g> ครั้งแล้ว ขณะนี้โทรศัพท์จะถูกรีเซ็ตเป็นค่าเริ่มต้นจากโรงงาน"</string>
+<string name="kg_failed_attempts_almost_at_login" product="tablet">"คุณวาดรูปแบบการปลดล็อกไม่ถูกต้อง <xliff:g id="NUMBER_0">%d</xliff:g> ครั้งแล้ว หากทำไม่สำเร็จอีก <xliff:g id="NUMBER_1">%d</xliff:g> ครั้ง ระบบจะขอให้คุณปลดล็อกแท็บเล็ตโดยใช้บัญชีอีเมล\n\n โปรดลองอีกครั้งใน <xliff:g id="NUMBER_2">%d</xliff:g> วินาที"</string>
+<string name="kg_failed_attempts_almost_at_login" product="default">"คุณวาดรูปแบบการปลดล็อกไม่ถูกต้อง <xliff:g id="NUMBER_0">%d</xliff:g> ครั้งแล้ว หากทำไม่สำเร็จอีก <xliff:g id="NUMBER_1">%d</xliff:g> ครั้ง ระบบจะขอให้คุณปลดล็อกโทรศัพท์โดยใช้ับัญชีอีเมล\n\n โปรดลองอีกครั้งในอีก <xliff:g id="NUMBER_2">%d</xliff:g> วินาที"</string>
+<string name="kg_text_message_separator" product="default">" — "</string>
+<string name="kg_reordering_delete_drop_target_text">"นำออก"</string>
+<plurals name="kg_password_wrong_pin_code">
+<item quantity="one">"รหัส PIN ของซิมไม่ถูกต้อง คุณสามารถพยายามได้อีก <xliff:g id="NUMBER">%d</xliff:g> ครั้งก่อนที่จะต้องติดต่อผู้ให้บริการเพื่อปลดล็อกอุปกรณ์ของคุณ"</item>
+<item quantity="other">"รหัส PIN ของซิมไม่ถูกต้อง คุณพยายามได้อีก <xliff:g id="NUMBER">%d</xliff:g> ครั้ง"</item>
+</plurals>
+<string name="keyguard_transport_prev_description">"ปุ่มแทร็กก่อนหน้า"</string>
+<string name="keyguard_transport_next_description">"ปุ่มแทร็กถัดไป"</string>
+<string name="keyguard_transport_pause_description">"ปุ่มหยุดชั่วคราว"</string>
+<string name="keyguard_transport_play_description">"ปุ่มเล่น"</string>
+<string name="keyguard_transport_stop_description">"ปุ่มหยุด"</string>
+<string name="keyguard_carrier_default">"ไม่มีบริการ"</string>
+<string name="kg_emergency_call_no_service">ไม่มีเครือข่ายที่ใช้งานได้</string>
+<string name="missed_call">สายที่ไม่ได้รับ %1$d</string>
+<string name="unread_message">ข้อความที่ยังไม่ได้อ่าน %1$d</string>
+<string name="kg_sim_pin_verify_success">"PIN ตรวจสอบความสำเร็จ"</string>
+<string name="unread_messages">"%1$d ข้อความที่ไม่ได้อ่าน"</string>
+<!-- SPRD: fixbug 451079 Add string-->
+<string name="keyguard_indication_charging_time" msgid="1757251776872835768">"กำลังชาร์จ (อีก <xliff:g id="CHARGING_TIME_LEFT">%s</xliff:g> เต็ม)"</string>
+<!-- @ -->
+
+</resources>

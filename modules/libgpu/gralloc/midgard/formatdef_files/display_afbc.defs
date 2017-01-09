@@ -1,0 +1,35 @@
+/*
+ * Copyright (C) 2014 ARM Limited. All rights reserved.
+ *
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+#include <cutils/memory.h>
+
+static void display_afbc_hwc_blkinit(struct hwblk *blk,int16_t **array)
+{
+	static int16_t hwc_pref_formats[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_LAST];
+	android_memset16((uint16_t*) hwc_pref_formats, (uint16_t) DEFAULT_WEIGHT_UNSUPPORTED, sizeof(uint16_t) * GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_LAST);
+	blk->usage = GRALLOC_USAGE_HW_COMPOSER;
+	*array = hwc_pref_formats;
+
+#if MALI_DISPLAY_VERSION == 500
+	(*array)[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_RGB_888_AFBC] = DEFAULT_WEIGHT_MOST_PREFERRED + 10;
+#elif MALI_DISPLAY_VERSION == 550
+	(*array)[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_RGBA_8888_AFBC_SPLITBLK] = DEFAULT_WEIGHT_MOST_PREFERRED + 10;
+	(*array)[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_BGRA_8888_AFBC_SPLITBLK] = DEFAULT_WEIGHT_MOST_PREFERRED + 10;
+	(*array)[GRALLOC_ARM_FORMAT_INTERNAL_INDEXED_RGB_888_AFBC_SPLITBLK] = DEFAULT_WEIGHT_MOST_PREFERRED + 10;
+#endif
+}

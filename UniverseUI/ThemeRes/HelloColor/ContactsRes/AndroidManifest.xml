@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.sprdroid.resource.contacts">
+
+	<application android:hasCode="false">
+	  <meta-data android:name="is_theme_package" android:value="true" />
+	  <meta-data android:name="target_package" android:value="com.android.contacts" />
+	  <meta-data android:name="theme_name" android:resource="@string/theme_name" />
+	</application>
+</manifest> 
+

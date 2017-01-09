@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright 2009 - 2013 Broadcom Corporation
+**
+** This program is the proprietary software of Broadcom Corporation and/or its
+** licensors, and may only be used, duplicated, modified or distributed
+** pursuant to the terms and conditions of a separate, written license
+** agreement executed between you and Broadcom (an "Authorized License").
+** Except as set forth in an Authorized License, Broadcom grants no license
+** (express or implied), right to use, or waiver of any kind with respect to
+** the Software, and Broadcom expressly reserves all rights in and to the
+** Software and all intellectual property rights therein.
+** IF YOU HAVE NO AUTHORIZED LICENSE, THEN YOU HAVE NO RIGHT TO USE THIS
+** SOFTWARE IN ANY WAY, AND SHOULD IMMEDIATELY NOTIFY BROADCOM AND DISCONTINUE
+** ALL USE OF THE SOFTWARE.
+**
+** Except as expressly set forth in the Authorized License,
+**
+** 1.     This program, including its structure, sequence and organization,
+**        constitutes the valuable trade secrets of Broadcom, and you shall
+**        use all reasonable efforts to protect the confidentiality thereof,
+**        and to use this information only in connection with your use of
+**        Broadcom integrated circuit products.
+**
+** 2.     TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SOFTWARE IS PROVIDED
+**        "AS IS" AND WITH ALL FAULTS AND BROADCOM MAKES NO PROMISES,
+**        REPRESENTATIONS OR WARRANTIES, EITHER EXPRESS, IMPLIED, STATUTORY,
+**        OR OTHERWISE, WITH RESPECT TO THE SOFTWARE.  BROADCOM SPECIFICALLY
+**        DISCLAIMS ANY AND ALL IMPLIED WARRANTIES OF TITLE, MERCHANTABILITY,
+**        NONINFRINGEMENT, FITNESS FOR A PARTICULAR PURPOSE, LACK OF VIRUSES,
+**        ACCURACY OR COMPLETENESS, QUIET ENJOYMENT, QUIET POSSESSION OR
+**        CORRESPONDENCE TO DESCRIPTION. YOU ASSUME THE ENTIRE RISK ARISING OUT
+**        OF USE OR PERFORMANCE OF THE SOFTWARE.
+**
+** 3.     TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL BROADCOM OR
+**        ITS LICENSORS BE LIABLE FOR
+**        (i)   CONSEQUENTIAL, INCIDENTAL, SPECIAL, INDIRECT, OR EXEMPLARY
+**              DAMAGES WHATSOEVER ARISING OUT OF OR IN ANY WAY RELATING TO
+**              YOUR USE OF OR INABILITY TO USE THE SOFTWARE EVEN IF BROADCOM
+**              HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES; OR
+**        (ii)  ANY AMOUNT IN EXCESS OF THE AMOUNT ACTUALLY PAID FOR THE
+**              SOFTWARE ITSELF OR U.S. $1, WHICHEVER IS GREATER. THESE
+**              LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF
+**              ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
+*/
+-->
+
+<resources>
+
+    <!-- FM audio mode selection dialog resources -->
+    <string-array name="fm_audio_modes">
+        <item>Automatic</item>
+        <item>Stereo</item>
+        <item>Mono</item>
+        <item>Switch</item>
+    </string-array>
+    <string-array name="fm_audio_modes_vals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="fm_transmit_audio_modes">
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="fm_transmit_audio_modes_vals">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- FM audio path selection dialog resources -->
+    <string-array name="fm_audio_path">
+        <item>None</item>
+        <item>Speaker</item>
+        <item>Wired Headset</item>
+    </string-array>
+    <string-array name="fm_audio_path_vals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <!-- <item>3</item>	DIGITAL (I2S) -->
+    </string-array>
+    <string-array name="fm_transmit_audio_path">
+        <item>I2S (DIGITAL)</item>
+        <item>ADC</item>
+        <item>HCI</item>
+    </string-array>
+    <string-array name="fm_transmit_audio_path_vals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- FM scan step selection dialog resources -->
+    <string-array name="fm_scan_steps">
+        <item>50 kHz</item>
+        <item>100 kHz</item>
+    </string-array>
+    <string-array name="fm_scan_steps_vals">
+        <item>16</item>
+        <item>0</item>
+    </string-array>
+    <!-- FM world region selection dialog resources -->
+    <string-array name="fm_world_regions">
+        <item>United States</item>
+        <item>Europe</item>
+        <item>Japan</item>
+        <item>Japan II</item>
+    </string-array>
+    <string-array name="fm_world_regions_vals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="fm_transmit_world_regions">
+        <item>United States/Europe </item>
+        <item>Japan</item>
+    </string-array>
+    <string-array name="fm_transmit_world_regions_vals">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- FM scan step selection dialog resources -->
+    <string-array name="fm_deemphasis_times">
+        <item>50 U (US)</item>
+        <item>75 U (Europe)</item>
+    </string-array>
+    <string-array name="fm_deemphasis_times_vals">
+        <item>0</item>
+        <item>64</item>
+    </string-array>
+    <string-array name="fm_preemphasis_times">
+        <item>Off</item>
+        <item>50 U (US)</item>
+        <item>75 U (Europe)</item>
+    </string-array>
+    <string-array name="fm_preemphasis_times_vals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- FM scan step selection dialog resources -->
+    <string-array name="fm_live_polling_intervals">
+        <item>200 ms</item>
+        <item>500 ms</item>
+        <item>1 s</item>
+        <item>2 s</item>
+        <item>5 s</item>
+        <item>10 s</item>
+    </string-array>
+    <string-array name="fm_live_polling_intervals_vals">
+        <item>200</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </string-array>
+    <string-array name="fm_bandwidth">
+        <item>50 kHz</item>
+        <item>100 kHz</item>
+        <item>200 kHz</item>
+    </string-array>
+    <string-array name="fm_bandwidth_vals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="fm_interface_notification">
+        <item>NONE</item>
+        <item>RSSI BIT</item>
+        <item>AUDIO LEVEL BIT</item>
+        <item>BOTH (RSSI and AUDIO LEVEL BIT)</item>
+    </string-array>
+    <string-array name="fm_interface_notification_vals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="fm_audio_chirp">
+        <item>OFF</item>
+        <item>AUTO</item>
+        <item>MANUAL</item>
+    </string-array>
+    <string-array name="fm_audio_chirp_vals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- FM NFL Estimation mode selection dialog resources -->
+    <string-array name="fm_nfl_modes">
+        <item>LOW</item>
+        <item>MEDIUM</item>
+        <item>HIGH</item>
+    </string-array>
+    <string-array name="fm_nfl_modes_vals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- FM RDS mode selection dialog resources -->
+    <string-array name="fm_rds_modes">
+        <item>RDS OFF</item>
+        <item>RDS ON</item>
+<!--         <item>RBDS ON</item> -->
+    </string-array>
+    <string-array name="fm_rds_modes_vals">
+        <item>0</item>
+        <item>2</item>
+<!--         <item>3</item> -->
+    </string-array>
+    <string-array name="fm_rds_pty_names">
+        <item>--</item>
+        <item>News</item>
+        <item>Current Affairs</item>
+        <item>Information</item>
+        <item>Sport</item>
+        <item>Education</item>
+        <item>Drama</item>
+        <item>Culture</item>
+        <item>Science</item>
+        <item>Varied</item>
+        <item>Pop Music</item>
+        <item>Rock Music</item>
+        <item>Easy Listening</item>
+        <item>Light Music</item>
+        <item>Classical Music</item>
+        <item>Music</item>
+        <item>Weather</item>
+        <item>Finance</item>
+        <item>Children</item>
+        <item>Social</item>
+        <item>Religion</item>
+        <item>Phone In</item>
+        <item>Travel</item>
+        <item>Leisure</item>
+        <item>Jazz Music</item>
+        <item>Country Music</item>
+        <item>National Music</item>
+        <item>Oldies Music</item>
+        <item>Folk Music</item>
+        <item>Documentary</item>
+        <item>*** TEST ONLY ***</item>
+        <item>*** !!! ALARM !!! ***</item>
+    </string-array>
+
+</resources>

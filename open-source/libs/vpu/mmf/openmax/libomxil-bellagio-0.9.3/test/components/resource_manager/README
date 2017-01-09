@@ -1,0 +1,17 @@
+OMXRMTEST
+omxrmtest OMX_name [-i max_comp]
+This test allocates and puts to idle n istances of OMX_name component.
+n can be max_comp or an internal default value of 5
+If the maximum number of instances of the compoentn is less that n the last component 
+that went to idle is put into wait for resources state. If the system works the component 
+that fails to go to Ilde will be automatically put in Idle.
+
+This test is succesful when the execution is completed.
+If the resource management is tested a string will notify it.
+
+OMXPRIORITYTEST
+omxprioritytest OMX_name [-i max_comp]
+This test is similar to the first one. In this case the last good component is not switched back to loaded,
+but the first failing component is provided with an higher priority so that one of the other components
+are pre-empted by the resource manager.
+

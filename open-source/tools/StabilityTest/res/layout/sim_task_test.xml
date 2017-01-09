@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test_duration_lable"/>
+
+    <EditText
+        android:id="@+id/edit_duration"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test_number_lable" />
+
+    <EditText
+        android:id="@+id/edit_number"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test_call_duration_lable" />
+
+    <EditText
+        android:id="@+id/edit_call_duration"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test_r_w_frequency_lable" />
+
+    <EditText
+        android:id="@+id/edit_r_w_frequency"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <CheckBox
+        android:id="@+id/check_task_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test_task_reset_lable" 
+        android:checked="true"/>
+        
+    <TextView
+        android:id="@+id/testresualt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/test_start_button" />
+
+</LinearLayout>

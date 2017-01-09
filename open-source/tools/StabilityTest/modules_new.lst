@@ -1,0 +1,48 @@
+# --------------------------------------------------
+on user ############# modules for user build
+# --------------------------------------------------
+# user build with all the binaries
+mplayer mediaserver_listener
+engservice engmodemclient engappclient engpcclient eng_setbtwifiaddr engineeringmodel
+engtest testhardware
+nvitemd vcharged charge #calibration
+!rild_sp !pppd_sp !phoneserver
+sprd_monitor modemd
+open_mux open_ttyNK
+bootlogo
+poweroff_alarm sqlite3
+daemon
+mbbms_tel
+!akmd8975
+!ctpcali
+hciconfig hcitool hcidump
+# user build with all the needed libraries
+libengmodeljni libengutils libeng_wifi_ptest libcalibratejava-jni  libstabilityjni
+libghttp libhwrpc libomadownload libosal
+libmbbms_tel_jni libmbbms libsprddm
+libmtvadapter libmtvservice libcmmb libdtl
+libcamera lights.sprdbp sensors.sprdbp
+copybit.mali gralloc.mali egl.cfg libEGL_mali.so libGLESv1_CM_mali.so libGLESv2_mali.so libMali.so libUMP
+libasound libaudio libaudiopolicy alsa.default acoustics.default libeng_audio_mode alsa_ctl alsa_amixer alsa_aplay
+!libril_sp !libreference-ril_sp !libreference-cdma-sms_sp
+libaccelcal
+!libopencore_common !libomx_sharedlibrary !libomx_m4vdec_sharedlibrary !libomx_m4venc_sharedlibrary !libomx_avcdec_sharedlibrary !pvplayer.cfg
+netd
+bccmd
+vlog-sv
+libopencorehw libomx_amrdec_sharedlibrary libomx_mp3dec_sharedlibrary libomx_aacdec_sharedlibrary libopencore_net_support libopencore_player libopencore_downloadreg libopencore_download libopencore_streamingreg libopencore_streaming libopencore_mp4localreg libopencore_mp4local libpvoma1passthru libopencore_rtsp libpvrtspunicast_streaming libpvrtspunicast_streamingreg libpvrtsptunicast_streaming libpvrtsptunicast_streamingreg libopencore_pvme
+# --------------------------------------------------
+on eng  ############# modules for eng build
+# --------------------------------------------------
+# eng build with all the binaries
+vhub gsnap lookat cpu iperf
+vlog-d vdiag-d vlog-iq
+rotation_test
+mtv_test
+test_openKODE
+scale_test
+CallFireWall
+#SprdDM
+!riltest
+# eng build with all the needed libraries
+

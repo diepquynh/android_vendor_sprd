@@ -1,0 +1,13 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+        android:interpolator="@*android:interpolator/linear">
+    <alpha android:fromAlpha="1.0" android:toAlpha="0.5"
+            android:interpolator="@*android:interpolator/linear"
+            android:fillEnabled="true"
+            android:fillBefore="false" android:fillAfter="true"
+            android:duration="300"/>
+    <scale android:fromXScale="1.0" android:toXScale="1.5"
+           android:fromYScale="1.0" android:toYScale="1.5"
+           android:interpolator="@*android:interpolator/linear"
+           android:pivotX="50%p" android:pivotY="50%p"
+           android:duration="300" />
+</set>

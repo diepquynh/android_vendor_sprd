@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.sprd.sprdlauncher2.widget.contacts.ContactAddLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <com.sprd.sprdlauncher2.widget.contacts.ContactSpace
+            android:id="@+id/contact_space"
+            android:layout_width="@dimen/add_space_layout_width"
+            android:layout_height="@dimen/add_space_layout_height"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/add_space_layout_top_margin"
+            />
+    </LinearLayout>
+
+    <!-- SPRD : fix bug 206407 adjust margin to make the progressbar covered add icon -->
+    <ProgressBar android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="2dp"
+        />
+
+</com.sprd.sprdlauncher2.widget.contacts.ContactAddLayout>

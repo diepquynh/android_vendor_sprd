@@ -1,0 +1,47 @@
+LOCAL_PATH:= $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES:= \
+	vhub.c
+LOCAL_SHARED_LIBRARIES := \
+	libutils \
+	libhardware_legacy
+LOCAL_MODULE := vhub
+LOCAL_MODULE_TAGS := debug
+include $(BUILD_EXECUTABLE)
+
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES := gsnap.c
+LOCAL_C_INCLUDES += \
+	external/jpeg \
+	external/libpng \
+	external/zlib
+LOCAL_STATIC_LIBRARIES:= libpng
+LOCAL_SHARED_LIBRARIES:= libz libjpeg
+LOCAL_MODULE:= gsnap
+LOCAL_MODULE_TAGS := debug
+include $(BUILD_EXECUTABLE)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE_TAGS := debug
+LOCAL_MODULE := logs4android.sh
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_PATH := $(TARGET_OUT_OPTIONAL_EXECUTABLES)
+LOCAL_SRC_FILES := logs4android.sh
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE_TAGS := debug
+LOCAL_MODULE := logs4modem.sh
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_PATH := $(TARGET_OUT_OPTIONAL_EXECUTABLES)
+LOCAL_SRC_FILES := logs4modem.sh
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE_TAGS := debug
+LOCAL_MODULE := gsnap.save_anr_tombstones.sh
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_PATH := $(TARGET_OUT_OPTIONAL_EXECUTABLES)
+LOCAL_SRC_FILES := gsnap.save_anr_tombstones.sh
+include $(BUILD_PREBUILT)

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="addon.sprd.providers.settings.cmcc"
+    >
+    <application>
+        <meta-data
+            android:name="isFeatureAddon"
+            android:value="true" />
+        <meta-data
+            android:name="targetPackages"
+            android:value="com.android.providers.settings" />
+        <meta-data
+            android:name="featureClassNames"
+            android:value="addon.sprd.providers.settings.cmcc.SprdCmccWorkspaceAddon" />
+    </application>
+
+</manifest>

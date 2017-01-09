@@ -1,0 +1,58 @@
+$Id: README 60919 2012-08-10 11:37:03Z philippe.kehl $
+
+patches for original AOSP
+=========================
+
+suggested installation procedure:
+- repo start <branch_name> <project>
+- cd <project>
+- git apply < path/to/patchfile
+- git add <modified and new files>
+- git commit -a -m "<commit message>"
+
+
+1) SV mask handling
+-------------------
+
+provided patch file: v40x_almephmask.patch
+ applies to project: frameworks/base
+     affected files: location/java/android/location/GpsStatus.java
+                     services/java/com/android/server/location/GpsLocationProvider.java
+
+This patch fixes the 32bit SV mask handling to adapt to GLONASS and SBAS SV ids
+(PRNs). This is optional and does not affect performance.
+
+
+2) u-blox GPS setup
+-------------------
+
+provided patch file: v40x_ubx_gps_setup.patch
+ applies to project: device/ti/panda
+     affected files: device.mk
+                     fstab.omap4pandaboard
+                     init.omap4pandaboard.rc
+                     ubx-setup.sh 
+
+Adds a ubx-setup.sh script, launched at boot, that sets up networkin on eth0
+and asserts correct permissions on the UART.
+
+This is mainly for internal development and should be adopted to the particular
+setup in use.
+
+
+3) development tools
+--------------------
+
+provided patch file: v40x_development.patch (and local_manifest.xml)
+ applies to project: device/ti/panda
+     affected files: full_panda.mk
+
+This adds libncurses, busybox and bash packages to the build. Requires the
+supplied local_manifest.xml installed in the .repo directory.
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/"
+           review="review.cyanogenmod.com" />
+
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses"
+           remote="github" revision="refs/heads/ics" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash"
+           remote="github" revision="refs/heads/ics" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox"
+           remote="github" revision="refs/heads/ics" />
+
+</manifest>
+

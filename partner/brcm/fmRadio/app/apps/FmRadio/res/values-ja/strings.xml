@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright 2009 Broadcom Corporation
+**
+** This program is the proprietary software of Broadcom Corporation and/or its
+** licensors, and may only be used, duplicated, modified or distributed 
+** pursuant to the terms and conditions of a separate, written license 
+** agreement executed between you and Broadcom (an "Authorized License").  
+** Except as set forth in an Authorized License, Broadcom grants no license 
+** (express or implied), right to use, or waiver of any kind with respect to 
+** the Software, and Broadcom expressly reserves all rights in and to the 
+** Software and all intellectual property rights therein.  
+** IF YOU HAVE NO AUTHORIZED LICENSE, THEN YOU HAVE NO RIGHT TO USE THIS 
+** SOFTWARE IN ANY WAY, AND SHOULD IMMEDIATELY NOTIFY BROADCOM AND DISCONTINUE 
+** ALL USE OF THE SOFTWARE.  
+**
+** Except as expressly set forth in the Authorized License,
+** 
+** 1.     This program, including its structure, sequence and organization, 
+**        constitutes the valuable trade secrets of Broadcom, and you shall 
+**        use all reasonable efforts to protect the confidentiality thereof, 
+**        and to use this information only in connection with your use of 
+**        Broadcom integrated circuit products.
+** 
+** 2.     TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SOFTWARE IS PROVIDED 
+**        "AS IS" AND WITH ALL FAULTS AND BROADCOM MAKES NO PROMISES, 
+**        REPRESENTATIONS OR WARRANTIES, EITHER EXPRESS, IMPLIED, STATUTORY, 
+**        OR OTHERWISE, WITH RESPECT TO THE SOFTWARE.  BROADCOM SPECIFICALLY 
+**        DISCLAIMS ANY AND ALL IMPLIED WARRANTIES OF TITLE, MERCHANTABILITY, 
+**        NONINFRINGEMENT, FITNESS FOR A PARTICULAR PURPOSE, LACK OF VIRUSES, 
+**        ACCURACY OR COMPLETENESS, QUIET ENJOYMENT, QUIET POSSESSION OR 
+**        CORRESPONDENCE TO DESCRIPTION. YOU ASSUME THE ENTIRE RISK ARISING OUT
+**        OF USE OR PERFORMANCE OF THE SOFTWARE.
+**
+** 3.     TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL BROADCOM OR
+**        ITS LICENSORS BE LIABLE FOR 
+**        (i)   CONSEQUENTIAL, INCIDENTAL, SPECIAL, INDIRECT, OR EXEMPLARY 
+**              DAMAGES WHATSOEVER ARISING OUT OF OR IN ANY WAY RELATING TO 
+**              YOUR USE OF OR INABILITY TO USE THE SOFTWARE EVEN IF BROADCOM 
+**              HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES; OR 
+**        (ii)  ANY AMOUNT IN EXCESS OF THE AMOUNT ACTUALLY PAID FOR THE 
+**              SOFTWARE ITSELF OR U.S. $1, WHICHEVER IS GREATER. THESE 
+**              LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF 
+**              ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
+*/
+-->
+<resources>
+<!--  Added for 1.1.94 09/24/2009 -->
+<string name="app_name">"FM ラジオ"</string>
+<string name="menu_text_presets_title">"プリセット"</string>
+<string name="menu_text_power_off_title">"シャットダウン"</string>
+<string name="menu_text_settings_title">"設定"</string>
+<string name="pref_menu_text_main_menu">"FM ラジオの設定"</string>
+<string name="pref_menu_text_radio_enabled">"FM ラジオをイネーブル"</string>
+<string name="pref_menu_text_radio_enabled_summary">"FM ハードウェアをイネーブル/ディスエーブルします"</string>
+<string name="pref_menu_text_audio_mode">"オーディオ モード"</string>
+<string name="pref_menu_text_audio_mode_summary">"自動、ステレオ、モノラル、スイッチのいずれかのモードを選択"</string>
+<string name="pref_menu_text_audio_mode_dialog_title">"オーディオ モードを選択"</string>
+<string name="pref_menu_text_scan_step">"スキャン ステップ"</string>
+<string name="pref_menu_text_scan_step_summary">"スキャン時に使用する周波数インターバルのサイズを設定します"</string>
+<string name="pref_menu_text_scan_step_dialog_title">"スキャン ステップを選択"</string>
+<string name="pref_menu_text_rds_settings">"RDS の設定"</string>
+<string name="pref_menu_text_rds_settings_summary">"RDS 固有の設定です"</string>
+<string name="pref_menu_text_rds_enabled">"RDS モード"</string>
+<string name="pref_menu_text_rds_enabled_summary">"RDS モードを指定します"</string>
+<string name="pref_menu_text_rds_enabled_dialog_title">"RDS モードを選択"</string>
+<string name="pref_menu_text_af_enabled">"AF をイネーブル"</string>
+<string name="pref_menu_text_af_enabled_summary">"AF をイネーブル/ディスエーブルします"</string>
+<string name="pref_menu_text_advanced_settings">"詳細設定"</string>
+<string name="pref_menu_text_advanced_settings_summary">"場所、ディエンファシス、ライブのオーディオ音質サンプリングを設定します"</string>
+<string name="pref_menu_text_world_region">"地域"</string>
+<string name="pref_menu_text_world_region_summary">"正しい周波数帯域の場所を選択します"</string>
+<string name="pref_menu_text_world_region_dialog_title">"地域を選択"</string>
+<string name="pref_menu_text_deemphasis">"ディエンファシス"</string>
+<string name="pref_menu_text_deemphasis_summary">"ディエンファシス時間を選択します"</string>
+<string name="pref_menu_text_deemphasis_dialog_title">"ディエンファシスを選択"</string>
+<string name="pref_menu_text_live_polling">"ライブ ポーリング"</string>
+<string name="pref_menu_text_live_polling_summary">"ライブ オーディオ サンプリングをイネーブル/ディスエーブルします"</string>
+<string name="pref_menu_text_live_poll_int">"ポーリング インターバル"</string>
+<string name="pref_menu_text_live_poll_int_summary">"ライブ オーディオ サンプリング インターバルを選択します"</string>
+<string name="pref_menu_text_live_poll_int_dialog_title">"ポーリング インターバルを選択"</string>
+<string name="pref_menu_text_nfl_mode">"ノイズ フロア レベル (NFL) 推測"</string>
+<string name="pref_menu_text_nfl_mode_summary">"NFL 推測モードを選択します"</string>
+<string name="pref_menu_text_nfl_mode_dialog_title">"NFL モードを選択"</string>
+<string name="pref_preset_menu_text_main_menu">"FM プリセットの設定"</string>
+<string name="pref_menu_text_preset_0">"1. プリセット空白"</string>
+<string name="pref_menu_text_preset_1">"2. プリセット空白"</string>
+<string name="pref_menu_text_preset_2">"3. プリセット空白"</string>
+<string name="pref_menu_text_preset_3">"4. プリセット空白"</string>
+<string name="pref_menu_text_preset_4">"5. プリセット空白"</string>
+<string name="pref_menu_text_preset_5">"6. プリセット空白"</string>
+<string name="pref_menu_text_preset_6">"7. プリセット空白"</string>
+<string name="pref_menu_text_preset_7">"8. プリセット空白"</string>
+<string name="pref_menu_text_click_here_stores">"ここをクリックして、現在のステーションを保存します"</string>
+<!--  End 1.1.94 additions -->
+<string name="pref_menu_text_audio_path_summary">"なし、スピーカー、または有線ヘッドセット パスを選択"</string>
+<string name="pref_menu_text_audio_path_dialog_title">"オーディオ パスを選択"</string>
+</resources>

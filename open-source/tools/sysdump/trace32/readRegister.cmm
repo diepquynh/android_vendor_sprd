@@ -1,0 +1,104 @@
+;read the register value
+
+global &board
+
+&board="sc8825"
+
+if ("&board"=="sc8825")
+DO sc8825setup.cmm
+else if ("&board"=="sc8830")
+DO sc8830setup.cmm
+else
+(
+BEEP 5
+print "can not find the infomation about the board"
+)
+
+if state.run()
+(
+break
+)
+
+area.create  registers-area
+area.select  registers-area
+area.view    registers-area
+
+ipr:
+print "please input the register name as fllow"
+print "example :"
+print "          ahb       ------ AHB Control Register            | Base PHY Addr : "  &AHB_PHY_BASE 
+print "          intc0     ------ INTC0 Register                  | Base PHY Addr : "  &INTC0_PHY_BASE
+print "          timer     ------ General Purpose Register        | Base PHY Addr : "  &GPTIMER_PHY_BASE
+print "          adi       ------ ADI Register                    | Base PHY Addr : "  &ADI_PHY_BASE
+print "          gpio      ------ GPIO Control Register           | Base PHY Addr : "  &GPIO_PHY_BASE
+print "          eic       ------ EIC Control Register            | Base PHY Addr : "  &EIC_PHY_BASE
+print "          greg      ------ Global Register                 | Base PHY Addr : "  &GREG_PHY_BASE
+print "   input the registername :"
+
+ENTER &register
+
+if ("&register"=="ahb")
+ goto ahb_registers
+else if ("&register"=="intc0")
+ goto intc0_registers
+else if ("&register"=="timer")
+ goto timer_registers
+else if ("&register"=="adi")
+ goto adi_registers
+else if ("&register"=="gpio")
+ goto gpio_registers
+else if ("&register"=="eic")
+ goto eic_registers
+else if ("&register"=="greg")
+ goto global_registers
+else
+ goto error
+
+ahb_registers:
+	do registerPrint.cmm ahb
+	goto ipr
+
+intc0_registers:
+	do registerPrint.cmm intc0
+	goto ipr
+
+timer_registers:
+	do registerPrint.cmm timer
+	goto ipr
+
+adi_registers:
+	do registerPrint.cmm adi
+	goto ipr
+
+gpio_registers:
+	do registerPrint.cmm gpio
+	goto ipr
+
+eic_registers:
+	do registerPrint.cmm eic
+	goto ipr
+
+global_registers:
+	do registerPrint.cmm greg
+	goto ipr
+
+error:
+	print "sorry,can not find the register which you just input!!!!!!"
+	print " "
+	goto ipr
+ENDDO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

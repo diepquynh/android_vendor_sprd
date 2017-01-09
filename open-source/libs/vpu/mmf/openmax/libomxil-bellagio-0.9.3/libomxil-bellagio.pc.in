@@ -1,0 +1,13 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+toolsdir=@bindir@
+pluginsdir=@plugindir@
+
+Name: libomxil
+Description: OpenMAX Integration Layer library
+Version: @VERSION@
+Libs: -L${libdir} -lomxil-bellagio
+Cflags: -I${includedir} -I${includedir}/bellagio
+

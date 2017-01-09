@@ -1,0 +1,25 @@
+system.jtagclock 5mhz
+
+system.cpu CORTEXA7MPCORE
+system.config CORENUMBER 4
+core.assign 1 2 3 4
+
+system.config corebase 0x80030000 0x80032000 0x80034000 0x80036000
+
+tronchip.set.dabort off
+tronchip.set.pabort off
+tronchip.set.undef off
+tronchip.set.reset off
+
+system.cpuaccess enable
+
+system.attach
+
+; load vmlinux
+data.load.elf N:\vmlinux /nocode
+
+; load source code
+symbol.sourcepath.setrecursedir N:\kernel
+
+register.view
+PER.view

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contacts_cell_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/contacts_cell_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"/>
+    <!-- SPRD: Modify 20130821 Spreadst of 201298 contact name show wrong @{ -->
+    <TextView
+        android:id="@+id/contacts_cell_name"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:maxWidth="80dip"
+        android:singleLine="true"/>
+    <!-- @} -->
+</FrameLayout>

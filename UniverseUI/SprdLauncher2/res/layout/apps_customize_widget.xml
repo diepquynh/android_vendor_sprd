@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<com.android.sprdlauncher2.PagedViewWidget
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.sprdlauncher2"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+
+    android:background="@drawable/focusable_view_bg"
+    android:focusable="true">
+
+    <!-- The preview of the widget or shortcut. -->
+    <!-- SPRD: Feature 254280,show widget list in edit mode@{ -->
+    <!-- SPRD: Fix bug 261340 @{ -->
+    <!-- SPRD: Fix bug 271402 @{ -->
+    <com.android.sprdlauncher2.PagedViewWidgetImageView
+        android:id="@+id/widget_preview"
+        android:layout_width="50dp"
+        android:layout_height="63dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5sp"
+        />
+    <!-- @} -->
+    <!-- @} -->
+    <!-- @} -->
+    <!-- SPRD: Feature 254280,show widget list in edit mode@{ -->
+        <!-- The name of the widget. -->
+    <TextView
+        android:id="@+id/widget_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:textColor="#FFFFFFFF"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/widget_hv_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/widget_hv0" />
+<!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/app_widget_preview_label_margin_top"
+        android:layout_marginStart="@dimen/app_widget_preview_label_margin_left"
+        android:layout_marginEnd="@dimen/app_widget_preview_label_margin_right"
+        android:orientation="horizontal">
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/widget_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+
+            android:textColor="#FFFFFFFF"
+            android:textSize="13sp"
+            android:textAlignment="viewStart"
+            android:fontFamily="sans-serif-condensed"
+            android:shadowRadius="2.0"
+            android:shadowColor="#B0000000" /> -->
+
+        <!-- The original dimensions of the widget (can't be the same text as above due to different
+             style. -->
+        <!-- <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/widget_dims"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_weight="0"
+            android:gravity="start"
+
+            android:textColor="#FFAAAAAA"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-condensed"
+            android:shadowRadius="2.0"
+            android:shadowColor="#B0000000" />
+    </LinearLayout> -->
+
+
+</com.android.sprdlauncher2.PagedViewWidget>

@@ -1,0 +1,631 @@
+on early-init
+    start ueventd
+# move following permision info to ueevntd.rc
+#   device  /dev/ts0710mux*         660     radio   radio
+#   device  /dev/ppp                660     radio   vpn
+#   device  /dev/tun                640     vpn     vpn
+#   device  /dev/sc8800g_2d         660     system  graphics
+#   device  /dev/sc8800g_scale      660     system  graphics
+#   device  /dev/sc8800g_rotation   660     system  graphics
+#   device  /dev/sc8800g_dcam       660     system  graphics
+#   device  /dev/video0             660     system  graphics
+#   device  /dev/sc8800g_vsp        660     system  audio
+#   device  /dev/ecompass_ctrl      666     system  compass
+#   device  /dev/mxc622x            666     system  input
+#   device  /dev/mmc31xx            666     system  compass
+#   device  /dev/gpio               666     system  system
+
+on init
+
+sysclktz 0
+
+loglevel 3
+
+# setup the global environment
+    export PATH /sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin:/system/busybox:/data/busybox/_install/bin:/data/busybox/_install/sbin:/data/busybox/_install/usr/bin:/data/busybox/_install/usr/sbin
+    export LD_LIBRARY_PATH /vendor/lib:/system/lib
+    export ANDROID_BOOTLOGO 1
+    export ANDROID_ROOT /system
+    export ANDROID_ASSETS /system/app
+    export ANDROID_DATA /data
+    export EXTERNAL_STORAGE /mnt/sdcard
+    export ASEC_MOUNTPOINT /mnt/asec
+    export LOOP_MOUNTPOINT /mnt/obb
+    export BOOTCLASSPATH /system/framework/core.jar:/system/framework/bouncycastle.jar:/system/framework/ext.jar:/system/framework/framework.jar:/system/framework/android.policy.jar:/system/framework/services.jar:/system/framework/core-junit.jar
+
+# dalvik property control
+    setprop dalvik.vm.jniopts warnonly ^^ ^user
+# pipe
+    mkdir /dev/pipe 0755 system system
+    pipe 666 /dev/pipe/ril.audio.0
+    pipe 666 /dev/pipe/ril.audio.1
+    pipe 666 /dev/pipe/ril.audio.2
+    pipe 666 /dev/pipe/ril.audio.3
+    pipe 666 /dev/pipe/mmi.audio.ctrl
+    pipe 666 /dev/pipe/ipc.0.0
+    pipe 666 /dev/pipe/ipc.0.1
+    pipe 666 /dev/pipe/ipc.1.0
+    pipe 666 /dev/pipe/ipc.1.1
+# radio pipe
+    mkdir /dev/rpipe 0550 radio radio
+    pipe 666 /dev/rpipe/ril.vt.0
+    pipe 666 /dev/rpipe/ril.vt.1
+    pipe 666 /dev/rpipe/ril.vt.2
+# Backward compatibility
+    symlink /system/etc /etc
+    symlink /sys/kernel/debug /d
+
+# Right now vendor lives on the same filesystem as system,
+# but someday that may change.
+    symlink /system/vendor /vendor
+
+# create mountpoints
+    mkdir /mnt 0775 root system
+    mkdir /mnt/sdcard 0000 system system
+
+# Create cgroup mount point for cpu accounting
+    mkdir /acct
+    mount cgroup none /acct cpuacct
+    mkdir /acct/uid
+
+# Backwards Compat - XXX: Going away in G*
+    symlink /mnt/sdcard /sdcard
+
+    mkdir /system
+    mkdir /data 0771 system system
+    mkdir /cache 0770 system cache
+    mkdir /runtimenv 0664 system system
+    mkdir /backupfixnv 0664 system system
+    mkdir /productinfo 0774 system system
+    mkdir /fixnv 0664 system system
+    mkdir /config 0500 root root
+
+    # Directory for putting things only root should see.
+    mkdir /mnt/secure 0700 root root
+
+    # Directory for staging bindmounts
+    mkdir /mnt/secure/staging 0700 root root
+
+    # Directory-target for where the secure container
+    # imagefile directory will be bind-mounted
+    mkdir /mnt/secure/asec  0700 root root
+
+    # Secure container public mount points.
+    mkdir /mnt/asec  0700 root system
+    mount tmpfs tmpfs /mnt/asec mode=0755,gid=1000
+
+    # Filesystem image public mount points.
+    mkdir /mnt/obb 0700 root system
+    mount tmpfs tmpfs /mnt/obb mode=0755,gid=1000
+    mount rootfs rootfs / rw remount
+
+    write /proc/sys/kernel/panic_on_oops 1
+    write /proc/sys/kernel/hung_task_timeout_secs 0
+    write /proc/cpu/alignment 4
+    write /proc/sys/kernel/sched_latency_ns 10000000
+    write /proc/sys/kernel/sched_wakeup_granularity_ns 2000000
+    write /proc/sys/kernel/sched_compat_yield 1
+    write /proc/sys/kernel/sched_child_runs_first 0
+
+# Create cgroup mount points for process groups
+    mkdir /dev/cpuctl
+    mount cgroup none /dev/cpuctl cpu
+    chown system system /dev/cpuctl
+    chown system system /dev/cpuctl/tasks
+    chmod 0777 /dev/cpuctl/tasks
+    write /dev/cpuctl/cpu.shares 1024
+
+    mkdir /dev/cpuctl/fg_boost
+    chown system system /dev/cpuctl/fg_boost/tasks
+    chmod 0777 /dev/cpuctl/fg_boost/tasks
+    write /dev/cpuctl/fg_boost/cpu.shares 1024
+
+    mkdir /dev/cpuctl/bg_non_interactive
+    chown system system /dev/cpuctl/bg_non_interactive/tasks
+    chmod 0777 /dev/cpuctl/bg_non_interactive/tasks
+    # 5.0 %
+    write /dev/cpuctl/bg_non_interactive/cpu.shares 52
+
+on fs
+# mount mtd partitions
+    # Mount /system rw first to give the filesystem a chance to save a checkpoint
+    mount yaffs2 mtd@system /system
+
+    #Spreadtrum Add Or Modified
+    mount yaffs2 mtd@system /system ro remount ^^ ^user
+#    mount ext3 /dev/block/mmcblk0p1 /system 
+#    mount ext3 /dev/block/hda1 /system 
+#    mount ext3 /dev/block/mmcblk0p2 /data nosuid nodev 
+#    mount ext3 /dev/block/hda2 /data nosuid nodev 
+on post-fs
+    # once everything is setup, no need to modify /
+#mount rootfs rootfs / ro remount
+
+    # We chown/chmod /data again so because mount is run as root + defaults
+   mount yaffs2 mtd@userdata /data nosuid nodev
+    chown system system /data
+    chmod 0771 /data
+
+    mkdir /data/internal_memory 0777 system sdcard_rw
+    mount yaffs2 mtd@intmemory /data/internal_memory nosuid nodev
+    chown system sdcard_rw /data/internal_memory
+    chmod 0777 /data/internal_memory
+
+    # Create dump dir and collect dumps.
+    # Do this before we mount cache so eventually we can use cache for
+    # storing dumps on platforms which do not have a dedicated dump partition.
+   
+    mkdir /data/dontpanic
+    chown root log /data/dontpanic
+    chmod 0750 /data/dontpanic
+
+    # Collect apanic data, free resources and re-arm trigger
+    copy /proc/apanic_console /data/dontpanic/apanic_console
+    chown root log /data/dontpanic/apanic_console
+    chmod 0640 /data/dontpanic/apanic_console
+
+    copy /proc/apanic_threads /data/dontpanic/apanic_threads
+    chown root log /data/dontpanic/apanic_threads
+    chmod 0640 /data/dontpanic/apanic_threads
+
+    write /proc/apanic_console 1
+
+    # Same reason as /data above
+ 
+     mount yaffs2 mtd@cache /cache nosuid nodev
+#    mount ext2  /dev/block/mmcblk0p3 /cache nosuid nodev
+    chown system cache /cache
+    chmod 0770 /cache
+
+    mount yaffs2 mtd@runtimenv /runtimenv nosuid nodev no-checkpoint,tags-ecc-off,no-rest-block
+    chown system system /runtimenv
+    chmod 0664 /runtimenv
+
+    mount yaffs2 mtd@backupfixnv /backupfixnv nosuid nodev no-checkpoint,tags-ecc-off,no-rest-block
+    chown system system /backupfixnv
+    chmod 0664 /backupfixnv
+
+    mount yaffs2 mtd@productinfo /productinfo nosuid nodev no-checkpoint,tags-ecc-off,no-rest-block
+    chown system system /productinfo
+    chmod 0774 /productinfo
+
+    mount yaffs2 mtd@fixnv /fixnv nosuid nodev no-checkpoint,tags-ecc-off,no-rest-block
+    chown system system /fixnv
+    chmod 0664 /fixnv
+
+    # This may have been created by the recovery system with odd permissions
+    chown system cache /cache/recovery
+    chmod 0770 /cache/recovery
+
+    #change permissions on vmallocinfo so we can grab it from bugreports
+    chown root log /proc/vmallocinfo
+    chmod 0440 /proc/vmallocinfo
+
+    #change permissions on kmsg & sysrq-trigger so bugreports can grab kthread stacks
+    chown root system /proc/kmsg
+    chmod 0440 /proc/kmsg
+    chown root system /proc/sysrq-trigger
+    chmod 0220 /proc/sysrq-trigger
+
+# create basic filesystem structure
+    mkdir /data/misc 01771 system misc
+    mkdir /data/misc/bluetoothd 0770 bluetooth bluetooth
+    mkdir /data/misc/bluetooth 0770 system system
+    mkdir /data/misc/keystore 0700 keystore keystore
+    mkdir /data/misc/vpn 0770 system system
+    mkdir /data/misc/systemkeys 0700 system system
+    mkdir /data/misc/vpn/profiles 0770 system system
+    #--- Added by liwd@spreadst.com, to store the hprof files, do not merge to CMCC ---
+    mkdir /data/misc/hprofs 0777 system system
+    # give system access to wpa_supplicant.conf for backup and restore
+    mkdir /data/misc/wifi 0770 wifi wifi
+    chmod 0770 /data/misc/wifi
+    chmod 0660 /data/misc/wifi/wpa_supplicant.conf
+    mkdir /data/local 0771 shell shell
+    mkdir /data/local/tmp 0771 shell shell
+    mkdir /data/data 0771 system system
+    mkdir /data/app-private 0771 system system
+    mkdir /data/app 0771 system system
+    #mkdir /data/internal_memory 0777 system sdcard_rw
+    mkdir /data/property 0700 root root
+
+    # create dalvik-cache and double-check the perms
+    mkdir /data/dalvik-cache 0771 system system
+    chown system system /data/dalvik-cache
+    chmod 0771 /data/dalvik-cache
+
+    # create the lost+found directories, so as to enforce our permissions
+    mkdir /data/lost+found 0770
+    mkdir /cache/lost+found 0770
+
+    # double check the perms, in case lost+found already exists, and set owner
+    chown root root /data/lost+found
+    chmod 0770 /data/lost+found
+    chown root root /cache/lost+found
+    chmod 0770 /cache/lost+found
+    mkdir /data/misc/sensors 0777 system system
+
+    mkdir /data/misc/sensors 0777 system system
+
+
+on boot
+# basic network init
+    ifup lo
+    hostname localhost
+    domainname localdomain
+
+# set RLIMIT_NICE to allow priorities from 19 to -20
+    setrlimit 13 40 40
+
+# Define the oom_adj values for the classes of processes that can be
+# killed by the kernel.  These are used in ActivityManagerService.
+    setprop ro.FOREGROUND_APP_ADJ 0
+    setprop ro.VISIBLE_APP_ADJ 1
+    setprop ro.HOME_APP_ADJ 1
+    setprop ro.PERCEPTIBLE_APP_ADJ 2
+    setprop ro.HEAVY_WEIGHT_APP_ADJ 3
+    setprop ro.SECONDARY_SERVER_ADJ 4
+    setprop ro.BACKUP_APP_ADJ 5
+    setprop ro.HIDDEN_APP_MIN_ADJ 7
+    setprop ro.EMPTY_APP_ADJ 15
+
+# Define the memory thresholds at which the above process classes will
+# be killed.  These numbers are in pages (4k).
+    setprop ro.FOREGROUND_APP_MEM 2048
+    setprop ro.VISIBLE_APP_MEM 3072
+    setprop ro.HOME_APP_MEM 3072
+    setprop ro.PERCEPTIBLE_APP_MEM 4096
+    setprop ro.HEAVY_WEIGHT_APP_MEM 4096
+    setprop ro.SECONDARY_SERVER_MEM 10240
+    setprop ro.BACKUP_APP_MEM 10240
+    setprop ro.HIDDEN_APP_MEM 10240
+    setprop ro.EMPTY_APP_MEM 14336
+
+# Write value must be consistent with the above properties.
+# Note that the driver only supports 6 slots, so we have combined some of
+# the classes into the same memory level; the associated processes of higher
+# classes will still be killed first.
+    write /sys/module/lowmemorykiller/parameters/adj 0,1,2,4,7,15
+
+    write /proc/sys/vm/overcommit_memory 1
+    write /proc/sys/vm/min_free_order_shift 4
+    write /sys/module/lowmemorykiller/parameters/minfree 2048,3072,4096,10240,10240,14336
+
+    # Set init its forked children's oom_adj.
+    write /proc/1/oom_adj -16
+
+    # Tweak background writeout
+    write /proc/sys/vm/dirty_expire_centisecs 200
+    write /proc/sys/vm/dirty_background_ratio  5
+
+    # Permissions for System Server and daemons.
+    chown radio system /sys/android_power/state
+    chown radio system /sys/android_power/request_state
+    chown radio system /sys/android_power/acquire_full_wake_lock
+    chown radio system /sys/android_power/acquire_partial_wake_lock
+    chown radio system /sys/android_power/release_wake_lock
+    chown radio system /sys/power/state
+    chown radio system /sys/power/wake_lock
+    chown radio system /sys/power/wake_unlock
+    chmod 0660 /sys/power/state
+    chmod 0660 /sys/power/wake_lock
+    chmod 0660 /sys/power/wake_unlock
+    chown system system /sys/class/timed_output/vibrator/enable
+    chown system system /sys/class/leds/keyboard-backlight/brightness
+    chown system system /sys/class/leds/lcd-backlight/brightness
+    chmod 777 /sys/class/leds/flash-led/brightness
+    chown system system /sys/class/leds/button-backlight/brightness
+    chown system system /sys/class/leds/jogball-backlight/brightness
+    chown system system /sys/class/leds/red/brightness
+    chown system system /sys/class/leds/green/brightness
+    chown system system /sys/class/leds/blue/brightness
+    chown system system /sys/class/leds/red/device/grpfreq
+    chown system system /sys/class/leds/red/device/grppwm
+    chown system system /sys/class/leds/red/device/blink
+    chown system system /sys/class/leds/red/brightness
+    chown system system /sys/class/leds/green/brightness
+    chown system system /sys/class/leds/blue/brightness
+    chown system system /sys/class/leds/red/device/grpfreq
+    chown system system /sys/class/leds/red/device/grppwm
+    chown system system /sys/class/leds/red/device/blink
+    chown system system /sys/class/timed_output/vibrator/enable
+    chown system system /sys/module/sco/parameters/disable_esco
+    chown system system /sys/kernel/ipv4/tcp_wmem_min
+    chown system system /sys/kernel/ipv4/tcp_wmem_def
+    chown system system /sys/kernel/ipv4/tcp_wmem_max
+    chown system system /sys/kernel/ipv4/tcp_rmem_min
+    chown system system /sys/kernel/ipv4/tcp_rmem_def
+    chown system system /sys/kernel/ipv4/tcp_rmem_max
+    chown root radio /proc/cmdline
+	chown radio radio /sys/devices/platform/sprd-sdhci.0/mmc_clk_scailing/mmc_clk_scailing
+	chown system system /sys/devices/system/cpu/cpu0/cpufreq/input_event
+	chown media audio /sys/kobject_vbc_param/vbc_param_config
+	chown media audio /sys/class/fm_devstat_config/fm_devstat_store
+	chown media audio /sys/class/modem/status
+	chown media audio /sys/class/modem/mode
+	chown media audio /sys/class/modem/sim
+	chown media audio /sys/class/modem/regs
+	chown media audio /sys/class/modem/switch
+	chown media audio /sys/class/modem/codec
+    chown system system /dev/ttyGS0
+    chown system system /sys/class/switch/usb_configuration/state
+    chown system system /dev/vbpipe0
+    chown system system /dev/vbpipe2
+    chown system system /dev/vser
+    chown system system /system/etc/audio_para
+
+# Define TCP buffer sizes for various networks
+#   ReadMin, ReadInitial, ReadMax, WriteMin, WriteInitial, WriteMax,
+    setprop net.tcp.buffersize.default 4096,87380,110208,4096,16384,110208
+    setprop net.tcp.buffersize.wifi    4095,87380,110208,4096,16384,110208
+    setprop net.tcp.buffersize.umts    4094,87380,110208,4096,16384,110208
+    setprop net.tcp.buffersize.edge    4093,26280,35040,4096,16384,35040
+    setprop net.tcp.buffersize.gprs    4092,8760,11680,4096,8760,11680
+
+# Define stagefright switch
+    setprop media.stagefright.enable-player true
+    setprop media.stagefright.enable-record true
+    setprop media.stagefright.enable-meta   true
+    setprop media.stagefright.enable-scan   true
+    setprop media.stagefright.enable-rtsp   true
+    setprop media.stagefright.enable-http   true
+#   setprop media.stagefright.enable-vorbis true
+
+    chown root system /sys/class/power_supply/battery/battery_0
+    chown root system /sys/class/power_supply/battery/battery_1
+    chown root system /sys/class/power_supply/battery/hw_switch_point
+    chown root system /sys/class/power_supply/usb/online
+    chown root system /sys/class/power_supply/ac/online
+    chown root system /dev/vbpipe3
+    chmod 0660 /dev/vbpipe3
+    chmod 0766 /system/sps/gsd4t/config/csrgps.conf
+    chmod 0766 /system/sps/gsd4t/config/default_agps.conf
+    chmod 0766 /system/sps/gsd4t/config/customize_agps.conf
+
+
+    class_start default
+
+## Daemon processes to be run by init.
+##
+service ueventd /sbin/ueventd
+   critical
+
+service console /system/bin/sh
+    console
+    disabled
+    user shell
+    group log
+
+on property:ro.secure=0
+    start console
+
+# adbd is controlled by the persist.service.adb.enable system property
+service adbd /sbin/adbd
+    disabled
+
+# adbd on at boot in emulator
+on property:ro.kernel.qemu=1
+    start adbd
+
+on property:persist.service.adb.enable=1
+    start adbd
+
+on property:persist.service.adb.enable=0
+    stop adbd
+###############################################################
+# redirect logs(LOGE, LOGI...) to linux console
+###############################################################
+service logcat /system/bin/logcat -f /dev/kmsg *:W
+    oneshot
+
+#####################################
+###### calibration mode #############
+#####################################
+service calibration /system/bin/calibration
+    user root
+    oneshot
+    console
+
+#start nvitem daemon.
+service nvitem /system/bin/nvitemd
+#    user system
+#    group system
+    oneshot
+#start upnvprop daemon.
+service upnvpropd /system/xbin/upnvpropd.sh
+    oneshot
+
+#telephony service
+service sprd_monitor /system/bin/sprd_monitor
+    user root
+    group radio system
+    oneshot
+
+
+service modemd /system/bin/modemd
+    socket modemd stream 666 system system
+    user system
+    group system radio
+    oneshot
+
+service engpcclient /system/bin/engpcclient
+    user system
+    group system radio audio
+
+service engservice /system/bin/engservice
+    user system
+    group system radio
+
+service engmodemclient /system/bin/engmodemclient
+    user system
+    group system radio
+
+service vcharged /system/bin/vcharged
+    user system
+    group system
+    oneshot
+
+service charge /bin/charge
+    user root
+    oneshot
+
+service engtest /system/bin/engtest
+    user root
+    oneshot
+
+service bootlogo /system/bin/bootlogo /system/media/bootlogo
+    user root
+    oneshot
+
+service servicemanager /system/bin/servicemanager
+    user system
+    critical
+    onrestart restart zygote
+    onrestart restart media
+
+service media /system/bin/mediaserver
+    user media
+    group system audio camera graphics inet net_bt net_bt_admin net_raw radio
+    ioprio rt 4
+
+service alarm /bin/poweroff_alarm
+	user root
+	oneshot
+
+service testhardware /system/bin/testhardware
+    user root
+    oneshot
+
+service vold /system/bin/vold
+    socket vold stream 0660 root mount
+    ioprio be 2
+
+service netd /system/bin/netd
+    socket netd stream 0660 root system
+
+service debuggerd /system/bin/debuggerd
+
+#service ril-daemon /system/bin/rild
+#    socket rild stream 660 root radio
+#    socket rild-debug stream 660 radio system
+#    user root
+#    group radio cache inet misc audio
+
+#rild service
+service ril-daemon /system/bin/rild_sp  -l /system/lib/libreference-ril_sp.so -- -n 0 
+    socket rild stream 660 root radio
+    socket rild-debug stream 660 radio system
+    user root
+    group radio cache inet misc audio sdcard_rw
+
+service ril-daemon1 /system/bin/rild_sp  -l /system/lib/libreference-ril_sp.so -- -n 1
+    socket rild1 stream 660 root radio
+    socket rild-debug1 stream 660 radio system
+    disabled
+    user root
+    group radio cache inet misc audio sdcard_rw
+
+on property:persist.msms.phone_count=2
+    start ril-daemon1
+
+service zygote /system/bin/app_process -Xzygote /system/bin --zygote --start-system-server
+    socket zygote stream 666
+    critical
+    onrestart write /sys/android_power/request_state wake
+    onrestart write /sys/power/state on
+    onrestart restart media
+    onrestart restart netd
+    onrestart restart mlistener
+
+service bootsound /system/bin/mplayer /system/media/bootsound
+    user media
+    group audio
+    oneshot
+
+service startupsound /system/bin/mplayer /system/media/startupsound
+    user media
+    group audio
+    disabled
+    oneshot
+
+service shutdownsound /system/bin/mplayer /system/media/shutdownsound
+    user media
+    group audio
+    disabled
+    oneshot
+
+service bootanim /system/bin/bootanimation
+    user graphics
+    group graphics
+    disabled
+    oneshot
+
+service dbus /system/bin/dbus-daemon --system --nofork
+    socket dbus stream 660 bluetooth bluetooth
+    user bluetooth
+    group bluetooth net_bt_admin
+
+service bluetoothd /system/bin/logwrapper /system/bin/bluetoothd -n
+    socket bluetooth stream 660 bluetooth bluetooth
+    socket dbus_bluetooth stream 660 bluetooth bluetooth
+    # init.rc does not yet support applying capabilities, so run as root and
+    # let bluetoothd drop uid to bluetooth with the right linux capabilities
+    group bluetooth net_bt_admin misc
+    disabled
+
+service hfag /system/bin/sdptool add --channel=10 HFAG
+    user bluetooth
+    group bluetooth net_bt_admin
+    disabled
+    oneshot
+
+service hsag /system/bin/sdptool add --channel=11 HSAG
+    user bluetooth
+    group bluetooth net_bt_admin
+    disabled
+    oneshot
+
+service opush /system/bin/sdptool add --channel=12 OPUSH
+    user bluetooth
+    group bluetooth net_bt_admin
+    disabled
+    oneshot
+
+service pbap /system/bin/sdptool add --channel=19 PBAP
+    user bluetooth
+    group bluetooth net_bt_admin
+    disabled
+    oneshot
+
+service installd /system/bin/installd
+    socket installd stream 600 system system
+
+service flash_recovery /system/etc/install-recovery.sh
+    oneshot
+
+service racoon /system/bin/racoon
+    socket racoon stream 600 system system
+    # racoon will setuid to vpn after getting necessary resources.
+    group net_admin
+    disabled
+    oneshot
+
+service mtpd /system/bin/mtpd
+    socket mtpd stream 600 system system
+    user root
+    group vpn net_admin net_raw
+    disabled
+    oneshot
+
+service keystore /system/bin/keystore /data/misc/keystore
+    user keystore
+    group keystore
+    socket keystore stream 666
+
+service dumpstate /system/bin/dumpstate -s
+    socket dumpstate stream 0660 shell log
+    disabled
+    oneshot
+
+service memsicd /system/bin/memsicd
+  oneshot

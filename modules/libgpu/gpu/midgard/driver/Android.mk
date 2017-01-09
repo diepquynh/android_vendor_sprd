@@ -1,0 +1,70 @@
+LOCAL_PATH:= $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE := mali_kbase.ko
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_RELATIVE_PATH := modules
+LOCAL_SRC_FILES := mali/$(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+ifeq ($(TARGET_BUILD_VARIANT),user)
+  DEBUGMODE := BUILD=no
+else
+  DEBUGMODE := $(DEBUGMODE)
+endif
+
+ifeq ($(TARGET_ARCH),arm64)
+MIDGARD_ARCH_ := arm64
+MIDGARD_CROSS_COMPILE_ := aarch64-linux-android-
+else
+MIDGARD_ARCH_ := arm
+MIDGARD_CROSS_COMPILE_ := arm-eabi-
+endif
+
+ifeq ($(strip $(CONFIG_64KERNEL_32FRAMEWORK)),true)
+MIDGARD_ARCH_ := arm64
+MIDGARD_CROSS_COMPILE_ := $(FIX_CROSS_COMPILE)
+endif
+
+ifeq ($(PRODUCT_MODEL),)
+  MALI_PLATFORM_NAME := sc9838
+else
+  ifeq ($(PRODUCT_MODEL),sp9838aea_5mod)
+    MALI_PLATFORM_NAME := sc9838
+  endif
+  ifeq ($(PRODUCT_MODEL),sp9838aea_volte)
+    MALI_PLATFORM_NAME := sc9838
+  endif
+  ifeq ($(PRODUCT_MODEL),sp9838aea_fhd)
+    MALI_PLATFORM_NAME := sc9838
+  endif
+  ifeq ($(PRODUCT_MODEL),sp9838aea_sr3593)
+    MALI_PLATFORM_NAME := sc9838
+  endif
+  ifeq ($(PRODUCT_MODEL),sp9838aea_3_volte)
+    MALI_PLATFORM_NAME := sc9838
+  endif
+  ifeq ($(PRODUCT_MODEL),SP9838A)
+    MALI_PLATFORM_NAME := sc9838
+  endif
+  ifeq ($(PRODUCT_MODEL),ss_sharklt8)
+    MALI_PLATFORM_NAME := sc9838
+  endif
+  ifeq ($(PRODUCT_MODEL),jiaotu_tc)
+    MALI_PLATFORM_NAME := sc9838
+  endif
+  ifeq ($(PRODUCT_MODEL),sp9001_3h10)
+    MALI_PLATFORM_NAME := sc9001
+  endif
+  ifeq ($(PRODUCT_MODEL),sp9001_4h10)
+    MALI_PLATFORM_NAME := sc9001
+  endif
+
+  #add new platform name here
+endif
+
+$(LOCAL_PATH)/mali/mali_kbase.ko: $(TARGET_PREBUILT_KERNEL)
+	$(MAKE) -C $(shell dirname $@) ARCH=$(MIDGARD_ARCH_) CROSS_COMPILE=$(MIDGARD_CROSS_COMPILE_) CONFIG_MALI_PLATFORM_THIRDPARTY_NAME=$(MALI_PLATFORM_NAME) $(DEBUGMODE) KDIR=$(ANDROID_PRODUCT_OUT)/obj/KERNEL clean
+	$(MAKE) -C $(shell dirname $@) ARCH=$(MIDGARD_ARCH_) CROSS_COMPILE=$(MIDGARD_CROSS_COMPILE_)$(EXT_FLAGS) CONFIG_MALI_PLATFORM_THIRDPARTY_NAME=$(MALI_PLATFORM_NAME) $(DEBUGMODE) KDIR=$(ANDROID_PRODUCT_OUT)/obj/KERNEL
+	@-$(MIDGARD_CROSS_COMPILE_)strip -d --strip-unneeded $@

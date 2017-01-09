@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2011, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds. -->
+<resources>
+    <!--  SPRD services we want to restart  { -->
+    <add-resource type="array" name="restartServiceInterval" />
+    <add-resource type="array" name="restartAppServiceInterval" />
+    <add-resource type="integer" name="config_restartServiceInterval" />
+    <add-resource type="integer" name="config_restartAppServiceInterval" />
+    <string-array translatable="false" name="restartServiceInterval">
+       <item>com.tencent.mobileqq:MSF</item>
+       <item>com.tencent.mobileqq</item>
+       <item>com.tencent.mm:push</item>
+       <item>com.tencent.mm</item>
+       <item>com.whatsapp</item>
+    </string-array>
+    <string-array translatable="false" name="restartAppServiceInterval">
+       <item>com.android.messaging</item>
+       <item>com.android.contacts</item>
+       <item>com.android.systemui:screenshot</item>
+   </string-array>
+   <integer translatable="false" name="config_restartServiceInterval">60000</integer>
+   <integer translatable="false" name="config_restartAppServiceInterval">10000</integer>
+   <!--  } -->
+
+   <!-- Bug 487741 SPRD Overlay the default detection behavior for the framework method
+        android.view.ViewConfiguration#hasPermanentMenuKey().
+        Valid settings are:
+        0 - No change. Use the default autodetection behavior.
+        1 - The device DOES have a permanent menu key; ignore autodetection.
+        2 - The device DOES NOT have a permanent menu key; ignore autodetection. -->
+   <integer name="config_overrideHasPermanentMenuKey">2</integer>
+
+    <!--  SPRD when usb plugged or unplugged while screen is off,we want to turn screen   { -->
+    <bool name="config_unplugTurnsOnScreen">true</bool>
+    <!--  } -->
+</resources>

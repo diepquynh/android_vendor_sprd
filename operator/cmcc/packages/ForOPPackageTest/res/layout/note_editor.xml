@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Note信息详细展示页面 -->
+<!-- LinearLayout本身并没有任何可画的东西，是一个透明的控件，因此并不会触发ondraw，只有给这个LinearLayout设置了一个背景色才会调用OnDraw方法 -->
+<RelativeLayout
+	android:id="@+id/note_edit"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#FF000000"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+	<LinearLayout
+		android:id="@+id/note_date_time"
+		android:layout_width="fill_parent"
+		android:layout_height="35dp"
+		android:layout_alignParentTop="true"
+		>
+	
+		<TextView  
+			android:id="@+id/remain_num"
+			android:layout_width="120dp"
+			android:layout_height="fill_parent" 
+			android:textColor="@color/black" 
+			android:paddingTop="7dp"
+			android:paddingLeft="7dp"
+			
+			android:layout_gravity= "center"
+			android:gravity="center_horizontal|left"
+			android:layout_alignParentLeft="true"
+	   />
+
+		<TextView
+			android:id="@+id/tv_note_date_time"
+			android:layout_width="200dp"
+			android:layout_height="fill_parent"
+			android:textSize="15sp"
+			android:textStyle="bold"
+			android:textColor="@color/black"
+			android:paddingTop="7dp"
+			android:paddingRight="7dp"
+			android:layout_gravity= "center"
+			android:gravity="center_horizontal|right"
+			android:layout_alignParentRight="true"
+			/>
+
+	</LinearLayout>
+
+<ScrollView android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:layout_below="@id/note_date_time"> 
+			
+	<view xmlns:android="http://schemas.android.com/apk/res/android"
+		class="com.sprdroid.note.NoteEditor$LinedEditText"
+		android:id="@+id/et_content"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		style="?android:attr/textViewStyle"
+		android:background="@android:color/transparent"
+		android:padding="5dip"
+		android:scrollbars="vertical"
+		android:fadingEdge="vertical"
+		android:gravity="top|left"
+		
+
+		android:editable="true"
+		android:cursorVisible="true" 
+
+		android:textColor="@color/black"
+		android:textSize="22sp"
+		android:capitalize="sentences"
+	/>
+</ScrollView>
+	<!--fadingEdge:设置拉滚动条时 ，边框渐变的放向。vertical（垂直方向颜色变淡）-->
+	<!--capitalize:设置英文字母大写类型。仅第一个字母大写，需要弹出输入法才能看得到，参见EditView此属性说明。-->
+	<!-- android:autoLink="phone|email|web" -->
+		<!-- android:focusableInTouchMode ="false" 
+				android:freezesText="true"
+				android:selectAllOnFocus="true"-->
+</RelativeLayout>

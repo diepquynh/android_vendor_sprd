@@ -1,0 +1,25 @@
+LOCAL_PATH:= $(call my-dir)
+include $(CLEAR_VARS)
+
+LOCAL_SRC_FILES:= \
+	disp_test_usr.c
+
+LOCAL_SHARED_LIBRARIES := \
+	libcutils
+
+LOCAL_MODULE := lava_display
+
+LOCAL_MODULE_TAGS := optional
+ifeq ($(TARGET_BOARD_NAME),sp7731)
+LOCAL_CFLAGS += -DLAVATEST_SP7731
+endif
+ifeq ($(TARGET_BOARD_NAME),sp9838)
+LOCAL_CFLAGS += -DLAVATEST_SP9838
+endif
+ifeq ($(TARGET_BOARD_NAME),sp7731c)
+LOCAL_CFLAGS += -DLAVATEST_SP7720
+endif
+ifeq ($(TARGET_PLATFORM),sc9630)
+LOCAL_CFLAGS += -DLAVATEST_SP9830
+endif
+include $(BUILD_EXECUTABLE)

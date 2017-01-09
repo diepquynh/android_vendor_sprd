@@ -1,0 +1,10 @@
+因为在马达和手电筒测试时，用到驱动里面的节点，需要在idh.code\system\core\rootdir\init.rc中设置权限，即添加：
+chmod 0777 /sys/class/vibratortest/status
+chmod 0777 /sys/class/vibratortest/flashled
+
+
+还需要在idh.code\kernel\arch\arm\mach-sc8810\vibrator.c添加节点
+
+idh.code\customize\customer_cfg\sp8810ga\res\modules.lst(否则libstabilityjni.so编译不进去)
+
+对比相应的old和new文件添加相关代码

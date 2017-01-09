@@ -1,0 +1,14 @@
+diff --git a/BoardConfig.mk b/BoardConfig.mk
+index 32e6fd7..ec26377 100644
+--- a/BoardConfig.mk
++++ b/BoardConfig.mk
+@@ -28,7 +28,8 @@ TARGET_CPU_SMP := true
+ TARGET_ARCH_VARIANT := armv7-a-neon
+ ARCH_ARM_HAVE_TLS_REGISTER := true
+ 
+-BOARD_HAVE_BLUETOOTH := true
++# ubx: bluetooth does not seem to compile/link correctly
++BOARD_HAVE_BLUETOOTH := false
+ TARGET_NO_BOOTLOADER := true
+ 
+ BOARD_KERNEL_BASE := 0x80000000

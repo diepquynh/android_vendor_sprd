@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    coreApp="true"
+    package="plugin.sprd.supportcmcc"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <application>
+        <meta-data
+            android:name="isFeatureAddon"
+            android:value="true" />
+        <meta-data
+            android:name="targetPackages"
+            android:value="com.android.settings" />
+        <meta-data
+            android:name="featureClassNames"
+            android:value="plugin.sprd.supportcmcc.SprdWifiSettingsAddon" />
+
+        <activity
+            android:name=".WifiTrustedAPList"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/wifi_trusted_ap_category"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Material.Light.Dialog" >
+        </activity>
+
+        <receiver android:name=".WifiConnectionPolicy" >
+            <intent-filter>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.wifi.supplicant.STATE_CHANGE" />
+                <action android:name="android.net.wifi.SCAN_RESULTS" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+                <action android:name="android.net.wifi.RSSI_CHANGED" />
+                <action android:name="sprd.net.wifi.WIFI_CONNECTED_AP_ABSENT" />
+                <action android:name="sprd.net.wifi.WIFI_DISABLED_WHEN_CONNECTED" />
+                <action android:name="sprd.net.wifi.BSS_REMOVED_ACTION" />
+                <action android:name="sprd.wifi.alarm.CONNECT_WIFI" />
+                <action android:name="sprd.wifi.alarm.DISCONNECT_WIFI" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".WifiConnectionPolicyDialogActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:excludeFromRecents="true"
+            android:theme="@android:style/Theme.Material.Light.Dialog" >
+        </activity>
+
+        <activity android:name=".AirplaneModeWifiAlertActivity"
+            android:theme="@*android:style/Theme.Holo.Dialog.Alert"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:noHistory="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop" >
+        </activity>
+        <service android:name=".WifiSettingsService"
+            android:exported="true" />
+    </application>
+
+</manifest>

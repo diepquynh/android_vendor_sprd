@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_sky"
+    tools:context=".JioDriveActivity" >
+
+    <Button
+        android:id="@+id/button_skip"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_yes"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_text_skip" />
+
+    <Button
+        android:id="@+id/button_yes"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="38dp"
+        android:text="@string/button_text_yes" />
+
+    <TextView
+        android:id="@+id/JioDriveTex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/button_yes"
+        android:text="@string/jio_drive"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/WantKeepSafeTex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/JioDriveTex"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:textColor="#000000"
+        android:text="@string/want_keep_safe" />
+
+</RelativeLayout>

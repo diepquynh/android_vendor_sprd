@@ -1,0 +1,13 @@
+<HTML>
+<BODY>
+The fm package contains the interfaces and classes for interacting with the Bluetooth FM radio service.<p/>
+
+Android applications use {@link com.broadcom.bt.service.fm.FmProxy} to interact with the FM radio service.<p/>
+
+Android applications obtain a reference to {@link com.broadcom.bt.service.fm.FmProxy} by calling  
+{@link android.app.Activity#getSystemService Activity.getSystemService()}, specifying the name as {@link android.content.Context Context.BLUETOOTH_FM_SERVICE}<p/>
+
+Android applications receive events from the FM radio service by creating and registering instances of {@link com.broadcom.bt.service.fm.IFmReceiverEventHandler} 
+with the {@link com.broadcom.bt.service.fm.FmProxy} instance.<p/>
+</BODY>
+</HTML>

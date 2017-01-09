@@ -1,0 +1,138 @@
+;print the register value
+
+local &register_name
+entry &register_name
+
+if ("&board"=="sc8830")
+(
+	if ("&register_name"=="ahb")
+		(
+			data.print %Binary.Long  &AHB_BASE+0x0000 \
+											 &AHB_BASE+0x1000 \
+											 &AHB_BASE+0x2000 \
+											 &AHB_BASE+0x0004 \
+											 &AHB_BASE+0x1004 \
+											 &AHB_BASE+0x2004 \
+											 &AHB_BASE+0x0008 \
+											 &AHB_BASE+0x1008 \
+											 &AHB_BASE+0x2008 \
+											 &AHB_BASE+0x000c \
+											 &AHB_BASE+0x0010 \
+											 &AHB_BASE+0x0014 \
+											 &AHB_BASE+0x0018 \
+											 &AHB_BASE+0x001c \
+											 &AHB_BASE+0x0020 \
+											 &AHB_BASE+0x0024 \
+											 &AHB_BASE+0x0028 \
+											 &AHB_BASE+0x002c \
+											 &AHB_BASE+0x0030 \
+											 &AHB_BASE+0x0034 \
+											 &AHB_BASE+0x0038 \
+											 &AHB_BASE+0x003c \
+											 &AHB_BASE+0x103c \
+											 &AHB_BASE+0x203c \
+											 &AHB_BASE+0x0040 \
+											 &AHB_BASE+0x1040 \
+											 &AHB_BASE+0x2040 \
+											 &AHB_BASE+0x0044 \
+											 &AHB_BASE+0x0048 \
+											 &AHB_BASE+0x004c \
+											 &AHB_BASE+0x104c \
+											 &AHB_BASE+0x204c \
+											 &AHB_BASE+0x0050 \
+											 &AHB_BASE+0x1050 \
+											 &AHB_BASE+0x2050 \
+											 &AHB_BASE+0x0054 \
+											 &AHB_BASE+0x1054 \
+											 &AHB_BASE+0x2054 \
+											 &AHB_BASE+0x0058 \
+											 &AHB_BASE+0x1058 \
+											 &AHB_BASE+0x2058 \
+											 &AHB_BASE+0x005C \
+											 &AHB_BASE+0x105C \
+											 &AHB_BASE+0x205C \
+											 &AHB_BASE+0x00FC \
+		)
+	else if ("&register_name"=="intc0")
+		(
+			data.print %Binary.Long  &INTC0_BASE+0x0000 \
+											 &INTC0_BASE+0x0004 \
+											 &INTC0_BASE+0x0008 \
+											 &INTC0_BASE+0x000c \
+											 &INTC0_BASE+0x0010 \
+											 &INTC0_BASE+0x0014 \
+											 &INTC0_BASE+0x0018 \
+											 &INTC0_BASE+0x0020 \
+											 &INTC0_BASE+0x0024 \
+											 &INTC0_BASE+0x0028 \
+											 &INTC0_BASE+0x002c \
+											 &INTC0_BASE+0x0030 \
+											 &INTC0_BASE+0x0034 \
+											 &INTC0_BASE+0x0038 \
+		)
+	else if ("&register_name"=="adi")
+		(
+			data.print %Binary.Long  &ADI_BASE+0x0000 \
+											 &ADI_BASE+0x0004 \
+											 &ADI_BASE+0x0008 \
+											 &ADI_BASE+0x000c \
+											 &ADI_BASE+0x0010 \
+											 &ADI_BASE+0x0014 \
+											 &ADI_BASE+0x0018 \
+											 &ADI_BASE+0x001c \
+											 &ADI_BASE+0x0020 \
+											 &ADI_BASE+0x0024 \
+											 &ADI_BASE+0x0028 \
+											 &ADI_BASE+0x002c \
+											 &ADI_BASE+0x0030 \
+											 &ADI_BASE+0x0034 \
+											 &ADI_BASE+0x0038 \
+											 &ADI_BASE+0x003c \
+											 &ADI_BASE+0x0040 \
+											 &ADI_BASE+0x0044 \
+											 &ADI_BASE+0x0048 \
+											 &ADI_BASE+0x004c \
+											 &ADI_BASE+0x0050 \
+											 &ADI_BASE+0x0054 \
+											 &ADI_BASE+0x0058 \
+											 &ADI_BASE+0x005C \
+											 &ADI_BASE+0x0060 \		
+		)
+	else if("&register_name"=="gpio")
+		(
+			data.print %Binary.Long  &GPIO_BASE+0x0000 \
+											 &GPIO_BASE+0x0004 \
+											 &GPIO_BASE+0x0008 \
+											 &GPIO_BASE+0x000c \
+											 &GPIO_BASE+0x0010 \
+											 &GPIO_BASE+0x0014 \
+											 &GPIO_BASE+0x0018 \
+											 &GPIO_BASE+0x001c \
+											 &GPIO_BASE+0x0020 \
+											 &GPIO_BASE+0x0024 \
+											 &GPIO_BASE+0x0028 \
+		)
+	else if("&register_name"=="eic")
+		(
+;			data.print %Binary.Long  &EIC_BASE+0x0000 \
+;											 &EIC_BASE+0x0004 \
+;											 &EIC_BASE+0x0014 \
+;											 &EIC_BASE+0x0018 \
+;											 &EIC_BASE+0x001c \
+;											 &EIC_BASE+0x0020 \
+;										 	&EIC_BASE+0x0024 \
+;											 &EIC_BASE+0x0028 \
+;										 	&EIC_BASE+0x0040 \
+;											 &EIC_BASE+0x0044 \
+;											 &EIC_BASE+0x0048 \
+;											 &EIC_BASE+0x004c \
+;											 &EIC_BASE+0x0050 \
+;											 &EIC_BASE+0x0054 \
+;											 &EIC_BASE+0x0058 \
+;											 &EIC_BASE+0x005C \
+;											 &EIC_BASE+0x105C \
+;											 &EIC_BASE+0x205C \
+;											 &EIC_BASE+0x00FC \			
+		)
+)
+

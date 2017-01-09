@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/app_name">
+
+        <CheckBoxPreference
+            android:key="open_all"
+            android:title="@string/open_all"
+            android:summary="@string/open_all_summary"/>
+
+        <CheckBoxPreference
+            android:key="open_app_launch_time"
+            android:title="@string/open_app_launch_time"
+            android:summary="@string/open_app_launch_time_summary"/>
+
+        <CheckBoxPreference
+            android:key="open_fps_disp"
+            android:title="@string/open_fps_disp"
+            android:summary="@string/open_fps_display_summary"/>
+
+        <CheckBoxPreference
+            android:key="open_meminfo_disp"
+            android:title="@string/open_meminfo_disp"
+            android:summary="@string/open_meminfo_display_summary"/>
+
+        <CheckBoxPreference
+            android:key="open_pwron_time"
+            android:title="@string/open_pwron_time"
+            android:summary="@string/open_power_on_time_summary"/>
+
+        <CheckBoxPreference
+            android:key="open_boot_data"
+            android:title="@string/open_boot_data"
+            android:summary="@string/open_boot_data_detail_summary"/>
+
+        <CheckBoxPreference
+            android:key="open_app_data"
+            android:title="@string/open_app_data"
+            android:summary="@string/open_app_launch_detail_summary"/>
+
+        <CheckBoxPreference
+            android:key="open_camera_init_time"
+            android:title="@string/open_camera_init_time"
+            android:summary="@string/open_cam_init_time_summary"/>
+
+        <CheckBoxPreference
+            android:key="open_power_off_time"
+            android:title="@string/open_poweroff_time"
+            android:summary="@string/open_power_off_time_summary"/>
+            
+        <CheckBoxPreference
+            android:key="open_charge_time"
+            android:title="@string/open_charge_time"
+            android:summary="@string/open_charge_time_summary"/>
+
+        <CheckBoxPreference
+            android:key="open_return_to_idle_time"
+            android:title="@string/open_return_to_idle_time"
+            android:summary="@string/open_home_to_idle_time_summary"/>
+
+        <CheckBoxPreference
+            android:key="open_net_search_time"
+            android:title="@string/open_net_search_time"
+            android:summary="@string/open_network_search_time_summary"/>
+
+        <CheckBoxPreference
+            android:key="open_top_recorder"
+            android:title="@string/open_top_recorder"
+            android:summary="@string/open_top_recorder_summary"/>
+
+        <CheckBoxPreference
+            android:key="open_procrank_recorder"
+            android:title="@string/open_procrank_recorder"
+            android:summary="@string/open_procrank_recorder_summary"/>
+</PreferenceScreen>

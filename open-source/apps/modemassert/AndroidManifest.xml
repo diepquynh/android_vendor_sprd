@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.android.modemassert"
+      android:versionCode="1"
+      android:sharedUserId="android.uid.modemassert"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <application android:name="AssertApplication"
+                 android:persistent="true"
+                 android:icon="@drawable/icon"
+                 android:label="@string/app_name">
+
+         <activity android:name="AssertInfoActivity"
+             android:icon="@drawable/modem_assert"></activity>
+         <activity android:name="SystemInfoDumpingActivity"
+         android:theme="@android:style/Theme.Holo.Dialog"></activity>
+    </application>
+</manifest>

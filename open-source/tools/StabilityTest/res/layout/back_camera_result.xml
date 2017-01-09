@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#ffffff">
+  
+	<SurfaceView android:id="@+id/surfaceView"
+		android:visibility="visible" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+	</SurfaceView>
+   
+    <TextView
+            android:id="@+id/light_msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/light_msg_text"/>
+
+	<!--
+		<ImageView android:id="@+id/cameraImageView"
+		android:visibility="visible" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"> </ImageView>
+	-->
+	<!--
+	<RelativeLayout android:layout_alignParentBottom="true"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<include layout="@layout/pass_fail_select"/>
+		
+
+			<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/btn_pass"
+			android:text="@string/text_pass"></Button> <LinearLayout
+			android:layout_width="wrap_content" android:orientation="horizontal"
+			android:layout_centerHorizontal="true"
+			android:layout_height="wrap_content"> <Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/preview"
+			android:text="@string/preview"></Button> <Button
+			android:layout_width="wrap_content" android:enabled="false"
+			android:layout_height="wrap_content" android:id="@+id/take_picture"
+			android:text="@string/take_picture"></Button> </LinearLayout> <Button
+			android:layout_width="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_height="wrap_content" android:id="@+id/btn_fail"
+			android:text="@string/text_fail"></Button>
+		
+	</RelativeLayout>
+	-->
+</RelativeLayout>
+

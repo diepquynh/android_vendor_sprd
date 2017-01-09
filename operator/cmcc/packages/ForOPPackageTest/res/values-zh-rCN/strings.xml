@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义我们用的字符串变量,这样比固化到程序中灵活性更高 -->
+<resources>
+    <string name="hello">Welcome</string>
+    <string name="app_name">展讯便签</string>
+   	<!-- 比较通用的字段 -->
+    <string name="new_note">新建便签</string>
+    <string name="edit_note">编辑便签</string>
+    <string name="delete">删除</string>
+    <string name="select_all">标记全部</string>
+    <string name="delete_all">删除全部</string>
+    <string name="save">保存</string>
+    <string name="delete_note">确定删除便签/文件夹?</string>
+    <string name="delete_all_note">确定删除全部便签和文件夹?</string>
+    <string name="save_success">保存成功</string>
+    <string name="delete_success">删除成功</string>
+    <string name="save_failed">内容为空，保存失败!</string>
+    <string name="list_is_empty">列表为空，删除失败!</string>
+    <string name="selected_is_empty">选择为空，删除失败!</string>
+    <string name="Deleting">正在删除，请稍等！</string>
+ 
+    <string name="tel">拨打电话</string>
+    <string name="web">浏览网页</string>
+    <string name="email">发送邮件</string>
+    <string name="mynote">展讯便签</string>
+   
+    <string name="note_link_other">Open map</string>
+    <string name="PM">下午</string>
+    <string name="AM">上午</string>
+    <!-- 菜单 -->
+    <string name="contextmenu">选项菜单</string> 
+    <string name="new_folder">新建文件夹</string>
+    <string name="edit_folder_title">修改文件夹名称</string>
+    <string name="movetoFolder">移进文件夹</string>
+    <string name="moveoutFolder">移出文件夹</string>
+    <string name="setAlarm">设置便签闹铃</string>
+    <string name="add_shortcut_to_home">添加快捷方式</string>
+
+    <string name="toast_add_fail">达到便签数目上限，请删除部分后重试！</string>
+    <string name="toast_edit_outbound">达到编辑输入字数上限，请删除部分后重试！</string>
+    <string name="no_folder_found">不存在文件夹!</string>
+    <string name="folder_add_fail">请输入文件夹名！</string>
+    <string name="folder_name_out_of_bound">文件夹名超过字符数限制！</string>
+
+    <string name="start_alarm">开启闹铃</string>
+    <string name="alarm_date_setting">闹铃日期设置</string>
+    <string name="alarm_time_setting">闹铃时间设置</string>
+    <string name="alarm_is_repeat">重复闹铃</string>
+    <string name="alarm_is_vibrate">震动闹铃</string>
+    <string name="alarm_rings">闹钟铃声</string>
+
+    <string name="set_time_frist">请先设置闹钟时间！</string>
+    <string name="date_time_setted">已经有相同时间的闹铃设置，请重新设置时间！</string>
+    <string name="setVibrate">设置震动</string>
+    <string name="enableAlarm">开启闹铃</string>
+    <string name="set_alarm_ringtone">设置闹铃铃声</string>
+    <string name="default_rings_name">默认铃声</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+
+	<!-- Button组件显示 的字符串 -->
+    <string name="Ok">完成</string>
+    <string name="Cancel">取消</string>
+
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">便签闹铃</string>
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label">闹铃暂停</string>
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+    <string name="alarm_notify_snooze_text">闹铃通知，点击取消！</string>
+    <!-- Toast that appears after Alarm is snoozed from the Alarm
+         dialog. Says the alarm will snooze for xxx minutes.  -->
+    <string name="alarm_alert_snooze_set">便签闹铃关闭.</string>
+    
+    <string name="notify_ticker">便签闹钟事件！</string>
+    <string name="Note_Alarm_Notify">便签闹铃通知 !</string>
+
+    <string name="set_time_fail">设定时间失败</string>
+    <string name="set_date_fail">设定日期失败</string>
+
+    <string name="input_content">请先输入内容，再设置闹铃 !</string>
+</resources>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/layoutRacingNeedForSpeed" android:padding="0px"
+ android:layout_width="fill_parent" android:layout_height="fill_parent">
+ <TextView  
+	android:id="@+id/unlockText"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textSize="65px"
+    />
+ <Button 
+  android:id="@+id/startBtn"
+  android:layout_centerInParent="true"
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content"
+  />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+diff --git a/full_panda.mk b/full_panda.mk
+index 46b188f..93ae7a7 100644
+--- a/full_panda.mk
++++ b/full_panda.mk
+@@ -29,6 +29,12 @@ PRODUCT_PACKAGES += \
+         VisualizationWallpapers \
+         librs_jni
+ 
++# ubx: stuff from Cyanogenmod, see .repo/local_manifest.xml
++PRODUCT_PACKAGES += \
++        libncurses \
++        busybox \
++        bash
++
+ PRODUCT_PROPERTY_OVERRIDES := \
+         net.dns1=8.8.8.8 \
+         net.dns2=8.8.4.4

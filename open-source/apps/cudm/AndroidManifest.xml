@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.spreadtrum.dm">
+    <original-package android:name="com.android.dm" />
+    
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+    <uses-permission android:name="android.permission.BROADCAST_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	  <uses-permission android:name="android.permission.INTERNET"/>
+	  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+	  <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+	  <uses-permission android:name="android.permission.VIBRATE" />	  
+	<!--Start of  zhuzhongwei 2011.2.14-->
+    <uses-permission android:name="com.android.pushmail.permission.ACCESS_PROVIDER" />
+	<!--End   of  zhuzhongwei 2011.2.14-->
+	<!--Start of  oasis_zp@hisense  2011.2.14-->
+	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+	<!--End   of  oasis_zp@hisense  2011.2.14-->
+
+	<!-- add by wangxiaobin for 142408 11-22 begin -->
+	<uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+	<uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
+	<!-- add by wangxiaobin for 142408 11-22 end --> 
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">  
+<!--
+    	<activity android:name=".DmApp"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+-->        
+    	<activity android:name=".DmDebugMenu"
+                  android:label="@string/debug_menu">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>  
+<!--           
+    	<activity android:name=".DmAlertDialog"    					
+    					android:theme="@android:style/Theme.NoDisplay">
+        <intent-filter>
+            <action android:name="com.android.dm.DmAlertDialog" />
+        </intent-filter>    					
+        </activity>     
+-->        
+        <activity android:name=".DmEditItemCU"
+				  android:label="@string/debug_menu">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                
+		<receiver android:name=".DmReceiverCU" android:enabled="true">
+            <intent-filter>
+               <action android:name="android.intent.action.BOOT_COMPLETED" />
+		<action android:name="com.android.dm.stop" />
+            </intent-filter>
+             <intent-filter>
+               <action android:name="android.intent.action.WALLPAPER_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DATA_SMS_RECEIVED" />
+                <data android:scheme="sms" />      
+				<data android:host="localhost" /> 
+				<data android:port="26680" />
+            </intent-filter>
+<!--		    
+		    <intent-filter>
+		        <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
+		        <data android:mimeType="application/vnd.syncml.dm+wbxml" />
+		        <data android:mimeType="application/vnd.syncml.dm+xml" />
+		        <data android:mimeType="application/vnd.syncml.notification" />
+		    </intent-filter>            
+-->
+		</receiver>    
+		
+    <service android:name=".DmServiceCU" android:enabled="true">
+        <intent-filter>
+            <action android:name="com.android.dm.SelfReg" />
+            <action android:name="com.android.dm.NIA" />        
+        </intent-filter>        
+    </service>
+        
+    </application>
+
+</manifest> 

@@ -1,0 +1,185 @@
+Bellagio OpenMAX Integration Layer 1.1.2 project
+Release 0.9.3
+
+This is an Open Source implementation of the OpenMAX Integration Layer
+(IL) API ver. 1.1.2, specified by the Khronos group (see
+http://www.khronos.org/openmax).
+
+This package includes the libomxil-bellagio shared library together with the
+following OpenMAX components (built as separate shared objects and
+loaded at runtime):
+
+CORE FUNCTIONALITIES
+- An IL core
+- A component loader for static libraries for Linux
+- A simple resource manager
+- A framework of components and ports base classes for Bellagio Hierarchy
+- A draft support to content pipes
+
+AUDIO
+- OMX audio volume control
+- OMX audio mixer component
+
+VIDEO
+- a video scheduler connected to a clock component for video synchronization
+
+CLOCK
+- OMX Clock component. It take audio(default) as input reference clock
+  and provide media clock to video sink and other component. It support
+  fast forward and rewind.
+
+NEWS
+- support for dynamic loading of components
+- compilation compatible with Android
+
+=============================
+IMPORTANT NOTE
+=============================
+All the other components present in the old versions of Bellagio
+are distributed from the 0.9.2 on as external packages maintained separately.
+If you need more details you can check the download page in the Bellagio web site:
+
+http://omxil.sourceforge.net/downloads.html
+
+=============================
+ENVIRONMENT VARIABLES
+=============================
+
+export PATH=$INSTALL_DIR/bin:$PATH
+export LD_LIBRARY_PATH=$INSTALL_DIR/lib:$LD_LIBRARY_PATH
+export BELLAGIO_SEARCH_PATH=$INSTALL_DIR/lib/bellagio/:$INSTALL_DIR/lib/extern_omxcomp/lib/:$INSTALL_DIR/lib/
+export PKG_CONFIG_PATH=$INSTALL_DIR/lib/pkgconfig/:/usr/local/lib/pkgconfig/:/usr/lib/pkgconfig/
+
+where $INSTALL_DIR is by default /usr/local or can be specified with configure with the following command option:
+./configure --prefix=$INSTALL_DIR
+
+=============================
+ BUILD the bellagio library
+=============================
+
+autoreconf -i -f $(source_path)
+$(source_path)/configure
+make
+make install
+make check
+
+Before attempting to run any test, the OMX components *must* be
+registered with the command "omxregister-bellagio".
+
+omxregister-bellagio components_path1:components_path2
+
+That will create a registry file that will contain all the components
+installed in the specified directories. By default the components 
+distributed with this package are installed in /usr/local/lib/bellagio
+and the registry entries are stored in the file $HOME/.omxregister
+The location of registry file can be changed setting the environment variable
+OMX_BELLAGIO_REGISTRY to the location and name of the new register file.
+ 
+Note: the default location for the installation is TARGET=/usr/local/lib 
+for the library, and the component will be installed in TARGET/bellagio 
+To change the installation directory execute the configure as in the example:
+
+$(source_path)/configure --prefix=new_installation_path
+
+=============================
+ TEST
+=============================
+
+The following simple test applications are provided:
+
+test/components/audio_effects/omxvolcontroltest
+test/components/audio_effects/omxaudiomixertest
+
+test/components/resource_manager/omxrmtest
+
+TEST USAGE
+----------------------------------------------
+
+Usage: omxvolcontroltest [-o outfile] [-g gain] filename
+
+       -o outfile: If this option is specified, the output stream is
+                   written to outfile otherwise redirected to std
+                   output
+       -g: Gain of PCM data [0...100]
+       -h: Displays this help
+
+Usage: omxaudiomixertest [-o outfile] [-gi gain] -t -r 44100 -n 2 filename1 filename2 [filename3] [filename4] 
+
+       -o outfile: If this option is specified, the output stream is
+                   written to outfile otherwise redirected to std
+                   output; Can't be used with -t.
+       -gi       : Gain of stream i[0..3] data [0...100]
+       -t        : The audio mixer is tunneled with the ALSA sink;
+                   Can't be used with -o
+       -r 44100  : Sample Rate [Default 44100]
+       -n 2      : Number of channel [Default 2]
+       -h        : Displays this help
+
+
+The omxvolcontroltest and omxaudiomixertest receive as input an audio decompressed stream.
+If an output file is produced yet another uncompressed audio stream is written.
+The purpose of these tests is to verify the correct behavior of audio effects volume control ands audio mixer.
+If any developer is interested in a full multimedia chain with codecs also please refer to the external components 
+and relates tests. A set of application using many components is also provided as a separate package.
+For further details go to the download page of the Bellagio web pages:
+
+http://omxil.sourceforge.net/downloads.html
+
+=============================
+ BUILD RPM
+=============================
+
+- To build RPM:
+
+ make dist
+ cp libomxil-bellagio-0.9.3.tar.gz $HOME/rpmbuild/SOURCES/
+ rpmbuild -bb libomxil-bellagio.spec
+ 
+=============================
+ BUILD DEB
+=============================
+To build the installable deb package with the Bellagio libraries run in the source directory:
+
+sudo checkinstall --pkgsource=$(source_path) --install=no --maintainer=giulio.urlini@st.com --spec=$(source_path)/libomxil-bellagio.spec --inspect
+Note: the deb package will store the intallation path set by the last configure executed
+
+=============================
+ SOURCE CODE PACKAGE
+=============================
+There are two ways to generate the source code package. One is provided by the
+makefile internal structure, running the following command:
+
+make dist
+ 
+In Ubuntu system is also available the debian mechanism to build a 
+source code package, running the following instructions, in the base
+directory of the source code:
+
+dpkg-buildpackage -S
+
+=============================
+Android Support
+=============================
+Actually the Bellagio framework can be executed in Android Froyo 2.2 using the stagefright multimedia framework.
+Some makefiles and instructions are contained in the actual packet.
+
+=============================
+ DITRIBUTIONS
+=============================
+This version has been tested on:
+
+- UBUNTU 10.10 and older
+- Fedora Core 11
+
+================================
+UBUNTU Installation instructions
+================================
+
+In order to compile properly the bellagio framework in Ubuntu some packages
+should be added. These packages are not included in the base ubuntu installation.
+the packages to be installed with sudo apt-get install are:
+autoconf
+libtool
+g++
+
+Last modified: Jan 12, 2011

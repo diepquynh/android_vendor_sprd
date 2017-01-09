@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义我们用的字符串变量,这样比固化到程序中灵活性更高 -->
+<resources>
+    <string name="hello">Welcome</string>
+    <string name="app_name">ForCmccTestNote</string>
+   	<!-- 比较通用的字段 -->
+    <string name="new_note">New Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="delete">Delete</string>
+    <string name="select_all">Select All</string>
+    <string name="delete_all">Delete All</string>
+    <string name="save">Save</string>
+    <string name="delete_note">Delete this note or folder?</string>
+    <string name="delete_all_note">Delete all notes or folder?</string>
+    <string name="save_success">Save Succeed!</string>
+    <string name="delete_success">Delete Succeed!</string>
+    <string name="save_failed">Save Failed!</string>
+    <string name="list_is_empty">List is empty,delete failed!</string>
+    <string name="selected_is_empty">Selected empty,delete failed!</string>
+    <string name="Deleting">Deleting, please wait！</string> 
+    <string name="tel">Call</string>
+    <string name="web">Browse web </string>
+    <string name="email">Send email</string>
+    <string name="mynote">SPRD Note</string>
+   
+    <string name="note_link_other">Open map</string>
+    <string name="PM">PM</string>
+    <string name="AM">AM</string>
+    <!-- 菜单 -->
+    <string name="contextmenu">Operation Menu</string>   
+    <string name="new_folder">New Folder</string>
+    <string name="edit_folder_title">Edit Folder Title</string>
+    <string name="movetoFolder">Move to Folder</string>
+    <string name="moveoutFolder">Move out of Folder</string>
+    <string name="setAlarm">Set Alarm</string>
+    <string name="add_shortcut_to_home">Add Shortcut to Home</string>
+
+    <string name="toast_add_fail">Achieved the limited number of items, please remove anyones and try it again！</string>
+    <string name="toast_edit_outbound">Achieved the limited number of characters, please remove anyones and try it again！</string>
+    <string name="no_folder_found">No Folder Exist!</string>
+    <string name="folder_add_fail">Please input folder name！</string>
+    <string name="folder_name_out_of_bound">Folder name allowed in 18 chars！</string>
+
+    <string name="start_alarm">Start Alarm</string>
+    <string name="alarm_date_setting">Set Alarm Date</string>
+    <string name="alarm_time_setting">Set Alarm Time</string>
+    <string name="alarm_is_repeat">Set Alarm Repeat</string>
+    <string name="alarm_is_vibrate">Set Alarm Vibrate</string>
+    <string name="alarm_rings">Set Alarm Rings</string>
+
+    <string name="set_time_frist">Set Alarm Time First！</string>
+    <string name="date_time_setted">The date and time has been set, please check it！</string>  
+    <string name="setVibrate">Set Vibrate</string>
+    <string name="enableAlarm">Enable Alarm</string>
+    <string name="set_alarm_ringtone">Set alarm ringtone</string>
+    <string name="default_rings_name">Default Ringtone</string>
+
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+
+	<!-- Button组件显示 的字符串 -->
+    <string name="Ok">OK</string>
+    <string name="Cancel">Cancel</string>
+
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">Alarm</string>
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label">alarm snoozed</string>
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+    <string name="alarm_notify_snooze_text">Alarm set for time. Select to cancel.</string>
+    <!-- Toast that appears after Alarm is snoozed from the Alarm
+         dialog. Says the alarm will snooze for xxx minutes.  -->
+    <string name="alarm_alert_snooze_set">Note alarm canceled !</string>
+
+    <string name="notify_ticker">Note event coming !</string>
+    <string name="Note_Alarm_Notify">Note Alarm !</string>
+    <string name="set_time_fail">Failed to set time</string>
+    <string name="set_date_fail">Failed to set date</string>
+
+    <string name="input_content">Please input text content first !</string>
+
+</resources>

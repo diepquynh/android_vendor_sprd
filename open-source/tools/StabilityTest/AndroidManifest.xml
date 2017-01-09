@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.stability"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:sharedUserId="android.uid.system" >
+
+    <uses-sdk android:minSdkVersion="10" />
+    <permission android:name="android.permission.REBOOT"></permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> 
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	<uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+	<uses-permission android:name="android.permission.HARDWARE_TEST" />
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+	<uses-permission android:name="android.permission.FLASHLIGHT"/> 
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-feature android:name="android.hardware.camera" ></uses-feature>
+	<uses-feature android:name="android.hardware.camera.autofocus" ></uses-feature>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".StabilityActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".singleItemsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".VibratorActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".phoneInfos"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LcdActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".cameraStabilityActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+                <activity
+            android:name=".CameraTestActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".torchlightStabilityActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".torchlightlongActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".torchlightonoffActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RebootContinuouslyActivity"
+	    android:screenOrientation="portrait" >
+       </activity>
+       
+       <receiver android:name=".RebootContinuouslyBroadcastReceiver">  
+	        <intent-filter>  
+	            <action android:name="android.intent.action.BOOT_COMPLETED"></action>  
+	            <category android:name="android.intent.category.LAUNCHER" />  
+	        </intent-filter>  
+        </receiver> 
+        <activity
+            android:name=".ReceiverActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".GesnsorTest"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FMTestActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".FlashTest"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".hwtest"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".SimTaskTestActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+    </application>
+
+</manifest>

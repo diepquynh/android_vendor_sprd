@@ -1,0 +1,6 @@
+1.use "cp * ../../../../../" to copy all files to your android project root folder
+2.modify .config, use your real DEVICE name, it will be used in gdb script, "GONK_OBJDIR=out/target/product/$DEVICE"
+3.connect handset with usb, and use "adb root && adb remount" to get root permission
+4.use "adb shell ps" to get process pid, for example, "adb shell ps | grep 'mediaserver'"
+5.use "run-gdb.sh attach <pid> or run-ddd.sh attach <pid>" to attach the process which you want to debug
+6.any question, please feel free to contact james.zhang@spreadtrum.com

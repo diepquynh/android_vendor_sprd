@@ -1,0 +1,91 @@
+Changes in 0.9.3:
+- Added support for dynamic loading of components
+Changes in 0.9.2.1:
+- Added optional support to components quality levels
+  The global setting of quality level for a component has been added.
+  Optionally a component can provide support for Set/GetQualityLevel functions.
+  These functions will globally set a group of Parameters that 
+  represents a certain quality level. If this setting causes a change
+  in any output port parameter the PortSettingsChange event is generated.
+  The quality levels allow the IL Client to handle the resource usage of 
+  components given a quality of service policy.
+  This change is not part of the OpenMAX standard and it is an optional
+  feature of the Bellagio components. The old components are still
+  compatible with new version of Bellagio.
+
+Changes in 0.9.2:
+- Moved all the components in a separate package.
+  The actual version contains only few reference
+  components that do not depend from any external library
+- Added an internal abstract resource manager to
+  emulate the correct behavior for WaitForResources status
+- Removed all the symbian support
+- added an error return to the queuing functions
+
+Changes in 0.9.1:
+Added omx_base_image_port base class
+Added symbian support skipped in the last delivery
+Added a jpeg encoder/decoder component
+Added some tests
+
+Changes in 0.9.0:
+The main additions to this delivery are:
+
+ - The symbian version of bellagio with a new component loader, 
+   several components and all the needed infrastructure has been added
+ - Audio video synchronization support, with the addition of 
+   a new Clock component
+ - Enhancement in the build system
+ - New naming for the bellagio library. Now it is named libomxil-bellagio
+
+
+Changes in 0.3.4:
+added several components: 
+ - audio source based on alsa
+ - audiomixer: simpel mixer with constant rate
+ - 3gp audio/video parser based on ffmpeg
+ - video source based on Video4Linux
+Added new domain specific base ports
+ 
+Difference 0.3.2 -> 0.3.3:
+- Added AAC format to the audio decoder based on ffmpeg
+- The all makefile system has been updated
+  - It is possible to compile from a different directory
+- Added a directory for all the common functionalities of the tests
+- Updated OpenMAX header files to the 1.1.1 version
+- Added simple support to UseEGLImage function (video color converter component)
+- Updated component loader interface:
+  - added the function DestroyComponent
+  - changed the loader self reference
+- Added port construction function pointer
+- Removed CHECK_ERROR and CHECK_HEADER macros
+- Added optional installation of Bellagio internal header files for new 
+  components development outside Bellagio source tree. configure option --enable-install-devel
+
+WARNING! the version of ffmpeg used has been changed, since the AAC is supported 
+only by the most recent version of ffmpeg, 0.4.9-0.37.20070503
+
+
+Difference 0.3.1 -> 0.3.2:
+- Some bug fixed
+- improved code style
+- added SetHeader functionality for many parameters
+- removed destructor from function pointers exposed to ST static loader
+- removed empty functions from final components
+- removed unnecessary library dependencies
+- enhanced test applications
+
+
+Full list of components:
+Audio:
+  - ogg decoder based on libvorbis (stand alone components, and multiple roles component)
+  - mp3 decoder based on mad decoder
+  - mp3,aac,ogg decoder based on ffmpeg (multiple roles component)
+  - volume component
+  - alsa audio sink
+  - ffmpeg audio file reader (to be used with mp3 ffmpeg decoder)
+Video:
+  - MPEG4 decoder based on ffmpeg (multiple roles component)
+  - H.264 decoder based on ffmpeg (multiple roles component)
+  - Color converter based on ffmpeg
+  - video renderer based on devFB

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright 2009-2013 Broadcom Corporation
+**
+** This program is the proprietary software of Broadcom Corporation and/or its
+** licensors, and may only be used, duplicated, modified or distributed
+** pursuant to the terms and conditions of a separate, written license
+** agreement executed between you and Broadcom (an "Authorized License").
+** Except as set forth in an Authorized License, Broadcom grants no license
+** (express or implied), right to use, or waiver of any kind with respect to
+** the Software, and Broadcom expressly reserves all rights in and to the
+** Software and all intellectual property rights therein.
+** IF YOU HAVE NO AUTHORIZED LICENSE, THEN YOU HAVE NO RIGHT TO USE THIS
+** SOFTWARE IN ANY WAY, AND SHOULD IMMEDIATELY NOTIFY BROADCOM AND DISCONTINUE
+** ALL USE OF THE SOFTWARE.
+**
+** Except as expressly set forth in the Authorized License,
+**
+** 1.     This program, including its structure, sequence and organization,
+**        constitutes the valuable trade secrets of Broadcom, and you shall
+**        use all reasonable efforts to protect the confidentiality thereof,
+**        and to use this information only in connection with your use of
+**        Broadcom integrated circuit products.
+**
+** 2.     TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SOFTWARE IS PROVIDED
+**        "AS IS" AND WITH ALL FAULTS AND BROADCOM MAKES NO PROMISES,
+**        REPRESENTATIONS OR WARRANTIES, EITHER EXPRESS, IMPLIED, STATUTORY,
+**        OR OTHERWISE, WITH RESPECT TO THE SOFTWARE.  BROADCOM SPECIFICALLY
+**        DISCLAIMS ANY AND ALL IMPLIED WARRANTIES OF TITLE, MERCHANTABILITY,
+**        NONINFRINGEMENT, FITNESS FOR A PARTICULAR PURPOSE, LACK OF VIRUSES,
+**        ACCURACY OR COMPLETENESS, QUIET ENJOYMENT, QUIET POSSESSION OR
+**        CORRESPONDENCE TO DESCRIPTION. YOU ASSUME THE ENTIRE RISK ARISING OUT
+**        OF USE OR PERFORMANCE OF THE SOFTWARE.
+**
+** 3.     TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL BROADCOM OR
+**        ITS LICENSORS BE LIABLE FOR
+**        (i)   CONSEQUENTIAL, INCIDENTAL, SPECIAL, INDIRECT, OR EXEMPLARY
+**              DAMAGES WHATSOEVER ARISING OUT OF OR IN ANY WAY RELATING TO
+**              YOUR USE OF OR INABILITY TO USE THE SOFTWARE EVEN IF BROADCOM
+**              HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES; OR
+**        (ii)  ANY AMOUNT IN EXCESS OF THE AMOUNT ACTUALLY PAID FOR THE
+**              SOFTWARE ITSELF OR U.S. $1, WHICHEVER IS GREATER. THESE
+**              LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF
+**              ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
+*/
+-->
+<resources>
+
+    <!-- <string name="opt_res_not_found">Optional resource not found.</string> -->
+    <string name="app_name">FM Radio</string>
+    <string name="settings_label">Fm Radio Settings</string>
+    <string name="preset_settings_label">FmPresetSettingsLabel</string>
+    <string name="preset_label">FmPresetLabel</string>
+    <string name="fm_preset_pref_label">FmPresetPreferenceLabel</string>
+    <string name="menu_text_presets_title">Presets</string>
+    <string name="menu_text_power_off_title">SHUTDOWN</string>
+    <string name="menu_text_settings_title">Settings</string>
+    <string name="menu_text_switch_to_fm_transmit_title">Switch to FM Transmit</string>
+    <string name="menu_text_switch_to_fm_receive_title">Switch to FM Receive</string>
+    <string name="pref_menu_text_main_menu">FM Receive Settings</string>
+    <string name="pref_menu_text_radio_enabled">Enable FM Radio</string>
+    <string name="pref_menu_text_radio_enabled_summary">Enable/disable FM hardware</string>
+    <string name="pref_menu_text_audio_mode">Audio Mode</string>
+    <string name="pref_menu_text_audio_mode_summary">Select auto, stereo, mono or switch mode</string>
+    <string name="pref_menu_text_audio_mode_dialog_title">Select audio mode</string>
+    <string name="pref_menu_text_audio_path">Audio Path</string>
+    <string name="pref_menu_text_audio_path_summary">Select none, speaker, or wired headset path</string>
+    <string name="pref_menu_text_audio_path_dialog_title">Select Audio Path</string>
+    <string name="pref_menu_text_scan_step">Scan Step</string>
+    <string name="pref_menu_text_scan_step_summary">Set the size of the frequency intervals to use when scanning</string>
+    <string name="pref_menu_text_scan_step_dialog_title">Select Scan Step</string>
+    <string name="pref_fm_transmit_menu_text_audio_mode_summary">Select stereo or mono mode</string>
+    <string name="pref_fm_transmit_menu_text_main_menu">FM Transmit Settings</string>
+    <string name="pref_fm_transmit_menu_text_radio_enabled">FM Transmit</string>
+    <string name="pref_menu_text_bandwidth">Bandwidth</string>
+    <string name="pref_menu_text_bandwidth_summary">Set the frequency bandwidth</string>
+    <string name="pref_menu_text_bandwidth_dialog_title">Select Bandwidth</string>
+    <string name="pref_menu_text_rds_enabled">RDS Mode</string>
+    <string name="pref_menu_text_rds_enabled_summary">Specify RDS modes</string>
+    <string name="pref_menu_text_rds_enabled_dialog_title">Select RDS mode</string>
+    <string name="pref_menu_text_af_enabled">Enable AF</string>
+    <string name="pref_menu_text_af_enabled_summary">Enable/disable AF</string>
+    <string name="pref_menu_text_advanced_settings">Advanced Settings</string>
+    <string name="pref_menu_text_advanced_settings_summary">Location, deemphasis and live audio quality sampling settings</string>
+    <string name="pref_fm_transmit_menu_text_advanced_settings_summary">Location, preemphasis, interface notification and audio chirp settings</string>
+    <string name="pref_fm_transmit_menu_text_audio_path_summary">Select I2S, ADC, or HCI audio path</string>
+    <string name="pref_menu_text_world_region">World Region</string>
+    <string name="pref_menu_text_world_region_summary">Select location for correct frequency band</string>
+    <string name="pref_menu_text_world_region_dialog_title">Select World Region</string>
+    <string name="pref_menu_text_deemphasis">Deemphasis</string>
+    <string name="pref_menu_text_deemphasis_summary">Select deemphasis time</string>
+    <string name="pref_menu_text_deemphasis_dialog_title">Select Deemphasis</string>
+    <string name="pref_menu_text_preemphasis">Preemphasis</string>
+    <string name="pref_menu_text_preemphasis_summary">Select preemphasis time</string>
+    <string name="pref_menu_text_preemphasis_dialog_title">Select Preemphasis</string>
+    <string name="pref_menu_text_audio_volume">Volume</string>
+    <string name="pref_menu_text_audio_volume_summary">Select audio Volume</string>
+    <string name="pref_menu_text_audio_volume_dialog_title">Select Audio Volume</string>
+    <string name="pref_menu_text_interface_notification">Interface Notification</string>
+    <string name="pref_menu_text_interface_notification_summary">Select interface notification based on rssi or audio level bit</string>
+    <string name="pref_menu_text_interface_notification_dialog_title">Select Interface Notification</string>
+    <string name="pref_menu_text_audio_chirp">Audio Chirp</string>
+    <string name="pref_menu_text_audio_chirp_summary">Enable audio chirp. It will operate in auto mode by default</string>
+    <string name="pref_menu_text_optimize_best_channel_search">Best Channel Optimization</string>
+    <string name="pref_menu_text_optimize_best_channel_search_summary">Enable the optimization in best channel search</string>
+    <string name="pref_menu_text_audio_chirp_settings">Manual Audio Chirp Settings</string>
+    <string name="pref_menu_text_audio_chirp_settings_summary">Change left/right chirp magnitude, left/right frequency, mark time, space time</string>
+    <string name="pref_menu_text_audio_chirp_auto_manual">Manual Audio Chirp</string>
+    <string name="pref_menu_text_audio_chirp_auto_manual_manual_summary">Enable/disable the manual audio chirp</string>
+    <string name="pref_menu_text_left_channel_chirp_magnitude">Left Channel Chirp Magnitude</string>
+    <string name="pref_menu_text_right_channel_chirp_magnitude">Right Channel Chirp Magnitude</string>
+    <string name="pref_menu_text_left_channel_chirp_frequency">Left Channel Chirp Frequency</string>
+    <string name="pref_menu_text_right_channel_chirp_frequency">Right Channel Chirp Frequency</string>
+    <string name="pref_menu_text_left_channel_chirp_mark_time">Left Channel Mark Time for Chirp</string>
+    <string name="pref_menu_text_right_channel_chirp_mark_time">Right Channel Mark Time for Chirp</string>
+    <string name="pref_menu_text_left_channel_space">Space time for Left Channel</string>
+    <string name="pref_menu_text_right_channel_space">Space time for Right Channel</string>
+    <string name="pref_menu_text_power_level">Power Level</string>
+    <string name="pref_menu_text_power_level_summary">Select power level</string>
+    <string name="pref_menu_text_power_level_dialog_title">Select Power</string>
+    <string name="pref_menu_text_live_polling">Live Polling</string>
+    <string name="pref_menu_text_live_polling_summary">Enable/disable live audio sampling</string>
+    <string name="pref_menu_text_live_poll_int">Polling Interval</string>
+    <string name="pref_menu_text_live_poll_int_summary">Select live audio sampling interval</string>
+    <string name="pref_menu_text_live_poll_int_dialog_title">Select Polling Interval</string>
+    <string name="pref_menu_text_nfl_mode">Noise Floor Level Estimate</string>
+    <string name="pref_menu_text_nfl_mode_summary">Select NFL estimate mode</string>
+    <string name="pref_menu_text_nfl_mode_dialog_title">Select NFL mode</string>
+    <string name="pref_preset_menu_text_main_menu">FM Preset Settings</string>
+    <string name="pref_menu_text_click_here_stores">Click here to store current station</string>
+    <string name="pref_menu_text_fm_volume_setting">FM volume setting</string>
+    <string name="pref_menu_text_fm_volume_value">FM volume value</string>
+    <string name="pref_menu_set_snr_thres">SNR Threshold Value</string>
+    <string name="pref_menu_set_snr_thres_setting">Set SNR Threshold Value</string>
+    <string name="pref_menu_set_snr_thres_value">SNR Threshold Value</string>
+    <string name="message_no_station_name_identified">No station name identified</string>
+    <string name="message_not_assigned">Not Assigned</string>
+    <string name="message_initializing_fm_transmit">Initialising Fm Transmit ...</string>
+    <string name="message_scaning_for_best_channel">Scanning for the best channel</string>
+    <string name="menu_start_best_channel_scan">Start Best Channel Scan</string>
+    <string name="menu_stop_best_channel_scan">Stop Best Channel Scan</string>
+    <string name="toast_enter_valid_chirp_value">Enter valid manual chirp parameter</string>
+    <string name="fm_quick_toggle_on_summmary">Turn on Fm Transmit</string>
+    <string name="fm_quick_toggle_off_summmary">Turn off Fm Transmit</string>
+    <string name="fm_turning_on">Turning on ...</string>
+    <string name="fm_turning_off">Turning off ...</string>
+    <string name="permlab_fm_receiver">access FM receiver</string>
+    <string name="permdesc_fm_receiver">Allows an application to access the FM receiver functions.</string>
+    <string name="permlab_fm_transmitter">access FM transmitter</string>
+    <string name="permdesc_fm_transmitter">Allows an application to access the FM transmitter functions.</string>
+    <string name="powermin">-24 DB </string>
+    <string name="powermax">0 DB </string>
+    <string name="fm_rx_mute">Mute</string>
+    <string name="fm_rx_tune_up">Tune Up</string>
+    <string name="fm_rx_tune_down">Tune Down</string>
+    <string name="fm_rx_seek_up">Seek Up</string>
+    <string name="fm_rx_seek_down">Seek down</string>
+    <string name="fm_rx_settings">Settings</string>
+    <string name="fm_rx_radio_title">FM Radio</string>
+    <string name="ch_button">CH %d</string>
+    <string name="menu_ch_set">Set CH </string>
+    <string name="menu_ch_clear">Clear CH %d</string>
+    <string name="menu_ch_cancel">Cancel</string>
+    <string name="plug_headset_warning">Please plug in wired headset"</string>
+    <string name="error_failed_shutdown">Error: shutdown failed</string>
+    <string name="error_failed_powerup">Error: Power up failed</string>
+    <string name="error_unable_to_get_proxy">Error: Unable to get FmProxy proxy</string>
+
+</resources>

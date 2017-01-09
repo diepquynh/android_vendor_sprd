@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top">
+        <LinearLayout
+            android:id="@+id/musicblock"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="25dip" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip">
+                <TextView
+                    android:id="@+id/txtTrackName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:singleLine="true"
+                    android:textSize="24dip"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/txtArtistName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:singleLine="true"
+                    android:layout_below="@+id/txtTrackName"
+                    android:textColor="#FFFFFF" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_height="34dip">
+                    <TextView
+                        android:id="@+id/txtPosition"
+                        android:layout_width="50dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="right"
+                        android:layout_marginTop="3dip"
+                        android:textColor="#FFFFFF" />
+                    <ProgressBar
+                        android:id="@+id/progressBar1"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="210dip"
+                        android:layout_height="wrap_content"
+                        android:minHeight="4dip"
+                        android:maxHeight="4dip"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginRight="5dip"
+                        android:layout_marginTop="12dip" />
+                    <TextView
+                        android:id="@+id/txtDuration"
+                        android:layout_width="50dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dip"
+                        android:gravity="left"
+                        android:layout_gravity="top"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="8dip" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginBottom="10dip"
+                        android:layout_marginLeft="43dip" />
+                    <ImageView
+                        android:id="@+id/playandpause"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="10dip" />
+                    <ImageView
+                        android:id="@+id/forword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="10dip"
+                        android:layout_marginRight="43dip" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="10dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

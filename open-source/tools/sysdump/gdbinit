@@ -1,0 +1,1035 @@
+set print pretty on
+set print null-stop on
+
+printf "\n\n SPRD SYSDUMP --- occured on cpu %d, caused by %s\n\n", sprd_sysdump_extra.enter_cpu, sprd_sysdump_extra.reason
+
+define dmesg
+    set $start = log_start - logged_chars
+    set $end = log_end
+    set $buf = log_buf
+    set $mask = log_buf_len - 1
+    while ($start != $end)
+        set $c = $buf[$start & $mask]
+        set $start = $start + 1
+        printf "%c", $c
+    end
+    printf "\n"
+end
+
+
+define ps
+	set $task = &init_task
+	set $count = 0
+
+	printf "COMM \t\t\t PID \t TASK_STRUCT \t THREAD_INFO \t CPU_CONTEXT \t STAT \t ON_CPU\n"
+
+	while (1)
+		if ( $task == &init_task )
+			set $count = $count + 1
+		end
+		if ( $count == 2 )
+			loop_break
+		end
+
+		printf "%-20s \t %d \t 0x%x \t 0x%x \t 0x%x \t %d \t %d\n", $task->comm, $task->pid, $task, $task->stack, &((*(struct thread_info *)$task->stack).cpu_context), $task->state, $task->on_cpu
+
+		set $task = (struct task_struct *)((char *)($task->tasks->next) - (int)&(((struct task_struct *)0)->tasks))
+	end
+end
+
+
+define btp
+	set $task = &init_task
+	set $count = 0
+
+	while (1)
+		if ( $task == &init_task )
+			set $count = $count + 1
+		end
+		if ( $count == 2 )
+			loop_break
+		end
+
+		if ( $task->pid == $arg0 )
+			loop_break
+		end
+
+		set $task = (struct task_struct *)((char *)($task->tasks->next) - (int)&(((struct task_struct *)0)->tasks))
+	end
+
+	if ( $task == &init_task && $arg0 != 0 )
+		printf "pid not found\n"
+	else
+		printf "%s\n", $task->comm
+		set $context = &((*(struct thread_info *)$task->stack).cpu_context)
+		shell ./context_mod $SYSDUMP_COREFILE $context
+		bt
+		shell ./context_mod $SYSDUMP_COREFILE 0xffffffff
+	end
+end
+
+
+define cc
+	set $cpu = 0
+	while ( $cpu < sizeof(sprd_sysdump_extra.cpu_context)/sizeof(sprd_sysdump_extra.cpu_context[0]) )
+		printf "CPU_%d:  0x%x\n", $cpu, &sprd_sysdump_extra.cpu_context[$cpu]
+		set $cpu = $cpu + 1
+	end
+end
+
+define ipr
+	printf "\t please use these cmd to look up related registers  as follow\n"
+	printf "\t ipr_ahb : AHB Registers\n"
+	printf "\t ipr_intc0 : INTC0 Registers\n"
+	printf "\t ipr_timer : GPTIMER Registers\n"
+	printf "\t ipr_adi : ADI Registers\n"
+	printf "\t ipr_gpio : GPIO Registers\n"
+	printf "\t ipr_eic : EIC Registers\n"
+        printf "\t ipr_greg : GLOBAL  Registers\n"
+end
+	
+define ipr_ahb
+	# 0x20900000 AHB
+	set $AHB_BASE = 0xf1400000   
+	set $AHB_CTRL0 = $AHB_BASE + 0x0200
+	set $AHB_CTRL0_SET = $AHB_BASE + 0x1200
+	set $AHB_CTRL0_CLR = $AHB_BASE + 0x2200
+	printf "\t AHB_CTRL0: 0x%08lx\n",*(long *)$AHB_CTRL0
+	printf "\t AHB_CTRL0_SET: 0x%08lx\n",*(long *)$AHB_CTRL0_SET
+	printf "\t AHB_CTRL0_CLR: 0x%08lx\n",*(long *)$AHB_CTRL0_CLR
+
+	set $AHB_CTRL1 = $AHB_BASE + 0x0204
+	set $AHB_CTRL1_SET = $AHB_BASE + 0x1204
+	set $AHB_CTRL1_CLR = $AHB_BASE + 0x2200
+	printf "\t AHB_CTRL1: 0x%08lx\n",*(long *)$AHB_CTRL1
+	printf "\t AHB_CTRL1_SET: 0x%08lx\n",*(long *)$AHB_CTRL1_SET
+	printf "\t AHB_CTRL1_CLR: 0x%08lx\n",*(long *)$AHB_CTRL1_CLR
+
+	set $AHB_CTRL2 = $AHB_BASE + 0x0208
+	set $AHB_CTRL2_SET = $AHB_BASE + 0x1208
+	set $AHB_CTRL2_CLR = $AHB_BASE + 0x2208
+	printf "\t AHB_CTRL2: 0x%08lx\n",*(long *)$AHB_CTRL2
+	printf "\t AHB_CTRL2_SET: 0x%08lx\n",*(long *)$AHB_CTRL2_SET
+	printf "\t AHB_CTRL2_CLR: 0x%08lx\n",*(long *)$AHB_CTRL2_CLR
+
+	set $AHB_CTRL3 = $AHB_BASE + 0x020c
+	set $AHB_CTRL3_SET = $AHB_BASE + 0x120c
+	set $AHB_CTRL3_CLR = $AHB_BASE + 0x2208
+	printf "\t AHB_CTRL3: 0x%08lx\n",*(long *)$AHB_CTRL3
+	printf "\t AHB_CTRL3_SET: 0x%08lx\n",*(long *)$AHB_CTRL3_SET
+	printf "\t AHB_CTRL3_CLR: 0x%08lx\n",*(long *)$AHB_CTRL3_CLR
+
+	set $AHB_SOFT_RST = $AHB_BASE + 0x0210
+	set $AHB_SOFT_RST_SET = $AHB_BASE + 0x1210
+	set $AHB_SOFT_RST_CLR = $AHB_BASE + 0x2210
+	printf "\t AHB_SOFT_RST: 0x%08lx\n",*(long *)$AHB_SOFT_RST
+	printf "\t AHB_SOFT_RST_SET: 0x%08lx\n",*(long *)$AHB_SOFT_RST_SET
+	printf "\t AHB_SOFT_RST_CLR: 0x%08lx\n",*(long *)$AHB_SOFT_RST_CLR
+
+	set $AHB_PAUSE = $AHB_BASE + 0x0214
+	set $AHB_PAUSE_SET = $AHB_BASE + 0x1214
+	set $AHB_PAUSE_CLR = $AHB_BASE + 0x2214
+	printf "\t AHB_PAUSE: 0x%08lx\n",*(long *)$AHB_PAUSE
+	printf "\t AHB_PAUSE_SET: 0x%08lx\n",*(long *)$AHB_PAUSE_SET
+	printf "\t AHB_PAUSE_CLR: 0x%08lx\n",*(long *)$AHB_PAUSE_CLR
+
+	set $REMAP = $AHB_BASE + 0x0218
+	set $REMAP_SET = $AHB_BASE + 0x1218
+	set $REMAP_CLR = $AHB_BASE + 0x2218
+	printf "\t REMAP: 0x%08lx\n",*(long *)$REMAP
+	printf "\t REMAP_SET: 0x%08lx\n",*(long *)$REMAP_SET
+	printf "\t REMAP_CLR: 0x%08lx\n",*(long *)$REMAP_CLR
+
+	set $MIPI_PHY_CTRL = $AHB_BASE + 0x021C
+	set $MIPI_PHY_CTRL_SET = $AHB_BASE + 0x121C
+	set $MIPI_PHY_CTRL_CLR = $AHB_BASE + 0x221C
+	printf "\t MIPI_PHY_CTRL: 0x%08lx\n",*(long *)$MIPI_PHY_CTRL
+	printf "\t MIPI_PHY_CTRL_SET: 0x%08lx\n",*(long *)$MIPI_PHY_CTRL_SET
+	printf "\t MIPI_PHY_CTRL_CLR: 0x%08lx\n",*(long *)$MIPI_PHY_CTRL_CLR
+
+	set $DISPC_CTRL = $AHB_BASE + 0x0220
+	set $DISPC_CTRL_SET = $AHB_BASE + 0x1220
+	set $DISPC_CTRL_CLR = $AHB_BASE + 0x2220
+	printf "\t DISPC_CTRL: 0x%08lx\n",*(long *)$DISPC_CTRL
+	printf "\t DISPC_CTRL_SET: 0x%08lx\n",*(long *)$DISPC_CTRL_SET
+	printf "\t DISPC_CTRL_CLR: 0x%08lx\n",*(long *)$DISPC_CTRL_CLR
+
+	set $AHB_ARM_CLK = $AHB_BASE + 0x0224
+	set $AHB_ARM_CLK_SET = $AHB_BASE + 0x1224
+	set $AHB_ARM_CLK_CLR = $AHB_BASE + 0x2224
+	printf "\t AHB_ARM_CLK: 0x%08lx\n",*(long *)$AHB_ARM_CLK
+	printf "\t AHB_ARM_CLK_SET: 0x%08lx\n",*(long *)$AHB_ARM_CLK_SET
+	printf "\t AHB_ARM_CLK_CLR: 0x%08lx\n",*(long *)$AHB_ARM_CLK_CLR
+
+	set $AHB_SDIO_CTRL = $AHB_BASE + 0x0228
+	set $AHB_SDIO_CTRL_SET = $AHB_BASE + 0x1228
+	set $AHB_SDIO_CTRL_CLR = $AHB_BASE + 0x2228
+	printf "\t AHB_SDIO_CTRL: 0x%08lx\n",*(long *)$AHB_SDIO_CTRL
+	printf "\t AHB_SDIO_CTRL_SET: 0x%08lx\n",*(long *)$AHB_SDIO_CTRL_SET
+	printf "\t AHB_SDIO_CTRL_CLR: 0x%08lx\n",*(long *)$AHB_SDIO_CTRL_CLR
+
+	set $AHB_CTRL4 = $AHB_BASE + 0x022C
+	set $AHB_CTRL4_SET = $AHB_BASE + 0x122C
+	set $AHB_CTRL4_CLR = $AHB_BASE + 0x222C
+	printf "\t AHB_CTRL4: 0x%08lx\n",*(long *)$AHB_CTRL4
+	printf "\t AHB_CTRL4_SET: 0x%08lx\n",*(long *)$AHB_CTRL4_SET
+	printf "\t AHB_CTRL4_CLR: 0x%08lx\n",*(long *)$AHB_CTRL4_CLR
+
+	set $AHB_CTRL5 = $AHB_BASE + 0x0230
+	set $AHB_CTRL5_SET = $AHB_BASE + 0x1230
+	set $AHB_CTRL5_CLR = $AHB_BASE + 0x2230
+	printf "\t AHB_CTRL5: 0x%08lx\n",*(long *)$AHB_CTRL5
+	printf "\t AHB_CTRL5_SET: 0x%08lx\n",*(long *)$AHB_CTRL5_SET
+	printf "\t AHB_CTRL5_CLR: 0x%08lx\n",*(long *)$AHB_CTRL5_CLR
+
+	set $AHB_STATUS = $AHB_BASE + 0x0234
+	printf "\t AHB_STATUS: 0x%08lx\n",*(long *)$AHB_STATUS
+
+	set $CA5_CFG = $AHB_BASE + 0x0238
+	set $CA5_CFG_SET = $AHB_BASE + 0x1238
+	set $CA5_CFG_CLR = $AHB_BASE + 0x2238
+	printf "\t CA5_CFG: 0x%08lx\n",*(long *)$CA5_CFG
+	printf "\t CA5_CFG_SET: 0x%08lx\n",*(long *)$CA5_CFG_SET
+	printf "\t CA5_CFG_CLR: 0x%08lx\n",*(long *)$CA5_CFG_CLR
+
+	set $ISP_CTRL = $AHB_BASE + 0x023C
+	set $ISP_CTRL_SET = $AHB_BASE + 0x123C
+	set $ISP_CTRL_CLR = $AHB_BASE + 0x223C
+	printf "\t ISP_CTRL: 0x%08lx\n",*(long *)$ISP_CTRL
+	printf "\t ISP_CTRL_SET: 0x%08lx\n",*(long *)$ISP_CTRL_SET
+	printf "\t ISP_CTRL_CLR: 0x%08lx\n",*(long *)$ISP_CTRL_CLR
+
+	set $HOLDING_PEN = $AHB_BASE + 0x0240
+	set $HOLDING_PEN_SET = $AHB_BASE + 0x1240
+	set $HOLDING_PEN_CLR = $AHB_BASE + 0x2240
+	printf "\t HOLDING_PEN: 0x%08lx\n",*(long *)$HOLDING_PEN
+	printf "\t HOLDING_PEN_SET: 0x%08lx\n",*(long *)$HOLDING_PEN_SET
+	printf "\t HOLDING_PEN_CLR: 0x%08lx\n",*(long *)$HOLDING_PEN_CLR
+
+	set $JMP_ADDR_CPU0 = $AHB_BASE + 0x0244
+	set $JMP_ADDR_CPU0_SET = $AHB_BASE + 0x1244
+	set $JMP_ADDR_CPU0_CLR = $AHB_BASE + 0x2244
+	printf "\t JMP_ADDR_CPU0: 0x%08lx\n",*(long *)$JMP_ADDR_CPU0
+	printf "\t JMP_ADDR_CPU0_SET: 0x%08lx\n",*(long *)$JMP_ADDR_CPU0_SET
+	printf "\t JMP_ADDR_CPU0_CLR: 0x%08lx\n",*(long *)$JMP_ADDR_CPU0_CLR
+
+	set $JMP_ADDR_CPU1 = $AHB_BASE + 0x0248
+	set $JMP_ADDR_CPU1_SET = $AHB_BASE + 0x1248
+	set $JMP_ADDR_CPU1_CLR = $AHB_BASE + 0x2248
+	printf "\t JMP_ADDR_CPU1: 0x%08lx\n",*(long *)$JMP_ADDR_CPU1
+	printf "\t JMP_ADDR_CPU1_SET: 0x%08lx\n",*(long *)$JMP_ADDR_CPU1_SET
+	printf "\t JMP_ADDR_CPU1_CLR: 0x%08lx\n",*(long *)$JMP_ADDR_CPU1_CLR
+
+	set $CP_AHB_ARM_CLK = $AHB_BASE + 0x024C
+	set $CP_AHB_ARM_CLK_SET = $AHB_BASE + 0x124C
+	set $CP_AHB_ARM_CLK_CLR = $AHB_BASE + 0x224C
+	printf "\t CP_AHB_ARM_CLK: 0x%08lx\n",*(long *)$CP_AHB_ARM_CLK
+	printf "\t CP_AHB_ARM_CLK_SET: 0x%08lx\n",*(long *)$CP_AHB_ARM_CLK_SET
+	printf "\t CP_AHB_ARM_CLK_CLR: 0x%08lx\n",*(long *)$CP_AHB_ARM_CLK_CLR
+
+	set $CP_AHB_CTRL = $AHB_BASE + 0x0250
+	set $CP_AHB_CTRL_SET = $AHB_BASE + 0x1250
+	set $CP_AHB_CTRL_CLR = $AHB_BASE + 0x2250
+	printf "\t CP_AHB_CTRL: 0x%08lx\n",*(long *)$CP_AHB_CTRL
+	printf "\t CP_AHB_CTRL_SET: 0x%08lx\n",*(long *)$CP_AHB_CTRL_SET
+	printf "\t CP_AHB_CTRL_CLR: 0x%08lx\n",*(long *)$CP_AHB_CTRL_CLR
+
+	set $CP_RST = $AHB_BASE + 0x0254
+	set $CP_RST_SET = $AHB_BASE + 0x1254
+	set $CP_RST_CLR = $AHB_BASE + 0x2254
+	printf "\t CP_RST: 0x%08lx\n",*(long *)$CP_RST
+	printf "\t CP_RST_SET: 0x%08lx\n",*(long *)$CP_RST_SET
+	printf "\t CP_RST_CLR: 0x%08lx\n",*(long *)$CP_RST_CLR
+
+	set $CP_SLEEP_CTRL = $AHB_BASE + 0x0258
+	set $CP_SLEEP_CTRL_SET = $AHB_BASE + 0x1258
+	set $CP_SLEEP_CTRL_CLR = $AHB_BASE + 0x2258
+	printf "\t CP_SLEEP_CTRL: 0x%08lx\n",*(long *)$CP_SLEEP_CTRL
+	printf "\t CP_SLEEP_CTRL_SET: 0x%08lx\n",*(long *)$CP_SLEEP_CTRL_SET
+	printf "\t CP_SLEEP_CTRL_CLR: 0x%08lx\n",*(long *)$CP_SLEEP_CTRL_CLR
+
+	set $DEEPSLEEP_STATUS = $AHB_BASE + 0x025C
+	set $DEEPSLEEP_STATUS_SET = $AHB_BASE + 0x125C
+	set $DEEPSLEEP_STATUS_CLR = $AHB_BASE + 0x225C
+	printf "\t DEEPSLEEP_STATUS: 0x%08lx\n",*(long *)$DEEPSLEEP_STATUS
+	printf "\t DEEPSLEEP_STATUS_SET: 0x%08lx\n",*(long *)$DEEPSLEEP_STATUS_SET
+	printf "\t DEEPSLEEP_STATUS_CLR: 0x%08lx\n",*(long *)$DEEPSLEEP_STATUS_CLR
+
+	set $DDR_PHY_Z_VALUE = $AHB_BASE + 0x0260
+	printf "\t DDR_PHY_Z_VALUE : 0x%08lx\n",*(long *)$DDR_PHY_Z_VALUE 
+
+	set $DSP_JTAG_CTRL = $AHB_BASE + 0x0280
+	set $DSP_JTAG_CTRL_SET = $AHB_BASE + 0x1280
+	set $DSP_JTAG_CTRL_CLR = $AHB_BASE + 0x2280
+	printf "\t DSP_JTAG_CTRL: 0x%08lx\n",*(long *)$DSP_JTAG_CTRL
+	printf "\t DSP_JTAG_CTRL_SET: 0x%08lx\n",*(long *)$DSP_JTAG_CTRL_SET
+	printf "\t DSP_JTAG_CTRL_CLR: 0x%08lx\n",*(long *)$DSP_JTAG_CTRL_CLR
+
+	set $DSP_BOOT_EN = $AHB_BASE + 0x0284
+	set $DSP_BOOT_EN_SET = $AHB_BASE + 0x1284
+	set $DSP_BOOT_EN_CLR = $AHB_BASE + 0x2284
+	printf "\t DSP_BOOT_EN: 0x%08lx\n",*(long *)$DSP_BOOT_EN
+	printf "\t DSP_BOOT_EN_SET: 0x%08lx\n",*(long *)$DSP_BOOT_EN_SET
+	printf "\t DSP_BOOT_EN_CLR: 0x%08lx\n",*(long *)$DSP_BOOT_EN_CLR
+
+	set $DSP_BOOT_VEC = $AHB_BASE + 0x0288
+	set $DSP_BOOT_VEC_SET = $AHB_BASE + 0x1288
+	set $DSP_BOOT_VEC_CLR = $AHB_BASE + 0x2288
+	printf "\t DSP_BOOT_VEC: 0x%08lx\n",*(long *)$DSP_BOOT_VEC
+	printf "\t DSP_BOOT_VEC_SET: 0x%08lx\n",*(long *)$DSP_BOOT_VEC_SET
+	printf "\t DSP_BOOT_VEC_CLR: 0x%08lx\n",*(long *)$DSP_BOOT_VEC_CLR
+
+	set $DSP_RST = $AHB_BASE + 0x028C
+	set $DSP_RST_SET = $AHB_BASE + 0x128C
+	set $DSP_RST_CLR = $AHB_BASE + 0x228C
+	printf "\t DSP_RST: 0x%08lx\n",*(long *)$DSP_RST
+	printf "\t DSP_RST_SET: 0x%08lx\n",*(long *)$DSP_RST_SET
+	printf "\t DSP_RST_CLR: 0x%08lx\n",*(long *)$DSP_RST_CLR
+
+	set $BIGEND_PROT = $AHB_BASE + 0x0290
+	set $BIGEND_PROT_SET = $AHB_BASE + 0x1290
+	set $BIGEND_PROT_CLR = $AHB_BASE + 0x2290
+	printf "\t BIGEND_PROT: 0x%08lx\n",*(long *)$BIGEND_PROT
+	printf "\t BIGEND_PROT_SET: 0x%08lx\n",*(long *)$BIGEND_PROT_SET
+	printf "\t BIGEND_PROT_CLR: 0x%08lx\n",*(long *)$BIGEND_PROT_CLR
+
+	set $USB_PHY_TUNE = $AHB_BASE + 0x02A0
+	set $USB_PHY_TUNE_SET = $AHB_BASE + 0x12A0
+	set $USB_PHY_TUNE_CLR = $AHB_BASE + 0x22A0
+	printf "\t USB_PHY_TUNE: 0x%08lx\n",*(long *)$USB_PHY_TUNE
+	printf "\t USB_PHY_TUNE_SET: 0x%08lx\n",*(long *)$USB_PHY_TUNE_SET
+	printf "\t USB_PHY_TUNE_CLR: 0x%08lx\n",*(long *)$USB_PHY_TUNE_CLR
+
+	set $USB_PHY_TEST = $AHB_BASE + 0x02A4
+	set $USB_PHY_TEST_SET = $AHB_BASE + 0x12A4
+	set $USB_PHY_TEST_CLR = $AHB_BASE + 0x22A4
+	printf "\t USB_PHY_TEST: 0x%08lx\n",*(long *)$USB_PHY_TEST
+	printf "\t USB_PHY_TEST_SET: 0x%08lx\n",*(long *)$USB_PHY_TEST_SET
+	printf "\t USB_PHY_TEST_CLR: 0x%08lx\n",*(long *)$USB_PHY_TEST_CLR
+
+	set $USB_PHY_TEST = $AHB_BASE + 0x02A4
+	set $USB_PHY_TEST_SET = $AHB_BASE + 0x12A4
+	set $USB_PHY_TEST_CLR = $AHB_BASE + 0x22A4
+	printf "\t USB_PHY_TEST: 0x%08lx\n",*(long *)$USB_PHY_TEST
+	printf "\t USB_PHY_TEST_SET: 0x%08lx\n",*(long *)$USB_PHY_TEST_SET
+	printf "\t USB_PHY_TEST_CLR: 0x%08lx\n",*(long *)$USB_PHY_TEST_CLR
+
+	set $USB_PHY_CTRL = $AHB_BASE + 0x02A8
+	set $USB_PHY_CTRL_SET = $AHB_BASE + 0x12A8
+	set $USB_PHY_CTRL_CLR = $AHB_BASE + 0x22A8
+	printf "\t USB_PHY_CTRL: 0x%08lx\n",*(long *)$USB_PHY_CTRL
+	printf "\t USB_PHY_CTRL_SET: 0x%08lx\n",*(long *)$USB_PHY_CTRL_SET
+	printf "\t USB_PHY_CTRL_CLR: 0x%08lx\n",*(long *)$USB_PHY_CTRL_CLR
+
+	set $AHB_SPR_REG = $AHB_BASE + 0x02C0
+	set $AHB_SPR_REG_SET = $AHB_BASE + 0x12C0
+	set $AHB_SPR_REG_CLR = $AHB_BASE + 0x22C0
+	printf "\t AHB_SPR_REG: 0x%08lx\n",*(long *)$AHB_SPR_REG
+	printf "\t AHB_SPR_REG_SET: 0x%08lx\n",*(long *)$AHB_SPR_REG_SET
+	printf "\t AHB_SPR_REG_CLR: 0x%08lx\n",*(long *)$AHB_SPR_REG_CLR
+
+	set $MTX_CTRL = $AHB_BASE + 0x0300
+	set $MTX_CTRL_SET = $AHB_BASE + 0x1300
+	set $MTX_CTRL_CLR = $AHB_BASE + 0x2300
+	printf "\t MTX_CTRL: 0x%08lx\n",*(long *)$MTX_CTRL
+	printf "\t MTX_CTRL_SET: 0x%08lx\n",*(long *)$MTX_CTRL_SET
+	printf "\t MTX_CTRL_CLR: 0x%08lx\n",*(long *)$MTX_CTRL_CLR
+
+	set $EMMC_CTRL_CFG0 = $AHB_BASE + 0x0304
+	set $EMMC_CTRL_CFG0_SET = $AHB_BASE + 0x1304
+	set $EMMC_CTRL_CFG0_CLR = $AHB_BASE + 0x2304
+	printf "\t EMMC_CTRL_CFG0: 0x%08lx\n",*(long *)$EMMC_CTRL_CFG0
+	printf "\t EMMC_CTRL_CFG0_SET: 0x%08lx\n",*(long *)$EMMC_CTRL_CFG0_SET
+	printf "\t EMMC_CTRL_CFG0_CLR: 0x%08lx\n",*(long *)$EMMC_CTRL_CFG0_CLR
+
+	set $EMMC_CTRL_CFG1 = $AHB_BASE + 0x0308
+	set $EMMC_CTRL_CFG1_SET = $AHB_BASE + 0x1308
+	set $EMMC_CTRL_CFG1_CLR = $AHB_BASE + 0x2308
+	printf "\t EMMC_CTRL_CFG1: 0x%08lx\n",*(long *)$EMMC_CTRL_CFG1
+	printf "\t EMMC_CTRL_CFG1_SET: 0x%08lx\n",*(long *)$EMMC_CTRL_CFG1_SET
+	printf "\t EMMC_CTRL_CFG1_CLR: 0x%08lx\n",*(long *)$EMMC_CTRL_CFG1_CLR
+
+	set $EMMC_CTRL_CFG1 = $AHB_BASE + 0x0308
+	set $EMMC_CTRL_CFG1_SET = $AHB_BASE + 0x1308
+	set $EMMC_CTRL_CFG1_CLR = $AHB_BASE + 0x2308
+	printf "\t EMMC_CTRL_CFG1: 0x%08lx\n",*(long *)$EMMC_CTRL_CFG1
+	printf "\t EMMC_CTRL_CFG1_SET: 0x%08lx\n",*(long *)$EMMC_CTRL_CFG1_SET
+	printf "\t EMMC_CTRL_CFG1_CLR: 0x%08lx\n",*(long *)$EMMC_CTRL_CFG1_CLR
+
+	set $EMMC_CLIENT_CTRL = $AHB_BASE + 0x030C
+	set $EMMC_CLIENT_CTRL_SET = $AHB_BASE + 0x130C
+	set $EMMC_CLIENT_CTRL_CLR = $AHB_BASE + 0x230C
+	printf "\t EMMC_CLIENT_CTRL: 0x%08lx\n",*(long *)$EMMC_CLIENT_CTRL
+	printf "\t EMMC_CLIENT_CTRL_SET: 0x%08lx\n",*(long *)$EMMC_CLIENT_CTRL_SET
+	printf "\t EMMC_CLIENT_CTRL_CLR: 0x%08lx\n",*(long *)$EMMC_CLIENT_CTRL_CLR
+
+	set $EMMC_PROT0_REMAP = $AHB_BASE + 0x0310
+	set $EMMC_PROT0_REMAP_SET = $AHB_BASE + 0x1310
+	set $EMMC_PROT0_REMAP_CLR = $AHB_BASE + 0x2310
+	printf "\t EMMC_PROT0_REMAP: 0x%08lx\n",*(long *)$EMMC_PROT0_REMAP
+	printf "\t EMMC_PROT0_REMAP_SET: 0x%08lx\n",*(long *)$EMMC_PROT0_REMAP_SET
+	printf "\t EMMC_PROT0_REMAP_CLR: 0x%08lx\n",*(long *)$EMMC_PROT0_REMAP_CLR
+
+	set $EMMC_PROT0_REMAP = $AHB_BASE + 0x0310
+	set $EMMC_PROT0_REMAP_SET = $AHB_BASE + 0x1310
+	set $EMMC_PROT0_REMAP_CLR = $AHB_BASE + 0x2310
+	printf "\t EMMC_PROT0_REMAP: 0x%08lx\n",*(long *)$EMMC_PROT0_REMAP
+	printf "\t EMMC_PROT0_REMAP_SET: 0x%08lx\n",*(long *)$EMMC_PROT0_REMAP_SET
+	printf "\t EMMC_PROT0_REMAP_CLR: 0x%08lx\n",*(long *)$EMMC_PROT0_REMAP_CLR
+
+	set $EMMC_PROT1_REMAP = $AHB_BASE + 0x0314
+	set $EMMC_PROT1_REMAP_SET = $AHB_BASE + 0x1314
+	set $EMMC_PROT1_REMAP_CLR = $AHB_BASE + 0x2314
+	printf "\t EMMC_PROT1_REMAP: 0x%08lx\n",*(long *)$EMMC_PROT1_REMAP
+	printf "\t EMMC_PROT1_REMAP_SET: 0x%08lx\n",*(long *)$EMMC_PROT1_REMAP_SET
+	printf "\t EMMC_PROT1_REMAP_CLR: 0x%08lx\n",*(long *)$EMMC_PROT1_REMAP_CLR
+
+	set $EMMC_PROT2_REMAP = $AHB_BASE + 0x0318
+	set $EMMC_PROT2_REMAP_SET = $AHB_BASE + 0x1318
+	set $EMMC_PROT2_REMAP_CLR = $AHB_BASE + 0x2318
+	printf "\t EMMC_PROT2_REMAP: 0x%08lx\n",*(long *)$EMMC_PROT2_REMAP
+	printf "\t EMMC_PROT2_REMAP_SET: 0x%08lx\n",*(long *)$EMMC_PROT2_REMAP_SET
+	printf "\t EMMC_PROT2_REMAP_CLR: 0x%08lx\n",*(long *)$EMMC_PROT2_REMAP_CLR
+
+	set $EMMC_PROT3_REMAP = $AHB_BASE + 0x031C
+	set $EMMC_PROT3_REMAP_SET = $AHB_BASE + 0x131C
+	set $EMMC_PROT3_REMAP_CLR = $AHB_BASE + 0x231C
+	printf "\t EMMC_PROT3_REMAP: 0x%08lx\n",*(long *)$EMMC_PROT3_REMAP
+	printf "\t EMMC_PROT3_REMAP_SET: 0x%08lx\n",*(long *)$EMMC_PROT3_REMAP_SET
+	printf "\t EMMC_PROT3_REMAP_CLR: 0x%08lx\n",*(long *)$EMMC_PROT3_REMAP_CLR
+
+	set $EMMC_PROT4_REMAP = $AHB_BASE + 0x0320
+	set $EMMC_PROT4_REMAP_SET = $AHB_BASE + 0x1320
+	set $EMMC_PROT4_REMAP_CLR = $AHB_BASE + 0x2320
+	printf "\t EMMC_PROT4_REMAP: 0x%08lx\n",*(long *)$EMMC_PROT4_REMAP
+	printf "\t EMMC_PROT4_REMAP_SET: 0x%08lx\n",*(long *)$EMMC_PROT4_REMAP_SET
+	printf "\t EMMC_PROT4_REMAP_CLR: 0x%08lx\n",*(long *)$EMMC_PROT4_REMAP_CLR
+
+	set $EMMC_PROT5_REMAP = $AHB_BASE + 0x0324
+	set $EMMC_PROT5_REMAP_SET = $AHB_BASE + 0x1324
+	set $EMMC_PROT5_REMAP_CLR = $AHB_BASE + 0x2324
+	printf "\t EMMC_PROT5_REMAP: 0x%08lx\n",*(long *)$EMMC_PROT5_REMAP
+	printf "\t EMMC_PROT5_REMAP_SET: 0x%08lx\n",*(long *)$EMMC_PROT5_REMAP_SET
+	printf "\t EMMC_PROT5_REMAP_CLR: 0x%08lx\n",*(long *)$EMMC_PROT5_REMAP_CLR
+
+	set $EMMC_PROT6_REMAP = $AHB_BASE + 0x0328
+	set $EMMC_PROT6_REMAP_SET = $AHB_BASE + 0x1328
+	set $EMMC_PROT6_REMAP_CLR = $AHB_BASE + 0x2328
+	printf "\t EMMC_PROT6_REMAP: 0x%08lx\n",*(long *)$EMMC_PROT6_REMAP
+	printf "\t EMMC_PROT6_REMAP_SET: 0x%08lx\n",*(long *)$EMMC_PROT6_REMAP_SET
+	printf "\t EMMC_PROT6_REMAP_CLR: 0x%08lx\n",*(long *)$EMMC_PROT6_REMAP_CLR
+
+	set $EMMC_PROT7_REMAP = $AHB_BASE + 0x032C
+	set $EMMC_PROT7_REMAP_SET = $AHB_BASE + 0x132C
+	set $EMMC_PROT7_REMAP_CLR = $AHB_BASE + 0x232C
+	printf "\t EMMC_PROT7_REMAP: 0x%08lx\n",*(long *)$EMMC_PROT7_REMAP
+	printf "\t EMMC_PROT7_REMAP_SET: 0x%08lx\n",*(long *)$EMMC_PROT7_REMAP_SET
+	printf "\t EMMC_PROT7_REMAP_CLR: 0x%08lx\n",*(long *)$EMMC_PROT7_REMAP_CLR
+
+	set $MSTX_SIM0_CTL00 = $AHB_BASE + 0x0330
+	set $MSTX_SIM0_CTL00_SET = $AHB_BASE + 0x1330
+	set $MSTX_SIM0_CTL00_CLR = $AHB_BASE + 0x2330
+	printf "\t MSTX_SIM0_CTL00: 0x%08lx\n",*(long *)$MSTX_SIM0_CTL00
+	printf "\t MSTX_SIM0_CTL00_SET: 0x%08lx\n",*(long *)$MSTX_SIM0_CTL00_SET
+	printf "\t MSTX_SIM0_CTL00_CLR: 0x%08lx\n",*(long *)$MSTX_SIM0_CTL00_CLR
+
+	set $MSTX_SIM0_CTL01 = $AHB_BASE + 0x0334
+	set $MSTX_SIM0_CTL01_SET = $AHB_BASE + 0x1334
+	set $MSTX_SIM0_CTL01_CLR = $AHB_BASE + 0x2334
+	printf "\t MSTX_SIM0_CTL01: 0x%08lx\n",*(long *)$MSTX_SIM0_CTL01
+	printf "\t MSTX_SIM0_CTL01_SET: 0x%08lx\n",*(long *)$MSTX_SIM0_CTL01_SET
+	printf "\t MSTX_SIM0_CTL01_CLR: 0x%08lx\n",*(long *)$MSTX_SIM0_CTL01_CLR
+
+	set $MSTX_SIM1_CTL00 = $AHB_BASE + 0x0340
+	set $MSTX_SIM1_CTL00_SET = $AHB_BASE + 0x1340
+	set $MSTX_SIM1_CTL00_CLR = $AHB_BASE + 0x2340
+	printf "\t MSTX_SIM1_CTL00: 0x%08lx\n",*(long *)$MSTX_SIM1_CTL00
+	printf "\t MSTX_SIM1_CTL00_SET: 0x%08lx\n",*(long *)$MSTX_SIM1_CTL00_SET
+	printf "\t MSTX_SIM1_CTL00_CLR: 0x%08lx\n",*(long *)$MSTX_SIM1_CTL00_CLR
+
+	set $MSTX_SIM1_CTL01 = $AHB_BASE + 0x0344
+	set $MSTX_SIM1_CTL01_SET = $AHB_BASE + 0x1344
+	set $MSTX_SIM1_CTL01_CLR = $AHB_BASE + 0x2344
+	printf "\t MSTX_SIM1_CTL01: 0x%08lx\n",*(long *)$MSTX_SIM1_CTL01
+	printf "\t MSTX_SIM1_CTL01_SET: 0x%08lx\n",*(long *)$MSTX_SIM1_CTL01_SET
+	printf "\t MSTX_SIM1_CTL01_CLR: 0x%08lx\n",*(long *)$MSTX_SIM1_CTL01_CLR
+
+	set $MSTX_SIM2_CTL00 = $AHB_BASE + 0x0350
+	set $MSTX_SIM2_CTL00_SET = $AHB_BASE + 0x1350
+	set $MSTX_SIM2_CTL00_CLR = $AHB_BASE + 0x2350
+	printf "\t MSTX_SIM2_CTL00: 0x%08lx\n",*(long *)$MSTX_SIM2_CTL00
+	printf "\t MSTX_SIM2_CTL00_SET: 0x%08lx\n",*(long *)$MSTX_SIM2_CTL00_SET
+	printf "\t MSTX_SIM2_CTL00_CLR: 0x%08lx\n",*(long *)$MSTX_SIM2_CTL00_CLR
+
+	set $MSTX_SIM2_CTL01 = $AHB_BASE + 0x0354
+	set $MSTX_SIM2_CTL01_SET = $AHB_BASE + 0x1354
+	set $MSTX_SIM2_CTL01_CLR = $AHB_BASE + 0x2354
+	printf "\t MSTX_SIM2_CTL01: 0x%08lx\n",*(long *)$MSTX_SIM2_CTL01
+	printf "\t MSTX_SIM2_CTL01_SET: 0x%08lx\n",*(long *)$MSTX_SIM2_CTL01_SET
+	printf "\t MSTX_SIM2_CTL01_CLR: 0x%08lx\n",*(long *)$MSTX_SIM2_CTL01_CLR
+
+	set $MSTX_SIM3_CTL00 = $AHB_BASE + 0x0360
+	set $MSTX_SIM3_CTL00_SET = $AHB_BASE + 0x1360
+	set $MSTX_SIM3_CTL00_CLR = $AHB_BASE + 0x2360
+	printf "\t MSTX_SIM3_CTL00: 0x%08lx\n",*(long *)$MSTX_SIM2_CTL00
+	printf "\t MSTX_SIM3_CTL00_SET: 0x%08lx\n",*(long *)$MSTX_SIM3_CTL00_SET
+	printf "\t MSTX_SIM3_CTL00_CLR: 0x%08lx\n",*(long *)$MSTX_SIM3_CTL00_CLR
+
+	set $MSTX_SIM3_CTL01 = $AHB_BASE + 0x0364
+	set $MSTX_SIM3_CTL01_SET = $AHB_BASE + 0x1364
+	set $MSTX_SIM3_CTL01_CLR = $AHB_BASE + 0x2364
+	printf "\t MSTX_SIM3_CTL01: 0x%08lx\n",*(long *)$MSTX_SIM3_CTL01
+	printf "\t MSTX_SIM3_CTL01_SET: 0x%08lx\n",*(long *)$MSTX_SIM3_CTL01_SET
+	printf "\t MSTX_SIM3_CTL01_CLR: 0x%08lx\n",*(long *)$MSTX_SIM3_CTL01_CLR
+
+	set $MSTX_SIM4_CTL00 = $AHB_BASE + 0x0370
+	set $MSTX_SIM4_CTL00_SET = $AHB_BASE + 0x1370
+	set $MSTX_SIM4_CTL00_CLR = $AHB_BASE + 0x2370
+	printf "\t MSTX_SIM4_CTL00: 0x%08lx\n",*(long *)$MSTX_SIM4_CTL00
+	printf "\t MSTX_SIM4_CTL00_SET: 0x%08lx\n",*(long *)$MSTX_SIM4_CTL00_SET
+	printf "\t MSTX_SIM4_CTL00_CLR: 0x%08lx\n",*(long *)$MSTX_SIM4_CTL00_CLR
+
+	set $MSTX_SIM4_CTL01 = $AHB_BASE + 0x0374
+	set $MSTX_SIM4_CTL01_SET = $AHB_BASE + 0x1374
+	set $MSTX_SIM4_CTL01_CLR = $AHB_BASE + 0x2374
+	printf "\t MSTX_SIM4_CTL01: 0x%08lx\n",*(long *)$MSTX_SIM4_CTL01
+	printf "\t MSTX_SIM4_CTL01_SET: 0x%08lx\n",*(long *)$MSTX_SIM4_CTL01_SET
+	printf "\t MSTX_SIM4_CTL01_CLR: 0x%08lx\n",*(long *)$MSTX_SIM4_CTL01_CLR
+
+	set $MSTX_SIM4_CTL10 = $AHB_BASE + 0x0378
+	set $MSTX_SIM4_CTL10_SET = $AHB_BASE + 0x1378
+	set $MSTX_SIM4_CTL10_CLR = $AHB_BASE + 0x2378
+	printf "\t MSTX_SIM4_CTL10: 0x%08lx\n",*(long *)$MSTX_SIM4_CTL10
+	printf "\t MSTX_SIM4_CTL10_SET: 0x%08lx\n",*(long *)$MSTX_SIM4_CTL10_SET
+	printf "\t MSTX_SIM4_CTL10_CLR: 0x%08lx\n",*(long *)$MSTX_SIM4_CTL10_CLR
+
+	set $MSTX_SIM4_CTL11 = $AHB_BASE + 0x037C
+	set $MSTX_SIM4_CTL11_SET = $AHB_BASE + 0x137C
+	set $MSTX_SIM4_CTL11_CLR = $AHB_BASE + 0x237C
+	printf "\t MSTX_SIM4_CTL11: 0x%08lx\n",*(long *)$MSTX_SIM4_CTL11
+	printf "\t MSTX_SIM4_CTL11_SET: 0x%08lx\n",*(long *)$MSTX_SIM4_CTL11_SET
+	printf "\t MSTX_SIM4_CTL11_CLR: 0x%08lx\n",*(long *)$MSTX_SIM4_CTL11_CLR
+
+	set $DSPX_SIM0_CTL00 = $AHB_BASE + 0x0380
+	set $DSPX_SIM0_CTL00_SET = $AHB_BASE + 0x1380
+	set $DSPX_SIM0_CTL00_CLR = $AHB_BASE + 0x2380
+	printf "\t DSPX_SIM0_CTL00: 0x%08lx\n",*(long *)$DSPX_SIM0_CTL00
+	printf "\t DSPX_SIM0_CTL00_SET: 0x%08lx\n",*(long *)$DSPX_SIM0_CTL00_SET
+	printf "\t DSPX_SIM0_CTL00_CLR: 0x%08lx\n",*(long *)$DSPX_SIM0_CTL00_CLR
+
+	set $DSPX_SIM0_CTL01 = $AHB_BASE + 0x0384
+	set $DSPX_SIM0_CTL01_SET = $AHB_BASE + 0x1384
+	set $DSPX_SIM0_CTL01_CLR = $AHB_BASE + 0x2384
+	printf "\t DSPX_SIM0_CTL01: 0x%08lx\n",*(long *)$DSPX_SIM0_CTL01
+	printf "\t DSPX_SIM0_CTL01_SET: 0x%08lx\n",*(long *)$DSPX_SIM0_CTL01_SET
+	printf "\t DSPX_SIM0_CTL01_CLR: 0x%08lx\n",*(long *)$DSPX_SIM0_CTL01_CLR
+
+	set $CHIP_ID = $AHB_BASE + 0x03FC
+	printf "\t CHIP_ID: 0x%08lx\n",*(long *)$CHIP_ID
+end	
+
+define ipr_intc0	 
+	#40003000 0x8000_3000 INTC0
+
+	set $INTC0_BASE = 0xf1254000
+	set $INT_IRQ_MASK_STS = $INTC0_BASE + 0x0000
+	set $INT_IRQ_RAW_STS = $INTC0_BASE + 0x0004
+	set $INT_IRQ_ENABLE = $INTC0_BASE + 0x0008
+	set $INT_IRQ_DISABLE = $INTC0_BASE + 0x000C
+	set $INT_IRQ_SOFT = $INTC0_BASE + 0x0010
+	set $INT_IRQ_TEST_SRC = $INTC0_BASE + 0x0014
+	set $INT_IRQ_TEST_SEL = $INTC0_BASE + 0x0018
+
+	set $INT_FIRQ_MASK_STS = $INTC0_BASE + 0x0020
+	set $INT_FIRQ_RAW_STS = $INTC0_BASE + 0x0024
+	set $INT_FIRQ_ENABLE = $INTC0_BASE + 0x0028
+	set $INT_FIRQ_DISABLE = $INTC0_BASE + 0x002C
+	set $INT_FIRQ_SOFT = $INTC0_BASE + 0x0030
+	set $INT_FIRQ_TEST_SRC = $INTC0_BASE + 0x0034
+	set $INT_FIRQ_TEST_SEL = $INTC0_BASE + 0x0038
+
+	printf "\t INT_IRQ_MASK_STS: 0x%08lx\n",*(long *)$INT_IRQ_MASK_STS
+	printf "\t INT_IRQ_RAW_STS: 0x%08lx\n",*(long *)$INT_IRQ_RAW_STS
+	printf "\t INT_IRQ_ENABLE: 0x%08lx\n",*(long *)$INT_IRQ_ENABLE
+	printf "\t INT_IRQ_DISABLE: 0x%08lx\n",*(long *)$INT_IRQ_DISABLE
+	printf "\t INT_IRQ_SOFT: 0x%08lx\n",*(long *)$INT_IRQ_SOFT
+	printf "\t INT_IRQ_TEST_SRC: 0x%08lx\n",*(long *)$INT_IRQ_TEST_SRC
+	printf "\t INT_IRQ_TEST_SEL: 0x%08lx\n",*(long *)$INT_IRQ_TEST_SEL
+
+	printf "\t INT_FIRQ_MASK_STS: 0x%08lx\n",*(long *)$INT_FIRQ_MASK_STS
+	printf "\t INT_FIRQ_RAW_STS: 0x%08lx\n",*(long *)$INT_FIRQ_RAW_STS
+	printf "\t INT_FIRQ_ENABLE: 0x%08lx\n",*(long *)$INT_FIRQ_ENABLE
+	printf "\t INT_FIRQ_DISABLE: 0x%08lx\n",*(long *)$INT_FIRQ_DISABLE
+	printf "\t INT_FIRQ_SOFT: 0x%08lx\n",*(long *)$INT_FIRQ_SOFT
+	printf "\t INT_FIRQ_TEST_SRC: 0x%08lx\n",*(long *)$INT_FIRQ_TEST_SRC
+	printf "\t INT_FIRQ_TEST_SEL: 0x%08lx\n",*(long *)$INT_FIRQ_TEST_SEL
+end
+
+define ipr_timer
+	#41000000  0x8100_0000 GEN TIMER
+	set $GPTIMER_BASE = 0xf1258000 
+	set $TIMER0_LOAD = $GPTIMER_BASE + 0x0000
+	set $TIMER0_VALUE = $GPTIMER_BASE + 0x0004
+	set $TIMER0_CTL = $GPTIMER_BASE + 0x0008
+	set $TIMER0_INT = $GPTIMER_BASE + 0x000C
+
+	set $TIMER1_LOAD = $GPTIMER_BASE + 0x0020
+	set $TIMER1_VALUE = $GPTIMER_BASE + 0x0024
+	set $TIMER1_CTL = $GPTIMER_BASE + 0x0028
+	set $TIMER1_INT = $GPTIMER_BASE + 0x002C
+
+	set $TIMER2_LOAD = $GPTIMER_BASE + 0x0040
+	set $TIMER2_VALUE = $GPTIMER_BASE + 0x0044
+	set $TIMER2_CTL = $GPTIMER_BASE + 0x0048
+	set $TIMER2_INT = $GPTIMER_BASE + 0x004C
+
+	printf "\t TIMER0_LOAD: 0x%08lx\n",*(long *)$TIMER0_LOAD
+	printf "\t TIMER0_VALUE: 0x%08lx\n",*(long *)$TIMER0_VALUE
+	printf "\t TIMER0_CTL: 0x%08lx\n",*(long *)$TIMER0_CTL
+	printf "\t TIMER0_INT: 0x%08lx\n",*(long *)$TIMER0_INT
+
+	printf "\t TIMER1_LOAD: 0x%08lx\n",*(long *)$TIMER1_LOAD
+	printf "\t TIMER1_VALUE: 0x%08lx\n",*(long *)$TIMER1_VALUE
+	printf "\t TIMER1_CTL: 0x%08lx\n",*(long *)$TIMER1_CTL
+	printf "\t TIMER1_INT: 0x%08lx\n",*(long *)$TIMER1_INT
+
+	printf "\t TIMER2_LOAD: 0x%08lx\n",*(long *)$TIMER2_LOAD
+	printf "\t TIMER2_VALUE: 0x%08lx\n",*(long *)$TIMER2_VALUE
+	printf "\t TIMER2_CTL: 0x%08lx\n",*(long *)$TIMER2_CTL
+	printf "\t TIMER2_INT: 0x%08lx\n",*(long *)$TIMER2_INT
+end
+
+define ipr_adi
+
+	#42000000 0x8200_0000 ADI Master
+	set $ADI_BASE = 0xf1260000  
+	set $ADI_CLK_DIV = $ADI_BASE + 0x0000
+	set $ADI_CTRL0 = $ADI_BASE + 0x0004
+	set $ADI_CHNL_PRI = $ADI_BASE + 0x0008
+	set $ADI_INT_EN = $ADI_BASE + 0x000C
+	set $ADI_INT_RAW_STS = $ADI_BASE + 0x0010
+	set $ADI_INT_MASK_STS = $ADI_BASE + 0x0014
+	set $ADI_INT_CLR = $ADI_BASE + 0x0018
+	set $ARM_RD_CMD = $ADI_BASE + 0x0024
+	set $ARM_RD_DATA = $ADI_BASE + 0x0028
+	set $ARM_FIFO_STS = $ADI_BASE + 0x002C
+	set $ARM_STS = $ADI_BASE + 0x0030
+	set $ARM_REQ_STS = $ADI_BASE + 0x0034
+
+	printf "\t ADI_CLK_DIV: 0x%08lx\n",*(long *)$ADI_CLK_DIV
+	printf "\t ADI_CTRL0: 0x%08lx\n",*(long *)$ADI_CTRL0
+	printf "\t ADI_CHNL_PRI: 0x%08lx\n",*(long *)$ADI_CHNL_PRI
+	printf "\t ADI_INT_EN: 0x%08lx\n",*(long *)$ADI_INT_EN
+	printf "\t ADI_INT_RAW_STS: 0x%08lx\n",*(long *)$ADI_INT_RAW_STS
+	printf "\t ADI_INT_MASK_STS: 0x%08lx\n",*(long *)$ADI_INT_MASK_STS
+	printf "\t ADI_INT_CLR: 0x%08lx\n",*(long *)$ADI_INT_CLR
+	printf "\t ARM_RD_CMD: 0x%08lx\n",*(long *)$ARM_RD_CMD
+	printf "\t ARM_RD_DATA: 0x%08lx\n",*(long *)$ARM_RD_DATA
+	printf "\t ARM_FIFO_STS: 0x%08lx\n",*(long *)$ARM_FIFO_STS
+	printf "\t ARM_STS: 0x%08lx\n",*(long *)$ARM_STS
+	printf "\t ARM_REQ_STS: 0x%08lx\n",*(long *)$ARM_REQ_STS
+end
+
+define ipr_gpio
+	#4a000000  GPIO  
+	set $GPIO_BASE = 0xf1298000 
+	set $GPIODATA = $GPIO_BASE + 0x0000
+	set $GPIODMSK = $GPIO_BASE + 0x0004
+	set $GPIODIR = $GPIO_BASE + 0x0008
+	set $GPIOIS = $GPIO_BASE + 0x000C
+	set $GPIOIBE = $GPIO_BASE + 0x0010
+	set $GPIOIEV = $GPIO_BASE + 0x0014
+	set $GPIOIE = $GPIO_BASE + 0x0018
+	set $GPIORIS = $GPIO_BASE + 0x001C
+	set $GPIOMIS = $GPIO_BASE + 0x0020
+	set $GPIOIC = $GPIO_BASE + 0x0024
+	set $GPIOINEN = $GPIO_BASE + 0x0028
+	printf "\t GPIODATA: 0x%08lx\n",*(long *)$GPIODATA
+	printf "\t GPIODMSK: 0x%08lx\n",*(long *)$GPIODMSK
+	printf "\t GPIODIR: 0x%08lx\n",*(long *)$GPIODIR
+	printf "\t GPIOIS: 0x%08lx\n",*(long *)$GPIOIS
+	printf "\t GPIOIBE: 0x%08lx\n",*(long *)$GPIOIBE
+	printf "\t GPIOIEV: 0x%08lx\n",*(long *)$GPIOIEV
+	printf "\t GPIOIE: 0x%08lx\n",*(long *)$GPIOIE
+	printf "\t GPIORIS: 0x%08lx\n",*(long *)$GPIORIS
+	printf "\t GPIOMIS: 0x%08lx\n",*(long *)$GPIOMIS
+	printf "\t GPIOIC: 0x%08lx\n",*(long *)$GPIOIC
+	printf "\t GPIOINEN: 0x%08lx\n",*(long *)$GPIOINEN
+end
+
+define ipr_eic
+	#4a001000 EIC
+	set $EIC_BASE = 0xf129c000 
+	set $EICDATA = $EIC_BASE + 0x0000
+	set $EICDMSK = $EIC_BASE + 0x0004
+	set $EICIEV = $EIC_BASE + 0x0014
+	set $EICIE = $EIC_BASE + 0x0018
+	set $RICRIS = $EIC_BASE + 0x001C
+	set $EICMIS = $EIC_BASE + 0x0020
+	set $EICIC = $EIC_BASE + 0x0024
+	set $EICTRIG = $EIC_BASE + 0x0028
+	set $EIC0CTRL = $EIC_BASE + 0x0040
+	set $EIC1CTRL = $EIC_BASE + 0x0044
+	set $EIC2CTRL = $EIC_BASE + 0x0048
+	set $EIC3CTRL = $EIC_BASE + 0x004C
+	set $EIC4CTRL = $EIC_BASE + 0x0050
+	set $EIC5CTRL = $EIC_BASE + 0x0054
+	set $EIC6CTRL = $EIC_BASE + 0x0058
+	set $EIC7CTRL = $EIC_BASE + 0x005C
+
+
+	printf "\t EICDATA: 0x%08lx\n",*(long *)$EICDATA
+	printf "\t EICDMSK: 0x%08lx\n",*(long *)$EICDMSK
+	printf "\t EICIEV: 0x%08lx\n",*(long *)$EICIEV
+	printf "\t EICIE: 0x%08lx\n",*(long *)$EICIE
+	printf "\t RICRIS: 0x%08lx\n",*(long *)$RICRIS
+	printf "\t EICMIS: 0x%08lx\n",*(long *)$EICMIS
+	printf "\t EICIC: 0x%08lx\n",*(long *)$EICIC
+	printf "\t EICTRIG: 0x%08lx\n",*(long *)$EICTRIG
+	printf "\t EIC0CTRL: 0x%08lx\n",*(long *)$EIC0CTRL
+	printf "\t EIC1CTRL: 0x%08lx\n",*(long *)$EIC1CTRL
+	printf "\t EIC2CTRL: 0x%08lx\n",*(long *)$EIC2CTRL
+	printf "\t EIC3CTRL: 0x%08lx\n",*(long *)$EIC3CTRL
+	printf "\t EIC4CTRL: 0x%08lx\n",*(long *)$EIC4CTRL
+	printf "\t EIC5CTRL: 0x%08lx\n",*(long *)$EIC5CTRL
+	printf "\t EIC6CTRL: 0x%08lx\n",*(long *)$EIC6CTRL
+	printf "\t EIC7CTRL: 0x%08lx\n",*(long *)$EIC7CTRL
+end
+
+define ipr_greg	
+	set $GREG_BASE = 0xf1320000  
+	set $MCU_SOFT_RESE = $GREG_BASE + 0x0004
+	printf "\t MCU_SOFT_RESE: 0x%08lx\n",*(long *)$MCU_SOFT_RESE
+
+	set $GEN0 = $GREG_BASE + 0x0008
+	set $GEN0_SET = $GREG_BASE + 0x1008
+	set $GEN0_CLR = $GREG_BASE + 0x2008
+	printf "\t GEN0 : 0x%08lx\n",*(long *)$GEN0
+	printf "\t GEN0_SET : 0x%08lx\n",*(long *)$GEN0_SET
+	printf "\t GEN0_CLR : 0x%08lx\n",*(long *)$GEN0_CLR
+
+	set $PCTL = $GREG_BASE + 0x000C
+	set $PCTL_SET = $GREG_BASE + 0x100C
+	set $PCTL_CLR = $GREG_BASE + 0x200C
+	printf "\t PCTL : 0x%08lx\n",*(long *)$PCTL
+	printf "\t PCTL_SET : 0x%08lx\n",*(long *)$PCTL_SET
+	printf "\t PCTL_CLR : 0x%08lx\n",*(long *)$PCTL_CLR
+
+	set $GEN1 = $GREG_BASE + 0x0018
+	set $GEN1_SET = $GREG_BASE + 0x1018
+	set $GEN1_CLR = $GREG_BASE + 0x2018
+	printf "\t GEN1 : 0x%08lx\n",*(long *)$GEN1
+	printf "\t GEN1_SET : 0x%08lx\n",*(long *)$GEN1_SET
+	printf "\t GEN1_CLR : 0x%08lx\n",*(long *)$GEN1_CLR
+
+	set $GEN3 = $GREG_BASE + 0x001C
+	set $GEN3_SET = $GREG_BASE + 0x101C
+	set $GEN3_CLR = $GREG_BASE + 0x201C
+	printf "\t GEN3 : 0x%08lx\n",*(long *)$GEN3
+	printf "\t GEN3_SET : 0x%08lx\n",*(long *)$GEN3_SET
+	printf "\t GEN3_CLR : 0x%08lx\n",*(long *)$GEN3_CLR
+
+	set $HWRST = $GREG_BASE + 0x0020
+	set $HWRST_SET = $GREG_BASE + 0x1020
+	set $HWRST_CLR = $GREG_BASE + 0x2020
+	printf "\t HWRST: 0x%08lx\n",*(long *)$HWRST
+	printf "\t HWRST_SET : 0x%08lx\n",*(long *)$HWRST_SET
+	printf "\t HWRST_CLR : 0x%08lx\n",*(long *)$HWRST_CLR
+
+	set $M_PILL_CTRL0 = $GREG_BASE + 0x0024
+	set $M_PILL_CTRL0_SET = $GREG_BASE + 0x1024
+	set $M_PILL_CTRL0_CLR = $GREG_BASE + 0x2024
+	printf "\t M_PILL_CTRL0: 0x%08lx\n",*(long *)$M_PILL_CTRL0
+	printf "\t M_PILL_CTRL0_SET : 0x%08lx\n",*(long *)$M_PILL_CTRL0_SET
+	printf "\t M_PILL_CTRL0_CLR : 0x%08lx\n",*(long *)$M_PILL_CTRL0_CLR
+
+	set $M_PILL_CTRL0 = $GREG_BASE + 0x0024
+	set $M_PILL_CTRL0_SET = $GREG_BASE + 0x1024
+	set $M_PILL_CTRL0_CLR = $GREG_BASE + 0x2024
+	printf "\t M_PILL_CTRL0: 0x%08lx\n",*(long *)$M_PILL_CTRL0
+	printf "\t M_PILL_CTRL0_SET : 0x%08lx\n",*(long *)$M_PILL_CTRL0_SET
+	printf "\t M_PILL_CTRL0_CLR : 0x%08lx\n",*(long *)$M_PILL_CTRL0_CLR
+
+	set $PINCTRL = $GREG_BASE + 0x0028
+	set $PINCTRL_SET = $GREG_BASE + 0x1028
+	set $PINCTRL_CLR = $GREG_BASE + 0x2028
+	printf "\t PINCTRL: 0x%08lx\n",*(long *)$PINCTRL
+	printf "\t PINCTRL_SET : 0x%08lx\n",*(long *)$PINCTRL_SET
+	printf "\t PINCTRL_CLR : 0x%08lx\n",*(long *)$PINCTRL_CLR
+
+	set $GEN2 = $GREG_BASE + 0x002C
+	set $GEN2_SET = $GREG_BASE + 0x102C
+	set $GEN2_CLR = $GREG_BASE + 0x202C
+	printf "\t GEN2: 0x%08lx\n",*(long *)$GEN2
+	printf "\t GEN2_SET : 0x%08lx\n",*(long *)$GEN2_SET
+	printf "\t GEN2_CLR : 0x%08lx\n",*(long *)$GEN2_CLR
+
+	set $ARMBOOT = $GREG_BASE + 0x0030
+	set $ARMBOOT_SET = $GREG_BASE + 0x1030
+	set $ARMBOOT_CLR = $GREG_BASE + 0x2030
+	printf "\t ARMBOOT: 0x%08lx\n",*(long *)$ARMBOOT
+	printf "\t ARMBOOT_SET : 0x%08lx\n",*(long *)$ARMBOOT_SET
+	printf "\t ARMBOOT_CLR : 0x%08lx\n",*(long *)$ARMBOOT_CLR
+
+	set $STC_DSP_ST = $GREG_BASE + 0x0034
+	printf "\t STC_DSP_ST : 0x%08lx\n",*(long *)$STC_DSP_ST
+
+	set $TD_PILL_CTRL = $GREG_BASE + 0x003C
+	set $TD_PILL_CTRL_SET = $GREG_BASE + 0x103C
+	set $TD_PILL_CTRL_CLR = $GREG_BASE + 0x203C
+	printf "\t TD_PILL_CTRL: 0x%08lx\n",*(long *)$TD_PILL_CTRL
+	printf "\t TD_PILL_CTRL_SET : 0x%08lx\n",*(long *)$TD_PILL_CTRL_SET
+	printf "\t TD_PILL_CTRL_CLR : 0x%08lx\n",*(long *)$TD_PILL_CTRL_CLR
+	
+	set $D_PILL_CTRL = $GREG_BASE + 0x0040
+	set $D_PILL_CTRL_SET = $GREG_BASE + 0x1040
+	set $D_PILL_CTRL_CLR = $GREG_BASE + 0x2040
+	printf "\t D_PILL_CTRL: 0x%08lx\n",*(long *)$D_PILL_CTRL
+	printf "\t D_PILL_CTRL_SET : 0x%08lx\n",*(long *)$D_PILL_CTRL_SET
+	printf "\t D_PILL_CTRL_CLR : 0x%08lx\n",*(long *)$D_PILL_CTRL_CLR
+
+	set $BUSCLK = $GREG_BASE + 0x0044
+	set $BUSCLK_SET = $GREG_BASE + 0x1044
+	set $BUSCLK_CLR = $GREG_BASE + 0x2044
+	printf "\t BUSCLK: 0x%08lx\n",*(long *)$BUSCLK
+	printf "\t BUSCLK_SET : 0x%08lx\n",*(long *)$BUSCLK_SET
+	printf "\t BUSCLK_CLR : 0x%08lx\n",*(long *)$BUSCLK_CLR
+
+	set $ARCH = $GREG_BASE + 0x0048
+	set $ARCH_SET = $GREG_BASE + 0x1048
+	set $ARCH_CLR = $GREG_BASE + 0x2048
+	printf "\t ARCH: 0x%08lx\n",*(long *)$ARCH
+	printf "\t ARCH_SET : 0x%08lx\n",*(long *)$ARCH_SET
+	printf "\t ARCH_CLR : 0x%08lx\n",*(long *)$ARCH_CLR
+
+	set $SOFTRST = $GREG_BASE + 0x004C
+	set $SOFTRST_SET = $GREG_BASE + 0x104C
+	set $SOFTRST_CLR = $GREG_BASE + 0x204C
+	printf "\t SOFTRST: 0x%08lx\n",*(long *)$SOFTRST
+	printf "\t SOFTRST_SET : 0x%08lx\n",*(long *)$SOFTRST_SET
+	printf "\t SOFTRST_CLR : 0x%08lx\n",*(long *)$SOFTRST_CLR
+
+	set $G_PILL_CTRL = $GREG_BASE + 0x0050
+	set $G_PILL_CTRL_SET = $GREG_BASE + 0x1050
+	set $G_PILL_CTRL_CLR = $GREG_BASE + 0x2050
+	printf "\t G_PILL_CTRL: 0x%08lx\n",*(long *)$G_PILL_CTRL
+	printf "\t G_PILL_CTRL_SET : 0x%08lx\n",*(long *)$G_PILL_CTRL_SET
+	printf "\t G_PILL_CTRL_CLR : 0x%08lx\n",*(long *)$G_PILL_CTRL_CLR
+
+	set $NFCMEMDLY = $GREG_BASE + 0x0058
+	set $NFCMEMDLY_SET = $GREG_BASE + 0x1058
+	set $NFCMEMDLY_CLR = $GREG_BASE + 0x2058
+	printf "\t NFCMEMDLY: 0x%08lx\n",*(long *)$NFCMEMDLY
+	printf "\t NFCMEMDLY_SET : 0x%08lx\n",*(long *)$NFCMEMDLY_SET
+	printf "\t NFCMEMDLY_CLR : 0x%08lx\n",*(long *)$NFCMEMDLY_CLR
+
+	set $CLKDLY = $GREG_BASE + 0x005C
+	set $CLKDLY_SET = $GREG_BASE + 0x105C
+	set $CLKDLY_CLR = $GREG_BASE + 0x205C
+	printf "\t CLKDLY: 0x%08lx\n",*(long *)$CLKDLY
+	printf "\t CLKDLY_SET : 0x%08lx\n",*(long *)$CLKDLY_SET
+	printf "\t CLKDLY_CLR : 0x%08lx\n",*(long *)$CLKDLY_CLR
+
+	set $GEN4 = $GREG_BASE + 0x0060
+	set $GEN4_SET = $GREG_BASE + 0x1060
+	set $GEN4_CLR = $GREG_BASE + 0x2060
+	printf "\t GEN4: 0x%08lx\n",*(long *)$GEN4
+	printf "\t GEN4_SET : 0x%08lx\n",*(long *)$GEN4_SET
+	printf "\t GEN4_CLR : 0x%08lx\n",*(long *)$GEN4_CLR
+
+	set $A_PLLMN = $GREG_BASE + 0x0064
+	printf "\t A_PLLMN : 0x%08lx\n",*(long *)$A_PLLMN 
+
+	set $POWCTL0 = $GREG_BASE + 0x0068
+	set $POWCTL0_SET = $GREG_BASE + 0x1068
+	set $POWCTL0_CLR = $GREG_BASE + 0x2068
+	printf "\t POWCTL0: 0x%08lx\n",*(long *)$POWCTL0
+	printf "\t POWCTL0_SET : 0x%08lx\n",*(long *)$POWCTL0_SET
+	printf "\t POWCTL0_CLR : 0x%08lx\n",*(long *)$POWCTL0_CLR
+
+	set $POWCTL1 = $GREG_BASE + 0x006C
+	set $POWCTL1_SET = $GREG_BASE + 0x106C
+	set $POWCTL1_CLR = $GREG_BASE + 0x206C
+	printf "\t POWCTL1: 0x%08lx\n",*(long *)$POWCTL1
+	printf "\t POWCTL1_SET : 0x%08lx\n",*(long *)$POWCTL1_SET
+	printf "\t POWCTL1_CLR : 0x%08lx\n",*(long *)$POWCTL1_CLR
+
+
+	set $PLL_SCR = $GREG_BASE + 0x0070
+	set $PLL_SCR_SET = $GREG_BASE + 0x1070
+	set $PLL_SCR_CLR = $GREG_BASE + 0x2070
+	printf "\t PLL_SCR : 0x%08lx\n",*(long *)$PLL_SCR 
+	printf "\t PLL_SCR _SET : 0x%08lx\n",*(long *)$PLL_SCR_SET
+	printf "\t PLL_SCR _CLR : 0x%08lx\n",*(long *)$PLL_SCR_CLR
+
+	set $CLK_EN = $GREG_BASE + 0x0074
+	set $CLK_EN_SET = $GREG_BASE + 0x1074
+	set $CLK_EN_CLR = $GREG_BASE + 0x2074
+	printf "\t CLK_EN: 0x%08lx\n",*(long *)$CLK_EN
+	printf "\t CLK_EN_SET : 0x%08lx\n",*(long *)$CLK_EN_SET
+	printf "\t CLK_EN_CLR : 0x%08lx\n",*(long *)$CLK_EN_CLR
+
+	set $CLK26M_ANA_CTRL = $GREG_BASE + 0x0078
+	set $CLK26M_ANA_CTRL_SET = $GREG_BASE + 0x1078
+	set $CLK26M_ANA_CTRL_CLR = $GREG_BASE + 0x2078
+	printf "\t CLK26M_ANA_CTRL: 0x%08lx\n",*(long *)$CLK26M_ANA_CTRL
+	printf "\t CLK26M_ANA_CTRL_SET : 0x%08lx\n",*(long *)$CLK26M_ANA_CTRL_SET
+	printf "\t CLK26M_ANA_CTRL_CLR : 0x%08lx\n",*(long *)$CLK26M_ANA_CTRL_CLR
+
+	set $GEN5 = $GREG_BASE + 0x007C
+	set $GEN5_SET = $GREG_BASE + 0x107C
+	set $GEN5_CLR = $GREG_BASE + 0x207C
+	printf "\t GEN5: 0x%08lx\n",*(long *)$GEN5
+	printf "\t GEN5_SET : 0x%08lx\n",*(long *)$GEN5_SET
+	printf "\t GEN5_CLR : 0x%08lx\n",*(long *)$GEN5_CLR
+
+	set $DDR_PHY_RETENTION = $GREG_BASE + 0x0080
+	set $DDR_PHY_RETENTION_SET = $GREG_BASE + 0x1080
+	set $DDR_PHY_RETENTION_CLR = $GREG_BASE + 0x2080
+	printf "\t DDR_PHY_RETENTION: 0x%08lx\n",*(long *)$DDR_PHY_RETENTION
+	printf "\t DDR_PHY_RETENTION_SET : 0x%08lx\n",*(long *)$DDR_PHY_RETENTION_SET
+	printf "\t DDR_PHY_RETENTION_CLR : 0x%08lx\n",*(long *)$DDR_PHY_RETENTION_CLR
+
+	set $MM_PWR_CTRL = $GREG_BASE + 0x0084
+	set $MM_PWR_CTRL_SET = $GREG_BASE + 0x1084
+	set $MM_PWR_CTRL_CLR = $GREG_BASE + 0x2084
+	printf "\t MM_PWR_CTRL: 0x%08lx\n",*(long *)$MM_PWR_CTRL
+	printf "\t MM_PWR_CTRL_SET : 0x%08lx\n",*(long *)$MM_PWR_CTRL_SET
+	printf "\t MM_PWR_CTRL_CLR : 0x%08lx\n",*(long *)$MM_PWR_CTRL_CLR
+
+	set $CEVA_L1RAM_PWR_CTRL = $GREG_BASE + 0x0088
+	set $CEVA_L1RAM_PWR_CTRL_SET = $GREG_BASE + 0x1088
+	set $CEVA_L1RAM_PWR_CTRL_CLR = $GREG_BASE + 0x2088
+	printf "\t CEVA_L1RAM_PWR_CTRL: 0x%08lx\n",*(long *)$CEVA_L1RAM_PWR_CTRL
+	printf "\t CEVA_L1RAM_PWR_CTRL_SET : 0x%08lx\n",*(long *)$CEVA_L1RAM_PWR_CTRL_SET
+	printf "\t CEVA_L1RAM_PWR_CTRL_CLR : 0x%08lx\n",*(long *)$CEVA_L1RAM_PWR_CTRL_CLR
+
+	set $GSM_PWR_CTRL = $GREG_BASE + 0x008C
+	set $GSM_PWR_CTRL_SET = $GREG_BASE + 0x108C
+	set $GSM_PWR_CTRL_CLR = $GREG_BASE + 0x208C
+	printf "\t GSM_PWR_CTRL: 0x%08lx\n",*(long *)$GSM_PWR_CTRL
+	printf "\t GSM_PWR_CTRL_SET : 0x%08lx\n",*(long *)$GSM_PWR_CTRL_SET
+	printf "\t GSM_PWR_CTRL_CLR : 0x%08lx\n",*(long *)$GSM_PWR_CTRL_CLR
+
+	set $TD_PWR_CTRL = $GREG_BASE + 0x0090
+	set $TD_PWR_CTRL_SET = $GREG_BASE + 0x1090
+	set $TD_PWR_CTRL_CLR = $GREG_BASE + 0x2090
+	printf "\t TD_PWR_CTRL: 0x%08lx\n",*(long *)$TD_PWR_CTRL
+	printf "\t TD_PWR_CTRL_SET : 0x%08lx\n",*(long *)$TD_PWR_CTRL_SET
+	printf "\t TD_PWR_CTRL_CLR : 0x%08lx\n",*(long *)$TD_PWR_CTRL_CLR
+
+	set $PERI_PWR_CTRL = $GREG_BASE + 0x0094
+	set $PERI_PWR_CTRL_SET = $GREG_BASE + 0x1094
+	set $PERI_PWR_CTRL_CLR = $GREG_BASE + 0x2094
+	printf "\t PERI_PWR_CTRL: 0x%08lx\n",*(long *)$PERI_PWR_CTRL
+	printf "\t PERI_PWR_CTRL_SET : 0x%08lx\n",*(long *)$PERI_PWR_CTRL_SET
+	printf "\t PERI_PWR_CTRL_CLR : 0x%08lx\n",*(long *)$PERI_PWR_CTRL_CLR
+
+	set $ARM_SYS_PWR_CTRL = $GREG_BASE + 0x009C
+	set $ARM_SYS_PWR_CTRL_SET = $GREG_BASE + 0x109C
+	set $ARM_SYS_PWR_CTRL_CLR = $GREG_BASE + 0x209C
+	printf "\t ARM_SYS_PWR_CTRL: 0x%08lx\n",*(long *)$ARM_SYS_PWR_CTRL
+	printf "\t ARM_SYS_PWR_CTRL_SET : 0x%08lx\n",*(long *)$ARM_SYS_PWR_CTRL_SET
+	printf "\t ARM_SYS_PWR_CTRL_CLR : 0x%08lx\n",*(long *)$ARM_SYS_PWR_CTRL_CLR
+
+	set $G3D_PWR_CTRL = $GREG_BASE + 0x00A0
+	set $G3D_PWR_CTRL_SET = $GREG_BASE + 0x10A0
+	set $G3D_PWR_CTRL_CLR = $GREG_BASE + 0x20A0
+	printf "\t G3D_PWR_CTRL: 0x%08lx\n",*(long *)$G3D_PWR_CTRL
+	printf "\t G3D_PWR_CTRL_SET : 0x%08lx\n",*(long *)$G3D_PWR_CTRL_SET
+	printf "\t G3D_PWR_CTRL_CLR : 0x%08lx\n",*(long *)$G3D_PWR_CTRL_CLR
+
+	set $CHIP_DSLEEP_STATUS = $GREG_BASE + 0x00A4
+	printf "\t CHIP_DSLEEP_STATUS : 0x%08lx\n",*(long *)$CHIP_DSLEEP_STATUS
+
+	set $PWR_CTRL_NUM1 = $GREG_BASE + 0x00A8
+	set $PWR_CTRL_NUM1_SET = $GREG_BASE + 0x10A8
+	set $PWR_CTRL_NUM1_CLR = $GREG_BASE + 0x20A8
+	set $PWR_CTRL_NUM2 = $GREG_BASE + 0x00AC
+	set $PWR_CTRL_NUM2_SET = $GREG_BASE + 0x10AC
+	set $PWR_CTRL_NUM2_CLR = $GREG_BASE + 0x20AC
+	set $PWR_CTRL_NUM3 = $GREG_BASE + 0x00B0
+	set $PWR_CTRL_NUM3_SET = $GREG_BASE + 0x10B0
+	set $PWR_CTRL_NUM3_CLR = $GREG_BASE + 0x20B0
+	set $PWR_CTRL_NUM4 = $GREG_BASE + 0x00B4
+	set $PWR_CTRL_NUM4_SET = $GREG_BASE + 0x10B4
+	set $PWR_CTRL_NUM4_CLR = $GREG_BASE + 0x20B4
+	set $PWR_CTRL_NUM5 = $GREG_BASE + 0x00B8
+	set $PWR_CTRL_NUM5_SET = $GREG_BASE + 0x10B8
+	set $PWR_CTRL_NUM5_CLR = $GREG_BASE + 0x20B8
+	printf "\t PWR_CTRL_NUM1: 0x%08lx\n",*(long *)$PWR_CTRL_NUM1
+	printf "\t PWR_CTRL_NUM1_SET : 0x%08lx\n",*(long *)$PWR_CTRL_NUM1_SET
+	printf "\t PWR_CTRL_NUM1_CLR : 0x%08lx\n",*(long *)$PWR_CTRL_NUM1_CLR
+	printf "\t PWR_CTRL_NUM2: 0x%08lx\n",*(long *)$PWR_CTRL_NUM2
+	printf "\t PWR_CTRL_NUM2_SET : 0x%08lx\n",*(long *)$PWR_CTRL_NUM2_SET
+	printf "\t PWR_CTRL_NUM2_CLR : 0x%08lx\n",*(long *)$PWR_CTRL_NUM2_CLR
+	printf "\t PWR_CTRL_NUM3: 0x%08lx\n",*(long *)$PWR_CTRL_NUM3
+	printf "\t PWR_CTRL_NUM3_SET : 0x%08lx\n",*(long *)$PWR_CTRL_NUM3_SET
+	printf "\t PWR_CTRL_NUM3_CLR : 0x%08lx\n",*(long *)$PWR_CTRL_NUM3_CLR
+	printf "\t PWR_CTRL_NUM4: 0x%08lx\n",*(long *)$PWR_CTRL_NUM4
+	printf "\t PWR_CTRL_NUM4_SET : 0x%08lx\n",*(long *)$PWR_CTRL_NUM4_SET
+	printf "\t PWR_CTRL_NUM4_CLR : 0x%08lx\n",*(long *)$PWR_CTRL_NUM4_CLR
+	printf "\t PWR_CTRL_NUM5: 0x%08lx\n",*(long *)$PWR_CTRL_NUM5
+	printf "\t PWR_CTRL_NUM5_SET : 0x%08lx\n",*(long *)$PWR_CTRL_NUM5_SET
+	printf "\t PWR_CTRL_NUM5_CLR : 0x%08lx\n",*(long *)$PWR_CTRL_NUM5_CLR
+
+
+	set $ARM9_SYS_PWR_CTRL = $GREG_BASE + 0x00BC
+	set $ARM9_SYS_PWR_CTRL_SET = $GREG_BASE + 0x10BC
+	set $ARM9_SYS_PWR_CTRL_CLR = $GREG_BASE + 0x20BC
+	printf "\t ARM9_SYS_PWR_CTRL: 0x%08lx\n",*(long *)$ARM9_SYS_PWR_CTRL
+	printf "\t ARM9_SYS_PWR_CTRL_SET : 0x%08lx\n",*(long *)$ARM9_SYS_PWR_CTRL_SET
+	printf "\t ARM9_SYS_PWR_CTRL_CLR : 0x%08lx\n",*(long *)$ARM9_SYS_PWR_CTRL_CLR
+
+	set $DMA_CTRL = $GREG_BASE + 0x00C0
+	set $DMA_CTRL_SET = $GREG_BASE + 0x10C0
+	set $DMA_CTRL_CLR = $GREG_BASE + 0x20C0
+	printf "\t DMA_CTRL: 0x%08lx\n",*(long *)$DMA_CTRL
+	printf "\t DMA_CTRL_SET : 0x%08lx\n",*(long *)$DMA_CTRL_SET
+	printf "\t DMA_CTRL_CLR : 0x%08lx\n",*(long *)$DMA_CTRL_CLR
+
+	set $DMA_AP_CP_SEL = $GREG_BASE + 0x00C4
+	set $DMA_AP_CP_SEL_SET = $GREG_BASE + 0x10C4
+	set $DMA_AP_CP_SEL_CLR = $GREG_BASE + 0x20C4
+	printf "\t DMA_AP_CP_SEL: 0x%08lx\n",*(long *)$DMA_AP_CP_SEL
+	printf "\t DMA_AP_CP_SEL_SET : 0x%08lx\n",*(long *)$DMA_AP_CP_SEL_SET
+	printf "\t DMA_AP_CP_SEL_CLR : 0x%08lx\n",*(long *)$DMA_AP_CP_SEL_CLR
+
+	set $SLEEP_INT_AP_SEL = $GREG_BASE + 0x00C8
+	set $SLEEP_INT_AP_SEL_SET = $GREG_BASE + 0x10C8
+	set $SLEEP_INT_AP_SEL_CLR = $GREG_BASE + 0x20C8
+	printf "\t SLEEP_INT_AP_SEL: 0x%08lx\n",*(long *)$SLEEP_INT_AP_SEL
+	printf "\t SLEEP_INT_AP_SEL_SET : 0x%08lx\n",*(long *)$SLEEP_INT_AP_SEL_SET
+	printf "\t SLEEP_INT_AP_SEL_CLR : 0x%08lx\n",*(long *)$SLEEP_INT_AP_SEL_CLR
+
+	set $SLEEP_INT_CP_SEL = $GREG_BASE + 0x00CC
+	set $SLEEP_INT_CP_SEL_SET = $GREG_BASE + 0x10CC
+	set $SLEEP_INT_CP_SEL_CLR = $GREG_BASE + 0x20CC
+	printf "\t SLEEP_INT_CP_SEL: 0x%08lx\n",*(long *)$SLEEP_INT_CP_SEL
+	printf "\t SLEEP_INT_CP_SEL_SET : 0x%08lx\n",*(long *)$SLEEP_INT_CP_SEL_SET
+	printf "\t SLEEP_INT_CP_SEL_CLR : 0x%08lx\n",*(long *)$SLEEP_INT_CP_SEL_CLR
+
+	set $TEST_CLK_CTRL = $GREG_BASE + 0x00D0
+	set $TEST_CLK_CTRL_SET = $GREG_BASE + 0x10D0
+	set $TEST_CLK_CTRL_CLR = $GREG_BASE + 0x20D0
+	printf "\t TEST_CLK_CTRL: 0x%08lx\n",*(long *)$TEST_CLK_CTRL
+	printf "\t TEST_CLK_CTRL_SET : 0x%08lx\n",*(long *)$TEST_CLK_CTRL_SET
+	printf "\t TEST_CLK_CTRL_CLR : 0x%08lx\n",*(long *)$TEST_CLK_CTRL_CLR
+
+	set $TP_DLYC_LEN = $GREG_BASE + 0x00D4
+	set $TP_DLYC_LEN_SET = $GREG_BASE + 0x10D4
+	set $TP_DLYC_LEN_CLR = $GREG_BASE + 0x20D4
+	printf "\t P_DLYC_LEN: 0x%08lx\n",*(long *)$TP_DLYC_LEN
+	printf "\t P_DLYC_LEN_SET : 0x%08lx\n",*(long *)$TP_DLYC_LEN_SET
+	printf "\t P_DLYC_LEN_CLR : 0x%08lx\n",*(long *)$TP_DLYC_LEN_CLR
+
+	set $MIPI_PHY_CTRL = $GREG_BASE + 0x00D8
+	set $MIPI_PHY_CTRL_SET = $GREG_BASE + 0x10D8
+	set $MIPI_PHY_CTRL_CLR = $GREG_BASE + 0x20D8
+	printf "\t MIPI_PHY_CTRL: 0x%08lx\n",*(long *)$MIPI_PHY_CTRL
+	printf "\t MIPI_PHY_CTRL_SET : 0x%08lx\n",*(long *)$MIPI_PHY_CTRL_SET
+	printf "\t MIPI_PHY_CTRL_CLR : 0x%08lx\n",*(long *)$MIPI_PHY_CTRL_CLR
+
+	set $BOND_OPTION = $GREG_BASE + 0x0100
+	printf "\t BOND_OPTION : 0x%08lx\n",*(long *)$BOND_OPTION
+end

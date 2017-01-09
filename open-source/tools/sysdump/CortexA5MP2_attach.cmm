@@ -1,0 +1,26 @@
+system.reset
+system.jtagclock 5mhz
+
+system.cpu CORTEXA5MPCORE
+system.config CORENUMBER 2
+core.assign 1 2
+
+system.config corebase 0x80110000 0x80112000
+
+system.cpuaccess enable
+
+tronchip.set.dabort off
+tronchip.set.pabort off
+tronchip.set.undef off
+tronchip.set.reset off
+
+system.attach
+
+; load vmlinux
+data.load.elf N:\vmlinux /nocode
+
+; load source code
+symbol.sourcepath.setrecursedir N:\kernel
+
+register.view
+PER.view

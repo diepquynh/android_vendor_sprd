@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    coreApp="true"
+    package="plugin.sprd.reliancefeatures"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+    />
+
+    <application>
+        <meta-data
+            android:name="isFeatureAddon"
+            android:value="true" />
+        <meta-data
+            android:name="targetPackages"
+            android:value="
+            com.android.phone;
+            com.android.dialer;
+            com.android.contacts.commom;
+            com.android.systemui;
+            com.android.keyguard;
+            com.android.settings;
+            " />
+        <meta-data
+            android:name="featureClassNames"
+            android:value="
+            plugin.sprd.supportoperator.SystemUIFeaturesForOperator;
+            plugin.sprd.CallUtilsPlugin.AddonEmergencyAndLowBattaryCallUtils;
+            plugin.sprd.teleservicesupportoperator.TeleServiceSupportOperator;
+            plugin.sprd.keyguardoperator.KeyguardFeaturesForOperator;
+            plugin.sprd.logEmergencyCalls.AddonEmergencyPlugin;
+            plugin.sprd.policysupportoperator.PolicySupportOperator;
+            plugin.sprd.operatorfeatures.Settings.SettingsFeaturesForOperator;
+            " />
+    </application>
+
+</manifest>
