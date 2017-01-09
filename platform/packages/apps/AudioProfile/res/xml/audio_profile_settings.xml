@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+	android:title="@string/audio_profiles" 
+	android:key="audio_profile_list">
+	<PreferenceCategory 
+		android:title="@string/predefined_audio_profiles"
+		android:key="predefined_audio_profiles_list">
+	</PreferenceCategory>
+	<PreferenceCategory 
+		android:title="@string/user_defined_audio_profiles"
+		android:key="user_defined_audio_profiles_list">
+	</PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"Äänilaukaisin"</string>
+<string name="audio_voicetrigger_words">"Herätyssana"</string>
+<string name="audio_voicetrigger_sensibility">"Tunnistusherkkyys"</string>
+<string name="audio_voicetrigger_support_fun">"Tukitoimintojen kuvaus"</string>
+<string name="audio_voicetrigger_connect_headset">"Yhdistä kuulokkeet"</string>
+<string name="audio_voicetrigger_language_choose">"Valitse äänikommennon kieli"</string>
+<string name="audio_voicetrigger_help">"Ohje"</string>
+<string name="audio_voicetrigger_subtitle_wakeup_default">"Herätyssanojen sisältö"</string>
+<string name="audio_voicetrigger_subtitle_wakeup_userdefine">"Käyttäjämääritelty"</string>
+<string name="audio_voicetrigger_subtitle_language_choose">"Aseta äänikomennon kieli"</string>
+<string name="audio_voicetrigger_subtitle_help">"Räätälöity herätyssana"</string>
+<string name="voicetrigger_connect_headset_content">"Yhdistettynä langattomaan headsettiin tai Bluetooth headsettiin, \ se voi edelleen herättää puhelimen normaalisti, \ mutta äänesi kerätään puhelimen mikrofonista, \ ja headsetin mikrofoni ei voi herättää puhelinta"</string>
+<string name="voicetrigger_wakeup_title">"Herätyssanat"</string>
+<string name="voicetrigger_input_title">"Tallennetaan herätyssanoja"</string>
+<string name="voicetrigger_describe">"Kun puhelin ei ole lähellä sen soidessa tai musiikkia toistaessa, voi käyttää herätyssanoja ja omaa ääntäsi."</string>
+<string name="change_language_progress_dialog_message">"Vaihdetaan kieltä, odota…"</string>
+<string name="info_press_to_start">"klikkaa painiketta tallentaaksesi"</string>
+<string name="info_default">"puhu hiljaisessa paikassa"</string>
+<string name="info_recording">"Tallennetaan…"</string>
+<string name="info_please_wait">"Odota hetki…"</string>
+<string name="info_talk_louder">"Puhu kovempaa"</string>
+<string name="info_pause_before">"Odota 1-2 sekuntia ennen puhumista"</string>
+<string name="info_too_noisy">"Liian äänekästä. Siirry hiljaisempaan paikkaan"</string>
+<string name="info_talk_softer">"Puhu pehmeämmin"</string>
+<string name="info_bad_recording">"Huono tallennus"</string>
+<string name="info_talk_slower">"Puhu hitaammin"</string>
+<string name="info_too_many_sound">"Liian paljon toistoja"</string>
+<string name="info_check_rec">"Tehdään Triggeriä, odota hetki…"</string>
+<string name="info_problems_in_rec">"Ongelmia äänityksen kanssa, tallenna uudestaan"</string>
+<string name="generate_voicetrigger_words_success">"Valmis VoiceTrigger"</string>
+<string name="voicetrigger_wakeup_item_1">"%1$s (oletus)"</string>
+<string name="voicetrigger_wakeup_item_2">"Käyttäjän määritys"</string>
+<string name="prompting_user_defined_text">"Herätyssanojen sisältö"</string>
+<string name="prompting_text_default">"Sano：%1$s"</string>
+<string name="prompting_text_1">"Sano：%1$s uudestaan"</string>
+<string name="prompting_text_2">"Valmis"</string>
+<string name="error_app_internal">"Sisäinen sovellusvirhe."</string>
+<string name="dialog_dismiss">"Hylkää"</string>
+<string name="error_permissions">"Sovelluksella ei ole sen suorittamiseen tarvittavia oikeuksia. Tarkista käyttöoikeusasetuksesi."</string>
+<string name="dialog_title">Varoitus</string>
+<string name="dialog_firstuse_info">"olet ensimmäinen käyttäjä tässä toiminnossa, aseta oletusääni herättääksesi tämän laitteen."</string>
+<string name="no_wakeup_words_recoded">"et ole tallentanut käyttäjäkohtaisia herätyssanoja"</string>
+<string name="dialog_title_notice">"Merkintä"</string>
+<string name="dialog_change_language_first">"et ole tallentanut herätyssanoja nykyisellä kielellä\tallenna uusi ääni herättääksesi laitteesi, jatkatko ?"</string>
+<string name="same_application_running">"Nauhoituslaitetta käyttää toinen ohjelma, sulje tämä ohjelma!"</string>
+<string name="is_not_systemuser">"Nykyinen ei ole järjestelmäkäyttäjä, ei voi käyttää ääniherätystä."</string>
+<string-array name="hello_trigger_text_title_array">
+<item>"Hei, voinko auttaa?"</item>
+<item>"Mene, minä kuuntelen…"</item>
+<item>"Voit pyytää näin:"</item>
+</string-array>
+<string name="support_find_phone">"Etsi puhelin"</string>
+<string name="support_find_phone_summary">"Huuda kovaa：\' [Herätyssanat] + Missä olet?\', puhelin vastaa toistamalla valittu soittoääni."</string>
+<string name="support_call_phone">"Soita puheluita"</string>
+<string name="support_call_phone_summary">"Sano puhelimelle：\' [Herätyssanat] + Soita Xiao Wang\'，se soittaa jollekulle."</string>
+<string name="support_send_mms">"Lähetä viestejä"</string>
+<string name="support_send_mms_summary">"Sano puhelimelle：\' [Herätyssanat] + Lähetä tekstiviesti Xiao Wangille\'，se avaa tekstiviestisovelluksen."</string>
+<string name="support_camera">"Ota kuvia"</string>
+<string name="support_camera_summary">"Sano puhelimelle：\' [Herätyssanat] + Ota kuva\'，se avaa kameran ja on valmiina kuvaamaan."</string>
+<string name="support_open_music">"Toista musiikkia"</string>
+<string name="support_open_music_summary">"Sano puhelimelle:\' [Herätyssanat] + Toista Wang Fei\'s \"Hong Dou\"\'，se avaa musiikkisoittimen ja toistaa kappaleen."</string>
+<string name="support_open_app">"Käynnistä sovelluksia"</string>
+<string name="support_open_app_summary">"Sano puhelimelle：\' [Herätyssanat] + Avaa WeChat\'，puhelin käynnistää WeChat sovelluksen."</string>
+<string name="find_phone_content">"Voit kysyä：\n\n Missä olet\n Kuuletko minua\n Vastaatko"</string>
+<string name="call_phone_content">"Voit pyytää：\n\n Soita Xiao Wang\n Call Xiaomin \n Soita China Mobile asiakaspalveluun\n Valitse 114"</string>
+<string name="send_mms_content">"Voit pyytää：\n\n Lähetä Xiao Wangille tekstiviesti\n Lähetä tekstiviesti Xiaominille\n Vastaa äidin tekstiviestiin\n Lähetä kokousaikao Xiaomingille"</string>
+<string name="open_camera_content">Voit pyytää：\n\n Ota kuva\n Ota maisemakuva\n Ota kuva."</string>
+<string name="open_music_content">"Voit pyytää：\n\n Soita Wang Fei\'s \"Hong Dou\"\n Soita satunnaiskappaleita\n Haluan kuunnella "Pao Mo"\n Soita Zhang Xueyou"</string>
+<string name="open_app_content">"Voit pyytää：\n\n Avaa WeChat\n Lataa "kompassi" sovellus \n Käynnistä notepad"</string>
+<string name="default_trigger">"Trigger: Hello Blue Genie v17 (US English)"</string>
+<string name="default_command">"Käsky: Fitness v2.2 (US English)"</string>
+<string name="default_command_sen">"Herkkyys: Normaali"</string>
+<string name="trigger_prompt">"Sano Hello Blue Genie"</string>
+<string name="command_prompt1">"Sano nyt yksi seuraavista…"</string>
+<string name="command_prompt2">"Sano nyt komento"</string>
+<string name="cmd_step_count">"Askelmittari"</string>
+<string name="cmd_calories">"Kalorit"</string>
+<string name="cmd_floors">"Kerrokset"</string>
+<string name="cmd_distance">"Etäisyys"</string>
+<string name="cmd_active_minutes">"Aktiiviset minuutit"</string>
+<string name="cmd_sleep_pattern">"Nukkumistyyli"</string>
+<string name="cmd_outside_temperature">"Lämpötila ulkona"</string>
+<string name="cmd_outside_humidity">"Kosteus ulkona"</string>
+<string name="cmd_what_time_is_it">"Paljonko kello on"</string>
+<string name="cmd_heart_rate">"Pulssi"</string>
+<string name="resp_step_count">"Askelmittari = 4306"</string>
+<string name="resp_calories">"Kaloreita kulutettu tänään = 1445"</string>
+<string name="resp_floors">"Kerroksia noustu tänään = 8"</string>
+<string name="resp_distance">"Kävelty matka tänään = 2,52 mailia"</string>
+<string name="resp_active_minutes">"Aktiiviset minuutit tänään = 17"</string>
+<string name="resp_sleep_pattern">"Syvä uni tänään = 3h 25m"</string>
+<string name="resp_outside_temperature">"Lämpötila ulkona = 74 F"</string>
+<string name="resp_outside_humidity">"Kosteus ulkona = 41%"</string>
+<string name="resp_what_time_is_it">"Nykyinen aika ="</string>
+<string name="resp_heart_rate">"Pulssi = 74 bpm"</string>
+<string name="time_left">"Aikaa jäljellä: X s"</string>
+<string name="language_changed_success">"Kielen vaihto onnistui!"</string>
+<string name="save_file_to_device_error">"Herätyssanan vaihto epäonnistui, kokeile myöhemmin uudestaan!"</string>
+<string name="language_changed_failed">"Kielen vaihto epäonnistui, kokeile myöhemmin uudestaan!"</string>
+<string name="language_change_has_canceled">"on peruutettu, voit käyttää myös vanhoja kieliä"</string>
+<string name="finished">"Valmis"</string>
+<string name="sensibility_text">"Aseta herätyssanan herkkyys tunnistamisessa \n \ Kun herkkyys on korkeampi, sitä herkemmin herää \n \ Kun herkkyys on matala, on myös herääminen heikkoa"</string>
+<string name="update_phrass_success">"Päivitys onnistui"</string>
+</resources>

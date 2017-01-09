@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="#55000000" >
+    <RelativeLayout android:id="@+id/crop_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_topbar" >
+        <Button android:id="@+id/btn_crop_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/gallery_title_camera_status"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:textColor="#ffffffff"
+            android:paddingBottom="2dip"
+            android:text="@string/text_title_back" />
+        <Button android:id="@+id/btn_crop_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/gallery_title_next_status"
+            android:layout_centerVertical="true"
+            android:text="@string/text_title_next"
+            android:textColor="#ffffffff"
+            android:paddingBottom="2dip"
+            android:gravity="center"
+            android:layout_margin="5dp" />
+    </RelativeLayout>
+    <com.ucamera.ugallery.crop.OperateCropImageView
+        android:id="@+id/crop_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/crop_top"
+        android:scaleType="matrix" />
+</RelativeLayout>

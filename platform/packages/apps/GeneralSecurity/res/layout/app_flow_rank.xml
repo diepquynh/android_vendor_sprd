@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="?android:attr/dividerHorizontal"
+    android:showDividers="end"
+    android:dividerPadding="0dip">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        >
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:text="@string/network_control_head" />
+
+        <TextView
+            android:id="@+id/flowSim1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:singleLine="false"
+            android:text="@string/data_flow_data"
+            android:textColor="#000000"
+            android:textSize="16sp"
+
+             />
+
+        <TextView
+            android:id="@+id/flowWifi"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true"
+            android:text="@string/data_flow_wifi"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginLeft="30dp"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:singleLine="false"
+        android:text="@string/network_order_des"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="-6dp"
+        android:textSize="15sp"
+        />
+
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#aaaaaa" />
+
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1">
+        <ListView android:id="@android:id/list"
+            android:drawSelectorOnTop="false"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:layout_gravity="left|center_vertical"
+            android:layout_below="@android:id/empty"
+            android:layout_toEndOf="@android:id/empty" />
+
+    </FrameLayout>
+</LinearLayout>

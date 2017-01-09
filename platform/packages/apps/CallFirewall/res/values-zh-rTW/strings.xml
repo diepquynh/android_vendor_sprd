@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">"來電防火牆"</string>
+    <!-- BlackCallsListAddActivity add phonenumber. -->
+    <string name="blackcalls_add_phone_tip_error">"請輸入號碼"</string>
+    <string name="blackcalls_add_type_tip_error">"請選擇攔截類型"</string>
+    <string name="blackcalls_add_phone_tip_error_existed_phone">"此號碼已經存在，不能重複新增"</string>
+    <string name="blackcalls_add_phone_tip_success">"黑名單新增成功"</string>
+    <string name="blackcalls_edit_phone_tip_success">"黑名單編輯成功"</string>
+    <string name="blackcalls_add_phone_import_type">0123456789</string>
+    <!-- BlackCallsListAddActivity delete phonenumber. -->
+    <string name="blackcalls_delete_phone_tip_error_not_select">"請選擇想要刪除電話號碼"</string>
+    <!-- Fixed bug 4379 by phone_07. 2011.10.20 -->
+    <string name="blackcalls_delete_not_select">"請選擇刪除項"</string>
+    <!-- The The description text for the black call add text -->
+    <string name="black_calls_add_number_label">"號碼"</string>
+    <string name="black_calls_add_type_label">"攔截類型" </string>
+    <!-- The The description text for the black call add radiobutton text shi hao jie -->
+    <string name="blacklist_radioButtonCall">"語音來電" </string>
+    <string name="blacklist_radioButtonVideoCall">"視頻來電" </string>
+    <string name="blacklist_radioButtonSms">"訊息" </string>
+    <string name="blacklist_radioButtonAll">"所有來電和訊息"</string>
+    <!-- The The description text for the black call list text shi hsao jie-->
+    <string name="blackcalls_list_phone_number_text">"攔截號碼: "</string>
+    <string name="blackcalls_list_Intercept_type_text">"攔截類型:" </string>
+    <string name="blackcalls_add_phone_tip_error_input">"請輸入正確的電話號碼" </string>
+    <!-- The description text for the black call tab.shi hao jie -->
+    <string name="blackCallsIconLabel">"黑名單"</string>
+    <string name="blackCallsLogIconLabel">"電話記錄"</string>
+    <string name="blackSmsLigIconLabel">"訊息記錄"</string>
+    <!-- Text displayed when the black call logs is empty shi hao jie -->
+    <string name="blackCallslog_empty">"電話攔截記錄為空。"</string>
+    <!-- Text displayed when the black call is empty shi hao jie -->
+    <string name="blackCalls_empty">"黑名單為空。"</string>
+     <!-- Text displayed when the black call is menu add shi hao jie -->
+    <string name="blackCalls_menu_add">"新增"</string>
+    <string name="blackCalls_menu_delete">"刪除部分"</string>
+    <string name="blackCalls_add_button_save">"保存"</string>
+    <string name="blackCalls_add_button_Cancel">"取消"</string>
+     <string name="blackCalls_del_button_ok">"確定"</string>
+     <string name="blackCalls_del_button_Cancel">"取消"</string>
+     <string name="blackCalls_all_button_Selected">"全選"</string>
+     <string name="blackCalls_all_button_UnSelected">"刪除選中"</string>
+     <string name="blackCalls_logs_del_button_ok">"確定"</string>
+     <string name="blackCalls_logs_del_button_Cancel">"取消"</string>
+     <string name="blackCalls_logs_all_button_Selected">"全選"</string>
+     <string name="blackCalls_logs_all_button_UnSelected">"刪除"</string>
+     <string name="blackCalls_blacklist_detail">"姓名:%1$s\r\n號碼:%2$s"</string>
+     <string name="blackCalls_calllog_detail">"姓名:%1$s\r\n號碼:%2$s\r\n時間:%3$s"</string>
+     <string name="blackCalls_smslog_content">"姓名:%1$s\r\n號碼:%2$s\r\n内容:%3$s\r\n時間:%4$s"</string>
+     <!-- Title for the activity that dials the phone.  This is the name
+         used in the Launcher icon. -->
+    <string name="launcherDialer">"黑名單"</string>
+    <!-- The description text for the sms call log tab.shi hao jie -->
+    <string name="SmsCallsLogIconLabel">"訊息記錄"</string>
+    <string name="Sms_all_button_Selected">"全選"</string>
+    <string name="Sms_log_empty">"訊息攔截記錄為空。"</string>
+     <string name="BlaclList_Menu_Add">"新增"</string>
+    <string name="BlaclList_Menu_Delede_Some">"批量刪除"</string>
+    <string name="BlaclList_Menu_Confirm_delete">"確認刪除"</string>
+    <string name="BlaclList_Menu_Cancel">"取消"</string>
+    <string name="BlaclList_conMenu_delete"> "刪除"</string>
+    <string name="BlaclList_conMenu_edit">"編輯"</string>
+    <string name="BlackList_conMenu_detail">詳情</string>
+    <string name="BlaclList_conMenu_title">"請選擇"</string>
+    <string name="SmsList_conMenu_delete">"刪除"</string>
+    <string name="SmsList_conMenu_content">"內容"</string>
+    <string name="confirm_delete_number_title">"要移除黑名單嗎？"</string>
+    <string name="confirm_delete_number">"將會移除此號碼。"</string>
+    <string name="CallLog_confirm_delete_title">"確定刪除嗎？"</string>
+    <string name="CallLog_confirm_delete">"將會刪除此記錄"。</string>
+    <string name="ok">"確定"</string>
+    <string name="cancel">"取消"</string>
+    <string name="Add_Blacklist_title">"添加黑名單中"</string>
+    <string name="Delete_Blacklist_title">"刪除黑名單中"</string>
+    <string name="Delete_CallLog_title">"電話記錄刪除中"</string>
+    <string name="Delete_SmsLog_title">"短信記錄刪除中"</string>
+    <string name="selectContact">"選取聯絡人"</string>
+    <string name="black_calls_add_name_label">"姓名" </string>
+    <string name="blackcalls_update_phone_tip_fail">"黑名單更新失敗"</string>
+    <string name="black_call_detail_time">"時間"</string>
+    <string name="black_sms_detail_contacts">"內容"</string>
+    <string name="sqlite_full">"潶佲單數據庫彧磁盤已懑"</string>
+    <string name="no_subject">"無主題"</string>
+    <string name="intercept_mms">"彩信 %1$s 大小:%2$s"</string>
+    <string name="add_contacts">新增聯絡人</string>
+    <string-array name="BlackList_list_stringArray">
+                <item>訊息</item>
+                <item>電話</item>
+                <item>視頻電話</item>
+        </string-array>
+    <string  name="blackCalls_all_button_Unselected">取消全選</string>
+    <string name="done">"完成"</string>
+    <!--SPRD: add for bug423428 @{-->
+    <string  name="BlackList_Menu_Add_Call_Some">"新增攔截電話"</string>
+    <string  name="BlackList_Menu_Add_Sms_Some">"新增攔截訊息"</string>
+    <string  name="BlackList_Menu_Add_Call_With_Sms_Some">"新增攔截電話和訊息"</string>
+    <!-- }-->
+
+    <!-- SPRD: add for bug452789 @{ -->
+    <string name="Contact_error">"通訊錄應用已被停用"</string>
+    <!-- } -->
+
+<!-- SPRD: add for bug459942 @{ -->
+    <string name="adding_blacklist_hold_on">"正在進行批量操作，請稍等..."</string>
+    <!-- } -->
+    <!-- SPRD: add for bug501393. -->
+    <string name="refuse_in_guest">"非機主模式下無法使用此功能"</string>
+    <!-- SPRD: modify for bug599100 @{ -->
+    <string name="blocked_numbers_butter_bar_title">"已暫時停用來電封鎖功能"</string>
+    <string name="blocked_numbers_butter_bar_body">"當您撥打或傳送簡訊到緊急服務電話後，系統就會停用來電封鎖功能，以確保緊急服務人員能夠與您聯絡。來電封鎖功能會在 %1$s 重新啟用。"</string>
+    <string name="blocked_numbers_butter_bar_button">"立即重新啟用"</string>
+    <!-- @} -->
+    <!-- SPRD: add for bug609167 -->
+    <string name="refuse_after_close_blocked_storage">"停用存儲已屏蔽的號碼後無法使用黑名單功能"</string>
+</resources>

@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="from">Nga</string>
+<string name="to">Për</string>
+<string name="cc">Kopje Karbon</string>
+<string name="bcc">Kopje e Verbër Karbon</string>
+<string name="subject_hint">Subjekti</string>
+<string name="body_hint">Kompozo email</string>
+<string name="add_file_attachment">Shto bashkëngjitje</string>
+<string name="add_photo_attachment">Bashkëngjit figurë</string>
+<string name="save_draft">Ruaj skicën</string>
+<string name="discard">Hiq</string>
+<string name="compose">Kompozo</string>
+<string name="compose_title">Kompozo</string>
+<string-array name="compose_modes">
+<item>Përgjigju</item>
+<item>Përgjigju të gjithave</item>
+<item>Përpara</item>
+</string-array>
+<string name="reply_attribution">"Më <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> shkroi:"</string>
+<string name="forward_attribution">""----------  Mesazh i përcjellë ----------&lt;br&gt;Nga: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;Data: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;Subjekti: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;Për: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;""</string>
+<string name="forward_attribution_no_headers">"---------- Mesazh i përcjellë ----------"</string>
+<string name="cc_attribution">""Cc: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;""</string>
+<string name="select_attachment_type">Zgjidh llojin e bashkëngjitjes</string>
+<string name="too_large_to_attach_single">"Nuk mund të bashkëngjitjë skedë mbi <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+<string name="too_large_to_attach_multiple">Një ose më shumë skeda nuk janë bashkëngjitur. Limiti <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+<string name="too_large_to_attach_additional">Skeda nuk është bashkëngjitur. <xliff:g id="maxSize">%1$s</xliff:g> limit është arritur."</string>
+<string name="generic_attachment_problem">Nuk mundi të bashkëngjitë skedën.</string>
+<string name="attachment_permission_denied">"Është refuzuar leja për bashkëngjitjen."</string>
+<string name="recipient_needed">Shto të paktën një marrës.</string>
+<string name="confirm_send_message_with_no_subject">Nuk ka tekst në subjektin e mesazhit.</string>
+<string name="confirm_send_message_with_no_body">Nuk ka tekst në trupin e mesazhit.</string>
+<string name="confirm_send_message">Dërgo këtë mesazh?</string>
+<string name="message_discarded">Mesazhi u hodh.</string>
+<string name="signature">"\n\n<xliff:g id="signature">%s</xliff:g>"</string>
+<string name="custom_from_account_label">Dërgo postën si:</string>
+<string name="send">Dërgo</string>
+<string name="mark_read">Shëno si të lexuar</string>
+<string name="mark_unread">Shëno si të palexuar</string>
+<string name="toggle_read_unread">"Çelës lexuar palexuar"</string>
+<string name="mute">PA ZË</string>
+<string name="add_star">Shto yllin</string>
+<string name="remove_star">Hiq yllin</string>
+<string name="remove_folder">"Hiq nga <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<string name="archive">Arkiv</string>
+<string name="report_spam">Raporto spam</string>
+<string name="mark_not_spam">Raporto jo spam</string>
+<string name="report_phishing">Raporto mashtrim</string>
+<string name="delete">Fshi</string>
+<string name="discard_drafts">Hidh draftet</string>
+<string name="discard_failed">Hedhja dështoi</string>
+<string name="refresh">Rifresko</string>
+<string name="reply">Përgjigju</string>
+<string name="reply_all">Përgjigju të gjithave</string>
+<string name="resume_draft">Ndrysho</string>
+<string name="forward">Përpara</string>
+<string name="menu_compose">Kompozo</string>
+<string name="menu_change_folders">Ndrysho folderat</string>
+<string name="menu_move_to">Lëviz në</string>
+<string name="menu_move_to_inbox">Lëviz në Kutinë hyrëse</string>
+<string name="menu_manage_folders">Parametrat e folderit</string>
+<string name="menu_show_original">Rikthe auto-përmasën</string>
+<string name="menu_settings">Cilësimet</string>
+<string name="menu_search">Kërko</string>
+<string name="menu_toggle_drawer">"Çelës sirtar"</string>
+<string name="drawer_title">Lundrim</string>
+<string name="mark_important">Shëno të rëndësishme</string>
+<string name="mark_not_important">Shëno jo të rëndësishme</string>
+<string name="add_cc_label">Shto Kopje Karbon/Kopje e Verbër Karbon</string>
+<string name="add_bcc_label">Shto Bcc</string>
+<string name="quoted_text">Përfshi tekstin e cituar</string>
+<string name="quoted_text_label">Cito tekst</string>
+<string name="respond_inline">Përgjigju në rresht</string>
+<string name="bytes">""<xliff:g id="count">%s</xliff:g> B""</string>
+<string name="kilobytes">""<xliff:g id="count">%s</xliff:g> KB""</string>
+<string name="megabytes">""<xliff:g id="count">%s</xliff:g> MB""</string>
+<string name="attachment_image">imazh</string>
+<string name="attachment_video">video</string>
+<string name="attachment_audio">audio</string>
+<string name="attachment_text">Shkruaji</string>
+<string name="attachment_application_msword">Dokument</string>
+<string name="attachment_application_vnd_ms_powerpoint">Prezantim</string>
+<string name="attachment_application_vnd_ms_excel">Fletë e hapur</string>
+<string name="attachment_unknown">"Skedë <xliff:g id="attachmentExtension">%s</xliff:g>"</string>
+<string name="preview_attachment">Shiko</string>
+<string name="save_attachment">Ruaj</string>
+<string name="download_again">Shkarko përsëri</string>
+<string name="remove_attachment_desc">"Hiq bashkëngjitjen <xliff:g id="attachmentName">%s</xliff:g>"</string>
+<string name="more_info_attachment">Info</string>
+<string name="no_application_found">Asnjë aplikacion nuk mund ta hapë këtë bashkëngjitje për shikim.</string>
+<string name="fetching_attachment">Duke marrë bashkëngjitjen</string>
+<string name="please_wait">Të lutem prit...</string>
+<string name="saved">""Ruajtur,&#160;<xliff:g id="size">%s</xliff:g>""</string>
+<string name="download_failed">Nuk mundi të shkarkohet. Prek për të provuar përsëri.</string>
+<string name="menu_photo_save_all">Ruaj të gjitha</string>
+<string name="menu_photo_share">Ndaj</string>
+<string name="menu_photo_share_all">Ndaj të gjitha</string>
+<string name="menu_photo_print">Printo</string>
+<string name="saving">""Duke ruajtur&#8230;""</string>
+<string name="choosertitle_sharevia">Ndaj me</string>
+<string name="contextmenu_openlink">Hap në Shfletues</string>
+<string name="contextmenu_copy">Kopjo</string>
+<string name="contextmenu_copylink">Kopjo lidhjen URL</string>
+<string name="contextmenu_view_image">Shiko imazhin</string>
+<string name="contextmenu_dial_dot">Formo...</string>
+<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+<string name="contextmenu_add_contact">Shto kontakt</string>
+<string name="contextmenu_send_mail">Dërgo email</string>
+<string name="contextmenu_map">MAP</string>
+<string name="contextmenu_sharelink">Ndaj lidhjen</string>
+<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> rreth <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> në <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> rreth <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> në <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> rreth <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> në <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>, emërtime: <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="content_description_today_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> rreth <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> në <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>, emërtime: <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="read_string">biseda e lexuar</string>
+<string name="unread_string">biseda e palexuar</string>
+<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="badge_and_subject">"<xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g>"</string>
+<plurals name="draft">
+<item quantity="one">Skicë</item>
+<item quantity="other">Drafte</item>
+</plurals>
+<string name="sending">Duke dërguar...</string>
+<string name="message_retrying">"Duke riprovuar\u2026"</string>
+<string name="message_failed">Dështoi</string>
+<string name="send_failed">Mesazhi nuk është dërguar.</string>
+<string name="me_object_pronoun">Unë</string>
+<string name="me_subject_pronoun">Unë</string>
+<plurals name="confirm_delete_conversation">
+<item quantity="one">Fshi këtë bisedë?</item>
+<item quantity="other">"Fshi këto <xliff:g id="count">%1$d</xliff:g> biseda?"</item>
+</plurals>
+<plurals name="confirm_archive_conversation">
+<item quantity="one">Arkivo këtë bisedë?</item>
+<item quantity="other">"Arkivo këto <xliff:g id="count">%1$d</xliff:g> biseda?"</item>
+</plurals>
+<plurals name="confirm_discard_drafts_conversation">
+<item quantity="one">Hidh këtë mesazh?</item>
+<item quantity="other">"Hidh këto <xliff:g id="count">%1$d</xliff:g> mesazhe?"</item>
+</plurals>
+<string name="confirm_discard_text">Hidh këtë mesazh?</string>
+<string name="loading_conversations">Duke ngarkuar...</string>
+<string name="empty_inbox">Keni mbaruar! Ju lutem t\'ia kaloni mirë.</string>
+<string name="empty_search">Uoops! Nuk gjetëm asgjë për \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+<string name="empty_spam_folder">Urraaa, nuk ka mashtrim këtu!</string>
+<string name="empty_trash_folder">Nuk ka plehra këtu. Faleminderit për riciklimin!</string>
+<string name="empty_folder">Nuk ka postë këtu.</string>
+<string name="getting_messages">Duke marrë mesazhet tuaja</string>
+<string name="undo">kthej mbrapsht</string>
+<plurals name="conversation_unstarred">
+<item quantity="one">""Duke i hequr yllin <xliff:g id="count">%1$d</xliff:g>bisede""</item>
+<item quantity="other">""Duke i hequr yllin <xliff:g id="count">%1$d</xliff:g> bisedave""</item>
+</plurals>
+<plurals name="conversation_muted">
+<item quantity="one">""&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; heshtur""</item>
+<item quantity="other">""&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; heshtur""</item>
+</plurals>
+<plurals name="conversation_spammed">
+<item quantity="one">""&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; raportuar si spam""</item>
+<item quantity="other">""&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; raportuar si spam""</item>
+</plurals>
+<plurals name="conversation_not_spam">
+<item quantity="one">""&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; raportuar si jo spam""</item>
+<item quantity="other">""&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; raportuar si jo spam""</item>
+</plurals>
+<plurals name="conversation_not_important">
+<item quantity="one">""&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; shënuar e parëndësishme""</item>
+<item quantity="other">""&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; shënuar e parëndësishme""</item>
+</plurals>
+<plurals name="conversation_phished">
+<item quantity="one">""&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; raportuar si mashtrim""</item>
+<item quantity="other">""&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; raportuar si mashtrim""</item>
+</plurals>
+<plurals name="conversation_archived">
+<item quantity="one">""&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; arkivuar""</item>
+<item quantity="other">""&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; arkivuar""</item>
+</plurals>
+<plurals name="conversation_deleted">
+<item quantity="one">""&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; fshirë""</item>
+<item quantity="other">""&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; fshirë""</item>
+</plurals>
+<string name="deleted">U fshi</string>
+<string name="archived">Arkivuar</string>
+<string name="folder_removed">"Hequr nga <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<plurals name="conversation_folder_changed">
+<item quantity="one">"Folderi i ndryshuar"</item>
+<item quantity="other">"Folderat e ndryshuar"</item>
+</plurals>
+<string name="conversation_folder_moved">"U lëviz në <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<string name="search_results_header">Rezultate</string>
+<string name="search_unsupported">Kërkimi nuk suportohet në këtë llogari.</string>
+<string name="search_suggestion_desc">"Sugjerim: <xliff:g id="suggestion">%s</xliff:g>""</string>
+<string name="add_label">Shto folder</string>
+<plurals name="new_incoming_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> mesazh i ri</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> mesazhe të reja</item>
+</plurals>
+<string name="date_and_view_details">""<xliff:g id="date">%1$s</xliff:g> <a href='http://www.example.com\'>Shiko detaje</a>""</string>
+<string name="hide_details">Fshih detajet</string>
+<string name="to_message_header">"për <xliff:g id="recipients">%1$s</xliff:g>"</string>
+<string name="bcc_header_for_recipient_summary">Kopje e Verbër Karbon:\u0020</string>
+<string name="contact_info_string">"Trego informacione kontakti për <xliff:g id="name">%1$s</xliff:g>"</string>
+<string name="contact_info_string_default">Trego informacione kontakti</string>
+<plurals name="show_messages_read">
+<item quantity="other">""Zgjero <xliff:g id="count" example="4">%1$d</xliff:g> mesazhe të vjetra""</item>
+</plurals>
+<plurals name="super_collapsed_block_accessibility_announcement">
+<item quantity="other">"Zgjeruar <xliff:g id="count" example="4">%1$d</xliff:g> mesazhe të vjetra"</item>
+</plurals>
+<string name="from_heading">Nga:</string>
+<string name="replyto_heading">Përgjigju:</string>
+<string name="to_heading">Për:\u0020</string>
+<string name="to_heading_no_space">Për:</string>
+<string name="cc_heading">Kopje Karbon:</string>
+<string name="bcc_heading">Kopje e Verbër Karbon:</string>
+<string name="date_heading">Data:</string>
+<string name="show_images">Trego figurat</string>
+<string name="always_show_images">Trego gjithmonë figurat nga ky dërgues</string>
+<string name="always_show_images_toast">Figurat nga ky dërgues do të tregohen automatikisht.</string>
+<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> përmes <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+<string name="message_saved">Mesazhi u ruajt si skicë.</string>
+<string name="sending_message">"Duke dërguar mesazhin\u2026"</string>
+<string name="invalid_recipient">"Adresa <xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> është e pavlefshme."</string>
+<string name="show_elided">Trego tekstin e cituar</string>
+<string name="hide_elided">"\u25BC Fshih tekstin e cituar"</string>
+<string name="message_invite_title">Ftesë kalendari</string>
+<string name="message_invite_calendar_view">Shiko në Kalendar</string>
+<string name="message_invite_label_attending">Do të shkosh?</string>
+<string name="message_invite_accept">Po</string>
+<string name="message_invite_tentative">Ndoshta</string>
+<string name="message_invite_decline">Jo</string>
+<string name="enumeration_comma">",\u0020"</string>
+<string name="send_anyway">Dërgo gjithsesi</string>
+<string name="ok">"OK"</string>
+<string name="done">U krye</string>
+<string name="cancel">Anulo</string>
+<string name="clear">Pastro</string>
+<string name="next">Tjetra</string>
+<string name="previous">E mëparshme</string>
+<string-array name="sync_status">
+<item>Sukses</item>
+<item>Asnjë lidhje</item>
+<item>Nuk mundi të hyjë</item>
+<item>"Gabim sigurie"</item>
+<item>"Nuk mund të sinkronizohet"</item>
+<item>Gabim i brendshëm</item>
+<item>Gabim në server</item>
+</string-array>
+<string name="tap_to_configure">Prek për të konfiguruar</string>
+<string name="non_synced_folder_description">Për të parë bisedat, sinkronizo këtë folder.</string>
+<string name="tap_to_configure_folder_sync">Sinkronizo folderin</string>
+<string name="large_unseen_count">"<xliff:g id="count" example="99">%d</xliff:g>+ të reja"</string>
+<string name="unseen_count">"<xliff:g id="count" example="4">%d</xliff:g> të reja"</string>
+<plurals name="actionbar_unread_messages">
+<item quantity="other">"<xliff:g id="count" example="4">%1$d</xliff:g> të palexuara"</item>
+</plurals>
+<string name="view_more_conversations">Shiko më shumë biseda</string>
+<string name="loading_conversation">Duke ngarkuar...</string>
+<string name="activity_mailbox_selection">Zgjidh llogarinë</string>
+<string name="activity_folder_selection">Zgjidh folderin</string>
+<string name="folder_shortcut_widget_label">Email folderin</string>
+<string name="change_folders_selection_dialog_title">Ndrysho folderat</string>
+<string name="move_to_selection_dialog_title">Lëviz në</string>
+<string name="search_hint">Kërko</string>
+<string name="voice_search_not_supported">"Kërkimi me zë nuk suportohet në këtë pajisje."</string>
+<string name="search_back_desc">"Mbyll kërkimin"</string>
+<string name="search_voice_desc">Fillo kërkimin me zë</string>
+<string name="search_clear_desc">"Pastro tekstin e kërkimit"</string>
+<string name="network_error">Asnjë lidhje</string>
+<string name="retry">Provo përsëri</string>
+<string name="load_more">Ngarko më shumë</string>
+<string name="shortcut_name_title">Emëro shkurtoren e folderit</string>
+<string name="wait_for_sync_title">Duke pritur për sinkronizim</string>
+<string name="not_synced_title">Llogaria nuk është sinkronizuar</string>
+<string name="wait_for_manual_sync_body">"Kjo llogari nuk është konfiguruar të sinkronizohet automatikisht.\nPrekni &lt;b&gt;Sinkronizo Tani&lt;/b&gt; për të sinkronizuar postën njëherë, ose &lt;b&gt;Ndrysho Parametrat e Sinkronizimit&lt;/b&gt; për ta konfiguruar këtë llogari të sinkronizojë postën automatikisht."</string>
+<string name="manual_sync">Sinkronizo tani</string>
+<string name="change_sync_settings">Ndrysho parametrat e sinkronizimit</string>
+<string name="photo_load_failed">Nuk mundi të ngarkojë imazhin</string>
+<string name="cant_move_or_change_labels">Nuk mund të lëvizë sepse zgjedhja përmbanë disa llogari.</string>
+<string name="multiple_new_message_notification_item">"&lt;b&gt;<xliff:g id="sender">%1$s</xliff:g>&lt;/b&gt;\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="ignore_spam_warning">Injoro, i besoj këtij mesazhi</string>
+<string name="via_domain">"përmes <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+<string name="signin">Hyrje</string>
+<string name="info">Info</string>
+<string name="report">Raporto</string>
+<string name="show">"Trego"</string>
+<string name="sync_error">Nuk mundi të sinkronizohet.</string>
+<string name="sync_error_message">Pajisja juaj nuk ka hapësirë të mjaftueshme për të sinkronizuar.</string>
+<string name="storage">Memoria</string>
+<string name="senders_split_token">",\u00A0"</string>
+<string name="draft_count_format">"\u00A0(<xliff:g id="count">%1$s</xliff:g>)"</string>
+<string name="all_folders_heading">Të gjithë folderat</string>
+<string name="recent_folders_heading">Folderat e fundit</string>
+<string name="message_details_title">Detaje të mesazhit</string>
+<string name="preference_advance_to_title">Avancim automatik</string>
+<string-array name="prefEntries_autoAdvance">
+<item>Më e re</item>
+<item>Më të vjetra</item>
+<item>Lista e bisedave</item>
+</string-array>
+<string-array name="prefSummaries_autoAdvance">
+<item>Trego bisedën e re pasi fshini</item>
+<item>Trego bisedën e vjetër pasi fshini</item>
+<item>Trego listën e bisedave pasi fshini</item>
+</string-array>
+<string name="prefDialogTitle_autoAdvance">Avanco në</string>
+<string name="clear_display_images_whitelist_title">Pastro aprovimet e figurës</string>
+<string name="clear_display_images_whitelist_dialog_title">Pastro aprovimet e figurës?</string>
+<string name="clear_display_images_whitelist_dialog_message">Ndalo shfaqjen e imazheve në linjë nga dërgues që i keni lejuar më parë.</string>
+<string name="sender_whitelist_cleared">Figurat nuk do të tregohen automatikisht.</string>
+<string name="preferences_signature_title">Firma</string>
+<string name="preferences_signature_dialog_title">Firma</string>
+<string name="preferences_signature_summary_not_set">Nuk është vendosur</string>
+<string name="notification_action_reply">Përgjigju</string>
+<string name="notification_action_reply_all">Përgjigju të gjithave</string>
+<string name="notification_action_archive">Arkiv</string>
+<string name="notification_action_remove_label">Hiq etiketën</string>
+<string name="notification_action_delete">Fshi</string>
+<string name="notification_action_undo_archive">Arkivuar</string>
+<string name="notification_action_undo_remove_label">Etiketa u hoq</string>
+<string name="notification_action_undo_delete">U fshi</string>
+<string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+<plurals name="new_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> mesazh i ri</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> mesazhe të reja</item>
+</plurals>
+<string name="single_new_message_notification_title">"<xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="silent_ringtone">Heshtur</string>
+<string name="preference_removal_action_title">"Veprim standard"</string>
+<string-array name="prefEntries_removal_action">
+<item>Arkiv</item>
+<item>Fshi</item>
+</string-array>
+<string-array name="prefSummaries_removal_action_summary">
+<item>Arkiv</item>
+<item>Fshi</item>
+</string-array>
+<string name="prefDialogTitle_removal_action">"Veprim standard"</string>
+<string name="preferences_default_reply_all_title">Përgjigju të gjithave</string>
+<string name="preferences_default_reply_all_summary_impl">Përdor si standard për përgjigjet e mesazheve</string>
+<string name="preference_swipe_title">"Veprimet e lëvizjes"</string>
+<string name="preference_swipe_description">Në listën e bisedave</string>
+<string name="preference_sender_image_title">Imazhi i dërguesit</string>
+<string name="preference_sender_image_description">Trego anash emrit në listën e bisedave</string>
+<string name="empty_trash">Koshi bosh</string>
+<string name="empty_spam">Spam bosh</string>
+<string name="empty_trash_dialog_title">Zbraz koshin?</string>
+<string name="empty_spam_dialog_title">Zbraz spam?</string>
+<plurals name="empty_folder_dialog_message">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> mesazh do të fshihet përfundimisht."</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> mesazhe do të fshihen përfundimisht."</item>
+</plurals>
+<string name="drawer_open">Hap sirtarin e navigimit</string>
+<string name="drawer_close">Mbyll sirtarin e navigimit</string>
+<string name="conversation_photo_welcome_text">Prek imazhin e një dërguesi për të zgjedhur atë bisedë.</string>
+<string name="long_press_to_select_tip">"Shtyp &amp; mbaj shtypur për të zgjedhur një bisedë, pastaj shtyp për të zgjedhur më shumë."</string>
+<string name="folder_icon_desc">Ikona e folderit</string>
+<string name="add_account">Shto llogari</string>
+<string name="dismiss_tip_hover_text">Hiq këshillën</string>
+<string name="auto_sync_off">"Sinkronizimi automatik është joaktiv. Shtyp për të aktivizuar."</string>
+<string name="account_sync_off">"Sinkronizimi i llogarisë është joaktiv. Aktivizo në  <a href='http://www.example.com\'>Parametrat\u00A0e llogarisë.</a>""</string>
+<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g>padërguar në <xliff:g id="outbox">%2$s</xliff:g>"</string>
+<string name="turn_auto_sync_on_dialog_title">"Aktivizo sinkronizimin automatik?"</string>
+<string name="turn_auto_sync_on_dialog_body">"Ndryshimet që bëni në të gjitha aplikacionet dhe llogaritë, jo vetëm në Gmail, do të sinkronizohen midis uebit, pajisjeve tuaja të tjera, dhe <xliff:g id="phone_or_tablet">%1$s</xliff:g> tuaj."</string>
+<string name="phone">telefon</string>
+<string name="tablet">Tablet</string>
+<string name="turn_auto_sync_on_dialog_confirm_btn">Aktivizo</string>
+<string name="show_n_more_folders">""Trego <xliff:g id="number">%1$s</xliff:g> foldera""</string>
+<string name="hide_folders">Fshih folderat</string>
+<string name="print">Printo</string>
+<string name="print_all">Printo të gjitha</string>
+<plurals name="num_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> mesazh"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> mesazhe"</item>
+</plurals>
+<string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> në <xliff:g id="time">%2$s</xliff:g>"</string>
+<string name="draft_to_heading">Draft për:</string>
+<string name="draft_heading">Skicë</string>
+<string name="quoted_text_hidden_print">Teksti i cituar i fshehur</string>
+<plurals name="num_attachments">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> bashkëngjitje"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> bashkëngjitje"</item>
+</plurals>
+<string name="no_subject">(Pa subjekt)</string>
+<string name="vacation_responder">Përgjigje pushimesh</string>
+<string name="preferences_vacation_responder_title">Përgjigje pushimesh</string>
+<string name="vacation_responder_body_hint_text">Mesazhi</string>
+<string name="send_to_contacts_text">Dërgo vetëm te Kontaktet e mia</string>
+<string name="send_to_domain_text">"Dërgo vetëm te <xliff:g id="domain">%1$s</xliff:g>"</string>
+<string name="pick_start_date_title">Fillon</string>
+<string name="pick_end_date_title">Mbaron (Opsional)</string>
+<string name="date_not_set">Nuk është vendosur</string>
+<string name="set_end_date_dialog_title">Data e mbarimit (opsional)</string>
+<string name="custom_date">Personalizuar</string>
+<string name="date_none">Heshtur</string>
+<string name="discard_changes">Hidh ndryshimet?</string>
+<string name="vacation_responder_changes_saved">Ndryshimet e përgjigjes të pushimeve u ruajtën</string>
+<string name="vacation_responder_changes_discarded">Ndryshimet e përgjigjes të pushimeve u hodhën</string>
+<string name="vacation_responder_off">Joaktive</string>
+<string name="vacation_responder_on">"Aktiv, nga <xliff:g id="date">%1$s</xliff:g>"</string>
+<string name="vacation_responder_on_with_end_date">"Aktiv, nga <xliff:g id="start-date">%1$s</xliff:g> deri <xliff:g id="end-date">%2$s</xliff:g>"</string>
+<string name="vacation_responder_empty_subject_and_body_warning">Shto një subjekt ose mesazh</string>
+<string name="view_entire_message">Shiko të gjithë mesazhin</string>
+<string name="eml_loader_error_toast">Nuk mund të hapë këtë skedë</string>
+<string name="help_and_info">Ndihmë</string>
+<string name="help_and_feedback">"Ndihmë dhe komente"</string>
+<string name="feedback">Dërgo reagim</string>
+<string name="copyright">""&#169;<xliff:g id="year" example="2010">%1$d</xliff:g> Google Inc.""</string>
+<string name="version">"<xliff:g id="app_name" example="Email">%1$s</xliff:g> version <xliff:g id="version" example="2.2.1">%2$s</xliff:g>"</string>
+<string name="print_dialog">"Printo\u2026"</string>
+<string name="copyright_information">Informacione të të drejtave të autorit</string>
+<string name="privacy_policy">Rregullorja e privatësisë</string>
+<string name="open_source_licenses">Hap licencat e burimeve</string>
+<string name="reply_choice_yes">Po</string>
+<string name="reply_choice_no">Jo</string>
+<string name="reply_choice_ok">"OK"</string>
+<string name="reply_choice_hehe">Hehe</string>
+<string name="reply_choice_thanks">Faleminderit</string>
+<string name="reply_choice_i_agree">Pranoj</string>
+<string name="reply_choice_nice">Këndshëm</string>
+<string name="reply_on_my_way">Jam rrugës</string>
+<string name="reply_choice_later">OK, do t\'ju flas përsëri</string>
+<string name="preference_header_action_confirmations">Konfirmime veprimi</string>
+<string name="preference_confirm_before_delete_title">Konfirmo para fshirjes</string>
+<string name="preference_confirm_before_archive_title">Konfirmo para arkivimit</string>
+<string name="preference_confirm_before_send_title">Konfirmo para dërgimit</string>
+<string name="preferences_conversation_mode_title">Auto-përshtat mesazhet</string>
+<string name="preferences_conversation_mode_summary">Ngushto mesazhet që t\'i përshtaten ekranit</string>
+<string name="preferences_disable_snap_headers_title">Veprimet e mesazhit</string>
+<string-array name="prefSummaries_snapHeader">
+<item>Trego gjithmonë veprime mesazhesh në krye të ekranit</item>
+<item>Trego vetëm veprime mesazhesh në krye të ekranit  kur rrotullohet në portret</item>
+<item>Mos trego veprime mesazhesh jashtë kokës të mesazhit</item>
+</string-array>
+<string-array name="prefEntries_snapHeader">
+<item>Trego gjithmonë</item>
+<item>Trego vetëm në portret</item>
+<item>Mos trego</item>
+</string-array>
+<string name="clear_history_title">Pastro historinë e kërkimit</string>
+<string name="search_history_cleared">Historia e kërkimit u pastrua</string>
+<string name="clear_history_dialog_title">Pastro historinë e kërkimit?</string>
+<string name="clear_history_dialog_message">Të gjitha kërkimet që keni bërë më parë do të hiqen.</string>
+<string name="manage_accounts_menu_item">Menaxho llogaritë</string>
+<string name="general_preferences_title">Cilësimet e përgjithshme</string>
+<string name="activity_preferences">Cilësimet</string>
+<string name="overflow_description">Më shumë opsione</string>
+<string name="security_hold_required_text">"Kërkohet përditësim sigurie për <xliff:g id="email_address">%1$s</xliff:g>"</string>
+<string name="update_security_text">"Përditëso tani"</string>
+<string name="forms_are_disabled">"Format janë çaktivizuar në Gmail"</string>
+<string name="add_contacts_too_much">Numri maksimal i marrësve është 50.</string>
+<string name="account_delete_dlg_title">Hiq llogarinë</string>
+<string name="account_delete_waiting">"Duke hequr, ju lutem prisni..."</string>
+<string name="filter_all">Të gjitha</string>
+<string name="filter_receiver">Marrës</string>
+<string name="filter_sender">"Dërguesi"</string>
+<string name="filter_subject">Subjekti</string>
+<string name="filter_content">Përmbajtja</string>
+<string name="search_on_server">"Kërko në server"</string>
+<string name="download_confirm_msg">"Rrjeti nuk është WLAN, dhe bashkëngjitja është e madhe, ju lutem konfirmoni nëse doni të vazhdoni"</string>
+<string name="download_deny_malware">"Ndoshta virus. Nuk mund të shkarkohet."</string>
+<string name="download_deny_wifionly">"Mund të shkarkohet vetëm ndërsa është në WLAN."</string>
+<string name="download_deny_nointent">"Asnjë aplikacion nuk mund ta hapë. Nuk mund të shkarkohet."</string>
+<string name="download_deny_nosideload">"Provoni përsëri pasi të lejoni instalimin e aplikacioneve nga burime të panjohura."</string>
+<string name="download_deny_apkinstall">"E pamundur të instalohet asnjë apk. Nuk mund të shkarkohet."</string>
+<string name="download_deny_policy">"Nuk mund të shkarkohet për shkak të rregullores të llogarisë."</string>
+<string name="download_att_external">"Shkarko në të jashtme"</string>
+<string name="save_to_where">"Bashkëngjitja u ruajt me sukses"</string>
+<string name="mailbox_name_display_unread_u">Të palexuara</string>
+    <string name="missing_required_permission">"Ke çaktivizuar një leje e cila është të detyrueshme."</string>
+     <string name="permission_change">"Meqenëse u ndryshuan lejet, ju lutem zgjidheni përsëri skedën."</string>
+     <string name="permission_change_redo">"Meqenëse u ndryshuan lejet, ju lutem bëjeni përsëri."</string>
+     <string name="preference_default_signature_title">Firma</string>
+     <string name="signature_default">"Dërguar nga telefoni im"</string>
+     <string name="set_priority_high">"vendos prioritetin të lartë"</string>
+     <string name="set_priority_normal">"vendos prioritetin normal"</string>
+     <string name="set_priority_low">"vendos prioritetin të ulët"</string>
+
+     <string name="file_not_exist">"Shtojca lokale nuk ekziston, ju lutem shkarkojeni përsëri!"</string>
+     <string name="body_input_more">"Më vjen keq, mund të vendosni deri në %1$s karaktere"</string>
+</resources>

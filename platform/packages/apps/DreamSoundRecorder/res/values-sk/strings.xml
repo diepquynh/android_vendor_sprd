@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Záznam zvuku"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Zaznamenajte svoju správu"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Správa bola zaznamenaná"</string>
+    <string name="review_message" msgid="201616012287839474">"Skontrolovať správu"</string>
+    <string name="recording" msgid="4426791467211376099">"Prebieha zaznamenávanie"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Záznam bol zastavený"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"Ukladací priestor je plný"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"Bola dosiahnutá maximálna povolená dĺžka"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Pripojiť úložisko USB"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Vložte SD kartu"</string>
+    <string name="min_available" msgid="5493947690062988925">"K dispozícii <xliff:g id="MINUTES">%d</xliff:g> min"</string>
+    <string name="sec_available" msgid="2297020788861694399">"K dispozícii <xliff:g id="SECONDS">%d</xliff:g> s"</string>
+    <string name="accept" msgid="1888285552128743656">"Hotovo"</string>
+    <string name="discard" msgid="761613433029406319">"Zahodiť"</string>
+    <string name="button_ok" msgid="3004911343723076226">"OK"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Vaše záznamy"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Zvukové záznamy"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Moje záznamy"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"Nedá sa získať prístup k úložisku USB."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"Nedá sa získať prístup ku SD karte."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Vnútorná chyba aplikácie."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"Zaznamenaný zvuk sa nepodarilo uložiť."</string>
+    <string name="recording_save">"Nahrávka uložená"</string>
+     <string name="recording_nosave">"Nahrávka nebola uložená"</string>
+     <string name="phone_message">"Nie je možné zapnúť Nahrávač zvuku počas volania."</string>
+     <string name="min_and_time_available">"Prístupných asi <xliff:g id="minutes">%d</xliff:g> minút a <xliff:g id="seconds">%d</xliff:g> sekúnd"</string>
+     <string name="press_record">"Stlačte nahrávanie"</string>
+     <string name="save">"Uložiť"</string>
+     <string name="select_file_type">"Vyberte typ súboru nahrávky"</string>
+     <string name="record_amr">"amr typ(nízka kvalita)"</string>
+     <string name="record_3gpp">"3gpp typ(vysoká kvalita)"</string>
+     <string name="button_cancel">"Zrušiť"</string>
+     <string name="path_save">"Predvolená cesta uložená"</string>
+     <string name="path_nosave">"Predvolená cesta neuložená"</string>
+     <string name="path_default">"Aktuálna cesta sa nedá napísať alebo je neplatná, je to cesta do cesty internej pamäte"</string>
+     <string name="menu_set_save_path">"Nastaviť uloženú cestu"</string>
+     <string name="back">"Naspäť..."</string>
+     <string name="path_label">"Prosím, zvoľte uloženú cestu"</string>
+     <string name="pause">"Pauza"</string>
+     <string name="storage_is_not_enough">"Nie je dostatok pamäte"</string>
+     <string name="menu_recording_file_list">"Zoznam súborov nahrávok"</string>
+     <string name="recording_list_empty">"Vyprázdniť zoznam"</string>
+     <string name="menu_recording_list_select_all">"Vybrať všetko"</string>
+     <string name="menu_recording_list_delete">Vymazať</string>
+     <string name="menu_recording_list_deselect_all">"Zrušiť výber"</string>
+     <string name="recording_file_delete_success">"Nahrávka vymazaná"</string>
+     <string name="recording_file_database_failed">"Vymazanie súboru databázy zlyhalo"</string>
+     <string name="recording_file_delete_failed">"Vymazanie súboru nahrávky zlyhalo"</string>
+     <string name="confirm_del">"Určite chcete vymazať tieto súbory?"</string>
+     <string name="button_delete">Vymazať</string>
+     <string name="recording_file_delete_alert_title">Vymazať</string>
+     <string name="recording_file_delete_alert_message">Určite chcete vymazať  %1$s ?"</string>
+     <string name="recording_file_list">"Zoznam súborov nahrávok"</string>
+     <string name="less_than_one_second">"1 sekunda"</string>
+     <string name="is_scanning">"MediaScanner teraz skenuje, čakajte prosím..."</string>
+     <string name="emptylist">"Zoznam je prázdny"</string>
+     <string name="choose_file">"Zvoľte záznam, v ktorom chcete vymazať súbory!"</string>
+     <string name="error_path">"Cesta, ktorú ste zvolili, neexistuje, nastavte ju znova, prosím!"</string>
+     <string name="path_miss">"Uložená cesta neexistuje alebo k nej nie je prístup!"</string>
+     <string name="low_memory">"Pamäť telefónu je nedostatočná, nahrávanie sa zastaví!"</string>
+     <string name="record_error">"Vyskytla sa nahrávka výnimky!"</string>
+     <string name="play_error">"Prehrávač hudby bol vypnutý, nedá sa otvoriť!"</string>
+     <string name="dialog_title">"Vyberte, prosím"</string>
+     <string name="dialog_message">"Uložiť nahrávku?"</string>
+     <string name="same_application_running">"Nahrávacie zariadenie sa používa iným programom, prosím, zatvorte tento program!"</string>
+     <string name="recording_time_short">"Čas nahrávania menej ako 1 sekunda, neuložené"</string>
+     <string name="file_path_button">"Cesta súboru"</string>
+     <string name="file_name">"Názov súboru："</string>
+     <string name="file_path">"Cesta súboru："</string>
+     <string name="rename">"Premenovať"</string>
+     <string name="rename_save">"Úspešne premenované"</string>
+     <string name="rename_nosave">"Premenovanie zlyhalo"</string>
+     <string name="filename_is_not_modified">"Názov súboru nie je upravený"</string>
+     <string name="duplicate_name">"duplikovaný názov súboru"</string>
+     <string name="soundpicker_label">"Prosím, zvoľte súbor nahrávania"</string>
+     <string name="error_sdcard_path">"sdkarta neexistuje. Predvolené uloženie cesty je zmenené na internú pamäť.</string>
+     <string name="input_length_overstep">"Zadaný text dosiahol maximálnu dĺžku"</string>
+     <string name="filename_empty_error">"Názov súboru nemôže byť prázdny, uložte pôvodný názov"</string>
+     <string name="please_choose_files">"prosím, zvoľte súbory"</string>
+     <string name="selected_files_count">"zvolené<xliff:g id="COUNTS">%d</xliff:g>"</string>
+     <string name="use_default_path">"Uložená cesta neexistuje, použite predvolenú cestu"</string>
+     <string name="stroage_not_mounted">"Pamäť nie je nainštalovaná"</string>
+     <string name="special_char_exist">"Špeciálne znaky <xliff:g id="COUNTS">%s</xliff:g> nie sú podporované"</string>
+     <string name="menu_select_more">"Zvoliť ďalšie"</string>
+     <string name="menu_select_type">"Nastaviť typ súboru"</string>
+     <string name="path_miss_nosave">"Uložená cesta neexistuje, nahrávka nebola uložená!"</string>
+     <string name="dialog_dismiss">"Zatvoriť"</string>
+     <string name="error_permissions">"Aplikácia nemá dôležité povolenia potrebné na spustenie. Skontrolujte nastavenia povolení."</string>
+
+    <string name="internal_sdcard">"Automaticky vyberie systém"</string>
+     <string name="external_sdcard">"Externá sd karta"</string>
+
+    <string name="internal_storage">"Interný ukl. priestor"</string>
+     <string name="external_storage">"Externý ukladací priestor"</string>
+     <string name="set_as_ring">"Nastaviť ako vyzváňacie tóny"</string>
+     <string name="read_file_path">"Skontrolovať cestu súboru"</string>
+     <string name="operate_share">"Zdieľať"</string>
+     <string name="ringtone_title_sim1">"Vyzváňací tón telefónu pre SIM1"</string>
+     <string name="ringtone_title_sim2">"Vyzváňací tón telefónu SIM2""</string>
+     <string name="ringtone_menu_short">"Použiť ako tón zvonenia"</string>
+     <string name="please_insert_sim_card">"Prosím, vložte aspoň SIM kartu"</string>
+     <string name="ring_set_silent_vibrate">"Vlastné vyzváňacie tóny nie so v tomto režime podporované"</string>
+     <string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" nastaviť ako vyzváňací tón telefónu pre SIM1."</string>
+     <string name="ringtone_set_sim2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" nastaviť ako vyzváňací tón telefónu pre SIM2."</string>
+     <string name="ringtone_set">"Skladba <xliff:g id="NAME">%s</xliff:g> bola nastavená ako tón zvonenia."</string>
+     <string name="ring_set_fail">"Je nám ľúto, ale pieseň sa nedala prehrať. Vyberte, prosím ako vyzváňací tón inú pieseň"</string>
+     <string name="tag_limit">"Počet tagov dosiahol maximum"</string>
+     <string name="no_allow_play_calling">"Nie je povolené prehrávať hudbu počas hovoru (rádio/video)."</string>
+     <string name="playback_failed">"Prehrávač nepodporuje tento typ zvukového súboru."</string>
+     <string name="tag">"Značka"</string>
+     <string name="previous_tag">"Posledný tag"</string>
+     <string name="next_tag">"Ďalší tag"</string>
+     <string name="recording_play">"Prehrať nahrávanie"</string>
+     <string name="clip_duration_tip">"Upraviť dĺžku"</string>
+     <string name="record_setting">"Nastavenia záznamu"</string>
+     <string name="file_type">"Typ súboru"</string>
+     <string name="type_amr">"typ amr"</string>
+     <string name="type_3gpp">"typ 3gpp"</string>
+     <string name="save_path">"Uložená cesta"</string>
+     <string name="set_timer_recording">"Nastaviť časovač nahrávania"</string>
+     <string name="timer_recording_detail">"Spustiť nahrávanie na <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> pre <xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">"Zobraziť podrobnosti"</string>
+     <string name="file_size">"Veľkosť súboru："</string>
+     <string name="file_date">"Dátum súboru："</string>
+     <string name="recording_start_time">"Čas spustenia nahrávania"</string>
+     <string name="recording_duration">"Hodina trvania nahrávania"</string>
+     <string name="tuned_timer_recording">"Časovač nahrávania vyladený"</string>
+     <string name="miss_timer_recording">"Časovač nahrávania chýbal"</string>
+     <string name="miss_timer_time">"Čas: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>" hodina"</item>
+        <item>" hodiny"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"Časovač nahrávania nastavený odteraz na menej ako 1 minútu."</item>
+        <item>"Časovač nahrávania nastavený na <xliff:g id="HOURS">%1$s</xliff:g> odteraz."</item>
+        <item>"Časovač nahrávania nastavený na <xliff:g id="MINUTES">%2$s</xliff:g> odteraz."</item>
+        <item>"Časovač nahrávania nastavený na <xliff:g id="HOURS">%1$s</xliff:g> a <xliff:g id="MINUTES">%2$s</xliff:g> odteraz."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">"1 hodina"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> hodín"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"1 minúta"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> minút"</item>
+    </plurals>
+     <string name="start_record">"spustiť záznam"</string>
+     <string name="resume_record">"obnoviť záznam"</string>
+     <string name="start_play">"spustiť prehrávanie"</string>
+     <string name="resume_play">"obnoviť prehrávanie"</string>
+     <string name="reset_timer_recording">"Nahrávacie zariadenie používa iný program,prosím, resetujte časovač nahrávania!"</string>
+     <string name="storage_not_enough">"Pamäť nie je dostatočná, nepodarilo sa spustiť časovač nahrávania!"</string>
+     <string name="phone_storage_not_enough">"Pamäť telefónu nie je dostatočná!"</string>
+</resources>

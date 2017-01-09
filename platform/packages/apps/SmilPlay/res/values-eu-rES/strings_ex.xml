@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_number">Nori:</string>
+<string name="cancel_call">Utzi</string>
+<string name="delivery_toast_body_fail">%s-k ez du mezua jaso.</string>
+<string name="read_report_toast_body">%s-k mezua irakurri du.</string>
+<string name="read_report_toast_body_fail">%s-k ez du mezua irakurri.</string>
+<string name="delivery_toast_body_fail_rejected">%s-k mezua baztertu du.</string>
+<string name="user_not_exist">Erabiltzailea ez dago.</string>
+<string name="menu_resend">Berbidali</string>
+<string name="low_storage_toast">Memoria gutxi gelditzen da! Zenbait fitxategi ezabatu lekua izateko.</string>
+<string name="failed_to_download_mms">MMSaren deskargak huts egin du, saiatu berriro beranduago</string>
+<string name="failed_to_send_mms">MMSa ez da ondo bidali, berriro saiatu beranguago</string>
+<string name="success_to_send_mms">MMSa ondo bidali da</string>
+<string name="sim_card_not_ready">Sim txartela ez dago prest</string>
+<string name="sim_is_invalid">Sim txartela ez dago prest</string>
+<string name="on_progress">Prozesatzen, itxaron mesedez...</string>
+<string name="pref_internal_memory_usage_title">MMS/Erabilgarri/Guztira</string>
+<string name="pref_internal_memory_usage_progress_summary">Memoriaren Lekua Kalkulatzen...</string>
+<string name="please_wait_title">Itxaron mesedez…</string>
+<string name="sim_card_setting">SIM txartelaren ezarpenak</string>
+<string name="multi_sim_manage_messages_title">Mezuak SIM-en <xliff:g id="COUNT">%1$S</xliff:g></string>
+<string name="pref_title_manage_sim_setting">Kudeatu SIMaren Ezarpenak</string>
+<string name="pref_summary_manage_sim_setting">SIMean gordetako mezuak, Banaketa Txostenak, Iraungitako Denbora, SMSC Ezarpenak, etab.</string>
+<string name="pref_summary_notification_ringtone">Tonu lehenetsia</string>
+<string name="pref_summary_notification_ringtone_silent">Isiltasuna</string>
+<string name="menu_sim_capacity">SIM edukiera</string>
+<string name="pref_title_manage_multi_sim_messages">Kudeatu mezuak SIMean<xliff:g id="COUNT">%1$s</xliff:g></string>
+<string name="pref_summary_manage_multi_sim_messages">SIMeko <xliff:g id="COUNT">%1$s</xliff:g>-(a)n gordetako mezuak kudeatu</string>
+<string name="toast_copy_to_sim_success">"Ondo kopiatu da SIMean"</string>
+<string name="toast_copy_to_sim_failure">Ezin izan da SIMean kopiatu</string>
+<string name="toast_sim_memory_full">SIM memoria beteta dago</string>
+<string name="toast_copy_to_multi_sim_success">"Ondo kopiatu dira SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_multi_sim_failure">Ezin izan da SIMean kopiatu<xliff:g id="COUNT">%1$s<xl></xl></xliff:g></string>
+<string name="toast_multi_sim_memory_full">SIM memoriaren <xliff:g id="COUNT">%1$S</xliff:g> beteta dago</string>
+<plurals name="conversation_num">
+<item quantity="one">Solasaldi 1 duzu.</item>
+<item quantity="other"><xliff:g id="number">%1$s</xliff:g> elkarrizketa dituzu.</item>
+</plurals>
+<string name="count_of_new_mms">%s mezu berri</string>
+<string name="pref_summary_store_sms_on_sim">SMS berri bat heltzean, gorde SIM txartelean edo ez</string>
+<string name="pref_title_store_sms_on_sim">Gorde SMSa SIMean</string>
+<string name="pref_title_sms_validity">SMS baliozkotazuna</string>
+<string-array name="prefEntries_sms_validity">
+<item>Ez dago ezarrita</item>
+<item>1 ordu</item>
+<item>6 ordu</item>
+<item>24 ordu</item>
+<item>2 egun</item>
+<item>"1 aste"</item>
+<item>Maximoa</item>
+</string-array>
+<string name="done_slide_show">Eginda</string>
+<string name="smsc_check_fdn_failure">Zure mezu zentroaren zenbakia ez dago FDN zerrendan.</string>
+<string name="muti_select_all">Guztia hautatu</string>
+<string name="menu_select_none">"Utzi dena"</string>
+<string name="Conversation_check_type_selected_all">Guztia hautatu</string>
+<string name="menu_msg_folder">Karpetaren itxura</string>
+<string name="menu_msg_list">Mezu ikuspegia</string>
+<string name="folder_inbox">Sarrerako ontzia</string>
+<string name="folder_outbox">Irteerako ontzia</string>
+<string name="folder_sent">Bidalita</string>
+<string name="folder_drafts">Zirriborroak</string>
+<string name="folder_empty">Ez dago Mezurik Karpeta honetan.</string>
+<string name="folder_display_all">Bistaratu mezu guztiak</string>
+<string name="folder_delete_messages">Ezabatu mezuak</string>
+<string name="folder_loading">Kargatzen..</string>
+<string name="folder_reply">Erantzun</string>
+<string name="folder_forward">Bidali</string>
+<string name="no_msg_del">Ez da mezurik ezabatu</string>
+<string name="exceed_slides_number_limitation">Diapositiben kopuru mugarara heldu da</string>
+<string name="has_vcard_or_vcalendar_attachment">Dagoeneko badu <xliff:g id="TYPE">%1$s</xliff:g>, ezin da beste bat gehitu</string>
+<string name="folder_sortby">Ordenatzeko irizpidea</string>
+<string-array name="sort_type">
+<item>Denboraren arabera</item>
+<item>Helbidearen arabera</item>
+</string-array>
+<string name="OTAConfig_title">OTAKonfigurazioaren Ezarpenak</string>
+<string name="OTAConfig_Message">Ziur zaude OTA konfigurazioa gorde nahi duzula?</string>
+<string name="OTAConfiy_Success">OTAren konfigurazioa ondo atera delako mezua</string>
+<string name="OTAConfiy_Error">OTA konfigurazioaren hutsegitea</string>
+<string name="ota_pin_error">OTAren segurtasunean akatsa</string>
+<string name="ota_retry">Pasahitza errorea</string>
+<string name="ota_pin_exception">OTA konfigurazioaren hutsegitea: programaren errorea.</string>
+<string name="ota_mime_error">OTA konfigurazioaren hutsegitea: datuen mezuan errorea.</string>
+<string name="ota_support_not">OTA konfigurazioaren hutsegitea: <xliff:g id="OTATYPE">%1$s</xliff:g> mota ez du onartzen.</string>
+<string name="pref_reply_path_title">"Erantzuteko bidearen ezarpenak"</string>
+<string name="pref_title_reply_path">"Erantzuteko bidea"</string>
+<string name="pref_summary_reply_path">"Zentro berdina erabiliz erantzun"</string>
+<string name="cannot_add_picture_and_vcard">Ezin da vcard bat eta argazki bat gehitu diapositiba batera.</string>
+<string name="mms_setting">MMS ezarpenak</string>
+<string name="pref_title_font_size">Letra tamainaren ezarpenak</string>
+<string name="font_size_setting">Letra tamainaren ezarpenak</string>
+<string name="font_size">Letra-tipoaren tamaina da: <xliff:g id="font_size_id">%1$s</xliff:g></string>
+<string name="menu_copy_to_sim_memory">Kopiatu mezua SIMean</string>
+<string name="menu_add_recipient_to_contacts">Gehitu <xliff:g id="name">%s</xliff:g>kontaktuetara</string>
+<string name="action_next">Hurrengoa</string>
+<string name="message_signature_setting">Sinaduraren ezarpenak</string>
+<string name="pref_signature_enable_title">Aukerako sinadura</string>
+<string name="pref_signature_enabl_summary">Automatikoki erantsi sinadura bidaltzen dituzun MMS guztiei</string>
+<string name="pref_signature_input_title">Editatu sinadura</string>
+<string name="pref_signature_input_summary">Sartu hemen zure sinadura ikusteko</string>
+<string name="pref_signature_input_limited">Sinadura bere mugara heldu da</string>
+<string name="pref_hint_signature_edittext">Mesedez sartu zure sinadura</string>
+<string name="toast_append_signature_failed">MMSan sinadura eransteak huts egin du du,  diapositiben tamainiara heldu da</string>
+<string name="pageIndex">%s orrialdea</string>
+<string name="remove_subject">Kendu gaia</string>
+<string name="toast_message_when_memory_full">Memoria beteta dago, Mesedez pixka bat libratu eta berrekin</string>
+<string name="toast_save_classzero_message_failed">Ez dago leku librerik, mezua ezin izan da gorde</string>
+<string name="toast_shared_file_failed">Onartzen ez den multimedia fitxategia, partekatzea ez da ondo burutu.</string>
+<string name="message_too_many_recipients_picked">Barkatu, ezin duzu <xliff:g id="COUNT">%1$s</xliff:g> kontaktu baino gehiago gehitu aldiro"</string>
+<string name="pref_title_manage_sim_smsc">SMS zerbitzu-zentroa</string>
+<string name="smsc_set_fails">Smsc ezarpenak akatsa ematen du</string>
+<string name="smsc_set_success">Ondo ezarri da.</string>
+<string name="smsc_change_success">Aldaketa ondo burutu da.</string>
+<string name="smsc_add_success">Ondo gehitu da</string>
+<string name="received_new_wap_contact">Vcard SMS mezu bat jaso da</string>
+<string name="save_new_wap_contact">Gorde</string>
+<string name="cancle_new_wap_contact">Utzi</string>
+<string name="menu_sim_message">Mezuak SIM-en</string>
+<string name="folder_display_option">Bistaratu aukera</string>
+<string name="confirm_open_browser_dialog_title">Mezua</string>
+<string name="confirm_open_browser_dialog_message">Arakatzailea irekiko du, jarraitu?</string>
+<plurals name="delete_confirm">
+<item quantity="one">1 aukeratutako elementu</item>
+<item quantity="other"><xliff:g id="del_count">%1$s</xliff:g> Aukeratutako elementuak</item>
+</plurals>
+<string name="select_sim_card">"SIM txartela aukeratu"</string>
+<string name="menu_video_call_back">BIDEO-DEIA <xliff:g id="name">%s</xliff:g></string>
+<string name="menu_edit_before_call_back">Editatu deitu baino lehen<xliff:g id="name">%s</xliff:g></string>
+<string name="min_zoom">minimora heldu da</string>
+<string name="max_zoom">gehiengora heldu da</string>
+<string name="sms_forward">Bidali</string>
+<string name="sms_merge_forward">Batu eta Bidali</string>
+<string name="sms_merge_dialog_title">"Abisua"</string>
+<string name="sms_merge_dialog_content">Bakarrik batu ahal dituzu 2 eta 30 SMS bitarteko mezu kopurua. Mesedez egiaztatu. </string>
+<string name="sms_merge_forward_empty">Ez da aurkitu batzeko eta bidaltzeko mezurik.</string>
+<string name="sms_forwarding_number">SMS bidaltzeko ezarpenak</string>
+<string name="pref_sms_forwarding_number_title">SMS bidaltzeko zenbakia</string>
+<string name="pref_sms_forwarding_number_summary">SMSa birbidaltzen hartzaileen zenbakiekin</string>
+<string name="sim_list_title">"SIM txartela aukeratu"</string>
+<string name="type_vcard">Kontaktua</string>
+<string name="type_vcalendar">Egutegia</string>
+<string name="attach_vcard">Kontaktua</string>
+<string name="attach_vcalendar">Egutegia</string>
+<string name="add_slide_before">Gehitu diapositiba (lehenago)</string>
+<string name="add_slide_after">Gehitu diapositiba (ondoren)</string>
+<string name="re_take_picture">Ezin da argazkia gorde, atera argazkia berriro</string>
+<string name="exceed_text_length_limitation">Gainditu da testu luzeeraren muga</string>
+<string name="move_message_to_phone_memory">Mezua telefonoaren memoriara copiatu da.</string>
+<string name="can_not_copy_the_message">Ezin da mezua kopiatu</string>
+<string name="confirm_import_vcard">Inportatu Vcard hau?</string>
+<string name="pref_title_manage_simx_smsc">"SIM<xliff:g id="COUNT">%1$s</xliff:g> SMS Zerbitzu Zentroa"</string>
+<string name="simx_settings_title">"SIM<xliff:g id="COUNT">%1$s</xliff:g> Ezarpena"</string>
+<string name="pref_summary_sms_validity">Mezu laburren baliozkotasuna</string>
+<string-array name="prefEntries_mms_validity">
+<item>1 ordu</item>
+<item>12 ordu</item>
+<item>24 ordu</item>
+<item>2 egun</item>
+<item>Maximoa</item>
+</string-array>
+<string-array name="prefEntries_mms_priority">
+<item>Altua</item>
+<item>Normal</item>
+<item>Txikia</item>
+</string-array>
+<string name="pref_title_mms_validity">Multimedia Mezuaren Baliozkotasuna</string>
+<string name="pref_summary_mms_validity">Multimedia Mezuaren Baliozkotasuna</string>
+<string name="pref_title_mms_priority">Lehentasuna</string>
+<string name="pref_summary_mms_priority">Lehentasun Ezarpenak</string>
+<string name="sim_settings_title">SIM%s konfigurazioa</string>
+<string name="toast_copy_to_simx_success">"Ondo kopiatu dira <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_simx_failure">"Ezin izan da hemen kopiatu: <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_simx_memory_full">"<xliff:g id="COUNT">%1$s</xliff:g> beteta dago"</string>
+<string name="pref_title_manage_sim_x_setting">"Kudeatu SIM<xliff:g id="COUNT">%1$s</xliff:g> Ezarpenak"</string>
+<string name="pref_title_mms_creation_mode">"Sortzeko modua"</string>
+<string-array name="mms_creation_mode_entries">
+<item>Murriztua</item>
+<item>Abisua</item>
+<item>Askatu</item>
+</string-array>
+<string name="exceed_resolution_limit">"Gehiegizko bereizmen muga"</string>
+<string name="want_to_add_media">Hau gehitu nahi duzu <xliff:g id="NAME">%1$s</xliff:g> zure mezuan?</string>
+<string name="mms_can_not_add_vcard">Ezabatu eranskina kontaktuak gehitzeko</string>
+<string name="mms_can_not_add_vcalendar">Ezabatu dagoen eranskina diapositiba gehitzeko</string>
+<string name="converting_to_text_message">Testu-mezu bihurtzen…</string>
+<string name="select_calendar">Hautatu agenda</string>
+<string name="no_calendar">Agendarik ez</string>
+<string name="exceed_slides_number_message">"Hautatutako <xliff:g id="NUMBER">%1$s</xliff:g> agenda，Maximoa da <xliff:g id="NUMBER">%2$s</xliff:g> agenda"</string>
+<string name="add_to_blacklist">"Zerrenda beltzera gehitu"</string>
+<string name="failed_addToBlacklist">Zerrenda beltzera gehitzea ez da ondo burutu</string>
+<string name="creating_slideshow_title">Diapositiba bat sortzen…</string>
+<string name="attachment_vcalendar">Vegutegia</string>
+<string name="attachment_vcard">Vtxartela</string>
+<string name="text_limited_warning">Sarrerako murrizketa</string>
+<string name="subject_text_length_limitation">Gaiaren luzapenera heldu da</string>
+<string name="attach_commonPhrases">Esaldi arruntak</string>
+<string name="commonphrase_empty">Ez dago esaldi komunik</string>
+<string name="quick_reply">Erantzun bizkorrak</string>
+<string name="common_messages">Esaldi arrunta</string>
+<string name="common_add_text">Berria</string>
+<string name="common_delete_text">Ezabatu</string>
+<string name="common_delete_message">Ezabatzea berretsi?</string>
+<string name="common_delete">Ezabatu</string>
+<string name="common_phrase_contextmenu_title">Eragiketa Menua</string>
+<string name="common_edit">Editatu</string>
+<string name="commonphrase_delete_empty">Ezin da esaldirik atzeman</string>
+<string name="common_phrase_edit_dialog_title">Aukerak</string>
+<string name="common_phrase_edit_dialog_inform">Gorde editatutakoa?</string>
+<string name="common_phrase_edit_max_length">Sarreraren murrizketara heldu da</string>
+<string name="common_messages_edit">Editatu esaldi arrunta</string>
+<string name="common_save">Gorde</string>
+<string name="common_cancel">Utzi</string>
+<string name="add_empty_common_messages">Edozein karaktere sartu</string>
+<string name="pref_other_settings_title">Bestelako</string>
+<string name="pre_key_title_common_messages">Esaldi arrunta</string>
+<string name="common_phrase_selection">Hautatu esaera arruntak</string>
+<string name="wap_push_message_dialog_title">"Wap Push Mezua</string>
+<string name="open_website">Ireki web-orrialdea</string>
+<string name="activity_not_found">Ez da aurkitu aplikazio egokirik</string>
+<string name="add_contact">"Kontaktuak txertatu"</string>
+<string name="receive_from">"%s-engatik jaso da"</string>
+<string name="send_from">"Bidali da: %s"</string>
+<string name="dl_expired_wap_push"><xliff:g id="COUNT">%1$s</xliff:g> wap mezu iraungita daude, ezabatuko dira.</string>
+<string name="invalid_recipient">Hartzaile baliogabea</string>
+<string name="max_recipients_count">Hartzaileen muga <xliff:g id="MAXCOUNT">%1$s</xliff:g> da.</string>
+<string name="no_media_selected">Ez da multimediarik hautatu!</string>
+<string name="search_max_length">Bilatutako esaldia luzeegia da, 512ra mugatuko da.</string>
+<string name="sim_capacity_used">Erabilita:</string>
+<string name="sim_capacity_total">Guztira:</string>
+<string name="too_many_contacts">Hartzaileaen muga <xliff:g id="MAXLIMIT">%1$s</xliff:g> da, aurrekoari gehituko zaizkio <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> hartzaile.</string>
+<string name="delivery_toast_body_expired">"Mezua iraungi da %s."</string>
+<string name="discard_dialog">"Ziur zaude informazio hau eman nahi duzula?"</string>
+<string name="contacts_count_excceeds">"Dagoeneko txertatu dituzu <xliff:g id="MAXLIMIT">%1$s</xliff:g> hartzaile, ezin dira gehiago gehitu."</string>
+<string name="received_new_wap_vcalendar">"Vcalendar Mezuen SMS bat jaso duzu"</string>
+<string name="remove_vcalendar_first">"Lehenbizi atxikitako vegutegia ezabatu, hau editatzeko."</string>
+<string name="remove_vcard_first">"Lehenbizi Vtxartela ezabatu, hau editatzeko."</string>
+<string name="import_vcalendar">Inportatu Vcalendar</string>
+<string name="no_vcalendar">Ez da VEgutegia Aurkitu</string>
+<string name="import_vcalendar_fail">Ezin izan da Vcalendar inportatu.</string>
+<string name="unable_to_add_all">Mezu tamaina-mugara iritsi da, zati batzuk ez dira gehitu.</string>
+<string name="replce_slideshow_dilaog_dismiss">Diaporama ordezten bada eranskin hau ezabatuko da, jarraitzen saiatu nahi duzu?</string>
+<string name="pref_title_sms_retry_times">Gaitu SMS berriro saiatzea</string>
+<string name="smsc_list">SMS zentro zenbakien zerrenda</string>
+<string name="smsc_list_empty">SMS zentro zenbakirik ez</string>
+<string name="smsc_list_loading">Kargatzen…</string>
+<string name="smsc_list_menu_edit">Editatu</string>
+<string name="smsc_list_menu_activate">Aktibatu</string>
+<string name="smsc_list_not_allow_to_clear">Ez du baimenik zenbakia ezabatzeko</string>
+<string name="smsc_list_empty_number">Egin klik zenbaki berria gehitzeko</string>
+<string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g> eranskina gordeko da<xliff:g id="path">%2$s</xliff:g>,<xliff id="fail">%3$d</xliff> eranskina ez da gorde"</string>
+<string name="box_msg_list_menu_addtocontacts">Gehitu kontaktuetara</string>
+<string name="box_msg_list_menu_call">Deitu</string>
+<string name="box_msg_list_menu_editbeforecall">Editatu deitu baino lehen</string>
+<string name="box_msg_list_menu_videocall">BIDEO-DEIA</string>
+<string name="soundrecorder_fail_msg">Ezin izan da SoinuGrabatzailea abiarazi.</string>
+<string name="camera_fail_msg">Ezin izan da Kamera abiarazi.</string>
+<string name="video_fail_msg">Ezin izan da Bideoa abiarazi.</string>
+<string name="pref_encode_type_setting_title">"Kodifikazio motaren ezarpena"</string>
+<string name="pref_encode_type_title">"Kodifikazio mota"</string>
+<string name="confirm_convert_to_mms">Hartzaileek posta elektronikoa daukate, mezua MMS gisa bidaliko da</string>
+<string name="send_as_mms">Bidali MMSa</string>
+<string name="send_as_sms">Bidali SMSak bakarrik</string>
+<string name="protected_file">"Babestutako fitxategia ezin da gehitu"</string>
+<string name="success_to_send_sms">"SMSa ondo bidali da"</string>
+<string name="confirm_ota_message">Berretsi OTA Ezarpenak?</string>
+<string name="confirm_ota">Ados</string>
+<string name="cancel_ota">Utzi</string>
+<string name="ota_cancelled">OTAren Ezarpenak Bertan behera Utzi dira</string>
+<string name="message_too_big_for_audio">Mezua handiegia da audio bat eransteko.</string>
+<string name="contacts_count_can_send">"Kontsumitzaile agurgarria, hartzaileek sistemaren muga gainditu dute, <xliff:g id="MAXLIMIT">%1$s</xliff:g> bakarrik bidali daitezke, mesedez bidali batchetan."</string>
+<string name="attach_common_messages">Esaldi arruntak</string>
+<string name="attach_subject">Gaia</string>
+<string name="valid_sub">SIM txartel baliogabea</string>
+<string name="add_contacts_dialog_title">Gehitu Kontaktuak</string>
+<string name="add_contact_as_text">Testu mezuak</string>
+<string name="confirm_import_vcalendar">"Inportatu Vcalendar?"</string>
+<string name="confirm_save_otherfiles">"Gorde eranskina?"</string>
+<string name="pref_notification_settings_title_sim1">"SIM1 jakinarazpenak"</string>
+<string name="pref_notification_settings_title_sim2">"SIM2 jakinarazpenak"</string>
+<string name="pref_notification_settings_title_sim">"SIM jakinarazpenak"</string>
+<string name="dlg_media_removed">"Ibilbide okerreko multimedia ezabatu da, bidaltzen jarraitu nahi?"</string>
+<string name="toast_media_removed">Ibilbide okerreko multimedia ezabatu da, egiaztatu!"</string>
+<string name="dl_failure_roaming">"Ibiltaritza egoera, ezin izan da mezua deskargatu!"</string>
+<string name="recipient_invalid">"<xliff:g id="invalid_number" example="1">%1$s</xliff:g> hartzaile(ak) baliogabe"</string>
+<string name="recipient_invalid_detail">"Baliogabe(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+<string name="recipient_changed_detail">"Aldatu(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+</resources>

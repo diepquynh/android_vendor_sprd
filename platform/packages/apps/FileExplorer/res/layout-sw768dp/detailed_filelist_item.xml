@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants" >
+
+    <ImageView
+        android:id="@+id/file_icon"
+        android:layout_width="32dip"
+        android:layout_height="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="10dp"
+        android:contentDescription="@string/descrip_file_icon" />
+    <CheckBox 
+        android:id="@+id/select_checkbox"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingTop="35dp"
+        android:paddingRight="55dp"
+        android:clickable="false"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_toLeftOf="@+id/select_checkbox"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/file_icon" >
+
+        <TextView
+            android:id="@+id/file_item_list_name"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:ellipsize="middle"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textIsSelectable="false"
+            android:textColor="@color/detailed_filelist_item_name_text_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/file_item_list_msg"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="15dp"
+            android:singleLine="true"
+            android:textIsSelectable="false"
+            android:textColor="@color/detailed_filelist_item_msg_text_color"
+            android:textSize="12sp" />
+    </LinearLayout>
+    
+
+</RelativeLayout>

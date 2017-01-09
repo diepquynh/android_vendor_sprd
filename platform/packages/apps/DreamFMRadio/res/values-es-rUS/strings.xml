@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+     Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="6295623783273502721">"Radio FM"</string>
+    <string name="toast_station_searched" msgid="4804871039582320419">"Búsqueda de estaciones disponibles:"</string>
+    <string name="toast_cannot_search" msgid="8816492120732683772">"No se puede buscar la estación disponible."</string>
+    <string name="optmenu_speaker" msgid="3726411287495057671">"Altavoz"</string>
+    <string name="optmenu_earphone" msgid="5400875884296655508">"Auricular"</string>
+    <string name="save" msgid="7204164791719833151">"Guardar"</string>
+    <string name="toast_sdcard_missing" msgid="3707819946661311504">"Falta la tarjeta SD."</string>
+    <string name="toast_sdcard_insufficient_space" msgid="1150004976629615550">"Espacio insuficiente en la tarjeta SD"</string>
+    <string name="toast_recorder_internal_error" msgid="8218803072221129182">"Se produjo un error interno en el grabador."</string>
+    <string name="btn_save_recording" msgid="7888937971238580699">"Guardar"</string>
+    <string name="btn_discard_recording" msgid="4316913232405323087">"Descartar"</string>
+    <string name="edit_recording_name_hint" msgid="3582848435650002280">"Escribir aquí el nombre del archivo"</string>
+    <string name="already_exists" msgid="3665755106404888637">"Ya existe."</string>
+    <string name="not_available" msgid="6709882926236090124">"Actualmente no disponible"</string>
+    <string name="talk_prev_station" msgid="8940546148820098004">"Estación anterior"</string>
+    <string name="talk_decrease" msgid="6796562419095928389">"Descender de frecuencia"</string>
+    <string name="talk_increase" msgid="7207549524364881559">"Aumentar de frecuencia"</string>
+    <string name="talk_next_station" msgid="2711772562090360378">"Próxima estación"</string>
+    <string name="talk_add_favorite" msgid="1560744966239678417">"Agregar a favoritos"</string>
+    <string name="talk_start_recording" msgid="2081128687917550957">"Iniciar grabación"</string>
+    <string name="more" msgid="8975740653205119861">"Más"</string>
+    <string name="recording_tips" msgid="9013420338482370789">"Grabando…"</string>
+    <string name="fm_symbol" msgid="2254633383284842986">"FM"</string>
+    <string name="fm_turn_on" msgid="407678074231499621">"Reproducir o detener radio FM"</string>
+    <string name="fm_over_start_record" msgid="2072548132520550718">"Iniciar grabación"</string>
+    <string name="fm_over_record_list" msgid="8958996187616432424">"Grabaciones guardadas"</string>
+    <string name="fm_station_list_menu_refresh" msgid="1351081387336325789">"Actualizar"</string>
+    <string name="fm_no_headset_text" msgid="6831656307562812248">"Para empezar a escuchar, conecta los auriculares (funcionan como antena)."</string>
+    <string name="station_title" msgid="4027617747760605320">"Estaciones de radio"</string>
+    <string name="station_searching_tips" msgid="6970095710072278870">"Obteniendo estaciones"</string>
+    <string name="station_empty_text" msgid="6847327406626186898">"No se encontraron estaciones."</string>
+    <string name="minutes_label" msgid="3225846493097986594">"m"</string>
+    <string name="seconds_label" msgid="3998011734682420096">"s"</string>
+    <string name="timer_default" msgid="8062388403825907344">"00"</string>
+    <string name="record_title" msgid="8695283158200902780">"Grabando"</string>
+    <string name="record_notification_message" msgid="4999850730062263290">"Grabación en curso"</string>
+    <string name="stop_record" msgid="4787351642158009287">"DETENER GRABACIÓN"</string>
+    <string name="save_dialog_title" msgid="6977508764748097072">"¿Guardar grabación?"</string>
+    <string name="save_dialog_caption" msgid="8618327604827517841">"Para escuchar las grabaciones, abre la aplicación Play Música."</string>
+    <string name="favorites" msgid="2732520024474501799">"Favoritos"</string>
+    <string name="rename" msgid="1770973764866255260">"Cambiar nombre"</string>
+    <string name="station_rename_hint" msgid="4291305834497293746">"Ingresar nombre de estación"</string>
+    <string name="remove_favorite" msgid="3128670507986192468">"Quitar de favoritos"</string>
+    <string name="toast_record_saved" msgid="2543677492878715874">"Grabación guardada"</string>
+    <string name="toast_record_not_saved" msgid="6526674547687611282">"Grabación no guardada"</string>
+    <string name="toast_listen" msgid="2014315478895754055">"ESCUCHAR"</string>
+    <string name="toast_station_renamed" msgid="2185292052267585710">"Se cambió el nombre de la estación."</string>
+    <string name="station_freq">"Frecuencia de la estación(MHz)"</string>
+     <string name="change_frequency">"Cambiar frecuencia"</string>
+     <string name="button_ok">"Correcto"</string>
+     <string name="button_cancel">"Cancelar"</string>
+     <string name="range_error">""Fuera del rango de radio (87.5MHz-108MHz)"</string>
+     <string name="freq_input_info">"Por favor introduzca una frecuencia"</string>
+     <string name="fm_over_record_format">"Formato de grabación"</string>
+     <string name="select_file_type">"Por favor seleccione un formato"</string>
+     <string name="storage_phone">"Teléfono"</string>
+     <string name="storage_sd">"Tarjeta SD"</string>
+     <string name="select_file_path">"Por favor seleccione ruta de guardado"</string>
+     <string name="record_path">"Configure ruta de guardado"</string>
+     <string name="from_current_search">"Empezar la búsqueda desde el canal actual"</string>
+     <string name="error_permissions">"La aplicación no tiene los permisos fundamentales necesarios para ejecutarse. Comprueba la configuración de permisos."</string>
+     <string name="dialog_dismiss">"Descartar"</string>
+     <string name="fm_play">"Reproducir radio FM"</string>
+     <string name="fm_stop">"Detener la reproducción de la radio FM"</string>
+     <string name="toast_record_not_saved_fortime">"Tiempo de grabación inferior a 1 segundo, no se ha guardado"</string>
+
+    <string name="station_change_freq_hint">"Ingresar frecuencia de la emisora"</string>
+     <string name="toast_station_freq_changed">"La frecuencia de la emisora ha cambiado"</string>
+     <string name="toast_play_fm">"Para iniciar la grabación, por favor reproducir radio FM."</string>
+    <string name="same_application_running">"El dispositivo de grabación está siendo usado por otros programas, ¡por favor ciérrelos!"</string>
+     <string name="rds_switch_off">"Desactivar RDS"</string>
+     <string name="rds_switch_on">"Activar RDS"</string>
+     <string name="rds_af_switch_off">"Turn off AF"</string>
+     <string name="rds_af_switch_on">"Turn on AF"</string>
+     <string name="fm_regularly_poweroff">"Apague regularmente"</string>
+     <string name="cancel_regularly_poweroff">"Cancelar temporización"</string>
+     <string name="time_10min">"15min"</string>
+     <string name="time_20min">"30min"</string>
+     <string name="time_30min">"60min"</string>
+     <string name="time_60min">"90min"</string>
+     <string name="time_units">"MIN"</string>
+     <string name="time_scustom_setting">"Configuración personalizada"</string>
+     <string name="fm_record_list">"Lista de registros FM"</string>
+     <string name="search_hint">"Buscar Registro FM&#8230;"</string>
+     <string name="favorite_station_tag">"Estación favorita"</string>
+     <string name="other_station_tag">"Otra estación"</string>
+     <string name="station_edit">"Editar estación"</string>
+     <string name="station_batch_operation">"Operación por lotes"</string>
+     <string name="station_name">"Nombre de la estación"</string>
+     <string name="select_all">"Marcar todos"</string>
+     <string name="cancel_select_all">"Cancelar seleccionar todo"</string>
+     <string name="progress_deleting">"Eliminando"</string>
+     <string name="no_storage_permission">"¡No hay permiso de almacenamiento!"</string>
+     <string name="no_allow_play_calling">"No está permitido reproducir música en medio de una llamada (radio/video)"</string>
+     <string name="playback_failed">"El reproductor no admite este tipo de archivo de audio."</string>
+     <string name="play_error">""Error de reproducción"."</string>
+     <string name="list_exists">"El canal ya existe en la lista de canales."</string>
+     <string name="batch_operation">"Operación por lotes"</string>
+     <string name="input_error">"Por favor ingrese la hora correcta."</string>
+     <string name="record_start">"Comenzar"</string>
+     <string name="edit_freq">"Editar canal"</string>
+     <string name="toast_storage_device_missing">"El dispositivo de almacenamiento ha desaparecido!"</string>
+     <string name="fm_prevstation_title">"Anterior"</string>
+     <string name="fm_stopplay_title">"Detener"</string>
+     <string name="fm_nextstation_title">"Siguiente"</string>
+     <string name="airplane_title">"Advertencia de Modo de Avión"</string>
+     <string name="airplane_message">"No se puede activar la radio FM en modo avión."</string>
+     <string name="delete_title_tip">"Eliminar"</string>
+     <string name="playmode_title_tip">"Modo de Reproducción"</string>
+</resources>

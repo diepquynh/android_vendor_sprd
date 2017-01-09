@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/netinfo_operators_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#f00"
+        android:dividerHeight="2px"
+        android:footerDividersEnabled="true" />
+
+    <ImageView
+        android:id="@+id/netinfo_imageview"
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#f00" />
+
+    <ListView
+        android:id="@+id/netinfo_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#f00"
+        android:dividerHeight="2px"
+        android:headerDividersEnabled="true" />
+</LinearLayout>

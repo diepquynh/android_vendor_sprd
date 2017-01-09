@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_puzzle_menu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    android:visibility="gone">
+    <ImageButton android:id="@+id/btn_puzzle_grid_effect_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_menu_close"
+        android:src="@drawable/puzzle_operate_btn_close_status"
+        android:layout_gravity="right" />
+    <LinearLayout
+        android:id="@+id/layout_puzzle_grid_effect_operate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_menu"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:text="@string/puzzle_grid_shadow"
+                android:textColor="#8c8c8c"
+                android:gravity="center|right" />
+            <CheckBox
+                android:id="@+id/cb_puzzle_grid_shadow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/puzzle_grid_shadow_cb_status"
+                android:button="@null"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:text="@string/puzzle_grid_round_size"
+                android:textColor="#8c8c8c"
+                android:gravity="center|right" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_marginLeft="10dp" >
+                <!-- SPRD:fix bug517706 -->
+                <Button 
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ic_size_slider_small"/>
+                <SeekBar
+                    android:id="@+id/puzzle_grid_round_degree"
+                    style="@style/SeekBar.GRID.EFFECT"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:max="100"
+                    android:progress="0"
+                    android:layout_gravity="center_vertical" />
+                <!-- SPRD:fix bug517706 -->
+                <Button 
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ic_size_slider_big"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <HorizontalScrollView
+        android:id="@+id/puzzle_hs_puzzle_middle_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@drawable/bg_menu"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:visibility="gone" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:scrollbars="horizontal" >
+            <GridView
+                android:id="@+id/puzzle_gv_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

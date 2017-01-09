@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">GeneralSecurity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="memory">Memory management</string>
+    <string name="storage">Storage management</string>
+    <string name="battery">Power management</string>
+    <string name="flow">Data flow management</string>
+    <string name="no_applications">No applications</string>
+    <string name="data">Data</string>
+	<string name="data1">SIM1</string>
+	<string name="data2">SIM2</string>
+    <string name="wlan">WLAN</string>
+    <string name="network_control">Network Control</string>
+    <string name="network_control_head">Apps</string>
+    <string name="network_order_des">(Ordered by the sum of data and WIFI usage)</string>
+    <string name="data_flow_management">Data flow management</string>
+    <string name="data_flow_rank">Data flow rank</string>
+    <string name="data_flow_cycle">Data flow cycle</string>
+    <string name="pref_data_cycle_default">This month</string>
+    <string name="data_cycle_week">This week</string>
+    <string name="data_cycle_day">Today</string>
+    <!--<string name="data_remained">Remaining data \n%s M</string>-->
+    <string name="data_remained">Remaining data %1$s</string>
+    <!--<string name="data_used">Data used \n%s M</string>-->
+    <string name="data_used">Data used %1$s</string>
+    <string name="data_stat_description">For accurate data, please query from the operator</string>
+    <string name="data_flow_data">Data: %1$s</string>
+    <string name="data_flow_data1">SIM1: %1$s</string>
+    <string name="data_flow_data2">SIM2: %1$s</string>
+    <string name="data_flow_wifi">WLAN: %1$s</string>
+    <string name="data_flow_sum">(%1$s)</string>
+    <string name="operating_wait">Setting is ongoing, please wait</string>
+
+    <string name="data_restrict_sim">Data restrict for SIM</string>
+    <string name="data_restrict_sim1">Data restrict for SIM1</string>
+    <string name="data_restrict_sim2">Data restrict for SIM2</string>
+    <string name="month_data_category">Month data setting</string>
+    <string name="month_data_setting">Data setting for this month</string>
+    <string name="month_data_used">Data used this month</string>
+    <string name="data_unset">Unset</string>
+    <string name="data_restrict">Restrict setting reminder</string>
+    <string name="max_data_day">Max value of day data</string>
+    <string name="show_real_time_speed">Show real time network speed</string>
+    <string name="show_keyguard_data">The data of keyguard</string>
+    <string name="current_speed_default">Current</string>
+
+    <string name="restrict_setting">Reminder setting for data restriction</string>
+    <string name="data_restrict_month">Notification for month data restriction</string>
+    <string name="data_restrict_day">Notification for day data restriction</string>
+    <string name="garbage_clean">Clear garbage files</string>
+    <string name="percent_fifty">50%</string>
+    <string name="percent_hundred">100%</string>
+    <string name="percent_set">%1$d%%</string>
+    <string name="data_set">%1$.02fMB</string>
+    <string name="data_restrict_title">Set SIM%1$d data restriction</string>
+    <string name="data_set_description">This reminder is the percent of the month service</string>
+    <string name="warning_msg">%1$s Data used this month is over %2$d%% of the quotas</string>
+    <string name="warning_msg_month_SIM">%1$sData used this month is over the quotas</string>
+    <string name="warning_msg_day_SIM">%1$sData used today is over the quotas</string>
+    <string name="month_data_unset">Quota data not set</string>
+    <string name="sim_changed">Different SIM card is detected, please reset the network management</string>
+    <string name="android_os">Android OS</string>
+    <string name="app_removed">Application removed</string>
+
+    <string name="network_speed">%1$s speed: %2$s</string>
+    <string name="data_used_lockscreen_title">Data used screen lock</string>
+    <string name="data_used_lockscreen_message">Data used in last screen lock state: %1$s</string>
+
+
+    <string name="can_rubbish_ram">Used：<xliff:g id="NUMPROCESS">%1$s</xliff:g>,freed:<xliff:g id="SPACEPROCESS">%2$s</xliff:g></string>
+    <string name="used_ram"><xliff:g id="NUMPROCESS">%1$s</xliff:g> processes running, can free <xliff:g id="SPACEPROCESS">%2$s</xliff:g></string>
+    <string name="start_memory_button">Start</string>
+    <string name="end_memory_button">End</string>
+    <string name="doing_memory_button">Doing</string>
+    <string name="no_running_services">Nothing running.</string>
+    <string name="settings_safetylegal_activity_loading">Loading\u2026</string>
+    <string name="running_processes_header_apps">Apps</string>
+    <string name="service_process_name"><xliff:g id="process">%1$s</xliff:g></string>
+    <string name="service_client_name"><xliff:g id="client_name">%1$s</xliff:g></string>
+    <string name="service_started_by_app">Started by app.</string>
+    <string name="gs_per_used"><xliff:g id="USEDMEMORY">%1$s</xliff:g></string>
+    <!-- Descriptive text of a running process: singular process, singular service. -->
+    <string name="running_processes_item_description_s_s"><xliff:g id="numprocess">%1$d</xliff:g>        process and <xliff:g id="numservices">%2$d</xliff:g> service</string>
+    <!-- Descriptive text of a running process: singular process, plural service. -->
+    <string name="running_processes_item_description_s_p"><xliff:g id="numprocess">%1$d</xliff:g>        process and <xliff:g id="numservices">%2$d</xliff:g> services</string>
+    <!-- Descriptive text of a running process: plural process, singular service. -->
+    <string name="running_processes_item_description_p_s"><xliff:g id="numprocess">%1$d</xliff:g>        processes and <xliff:g id="numservices">%2$d</xliff:g> service</string>
+    <!-- Descriptive text of a running process: plural process, plural service. -->
+    <string name="running_processes_item_description_p_p"><xliff:g id="numprocess">%1$d</xliff:g>        processes and <xliff:g id="numservices">%2$d</xliff:g> services</string>
+    <string name="application_info_label">App info</string>
+    <string name="nothing_can_removed">Nothing background process can be removed</string>
+    <string name="cached">Cached background process</string>
+
+    <string name="commonMode">Conventional mode</string>
+    <string name="intelligentMode">Intelligent power saving mode</string>
+    <string name="longMode">Long standby mode</string>
+    <string name="sleepMode">Sleep mode</string>
+
+    <string name="commonModeSummary"></string>
+    <string name="intelligentModeSummary">recommended for daily use(Keeping calling, messaging and data)</string>
+    <string name="longModeSummary">recommended to use when low battery(Keeping calling, messaging)</string>
+    <string name="sleepModeSummary">recommended to use at night(Only reserve the alarm)</string>
+
+    <string name="batteryDialogTitle">use <xliff:g id="MODE">%1$s</xliff:g> :</string>
+    <string name="standbyScreen">30s</string>
+    <string name="mode_on">On</string>
+    <string name="mode_off">Off</string>
+    <string name="vibartion_only_in_silent">Only in silence when the vibration</string>
+
+    <string name="batetry_hardware_list">Hardware rankings</string>
+    <string name="batetry_software_list">Software rankings</string>
+
+    <string name="power_idle">Phone idle</string>
+    <string name="power_cell">Cell standby</string>
+    <string name="power_phone">Voice calls</string>
+    <string name="power_screen">Screen</string>
+    <string name="power_flashlight">Flashlight</string>
+    <string name="power_camera">Camera</string>
+    <string name="power_wifi">Wi\u2011Fi</string>
+    <string name="power_bluetooth">Bluetooth</string>
+    <string name="power_unaccounted">Miscellaneous</string>
+    <string name="power_overcounted">Over-counted</string>
+
+    <string name="process_kernel_label">Android OS</string>
+    <string name="process_mediaserver_label">Mediaserver</string>
+    <string name="process_dex2oat_label">App optimization</string>
+    <string name="process_drmserver_label">DRM Server</string>
+
+<!--  Battery Usage -->
+    <string name="battery_desc_standby">Battery used when phone is idle</string>
+    <string name="battery_desc_voice">Battery used by voice calls</string>
+    <string name="battery_desc_bluetooth">Battery used by Bluetooth</string>
+    <string name="battery_desc_display">Battery used by the display and backlight</string>
+    <string name="battery_desc_users">Battery used by user</string>
+    <string name="battery_desc_overcounted">Over-counted power use</string>
+    <string name="battery_desc_camera">Battery used by the camera</string>
+    <string name="battery_desc_unaccounted">Miscellaneous power use</string>
+    <string name="battery_desc_apps">Battery used by app</string>
+    <string name="battery_desc_flashlight">Battery used by the flashlight</string>
+    <string name="battery_desc_wifi">Battery used by Wi\u2011Fi</string>
+    <string name="battery_desc_radio">Battery used by cell radio</string>
+
+    <string name="usage_type_cpu">CPU total</string>
+    <string name="usage_type_cpu_foreground">CPU foreground</string>
+    <string name="usage_type_wake_lock">Keep awake</string>
+    <string name="usage_type_gps">GPS</string>
+    <string name="usage_type_wifi_running">Wi\u2011Fi running</string>
+
+    <string name="usage_type_data_send">Mobile packets sent</string>
+    <string name="usage_type_data_recv">Mobile packets received</string>
+    <string name="usage_type_radio_active">Mobile radio active</string>
+
+
+    <string name="usage_type_data_wifi_send">Wi\u2011Fi packets sent</string>
+    <string name="usage_type_data_wifi_recv">Wi\u2011Fi packets received</string>
+
+    <string name="usage_type_audio">Audio</string>
+    <string name="usage_type_video">Video</string>
+    <string name="usage_type_camera">Camera</string>
+    <string name="usage_type_flashlight">Flashlight</string>
+    <string name="usage_type_computed_power">Computed power use</string>
+
+
+    <string name="usage_type_on_time">Time on</string>
+    <string name="usage_type_no_coverage">Time without a signal</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="controls_subtitle">Adjust power use</string>
+    <string name="packages_subtitle">Included packages</string>
+    <string name="details_subtitle">Use details</string>
+    <string name="high_power_apps">Battery optimization</string>
+
+    <string name="bluetooth_settings">Bluetooth</string>
+    <string name="wifi_settings">Wi\u2011Fi</string>
+    <string name="radio_controls_title">More</string>
+    <string name="usage_type_total_battery_capacity">Total battery capacity</string>
+    <string name="usage_type_actual_power">Observed power use</string>
+    <string name="battery_action_app_details">App info</string>
+    <string name="battery_sugg_apps_info">Stop or uninstall the app</string>
+    <string name="display_settings">Display</string>
+    <string name="battery_sugg_display">Reduce the screen brightness and/or screen timeout</string>
+    <string name="battery_sugg_wifi">Turn off Wi\u2011Fi when not using it or when it isn\u2019t available</string>
+    <string name="battery_sugg_bluetooth_basic">Turn off Bluetooth when you aren\u2019t using it</string>
+    <string name="battery_sugg_radio">Switch to airplane mode to save power in areas with no cell coverage</string>
+    <string name="mah"><xliff:g id="number" example="30">%s</xliff:g> mAh</string>
+    <string name="battery_history_hours"><xliff:g id="hours">%1$d</xliff:g>h <xliff:g id="minutes">%2$d</xliff:g>m <xliff:g id="seconds">%3$d</xliff:g>s</string>
+    <string name="battery_history_minutes"><xliff:g id="minutes">%1$d</xliff:g>m <xliff:g id="seconds">%2$d</xliff:g>s</string>
+    <string name="battery_history_seconds"><xliff:g id="seconds">%1$d</xliff:g>s</string>
+    <string name="battery_history_days_no_seconds"><xliff:g id="days">%1$d</xliff:g>d <xliff:g id="hours">%2$d</xliff:g>h <xliff:g id="minutes">%3$d</xliff:g>m</string>
+    <string name="battery_history_hours_no_seconds"><xliff:g id="hours">%1$d</xliff:g>h <xliff:g id="minutes">%2$d</xliff:g>m</string>
+    <string name="battery_history_minutes_no_seconds"><xliff:g id="minutes">%1$d</xliff:g>m</string>
+    <string name="battery_history_days"><xliff:g id="days">%1$d</xliff:g>d <xliff:g id="hours">%2$d</xliff:g>h <xliff:g id="minutes">%3$d</xliff:g>m <xliff:g id="seconds">%4$d</xliff:g>s</string>
+    <string name="battery_history_millis"><xliff:g id="millis">%.2f</xliff:g>ms</string>
+
+    <string name="internal_storage">Storage</string>
+    <string name="external_storage">SDcard</string>
+
+    <string name="cache_file">Cache Files</string>
+    <string name="rubbish_file">Rubbish Files</string>
+    <string name="invalid_file">Invalid Files</string>
+    <string name="temp_file">Temp Files</string>
+    <string name="large_file">Large Files</string>
+
+    <string name="storage_size">0M</string>
+    <string name="symbol">">"</string>
+
+    <string name="start_scan_button">Start Scan</string>
+    <string name="clean_memory_button">CLEAN</string>
+    <string name="doing_scan_memory_button">Scanning</string>
+    <string name="doing_clean_memory_button">Cleaning</string>
+    <string name="end_clean_memory_button">Clean over</string>
+
+    <string name="already_checked">Checked Size</string>
+
+    <string name="installed">Installed</string>
+    <string name="unInstalled">Uninstalled</string>
+
+    <string name="invalid_apk">invalid apk</string>
+    <string name="clean_storage_menu">Clear</string>
+
+    <string name="cleaning_wait">Clean is ongoing, please wait</string>
+    <string name="use_gs_in_owner">Please use General Security in owner mode, it will not be shown here later</string>
+    <string name="max_data_flow_value">Max value exceeded, set to 5000000</string>
+
+    <string name="byteShort">B</string>
+    <!-- Suffix added to a number to signify size in kilobytes. -->
+    <string name="kilobyteShort">KB</string>
+    <!-- Suffix added to a number to signify size in megabytes. -->
+    <string name="megabyteShort">MB</string>
+    <!-- Suffix added to a number to signify size in gigabytes. -->
+    <string name="gigabyteShort">GB</string>
+    <!-- Suffix added to a number to signify size in terabytes. -->
+    <string name="terabyteShort">TB</string>
+    <!-- Suffix added to a number to signify size in petabytes. -->
+    <string name="petabyteShort">PB</string>
+    <string name="fileSizeSuffix"><xliff:g id="number" example="123">%1$s</xliff:g><xliff:g id="unit" example="KB">%2$s</xliff:g></string>
+    <string name="sdcard_state_inserted">SD card has been inserted</string>
+    <string name="sdcard_state_removed">SD card has been removed</string>
+    <string name="power_usage_not_available">No data</string>
+</resources>

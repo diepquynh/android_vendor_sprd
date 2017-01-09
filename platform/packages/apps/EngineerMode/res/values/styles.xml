@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="EngAppActivityTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:actionBarTabStyle">@android:style/Widget.Material.ActionBar.TabView</item>
+        <item name="android:actionBarDivider">@null</item>
+    </style>
+
+    <style name="TextAppearance.PagerTabs" parent="@android:style/TextAppearance.Material.Small">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="info_layout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingTop">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:paddingBottom">10dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="entry_layout1">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="form_value">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="info_label">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.info_label</item>
+        <item name="android:paddingRight">4dip</item>
+    </style>
+
+    <style name="TextAppearance" parent="android:TextAppearance" />
+
+    <style name="TextAppearance.info_label">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.info_value">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="info_value">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.info_value</item>
+    </style>
+
+
+    <!-- Added for SlogUI styles and themes -->
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- SlogUI Application Theme -->
+    <style name="SlogUIAppTheme" parent="AppTheme">
+        <item name="android:checkboxStyle">@style/SlogUICheckBoxStyle</item>
+        <item name="android:buttonStyle">@style/SlogUIButtonStyle</item>
+        <item name="android:buttonStyleSmall">@style/SlogUIButtonStyleSmall</item>
+        <item name="android:windowBackground">@drawable/slogui_background</item>
+    </style>
+
+    <!-- SlogUI CustomAlertDialog Theme -->
+    <style name="SlogUIAlertTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- aftert v11 , this should be open -->
+        <!-- <item name="android:windowCloseOnTouchOutside">false</item> -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:textColorPrimary">@android:color/primary_text_light</item>
+        <item name="android:textColorSecondary">@android:color/secondary_text_light</item>
+        <item name="android:textColorTertiary">@android:color/tertiary_text_light</item>
+        <item name="android:textColorPrimaryInverse">@android:color/primary_text_dark</item>
+        <item name="android:textColorSecondaryInverse">@android:color/secondary_text_dark</item>
+        <item name="android:textColorTertiaryInverse">@android:color/tertiary_text_dark</item>
+        <item name="android:textColorPrimaryNoDisable">@android:color/primary_text_light_nodisable</item>
+        <item name="android:textColorSecondaryNoDisable">@android:color/secondary_text_light_nodisable</item>
+        <item name="android:textColorPrimaryInverseNoDisable">@android:color/primary_text_light_nodisable</item>
+        <item name="android:textColorSecondaryInverseNoDisable">@android:color/secondary_text_dark_nodisable</item>
+    </style>
+
+    <!-- SlogUI CheckBox style -->
+    <style name="SlogUICheckBoxStyle" parent="@android:style/Widget.CompoundButton">
+        <item name="android:background">@drawable/slogui_checkbox_bg</item>
+        <item name="android:button">@drawable/slogui_checkbox</item>
+    </style>
+
+    <style name="SlogUICollectorStyleBaseOnCheckbox" parent="@android:style/Widget.CompoundButton">
+        <item name="android:background">@drawable/slogui_checkbox_bg</item>
+        <item name="android:button">@drawable/slogui_option_collector</item>
+    </style>
+
+    <style name="SlogUISettingCollectorStyle">
+        <item name="android:background">@drawable/slogui_checkbox_bg</item>
+        <item name="android:button">@drawable/slogui_option_collector</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="SlogUISettingCheckBoxStyle" parent="@android:style/Widget.CompoundButton">
+        <item name="android:background">@drawable/slogui_checkbox_bg</item>
+        <item name="android:button">@drawable/slogui_checkbox</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:paddingLeft">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/slogui_settings_collection_text_color</item>
+    </style>
+
+    <style name="SlogUICheckDivider">
+        <item name="android:background">@drawable/slogui_check_divider</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="Animation.PopupMode" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/grow_fade_in_center</item>
+        <item name="android:windowExitAnimation">@anim/shrink_fade_out_center</item>
+    </style>
+    
+    <style name="SlogUIDialogButtonBarStyle" parent="@android:style/ButtonBar">
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="SlogUIDialogButtonBarButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/slogui_btn_default</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+    </style>
+
+    <style name="SlogUIButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/slogui_btn_default</item>
+    </style>
+
+    <style name="SlogUIButtonStyleSmall" parent="@android:style/Widget.Button.Small">
+        <item name="android:background">@drawable/slogui_btn_default</item>
+    </style>
+    <style name="AppCompat" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- SlogUI styles and themes added done -->
+
+</resources>

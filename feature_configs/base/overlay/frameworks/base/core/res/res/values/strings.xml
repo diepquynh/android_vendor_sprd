@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD: porting ussd feature for bug475740 @{ -->
+    <string name="Pin2Mmi">PIN2 change</string>
+    <string name="PukMmi">PIN unlock</string>
+    <string name="Puk2Mmi">PIN2 unlock</string>
+    <string name="badPin2">The old PIN2 you typed is not correct.</string>
+    <string name="badPuk2">The PUK2 you typed is not correct.</string>
+    <string name="mismatchPin2">The PIN2 you entered do not match.</string>
+    <string name="mismatchPuk">The PUK you entered do not match.</string>
+    <string name="mismatchPuk2">The PUK2 you entered do not match.</string>
+    <string name="puklengthlimit">Type a PUK must be 8 numbers.</string>
+    <!-- @} -->
+    <!-- SPRD: add data connection plugin -->
+    <string name="feature_dataconnection_plugin" translatable="false">plugin.sprd.dataconnection.DataConnectionPlugin</string>
+    <string name="feature_uicc_telephonly_plugin" translatable="false">plugin.sprd.telephony.uicc.CMCCTelephonyPlugin</string>
+    <!-- SPRD: Add for Telce feature @{ -->
+    <string name="feature_for_Telcel" translatable="false">plugin.sprd.operatorfeatures.TelephonySupportTelcel</string>
+    <!-- @} -->
+</resources>

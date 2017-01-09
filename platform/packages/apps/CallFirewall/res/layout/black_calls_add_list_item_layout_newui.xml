@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dip"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/select_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:src="@drawable/ic_contact_picture_holo_dark" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@id/select_contact"
+            android:orientation="vertical" >
+
+            <com.sprd.firewall.ui.view.PhoneEditText
+                android:id="@+id/black_calls_add_edit_label_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:maxLength="256"
+                android:hint="@string/black_calls_add_name_label"
+                android:singleLine="true" >
+            </com.sprd.firewall.ui.view.PhoneEditText>
+
+            <com.sprd.firewall.ui.view.PhoneEditText
+                android:id="@+id/black_calls_add_edit_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/black_calls_add_edit_label_name"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip"
+                android:maxLength="256"
+                android:imeOptions="actionDone"
+                android:hint="@string/black_calls_add_number_label"
+                android:inputMethod="android.text.method.DialerKeyListener"
+                android:inputType="phone"
+                android:singleLine="true" >
+            </com.sprd.firewall.ui.view.PhoneEditText>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayout"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:background="@drawable/list_section_divider_holo_light_sprd" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/black_calls_add_type_label"
+                android:textColor="@color/black_calls_add_type_text_color"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/type_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip" />
+    </LinearLayout>
+
+</RelativeLayout>

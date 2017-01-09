@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Spreadst -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:background="#ff323232" >
+
+    <TextView
+        android:id="@+id/snackbar_text"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/snackbar_action"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:paddingBottom="5dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="5dp"
+        android:textColor="#ffffffff"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/snackbar_action"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="18dp"
+        android:paddingStart="24dp"
+        android:paddingTop="18dp"
+        android:textAllCaps="true"
+        android:textColor="#ffffffff"
+        android:textSize="14sp" />
+
+</RelativeLayout>

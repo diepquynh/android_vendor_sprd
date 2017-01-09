@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/battery" >
+
+    <PreferenceCategory
+        android:key="mode_list"
+        android:title="@string/battery" >
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="hardware_list"
+        android:title="@string/batetry_hardware_list" >
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="software_list"
+        android:title="@string/batetry_software_list" >
+    </PreferenceCategory>
+
+</PreferenceScreen>

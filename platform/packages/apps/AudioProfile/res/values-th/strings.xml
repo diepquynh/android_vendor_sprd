@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="audio_profiles">โปรไฟล์ออดิโอ</string>
+  <string name="predefined_audio_profiles">โปรไฟล์เสียงที่กำหนดล่วงหน้า</string>
+  <string name="user_defined_audio_profiles">ผู้ใช้กำหนดข้อมูลเสียง</string>
+  <string name="add_profile">"เพิ่ม"</string>
+  <string name="use_profile">ใช้ </string>
+  <string name="rename_profile">"เปลี่ยนชื่อ"</string>
+  <string name="reset_profile">ตั้งใหม่</string>
+  <string name="delete_profile">"ลบ"</string>
+  <string name="empty_name_dialog">ปล่อยให้ชื่อว่างไม่ได้</string>
+  <string name="duplicate_display_name_dialog">มีชืออยู่แล้ว</string>
+  <string name="add_profile_msg">กรุณาใส่ชื่อโปรไฟล์ใหม่</string>
+  <string name="rename_profile_msg">กรุณาใส่ชื่อโปรไฟล์ใหม่</string>
+  <string name="delete_profile_msg">โปรโฟล์ <xliff:g id="name">%s</xliff:g> จะถูกลบ</string>
+  <string name="reset_profile_msg">การตั้งค่าโปรไฟล์เสียงทั้งหมดจะตั้งเป็นแบบค่าเดิม</string>
+  <string name="incoming_call_volume_title">"เสียงเรียกเข้าและการแจ้งเตือน"</string>
+  <string name="alarm_volume_title">"ปลุก"</string>
+  <string name="dlg_ok">"ตกลง"</string>
+  <string name="dlg_cancel">ยกเลิก</string>
+  <string name="sound_settings">การตั้งค่าเสียง</string>
+  <string name="vibrate_title">"สั่น"</string>
+  <string name="vibrate_summary">มีการสั่นเตือนการโทรและการแจ้งเตือน</string>
+  <string name="sound_category_calls_and_notification_title">"เสียงเรียกเข้าและการแจ้งเตือน"</string>
+  <string name="ringtone_title">เสียงเรียกเข้าของโทรศัพท์</string>
+  <string name="sound_category_notification_title">"การแจ้งเตือน"</string>
+  <string name="notification_sound_title">"ค่าการแจ้งเตือนเริ่มต้น"</string>
+  <string name="all_volume_title">ปริมาณ</string>
+  <string name="notification_sound_dialog_title">"เลือกเสียงสำหรับการแจ้งเตือน"</string>
+  <string name="sound_category_feedback_title">ระบบ</string>
+  <string name="dtmf_tone_enable_title">"เสียงแตะแป้นหมายเลข"</string>
+  <string name="sound_effects_enable_title">"เสียงแตะ"</string>
+  <string name="lock_sounds_enable_title">"เสียงเมื่อล็อกหน้าจอ"</string>
+  <string name="haptic_feedback_enable_title">"สั่นเมื่อแตะ"</string>
+  <string name="revert_ring_vol">ปริมาณเสียงเรียกเข้าไม่ควรเป็นศูนย์ในโปรไฟล์นี้, จะกลับสู่ค่าเดิม</string>
+  <string name="input_limit">ถึงขีดจำกัดของการป้อน</string>
+  <string name="standard_string">ทั่วไป</string>
+  <string name="silent_string">ปิดเสียง</string>
+  <string name="vibrate_string">การสั่น</string>
+  <string name="outdoor_string">นอกอาคาร</string>
+  <string name="outdoor_summary">"ริงโทนที่ใหญ่ที่สุดและสั่น"</string>
+  <string name="edit_profile">แก้ไข</string>
+  <string name="ringtone_default_message">"ขออภัย ไฟล์เสียงเรียกเข้าไม่มีการเล่น เริ่มต้นตั้งไฟล์เสียงเป็นริงโทน"</string>
+  <string name="sim_ringtone_title">"SIM<xliff:g id="SIM_LOCK_STRING">%1$s</xliff:g> <xliff:g id="TYPE">%2$s</xliff:g> เสียงเรียกเข้า"</string>
+    <string-array translatable="true" name="profile_display_name">
+		        <item>"ทั่วไป"</item>
+		        <item>"ปิดเสียง"</item>
+		        <item>การสั่น</item>
+		        <item>ที่โล่ง</item>
+	    </string-array>
+    <string name="ringtone_not_exist_message">"ขออภัยไม่มีไฟล์ริงโทน"</string>
+    <string name="dial_pad_tones_title">"เสียงแป้นหมายเลข"</string>
+     <string name="screen_locking_sounds_title">"เสียงล็อกหน้าจอ"</string>
+     <string name="charging_sounds_title">"เสียงการชาร์จ"</string>
+     <string name="media_volume_titles">"เพลง, วิดีโอเกมและสื่ออื่น ๆ "</string>
+     <string name="ring_volume_title">"เสียงเรียกเข้า"</string>
+     <string name="notification_volume_title">"การแจ้งเตือน"</string>
+     <string name="sound_improvement">"การปรับเสียง"</string>
+     <string name="sound_improvement_select">"BseAudioEnh"</string>
+     <string name="sound_improvement_summary">"เสียงหูฟังสำหรับการปรับ"</string>
+    <string name="sim_messagetone_title">"SIM<xliff:g id="SIM_LOCK_STRING">%1$s</xliff:g> <xliff:g id="TYPE">%2$s</xliff:g> เสียงเรียกเข้าของข้อความ"</string>
+     <string name="messagetone_title">"เสียงเรียกเข้าของข้อความ"</string>
+     <string name="vibrate_category_feedback_title">"สั่น"</string>
+     <string name="vibrate_msg_title">ข้อความ</string>
+     <string name="vibrate_msg_summary">"ตอบรับการสั่นสำหรับข้อความ"</string>
+</resources>

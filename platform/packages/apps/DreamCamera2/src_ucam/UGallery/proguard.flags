@@ -1,0 +1,79 @@
+#
+# Copyright (C) 2011,2012 Thundersoft Corporation
+# All rights Reserved
+#
+
+-keep class * extends android.app.Activity{
+  public void onClick*(...);
+}
+
+-keep class com.ucamera.ugallery.util.Compatible{
+  void initParam*(...);
+}
+
+-keep class com.sun.mail.smtp.SMTPTransport{
+  <init>(...);
+}
+-keepclasseswithmembernames class * {
+  public ** getDefault();
+}
+-keep class com.sun.mail.handlers.**
+-keep class org.apache.**
+-keep class com.sun.activation.registries.**
+-keep class myjava.awt.datatransfer.**
+-keep class com.sun.mail.**
+-keep class javax.mail.**
+
+-dontwarn javax.activation.CommandInfo
+-dontwarn org.apache.harmony.awt.datatransfer.DataProxy
+-dontwarn org.apache.harmony.awt.datatransfer.NativeClipboard
+-dontwarn org.apache.harmony.awt.datatransfer.DragSourceEventProxy
+-dontwarn org.apache.harmony.awt.datatransfer.TextFlavor
+-dontwarn org.apache.harmony.awt.datatransfer.DataProxy
+-dontwarn org.apache.harmony.awt.ContextStorage
+-dontwarn org.apache.harmony.awt.datatransfer.DTK
+-dontwarn org.apache.harmony.awt.datatransfer.DataSource
+-dontwarn org.apache.harmony.awt.datatransfer.DataProxy
+-dontwarn org.apache.harmony.awt.datatransfer.FlavorsComparator
+-dontwarn org.apache.harmony.awt.datatransfer.NativeClipboard
+-dontwarn com.sun.mail.imap.protocol.IMAPSaslAuthenticator
+-dontwarn com.sun.mail.imap.protocol.IMAPSaslAuthenticator$1
+-dontwarn org.apache.harmony.awt.datatransfer.DataProvider
+-dontwarn org.apache.harmony.awt.datatransfer.DataSnapshot
+-dontwarn org.apache.http.**
+
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-dontpreverify
+-verbose
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+-keepclasseswithmembernames class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+-keepclasseswithmembernames class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+-keepattributes RuntimeVisibleAnnotations
+
+# for umeng analytics
+-keep public class com.ucamera.ugallery.R$*{
+    public static final int *;
+}

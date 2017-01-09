@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010,2011 Thundersoft Corporation
+    All rights Reserved
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/edit_title_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/edit_label_topbar_bg" >
+
+        <!-- SPRD:fix bug535435 some icons show not friendly -->
+        <ImageButton
+            android:id="@+id/brush_view_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_edit_view_status" />
+        <ImageButton
+            android:id="@+id/edit_brush_title_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/edit_label_btn_ok_status" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/edit_preview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_title_top_bar"
+        android:background="@drawable/edit_label_outline_bg"
+        android:gravity="center"
+        android:paddingBottom="16dip">
+
+        <Gallery
+            android:id="@+id/brush_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/edit_brush_size_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_preview_layout"
+        android:background="@drawable/edit_label_outline_bg"
+        android:paddingBottom="2dip"
+        android:paddingTop="2dip" >
+
+        <SeekBar
+            android:id="@+id/seekbar_brush_size"
+            style="@style/SeekBar.Size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="320dip"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <LinearLayout android:id="@+id/brush_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_brush_size_layout"
+        android:background="@drawable/uphoto_bg_round"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/edit_brush_color_bg" >
+
+            <com.ucamera.uphoto.brush.BrushColorPickerView
+                android:id="@+id/brush_colorpicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/edit_preview_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/brush_layout"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/edit_label_outline_bg">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="8dip"
+            android:layout_marginLeft="5dip"
+            android:textColor="@color/edit_menu_item_color"
+            android:gravity="left"
+            android:text="@string/text_edit_history"/>
+        <Gallery
+            android:id="@+id/brush_history_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

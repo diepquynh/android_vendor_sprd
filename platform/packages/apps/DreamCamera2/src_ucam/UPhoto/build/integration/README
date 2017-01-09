@@ -1,0 +1,15 @@
+README
+======
+1、提供的内容如下：
+	1)、Camera源码压缩包；
+	2)、Camera apk；
+	3)、README.txt
+
+2、Camera源码编译方式：
+	1)、将Camera源码压缩包解压到{Android_SRC}/packages/apps/下；
+	2)、在{Android_SRC}目录下执行：
+		. build/envsetup.sh
+		choosecombo 分别选择release/generic/user
+		./packages/apps/Camera/Camera/build/build.sh -v 1.0.0.012102 -V UCam
+		
+		

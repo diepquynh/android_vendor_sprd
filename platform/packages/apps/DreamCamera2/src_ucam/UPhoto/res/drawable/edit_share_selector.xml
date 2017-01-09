@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010,2011 Thundersoft Corporation
+    All rights Reserved
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+          android:drawable="@drawable/edit_share_pressed" /> <!-- pressed -->
+    <item android:state_focused="true"
+          android:drawable="@drawable/edit_share_pressed" /> <!-- focused -->
+    <item android:drawable="@drawable/edit_share_focus" /> <!-- default -->
+</selector>

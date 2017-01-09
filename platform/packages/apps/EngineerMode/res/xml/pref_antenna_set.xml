@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:dialogTitle="LTE"
+        android:entries="@array/antenna_settings_entries"
+        android:entryValues="@array/antenna_settings_values"
+        android:key="lte_set"
+        android:summary=""
+        android:title="LTE" >
+    </ListPreference>
+    <ListPreference
+        android:dialogTitle="WCDMA"
+        android:entries="@array/antenna_settings_entries"
+        android:entryValues="@array/antenna_settings_values"
+        android:key="wcdma_set"
+        android:summary=""
+        android:title="WCDMA" >
+    </ListPreference>
+
+</PreferenceScreen>

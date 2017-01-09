@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/slogui_ab_background_overlay"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/slogui_settings_icon"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/modem_loglevel"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/logo"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/slogui_settings_icon"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/settings_device_log_setting"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#FF85D9FF"
+                android:gravity="center_vertical"
+                android:text="@string/modem_loglevel_advanced"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <View style="@style/SlogUICheckDivider" />
+
+            <CheckBox
+                android:id="@+id/settings_wcdma_filter"
+                style="@style/SlogUISettingCollectorStyle"
+                android:text="@string/advanced_wcdmd" />
+
+            <View style="@style/SlogUICheckDivider" />
+
+            <LinearLayout
+                android:id="@+id/settings_wcdma_filter_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/settings_advanced_w_wl1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@drawable/slogui_radio"
+                        android:text="@string/advanced_wcdmd_wl1" />
+
+                    <RadioButton
+                        android:id="@+id/settings_advanced_w_wl2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@drawable/slogui_radio"
+                        android:text="@string/advanced_wcdmd_wl2" />
+
+                    <RadioButton
+                        android:id="@+id/settings_advanced_w_sleep"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@drawable/slogui_radio"
+                        android:text="@string/advanced_wcdmd_sleep" />
+
+                    <RadioButton
+                        android:id="@+id/settings_advanced_w_manual"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@drawable/slogui_radio"
+                        android:text="@string/advanced_wcdmd_manual" />
+                </RadioGroup>
+
+                <View
+                    style="@style/SlogUICheckDivider"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/advanced_wcdmd_manual"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/settings_wcdmd_manual_level0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@drawable/slogui_radio"
+                        android:text="@string/wcdmd_manual_level0" />
+
+                    <RadioButton
+                        android:id="@+id/settings_wcdmd_manual_level1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="240px"
+                        android:layout_marginTop="-48px"
+                        android:layout_weight="1"
+                        android:button="@drawable/slogui_radio"
+                        android:text="@string/wcdmd_manual_level1" />
+
+                    <RadioButton
+                        android:id="@+id/settings_wcdmd_manual_level2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@drawable/slogui_radio"
+                        android:text="@string/wcdmd_manual_level2" />
+
+                    <RadioButton
+                        android:id="@+id/settings_wcdmd_manual_level3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="240px"
+                        android:layout_marginTop="-48px"
+                        android:layout_weight="1"
+                        android:button="@drawable/slogui_radio"
+                        android:text="@string/wcdmd_manual_level3" />
+
+                    <RadioButton
+                        android:id="@+id/settings_wcdmd_manual_level4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@drawable/slogui_radio"
+                        android:text="@string/wcdmd_manual_level4" />
+
+                    <RadioButton
+                        android:id="@+id/settings_wcdmd_manual_level5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="240px"
+                        android:layout_marginTop="-48px"
+                        android:layout_weight="1"
+                        android:button="@drawable/slogui_radio"
+                        android:text="@string/wcdmd_manual_level5" />
+                </RadioGroup>
+
+                <View style="@style/SlogUICheckDivider" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/settings_lte_filter"
+                style="@style/SlogUISettingCollectorStyle"
+                android:text="@string/advanced_lte" />
+
+            <View style="@style/SlogUICheckDivider" />
+
+            <LinearLayout
+                android:id="@+id/settings_lte_filter_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <CheckBox
+                    android:id="@+id/settings_advanced_lte_daymic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/advanced_lte_danymic" />
+
+                <View style="@style/SlogUICheckDivider" />
+
+                <CheckBox
+                    android:id="@+id/settings_advanced_lte_manual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/advanced_lte_manual" />
+
+                <View style="@style/SlogUICheckDivider" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

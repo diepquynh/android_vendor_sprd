@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sprd="http://www.w3.org/2001/sprd.html"
+    package="com.sprd.appbackup"
+    android:versionCode="1"
+    android:versionName="0.0.1" >
+     <uses-sdk android:minSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA"/>
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <!--SPRD: for bug440427 modify the layout -->
+    <application
+        android:name="com.sprd.appbackup.SprdAppBackupApplication"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:resizeableActivity="false"
+        android:supportsRtl="true"
+        android:theme="@style/BackupHoloThemeNewui" >
+        <service
+            android:name=".service.AppBackupManagerService"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/BackupHoloThemeNewui"
+            android:configChanges="orientation|screenSize|keyboard|mcc|mnc"
+            android:launchMode="singleTask"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".activities.DeleteActivity"
+            android:configChanges="orientation|screenSize|keyboard|mcc|mnc"
+            android:theme="@style/BackupHoloThemeNewui"
+            android:label="@string/go_back"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity android:name="SaveSelectPath"
+            android:configChanges="orientation|keyboardHidden|screenSize|mnc|mcc"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.sprd.appbackup.PATHEDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.backup.action.GET_FILE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".utils.StorageReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.MEDIA_BAD_REMOVAL" />
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

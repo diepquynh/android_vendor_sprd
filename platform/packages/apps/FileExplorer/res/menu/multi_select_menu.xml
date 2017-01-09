@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_delete"
+        android:title="@string/operate_delete"
+        android:icon="@drawable/delete_selector"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_copy"
+        android:title="@string/menu_copy"/>
+    <item
+        android:id="@+id/menu_cut"
+        android:title="@string/menu_cut"/>
+    
+    <item
+        android:id="@+id/menu_share"
+        android:title="@string/operate_share"/>
+    
+    <item
+        android:id="@+id/menu_install"
+        android:title="@string/overview_menu_install"/>
+
+</menu>

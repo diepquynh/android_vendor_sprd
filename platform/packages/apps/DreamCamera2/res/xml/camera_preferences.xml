@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="prefscreen_top" >
+
+    <!-- fix bug 578797 New feature:QR code -->
+    <PreferenceScreen
+        android:key="pref_key_qrcode"
+        android:title="@string/pref_key_qrcode_function" />
+
+    <!-- SPRD:fix bug518573 Add attribute of listPreference : entries -->
+    <!-- Resolutions and Quality -->
+    <PreferenceScreen
+        android:key="pref_category_resolution"
+        android:title="@string/pref_category_resolution_quality" >
+        <PreferenceCategory android:title="@string/mode_camera" >
+
+            <!-- BACK camera PHOTO resolution -->
+            <ListPreference
+                android:defaultValue="@string/pref_camera_picturesize_default"
+                android:entries="@array/pref_camera_picturesize_entries"
+                android:entryValues="@array/pref_camera_picturesize_entryvalues"
+                android:key="pref_camera_picturesize_back_key"
+                android:title="@string/setting_back_camera_photo" />
+            <!-- FRONT camera PHOTO resolution -->
+            <ListPreference
+                android:defaultValue="@string/pref_camera_picturesize_default"
+                android:entries="@array/pref_camera_picturesize_entries"
+                android:entryValues="@array/pref_camera_picturesize_entryvalues"
+                android:key="pref_camera_picturesize_front_key"
+                android:title="@string/setting_front_camera_photo" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/mode_video" >
+
+            <!-- BACK camera VIDEO resolution -->
+            <ListPreference
+                android:defaultValue="@string/pref_video_quality_large"
+                android:entries="@array/pref_video_quality_entries"
+                android:entryValues="@array/pref_video_quality_entryvalues"
+                android:key="pref_video_quality_back_key"
+                android:title="@string/setting_back_camera_video" />
+            <!-- FRONT camera VIDEO resolution -->
+            <ListPreference
+                android:defaultValue="@string/pref_video_quality_large"
+                android:entries="@array/pref_video_quality_entries"
+                android:entryValues="@array/pref_video_quality_entryvalues"
+                android:key="pref_video_quality_front_key"
+                android:title="@string/setting_front_camera_video" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <!-- OIS&EIS Feature -->
+    <PreferenceScreen
+        android:key="pref_eois_resolution"
+        android:title="@string/pref_eois_resolution" >
+        <PreferenceCategory android:title="@string/mode_camera" >
+
+            <!-- BACK camera PHOTO resolution -->
+            <com.android.camera.settings.ManagedSwitchPreference
+                android:defaultValue="true"
+                android:key="pref_eois_dc_back_key"
+                android:title="@string/pref_eois_back_title" />
+            <!-- FRONT camera PHOTO resolution -->
+            <com.android.camera.settings.ManagedSwitchPreference
+                android:defaultValue="true"
+                android:key="pref_eois_dc_front_key"
+                android:title="@string/pref_eois_front_title" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/mode_video" >
+
+            <!-- BACK camera VIDEO resolution -->
+            <com.android.camera.settings.ManagedSwitchPreference
+                android:defaultValue="false"
+                android:key="pref_eois_dv_back_key"
+                android:title="@string/pref_eois_back_title" />
+            <!-- FRONT camera VIDEO resolution -->
+            <com.android.camera.settings.ManagedSwitchPreference
+                android:defaultValue="false"
+                android:key="pref_eois_dv_front_key"
+                android:title="@string/pref_eois_front_title" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <!-- Location -->
+    <com.android.camera.settings.ManagedSwitchPreference
+        android:defaultValue="false"
+        android:key="pref_camera_recordlocation_key"
+        android:title="@string/pref_camera_save_location_title" />
+
+    <!-- SPRD: fix bug 474665 Add for shutter sound @{ -->
+    <com.android.camera.settings.ManagedSwitchPreference
+        android:defaultValue="true"
+        android:key="pref_shutter_sound_key"
+        android:title="@string/pref_shutter_sound_title" />
+    <!-- @} -->
+
+
+    <!-- SPRD: Add item pref_camera_storage_path_key @{ -->
+    <ListPreference
+        android:defaultValue="@string/storage_path_external_default"
+        android:entries="@array/pref_camera_storage_path_entries"
+        android:entryValues="@array/pref_camera_storage_path_entryvalues"
+        android:key="pref_camera_storage_path"
+        android:title="@string/pref_camera_storage_path_title" />
+    <!-- }@ -->
+
+<!-- SPRD:Bug 535058 New feature: volume -->
+    <ListPreference
+        android:defaultValue="@string/pref_camera_capture_model_one"
+        android:entries="@array/pref_camera_volume_entries"
+        android:entryValues="@array/pref_camera_volume_entryvalues"
+        android:key="pref_camera_volume_key"
+        android:title="@string/pref_key_volume_function" />
+
+    <!-- Advanced -->
+    <PreferenceScreen
+        android:key="pref_category_advanced"
+        android:title="@string/pref_category_advanced" >
+        <PreferenceCategory android:title="@string/Camera_advanced_settings" >
+
+            <!-- SPRD: Fix bug 535110, Photo voice record -->
+            <com.android.camera.settings.ManagedSwitchPreference
+                android:defaultValue="false"
+                android:key="pref_camera_record_voice_key"
+                android:title="@string/pref_camera_record_voice_title" />
+
+            <!-- Exposure Compensation -->
+            <com.android.camera.settings.ManagedSwitchPreference
+                android:defaultValue="false"
+                android:key="pref_camera_exposure_compensation_key"
+                android:title="@string/pref_camera_exposure_compensation" />
+
+            <!-- SPRD: FreezeView Display Preference -->
+            <com.android.camera.settings.ManagedSwitchPreference
+                android:defaultValue="false"
+                android:key="pref_freeze_frame_display_key"
+                android:title="@string/pref_freeze_frame_display_title" />
+
+            <!-- SPRD: Add for time stamp -->
+            <com.android.camera.settings.ManagedSwitchPreference
+                android:defaultValue="false"
+                android:key="pref_time_stamp_key"
+                android:title="@string/pref_time_stamp_title" />
+
+             <!-- SPRD: Add for Vgesture -->
+            <com.android.camera.settings.ManagedSwitchPreference
+                android:defaultValue="false"
+                android:key="pref_camera_grid_lines"
+                android:title="@string/pref_grid_line_title" />
+
+            <!-- SPRD: ZSLPreference -->
+            <com.android.camera.settings.ManagedSwitchPreference
+                android:defaultValue="false"
+                android:key="pref_camera_zsl_key"
+                android:title="@string/pref_zsl_tilte" />
+
+            <!-- SPRD: Add for mirror -->
+            <com.android.camera.settings.ManagedSwitchPreference
+                android:defaultValue="false"
+                android:key="pref_front_camera_mirror_key"
+                android:title="@string/pref_mirror_title" />
+
+            <!-- SPRD: Add View pref_camera_quick_capture_key @{ -->
+            <ListPreference
+                android:defaultValue="@string/pref_camera_quick_capture_entry_value_capture_with_back_camera"
+                android:entries="@array/pref_camera_quick_capture_entries"
+                android:entryValues="@array/pref_camera_quick_capture_entry_values"
+                android:key="pref_camera_quick_capture_key"
+                android:title="@string/pref_camera_quick_capture_title_volkey" />
+            <!-- }@ -->
+
+            <!-- SPRD:Add for antibanding -->
+            <ListPreference
+                android:entries="@array/pref_camera_antibanding_entries"
+                android:entryValues="@array/pref_camera_antibanding_entryvalues"
+                android:key="pref_camera_antibanding_key"
+                android:title="@string/pref_camera_antibanding_title" />
+
+            <!-- SPRD: Add View pref_camera_jpeg_quality_key @{ -->
+            <ListPreference
+                android:defaultValue="@string/pref_camera_jpegh_quality_entry_value_super_hight"
+                android:entries="@array/pref_camera_jpeg_quality_entries"
+                android:entryValues="@array/pref_camera_jpeg_quality_entry_values"
+                android:key="pref_camera_jpeg_quality_key"
+                android:title="@string/pref_camera_jpeg_quality_title" />
+
+            <!-- SPRD: Add View pref_camera_ai_detect_key @{ -->
+            <ListPreference
+                android:defaultValue="@string/pref_ai_detect_entry_value_face"
+                android:entries="@array/pref_camera_ai_detect_entries"
+                android:entryValues="@array/pref_camera_ai_detect_entryvalues"
+                android:key="pref_camera_ai_detect_key"
+                android:title="@string/pref_camera_ai_detect_title" />
+
+            <!-- SPRD: Add color effect Bug 474727 -->
+            <ListPreference
+                android:defaultValue="@string/pref_camera_color_effect_entry_value_none"
+                android:entries="@array/pref_camera_color_effect_entries"
+                android:entryValues="@array/pref_camera_color_effect_entryvalues"
+                android:key="pref_camera_color_effect_key"
+                android:title="@string/pref_camera_color_effect_title" />
+
+            <!-- SPRD:Add scenemode Bug 474731 -->
+            <ListPreference
+                android:defaultValue="@string/pref_camera_scenemode_default"
+                android:entries="@array/pref_camera_scenemode_entries"
+                android:entryValues="@array/pref_camera_scenemode_entryvalues"
+                android:key="pref_camera_scenemode_key"
+                android:title="@string/pref_camera_scenemode_title" />
+
+            <!-- SPRD: Add View pref_camera_whitebalance_key -->
+            <ListPreference
+                android:defaultValue="@string/pref_camera_whitebalance_default"
+                android:entries="@array/pref_camera_whitebalance_entries"
+                android:entryValues="@array/pref_camera_whitebalance_entryvalues"
+                android:key="pref_camera_whitebalance_key"
+                android:title="@string/pref_camera_whitebalance_title" />
+
+            <!-- SPRD: fix bug 473462 add burst capture @{ -->
+            <ListPreference
+                android:defaultValue="@string/pref_camera_burst_entry_defaultvalue"
+                android:entries="@array/pref_camera_burst_entries"
+                android:entryValues="@array/pref_camera_burst_entryvalues"
+                android:key="pref_camera_burst_key"
+                android:title="@string/pref_camera_continuous_capture_title" />
+
+            <!-- SPRD Bug:474721 Feature:Contrast. -->
+            <ListPreference
+                android:defaultValue="@string/pref_contrast_entry_defaultvalue"
+                android:entries="@array/pref_camera_contrast_entries"
+                android:entryValues="@array/pref_camera_contrast_entry_values"
+                android:key="pref_camera_contrast_key"
+                android:title="@string/pref_camera_contrast_title" />
+
+            <!-- SPRD Bug:474715 Feature:Brightness. -->
+            <ListPreference
+                android:defaultValue="@string/pref_brightness_entry_defaultvalue"
+                android:entries="@array/pref_camera_brightness_entries"
+                android:entryValues="@array/pref_camera_brightness_entryvalues"
+                android:key="pref_camera_brightness_key"
+                android:title="@string/pref_camera_brightness_titile" />
+
+            <!-- SPRD Bug:474724 Feature:ISO. -->
+            <ListPreference
+                android:defaultValue="@string/pref_entry_value_auto"
+                android:entries="@array/pref_camera_iso_entries"
+                android:entryValues="@array/pref_camera_iso_entryvalues"
+                android:key="pref_camera_iso_key"
+                android:title="@string/pref_camera_iso_title" />
+
+            <!-- SPRD Bug:474718 Feature:Metering. -->
+            <ListPreference
+                android:defaultValue="@string/pref_camera_metering_entry_value_center_weighted"
+                android:entries="@array/pref_camera_metering_entries"
+                android:entryValues="@array/pref_camera_metering_entryvalues"
+                android:key="pref_camera_metering_key"
+                android:title="@string/pref_camera_metering_title" />
+
+            <!-- SPRD Bug:474722 Feature:Saturation. -->
+            <ListPreference
+                android:defaultValue="@string/pref_saturation_entry_defaultvalue"
+                android:entries="@array/pref_camera_saturation_entries"
+                android:entryValues="@array/pref_camera_saturation_entry_values"
+                android:key="pref_camera_saturation_key"
+                android:title="@string/pref_camera_saturation_title" />
+
+            <!-- SPRD Add for highiso -->
+            <com.android.camera.settings.ManagedSwitchPreference
+                android:defaultValue="false"
+                android:key="pref_high_iso_key"
+                android:title="@string/pref_high_iso_tilte" />
+
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/Video_advanced_settings" >
+            <ListPreference
+                android:defaultValue="@string/pref_video_encode_type_value_default"
+                android:entries="@array/pref_video_encode_type_entries"
+                android:entryValues="@array/pref_video_encode_type_entry_values"
+                android:key="pref_video_encode_type"
+                android:title="@string/pref_video_encode_type_title" />
+
+            <!-- SPRD Bug:495676 Add antibanding for DV -->
+            <ListPreference
+                android:entries="@array/pref_camera_antibanding_entries"
+                android:entryValues="@array/pref_camera_antibanding_entryvalues"
+                android:key="pref_video_antibanding_key"
+                android:title="@string/pref_camera_antibanding_title" />
+
+            <!-- SPRD: Bug:509708 Feature:Time Lapse. -->
+            <ListPreference
+                android:defaultValue="@string/pref_timelapse_entry_value_default"
+                android:entries="@array/pref_video_timelapse_entries"
+                android:entryValues="@array/pref_video_timelapse_entry_values"
+                android:key="pref_video_time_lapse_frame_interval_key"
+                android:title="@string/pref_timelapse_title" />
+            <!-- SPRD Bug:474696 Feature:Slow-Motion. -->
+            <ListPreference
+                android:defaultValue="@string/pref_entry_value_one"
+                android:entries="@array/pref_video_slow_motion_entries"
+                android:entryValues="@array/pref_video_slow_motion_entry_values"
+                android:key="pref_video_slow_motion_key"
+                android:title="@string/pref_video_slow_motion_title" />
+
+            <!-- SPRD: Fix Bug 535139, Video Color Effect. -->
+            <ListPreference
+                android:defaultValue="@string/pref_camera_color_effect_entry_value_none"
+                android:entries="@array/pref_camera_color_effect_entries"
+                android:entryValues="@array/pref_camera_color_effect_entryvalues"
+                android:key="pref_video_color_effect_key"
+                android:title="@string/pref_camera_color_effect_title" />
+
+            <!-- SPRD: Fix Bug 535139, Video White Balance. -->
+            <ListPreference
+                android:defaultValue="@string/pref_camera_whitebalance_default"
+                android:entries="@array/pref_camera_whitebalance_entries"
+                android:entryValues="@array/pref_camera_whitebalance_entryvalues"
+                android:key="pref_video_whitebalance_key"
+                android:title="@string/pref_camera_whitebalance_title" />
+        </PreferenceCategory>
+
+        <!-- SPRD: Gif  Preference -->
+        <PreferenceCategory
+            android:key="pref_gif_advanced_settings"
+            android:title="@string/gif_advanced_settings" >
+            <ListPreference
+                android:defaultValue="@string/pref_gif_mode_pic_size_default"
+                android:entries="@array/pref_gif_mode_pic_size_entries"
+                android:entryValues="@array/pref_gif_mode_pic_size_entryvalues"
+                android:key="pref_gif_mode_pic_size_key"
+                android:title="@string/pref_gif_mode_pic_size_title" />
+            <ListPreference
+                android:defaultValue="@string/pref_gif_mode_pic_num_default"
+                android:entries="@array/pref_gif_mode_pic_number_entries"
+                android:entryValues="@array/pref_gif_mode_pic_number_entryvalues"
+                android:key="pref_gif_mode_pic_number_key"
+                android:title="@string/pref_gif_mode_pic_num_title" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <!-- SPRD Bug:560276 add camera reset settings. @{ -->
+    <Preference
+        android:key="pref_camera_reset_key"
+        android:title="@string/pref_restore_detail" />
+    <!-- @} -->
+
+    <!-- Google Help and feedback launcher -->
+    <!--
+    SPRD Bug:488399 Remove Google Help and Feedback.
+    <Preference
+        android:key="pref_launch_help"
+        android:title="@string/setting_google_help_and_feedback" />
+    -->
+</PreferenceScreen>

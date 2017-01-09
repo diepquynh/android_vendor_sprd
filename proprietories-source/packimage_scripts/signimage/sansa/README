@@ -1,0 +1,58 @@
+Sign image tool (signImage)
+================================
+
+Details are as follows:
+### signImage
+signImage allows to generate signed android image.
+
+### sansa_sign.sh
+execute this shell script to configure environment and generate signed certificate in 'output' folder
+
+
+### config
+contain config file for signed certificate(e.g. certa.cfg)
+
+
+### output
+the output of sansa_sign.sh,while the input of signImage
+
+
+### python
+the python script and library provided by Sansa
+How to get libsbu_crypto.so?
+in Sansa source code depository,enter tools and execute totol_setup.sh,then
+you will find libsbu_crypto.so in cc6.3-sb/crypto_sb/utils/lib
+
+
+### source
+the source code of the signImage
+
+
+
+Steps to create signed image
+=============================
+
+1.Build:
+android-root-dir$ make
+or signImage-root-dir$ mm
+signImage will be created in signImage-root-dir
+
+2.Configure:
+put the config file in 'config' folder according to your custom
+
+3.Execute shell
+signImage-root-dir$ ./sprd_sign.sh
+then get the signed certificates in 'output' folder
+
+4.Execute signImage
+signImage-root-dir$ ./signImage <cert_path> <image> <scheme_level> <debug_cert>
+-cert_path          --The path of certificate
+-image              --The image to be signed
+-scheme_level  = 3  --Three-Level SB Certficate Scheme
+-scheme_level  = 2  --Two-Level SB Certficate Scheme
+-scheme_level  = 1  --Only Content Certficate
+-debug_cert    = 1  --enable debug cert
+-debug_cert    = 0  --disable debug cert
+then get the signed image in 'output' folder
+
+

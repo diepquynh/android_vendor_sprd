@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <carrier_config>
+        <string name="vmnumber">1233</string>
+    </carrier_config>
+    <carrier_config pnn="simyo">
+        <string name="carrier_name_string">Simyo</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <boolean name="mvno" value="true"/>
+    </carrier_config>
+    <carrier_config spn="simyo">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Simyo</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="Ortel NL">
+        <string name="carrier_name_string">Ortel NL</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <boolean name="mvno" value="true"/>
+        <string name="vmnumber">1233</string>
+        <string name="roamingvm">+31612001233</string>
+    </carrier_config>
+    <carrier_config spn="Vectone">
+        <string name="carrier_name_string">Vectone</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <boolean name="mvno" value="true"/>
+    </carrier_config>
+    <carrier_config spn="Lebara">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Lebara</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="vmnumber">1233</string>
+        <string name="roamingvm">+31619001233</string>
+    </carrier_config>
+    <carrier_config spn="Hi">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Hi</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="Rabo Mobiel">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Rabo Mobiel</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

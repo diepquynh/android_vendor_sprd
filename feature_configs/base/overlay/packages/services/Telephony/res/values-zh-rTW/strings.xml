@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD: add for bug474285 callbarring @{ -->
+    <string name="labelCB">呼叫限制</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_DATA_ALWAYS_ONLINE @{ -->
+    <string name="data_always_online">"行動數據始終在線"</string>
+    <string name="data_always_online_summary">"某些行動網路耗用更多電量"</string>
+    <string name="data_always_online_dialog">"停用永遠連接數據業務可能使某些應用程式連接中斷。請在應用程式中使用手動更新功能取得線上數據。"</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_NATIONAL_DATA_ROAMING @{ -->
+    <string name="preferred_data_roaming_title">"數據漫遊"</string>
+    <string name="preferred_data_roaming_summary">"僅限國內漫遊"</string>
+    <string name="preferred_data_roaming_dialogtitle">"數據漫遊"</string>
+    <string name="preferred_data_roaming_disable">"不允許"</string>
+    <string name="preferred_data_roaming_national">"僅限國內漫遊"</string>
+    <string name="preferred_data_roaming_all_networks">"所有網路"</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_MANUAL_SEARCH_NETWORK @{ -->
+    <string name="dialog_network_selection_title">注意</string>
+    <string name="dialog_network_selection_message">在手動選網的條件下，手機不會選擇其它運營商網絡。所以注冊網絡失敗後，需要重新手動選網或使用自動選網。請問要使用「手動選擇」嗎？</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_POPUP_DATA_DIALOG_ON_IMS -->
+    <string name="network_not_on">"當前數據連接處於關閉狀態，是否設定數據連接？"</string>
+    <!-- SPRD: add for bug589612 -->
+    <string name="no_available_phone_accounts">"沒有可用的通話帳戶"</string>
+    <!-- SPRD: add for bug589602 -->
+    <string name="sim_label">"SIM%1$d "</string>
+    <!-- IP Dial Setting for bug474283 -->
+    <string name="ip_dialing_setting">"IP 撥號設定"</string>
+    <!-- SPRD: modify for bug 601486 @{ -->
+    <string name="fdn_name_maxlength">"請輸入長度小於15位數的名稱"</string>
+    <string name="fdn_number_maxlength">"請輸入長度小於21位數的號碼"</string>
+    <!-- @} -->
+    <!-- SPRD: add for bug605875  -->
+    <string name="ip_number_empty_loading">"IP 撥號清單為空。"</string>
+    <!-- SPRD: add for bug579749 @{ -->
+    <string name="network_open">"正在開啟數據連接。"</string>
+    <!-- @} -->
+    <!-- SPRD: add for bug607726  -->
+    <string name="ip_dialing_list_title">"IP 撥號清單"</string>
+    <!-- SPRD: add for bug616257,618759  -->
+    <string name="airplane_on">"請先關閉飛航模式。"</string>
+    <!-- SPRD: Bug 609872 Wrong prompt message when change network selection mode @{ -->
+    <string name="automatic_selection_done">"切換到自動選擇模式"</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_MOBILE_DATA_BUTTON @{ -->
+    <string name="mobile_data_network_button_title">行動數據</string>
+    <!-- @} -->
+</resources>

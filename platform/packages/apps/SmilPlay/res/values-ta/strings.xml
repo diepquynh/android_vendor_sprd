@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_label">செய்தியனுப்புகிறது</string>
+  <string name="new_message">புதிய செய்தி</string>
+  <string name="menu_call_back">அழைப்பு <xliff:g id="name">%s</xliff:g></string>
+  <string name="menu_preferences">அமைப்புகள்</string>
+  <string name="menu_add_address_to_contacts">மக்களுக்கு<xliff:g id="contactEmailOrNumber">%s</xliff:g> சேர்க்கவும்</string>
+  <string name="menu_call">அழைப்பு</string>
+  <string name="menu_search">தேடுக</string>
+  <string name="menu_delete_all">அனைத்து சங்கிலித்தொடர்களை அழிக்கவும்</string>
+  <string name="menu_debug_dump">பிழை திருத்தம் குவித்தல்</string>
+  <string name="refreshing">ப்த்துணர்வாகிறது\u2026</string>
+  <string name="has_draft">வரைவு</string>
+  <string name="no_subject_view">(பொருள் இல்லை)</string>
+  <string name="messagelist_sender_self">எனக்கு</string>
+  <string name="view_slideshow">துண்டுப்படகாட்சி பார்வையிடவும்</string>
+  <string name="view_message_details">விபரங்கள் பார்வையிடவும்</string>
+  <string name="view_delivery_report">அறிக்கை பார்வையிடவும்</string>
+  <string name="delete_message">அழிக்கவும்</string>
+  <string name="expire_on">"காலாவதியாகிறது:<xliff:g id="date">%s</xliff:g>"</string>
+  <string name="kilobyte">KB</string>
+  <string name="undelivered_msg_dialog_body">இந்த செய்தியை அனுப்ப முடியவில்லை.\nமுயற்சி செய்யப்பட்டது: <xliff:g id="message">%s</xliff:g>.</string>
+  <string name="undelivered_sms_dialog_body">இந்த செய்தியை அனுப்ப முடியவில்லை.</string>
+  <string name="delete_thread">திரெட் அழிக்கவும்</string>
+  <string name="menu_forward">முன்னனுப்பு</string>
+  <string name="download">சேமி</string>
+  <string name="downloading">பதிவிறக்கப்படுகிறது</string>
+  <string name="inline_subject">"&lt;பொருள்:<xliff:g id="subject">%s</xliff:g>&gt;"</string>
+  <string name="copy_message_text">வாசகம் நகலெடுக்கவும்</string>
+  <string name="message_options">செய்தி விருப்பத்தெரிவுகள்</string>
+  <string name="done">செய்யப்பட்டது</string>
+  <string name="move_up">மேலே நகர்த்து</string>
+  <string name="move_down">கீழே நகர்த்து</string>
+  <string name="remove_slide">துண்டுப்படத்தை நீக்கவும்</string>
+  <string name="add_slide">துண்டுப்படம் சேர்க்கவும் </string>
+  <string name="add_slide_hint">புதிய துண்டுப்படம் உருவாக்க தொடவும்.</string>
+  <string name="discard_slideshow">துண்டுப்பட காட்சியை ஒதுக்கிவிடுக</string>
+  <string name="slide_show_part">பாகம் <xliff:g id="part">%1$s</xliff:g>/<xliff:g id="total">%2$s</xliff:g></string>
+  <string name="remove_text">வாசகத்தை நீக்கவும்</string>
+  <string name="add_picture">படம் சேர்க்கவும்</string>
+  <string name="remove_picture">படத்தை நீக்கவும்</string>
+  <string name="add_music">இசை சேர்க்கவும்</string>
+  <string name="remove_music">இசையை நீக்கவும்</string>
+  <string name="add_video">வீடியோ சேர்</string>
+  <string name="remove_video">வீடியோ நீக்கவும்</string>
+  <string name="to_hint">பெறுநர்</string>
+  <string name="subject_hint">பொருள்</string>
+  <string name="add_attachment">உடன் இணைக்கவும்</string>
+  <string name="add_subject">பொருள் சேர்க்கவும்</string>
+  <string name="discard">நிராகரிக்கவும்</string>
+  <string name="view">பார்வையிடுக</string>
+  <string name="replace">மாற்றிடு</string>
+  <string name="remove">நீக்குக</string>
+  <string name="send">அனுப்புக</string>
+  <string name="mms">எம் எம் எஸ்</string>
+  <string name="type_to_compose_text_enter_to_send">செய்தி டைப் செய்க</string>
+  <string name="open_keyboard_to_compose_message">செய்தி டைப் செய்ய கீபோர்டு திறக்கவும்</string>
+  <string name="compressing">படம் மிகவும் அகலம். சுருக்குகிறது\u2026</string>
+  <string name="unsupported_media_format">துணை நிற்காத <xliff:g id="name">%1$s</xliff:g>வடிவுரு</string>
+  <string name="select_different_media">வேறொரு <xliff:g id="name">%1$s</xliff:g> தெரிவு செய்யவும்.</string>
+  <string name="exceed_message_size_limitation">செய்தி அளவு எல்லையை அடைந்தது.</string>
+  <string name="message_too_big_for_video">ஒரு வீடியோ வை இணைக்க செய்தி மிகப்பெரிது.</string>
+  <string name="failed_to_add_media">இந்த <xliff:g id="name">%1$s</xliff:g> ஐ உங்களுடைய செய்தியுடன் நீங்கள் சேர்க்க முடியாது.</string>
+  <string name="failed_to_resize_image">படம் மறு அளவு செய்யப்படவில்லை.</string>
+  <string name="resize_image_error_information">அளவு குறைத்த பின்னும், படம் அனுப்பக்கூடிய அளவுக்கு இல்லாமல் பெரிதாக இருக்கிறது.</string>
+  <string name="forward_prefix">முன்தள்ளவும்:\u0020</string>
+  <string name="discard_message_reason">உங்கள் செய்தியில் செல்லத்தக்க பெறுநர்கள் இல்லாத்தால் அது நிராகரிக்கப்படும்.</string>
+  <string name="has_invalid_recipient">செல்லுபடியகாத பெறுனர்(கள்): &lt;<xliff:g id="name">%1$s</xliff:g>&gt;</string>
+  <string name="invalid_destination">நீங்கள் ஒரு செல்லுபடியாகாத முகவரியை உள்ளீடு செய்துள்ளீர்கள்.</string>
+  <string name="service_not_activated">வலையமைப்பில் சேவை செயலாக்கப்படவில்லை.</string>
+  <string name="service_message_not_found">செய்தி காலாவதியானது அல்லது கிடைக்கவில்லை.</string>
+  <string name="service_network_problem">வலையமைப்பு பிரச்சனை காரணமாக அனுப்ப முடியவில்லை.</string>
+  <string name="cannot_send_message">செய்தியை அனுப்ப முடியாது</string>
+  <string name="converting_to_picture_message">மல்ட்டிமீடியா செய்திக்கு மாற்றுகிறது\u2026</string>
+  <string name="cannot_add_slide_anymore">மேலும் துண்டுப்படங்களை சேர்க்க முடியாது.</string>
+  <string name="cannot_add_picture_and_video">ஒரு துண்டுப்படத்திற்கு வீடியோ மற்றும் படத்தை சேர்க்க முடியாது.</string>
+  <string name="cannot_save_message">செய்தியை சேமிக்க முடியாது.</string>
+  <string name="message_saved_as_draft">செய்தி ஒரு வரைவாக சேமிக்கப்பட்டது.</string>
+  <string name="too_many_recipients">செய்தி மிகப்பல பெறுனர்களைக் கொண்டிருக்கிறது (<xliff:g id="currentCount">%1$s</xliff:g>). <xliff:g id="maxLimit">%2$s</xliff:g> பெறுனர்கள் வரம்பு இருக்கிறது.</string>
+  <string name="too_many_attachments">இணைப்புகளுக்கு <xliff:g id="maxLimit">%1$s</xliff:g> ஒரு வரம்பு உள்ளது. முதலாவது<xliff:g id="currentCount">%2$s</xliff:g> மட்டுமே சேர்க்கப்படும்.</string>
+  <string name="adding_attachments_title">அட்டாச்மெண்ட்டுகளை சேர்க்கிறது</string>
+  <string name="cannot_play_audio">ஆடியோவை ப்ளே செய்ய முடியாது.</string>
+  <string name="preview">முன்னோட்டம்</string>
+  <string name="preview_slideshow">முன்னோட்டம்</string>
+  <string name="replace_image">படத்தை மாற்றிடு</string>
+  <string name="duration_sec">கால அவகாசம் (<xliff:g id="duration">%s</xliff:g> வினாடி)</string>
+  <string name="duration_selector_title">"துண்டுப்படத்திற்கான கால அவகாசம்"</string>
+  <string name="layout_selector_title">"துண்டுப்படக் காட்சி லே அவுட்"</string>
+  <string name="layout_top">லே அவுட்(மேல்புறம்)</string>
+  <string name="layout_bottom">லே அவுட்(அடிப்புறம்)</string>
+  <string name="type_to_compose_text_or_leave_blank">செய்தி டைப் செய்க, அல்லது காலியாக விடவும்</string>
+  <string name="duration_not_a_number">கால அவகாசம் ஒரு எண்ணாக் இருக்கவேண்டும்</string>
+  <string name="duration_zero">கால அவகாசம் பூஜயம் நொடிகளுக்கும் அதிகமாக இருக்கவேண்டும்</string>
+  <string name="secs">நொடி</string>
+  <string name="menu_view_contact">தொடர்பு பார்வையிடவும்</string>
+  <string name="menu_add_to_contacts">மக்களுக்கு சேர்க்கவும்</string>
+  <string name="hidden_sender_address">மறைக்கப்பட்ட அனுப்புனர் முகவரி</string>
+  <string name="yes">OK</string>
+  <string name="no">ரத்து</string>
+  <string name="set">அமை</string>
+  <string name="play">இயக்கு</string>
+  <string name="edit">திருத்துக</string>
+  <string name="preferences_title">அமைப்புகள்</string>
+  <string name="restore_default">முன்னிருப்பு அமைப்பை மறுபடிஅமை</string>
+  <string name="pref_notification_settings_title">அறிவிக்கைகள்</string>
+  <string name="pref_mms_settings_title">"மல்ட்டிமீடியா (எம் எம் எஸ்) செய்திகள்"</string>
+  <string name="pref_sms_settings_title">"வாசக (எஸ் எம் எஸ்) செய்திகள்"</string>
+  <string name="pref_sms_storage_title">சேமிப்பகம்</string>
+  <string name="pref_summary_manage_sim_messages">உங்களுடைய சிம் கார்டில் சேமிக்கப்பட்ட செய்திகளை சமாளிக்கவும்</string>
+  <string name="pref_summary_mms_delivery_reports">நீங்கள் அனுப்பும் ஒவ்வொரு செய்திக்கும் சேர்ப்பித்தல் அறிக்கை வேண்டுக</string>
+  <string name="pref_summary_mms_read_reports">நீங்கள் அனுப்பும் ஒவ்வொரு செய்திக்கும் படித்ததன் அறிக்கை வேண்டுக</string>
+  <string name="pref_summary_sms_delivery_reports">நீங்கள் அனுப்பும் ஒவ்வொரு செய்திக்கும் சேர்ப்பித்தல் அறிக்கை வேண்டுக</string>
+  <string name="pref_summary_auto_delete">வரம்புகளை அடைந்ததால் பழைய செய்திகளை அழிக்கவும்</string>
+  <string name="pref_summary_delete_limit"><xliff:g id="count">%1$s</xliff:g> செய்திகள் உரையாடுவதற்காக</string>
+  <string name="pref_title_manage_sim_messages">சிம் கார்டு செய்திகளை சமாளிக்கவும்</string>
+  <string name="pref_title_mms_delivery_reports">சேர்ப்பித்தல் அறிக்கை</string>
+  <string name="pref_title_mms_read_reports">அறிக்கைகள் படிக்கவும் </string>
+  <string name="pref_title_sms_delivery_reports">சேர்ப்பித்தல் அறிக்கை</string>
+  <string name="pref_title_auto_delete">பழைய செய்திகளை அழிக்கவும்</string>
+  <string name="pref_title_sms_delete">வாசகம் செய்தி வரம்பு</string>
+  <string name="pref_title_mms_delete">மல்ட்டி மீடியா செய்தி எல்லை</string>
+  <string name="pref_title_notification_enabled">அறிவிக்கைகள்</string>
+  <string name="pref_title_notification_vibrateWhen">அதிர்வு</string>
+  <string name="pref_title_notification_ringtone">அழைப்பொலியை தேர்ந்தெடு</string>
+  <string name="pref_messages_to_save">சேமிப்பதற்கான் செய்திகளின் எண்ணிக்கையை அமைக்கவும்</string>
+  <string name="pref_title_mms_auto_retrieval">தன்னியக்கமாக மீட்கவும்</string>
+  <string name="pref_summary_mms_auto_retrieval">தன்னியக்கமாக செய்திகளை மீட்கவும்</string>
+  <string name="pref_title_mms_retrieval_during_roaming">ரோமிங் தன்னியக்கம்- மீட்டெடுக்கவும்</string>
+  <string name="pref_summary_mms_retrieval_during_roaming">ரோமிங் சமயம் தன்னியக்கமாக செய்திகளை மீட்கவும்</string>
+  <string name="confirm_dialog_title">அழிக்கவா?</string>
+  <string name="confirm_dialog_locked_title">பூட்டிய செய்தியை அழிக்கவா?</string>
+  <string name="confirm_delete_all_conversations">அனைத்து தொடர்களும் அழிக்கப்படும்.</string>
+  <string name="confirm_delete_message">செய்தி அழிக்கப்படும்.</string>
+  <string name="confirm_delete_locked_message">இந்த பூட்டப்பட்ட செய்தியை அழிக்கவா?</string>
+  <string name="confirm_delete_SIM_message">சிம் கார்டில் இருக்கும் செய்தி அழிக்கப்படும்.</string>
+  <string name="delete_unlocked">பூட்டிய செய்தியை அழிக்கவும்</string>
+  <string name="delete">அழிக்கவும்</string>
+  <string name="select_conversations">உரையாடல்கள் தெரிவு செய்யவும்</string>
+  <string name="no_conversations">உரையாடல்கள் இல்லை</string>
+  <string name="cannot_get_details">விபரங்களைப் பெற முடியாது.</string>
+  <string name="message_details_title">செய்தி விவரங்கள்</string>
+  <string name="message_type_label">வகை:\u0020</string>
+  <string name="text_message">வாசகம் செய்தி</string>
+  <string name="multimedia_message">மல்ட்டி மீடியா செய்தி</string>
+  <string name="multimedia_notification">மல்ட்டி மீடியா செய்தி அறிவிப்பு</string>
+  <string name="from_label">இதில் இருந்து:\u0020</string>
+  <string name="to_address_label">பெறுநர்:\u0022%1$s\u0022</string>
+  <string name="bcc_label">பிசிசி:\u0020</string>
+  <string name="sent_label">அனுப்பியது:\u0020</string>
+  <string name="received_label">பெற்றது:\u0020</string>
+  <string name="saved_label">சேமித்தது:</string>
+  <string name="subject_label">பொருள்:\u0020</string>
+  <string name="message_size_label">செய்தியின்  அளவு:\u0020 </string>
+  <string name="priority_label">முன்னுரிமை:</string>
+  <string name="priority_high">உயரமான</string>
+  <string name="priority_normal">இயல்பான</string>
+  <string name="priority_low">குறைவு</string>
+  <string name="message_class_label">செய்தி வகை:\u0020</string>
+  <string name="error_code_label">பிழை குறியீடு:\u0020</string>
+  <string name="menu_edit">திருத்துக</string>
+  <string name="menu_lock">பூட்டவும்</string>
+  <string name="menu_unlock">பூட்டு திறக்கவும்</string>
+  <string name="sim_copy_to_phone_memory" product="tablet">டேப்லெட் நினைவகத்திற்கு நகலெடுக்கவும்</string>
+  <string name="sim_copy_to_phone_memory" product="default">தொலைபேசி நினைவகத்திற்கு நகலெடுக்கவும்</string>
+  <string name="sim_delete">அழிக்கவும்</string>
+  <string name="sim_manage_messages_title">வாசகம் சிம் 1 கார்டில் உள்ள செய்திகள்</string>
+  <string name="sim_empty">சிம் கார்டில் செய்திகள் இல்லை.</string>
+  <string name="delivery_header_title">தெரியப்படுத்தவும்</string>
+  <string name="status_none">(எதுவுமில்லை)</string>
+  <string name="status_pending">காத்திருப்பில்</string>
+  <string name="status_read">படிக்கவும்</string>
+  <string name="status_received">பெற்றது</string>
+  <string name="status_failed">வெற்றிகரமில்லை</string>
+  <string name="status_unread">படிக்காதது</string>
+  <string name="status_rejected">ஒதுக்கப்பட்டது</string>
+  <string name="recipient_label">பெறுபவர்:\u0020</string>
+  <string name="status_label">நிலைமை:\u0020</string>
+  <string name="attach_image">படங்கள்</string>
+  <string name="attach_take_photo">பட்த்தை படம்பிடிக்கவும்</string>
+  <string name="attach_video">வீடியோக்கள்</string>
+  <string name="attach_record_video">வீடியோ படம்பிடிக்கவும்</string>
+  <string name="attach_sound">ஆடியோ</string>
+  <string name="attach_record_sound">ஆடியஒ பதிவு செய்க</string>
+  <string name="attach_slideshow">துண்டுப்படக் காட்சி</string>
+  <string name="select_bottom_text">வாசகம் அடியில் </string>
+  <string name="select_top_text">வாசகம் மேலே</string>
+  <string name="delivery_toast_body">%sஆல் செய்தி பெறப்பட்டது</string>
+  <string name="notification_failed_multiple"><xliff:g id="count">%s</xliff:g>செய்திகள் அனுப்ப முடியாது.</string>
+  <string name="notification_failed_multiple_title">செய்தி அனுப்பப் படவில்லை</string>
+  <string name="sim_full_title">சிம் கார்டு நிறைவு</string>
+  <string name="sim_full_body">மேலும் இடம் விட சில செய்திகளை அழிக்கவும்.</string>
+  <string name="sms_full_title">வாசகம் செய்தி நினைவகம் நிறைவு</string>
+  <string name="sms_full_body">நிறைந்து விட்ட நினைவகம் காரணமாக உள்வரும் செய்தி ஒன்று மறுக்கப்பட்டது. சில பழைய செய்திகளை அழிக்கவும்.</string>
+  <string name="sms_rejected_title">வாசகம் செய்தி மறுக்கப்பட்டது</string>
+  <string name="sms_rejected_body">தெரியாத ஒரு காரணத்தினால் உள்வரும் செய்தி ஒன்று மறுக்கப்பட்டது.</string>
+  <string name="type_audio">ஆடியோ</string>
+  <string name="type_picture">படம்</string>
+  <string name="type_video">வீடியோ</string>
+  <string name="confirm">உறுதிப்படுத்து</string>
+  <string name="message_send_read_report">ஒரு படிக்கவும் அறிக்கை அனுப்பப்படும்.</string>
+  <string name="message_queued">தற்போதைக்கு உங்கள் செய்தியை அனுப்ப முடியவில்லை. சேவை கிடைக்கப்பெறுகையில் அது அனுப்பப்படும்.</string>
+  <string name="fdn_check_failure">உங்களுடைய நிலைத்த டயலிங் எண்களுக்கு செய்திகள் மட்டுமே நீங்கள் அனுப்ப முடியும்.</string>
+  <string name="no_subject">(பொருள் இல்லை)</string>
+  <string name="unknown_sender">தெரியாத அனுப்புனர்</string>
+  <string name="dl_failure_notification"><xliff:g id="subject">%1$s</xliff:g> செய்தியை <xliff:g id="from">%2$s</xliff:g> லிருந்து செய்தியை தரவிறக்க முடியவில்லை.</string>
+  <string name="rate_limit_surpassed">உறுதிப்படுத்து</string>
+  <string name="confirm_rate_limit">ஏராளமான எண்ணிக்கையிலான மல்ட்டிமீடியா செய்திகள் அனுப்பப்படுகின்றன. இது சரிதானா?</string>
+  <string name="message_download_failed_title">செய்தி தரவிறக்கப்படவில்லை</string>
+  <string name="message_send_failed_title">செய்தி அனுப்பப்படவில்லை</string>
+  <string name="message_failed_body">செய்தியை மீள்பார்வை செய்ய தொடவும் மற்றும் மீண்டும் முயலவும்.</string>
+  <string name="download_later">இப்போதைக்கு தரவிறக்க முடியாது. பின்னர் மீண்டும் முயற்சிக்கவும்.</string>
+  <string name="select_audio">ஆடியோ தெரிவு செய்யவும்</string>
+  <string name="copy_to_sdcard">SD கார்டுடன் நகல் உடன் வைக்கப்பட்டுள்ளது</string>
+  <string name="copy_to_sdcard_success">இணைப்பு சேமிக்கப்பட்டது.</string>
+  <string name="copy_to_sdcard_fail">இணைப்புக் கோப்பினை சேமிக்க முடியவில்லை.</string>
+  <string name="save_ringtone">மணி ஒலியாக செமிக்கவும்</string>
+  <string name="saved_ringtone">மணி ஒலி சேமிக்கப்பட்டது</string>
+  <string name="saved_ringtone_fail">மணியொலி சேமிக்க முடியவில்லை.</string>
+  <string name="select_link_title">செயலை தெரிவு செய்யவும்</string>
+  <string name="slide_number">துண்டுப்படம்<xliff:g id="number" example="5">%s</xliff:g></string>
+  <string name="delivery_report_activity">சேர்ப்பித்தல் அறிக்கை</string>
+  <string name="storage_limits_activity">சேமிப்பக வரம்புகள்</string>
+  <string name="change_duration_activity">கால அவகாசத்தை மாற்றுக</string>
+  <string name="edit_slideshow_activity">துண்டுப்படக்காட்சி திருத்துக</string>
+  <string name="edit_slide_activity">துண்டுப்படம் திருத்துக</string>
+  <string name="slideshow_activity">துண்டுப்படக் காட்சி</string>
+  <string name="class_0_message_activity">0 செய்தி தெரிவு செய்யவும்</string>
+  <string name="search_label">செய்தியனுப்புகிறது</string>
+  <string name="search_hint">செய்தி அனுப்புதலை தேடுக</string>
+  <string name="search">செய்தியனுப்புகிறது</string>
+  <string name="search_setting_description">வாசகம் உங்கள் செய்திகளில்</string>
+  <string name="search_empty">பொருத்தமானவைகள் இல்லை</string>
+  <string name="search_history"><xliff:g id="count">%1$s</xliff:g>\"<xliff:g id="search">%2$s</xliff:g>\"க்கான முடிவுகள்</string>
+  <string name="confirm_clear_search_title">தெளிவான</string>
+  <string name="confirm_clear_search_text">தேடுதல் வரலாறு அழிக்கப்படும்.</string>
+  <string name="save">சேமி</string>
+  <string name="storage_limits_message">உரையாடல் ஒன்றுக்கு நீங்கள் சேமிக்கும் செய்திகளை கட்டுப்படுத்தவும்?</string>
+  <string name="storage_limits_setting">எல்லைகள் அமைக்கவும்</string>
+  <string name="storage_limits_setting_dismiss">வரம்புகள் இல்லை</string>
+  <string name="too_many_unsent_mms">இப்போதைக்கு செய்தியை அனுப்ப முடியாது. மிக அதிகமான அனுப்பப்படாத மல்ட்டிமீடியா செய்திகள்.</string>
+  <string name="sending_message">அனுப்புகிறது\u2026</string>
+  <string name="pick_too_many_recipients">மிக அதிக பெறுனர்கள்</string>
+  <string name="adding_recipients">பெறுனர்களை சேர்க்கிறது\u2026</string>
+  <string name="message_count_format">\u00a0<xliff:g id="number" example="1">%1$s</xliff:g></string>
+  <string name="error_state">சீரற்ற நிலைமை</string>
+  <string name="error_state_text">சங்கிலித்தொடர்கள் மற்றும் பெறுனர்கள் நிலை சீராக இல்லை. தயவு செய்து ஒரு பிரச்னை அறிக்கை பிடித்து அதனை  http://go/droidanizer வழியாக தெரிவிக்கவும்</string>
+  <string name="disable_notifications_dialog_message">இயல்பான செய்தியணுப்பும் அப்ளிகேஷனிலிருந்து இரட்டை வாசக செய்தி அறிவிப்புக்களை நிறுத்தவும்?</string>
+  <string name="loading_conversations">ஏற்றமாகும் உரையாடல்கள்.</string>
+  <string name="delivered_label">சேர்ப்பிக்கப்பட்டது:\u0020</string>
+  <string name="view_more_conversations">மேலும் உரையாடல்களைப் பார்வையிடவும்</string>
+  <string name="notification_separator">\u0020\u0020</string>
+  <string-array name="select_dialog_items">
+         <item>"1 நொடி"</item>
+         <item>"2 வினாடிகள்"</item>
+         <item>"3 வினாடிகள்"</item>
+         <item>"4 வினாடிகள்"</item>
+         <item>"5 வினாடிகள்"</item>
+         <item>"6 வினாடிகள்"</item>
+         <item>"7 எஸ்"</item>
+         <item>"8 எஸ்"</item>
+         <item>"9 எஸ்"</item>
+         <item>"10 நிமிடங்கள்"</item>
+         <item>"மற்ற"</item>
+    </string-array>
+  <plurals name="confirm_delete_conversation">
+        <!-- Case of 1 result. -->
+        <item quantity="one">"ஒரு உரையாடல் அழிக்கப்படும்"</item>
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other">"<xliff:g id="number" example="15">%1$s</xliff:g> உரையாடல்கள் அழிக்கப்படும்."</item>
+    </plurals>
+  <plurals name="slide_duration">
+        <!-- Case of 1-second duration. -->
+        <item quantity="one">"<xliff:g id="number" example="1">%s</xliff:g> நொடி"</item>
+        <!-- Case of "few" (small number of) seconds of duration. -->
+        <item quantity="few">"<xliff:g id="number" example="2">%s</xliff:g>வினாடிகள்"</item>
+        <!-- Case of multiple-second duration. -->
+        <item quantity="other">"<xliff:g id="number" example="15">%s</xliff:g>வினாடிகள்"</item>
+    </plurals>
+  <plurals name="search_results_title">
+        <!-- Case of 1 result. -->
+        <item quantity="one">"<xliff:g id="number" example="1">%1$s</xliff:g> \<xliff:g id="search" example="???">%2$s</xliff:g>\"க்கான முடிவுகள்"</item>
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other">"<xliff:g id="number" example="15">%1$s</xliff:g>\"<xliff:g id="search" example="???">%2$s</xliff:g>\"க்கான முடிவுகள்"</item>
+    </plurals>
+  <plurals name="recipient_count">
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other">"<xliff:g id="number" example="15">%1$s</xliff:g> மக்கள்"</item>
+    </plurals>
+  <string name="menu_cell_broadcasts">செல் ஒலிபரப்புகள்</string>
+  <string name="status_expired">"காலாவதியானது"</string>
+  <string name="message_count_notification">"<xliff:g example="3" id="number">%1$s</xliff:g> புதிய செய்திகள்"</string>
+  <string name="attachment_audio">ஆடியோ</string>
+  <string name="attachment_slideshow">துண்டுப்படக் காட்சி</string>
+  <string name="attachment_video">வீடியோ</string>
+  <string name="attachment_picture">படம்</string>
+  <string name="enumeration_comma">,\u0020</string>
+  <string name="category_mms">எம் எம் எஸ்</string>
+  <string name="category_sms">எஸ் எம் எஸ்</string>
+    <string name="menu_send_email">"<xliff:g id="name">%s</xliff:g>க்கு மின்னஞ்சல் அனுப்பவும்"</string>
+    <string name="menu_compose_new">"உருவாக்குதல்"</string>
+    <string name="menu_delete">"திரெட் அழிக்கவும்"</string>
+    <string name="menu_view">"த்ரெட்டை பார்"</string>
+    <string name="undelivered_msg_dialog_title">"அனுப்பப்படாத செய்தி"</string>
+    <string name="drm_protected_text">"* DRM பாதுகாக்கப்பட்ட உரை *"</string>
+    <string name="insufficient_drm_rights">"போதுமான DRM உரிமைகள் கண்டறியப்படவில்லை."</string>
+    <string name="slideshow_options">"ஸ்லைடு காட்சி விருப்பங்கள்"</string>
+    <string name="send_mms">"MMS அனுப்பு"</string>
+    <string name="all_threads">"அனைத்து த்ரெட்கள்"</string>
+    <string name="sending_disabled_not_default_app">"அனுப்புதல் முடக்கப்பட்டது"</string>
+    <string name="compose_disabled_toast">"உருவாக்க முடியாது. இயல்புநிலை SMS பயன்பாடு இல்லை."</string>
+    <string name="invalid_recipient_message">"பெறுநர்(களை) சரி செய்யவும் அல்லது அவர்கள் செய்தியை பெற மாட்டார்கள்."</string>
+    <string name="cannot_send_message_reason">"உங்கள் செய்தியில் முறையான பெறுநர்கள் இல்லை."</string>
+    <string name="cannot_forward_drm_obj">"செய்தியில் சேர்க்கப்பட்ட DRM பொருளை முன்னனுப்ப முடியாது."</string>
+    <string name="adding_attachments">"ஸ்லைடு காட்சியில் உருப்படிகள் சேர்க்கப்படும் வரை காத்திருக்கவும்."</string>
+    <string name="building_slideshow_title">"ஸ்லைடு ஷோவை ஏற்றுகிறது"</string>
+    <string name="try_to_send">"அனுப்ப முயற்சி செய்"</string>
+    <string name="pref_title_sms_disabled">"SMS முடக்கப்பட்டது"</string>
+    <string name="pref_summary_sms_disabled">"செய்தியிடலை உங்களது இயல்புநிலை SMS பயன்பாடாக ஆக்க தொடவும்"</string>
+    <string name="pref_title_sms_enabled">"SMS செயல்படுத்தப்பட்டது"</string>
+    <string name="pref_summary_sms_enabled">"உங்கள் இயல்புநிலை SMS பயன்பாட்டை மாற்ற தொடவும்"</string>
+    <string name="pref_summary_mms_group_mms">"பல பெறுநர்கள் இருக்கும் போது, ஒரு ஒற்றை செய்தியை அனுப்ப MMS ஐப் பயன்படுத்தவும்"</string>
+    <string name="pref_title_mms_group_mms">"குழு செய்தியிடல்"</string>
+    <string name="silent_ringtone">"நிசப்தம்"</string>
+    <string name="confirm_delete_all_SIM_messages">"SIM அட்டையிலுள்ள அனைத்து செய்திகளும் நீக்கப்படும்."</string>
+    <string name="menu_delete_messages">"செய்திகளை நீக்கவும்"</string>
+    <string name="sim_view">"பார்வையிடுக"</string>
+    <string name="notification_multiple">"<xliff:g id="count">%s</xliff:g> வாசிக்காத செய்திகள்."</string>
+    <string name="notification_multiple_title">"புதிய செய்திகள்"</string>
+    <string name="no_apn">"சாதனத்தில் APN ஏதும் குறிப்பிடப்படவில்லை."</string>
+    <string name="menu_group_participants">"குழு பங்கேற்பாளர்கள்"</string>
+    <string name="recipient_list_activity">"குழு பங்கேற்பாளர்கள்"</string>
+    <string name="pref_mms_clear_search_history_title">"தேடுதல் சரித்திரத்தை நீக்கவும்"</string>
+    <string name="pref_mms_clear_search_history_summary">"தேடல் பெட்டியில் முந்தைய செய்தியிடல் தேடல்கள் தோன்றுவதை நீக்கவும்"</string>
+    <string name="storage_limits_title">"செய்திகளைக் கட்டுப்படுத்தவும்"</string>
+    <string name="draft_separator">",\u0020"</string>
+  <plurals name="message_count_notification_overflow">
+<item quantity="one">"+<xliff:g id="number" example="1">%1$s</xliff:g> பிற செய்தி""</item>
+<item quantity="other">"+<xliff:g id="number" example="15">%1$s</xliff:g> பிற செய்திகள்""</item>
+  </plurals>
+    <string name="message_timestamp_format">"<xliff:g id="string" example="Fred Flinstone">%1$s</xliff:g>\u0020-\u0020<xliff:g id="string" example="9:39AM">%2$s</xliff:g>"</string>
+    <string name="storage_warning_title">"உங்கள் ஃபோனின் சேமிப்பகம் நிரம்பியுள்ளது"</string>
+    <string name="storage_warning_content">"நீங்கள் ஒரு புதிய SMS/MMS செய்திகளைப் பெறமாட்டீர்கள்"</string>
+    <string name="label_mms_send_outbox_msg">"MMS வேக்அப்"</string>
+    <string name="desc_mms_send_outbox_msg">"அவுட்பாக்ஸிருந்து நெட்வொர்க்கிற்கு அனைத்து MMSகளையும் அனுப்புகிறது"</string>
+    <string name="banner_sms_promo_title_initial">"செய்தியிடல் உங்கள் SMS பயன்பாடு அல்ல"</string>
+    <string name="banner_sms_promo_title_application">"<xliff:g id="appName">%s</xliff:g> உங்கள் SMS பயன்பாடாகும்"</string>
+    <string name="banner_sms_promo_message">"நீங்கள் இதை அமைவுகளில் மாற்றலாம்"</string>
+ </resources>

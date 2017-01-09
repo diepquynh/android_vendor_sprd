@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="throttle_status_subtext">"時段上限為 <xliff:g id="USED_2">%3$s</xliff:g>，目前值為 <xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪)\n下一個時段從 <xliff:g id="USED_3">%4$d</xliff:g> 天后 (<xliff:g id="USED_4">%5$s</xliff:g>) 開始"</string>
+<string name="throttle_data_usage_subtext">"時段上限為 <xliff:g id="used">%3$s</xliff:g>，目前值為 <xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A)"</string>
+<string name="throttle_time_frame_subtext">"此週期已過去 <xliff:g id="USED_0">%1$d</xliff:g>٪\n下一個時段將從 <xliff:g id="USED_1">%2$d</xliff:g> 天后 (<xliff:g id="USED_2">%3$s</xliff:g>) 開始"</string>
+<string name="uplmn_setting_title">"偏好設定"</string>
+<string name="call_end_try_again">"通話中，請通話結束後重試。"</string>
+<string name="ActiveUnconCf">"啟動無條件來電轉接"</string>
+<string name="ActiveConCf">"啟動有條件來電轉接"</string>
+<string name="CallForwarded">"呼叫轉接"</string>
+<string name="CallWaiting">撥打等待中</string>
+<string name="OutCallBarred">"禁止呼出"</string>
+<string name="InCallBarred">"禁止呼入"</string>
+<string name="ForwardedCall">"轉移呼叫"</string>
+<string name="CallHold">"撥打被阻塞"</string>
+<string name="CallRetrieved">"撥打被啟動"</string>
+<string name="IncomingCallForwarded">另一通來電被轉接</string>
+<string name="network_not_on">"目前數據連線處於關閉狀態，是否設定數據連線？"</string>
+<string name="network_unknown">"不明"</string>
+<string name="network_inhibit">禁用</string>
+<string name="ip_dialing_title">"IP 撥號"</string>
+<string name="ip_dialing_list_title">"IP 撥號列表"</string>
+<string name="ip_no_number">"缺少IP首碼"</string>
+<string name="ip_no_number_msg">"請設定IP號碼"</string>
+<string name="ip_number_empty_loading">"IP 撥號列表留空。"</string>
+<string name="remove">"移除"</string>
+<string name="ip_number_is_too_long">"IP撥號號碼不能大於20位。"</string>
+<string name="add_ip_number_str">"最新"</string>
+<string name="ip_dialing_num_error">"最多只能儲存10個IP號碼。"</string>
+<string name="ip_dialing_num_repeat">"號碼重複，新增失敗。"</string>
+<string name="menu_selected_all">"全部選中"</string>
+<string name="menu_select_none">"取消全選"</string>
+<string name="lnd_list">"LND 清單"</string>
+<string name="sdn_list">"SDN 清單"</string>
+<string name="network_wcdma_only">"只限 WCDMA"</string>
+<string name="network_3g_2g">"僅3G/2G模式"</string>
+<string name="network_gsm_only">"只限 GSM"</string>
+<string name="network_2g_only">"僅2G模式"</string>
+<string name="network_lte_pref">"4G/3G/2G多模式"</string>
+<string name="network_lte_only">"僅LTE"</string>
+<string-array name="enabled_networks_except_lte_choices">
+<item>"只限 GSM"</item>
+<item>"只限 WCDMA"</item>
+<item>"WCDMA/GSM"</item>
+</string-array>
+<string-array name="lte_preferred_networks_choices_for_common">
+<item>"4G/3G/2G多模式"</item>
+<item>"僅3G/2G模式"</item>
+<item>"僅2G模式"</item>
+</string-array>
+<string name="network_registration_fail_title">"註冊網絡失敗"</string>
+<string name="network_registration_fail">"註冊網絡失敗，是否開啟自動選擇電訊供應商功能？"</string>
+</resources>

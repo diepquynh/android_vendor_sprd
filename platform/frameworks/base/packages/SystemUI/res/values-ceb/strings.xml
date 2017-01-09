@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_label">UI sa Sistema</string>
+<string name="status_bar_clear_all_button">Limas</string>
+<string name="status_bar_recent_remove_item_title">Tanggalon gikan sa lista</string>
+<string name="status_bar_recent_inspect_item_title">Impormasyon sa App</string>
+<string name="status_bar_no_recent_apps">"Ang imong mga bag-o nga mga iskrin kay makita dri"</string>
+<string name="status_bar_accessibility_dismiss_recents">Itiwalag mga bag-ohay nga app</string>
+<plurals name="status_bar_accessibility_recent_apps">
+<item quantity="one">"1 ka iskrin sa Pagtanaw"</item>
+<item quantity="other">"%d ka mga iskrin sa Pagtanaw"</item>
+</plurals>
+<string name="status_bar_no_notifications_title">Walay mga notipikasyon</string>
+<string name="status_bar_ongoing_events_title">Nagpadayon</string>
+<string name="status_bar_latest_events_title">Mga Abiso</string>
+<string name="battery_low_title">"Ang bateri kay ubos"</string>
+<string name="battery_low_percent_format">"<xliff:g id="percentage">%s</xliff:g> nahabilin"</string>
+<string name="battery_low_percent_format_saver_started">"<xliff:g id="percentage">%s</xliff:g> nahabilin. Ang battery saver nagagana."</string>
+<string name="invalid_charger">USB nga pagkarga wala gisuportahan.\nGamita ra ang gihatag nga tigkarga.</string>
+<string name="invalid_charger_title">"USB nga pagkarga kay wala suportahi."</string>
+<string name="invalid_charger_text">"Gamita lamang ang gihatag nga tigkarga."</string>
+<string name="battery_low_why">Mga setting</string>
+<string name="battery_saver_confirmation_title">"Ipagana ang tigsalba sa bateri?"</string>
+<string name="battery_saver_confirmation_ok">"I-on"</string>
+<string name="battery_saver_start_action">"Ipagana ang tigsalba sa bateri"</string>
+<string name="status_bar_settings_settings_button">Mga setting</string>
+<string name="status_bar_settings_wifi_button">Wi-Fi</string>
+<string name="status_bar_settings_auto_rotation">Awto nga pagtiyok sa screen</string>
+<string name="status_bar_settings_mute_label">"Amang"</string>
+<string name="status_bar_settings_auto_brightness_label">"Awto"</string>
+<string name="status_bar_settings_notifications">Mga Abiso</string>
+<string name="bluetooth_tethered">Bluetooth kay nagtether</string>
+<string name="status_bar_input_method_settings_configure_input_methods">Itakda ang mga paagi sa pagsulod</string>
+<string name="status_bar_use_physical_keyboard">Keyboard sa device</string>
+<string name="usb_device_permission_prompt">Tugtan ang app nga <xliff:g id="application">%1$s</xliff:g> nga mu-access sa device sa USB?</string>
+<string name="usb_accessory_permission_prompt">Tuguti ang aplikasyon  <xliff:g id="application">%1$s</xliff:g>para sa mga aksesory</string>
+<string name="usb_device_confirm_prompt">Ablihan ang <xliff:g id="activity">%1$s</xliff:g> kung kini nga device sa USB kay konektado?</string>
+<string name="usb_accessory_confirm_prompt">Ablihan ang <xliff:g id="activity">%1$s</xliff:g> kung kini nga accessory sa USB kay konektado?</string>
+<string name="usb_accessory_uri_prompt">Walay na-install nga mga apps nga nagtrabaho uban ani nga accessory sa USB. Kat-on ug daghan bahin ani nga accessory sa <xliff:g id="url">%1$s</xliff:g></string>
+<string name="title_usb_accessory">Accessory sa USB</string>
+<string name="label_view">Tanaw</string>
+<string name="always_use_device">Gamiton pinaagi sa default para ani nga device sa USB</string>
+<string name="always_use_accessory">Gamiton pinaagi sa default para ani nga accessory sa USB</string>
+<string name="usb_debugging_title">"Tugtan debugging sa USB?"</string>
+<string name="usb_debugging_message">"Ang sa komputer nga RSA nga yawi sa patik sa tudlo kay:\n<xliff:g id="fingerprint">%1$s</xliff:g>"</string>
+<string name="usb_debugging_always">"Kanunay tuguti sa kani nga komputer"</string>
+<string name="usb_debugging_secondary_user_title">"Ang debugging sa USB dili tugotan"</string>
+<string name="usb_debugging_secondary_user_message">"Ang tiggamit kasamtangang naggamit niining aparato dili maka-ON sa USB nga debugging. Aron gamiton kining kabahin, palihug ibalhin ngadto sa Admin nga tiggamit."</string>
+<string name="compat_mode_on">I-zoom para mupuno sa screen</string>
+<string name="compat_mode_off">Binat aron ma-igo sa screen</string>
+<string name="screenshot_saving_ticker">Nagsave sa screenshot\u2026</string>
+<string name="screenshot_saving_title">Nagsave sa screenshot\u2026</string>
+<string name="screenshot_saving_text">Screenshot kay gisave.</string>
+<string name="screenshot_saved_title">Screenshot nadakpan.</string>
+<string name="screenshot_saved_text">"Hikapa aron makita ang imong eskrensyat."</string>
+<string name="screenshot_failed_title">Dili madakpan ang screenshot.</string>
+<string name="screenshot_failed_to_save_unknown_text">"Problema nasugatan samtang gisalbar ang eskrensyat."</string>
+<string name="screenshot_failed_to_save_text">"Dili masalbar ang eskrensyat tungod sa limitado ang lugar sa pundohanan."</string>
+<string name="screenshot_failed_to_capture_text">"Ang pagkuha og mga eskrensyat wala gitugot sa app o sa imong organisasyon."</string>
+<string name="usb_preference_title">Mga opsyon sa pagbalhin sa file sa USB</string>
+<string name="use_mtp_button_title">Isaka silbi nga tigpaandar sa media (MTP)</string>
+<string name="use_ptp_button_title">Isaka silbi nga kamera (PTP)</string>
+<string name="installer_cd_button_title">I-install ang app sa Pagbalhin sa File sa Android para sa Mac</string>
+<string name="accessibility_back">balik</string>
+<string name="accessibility_home">Home</string>
+<string name="accessibility_menu">Menu</string>
+<string name="accessibility_recent">"Pagtanaw"</string>
+<string name="accessibility_search_light">Pangita</string>
+<string name="accessibility_camera_button">Kamera</string>
+<string name="accessibility_phone_button">telepono</string>
+<string name="accessibility_voice_assist_button">"Abag sa tingog"</string>
+<string name="accessibility_unlock_button">I-unlcok</string>
+<string name="accessibility_unlock_button_fingerprint">"Ang buton nga unlock, naghulat para sa patik sa tudlo"</string>
+<string name="accessibility_unlock_without_fingerprint">"I-unlock nga dili maggamit sa imong patik sa tudlo"</string>
+<string name="unlock_label">I-unlcok</string>
+<string name="phone_label">"abli nga telepono"</string>
+<string name="voice_assist_label">"i-abli ang pag-abag sa tingog"</string>
+<string name="camera_label">"Pagabli sa camera"</string>
+<string name="recents_caption_resize">"Pili og bag-ong plano nga gimbuhaton"</string>
+<string name="cancel">"Kansela"</string>
+<string name="accessibility_compatibility_zoom_button">Pislitanan sa compatibility nga zoom.</string>
+<string name="accessibility_compatibility_zoom_example">I-zoom ang mas gamay ngadto sa mas dako nga screen.</string>
+<string name="accessibility_bluetooth_connected">Bluetooth nakakonek.</string>
+<string name="accessibility_bluetooth_disconnected">Bluetooth nadiskonek.</string>
+<string name="accessibility_no_battery">Walay baterya.</string>
+<string name="accessibility_battery_one_bar">Baterya usa ka bar.</string>
+<string name="accessibility_battery_two_bars">Baterya duha ka mga bar.</string>
+<string name="accessibility_battery_three_bars">Baterya tulo ka mga bar.</string>
+<string name="accessibility_battery_full">Puno ang Baterya.</string>
+<string name="accessibility_no_phone">Walay phone.</string>
+<string name="accessibility_phone_one_bar">Phone usa ka bar.</string>
+<string name="accessibility_phone_two_bars">Phone duha ka mga bar.</string>
+<string name="accessibility_phone_three_bars">Phone tulo ka mga bar.</string>
+<string name="accessibility_phone_signal_full">Phone puno ug signal.</string>
+<string name="accessibility_no_data">Walay data.</string>
+<string name="accessibility_data_one_bar">Data usa ka bar.</string>
+<string name="accessibility_data_two_bars">Data kay duha ka mga bar.</string>
+<string name="accessibility_data_three_bars">Data kay tulo ka mga bar.</string>
+<string name="accessibility_data_signal_full">Signal sa Data kay puno.</string>
+<string name="accessibility_wifi_name">"Konektado sa <xliff:g id="wifi" example="Home Network">%s</xliff:g>."</string>
+<string name="accessibility_bluetooth_name">"Konektado sa <xliff:g id="bluetooth" example="Car Audio">%s</xliff:g>."</string>
+<string name="accessibility_cast_name">"Konektado sa <xliff:g id="cast" example="TV">%s</xliff:g>."</string>
+<string name="accessibility_no_wimax">Walay WiMAX.</string>
+<string name="accessibility_wimax_one_bar">WiMAX usa ka bar.</string>
+<string name="accessibility_wimax_two_bars">WiMax duha ka mga bar.</string>
+<string name="accessibility_wimax_three_bars">WiMAX tulo ka mga bar.</string>
+<string name="accessibility_wimax_signal_full">WiMAX puno ang signal.</string>
+<string name="accessibility_ethernet_disconnected">"Ethernet diskonektado."</string>
+<string name="accessibility_ethernet_connected">"Ethernet konektado."</string>
+<string name="accessibility_no_signal">"Walay senyas."</string>
+<string name="accessibility_not_connected">"Dili konektado."</string>
+<string name="accessibility_zero_bars">"Siro ug bara."</string>
+<string name="accessibility_one_bar">"Usa ka bara."</string>
+<string name="accessibility_two_bars">"Duha ka bara."</string>
+<string name="accessibility_three_bars">"Tulo ka bara."</string>
+<string name="accessibility_signal_full">"Puno ug senyas."</string>
+<string name="accessibility_desc_on">"Gipagana."</string>
+<string name="accessibility_desc_off">"Gipawng."</string>
+<string name="accessibility_desc_connected">"Konektado."</string>
+<string name="accessibility_desc_connecting">"Nagkonekta."</string>
+<string name="accessibility_data_connection_roaming">"Nagsuroy"</string>
+<string name="accessibility_data_connection_wifi">Wi-Fi</string>
+<string name="accessibility_no_sim">Walay SIM.</string>
+<string name="accessibility_cell_data">"Selyular nga datus"</string>
+<string name="accessibility_cell_data_on">"Datos sa Selyular nag-ON"</string>
+<string name="accessibility_cell_data_off">"Datos sa Selyular nag-OFF"</string>
+<string name="accessibility_bluetooth_tether">Bluetooth kay nagtether</string>
+<string name="accessibility_airplane_mode">Eroplano paagi</string>
+<string name="accessibility_no_sims">"Walay SIM kard."</string>
+<string name="accessibility_carrier_network_change_mode">"Ang tigdala nga network nag-ilis."</string>
+<string name="accessibility_battery_details">"Ablihi ang mga detalye sa bateriya"</string>
+<string name="accessibility_battery_level">"Bateriya <xliff:g id="number">%d</xliff:g> ka porsiyento."</string>
+<string name="accessibility_battery_level_charging">"Bateriya nag-charge, <xliff:g id="battery_percentage">%d</xliff:g> ka porsiyento."</string>
+<string name="accessibility_settings_button">Mga setting sa Sistema</string>
+<string name="accessibility_notifications_button">"Mga pahibalo."</string>
+<string name="accessibility_remove_notification">Limason ang notipikasyon.</string>
+<string name="accessibility_gps_enabled">GPS gipagana.</string>
+<string name="accessibility_gps_acquiring">Nagdawat sa GPS.</string>
+<string name="accessibility_tty_enabled">Tele nga Typewriter gipagana.</string>
+<string name="accessibility_ringer_vibrate">Kurog sa  tig-ring</string>
+<string name="accessibility_ringer_silent">Tigring kay hilom.</string>
+<string name="accessibility_work_mode">"Modong Trabaho"</string>
+<string name="accessibility_recents_item_will_be_dismissed">"Buhian <xliff:g id="app" example="Calendar">%s</xliff:g>."</string>
+<string name="accessibility_recents_item_dismissed"><xliff:g id="app" example="Calendar">%s</xliff:g> natiwalag.</string>
+<string name="accessibility_recents_all_items_dismissed">"Tanang nangaging mga aplikasyon gi-dismiss."</string>
+<string name="accessibility_recents_item_open_app_info">"Ablihi <xliff:g id="app" example="Calendar">%s</xliff:g> kasayoran sa aplikasyon."</string>
+<string name="accessibility_recents_item_launched">"Sugdan <xliff:g id="app" example="Calendar">%s</xliff:g>."</string>
+<string name="accessibility_recents_task_header">"<xliff:g id="app" example="Chrome">%1$s</xliff:g> <xliff:g id="activity_label" example="www.google.com">%2$s</xliff:g>"</string>
+<string name="accessibility_notification_dismissed">"Ang pagpahibaw gisalikway."</string>
+<string name="accessibility_desc_notification_shade">"Ang pagpahibaw gitago."</string>
+<string name="accessibility_desc_quick_settings">"Dali nga pagtakda."</string>
+<string name="accessibility_desc_lock_screen">"Ikandado ang iskrin."</string>
+<string name="accessibility_desc_settings">Mga setting</string>
+<string name="accessibility_desc_recent_apps">"Pagtanaw."</string>
+<string name="accessibility_desc_close">"Sirado"</string>
+<string name="accessibility_quick_settings_user">"Tiggamit <xliff:g id="user" example="John Doe">%s</xliff:g>."</string>
+<string name="accessibility_quick_settings_wifi">"<xliff:g id="signal" example="Three bars">%1$s</xliff:g>."</string>
+<string name="accessibility_quick_settings_wifi_changed_off">"Wifi kay gipawng."</string>
+<string name="accessibility_quick_settings_wifi_changed_on">"Wifi kay gipagana."</string>
+<string name="accessibility_quick_settings_mobile">"Mobayl <xliff:g id="signal" example="Three bars">%1$s</xliff:g>. <xliff:g id="type" example="4G">%2$s</xliff:g>. <xliff:g id="network" example="T-Mobile">%3$s</xliff:g>."</string>
+<string name="accessibility_quick_settings_battery">"Bateri <xliff:g id="state" example="50% charging">%s</xliff:g>."</string>
+<string name="accessibility_quick_settings_airplane_off">"Eruplano nga moda pawng."</string>
+<string name="accessibility_quick_settings_airplane_on">"Eruplano nga moda migana."</string>
+<string name="accessibility_quick_settings_airplane_changed_off">"Eruplano nga moda kay gipawng."</string>
+<string name="accessibility_quick_settings_airplane_changed_on">"Eruplano nga moda kay gipagana."</string>
+<string name="accessibility_quick_settings_dnd_priority_on">"Ayaw istorboha sa, prayoridad lamang."</string>
+<string name="accessibility_quick_settings_dnd_none_on">"Ayaw istorboha sa, tibuok kahilom."</string>
+<string name="accessibility_quick_settings_dnd_alarms_on">"Ayaw istorboha sa, mga alarma lamang."</string>
+<string name="accessibility_quick_settings_dnd">"Ayaw Pag-istorboha."</string>
+<string name="accessibility_quick_settings_dnd_off">"Ayaw istorboha palong."</string>
+<string name="accessibility_quick_settings_dnd_changed_off">"Ayaw istorboha gipalong"</string>
+<string name="accessibility_quick_settings_dnd_changed_on">"Ayaw istorboha gipagana"</string>
+<string name="accessibility_quick_settings_bluetooth">"Blutot"</string>
+<string name="accessibility_quick_settings_bluetooth_off">"Bluetooth pawng."</string>
+<string name="accessibility_quick_settings_bluetooth_on">"Bluetooth migana."</string>
+<string name="accessibility_quick_settings_bluetooth_connecting">"Bluetooth nagkonekta."</string>
+<string name="accessibility_quick_settings_bluetooth_connected">Bluetooth nakakonek.</string>
+<string name="accessibility_quick_settings_bluetooth_changed_off">"Bluetooth kay gipawng."</string>
+<string name="accessibility_quick_settings_bluetooth_changed_on">"Bluetooth kay gipagana."</string>
+<string name="accessibility_quick_settings_location_off">"Lokasyon nga pagbalita pawng."</string>
+<string name="accessibility_quick_settings_location_on">"Lokasyon nga pagbalita migana."</string>
+<string name="accessibility_quick_settings_location_changed_off">"Lokasyon nga pagbalita kay gipawng."</string>
+<string name="accessibility_quick_settings_location_changed_on">"Lokasyon nga pagbalita kay gipagana."</string>
+<string name="accessibility_quick_settings_alarm">"Alarma kay gitakda para sa <xliff:g id="time" example="Wed 3:30 PM">%s</xliff:g>."</string>
+<string name="accessibility_quick_settings_close">"Isirado ang ali."</string>
+<string name="accessibility_quick_settings_more_time">"Dugang ug oras."</string>
+<string name="accessibility_quick_settings_less_time">"Gamay ug oras."</string>
+<string name="accessibility_quick_settings_flashlight_off">"Playslayt pawng."</string>
+<string name="accessibility_quick_settings_flashlight_unavailable">"Plaslayit wala."</string>
+<string name="accessibility_quick_settings_flashlight_on">"Playslayt pagana."</string>
+<string name="accessibility_quick_settings_flashlight_changed_off">"Playslayt kay gipawng."</string>
+<string name="accessibility_quick_settings_flashlight_changed_on">"Playslayt kay gipagana."</string>
+<string name="accessibility_quick_settings_color_inversion_changed_off">"Ang color nga pagbali kay gipawng."</string>
+<string name="accessibility_quick_settings_color_inversion_changed_on">"Ang color nga pagbali kay gipagana."</string>
+<string name="accessibility_quick_settings_hotspot_changed_off">"Ang mobayl nga hotspot kay gipawng."</string>
+<string name="accessibility_quick_settings_hotspot_changed_on">"Ang mobayl nga hotspot kay gipagana."</string>
+<string name="accessibility_casting_turned_off">"Ang iskrin nga pagsalikway kay gihunong."</string>
+<string name="accessibility_quick_settings_work_mode_off">"Modo nga trabaho naka-OFF."</string>
+<string name="accessibility_quick_settings_work_mode_on">"Modo nga trabaho naka-ON."</string>
+<string name="accessibility_quick_settings_work_mode_changed_off">""Modo nga trabaho gi-OFF."</string>
+<string name="accessibility_quick_settings_work_mode_changed_on">"Modo nga trabaho gi-ON."</string>
+<string name="accessibility_quick_settings_data_saver_changed_off">"Tigsalbar sa Datos gi-OFF."</string>
+<string name="accessibility_quick_settings_data_saver_changed_on">"Tigsalbar sa Datos gi-ON."</string>
+<string name="accessibility_brightness">"Kahayag sa gipakita"</string>
+<string name="data_usage_disabled_dialog_3g_title">"2G-3G data gipahunong"</string>
+<string name="data_usage_disabled_dialog_4g_title">"4G data gipahunong"</string>
+<string name="data_usage_disabled_dialog_mobile_title">"Selyular data gipahunong"</string>
+<string name="data_usage_disabled_dialog_title">"Data gipahunong"</string>
+<string name="data_usage_disabled_dialog">"Tungod ang data sa imong gitakda nga limit naabot na, ang kahimanan nipahunong sa data nga gamit para sa pagpahinumdom niini nga siklo.\n\nAng pagpadayon  mosangpot ngadto sa mga bayronon gikan sa imong tigdala."</string>
+<string name="data_usage_disabled_dialog_enable">ipadayon</string>
+<string name="status_bar_settings_signal_meter_disconnected">" Walay internet nga koneksyon "</string>
+<string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi konektado</string>
+<string name="gps_notification_searching_text">Nangita sa GPS</string>
+<string name="gps_notification_found_text">Lokasyon gitakda sa GPS</string>
+<string name="accessibility_location_active">"Aktibo ang paghangyo sa lokasyon"</string>
+<string name="accessibility_clear_all">Limason tanan mga notipikasyon.</string>
+<string name="notification_group_overflow_indicator">"+ <xliff:g id="number" example="3">%s</xliff:g>"</string>
+<plurals name="notification_group_overflow_description">
+<item quantity="one">"<xliff:g id="number" example="1">%s</xliff:g> pa ka notipikasyon sa sulod."</item>
+<item quantity="other">"<xliff:g id="number" example="3">%s</xliff:g> pa nga dugang notipikasyon sa sulod."</item>
+</plurals>
+<string name="status_bar_notification_inspect_item_title">"Mga setting sa Abiso"</string>
+<string name="status_bar_notification_app_settings_title">"<xliff:g id="app_name" example="Calendar">%s</xliff:g> mga gitakda"</string>
+<string name="accessibility_rotation_lock_off">"Ang iskrin kay awtomatiko nga mutuyok."</string>
+<string name="accessibility_rotation_lock_on_landscape">"Ang iskrin kay makandaduhan sa talanawon nga oryentasyon."</string>
+<string name="accessibility_rotation_lock_on_portrait">"Ang iskrin kay makandaduhan sa hulagway nga oryentasyon."</string>
+<string name="accessibility_rotation_lock_off_changed">"Ang iskrin kay mutuyok na awtomatiko karon."</string>
+<string name="accessibility_rotation_lock_on_landscape_changed">"Ang iskrin kay makandaduhan karon sa talanawon nga oryentasyon."</string>
+<string name="accessibility_rotation_lock_on_portrait_changed">"Ang iskrin kay makandaduhan karon sa hulagway nga oryentasyon."</string>
+<string name="dessert_case">"Hinam-is nga sudlanan"</string>
+<string name="start_dreams">"Tigdaginot sa Eskren"</string>
+<string name="ethernet_label">"Ethernet"</string>
+<string name="quick_settings_dnd_label">Ayaw pagsamok</string>
+<string name="quick_settings_dnd_priority_label">"Prayoridad lamang"</string>
+<string name="quick_settings_dnd_alarms_label">"Mga alarma lamang"</string>
+<string name="quick_settings_dnd_none_label">"Tibuok nga kahilom"</string>
+<string name="quick_settings_bluetooth_label">"Blutot"</string>
+<string name="quick_settings_bluetooth_multiple_devices_label">"Bluetooth (<xliff:g id="number">%d</xliff:g> nga Debays)"</string>
+<string name="quick_settings_bluetooth_off_label">"Gipawng ang Bluetooth"</string>
+<string name="quick_settings_bluetooth_detail_empty_text">"Walay pares nga debays ang magamit"</string>
+<string name="quick_settings_brightness_label">"Kahayag"</string>
+<string name="quick_settings_rotation_unlocked_label">"Awto nga pagtuyok"</string>
+<string name="accessibility_quick_settings_rotation">Awto nga pagtiyok sa screen</string>
+<string name="accessibility_quick_settings_rotation_value">"Itakda sa <xliff:g name="rotation" example="Portrait">%s</xliff:g>"</string>
+<string name="quick_settings_rotation_locked_label">"Gigapos ang pagtuyok"</string>
+<string name="quick_settings_rotation_locked_portrait_label">"Hulagway"</string>
+<string name="quick_settings_rotation_locked_landscape_label">"Talanawon"</string>
+<string name="quick_settings_ime_label">"Paagi sa input"</string>
+<string name="quick_settings_location_label">"Lokasyon"</string>
+<string name="quick_settings_location_off_label">"Gipawng ang lokasyon"</string>
+<string name="quick_settings_media_device_label">"Mga paagi nga debays"</string>
+<string name="quick_settings_rssi_emergency_only">"Kagipit nga mga tawag ra"</string>
+<string name="quick_settings_settings_label">Mga setting</string>
+<string name="quick_settings_time_label">"Oras"</string>
+<string name="quick_settings_user_label">Ako</string>
+<string name="quick_settings_user_title">"Tiggamit"</string>
+<string name="quick_settings_user_new_user">"Bag-o nga tiggamit"</string>
+<string name="quick_settings_wifi_label">Wi-Fi</string>
+<string name="quick_settings_wifi_not_connected">"Dili konektado"</string>
+<string name="quick_settings_wifi_no_network">"Walay network"</string>
+<string name="quick_settings_wifi_off_label">"Gipawng ang Wi-Fi"</string>
+<string name="quick_settings_wifi_on_label">"Wi-Fi nag-ON"</string>
+<string name="quick_settings_wifi_detail_empty_text">"Walay Wi-Fi network nga makuha"</string>
+<string name="quick_settings_cast_title">"Isalikway"</string>
+<string name="quick_settings_casting">"Isalikway"</string>
+<string name="quick_settings_cast_device_default_name">"Wala panganli nga debays"</string>
+<string name="quick_settings_cast_device_default_description">"Andam sa pagsalikway"</string>
+<string name="quick_settings_cast_detail_empty_text">"Walay mga debays ang magamit"</string>
+<string name="quick_settings_brightness_dialog_title">"Kahayag"</string>
+<string name="quick_settings_brightness_dialog_auto_brightness_label">"Awto"</string>
+<string name="quick_settings_inversion_label">"Ibali ang mga kolor"</string>
+<string name="quick_settings_color_space_label">"Paghusto sa kolor nga moda"</string>
+<string name="quick_settings_more_settings">Daghan pang mga Settings</string>
+<string name="quick_settings_done">"Human"</string>
+<string name="quick_settings_connected">"Konektado"</string>
+<string name="quick_settings_connecting">"Sumusumpay..."</string>
+<string name="quick_settings_tethering_label">"Nagtether"</string>
+<string name="quick_settings_hotspot_label">"Hotspot"</string>
+<string name="quick_settings_notifications_label">Mga Abiso</string>
+<string name="quick_settings_flashlight_label">"Espat"</string>
+<string name="quick_settings_cellular_detail_title">"Selyular nga datus"</string>
+<string name="quick_settings_cellular_detail_data_usage">"Paggamit sa data"</string>
+<string name="quick_settings_cellular_detail_remaining_data">"Nahabilin nga datus"</string>
+<string name="quick_settings_cellular_detail_over_limit">"Sobra sa limit"</string>
+<string name="quick_settings_cellular_detail_data_used">"<xliff:g id="data_used" example="2.0 GB">%s</xliff:g> nagamit"</string>
+<string name="quick_settings_cellular_detail_data_limit">"<xliff:g id="data_limit" example="2.0 GB">%s</xliff:g> utlanan"</string>
+<string name="quick_settings_cellular_detail_data_warning">"<xliff:g id="data_limit" example="2.0 GB">%s</xliff:g> pasidaan"</string>
+<string name="quick_settings_work_mode_label">"Modong Trabaho"</string>
+<string name="recents_empty_message">"Walay kasamtangang mga aytem"</string>
+<string name="recents_empty_message_dismissed_all">"Nalimpyo nimo ang tanan"</string>
+<string name="recents_app_info_button_label">"Impormasyon sa aplikasyon"</string>
+<string name="recents_lock_to_app_button_label">"Pagpin sa iskrin"</string>
+<string name="recents_search_bar_label">Pangita</string>
+<string name="recents_launch_error_message">"Dili makasugod <xliff:g id="app" example="Calendar">%s</xliff:g>."</string>
+<string name="recents_launch_disabled_message">"<xliff:g id="app" example="Calendar">%s</xliff:g> wala gipagana sa modo nga luwas."</string>
+<string name="recents_stack_action_button_label">"Limas Tanan"</string>
+<string name="recents_incompatible_app_message">"Ang app dili mosuporta sa pagbahin sa eskren"</string>
+<string name="recents_drag_hint_message">"Guyora dinhi aron gamiton ang bahin nga eskren"</string>
+<string name="recents_multistack_add_stack_dialog_split_horizontal">"Buwag Pababag"</string>
+<string name="recents_multistack_add_stack_dialog_split_vertical">"Buwag Paubos"</string>
+<string name="recents_multistack_add_stack_dialog_split_custom">"Buwag nga naandan"</string>
+<string name="expanded_header_battery_charged">"Nagkarga"</string>
+<string name="expanded_header_battery_charging">"Nagkarga"</string>
+<string name="expanded_header_battery_charging_with_time">"<xliff:g id="charging_time" example="2 hrs 25 min">%s</xliff:g> hangtod mapuno"</string>
+<string name="expanded_header_battery_not_charging">"Wala nagkarga"</string>
+<string name="ssl_ca_cert_warning">"Tingali gibantayan ang network"</string>
+<string name="description_target_search">Pangita</string>
+<string name="description_direction_up">"Ipadanas pasaka para <xliff:g id="target_description" example="Unlock">%s</xliff:g>."</string>
+<string name="description_direction_left">""Ipadanas sa wala para <xliff:g id="target_description" example="Unlock">%s</xliff:g>."</string>
+<string name="zen_priority_introduction">"Dili ka ma-istorbo sa mga tingog ug mga dahunog, gawas gikan sa mga alarma, mga pahinumdom, mga hitabo, ug mga tawag nga imong hinganlan."</string>
+<string name="zen_priority_customize_button">Usbon</string>
+<string name="zen_silence_introduction_voice">"Kini mopakgang sa TANANG mga tingog ug mga dahunog, lakip na ang gikan sa mga alarma, mga huni, mga bidyo ug mga dula. Mahimo ka gihapon nga makatawag pinaagi sa telepono."</string>
+<string name="zen_silence_introduction">"Kini mopakgang sa TANANG mga tingog ug mga dahunog, lakip na ang gikan sa mga alarma, mga huni, mga bidyo ug mga dula."</string>
+<string name="keyguard_more_overflow_text">"+<xliff:g id="number_of_notifications" example="5">%d</xliff:g>"</string>
+<string name="speed_bump_explanation">"Dili kaayo dali nga mga pahibalo sa ubos"</string>
+<string name="notification_tap_again">"Hikapa pag-usab aron ablihon"</string>
+<string name="keyguard_unlock">"Ipadanas pataas para ma-abli"</string>
+<string name="phone_hint">"I-swipe gikan sa aykon para sa telepono"</string>
+<string name="voice_hint">"I-swipe gikan sa aykon para sa abag boses"</string>
+<string name="camera_hint">"I-swipe gikan sa aykon para sa kamera"</string>
+<string name="interruption_level_none_with_warning">"Tibuok nga kahilom. Kini usab mopahilom sa magbabasa sa eskren."</string>
+<string name="interruption_level_none">"Tibuok nga kahilom"</string>
+<string name="interruption_level_priority">"Prayoridad lamang"</string>
+<string name="interruption_level_alarms">"Mga alarma lamang"</string>
+<string name="interruption_level_none_twoline">"Tibuok\nkahilom"</string>
+<string name="interruption_level_priority_twoline">"Mga prayoridad\nlang"</string>
+<string name="interruption_level_alarms_twoline">"Alarma\nlang"</string>
+<string name="keyguard_indication_charging_time">"Nagkarga (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> hangtod mapuno)"</string>
+<string name="keyguard_indication_charging_time_fast">"Nag-charge og paspas (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> hangtud mapuno)"</string>
+<string name="keyguard_indication_charging_time_slowly">"Nag-charge og hinay ((<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> hangtud mapuno)"</string>
+<string name="accessibility_multi_user_switch_switcher">"Pulihan ang tiggamit"</string>
+<string name="accessibility_multi_user_switch_switcher_with_current">"Pulihan ang tiggamit, ang kasamtangan nga tiggamit <xliff:g id="current_user_name" example="John Doe">%s</xliff:g>"</string>
+<string name="accessibility_multi_user_switch_inactive">"Kasamtangan nga tiggamit <xliff:g id="current_user_name" example="John Doe">%s</xliff:g>"</string>
+<string name="accessibility_multi_user_switch_quick_contact">"Ipakita ang propayl"</string>
+<string name="user_add_user">"Dugang ug tiggamit"</string>
+<string name="user_new_user_name">"Bag-o nga tiggamit"</string>
+<string name="guest_nickname">"Bisita"</string>
+<string name="guest_new_guest">"Dugang ug bisita"</string>
+<string name="guest_exit_guest">"Tangtangon ang bisita"</string>
+<string name="guest_exit_guest_dialog_title">"Tangtangon ang bisita?"</string>
+<string name="guest_exit_guest_dialog_message">"Tanan mga app ug datus sa kani nga sesyon kay panason."</string>
+<string name="guest_exit_guest_dialog_remove">"Tangtang"</string>
+<string name="guest_wipe_session_title">"Maayong pagbalik, bisita!"</string>
+<string name="guest_wipe_session_message">"Ganahan ba ka magpadayon sa imo sesyon?"</string>
+<string name="guest_wipe_session_wipe">"Sugod dayon"</string>
+<string name="guest_wipe_session_dontwipe">"Oo, padayon"</string>
+<string name="guest_notification_title">"Bisita nga tiggamit"</string>
+<string name="guest_notification_text">"Aron papason ang app ug data, kuhaa ang bisitang tiggamit"</string>
+<string name="guest_notification_remove_action">"Tangtangon ang bisita"</string>
+<string name="user_logout_notification_title">"Tiggamit nag-Logout"</string>
+<string name="user_logout_notification_text">"Kasamtangang tiggamit nag-Logout"</string>
+<string name="user_logout_notification_action">"Tiggamit nag-Logout"</string>
+<string name="user_add_user_title">"Dugang ug bag-o nga tiggamit?"</string>
+<string name="user_add_user_message_short">"Kung magdugang ka ug bag-o nga tiggamit, kana nga tawo kinahanglan sa pagtakda sa ila kaugalingon nga espasyo.\n\nBisag kinsa nga tiggamit mahimong magbag-o sa mga app para sa tanan nga tiggamit."</string>
+<string name="user_remove_user_title">Tanggalon ang tiggamit</string>
+<string name="user_remove_user_message">"Ang tanang mga app ug mga datos niini nga tiggamit pagapapason."</string>
+<string name="user_remove_user_remove">"Tangtang"</string>
+<string name="battery_saver_notification_title">"Ang tigsalba sa bateri kay migana"</string>
+<string name="battery_saver_notification_text">"Hinayi ang paghimo ug likoran nga datus"</string>
+<string name="battery_saver_notification_action_text">"Pawnga ang tigsalba sa bateri"</string>
+<string name="media_projection_dialog_text">"<xliff:g id="app_seeking_permission" example="Hangouts">%s</xliff:g> kay magsugod sa pagkuha sa tanan nga nagpakita sa imong iskrin."</string>
+<string name="media_projection_remember_text">"Ayaw ni ipakita usab"</string>
+<string name="clear_all_notifications_text">"Limas Tanan"</string>
+<string name="media_projection_action_text">"Sugod karon"</string>
+<string name="empty_shade_text">Walay mga notipikasyon</string>
+<string name="device_owned_footer">"Ang debays mahimong gibantayan"</string>
+<string name="profile_owned_footer">"Ang propayl mahimong gibantayan"</string>
+<string name="vpn_footer">"Ang network kay mahimong gibantayan"</string>
+<string name="monitoring_title_device_owned">"Debays nga pagbantay"</string>
+<string name="monitoring_title_profile_owned">"Propayl nga pagbantay"</string>
+<string name="monitoring_title">"Magbantay sa Network"</string>
+<string name="disable_vpn">"Dili ipagana ang VPN"</string>
+<string name="disconnect_vpn">"Putlon ang VPN"</string>
+<string name="monitoring_description_device_owned">"Ang imong kahimanan gidumala sa <xliff:g id="organization">%1$s</xliff:g>.\n\nAng imong administrador maka-monitor ug makadumala sa mga seting, korporeyt akses, mga app, data nga inubanan sa imong kahimanan, ug ang impormasyon sa lokasyon sa imong kahimanan. Para sa dugang impormasyon, kontaka ang imong administrador."</string>
+<string name="monitoring_description_vpn">"Mihatag ka og permiso sa app aron itakda ang koneksyon sa VPN.\n\n Kini nga app maka-monitor sa imong kahimanan ug aktibidad sa network, lakip na ang mga email, mga app, ug mga website."</string>
+<string name="monitoring_description_vpn_device_owned">"Ang imong kahimanan gidumala sa <xliff:g id="organization">%1$s</xliff:g>.\n\nAng imong administrador maka-monitor ug makadumala sa mga seting, korporeyt akses, mga app, data nga inubanan sa imong kahimanan, ug mga impormasyon sa lokasyon sa imong kahimanan.\n\nIkaw konektado ngadto sa VPN, kinsa maka-monitor sa imong aktibidad sa network, lakip na ang mga email, mga app, ug mga websites.\n\nPara sa dugang  impormasyon, kontaka ang imong administrador."</string>
+<string name="monitoring_description_vpn_profile_owned">"Ang imong profile gidumala sa  <xliff:g id="organization">%1$s</xliff:g>.\n\nAng imong administrador makahimo sa pag-monitor sa aktibidad sa imong network lakip na ang mga email, apps, ug mga websites.\n\nPara sa dugang impormasyon, kontaka ang imong administrador. \n\nikaw konektado usab sa VPN, kinsa maka-monitor sa imong aktibidad sa network."</string>
+<string name="monitoring_description_app">"Ikaw konektado ngadto sa <xliff:g id="application">%1$s</xliff:g>, diin maka-monitor sa imong  aktibidad sa network lakip ang mga email, mga app, ug mga website."</string>
+<string name="monitoring_description_app_personal">"Ikaw konektado sa <xliff:g id="application">%1$s</xliff:g>, kinsa maka-monitor sa imong personal nga aktibidad sa network, lakip na ang mga email, mga apps, ug mga website."</string>
+<string name="monitoring_description_app_work">"Ang imong propayl sa trabaho gidumala sa <xliff:g id="organization">%1$s</xliff:g>. kini konektado ngadto sa <xliff:g id="application">%2$s</xliff:g>, kinsa maka-monitor sa imong personal nga aktibidad sa network, lakip na ang mga email,  mga app, ug mga website.\n\nPara sa dugang mga impormasyon, kontaka ang imong administrador."</string>
+<string name="monitoring_description_app_personal_work">"Ang imong propayl sa trabaho gidumala sa <xliff:g id="organization">%1$s</xliff:g>. kini konektado ngadto sa <xliff:g id="application_work">%2$s</xliff:g>,  kinsa maka-monitor sa imong personal nga aktibidad sa network, lakip na ang mga email,  mga app, ug mga website.\n\nIkaw konektado usab ngadto sa <xliff:g id="application_personal">%3$s</xliff:g>, kinsa maka-monitor sa aktbidad sa imong personal nga network."</string>
+<string name="monitoring_description_vpn_app_device_owned">"Ang imong kahimanan gidumala sa <xliff:g id="organization">%1$s</xliff:g>.\n\nAng imong administrador maka-monitor ug makadumala sa mga seting , korporeyt akses, mga app, data nga inubanan sa sa imong kahimanan, ug ang impormasyon sa lokasyon sa imong kahimanan.\n\nIkaw konektado sa <xliff:g id="application">%2$s</xliff:g>, kinsa maka-monitor sa imong aktibidad sa network, lakip na ang mga emails, mga app, ug mga website.\n\nPara sa dugang impormasyon, kontaka ang imong administrador."</string>
+<string name="keyguard_indication_trust_disabled">"Ang debays magpabilin nga nakandado hangtod imo ni mawalon sa pagabli"</string>
+<string name="hidden_notifications_title">"Kuha ug mga pahibalo nga mas paspas"</string>
+<string name="hidden_notifications_text">"Itakda sila busa sa pagabli"</string>
+<string name="hidden_notifications_cancel">"Salamat ayaw nlng"</string>
+<string name="hidden_notifications_setup">"Itakda"</string>
+<string name="zen_mode_and_condition">"<xliff:g id="zen_mode" example="Priority interruptions only">%1$s</xliff:g>. <xliff:g id="exit_condition" example="For one hour">%2$s</xliff:g>"</string>
+<string name="volume_zen_end_now">"Taposa karon"</string>
+<string name="accessibility_volume_expand">"Palapda"</string>
+<string name="accessibility_volume_collapse">"Nahugno"</string>
+<string name="screen_pinning_title">"Ang eskren gi-pin"</string>
+<string name="screen_pinning_description">"Kini magpabilin nga makita hangtud nga imong i-unpin. Hikapa &amp; ug guniti og balik aron ma-unpin."</string>
+<string name="screen_pinning_positive">"NAKUHA NA"</string>
+<string name="screen_pinning_negative">"Salamat ayaw nlng"</string>
+<string name="quick_settings_reset_confirmation_title">"Tago <xliff:g id="tile_label" example="Hotspot">%1$s</xliff:g>?"</string>
+<string name="quick_settings_reset_confirmation_message">"Magpakita kana pag-usab sa sunod higayon nga ipagana nimo sa seting."</string>
+<string name="quick_settings_reset_confirmation_button">"Tago"</string>
+<string name="volumeui_prompt_message">"<xliff:g id="app_name" example="Volume Prototype 1">%1$s</xliff:g> gusto nga mahimong kusog nga tingog nga dayalogo."</string>
+<string name="volumeui_prompt_allow">"Tugtan"</string>
+<string name="volumeui_prompt_deny">"Balibad"</string>
+<string name="volumeui_notification_title">"<xliff:g id="app_name" example="Volume Prototype 1">%1$s</xliff:g> mao ang kusog nga tingog nga dayalogo."</string>
+<string name="volumeui_notification_text">"Hikapa aron mabalik sa orihinal."</string>
+<string name="managed_profile_foreground_toast">"Naggamit ka sa imong propayl sa trabaho"</string>
+<string name="volume_stream_content_description_unmute">"%1$s. Hikapa aron mapa-unmute."</string>
+<string name="volume_stream_content_description_vibrate">"%1$s. Hikapa aron matakda ang kurog. Aksesibilidad nga mga serbisyo mahimong mapahilom."</string>
+<string name="volume_stream_content_description_mute">"%1$s. Hikapa aron mapahilom.  Aksesibilidad nga mga serbisyo mahimong mapahilom."</string>
+<string name="volume_dialog_accessibility_shown_message">"%s mga bolyum kontrol gipakita. Ipahid paibabaw aron mawala."</string>
+<string name="volume_dialog_accessibility_dismissed_message">"Mga bolyum kontrol gitagoan"</string>
+<string name="system_ui_tuner">"Sistema nga UI Tuner"</string>
+<string name="show_battery_percentage">"Ipakita ang porsiyento sa nasukip nga bateriya"</string>
+<string name="show_battery_percentage_summary">"Ipakita ang porsiyento sa lebel sa bateriya sulod sa status bar aykon kon wala nagkarga"</string>
+<string name="quick_settings">"Paspas nga mga seting"</string>
+<string name="status_bar">"estado nga bar"</string>
+<string name="overview">"Pagtanaw"</string>
+<string name="demo_mode">"Modo nga demo"</string>
+<string name="enable_demo_mode">"Paganahon ang modo nga demo"</string>
+<string name="show_demo_mode">"Ipakita ang modo nga demo"</string>
+<string name="status_bar_ethernet">"Ethernet"</string>
+<string name="status_bar_alarm">Alarma</string>
+<string name="status_bar_work">"Trabaho nga propayl"</string>
+<string name="status_bar_airplane">Eroplano paagi</string>
+<string name="add_tile">"Dugangi og tile"</string>
+<string name="broadcast_tile">"Broadcast Tile"</string>
+<string name="zen_alarm_warning_indef">"Dili nimo madungog ang sunod nga alarma sa <xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g> hangtud nga dili nimo ni pagngon unya"</string>
+<string name="zen_alarm_warning">"Dili nimo madungog ang sunod nga alarma sa<xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g>"</string>
+<string name="alarm_template">"sa <xliff:g id="when" example="7:00 AM">%1$s</xliff:g>"</string>
+<string name="alarm_template_far">"sa <xliff:g id="when" example="Fri 7:00 AM">%1$s</xliff:g>"</string>
+<string name="accessibility_quick_settings_detail">"Paspas nga mga seting, <xliff:g id="title" example="Wi-Fi">%s</xliff:g>."</string>
+<string name="accessibility_status_bar_hotspot">"Hotspot"</string>
+<string name="accessibility_managed_profile">"Trabaho nga propayl"</string>
+<string name="tuner_warning_title">"Kataw-anan sa uban apan dili sa tanan"</string>
+<string name="tuner_warning">"Sistemang UI Tuner magahatag kanimo og sobra nga mga paagi aron hugtan ug ipahiangay ang interface sa tiggamit sa Android. Kining mga eksperimento nga bahin mahimong mausab, mabuak, o mawala sa umaabot nga mga gawas. Padayon uban sa pag-amping."</string>
+<string name="tuner_persistent_warning">"Kining mga eksperimento nga mga bahin mahimong mausab, mabuak, o mawala sa umaabot nga mga gawas. Padayon uban sa pag-amping."</string>
+<string name="got_it">"NAKUHA NA"</string>
+<string name="tuner_toast">"Pahalipay! Ang Sistemang UI Tuner nadugang na sa mga Seting"</string>
+<string name="remove_from_settings">"Kuhaa gikan sa mga Seting"</string>
+<string name="remove_from_settings_prompt">"Kuhaa ang Sistemang UI Tuner gikan sa Seting ug undangi sa paggamit ang tanan niyang mga kabahin?""</string>
+<string name="activity_not_found">"Ang aplikasyon wala mataud sa imong aparato"</string>
+<string name="clock_seconds">"Ipakita ang mga segundos sa orasan"</string>
+<string name="clock_seconds_desc">"Ipakita ang mga segundos sa orasan sa estado nga bar."</string>
+<string name="qs_rearrange">"Ibalik og Han-ay ang Paspas nga mga Seting"</string>
+<string name="show_brightness">"Ipakita ang Kahayag sa Paspas nga mga Seting"</string>
+<string name="overview_nav_bar_gesture">"Paganaha ang bahin nga eskren pahid nga lihok"</string>
+<string name="overview_nav_bar_gesture_desc">"Paganaha ang lihok aron i-entra ang bahin nga eskren  pinaagi sa pagpahid gikan sa buton nga Oberbyu"</string>
+<string name="experimental">"Eksperimental"</string>
+<string name="enable_bluetooth_title">"I-on ba ang Blutot?"</string>
+<string name="enable_bluetooth_message">"Aron ikonekta ang imong keybord sa imong tablet, kinahanglan i-ON usa nimo ang Blutot."</string>
+<string name="enable_bluetooth_confirmation_ok">"I-on"</string>
+<string name="show_silently">"Ipakita ang mga notipikasyon og hilom"</string>
+<string name="block">"Babagi ang tanang mga notipikasyon"</string>
+<string name="do_not_silence">"Ayaw ipahilom"</string>
+<string name="do_not_silence_block">"Ayaw ipahilom o babagi"</string>
+<string name="tuner_full_importance_settings">"Mga kontrol sa notipikasyon sa Pawer"</string>
+<string name="tuner_full_importance_settings_on">"Pagana"</string>
+<string name="tuner_full_importance_settings_off">"Pawng"</string>
+<string name="power_notification_controls_description">"Sa mga kontrol sa notipikasyon sa kusog, mahimo nimo itakda sa importanteng lebel gikan sa 0 ngadto sa 5 para sa mga notipikasyon sa app.\n\n<b>Level 5</b> \n- Ipakita sa ibabaw sa listahan sa notipikasyon \n- Tugoti ang tibuok nga eskren nga pagbalda \n- Lili-a kanunay \n\n<b>Lebel 4</b> \n- Babagi ang tibuok eskren nga pagbalda \n- Lili-a kanunay \n\n<b>Lebel 3</b> \n- Babagi ang tibuok eskren nga pagbalda \n- Ayaw paglili \n\n<b>Lebel 2</b> \n- Babagi ang tibuok eskren nga pagbalda  \n- Ayaw paglili \n- Ayaw paghimo\'g tingog o kurog \n\n<b>Lebel 1</b> \n-Babagi ang tibuok eskren nga pagbalda \n- Ayaw paglili \n- Ayaw paghimo\'g tingog o kurog  \n- Tago gikan sa siradura sa eskren ug sa estado nga bar \n- Pakita sa ubos sa listahan sa notipikasyon  \n\n<b>Lebel 0</b> \n- Babagi ang tanang mga notipikasyon gikan sa app "</string>
+<string name="user_unspecified_importance">"Kamahinungdanon: Awtomatiko"</string>
+<string name="blocked_importance">"Kamahinungdanon:  Lebel 0"</string>
+<string name="min_importance">"Kamahinungdanon:  Lebel 1"</string>
+<string name="low_importance">"Kamahinungdanon:  Lebel 2"</string>
+<string name="default_importance">"Kamahinungdanon:  Lebel 3"</string>
+<string name="high_importance">"Kamahinungdanon:  Lebel 4"</string>
+<string name="max_importance">"Kamahinungdanon:  Lebel 5"</string>
+<string name="notification_importance_user_unspecified">"Ang app motino sa kamahinungdanon sa matag notipikasyon."</string>
+<string name="notification_importance_blocked">"Ayaw gayud ipakita ang mga notipikasyon gikan niining maong app."</string>
+<string name="notification_importance_min">"Walay nakababag nga tibuok eskren, manambo, tingog, o kurog. Tago gikan sa siradura sa eskren ug sa estado nga bar."</string>
+<string name="notification_importance_low">"Walay nakababag nga tibuok eskren, manambo, tingog, o kurog. "</string>
+<string name="notification_importance_default">"Walay tibuok eskren nga pagbabag o pagpanambo."</string>
+<string name="notification_importance_high">"Lili-a kanunay. Walay tibuok eskren nga pagbabag."</string>
+<string name="notification_importance_max">"Lili-a kanunay, ug tugoti ang tibuok eskren nga pagbabag."</string>
+<string name="notification_more_settings">Daghan pang mga Settings</string>
+<string name="notification_done">"Human"</string>
+<string name="notification_gear_accessibility">"<xliff:g id="app_name" example="YouTube">%1$s</xliff:g> mga kontrol sa notipikasyon"</string>
+<string name="color_and_appearance">"Bulok ug hitsura"</string>
+<string name="night_mode">"Gabii nga metodo"</string>
+<string name="calibrate_display">"Kalibreyt displey"</string>
+<string name="night_mode_on">"Pagana"</string>
+<string name="night_mode_off">"Pawng"</string>
+<string name="turn_on_automatically">"Ipagana awtomatiko"</string>
+<string name="turn_on_auto_summary">"Ibalhin ngadto sa Modong Gabii nga maoy tukma sa lokasyon ug oras sa adlaw"</string>
+<string name="when_night_mode_on">"Kon ang Modo nga Gabii nag-ON"</string>
+<string name="use_dark_theme">"Gamit og ngitngit nga tema alang sa Android OS"</string>
+<string name="adjust_tint">"Ipahiangay ang tint"</string>
+<string name="adjust_brightness">"Ipahiangay ang kahayagon"</string>
+<string name="night_mode_disclaimer">"Ang ngitngit nga tema sa kinauyokan nga bahin sa  Android OS nga mormal nga magpakita sa manipis nga tema, sama sa mga Seting."</string>
+<string name="color_apply">"I-aplay"</string>
+<string name="color_revert_title">"Kompirmaha ang mga Seting"</string>
+<string name="color_revert_message">"Ang ubang mga seting sa bulok makahimo niini nga aparato nga dili magamit. I-klik ang OK aron kompirmahon kining mga seting sa bulok, Kondili kining maong mga seting ma-reset human sa 10 ka segundos."</string>
+<string name="battery_panel_title">"Gamit sa bateriya"</string>
+<string name="battery_detail_charging_summary">"Ang pagdaginot sa Bateriya dili makuha sa panahon nga nag-charge"</string>
+<string name="battery_detail_switch_title">"Tigsalba sa Bateri"</string>
+<string name="battery_detail_switch_summary">"Hinayi ang paghimo ug likoran nga datus"</string>
+<string name="keyboard_key_button_template">"Buton <xliff:g id="name">%1$s</xliff:g>"</string>
+<string name="keyboard_key_back">balik</string>
+<string name="keyboard_key_dpad_up">"Itaas"</string>
+<string name="keyboard_key_dpad_down">"I-ubos"</string>
+<string name="keyboard_key_dpad_left">"Wala"</string>
+<string name="keyboard_key_dpad_right">"Tuo"</string>
+<string name="keyboard_key_dpad_center">"Tunga"</string>
+<string name="keyboard_key_space">"spasyo"</string>
+<string name="keyboard_key_backspace">"ibalik"</string>
+<string name="keyboard_key_media_play_pause">"Patukar/Pahunong"</string>
+<string name="keyboard_key_media_stop">Hunong</string>
+<string name="keyboard_key_media_next">"Sunod"</string>
+<string name="keyboard_key_media_previous">"Nilabay"</string>
+<string name="keyboard_key_media_rewind">"Balik"</string>
+<string name="keyboard_key_media_fast_forward">"Paspas paguna"</string>
+<string name="keyboard_key_page_up">"Panid ipataas"</string>
+<string name="keyboard_key_page_down">"Panid ipaubos"</string>
+<string name="keyboard_key_forward_del">"Panas"</string>
+<string name="keyboard_key_numpad_template">"Pad sa numero <xliff:g id="name">%1$s</xliff:g>"</string>
+<string name="keyboard_shortcut_group_system">Sistema</string>
+<string name="keyboard_shortcut_group_system_home">Home</string>
+<string name="keyboard_shortcut_group_system_recents">"Bag-o"</string>
+<string name="keyboard_shortcut_group_system_back">balik</string>
+<string name="keyboard_shortcut_group_system_notifications">Mga Abiso</string>
+<string name="keyboard_shortcut_group_system_shortcuts_helper">"Laktoranan sa Keybord"</string>
+<string name="keyboard_shortcut_group_system_switch_input">"Baylo ug pagsulod nga paagi"</string>
+<string name="keyboard_shortcut_group_applications">Mga aplikasyon</string>
+<string name="keyboard_shortcut_group_applications_assist">"Pag-abag"</string>
+<string name="keyboard_shortcut_group_applications_browser">"Tig-browse"</string>
+<string name="keyboard_shortcut_group_applications_contacts">Mga kontak</string>
+<string name="keyboard_shortcut_group_applications_email">Email</string>
+<string name="keyboard_shortcut_group_applications_im">"IM"</string>
+<string name="keyboard_shortcut_group_applications_music">"Tukar"</string>
+<string name="keyboard_shortcut_group_applications_calendar">"kalendaryo"</string>
+<string name="tuner_full_zen_title">"Ipakita uban sa mga kontrol sa bolyum"</string>
+<string name="volume_and_do_not_disturb">Ayaw pagsamok</string>
+<string name="volume_dnd_silent">"Mga buton nga laktoranan sa bolyum"</string>
+<string name="volume_up_silent">"Gawas ayaw istorboha ang bolyum pataas"</string>
+<string name="battery">"Paggamit sa baterya"</string>
+<string name="clock">"Orasan"</string>
+<string name="headset">Headset</string>
+<string name="accessibility_status_bar_headphones">"Mga hedpon konektado"</string>
+<string name="accessibility_status_bar_headset">"Hedset konektado"</string>
+<string name="data_saver">"Tigdaginot sa Datos"</string>
+<string name="accessibility_data_saver_on">"Ang Tigdaginot sa Datos nag-ON"</string>
+<string name="accessibility_data_saver_off">"Ang Tigdaginot sa Datos nag-OFF"</string>
+<string name="switch_bar_on">"Pagana"</string>
+<string name="switch_bar_off">"Pawng"</string>
+<string name="nav_bar">"Bar sa Nabigasyon"</string>
+<string name="start">sugod</string>
+<string name="center">"Tunga"</string>
+<string name="end">"Human"</string>
+<string name="space">"Tigbal-ang"</string>
+<string name="menu_ime">"Menu / Keybord Switser"</string>
+<string name="select_button">"Pili og buton aron idugang"</string>
+<string name="add_button">"Dugang og buton"</string>
+<string name="save">Luwas</string>
+<string name="reset">"Pagusab"</string>
+<string name="no_home_title">"Walay buton sa balayan nga nakit-an"</string>
+<string name="no_home_message">"Ang buton sa balayan gikinahanglan aron makanabigar kining maong aparato. Palihug pagdugang og buton sa balayan sa dili pa magsalbar."</string>
+<string name="adjust_button_width">"Ipahiangay ang gilapdon sa buton"</string>
+<string name="clipboard">"Clipboard"</string>
+<string name="clipboard_description">"Ang klipbord motugot sa mga aytem nga guroyon diretso sa klipbord. Ang mga aytem mahimo gihapon nga guroyon direkta palayo sa klipbord kon anaa."</string>
+<string name="accessibility_key">"Buton sa kustom nga nabigasyon"</string>
+<string name="keycode">"Keykod"</string>
+<string name="keycode_description">"Ang mga buton sa Keykod motugot sa mga tekla sa keybord nga idugang ngadto sa Bar sa Nabigasyon. Kon mapindot sundon nila ang pinili nga tekla sa keybord. Una ang yawe kinahanglan pilion alang sa buton, sundan sa imahe nga ipakita sa buton."</string>
+<string name="select_keycode">"Pinili nga Buton sa Keybord"</string>
+<string name="preview">"Preview"</string>
+<string name="drag_to_add_tiles">"Guyora aron magdugang og tayls"</string>
+<string name="drag_to_remove_tiles">"Guyora diri aron makuha"</string>
+<string name="qs_edit">"Usob"</string>
+<string name="tuner_time">"Oras"</string>
+<string-array name="clock_options">
+<item>"Ipakita ang mga oras, mga minutos, ug nga segundos"</item>
+<item>"Ipakita ang mga oras ug mga minutos (depolt)"</item>
+<item>"Ayaw\'g ipakita kini nga aykon"</item>
+</string-array>
+<string-array name="battery_options">
+<item>"Ipakita kanunay ang porsiyento"</item>
+<item>"Ipakita ang porsiyento kon nag-charge (depolt)"</item>
+<item>"Ayaw\'g ipakita kini nga aykon"</item>
+</string-array>
+<string name="other">"Uban"</string>
+<string name="accessibility_divider">"Utlanan sa bahin nga eskren"</string>
+<string name="accessibility_action_divider_left_full">"Wala nga tibuok eskren"</string>
+<string name="accessibility_action_divider_left_70">"Wala 70%"</string>
+<string name="accessibility_action_divider_left_50">"Wala 50%"</string>
+<string name="accessibility_action_divider_left_30">"Wala 30%"</string>
+<string name="accessibility_action_divider_right_full">"Tuo nga tibuok eskren"</string>
+<string name="accessibility_action_divider_top_full">"Itaas nga tibuok eskren"</string>
+<string name="accessibility_action_divider_top_70">"Itaas 70%"</string>
+<string name="accessibility_action_divider_top_50">"Itaas 50%"</string>
+<string name="accessibility_action_divider_top_30">"Itaas 30%"</string>
+<string name="accessibility_action_divider_bottom_full">"Ubos nga tibuok eskren"</string>
+<string name="accessibility_qs_edit_tile_label">"Posisyon <xliff:g id="position" example="2">%1$d</xliff:g>, <xliff:g id="tile_name" example="Wi-Fi">%2$s</xliff:g>. Dobleng hikap aron mag-edit."</string>
+<string name="accessibility_qs_edit_add_tile_label">"<xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g>. Doble hikap para idugang."</string>
+<string name="accessibility_qs_edit_position_label">"Posisyon <xliff:g id="position" example="2">%1$d</xliff:g>. Doble hikap aron mopili."</string>
+<string name="accessibility_qs_edit_move_tile">"Ibalhin <xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g>"</string>
+<string name="accessibility_qs_edit_remove_tile">"Kuhaa ang <xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g>"</string>
+<string name="accessibility_qs_edit_tile_added">"<xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g> gidugang sa posisyon <xliff:g id="position" example="5">%2$d</xliff:g>"</string>
+<string name="accessibility_qs_edit_tile_removed">"<xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g> gikuha"</string>
+<string name="accessibility_qs_edit_tile_moved">"<xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g> gibalhin ngadto sa posisyon <xliff:g id="position" example="5">%2$d</xliff:g>"</string>
+<string name="accessibility_desc_quick_settings_edit">"Editor sa Paspas nga mga Seting."</string>
+<string name="accessibility_desc_notification_icon">"<xliff:g name="app_name" example="Gmail">%1$s</xliff:g>  notipikasyon: <xliff:g name="notification_text" example="5 new messages">%2$s</xliff:g>"</string>
+<string name="dock_forced_resizable">"Ang app dili motrabaho sa bahin nga eskren."</string>
+<string name="dock_non_resizeble_failed_to_dock_text">"Ang app dili mosuporta sa bahin nga eskren."</string>
+<string name="accessibility_quick_settings_settings">"Ablihi ang mga seting."</string>
+<string name="accessibility_quick_settings_expand">"Ablihi ang paspas nga mga seting."</string>
+<string name="accessibility_quick_settings_collapse">"Siraduhi ang paspas nga mga seting."</string>
+<string name="accessibility_quick_settings_alarm_set">"Alarma gitakda."</string>
+<string name="accessibility_quick_settings_no_internet">"Walay internet."</string>
+<string name="accessibility_quick_settings_open_details">"Ablihi ang mga detalye."</string>
+<string name="accessibility_quick_settings_open_settings">"Ablihi <xliff:g name="page" example="Bluetooth">%s</xliff:g> mga seting."</string>
+<string name="accessibility_quick_settings_edit">"I-edit ang han-ay sa mga seting."</string>
+<string name="accessibility_quick_settings_page">"Pahina <xliff:g name="current_page" example="1">%1$d</xliff:g> sa <xliff:g name="num_pages" example="2">%2$d</xliff:g>"</string>
+<string name="quick_settings_volume_label">"Awdyo Propayl"</string>
+<string name="battery_level_template">"<xliff:g id="level" example="45">%d</xliff:g>%%"</string>
+<string name="battery_overtage_title">"Pahimatngon sa seguridad"</string>
+<string name="battery_overtage_content">"Ang boltahe sa pagkarga taas kaayo!"</string>
+<string name="battery_overtage_back">balik</string>
+<string name="assistant_key_home">Home</string>
+<string name="assistant_key_search">Pangita</string>
+<string name="assistant_key_menu">Menu</string>
+<string name="assistant_key_back">balik</string>
+<string name="vibrate_hint">"Ikahig paingon sa wala para mo-baybreyt"</string>
+</resources>

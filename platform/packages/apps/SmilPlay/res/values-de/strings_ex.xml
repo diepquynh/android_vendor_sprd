@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_number">"Zu:"</string>
+<string name="cancel_call">"Abbrechen"</string>
+<string name="delivery_toast_body_fail">"Nachricht nicht von %s empfangen."</string>
+<string name="read_report_toast_body">"Nachricht von %s gelesen."</string>
+<string name="read_report_toast_body_fail">"Nachricht nicht von %s gelesen."</string>
+<string name="delivery_toast_body_fail_rejected">"Nachricht von %s abgelehnt."</string>
+<string name="user_not_exist">"Der Nutzer existiert nicht."</string>
+<string name="menu_resend">"Erneut senden"</string>
+<string name="low_storage_toast">"Wenig Speicherplatz! Löschen Sie einige Dateien um Platz zu schaffen."</string>
+<string name="failed_to_download_mms">"MMS herunterladen fehlgeschlagen, Versuchen Sie es später erneut"</string>
+<string name="failed_to_send_mms">"MMS senden fehlgeschlagen, Versuchen Sie es später erneut"</string>
+<string name="success_to_send_mms">"MMS erfolgreich gesendet"</string>
+<string name="sim_x">"SIM%s"</string>
+<string name="sim_card_not_ready">"SIM-Karte ist nicht bereit"</string>
+<string name="sim_is_invalid">"SIM-Karte ist nicht bereit"</string>
+<string name="on_progress">"Verarbeiten, Bitte warten..."</string>
+<string name="pref_internal_memory_usage_title">"MMS/Verfügbar/Gesamt"</string>
+<string name="pref_internal_memory_usage_progress_summary">"Speicherplatz überprüfen..."</string>
+<string name="please_wait_title">"Bitte warten..."</string>
+<string name="sim_card_setting">"SIM-Karteneinstellung"</string>
+<string name="multi_sim_manage_messages_title">"Nachrichten auf der SIM<xliff:g id="COUNT">%1$S</xliff:g>"</string>
+<string name="pref_title_manage_sim_setting">"SIM-Einstellungen verwalten"</string>
+<string name="pref_summary_manage_sim_setting">"In SIM gespeicherte Nachrichten verwalten, Lieferberichte, Abgelaufene Zeit, Smsc-Einstellungen, etc."</string>
+<string name="pref_summary_notification_ringtone">"Default-Klingelton"</string>
+<string name="pref_summary_notification_ringtone_silent">"Leise"</string>
+<string name="menu_sim_capacity">"SIM-Kapazität"</string>
+<string name="pref_title_manage_multi_sim_messages">"Nachrichten verwalten auf der SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="pref_summary_manage_multi_sim_messages">"Gespeicherte Nachrichten verwalten auf der SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_sim_success">"Auf SIM speichern erfolgreich"</string>
+<string name="toast_copy_to_sim_failure">"Auf SIM kopieren fehlgeschlagen"</string>
+<string name="toast_sim_memory_full">"SIM-Speicher ist voll"</string>
+<string name="toast_copy_to_multi_sim_success">"Erfolgreich gespeichert auf SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_multi_sim_failure">"Kopieren fehlgeschlagen auf SIM<xliff:g id="COUNT">%1$s<xl></xl></xliff:g>"</string>
+<string name="toast_multi_sim_memory_full">"SIM <xliff:g id="COUNT">%1$S</xliff:g> Speicher ist voll"</string>
+<plurals name="conversation_num">
+<item quantity="one">"Sie haben ein Gespräch."</item>
+<item quantity="other">"Sie haben <xliff:g id="number">%1$s</xliff:g> Gespräche."</item>
+</plurals>
+<string name="count_of_new_mms">"%s neue Nachrichten"</string>
+<string name="pref_summary_store_sms_on_sim">"Wenn eine neue SMS kommt, auf SIM speichern oder nicht"</string>
+<string name="pref_title_store_sms_on_sim">"SMS auf SIM speichern"</string>
+<string name="pref_title_sms_validity">"SMS-Gültigkeit"</string>
+<string name="done_slide_show">"Fertig"</string>
+<string name="smsc_check_fdn_failure">"Ihre Nachrichten-Center-Nummer gehört nicht zur FDN-Liste."</string>
+<string name="muti_select_all">"Alle auswählen"</string>
+<string name="menu_select_none">"Auswahl aller löschen"</string>
+<string name="Conversation_check_type_selected_all">"Alle auswählen"</string>
+<string name="menu_msg_folder">"Ordneransicht"</string>
+<string name="menu_msg_list">"Nachrichtenansicht"</string>
+<string name="folder_inbox">"Posteingang"</string>
+<string name="folder_outbox">"Postausgang"</string>
+<string name="folder_sent">"Gesendet"</string>
+<string name="folder_drafts">"Entwürfe"</string>
+<string name="folder_empty">"Keine Nachrichten in diesem Ordner."</string>
+<string name="folder_display_all">"Alle Nachrichten anzeigen"</string>
+<string name="folder_delete_messages">"Nachrichten löschen"</string>
+<string name="folder_loading">"Lädt.."</string>
+<string name="folder_reply">"Antworten"</string>
+<string name="folder_forward">"Weiterleiten"</string>
+<string name="no_msg_del">"Keine Nachrichten gelöscht"</string>
+<string name="exceed_slides_number_limitation">"Maximale Dia-Anzahl erreicht"</string>
+<string name="has_vcard_or_vcalendar_attachment">"Hat schon <xliff:g id="TYPE">%1$s</xliff:g>, es können nicht mehr hinzugefügt werden"</string>
+<string name="folder_sortby">"Sortieren nach"</string>
+<string-array name="sort_type">
+<item>"Nach Uhrzeit"</item>
+<item>"Nach Adresse"</item>
+</string-array>
+<string name="OTAConfig_title">"OTA-Konfigurationseinstellungen"</string>
+<string name="OTAConfig_Message">"Sind Sie sicher, dass Sie die OTA-Konfiguration speichern wollen?"</string>
+<string name="OTAConfiy_Success">"OTA-Nachrichteneinstellung erfolgreich"</string>
+<string name="OTAConfiy_Error">"OTA-Konfigurationsfehler""</string>
+<string name="ota_pin_error">"OTA-Sicherheitsfehler"</string>
+<string name="ota_retry">"Passwortfehler"</string>
+<string name="ota_pin_exception">"OTA-Konfigurationsfehler：Programmfehler."</string>
+<string name="ota_mime_error">"OTA-Konfigurationsfehler：Nachrichtendatenfehler."</string>
+<string name="ota_support_not">"OTA-Konfigurationsfehler：<xliff:g id="OTATYPE">%1$s</xliff:g> nicht unterstützter Typ."</string>
+<string name="pref_reply_path_title">"Antwortpfadeinstellungen"</string>
+<string name="pref_title_reply_path">"Antwortpfad"</string>
+<string name="pref_summary_reply_path">"Über dasselbe Zentrum antworten"</string>
+<string name="cannot_add_picture_and_vcard">"V-Karte und Bild können nicht zu einem Dia hinzugefügt werden."</string>
+<string name="mms_setting">"MMS-Einstellung"</string>
+<string name="pref_title_font_size">"Schriftgrößeneinstellung"</string>
+<string name="font_size_setting">"Schriftgrößeneinstellung"</string>
+<string name="font_size">"Die Schriftgröße ist: <xliff:g id="font_size_id">%1$s</xliff:g>"</string>
+<string name="menu_copy_to_sim_memory">"Nachricht auf SIM kopieren"</string>
+<string name="menu_add_recipient_to_contacts">"<xliff:g id="name">%s</xliff:g>zu Kontakten hinzufügen"</string>
+<string name="action_done">"Fertig"</string>
+<string name="message_signature_setting">"Unterschrift-Einstellung"</string>
+<string name="pref_signature_enable_title">"Optionale Unterschrift"</string>
+<string name="pref_signature_enabl_summary">"Unterschrift automatisch jeder MMS-Nachricht, die sie senden, zufügen"</string>
+<string name="pref_signature_input_title">"Unterschrift bearbeiten"</string>
+<string name="pref_signature_input_summary">"Hier eingeben um Ihre Unterschrift einzustellen"</string>
+<string name="pref_signature_input_limited">"Die Unterschrift hat ihr Limit erreicht"</string>
+<string name="pref_hint_signature_edittext">"Bitte geben Sie Ihre Unterschrift ein"</string>
+<string name="toast_append_signature_failed">"Unterschrift an MMS anhängen fehlgeschlagen, Diagröße ist erreicht worden"</string>
+<string name="pageIndex">"Seite %s"</string>
+<string name="remove_subject">"Betreff entfernen"</string>
+<string name="toast_message_when_memory_full">"Der Speicher ist voll, bitte entfernen Sie etwas und starten Sie neu"</string>
+<string name="toast_save_classzero_message_failed">"Kein Speicher mehr, Nachricht speichern fehlgeschlagen"</string>
+<string name="toast_shared_file_failed">"Nicht unterstützte Mediendatei, Teilen fehlgeschlagen."</string>
+<string name="message_too_many_recipients_picked">"Entschuldigung, Sie können nicht mehr als <xliff:g id="COUNT">%1$s</xliff:g> Kontakte pro Zeiteinheit hinzufügen""</string>
+<string name="pref_title_manage_sim_smsc">"SMS Service Center"</string>
+<string name="smsc_set_fails">"SMSC einstellen fehlgeschlagen"</string>
+<string name="smsc_set_success">"Erfolgreich eingestellt."</string>
+<string name="smsc_change_success">"Erfolgreich geändert."</string>
+<string name="smsc_add_success">"Erfolgreich hinzugefügt"</string>
+<string name="received_new_wap_contact">"SMS V-Karten-Nachricht erhalten"</string>
+<string name="save_new_wap_contact">"Speichern"</string>
+<string name="cancle_new_wap_contact">"Abbrechen"</string>
+<string name="menu_sim_message">"Nachrichten in SIM"</string>
+<string name="folder_display_option">"Bildschirmoptionen"</string>
+<string name="confirm_open_browser_dialog_title">"Nachricht"</string>
+<string name="confirm_open_browser_dialog_message">"Der Browser wird geöffnet, fortfahren?"</string>
+<plurals name="delete_confirm">
+<item quantity="one">"1 Element auswählen"</item>
+<item quantity="other">"<xliff:g id="del_count">%1$s</xliff:g> Elemente auswählen"</item>
+</plurals>
+<string name="select_sim_card">"Bitte wählen Sie SIM-Karte aus"</string>
+<string name="menu_video_call_back">"Videoanruf <xliff:g id="name">%s</xliff:g>"</string>
+<string name="menu_edit_before_call_back">"Bearbeiten vor dem Anruf <xliff:g id="name">%s</xliff:g>"</string>
+<string name="min_zoom">"Minimum erreicht"</string>
+<string name="max_zoom">"Maximum erreicht"</string>
+<string name="sms_merge_forward">"Zusammenfügen und weiterleiten"</string>
+<string name="sms_merge_dialog_title">"Sofort"</string>
+<string name="sms_merge_dialog_content">"Sie können nur zwischen 2 und 30 SMS-Nachrichten zusammenfügen. Bitte überprüfen."</string>
+<string name="sms_merge_forward_empty">"Keine SMS-Nachricht zum zusammenfügen und weiterleiten."</string>
+<string name="sms_forwarding_number">"SMS-Weiterleitungseinstellung"</string>
+<string name="pref_sms_forwarding_number_title">"SMS-Weiterleitungsnummer"</string>
+<string name="pref_sms_forwarding_number_summary">"SMS weiterleiten mit der Empfängernummer"</string>
+<string name="sim_list_title">"Bitte wählen Sie SIM-Karte aus"</string>
+<string name="type_vcard">"Kontakt"</string>
+<string name="type_vcalendar">"Kalender"</string>
+<string name="attach_vcard">"Kontakt"</string>
+<string name="attach_vcalendar">"Kalender"</string>
+<string name="add_slide_before">"Dia hinzufügen(vorher)"</string>
+<string name="add_slide_after">"Schieber(danach) hinzufügen"</string>
+<string name="re_take_picture">"Bild speichern fehlgeschlagen, bitte erfassen Sie das Bild erneut."</string>
+<string name="exceed_text_length_limitation">"Maximale Textlänge überschritten."</string>
+<string name="move_message_to_phone_memory">"Nachricht in den Telefonspeicher kopieren erfolgreich"</string>
+<string name="can_not_copy_the_message">"Nachricht kopieren nicht möglich"</string>
+<string name="confirm_import_vcard">"Diese V-Karte importieren？"</string>
+<string name="pref_title_manage_simx_smsc">"SIM<xliff:g id="COUNT">%1$s</xliff:g> SMS Service Center"</string>
+<string name="simx_settings_title">"SIM<xliff:g id="COUNT">%1$s</xliff:g> Einstellung"</string>
+<string name="pref_summary_sms_validity">"Kurznachrichten-Gültigkeit"</string>
+<string-array name="prefEntries_mms_validity">
+<item>"1 Stunde"</item>
+<item>"12 Stunden"</item>
+<item>"24 Stunden"</item>
+<item>"2 Tage"</item>
+<item>"Maximum"</item>
+</string-array>
+<string-array name="prefEntries_mms_priority">
+<item>"Hoch"</item>
+<item>"Normal"</item>
+<item>"Niedrig"</item>
+</string-array>
+<string name="pref_title_mms_validity">"Multimedianachrichten-Gültigkeit"</string>
+<string name="pref_summary_mms_validity">"Multimedianachrichten-Gültigkeit"</string>
+<string name="pref_title_mms_priority">"Priorität"</string>
+<string name="pref_summary_mms_priority">"Prioritäts-Einstellung"</string>
+<string name="sim_settings_title">"SIM-Karteneinstellung"</string>
+<string name="toast_copy_to_simx_success">"Erfolgreiches kopieren in <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_simx_failure">"Fehlgeschlagenes Kopieren zu<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_simx_memory_full">"<xliff:g id="COUNT">%1$s</xliff:g>ist voll"</string>
+<string name="pref_title_manage_sim_x_setting">"SIM<xliff:g id="COUNT">%1$s</xliff:g> Einstellungen verwalten"</string>
+<string name="pref_title_mms_creation_mode">"Kreationsmodus"</string>
+<string-array name="mms_creation_mode_entries">
+<item>"Eingeschränkt"</item>
+<item>"Warnung"</item>
+<item>"Frei"</item>
+</string-array>
+<string name="exceed_resolution_limit">"Auflösung überschreitet Limit"</string>
+<string name="want_to_add_media">"Wollen Sie diese(s)(n) <xliff:g id="NAME">%1$s</xliff:g> Ihrer Nachricht hinzufügen?"</string>
+<string name="mms_can_not_add_vcard">"Aktuellen Anhang entfernen um Kontakte hinzuzufügen"</string>
+<string name="mms_can_not_add_vcalendar">"Anhang entfernen um Dia hinzuzufügen"</string>
+<string name="converting_to_text_message">"Konvertierung in Textnachricht \u2026"</string>
+<string name="select_calendar">"Programm auswählen"</string>
+<string name="no_calendar">"Kein Programm"</string>
+<string name="exceed_slides_number_message">"Ausgewähltes <xliff:g id="NUMBER">%1$s</xliff:g> Programm，Maximum ist <xliff:g id="NUMBER">%2$s</xliff:g> Programm"</string>
+<string name="add_to_blacklist">"Zur Sperrliste hinzufügen"</string>
+<string name="failed_addToBlacklist">"Zur Sperrliste hinzufügen fehlgeschlagen."</string>
+<string name="creating_slideshow_title">"Diashow erstellen"</string>
+<string name="attachment_vcalendar">"V-Kalender"</string>
+<string name="attachment_vcard">"v-Karte"</string>
+<string name="text_limited_warning">"Die Input-Begrenzung"</string>
+<string name="subject_text_length_limitation">"Maximale Betrefflänge erreicht."</string>
+<string name="attach_commonPhrases">"Gängige Redewendungen"</string>
+<string name="commonphrase_empty">"Keine gängigen Redewendungen"</string>
+<string name="quick_reply">"Schnellantwort"</string>
+<string name="common_messages">"Gängige Redewendung"</string>
+<string name="common_add_text">"Neu"</string>
+<string name="common_delete_text">"Löschen"</string>
+<string name="common_delete_message">"Löschen bestätigen?"</string>
+<string name="common_delete">"Löschen"</string>
+<string name="common_phrase_contextmenu_title">"Bedienungsmenü"</string>
+<string name="common_edit">"Bearbeiten"</string>
+<string name="commonphrase_delete_empty">"Keine Redewendung kann gelöscht werden"</string>
+<string name="common_phrase_edit_dialog_title">"Optionen"</string>
+<string name="common_phrase_edit_dialog_inform">"Ihr Bearbeitetes speichern ?"</string>
+<string name="common_phrase_edit_max_length">"Hat die Input-Begrenzung erreicht!"</string>
+<string name="common_messages_edit">"Gängige Redewendung bearbeiten"</string>
+<string name="common_save">"Speichern"</string>
+<string name="common_cancel">"Abbrechen"</string>
+<string name="add_empty_common_messages">"Geben Sie ein beliebiges Zeichen ein"</string>
+<string name="pref_other_settings_title">"Sonstige"</string>
+<string name="pre_key_title_common_messages">"Gängige Redewendung"</string>
+<string name="common_phrase_selection">"Gängige Redewendungen auswählen"</string>
+<string name="wap_push_message_dialog_title">""Wap Push Nachricht"</string>
+<string name="open_website">"Website öffnen"</string>
+<string name="activity_not_found">"Keine passende Anwendung gefunden"</string>
+<string name="add_contact">"Kontakte einfügen"</string>
+<string name="receive_from">"Empfangen von %s"</string>
+<string name="send_from">"Senden von %s"</string>
+<string name="dl_expired_wap_push">"Es gibt <xliff:g id="COUNT">%1$s</xliff:g> abgelaufene WAP-Nachrichten, sie werden gelöscht."</string>
+<string name="invalid_recipient">"ungültiger Empfänger"</string>
+<string name="max_recipients_count">"Die maximale Anzahl an Empfängern beträgt <xliff:g id="MAXCOUNT">%1$s</xliff:g>."</string>
+<string name="no_media_selected">"Es sind keine Medien ausgewählt!"</string>
+<string name="search_max_length">"Der Suchbegriff ist zu lang, er wird auf 512 begrenzt."</string>
+<string name="sim_capacity_used">"Genutzt:"</string>
+<string name="sim_capacity_total">"Gesamt:"</string>
+<string name="too_many_contacts">"Die maximale Empfängerzahl beträgt <xliff:g id="MAXLIMIT">%1$s</xliff:g>, der vordere wird hinzugefügt <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> Empfänger werden hinzugefügt."</string>
+<string name="delivery_toast_body_expired">"Nachricht ist abgelaufen %s."</string>
+<string name="discard_dialog">"Wollen Sie diese Information wirklich aufgeben?"</string>
+<string name="contacts_count_excceeds">"Sie haben schon <xliff:g id="MAXLIMIT">%1$s</xliff:g> Empfänger hinzugefügt, Sie dürfen nicht noch mehr hinzufügen."</string>
+<string name="copy">"Kopieren"</string>
+<string name="received_new_wap_vcalendar">"SMS V-Kalender Nachricht empfangen"</string>
+<string name="remove_vcalendar_first">"Angehängten VKalender zuerst löschen um dies zu bearbeiten."</string>
+<string name="remove_vcard_first">"Zuerst angehängte V-Karte löschen um dies zu bearbeiten."</string>
+<string name="import_vcalendar">"V-Kalender importieren"</string>
+<string name="no_vcalendar">"Kein VKalender gefunden"</string>
+<string name="import_vcalendar_fail">"Konnte Vkalender nicht importieren."</string>
+<string name="unable_to_add_all">"Maximale Nachrichtengröße erreicht, manche Teile sindnicht hinzugefügt."</string>
+<string name="replce_slideshow_dilaog_dismiss">"Das ersetzen der Diashow wird den aktuellen Anhang löschen, möchten Sie fortfahren?"</string>
+<string name="pref_title_sms_retry_times">"Erneuten SMS-Versuch aktivieren"</string>
+<string name="smsc_list">"SMS-Center-Liste"</string>
+<string name="smsc_list_empty">"Keine SMS-Center-Liste"</string>
+<string name="smsc_list_loading">"Lädt"</string>
+<string name="smsc_list_menu_edit">"Bearbeiten"</string>
+<string name="smsc_list_menu_activate">"Aktivieren"</string>
+<string name="smsc_list_not_allow_to_clear">"Nummer löschen nicht erlaubt"</string>
+<string name="smsc_list_empty_number">"Klicken um eine neue Nummer hinzuzufügen"</string>
+<string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g> Anhang gesichert in<xliff:g id="path">%2$s</xliff:g>,<xliff id="fail">%3$d</xliff> Anhang sichern fehlgeschlagen"</string>
+<string name="box_msg_list_menu_addtocontacts">"Zu Kontakten hinzufügen"</string>
+<string name="box_msg_list_menu_call">"Anrufen"</string>
+<string name="box_msg_list_menu_editbeforecall">"Vor dem Anruf bearbeiten"</string>
+<string name="box_msg_list_menu_videocall">"Videoanruf"</string>
+<string name="soundrecorder_fail_msg">"Audiorekorder konnte nicht gestartet werden."</string>
+<string name="camera_fail_msg">"Kamera konnte nicht getartet werden."</string>
+<string name="video_fail_msg">"Video konnte nicht gestartet werden."</string>
+<string name="pref_encode_type_setting_title">"Kodierungstyp-Einstellung"</string>
+<string name="pref_encode_type_title">"Codierungstyp"</string>
+  <string-array name="prefEntries_sms_validity">
+    <item>"1 Stunde"</item>
+    <item>"6 Stunden"</item>
+    <item>"24 Stunden"</item>
+    <item>"2 Tage"</item>
+    <item>"1 Woche"</item>
+    <item>"Maximum"</item>
+    <item>Maximal</item>
+  </string-array>
+    <string name="send_as_mms">"MMS senden"</string>
+    <string name="confirm_ota">"OK"</string>
+    <string name="cancel_ota">"Abbrechen"</string>
+    <string name="message_too_big_for_audio">Die Nachricht ist zu groß, um ein Audio anzuhängen.</string>
+
+    <string name="confirm_convert_to_mms">" Recipienters enthalten e-mail, wird die Meldung als mms senden "</string>
+    <string name="send_as_sms">"Alleine sms senden"</string>
+    <string name="protected_file">"Geschützte Datei kann nicht hinzugefügt werden"</string>
+    <string name="success_to_send_sms">"SMS erfolgreich verschickt"</string>
+    <string name="confirm_ota_message">"OTA Einstellung bestätigen?"</string>
+    <string name="ota_cancelled">"OTA Einstellungen gelöscht."</string>
+    <string name="contacts_count_can_send">"Werter Kunde, die Empfängeranzahl hat das System-Limit überschritten. Es dürfen nur <xliff:g  id="MAXLIMIT">%1$s</xliff:g> gesendet werden. Bitte stapelweise senden."</string>
+    <string name="attach_common_messages">Allgemeine Sätze</string>
+    <string name="attach_subject">"Betreff"</string>
+    <string name="add_contacts_dialog_title">"Kontakte hinzufügen"</string>
+    <string name="add_contact_as_text">"SMS"</string>
+    <string name="action_next">"Weiter"</string>
+     <string name="sms_forward">"Weiterleiten"</string>
+     <string name="valid_sub">"Ungültige SIM-Karte"</string>
+     <string name="confirm_import_vcalendar">"Diesen VCalendar importieren?"</string>
+     <string name="confirm_save_otherfiles">"Diesen Anhang speichern?"</string>
+     <string name="pref_notification_settings_title_sim1">"sim1-Mitteilungen"</string>
+     <string name="pref_notification_settings_title_sim2">"sim2-Mitteilungen"</string>
+     <string name="pref_notification_settings_title_sim">"SIM-Mitteilungen"</string>
+     <string name="dlg_media_removed">"Medien ohne korrekten Pfad im Anhang wurden entfernt. Mit dem Senden fortfahren?"</string>
+     <string name="toast_media_removed">"Medien ohne korrekten Pfad im Anhang wurden entfernt. Bitte überprüfen Sie dies!"</string>
+     <string name="dl_failure_roaming">"Roaming-Status. Nachricht konnte nicht heruntergeladen werden!"</string>
+     <string name="recipient_invalid">"<xliff:g id="invalid_number" example="1">%1$s</xliff:g> Empfänger ungültig"</string>
+     <string name="recipient_invalid_detail">"Ungültig(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+     <string name="recipient_changed_detail">"Geändert(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+</resources>

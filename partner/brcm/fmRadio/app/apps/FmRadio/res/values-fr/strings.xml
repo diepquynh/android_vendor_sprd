@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright 2009 Broadcom Corporation
+**
+** This program is the proprietary software of Broadcom Corporation and/or its
+** licensors, and may only be used, duplicated, modified or distributed 
+** pursuant to the terms and conditions of a separate, written license 
+** agreement executed between you and Broadcom (an "Authorized License").  
+** Except as set forth in an Authorized License, Broadcom grants no license 
+** (express or implied), right to use, or waiver of any kind with respect to 
+** the Software, and Broadcom expressly reserves all rights in and to the 
+** Software and all intellectual property rights therein.  
+** IF YOU HAVE NO AUTHORIZED LICENSE, THEN YOU HAVE NO RIGHT TO USE THIS 
+** SOFTWARE IN ANY WAY, AND SHOULD IMMEDIATELY NOTIFY BROADCOM AND DISCONTINUE 
+** ALL USE OF THE SOFTWARE.  
+**
+** Except as expressly set forth in the Authorized License,
+** 
+** 1.     This program, including its structure, sequence and organization, 
+**        constitutes the valuable trade secrets of Broadcom, and you shall 
+**        use all reasonable efforts to protect the confidentiality thereof, 
+**        and to use this information only in connection with your use of 
+**        Broadcom integrated circuit products.
+** 
+** 2.     TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SOFTWARE IS PROVIDED 
+**        "AS IS" AND WITH ALL FAULTS AND BROADCOM MAKES NO PROMISES, 
+**        REPRESENTATIONS OR WARRANTIES, EITHER EXPRESS, IMPLIED, STATUTORY, 
+**        OR OTHERWISE, WITH RESPECT TO THE SOFTWARE.  BROADCOM SPECIFICALLY 
+**        DISCLAIMS ANY AND ALL IMPLIED WARRANTIES OF TITLE, MERCHANTABILITY, 
+**        NONINFRINGEMENT, FITNESS FOR A PARTICULAR PURPOSE, LACK OF VIRUSES, 
+**        ACCURACY OR COMPLETENESS, QUIET ENJOYMENT, QUIET POSSESSION OR 
+**        CORRESPONDENCE TO DESCRIPTION. YOU ASSUME THE ENTIRE RISK ARISING OUT
+**        OF USE OR PERFORMANCE OF THE SOFTWARE.
+**
+** 3.     TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL BROADCOM OR
+**        ITS LICENSORS BE LIABLE FOR 
+**        (i)   CONSEQUENTIAL, INCIDENTAL, SPECIAL, INDIRECT, OR EXEMPLARY 
+**              DAMAGES WHATSOEVER ARISING OUT OF OR IN ANY WAY RELATING TO 
+**              YOUR USE OF OR INABILITY TO USE THE SOFTWARE EVEN IF BROADCOM 
+**              HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES; OR 
+**        (ii)  ANY AMOUNT IN EXCESS OF THE AMOUNT ACTUALLY PAID FOR THE 
+**              SOFTWARE ITSELF OR U.S. $1, WHICHEVER IS GREATER. THESE 
+**              LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF 
+**              ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
+*/
+-->
+<resources>
+<!--  Added for 1.1.94 09/24/2009 -->
+<string name="app_name">"Radio FM"</string>
+<string name="menu_text_presets_title">"Préréglages"</string>
+<string name="menu_text_power_off_title">"ARRET"</string>
+<string name="menu_text_settings_title">"Paramètres"</string>
+<string name="pref_menu_text_main_menu">"Paramètres radio FM"</string>
+<string name="pref_menu_text_radio_enabled">"Activer la radio FM"</string>
+<string name="pref_menu_text_radio_enabled_summary">"Permet d'activer ou de désactiver le matériel FM"</string>
+<string name="pref_menu_text_audio_mode">"Mode audio"</string>
+<string name="pref_menu_text_audio_mode_summary">"Sélectionner le mode auto, stéréo, mono ou commutation"</string>
+<string name="pref_menu_text_audio_mode_dialog_title">"Sélectionner mode audio"</string>
+<string name="pref_menu_text_scan_step">"Intervalle de recherche"</string>
+<string name="pref_menu_text_scan_step_summary">"Permet de définir les intervalles de fréquence à utiliser pour la recherche"</string>
+<string name="pref_menu_text_scan_step_dialog_title">"Sélectionner intervalle de recherche"</string>
+<string name="pref_menu_text_rds_settings">"Paramètres RDS"</string>
+<string name="pref_menu_text_rds_settings_summary">"Paramètres RDS spécifiques"</string>
+<string name="pref_menu_text_rds_enabled">"Mode RDS"</string>
+<string name="pref_menu_text_rds_enabled_summary">"Permet de définir les modes RDS"</string>
+<string name="pref_menu_text_rds_enabled_dialog_title">"Sélectionner mode RDS"</string>
+<string name="pref_menu_text_af_enabled">"Activer AF"</string>
+<string name="pref_menu_text_af_enabled_summary">"Permet d'activer ou de désactiver les fréquences alternatives"</string>
+<string name="pref_menu_text_advanced_settings">"Paramètres avancés"</string>
+<string name="pref_menu_text_advanced_settings_summary">"Paramètres de localisation, de désaccentuation et d'échantillonnage audio de qualité en direct"</string>
+<string name="pref_menu_text_world_region">"Région"</string>
+<string name="pref_menu_text_world_region_summary">"Permet de sélectionner la région pour définir la bande de fréquence appropriée"</string>
+<string name="pref_menu_text_world_region_dialog_title">"Sélectionner région"</string>
+<string name="pref_menu_text_deemphasis">"Désaccentuation"</string>
+<string name="pref_menu_text_deemphasis_summary">"Permet de sélectionner le temps de désaccentuation"</string>
+<string name="pref_menu_text_deemphasis_dialog_title">"Sélectionner désaccentuation"</string>
+<string name="pref_menu_text_live_polling">"Interrogation en direct"</string>
+<string name="pref_menu_text_live_polling_summary">"Permet d'activer ou de désactiver l'échantillonnage audio en direct"</string>
+<string name="pref_menu_text_live_poll_int">"Intervalle d'interrogation"</string>
+<string name="pref_menu_text_live_poll_int_summary">"Permet de sélectionner l'intervalle d'échantillonnage audio en direct"</string>
+<string name="pref_menu_text_live_poll_int_dialog_title">"Sélectionner intervalle d'interrogation"</string>
+<string name="pref_menu_text_nfl_mode">"Evaluation du niveau de bruit de fond"</string>
+<string name="pref_menu_text_nfl_mode_summary">"Permet de sélectionner un mode d'évaluation du niveau de bruit de fond (NFL)"</string>
+<string name="pref_menu_text_nfl_mode_dialog_title">"Sélectionner mode NFL"</string>
+<string name="pref_preset_menu_text_main_menu">"Préréglages FM"</string>
+<string name="pref_menu_text_preset_0">"1. Aucun préréglage"</string>
+<string name="pref_menu_text_preset_1">"2. Aucun préréglage"</string>
+<string name="pref_menu_text_preset_2">"3. Aucun préréglage"</string>
+<string name="pref_menu_text_preset_3">"4. Aucun préréglage"</string>
+<string name="pref_menu_text_preset_4">"5. Aucun préréglage"</string>
+<string name="pref_menu_text_preset_5">"6. Aucun préréglage"</string>
+<string name="pref_menu_text_preset_6">"7. Aucun préréglage"</string>
+<string name="pref_menu_text_preset_7">"8. Aucun préréglage"</string>
+<string name="pref_menu_text_click_here_stores">"Cliquez ici pour sauvegarder la station actuelle"</string>
+<!--  End 1.1.94 additions -->
+<string name="pref_menu_text_audio_path_summary">"Sélectionner Aucun, Haut-parleur ou Micro-casque filaire"</string>
+<string name="pref_menu_text_audio_path_dialog_title">"Sélectionner un chemin audio"</string>
+</resources>

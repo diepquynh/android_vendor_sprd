@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+
+<resources>
+    <string-array name="girdview_item_title">
+        <item>@string/system_test_title</item>
+        <item>@string/display_test_title</item>
+        <item>@string/ring_test_title</item>
+        <item>@string/phone_test_title</item>
+        <item>@string/accessories_test_title</item>
+        <item>@string/wireless_test_title</item>
+        <item>@string/sensor_test_title</item>
+        <item>@string/camera_test_title</item>
+        <item>@string/key_test_title</item>
+        <item>@string/test_result_title</item>
+    </string-array>
+    <string-array name="listview_item_content">
+         <item>@string/backlight_test</item>
+        <item>@string/lcd_test</item>
+        <item>@string/touchpoint_test</item>
+        <item>@string/muti_touchpoint_test</item>
+        <item>@string/vibrator_test</item>
+        <item>@string/phone_loopback_test</item>
+        <item>@string/gravity_sensor_test</item>
+        <item>@string/oritention_sensor_test</item>
+        <item>@string/proximity_sensor_test</item>
+        <item>@string/front_camera_title_text</item>
+        <item>@string/back_camera_title_text</item>
+        <item>@string/key_test</item>
+        <item>@string/battery_title_text</item>
+        <item>@string/headset_test</item>
+        <item>@string/fm_test</item>
+        <item>@string/status_indicator_red</item>
+        <item>@string/status_indicator_green</item>
+        <item>@string/status_indicator_blue</item>
+        <item>@string/phone_call_test</item>
+        <item>@string/otg_test</item>
+        <item>@string/rtc_test</item>
+<!--         <item>@string/wifi_test</item> -->
+<!--         <item>@string/hall_induction</item> -->
+        <item>@string/TestResultTitleString</item>
+    </string-array>
+
+    <array name="girdview_item_icons">
+        <item>@drawable/icon_system</item>
+        <item>@drawable/icon_screen</item>
+        <item>@drawable/icon_ring</item>
+        <item>@drawable/icon_phone</item>
+        <item>@drawable/icon_accessories</item>
+        <item>@drawable/icon_wireless</item>
+        <item>@drawable/icon_sensor</item>
+        <item>@drawable/icon_camera</item>
+        <item>@drawable/icon_camera</item>
+        <item>@drawable/icon_result</item>
+    </array>
+
+    <string-array name="system_list_test">
+        <item>@string/version_test</item>
+        <item>@string/rf_cali_test</item>
+        <item>@string/rtc_test</item>
+    </string-array>
+    
+    <string-array name="display_list_test">
+        <item>@string/lcd_test</item>
+        <item>@string/backlight_test</item>
+        <item>@string/touchpoint_test</item>
+        <item>@string/muti_touchpoint_test</item>
+        <item>@string/ctp_test</item>
+    </string-array>
+    
+    <string-array name="ring_list_test">
+        <item>@string/vibrator_test</item>
+        <item>@string/melody_test</item>
+    </string-array>
+    
+    <string-array name="phone_list_test">
+        <item>@string/phone_loopback_test</item>
+        <item>@string/sim_test</item>
+        <item>@string/phone_call_test</item>
+    </string-array>
+    
+    <string-array name="accessories_list_test">
+        <item>@string/sdcard_test</item>
+        <item>@string/charger_test</item>
+        <item>@string/headset_test</item>
+        <item>@string/otg_test</item>
+    </string-array>
+    
+    <string-array name="wireless_list_test">
+        <item>@string/fm_test</item>
+        <!-- <item>@string/atv_test</item> -->
+        <item>@string/wifi_test</item>
+        <item>@string/bt_test</item>
+        <item>@string/gps_test</item>
+        <item>@string/btut_test</item>
+        <item>@string/tv_test</item>
+    </string-array>
+    
+    <string-array name="sensor_list_test">
+        <item>@string/gravity_sensor_test</item>
+        <item>@string/oritention_sensor_test</item>
+        <item>@string/proximity_sensor_test</item>
+    </string-array>
+    
+   <string-array name="camera_list_test">
+        <item>@string/back_camera_test</item>
+        <item>@string/front_camera_test</item>
+    </string-array>
+</resources>

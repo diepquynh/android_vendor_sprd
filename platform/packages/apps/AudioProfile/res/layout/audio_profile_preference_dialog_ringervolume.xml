@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingBottom="20dip">
+
+        <ImageView android:id="@android:id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dip" />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ring_volume_title"
+                android:paddingTop="10dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip" />
+
+        <!-- Used for the ring volume.  This is what the superclass VolumePreference uses. -->
+
+        <SeekBar android:id="@*android:id/seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:visibility="gone" />
+
+		<SeekBar android:id="@+id/ring_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip" />
+
+		    <!-- Used for the notification volume -->
+        <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/notification_volume_title"
+		        android:paddingTop="10dip"
+		        android:paddingLeft="20dip"
+		        android:paddingRight="20dip" />
+	   <SeekBar
+	            android:id="@+id/notification_seekbar"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:paddingTop="2dip"
+		        android:paddingLeft="20dip"
+		        android:paddingRight="20dip" />
+
+			<!-- Used for the media volume -->
+        <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/media_volume_titles"
+		        android:paddingTop="10dip"
+		        android:paddingLeft="20dip"
+		        android:paddingRight="20dip" />
+	   <SeekBar
+	            android:id="@+id/media_volume_seekbar"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:paddingTop="2dip"
+		        android:paddingLeft="20dip"
+		        android:paddingRight="20dip" />
+
+        <!-- Used for the alarm volume -->
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alarm_volume_title"
+                android:paddingTop="10dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip" />
+        <SeekBar android:id="@+id/alarm_volume_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip" />
+
+    </LinearLayout>
+
+</ScrollView>

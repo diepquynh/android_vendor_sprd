@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_number">אל:</string>
+<string name="cancel_call">ביטול</string>
+<string name="delivery_toast_body_fail">"ההודעה לא התקבלה על ידי %s."</string>
+<string name="read_report_toast_body">"ההודעה נקראה על ידי %s."</string>
+<string name="read_report_toast_body_fail">"ההודעה לא נקראה על ידי %s."</string>
+<string name="delivery_toast_body_fail_rejected">"ההודעה נדחתה על ידי %s."</string>
+<string name="user_not_exist">"המשתמש אינו קיים."</string>
+<string name="menu_resend">שלח מחדש</string>
+<string name="low_storage_toast">מעט מקום! מחקו חלק מהקבצים בכדי לפנות מקום.</string>
+<string name="failed_to_download_mms">"הורדת הודעת המולטימדיה נכשלה, נסו שנית מאוחר יותר"</string>
+<string name="failed_to_send_mms">"שליחת הודעת המולטימדיה נכשלה, נסו שנית מאוחר יותר"</string>
+<string name="success_to_send_mms">"שליחת הודעת המולטימדיה הצליחה"</string>
+<string name="sim_card_not_ready">"כרטיס SIM אינו מוכן"</string>
+<string name="sim_is_invalid">"כרטיס SIM אינו מוכן"</string>
+<string name="on_progress">מעבד, אנא המתינו...</string>
+<string name="pref_internal_memory_usage_title">"הודעות מולטימדיה / זמין / סה"כ"</string>
+<string name="pref_internal_memory_usage_progress_summary">"בודק מקום בזכרון..."</string>
+<string name="please_wait_title">"אנא המתינו..."</string>
+<string name="sim_card_setting">"הגדרות כרטיס SIM"</string>
+<string name="multi_sim_manage_messages_title">"הודעות בכרטיס SIM<xliff:g id="COUNT">%1$S</xliff:g>"</string>
+<string name="pref_title_manage_sim_setting">"ניהול הגדרות SIM"</string>
+<string name="pref_summary_manage_sim_setting">"נהלו הודעות השמורות בכרטיס ה-SIM, דו"חות שליחה, זמני פקיעת תוקף, הגדרות מרכז מסרונים (SMSC) ועוד."</string>
+<string name="pref_summary_notification_ringtone">צלצול ברירת מחדל</string>
+<string name="pref_summary_notification_ringtone_silent">"מצב שקט"</string>
+<string name="menu_sim_capacity">"קיבולת SIM"</string>
+<string name="pref_title_manage_multi_sim_messages">"נהלו הודעות השמורות בכרטיס  SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="pref_summary_manage_multi_sim_messages">"נהלו הודעות השמורות בכרטיס  SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_sim_success">"הועבר בהצלחה ל-SIM"</string>
+<string name="toast_copy_to_sim_failure">"ההעתקה ל-SIM נכשלה"</string>
+<string name="toast_sim_memory_full">"זכרון כרטיס SIM מלא"</string>
+<string name="toast_copy_to_multi_sim_success">"הועבר בהצלחה לכרטיס  SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_multi_sim_failure">"ההעתקה לכרטיס  SIM<xliff:g id="COUNT">%1$s</xliff:g> נכשלה"</string>
+<string name="toast_multi_sim_memory_full">"זכרון כרטיס  SIM<xliff:g id="COUNT">%1$s</xliff:g> מלא"</string>
+<string name="count_of_new_mms">"%s הודעות חדשות"</string>
+<string name="pref_summary_store_sms_on_sim">"כאשר מסרון חדש מגיע, שמור אותו לכרטיס ה-SIM או אל תשמור כלל"</string>
+<string name="pref_title_store_sms_on_sim">"שמור מסרונים בכרטיס SIM"</string>
+<string name="pref_title_sms_validity">חוקיות מסרון</string>
+<string name="done_slide_show">בוצע</string>
+<string name="smsc_check_fdn_failure">"מספר מרכז ההודעות שלכם אינו שייך לרשימת FDN"</string>
+<string name="muti_select_all">בחר הכול</string>
+<string name="menu_select_none">"בטל בחירה של הכל"</string>
+<string name="Conversation_check_type_selected_all">בחר הכול</string>
+<string name="menu_msg_folder">צפייה בתיקייה</string>
+<string name="menu_msg_list">צפייה בהודעה</string>
+<string name="folder_inbox">דואר נכנס</string>
+<string name="folder_outbox">דואר יוצא</string>
+<string name="folder_sent">נשלח</string>
+<string name="folder_drafts">טיוטא</string>
+<string name="folder_empty">"אין הודעות בתיקייה זו."</string>
+<string name="folder_display_all">"הצג את כל ההודעות"</string>
+<string name="folder_delete_messages">מחק הודעה</string>
+<string name="folder_loading">"טוען..."</string>
+<string name="folder_reply">ענה</string>
+<string name="folder_forward">העבר</string>
+<string name="no_msg_del">"לא נמחקו הודעות"</string>
+<string name="exceed_slides_number_limitation">"הגיע למגבלת כמות השקופיות"</string>
+<string name="has_vcard_or_vcalendar_attachment">"הסוג  <xliff:g id="TYPE">%1$s</xliff:g> כבר קיים, לא ניתן להוסיף עוד אחד"</string>
+<string name="folder_sortby">מיון לפי</string>
+<string name="OTAConfig_title">הגדרות תצורת  OTA</string>
+<string name="OTAConfig_Message">לשמור את תצורת  OTA?</string>
+<string name="OTAConfiy_Success">הודעת OTA הוגדרה בהצליח</string>
+<string name="OTAConfiy_Error">"עריכת OTA נכשלה"</string>
+<string name="ota_pin_error">"אבטחת OTA נכשלה"</string>
+<string name="ota_retry">"שגיאת סיסמה"</string>
+<string name="ota_pin_exception">תצורת  OTA נכשלה: שגיאת תוכנה.</string>
+<string name="ota_mime_error">תצורת  OTA נכשלה: שגיאת נתוני הודעה.</string>
+<string name="ota_support_not">"כשל עריכת OTA: הסוג <xliff:g id="OTATYPE">%1$s</xliff:g> אינו סוג נתמך."</string>
+<string name="pref_reply_path_title">"הגדרות נתיב מענה"</string>
+<string name="pref_title_reply_path">"נתיב מענה"</string>
+<string name="pref_summary_reply_path">"ענה דרך אותו מוקד"</string>
+<string name="cannot_add_picture_and_vcard">"לא ניתן להוסיף כרטיס וירטואלי ותמונה באותה שקופית."</string>
+<string name="mms_setting">הגדרות MMS </string>
+<string name="pref_title_font_size">הגדרת גודל גופן</string>
+<string name="font_size_setting">הגדרת גודל גופן</string>
+<string name="font_size">"גודל הגופן הוא: <xliff:g id="font_size_id">%1$s</xliff:g>"</string>
+<string name="menu_copy_to_sim_memory">"העתק הודעה לכרטיס SIM"</string>
+<string name="menu_add_recipient_to_contacts">"הוסף את <xliff:g id="name">%s</xliff:g> לאנשי הקשר"</string>
+<string name="action_done">בוצע</string>
+<string name="message_signature_setting">"הגדרות חתימה"</string>
+<string name="pref_signature_enable_title">"חתימה אפשרית"</string>
+<string name="pref_signature_enabl_summary">"הוסיפו חתימה באופן אוטומטי לכל הודעת מולטימדיה שאתם שולחים"</string>
+<string name="pref_signature_input_title">"ערוך חתימה"</string>
+<string name="pref_signature_input_summary">"הכנסו לעמוד כדי לערוך את החתימה שלכם"</string>
+<string name="pref_signature_input_limited">"החתימה הגיעה לגבול הקיבולת"</string>
+<string name="pref_hint_signature_edittext">"בבקשה הזינו את החתימה שלכם"</string>
+<string name="toast_append_signature_failed">"הוספת חתימה להודעת מולטימדיה נכשלה, ההודעה הגיעה לגודל השקופיות המלא"</string>
+<string name="pageIndex">"עמוד %s"</string>
+<string name="remove_subject">"הסר נושא"</string>
+<string name="toast_message_when_memory_full">"הזכרון מלא, בבקשה פנו זכרון ואז אתחלו את המכשיר"</string>
+<string name="toast_save_classzero_message_failed">"אין עוד מקום, שמירת ההודעה נכשלה"</string>
+<string name="toast_shared_file_failed">"קובץ מדיה לא נתמך, השיתוף נכשל."</string>
+<string name="message_too_many_recipients_picked">"סליחה, אינכם יכולים להוסיף יותר מ<xliff:g id="COUNT">%1$s</xliff:g> אנשי קשר בכל פעם"</string>
+<string name="pref_title_manage_sim_smsc">מרכז שירות מסרונים</string>
+<string name="smsc_set_fails">"הגדרת מרכז המסרונים נכשלה"</string>
+<string name="smsc_set_success">"ההגדרה בוצעה בהצלחה."</string>
+<string name="smsc_change_success">"השינוי בוצע בהצלחה."</string>
+<string name="smsc_add_success">"ההוספה בוצעה בהצלה"</string>
+<string name="received_new_wap_contact">"התקבל מסרון כרטיס וירטואלי""</string>
+<string name="save_new_wap_contact">שמור</string>
+<string name="cancle_new_wap_contact">ביטול</string>
+<string name="menu_sim_message">"מסרון ב-SIM"</string>
+<string name="folder_display_option">"הצג אפשרות"</string>
+<string name="confirm_open_browser_dialog_title">הודעה</string>
+<string name="confirm_open_browser_dialog_message">"הפעולה תביא לפתיחת הדפדפן, האם להמשיך?"</string>
+<string name="select_sim_card">"בבקשה בחרו כרטיס SIM"</string>
+<string name="menu_video_call_back">שיחת וידיאו <xliff:g id="name">%s</xliff:g></string>
+<string name="menu_edit_before_call_back">"ערוך לפני שתתקשר אל <xliff:g id="name">%s</xliff:g>"</string>
+<string name="min_zoom">"הגיע לרמה המינימלית"</string>
+<string name="max_zoom">"הגיע לרמה המירבית"</string>
+<string name="sms_merge_forward">"מזג והעבר"</string>
+<string name="sms_merge_dialog_title">רמז</string>
+<string name="sms_merge_dialog_content">"תוכלו למזג רק בין 2 עד 30 מסרונים. בבקשה בדקו זאת."</string>
+<string name="sms_merge_forward_empty">"אין מסרונים המיועדים למיזוג והעברה."</string>
+<string name="sms_forwarding_number">"הגדרות העברת מסרון"</string>
+<string name="pref_sms_forwarding_number_title">"מספר העברת מסרון"</string>
+<string name="pref_sms_forwarding_number_summary">"מעביר מסרון למספר הנמענים שניתן"</string>
+<string name="sim_list_title">"בבקשה בחרו כרטיס SIM"</string>
+<string name="type_vcard">איש הקשר</string>
+<string name="type_vcalendar">לוח שנה</string>
+<string name="attach_vcard">איש הקשר</string>
+<string name="attach_vcalendar">לוח שנה</string>
+<string name="add_slide_before">"הוסף שקופית (לפני)"</string>
+<string name="add_slide_after">"הוסף שקופית (אחרי)"</string>
+<string name="re_take_picture">שמירת התמונה נכשלה, אנא צלמו את התמונה שנית.</string>
+<string name="exceed_text_length_limitation">"עולה על גבול אורך הטקסט."</string>
+<string name="move_message_to_phone_memory">העתקת הודעה לזיכרון הטלפון הסתימה בהצלחה</string>
+<string name="can_not_copy_the_message">אין אפשרות להעתיק את ההודעה</string>
+<string name="confirm_import_vcard">"לייבא כרטיס וירטואלי זה?"</string>
+<string name="pref_title_manage_simx_smsc">"כרטיס SIM <xliff:g id="COUNT">%1$s</xliff:g> מרכז שירות מסרונים"</string>
+<string name="simx_settings_title">"הגדרות כרטיס SIM <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="pref_summary_sms_validity">"אימות הודעה קצרה"</string>
+<string name="pref_title_mms_validity">"אימות הודעת מולטימדיה"</string>
+<string name="pref_summary_mms_validity">"אימות הודעת מולטימדיה"</string>
+<string name="pref_title_mms_priority">"עדיפות"</string>
+<string name="pref_summary_mms_priority">"הגדרות עדיפות"</string>
+<string name="sim_settings_title">"הגדרות כרטיס SIM"</string>
+<string name="toast_copy_to_simx_success">"ההעתקה אל <xliff:g id="COUNT">%1$s</xliff:g> בוצעה בהצלחה"</string>
+<string name="toast_copy_to_simx_failure">"ההעתקה אל <xliff:g id="COUNT">%1$s</xliff:g> נכשלה"</string>
+<string name="toast_simx_memory_full">"<xliff:g id="COUNT">%1$s</xliff:g>  מלא"</string>
+<string name="pref_title_manage_sim_x_setting">"הגדרות ניהול כרטיס SIM <xliff:g id="COUNT">%1$s</xliff:g> "</string>
+<string name="pref_title_mms_creation_mode">"מצב יצירה"</string>
+<string name="exceed_resolution_limit">"הרזולוציה עולה על גבול המותר"</string>
+<string name="want_to_add_media">"האם תרצו להוסיף את <xliff:g id="NAME">%1$s</xliff:g> להודעה שלכם?"</string>
+<string name="mms_can_not_add_vcard">"מחקו קובץ מצורף קיים כדי להוסיף אנשי קשר" </string>
+<string name="mms_can_not_add_vcalendar">"מחקו את הצרופה כדי להוסיף שקופית"</string>
+<string name="converting_to_text_message">המרה להודעת מלל \u2026</string>
+<string name="select_calendar">"בחרו בסדר יום"</string>
+<string name="no_calendar">"אין סדר יום"</string>
+<string name="exceed_slides_number_message">"בחרו <xliff:g id="NUMBER">%1$s</xliff:g> סדרי יום, לכל היום  <xliff:g id="NUMBER">%2$s</xliff:g> סדרי יום"</string>
+<string name="add_to_blacklist">להוסיף לרשימה שחורה</string>
+<string name="failed_addToBlacklist">"הוספה לרשימה השחורה נכשלה."</string>
+<string name="creating_slideshow_title">"יוצר מצגת"</string>
+<string name="attachment_vcalendar">"לוח שנה וירטואלי"</string>
+<string name="attachment_vcard">כרטיס וירטואלי</string>
+<string name="text_limited_warning">"גבול הקלט"</string>
+<string name="subject_text_length_limitation">"הגיע לגבול אורך הנושא"</string>
+<string name="attach_commonPhrases">משפטים נפוצים</string>
+<string name="commonphrase_empty">"אין ביטויים משותפים"</string>
+<string name="quick_reply">"תגובות מהירות"</string>
+<string name="common_messages">"ביטוי משותף"</string>
+<string name="common_add_text">חדש</string>
+<string name="common_delete_text">מחק</string>
+<string name="common_delete_message">"אשר מחיקה?"</string>
+<string name="common_delete">מחק</string>
+<string name="common_phrase_contextmenu_title">תפריט תפעול</string>
+<string name="common_edit">ערוך</string>
+<string name="commonphrase_delete_empty">"אין ביטויים שניתן למחוק"</string>
+<string name="common_phrase_edit_dialog_title">אפשרויות</string>
+<string name="common_phrase_edit_dialog_inform">"לשמור את השינויים שלכם?"</string>
+<string name="common_phrase_edit_max_length">"הגיע לגבול הקלט!"</string>
+<string name="common_messages_edit">"ערוך ביטוי משותף"</string>
+<string name="common_save">שמור</string>
+<string name="common_cancel">ביטול</string>
+<string name="add_empty_common_messages">"הזן כל תו"</string>
+<string name="pref_other_settings_title">אחר</string>
+<string name="pre_key_title_common_messages">"ביטוי משותף"</string>
+<string name="common_phrase_selection">"בחר ביטויים משותפים"</string>
+<string name="wap_push_message_dialog_title">"הודעת push WAP"</string>
+<string name="open_website">לפתוח אתר </string>
+<string name="activity_not_found">"לא נמצא יישום מתאים"</string>
+<string name="add_contact">"הזינו אנשי קשר"</string>
+<string name="receive_from">"התקבל מאת %s"</string>
+<string name="send_from">"נשלח מאת %s"</string>
+<string name="dl_expired_wap_push">"יש <xliff:g id="COUNT">%1$s</xliff:g>  הודעות WAP שתוקפן פג והן יימחקו."</string>
+<string name="invalid_recipient">"נמען לא חוקי"</string>
+<string name="max_recipients_count">"מגבלת הנמענים היא  <xliff:g id="MAXCOUNT">%1$s</xliff:g>."</string>
+<string name="no_media_selected">"לא נבחרה מדיה!"</string>
+<string name="search_max_length">"משפט החיפוש ארוך מדי, המגבלה היא 512."</string>
+<string name="sim_capacity_used">בשימוש:</string>
+<string name="sim_capacity_total">סך הכול:</string>
+<string name="too_many_contacts">"מגבלת הנמענים היא <xliff:g id="MAXLIMIT">%1$s</xliff:g>, המערכת תוסיף את <xliff:g id="CURRENTCOUNT">%2$s</xliff:g>  הנמענים הקודמים."</string>
+<string name="delivery_toast_body_expired">"ההודעה פגה תוקף במועד %s."</string>
+<string name="discard_dialog">"אתם באמת רוצים למסור מידע זה?"</string>
+<string name="contacts_count_excceeds">"הוספתם כבר <xliff:g id="MAXLIMIT">%1$s</xliff:g> נמענים, אסור להוסיף נמענים נוספים."</string>
+<string name="copy">העתק</string>
+<string name="received_new_wap_vcalendar">"התקבל מסרון לוח שנה וירטואלי"</string>
+<string name="remove_vcalendar_first">"מחקו תחילה את לוח השנה הוירטואלי המצורף על מנת לערוך זאת."</string>
+<string name="remove_vcard_first">"מחקו תחילה את הכרטיס הוירטואלי המצורף על מנת לערוך זאת."</string>
+<string name="import_vcalendar">לייבא Vcalendar </string>
+<string name="no_vcalendar">"לא נמצא לוח שנה וירטואלי"</string>
+<string name="import_vcalendar_fail">"לא ניתן לייבא לוח שנה וירטואלי."</string>
+<string name="unable_to_add_all">"גודל ההודעה הגיע לשיא, כמה מהחלקים לא הוספו."</string>
+<string name="replce_slideshow_dilaog_dismiss">"החלפת המצגת תביא למחיקת הצרופה הנוכחית, האם תרצו להמשיך?"</string>
+<string name="pref_title_sms_retry_times">"אפשר נסיון חוזר לשליחת מסרון"</string>
+<string name="smsc_list">"רשימת מרכזי מסרונים"</string>
+<string name="smsc_list_empty">"אין מספרי מרכז מסרונים"</string>
+<string name="smsc_list_loading">"טוען"</string>
+<string name="smsc_list_menu_edit">ערוך</string>
+<string name="smsc_list_menu_activate">הפעל</string>
+<string name="smsc_list_not_allow_to_clear">"לא ניתן למחוק את המספר"</string>
+<string name="smsc_list_empty_number">"הקליקו להוספת מספר חדש"</string>
+<string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g> הצרופה נשמרה במיקום <xliff:g id="path">%2$s</xliff:g>, <xliff id="fail">%3$d</xliff> שמירת הצרופה נכשלה"</string>
+<string name="box_msg_list_menu_addtocontacts">הוסף לאנשי הקשר</string>
+<string name="box_msg_list_menu_call">התקשר</string>
+<string name="box_msg_list_menu_editbeforecall">"ערוך לפני השיחה"</string>
+<string name="box_msg_list_menu_videocall">שיחת וידיאו</string>
+<string name="soundrecorder_fail_msg">"לא ניתן היה להפעיל את מקלט השמע."</string>
+<string name="camera_fail_msg">"לא ניתן היה להפעיל את המצלמה."</string>
+<string name="video_fail_msg">"לא ניתן היה להפעיל את מקלט הוידאו."</string>
+<string name="pref_encode_type_setting_title">"הגדרות סוג קידוד"</string>
+<string name="pref_encode_type_title">"סוג קידוד"</string>
+<string name="confirm_convert_to_mms">"רשימת הנמענים כולל כתובות דוא"ל, ההודעה תישלח בתור הודעת מולטימדיה"</string>
+<string name="send_as_mms">"‏שלח MMS"</string>
+<string name="send_as_sms">"שלח כמסרון בלבד"</string>
+<string name="protected_file">"לא ניתן להוסיף קבצים מוגנים"</string>
+<string name="success_to_send_sms">"שליחת המסרון הושלמה בהצלחה"</string>
+<string name="confirm_ota_message">"האם לאשר הגדרות OTA?"</string>
+<string name="confirm_ota">אישור</string>
+<string name="cancel_ota">ביטול</string>
+<string name="ota_cancelled">"הגדרות OTA בוטלו."</string>
+<string name="message_too_big_for_audio">ההודעה גדולה מדי בשביל לצרף אודיו.</string>
+  <plurals name="conversation_num">
+<item quantity="one">"יש לכם שיחה 1."</item>
+<item quantity="other">"יש לכם <xliff:g id="number">%1$s</xliff:g> שיחות."</item>
+  </plurals>
+  <string-array name="prefEntries_sms_validity">
+    <item>לא הוגדר</item>
+    <item>שעה 1</item>
+    <item>6 שעות</item>
+    <item>24 שעות</item>
+    <item>2 יום</item>
+    <item>שבוע 1</item>
+    <item>מקסימום</item>
+  </string-array>
+  <string-array name="sort_type">
+    <item>"לפי שעה"</item>
+    <item>"לפי כתובת"</item>
+  </string-array>
+  <plurals name="delete_confirm">
+<item quantity="one">"בחרו פריט 1"</item>
+<item quantity="other">"בחרו <xliff:g id="del_count">%1$s</xliff:g> פריטים"</item>
+  </plurals>
+  <string-array name="prefEntries_mms_validity">
+    <item>שעה 1</item>
+    <item>12 שעות</item>
+    <item>24 שעות</item>
+    <item>2 יום</item>
+    <item>מקסימום</item>
+  </string-array>
+  <string-array name="prefEntries_mms_priority">
+    <item>גבוה</item>
+    <item>רגיל</item>
+    <item>נמוך</item>
+  </string-array>
+  <string-array name="mms_creation_mode_entries">
+    <item>"מוגבל"</item>
+    <item>אזהרה</item>
+    <item>פנוי</item>
+  </string-array>
+
+    <string name="contacts_count_can_send">"לקוחות יקרים, מספר הנמענים שבחרתם גדול מהמגבלה הקיימת, מותר לכם לשלוח רק ל-<xliff:g id="MAXLIMIT">%1$s</xliff:g> , בבקשה שלחו בכמה אצוות נמענים."</string>
+    <string name="attach_common_messages">משפטים נפוצים</string>
+    <string name="attach_subject">נושא</string>
+    <string name="add_contacts_dialog_title">"הוסף אנשי קשר"</string>
+    <string name="add_contact_as_text">הודעת מלל</string>
+    <string name="action_next">"הבא"</string>
+     <string name="sms_forward">"העבר"</string>
+     <string name="valid_sub">"כרטיס SIM לא חוקי"</string>
+     <string name="confirm_import_vcalendar">לייבא לוח שנה וירטואלי זה?</string>
+     <string name="confirm_save_otherfiles">לשמור את הצרופה הזו?</string>
+     <string name="pref_notification_settings_title_sim1">"התראות SIM1"</string>
+     <string name="pref_notification_settings_title_sim2">"התראות SIM2"</string>
+     <string name="pref_notification_settings_title_sim">"התראות SIM"</string>
+     <string name="dlg_media_removed">"מדיה ללא נתיב נכון הוסרה מהצרופה, האם להמשיך ולשלוח את זה?"</string>
+     <string name="toast_media_removed">"מדיה ללא נתיב נכון הוסרה מהצרופה, אנא בדקו זאת!"</string>
+     <string name="dl_failure_roaming">"מצב נדידת נתונים, לא ניתן להוריד את ההודעה!"</string>
+     <string name="recipient_invalid">"<xliff:g id="invalid_number" example="1">%1$s</xliff:g> נמענ(ים) לא חוקי(ים)"</string>
+     <string name="recipient_invalid_detail">"לא חוקי(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+     <string name="recipient_changed_detail">"שונה(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+</resources>

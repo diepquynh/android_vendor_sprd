@@ -1,0 +1,8 @@
+-keep class com.sprd.fileexplorer.R
+-keep class com.sprd.fileexplorer.R$*
+-keepclassmembers class **.R$* {
+        public static <fields>;
+}
+-keepclassmembers class com.sprd.fileexplorer.drmplugin.FileCopyTaskUtils {
+    *** copyDRMFileHint(...);
+}

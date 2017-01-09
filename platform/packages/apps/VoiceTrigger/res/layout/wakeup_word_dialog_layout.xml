@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="15dp" >
+
+    <TextView
+        android:id="@+id/wakeup_word_dialog_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/wakeup_word_dialog_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/wakeup_word_dialog_text1"
+        android:layout_alignRight="@+id/wakeup_word_dialog_text1"
+        android:layout_below="@+id/wakeup_word_dialog_text1"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="10dp"
+        android:text="@string/voicetrigger_wakeup_item_2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/wakeup_word_dialog_radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/wakeup_word_dialog_text2"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/wakeup_word_dialog_text1" >
+
+        <RadioButton
+            android:id="@+id/wakeup_word_dialog_radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/wakeup_word_dialog_radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+</RelativeLayout>

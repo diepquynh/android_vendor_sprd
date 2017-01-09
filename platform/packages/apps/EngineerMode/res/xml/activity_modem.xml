@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Added by Yuntao.xiao for SlogUI-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_modem_scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearlayout_modem_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/chk_modem_branch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chk_modem_switch" />
+
+        <CheckBox
+            android:id="@+id/chk_modem_branch_second"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chk_modem_switch" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="40dip"
+            android:text="@string/txv_modem_other" />
+
+        <CheckBox
+            android:id="@+id/chk_modem_bluetooth"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chk_modem_bluetooth" />
+
+        <CheckBox
+            android:id="@+id/chk_modem_tcp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chk_modem_tcp" />
+
+        <CheckBox
+            android:id="@+id/chk_modem_misc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chk_modem_misc" />
+
+        <TextView
+            android:id="@+id/txv_modem_tester"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dip" />
+    </LinearLayout>
+
+</ScrollView>

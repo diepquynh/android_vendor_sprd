@@ -1,0 +1,25 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.android.sprd.telephony.server"
+      coreApp="true"
+      android:sharedUserId="android.uid.phone"
+      android:process="com.android.phone">
+
+    <protected-broadcast android:name="android.intent.action.SIM_STATE_CHANGED" />
+
+    <application
+        android:directBootAware="true">
+         <service android:name="com.android.sprd.telephony.RadioInteractorService"
+                 android:exported="true"
+                 android:process="com.android.phone">
+            <intent-filter>
+                <action android:name="com.android.sprd.telephony.server.RADIOINTERACTOR_SERVICE" />
+            </intent-filter>
+         </service>
+         <receiver android:name="com.android.sprd.telephony.server.BootupReceiver"
+                 android:process="com.android.phone">
+           <intent-filter>
+            <action android:name="android.intent.action.SIM_STATE_CHANGED" />
+           </intent-filter>
+         </receiver>
+    </application>
+</manifest>

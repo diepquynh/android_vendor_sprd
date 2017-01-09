@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Modem Log Settings" >
+
+    <ListPreference
+        android:dialogTitle="@string/log_output_settings"
+        android:entries="@array/log_output_settings_entries"
+        android:entryValues="@array/log_output_settings_values"
+        android:key="log_output_settings"
+        android:summary=""
+        android:title="@string/log_output_settings" />
+
+    <Preference
+        android:title="@string/sd_settings" 
+        android:key="sd_settings">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.debuglog.slogui.SdSettingsActivity"
+            android:targetPackage="com.sprd.engineermode" >
+        </intent>
+    </Preference>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="modemlog_enable"
+        android:title="ARM Log" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <Preference
+        android:key="memory_leak"
+        android:title="Memory Leak Log" >
+    </Preference>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="cp2log_enable"
+        android:title="CP2 Log" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <ListPreference
+        android:defaultValue="@string/modem_dsp_log_entries_values_default"
+        android:entries="@array/modem_dsp_log_entries"
+        android:entryValues="@array/modem_dsp_log_values"
+        android:key="dsplog_enable"
+        android:title="DSP options" />
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="caplog_enable"
+        android:title="Cap Log" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="gnss_enable"
+        android:title="GNSS Log" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="art_log"
+        android:title="Art Debug Log" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <PreferenceScreen android:title="IQ Mode" >
+        <Preference
+            android:key="wcdma_iq"
+            android:title="WCDMA IQ" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.sprd.engineermode.debuglog.WCDMAIQActivity"
+                android:targetPackage="com.sprd.engineermode" >
+            </intent>
+        </Preference>
+        <Preference
+            android:key="gsm_iq"
+            android:title="GSM IQ" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.sprd.engineermode.debuglog.GSMIQActivity"
+                android:targetPackage="com.sprd.engineermode" >
+            </intent>
+        </Preference>
+    </PreferenceScreen>
+
+    <ListPreference
+        android:dialogTitle="@string/scenarios"
+        android:entries="@array/log_scenarios_entries"
+        android:entryValues="@array/log_scenarios_values"
+        android:key="log_scenarios"
+        android:summary=""
+        android:title="@string/scenarios" />
+    <Preference
+        android:title="Save SleepLog" 
+        android:key="save_sleeplog" >
+    </Preference>
+    <Preference
+        android:title="Save RingBuf" 
+        android:key="save_ringbuf">
+    </Preference>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="enable_dump_marlin_mem"
+        android:title="Enable Dump Marlin Mem" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <Preference
+        android:title="Dump Marlin Mem" 
+        android:key="dump_marlin_mem">
+    </Preference>
+
+    <ListPreference
+        android:dialogTitle="@string/mini_dump_path"
+        android:entries="@array/mini_dump_entries"
+        android:entryValues="@array/mini_dump_values"
+        android:key="mini_dump_patch_setting"
+        android:summary=""
+        android:title="@string/mini_dump_path" />
+
+</PreferenceScreen>

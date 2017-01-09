@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff">
+
+    <ListView android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="false"
+        android:textSize="20sp"
+        android:fastScrollEnabled="false" />
+    <TextView
+        android:id="@+id/picker_emptylist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="@string/emptylist"
+        android:textColor="@color/text_color_empty_list"
+        android:textSize="@dimen/text_size_empty_list"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="16dp"
+        android:weightSum="2">
+        <Button android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:text="@android:string/cancel"
+            android:minWidth="120dip"
+            android:minHeight="48dip" />
+        <Button android:id="@+id/btnEnsure"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:text="@android:string/ok"
+            android:minWidth="120dip"
+            android:minHeight="48dip" />
+    </LinearLayout>
+</LinearLayout>

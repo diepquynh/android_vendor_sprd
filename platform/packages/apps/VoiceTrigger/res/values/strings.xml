@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- application name and title of error dialogs -->
+    <string name="app_name">Voice Trigger</string>
+    <string name="audio_voicetrigger_words">Wake up word</string>
+    <string name="audio_voicetrigger_sensibility">Recognition sensitivity</string>
+    <string name="audio_voicetrigger_support_fun">Support functions description</string>
+    <string name="audio_voicetrigger_connect_headset">Connect the headset to use</string>
+    <string name="audio_voicetrigger_language_choose">Select voice command language</string>
+    <string name="audio_voicetrigger_help">Help</string>
+    <string name="audio_voicetrigger_subtitle_wakeup_default">The Context of Wake Words</string>
+    <string name="audio_voicetrigger_subtitle_wakeup_userdefine"> User-Defined</string>
+    <string name="audio_voicetrigger_subtitle_language_choose">Set voice command language</string>
+    <string name="audio_voicetrigger_subtitle_help">Audition custom wake-up word</string>
+
+    <string name="voicetrigger_connect_headset_content">When connected to the wired headset or Bluetooth headset, \
+        it still be able to wake up the phone and use normally, \
+        but your voice is collected through the phone microphone, \
+        and the microphone of the headset can not wake up the phone</string>
+    <string name="voicetrigger_wakeup_title">Wakeup Words Enroll</string>
+    <string name="voicetrigger_input_title">Recording Wakeup Words</string>
+    <string name="voicetrigger_describe">When the telephone isn\'t nearby body or inconvenience to hand it,\
+        such as call,by listening music,etc. you can use wakeup words to wakeup your device and do someting with your voice.</string>
+    <string name="change_language_progress_dialog_message">Switching language, Please wait… </string>
+    <!-- hint information text start -->
+    <string name="info_press_to_start">click button to record voice</string>
+    <string name="info_default">Please speak at quiet place</string>
+    <string name="info_recording">Recording…</string>
+    <string name="info_please_wait">Please wait…</string>
+    <string name="info_talk_louder">Talk louder</string>
+    <string name="info_pause_before">Pause "1-2 second before talking"</string>
+    <string name="info_too_noisy">Too noisy. Move to a quieter place</string>
+    <string name="info_talk_softer">Talk softer</string>
+    <string name="info_bad_recording">Bad recording</string>
+    <string name="info_talk_slower">Talk slower</string>
+    <string name="info_too_many_sound">Too many sound repetitions</string>
+    <string name="info_check_rec">Doing generate trigger. Please wait…</string>
+    <string name="info_problems_in_rec">Problems in one or more recordings. you must record again</string>
+    <string name="generate_voicetrigger_words_success">Done generate VoiceTrigger.</string>
+    <!-- hint information text end -->
+
+    <string name="voicetrigger_wakeup_item_1">%1$s (default)</string>
+    <string name="voicetrigger_wakeup_item_2">user define</string>
+    <!-- the temp prompting text to awake device start -->
+    <string name="prompting_user_defined_text"> the contents of the custom wake up words</string>
+    <string name="prompting_text_default">Please say：%1$s </string>
+    <string name="prompting_text_1">Please say：%1$s again</string>
+    <string name="prompting_text_2">Completed</string>
+    <!-- the temp prompting text to awake device end -->
+
+    <!-- the permission for androidM start-->
+    <string name="error_app_internal">Internal application error</string>
+    <string name="dialog_dismiss">Dismiss</string>
+    <string name="error_permissions">The app does not have critical permissions needed to run. Please check your permissions settings.</string>
+    <!-- tthe permission for androidM end-->
+
+    <!-- the dialog text for first use guide start -->
+    <string name="dialog_title">Warning</string>
+    <string name="dialog_firstuse_info">You are the first use this feature , you should set the default voice to wakeup this device</string>
+    <string name="no_wakeup_words_recoded">you have not record the user defined wakeup words</string>
+    <!-- the dialog text for first use guide end -->
+
+
+    <!-- the dialog text for change languages at first record start -->
+    <string name="dialog_title_notice">notice</string>
+    <string name="dialog_change_language_first">checked you have not record the wakeup word\'s voice of current language,\
+        you should record new voice to wakeup the device , are you continue ?</string>
+    <!-- the dialog text for change languages at first record end -->
+
+    <string name="same_application_running">"The recording device is use by another program,please close this program!"</string>
+    <string name="is_not_systemuser">"Currently is not systemuser, can not use the voice wake up."</string>
+
+    <!-- hello_voicetrigger_activity_text start -->
+    <string-array name="hello_trigger_text_title_array">
+        <item>Hello, may I help you ?</item>
+        <item>Please go on, I\'m listening… </item>
+        <item>You can ask me like this: </item>
+    </string-array>
+    <string-array name="hello_trigger_text_content_array1">
+        <item>@string/cmd_step_count</item>
+        <item>@string/cmd_calories</item>
+        <item>@string/cmd_floors</item>
+        <item>@string/cmd_distance</item>
+        <item> @string/cmd_active_minutes</item>
+        <item>@string/cmd_sleep_pattern</item>
+        <item>@string/cmd_outside_temperature</item>
+    </string-array>
+    <!-- hello_voicetrigger_activity_text end -->
+
+    <!-- support functions list start -->
+    <string name="support_find_phone">Find the phone</string>
+    <string name="support_find_phone_summary">Shout out loudly：\' [The wake up words] + Where are you?\', the phone will respond to you by playing the custom ring tones.</string>
+    <string name="support_call_phone">Make phone calls</string>
+    <string name="support_call_phone_summary">Say to the phone：\' [The wake up words] + Call Xiao Wang\'，it will call someone.</string>
+    <string name="support_send_mms">Send messages</string>
+    <string name="support_send_mms_summary">Say to the phone：\' [The wake up words] + Send a text message to Xiao Wang\'，it will open the messaging apps to send a message.</string>
+    <string name="support_camera">Take pictures</string>
+    <string name="support_camera_summary">Say to the phone：\' [The wake up words] + Take a picture for me\'，it will open the camera and take pictures directly.</string>
+    <string name="support_open_music">Play Music</string>
+    <string name="support_open_music_summary">Say to the phone:\' [The wake up words] + Play Wang Fei\'s \"Hong Dou\"\'，it will open the music player and play the song.</string>
+    <string name="support_open_app">Launch applications</string>
+    <string name="support_open_app_summary">Say to the phone：\' [The wake up words] + Open WeChat\'，the phones will launch the WeChat app.</string>
+    <!-- dialog message -->
+    <string name="find_phone_content">You can ask me：\n\n Where are you\n Do you hear me\n Give me a response</string>
+    <string name="call_phone_content">You can ask me：\n\n Call Xiao Wang\n Call Xiaomin back\n Call customer service of China Mobile\n Dial 114</string>
+    <string name="send_mms_content">You can ask me：\n\n Send Xiao Wang a text message\n Send a text message to Xiaomin\n Reply a text message to mom\n Send the meeting time to Xiaoming by SMS</string>
+    <string name="open_camera_content">You can ask me：\n\n Take a picture for me\n Take a picture of the scenery\n Take a picture of the signpost.</string>
+    <string name="open_music_content">You can ask me：\n\n Play Wang Fei\'s \"Hong Dou\"\n Play a song at random\n I want to listen to "Pao Mo"\n Play a song by Zhang Xueyou</string>
+    <string name="open_app_content">You can ask me：\n\n Open WeChat\n Download a "compass" app\n Launch the notepad</string>
+    <!-- support functions list end -->
+
+    <string name="app_package" translatable="false">com.sensory.commands</string>
+
+    <string name="ptt_msg">Bypass Trigger</string>
+
+    <string name="default_language">US English</string>
+    <string name="default_trigger">Trigger: Hello Blue Genie v17 (US English)</string>
+    <string name="default_trigger_sen">Sensitivity: Normal</string>
+    <string name="default_command">Command: Fitness v2.2 (US English)</string>
+    <string name="default_command_sen">Sensitivity: Normal</string>
+
+    <string name="trigger_prompt">Say Hello Blue Genie</string>
+    <string name="trigger_prompt_360">Say\nHello Blue Genie</string>
+    <string name="command_prompt1">"Now say one of the\nfollowing…</string>
+    <string name="command_prompt2">"Now say a command</string>
+    <string name="command_prompt_360">"Now\nsay a command</string>
+    <string name="cmd_step_count">Step Count</string>
+    <string name="cmd_calories">Calories</string>
+    <string name="cmd_floors">Floors</string>
+    <string name="cmd_distance">Distance</string>
+    <string name="cmd_active_minutes">Active Minutes</string>
+    <string name="cmd_sleep_pattern">Sleep Pattern</string>
+    <string name="cmd_outside_temperature">Outside Temperature</string>
+    <string name="cmd_outside_humidity">Outside Humidity</string>
+    <string name="cmd_what_time_is_it">What Time Is It</string>
+    <string name="cmd_heart_rate">Heart Rate</string>
+    <string name="resp_step_count">Step Count = 4306</string>
+    <string name="resp_calories">Calories Burned Today = 1445</string>
+    <string name="resp_floors">Floors Climbed Today = 8</string>
+    <string name="resp_distance">Distance Today = 2.52 miles</string>
+    <string name="resp_active_minutes">Active Minutes Today = 17</string>
+    <string name="resp_sleep_pattern">Deep Sleep Today = 3h 25m</string>
+    <string name="resp_outside_temperature">Outside Temp. = 74 F</string>
+    <string name="resp_outside_humidity">Outside Humidity = 41 %</string>
+    <string name="resp_what_time_is_it">Current Time =</string>
+    <string name="resp_heart_rate">Heart Rate = 74 bpm</string>
+    <string name="time_left">Time Left: X s</string>
+    <string name="language_changed_success">language changed success!</string>
+    <string name="save_file_to_device_error">Wake up word switch failed, please try again later!</string>
+    <string name="language_changed_failed">change language failed, please try again later</string>
+    <string name="language_change_has_canceled">has canceled, you can also use the old languages</string>
+    <string name="finished">finish</string>
+    <string name="sensibility_text">Set the sensitivity of the wake up word in recognition \n \
+        When the sensitivity is set higher, the higher rate of wake up\n \
+        When the sensitivity is set lower, the lower rate of wake up</string>
+    <string name="voicetrigger_image_describe">voice Trigger Describe Image</string>
+    <string name="voicetrigger_image_speeching">Voice Trigger Speeching Image</string>
+    <string name="update_phrass_success">Update phrass success </string>
+
+</resources>

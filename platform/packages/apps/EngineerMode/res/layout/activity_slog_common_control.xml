@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/top_panel"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/slogui_ab_background_overlay"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/slogui_common_control_logo"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/slogui_common_control_title"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/logo"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/slogui_settings_icon"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_panel"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+
+        <View
+            android:id="@+id/bottom_panel_divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/slogui_bottom_bar_divider" />
+
+        <Button
+            android:id="@+id/clearlog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/slogui_clearlog_bg" />
+
+        <Button
+            android:id="@+id/dumplog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/slogui_dumplog_bg" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_panel"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/top_panel"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ToggleButton
+                android:id="@+id/general"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="26dp"
+                android:background="@drawable/slogui_general_button"
+                android:textOff="@null"
+                android:textOn="@null" />
+
+            <ProgressBar
+                android:id="@+id/storage_usage"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/general"
+                android:layout_marginTop="24dp"
+                android:progressDrawable="@drawable/slogui_progress" />
+
+            <TextView
+                android:id="@+id/storage_usage_used"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/storage_usage"
+                android:layout_below="@+id/storage_usage"
+                android:text="@string/storage_usage"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/storage_usage_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/storage_usage_used"
+                android:layout_alignBottom="@+id/storage_usage_used"
+                android:layout_alignRight="@+id/storage_usage"
+                android:text="@string/storage_free"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="12sp" />
+
+           <CheckBox
+                android:id="@+id/general_android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/storage_usage"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/storage_usage_used"
+                android:layout_marginTop="22dp"
+                android:text="@string/general_android" />
+
+            <CheckBox
+                android:id="@+id/general_modem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/general_android"
+                android:layout_alignRight="@+id/general_android"
+                android:layout_below="@+id/general_android"
+                android:text="@string/general_modem" />
+
+            <!-- <CheckBox
+                android:id="@+id/general_cap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/general_modem"
+                android:layout_alignRight="@+id/general_modem"
+                android:layout_below="@+id/general_modem"
+                android:text="@string/general_cap" />
+
+            <CheckBox
+                android:id="@+id/general_bluetooth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/general_cap"
+                android:layout_alignRight="@+id/general_cap"
+                android:layout_below="@+id/general_cap"
+                android:text="@string/general_bluetooth" />
+ -->
+           <View 
+               android:id="@+id/view_01"
+               android:layout_below="@+id/general_modem"
+               android:layout_marginTop="10dp"
+               style="@style/SlogUICheckDivider" />
+
+           <TextView
+                android:id="@+id/logpath_prompt_ap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/general_modem"
+                android:layout_below="@+id/view_01"
+                android:layout_marginTop="10dp"
+                android:text="@string/storage_location_ap"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/ap_logpath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/general_modem"
+                android:layout_below="@+id/logpath_prompt_ap"
+                android:layout_marginTop="5dp"
+                android:textSize="16sp" />
+
+            <View 
+               android:id="@+id/view_02"
+               android:layout_below="@+id/ap_logpath"
+               android:layout_marginTop="5dp"
+               style="@style/SlogUICheckDivider" />
+
+             <TextView
+                android:id="@+id/logpath_prompt_cp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/general_modem"
+                android:layout_below="@+id/view_02"
+                android:layout_marginTop="10dp"
+                android:text="@string/storage_location_cp"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/cp_logpath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ap_logpath"
+                android:layout_alignRight="@+id/general_modem"
+                android:layout_below="@+id/logpath_prompt_cp"
+                android:layout_marginTop="5dp"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

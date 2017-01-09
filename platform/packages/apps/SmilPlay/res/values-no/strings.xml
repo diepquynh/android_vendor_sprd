@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_label">"Meldinger"</string>
+<string name="new_message">"Ny melding"</string>
+<string name="menu_call_back">"Ring <xliff:g id="name">%s</xliff:g>"</string>
+<string name="menu_send_email">"Send e-post til <xliff:g id="name">%s</xliff:g>"</string>
+<string name="menu_compose_new">"Skriv"</string>
+<string name="menu_preferences">"Innstillinger"</string>
+<string name="menu_add_address_to_contacts">"Legg til <xliff:g id="contactEmailOrNumber">%s</xliff:g> til Folk"</string>
+<string name="menu_call">"Ring"</string>
+<string name="menu_search">"Søk"</string>
+<string name="menu_delete_all">"Slett alle tråder"</string>
+<string name="menu_delete">"Slett tråd"</string>
+<string name="menu_view">"Vis tråd"</string>
+<string name="refreshing">"Forfriskende \u2026"</string>
+<string name="menu_cell_broadcasts">"Kringkastninger"</string>
+<string name="has_draft">"Skisse"</string>
+<string name="no_subject_view">"(Inget tema)"</string>
+<string name="messagelist_sender_self">"Meg"</string>
+<string name="view_slideshow">"Lysbildefremvisning"</string>
+<string name="view_message_details">"Vis detaljer"</string>
+<string name="view_delivery_report">"Vis rapport"</string>
+<string name="delete_message">"Slett"</string>
+<string name="expire_on">"Utgår: <xliff:g id="date">%s</xliff:g>"</string>
+<string name="undelivered_msg_dialog_title">"Ikke levert melding"</string>
+<string name="undelivered_msg_dialog_body">"Kunne ikke sende denne meldingen \nForsøk gjort: <xliff:g id="message">%s</xliff:g>."</string>
+<string name="undelivered_sms_dialog_body">"Kunne ikke sende denne meldingen."</string>
+<string name="delete_thread">"Slett tråd"</string>
+<string name="menu_forward">"Videresend"</string>
+<string name="download">"Last ned"</string>
+<string name="downloading">"Nedlasting"</string>
+<string name="cc">"&lt;Emne: <xliff:g id="subject">%s</xliff:g>>"</string>
+<string name="drm_protected_text">"* DRM-beskyttet tekst *"</string>
+<string name="insufficient_drm_rights">"Utilstrekkelige DRM rettigheter oppdaget."</string>
+<string name="copy_message_text">"Kopier teksten"</string>
+<string name="message_options">"Meldings alternativer"</string>
+<string name="slideshow_options">"Bildeseriealternativer"</string>
+<string name="done">"Fullført"</string>
+<string name="move_up">"Flytt opp"</string>
+<string name="move_down">"Flytt ned"</string>
+<string name="remove_slide">"Fjern lysbilde"</string>
+<string name="add_slide">"Legg til lysbilde"</string>
+<string name="add_slide_hint">"Trykk for å opprette nytt lysbilde."</string>
+<string name="discard_slideshow">"Forkast lysbildefremvisning"</string>
+<string name="slide_show_part">"Del <xliff:g id="part">%1$s</xliff:g>/<xliff:g id="total">%2$s</xliff:g>"</string>
+<string name="remove_text">"Fjern tekst"</string>
+<string name="add_picture">"Legg til bilde"</string>
+<string name="remove_picture">"Ta bilde"</string>
+<string name="add_music">"Legg til musikk"</string>
+<string name="remove_music">"Fjern musikk"</string>
+<string name="add_video">"Legg til video"</string>
+<string name="remove_video">"Fjern video"</string>
+<string name="to_hint">"Til"</string>
+<string name="subject_hint">"Emne"</string>
+<string name="add_attachment">"Legg ved"</string>
+<string name="add_subject">"Legg til emne"</string>
+<string name="discard">"Kast"</string>
+<string name="view">"Se"</string>
+<string name="replace">"Erstatt"</string>
+<string name="remove">"Fjern"</string>
+<string name="send">"Send"</string>
+<string name="mms">"MMS"</string>
+<string name="send_mms">"Send MMS"</string>
+<string name="all_threads">"Alle tråder"</string>
+<string name="type_to_compose_text_enter_to_send">"Skriv inn melding"</string>
+<string name="open_keyboard_to_compose_message">"Åpne tastaturet for å skrive melding"</string>
+<string name="sending_disabled_not_default_app">"Sending ble deaktivert"</string>
+<string name="compose_disabled_toast">"Kan ikke komponere. Ikke standard SMS applikasjon."</string>
+<string name="compressing">"Bildet er for stort, komprimerer \u2026"</string>
+<string name="unsupported_media_format">"Unsupported <xliff:g id="name">%1$s</xliff:g> format."</string>
+<string name="select_different_media">"Velg et annet <xliff:g id="name">%1$s</xliff:g>."</string>
+<string name="exceed_message_size_limitation">"Meldings størrelsesgrense nådd."</string>
+<string name="message_too_big_for_video">"Budskapet er for stort til å legge ved en video."</string>
+<string name="failed_to_add_media">"Du kan ikke legge dette til <xliff:g id="name">%1$s</xliff:g> i meldingen."</string>
+<string name="failed_to_resize_image">"Bildet har ikke endret størrelse."</string>
+<string name="resize_image_error_information">"Dette bildet er for stort til å sende, selv ved skalering."</string>
+<string name="forward_prefix">"Fwd: \u0020"</string>
+<string name="discard_message_reason">"Meldingen vil bli forkastet fordi den ikke har noen gyldige mottakere."</string>
+<string name="has_invalid_recipient">"Ugyldig mottaker(e): &lt;<xliff:g id="name">%1$s</xliff:g>&gt;"</string>
+<string name="invalid_destination">"Ugyldig adresse."</string>
+<string name="service_not_activated">"Tjenesten er ikke aktivert på nettverket."</string>
+<string name="service_message_not_found">"Melding utløpt eller ikke tilgjengelig."</string>
+<string name="service_network_problem">"Kunne ikke sende grunn av nettverksproblem."</string>
+<string name="invalid_recipient_message">"Fiks mottaker (e), hvis ikke vil de ikke motta meldingen."</string>
+<string name="cannot_send_message">"Kan ikke sende meldingen"</string>
+<string name="cannot_send_message_reason">"Meldingen har ingen gyldige mottakere."</string>
+<string name="cannot_forward_drm_obj">"DRM-objektet inkludert i meldingen kan ikke bli ettersendt."</string>
+<string name="converting_to_picture_message">"Konvertering til multimediemelding \u2026"</string>
+<string name="cannot_add_slide_anymore">"Kan ikke legge til flere lysbilder."</string>
+<string name="cannot_add_picture_and_video">"Kan ikke legge til videoen og bildet til ett lysbilde."</string>
+<string name="cannot_save_message">"Kan ikke lagre meldingen."</string>
+<string name="message_saved_as_draft">"Meldingen er lagret som kladd."</string>
+<string name="too_many_recipients">"Meldingen har for mange mottakere (<xliff:g id="currentCount">%1$s</xliff:g>). There is a limit of <xliff:g id="maxLimit">%2$s</xliff:g> mottakere "</string>
+<string name="too_many_attachments">"Det er en grense på <xliff:g id="maxLimit">%1$s</xliff:g> vedlegg. Kun den første <xliff:g id="currentCount">%2$s</xliff:g> vil bli lagt til."</string>
+<string name="adding_attachments_title">"Legger til vedlegg"</string>
+<string name="adding_attachments">"Vent mens elementer legges til lysbildefremvisningen."</string>
+<string name="building_slideshow_title">"Setter sammen lysbildefremvisning"</string>
+<string name="cannot_play_audio">"Kan ikke spille av lyd."</string>
+<string name="preview">"Forhåndsvisning"</string>
+<string name="preview_slideshow">"Forhåndsvisning"</string>
+<string name="replace_image">"Erstatt bilde"</string>
+<string name="duration_sec">"Varighet (<xliff:g id="duration">%s</xliff:g> sek)"</string>
+<string name="duration_selector_title">"Varighet for lysbilde"</string>
+<string name="layout_selector_title">"Lysbildefremvisning layout"</string>
+<string name="layout_top">"Layout (øverst)"</string>
+<string name="layout_bottom">"Layout (nederst)"</string>
+<string name="type_to_compose_text_or_leave_blank">"Skriv melding, eller la være blank"</string>
+<string name="duration_not_a_number">""Varighet må være et tall"."</string>
+<string name="duration_zero">"Varighet må være større enn null sekunder."</string>
+<string name="secs">"sekunder"</string>
+<string name="menu_view_contact">"Vis kontakt"</string>
+<string name="menu_add_to_contacts">"Legg til kontakter"</string>
+<string name="hidden_sender_address">"Skjult avsenderadresse"</string>
+<string name="yes">"OK"</string>
+<string name="no">"Avbryt"</string>
+<string name="set">"Velg"</string>
+<string name="play">"Spill av"</string>
+<string name="edit">"Endre"</string>
+<string name="try_to_send">"Prøv å sende"</string>
+<string name="preferences_title">"Innstillinger"</string>
+<string name="restore_default">"Gjenopprett standardinnstillinger"</string>
+<string name="pref_notification_settings_title">"Meldinger"</string>
+<string name="pref_mms_settings_title">"Multimediemeldinger (MMS)"</string>
+<string name="pref_sms_settings_title">"Tekstmeldinger (SMS)"</string>
+<string name="pref_sms_storage_title">"Lagring"</string>
+<string name="pref_title_sms_disabled">"SMS Deaktivert"</string>
+<string name="pref_summary_sms_disabled">"Trykk for å gjøre Meldinger til standard SMS-applikasjon"</string>
+<string name="pref_title_sms_enabled">"SMS Aktivert"</string>
+<string name="pref_summary_sms_enabled">"Trykk for å endre standard SMS applikasjon"</string>
+<string name="pref_summary_manage_sim_messages">"Administrer meldinger lagret på SIM-kortet"</string>
+<string name="pref_summary_mms_delivery_reports">"Be om en leveringsrapport for hver melding du sender"</string>
+<string name="pref_summary_mms_read_reports">"Be om en leserapport for hver melding du sender"</string>
+<string name="pref_summary_sms_delivery_reports">"Be om en leveringsrapport for hver melding du sender"</string>
+<string name="pref_summary_auto_delete">"Slett gamle meldinger ettersom grensene er nådd"</string>
+<string name="pref_summary_delete_limit">"<xliff:g id="count">%1$s</xliff:g> meldinger per samtale"</string>
+<string name="pref_summary_mms_group_mms">"Bruk MMS til å sende en enkel melding når det er flere mottakere"</string>
+<string name="pref_title_manage_sim_messages">"Administrer SIM-kortmeldinger"</string>
+<string name="pref_title_mms_delivery_reports">"Leveringsrapporter"</string>
+<string name="pref_title_mms_group_mms">"Gruppemeldinger"</string>
+<string name="pref_title_mms_read_reports">"Les rapporter"</string>
+<string name="pref_title_sms_delivery_reports">"Leveringsrapporter"</string>
+<string name="pref_title_auto_delete">"Slett gamle meldinger"</string>
+<string name="pref_title_sms_delete">"Tekstmeldingsgrense"</string>
+<string name="pref_title_mms_delete">"Multimedia meldingsgrense"</string>
+<string name="pref_title_notification_enabled">"Meldinger"</string>
+<string name="pref_title_notification_vibrateWhen">"Vibrering"</string>
+<string name="pref_title_notification_ringtone">"Lyd"</string>
+<string name="pref_messages_to_save">"Legg til antall meldinger som skal lagres"</string>
+<string name="silent_ringtone">"Stille"</string>
+<string name="pref_title_mms_auto_retrieval">"Auto-hent"</string>
+<string name="pref_summary_mms_auto_retrieval">"Hent meldinger automatisk"</string>
+<string name="pref_title_mms_retrieval_during_roaming">"Roaming auto-hent"</string>
+<string name="pref_summary_mms_retrieval_during_roaming">"Automatisk hent meldinger under roaming"</string>
+<string name="confirm_dialog_title">"Slett?"</string>
+<string name="confirm_dialog_locked_title">"Slett låst melding?"</string>
+<plurals name="confirm_delete_conversation">
+<item quantity="one">"En samtale vil bli slettet."</item>
+<item quantity="other">"<xliff:g id="number" example="15">%1$s</xliff:g> samtaler vil bli slettet"</item>
+</plurals>
+<string name="confirm_delete_conversation">"Hele tråden vil bli slettet."</string>
+<string name="confirm_delete_all_conversations">"Alle tråder vil bli slettet."</string>
+<string name="confirm_delete_message">"Meldingen vil bli slettet."</string>
+<string name="confirm_delete_locked_message">"Vil du slette denne låste meldingen?"</string>
+<string name="confirm_delete_all_SIM_messages">"Alle meldinger på SIM-kortet vil bli slettet."</string>
+<string name="confirm_delete_SIM_message">"Denne meldingen på SIM-kortet vil bli slettet."</string>
+<string name="delete_unlocked">"Slett låste meldinger"</string>
+<string name="delete">"Slett"</string>
+<string name="select_conversations">"Velg samtaler"</string>
+<string name="no_conversations">"Ingen samtaler."</string>
+<string name="loading_conversations">"Laster samtaler."</string>
+<string name="cannot_get_details">"Kan ikke hente detaljer."</string>
+<string name="message_details_title">"Meldingsdetaljer"</string>
+<string name="message_type_label">"Type: \u0020"</string>
+<string name="text_message">"Tekstmelding"</string>
+<string name="multimedia_message">"Multimedia melding"</string>
+<string name="multimedia_notification">"Multimedia varslingsmelding"</string>
+<string name="from_label">"Fra: \u0020"</string>
+<string name="to_address_label">"Til: \u0020"</string>
+<string name="bcc_label">"Blindkopi: \u0020"</string>
+<string name="sent_label">"Sendt: \u0020"</string>
+<string name="received_label">"Mottatt: \u0020"</string>
+<string name="saved_label">"Lagret: \u0020"</string>
+<string name="subject_label">"Emne: \u0020"</string>
+<string name="message_size_label">"Meldingsstørrelse: \u0020"</string>
+<string name="priority_label">"Prioritering: \u0020"</string>
+<string name="priority_high">"Høy"</string>
+<string name="priority_normal">"Normal"</string>
+<string name="priority_low">"Lav"</string>
+<string name="message_class_label">"Meldingsklasse : \u0020"</string>
+<string name="error_code_label">"Feilkode: \u0020"</string>
+<string name="menu_edit">"Endre"</string>
+<string name="menu_delete_messages">"Slett meldinger"</string>
+<string name="menu_lock">"Lås"</string>
+<string name="menu_unlock">"Lås opp"</string>
+<string name="sim_copy_to_phone_memory" product="tablet">"Kopier til nettbrettminne"</string>
+<string name="sim_copy_to_phone_memory" product="default">"Kopier til telefonminnet"</string>
+<string name="sim_delete">"Slett"</string>
+<string name="sim_manage_messages_title">"Tekstmeldinger på SIM-kortet"</string>
+<string name="sim_view">"Se"</string>
+<string name="sim_empty">"Ingen meldinger på SIM-kortet."</string>
+<string name="delivery_header_title">"Rapport"</string>
+<string name="status_none">"(Ingen)"</string>
+<string name="status_pending">"Venter"</string>
+<string name="status_read">"Les"</string>
+<string name="status_received">"Mottatt"</string>
+<string name="status_failed">"Mislykket"</string>
+<string name="status_unread">"Uleste"</string>
+<string name="status_rejected">"Avvist"</string>
+<string name="recipient_label">"Mottaker: \u0020"</string>
+<string name="status_label">"Status: \u0020"</string>
+<string name="delivered_label">"Levering: \u0020"</string>
+<string name="attach_image">"Bilder"</string>
+<string name="attach_take_photo">"Ta bilde"</string>
+<string name="attach_video">"Videoer"</string>
+<string name="attach_record_video">"Fang video"</string>
+<string name="attach_sound">"lyd"</string>
+<string name="attach_record_sound">"ta opp lyd"</string>
+<string name="attach_slideshow">"Bildefremvisning"</string>
+<string name="select_bottom_text">"Tekst på bunnen"</string>
+<string name="select_top_text">"Tekst på toppen"</string>
+<string name="delivery_toast_body">"Melding mottatt av %s."</string>
+<string name="notification_multiple">" "<xliff:g id="count">%s</xliff:g> uleste meldinger""</string>
+<string name="notification_multiple_title">"Nye meldinger"</string>
+<string name="notification_failed_multiple">"<xliff:g id="count">%s</xliff:g> meldinger kunne ikke bli sendt"</string>
+<string name="notification_failed_multiple_title">"Meldinger ikke sendt"</string>
+<string name="sim_full_title">"SIM-kort er fullt"</string>
+<string name="sim_full_body">"Slett noen meldinger for å frigjøre plass."</string>
+<string name="sms_full_title">"Tekstmeldingsminne er fullt"</string>
+<string name="sms_full_body">"En innkommende melding ble avvist på grunn av fullt minne. Slett noen gamle meldinger."</string>
+<string name="sms_rejected_title">"Tekstmelding avvist"</string>
+<string name="sms_rejected_body">"En innkommende melding ble avvist på grunn av en ukjent grunn."</string>
+<string name="type_audio">"lyd"</string>
+<string name="type_picture">"bilde"</string>
+<string name="type_video">"video"</string>
+<string name="confirm">"Bekreft"</string>
+<string name="message_send_read_report">"En leserrapport vil bli sendt."</string>
+<string name="message_queued">"Kan for øyeblikket ikke sende meldingen din. Den vil bli sendt når tjenesten blir tilgjengelig."</string>
+<string name="fdn_check_failure">"Du kan bare sende meldinger til dine tillatte numre."</string>
+<string name="no_subject">"(Inget tema)"</string>
+<string name="unknown_sender">"Ukjent avsender"</string>
+<string name="dl_failure_notification">"Kunne ikke laste ned melding <xliff:g id="subject">%1$s</xliff:g> fra <xliff:g id="from">%2$s</xliff:g>."</string>
+<string name="rate_limit_surpassed">"Bekreft"</string>
+<string name="confirm_rate_limit">"Et stort antall multimediemeldinger blir sendt. Er dette OK?"</string>
+<string name="message_download_failed_title">"Melding ikke lastet ned"</string>
+<string name="message_send_failed_title">"Melding ikke sendt"</string>
+<string name="message_failed_body">"Trykk for å gå gjennom meldingen og prøv igjen."</string>
+<string name="download_later">"Kan ikke laste ned akkurat nå. Prøv igjen senere."</string>
+<string name="no_apn">"Ingen APN angitt på enheten."</string>
+<string name="select_audio">"Velg lyd"</string>
+<string name="copy_to_sdcard">"Lagre vedlegg"</string>
+<string name="copy_to_sdcard_success">"" Vedlegg lagres til "<xliff:g id="copy_to_sdcard_success_id">%s</xliff:g>"</string>
+<string name="copy_to_sdcard_fail">"Kunne ikke lagre vedlegg."</string>
+<string name="save_ringtone">"Lagre som ringetone"</string>
+<string name="saved_ringtone">"Ringetone lagret"</string>
+<string name="saved_ringtone_fail">"Kunne ikke lagre ringetone."</string>
+<string name="menu_group_participants">"Gruppedeltakere"</string>
+<string name="select_link_title">"Velg handling"</string>
+<string name="slide_number">"Lysbilde <xliff:g id="number" example="5">%s</xliff:g>"</string>
+<plurals name="slide_duration">
+<item quantity="one">"<xliff:g id="number" example="1">%s</xliff:g>sekund"</item>
+<item quantity="few">"<xliff:g id="number" example="2">%s</xliff:g> sekunder"</item>
+</plurals>
+<plurals name="slide_duration">
+<item quantity="other">"<xliff:g id="number" example="15">%s</xliff:g> sekunder"</item>
+</plurals>
+<string name="delivery_report_activity">"Leveringsrapport"</string>
+<string name="storage_limits_activity">"Lagringsgrenser"</string>
+<string name="change_duration_activity">"Endre varighet"</string>
+<string name="edit_slideshow_activity">"Rediger lysbilde"</string>
+<string name="recipient_list_activity">"Gruppedeltakere"</string>
+<string name="edit_slide_activity">"Rediger lysbilde"</string>
+<string name="slideshow_activity">"Bildefremvisning"</string>
+<string name="class_0_message_activity">"Klasse 0 melding"</string>
+<string name="search_label">"Meldinger"</string>
+<string name="search_hint">"Søk meldingstjenester"</string>
+<string name="search">"Meldinger"</string>
+<string name="search_setting_description">"Tekst i meldingene dine"</string>
+<string name="search_empty">""Ingen treff"."</string>
+<string name="search_history">"<xliff:g id="count">%1$s</xliff:g> resultater for \"<xliff:g id="search">%2$s</xliff:g>\""</string>
+<string name="confirm_clear_search_title">"Fjern"</string>
+<string name="confirm_clear_search_text">"Søkehistorien vil bli slettet."</string>
+<string name="pref_mms_clear_search_history_title">"Tøm søkelogg"</string>
+<string name="pref_mms_clear_search_history_summary">"Fjerne tidligere meldingstjenestesøk fra å dukke opp i søkeboksen"</string>
+<string name="save">"Lagre"</string>
+<string name="storage_limits_title">"Begrens Meldinger"</string>
+<string name="storage_limits_message">"Vil du begrense antall meldinger du lagrer per samtale?"</string>
+<string name="storage_limits_setting">"Sett grenser"</string>
+<string name="storage_limits_setting_dismiss">"Ingen grenser"</string>
+<string name="too_many_unsent_mms">"Kan ikke sende melding akkurat nå. For mange usendte multimediemeldinger."</string>
+<string name="sending_message">"Sender \u2026"</string>
+<string name="pick_too_many_recipients">"For mange mottakere"</string>
+<string name="adding_recipients">"Legge til mottakere \u2026"</string>
+<string name="draft_separator">",\u0020"</string>
+<string name="message_count_format">"\u00a0<xliff:g id="number" example="1">%1$s</xliff:g>"</string>
+<string name="message_count_notification">"<xliff:g id="number" example="3">%1$s</xliff:g> nye meldinger"</string>
+<plurals name="message_count_notification_overflow">
+<item quantity="one">"+<xliff:g id="number" example="1">%1$s</xliff:g> annen melding" "</item>
+<item quantity="other">"+<xliff:g id="number" example="15">%1$s</xliff:g> andre meldinger" "</item>
+</plurals>
+<string name="error_state">"Inkonsekvent tilstand"</string>
+<string name="error_state_text">"Tilstanden til tråder og mottakere er inkonsekvent. Vennligst send en feilrapport og rapporter det via  http://go/droidanizer"</string>
+<plurals name="recipient_count">
+<item quantity="other">"<xliff:g id="number" example="15">%1$s</xliff:g> folk"</item>
+</plurals>
+<string name="disable_notifications_dialog_message">"Vil du stoppe dupliserte tekstmeldingsvarsler fra den standarde meldingstjeneste applikasjonen?"</string>
+<string name="view_more_conversations">"Vis flere samtaler"</string>
+<string name="attachment_audio">"lyd"</string>
+<string name="attachment_slideshow">"Bildefremvisning"</string>
+<string name="attachment_video">"video"</string>
+<string name="attachment_picture">"bilde"</string>
+<string name="notification_separator">"\u0020\u0020"</string>
+<string name="enumeration_comma">",\u0020"</string>
+<string name="message_timestamp_format">"<xliff:g id="string" example="Fred Flinstone">%1$s</xliff:g>\u0020-\u0020<xliff:g id="string" example="9:39AM">%2$s</xliff:g>"</string>
+<string name="storage_warning_title">"Telefonens lagringsplass er full"</string>
+<string name="storage_warning_content">"Du vil ikke motta nye SMS/MMS-meldinger"</string>
+<string name="label_mms_send_outbox_msg">"MMS Vekning"</string>
+<string name="desc_mms_send_outbox_msg">"Sender ut alle MMS fra utboksen til nettverket"</string>
+<string name="banner_sms_promo_title_initial">"Meldinger er ikke din SMS applikasjon"</string>
+<string name="banner_sms_promo_title_application">"<xliff:g id="appName">%s</xliff:g> er din SMS applikasjon"</string>
+<string name="banner_sms_promo_message">"Du kan endre dette i Innstillinger"</string>
+</resources>

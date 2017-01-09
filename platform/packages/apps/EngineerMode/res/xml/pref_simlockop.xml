@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:key="simlock_lock"
+        android:persistent="false"
+        android:title="Lock" >
+    </Preference>
+    <Preference
+        android:key="simlock_unlock"
+        android:persistent="false"
+        android:title="Unlock" >
+    </Preference>
+    <Preference
+        android:key="simlock_add"
+        android:persistent="false"
+        android:title="Add" >
+    </Preference>
+    <Preference
+        android:key="simlock_remove"
+        android:persistent="false"
+        android:title="Remove" >
+    </Preference>
+    <Preference
+        android:key="simlock_unlockpermanently"
+        android:persistent="false"
+        android:title="Unlock permanently" >
+    </Preference>
+
+</PreferenceScreen>

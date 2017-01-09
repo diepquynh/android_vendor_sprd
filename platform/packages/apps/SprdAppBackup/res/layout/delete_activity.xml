@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/rll_header_select_all"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingRight="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        >
+
+        <!--SPRD: for bug440427 modify the layout @{-->
+        <TextView
+            android:id="@+id/select_text"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_centerVertical="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/select_all"
+            />
+        <!-- @} -->
+
+        <!--SPRD: for bug440427 modify the layout @{ -->
+        <CheckBox
+            android:id="@+id/chx_delete_select_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            />
+       <!-- @} -->
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/divider_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/rll_header_select_all"
+        android:background="@drawable/diveder_line" />
+
+    <ExpandableListView
+        android:id="@+id/expandablelist_delete"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listViewStyle="@style/MyListView"
+        android:layout_below="@id/divider_line"
+       />
+</RelativeLayout>

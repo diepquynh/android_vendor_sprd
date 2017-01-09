@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created By Spreadst -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/fm_regularly_poweroff"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:layout_marginRight="20dip"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="25dp" >
+
+                <RadioButton
+                    android:id="@+id/time_10min"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dip"
+                    android:checked="true"
+                    android:text="@string/time_10min"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/time_20min"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dip"
+                    android:text="@string/time_20min"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/time_30min"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dip"
+                    android:text="@string/time_30min"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/time_60min"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dip"
+                    android:text="@string/time_60min"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/time_custom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dip"
+                    android:text="@string/time_scustom_setting"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/edit_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="20dip"
+                android:visibility="gone"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/edit_custom_setting"
+                    android:layout_width="60dip"
+                    android:layout_height="wrap_content"
+                    android:autoText="false"
+                    android:capitalize="none"
+                    android:inputType="number"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:maxLength="4"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/time_units"
+                    android:textColor="#D9000000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

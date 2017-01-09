@@ -1,0 +1,48 @@
+service engpcclientt /system/bin/engpc -p t -a /dev/ttyGS0 -d /dev/ttyGS1 -l /dev/ttyGS4
+    class core
+    user root
+    group system radio shell
+    disabled
+    oneshot
+
+service engpcclientlte /system/bin/engpc -p l -a /dev/ttyGS5 -d /dev/ttyGS6 -l /dev/ttyGS7
+    class core
+    user root
+    group system radio shell
+    disabled
+    oneshot
+
+service engpcclientwcn /system/bin/engpc -p wcn -a /dev/ttyGS2 -d /dev/ttyGS3
+    class core
+    user root
+    group system radio shell
+    disabled
+    oneshot
+
+service engpcclientw /system/bin/engpc -p w -a /dev/ttyGS0 -d /dev/ttyGS1
+    class core
+    user root
+    group system radio shell
+    disabled
+    oneshot
+
+service engpcclienttl /system/bin/engpc -p tl -a /dev/ttyGS5 -d /dev/ttyGS6
+    class core
+    user root
+    group system radio shell
+    disabled
+    oneshot
+
+service engpcclientlf /system/bin/engpc -p lf -a /dev/ttyGS5 -d /dev/ttyGS6 -l /dev/ttyGS7
+    class core
+    user root
+    group system radio shell
+    disabled
+    oneshot
+
+service engpcclientag /system/bin/engpc -p ag -l /dev/ttyGS4
+    class core
+    user root
+    group system radio shell
+    disabled
+    oneshot

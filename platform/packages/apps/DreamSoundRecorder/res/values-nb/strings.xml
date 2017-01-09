@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Lydopptak"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Ta opp en melding"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Melding tatt opp"</string>
+    <string name="review_message" msgid="201616012287839474">"Spill tilbake melding"</string>
+    <string name="recording" msgid="4426791467211376099">"Tar opp"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Opptak avbrutt"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"Tomt for plass"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"Makslengde nådd"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Koble til USB-lagring"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Sett inn et SD-kort"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> min. tilgjengelig"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g>s tilgjengelig"</string>
+    <string name="accept" msgid="1888285552128743656">"Ferdig"</string>
+    <string name="discard" msgid="761613433029406319">"Forkast"</string>
+    <string name="button_ok" msgid="3004911343723076226">"OK"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Dine opptak"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Lydopptak"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Mine opptak"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"Får ikke tilgang til USB-lagring."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"Får ikke tilgang til SD-kort."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Intern feil ved app."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"Kunne ikke lagre lydopptak."</string>
+    <string name="recording_save">"Opptaket er lagret"</string>
+     <string name="recording_nosave">"Opptaket ble ikke lagret"</string>
+     <string name="phone_message">"Kan ikke slå på Lydopptak mens det ringer."</string>
+     <string name="min_and_time_available">"Omtrent <xliff:g id="minutes">%d</xliff:g> minutter og <xliff:g id="seconds">%d</xliff:g> tilgjengelig sekund"</string>
+     <string name="press_record">"Trykk ta opp"</string>
+     <string name="save">"Lagre"</string>
+     <string name="select_file_type">"Velg opptaket filtype"</string>
+     <string name="record_amr">"amr type(lav kvalitet)"</string>
+     <string name="record_3gpp">"3gpp type(høykvalitets)"</string>
+     <string name="button_cancel">"Avbryt"</string>
+     <string name="path_save">"Standard bane lagret"</string>
+     <string name="path_nosave">"standard bane ikke lagret"</string>
+     <string name="path_default">"Den nåværende banen er ikke skrivbar eller ugyldig, det er banen til den interne lagringsbanen"</string>
+     <string name="menu_set_save_path">"Velg Lagre banen"</string>
+     <string name="back">"Tilbake .."</string>
+     <string name="path_label">"Velg lagre banen"</string>
+     <string name="pause">"Pause"</string>
+     <string name="storage_is_not_enough">"Lagring er ikke nok"</string>
+     <string name="menu_recording_file_list">"Tar opp fil-liste"</string>
+     <string name="recording_list_empty">"Tom liste"</string>
+     <string name="menu_recording_list_select_all">"Merk alle"</string>
+     <string name="menu_recording_list_delete">"Slett"</string>
+     <string name="menu_recording_list_deselect_all">"Opphev valget"</string>
+     <string name="recording_file_delete_success">"Opptak Slettet"</string>
+     <string name="recording_file_database_failed">"Kunne ikke slette databasefilen"</string>
+     <string name="recording_file_delete_failed">"Klarte ikke å slette filopptak"</string>
+     <string name="confirm_del">"Er du sikker på å slette filene?"</string>
+     <string name="button_delete">"Slett"</string>
+     <string name="recording_file_delete_alert_title">"Slett"</string>
+     <string name="recording_file_delete_alert_message">"Husk å slette %1$s?"</string>
+     <string name="recording_file_list">"Tar opp fil-liste"</string>
+     <string name="less_than_one_second">"1 sekund"</string>
+     <string name="is_scanning">"MediaScanner skanner nå, vennligst vent ..."</string>
+     <string name="emptylist">"Listen er tom"</string>
+     <string name="choose_file">"Vennligst velg opptaket hvor du vil slette filer!"</string>
+     <string name="error_path">"Banen du valgte eksisterer ikke, du må tilbakestille!"</string>
+     <string name="path_miss">"Den lagrede banen finnes ikke, eller kan ikke nås!"</string>
+     <string name="low_memory">"Det er ikke nok telefonminne, opptaket vil stoppe!"</string>
+     <string name="record_error">"Gjør et unntak!"</string>
+     <string name="play_error">"Musikk-spilleren har blitt deaktivert, kan ikke åpne!"</string>
+     <string name="dialog_title">"Velg"</string>
+     <string name="dialog_message">"Lagre opptaket?"</string>
+     <string name="same_application_running">"Opptaksenheten er i bruk av et annet program, du må lukke dette programmet!"</string>
+     <string name="recording_time_short">"Opptaktid var mindre enn ett sekund, ikke lagret"</string>
+     <string name="file_path_button">"Filbane"</string>
+     <string name="file_name">"Filnavn :"</string>
+     <string name="file_path">"Filbane : "</string>
+     <string name="rename">"Gi nytt navn"</string>
+     <string name="rename_save">"Gi nytt navn: vellykket"</string>
+     <string name="rename_nosave">"Å gi nytt navn var ikke vellykket"</string>
+     <string name="filename_is_not_modified">"Filnavn er ikke endret"</string>
+     <string name="duplicate_name">"filnavn duplikat"</string>
+     <string name="soundpicker_label">"Velg opptaksfil"</string>
+     <string name="error_sdcard_path">"SDkort finnes ikke. Standard lagringsbane er endret til intern lagring."</string>
+     <string name="input_length_overstep">"innmating har nådd maks lengde"</string>
+     <string name="filename_empty_error">"Filnavn kan ikke være tomt, lagre det opprinnelige navnet"</string>
+     <string name="please_choose_files">"Velg filer"</string>
+     <string name="selected_files_count">"har valgt <xliff:g id="COUNTS">%d</xliff:g>"</string>
+     <string name="use_default_path">"Den lagrede banen finnes ikke, kan du bruke standard banen"</string>
+     <string name="stroage_not_mounted">"Lagringen er ikke innstallert"</string>
+     <string name="special_char_exist">"Spesielle tegn  <xliff:g id="COUNTS">%s</xliff:g> er ikke støttet"</string>
+     <string name="menu_select_more">"Velg mer"</string>
+     <string name="menu_select_type">"Velg filtype"</string>
+     <string name="path_miss_nosave">"Den lagrede banen finnes ikke, opptak ble ikke lagret!"</string>
+     <string name="dialog_dismiss">"Avvis"</string>
+     <string name="error_permissions">"Appen mangler tillatelser som er avgjørende for å kunne kjøres. Sjekk innstillingene for tillatelsene dine."</string>
+
+    <string name="internal_sdcard">"Internt SD-kort"</string>
+     <string name="external_sdcard">"Eksternt SD-kort"</string>
+    <string name="internal_storage">"Intern lagring"</string>
+     <string name="external_storage">"Ekstern lagring"</string>
+     <string name="set_as_ring">"Angi som ringetone"</string>
+     <string name="read_file_path">"Sjekk filsti"</string>
+     <string name="operate_share">"Del"</string>
+     <string name="ringtone_title_sim1">"SIM1 Ringetone"</string>
+     <string name="ringtone_title_sim2">"SIM2 telefonringetone"</string>
+     <string name="ringtone_menu_short">"Bruk som ringetone"</string>
+     <string name="please_insert_sim_card">"Sett i det minste inn et SIM-kort"</string>
+     <string name="ring_set_silent_vibrate">"Tilpassede ringetoner støttes ikke i gjeldende modus"</string>
+     <string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" valgt som SIM1 Ringetone"</string>
+     <string name="ringtone_set_sim2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" valgt som SIM2 Ringetone"</string>
+     <string name="ringtone_set">"«<xliff:g id="NAME">%s</xliff:g>» valgt som telefonringetone."</string>
+     <string name="ring_set_fail">"Beklager, sangen kunne ikke spilles av. Velg en annen sang som ringetone"</string>
+     <string name="tag_limit">"Maksimalt antall tagger"</string>
+     <string name="no_allow_play_calling">"Det er ikke tillatt å spille av musikk under en samtale (radio/video)."</string>
+     <string name="playback_failed">"Avspilleren støtter ikke denne typen lydfil"</string>
+     <string name="tag">"Etikett"</string>
+     <string name="previous_tag">"Siste tag"</string>
+     <string name="next_tag">"Neste tag"</string>
+     <string name="recording_play">"Spill av opptak"</string>
+     <string name="clip_duration_tip">"Rediger lengde"</string>
+     <string name="record_setting">"Opptaksinnstillinger"</string>
+     <string name="file_type">"Filtype"</string>
+     <string name="type_amr">"AMR type"</string>
+     <string name="type_3gpp">"3gpp type"</string>
+     <string name="save_path">"Lagret sti"</string>
+     <string name="set_timer_recording">"Angi tidsinnstilt opptak"</string>
+     <string name="timer_recording_detail">"Start opptak ved <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> i <xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">"Se detaljer"</string>
+     <string name="file_size">"Filstørrelse:"</string>
+     <string name="file_date">"Fildato:"</string>
+     <string name="recording_start_time">"Opptak starttid"</string>
+     <string name="recording_duration">"Opptakslengde timer"</string>
+     <string name="tuned_timer_recording">"Tidsinnstillt opptak er på"</string>
+     <string name="miss_timer_recording">"Savnet tidsinnstilt opptak"</string>
+     <string name="miss_timer_time">"Tid: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>"time"</item>
+        <item>"timer"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"Tidsinnstilt opptak er angitt for mindre enn 1 minutt fra nå av"</item>
+        <item>"Tidsinnstill opptak er angitt for <xliff:g id="HOURS">%1$s</xliff:g> fra nå av."</item>
+        <item>"Tidsinnstilt opptak er angitt for <xliff:g id="MINUTES">%2$s</xliff:g> fra nå av."</item>
+        <item>"Tidsinnstilt opptak er angitt for <xliff:g id="HOURS">%1$s</xliff:g> og <xliff:g id="MINUTES">%2$s</xliff:g> fra nå av."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">"1 time"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> timer"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"1 minutt"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> minutter"</item>
+    </plurals>
+     <string name="start_record">"Start opptak"</string>
+     <string name="resume_record">"Gjenoppta opptak"</string>
+     <string name="start_play">"start avspilling"</string>
+     <string name="resume_play">"Gjenoppta avspilling"</string>
+     <string name="reset_timer_recording">"Opptaksenheten benyttes av et annet program, vennligst tilbakestill det tidsinnstilte opptaket!"</string>
+     <string name="storage_not_enough">"Ikke nok lagringsplass, feilet å starte tidsinnstilt opptak!"</string>
+     <string name="phone_storage_not_enough">"Ikke nok telefonlagringsplass"</string>
+</resources>

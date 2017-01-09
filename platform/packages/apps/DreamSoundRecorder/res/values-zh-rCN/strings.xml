@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"录音机"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"录下您的留言"</string>
+    <string name="message_recorded" msgid="381539460921872233">"留言已录制"</string>
+    <string name="review_message" msgid="201616012287839474">"查看留言"</string>
+    <string name="recording" msgid="4426791467211376099">"录音"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"录音停止"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"存储空间已满"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"已达到长度上限"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"装载USB存储设备"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"请插入SD卡"</string>
+    <string name="min_available" msgid="5493947690062988925">"还剩<xliff:g id="MINUTES">%d</xliff:g>分钟"</string>
+    <string name="sec_available" msgid="2297020788861694399">"还剩<xliff:g id="SECONDS">%d</xliff:g>秒"</string>
+    <string name="accept" msgid="1888285552128743656">"完成"</string>
+    <string name="discard" msgid="761613433029406319">"放弃"</string>
+    <string name="button_ok" msgid="3004911343723076226">"确定"</string>
+    <string name="recording_file_delete_success">录音文件删除成功</string>
+    <string name="recording_file_delete_failed">录音文件删除失败</string>
+    <string name="button_cancel">取消</string>
+    <string name="file_is_corrupt">"文件已损坏"</string>
+    <string name="menu_recording_list_delete">删除</string>
+    <string name="rename">重命名</string>
+    <string name="rename_save">重命名成功</string>
+    <string name="rename_nosave">重命名失败</string>
+    <string name="filename_is_not_modified">文件名未修改</string>
+    <string name="soundpicker_label">请选择录音文件</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"您的录音"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"录音"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"我的录音"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"无法使用USB存储设备。"</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"无法使用SD卡。"</string>
+    <string name="error_app_internal" msgid="312884382388702022">"发生内部应用错误"</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"无法保存录制的音频。"</string>
+    <string name="min_and_time_available">"约剩 <xliff:g id="MINUTES">%d</xliff:g> 分 <xliff:g id="SECONDS">%d</xliff:g> 秒"</string>
+     <string name="dialog_title">"请选择"</string>
+     <string name="dialog_message">"是否保存录音？"</string>
+     <string name="recording_time_short">"低于1秒录音不予保存"</string>
+     <string name="choose_file">"请选择要删除的录音文件!"</string>
+     <string name="path_miss">"存储路径不存在或无法访问！"</string>
+     <string name="record_error">"录音产生异常！"</string>
+     <string name="play_error">音乐播放器已停用，无法打开！</string>
+     <string name="same_application_running">"录音设备正在被其它程序使用中，请先关闭此类程序！"</string>
+     <string name="recording_save">"录音文件已保存"</string>
+     <string name="recording_nosave">"录音未保存"</string>
+     <string name="phone_message">"正在通话中不能使用录音机。"</string>
+     <string name="press_record">"按录音键"</string>
+     <string name="save">保存</string>
+     <string name="select_file_type">选择录制文件类型</string>
+     <string name="record_amr">amr类型（低品质）</string>
+     <string name="record_3gpp">3gpp类型（高品质）</string>
+     <string name="path_save">路径已保存</string>
+     <string name="path_nosave">路径未保存</string>
+     <string name="path_default">当前路径不可写或者无效，现路径改为内部存储路径</string>
+     <string name="menu_set_save_path">设置保存路径</string>
+     <string name="back">返回..</string>
+     <string name="path_label">请选择路径</string>
+     <string name="pause">暂停</string>
+     <string name="storage_is_not_enough">存储空间不足</string>
+     <string name="menu_recording_file_list">录音列表</string>
+     <string name="recording_list_empty">空列表</string>
+     <string name="menu_recording_list_select_all">全选</string>
+     <string name="menu_recording_list_deselect_all">取消全选</string>
+     <string name="recording_file_database_failed">数据库删除失败</string>
+     <string name="button_delete">删除</string>
+     <string name="recording_file_delete_alert_title">删除</string>
+     <string name="recording_file_delete_alert_message">确认删除 %1$s 文件吗?</string>
+     <string name="recording_file_list">录音列表</string>
+     <string name="confirm_del">确定要删除文件吗?</string>
+     <string name="less_than_one_second">"1秒"</string>
+     <string name="is_scanning">"系统正在扫描媒体文件，请稍后重试。"</string>
+     <string name="low_memory">"内存不足，应用将停止"</string>
+     <string name="emptylist">列表为空</string>
+     <string name="error_path">"存储路径不存在，请重新设置!"</string>
+     <string name="error_sdcard_path">SD卡不存在，现路径改为内部存储</string>
+     <string name="duplicate_name">同目录下，文件名不能相同</string>
+     <string name="input_length_overstep">输入已达最大长度</string>
+     <string name="filename_empty_error">文件名不能为空,不做修改</string>
+     <string name="please_choose_files">请选择文件</string>
+     <string name="selected_files_count">"已选择<xliff:g id="COUNTS">%d</xliff:g>项"</string>
+     <string name="use_default_path">存储路径不存在，使用默认路径</string>
+     <string name="special_char_exist">"重命名不支持特殊字符<xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="stroage_not_mounted">存储不可用，无法设置路径</string>
+     <string name="menu_select_more">选择多个文件</string>
+     <string name="menu_select_type">设置文件类型</string>
+     <string name="path_miss_nosave">"存储路径不存在,录音未保存！"</string>
+     <string name="file_path_button">文件路径</string>
+     <string name="file_name">文件名称：</string>
+     <string name="file_path">文件路径：</string>
+     <string name="dialog_dismiss">"关闭"</string>
+     <string name="error_permissions">"此应用缺少运行所需的必要权限。请检查您的权限设置。"</string>
+     <string name="internal_sdcard">内卡</string>
+     <string name="external_sdcard">外卡</string>
+     <string name="internal_storage">内部存储</string>
+     <string name="external_storage">外部存储</string>
+
+     <string name="set_as_ring">设为铃声</string>
+     <string name="read_file_path">查看路径</string>
+     <string name="operate_share">分享</string>
+     <string name="ringtone_title_sim1">SIM1 手机铃声</string>
+     <string name="ringtone_title_sim2">SIM2 手机铃声"</string>
+     <string name="ringtone_menu_short">用作铃声</string>
+     <string name="please_insert_sim_card">请插入至少一张sim卡</string>
+     <string name="ring_set_silent_vibrate">当前模式不支持自定义铃声</string>
+     <string name="ringtone_set_sim1">已将<xliff:g id="NAME">%s</xliff:g>设为SIM1手机铃声。</string>
+     <string name="ringtone_set_sim2">已将<xliff:g id="NAME">%s</xliff:g>设为SIM2手机铃声。</string>
+     <string name="ringtone_set">已将<xliff:g id="NAME">%s</xliff:g>设为手机铃声。</string>
+     <string name="ring_set_fail">"抱歉，无法播放此歌曲。请选择另外一首歌曲作为铃声"</string>
+     <string name="tag_limit">标记数量已经达到上限</string>
+     <string name="no_allow_play_calling">"通话过程中不允许播放音乐（收音机/视频）。"</string>
+     <string name="playback_failed" msgid="3811851150820251398">"抱歉，播放文件失败。"</string>
+     <string name="tag">标记</string>
+     <string name="previous_tag">上一个标记</string>
+     <string name="next_tag">下一个标记</string>
+     <string name="recording_play">录音播放</string>
+     <string name="clip_duration_tip">剪辑时长</string>
+     <string name="record_setting">录音设置</string>
+     <string name="file_type">文件类型</string>
+     <string name="type_amr">amr类型</string>
+     <string name="type_3gpp">3gpp类型</string>
+     <string name="save_path">保存路径</string>
+     <string name="set_timer_recording">设置定时录音</string>
+     <string name="timer_recording_detail">"<xliff:g id="HOURS">%s</xliff:g>:<xliff:g id="MINUTES">%s</xliff:g>开始录音，持续<xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">查看详情</string>
+     <string name="file_size">文件大小：</string>
+     <string name="file_date">文件日期：</string>
+     <string name="recording_start_time">录音开始时间</string>
+     <string name="recording_duration">录制持续小时</string>
+     <string name="tuned_timer_recording">已开启定时录音</string>
+     <string name="miss_timer_recording">错过的定时录音</string>
+     <string name="miss_timer_time">时间: <xliff:g id="TIME">%s</xliff:g></string>
+     <string-array name="duration_hours">
+        <item>小时</item>
+        <item>小时</item>
+     </string-array>
+     <string-array name="timer_recording_time">
+        <item>定时录音已设为不到1分钟后</item>
+        <item>定时录音已设为<xliff:g id="HOURS">%1$s</xliff:g>后。</item>
+        <item>定时录音已设为<xliff:g id="MINUTES">%2$s</xliff:g>后。</item>
+        <item>定时录音已设为<xliff:g id="HOURS">%1$s</xliff:g><xliff:g id="MINUTES">%2$s</xliff:g>后。</item>
+     </string-array>
+     <plurals name="hours">
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g>小时</item>
+        <item quantity="one">1小时</item>
+     </plurals>
+     <plurals name="minutes">
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g>分钟</item>
+        <item quantity="one">1分钟</item>
+     </plurals>
+     <string name="start_record">开始录音</string>
+     <string name="resume_record">继续录音</string>
+     <string name="start_play">开始播放</string>
+     <string name="resume_play">继续播放</string>
+     <string name="reset_timer_recording">录音设备正在被其它程序使用中，请重新设置定时录音！</string>
+     <string name="storage_not_enough">存储空间不足，无法启动定时录音！</string>
+     <string name="phone_storage_not_enough">手机内存不足！</string>
+</resources>

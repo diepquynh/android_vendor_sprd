@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="labelAudioCF">Audio call forward</string>
+    <string name="labelVideoCF">Video call forward</string>
+    <string name="labelCFT">Duration forward</string>
+    <string name="start_time">Start time</string>
+    <string name="stop_time">Stop time</string>
+    <string name="sum_cft_default_setting">Not set</string>
+    <string name="phonenumCFT_title">Call forward number</string>
+    <string name="messageCFT">Number of duration callforward</string>
+    <string name="video_call_forward_setting_category_header">Video call</string>
+    <string name="audio_call_forward_setting_category_header">Audio call</string>
+    <string name="sum_cft_disabled">Disabled</string>
+    <string name="labelCB">Call barring</string>
+    <!-- SPRD: function call barring support. BEGIN -->
+    <string name="labelAO">All outgoing</string>
+    <string name="messageAO">Enter call barring password.</string>
+    <string name="sum_ao_enabled_indicator">Forwarding all calls</string>
+    <string name="sum_ao_enabled">Enabled</string>
+    <string name="sum_ao_disabled">Disabled</string>
+    <string name="enable_ao_forbidden">Your carrier does not support enabling barring all outgoing call.</string>
+    <string name="disable_ao_forbidden">Your carrier does not support disabling barring all outgoing call.</string>
+    <string name="labelOI">Outgoing international</string>
+    <string name="messageOI">Enter call barring password.</string>
+    <string name="sum_oi_enabled">Enabled</string>
+    <string name="sum_oi_disabled">Disabled</string>
+    <string name="enable_oi_forbidden">Your carrier does not support enabling barring outgoing international call.</string>
+    <string name="disable_oi_forbidden">Your carrier does not support disabling barring outgoing international call.</string>
+    <string name="labelOX">Outgoing international roaming</string>
+    <string name="messageOX">Enter call barring password.</string>
+    <string name="sum_ox_enabled">Enabled</string>
+    <string name="sum_ox_disabled">Disabled</string>
+    <string name="enable_ox_forbidden">Your carrier does not support enabling barring outgoing international roaming call.</string>
+    <string name="disable_ox_forbidden">Your carrier does not support disabling barring outgoing international roaming call.</string>
+    <string name="labelAI">All incoming</string>
+    <string name="messageAI">Enter call barring password.</string>
+    <string name="sum_ai_enabled">Enabled</string>
+    <string name="sum_ai_disabled">Disabled</string>
+    <string name="enable_ai_forbidden">Your carrier does not support enabling barring all incoming call.</string>
+    <string name="disable_ai_forbidden">Your carrier does not support disabling barring all incoming call.</string>
+    <string name="labelIR">Incoming calls when roaming</string>
+    <string name="messageIR">Enter call barring password.</string>
+    <string name="sum_ir_enabled">Enabled</string>
+    <string name="sum_ir_disabled">Disabled</string>
+    <string name="enable_ir_forbidden">Your carrier does not support enabling barring incoming calls when roaming call.</string>
+    <string name="disable_ir_forbidden">Your carrier does not support disabling barring incoming calls when roaming call.</string>
+    <string name="labelAB">Deactivate all</string>
+    <string name="messageAB">Enter call barring password.</string>
+    <string name="sum_ab_enabled">Enabled</string>
+    <string name="sum_ab_disabled">Disabled</string>
+    <string name="enable_ab_forbidden">Your carrier does not support deactivating all.</string>
+    <string name="disable_ab_forbidden">Your carrier does not support activating all.</string>
+    <string name="labelChgPwd">Change password</string>
+    <string name="DlgChgPwd_oldpwd">Enter call barring password.</string>
+    <string name="DlgChgPwd_newpwd_first">Enter new password</string>
+    <string name="DlgChgPwd_newpwd_last">Confirm new password</string>
+    <string name="cb_pw_no_match" msgid="">"Passwords do not match"</string>
+    <string name="cb_pw_error" msgid="">"Password is incorrect"</string>
+    <string name="cb_pw_correct" msgid="">"Password has been changed"</string>
+    <string name="call_barring_settings">Call barring settings</string>
+
+    <string name="callin_barring_settings">Incoming call barring settings</string>
+    <string name="callout_barring_settings">Outgoing call barring settings</string>
+    <string name="labelCOUT">Outgoing call barring</string>
+    <string name="labelCIN">Incoming barring</string>
+    <string name="cb_error">Call barring rejected</string>
+    <string name="no_sim_text">Please insert or launch SIM card</string>
+    <!-- SPRD: function call barring support -->
+
+    <!-- SPRD: LND/SDN FEATURE @{ -->
+    <string name="sdn_list">SDN list</string>
+    <string name="lnd_list">LND list</string>
+    <string name="sim_x">SIM%s</string>
+    <string name="menu_call">Call contact</string>
+    <string name="lnd_no_contact_record">No LND record on this SIM card.</string>
+    <string name="sdn_no_contact_number">This SIM card does not support the SDN number.</string>
+    <string name="remove">Remove</string>
+    <string name="delete_selected_contents">Do you want to delete the selected contents?</string>
+    <string name="sim_notready_can_not_delete">Because sim card not ready, so can\'t delete.</string>
+    <string name="contact_del_failed">Delete fail</string>
+    <!-- @} -->
+
+    <!-- SPRD: FEATURE_VOLTE_LOCK @{ -->
+    <string name="menu_new_plmn">New</string>
+    <string name="volte_lock">Volte Lock</string>
+    <string name="enter_plmn_hint">Please enter plmn</string>
+    <string name="plmn_enter_error">The invalid Plmn. Try again!</string>
+    <string name="plmn_exist">This plmn is existing, please add a new one.</string>
+    <string name="plmn_edit_tip">Edit</string>
+    <string name="plmn_new_tip">New</string>
+    <!-- SPRD: Bug#474289 FAST DIAL FEATURE @{ -->
+    <string name="fast_dial_settings">Fast dial settings</string>
+    <string name="delete_fastdial">Delete fast dial</string>
+    <string name="update_fastdial">Update fast dial</string>
+    <string name="network_not_on">Network is not on, Do you want to set network status?</string>
+    <string name="sim_list_title">"Please select SIM card"</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_FDN @{ -->
+    <!-- SPRD: add for bug597909 -->
+    <string name="pin2_invalid">FDN wasn\'t updated because you typed an incorrect PIN2.</string>
+    <string name="edit_and_save_fdn">Edit fixed dialing number</string>
+    <string name="delete_and_save_fdn">Delete fixed dialing number</string>
+    <string name="call_fdn_number_by_sim">Call</string>
+    <string name="vt_call_fdn_numberr_by_sim">VT Call</string>
+    <string name="airplane_changed_on">Airplane mode turned on.</string>
+    <string name="number_empty" msgid="">Number is empty</string>
+    <string name="unblock_pin2">Unblock PIN2</string>
+    <string name="sum_fdn_unblock_pin2">Enter the PUK2 to unblock your SIM card</string>
+    <string name="pin2_Label">PIN2 (<xliff:g>%s</xliff:g> remaining attempt(s))</string>
+    <string name="oldPin2_Label">Old PIN2 (<xliff:g>%s</xliff:g> remaining attempt(s))</string>
+    <string name="newPin2_Label">New PIN2</string>
+    <string name="puk2_code_label">Type PUK2 code (<xliff:g>%s</xliff:g> remaining attempt(s))</string>
+    <string name="promptWordOne">Remain&#160;</string>
+    <string name="promptWordTwo"> &#160;time(s)</string>
+    <string name="adn_full">FDN list is full</string>
+    <string name="wait_message">Please wait...</string>
+    <string name="fdn_invalid_name">FDN wasn\'t updated because the name can\'t exceed 14 digits.</string>
+    <!-- @} -->
+    <!-- Call forwarding settings screen, setting summary text when forwarding all video calls -->
+    <string name="sum_vcfu_enabled_indicator">Forwarding all video calls</string>
+    <!-- SPRD: add for bug608713 -->
+    <string name="pin2_or_fdn_invalid">FDN wasn\'t updated. The PIN2 was incorrect, or the phone number was rejected, or the phone name was rejected.</string>
+    <!-- SPRD: Add disAllow plmn list as Plmn_Black_List. @{ -->
+    <string name="plmn_disallow_plmn_toast">This plmn is not support IMS.</string>
+    <!-- @} -->
+    <!-- SPRD: add for bug637586 -->
+    <string name="add_and_save_fdn">Add contact</string>
+</resources>

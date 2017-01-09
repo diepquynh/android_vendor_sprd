@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:camera="http://schemas.android.com/apk/res/com.android.camera2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <include layout="@layout/dream_make_up_panel" />
+
+    <LinearLayout
+        android:id="@+id/four_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <com.android.camera.ui.RotateLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/preview_1"
+                    android:layout_width="@dimen/four_list_size"
+                    android:layout_height="@dimen/four_list_size"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pip_frame_selected_sprd" />
+
+                <ImageView
+                    android:layout_width="@dimen/four_list_size"
+                    android:layout_height="@dimen/four_list_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/pip_frame_selected_sprd" />
+            </com.android.camera.ui.RotateLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <com.android.camera.ui.RotateLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/preview_2"
+                    android:layout_width="@dimen/four_list_size"
+                    android:layout_height="@dimen/four_list_size"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pip_frame_selected_sprd" />
+
+                <ImageView
+                    android:layout_width="@dimen/four_list_size"
+                    android:layout_height="@dimen/four_list_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/pip_frame_selected_sprd" />
+            </com.android.camera.ui.RotateLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <com.android.camera.ui.RotateLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/preview_3"
+                    android:layout_width="@dimen/four_list_size"
+                    android:layout_height="@dimen/four_list_size"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pip_frame_selected_sprd" />
+
+                <ImageView
+                    android:layout_width="@dimen/four_list_size"
+                    android:layout_height="@dimen/four_list_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/pip_frame_selected_sprd" />
+            </com.android.camera.ui.RotateLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <com.android.camera.ui.RotateLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/preview_4"
+                    android:layout_width="@dimen/four_list_size"
+                    android:layout_height="@dimen/four_list_size"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pip_frame_selected_sprd" />
+
+                <ImageView
+                    android:layout_width="@dimen/four_list_size"
+                    android:layout_height="@dimen/four_list_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/pip_frame_selected_sprd" />
+            </com.android.camera.ui.RotateLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

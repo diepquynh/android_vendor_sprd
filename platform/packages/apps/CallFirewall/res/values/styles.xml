@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="DialtactsTheme" parent="@android:Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="TallTitleBarTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="BackgroundOnly">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowNoDisplay">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="FullyTranslucent" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+      <style name="CallFireWallTheme" parent="android:Theme.Material.Light.DarkActionBar" >
+        <item name="android:actionBarStyle">@style/CallFireWallActionBarStyle</item>
+
+        <item name="android:actionOverflowButtonStyle">@style/CallFireWallActionBarOverflowQP</item>
+
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow</item>
+        <item name="android:actionBarTabBarStyle">@style/CallFireWallActionBarTabBarStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/CallFireWallActionBarTabTextStyle</item>
+        <item name="android:popupTheme">@android:style/ThemeOverlay.Material.Dark</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:colorPrimary">@android:color/white</item>
+        <item name="android:colorAccent">@color/set_Accent_color</item>
+        <item name="android:colorPrimaryDark">@color/set_color_PrimaryDark</item>
+        <item name="android:actionBarTabStyle">@style/CallFireWallActionBarTabView</item>
+        <!-- SPRD: add for bug531682 @{-->
+        <item name="android:checkboxStyle">@android:style/Widget.Holo.Light.CompoundButton.CheckBox</item>
+        <!-- @} -->
+      </style>
+      <style name="CallFireWallActionBarTabView" parent="@android:Widget">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/minitab_lt</item>
+        <item name="android:paddingStart">4dip</item>
+        <item name="android:paddingEnd">4dip</item>
+      </style>
+
+         <style name="CallFireWallActionBarOverflowQP"
+             parent="@android:style/Widget.Material.Light.ActionButton.Overflow">
+             <item name="android:background">@color/actionbar_background_color</item>
+            </style>
+<!--         <style name="CallFireWallActionBarOverflowQP" -->
+<!--            parent="@android:style/Widget.Material.Light.ActionButton.Overflow"> -->
+<!--         <item name="android:src">@*android:drawable/ic_menu_moreoverflow_holo_dark</item> -->
+<!--     </style>     -->
+
+    <style name="CallFireWallToolbarStyle" parent="@android:style/Widget.Toolbar">
+        <item name="android:titleTextAppearance">@style/CallFireWallActionBarTitleText</item>
+    </style>
+
+    <style name="CallFireWallActionBarStyle" parent="android:Widget.Material.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/CallFireWallActionBarTitleText</item>
+        <item name="android:background">@color/actionbar_background_color</item>
+        <item name="android:backgroundStacked">@color/actionbar_background_color</item>
+    </style>
+    <style name="CallFireWallActionBarTabTextStyle"
+           parent="android:style/Widget.Material.Light.ActionBar.TabText">
+        <item name="android:textColor">@color/set_text_color</item>
+        </style>
+       <style name="CallFireWallActionBarTitleText"
+           parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/set_text_color</item>
+    </style>
+        <style name="CallFireWallActionBarTabBarStyle"
+           parent="@android:style/Widget.Material.ActionBar.TabBar">
+        <item name="android:showDividers">none</item>
+    </style>
+
+
+
+    <style name="QuickContact">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- TODO: create our own animation style in framework -->
+        <!--
+        <item name="android:windowAnimationStyle">@*android:style/Animation.ZoomButtons</item>
+        -->
+    </style>
+
+    <style name="ListViewStyle" parent="@android:style/Widget.Holo.Light.ListView">
+        <item name="android:overScrollMode">always</item>
+    </style>
+
+      <style name="BackgroundAll">
+        <item name="android:windowBackground">@color/background_all</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+    </style>
+
+    <style name="CallFireWallTheme_new_ui" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/CallFireWallActionBarStyleNewUI</item>
+        <item name="android:actionMenuTextAppearance">@style/CallFireWallTextAppearance.Holo.Widget.ActionBar.Menu</item>
+        <item name="android:actionBarWidgetTheme">@style/CallFireWallActionBarThemeNewUI</item>
+        <item name="android:actionBarTabStyle">@style/CallFireWallActionBarTabView_new_ui</item>
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+    </style>
+    <style name="CallFireWallTextAppearance.Holo.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="CallFireWallActionBarStyleNewUI" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:backgroundSplit">@null</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_opaque_dark_holo</item>
+        <item name="android:displayOptions">useLogo|showTitle</item>
+    </style>
+
+    <style name="CallFireWallActionBarThemeNewUI" parent="@android:style/Theme.Holo.Light">
+        <item name="android:textColorHint">#CCCCCC</item>
+        <item name="android:textColor">@*android:color/primary_text_holo_light</item>
+        <item name="android:popupMenuStyle">@android:style/Widget.Holo.Light.PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/ListViewDropdownStyle</item>
+    </style>
+
+    <style name="ListViewDropdownStyle" parent="@android:style/Widget.ListView.DropDown">
+        <item name="android:listSelector">?android:attr/listChoiceBackgroundIndicator</item>
+    </style>
+
+    <style name="CallFireWallActionBarTabView_new_ui" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/action_bar_tab_new_ui</item>
+    </style>
+    <!-- SPRD: modify for bug599100 @{ -->
+    <style name="BlockedNumbersText">
+        <item name="android:textSize">@dimen/blocked_numbers_font_size</item>
+        <item name="android:lineSpacingExtra">@dimen/blocked_numbers_line_spacing</item>
+    </style>
+    <style name="BlockedNumbersTitleText"  parent="BlockedNumbersText">
+        <item name="android:textColor">@color/blocked_numbers_title_text_color</item>
+    </style>
+    <style name="BlockedNumbersSecondaryText">
+        <item name="android:textColor">@color/blocked_numbers_secondary_text_color</item>
+        <item name="android:textSize">@dimen/blocked_numbers_secondary_font_size</item>
+        <item name="android:lineSpacingExtra">@dimen/blocked_numbers_secondary_line_spacing</item>
+    </style>
+        <style name="BlockedNumbersButton">
+        <item name="android:textColor">@color/theme_color</item>
+        <item name="android:textSize">@dimen/blocked_numbers_font_size</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <!-- @} -->
+</resources>

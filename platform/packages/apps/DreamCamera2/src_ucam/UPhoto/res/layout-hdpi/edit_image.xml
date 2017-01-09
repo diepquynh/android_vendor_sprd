@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010,2011 Thundersoft Corporation
+    All rights Reserved
+-->
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:id = "@+id/edit_root"
+    android:orientation = "vertical"
+    android:background = "@android:color/black"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent" >
+
+    <RelativeLayout android:id = "@+id/edit_layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom = "true">
+        <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:orientation = "vertical">
+            <HorizontalScrollView android:id="@+id/function_scroller"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:fillViewport = "true"
+                android:scrollbars = "none"
+                android:overScrollMode = "never"
+                android:background = "@drawable/edit_bottom_bar_bg">
+                <include layout="@layout/edit_image_tab_buttons"/>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+       <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:orientation = "vertical"
+            >
+            <HorizontalScrollView
+                android:id = "@+id/scroller"
+                android:layout_width = "match_parent"
+                android:layout_height = "0dip"
+                android:fillViewport = "true"
+                android:scrollbars = "none"
+                android:overScrollMode = "never"
+                android:background="@drawable/edit_bottom_bar_bg"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:id="@+id/line_sub_gallery"
+                    android:orientation="horizontal"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:scrollbars="horizontal">
+                    <GridView
+                        android:id="@+id/sub_gallery"
+                        android:layout_width = "match_parent"
+                        android:layout_height = "wrap_content"
+                        android:listSelector="@android:color/transparent"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:scrollbars="none"
+                        />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/rel_mosaic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_bottom_bar_bg"
+            android:visibility="gone" >
+            <ImageButton
+                android:id="@+id/btn_draw_mosaic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cut_ratio_btn"
+                android:layout_gravity="center_vertical"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/edit_brush_auto_selector"
+                android:background="@drawable/mosaic_left_btn_status"
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp" />
+            <ImageButton
+                android:id="@+id/btn_erase_mosaic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cut_ratio_free"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/edit_brush_eraser_selector"
+                android:layout_toRightOf="@id/btn_draw_mosaic"
+                android:background="@drawable/mosaic_right_btn_status"
+                android:visibility="gone"
+                android:layout_centerVertical="true" />
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/btn_erase_mosaic"
+                android:layout_toLeftOf="@+id/mosaic_line_view">
+                <SeekBar
+                    android:id="@+id/seekbar_mosaic"
+                    style="@style/SeekBar.Mosaic"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:max="60"
+                    android:progress="20"
+                    android:visibility="gone" />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/mosaic_line_view"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_toLeftOf="@+id/btn_mosaic_grid"
+                android:src="@drawable/mosaic_line"
+                android:visibility="gone"
+                android:layout_marginRight="4dp"/>
+            <ImageButton android:id="@+id/btn_mosaic_grid"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:padding="4dp"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                android:background="@drawable/mosaic_grid_btn_status"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:layout_below="@+id/edit_layout_top"
+        android:layout_above = "@id/edit_layout_bottom"
+        android:gravity = "center"
+        >
+        <FrameLayout
+            android:id="@+id/center_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/makeup_adjust"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:layout_marginBottom="50dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/bt_bg_fine_tuning_selector"
+            android:padding="10dip"
+            android:textSize="16sp"
+            android:text="@string/text_edit_makeup_adjust"
+            android:textColor="@color/makeup_adjust_text_selector"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/ic_idphoto_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="25dip"
+            android:layout_marginRight="25dip"
+            android:background="@drawable/ic_idphoto_help"
+            android:visibility="gone" />
+
+        <com.ucamera.uphoto.RectView
+            android:id="@+id/makeup_rectview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignBottom="@id/center_layout"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id ="@+id/imageview_setting_op_hint_out"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:visibility = "gone"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true"
+        android:focusable="false"
+        android:scaleType="fitXY" />
+    <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:orientation = "vertical"
+            android:layout_above="@+id/edit_layout_bottom">
+            <HorizontalScrollView
+                android:id = "@+id/mosaic_scroller"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:fillViewport = "true"
+                android:scrollbars = "none"
+                android:overScrollMode = "never"
+                android:visibility="gone"
+                android:background="@drawable/mosaic_bottom_bg">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:scrollbars="horizontal">
+                    <GridView
+                        android:id="@+id/mosaic_sub_gallery"
+                        android:layout_width = "match_parent"
+                        android:layout_height = "wrap_content"
+                        android:listSelector="@android:color/transparent"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:scrollbars="none"
+                        android:visibility="gone"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+<LinearLayout
+        android:id = "@+id/edit_layout_top"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_alignParentTop = "true"
+        android:gravity = "center"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:background="@drawable/edit_label_topbar_bg">
+        <!-- <LinearLayout
+            android:id = "@+id/layout_edit_home"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:gravity="center"
+            android:paddingLeft="5dip"
+            android:layout_weight = "1.0">
+            <TextView android:id = "@+id/text_edit_home"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:gravity="right|center_vertical"
+                android:paddingRight="6dip"
+                android:paddingBottom="2dip"
+                android:clickable="true"
+                android:text="@string/text_edit_home"
+                android:textColor="@color/edit_top_item_color"
+                android:textSize="11sp"
+                android:background = "@drawable/bt_back_home_selector"/>
+        </LinearLayout> -->
+        <LinearLayout
+                android:id="@+id/layout_edit_idphoto_back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:gravity="center|left"
+                android:visibility="gone" >
+
+                <Button
+                    android:id="@+id/btn_edit_idphotoback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dip"
+                    android:paddingBottom="2dip"
+                    android:gravity="center"
+                    android:text="@string/idphoto_back_camera"
+                    android:textColor="@android:color/white"
+                    android:textSize="12dip"
+                    android:background="@drawable/idphoto_back_selector"/>
+            </LinearLayout>
+
+        <LinearLayout
+            android:id = "@+id/layout_edit_undo"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:layout_weight = "1.0"
+            android:gravity = "center|right">
+            <ImageButton
+                android:id = "@+id/btn_edit_back"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_marginRight="10dip"
+                android:background = "@drawable/edit_undo_selector"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id = "@+id/layout_edit_redo"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:layout_weight = "1.0"
+            android:gravity = "center|left"
+            >
+            <ImageButton
+                android:id = "@+id/btn_edit_next"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_marginLeft="10dip"
+                android:background = "@drawable/edit_redo_selector"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:id = "@+id/layout_setting_op_hint"
+            android:layout_weight = "1.0"
+            android:gravity = "center_horizontal|bottom" >
+<!--              <ImageButton
+                android:id = "@+id/imageview_setting_op_hint"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/ic_top_packup"
+                /> -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id = "@+id/layout_edit_share"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:layout_weight = "1.0"
+            android:gravity = "center"
+            >
+            <ImageButton
+                android:id = "@+id/btn_edit_share"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/edit_share_selector"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id = "@+id/layout_edit_storage"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:layout_weight = "1.0"
+            android:gravity = "center"
+            >
+            <ImageButton
+                android:id = "@+id/btn_edit_storage"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:background = "@drawable/edit_storage_selector"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id = "@+id/layout_idphoto_shareandstorage"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:layout_weight = "1.0"
+            android:gravity = "center|right"
+            android:visibility="gone"
+            >
+            <Button
+                android:id = "@+id/bt_idphoto_shareandstorage"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text="@string/save_and_share"
+                android:paddingBottom="2dip"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dip"
+                android:layout_marginRight="5dip"
+                android:gravity="center"
+                android:textSize="12dip"
+                android:textColor="@android:color/white"
+                android:background = "@drawable/idphoto_save_and_share_selector"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/operate_done"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:background="@drawable/edit_label_topbar_bg"
+        android:visibility="gone">
+        <include layout="@layout/operate_done_layout"/>
+    </LinearLayout>
+
+    <RelativeLayout android:id="@+id/adjust_scl"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@drawable/color_enhancement_bg"
+        android:visibility="gone">
+<!--         android:layout_above = "@id/edit_layout_bottom" -->
+       <include layout="@layout/color_enhancement"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id = "@+id/makeup_seekbar_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above = "@id/edit_layout_bottom"
+        android:gravity = "center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <ImageView
+            android:id = "@+id/makeup_seekbar_icon"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginLeft = "10dip"
+            android:layout_centerVertical = "true"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id = "@+id/makeup_seekbar_percent"
+            android:layout_height="wrap_content"
+            android:layout_width="30dip"
+            android:singleLine = "true"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity = "center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:layout_centerVertical = "true"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"/>
+        <SeekBar
+            android:id = "@+id/makeup_seekbar_other"
+            android:max="100"
+            style="@style/UCam.SeekBar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal = "true"
+            android:layout_marginLeft = "8dip"
+            android:layout_marginRight = "8dip"
+            android:padding="10dip"
+            android:layout_toRightOf="@id/makeup_seekbar_icon"
+            android:layout_toLeftOf="@id/makeup_seekbar_percent" />
+        <SeekBar
+            android:id = "@+id/makeup_seekbar_deblemish"
+            android:max="4"
+            style="@style/UCam.SeekBar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal = "true"
+            android:layout_marginLeft = "8dip"
+            android:layout_marginRight = "8dip"
+            android:padding="10dip"
+            android:layout_toRightOf="@id/makeup_seekbar_icon"
+            android:layout_toLeftOf="@id/makeup_seekbar_percent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id = "@+id/layout_brush_eraser_size"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_above = "@id/edit_layout_bottom"
+        android:gravity = "center"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+        <SeekBar android:id="@+id/seekbar_brush_eraser_size"
+            style="@style/UCam.SeekBar"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:padding="10dip"
+            android:layout_centerInParent = "true"
+            android:layout_centerVertical = "true"
+            />
+    </RelativeLayout>
+<!--
+    <RelativeLayout
+        android:id="@+id/effect_root_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above = "@id/edit_layout_bottom"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:visibility = "gone" >
+
+        <Gallery
+            android:id="@+id/gallery_effect_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:unselectedAlpha="0.3"
+            android:layout_gravity="center"
+            android:spacing="35dp"
+            android:background="@drawable/effect_type_bg"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/gallery_effect_post"
+            android:background="@drawable/effect_type_arrow" />
+    </RelativeLayout>
+-->
+    <include layout="@layout/effect_showed" />
+
+    <include layout="@layout/uphoto_selectbox" />
+    <LinearLayout
+        android:id = "@+id/edit_layout_label_view"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:layout_alignParentTop = "true"
+        android:visibility = "gone"
+        android:orientation = "vertical" >
+        <include layout = "@layout/label_view_attribute" />
+        <View
+            android:id = "@+id/label_hide_view"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id = "@+id/edit_layout_brush_view"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:layout_alignParentTop = "true"
+        android:visibility = "gone"
+        android:orientation = "vertical" >
+        <include layout = "@layout/layout_brush_view" />
+        <View
+            android:id = "@+id/brush_hide_view"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"/>
+    </LinearLayout>
+    <ViewStub
+        android:id="@+id/makeup_deblemish_hint_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/makeup_deblemish_hint" />
+
+    <ViewStub
+        android:id="@+id/makeup_facedetect_hint_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/makeup_facedetect_hint" />
+</RelativeLayout>

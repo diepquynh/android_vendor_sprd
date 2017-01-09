@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"Mai girka satifiket"</string>
+<string name="pick_file_title">Zabi satifiket</string>
+<string name="pkcs12_password_dialog_title">"Zare daga PKCS12 keystore"</string>
+<string name="extracting_pkcs12">Ciro\u2026</string>
+<string name="pkcs12_file_password_dialog_title">"Zare daga %s"</string>
+<string name="name_credential_dialog_title">"Kirkiri suna ga satifiket"</string>
+<string name="credential_name">"Sunan satifiket:"</string>
+<string name="credential_password">Buga kalmomin shiga don ciro satifiket.</string>
+<string name="credential_info">"A cikin makunshi akwai:"</string>
+<string name="p12_description">"Satifiketoci cikin PKCS12 keystore."</string>
+<string name="one_userkey">"mabudin mai amfani daya"</string>
+<string name="one_usercrt">"satifiket din mai amfani guda daya"</string>
+<string name="one_cacrt">"satifiket din CA"</string>
+<string name="n_cacrts">"Shaidun %d CA "</string>
+<string name="password_error">Buga kalmomin shiga da suke daidai.</string>
+<string name="password_empty_error">Buga kalmomin shiga</string>
+<string name="name_empty_error">Buga suna</string>
+<string name="name_char_error">Buga sunan da ya kunshi haruffa da lambobi.</string>
+<string name="unable_to_save_cert">Bai adana satifiket ba. Ma\'adanar ba a kunne yake ba ko ba a gyara shi ba.</string>
+<string name="cert_not_saved">"Ba a sanya satifiket ba."</string>
+<string name="no_cert_to_saved">"Babu satifiket da za a dasa."</string>
+<string name="invalid_cert">"Satifiket din ba shi da kyau."</string>
+<string name="cert_is_added">"<xliff:g id="credential">%s</xliff:g> an sanya."</string>
+<string name="cert_too_large_error">Bai saka shi ba saboda satifiket din ya yi girma da yawa.</string>
+<string name="cert_missing_error">Bai saka shi ba saboda jakar satifiket din ba a gano shi ba.</string>
+<string name="cert_read_error">Bai saka shi ba saboda ba a iya karanta jakar satifiket din ba.</string>
+<string name="no_cert_file_found" product="nosdcard">"No certificate file found in USB storage."</string>
+<string name="no_cert_file_found" product="default">"Ba a sami fayil din satifiket a cikin SD card."</string>
+<string name="sdcard_not_present" product="nosdcard">"Babu ma\'adanar USB."</string>
+<string name="sdcard_not_present" product="default">Katin SD din ba shi.</string>
+<string name="only_primary_user_allowed">"Mai wannan na\'urar ne kawai zai iya dasa satifike."</string>
+<string name="credential_usage_label">"Amfani da bayanai:"</string>
+<string-array name="credential_usage">
+<item>"VPN da masarrafai"</item>
+<item>"Wi-Fi"</item>
+</string-array>
+<string name="wifi_title">"Bayanin Wi-Fi"</string>
+<string name="wifi_detail_title">"Cikakkun bayanai ga %s"</string>
+<string name="wifi_detail_label">"Bayanai"</string>
+<string name="wifi_install_label">"Girka"</string>
+<string name="wifi_installing_label">"Dasawa"</string>
+<string name="wifi_cancel_label">"Soke"</string>
+<string name="wifi_dismiss_label">"Sallama"</string>
+<string name="wifi_no_config">Ba wanda</string>
+<string name="wifi_config_text">"Suna: %1$s\nFQDN: %2$s\nGungun kamfanoni Masu yawo: %3$s\nYanki: %4$s\nHanyar Auth: EAP-%5$s\n"</string>
+<string name="wifi_ttls_config_text">"Sunan mai amfani:  %s\n"</string>
+<string name="wifi_tls_config_text">"Satifiket din abokin harka:\n%1$s\nKey: %2$s\n"</string>
+<string name="wifi_sim_config_text">"SIM: %s\n"</string>
+<string name="wifi_trust_config_text">"Gaskata satifiket:  \n%s\n"</string>
+<string name="install_done_title">"An sanya takardun cancanta"</string>
+<string name="install_done">"<xliff:g id="name">%1$s</xliff:g> takardun cancanta da ka kara ga hanyoyin sadarwar Wi-Fi da aka adana&amp;#46;"</string>
+<string name="done_label">"An yi"</string>
+<string name="wifi_installer_detail">" Sanya takardun cancanta na Wi-Fi don jonawa da hanyoyin sadarwa da ake da su ta cikin <xliff:g id="name">%1$s</xliff:g>&amp;#46;"</string>
+<string name="wifi_installer_download_error">"Fayil din da aka sauke yana da matsaloli don haka ba za a iya sanya shi ba&amp;#46; Tabbata ka sauke fayil din daga ingantaccen waje&amp;#46;"</string>
+<string name="wifi_installer_fail">"Ba za a iya sanya takardun cancanta na Wi-Fi ba&amp;#46; Sake gwada sauke fayil din&amp;#46;"</string>
+<string name="wifi_installer_fail_no_wifi_title">"An soke sanyawa"</string>
+<string name="wifi_installer_fail_title">"Ba za a iya sanyawa ba"</string>
+<string name="wifi_installer_fail_no_wifi">"Kunna Wi-Fi sannan ka sake gwadawa&amp;#46;"</string>
+</resources>

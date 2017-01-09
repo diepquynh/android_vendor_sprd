@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Grabadora de sonidos"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Grabar mensaje"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Mensaje grabado"</string>
+    <string name="review_message" msgid="201616012287839474">"Revisar mensaje"</string>
+    <string name="recording" msgid="4426791467211376099">"Grabando..."</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Grabación detenida"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"Espacio insuficiente"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"Duración máxima alcanzada"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Activar almacenamiento USB"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Insertar una tarjeta SD"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> minutos disponibles"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> segundos disponibles"</string>
+    <string name="accept" msgid="1888285552128743656">"Listo"</string>
+    <string name="discard" msgid="761613433029406319">"Descartar"</string>
+    <string name="button_ok" msgid="3004911343723076226">"Aceptar"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Tus grabaciones"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Grabaciones de audio"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Mis grabaciones"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"No se puede acceder al almacenamiento USB."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"No se puede acceder a la tarjeta SD."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Error interno de la aplicación"</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"No se ha podido guardar el audio grabado."</string>
+    <string name="recording_save">"Grabación guardada"</string>
+     <string name="recording_nosave">"La grabación no se guardó"</string>
+     <string name="phone_message">"No se puede activar la Grabadora de Sonidos durante una llamada."</string>
+     <string name="min_and_time_available">"alrededor de <xliff:g id="minutos">%d</xliff:g> min y <xliff:g id="segundos">%d</xliff:g> seg disponible"</string>
+     <string name="press_record">"Presionar grabar"</string>
+     <string name="save">"Guardar"</string>
+     <string name="select_file_type">"Seleccione el tipo de archivo a grabar"</string>
+     <string name="record_amr">"tipo amr (baja calidad)"</string>
+     <string name="record_3gpp">"tipo 3gpp (alta calidad)"</string>
+     <string name="button_cancel">Cancelar</string>
+     <string name="path_save">"Sendero predeterminado guardado"</string>
+     <string name="path_nosave">"Sendero predeterminado no guardado"</string>
+     <string name="path_default">"En el sendero actual no se puede escribir o es invalido, es el sendero al almacenamiento interno"</string>
+     <string name="menu_set_save_path">"Establecer ruta para guardar"</string>
+     <string name="back">"Regresar.."</string>
+     <string name="path_label">"Por favor, seleccione ruta a guardar"</string>
+     <string name="pause">"Pausa"</string>
+     <string name="storage_is_not_enough">"El almacenamiento no es suficiente"</string>
+     <string name="menu_recording_file_list">"Grabando lista de archivos"</string>
+     <string name="recording_list_empty">"Lista vacía"</string>
+     <string name="menu_recording_list_select_all">Seleccionar</string>
+     <string name="menu_recording_list_delete">Borrar</string>
+     <string name="menu_recording_list_deselect_all">"Desmarcar"</string>
+     <string name="recording_file_delete_success">"Grabación Eliminada"</string>
+     <string name="recording_file_database_failed">"No se pudo borrar el archivo de base de datos"</string>
+     <string name="recording_file_delete_failed">"No se pudo borrar el archivo de registro"</string>
+     <string name="confirm_del">"¿Está seguro de borrar los archivos?"</string>
+     <string name="button_delete">Borrar</string>
+     <string name="recording_file_delete_alert_title">Borrar</string>
+     <string name="recording_file_delete_alert_message">"Seguro borrar %1$s ?"</string>
+     <string name="recording_file_list">"Grabando lista de archivos"</string>
+     <string name="less_than_one_second">"1 segundo"</string>
+     <string name="is_scanning">"MediaScanner esta escaneando ahora, por favor espere..."</string>
+     <string name="emptylist">"La lista está vacía"</string>
+     <string name="choose_file">"¡Por favor, seleccione el registro que desea borrar los archivos!"</string>
+     <string name="error_path">"La ruta que ha seleccionado no existe, ¡por favor vuelva a establecerla!"</string>
+     <string name="path_miss">"El sendero almacenado no existe o no puede ser accedido!"</string>
+     <string name="low_memory">"No hay suficiente memoria,La grabación se detendrá!"</string>
+     <string name="record_error">"¡Una excepción ocurre en la grabación!"</string>
+     <string name="play_error">"El reproductor de música ha sido desactivado,no se puede abrir！"</string>
+     <string name="dialog_title">"Por favor selecciona"</string>
+     <string name="dialog_message">"¿Guardar la grabación?"</string>
+     <string name="same_application_running">"El dispositivo de grabación es utilizado por otro programa, ¡por favor, cierre ese programa!"</string>
+     <string name="recording_time_short">Tiempo de grabación menos de 1 segundo, no se ha guardado</string>
+     <string name="file_path_button">"Sendero de archivo"</string>
+     <string name="file_name">"Nombre de archivo："</string>
+     <string name="file_path">"Sendero de archivo："</string>
+     <string name="rename">"Cambiar nombre"</string>
+     <string name="rename_save">"Renombre realizado"</string>
+     <string name="rename_nosave">Falla al renombrar</string>
+     <string name="filename_is_not_modified">"El nombre del archivo no ha sido modificado"</string>
+     <string name="duplicate_name">"Nombre del archivo duplicado"</string>
+     <string name="soundpicker_label">Por favor seleccione el archivo de grabación</string>
+     <string name="error_sdcard_path">"No existe tarjeta sd. El sendero de guardado se ha cambiado al almacenamiento interno"</string>
+     <string name="input_length_overstep">"El ingreso ha alcanzado el largo máximo"</string>
+     <string name="filename_empty_error">"El nobre del archivo no puede estar vacío, guarde el nombre original"</string>
+     <string name="please_choose_files">"Por favor escoja archivos"</string>
+     <string name="selected_files_count">"Se ha escogido<xliff:g id="COUNTS">%d</xliff:g>"</string>
+     <string name="use_default_path">"El sendero almacenado no existe, utilizar el sendero predeterminado"</string>
+     <string name="stroage_not_mounted">"El almacenamiento no está Montado"</string>
+     <string name="special_char_exist">"Caracteres especiales <xliff:g id="COUNTS">%s</xliff:g> no son compatibles"</string>
+     <string name="menu_select_more">Seleccione mas</string>
+     <string name="menu_select_type">"establecer tipo de archivo"</string>
+     <string name="path_miss_nosave">"El sendero almacenado no existe,la grabacion no fue guardada！"</string>
+     <string name="dialog_dismiss">"Descartar"</string>
+     <string name="error_permissions">"La aplicación no tiene permisos críticos necesarios para ejecutarse. Comprueba la configuración de los permisos."</string>
+
+</resources>

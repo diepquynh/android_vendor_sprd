@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_number">"ダイヤルを回し"</string>
+<string name="cancel_call">"キャンセル"</string>
+<string name="delivery_toast_body_fail">"%sに発送したメーセッジが失敗しました"</string>
+<string name="read_report_toast_body">"%sがメーセッジを読み取りました"</string>
+<string name="read_report_toast_body_fail">"%sがメーセッジを読み取りません"</string>
+<string name="delivery_toast_body_fail_rejected">"%sにメッセージが拒絶されました"</string>
+<string name="user_not_exist">"ユーザが存在しません。"</string>
+<string name="menu_resend">"再送します"</string>
+<string name="low_storage_toast">"低いメモリでは、フォイルを削除し、メモリを釈放します。"</string>
+<string name="failed_to_download_mms">"写真付のダウンロードが失敗し、後でもう一度試しみよ"</string>
+<string name="failed_to_send_mms">"写真付の発送が失敗し、後でも一度試しみよ"</string>
+<string name="success_to_send_mms">"写真付の発送が成功します"</string>
+<string name="sim_x">"SIM%s"</string>
+<string name="sim_card_not_ready">"ＳＩＭカードが準備してない"</string>
+<string name="sim_is_invalid">"ＳＩＭカードが準備してない"</string>
+<string name="on_progress">"処理中、待ってください…"</string>
+<string name="pref_internal_memory_usage_title">"写真付の大小、可利用の空間、トータル"</string>
+<string name="pref_internal_memory_usage_progress_summary">"メモリの大小を計算している"</string>
+<string name="please_wait_title">"待ってください"</string>
+<string name="sim_card_setting">"ＳＩＭカードの設定"</string>
+<string name="multi_sim_manage_messages_title">"メーセッジがSIM<xliff:g id="COUNT">%1$S</xliff:g>"にある"</string>
+<string name="pref_title_manage_sim_setting">"ＳＩＭの設定を管理する"</string>
+<string name="pref_summary_manage_sim_setting">"ＳＩＭカードの情報を管理し、メールセンターの番号、発送報告、写真付きのダウンロードなどが含まれている"</string>
+<string name="pref_summary_notification_ringtone">"黙認ベル"</string>
+<string name="pref_summary_notification_ringtone_silent">"沈黙"</string>
+<string name="menu_sim_capacity">"ＳＩＭの容量"</string>
+<string name="pref_title_manage_multi_sim_messages">""ＳＩＭ<xliff:g id="COUNT">%1$s</xliff:g>"にあるメーセッジを管理する"</string>
+<string name="pref_summary_manage_multi_sim_messages">""SIM<xliff:g id="COUNT">%1$s</xliff:g>にあるメーセッジを管理保存する"</string>
+<string name="toast_copy_to_sim_success">"情報が「ＳＩＭ」に保存するのが成功しました"</string>
+<string name="toast_copy_to_sim_failure">"情報が「ＳＩＭ」に保存するのが失敗しました"</string>
+<string name="toast_sim_memory_full">"ＳＩＭカードが満了しました"</string>
+<string name="toast_copy_to_multi_sim_success">"SIM<xliff:g id="COUNT">%1$s</xliff:g>"に転送成功した"</string>
+<string name="toast_copy_to_multi_sim_failure">"SIM<xliff:g id="COUNT">%1$s</xliff:g>に転送失敗した""</string>
+<string name="toast_multi_sim_memory_full">""SIM <xliff:g id="COUNT">%1$S</xliff:g> および関連の記憶はいっぱいです
+""</string>
+<plurals name="conversation_num">
+<item quantity="one">"あなたが1つの会話を持っています。"</item>
+<item quantity="other">""あなたが <xliff:g id="number">%1$s</xliff:g>"会話がある"</item>
+</plurals>
+<string name="count_of_new_mms">"%s の新しいメッセージがあります"</string>
+<string name="pref_summary_store_sms_on_sim">"新しいSMSが来ました、SIMカードに保存しますか？"</string>
+<string name="pref_title_store_sms_on_sim">"メーセッジがＳＩＭカードに保存している"</string>
+<string name="pref_title_sms_validity">"メーセッジの有効期"</string>
+<string name="done_slide_show">"完了"</string>
+<string name="smsc_check_fdn_failure">"あなたのメッセージセンター番号がＦＤＮリストに属してないから、発送できない。"</string>
+<string name="muti_select_all">"全てを選択"</string>
+<string name="menu_select_none">"選択をすべて解除"</string>
+<string name="Conversation_check_type_selected_all">"全てを選択"</string>
+<string name="menu_msg_folder">"フォルダビュー"</string>
+<string name="menu_msg_list">"メーセッジビュー"</string>
+<string name="folder_inbox">"インボックス"</string>
+<string name="folder_outbox">"送信トレイ"</string>
+<string name="folder_sent">"発送した"</string>
+<string name="folder_drafts">"草稿ボックス"</string>
+<string name="folder_empty">"このフォルダにメッセージはありません"</string>
+<string name="folder_display_all">"すべてのメッセージを表示する"</string>
+<string name="folder_delete_messages">"メッセージを削除"</string>
+<string name="folder_loading">"読み込む中・・・"</string>
+<string name="folder_reply">"応答"</string>
+<string name="folder_forward">"転送"</string>
+<string name="no_msg_del">"削除のメーセッジがない"</string>
+<string name="exceed_slides_number_limitation">"スライド数制限に達する"</string>
+<string name="has_vcard_or_vcalendar_attachment">"既に存在し <xliff:g id="TYPE">%1$s</xliff:g>, 添加できない"</string>
+<string name="folder_sortby">"で分類"</string>
+<string-array name="sort_type">
+<item>"時間別"</item>
+<item>"アドレスによって"</item>
+</string-array>
+<string name="OTAConfig_title">"OTAの設定"</string>
+<string name="OTAConfig_Message">""OTAの情報の設定を保存すると確定しますか"</string>
+<string name="OTAConfiy_Success">""OTAの情報の設定が成功しました"</string>
+<string name="OTAConfiy_Error">""OTAの情報の配置が失敗しました"</string>
+<string name="ota_pin_error">""OTAのセキュリティが失敗しました"</string>
+<string name="ota_retry">"パスワードエラー"</string>
+<string name="ota_pin_exception">""OTAの情報の配置が失敗し：プログラムが異常が出る"</string>
+<string name="ota_mime_error">""OTAの情報の配置が失敗し：データがない"</string>
+<string name="ota_support_not">"OTAの情報の配置が失敗し：<xliff:g id="OTATYPE">%1$s</xliff:g> 支持しない(タイプ）."</string>
+<string name="pref_reply_path_title">"返信パスの設定"</string>
+<string name="pref_title_reply_path">"返信パス"</string>
+<string name="pref_summary_reply_path">"同センターを経由して返事する"</string>
+<string name="cannot_add_picture_and_vcard">"名刺と写真が同じスライドに添加できない"</string>
+<string name="mms_setting">"写真付の設定"</string>
+<string name="pref_title_font_size">"フォントサイズ設定"</string>
+<string name="font_size_setting">"フォントサイズ設定"</string>
+<string name="font_size">"フォントサイズ: <xliff:g id="font_size_id">%1$s</xliff:g>"</string>
+<string name="menu_copy_to_sim_memory">"メッセージを「ＳＩＭ」にコピーする"</string>
+<string name="menu_add_recipient_to_contacts">" <xliff:g id="name">%s</xliff:g>連絡人に添加する"</string>
+<string name="action_done">"完了"</string>
+<string name="message_signature_setting">"署名の設定"</string>
+<string name="pref_signature_enable_title">"付加サイン"</string>
+<string name="pref_signature_enabl_summary">"あなたが自動的に送った写真付のメッセージの後で、署名を追加します。"</string>
+<string name="pref_signature_input_title">"署名の編集"</string>
+<string name="pref_signature_input_summary">"署名の設定がないから、クリックで設定してください"</string>
+<string name="pref_signature_input_limited">"サインが規定の上限に達する"</string>
+<string name="pref_hint_signature_edittext">"署名を入力してください"</string>
+<string name="toast_append_signature_failed">"付加署名が写真付に保存できない、スライドのサイズが上限に達している"</string>
+<string name="pageIndex">"ページ%s"</string>
+<string name="remove_subject">"主題を削除する"</string>
+<string name="toast_message_when_memory_full">"メモリが一杯になると、メモリを釈放し再起動してください
+"</string>
+<string name="toast_save_classzero_message_failed">"保存するスペースがない、メッセージを保存するのが失敗しました"</string>
+<string name="toast_shared_file_failed">"支持しないメディアファイルで、共有が失敗しました。"</string>
+<string name="message_too_many_recipients_picked">""すみません、毎回追加の連絡先は <xliff:g id="COUNT">%1$s</xliff:g> を超えてはいけない"</string>
+<string name="pref_title_manage_sim_smsc">"SMS サービスセンタ"</string>
+<string name="smsc_set_fails">"メールセンター設置番号が失敗しました"</string>
+<string name="smsc_set_success">"設定が成功する"</string>
+<string name="smsc_change_success">"修正が成功する"</string>
+<string name="smsc_add_success">"添加が成功する"</string>
+<string name="received_new_wap_contact">"ひとりのＳＭＳメーセッジを受信しました"</string>
+<string name="save_new_wap_contact">"保存"</string>
+<string name="cancle_new_wap_contact">"キャンセル"</string>
+<string name="menu_sim_message">"ＳＩＭカードのメーセッジ"</string>
+<string name="folder_display_option">"オプションを表示する"</string>
+<string name="confirm_open_browser_dialog_title">"メッセージ"</string>
+<string name="confirm_open_browser_dialog_message">"ブラウザを開くかどうか？"</string>
+<plurals name="delete_confirm">
+<item quantity="one">"1アイテムを選んでください"</item>
+<item quantity="other">""<xliff:g id="del_count">%1$s</xliff:g> 項目"を選ぶ"</item>
+</plurals>
+<string name="select_sim_card">"ＳＩＭカードを選択してください"</string>
+<string name="menu_video_call_back">"ビデオ呼び出し <xliff:g id="name">%s</xliff:g>"</string>
+<string name="menu_edit_before_call_back">"呼び出し前に編集" <xliff:g id="name">%s</xliff:g>""</string>
+<string name="min_zoom">"「最小」に達した"</string>
+<string name="max_zoom">"「最大」に達した"</string>
+<string name="sms_merge_forward">"メール合併転送"</string>
+<string name="sms_merge_dialog_title">"提示"</string>
+<string name="sms_merge_dialog_content">"あなたが2から30まで写真付の メッセージだけを選択するしかない、それをチェックしてください。"</string>
+<string name="sms_merge_forward_empty">"合併のメールを転送できない"</string>
+<string name="sms_forwarding_number">"ＳＭＳの転送の設定"</string>
+<string name="pref_sms_forwarding_number_title">"ＳＭＳの転送の番号"</string>
+<string name="pref_sms_forwarding_number_summary">"受信メールを転送する時、発送人と一緒に転送する"</string>
+<string name="sim_list_title">"ＳＩＭカードを選択してください"</string>
+<string name="type_vcard">"名刺"</string>
+<string name="type_vcalendar">"日程"</string>
+<string name="attach_vcard">"名刺"</string>
+<string name="attach_vcalendar">"日程"</string>
+<string name="add_slide_before">"スライドに添加する(前）"</string>
+<string name="add_slide_after">"スライドに添加する(後ろ）"</string>
+<string name="re_take_picture">"画像を保存するのが失敗し、再び写真を撮影してください"</string>
+<string name="exceed_text_length_limitation">"テキストの長さの上限に達する。"</string>
+<string name="move_message_to_phone_memory">"携帯電話のメモリへのコピーに成功した"</string>
+<string name="can_not_copy_the_message">"メッセージをコピーできません"</string>
+<string name="confirm_import_vcard">"このvcardを輸入しますか？"</string>
+<string name="pref_title_manage_simx_smsc">"SIM<xliff:g id="COUNT">%1$s</xliff:g> SMS センタの番号"</string>
+<string name="simx_settings_title">"SIM<xliff:g id="COUNT">%1$s</xliff:g> カード設定"</string>
+<string name="pref_summary_sms_validity">"ショートメッセージの有効性"</string>
+<string-array name="prefEntries_mms_validity">
+<item>"一時間"</item>
+<item>"12時間"</item>
+<item>"24時間"</item>
+<item>"二日"</item>
+<item>"最長"</item>
+</string-array>
+<string-array name="prefEntries_mms_priority">
+<item>"高い"</item>
+<item>"正常"</item>
+<item>"低い"</item>
+</string-array>
+<string name="pref_title_mms_validity">"写真付の有効期"</string>
+<string name="pref_summary_mms_validity">"写真付の有効期"</string>
+<string name="pref_title_mms_priority">"優先度"</string>
+<string name="pref_summary_mms_priority">"優先級を設定する"</string>
+<string name="sim_settings_title">"ＳＩＭカードの設定"</string>
+<string name="toast_copy_to_simx_success">"メーセッジが <xliff:g id="COUNT">%1$s</xliff:g>にコーピするのが成功します"</string>
+<string name="toast_copy_to_simx_failure">"メーセッジが<xliff:g id="COUNT">%1$s</xliff:g>にコーピするのが失敗します"</string>
+<string name="toast_simx_memory_full">"<xliff:g id="COUNT">%1$s</xliff:g>満了になりました"</string>
+<string name="pref_title_manage_sim_x_setting">""管理するSIM<xliff:g id="COUNT">%1$s</xliff:g>設定"</string>
+<string name="pref_title_mms_creation_mode">"作成モード"</string>
+<string-array name="mms_creation_mode_entries">
+<item>"制限"</item>
+<item>"警告"</item>
+<item>"自由"</item>
+</string-array>
+<string name="exceed_resolution_limit">"画像サイズが制限を超える"</string>
+<string name="want_to_add_media">"<xliff:g id="NAME">%1$s</xliff:g>を写真付のメーセッジに添加するかどうか？"</string>
+<string name="mms_can_not_add_vcard">"既存の添付ファイルを削除して、連絡人が添加できる"</string>
+<string name="mms_can_not_add_vcalendar">"既存の添付ファイルを削除して、スライドが添加できる"</string>
+<string name="converting_to_text_message">"テキストメッセージに転換しています\u2026"</string>
+<string name="select_calendar">"日程の選択"</string>
+<string name="no_calendar">"日程がありません"</string>
+<string name="exceed_slides_number_message">"選択した単日程 <xliff:g id="NUMBER">%1$s</xliff:g> 多く選択した単日程 <xliff:g id="NUMBER">%2$s</xliff:g> agenda"</string>
+<string name="add_to_blacklist">"ブラックリストに追加します"</string>
+<string name="failed_addToBlacklist">"ブラックリストへの追加に失敗しました"</string>
+<string name="creating_slideshow_title">"「スライドショー」の作成"</string>
+<string name="attachment_vcalendar">"日程"</string>
+<string name="attachment_vcard">"Vカード"</string>
+<string name="text_limited_warning">"入力できません"</string>
+<string name="subject_text_length_limitation">"テーマの文字数がいっぱいです"</string>
+<string name="attach_commonPhrases">"共通語入り"</string>
+<string name="commonphrase_empty">"共通語がない"</string>
+<string name="quick_reply">"クイック回答"</string>
+<string name="common_messages">"共通語"</string>
+<string name="common_add_text">"新しい"</string>
+<string name="common_delete_text">"削除"</string>
+<string name="common_delete_message">"削除を確定するか"</string>
+<string name="common_delete">"削除"</string>
+<string name="common_phrase_contextmenu_title">"操作メニュー"</string>
+<string name="common_edit">"編集"</string>
+<string name="commonphrase_delete_empty">"削除できる共通語がない"</string>
+<string name="common_phrase_edit_dialog_title">"オプション"</string>
+<string name="common_phrase_edit_dialog_inform">"編集した内容を保存するかどうか"</string>
+<string name="common_phrase_edit_max_length">"入力文字数がいっぱいです"</string>
+<string name="common_messages_edit">"共通語の編集"</string>
+<string name="common_save">"保存"</string>
+<string name="common_cancel">"キャンセル"</string>
+<string name="add_empty_common_messages">"入力した内容が空になる"</string>
+<string name="pref_other_settings_title">"その他"</string>
+<string name="pre_key_title_common_messages">"共通語"</string>
+<string name="common_phrase_selection">"共通語を選択する"</string>
+<string name="wap_push_message_dialog_title">""Wap Push メーセッジ"</string>
+<string name="open_website">"サイトを開く"</string>
+<string name="activity_not_found">"適切なアプリケーションを見つからない"</string>
+<string name="add_contact">"知り合いの追加"</string>
+<string name="receive_from">"%sから受信する"</string>
+<string name="send_from">"%sから送信する"</string>
+<string name="dl_expired_wap_push">""<xliff:g id="COUNT">%1$s</xliff:g>"ニュースの有効期限が切れて、すでに削除された。"</string>
+<string name="invalid_recipient">"無効な受信者"</string>
+<string name="max_recipients_count">"受け取る数の上限は <xliff:g id="MAXCOUNT">%1$s</xliff:g>"</string>
+<string name="no_media_selected">"メディアが選択されていない！"</string>
+<string name="search_max_length">"検索文が長すぎ、512に限られます"</string>
+<string name="sim_capacity_used">"もう使用した"</string>
+<string name="sim_capacity_total">"総容量"</string>
+<string name="too_many_contacts">"受取人関連の限界 <xliff:g id="MAXLIMIT">%1$s</xliff:g>号に加えます <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> 関連の受取人に加えられます."</string>
+<string name="delivery_toast_body_expired">"メッセージが期限切れです"</string>
+<string name="discard_dialog">"あなたは、本当にこの情報をあきらめることを望みますか？"</string>
+<string name="contacts_count_excceeds">"<xliff:g id="MAXLIMIT">%1$s</xliff:g>に添加した ，もっと多いものを添加するしようがない"</string>
+<string name="copy">"コピー"</string>
+<string name="received_new_wap_vcalendar">"一つ日程のメーセッジを受信しました"</string>
+<string name="remove_vcalendar_first">"編集前に添付したカレンダーを削除してください"</string>
+<string name="remove_vcard_first">"名刺フォイルを削除し編集できる"</string>
+<string name="import_vcalendar">"カレンダーをインポートする"</string>
+<string name="no_vcalendar">"カレンダーが見つかりません"</string>
+<string name="import_vcalendar_fail">"カレンダーをインポートできませんでした"</string>
+<string name="unable_to_add_all">"メッセージの容量がいっぱいです、いくつかの部分を追加出来ません"</string>
+<string name="replce_slideshow_dilaog_dismiss">"スライドショーの代わりに現在の添付ファイルの削除を続けようか"</string>
+<string name="pref_title_sms_retry_times">"SMSを再度起動します"</string>
+<string name="smsc_list">"ＳＭＳセンターリスト"</string>
+<string name="smsc_list_empty">"ＳＭＳセンター番号でない"</string>
+<string name="smsc_list_loading">"読み込み中"</string>
+<string name="smsc_list_menu_edit">"編集"</string>
+<string name="smsc_list_menu_activate">"活性化"</string>
+<string name="smsc_list_not_allow_to_clear">"削除を許可しない"</string>
+<string name="smsc_list_empty_number">"クリックで新の番号を添加する"</string>
+<string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g> 添付ファイルが保存する<xliff:g id="path">%2$s</xliff:g>,<xliff id="fail">%3$d</xliff>添付ファイルが失敗する"</string>
+<string name="box_msg_list_menu_addtocontacts">"連絡人を添加する"</string>
+<string name="box_msg_list_menu_call">"呼び出し"</string>
+<string name="box_msg_list_menu_editbeforecall">"呼び出す前、編集する"</string>
+<string name="box_msg_list_menu_videocall">"ビデオコール"</string>
+<string name="soundrecorder_fail_msg">"録音プログラムが起動しない"</string>
+<string name="camera_fail_msg">"カメラプログラムが起動しない"</string>
+<string name="video_fail_msg">"ビデオプログラムが起動しない"</string>
+<string name="pref_encode_type_setting_title">"エンコード型の設定"</string>
+<string name="pref_encode_type_title">"エンコード型"</string>
+  <string-array name="prefEntries_sms_validity">
+    <item>"一時間"</item>
+    <item>"6時間"</item>
+    <item>"24時間"</item>
+    <item>"二日"</item>
+    <item>"一週間"</item>
+    <item>"最長"</item>
+    <item>最大サイﾀﾞイ</item>
+  </string-array>
+    <string name="confirm_convert_to_mms">"受取人の中にメールボックスが含まれる場合、メッセージはMMS形式で送信されます。"</string>
+    <string name="send_as_mms">MMSを送信ソウシン</string>
+    <string name="send_as_sms">"メッセージのみを送信します。"</string>
+    <string name="protected_file">"保護されたファイルを添付することはできません。"</string>
+    <string name="success_to_send_sms">"SMSを送信完了しました。"</string>
+    <string name="confirm_ota_message">"OTAの設定をしますか?"</string>
+    <string name="confirm_ota">"OK"</string>
+    <string name="cancel_ota">"キャンセル"</string>
+    <string name="ota_cancelled">"OTA設定をキャンセルしました。"</string>
+    <string name="message_too_big_for_audio">"メッセージが大きすぎるため、音声を添付することができません。"</string>
+
+    <string name="contacts_count_can_send">"尊敬なるお客様、受信した番号の数量はシステムの制限範囲<xliff:g id="MAXLIMIT">%1$s</xliff:g>個を超えました、バッチで送信してください。"</string>
+    <string name="attach_common_messages">共通語句キョウツウｺﾞク</string>
+    <string name="attach_subject">"件名"</string>
+    <string name="add_contacts_dialog_title">"名刺を追加します"</string>
+    <string name="add_contact_as_text">"テキストメッセージ"</string>
+</resources>

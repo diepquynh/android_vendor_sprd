@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:key="device_capability"
+        android:title="@string/vamos_device_capability" >
+    </Preference>
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/vamos_switch"
+        android:entryValues="@array/vamos_switch_value"
+        android:key="capability_report"
+        android:title="@string/vamos_capability_report" >
+    </ListPreference>
+
+    <Preference
+        android:key="working_status"
+        android:title="@string/vamos_working_status" >
+    </Preference>
+
+    <Preference
+        android:key="vamos_menu_help"
+        android:title="@string/vamos_function_description"
+        android:summary="@string/function_description_summary">
+    </Preference>
+
+</PreferenceScreen>

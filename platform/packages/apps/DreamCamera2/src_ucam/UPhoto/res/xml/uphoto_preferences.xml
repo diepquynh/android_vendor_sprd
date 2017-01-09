@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010,2013 Thundersoft Corporation
+    All rights Reserved
+
+    Copyright (C) 2008 ZXing authors
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title = "@string/text_uphoto_settings_title"
+        android:layout = "@layout/category_preference">
+        <com.ucamera.uphoto.preference.MyListPreference
+            android:key = "pref_uphoto_picture_size_key"
+            android:title="@string/text_uphoto_picture_size_title"
+            android:layout="@layout/preference"
+            android:defaultValue = "@string/text_uphoto_picture_size_default_value"
+            android:entries="@array/text_uphoto_picture_size_entries"
+            android:entryValues="@array/text_uphoto_picture_size_entryvalues"
+            android:dialogTitle="@string/text_uphoto_picture_size_title"
+            android:widgetLayout = "@null"/>
+
+<!--         <com.ucamera.uphoto.preference.CheckBoxPreference
+            android:defaultValue="false"
+            android:disableDependentsState="true"
+            android:key="pref_uphoto_original_save_path_key"
+            android:layout="@layout/checkbox_preference"
+            android:title="@string/text_uphoto_processed_original_save_path_title"
+            android:widgetLayout="@layout/new_checkbox" />
+
+        <com.ucamera.uphoto.preference.MyPathPreference
+            android:key = "pref_uphoto_custom_save_path_key"
+            android:dependency="pref_uphoto_original_save_path_key"
+            android:layout="?android:attr/preferenceLayoutChild"
+            android:title="@string/text_uphoto_custom_save_path_summary"
+            android:dialogTitle="@string/text_select_path_summary"
+            android:widgetLayout = "@null"
+            /> -->
+    </PreferenceCategory>
+</PreferenceScreen>

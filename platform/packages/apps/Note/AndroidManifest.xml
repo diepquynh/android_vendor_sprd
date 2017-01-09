@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sprd.note" android:versionCode="1" android:versionName="1.0" >
+
+    <uses-sdk android:targetSdkVersion="24" android:minSdkVersion="24"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" ></uses-permission>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" ></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" ></uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" ></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" ></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK" ></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:hardwareAccelerated="true"
+        android:name=".NoteApplication"
+        android:supportsRtl="true"
+        android:icon="@drawable/note_icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".NoteActivity"
+            android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|mnc|mcc"
+            android:label="@string/app_name"
+            android:theme="@style/NoteTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".NoteEditor"
+            android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|mnc|mcc"
+            android:theme="@style/NoteTheme"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+
+        <activity
+            android:name=".NoteDelete"
+            android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|mnc|mcc"
+            android:label="@string/app_name"
+            android:theme="@style/NoteTheme">
+        </activity>
+        <activity
+            android:name=".NoteMove"
+            android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|mnc|mcc"
+            android:label="@string/app_name"
+            android:theme="@style/NoteTheme" >
+        </activity>
+        <!-- 557004 check permisson @{ -->
+        <activity
+            android:name="RequestPermissionsActivity"
+            android:theme="@style/NoteTheme"
+            android:exported="false" >
+        </activity>
+        <!-- @} -->
+        <provider
+            android:name=".data.NoteProvider"
+            android:authorities="com.sprd.note.data.NoteProvider"
+            android:exported="false" />
+    </application>
+
+</manifest>

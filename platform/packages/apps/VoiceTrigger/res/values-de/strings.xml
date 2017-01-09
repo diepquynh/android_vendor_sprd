@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"Sprachauslöser"</string>
+<string name="audio_voicetrigger_words">"Weckwort"</string>
+<string name="audio_voicetrigger_sensibility">"Erkennungsempfindlichkeit"</string>
+<string name="audio_voicetrigger_support_fun">"Unterstützung der Funktionsbeschreibung"</string>
+<string name="audio_voicetrigger_connect_headset">"Das zu verwendende Headset verbinden"</string>
+<string name="audio_voicetrigger_language_choose">"Sprachsteuerungssprache auswählen"</string>
+<string name="audio_voicetrigger_help">"Hilfe"</string>
+<string name="audio_voicetrigger_subtitle_wakeup_default">"Der Kontext der Weckworte"</string>
+<string name="audio_voicetrigger_subtitle_wakeup_userdefine">"Benutzerdefiniert"</string>
+<string name="audio_voicetrigger_subtitle_language_choose">"Sprachsteuerungssprache einstellen"</string>
+<string name="audio_voicetrigger_subtitle_help">"Benutzerdefiniertes Weckwort"</string>
+<string name="voicetrigger_connect_headset_content">"Wenn eine Verbindung zum kabelgebundenen oder Bluetooth-Headset besteht, \ kann das Telefon immer noch aufgeweckt und normal verwendet werden. \ Ihre Stimme wird allerdings über das Mikrofon aufgenommen \ und das Mikrofon des Headsets kann das Telefon nicht aufwecken"</string>
+<string name="voicetrigger_wakeup_title">"Weckwort-Registrierung"</string>
+<string name="voicetrigger_input_title">"Weckwort-Aufnahme"</string>
+<string name="voicetrigger_describe">"Wenn das Telefon nicht in der Nähe des Körpers oder schlecht zu handhaben ist,\so wie während einem Anruf, beim Anhören von Musik, etc., können Sie Weckworte verwenden, um Ihr Gerät aufzuwecken und etwas über die Sprachsteuerung durchzuführen."</string>
+<string name="change_language_progress_dialog_message">"Die Sprache wird gewechselt. Bitte warten..."</string>
+<string name="info_press_to_start">"Taste drücken, um die Stimme aufzunehmen"</string>
+<string name="info_default">"Bitte sprechen Sie in einer leisen Umgebung"</string>
+<string name="info_recording">"Aufnahme läuft…"</string>
+<string name="info_please_wait">"Bitte warten..."</string>
+<string name="info_talk_louder">"Lauter sprechen"</string>
+<string name="info_pause_before">""1-2 Sekunden vor dem Sprechen" pausieren"</string>
+<string name="info_too_noisy">"Zu laut. Zu einem leiseren Ort wechseln"</string>
+<string name="info_talk_softer">"Sanfter sprechen"</string>
+<string name="info_bad_recording">"Schlechte Aufnahme"</string>
+<string name="info_talk_slower">"Langsamer sprechen"</string>
+<string name="info_too_many_sound">"Zu viele Sound-Wiederholungen"</string>
+<string name="info_check_rec">"Auslöser wird generiert. Bitte warten..."</string>
+<string name="info_problems_in_rec">"Probleme bei einer oder mehreren Aufnahmen. Nochmal aufnehmen"</string>
+<string name="generate_voicetrigger_words_success">"Sprachauslöser wurde generiert"</string>
+<string name="voicetrigger_wakeup_item_1">"%1$s (default)"</string>
+<string name="voicetrigger_wakeup_item_2">"benutzerdefinieren"</string>
+<string name="prompting_user_defined_text">"die Inhalte der benutzerdefinierten Weckworte"</string>
+<string name="prompting_text_default">"Bitte sagen Sie: %1$s"</string>
+<string name="prompting_text_1">"Bitte sagen Sie erneut: %1$s"</string>
+<string name="prompting_text_2">"Abgeschlossen"</string>
+<string name="error_app_internal">"Interner Anwendungsfehler"</string>
+<string name="dialog_dismiss">"Ausschalten"</string>
+<string name="error_permissions">"Dieser App fehlen wichtige Berechtigungen, ohne die sie nicht ausgeführt werden kann. Bitte überprüfen Sie Ihre Einstellungen für Berechtigungen."</string>
+<string name="dialog_title">"Warnung"</string>
+<string name="dialog_firstuse_info">"Sie benutzen diese Eigenschaft zum ersten Mal. Sie müssen die Default-Stimme zum Aufwecken des Gerätes einstellen."</string>
+<string name="no_wakeup_words_recoded">"Sie haben die benutzerdefinierten Weckworte nicht aufgenommen."</string>
+<string name="dialog_title_notice">"Bemerkung"</string>
+<string name="dialog_change_language_first">"Sie haben die Stimme für die Weckworte in der aktuellen Sprache nicht aufgenommen.\Sie müssen eine neue Stimme zum Aufwecken des Gerätes aufnehmen.  Wollen Sie fortfahren?"</string>
+<string name="same_application_running">"Das Aufnahmegerät wird von einem anderen Programm verwendet. Bitte schließen Sie dieses Programm!"</string>
+<string name="is_not_systemuser">"Der aktuelle Nutzer ist nicht der Systemnutzer. Das Sprachaufwecken kann nicht verwendet werden."</string>
+<string-array name="hello_trigger_text_title_array">
+<item>"Hallo, kann ich Ihnen helfen?"</item>
+<item>"Bitte fahren Sie fort. Ich höre zu..."</item>
+<item>"Sie können mich so fragen: "</item>
+</string-array>
+<string name="support_find_phone">"das Telefon finden"</string>
+<string name="support_find_phone_summary">"Laut rufen: \' [Die Weckworte] + Wo bist du?\'. Das Telefon antwortet mit dem Abspielen der benutzerdefinierten Klingeltöne."</string>
+<string name="support_call_phone">"Telefonanrufe tätigen"</string>
+<string name="support_call_phone_summary">"Zum Telefon sagen: \' [Die Weckworte] + Xiao Wang anrufen\'. Jemand wird angerufen."</string>
+<string name="support_send_mms">"Nachrichten senden"</string>
+<string name="support_send_mms_summary">"Zum Telefon sagen: \' [Die Weckworte] + Eine Textnachricht an Xiao Wang senden\'. Die Messaging-Apps werden geöffnet, um eine Nachricht zu senden."</string>
+<string name="support_camera">"Bilder aufnehmen"</string>
+<string name="support_camera_summary">"Zum Telefon sagen: \' [Die Weckworte] + Ein Bild für mich aufnehmen\'. Die Kamera wird geöffnet, um direkt Bilder aufzunehmen."</string>
+<string name="support_open_music">"Musik wiedergeben"</string>
+<string name="support_open_music_summary">"Zum Telefon sagen:\' [Die Weckworte] + \"Hong Dou\" von Wang Fei spielen\'. Der Player wird geöffnet und spielt diesen Song."</string>
+<string name="support_open_app">"Anwendungen starten"</string>
+<string name="support_open_app_summary">"Zum Telefon sagen:\' [Die Weckworte] + WeChat öffnen\'. Das Telefon startet die WeChat-App."</string>
+<string name="find_phone_content">"Sie können mich fragen: \n\n Wo bist du\n Hörst du mich\n Gib mir eine Antwort"</string>
+<string name="call_phone_content">"Du kannst mich bitten:\n\n Xiao Wang anrufen\n Xiaomin zurücklrufen\n Den Kundendienst von China Mobile anrufen\n 114 wählen"</string>
+<string name="send_mms_content">"Sie können mich bitten: \n\n Xiao Wang eine Textnachricht schreiben\n Eine Textnachricht an Xiaomin senden\n Die Textnachrich vom Mama beantworten\n Per SMS die Meeting-Zeit an Xiaoming senden"</string>
+<string name="open_camera_content">"Sie können mich bitten: \n\n Ein Bild für mich aufnehmen\n Ein Bild von der Szene aufnehmen\n Ein Bild von dem Schild aufnehmen."</string>
+<string name="open_music_content">"Sie können mich bitten: \n\n \"Hong Dou\" von Wang Fei spielen\n Einen zufälligen Song spielen\n Ich will mir "Pao Mo" anhören\n Spiele einen Song von Zhang Xueyou"</string>
+<string name="open_app_content">"Sie können mich bitten: \n\n WeChat öffnen\n Eine "Kompass"-App herunterladen\n Das Notepad starten"</string>
+<string name="default_trigger">"Auslöser: Hello Blue Genie v17 (US-Englisch)"</string>
+<string name="default_command">"Befehl: Fitness v2.2 (US-Englisch)"</string>
+<string name="default_command_sen">"Empfindlichkeit: Normal"</string>
+<string name="trigger_prompt">"Sagen Sie: Hello Blue Genie"</string>
+<string name="command_prompt1">""Sagen Sie jetzt eines der \nFolgenden…"</string>
+<string name="command_prompt2">""Sagen Sie jetzt einen Befehl"</string>
+<string name="cmd_step_count">"Schrittzahl"</string>
+<string name="cmd_calories">"Kalorien"</string>
+<string name="cmd_floors">"Stockwerke"</string>
+<string name="cmd_distance">"Distanz"</string>
+<string name="cmd_active_minutes">"aktive Minuten"</string>
+<string name="cmd_sleep_pattern">"Schlafmuster"</string>
+<string name="cmd_outside_temperature">"Außentemperatur"</string>
+<string name="cmd_outside_humidity">"Außen-Luftfeutigkeit"</string>
+<string name="cmd_what_time_is_it">"Wie viel Uhr ist es?"</string>
+<string name="cmd_heart_rate">"Herzfrequenz"</string>
+<string name="resp_step_count">"Schrittzahl = 4306"</string>
+<string name="resp_calories">"Heute verbrannte Kalorien = 1445"</string>
+<string name="resp_floors">"Heute überwundene Stockwerke = 8"</string>
+<string name="resp_distance">"Heutige Distanz = 2,52 Meilen"</string>
+<string name="resp_active_minutes">"Aktive Minuten heute = 17"</string>
+<string name="resp_sleep_pattern">"Tiefschlaf heute = 3h 25min"</string>
+<string name="resp_outside_temperature">"Außentemp. = 74 F"</string>
+<string name="resp_outside_humidity">"Außen-Luftfeuchtigkeit = 41 %"</string>
+<string name="resp_what_time_is_it">"Aktuelle Zeit ="</string>
+<string name="resp_heart_rate">"Herzfrequenz = 74 bpm"</string>
+<string name="time_left">"Verbleibende Zeit: X s"</string>
+<string name="language_changed_success">"Sprache erfolgreich geändert!"</string>
+<string name="save_file_to_device_error">"Ändern des Weckworts fehlgeschlagen. Bitte später versuchen!"</string>
+<string name="language_changed_failed">"Sprache ändern fehlgeschlagen. Bitte später erneut versuchen"</string>
+<string name="language_change_has_canceled">"wurde abgebrochen. Sie können auch die alten Sprachen verwenden."</string>
+<string name="finished">"Fertig"</string>
+<string name="sensibility_text">"Die Empfindlichkeit der Weckworterkennung einstellen \n \ Wenn die Empfindlichkeit höher ist, gibt es eine höhere Weckrate\n \ Wenn die Empfindlichkeit niedriger ist, ist die Weckrate niedriger"</string>
+<string name="update_phrass_success">"Begriffe erfolgreich aktualisiert"</string>
+</resources>

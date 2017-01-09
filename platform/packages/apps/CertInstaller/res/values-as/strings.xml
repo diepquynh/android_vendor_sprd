@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"প্ৰমাণপত্ৰ ইনষ্টলাৰ"</string>
+<string name="pick_file_title">"একন প্ৰমাণপত্ৰ বাচনি কৰক"</string>
+<string name="pkcs12_password_dialog_title">"প্ৰমাণপত্ৰ পৃথকীকৰণ কৰক"</string>
+<string name="extracting_pkcs12">"পৃথকীকৰণ \u2026"</string>
+<string name="pkcs12_file_password_dialog_title">"%s ৰ পৰা পৃথক কৰক"</string>
+<string name="name_credential_dialog_title">"প্ৰমাণপত্ৰৰ নামাকৰণ কৰক"</string>
+<string name="credential_name">"প্ৰমাণপত্ৰৰ নাম"</string>
+<string name="credential_password">"প্ৰমাণপত্ৰ পৃথকীকৰণ কৰিবলৈ পাছৱৰ্ড টাইপ কৰক"</string>
+<string name="credential_info">"পেকেজটোত থাকে :"</string>
+<string name="p12_description">"PKCS12 কীষ্টোৰত থকা প্ৰমাণপত্ৰবোৰ"</string>
+<string name="one_userkey">"একক ব্যৱহাৰকাৰী চাবি"</string>
+<string name="one_usercrt">"একক ব্যৱহাৰকাৰীৰ প্ৰমাণপত্ৰ"</string>
+<string name="one_cacrt">"এখন CA প্ৰমাণপত্ৰ"</string>
+<string name="n_cacrts">"%d CA প্ৰমাণপত্ৰ"</string>
+<string name="password_error">"সঠিক পাছৱৰ্ডটো টাইপ কৰক"</string>
+<string name="password_empty_error">"পাছৱৰ্ডটো টাইপ কৰক"</string>
+<string name="name_empty_error">"এটা নাম টাইপ কৰক"</string>
+<string name="name_char_error">"তেনে এটা নাম টাইপ কৰিব যিটোত আখৰ আৰু সংখ্যা দুয়োটা থাকিব৷"</string>
+<string name="unable_to_save_cert">"প্ৰমাণপত্ৰখন সংৰক্ষণ কৰিব পৰা নগ’ল৷ প্ৰামাণিক ষ্ট’ৰেজখিনি সক্ৰিয় হৈ নুঠে বা সঠিকভাৱে কাৰ্যকৰীগত নহয়৷"</string>
+<string name="cert_not_saved">"প্ৰমাণপত্ৰখন ইনষ্টল কৰা হোৱা নাই"</string>
+<string name="no_cert_to_saved">"কোনো প্ৰমাণপত্ৰ ইনষ্টল হোৱা নাই"</string>
+<string name="invalid_cert">"প্ৰমাণপত্ৰখন অবৈধ৷"</string>
+<string name="cert_is_added">"<xliff:g id="credential">%s</xliff:g> ইনষ্টল হৈছে৷"</string>
+<string name="cert_too_large_error">"প্ৰমাণপত্ৰৰ আকাৰ যথেষ্ট হোৱা বাবে ইনষ্টল কৰিব পৰা নগ’ল৷"</string>
+<string name="cert_missing_error">"প্ৰমাণপত্ৰৰ ফাইলখন স্থান নিৰূপন কৰিব নোৱাৰাৰ বাবে ইনষ্টল কৰিব পৰা নগ’ল৷"</string>
+<string name="cert_read_error">"প্ৰমাণপত্ৰৰ ফাইলখন পঢ়িব নোৱাৰাৰ বাবে ইনষ্টল কৰিব পৰা নগ’ল৷"</string>
+<string name="no_cert_file_found" product="nosdcard">"USB ষ্ট’ৰেজত কোনো প্ৰামাণিক ফাইল পোৱা নগ’ল"</string>
+<string name="no_cert_file_found" product="default">"SD কাৰ্ডত কোনো প্ৰামাণিক ফাইল পোৱা নগ’ল"</string>
+<string name="sdcard_not_present" product="nosdcard">"USB ষ্ট’ৰেজ উপলব্ধ নহয়"</string>
+<string name="sdcard_not_present" product="default">"SD কাৰ্ড সম্প্ৰতি নাই"</string>
+<string name="only_primary_user_allowed">"কেৱল এই যন্ত্ৰটোৰ গৰাকীয়েহে প্ৰামাণিকসমূহ ইয়াত ইনষ্টল কৰিব পাৰিব"</string>
+<string name="credential_usage_label">"পৰিচয় পত্ৰৰ ব্যৱহাৰ :"</string>
+<string-array name="credential_usage">
+<item>"VPN আৰু এপ্পসমূহ"</item>
+<item>"Wi-Fi"</item>
+</string-array>
+<string name="wifi_title">"Wi-Fi প্ৰফাইল"</string>
+<string name="wifi_detail_title">"%sৰ বাবে বিশদ বিৱৰণ"</string>
+<string name="wifi_detail_label">"বিশদ"</string>
+<string name="wifi_install_label">"ইনষ্টল কৰক"</string>
+<string name="wifi_installing_label">"ইনষ্টল কৰি আছে"</string>
+<string name="wifi_cancel_label">"নাকচ"</string>
+<string name="wifi_dismiss_label">"নাকচ কৰক"</string>
+<string name="wifi_no_config">"নাই"</string>
+<string name="wifi_config_text">"নাম: %1$s\nFQDN: %2$s\nৰোমিং কনচৰ্টিয়ামচ: %3$s\nRealm: %4$s\nপ্ৰমাণীকৰণ পদ্ধতি: EAP-%5$s\n"</string>
+<string name="wifi_ttls_config_text">"ব্যৱহাৰকাৰীৰ নাম: %s\n"</string>
+<string name="wifi_tls_config_text">"ক্লায়েণ্টৰ প্ৰমাণপত্ৰ:\n%1$s\nকী: %2$s\n"</string>
+<string name="wifi_sim_config_text">"SIM: %s\n"</string>
+<string name="wifi_trust_config_text">"বিশ্বাসৰ প্ৰমাণপত্ৰ:\n%s\n"</string>
+<string name="install_done_title">"ক্ৰেডেঞ্চিয়েল স্থাপন কৰা হৈছে"</string>
+<string name="install_done">"<xliff:g id="name">%1$s</xliff:g> Wi-Fiত সংৰক্ষণ কৰা নেটৱৰ্কলৈ ক্ৰেডেঞ্চিয়েল যোগ কৰা হৈছে&amp;#46;"</string>
+<string name="done_label">"হৈ গৈছে"</string>
+<string name="wifi_installer_detail">"<xliff:g id="name">%1$s</xliff:g>&amp;#46;ৰ মাধ্যমত উপলব্ধ হোৱা নেটৱৰ্কলৈ সংযোগ কৰিবলৈ Wi-Fi ক্ৰেডেঞ্চিয়েল স্থাপন কৰক"</string>
+<string name="wifi_installer_download_error">"ডাউনলোড কৰা ফাইলৰ সমস্যা আছে আৰু স্থাপন কৰিব পৰা নাযায় &amp;#46; নিশ্চিত কৰক যে আপুনি সঠিক উৎসৰ পৰা ফাইল ডাউনলোড কৰিছিলe&amp;#46;"</string>
+<string name="wifi_installer_fail">"Wi-Fi ক্ৰেডেঞ্চিয়েল স্থাপন কৰিব নোৱাৰি&amp;#46; ফাইলটো পুনৰ ডাউনলোড কৰাৰ চেষ্টা কৰক&amp;#46;"</string>
+<string name="wifi_installer_fail_no_wifi_title">"ইনষ্টলেচন বাতিল কৰা হ\'ল"</string>
+<string name="wifi_installer_fail_title">"ইনষ্টল কৰিব নোৱাৰি"</string>
+<string name="wifi_installer_fail_no_wifi">"Wi-Fi অন কৰক আৰু পুনৰ চেষ্টা কৰক&amp;#46;"</string>
+</resources>

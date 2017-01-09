@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="labelCF">"來電轉接"</string>
+    <string name="sum_cfu_enabled_indicator">"轉接所有來電"</string>
+    <!-- SPRD: Add for dealing with SS notification @{ -->
+    <string name="CallForwarded">"呼叫轉接"</string>
+    <string name="CallWaiting">"呼叫等待中"</string>
+    <string name="IncomingCallForwarded">"另一通來電被轉接"</string>
+    <string name="OutCallBarred">"禁止呼出"</string>
+    <string name="InCallBarred">"禁止呼入"</string>
+    <string name="ActiveUnconCf">"無條件來電轉接啟動"</string>
+    <string name="ForwardedCall">"轉移呼叫"</string>
+    <string name="CallHold">"呼叫被保持"</string>
+    <string name="CallRetrieved">"呼叫被啟動"</string>
+    <string name="ActiveConCf">"有條件來電轉接啟動"</string>
+    <!-- SPRD: @} -->
+    <!-- SPRD: 474686 Feature for Uplmn @{ -->
+    <string name="uplmn_setting_title">偏好設定</string>
+    <!-- @} -->
+    <!-- SPRD: fix bug 611697 @{ -->
+    <string name="network_not_on">"當前數據連接處於關閉狀態，是否設定數據連接？"</string>
+    <string name="network_unknown">未知</string>
+    <string name="network_inhibit">禁用</string>
+    <!-- @}  -->
+    <!--SPRD: LND/SDN feature. @{ -->
+    <!--SPRD: Modify for Bug 605874 @{ -->
+    <string name="lnd_list">LND 清單</string>
+    <string name="sdn_list">SDN 清單</string>
+    <!-- @} -->
+    <string-array name="enabled_networks_except_lte_choices">
+        <item>僅GSM</item>
+        <item>僅WCDMA</item>
+        <item>WCDMA/GSM</item>
+    </string-array>
+    <string-array name="lte_preferred_networks_choices_for_common">
+        <item>4G/3G/2G多模式</item>
+        <item>僅3G/2G模式</item>
+        <item>僅2G模式</item>
+    </string-array>
+    <!-- IP Dial Setting -->
+    <string name="ip_dial_menu">"IP 撥號"</string>
+    <string name="ip_dialing_title">"IP 撥號"</string>
+    <string name="ip_dialing_list_title">"IP 撥號列表"</string>
+    <string name="ip_no_number">"缺少IP前綴"</string>
+    <string name="ip_no_number_msg">"請設置IP號碼"</string>
+    <string name="ip_add_number_str">"添加號碼"</string>
+    <string name="ip_number_empty_loading">"IP 撥號列表爲空。"</string>
+    <string name="remove">"刪除"</string>
+    <string name="ip_number_is_too_long">"IP撥號號碼不能大於20位。"</string>
+    <string name="add_ip_number_str">"新建"</string>
+    <string name="ip_dialing_num_error">"最多只能保存10個IP號碼。"</string>
+    <string name="ip_dialing_num_repeat">"號碼重複，添加失敗。"</string>
+    <string name="menu_selected_all">"全選"</string>
+    <string name="menu_select_none">"取消全選"</string>
+    <string name="doneButton">"完成"</string>
+    <string name="cancel">"取消"</string>
+    <!-- @} -->
+    <string name="network_wcdma_only">僅WCDMA</string>
+    <string name="network_wcdma_pref">WCDMA/GSM</string>
+    <string name="network_3g_2g">僅3G/2G模式</string>
+    <string name="network_gsm_only">僅GSM</string>
+    <string name="network_2g_only">僅2G模式</string>
+    <string name="network_lte_pref">4G/3G/2G多模式</string>
+    <string name="network_lte_only">僅LTE</string>
+    <string name="network_registration_fail_title">註冊網絡失敗</string>
+    <string name="network_registration_fail">註冊網絡失敗，是否開啟自動選擇運營商功能？</string>
+    <!-- SPRD: add for bug 626360 phone crash in non-system-user mode after input PUK code -->
+    <string name="outgoing_call_not_allowed_user_restriction">"设备机主仅允许拨打紧急呼救电话。"</string>
+    <!-- @} -->
+</resources>

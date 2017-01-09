@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/select_path_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:singleLine="true"
+            android:text="@string/select_storage_back"
+            android:textColor="@color/btn_materiallight" />
+
+        <Button
+            android:id="@+id/select_path_internal"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:singleLine="true"
+            android:text="@string/select_storage_internal"
+            android:textColor="@color/btn_materiallight" />
+
+        <Button
+            android:id="@+id/select_path_sdcard"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:singleLine="true"
+            android:text="@string/select_storage_sdcard"
+            android:textColor="@color/btn_materiallight" />
+
+        <Button
+            android:id="@+id/select_path_otg"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:singleLine="true"
+            android:text="@string/select_storage_otg"
+            android:textColor="@color/btn_materiallight" />
+
+</LinearLayout>

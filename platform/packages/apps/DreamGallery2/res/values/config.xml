@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- Camera app resources that may need to be customized
+     for different hardware or product builds. -->
+<resources>
+    <!-- Maximum recording length in milliseconds. 0 means unlimited. -->
+    <integer name="max_video_recording_length">0</integer>
+    <!-- @} -->
+    <!-- SPRD: bug 474646 Add Drm feature @{ -->
+    <string name="feature_drm_video" translatable="false">com.sprd.drmvideoplugin.AddonVideoDrmUtils</string>
+    <!-- @} -->
+    <!-- SPRD: Drm feature. -->
+    <string name="feature_drm_galleryappimpl" translatable="false">com.sprd.drmgalleryplugin.app.AddonGalleryAppImpl</string>
+    <string name="feature_drm_menuexecutor" translatable="false">com.sprd.drmgalleryplugin.ui.AddonMenuExecutor</string>
+    <string name="feature_drm_localMedia" translatable="false">com.sprd.drmgalleryplugin.data.AddonLocalMediaItem</string>
+    <string name="feature_drm_somepage" translatable="false">com.sprd.drmgalleryplugin.app.AddonSomePage</string>
+    <string name="feature_drm_slotrenderer" translatable="false">com.sprd.drmgalleryplugin.ui.AddonSlotRenderer</string>
+    <string name="feature_drm_galleryactivity" translatable="false">com.sprd.drmgalleryplugin.app.AddonGalleryActivity</string>
+    <string name="feature_drm_gifDecoder" translatable="false">com.sprd.drmgalleryplugin.gif.AddonGifDecoder</string>
+    <string name="feature_drm_photopage" translatable="false">com.sprd.drmgalleryplugin.app.AddonPhotoPage</string>
+    <string name="feature_drm_photoview" translatable="false">com.sprd.drmgalleryplugin.ui.AddonPhotoView</string>
+    <string name="feature_drm_UriImage" translatable="false">com.sprd.drmgalleryplugin.data.AddonUriImageItem</string>
+    <!-- SPRD Drm feature. -->
+    <string name="feature_cmcc_video" translatable="false">com.sprd.cmccvideoplugin.AddonVideoCmccUtils</string>
+</resources>

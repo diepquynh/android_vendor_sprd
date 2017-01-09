@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/preferenceBackgroundColor"
+    android:key="voiceTrigger_settings">
+
+    <!-- App notifications -->
+    <PreferenceScreen
+        android:key="voicetrigger_words_settings"
+        android:title="@string/audio_voicetrigger_words">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.voicetrigger.ChooseWakeUpWordActivity"
+            android:targetPackage="com.sprd.voicetrigger" />
+    </PreferenceScreen>
+
+    <!-- Notification access -->
+    <PreferenceScreen
+        android:key="voicetrigger_sensibility_settings"
+        android:title="@string/audio_voicetrigger_sensibility">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.voicetrigger.SensibilityActivity"
+            android:targetPackage="com.sprd.voicetrigger" />
+    </PreferenceScreen>
+
+    <!-- Notification access
+    <PreferenceScreen
+        android:key="voicetrigger_support_fun"
+        android:title="@string/audio_voicetrigger_support_fun">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.voicetrigger.SupportActivity"
+            android:targetPackage="com.sprd.voicetrigger" />
+    </PreferenceScreen>
+    -->
+    <!-- Notification access -->
+    <PreferenceScreen
+        android:key="voicetrigger_connect_headset"
+        android:title="@string/audio_voicetrigger_connect_headset">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.voicetrigger.HeadsetActivity"
+            android:targetPackage="com.sprd.voicetrigger" />
+    </PreferenceScreen>
+
+    <!-- Notification access -->
+    <PreferenceScreen
+        android:key="voicetrigger_language_choose"
+        android:summary="@string/audio_voicetrigger_subtitle_language_choose"
+        android:title="@string/audio_voicetrigger_language_choose">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.voicetrigger.LanguageChooseActivity"
+            android:targetPackage="com.sprd.voicetrigger" />
+    </PreferenceScreen>
+    <!-- Notification access -->
+    <PreferenceScreen
+        android:key="voicetrigger_help"
+        android:summary="@string/audio_voicetrigger_subtitle_help"
+        android:title="@string/audio_voicetrigger_help">
+        <!--         <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetClass="com.sprd.voicetrigger.HelpActivity"
+                    android:targetPackage="com.sprd.voicetrigger" /> -->
+    </PreferenceScreen>
+
+</PreferenceScreen>

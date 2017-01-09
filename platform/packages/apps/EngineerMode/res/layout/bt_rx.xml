@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/tablelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+
+        <!-- Channel -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_rx_channel"
+                android:textSize="18dip" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/bt_rx_channel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:digits="1234567890"
+                android:hint="0~78"
+                android:maxLength="2"
+                android:singleLine="true" >
+            </EditText>
+        </TableRow>
+
+        <!-- pac_type -->
+
+        <TableRow android:layout_marginTop="10dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_rx_pac_type"
+                android:textSize="18dip" >
+            </TextView>
+            
+            <Spinner
+                    android:id="@+id/bt_rx_pac_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip" >
+            </Spinner>
+        </TableRow>
+
+        <!-- rx_gain -->
+
+        <TableRow android:layout_marginTop="10dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_rx_gain"
+                android:textSize="18dip" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/bt_rx_gain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:digits="1234567890"
+                android:hint="0~32"
+                android:maxLength="2"
+                android:singleLine="true" >
+            </EditText>
+        </TableRow>
+
+        <!-- addr -->
+
+        <TableRow android:layout_marginTop="10dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_rx_addr"
+                android:textSize="18dip" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/bt_rx_addr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:digits="1234567890abcdefABCDEF"
+                android:maxLength="12"
+                android:hint="input 12 bits addr"
+                android:singleLine="true" >
+            </EditText>
+        </TableRow>
+    </TableLayout>
+
+    <!-- Result -->
+    <LinearLayout
+        android:id="@+id/tablelayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tablelayout"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bt_rx_time"
+            android:textSize="18dip" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bt_rx_rssi"
+            android:textSize="18dip" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bt_rx_per"
+            android:textSize="18dip" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bt_rx_ber"
+            android:textSize="18dip" >
+        </TextView>
+    </LinearLayout>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/controller_layout"
+        android:layout_below="@id/tablelayout1"
+        android:fillViewport="true" >
+
+        <ListView
+            android:id="@+id/rx_result_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </HorizontalScrollView>
+<LinearLayout
+        android:id="@+id/controller_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center" >
+        
+        <Button
+            android:id="@+id/bt_rx_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bt_start"
+            android:textSize="12dip" >
+        </Button>
+
+        <Button
+            android:id="@+id/bt_rx_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bt_rx_read"
+            android:textSize="12dip" >
+        </Button>
+
+        <Button
+            android:id="@+id/bt_rx_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bt_rx_auto"
+            android:textSize="12dip" >
+        </Button>
+
+        <Button
+            android:id="@+id/bt_rx_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bt_rx_clear"
+            android:textSize="12dip" >
+        </Button>
+
+        <Button
+            android:id="@+id/bt_rx_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bt_stop"
+            android:textSize="12dip" >
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"Zpuštění hlasu"</string>
+<string name="audio_voicetrigger_words">"Slovo probuzení"</string>
+<string name="audio_voicetrigger_sensibility">"Citlivost rozpoznávání"</string>
+<string name="audio_voicetrigger_support_fun">"Popis podporních funkcí"</string>
+<string name="audio_voicetrigger_connect_headset">"Připojit sluchátka pro používání"</string>
+<string name="audio_voicetrigger_language_choose">"Zvolit jazyk hlasových příkazů"</string>
+<string name="audio_voicetrigger_help">"Nápověda"</string>
+<string name="audio_voicetrigger_subtitle_wakeup_default">"Kontext probouzejících slov"</string>
+<string name="audio_voicetrigger_subtitle_wakeup_userdefine">"Uživatelsky definováno"</string>
+<string name="audio_voicetrigger_subtitle_language_choose">"Nastavit jazyk hlasových příkazů"</string>
+<string name="audio_voicetrigger_subtitle_help">"Slovo probuzení běžného slyšení"</string>
+<string name="voicetrigger_connect_headset_content">"Když je připojeno k sluchátku s kabelem anebo Bluetooth sluchátku, \ pořád bude moct přebudit telefon a používat ho normálně, \ ale váš hlas se sbírá prostřednictvím mikrofonu telefonu, \ a mikrofon sluchátek nemůže probudit telefon"</string>
+<string name="voicetrigger_wakeup_title">"Zapsat slová probuzení"</string>
+<string name="voicetrigger_input_title">"Nahrávání slov probuzení"</string>
+<string name="voicetrigger_describe">"Když telefon není poblíž těla anebo je nepříjemné ho podat, takové jako hovor, u poslouchání muziky atd. můžete použít slova probuzení pro probuzení vašeho zařízení a udělat něco s vaším hlasem."</string>
+<string name="change_language_progress_dialog_message">"Přepínání jazyku, prosím, čekejte…"</string>
+<string name="info_press_to_start">"klikněte na tlačítko pro nahrání hlasu"</string>
+<string name="info_default">"Prosím, mluvte na tichém místě"</string>
+<string name="info_recording">"Nahrávání…"</string>
+<string name="info_please_wait">"Prosím, čekejte…"</string>
+<string name="info_talk_louder">"Mluvte hlasitěji"</string>
+<string name="info_pause_before">"Pauza "1-2 vteřiny před mluvením""</string>
+<string name="info_too_noisy">"Příliš hlučné. Přesuňte na tichší místo"</string>
+<string name="info_talk_softer">"Mluvte jemněji"</string>
+<string name="info_bad_recording">"Nesprávné nahrávání"</string>
+<string name="info_talk_slower">"Mluvte pomaleji"</string>
+<string name="info_too_many_sound">"Příliš mnoho zvukových opakování"</string>
+<string name="info_check_rec">"Probíhá generování spouštěče. Prosím, čekejte…"</string>
+<string name="info_problems_in_rec">"Problémy v jedném anebo více nahrávánívh. Musíte nahrát znovu"</string>
+<string name="generate_voicetrigger_words_success">"Vykonáno generování SpouštěčeHlasu."</string>
+<string name="voicetrigger_wakeup_item_1">"%1$s (výchozí)"</string>
+<string name="voicetrigger_wakeup_item_2">"definováno uživatelem"</string>
+<string name="prompting_user_defined_text">"obsahy obyčejních slov probuzení"</string>
+<string name="prompting_text_default">"Prosím, řekněte：%1$s"</string>
+<string name="prompting_text_1">"Prosím, řekněte：%1$s znovu"</string>
+<string name="prompting_text_2">"Dokončeno"</string>
+<string name="error_app_internal">"Vnitřní chyba aplikace."</string>
+<string name="dialog_dismiss">"Zavřít"</string>
+<string name="error_permissions">"Aplikace nemá důležitá oprávnění potřebná ke spuštění. Zkontrolujte nastavení oprávnění."</string>
+<string name="dialog_title">Varování</string>
+<string name="dialog_firstuse_info">"jste první, kto používá tuto funkci, měli by jste nastavit výchozí hlas pro probuzení tohto zařízení"</string>
+<string name="no_wakeup_words_recoded">"nenahráli jste uživatelem definované slova probuzení"</string>
+<string name="dialog_title_notice">"Upozornění"</string>
+<string name="dialog_change_language_first">"je zkontrolováno, že jste nenahráli hlas slov probuzení současného jazyka,\měli by jste nahrát nový hlas pro probuzení zařízení, chcete pokračovat ?"</string>
+<string name="same_application_running">"Nahrávací zařízení používá jiný program,prosím, zavřete tento program!"</string>
+<string name="is_not_systemuser">"Právě není uživatel systému, nedá se použít hlasové probuzení."</string>
+<string-array name="hello_trigger_text_title_array">
+<item>"Dobrý den, mohu vám pomoct ?"</item>
+<item>"Prosím, pokračujte, poslouchám… "</item>
+<item>"Můžete se mně zeptat takhle: "</item>
+</string-array>
+<string name="support_find_phone">"Najíte telefon"</string>
+<string name="support_find_phone_summary">"Křičet nahlas：\' [Slova probuzení] + Kde jste?\', telefon vám odpoví přehráním obyčejných vyzváněcích tónů."</string>
+<string name="support_call_phone">"Vykonejte telefonní hovory"</string>
+<string name="support_call_phone_summary">"Řekněte telefonu：\' [Slova probuzení] + Zavolat Xiao Wang\'，zavolá někomu."</string>
+<string name="support_send_mms">"Odeslat zprávy"</string>
+<string name="support_send_mms_summary">"Řekněte telefonu：\' [Slova probuzení] + Odeslat textovou zorávu Xiao Wang\'，otevře aplikaci odesílání zprávit pro odeslání zprávy."</string>
+<string name="support_camera">"Fotografovat"</string>
+<string name="support_camera_summary">"Řekněte telefonu：\' [Slova probuzení] + Udělej mi fotku\'，otevře fotoaparát a přímo odfotografuje."</string>
+<string name="support_open_music">"Přehrát hudbu"</string>
+<string name="support_open_music_summary">"Řekněte telefonu:\' [Slova probuzení] + Přehrát Wang Fei\'s \"Hong Dou\"\'，otevře přehrávač hudby a přehrá píseň."</string>
+<string name="support_open_app">"Spustit aplikace"</string>
+<string name="support_open_app_summary">"Řekněte telefonu：\' [Slova probuzení] + Otevřít WeChat\'，telefony spustí aplikaci WeChat."</string>
+<string name="find_phone_content">"Můžete se mně zeptat：\n\n Kde jste\n Slyšíte mně\n Odpovězte mi"</string>
+<string name="call_phone_content">"Můžete se mně zeptat：\n\n Zavolat Xiao Wang\n Zavolat Xiaomin zpět\n Zavolat službu zákazníkům China Mobile\n Vytočit 114"</string>
+<string name="send_mms_content">"Můžete se mně zeptat：\n\n Odeslat Xiao Wangovi textovou zprávu\n Odeslat textovou zprávu Xiaomin\n Odpovědět textovou zprávou mámě\n Odeslat dobu schůzky Xiaoming prostřednictvím SMS"</string>
+<string name="open_camera_content">"Můžete se mně zeptat：\n\n Udělejte mi fotku\n Odfotografujte scenerii\n Odfotografujte značku."</string>
+<string name="open_music_content">"Můžete se mně zeptat：\n\n Přehrát Wang Fei\'s \"Hong Dou\"\n Přehrát píseň náhodně\n Chci poslouchat "Pao Mo"\n Přehrát píseň od Zhang Xueyou"</string>
+<string name="open_app_content">"Můžete se mně zeptat：\n\n Otevřít WeChat\n Stáhnout "kompas" aplikaci\n Spustit notepad"</string>
+<string name="default_trigger">"Spouštěč: Dobrý den Blue Genie v17 (US angličtina)"</string>
+<string name="default_command">"Příkaz: Fitness v2.2 (US angličtina)"</string>
+<string name="default_command_sen">"Senzitivita: Normální"</string>
+<string name="trigger_prompt">"Pozdrav se Blue Genie"</string>
+<string name="command_prompt1">""Nyní řekněte jedno z\nnásledujících…"</string>
+<string name="command_prompt2">""Nyní řekněte příkaz"</string>
+<string name="cmd_step_count">"Počet kroků"</string>
+<string name="cmd_calories">"Kalorie"</string>
+<string name="cmd_floors">"Poschodí"</string>
+<string name="cmd_distance">"Vzdálenost"</string>
+<string name="cmd_active_minutes">"Aktivní minuty"</string>
+<string name="cmd_sleep_pattern">"Vzor spánku"</string>
+<string name="cmd_outside_temperature">"Vnější teplota"</string>
+<string name="cmd_outside_humidity">"Vnější vlhkost"</string>
+<string name="cmd_what_time_is_it">"Kolik je hodin"</string>
+<string name="cmd_heart_rate">"Srdeční tep"</string>
+<string name="resp_step_count">"Počet kroků = 4306"</string>
+<string name="resp_calories">"Dnes spálené kalorie = 1445"</string>
+<string name="resp_floors">"Dnes prošlých poschodí = 8"</string>
+<string name="resp_distance">"Dnešní vzdálenost = 2,52 mil"</string>
+<string name="resp_active_minutes">"Dnes aktivních minut = 17"</string>
+<string name="resp_sleep_pattern">"Dnes hluboký spánek = 3h 25m"</string>
+<string name="resp_outside_temperature">"Vnější tepl. = 74 F"</string>
+<string name="resp_outside_humidity">"Vnější vlhkost = 41 %"</string>
+<string name="resp_what_time_is_it">"Současný čas ="</string>
+<string name="resp_heart_rate">"Srdeční tep = 74 bpm"</string>
+<string name="time_left">"Zbývající čas: X s"</string>
+<string name="language_changed_success">"jazyk změněn úspěšně!"</string>
+<string name="save_file_to_device_error">"Přepnutí slov probuzení se nepovedlo, prosím, zkuste znovu později!"</string>
+<string name="language_changed_failed">"změna jazyka se nepovedla, prosím, zkuste znovu později"</string>
+<string name="language_change_has_canceled">"se zrušilo, můžete taky použít staré jazyky"</string>
+<string name="finished">"Dokončit"</string>
+<string name="sensibility_text">"Nastavit senzitivitu slova probuzenív rozpoznání \n \ Když je senzitivita nastavená výš, vyšší rychlost probuzení\n \ Když je senzitivita nastavena níž, nižší rychlost probuzení"</string>
+<string name="update_phrass_success">"Fráze aktualizace úspěšné"</string>
+</resources>

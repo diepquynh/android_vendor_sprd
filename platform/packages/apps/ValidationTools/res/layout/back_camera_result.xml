@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <RelativeLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+        <com.sprd.validationtools.itemstest.PreviewFrameLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" >
+            <TextureView
+                android:id="@+id/surfaceView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible" />
+        </com.sprd.validationtools.itemstest.PreviewFrameLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dip"
+            android:layout_alignParentBottom="true"
+            android:background="#a0000000"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp" >
+
+            <Button
+                android:id="@+id/start_take_picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/camera_btn_selector_1" >
+            </Button>
+
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/light_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/light_msg_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</FrameLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sprd.cucc.plugins"
+    coreApp="true"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <application>
+        <meta-data
+            android:name="isFeatureAddon"
+            android:value="true" />
+
+        <meta-data
+            android:name="targetPackages_CUCCPolicy"
+            android:value="com.android.phone" />
+        <meta-data
+            android:name="targetPackages_StkCuccOperator"
+            android:value="com.android.stk" />
+        <meta-data
+            android:name="targetPackages_SprdCuccAppSortAddon"
+            android:value="com.android.launcher3" />
+        <meta-data
+            android:name="targetPackages_CallerAddressPlugin"
+            android:value="com.android.dialer" />
+        <meta-data
+            android:name="targetPackages_InCallUICUCCPlugin"
+            android:value="com.android.dialer" />
+        <meta-data
+            android:name="targetPackages_TeleServiceSupportCUCC"
+            android:value="com.sprd.phone" />
+        <meta-data
+            android:name="targetPackages_CUCCApnPlugin"
+            android:value="com.android.settings" />
+        <meta-data
+            android:name="targetPackages_KeyguardSupportCUCC"
+            android:value="com.sprd.keyguard;com.android.keyguard;com.android.systemui" />
+        <meta-data
+            android:name="targetPackages_SprdCuccAddon"
+            android:value="com.android.browser" />
+        <meta-data
+            android:name="targetPackages_CuccUsimNotifier"
+            android:value="com.neusoft.td.android.wo116114;com.infinit.wostore.ui;com.asiainfo.android;com.sinovatech.unicom.ui;cn.com.wo" />
+        <meta-data
+            android:name="targetPackages_LogRejectedCalls"
+            android:value="com.android.server.telecom" />
+
+        <meta-data
+            android:name="featureClassNames_CUCCPolicy"
+            android:value="plugin.sprd.operatorpolicy.OperatorPolicyFactory" />
+        <meta-data
+            android:name="featureClassNames_StkCuccOperator"
+            android:value="plugin.sprd.stkcuccoperator.StkCuccOperator" />
+        <meta-data
+            android:name="featureClassNames_SprdCuccAppSortAddon"
+            android:value="addon.sprd.launcher3.appsort.SprdAppSortAddon" />
+        <meta-data
+            android:name="featureClassNames_CallerAddressPlugin"
+            android:value="com.sprd.incallui.callerAddressPlugin.CallerAddressPlugin" />
+        <meta-data
+            android:name="featureClassNames_InCallUICUCCPlugin"
+            android:value="com.sprd.incallui.inCallUICuccPlugin.InCallUICuccPlugin" />
+        <meta-data
+            android:name="featureClassNames_CustomizeCuccApp"
+            android:value="addon.sprd.launcher3.cucc.SprdCuccWorkspaceAddon" />
+        <meta-data
+            android:name="featureClassNames_TeleServiceSupportCUCC"
+            android:value="plugin.sprd.teleservicesupportoperator.TeleServiceSupportOperator" />
+        <meta-data
+            android:name="featureClassNames_CUCCApnPlugin"
+            android:value="plugin.sprd.apneditor.ApnEditorPlugin" />
+        <meta-data
+            android:name="featureClassNames_KeyguardSupportCUCC"
+            android:value="plugin.sprd.keyguardTelephonyAddon.KeyguardFeaturesForOperator" />
+        <meta-data
+            android:name="featureClassNames_SprdCuccAddon"
+            android:value="addon.sprd.browser.SprdBrowserBookmarkAddon;
+                           addon.sprd.browser.SprdBrowserUserAgentAddon;
+                           addon.sprd.browser.SprdBrowserSearchEngineAddon;
+                           addon.sprd.browser.SprdBrowserHomePageAddon" />
+        <meta-data
+            android:name="featureClassNames_CuccUsimNotifier"
+            android:value="plugin.sprd.usim.UsimNotifierImpl" />
+        <meta-data
+            android:name="featureClassNames_LogRejectedCalls"
+            android:value="com.sprd.telecom.logRejectedCallsPlugin.LogRejectedCallsPlugin" />
+
+    </application>
+
+</manifest>

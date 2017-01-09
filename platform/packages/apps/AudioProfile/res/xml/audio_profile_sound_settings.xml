@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/audio_profiles"
+        android:key="sound_settings"
+        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory
+        android:key="vibrate_category_feedback"
+        android:title="@string/vibrate_category_feedback_title">
+    <com.sprd.audioprofile.AudioProfileCheckBoxPrefrence
+        android:key="vibrate"
+        android:title="@string/vibrate_title"
+        android:summary="@string/vibrate_summary"
+        android:persistent="false" />
+    <com.sprd.audioprofile.AudioProfileCheckBoxPrefrence
+        android:key="vibrate_msg"
+        android:title="@string/vibrate_msg_title"
+        android:summary="@string/vibrate_msg_summary"
+        android:persistent="false" />
+    </PreferenceCategory>
+
+    <com.sprd.audioprofile.AudioProfileRingerVolumePreference
+            android:key="ring_volume"
+            android:title="@string/all_volume_title"
+            android:summary="@string/ring_volume_summary"
+            android:dialogTitle="@string/all_volume_title"
+            android:persistent="false"
+            android:streamType="ring" />
+    <Preference
+        android:key="rename_profile"
+        android:title="@string/rename_profile"
+        />
+
+    <PreferenceCategory
+            android:key="category_calls_and_notification"
+            android:title="@string/sound_category_calls_and_notification_title"/>
+
+    <!-- Do not nest these, or removals in code will break -->
+    <PreferenceCategory
+            android:key="sound_category_notification"
+            android:title="@string/sound_category_notification_title"/>
+    <com.sprd.audioprofile.AudioProfileRingtonePreference
+            android:key="notification_sound"
+            android:title="@string/notification_sound_title"
+            android:summary="@string/notification_sound_summary"
+            android:dialogTitle="@string/notification_sound_dialog_title"
+            android:persistent="false"
+            android:ringtoneType="notification" />
+
+    <PreferenceCategory
+            android:key="sound_category_feedback"
+            android:title="@string/sound_category_feedback_title"/>
+
+    <!-- Do not nest these, or removals in code will break -->
+    <com.sprd.audioprofile.AudioProfileCheckBoxPrefrence
+            android:key="dtmf_tone"
+            android:title="@string/dial_pad_tones_title"
+            android:defaultValue="true" />
+
+    <com.sprd.audioprofile.AudioProfileCheckBoxPrefrence
+        android:key="lock_sounds"
+        android:title="@string/screen_locking_sounds_title"
+        android:defaultValue="true" />
+
+    <!-- Charging sounds -->
+    <!-- <com.sprd.audioprofile.AudioProfileCheckBoxPrefrence
+            android:key="charging_sounds"
+            android:title="@string/charging_sounds_title"
+            android:defaultValue="true" /> -->
+
+    <com.sprd.audioprofile.AudioProfileCheckBoxPrefrence
+            android:key="sound_effects"
+            android:title="@string/sound_effects_enable_title"
+            android:defaultValue="true" />
+
+    <com.sprd.audioprofile.AudioProfileCheckBoxPrefrence
+            android:key="haptic_feedback"
+            android:title="@string/haptic_feedback_enable_title"
+            android:defaultValue="true" />
+</PreferenceScreen>

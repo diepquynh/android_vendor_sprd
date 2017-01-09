@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD: add for simlock @{ -->
+    <string name="one_key_locked_notification">This type is UNLOCKED, Do you want to lock it?</string>
+    <string name="one_key_unlocked_notification">This type is LOCKED, Do you want to unlock it?</string>
+    <string name="one_key_unlocked">UNLOCK</string>
+    <string name="one_key_locked">LOCK</string>
+    <string name="one_key_operation_success">Operation successful, need reboot now.</string>
+    <string name="one_key_operation_unsuccess">Operation unsuccessful,you can try again!</string>
+    <string name="one_key_query_unsuccess">Query simlock type failed!</string>
+    <string name="one_key_simlock_setting">SIMLOCK Setting</string>
+    <string-array name="one_key_sim_lock_type">
+        <item>Network Lock</item>
+        <item>NetworkSubset Lock</item>
+        <item>ServiceProvider Lock</item>
+        <item>Corporate Lock</item>
+        <item>SIM Lock</item>
+    </string-array>
+    <string name="sim_lock_none">"No SIM been locked."</string>
+    <string name="sim_lock_try_later">"Please try it later."</string>
+    <string name="simlock_unlocked">"Simlock has been unlocked."</string>
+    <!-- @} -->
+
+    <!-- SPRD: add for vt resolution choices @{ -->
+    <string name="vt_resolution_setting">Select the video resolution</string>
+    <string-array name="vt_resolution_choices">
+        <item>VGA_15</item>
+        <item>VGA_30</item>
+        <item>QVGA_15</item>
+        <item>QVGA_30</item>
+        <item>CIF</item>
+        <item>QCIF</item>
+    </string-array>
+    <string-array name="vt_resolution_choices_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+    </string-array>
+    <!-- @} -->
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010,2011 Thundersoft Corporation
+    All rights Reserved
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation = "vertical"
+    android:gravity = "center"
+    >
+    <ImageView
+        android:id = "@+id/icon_selection"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop="-4dp"
+        />
+    <TextView
+        android:id = "@+id/text_desc"
+        android:layout_below = "@id/icon_selection"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:textColor="@color/edit_menu_item_color"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="11dip"
+        android:paddingBottom="2dip"
+        android:layout_marginTop="-6dp"
+        android:singleLine = "true"
+        android:ellipsize = "end"
+        />
+</LinearLayout>

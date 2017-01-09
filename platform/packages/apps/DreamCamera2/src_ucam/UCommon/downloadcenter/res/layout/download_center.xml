@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010,2011 Thundersoft Corporation
+    All rights Reserved
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background = "@android:color/black" >
+    <RelativeLayout android:id="@+id/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/edit_label_topbar_bg">
+        <TextView android:id="@+id/download_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dip"
+            android:padding="5dip"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <HorizontalScrollView
+        android:id="@+id/download_center_tab_scroller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_layout"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/layout_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:scrollbars="horizontal" >
+
+            <GridView
+                android:id="@+id/gridview_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fadingEdge="none"
+                android:gravity="center"
+                android:horizontalSpacing="1dip"
+                android:listSelector="@drawable/download_fun_grid_selector"
+                android:scrollbars="horizontal" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/arrow_left_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/download_center_tab_scroller"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@id/download_center_tab_scroller"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="1dip"
+        android:src="@drawable/download_left_arrow_tips"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/arrow_right_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/download_center_tab_scroller"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/download_center_tab_scroller"
+        android:layout_gravity="center_vertical"
+        android:paddingRight="1dip"
+        android:src="@drawable/download_right_arrow_tips"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/footer_three_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <include layout="@layout/download_bottom_control" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/thumbnail_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/footer_three_buttons"
+        android:layout_below="@id/download_center_tab_scroller"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/layout_thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <GridView
+                android:id="@+id/grid_thumbnail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:fadingEdge="none"
+                android:focusable="true"
+                android:gravity="center"
+                android:horizontalSpacing="10dip"
+                android:numColumns="4"
+                android:verticalSpacing="10dip" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/arrow_left"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="1dip"
+        android:src="@drawable/download_left_arrow_tips"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/arrow_right"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:paddingRight="1dip"
+        android:src="@drawable/download_right_arrow_tips"
+        android:visibility="invisible" />
+
+</RelativeLayout>

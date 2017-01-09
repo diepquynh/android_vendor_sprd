@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"ضبط کننده صدا"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"ضبط پیام شما"</string>
+    <string name="message_recorded" msgid="381539460921872233">"پیام ضبط شد"</string>
+    <string name="review_message" msgid="201616012287839474">"بازبینی پیام"</string>
+    <string name="recording" msgid="4426791467211376099">"در حال ضبط"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"ضبط متوقف شد"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"ذخیره‌سازی پر است"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"به حداکثر طول مجاز رسیده‌اید"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"‏اتصال حافظهٔ USB"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"‏یک کارت SD وارد کنید"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> دقیقه موجود است"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> ثانیه موجود"</string>
+    <string name="accept" msgid="1888285552128743656">"انجام شد"</string>
+    <string name="discard" msgid="761613433029406319">"صرف نظر"</string>
+    <string name="button_ok" msgid="3004911343723076226">"تأیید"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"موارد ضبط شده شما"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"موارد ضبط شده صوتی"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"موارد ضبط شده من"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"‏دسترسی به حافظهٔ USB ممکن نیست."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"‏دسترسی به کارت SD ممکن نیست."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"خطای برنامه داخلی."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"صدای ضبط شده ذخیره نشد."</string>
+    <string name="recording_save">"قطعه ضبط شده ذخیره شد"</string>
+     <string name="recording_nosave">"مورد ضبط شده ثبت نشد"</string>
+     <string name="phone_message">"قادر به روشن کردن ضبط کننده صدا در زمان مکالمه نمی باشد."</string>
+     <string name="min_and_time_available">"حدود <xliff:g id="minutes">%d</xliff:g> دقیقه و <xliff:g id="seconds">%d</xliff:g> ثانیه مانده است"</string>
+     <string name="press_record">"ضبط را فشار دهید"</string>
+     <string name="save">"ذخیره"</string>
+     <string name="select_file_type">"نوع فایل ضبط را انتخاب کنید"</string>
+     <string name="record_amr">"نوع amr (کیفیت پایین)"</string>
+     <string name="record_3gpp">"نوع 3gpp (کیفیت بالا)"</string>
+     <string name="button_cancel">انصراف</string>
+     <string name="path_save">"مسیر پیش فرض ذخیره شد"</string>
+     <string name="path_nosave">"مسیر پیش فرض ذخیره نشد"</string>
+     <string name="path_default">"مسیر فعلی قابل نوشتن یا معتبر نیست، این مسیر، مسیر حافظه داخلی است"</string>
+     <string name="menu_set_save_path">"مسیر ثبت را انتخاب نمایید"</string>
+     <string name="back">"بازگشت.."</string>
+     <string name="path_label">"لطفاً مسیر ذخیره را انتخاب نمایید"</string>
+     <string name="pause">توقف</string>
+     <string name="storage_is_not_enough">"حافظه کافی نیست"</string>
+     <string name="menu_recording_file_list">"لیست فایل ضبط شده"</string>
+     <string name="recording_list_empty">لیست خالی</string>
+     <string name="menu_recording_list_select_all">انتخاب همه</string>
+     <string name="menu_recording_list_delete">حذف</string>
+     <string name="menu_recording_list_deselect_all">"لغو انتخاب"</string>
+     <string name="recording_file_delete_success">"مورد ضبط شده حذف شده"</string>
+     <string name="recording_file_database_failed">"فایل پایگاه داده حذف نشد"</string>
+     <string name="recording_file_delete_failed">"فایل ضبط شده حذف نشد"</string>
+     <string name="confirm_del">"آیا از حذف فایل ها اطمینان دارید؟"</string>
+     <string name="button_delete">حذف</string>
+     <string name="recording_file_delete_alert_title">حذف</string>
+     <string name="recording_file_delete_alert_message">مطمئن به حذف هستید %1$s ?</string>
+     <string name="recording_file_list">"لیست فایل ضبط شده"</string>
+     <string name="less_than_one_second">"1 ثانیه"</string>
+     <string name="is_scanning">اسکنر مدیا در حال اسکن نمودن است، لطفا صبر نمایید...</string>
+     <string name="emptylist">لیست خالی است</string>
+     <string name="choose_file">"لطفاً ضبطی را انتخاب کنید که می خواهید فایل های آن را حذف کنید!"</string>
+     <string name="error_path">"مسیر انتخابی شما وجود ندارد، لطفاً دوباره تنظیم کنید!"</string>
+     <string name="path_miss">"مسیر ذخیره شده وجود ندارد یا قابل دسترسی نیست!"</string>
+     <string name="low_memory">حافظه تلفن کافی نیست، ضبط متوقف می شود!</string>
+     <string name="record_error">"ضبط یک استثنا روی داده است!"</string>
+     <string name="play_error">"پخش کننده موسیقی غیرفعال شد، باز نمی شود!"</string>
+     <string name="dialog_title">"لطفآ انتخاب کنید"</string>
+     <string name="dialog_message">"موارد ضبط شده ذخیره شوند؟"</string>
+     <string name="same_application_running">"دستگاه ضبط توسط برنامه دیگری در حال استفاده است، لطفاً این برنامه را ببندید!"</string>
+     <string name="recording_time_short">زمان ضبط کردن کمتر از یک ثانیه ذخیره نمی شود</string>
+     <string name="file_path_button">"مسیر فایل"</string>
+     <string name="file_name">"نام فایل:"</string>
+     <string name="file_path">"مسیر فایل:"</string>
+     <string name="rename">نامگذاری مجدد</string>
+     <string name="rename_save">"موفقیت در نام گذاری"</string>
+     <string name="rename_nosave">نامگذاری مجدد انجام نگرفت</string>
+     <string name="filename_is_not_modified">"نام فایل تغییر داده نشد"</string>
+     <string name="duplicate_name">"نام فایل تکراری است"</string>
+     <string name="soundpicker_label">لطفاً فایل ذخیره را انتخاب کنید</string>
+     <string name="error_sdcard_path">"کارت SD وجود ندارد. مسیر ذخیره پیش فرض به حافظه داخلی تغییر کرد"</string>
+     <string name="input_length_overstep">"ورودی به نهایت طول رسید"</string>
+     <string name="filename_empty_error">"اسم فایل را نمی توان خالی گذاشت، نام اصلی را ذخیره کنید"</string>
+     <string name="please_choose_files">"لطفاً فایل ها را انتخاب کنید"</string>
+     <string name="selected_files_count">"<xliff:g id="COUNTS">%d</xliff:g>را انتخاب کرد"</string>
+     <string name="use_default_path">"بسته ذخیره شده وجود ندارد، از مسیر پیش فرض استفاده کنید"</string>
+     <string name="stroage_not_mounted">"حافظه قرار داده نشده است"</string>
+     <string name="special_char_exist">"از کاراکترهای خاص <xliff:g id="COUNTS">%s</xliff:g> پشتیبانی نمی شود"</string>
+     <string name="menu_select_more">بیشتر انتخاب کنید</string>
+     <string name="menu_select_type">"تنظیم نوع فایل"</string>
+     <string name="path_miss_nosave">"کسیر ذخیره شده وجود ندارد، ضبط ذخیره نشد!"</string>
+     <string name="dialog_dismiss">"رد کردن"</string>
+     <string name="error_permissions">"برنامه مجوزهای مهم مورد نیاز برای اجرا شدن را ندارد. لطفاً تنظیمات مجوزهایتان را بررسی کنید."</string>
+
+    <string name="internal_sdcard">"کارت SD داخلی"</string>
+     <string name="external_sdcard">"کارت SD خارجی"</string>
+    <string name="internal_storage">"حافظه داخلی"</string>
+     <string name="external_storage">حافظه خارجی</string>
+     <string name="set_as_ring">"تنظیم به عنوان زنگ تماس"</string>
+     <string name="read_file_path">"بررسی مسیر فایل"</string>
+     <string name="operate_share">اشتراک گذاری</string>
+     <string name="ringtone_title_sim1">"زنگ تماس تلفن برای سیم کارت 1"</string>
+     <string name="ringtone_title_sim2">"زنگ تماس SIM2"</string>
+     <string name="ringtone_menu_short">"استفاده به‌عنوان آهنگ زنگ"</string>
+     <string name="please_insert_sim_card">"لطفاً حداقل یک سیم کارت وارد کنید"</string>
+     <string name="ring_set_silent_vibrate">"حالت فعلی از زنگ تماس پیش فرض پشتیبانی نمی کند"</string>
+     <string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" به عنوان زنگ تماس سیم کارت 1 انتخاب شد."</string>
+     <string name="ringtone_set_sim2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" به عنوان زنگ تماس سیم کارت 2 انتخاب شد."</string>
+     <string name="ringtone_set">"\"<xliff:g id="NAME">%s</xliff:g>\" به‌عنوان آهنگ زنگ تنظیم می‌شود."</string>
+     <string name="ring_set_fail">متأسفانه این ترانه نواخته نمی شود، لطفاً ترانه دیگری را به عنوان آهنگ زنگ انتخاب کنید.</string>
+     <string name="tag_limit">"تعداد تگ‌ها به حداکثر تعداد رسیده است"</string>
+     <string name="no_allow_play_calling">"پخش آهنگ هنگام تماس (رادیو/ویدئو) مجاز نیست."</string>
+     <string name="playback_failed">"پخش‌کننده از این نوع فایل صوتی پشتیبانی نمی‌کند."</string>
+     <string name="tag">"نشان"</string>
+     <string name="previous_tag">"آخرین تگ"</string>
+     <string name="next_tag">"تگ بعدی"</string>
+     <string name="recording_play">"پخش مورد ضبط شده"</string>
+     <string name="clip_duration_tip">"ویرایش طول"</string>
+     <string name="record_setting">"تنظیمات ضبط"</string>
+     <string name="file_type">نوع فایل</string>
+     <string name="type_amr">"نوع amr"</string>
+     <string name="type_3gpp">"نوع 3gp"</string>
+     <string name="save_path">"مسیر ضبط"</string>
+     <string name="set_timer_recording">"تنظیم زمان ضبط"</string>
+     <string name="timer_recording_detail">"شروع ضبط در <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> به مدت <xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">"مشاهدهٔ جزئیات"</string>
+     <string name="file_size">"حجم فایل:"</string>
+     <string name="file_date">"تاریخ فایل:"</string>
+     <string name="recording_start_time">"زمان شروع ضبط"</string>
+     <string name="recording_duration">"مدت ضبط"</string>
+     <string name="tuned_timer_recording">"زمان ضبط روشن"</string>
+     <string name="miss_timer_recording">"زمان ضبط از دست رفته"</string>
+     <string name="miss_timer_time">"زمان: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>"ساعت"</item>
+        <item>"ساعت"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"زمان ضبط از حالا برای کمتر از 1 دقیقه تنظیم شده است."</item>
+        <item>"زمان ضبط از حالا برای <xliff:g id="HOURS">%1$s</xliff:g> تنظیم شده است."</item>
+        <item>"زمان ضبط از حالا برای <xliff:g id="MINUTES">%2$s</xliff:g> تنظیم شده است."</item>
+        <item>"زمان ضبط از حالا برای <xliff:g id="HOURS">%1$s</xliff:g> و <xliff:g id="MINUTES">%2$s</xliff:g> تنظیم شده است."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">"1 ساعت"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> ساعت"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"1 دقیقه قبل"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> دقیقه"</item>
+    </plurals>
+     <string name="start_record">"شروع ضبط"</string>
+     <string name="resume_record">"بازگشت به ضبط"</string>
+     <string name="start_play">"شروع پخش"</string>
+     <string name="resume_play">"بازگشت به ضبط"</string>
+     <string name="reset_timer_recording">"دستگاه ضبط توسط برنامه دیگری استفاده می‌شود، لطفاً زمان ضبط را تغییر دهید!"</string>
+     <string name="storage_not_enough">"حافظه کم است، ضبط شروع نمی‌شود!"</string>
+     <string name="phone_storage_not_enough">"حافظه تلفن کافی نیست!"</string>
+</resources>

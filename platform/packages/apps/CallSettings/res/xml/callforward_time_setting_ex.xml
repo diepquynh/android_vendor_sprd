@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:phone="http://schemas.android.com/apk/res-auto"
+    android:title="@string/labelCFT">
+
+    <Preference
+        android:key="start_time"
+        android:title="@string/start_time"
+        android:summary="@string/sum_cft_default_setting"/>
+
+    <Preference
+        android:key="stop_time"
+        android:title="@string/stop_time"
+        android:summary="@string/sum_cft_default_setting"/>
+
+    <com.android.callsettings.EditPhoneNumberPreference
+        android:key="cft_number_key"
+        android:title="@string/phonenumCFT_title"
+        android:persistent="false"
+        android:dialogTitle="@string/labelCFT"
+        android:dialogMessage="@string/messageCFT"
+        phone:confirmMode="confirm"
+        phone:serviceClass="voice"
+        phone:reason="unconditional"
+        android:singleLine="true"
+        android:autoText="false" />
+</PreferenceScreen>

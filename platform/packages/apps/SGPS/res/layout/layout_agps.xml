@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_agps"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/layout_agps_plane_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dip"
+            android:text="@string/agps_plane_switch_text"
+            android:textSize="20dip" />
+
+        <RadioGroup
+            android:id="@+id/rg_plane_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio_control"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/radio_control_text" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/radio_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/radio_user_text" >
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_agps_plane_switch" >
+
+        <include layout="@layout/layout_agps_plane" />
+    </ScrollView>
+
+</RelativeLayout>

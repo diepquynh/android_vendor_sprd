@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/bottom_panel_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="16dp"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:id="@+id/bottom_panel_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <com.android.camera.widget.RoundedThumbnailView
+                android:id="@+id/rounded_thumbnail_view"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:visibility="visible" />
+             <!-- add for gif ui check 48 49 -->
+            <com.android.camera.ui.RotateImageView
+                android:id="@+id/gif_cancel"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:focusable="false"
+                android:onClick="onGifCancel"
+                android:src="@drawable/ic_panorama_cancel"
+                android:visibility="gone" />
+<!-- android:background="@drawable/ic_gallery_defult_mask_sprd"
+android:background="#ff0000" -->
+            <com.android.camera.ui.RotateImageView
+                android:id="@+id/video_capture_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:focusable="false"
+                android:onClick="takeASnapshot"
+                android:src="@drawable/dream_ic_video_capture"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/bottom_panel_center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <!-- SPRD Bug:510954 set focusable false. -->
+
+            <com.android.camera.ShutterButton
+                android:id="@+id/shutter_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:contentDescription="@string/accessibility_shutter_button"
+                android:focusable="false"
+                android:scaleType="center"
+                android:src="@drawable/ic_camera" />
+
+            <!--  SPRD: Fix bug 535110, Photo voice record. @{ -->
+            <com.android.camera.ui.RotateImageView
+                android:id="@+id/btn_camera_stop_record_voice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onStopRecordVoiceClicked"
+                android:src="@drawable/ic_capture_pic_with_sound_stop_record_sprd"
+                android:visibility="invisible" />
+            <!-- @} -->
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/bottom_panel_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <com.android.camera.ui.RotateImageView
+                android:id="@+id/btn_mode_switch"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:onClick="switchMode"
+                android:src="@drawable/ic_switch_to_video_sprd"
+                android:visibility="visible"/>
+             <!-- add for gif ui check 48 49 -->
+            <com.android.camera.ui.RotateImageView
+                android:id="@+id/gif_finish"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:focusable="false"
+                android:onClick="onGifFinish"
+                android:src="@drawable/ic_panorama_finish"
+                android:visibility="gone" />
+
+            <!-- SPRD Bug:474704 Feature:Video Recording Pause. -->
+
+            <com.android.camera.ui.RotateImageView
+                android:id="@+id/btn_video_pause"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:onClick="onPauseClicked"
+                android:focusable="false"
+                android:src="@drawable/ic_pause_sprd"
+                android:visibility="gone" />
+
+            <com.android.camera.ui.RotateImageView
+                android:id="@+id/btn_beauty_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/ic_makeup"
+                android:visibility="gone" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/bottombar_capture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" >
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/bottombar_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="16dp"
+        android:visibility="visible" >
+
+        <!-- SPRD Bug:510954 set focusable false. -->
+
+        <com.android.camera.ui.RotateImageButton
+            android:id="@+id/shutter_cancel_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/shutter_button_background_refocus"
+            android:clickable="true"
+            android:contentDescription="@string/accessibility_cancel_button"
+            android:focusable="false"
+            android:scaleType="center"
+            android:src="@drawable/ic_capture_cancel_timer_sprd" />
+    </FrameLayout>
+
+    <include layout="@layout/retake_done_cancel_layout" />
+
+</merge>

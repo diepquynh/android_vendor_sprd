@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Spreadst -->
+<resources>
+
+    <style name="TimePickerTheme" parent="android:Theme.Material.Dialog">
+        <item name="android:background">@color/time_picker_gray</item>
+        <item name="android:timePickerStyle">@style/TimePickerStyle</item>
+        <item name="android:textColorPrimaryInverse">?android:attr/colorAccent</item>
+
+        <item name="android:colorAccent">@color/color_accent</item>
+    </style>
+
+    <style name="TimePickerStyle" parent="@android:style/Widget.Material.TimePicker" >
+        <item name="android:headerBackground">@color/time_picker_gray</item>
+        <item name="android:headerTimeTextAppearance">@style/TimeLabelTextAppearance</item>
+        <item name="android:headerAmPmTextAppearance">@style/AmPmTextAppearance</item>
+        <item name="android:numbersBackgroundColor">@color/time_picker_gray</item>
+        <item name="android:numbersTextColor">@color/white</item>
+        <item name="android:amPmTextColor">@color/white</item>
+    </style>
+</resources>

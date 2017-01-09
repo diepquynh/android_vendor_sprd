@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="TTCN" >
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/supplementary_service_query_entries"
+        android:entryValues="@array/supplementary_service_query_values"
+        android:key="supplementary_service_query"
+        android:title="@string/supplementary_service_query" />
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="message_retransmission"
+        android:title="@string/message_retransmission" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="true"
+        android:key="integrity_protection"
+        android:title="@string/integrity_protection" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <!--2014.5.26  delete automatic_startup_power -->
+    <!-- <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="true"
+        android:key="automatic_startup_power"
+        android:title="@string/automatic_startup_power" 
+        android:enabled="true">
+    </com.sprd.engineermode.EMSwitchPreference> -->
+
+</PreferenceScreen>

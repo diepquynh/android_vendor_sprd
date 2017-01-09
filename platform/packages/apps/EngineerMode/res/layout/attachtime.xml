@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*" >
+
+    <TableRow
+        android:id="@+id/attachtime_tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/attachment_label00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/attachtime_2g"
+                android:layout_gravity="left|center_vertical"
+            />
+            <TextView
+                android:id="@+id/attachment_label01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+            />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/attachtime_tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip">
+
+            <TextView
+                android:id="@+id/attachment_label10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/attachtime_3g"
+                android:layout_gravity="left|center_vertical"
+            />
+            <TextView
+                android:id="@+id/attachment_label11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+            />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/attachtime_tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip">
+
+            <TextView
+                android:id="@+id/attachment_label20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/attachtime_lte"
+                android:layout_gravity="left|center_vertical"
+            />
+            <TextView
+                android:id="@+id/attachment_label21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+            />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/attachtime_tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/attachment_label30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/attachtime_total"
+                android:layout_gravity="left|center_vertical"
+            />
+            <TextView
+                android:id="@+id/attachment_label31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+            />
+    </TableRow>
+
+</TableLayout>

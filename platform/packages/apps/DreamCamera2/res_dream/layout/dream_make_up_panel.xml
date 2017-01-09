@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/dream_make_up_panel"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/zoom_height"
+    android:layout_gravity="center"
+    android:gravity="bottom"
+    android:layout_marginBottom="26dp"
+    android:visibility="gone"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.android.camera.ui.RotateLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/current_make_up_level"
+                style="@style/DreamText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/zoom_value_text_size" />
+        </com.android.camera.ui.RotateLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="12dp"
+        android:orientation="horizontal"
+        android:clickable="true" >
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.android.camera.ui.RotateLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/min_make_up_level"
+                android:text="@string/min_make_up_level"
+                style="@style/DreamText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </com.android.camera.ui.RotateLayout>
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/default_height"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.android.camera.ui.RotateLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/max_make_up_level"
+                android:text="@string/max_make_up_level"
+                style="@style/DreamText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </com.android.camera.ui.RotateLayout>
+       </LinearLayout>
+    </LinearLayout>
+
+
+    <SeekBar
+        android:id="@+id/make_up_seekbar"
+        android:layout_width="match_parent"
+        style="@style/DreamSeekbar"
+        android:max="100"
+        android:progress="50"/>
+<!-- android:layout_height="@dimen/zoom_seekbar_height" -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:clickable="true" >
+
+            <TextView
+                android:id="@+id/make_up_tip"
+                android:text="@string/make_up_effect"
+                style="@style/DreamText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

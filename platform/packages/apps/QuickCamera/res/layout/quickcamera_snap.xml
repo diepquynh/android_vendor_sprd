@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/quickshot_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@android:color/black"
+        android:visibility="gone" />
+    <!--
+        ImageView android:id="@+id/quickshot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:adjustViewBounds="true" /
+    -->
+    <!--
+        ImageView android:id="@+id/quickshot_flash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@android:color/white"
+        android:visibility="gone" /
+    -->
+    <!-- android:gravity="left|top" -->
+    <!-- android:layout_gravity="center_horizontal|top" -->
+    <!-- android:background="@drawable/quick_camera_result_bg" -->
+
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="visible" />
+
+    <com.sprd.quickcamera.RotatableTextView
+        android:id="@+id/time_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="20px"
+        android:textColor="#FFFFFF"
+        android:textSize="30dip"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</FrameLayout>

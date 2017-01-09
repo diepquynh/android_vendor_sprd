@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <add-resource name="operator" type="array"/>
+    <string-array name="operator">
+	<!-- bug#182200 -->
+    <!-- SPRD: delete useless items to optimizate efficiency for bug277529 -->
+        <item>China Mobile=中國移動</item>
+        <item>China Unicom=中國聯通</item>
+        <item>CHN-UNICOM=中國聯通</item>
+        <item>UNICOM=中國聯通</item>
+        <item>CMCC=中國移動</item>
+        <item>CUCC=中國聯通</item>
+        <item>FarEasTone=遠傳電信</item>
+        <item>Chungwa=中華電信</item>
+        <item>Taiwan Mobile=台灣大哥大</item>
+        <item>T Star=台灣之星</item><!-- bug#578155 -->
+        <item>China Telecom=中國電信</item><!-- bug#598713 -->
+        <item>中国电信 =中國電信</item><!-- bug#598713 -->
+        <item>Mi Mobile=小米移動</item><!-- bug#640956 -->
+    </string-array>
+
+    <!-- SPRD: add array for bug258526 @{ -->
+    <add-resource name="spn" type="array"/>
+    <string-array name="spn">
+        <item>China Mobile=中國移動</item>
+        <item>CMCC=中國移動</item>
+        <item>UNICOM=中國聯通</item>
+        <item>CUCC=中國聯通</item>
+        <item>China Telecom=中國電信</item><!-- bug#569014 -->
+        <item>T Star=台灣之星</item><!-- bug#578155 -->
+        <item>中国电信 =中國電信</item><!-- bug#598713 -->
+        <item>Mi Mobile=小米移動</item><!-- bug#640956 -->
+    </string-array>
+    <!-- @} -->
+</resources>

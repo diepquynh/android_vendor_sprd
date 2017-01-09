@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<glgps xmlns="http://www.glpals.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.glpals.com/ glconfig.xsd" >
+
+<!-- It is highly recommended to view/edit this file with syntax-highlighting 
+    editors such as notepad++ or vim. This way, one can easily distinguish 
+    comments and valid code.
+    
+    This file is a primary template for Linux-like platforms.
+-->
+
+<!-- HAL essentials: Serial port, log, NMEA, IRM, NVRAM, LTO -->
+<hal 
+	acPortName="i2c:/dev/gps_irq" 
+	lBaudRate="115200"     
+    cLogEnableInitState="true"
+    cLogEnabled="true" 
+	acLogDirectory="/data/gps/log" 
+    acNmeaOutName="/data/gpspipe"  
+	ltoFileName="lto.dat" 
+    acSuplLogFullName="/data/gps/log/agpsLog.txt"
+    aa-i2c-bitrate-khz="400"
+    aa-i2c-slave-addr="0x1fa"
+    aa-gpio-set-value="PU_NORMAL | PU_RESET "
+    aa-i2c-max-read-bytes="64"
+    aa-i2c-board="I2C_BOARD_THAMES"
+    aa-escaping="1"
+    no-aa-debug="16"
+    i2c-bit-addressing="AA_I2C_10_BIT_ADDR"
+/>
+
+<!-- GPIO is essential for reliable host interface reset and power saving.
+    There are currently two mutually exclusive mechanisms (sysfs or rfkill) to 
+    GPIO control the REGPU or NSTANDBY pin on the GNSS chipset.
+-->
+
+<!-- GPIO sysfs (in most cases) -->
+<hal
+    gpioNHostReqPath="/sys/class/gpio/gpio25/value"
+    gpioNStdbyPath="/sys/class/gpio/gpio27/value"
+    gpioNResetPath="/sys/class/gpio/gpio26/value" 
+    gpioDelayMs="100"
+/>
+
+
+<!--  (Re)aiding configuration options for LBS, SUPL (depending on type selected) -->
+<hal 
+    ReAidingType="1"                
+    ReAidingRetryIntervalSec="2000"   
+    ReAidingIntervalSec="1200"      
+/>
+
+<!-- SUPL: only applicable to devices with cellular modem
+    "arp-supl-use-apn" is attribute used in Android only
+ -->
+<hal 
+    arp-supl-enable="true"
+    arp-supl-cap-msb="true"
+    arp-supl-cap-msa="true"
+    arp-supl-cap-ecid="false"
+    enhanced-assisted="false"
+    arp-supl-use-apn="true"
+    arp-supl-ssl-verify="none"
+    acSuplServer="supl.google.com"
+    SuplPort="7275"
+    tlsCertPath="/system/bin/gpsd/"
+    TISEnabled="false" 
+    RILEnabled="true" 
+    NoDataStandalone="true"
+/>
+
+
+<!-- Android: -->
+<hal 
+    lcsApiSockName="/data/gps/lcs.socket" 
+/>
+
+<!-- ======================================================  -->
+<!-- GLL Engine: See glgpsapi.h for supported parameters -->
+<gll 
+    LogPriMask="LOG_DEBUG"
+    LogFacMask="LOG_GLLAPI | LOG_DEVIA | LOG_DEVVG | LOG_NMEA | LOG_RAWDATA | LOG_DEVMS | LOG_ASIC_IO | LOG_BBTEST | LOG_DEVET | LOG_MESM | LOG_DEVKF | LOG_DEVJG | LOG_DEVMR | LOG_DEVRA | LOG_DEVCV | LOG_DEVDH" 
+    FrqPlan="FRQ_PLAN_26MHZ_2PPM"   
+    RfType="GL_RF_4751_DANUBE_EXT_LNA"
+    WarmStandbyTimeout1Seconds="0"
+    WarmStandbyTimeout2Seconds="0"
+/>
+
+<!-- Pulse-Per-Second (PPS) -->
+<gll
+    pps-enable="false" 
+    pps-offset-ms="0" 
+    pps-width-ns="100" 
+/>
+
+<!-- =============================================================== -->
+<!-- List of jobs can be performed by the GPS controller    -->
+
+<!-- Periodic Position Fix using default settings -->
+<job id="Periodic">
+    <task>
+        <req_pos/>
+    </task>
+</job>
+
+<!-- Periodic Position with the ROM almanac ignored for simulator testing -->
+<job id="Simulator_Periodic">
+    <task id="cont" repeat="1">
+        <startup ignore_rom_alm="true" />
+        <req_pos validfix="2000" duration_sec="4500"/>      
+    </task>
+</job>
+
+<!-- This job must be performed before any systematic tests  -->
+<job id="CollectAlmanac">
+    <task repeat="1">
+        <startup
+            ignore_osc="true"
+            ignore_rom_alm="true"
+            ignore_ram_alm="true"
+            ignore_pos="true"
+            ignore_nav="true"
+            ignore_time="true"
+        />
+        <req_pos validfix="800"/>
+    </task>
+</job>
+
+<!-- This job must be performed every time the GPS simulator scenario is reset  -->
+<job id="CollectEphemeris">
+    <task repeat="1">
+        <startup
+            ignore_osc="true"
+            ignore_rom_alm="true"
+            ignore_ram_alm="true"
+            ignore_pos="true"
+            ignore_nav="true"
+            ignore_time="true"
+        />
+        <req_pos validfix="200"/>
+    </task>
+</job>
+
+<!--  Systematic Test: Repetitive cold starts -->
+<job id="Cold_Starts">
+    <task repeat="100">
+        <startup
+            ignore_osc="false"
+            ignore_rom_alm="false"
+            ignore_ram_alm="false"
+            ignore_pos="true"
+            ignore_nav="true"
+            ignore_time="true"
+        />
+        <req_pos validfix="1"/>
+    </task>
+</job>
+
+<!-- Systematic Test: Repetitive cold starts with the ROM almanac ignored for 
+        simulator testing -->
+<job id="Simulator_Cold_Starts">
+    <task repeat="100">
+            <startup
+                ignore_osc="false"
+                ignore_rom_alm="true"
+                ignore_ram_alm="false"
+                ignore_pos="true"
+                ignore_nav="true"
+                ignore_time="true"
+            />
+        <req_pos validfix="1"/>
+    </task>
+</job>
+
+<!-- Systematic Test: Repetetive warm starts  
+     Stored ephemeris data is discarded before the start begins
+     This simulates GPS receiver start after it was left off for more that 4 hours
+-->
+<job id="Warm_Starts">
+    <task repeat="100">
+        <startup ignore_nav="true"/>
+        <req_pos validfix="1"/>
+    </task>
+</job>
+
+<!-- Systematic Test: Repetetive warm starts performed on GPS simulator -->
+<job id="Simulator_Warm_Starts">
+    <task repeat="100">
+        <startup 
+            ignore_rom_alm="true"
+            ignore_nav="true" 
+        />
+        <req_pos validfix="1"/>
+    </task>
+</job>
+
+<!-- Systematic Test: Repetetive hot starts  -->
+<job id="Hot_Starts">
+    <task repeat="100">
+        <req_pos validfix="1"/>
+    </task>
+</job>
+
+<!-- Systematic Test: Repetitive far starts -->
+<job id="Far_Starts">
+    <task repeat="100">
+        <!-- Instructs GLL to ignore all elements stored in NVRAM listed below -->
+        <startup 
+            ignore_nav="true" 
+            pos_error="true"
+        />
+        <req_pos validfix="1" />
+    </task>
+</job>
+
+<!-- This job performes series of single shot requests using the data stored 
+      in NVRAM to simulate assistance data received from the network 
+      The QoS parameters are set to maxmize the GPS sensitivity 
+-->
+<job id="Assisted_Cold_Starts">
+    <task repeat="100">
+        <startup 
+            ignore_rom_alm="true" 
+            ignore_ram_alm="true"
+        />
+        <asst>
+            <!--pos Lat="-30.0" Lon="-50.0" Alt="50" /-->
+            <pos Lat="33.7691" Lon="-84.4062" Alt="300" />
+            <!--pos Lat="37.0" Lon="-122.0" Alt="50" /-->
+            <!--pos Lat="37.26533652" Lon="-121.94128855" Alt="51.4" /-->
+        </asst>
+        <req_pos_single acc="50" timeout="30" />
+    </task>
+</job>
+
+<!-- This job performes series of single shot requests using the data stored 
+      in NVRAM to simulate assistance data received from the network 
+      The QoS parameters are set as it woudld be set by Spirent ULTS executing 
+      3GPP TS performance tests.
+-->
+<job id="3GPP_Assisted_Cold_Starts">
+    <task repeat="100">
+        <startup 
+            ignore_rom_alm="true" 
+            ignore_ram_alm="true"
+        />
+        <asst>
+            <!--pos Lat="-30.0" Lon="-50.0" Alt="50" /-->
+            <pos Lat="33.7691" Lon="-84.4062" Alt="300" />
+            <!--pos Lat="37.0" Lon="-122.0" Alt="50" /-->
+            <!--pos Lat="37.26533652" Lon="-121.94128855" Alt="51.4" /-->
+        </asst>
+        <req_pos_single acc="25" timeout="20" />
+    </task>
+</job>
+
+<!-- This job starts signle chanel factory test mode 
+     The signal is expected to be in the range from -125 dBm to -145 dBm 
+     with the frequency offset range from -2 ppm to +2 ppm 
+     for this mode to provide reliable results.
+-->
+<job id="Factory_Track_Test">
+    <task id="test" repeat="1">
+        <startup
+            ignore_osc="true"
+            ignore_rom_alm="true"
+            ignore_ram_alm="true"
+            ignore_pos="true"
+            ignore_nav="true"
+            ignore_time="true"
+        />
+        <req_ftest
+            PRN="1"
+            GL_FACT_TEST_MODE="GL_FACT_TEST_CONT"
+            GL_FACT_TEST_ITEMS="GL_FACT_TEST_WER" 
+            avg_int_sec="10" 
+            duration_sec="60"
+        />
+    </task>
+</job>
+
+<!-- This job starts signle chanel factory test mode 
+     The signal is expected to be in the range from -125 dBm to -145 dBm 
+     with the frequency offset range from -2 ppm to +2 ppm 
+     for this mode to provide reliable results.
+
+     The name Factory_High_SNR is legacy only. The recommended name is
+     Factory_Track_Test.     
+-->    
+<job id="Factory_High_SNR">
+    <task id="test" repeat="1">
+        <startup
+            ignore_osc="true"
+            ignore_rom_alm="true"
+            ignore_ram_alm="true"
+            ignore_pos="true"
+            ignore_nav="true"
+            ignore_time="true"
+        />
+        <req_ftest
+            PRN="1"
+            GL_FACT_TEST_MODE="GL_FACT_TEST_CONT"
+            GL_FACT_TEST_ITEMS="GL_FACT_TEST_WER" 
+            avg_int_sec="10" 
+            duration_sec="60"
+        />
+     </task>
+</job>
+
+<!-- This job is intended to be ran after the Factory_High_SNR job 
+     It uses the TCXO offset stored in NVRAM during the Factory_High_SNR job.
+
+     This is a low-signal strength acquisition only test. It performs repeated 
+     acquisitions but no tracking, hence it cannot be used to produce, for 
+     example, WER measurements.     
+-->
+<job id="Factory_Low_SNR">
+    <task id="test" repeat="1">
+        <startup
+            ignore_osc="false"
+            ignore_rom_alm="true"
+            ignore_ram_alm="true"
+            ignore_pos="true"
+            ignore_nav="true"
+            ignore_time="true"
+        />
+        <req_ftest
+            PRN="1"
+            GL_FACT_TEST_MODE="GL_FACT_TEST_CONT"
+            GL_FACT_TEST_ITEMS="GL_FACT_TEST_WER" 
+            avg_int_sec="10" 
+            duration_sec="200"
+        />
+     </task>
+</job>
+
+<job id="Factory_Low_SNR_Acquisition">
+    <task id="test" repeat="1">
+        <startup
+            ignore_osc="false"
+            ignore_rom_alm="true"
+            ignore_ram_alm="true"
+            ignore_pos="true"
+            ignore_nav="true"
+            ignore_time="true"
+        />
+        <req_ftest
+            PRN="1"
+            GL_FACT_TEST_MODE="GL_FACT_TEST_CONT"
+            GL_FACT_TEST_ITEMS="GL_FACT_TEST_WER" 
+            avg_int_sec="10" 
+            duration_sec="200"
+        />
+    </task>
+</job>
+
+</glgps>

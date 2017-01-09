@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="ApnActivepdpFilterSetting" >
+
+    <PreferenceScreen
+        android:key="ApnpdpFilterSelect"
+        android:persistent="false"
+        android:title="Sim1" >
+
+        <CheckBoxPreference
+            android:key="all"
+            android:summary=""
+            android:title="APN_TYPE_ALL" />
+
+        <CheckBoxPreference
+            android:key="default"
+            android:summary=""
+            android:title="APN_TYPE_DEFAULT" />
+
+        <CheckBoxPreference
+            android:key="mms"
+            android:summary=""
+            android:title="APN_TYPE_MMS" />
+
+        <CheckBoxPreference
+            android:key="supl"
+            android:summary=""
+            android:title="APN_TYPE_SUPL" />
+
+        <CheckBoxPreference
+            android:key="dun"
+            android:summary=""
+            android:title="APN_TYPE_DUN" />
+
+        <CheckBoxPreference
+            android:key="hipri"
+            android:summary=""
+            android:title="APN_TYPE_HIPRI" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="ApnpdpFilterSelect2"
+        android:persistent="false"
+        android:title="Sim2" >
+
+        <CheckBoxPreference
+            android:key="all2"
+            android:summary=""
+            android:title="APN_TYPE_ALL" />
+
+        <CheckBoxPreference
+            android:key="default2"
+            android:summary=""
+            android:title="APN_TYPE_DEFAULT" />
+
+        <CheckBoxPreference
+            android:key="mms2"
+            android:summary=""
+            android:title="APN_TYPE_MMS" />
+
+        <CheckBoxPreference
+            android:key="supl2"
+            android:summary=""
+            android:title="APN_TYPE_SUPL" />
+
+        <CheckBoxPreference
+            android:key="dun2"
+            android:summary=""
+            android:title="APN_TYPE_DUN" />
+
+        <CheckBoxPreference
+            android:key="hipri2"
+            android:summary=""
+            android:title="APN_TYPE_HIPRI" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="ApnpdpFilterSelect3"
+        android:persistent="false"
+        android:title="Sim3 Apn Activepdp Filter Setting" >
+
+        <CheckBoxPreference
+            android:key="all3"
+            android:summary=""
+            android:title="APN_TYPE_ALL" />
+
+        <CheckBoxPreference
+            android:key="default3"
+            android:summary=""
+            android:title="APN_TYPE_DEFAULT" />
+
+        <CheckBoxPreference
+            android:key="mms3"
+            android:summary=""
+            android:title="APN_TYPE_MMS" />
+
+        <CheckBoxPreference
+            android:key="supl3"
+            android:summary=""
+            android:title="APN_TYPE_SUPL" />
+
+        <CheckBoxPreference
+            android:key="dun3"
+            android:summary=""
+            android:title="APN_TYPE_DUN" />
+
+        <CheckBoxPreference
+            android:key="hipri3"
+            android:summary=""
+            android:title="APN_TYPE_HIPRI" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

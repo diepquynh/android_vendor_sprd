@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_agent_name">Calendar</string>
+    <string name="gallery_agent_name">Gallery</string>
+    <string name="contacts_agent_name">Contacts</string>
+    <string name="mms_agent_sms_name">SMS</string>
+    <string name="mms_agent_mms_name">MMS</string>
+    <string name="mms_agent_name">MMS</string>
+    <string name="app_name">Backup And Restore</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="set_password">Set Password</string>
+    <string name="start_backup">Start Backup</string>
+    <string name="data_backup">Data Backup</string>
+    <string name="apk_backup">Application Backup</string>
+    <string name="next_step">Next Step</string>
+    <string name="data_restore">Data Restore</string>
+    <string name="apk_restore">Application Restore</string>
+    <string name="start_restore">Start Restore</string>
+    <string name="version_name">Version：</string>
+    <string name="please_holding">Please waiting...</string>
+    <string name="backup_is_ongoing">Backuping  </string>
+    <string name="restore_is_ongoing">Restoring  </string>
+    <string name="install_failed">Install Fail</string>
+    <string name="old_version_alter">The old version can not overwrite on new version</string>
+    <string name="backup_complete">Backup Complete</string>
+    <string name="restore_complete">Restore Complete</string>
+    <string name="select_all">Select all</string>
+    <string name="exit_title">Exit</string>
+    <string name="do_you_wanna_exit_really">Do you want to exit Backup And Restore really?</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="delete">Delete</string>
+    <string name="confirm_delete">If click the delete button, it will delete the all backup files under the directory. Please confirm whether you want to delete?</string>
+    <string name="please_select_app_to_restore">Please select one APP at lease</string>
+    <string name="please_select_dataitem_to_restore">Please select the data you want to restore</string>
+    <string name="no_app_backuped">There is no application can restore</string>
+    <string name="hint">Hint</string>
+    <string name="sdcard_is_unmounted">External memory card can not be accessed, you can not enter the AppBackup</string>
+    <string name="backup_application">Backup Application</string>
+    <string name="backup_fail">" Backup Fails"</string>
+    <string name="warning">Warning</string>
+    <string name="please_select_app_or_data">Please select one APP or Data at least</string>
+    <string name="restore_fail">Restore Fails</string>
+    <string name="restore_application">Restore Application</string>
+    <string name="application">Application</string>
+    <string name="sdcard_is_not_available">Please insert the memory card</string>
+    <string name="backup_is_cancelled">Backup has been cancelled</string>
+    <string name="sim_1">SIM card 1</string>
+    <string name="sim_2">SIM card 2</string>
+    <string name="confirm_delete_apk">If click the delete button, it will delete the apk. Please confirm whether you want to delete?</string>
+    <string name="lock_of_freespace">Storage space is insufficient, please clean up SD card data</string>
+    <string name="internal_lock_of_freespace">Storage space is insufficient, please clean up internal storage data</string>
+    <string name="delete_all">Delete all</string>
+    <string name="delete_data_hint">Delete Data</string>
+    <string name="data_cannot_recovery_after_delete">The data can not be restored after deleted. Make sure you want to delete the data?</string>
+    <string name="deleting">Deleting</string>
+    <string name="delete_complete">Delete complete</string>
+    <string name="delete_fail">Delete fail</string>
+    <string name="data">Data</string>
+    <string name="backup_success">" Backup successfully"</string>
+    <string name="backup_all_result">Result of Backup</string>
+
+    <string name="category_mms">MMS</string>
+    <string name="category_sms">SMS</string>
+    <string name="select_sim">Select SIM card</string>
+    <string name="sim_x">SIM%s</string>
+    <string name="select_account">Select Account</string>
+
+    <string name="restore_is_cancelled">Restore has been cancelled</string>
+    <string name="remove_duplication_hint">Data restore has been completed. There may be duplicate data. Whether do delete the duplicate data?</string>
+    <string name="restore_success">Restore is successful</string>
+    <string name="delete_redundancy">Clear redundancy</string>
+    <string name="clear_complete">Clean finish</string>
+    <string name="confirm_delete_menu">Confirm delete</string>
+    <string name="no_data_to_backup">, no data to backup</string>
+
+    <string name="duplication_unsupport">These data do not support to clear!</string>
+    <string name="title_select_storage">Backup path</string>
+    <string-array name="storage_items">
+        <item>External storage</item>
+        <item>Internal storage</item>
+        <item>User define storage path</item>
+    </string-array>
+    <string name="use_external_storage">The internal storage space is low,please use the external storage</string>
+    <string name="internal_storage_not_available">The internal storage is not available</string>
+    <string name="agent_service_disconnected"> disconnected</string>
+
+    <!-- SPRD : fix bug256962 @{ -->
+    <string name="remind_data">data</string>
+    <string name="remind_read_userdata_title">Read user data</string>
+    <string name="remind_write_userdata_title">Write user data</string>
+    <string name="remind_read_userdata_message">Backup will read</string>
+    <string name="remind_write_userdata_message">Restore will write</string>
+    <!-- @} -->
+    <string name="go_back">Back</string>
+    <string name="cancle_select_all">"Cancel All"</string>
+
+    <string name="first_entry_alert">"Backup and restore" features customized for China Mobile-specific features, available in all brands of China Mobile custom device using each other.</string>
+    <string name="please_select_storage_path">"Please Select Path"</string>
+    <string name="scan_all_storage">"Scan all storage"</string>
+    <string name="scan_all_storage_complete">"Scan all storage completed"</string>
+    <string name="restore_select_storage_path">"Select scan path"</string>
+    <string name="change_mobile_hint">"Change mobile phone hint"</string>
+    <string name="never_hint">"Never hint"</string>
+    <string name="not_insert_SD_backup_hint">"The mobile without a SD card, if you need data recovery in the new mobile, through the SD card or a computer will be transferred to the new mobile backup file recovery."</string>
+    <string name="read_detail">"Read detail"</string>
+    <string name="display_detail">"Display detail"</string>
+    <string name="not_insert_SD_backup_detail">"Replacement by SD card:
+1, The SD card into the device;
+2, Make a backup;
+3, Remove the SD card, insert the new device;
+4, Open the new device backup and recovery of the application, select the search to the backup file to restore in the recovery function.
+
+Through the computer replacement:
+1, Backup, and view the backup path;
+2, The device is connected to a computer and open the phone directory;
+3, The backup path backup file copy to the computer;
+4, The new mobile phone is connected to the computer and open the new mobile phone directory;
+5, The backup file copy to a new phone any directory;
+6, Open the new device backup and recovery of the application, select the search to the backup file to restore in the recovery function.
+"</string>
+
+    <string name="no_SD_backup_detail">"1, The device will be connected to the computer and open the mobile phone directory;
+2, The /backup/ path of the backup file copied to the computer;
+3, The new mobile phone is connected to the computer and open the new mobile phone directory;
+4, Backup files will be copied to the new mobile phone any directory;
+5, Open a new mobile phone backup and recovery of the application, select the search to the backup file to restore in the recovery function.
+"</string>
+
+    <string name="no_SD_backup_hint">"This device has no SD card data recovery, as required in the new device, through the computer will be transferred to the new device backup file to restore."</string>
+    <string name="scan_all_storage_please_holding">Scan the whole takes a long time, please wait ...</string>
+    <string-array name="select_path_items">
+        <item>External storage</item>
+        <item>Internal storage</item>
+    </string-array>
+
+    <!-- SPRD:476980 add for request storage permission @{ -->
+    <string name="permission_missed_hint">"Miss required permissions. So can't perform normally. Please check your permission settings."</string>
+    <string name="dialog_dismiss">Dismiss</string>
+    <!-- @} -->
+    <string name="requires_permissions_message">This app isn\'t allowed to access the external storage,please select the internal storage.</string>
+    <string name="requires_permissions_close_button">OK</string>
+</resources>

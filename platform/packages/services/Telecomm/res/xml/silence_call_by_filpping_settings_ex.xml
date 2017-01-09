@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="silent_call_by_flipping_key"
+        android:title="@string/incomingcall_flipping_silence_title"
+        android:persistent="true"
+        android:defaultValue="false"
+        android:summaryOn="@string/flipping_summary"
+        android:summaryOff="@string/flipping_summary"/>
+</PreferenceScreen>

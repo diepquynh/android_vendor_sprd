@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Înregistrare sunet"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Înregistraţi mesajul"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Mesaj înregistrat"</string>
+    <string name="review_message" msgid="201616012287839474">"Consultaţi mesajul"</string>
+    <string name="recording" msgid="4426791467211376099">"Se înregistrează"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Înregistrare oprită"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"Spaţiul de stocare este plin"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"A fost atinsă lungimea maximă"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Montaţi stocarea USB"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Introduceţi un card SD"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> minute disponibile"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> (de) secunde disponibile"</string>
+    <string name="accept" msgid="1888285552128743656">"Terminat"</string>
+    <string name="discard" msgid="761613433029406319">"Renunţaţi"</string>
+    <string name="button_ok" msgid="3004911343723076226">"OK"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Înregistrările dvs."</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Înregistrări audio"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Înregistrările mele"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"Nu se poate accesa stocarea USB."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"Nu se poate accesa cardul SD."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Eroare internă de aplicație."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"Conţinutul audio înregistrat nu a putut fi salvat."</string>
+    <string name="recording_save">"Înregistrare a fost salvată"</string>
+     <string name="recording_nosave">"Înregistrarea nu a fost salvată"</string>
+     <string name="phone_message">"Nu se poate iniția înregistrarea sunetului în timpul unui apel."</string>
+     <string name="min_and_time_available">"Aproximativ <xliff:g id="minutes">%d</xliff:g> min şi <xliff:g id="seconds">%d</xliff:g> sec disponibile"</string>
+     <string name="press_record">"Apăsați butonul înregistrare"</string>
+     <string name="save">Salvare</string>
+     <string name="select_file_type">"Selectați tipul de fișier de înregistrat"</string>
+     <string name="record_amr">"tip amr(calitate redusă)"</string>
+     <string name="record_3gpp">"tip 3gpp(calitate ridicată)"</string>
+     <string name="button_cancel">Anulare</string>
+     <string name="path_save">"Calea prestabilită a fost salvată"</string>
+     <string name="path_nosave">"Calea prestabilită nu a fost salvată"</string>
+     <string name="path_default">"Calea actuală nu poate fi scrisă sau este invalidă, este calea către spaţiul intern de stocare"</string>
+     <string name="menu_set_save_path">"Setați calea de salvare"</string>
+     <string name="back">"Revenire.."</string>
+     <string name="path_label">"Selectați calea de salvare"</string>
+     <string name="pause">"Pauză"</string>
+     <string name="storage_is_not_enough">"Spațiu de stocare insuficient"</string>
+     <string name="menu_recording_file_list">"Lista fișierelor înregistrate"</string>
+     <string name="recording_list_empty">Lista goala</string>
+     <string name="menu_recording_list_select_all">Selectare toate</string>
+     <string name="menu_recording_list_delete">Ştergere</string>
+     <string name="menu_recording_list_deselect_all">"Deselectează"</string>
+     <string name="recording_file_delete_success">"Înregistrare ștearsă"</string>
+     <string name="recording_file_database_failed">"Ștergerea bazei de date nu s-a realizat"</string>
+     <string name="recording_file_delete_failed">"Ștergerea înregistrării nu s-a realizat"</string>
+     <string name="confirm_del">"Sigur doriți să ștergeți fișierele?"</string>
+     <string name="button_delete">Ştergere</string>
+     <string name="recording_file_delete_alert_title">Ştergere</string>
+     <string name="recording_file_delete_alert_message">"Sigur doriți să ștergeți %1$s ?"</string>
+     <string name="recording_file_list">"Lista fișierelor înregistrate"</string>
+     <string name="less_than_one_second">"1 secundă"</string>
+     <string name="is_scanning">"MediaScanner scanează acum, vă rugăm aşteptaţi..."</string>
+     <string name="emptylist">"Lista este goală"</string>
+     <string name="choose_file">"Selectați înregistrarea pe care doriți să o ștergeți!"</string>
+     <string name="error_path">"Calea selectată nu există,setați din nou!"</string>
+     <string name="path_miss">"Calea stocată nu există sau nu poate fi accesată!"</string>
+     <string name="low_memory">"Memoria telefonului este insuficientă, înregistrarea se va opri!"</string>
+     <string name="record_error">"A intervenit o excepție la înregistrare!"</string>
+     <string name="play_error">"Aparatul de redare a muzicii a fost dezactivat, nu se poate deschide！"</string>
+     <string name="dialog_title">"Selectaţi"</string>
+     <string name="dialog_message">"Salvați înregistrarea?"</string>
+     <string name="same_application_running">"Dispozitivul de înregistrare este utilizat de alt program,închideți acest program!"</string>
+     <string name="recording_time_short">Timp de inregistrare mai scurt de 1 secunda, nu a fost salvat</string>
+     <string name="file_path_button">"Cale fişier"</string>
+     <string name="file_name">"Denumire fişier："</string>
+     <string name="file_path">"Cale fişier："</string>
+     <string name="rename">"Redenumiți"</string>
+     <string name="rename_save">"Redenumire cu succes."</string>
+     <string name="rename_nosave">redenumire esuata</string>
+     <string name="filename_is_not_modified">"Denumirea fişierului nu a fost modificată"</string>
+     <string name="duplicate_name">"nume fişier duplicat"</string>
+     <string name="soundpicker_label">Va rugam selectati fisierele de inregistrare</string>
+     <string name="error_sdcard_path">"cardul SD nu există. Calea implicită de salvare este schimbată la stocare internă."</string>
+     <string name="input_length_overstep">"S-a atins limita max. de intrare"</string>
+     <string name="filename_empty_error">"Denumirea fişierului nu poate fi necompletată, se salvează denumirea originală"</string>
+     <string name="please_choose_files">"Vă rugăm să alegeţi fişierele"</string>
+     <string name="selected_files_count">"s-a ales<xliff:g id="COUNTS">%d</xliff:g>"</string>
+     <string name="use_default_path">"Ruta stocată nu există, vă rugăm să folosiţi ruta implicită"</string>
+     <string name="stroage_not_mounted">"Dispozitivul de stocare nu este montat"</string>
+     <string name="special_char_exist">"Caracterele speciale <xliff:g id="COUNTS">%s</xliff:g> nu sunt suportate"</string>
+     <string name="menu_select_more">Selectati mai multe</string>
+     <string name="menu_select_type">"Setare tip fişier"</string>
+     <string name="path_miss_nosave">"Calea stocată nu există, înregistrarea nu a fost salvată！"</string>
+     <string name="dialog_dismiss">"Renunţaţi"</string>
+     <string name="error_permissions">"Aplicația nu are permisiunile esențiale necesare pentru a funcționa. Verificați setările pentru permisiuni."</string>
+
+    <string name="internal_sdcard">"Card SD intern"</string>
+     <string name="external_sdcard">"Card SD extern"</string>
+    <string name="internal_storage">"Stocare internă"</string>
+     <string name="external_storage">Dispozitiv de stocare extern</string>
+     <string name="set_as_ring">"Setează ca tonuri de apel"</string>
+     <string name="read_file_path">"Verificați calea fișierului"</string>
+     <string name="operate_share">"Distrib."</string>
+     <string name="ringtone_title_sim1">"Ton de apel SIM1"</string>
+     <string name="ringtone_title_sim2">"Ton de apel telefon SIM2""</string>
+     <string name="ringtone_menu_short">"Utilizați ca ton de apel"</string>
+     <string name="please_insert_sim_card">"Introduceți cel puțin o cartelă SIM"</string>
+     <string name="ring_set_silent_vibrate">"Personalizarea tonurilor de apel nu este suportată în modul actual"</string>
+     <string name="ringtone_set_sim1">Setează "\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" ca ton de apel SIM1."</string>
+     <string name="ringtone_set_sim2">Setează "\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" ca ton de apel SIM2."</string>
+     <string name="ringtone_set">"„<xliff:g id="NAME">%s</xliff:g>” setat ca ton de apel al telefonului."</string>
+     <string name="ring_set_fail">Ne pare rau, melodia nu poate rula. Va rugam selectati aceasta melodie ca sunet de apel</string>
+     <string name="tag_limit">"Numărul de etichete a atins limita maximă"</string>
+     <string name="no_allow_play_calling">"Nu se poate reda muzică în timpul unui apel (radio/video)."</string>
+     <string name="playback_failed">"Player-ul nu acceptă acest tip de fișier audio."</string>
+     <string name="tag">"Etichetă"</string>
+     <string name="previous_tag">"Ultima etichetă"</string>
+     <string name="next_tag">"Următoarea etichetă"</string>
+     <string name="recording_play">"Înregistrare redare"</string>
+     <string name="clip_duration_tip">"Editare lungime"</string>
+     <string name="record_setting">"Setare înregistrare"</string>
+     <string name="file_type">Tip fisier</string>
+     <string name="type_amr">"Tip amr"</string>
+     <string name="type_3gpp">"Tip 3GPP"</string>
+     <string name="save_path">"Cale stocată"</string>
+     <string name="set_timer_recording">"Setare înregistrare cronometrată"</string>
+     <string name="timer_recording_detail">"Începe înregistrarea la <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> pentru <xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">"Afişaţi detaliile"</string>
+     <string name="file_size">"Mărime fișier:"</string>
+     <string name="file_date">"Dată fișier:"</string>
+     <string name="recording_start_time">"Oră de începere înregistrare"</string>
+     <string name="recording_duration">"Durată înregistrare"</string>
+     <string name="tuned_timer_recording">"Înregistrare cronometrată reglată"</string>
+     <string name="miss_timer_recording">"Înregistrare cronometrată absentă"</string>
+     <string name="miss_timer_time">"Timp: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>" oră"</item>
+        <item>" ore"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"Înregistrare cronometrată setată pentru mai puțin de 1 minut de acum."</item>
+        <item>"Înregistrare cronometrată setată pentru <xliff:g id="HOURS">%1$s</xliff:g>  de acum."</item>
+        <item>"Înregistrare cronometrată setată pentru  <xliff:g id="MINUTES">%2$s</xliff:g> de acum."</item>
+        <item>"Înregistrare cronometrată setată pentru <xliff:g id="HOURS">%1$s</xliff:g> și <xliff:g id="MINUTES">%2$s</xliff:g> de acum."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">"1 oră"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> ore"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"1 minut"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> minute"</item>
+    </plurals>
+     <string name="start_record">"începe înregistrare"</string>
+     <string name="resume_record">"reluare înregistrare"</string>
+     <string name="start_play">"începe redare"</string>
+     <string name="resume_play">"reluare redare"</string>
+     <string name="reset_timer_recording">"Dispozitivul de înregistrare este utilizat de către un alt program; resetați înregistrarea cronometrată!"</string>
+     <string name="storage_not_enough">"Spațiu de depozitare insuficient; nu a început înregistrarea cronometrată!"</string>
+     <string name="phone_storage_not_enough">"Spațiul de depozitare pe telefon este insuficient!"</string>
+</resources>

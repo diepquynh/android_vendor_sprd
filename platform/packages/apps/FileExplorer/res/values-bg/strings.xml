@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"Файлов мениджър"</string>
+<string name="action_settings">"Настройки"</string>
+<string name="title_section_overview">"Бърз преглед"</string>
+<string name="title_section_external">"Външно хранилище"</string>
+<string name="title_section_internal">"Вътр. хранилище"</string>
+<string name="title_section_all">"Всички"</string>
+<string name="descrip_actionbar_logo">"Подобрение"</string>
+<string name="descrip_actionbar_search">"Търсене"</string>
+<string name="descrip_actionbar_overflow">"Меню"</string>
+<string name="quickscan_audio">"Аудио"</string>
+<string name="quickscan_image">"Изображения"</string>
+<string name="quickscan_record">"Регистри"</string>
+<string name="quickscan_video">"Видео"</string>
+<string name="quickscan_doc">"Документи"</string>
+<string name="quickscan_apk">"Приложения"</string>
+<string name="file_list_flodermsg">"Дата:%1$s"</string>
+<string name="file_list_filemsg">"Дата:%1$s\tРазмер:%2$s"</string>
+<string name="dialog_hint_title">"Зареждане"</string>
+<string name="dialog_hint_msg">"Зареждане..."</string>
+<string name="menu_search">"Търсене"</string>
+<string name="menu_back_home">"Към началната страница"</string>
+<string name="menu_mkdir">"Нова папка"</string>
+<string name="menu_newfile">"Нов файл"</string>
+<string name="menu_mkdir_succeed">"Нова папка %1$s е успешно създадена"</string>
+<string name="menu_mkdir_failed">"Неуспешно създаване на папка %1$s"</string>
+<string name="menu_newfile_succeed">"Нов файл %1$s е успешно създаден"</string>
+<string name="menu_newfile_failed">"Неуспешно създаване на файл %1$s"</string>
+<string name="menu_select_more">"Избери повече"</string>
+<string name="menu_copy">"Копиране"</string>
+<string name="menu_cut">"Изрязване"</string>
+<string name="menu_sort_type">"Сортиране по"</string>
+<string name="menu_storage_status">"Хранилище"</string>
+<string name="operate_delete">"Изтриване"</string>
+<string name="operate_clear">"Изчистване"</string>
+<string name="operate_delete_file_ask">"Сигурни ли сте че искате да изтриете %1$s?"</string>
+<string name="operate_delete_file_succeed">"Изтриване на файла %1$s успешно"</string>
+<string name="operate_delete_file_failed">"Неуспешно изтриване на файла %1$s"</string>
+<string name="operate_viewdetails">"Параметри"</string>
+<string name="operate_viewdetails_date">"Дата: %1$s"</string>
+<string name="operate_viewdetails_size">"Размер: %1$s"</string>
+<string name="operate_viewdetails_type_folder">"Тип: Папка"</string>
+<string name="operate_viewdetails_type_file">"Тип: Файл"</string>
+<string name="operate_folder_attribute">"Включва：%1$d Файлове，%2$d Папки\n Размер：%3$s"</string>
+<string name="operate_rename">"Преименуване"</string>
+<string name="operate_rename_hint">"Моля въведете ново име на папката"</string>
+<string name="operate_rename_succeed">"Преименуването успешно"</string>
+<string name="operate_rename_failed">"Неуспешно преименуване на файла %1$s"</string>
+<string name="operate_share">"Споделяне"</string>
+<string name="msg_file_input_empty">"Името на файла е празно"</string>
+<string name="msg_file_input_repeat">"Името %1$s вече съществува, моля въведете друго име."</string>
+<string name="msg_folder_empty">"Папката е празна"</string>
+<string name="msg_invalid_intent">"Системата не поддържа този тип файлове"</string>
+<string name="msg_issure_clear">"Изчисти всички файлове в текущата папка?"</string>
+<string name="bluetooth">"Bluetooth"</string>
+<string name="copying">"Копира се, моля изчакайте"</string>
+<string name="clipboard_empty">"Клипборда е празен"</string>
+<string name="text_exit_file_explore_title">"Изход"</string>
+<string name="text_exit_file_explore_prompt">"Сигурни ли сте, че искате да излезете?"</string>
+<string name="common_text_ok">"ОK"</string>
+<string name="common_text_cancel">"Отказ"</string>
+<string name="common_text_paste">"Поставяне"</string>
+<string-array name="copyfileWarning">
+<item>"Замяна"</item>
+<item>"Запази заедно"</item>
+</string-array>
+<string-array name="copydirWarning">
+<item>"Сливане"</item>
+<item>"Замяна"</item>
+<item>"Запази заедно"</item>
+</string-array>
+<string name="file_option">"Настройки на файл"</string>
+<string name="folder_option">"Настройки на папка"</string>
+<string name="file_detail">"Подробности"</string>
+<string name="caculating">"Размер: изчислява се..."</string>
+<string name="copy_finish">"Копирането завършено"</string>
+<string name="now_copying">"Копира се, моля изчакайте..."</string>
+<string name="delete_finish">"Операцията е завършена"</string>
+<string name="delete_fail">"Неуспешно изтриване на файла <xliff:g id="NAME">%s</xliff:g>"</string>
+<string name="now_deleting">"Премахва се, моля изчакайте..."</string>
+<string name="cancel_copy">"Операцията беше прекъсната"</string>
+<string name="exist">"Файла %1$s вече съществува"</string>
+<string name="select_destination">"Избери от"</string>
+<string name="empty_view_prompt">"Папката е празна, можете да се свържете към компютър или да изтеглите от мрежата повече документи"</string>
+<string name="fragment_search_key_hint">"Моля въведете името на файла, който искате да намерите"</string>
+<string name="fragment_search_location">"Търсене:"</string>
+<string name="fragment_search_location_ex">"Търсене"</string>
+<string name="fragment_search_type">"Тип файлове"</string>
+<string name="fragment_search_result">"Резултат от търсенето"</string>
+<string name="fragment_search_searching">"Търсене..."</string>
+<string name="fragment_search_noresult">"Файлът който търсите не беше открит"</string>
+<string name="common_text_other">"Други"</string>
+<string name="common_text_search">"Търсене"</string>
+<string name="fragment_search_invalid_result">"Файлът е остарял, моля проверете."</string>
+<string name="overview_menu_multiselect">"Избери повече"</string>
+<string name="overview_menu_install_all">"Инсталирай всички"</string>
+<string name="overview_menu_install">"Инсталиране"</string>
+<string name="overview_menu_delete">"Изтриване"</string>
+<string name="sort_by_name">"По име"</string>
+<string name="sort_by_type">"По вид"</string>
+<string name="sort_by_time_desc">"По време (низходящо)"</string>
+<string name="sort_by_time_asc">"По време (възходящо)"</string>
+<string name="sort_by_size_desc">"По име (низходящо)"</string>
+<string name="sort_by_size_asc">"По име (възходящо)"</string>
+<string-array name="sort_type">
+<item>"Име"</item>
+<item>"Тип"</item>
+<item>"дати"</item>
+<item>"Размер"</item>
+</string-array>
+<string name="sort_by_asc">"Възходящо"</string>
+<string name="sort_by_desc">"Низходящо"</string>
+<string name="display_setting">"Настройки за дисплея"</string>
+<string name="hide_file_display">"Показване на скритите файлове"</string>
+<string name="display_hide_file">"Показване на скритите файлове"</string>
+<string name="operate_viewdetails_path">"Място: %1$s"</string>
+<string name="operate_viewdetails_canread">"Чете се: Да"</string>
+<string name="operate_viewdetails_can_not_read">"Чете се: Не"</string>
+<string name="operate_viewdetails_can_not_write">"Пише се: Не"</string>
+<string name="operate_viewdetails_can_write">"Пише се: Да"</string>
+<string name="operate_viewdetails_hide">"Скрити файлове: Да"</string>
+<string name="operate_viewdetails_not_hide">"Скрити файлове: Не"</string>
+<string name="select_text">"Избери файл"</string>
+<string name="select_all">"Избор на всичко"</string>
+<string name="unselect_all">"Откажи всички"</string>
+<string name="length_limited">"Достигната максимална дължина"</string>
+<string name="cannot_copy_to_itself">"Невъзможно поставянето на папката в директорията или нейните подпапки"</string>
+<string name="confirm_delete">"Потвърдете изтриване?"</string>
+<string name="search_empty">"Няма съдържание за търсене. Моля проверете."</string>
+<string name="dialog_back">"Назад"</string>
+<string name="set_as">"Задаване като"</string>
+<string name="invalid_char">"Името на файла съдържа невалидни знаци, например %s"</string>
+<string name="invalid_char_of_filename">"<xliff:g id="SECTION">%s</xliff:g> име на файл от системата съдържа невалиден символ например <xliff:g id="INVALIDCHAR">%s</xliff:g>"</string>
+<string name="no_enough_sapce">"Няма достатъчно празна памет"</string>
+<string name="file_type_wrong">"Грешен тип файл"</string>
+<string name="failed_set_wallpaper">"Неуспешно поставяне на тапет"</string>
+<string name="unsupport_type">"Неподдържан тип мелодия"</string>
+<string name="now_moving">"Премества се, моля изчакайте..."</string>
+<string name="now_calculate">"Изчислява се, моля изчакайте..."</string>
+<string name="badname_as_point">"Не трябва да бъде именуван /,\\,. Или..,  това ще доведе до объркване с файл в системата"</string>
+<string name="cut_filename_duplicate">"Настоящият път на файла или папката имат същото име, моля изберете друг път."</string>
+<string name="share_file_limited">"Лимит на споделените файлове е  %1$d"</string>
+<string name="install_apk_limited">"Лимит на инсталираните приложения е  %1$d"</string>
+<string name="now_cleared">"Почиства се, моля изчакайте..."</string>
+<string name="not_replace">"Не може да бъде заместена, поради еднакво име със съдържащата папка"</string>
+<string name="sdcard_had_unmounted">"Невалидна операция на файла"</string>
+<string name="common_text_ignore">"Игнорирай..."</string>
+<string name="cannot_copyfolder_itself">"Не може да копирате папката вътре в нея"</string>
+<string name="cannot_cutfolder_itself">"Не може да преместите папката вътре в нея"</string>
+<string name="cannot_paste_reason">"Таргет папката се намира в папката източник %s"</string>
+<string name="badname_endwith_point">"Името на името на папката не може да завършва с ."</string>
+<string name="failed_option">"Операцията се провали"</string>
+<string name="failed_query">"Базата данни не може да намери този файл"</string>
+    <string name="msg_folder_input_empty">Името на папката е празно</string>
+     <string name="search_type_empty">Моля изберете тип файл.</string>
+     <string name="invalid_char_of_foldername">"<xliff:g id="SECTION">%s</xliff:g> името на системната папка съдържа невалидни символи като <xliff:g id="INVALIDCHAR">%s</xliff:g>"</string>
+     <string name="failed_select_event">Можете да изберете само до 500 елемента в това действие.</string>
+     <string name="error_permissions">"Приложението няма критично важни разрешения, необходими, за да работи. Моля, проверете настройките си за разрешенията."</string>
+     <string name="dialog_dismiss">"Отхвърляне"</string>
+     <string name="toast_fileexplorer_internal_error">"Възникна грешка във Файлов мениджър"</string>
+
+    <string name="title_section_usbdisk">"USB диск"</string>
+     <string name="error_choose_drm_for_gallery">"DRM файл не може да бъде настроен за превключване на музика, моля изберете друг"</string>
+</resources>

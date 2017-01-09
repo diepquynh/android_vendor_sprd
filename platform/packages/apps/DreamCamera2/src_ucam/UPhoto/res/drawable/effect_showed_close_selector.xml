@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2010,2011 Thundersoft Corporation
+  All rights Reserved
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:state_enabled="true" android:drawable="@drawable/btn_edit_view_pressed" />
+    <item android:state_selected="true" android:state_enabled="true" android:drawable="@drawable/btn_edit_view_pressed" />
+    <item android:drawable="@drawable/btn_edit_view_normal" />
+</selector>
+

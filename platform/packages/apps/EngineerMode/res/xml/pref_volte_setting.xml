@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- registration -->
+    <PreferenceScreen
+        android:key="volte_registration"
+        android:title="@string/volte_registration" >
+
+        <!-- impi and ompu setting -->
+        <PreferenceScreen
+            android:key="volte_impi_impu_setting"
+            android:title="@string/volte_impi_impu_setting" >
+            <PreferenceScreen
+                android:key="volte_impi_impu_sub_setting"
+                android:title="@string/volte_impi_impu_sub_setting" >
+            </PreferenceScreen>
+        </PreferenceScreen>
+
+        <!-- p-CSCF setting -->
+        <PreferenceScreen
+            android:key="volte_pcscf_setting"
+            android:title="@string/volte_pcscf_setting" >
+            <ListPreference
+                android:dialogTitle="@string/volte_ip_setting"
+                android:entries="@array/volte_ip_setting"
+                android:entryValues="@array/volte_ip_setting_value"
+                android:key="volte_ip_setting"
+                android:summary=""
+                android:title="@string/volte_ip_setting" >
+            </ListPreference>
+
+            <EditTextPreference
+                android:key="volte_mut_length"
+                android:maxLength="4"
+                android:numeric="integer"
+                android:summary="please input data"
+                android:title="@string/volte_mut_length" >
+            </EditTextPreference>
+        </PreferenceScreen>
+
+        <!-- subscribe setting -->
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="volte_subscribe_setting_switch"
+            android:summaryOff="Close"
+            android:summaryOn="Open"
+            android:title="@string/volte_subscribe_setting_switch" >
+        </com.sprd.engineermode.EMSwitchPreference>
+
+        <!-- sigcomp setting -->
+        <PreferenceScreen
+            android:key="volte_sigcomp_setting"
+            android:title="@string/volte_sigcomp_setting" >
+            <com.sprd.engineermode.EMSwitchPreference
+                android:key="volte_sigcomp_setting_switch"
+                android:summaryOff="Close"
+                android:summaryOn="Open"
+                android:title="@string/volte_sigcomp_setting_switch" >
+            </com.sprd.engineermode.EMSwitchPreference>
+
+            <ListPreference
+                android:dialogTitle="@string/volte_sigcomp_algorithm"
+                android:entries="@array/volte_sigcomp_algorithm"
+                android:entryValues="@array/volte_sigcomp_algorithm_value"
+                android:key="volte_sigcomp_algorithm"
+                android:summary=""
+                android:title="@string/volte_sigcomp_algorithm" >
+            </ListPreference>
+        </PreferenceScreen>
+
+        <!-- IPSec setting -->
+        <Preference
+            android:key="volte_ipsec_setting"
+            android:title="@string/volte_ipsec_setting" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.sprd.engineermode.telephony.volte.IPSecSettingActivity"
+                android:targetPackage="com.sprd.engineermode" >
+            </intent>
+        </Preference>
+
+        <!-- Expires setting -->
+        <EditTextPreference
+            android:key="volte_expires_time_setting"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/volte_expires_time_setting" >
+        </EditTextPreference>
+    </PreferenceScreen>
+
+    <!-- call -->
+    <PreferenceScreen
+        android:key="volte_call"
+        android:title="@string/volte_call" >
+
+        <!-- code way -->
+        <PreferenceScreen
+            android:key="volte_code_way"
+            android:title="@string/volte_code_way" >
+            <ListPreference
+                android:dialogTitle="@string/volte_voice_code_way"
+                android:entries="@array/volte_voice_code_way"
+                android:entryValues="@array/volte_voice_code_way_value"
+                android:key="volte_voice_code_way"
+                android:summary=""
+                android:title="@string/volte_voice_code_way" >
+            </ListPreference>
+            <ListPreference
+                android:dialogTitle="@string/volte_voice_code_speed"
+                android:entries="@array/volte_voice_wb_code_speed"
+                android:entryValues="@array/volte_voice_wb_code_speed_value"
+                android:key="volte_voice_code_speed"
+                android:summary=""
+                android:title="@string/volte_voice_code_speed" >
+            </ListPreference>
+        </PreferenceScreen>
+
+        <!-- Precondition setting -->
+        <PreferenceScreen
+            android:key="volte_precondition_setting"
+            android:title="@string/volte_precondition_setting" >
+            <com.sprd.engineermode.EMSwitchPreference
+                android:key="volte_precondition_setting_switch"
+                android:summaryOff="NotSupport"
+                android:summaryOn="Support"
+                android:title="@string/volte_precondition_setting_switch" >
+            </com.sprd.engineermode.EMSwitchPreference>
+
+            <EditTextPreference
+                android:key="volte_tqos_time_setting"
+                android:numeric="integer"
+                android:summary="please input data"
+                android:title="@string/volte_tqos_time_setting" >
+            </EditTextPreference>
+            <EditTextPreference
+                android:key="volte_tcall_time_setting"
+                android:numeric="integer"
+                android:summary="please input data"
+                android:title="@string/volte_tcall_time_setting" >
+            </EditTextPreference>
+            <EditTextPreference
+                android:key="volte_treg_time_setting"
+                android:numeric="integer"
+                android:summary="please input data"
+                android:title="@string/volte_treg_time_setting" >
+            </EditTextPreference>
+        </PreferenceScreen>
+
+        <EditTextPreference
+            android:key="session_timer"
+            android:numeric="integer"
+            android:maxLength="6"
+            android:title="@string/session_timer">
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:key="force_mt_session_timer"
+            android:numeric="integer"
+            android:maxLength="6"
+            android:title="@string/sip_force_mt_session_timer">
+        </EditTextPreference>
+    </PreferenceScreen>
+
+    <com.sprd.engineermode.EMSwitchPreference
+            android:key="pcscf_set"
+            android:title="P-CSCF" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+</PreferenceScreen>

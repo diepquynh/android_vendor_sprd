@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.soundrecorder">
+
+    <original-package android:name="com.android.soundrecorder" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <!-- SPRD: add -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <application android:label="@string/app_name"
+                 android:icon="@drawable/ic_launcher_soundrecorder"
+                 android:supportsRtl="true"
+                 android:resizeableActivity="false"
+                 android:usesCleartextTraffic="false">
+        <activity android:name="SoundRecorder"
+                android:configChanges="orientation|screenSize|keyboardHidden"
+                android:screenOrientation="portrait"
+                android:launchMode="singleTop"
+                android:theme="@style/Theme.SoundRecorder">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                 <action android:name="android.provider.MediaStore.RECORD_SOUND" />
+                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name="RecordService"
+            android:exported="true">
+        </service>
+<!-- SPRD: add @{ -->
+        <activity android:name="com.sprd.soundrecorder.PathSelect" android:label="@string/path_label"
+                android:theme="@style/Theme.PathSelect"
+                android:configChanges="orientation|screenSize|keyboardHidden"
+                android:screenOrientation="unspecified">
+        </activity>
+        <activity android:name="com.sprd.soundrecorder.RecordingFileList"
+            android:theme="@style/Theme.RecordingFileList"
+            android:label="@string/recording_file_list"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="unspecified">
+        </activity>
+        <activity android:name="com.sprd.soundrecorder.SoundPicker"
+            android:label="@string/soundpicker_label"
+            android:theme="@style/Theme.SoundPicker"
+            android:configChanges="orientation|screenSize|keyboardHidden|mcc|mnc"
+            android:screenOrientation="unspecified">
+        </activity>
+        <activity android:name="com.sprd.soundrecorder.RecordingFilePlay"
+            android:theme="@style/Theme.RecordingFileList"
+            android:label="@string/recording_play"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.sprd.soundrecorder.RecordingFileClip"
+            android:theme="@style/Theme.RecordingFileList"
+            android:label="@string/recording_play"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="unspecified">
+        </activity>
+        <activity android:name="com.sprd.soundrecorder.RecordSetting"
+            android:theme="@style/Theme.RecordingFileList"
+            android:label="@string/record_setting"
+            android:launchMode="singleTask"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait">
+        </activity>
+<!-- @} -->
+        <receiver android:name="com.sprd.soundrecorder.AlarmReceiver" >
+            <intent-filter>
+                <action android:name="com.android.soundrecorder.timerrecord.START" />
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

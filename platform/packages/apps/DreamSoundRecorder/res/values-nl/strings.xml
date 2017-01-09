@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Geluidsrecorder"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Uw bericht opnemen"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Bericht opgenomen"</string>
+    <string name="review_message" msgid="201616012287839474">"Bericht controleren"</string>
+    <string name="recording" msgid="4426791467211376099">"Opnemen"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Opname gestopt"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"Opslagruimte is vol"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"Maximumlengte is bereikt"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"USB-opslag koppelen"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Een SD-kaart plaatsen"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> min beschikbaar"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g>s beschikbaar"</string>
+    <string name="accept" msgid="1888285552128743656">"Gereed"</string>
+    <string name="discard" msgid="761613433029406319">"Weggooien"</string>
+    <string name="button_ok" msgid="3004911343723076226">"OK"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Uw opnamen"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Audio-opnamen"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Mijn opnamen"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"Kan geen toegang tot USB-opslag krijgen."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"Kan geen toegang tot SD-kaart krijgen."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Interne fout app."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"Kan opgenomen audio niet opslaan."</string>
+    <string name="recording_save">"Opname opgeslagen"</string>
+     <string name="recording_nosave">"Opname werd niet bewaard"</string>
+     <string name="phone_message">"Kan Geluid Recorder niet aanzetten tijdens het bellen."</string>
+     <string name="min_and_time_available">"Ongeveer <xliff:g id="minutes">%d</xliff:g> min en <xliff:g id="seconds">%d</xliff:g> sec beschikbaar"</string>
+     <string name="press_record">"Druk op opnemen"</string>
+     <string name="save">Bewaar</string>
+     <string name="select_file_type">"Selecteer opname bestandstype"</string>
+     <string name="record_amr">"amr type (lage-kwaliteit)"</string>
+     <string name="record_3gpp">"3ggp type (hoge kwaliteit)"</string>
+     <string name="button_cancel">Beëindig</string>
+     <string name="path_save">"Standaardpad bewaard"</string>
+     <string name="path_nosave">"Standaardpad niet bewaard"</string>
+     <string name="path_default">"Het huidige pad is niet beschrijfbaar of ongeldig, dit is het pad naar het interne opslag pad"</string>
+     <string name="menu_set_save_path">"Stel bewaren pad in"</string>
+     <string name="back">"Terug.."</string>
+     <string name="path_label">"Selecteer het bewaren pad"</string>
+     <string name="pause">"Pauze"</string>
+     <string name="storage_is_not_enough">"Niet voldoende opslag"</string>
+     <string name="menu_recording_file_list">"Ompname bestandslijst"</string>
+     <string name="recording_list_empty">Leegmaken lijst</string>
+     <string name="menu_recording_list_select_all">Kies alles</string>
+     <string name="menu_recording_list_delete">Verwijder</string>
+     <string name="menu_recording_list_deselect_all">"deselecteer"</string>
+     <string name="recording_file_delete_success">"Opname Verwijdert"</string>
+     <string name="recording_file_database_failed">"Verwijderen database bestand mislukt"</string>
+     <string name="recording_file_delete_failed">"Verwijderen opnamebestand mislukt"</string>
+     <string name="confirm_del">"Bent u zeker dat u de bestanden wilt verwijderen?"</string>
+     <string name="button_delete">Verwijder</string>
+     <string name="recording_file_delete_alert_title">Verwijder</string>
+     <string name="recording_file_delete_alert_message">"Zeker van het verwijderen van %1$s ?"</string>
+     <string name="recording_file_list">"Ompname bestandslijst"</string>
+     <string name="less_than_one_second">"1 seconde"</string>
+     <string name="is_scanning">"MediaScanner is aan het scannen, even geduld…"</string>
+     <string name="emptylist">"Lijst is leeg"</string>
+     <string name="choose_file">"Selecteer de opnamebestanden die u wilt verwijderen!"</string>
+     <string name="error_path">"Het door u geselecteerde pad bestaat niet, reset!"</string>
+     <string name="path_miss">"Het opgeslagen pad bestaat niet of  is niet toegankelijk!"</string>
+     <string name="low_memory">"Niet genoeg telefoongeheugen, het opnemen word sop gezet!"</string>
+     <string name="record_error">"Opnemen een uitzondering deed zich voor!"</string>
+     <string name="play_error">"Muziek speler werd uitgeschakelt, niet in staat te openen!"</string>
+     <string name="dialog_title">Kies a.u.b.</string>
+     <string name="dialog_message">"De opname bewaren?"</string>
+     <string name="same_application_running">"Het opname apparaat is in gebruik door een ander programma, gelieve dit te sluiten"</string>
+     <string name="recording_time_short">Opnametijd minder dan 1 seconde, niet opgeslagen</string>
+     <string name="file_path_button">"Bestandspad"</string>
+     <string name="file_name">"Bestandsnaam: "</string>
+     <string name="file_path">"Bestandspad: "</string>
+     <string name="rename">"Naam wijzigen"</string>
+     <string name="rename_save">"Hernoemen succesvol"</string>
+     <string name="rename_nosave">hernoemen gefaald</string>
+     <string name="filename_is_not_modified">"Bestandsnaam is niet veranderd"</string>
+     <string name="duplicate_name">"bestandsnaam duplicaat"</string>
+     <string name="soundpicker_label">Kies alstublieft opnamebestand</string>
+     <string name="error_sdcard_path">"sdkaart bestaat niet. Standaard opslag pad is veranderd naar interne osslag."</string>
+     <string name="input_length_overstep">"Invoer heeft max lengte bereikt"</string>
+     <string name="filename_empty_error">"Bestandsnaam kan niet leeg zijn, bewaar de originele naam"</string>
+     <string name="please_choose_files">"kies a.u.b. bestanden"</string>
+     <string name="selected_files_count">"heeft gekozen<xliff:g id="COUNTS">%d</xliff:g>"</string>
+     <string name="use_default_path">"Het opgeslagen pad bestaat niet, gebruik standaard pad"</string>
+     <string name="stroage_not_mounted">"De opslag is niet geplaatst"</string>
+     <string name="special_char_exist">"Speciale tekens <xliff:g id="COUNTS">%s</xliff:g> worden niet ondersteunt"</string>
+     <string name="menu_select_more">Kies meer</string>
+     <string name="menu_select_type">"Stel bestandstype in"</string>
+     <string name="path_miss_nosave">"Het opgeslagen pad bestaat niet, Opname niet bewaard!"</string>
+     <string name="dialog_dismiss">"Negeren"</string>
+     <string name="error_permissions">"De app beschikt niet over bepaalde essentiële rechten. Controleer uw instellingen voor rechten."</string>
+
+    <string name="internal_sdcard">"Interne sd-kaart"</string>
+     <string name="external_sdcard">"Externe sd-kaart"</string>
+    <string name="internal_storage">"Interne opslag"</string>
+     <string name="external_storage">Externe opslag</string>
+     <string name="set_as_ring">"Instellen als beltonen"</string>
+     <string name="read_file_path">"Controleer het pad"</string>
+     <string name="operate_share">"Delen"</string>
+     <string name="ringtone_title_sim1">"SIM1 Beltoon"</string>
+     <string name="ringtone_title_sim2">"SIM2 Beltoon""</string>
+     <string name="ringtone_menu_short">"Gebruiken als beltoon"</string>
+     <string name="please_insert_sim_card">"Gelieve tenminste een SIMKAART te plaatsen"</string>
+     <string name="ring_set_silent_vibrate">"Gepersonaliseerde Beltonen wordt niet ondersteund in de huidige modus"</string>
+     <string name="ringtone_set_sim1">"\"<xliff:g id="name" voorbeeld="Alarm Bell">%s</xliff:g>\" instellen als SIM1 Beltoon."</string>
+     <string name="ringtone_set_sim2">"\"<xliff:g id="name" voorbeeld="Alarm Bell">%s</xliff:g>\" instellen als SIM2 Beltoon."</string>
+     <string name="ringtone_set">"\'<xliff:g id="NAME">%s</xliff:g>\' is ingesteld als de beltoon van de telefoon."</string>
+     <string name="ring_set_fail">Sorry, het lied kan niet worden afgespeeld. Kies a.u.b. een ander lied als beltoon</string>
+     <string name="tag_limit">"Het aantal labels heeft het maximum bereikt"</string>
+     <string name="no_allow_play_calling">"Niet toegestaan om muziek af te spelen tijdens een oproep (radio/video)."</string>
+     <string name="playback_failed">"De speler ondersteunt dit type audiobestand niet."</string>
+     <string name="tag">"Tag"</string>
+     <string name="previous_tag">"Laatst label"</string>
+     <string name="next_tag">"Volgend label"</string>
+     <string name="recording_play">"Opname afspelen"</string>
+     <string name="clip_duration_tip">"Bewerk lengte"</string>
+     <string name="record_setting">"Opname Instelling"</string>
+     <string name="file_type">Type bestand</string>
+     <string name="type_amr">"amr type"</string>
+     <string name="type_3gpp">"3gpp type"</string>
+     <string name="save_path">"opgeslagen pad"</string>
+     <string name="set_timer_recording">"Timer opname instellen"</string>
+     <string name="timer_recording_detail">"Start opname in <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> voor <xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">"Details weergeven"</string>
+     <string name="file_size">"Bestandsgrootte："</string>
+     <string name="file_date">"Bestand datum："</string>
+     <string name="recording_start_time">"Opname starttijd"</string>
+     <string name="recording_duration">"Opnameduur uur"</string>
+     <string name="tuned_timer_recording">"Timeropname ingeschakeld"</string>
+     <string name="miss_timer_recording">"Gemiste timeropname"</string>
+     <string name="miss_timer_time">"Tijd: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>" uur"</item>
+        <item>" uren"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"Timeropname instellen voor minder dan 1 minuut van nu."</item>
+        <item>"Timeropname ingesteld voor <xliff:g id="HOURS">%1$s</xliff:g> van nu."</item>
+        <item>"Timeropname ingesteld voor <xliff:g id="MINUTES">%2$s</xliff:g> van nu."</item>
+        <item>"Timeropname ingesteld voor <xliff:g id="HOURS">%1$s</xliff:g> en <xliff:g id="MINUTES">%2$s</xliff:g> van nu."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">"1 uur"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> uren"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"1 minuten"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g>  minuten"</item>
+    </plurals>
+     <string name="start_record">"start opname"</string>
+     <string name="resume_record">"hervat opname"</string>
+     <string name="start_play">"start afspelen"</string>
+     <string name="resume_play">"herneem afspelen"</string>
+     <string name="reset_timer_recording">"Het opname-apparaat wordt gebruikt door een ander programma, stel de timeropname opnieuw in!"</string>
+     <string name="storage_not_enough">"Opslag is niet genoeg, niet in geslaagd om de timeropname te starten!"</string>
+     <string name="phone_storage_not_enough">"Onvoldoende telefoonopslag!"</string>
+</resources>

@@ -1,0 +1,73 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="TopPanelIcon">
+        <item name="android:layout_width">@dimen/mode_option_width</item>
+        <item name="android:layout_height">@dimen/top_panel_height</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="SlidePanelText">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="DreamText">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#7f000000</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">6</item>
+    </style>
+    <style name="WideAngleText" parent="@style/DreamText">
+    </style>
+    <style name="DreamSeekbar" parent="@android:style/Widget.Material.SeekBar">
+        <item name="android:progressDrawable">@drawable/bottom_progress_bar</item>
+        <item name="android:thumb">@drawable/dream_seekbar_thumb_material_anim</item>
+        <item name="android:paddingStart">30dp</item>
+        <item name="android:paddingEnd">30dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:shadowColor">#7f000000</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">6</item>
+        <item name="android:splitTrack">false</item>
+        <!-- <item name="android:thumb">@drawable/thumb</item> -->
+    </style>
+
+    <style name="textShadow">
+        <item name="android:shadowColor">#7f000000</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">6</item>
+    </style>
+
+    <!-- fix bug 578797 New feature:QR code -->
+    <style name="QrCodeTopPanelIcon">
+        <item name="android:layout_width">@dimen/mode_option_width</item>
+        <item name="android:layout_height">@dimen/top_panel_height</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="SecurityPreferenceButtonContainer"
+        parent="@android:style/Widget.Material.Light.SegmentedButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:weightSum">2</item>
+        <item name="android:dividerPadding">8dip</item>
+        <item name="android:background">#2e2e2e</item>
+    </style>
+    <style name="SecurityPreferenceButton"
+        parent="@android:style/Widget.Material.Light.Button.Borderless">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">#2e2e2e</item>
+    </style>
+</resources>

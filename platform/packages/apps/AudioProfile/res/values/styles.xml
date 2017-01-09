@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="Theme_Holo_Light_new_ui" parent="@*android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/OnlyTitleActionBar</item>
+    </style>
+    <style name="OnlyTitleActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:displayOptions">showTitle</item>
+    </style>
+    <style name="AudioProfileTheme" parent="@*android:style/Theme.Material.Settings">
+        <item name="android:actionBarStyle">@style/AudioProfileActionBar</item>
+    </style>
+    <style name="AudioProfileActionBar" parent="@*android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:displayOptions"></item>
+        <item name="android:background">#ff263238</item>
+    </style>
+
+</resources>

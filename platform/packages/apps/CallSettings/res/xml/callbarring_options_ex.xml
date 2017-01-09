@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Spreadst -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:phone="http://schemas.android.com/apk/res-auto"
+     android:title="@string/call_barring_settings">
+
+
+    <!-- Note for all com.android.phone.EditPreference objects
+
+         The last several attributes are for use with the EditText field
+         in the dialog.  These attributes are forwarded to that field
+         when the edittext is created.  The attributes include:
+           1. android:singleLine
+           2. android:autoText
+           3. android:background -->
+    <!-- SPRD: Add for VoLTE. BEGIN -->
+    <PreferenceScreen
+        android:key="button_call_out"
+        android:title="@string/labelCOUT"
+        android:persistent="false"
+        android:singleLine="true"
+        android:autoText="false"
+        android:enabled="true" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="button_call_in"
+        android:title="@string/labelCIN"
+        android:persistent="false"
+        android:singleLine="true"
+        android:autoText="false"
+        android:enabled="true" >
+    </PreferenceScreen>
+
+    <!-- END -->
+    <com.android.callsettings.callbarring.CallBarringEditPreference
+        android:key="button_ao_key"
+        android:title="@string/labelAO"
+        android:persistent="false"
+        android:summaryOn="@string/sum_ao_enabled"
+        android:summaryOff="@string/sum_ao_disabled"
+        android:dialogTitle="@string/labelAO"
+        android:dialogMessage="@string/messageAO"
+        phone:aconfirmMode="activation"
+        phone:aserviceClass="voice"
+        phone:areason="AO"
+        android:singleLine="true"
+        android:autoText="false"/>
+
+    <!-- See note on com.android.phone.EditPreference above -->
+    <com.android.callsettings.callbarring.CallBarringEditPreference
+        android:key="button_oi_key"
+        android:title="@string/labelOI"
+        android:persistent="false"
+        android:summaryOn="@string/sum_oi_enabled"
+        android:summaryOff="@string/sum_oi_disabled"
+        android:dialogTitle="@string/labelOI"
+        android:dialogMessage="@string/messageOI"
+        phone:aconfirmMode="activation"
+        phone:aserviceClass="voice"
+        phone:areason="OI"
+        android:singleLine="true"
+        android:autoText="false"/>
+
+    <!-- See note on com.android.phone.EditPreference above -->
+    <com.android.callsettings.callbarring.CallBarringEditPreference
+        android:key="button_ox_key"
+        android:title="@string/labelOX"
+        android:persistent="false"
+        android:summaryOn="@string/sum_ox_enabled"
+        android:summaryOff="@string/sum_ox_disabled"
+        android:dialogTitle="@string/labelOX"
+        android:dialogMessage="@string/messageOX"
+        phone:aconfirmMode="activation"
+        phone:aserviceClass="voice"
+        phone:areason="OX"
+        android:singleLine="true"
+        android:autoText="false"/>
+
+    <!-- See note on com.android.phone.EditPreference above -->
+    <com.android.callsettings.callbarring.CallBarringEditPreference
+        android:key="button_ai_key"
+        android:title="@string/labelAI"
+        android:persistent="false"
+        android:summaryOn="@string/sum_ai_enabled"
+        android:summaryOff="@string/sum_ai_disabled"
+        android:dialogTitle="@string/labelAI"
+        android:dialogMessage="@string/messageAI"
+        phone:aconfirmMode="activation"
+        phone:aserviceClass="voice"
+        phone:areason="AI"
+        android:singleLine="true"
+        android:autoText="false"/>
+
+    <!-- See note on com.android.phone.EditPreference above -->
+    <com.android.callsettings.callbarring.CallBarringEditPreference
+        android:key="button_ir_key"
+        android:title="@string/labelIR"
+        android:persistent="false"
+        android:summaryOn="@string/sum_ir_enabled"
+        android:summaryOff="@string/sum_ir_disabled"
+        android:dialogTitle="@string/labelIR"
+        android:dialogMessage="@string/messageIR"
+        phone:aconfirmMode="activation"
+        phone:aserviceClass="voice"
+        phone:areason="IR"
+        android:singleLine="true"
+        android:autoText="false"/>
+
+    <!-- See note on com.android.phone.EditPreference above -->
+    <com.android.callsettings.callbarring.CallBarringEditPreference
+        android:key="button_ab_key"
+        android:title="@string/labelAB"
+        android:persistent="false"
+        android:dialogTitle="@string/labelAB"
+        android:dialogMessage="@string/messageAB"
+        phone:aconfirmMode="activation"
+        phone:aserviceClass="voice"
+        phone:areason="AB"
+        android:singleLine="true"
+        android:autoText="false"/>
+
+    <!-- See note on com.android.phone.EditPreference above -->
+    <com.android.callsettings.callbarring.CallBarringChgPwdPreference
+        android:key="button_chgpwd_key"
+        android:title="@string/labelChgPwd"
+        android:persistent="false"
+        android:dialogTitle="@string/DlgChgPwd_oldpwd"
+        phone:aconfirmMode="activation"
+        android:singleLine="true"
+        android:autoText="false"/>
+</PreferenceScreen>
+

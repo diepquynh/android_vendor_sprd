@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item_fm_record"
+        android:enabled="true"
+        android:icon="@drawable/item_record_icon"
+        android:showAsAction="always"
+        android:title="@string/record_title"/>
+    <item
+        android:id="@+id/fm_station_list"
+        android:enabled="true"
+        android:icon="@drawable/btn_fm_list_selector"
+        android:showAsAction="always"
+        android:title="@string/station_title"/>
+    <item
+        android:id="@+id/fm_headset"
+        android:enabled="true"
+        android:icon="@drawable/btn_fm_headset_selector"
+        android:title="@string/playmode_title_tip"
+        android:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/earphone_menu"
+                android:enabled="true"
+                android:title="@string/optmenu_earphone"/>
+            <item
+                android:id="@+id/speaker_menu"
+                android:enabled="true"
+                android:title="@string/optmenu_speaker"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/fm_record_list"
+        android:showAsAction="never"
+        android:title="@string/fm_over_record_list"/>
+
+    <!-- bug568587, Regularly power off. -->
+    <item
+        android:id="@+id/fm_regularly_poweroff"
+        android:showAsAction="never"
+        android:title="@string/fm_regularly_poweroff"/>
+        <item
+        android:id="@+id/fm_rds_switch"
+        android:showAsAction ="never"
+        android:visible="false"
+        android:title="@string/rds_switch_off" />
+    <item
+        android:id="@+id/fm_rds_af_switch"
+        android:showAsAction ="never"
+        android:visible="false"
+        android:title="@string/rds_af_switch_off" />
+    
+
+</menu>

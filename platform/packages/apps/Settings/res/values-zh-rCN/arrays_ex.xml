@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*
+** Copyright © 2016 Spreadtrum Communications Inc.
+*/
+ -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- SPRD: Bug#474381 support GPS automatic update time BEG -->
+  <string-array name="auto_time_entries">
+    <item>使用网络提供时间</item>
+    <item>使用GPS提供时间</item>
+    <item>关闭</item>
+  </string-array>
+  <string-array name="auto_time_entries_no_gps">
+    <item>使用网络提供时间</item>
+    <item>关闭</item>
+  </string-array>
+  <!-- support GPS automatic update time END -->
+  <!-- SPRD: Bug#474460 Add for SPRD USB Feature BEG -->
+  <string-array name="os_string_array">
+    <item>(未指定)</item>
+    <item>Windows XP</item>
+    <item>Windows Vista</item>
+    <item>Windows 7</item>
+    <item>Windows 8</item>
+  </string-array>
+  <!-- Add for SPRD USB Feature END -->
+</resources>

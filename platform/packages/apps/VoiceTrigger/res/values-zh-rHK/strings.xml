@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources >
+
+    <!-- hint information text start -->
+    <string name="info_press_to_start">點擊按鈕開始錄音</string>
+    <string name="info_default">請在安靜環境下，距離手機30釐米錄音</string>
+    <string name="info_please_wait">正在驗證，請稍後…</string>
+    <string name="info_recording">正在錄音…</string>
+    <string name="info_talk_louder">請大聲說話</string>
+    <string name="info_pause_before">說前請停頓1-2秒"</string>
+    <string name="info_too_noisy">環境太吵，請換個安靜的地方</string>
+    <string name="info_talk_softer">請輕聲說話</string>
+    <string name="info_bad_recording">錄製失敗</string>
+    <string name="info_talk_slower">請慢點說話</string>
+    <string name="info_too_many_sound">聲音重複次數太多</string>
+    <string name="info_check_rec">正在驗證錄音，請售後…</string>
+    <string name="info_problems_in_rec">錄音驗證失敗，請重新錄入喚醒詞</string>
+    <!-- hint information text end -->
+    <string name="change_language_progress_dialog_message">正在切換語言，請稍後… </string>
+    <string name="voicetrigger_wakeup_item_1">%1$s (默認)</string>
+    <string name="voicetrigger_wakeup_item_2">自定義</string>
+    <!-- the temp prompting text to awake device start -->
+    <string name="prompting_user_defined_text">自定義喚醒詞的內容</string>
+    <string name="prompting_text_default">請說：%1$s</string>
+    <string name="prompting_text_1">請再次說：%1$s</string>
+    <string name="prompting_text_2">已完成</string>
+    <!-- the temp prompting text to awake device end -->
+
+
+    <!-- the dialog text for first use guide start -->
+    <string name="dialog_title">注意</string>
+    <string name="dialog_firstuse_info">你是第一次使用該功能，需要錄入喚醒詞才能使用該功能，是否錄入？</string>
+    <!-- the dialog text for first use guide end -->
+
+    <string name="is_not_systemuser">"當前不是系統用戶，不能使用語音喚醒！"</string>
+    <string name="sensibility_text">設定喚醒詞在識別時的靈敏度\n當靈敏度設定越高，喚醒率越高\n當靈敏度設定越低，喚醒率越低\n\n</string>
+
+    <!-- the permission for androidM start-->
+    <string name="error_app_internal">"內部應用程式錯誤。"</string>
+    <string name="dialog_dismiss">"關閉"</string>
+    <string name="error_permissions">"這個應用程式缺乏必要的關鍵權限，因此無法執行。請檢查您的權限設定。"</string>
+    <!-- tthe permission for androidM end-->
+
+    <!-- the dialog text for change languages at first record start -->
+    <string name="dialog_title_notice">提示</string>
+    <string name="dialog_change_language_first">檢測到你沒有設置當前語言的喚醒詞，你需要設置新的喚醒詞，才能切換到該語言，是否繼續？</string>
+    <string name="voicetrigger_wakeup_title">喚醒詞</string>
+    <string name="voicetrigger_input_title">錄入喚醒詞</string>
+    <string name="generate_voicetrigger_words_success">生成语音唤醒词成功</string>
+    <string name="language_changed_success">語言切換成功</string>
+    <string name="save_file_to_device_error">喚醒詞切換失敗，請稍後重試！</string>
+    <string name="language_changed_failed">語言切換失敗，請稍後重試!</string>
+    <string name="language_change_has_canceled">已取消，你仍可以使用之前的語言喚醒設備</string>
+    <string name="audio_voicetrigger_subtitle_wakeup_userdefine">用戶自定義</string>
+    <string name="audio_voicetrigger_words">喚醒詞</string>
+    <string name="audio_voicetrigger_support_fun">支持功能說明</string>
+    <string name="audio_voicetrigger_help">幫助</string>
+    <string name="app_name">語音喚醒</string>
+    <string name="same_application_running">"錄音設備正在被其它程式使用中，請先關閉此類程式！"</string>
+    <string name="voicetrigger_describe">當手機就在附近或不方便拿起手機進行相關操作時，如打電話、聽音樂等等，可以通過喚醒詞喚醒手機並使用語音進行相關的操作。</string>
+    <string name="voicetrigger_connect_headset_content">在連接有線耳機、藍牙耳機時，仍然能够喚醒手機並正常使用，不過您的聲音是通過手機麥克風收集的，通過耳機的麥克風並不能喚醒手機</string>
+    <string name="audio_voicetrigger_connect_headset">連接耳機使用</string>
+    <string name="audio_voicetrigger_language_choose">選擇語音指令語言</string>
+    <string name="audio_voicetrigger_sensibility">識別靈敏度</string>
+    <string name="audio_voicetrigger_subtitle_help">試聽自定義喚醒詞</string>
+    <string name="audio_voicetrigger_subtitle_language_choose">設定語音指令的語言</string>
+    <string name="audio_voicetrigger_subtitle_wakeup_default">喚醒詞內容</string>
+    <string name="support_call_phone">打電話</string>
+    <string name="support_call_phone_summary">"對手機說：\' [您正在使用的喚醒詞] + 打電話給小王\'，手機即自動撥號給某人"</string>
+    <string name="support_camera">拍照</string>
+    <string name="support_camera_summary">"對手機說：\' [您正在使用的喚醒詞] + 給我拍照\'，手機即自動打開相機並直接拍照"</string>
+    <string name="support_find_phone">找手機</string>
+    <string name="support_find_phone_summary">"呼喊：\' [您正在使用的喚醒詞] + 你在那兒？\'，手機會自動播放自訂的鈴聲回應您"</string>
+    <string name="support_open_app">打開應用</string>
+    <string name="support_open_app_summary">"對手機說：\' [您正在使用的喚醒詞] + 打開微信\'，手機即自動打開微信並顯示微信介面"</string>
+    <string name="support_open_music">播放音樂</string>
+    <string name="support_open_music_summary">"對手機說：\' [您正在使用的喚醒詞] + 播放王菲的紅豆\'，手機即自動打開音樂播放機並播放歌曲王菲的《紅豆》"</string>
+    <string name="support_send_mms">發短信</string>
+    <string name="support_send_mms_summary">"對手機說：\' [您正在使用的喚醒詞] + 給小王發短訊\'，手機即自動打開傳送短訊的介面"</string>
+    <!-- the dialog text for change languages at first record end -->
+    <!-- dialog message -->
+     <string name="find_phone_content">"你可以這樣問我：\n\n你在那兒\n聽到請回答\n給個反應"</string>
+     <string name="call_phone_content">"你可以這樣問我：\n\n打電話給小王\n給小民回電\n呼叫移動客服\n撥打114"</string>
+     <string name="send_mms_content">"你可以這樣問我：\n\n給小王發短訊\n發短訊給小民\n給老媽回短訊\n將會議時間短訊給小明"</string>
+     <string name="open_camera_content">"你可以這樣問我：\n\n給我拍照\n來張風景拍照\n拍個路標照片"</string>
+     <string name="open_music_content">"你可以這樣問我：\n\n播放王菲的《紅豆》\n隨機播放一首歌\n我想聽《泡沫》\n來一首張學友的歌"</string>
+     <string name="open_app_content">"你可以這樣問我：\n\n打開微信\n下載\'指南針\'\n啟動記事本"</string>
+     <string name="finished">完成</string>
+     <string name="no_wakeup_words_recoded">沒有定義已輸入的喚醒詞，無法播放</string>
+     <!-- support functions list end -->
+
+    <string-array name="hello_trigger_text_title_array">
+        <item>"你好，請問需要什麼説明？"</item>
+        <item>"請繼續，我在聽… "</item>
+        <item>"你可以這樣問我："</item>
+    </string-array>
+
+     <string name="default_trigger">"Trigger: Hello Blue Genie v3 (Mandarin)"</string>
+     <string name="default_command">"Command: Fitness v2 (Mandarin)"</string>
+     <string name="default_command_sen">"Sensitivity: Normal(15)"</string>
+     <string name="trigger_prompt">"說“你好藍精靈”"</string>
+     <string name="command_prompt1">"現在說下一個…\n"</string>
+     <string name="command_prompt2">"現在說命令"</string>
+     <string name="cmd_step_count">"走步計算"</string>
+     <string name="cmd_calories">"卡路里"</string>
+     <string name="cmd_floors">"爬了多少樓梯 / 樓梯"</string>
+     <string name="cmd_distance">"距離"</string>
+     <string name="cmd_active_minutes">"活躍時間"</string>
+     <string name="cmd_sleep_pattern">"睡眠狀態"</string>
+     <string name="cmd_outside_temperature">"室外溫度"</string>
+     <string name="cmd_outside_humidity">"室外濕度"</string>
+     <string name="cmd_what_time_is_it">"現在是幾點"</string>
+     <string name="cmd_heart_rate">"心率"</string>
+     <string name="resp_step_count">"走步計算 = 4306"</string>
+     <string name="resp_calories">"今天的卡路里燃燒 = 1445"</string>
+     <string name="resp_floors">"今天樓梯 = 8"</string>
+     <string name="resp_distance">"今天距離 = 2.52英里"</string>
+     <string name="resp_active_minutes">"今天活躍時間 = 17分鐘"</string>
+     <string name="resp_sleep_pattern">"今天深度睡眠 = 3小時 25分鐘"</string>
+     <string name="resp_outside_temperature">"室外溫度 = 23C"</string>
+     <string name="resp_outside_humidity">"室外濕度 = 41％"</string>
+     <string name="resp_what_time_is_it">"目前時間 ="</string>
+     <string name="resp_heart_rate">"心臟速率 = 每分鐘74次"</string>
+     <string name="time_left">"剩餘時間: X 秒"</string>
+
+    <string name="update_phrass_success">"更新喚醒詞成功"</string>
+
+</resources>

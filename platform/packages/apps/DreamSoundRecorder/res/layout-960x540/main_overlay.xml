@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by Spreadst -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/timerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="@string/recording_list_empty"
+        android:textColor="#4b4c57"
+        android:textSize="65sp" />
+
+    <RelativeLayout
+        android:id="@+id/timerViewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timerView"
+        android:layout_marginTop="2dp"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/stateMessage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/stateLED"
+            android:text="@string/recording"
+            android:textColor="#7d7d7d"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/stateMessage1"
+            style="@android:style/TextAppearance.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/stateMessage2"
+            android:textColor="#7d7d7d"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/opt_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dip" >
+
+        <ImageButton
+            android:id="@+id/tagButton"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dip"
+            android:background="#00000000"
+            android:src="@drawable/tag_disabled"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/recordButton"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="18dp"
+            android:layout_marginTop="5dip"
+            android:background="#00000000"
+            android:src="@drawable/record" />
+
+        <ImageButton
+            android:id="@+id/stopButton"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="18dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dip"
+            android:background="#00000000"
+            android:src="@drawable/stop"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/wavesLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timerViewLayout"
+        android:layout_above="@id/opt_button"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" >
+    </RelativeLayout>
+
+</RelativeLayout>

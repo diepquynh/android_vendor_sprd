@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_number">"Către:"</string>
+<string name="cancel_call">"Anulare"</string>
+<string name="delivery_toast_body_fail">"Mesajul nu a fost primit de  %s."</string>
+<string name="read_report_toast_body">"Mesajul a fost citit de %s."</string>
+<string name="read_report_toast_body_fail">"Mesajul nu a fost citit de %s."</string>
+<string name="delivery_toast_body_fail_rejected">"Mesajul a fost respins de %s."</string>
+<string name="user_not_exist">"Utilizatorul nu exista."</string>
+<string name="menu_resend">"Retrimitere"</string>
+<string name="low_storage_toast">"Vă apropiaţi de limita maximă a spaţiului! Ştergeţi câteva fişiere pentru a elibera spaţiu."</string>
+<string name="failed_to_download_mms">"Descărcarea MMS-ului nu a reuşit, încercaţi din nou mai târziu"</string>
+<string name="failed_to_send_mms">"Trimiterea MMS-ului nu a reuşit, încercaţi din nou mai târziu"</string>
+<string name="success_to_send_mms">"MMS trimis"</string>
+<string name="sim_x">"SIM%s"</string>
+<string name="sim_card_not_ready">"Cardul sim nu este gata"</string>
+<string name="sim_is_invalid">"Cardul sim nu este gata"</string>
+<string name="on_progress">"In curs de procesare, Va rugam asteptati..."</string>
+<string name="pref_internal_memory_usage_title">"MMS/Disponibil/Total"</string>
+<string name="pref_internal_memory_usage_progress_summary">"Se calculează spaţiul din memorie..."</string>
+<string name="please_wait_title">"Va rugam asteptati..."</string>
+<string name="sim_card_setting">"Setari card SIM "</string>
+<string name="multi_sim_manage_messages_title">"<xliff:g id="COUNT">%1$S</xliff:g> mesaje pe SIM"</string>
+<string name="pref_title_manage_sim_setting">"Administrează setări SIM"</string>
+<string name="pref_summary_manage_sim_setting">"Gestionati mesajele stocate pe SIM, Rapoartele de Livrare, Timpul Expirat, Setari Smsc  etc."</string>
+<string name="pref_summary_notification_ringtone">"Ton de apel implicit"</string>
+<string name="pref_summary_notification_ringtone_silent">"Silenţios"</string>
+<string name="menu_sim_capacity">"Capacitate SIM"</string>
+<string name="pref_title_manage_multi_sim_messages">"Gestionează mesajele de pe cartela SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="pref_summary_manage_multi_sim_messages">"Gestionează mesajele stocate pe cartela SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_sim_success">"Realizat pe SIM"</string>
+<string name="toast_copy_to_sim_failure">"Nu s-a putut copia pe SIM"</string>
+<string name="toast_sim_memory_full">"Memoria SIM este plină"</string>
+<string name="toast_copy_to_multi_sim_success">"Copiere reuşită pe SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_multi_sim_failure">"Copiere nereuşită pe SIM<xliff:g id="COUNT">%1$s<xl></xl></xliff:g>"</string>
+<string name="toast_multi_sim_memory_full">"SIM <xliff:g id="COUNT">%1$S</xliff:g> memoria este plină"</string>
+<plurals name="conversation_num">
+<item quantity="one">"Aveţi o conversaţie."</item>
+<item quantity="other">"Aveţi <xliff:g id="number">%1$s</xliff:g> conversaţii."</item>
+</plurals>
+<string name="count_of_new_mms">"%s mesaje noi"</string>
+<string name="pref_summary_store_sms_on_sim">"La primirea unui sms nou, salvati-l pe SIM sau nu "</string>
+<string name="pref_title_store_sms_on_sim">"Salvati sms pe SIM"</string>
+<string name="pref_title_sms_validity">"valabilitate SMS "</string>
+<string name="done_slide_show">"Terminat"</string>
+<string name="smsc_check_fdn_failure">"Numarul de centru mesaje nu exista in lista fdn."</string>
+<string name="muti_select_all">"Selectare toate"</string>
+<string name="menu_select_none">"Deselectare toate"</string>
+<string name="Conversation_check_type_selected_all">"Selectare toate"</string>
+<string name="menu_msg_folder">"Vizualizare dosar"</string>
+<string name="menu_msg_list">"Vizualizare mesaj"</string>
+<string name="folder_inbox">"Căsuţă poştală electronică"</string>
+<string name="folder_outbox">"Căsuţa de ieşire"</string>
+<string name="folder_sent">"Trimis"</string>
+<string name="folder_drafts">"Ciorne"</string>
+<string name="folder_empty">"Nu există mesaje în acest dosar."</string>
+<string name="folder_display_all">"Afişează toate mesajele"</string>
+<string name="folder_delete_messages">"Ştergere mesaje"</string>
+<string name="folder_loading">"se încarcă.."</string>
+<string name="folder_reply">"Răspuns"</string>
+<string name="folder_forward">"Redirecţionează"</string>
+<string name="no_msg_del">"Nu a fost şters niciun mesaj"</string>
+<string name="exceed_slides_number_limitation">"S-a atins limita numărului de slide-uri"</string>
+<string name="has_vcard_or_vcalendar_attachment">"Deja există  <xliff:g id="TYPE">%1$s</xliff:g>, nu puteţi adăuga mai mult"</string>
+<string name="folder_sortby">"Sortare în funcţie de"</string>
+<string-array name="sort_type">
+<item>"În funcţie de oră"</item>
+<item>"După adresă"</item>
+</string-array>
+<string name="OTAConfig_title">"Setările configuraţiei OTA"</string>
+<string name="OTAConfig_Message">"Sigur doriţi să salvaţi configuraţia OTA?"</string>
+<string name="OTAConfiy_Success">"Setare reuşită a mesajelor OTA"</string>
+<string name="OTAConfiy_Error">"Configurarea OTA nu a reuşit"</string>
+<string name="ota_pin_error">"Securitatea OTA a eşuat"</string>
+<string name="ota_retry">"eroare parolă"</string>
+<string name="ota_pin_exception">"Configurarea OTA nereuşită：eroare program."</string>
+<string name="ota_mime_error">"Configurarea OTA nereuşită：eroare date mesaj."</string>
+<string name="ota_support_not">"Configurarea OTA nereuşită：<xliff:g id="OTATYPE">%1$s</xliff:g> tipul nu este suportat."</string>
+<string name="pref_reply_path_title">"Setari cale de raspuns"</string>
+<string name="pref_title_reply_path">"Cale de raspuns"</string>
+<string name="pref_summary_reply_path">"Raspundeti prin acelasi centru"</string>
+<string name="cannot_add_picture_and_vcard">"Nu se poate adăuga vcard şi imagine pe acelaşi slide."</string>
+<string name="mms_setting">"Setări Mms"</string>
+<string name="pref_title_font_size">"Setare dimensiune litere"</string>
+<string name="font_size_setting">"Setare dimensiune litere"</string>
+<string name="font_size">"Dimensiunea literei este: <xliff:g id="font_size_id">%1$s</xliff:g>"</string>
+<string name="menu_copy_to_sim_memory">"Copiază mesaj pe SIM"</string>
+<string name="menu_add_recipient_to_contacts">"Adaugă <xliff:g id="name">%s</xliff:g> la contacte"</string>
+<string name="action_done">"Terminat"</string>
+<string name="message_signature_setting">"Setări semnătură"</string>
+<string name="pref_signature_enable_title">"Semnătură opţională"</string>
+<string name="pref_signature_enabl_summary">"Ataşaţi automat semnătura la fiecare mesaj Mms trimis"</string>
+<string name="pref_signature_input_title">"Editează semnătura"</string>
+<string name="pref_signature_input_summary">"Accesaţi Setările pentru a configura semnătura"</string>
+<string name="pref_signature_input_limited">"S-a atins limita maximă a semnăturii"</string>
+<string name="pref_hint_signature_edittext">"Vă rugăm să inseraţi semnătura dvs."</string>
+<string name="toast_append_signature_failed">"Adăugarea semnăturii la Mms a eşuat, dimensiunea maximă a slide-urilor a fost atinsă"</string>
+<string name="pageIndex">"Pagina %s"</string>
+<string name="remove_subject">"şterge subiect"</string>
+<string name="toast_message_when_memory_full">"Memorie plina, va rugam sa mai eliberati si sa reporniti"</string>
+<string name="toast_save_classzero_message_failed">"Nu există spaţiu liber, mesajul nu a fost salvat"</string>
+<string name="toast_shared_file_failed">"Fişier media nesuportat, partajare eşuată."</string>
+<string name="message_too_many_recipients_picked">"Ne pare rău, nu puteţi adăuga mai mult de <xliff:g id="COUNT">%1$s</xliff:g> contacte în acelaşi timp"</string>
+<string name="pref_title_manage_sim_smsc">"Centru Servicii SMS"</string>
+<string name="smsc_set_fails">"Setarea Smsc eşuată"</string>
+<string name="smsc_set_success">"Setare reuşită."</string>
+<string name="smsc_change_success">"Modificare reuşită."</string>
+<string name="smsc_add_success">"Adăugare reuşită"</string>
+<string name="received_new_wap_contact">"S-a primit un mesaj Sms Vcard"</string>
+<string name="save_new_wap_contact">"Salvare"</string>
+<string name="cancle_new_wap_contact">"Anulare"</string>
+<string name="menu_sim_message">"Mesaje pe SIM"</string>
+<string name="folder_display_option">"Optiuni de afisare"</string>
+<string name="confirm_open_browser_dialog_title">"Mesaj"</string>
+<string name="confirm_open_browser_dialog_message">"Se va deschide browser-ul, continuaţi?"</string>
+<plurals name="delete_confirm">
+<item quantity="one">"Selectaţi 1 element"</item>
+<item quantity="other">"Selectaţi <xliff:g id="del_count">%1$s</xliff:g> elemente"</item>
+</plurals>
+<string name="select_sim_card">"Va rugam selectati cardul SIM "</string>
+<string name="menu_video_call_back">"Apel video <xliff:g id="name">%s</xliff:g>"</string>
+<string name="menu_edit_before_call_back">"Editează înainte de a apela <xliff:g id="name">%s</xliff:g>"</string>
+<string name="min_zoom">"s-a atins limita minimă"</string>
+<string name="max_zoom">"s-a atins limita maximă"</string>
+<string name="sms_merge_forward">"Uneşte şi trimite mai departe"</string>
+<string name="sms_merge_dialog_title">"Interogare"</string>
+<string name="sms_merge_dialog_content">"Puteţi uni doar între 2 şi 30 de mesaje SMS. Vă rugăm să verificaţi."</string>
+<string name="sms_merge_forward_empty">"Nu există mesaje sms de unit şi trimis mai departe."</string>
+<string name="sms_forwarding_number">"Setari inaintare Sms "</string>
+<string name="pref_sms_forwarding_number_title">"Numărul la care se va trimite SMS-ul"</string>
+<string name="pref_sms_forwarding_number_summary">"Trimite SMS mai departe cu numărul expeditorilor"</string>
+<string name="sim_list_title">"Va rugam selectati cardul SIM "</string>
+<string name="type_vcard">"contact"</string>
+<string name="type_vcalendar">"calendar"</string>
+<string name="attach_vcard">"Contact"</string>
+<string name="attach_vcalendar">"Calendar"</string>
+<string name="add_slide_before">"Adaugă slide (înainte)"</string>
+<string name="add_slide_after">"Adaugati diapozitiv (dupa)"</string>
+<string name="re_take_picture">"Salvarea imaginii a eşuat, vă rugăm să captaţi din nou imaginea."</string>
+<string name="exceed_text_length_limitation">"Limita lungimii textului a fost depăşită."</string>
+<string name="move_message_to_phone_memory">"Mesajul a fost copiat în memoria telefonului"</string>
+<string name="can_not_copy_the_message">"Mesajul nu se poate copia"</string>
+<string name="confirm_import_vcard">"Importaţi acest VCard？"</string>
+<string name="pref_title_manage_simx_smsc">"SIM<xliff:g id="COUNT">%1$s</xliff:g> Centru Servicii SMS"</string>
+<string name="simx_settings_title">"SIM<xliff:g id="COUNT">%1$s</xliff:g> Setări"</string>
+<string name="pref_summary_sms_validity">"Validitatea mesajului scurt"</string>
+<string-array name="prefEntries_mms_validity">
+<item>"1 oră"</item>
+<item>"12 oră"</item>
+<item>"24 oră"</item>
+<item>"2 zile"</item>
+<item>"Maxim"</item>
+</string-array>
+<string-array name="prefEntries_mms_priority">
+<item>"Prioritate ridicată"</item>
+<item>"Normal"</item>
+<item>"Prioritate redusă"</item>
+</string-array>
+<string name="pref_title_mms_validity">"MMS este valid"</string>
+<string name="pref_summary_mms_validity">"MMS este valid"</string>
+<string name="pref_title_mms_priority">"Prioritate"</string>
+<string name="pref_summary_mms_priority">"Setarea priorităţilor"</string>
+<string name="sim_settings_title">"Setari card SIM "</string>
+<string name="toast_copy_to_simx_success">"Copiere reuşită pe <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_simx_failure">"Copiere nereuşită pe <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_simx_memory_full">"<xliff:g id="COUNT">%1$s</xliff:g> este plină"</string>
+<string name="pref_title_manage_sim_x_setting">"Administrează SIM<xliff:g id="COUNT">%1$s</xliff:g> Setări"</string>
+<string name="pref_title_mms_creation_mode">"Mod de creare"</string>
+<string-array name="mms_creation_mode_entries">
+<item>"Restricţionat"</item>
+<item>"Avertisment"</item>
+<item>"Gratuit"</item>
+</string-array>
+<string name="exceed_resolution_limit">"Rezolutia depaseste limita"</string>
+<string name="want_to_add_media">"Doriţi să adăugaţi acest <xliff:g id="NAME">%1$s</xliff:g> la mesajul dvs.?"</string>
+<string name="mms_can_not_add_vcard">"Strergeti atasamentele existente pentru a adauga contacte"</string>
+<string name="mms_can_not_add_vcalendar">"Şterge ataşamentul existent pentru a adăuga un slide"</string>
+<string name="converting_to_text_message">"Conversie în mesaj text… "</string>
+<string name="select_calendar">"Selectati Agenda"</string>
+<string name="no_calendar">"Nu exista Agenda"</string>
+<string name="exceed_slides_number_message">"<xliff:g id="NUMBER">%1$s</xliff:g> selectate，numărul max. este <xliff:g id="NUMBER">%2$s</xliff:g>"</string>
+<string name="add_to_blacklist">"Adaugă la lista neagră"</string>
+<string name="failed_addToBlacklist">"Adăugarea la lista neagră a eşuat."</string>
+<string name="creating_slideshow_title">"Creează succesiune de imagini"</string>
+<string name="attachment_vcalendar">"Vcalendar"</string>
+<string name="attachment_vcard">"vcard"</string>
+<string name="text_limited_warning">"Restrictie la intrari"</string>
+<string name="subject_text_length_limitation">"S-a atins limita maximă de lungime a subiectului."</string>
+<string name="attach_commonPhrases">"Propozitii comune"</string>
+<string name="commonphrase_empty">"Fără expresii obişnuite"</string>
+<string name="quick_reply">"Raspuns Rapid"</string>
+<string name="common_messages">"Expresie obişnuită"</string>
+<string name="common_add_text">"Nou"</string>
+<string name="common_delete_text">"Ştergere"</string>
+<string name="common_delete_message">"Confirmaţi ştergerea?"</string>
+<string name="common_delete">"Ştergere"</string>
+<string name="common_phrase_contextmenu_title">"Meniu funcţionare"</string>
+<string name="common_edit">"Editează"</string>
+<string name="commonphrase_delete_empty">"Nicio propozitie nu poate fi stearsa"</string>
+<string name="common_phrase_edit_dialog_title">"Optiuni"</string>
+<string name="common_phrase_edit_dialog_inform">"Salvaţi ce aţi editat?"</string>
+<string name="common_phrase_edit_max_length">"A ajuns la restrictia de intrari!"</string>
+<string name="common_messages_edit">"Editează expresia obişnuită"</string>
+<string name="common_save">"Salvare"</string>
+<string name="common_cancel">"Anulare"</string>
+<string name="add_empty_common_messages">"Introduceţi orice caracter"</string>
+<string name="pref_other_settings_title">"Altele"</string>
+<string name="pre_key_title_common_messages">"Expresie obişnuită"</string>
+<string name="common_phrase_selection">"Selectaţi expresiile obişnuite"</string>
+<string name="wap_push_message_dialog_title">"Mesaj de notificare wap"</string>
+<string name="open_website">"Deschide site"</string>
+<string name="activity_not_found">"Nu s-a găsit o aplicaţie adecvată"</string>
+<string name="add_contact">"Introducere contacte"</string>
+<string name="receive_from">"A se primi din %s"</string>
+<string name="send_from">"A se trimite din %s"</string>
+<string name="dl_expired_wap_push">"Există <xliff:g id="COUNT">%1$s</xliff:g> mesaje wap expirate, se vor şterge."</string>
+<string name="invalid_recipient">"recipient invalid"</string>
+<string name="max_recipients_count">"Numărul limită de destinatari este <xliff:g id="MAXCOUNT">%1$s</xliff:g>."</string>
+<string name="no_media_selected">"Nu s-a selectat niciun mediu!"</string>
+<string name="search_max_length">"Fraza de căutare este prea lungă, se va limita la 512."</string>
+<string name="sim_capacity_used">"Capacitate utilizată:"</string>
+<string name="sim_capacity_total">"Capacitate totală:"</string>
+<string name="too_many_contacts">"Numărul limită de destinatari este <xliff:g id="MAXLIMIT">%1$s</xliff:g>, se vor adăuga primii <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> destinatari."</string>
+<string name="delivery_toast_body_expired">"Mesaj expirat %s."</string>
+<string name="discard_dialog">"Sigur doriţi să renunţaţi la această informaţie?"</string>
+<string name="contacts_count_excceeds">"Aţi adăugat deja <xliff:g id="MAXLIMIT">%1$s</xliff:g> destinatari, nu puteţi să adăugaţi mai mulţi."</string>
+<string name="copy">"Copiere"</string>
+<string name="received_new_wap_vcalendar">"Aţi primit un mesaj SMS vCalendar"</string>
+<string name="remove_vcalendar_first">"Stergeti vcalendar atasat mai intai pentru editarea acestuia."</string>
+<string name="remove_vcard_first">"Ştergeţi mai întâi vCard-ul ataşat pentru a-l edita pe acesta."</string>
+<string name="import_vcalendar">"Importati VCalendar"</string>
+<string name="no_vcalendar">"Nu a fost gasit niciun VCalendar "</string>
+<string name="import_vcalendar_fail">"Vcalendar nu a putut fi importat."</string>
+<string name="unable_to_add_all">"Limita dimensiune mesaj atinsa, anumita parti nu sunt adaugate."</string>
+<string name="replce_slideshow_dilaog_dismiss">"Înlocuirea succesiunii de imagini va şterge ataşamentul curent, doriţi să continuaţi?"</string>
+<string name="pref_title_sms_retry_times">"Activati incercare retransmitere SMS"</string>
+<string name="smsc_list">"Lista de centre SMS"</string>
+<string name="smsc_list_empty">"Niciun număr pentru centrul SMS"</string>
+<string name="smsc_list_loading">"Se încarcă"</string>
+<string name="smsc_list_menu_edit">"Editează"</string>
+<string name="smsc_list_menu_activate">"Activare"</string>
+<string name="smsc_list_not_allow_to_clear">"Ştergerea numărului nu este permisă"</string>
+<string name="smsc_list_empty_number">"Faceţi clic pentru a adăuga un număr nou"</string>
+<string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g> ataşament salvat la<xliff:g id="path">%2$s</xliff:g>,<xliff id="fail">%3$d</xliff> ataşamentul nu a fost salvat"</string>
+<string name="box_msg_list_menu_addtocontacts">"Adaugati in agenda"</string>
+<string name="box_msg_list_menu_call">"Apel"</string>
+<string name="box_msg_list_menu_editbeforecall">"Editează înainte de apelare"</string>
+<string name="box_msg_list_menu_videocall">"Apel video"</string>
+<string name="soundrecorder_fail_msg">"Nu s-a putut iniţia înregistrarea sunetului."</string>
+<string name="camera_fail_msg">"Nu s-a putut porni camera."</string>
+<string name="video_fail_msg">"Nu s-a putut porni înregistrarea video."</string>
+<string name="pref_encode_type_setting_title">"Setări tip codificare"</string>
+<string name="pref_encode_type_title">"Codare tip"</string>
+  <string-array name="prefEntries_sms_validity">
+    <item>"1 oră"</item>
+    <item>"6 oră"</item>
+    <item>"24 oră"</item>
+    <item>"2 zile"</item>
+    <item>"1 săptămână"</item>
+    <item>"Maxim"</item>
+    <item>Maxim</item>
+  </string-array>
+    <string name="confirm_convert_to_mms">"Pentru a conţine email, va fi trimis ca mesaj mms"</string>
+    <string name="send_as_mms">"Trimiteţi un MMS"</string>
+    <string name="send_as_sms">"Trimite sms"</string>
+    <string name="protected_file">"Fişierul protejat nu poate fi adăugat"</string>
+    <string name="success_to_send_sms">"Trimitere sms cu succes"</string>
+    <string name="confirm_ota_message">"Confirmaţi setările OTA?"</string>
+    <string name="confirm_ota">„Ok"</string>
+    <string name="cancel_ota">„Anulare”</string>
+    <string name="ota_cancelled">"Setări OTA anulate."</string>
+    <string name="message_too_big_for_audio">Mesajul este prea mare pentru a atașa un fișier audio.</string>
+
+    <string name="contacts_count_can_send">"Stimate client, aţi depăşit limita de destinatari a sistemului, puteţi trimite doar <xliff:g id="MAXLIMIT">%1$s</xliff:g> , vă rugăm să trimiteţi în loturi."</string>
+    <string name="attach_common_messages">Expresii comune</string>
+    <string name="attach_subject">"Subiect"</string>
+    <string name="add_contacts_dialog_title">"Adaugă contacte"</string>
+    <string name="add_contact_as_text">"Mesaj text"</string>
+    <string name="action_next">"Înainte"</string>
+     <string name="sms_forward">"Redirecţionează"</string>
+     <string name="valid_sub">"Cartelă SIM invalidă"</string>
+     <string name="confirm_import_vcalendar">"Importați acest Vcalendar?"</string>
+     <string name="confirm_save_otherfiles">"Salvați acest atașament?"</string>
+     <string name="pref_notification_settings_title_sim1">"Notificări sim1"</string>
+     <string name="pref_notification_settings_title_sim2">"Notificări sim2"</string>
+     <string name="pref_notification_settings_title_sim">"Notificări sim"</string>
+     <string name="dlg_media_removed">"Materialul fără calea corectă în atașament a fost eliminat, continuați trimiterea?"</string>
+     <string name="toast_media_removed">"Materialul fără calea corectă în atașament a fost eliminat, verificați!"</string>
+     <string name="dl_failure_roaming">"În roaming; mesajul nu se poate descărca!"</string>
+     <string name="recipient_invalid">"<xliff:g id="invalid_number" example="1">%1$s</xliff:g> destinatar(i) invalid (invalizi)"</string>
+     <string name="recipient_invalid_detail">"Invalid(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+     <string name="recipient_changed_detail">"Schimbat(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+</resources>

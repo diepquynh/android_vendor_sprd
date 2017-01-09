@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sprd.pluggersprd"
+    android:installLocation="internalOnly">
+
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <!-- Application needs access to MMS network -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".PluggerActivity"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter
+                android:label="@string/app_name">
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+        </activity>
+
+        <provider android:name=".datamodel.PluggerFileProvider"
+            android:authorities="com.sprd.pluggersprd.datamodel.PluggerFileProvider"
+            android:exported="true">
+            <grant-uri-permission android:pathPattern=".*" />
+        </provider>
+
+        <service android:name=".PluggerIntentService"
+                 android:enabled="true"
+                 android:permission="android.permission.SEND_SMS">
+        </service>
+
+        <receiver android:name=".PluggerReceiver"
+                  android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.plugger.send_mms_nosave" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

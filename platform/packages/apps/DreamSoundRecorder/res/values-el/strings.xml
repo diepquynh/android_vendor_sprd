@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Πρόγραμμα εγγραφής ήχου"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Εγγράψτε το μήνυμά σας"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Το μήνυμα καταγράφηκε"</string>
+    <string name="review_message" msgid="201616012287839474">"Επισκόπηση μηνύματος"</string>
+    <string name="recording" msgid="4426791467211376099">"Εγγραφή"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Η εγγραφή διακόπηκε"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"Ο αποθηκευτικός χώρος είναι πλήρης"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"Έχετε φθάσει στη μέγιστη διάρκεια"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Προσάρτηση χώρου αποθήκευσης USB"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Τοποθετήστε μία κάρτα  SD"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> λεπτά διαθέσιμα"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> δευτ. διαθέσιμα"</string>
+    <string name="accept" msgid="1888285552128743656">"Τέλος"</string>
+    <string name="discard" msgid="761613433029406319">"Απόρριψη"</string>
+    <string name="button_ok" msgid="3004911343723076226">"OK"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Οι εγγραφές σας"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Εγγραφές ήχου"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Οι εγγραφές μου"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"Δεν είναι δυνατή η πρόσβαση στον χώρο αποθήκευσης USB."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"Δεν είναι δυνατή η πρόσβαση στην κάρτα SD."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Εσωτερικό σφάλμα εφαρμογής."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"Δεν ήταν δυνατή η αποθήκευση της ηχογράφησης."</string>
+    <string name="recording_save">"Η εγγραφή αποθηκεύτηκε"</string>
+     <string name="recording_nosave">"Η εγγραφή δεν αποθηκεύτηκε"</string>
+     <string name="phone_message">"Η ενεργοποίηση της εγγραφής ήχου είναι αδύνατη κατά τη διάρκεια μιας κλήσης."</string>
+     <string name="min_and_time_available">"Διαθέσιμα περίπου <xliff:g id="minutes">%d</xliff:g> λεπτά και <xliff:g id="seconds">%d</xliff:g> δευτερόλεπτα"</string>
+     <string name="press_record">"Πιέστε εγγραφή"</string>
+     <string name="save">Αποθήκευση</string>
+     <string name="select_file_type">"Επιλέξτε τον τύπο του αρχείου εγγραφής"</string>
+     <string name="record_amr">"τύπος amr (χαμηλή ποιότητα)"</string>
+     <string name="record_3gpp">"τύπος  3gpp (υψηλή ποιότητα)"</string>
+     <string name="button_cancel">Ακύρωση</string>
+     <string name="path_save">"Η εξ ορισμού διαδρομή αποθηκεύτηκε"</string>
+     <string name="path_nosave">"Η εξ ορισμού διαδρομή δεν αποθηκεύτηκε"</string>
+     <string name="path_default">"Η τρέχουσα διαδρομή δεν είναι εγγράψιμη ή άκυρη, είναι η διαδρομή προς τη διαδρομή εσωτερικής μνήμης"</string>
+     <string name="menu_set_save_path">"Ρύθμιση αποθήκευσης διαδρομής"</string>
+     <string name="back">"Επιστροφή…"</string>
+     <string name="path_label">"Παρακαλούμε επιλέξτε αποθήκευση διαδρομής"</string>
+     <string name="pause">"Παύση"</string>
+     <string name="storage_is_not_enough">"Ανεπαρκής χώρος αποθήκευσης"</string>
+     <string name="menu_recording_file_list">"Λίστα αρχείου εγγραφής"</string>
+     <string name="recording_list_empty">Άδεια λίστα</string>
+     <string name="menu_recording_list_select_all">Επιλογή όλων</string>
+     <string name="menu_recording_list_delete">Διαγραφή</string>
+     <string name="menu_recording_list_deselect_all">"Αποεπιλογή"</string>
+     <string name="recording_file_delete_success">"Η εγγραφή διαγράφηκε"</string>
+     <string name="recording_file_database_failed">"Η διαγραφή του αρχείου της βάσης δεδομένων απέτυχε"</string>
+     <string name="recording_file_delete_failed">"Η διαγραφή του αρχείου εγγραφής απέτυχε"</string>
+     <string name="confirm_del">"Είστε σίγουροι ότι θέλετε να διαγράψετε τα αρχεία;"</string>
+     <string name="button_delete">Διαγραφή</string>
+     <string name="recording_file_delete_alert_title">Διαγραφή</string>
+     <string name="recording_file_delete_alert_message">"Είστε σίγουροι ότι θέλετε να διαγράψετε %1$s ;"</string>
+     <string name="recording_file_list">"Λίστα αρχείου εγγραφής"</string>
+     <string name="less_than_one_second">"1 δευτερόλεπτο"</string>
+     <string name="is_scanning">"Ο σαρωτής Μέσων σκανάρει τώρα, παρακαλούμε περιμένετε…"</string>
+     <string name="emptylist">"Η λίστα είναι κενή"</string>
+     <string name="choose_file">"Παρακαλούμε επιλέξτε την εγγραφή που θέλετε να διαγράψετε αρχεία!"</string>
+     <string name="error_path">"Η διαδρομή που επιλέξατε δεν υπάρχει, παρακαλούμε επαναρυθμίστε!"</string>
+     <string name="path_miss">"Η αποθηκευμένη διαδρομή δεν υπάρχει, ή δεν είναι προσβάσιμη!"</string>
+     <string name="low_memory">"Η μνήμη του τηλεφώνου δεν επαρκεί, η εγγραφή θα διακοπεί!"</string>
+     <string name="record_error">"Προκύπτει μια εξαίρεση στην εγγραφή!"</string>
+     <string name="play_error">"Η αναπαραγωγή μουσικής απενεργοποιήθηκε, δεν μπορεί να ανοίξει!"</string>
+     <string name="dialog_title">Παρακαλώ επιλέξτε</string>
+     <string name="dialog_message">"Αποθήκευση της εγγραφής;"</string>
+     <string name="same_application_running">"Η συσκευή εγγραφής χρησιμοποιείται από άλλο πρόγραμμα, παρακαλούμε κλείστε αυτό το πρόγραμμα!"</string>
+     <string name="recording_time_short">Χρόνος εγγραφής μικρότερος από 1 δευτερόλεπτο, δεν αποθηκεύτηκε</string>
+     <string name="file_path_button">"Διαδρομή αρχείου"</string>
+     <string name="file_name">"Ονομασία αρχείου: "</string>
+     <string name="file_path">"Διαδρομή αρχείου: "</string>
+     <string name="rename">"Μετονομασία"</string>
+     <string name="rename_save">"Επιτυχία μετονομασίας"</string>
+     <string name="rename_nosave">αποτυχία μετονομασίας</string>
+     <string name="filename_is_not_modified">"Το όνομα αρχείου άλλαξε"</string>
+     <string name="duplicate_name">"Διπλό όνομα αρχείου"</string>
+     <string name="soundpicker_label">Παρακαλώ επιλέξτε καταγραφής</string>
+     <string name="error_sdcard_path">"Η κάρτα sd δεν υπάρχει. Η τυπική διαδρομή αποθήκευσης έχει αλλάξει στη εσωτερική αποθήκευση."</string>
+     <string name="input_length_overstep">"Η εισαγωγή έφτασε στο μέγιστο μήκος"</string>
+     <string name="filename_empty_error">"Το όνομα αρχείου δεν μπορεί να είναι κενό , αποθήκευση του αρχικού ονόματος"</string>
+     <string name="please_choose_files">"Παρακαλούμε επιλέξτε αρχεία"</string>
+     <string name="selected_files_count">"έχει κλείσει<xliff:g id="COUNTS">%d</xliff:g>"</string>
+     <string name="use_default_path">"Η αποθηκευμένη διαδρομή δεν υπάρχει,  χρησιμοποιήστε προεπιλεγμένη διαδρομή"</string>
+     <string name="stroage_not_mounted">"Ο αποθηκευτικός χώρος δεν έχει προσαρτηθεί"</string>
+     <string name="special_char_exist">"Ειδικοί χαρακτήρες <xliff:g id="COUNTS">%s</xliff:g> δεν υποστηρίζονται"</string>
+     <string name="menu_select_more">Επιλογή περισσότερων</string>
+     <string name="menu_select_type">"Ρύθμισης μορφής αρχείου"</string>
+     <string name="path_miss_nosave">"Η αποθηκευμένη διαδρομή δεν υπάρχει,  Η εγγραφή δεν αποθηκεύτηκε!"</string>
+     <string name="dialog_dismiss">"Απόρριψη"</string>
+     <string name="error_permissions">"Η εφαρμογή δεν διαθέτει κρίσιμα δικαιώματα που απαιτούνται για την εκτέλεσή της. Ελέγξτε τις ρυθμίσεις δικαιωμάτων."</string>
+
+    <string name="internal_sdcard">"Εσωτερική κάρτα sd"</string>
+     <string name="external_sdcard">"Εξωτερική κάρτα sd"</string>
+    <string name="internal_storage">"Εσωτερικός αποθ. χώρος"</string>
+     <string name="external_storage">Εξωτερική μονάδα αποθήκευσης</string>
+     <string name="set_as_ring">"Ορισμός ως ήχοι κλήσης"</string>
+     <string name="read_file_path">"Ελέγξτε τη διαδρομή αρχείου"</string>
+     <string name="operate_share">"Κοινή χρήση"</string>
+     <string name="ringtone_title_sim1">"Ήχος κλήσης τηλεφώνου SIM1"</string>
+     <string name="ringtone_title_sim2">"Ήχος κλήσης τηλεφώνου SIM2""</string>
+     <string name="ringtone_menu_short">"Χρήση ως ήχος κλήσης"</string>
+     <string name="please_insert_sim_card">"Παρακαλούμε εισάγετε τουλάχιστον μια κάρτα SIM"</string>
+     <string name="ring_set_silent_vibrate">"Οι συνήθεις ήχοι κλήσης δεν υποστηρίζονται στην τρέχουσα λειτουργία"</string>
+     <string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" ρύθμιση ως ήχος κλήσης SIM1."</string>
+     <string name="ringtone_set_sim2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" ρύθμιση ως ήχος κλήσης SIM2."</string>
+     <string name="ringtone_set">"Ορισμός του \"<xliff:g id="NAME">%s</xliff:g>\" ως ήχο κλήσης του τηλεφώνου."</string>
+     <string name="ring_set_fail">Δυστυχώς, το τραγούδι δεν θα μπόρεσε να παίξει. Παρακαλώ επιλέξτε ένα άλλο τραγούδι ως ήχο κλήσης</string>
+     <string name="tag_limit">"Ο αριθμός των ετικετών έχει φτάσει στο μέγιστο"</string>
+     <string name="no_allow_play_calling">"Δεν επιτρέπεται η αναπαραγωγή μουσική κατά τη διάρκεια κλήσης (ράδιο/βίντεο)."</string>
+     <string name="playback_failed">"Το σύστημα αναπαραγωγής δεν υποστηρίζει αυτό το είδος αρχείου ήχου."</string>
+     <string name="tag">"Ετικέτα"</string>
+     <string name="previous_tag">"Τελευταία ετικέτα"</string>
+     <string name="next_tag">"Επόμενη ετικέτα"</string>
+     <string name="recording_play">"Αναπαραγωγή εγγραφής"</string>
+     <string name="clip_duration_tip">"Επεξεργασία μήκους"</string>
+     <string name="record_setting">"Ρύθμιση εγγραφής"</string>
+     <string name="file_type">Τύπος αρχείου</string>
+     <string name="type_amr">"τύπος amr"</string>
+     <string name="type_3gpp">"τύπος  3gpp"</string>
+     <string name="save_path">"Αποθηκευμένη διαδρομή"</string>
+     <string name="set_timer_recording">"Ορισμός εγγραφής με χρονοδιακόπτη"</string>
+     <string name="timer_recording_detail">"Έναρξη εγγραφής σε <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> για <xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">"Προβολή λεπτομερειών"</string>
+     <string name="file_size">"Μέγεθος αρχείου："</string>
+     <string name="file_date">"Ημερομηνία αρχείου："</string>
+     <string name="recording_start_time">"Εγγραφή χρόνου έναρξης"</string>
+     <string name="recording_duration">"Εγγραφή ωρών διάρκειας"</string>
+     <string name="tuned_timer_recording">"Η εγγραφή με χρονοδιακόπτη ενεργοποιήθηκε"</string>
+     <string name="miss_timer_recording">"Αναπάντητες εγγραφή με χρονοδιακόπτη"</string>
+     <string name="miss_timer_time">"Χρόνος : <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>" ώρα"</item>
+        <item>" ώρες"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"Η εγγραφή με χρονοδιακόπτη ορίστηκε για λιγότερο από 1 λεπτό από τώρα."</item>
+        <item>"Η εγγραφή με χρονοδιακόπτη έχει οριστεί σε <xliff:g id="HOURS">%1$s</xliff:g>  από τώρα."</item>
+        <item>"Η εγγραφή με χρονοδιακόπτη έχει οριστεί σε <xliff:g id="MINUTES">%2$s</xliff:g>  από τώρα."</item>
+        <item>"Η εγγραφή με χρονοδιακόπτη έχει οριστεί σε <xliff:g id="HOURS">%1$s</xliff:g>  και <xliff:g id="MINUTES">%2$s</xliff:g> από τώρα."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">"1 ώρα"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g>  ώρες"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"1 λεπτά"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g>  λεπτά"</item>
+    </plurals>
+     <string name="start_record">"έναρξη εγγραφής"</string>
+     <string name="resume_record">"συνέχεια εγγραφής"</string>
+     <string name="start_play">"έναρξη αναπαραγωγής"</string>
+     <string name="resume_play">"συνέχεια αναπαραγωγής"</string>
+     <string name="reset_timer_recording">"Η συσκευή εγγραφής χρησιμοποιείται από άλλο πρόγραμμα, παρακαλούμε επαναφέρετε την εγγραφή με χρονοδιακόπτη!"</string>
+     <string name="storage_not_enough">"Ο αποθηκευτικός χώρος δεν επαρκεί, η εκκίνηση της εγγραφής με χρονοδιακόπτη απέτυχε!"</string>
+     <string name="phone_storage_not_enough">"Ο αποθηκευτικός χώρος του τηλεφώνου δεν επαρκεί!"</string>
+</resources>

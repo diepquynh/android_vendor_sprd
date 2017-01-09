@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"Trình kích hoạt Giọng nói"</string>
+<string name="audio_voicetrigger_words">"Lời đánh thức"</string>
+<string name="audio_voicetrigger_sensibility">"Độ nhạy nhận diện"</string>
+<string name="audio_voicetrigger_support_fun">"Hỗ trợ mô tả các chức năng"</string>
+<string name="audio_voicetrigger_connect_headset">"Kết nối bộ tai nghe để sử dụng"</string>
+<string name="audio_voicetrigger_language_choose">"Lựa chọn ngôn ngữ lệnh thoại"</string>
+<string name="audio_voicetrigger_help">"Trợ giúp"</string>
+<string name="audio_voicetrigger_subtitle_wakeup_default">"Ngữ cảnh của Lời đánh thức"</string>
+<string name="audio_voicetrigger_subtitle_wakeup_userdefine">"Đã xác định Người dùng"</string>
+<string name="audio_voicetrigger_subtitle_language_choose">"Đặt ngôn ngữ lệnh thoại"</string>
+<string name="audio_voicetrigger_subtitle_help">"Thử giọng lời đánh thức tùy chỉnh"</string>
+<string name="voicetrigger_connect_headset_content">"Khi được kết nối với tai nghe bằng dây hoặc tai nghe Bluetooth, \nó vẫn có thể đánh thức điện thoại và sử dụng bình thường, \tuy nhiên, giọng nói của bạn được thu thông qua microphone của điện thoại, \và microphone của tai nghe không thể đánh thức điện thoại"</string>
+<string name="voicetrigger_wakeup_title">"Đăng ký Lời Đánh thức"</string>
+<string name="voicetrigger_input_title">"Đang ghi Lời Đánh thức"</string>
+<string name="voicetrigger_describe">"Khi điện thoại không gần người hoặc cầm bất tiện, \như gọi điện, bằng cách nghe nhạc, v.v, bạn có thể sử dụng lời đánh thức để đánh thức thiết bị của bạn và làm điều gì đó bằng giọng nói của bạn."</string>
+<string name="change_language_progress_dialog_message">"Đang chuyển ngôn ngữ, Vui lòng đợi…"</string>
+<string name="info_press_to_start">"nhấp nút để ghi giọng nói"</string>
+<string name="info_default">"Hãy nói ở nơi yên tĩnh"</string>
+<string name="info_recording">"Đang ghi..."</string>
+<string name="info_please_wait">"Vui lòng đợi…"</string>
+<string name="info_talk_louder">"Nói to hơn"</string>
+<string name="info_pause_before">"Tạm dừng "1-2 giây trước khi nói""</string>
+<string name="info_too_noisy">"Quá ồn. Di chuyển tới nơi yên tĩnh hơn"</string>
+<string name="info_talk_softer">"Nói nhẹ hơn"</string>
+<string name="info_bad_recording">"Bản ghi dở"</string>
+<string name="info_talk_slower">"Nói chậm hơn"</string>
+<string name="info_too_many_sound">"Quá nhiều lần lặp lại âm thanh"</string>
+<string name="info_check_rec">"Đang tạo Kích hoạt. Vui lòng đợi…"</string>
+<string name="info_problems_in_rec">"Vấn đề ở một hoặc nhiều bản ghi. Bạn phải ghi lại"</string>
+<string name="generate_voicetrigger_words_success">"Đã tạo Kích hoạt bằng Giọng nói ."</string>
+<string name="voicetrigger_wakeup_item_1">"%1$s (mặc định)"</string>
+<string name="voicetrigger_wakeup_item_2">"Người dùng xác định"</string>
+<string name="prompting_user_defined_text">"Nội dung của lời đánh thức tùy chỉnh"</string>
+<string name="prompting_text_default">"Hãy nói: %1$s"</string>
+<string name="prompting_text_1">"Hãy nói lại: %1$s"</string>
+<string name="prompting_text_2">"Đã hoàn thành"</string>
+<string name="error_app_internal">"Lỗi ứng dụng nội bộ."</string>
+<string name="dialog_dismiss">"Loại bỏ"</string>
+<string name="error_permissions">"Ứng dụng không có quyền quan trọng cần thiết để chạy. Hãy kiểm tra cài đặt quyền của bạn."</string>
+<string name="dialog_title">Đang ghép nối...</string>
+<string name="dialog_firstuse_info">"Bạn lần đầu tiên sử dụng tính năng này, bạn nên thiết đặt giọng nói mặc định để đánh thức thiết bị"</string>
+<string name="no_wakeup_words_recoded">"Bạn đã không ghi lời đánh thức do người dùng xác định"</string>
+<string name="dialog_title_notice">Thông báo</string>
+<string name="dialog_change_language_first">"đã kiểm tra bạn không ghi giọng nói của lời đánh thức bằng ngôn ngữ hiện tại,\bạn nên ghi lại giọng nói khác để đánh thức thiết bị, bạn có tiếp tục không?"</string>
+<string name="same_application_running">"Thiết bị ghi được sử dụng bởi một chương trình khác, vui lòng đóng chương trình này!"</string>
+<string name="is_not_systemuser">"Hiện tại không phải là người dùng hệ thống, thông thể sử dụng đánh thức bằng giọng nói."</string>
+<string-array name="hello_trigger_text_title_array">
+<item>"Xin chào, tôi có thể giúp gì cho bạn ?"</item>
+<item>"Xin tiếp tục, tôi đang nghe… "</item>
+<item>"Bạn có thể hỏi tôi như thế này: "</item>
+</string-array>
+<string name="support_find_phone">"Hãy tìm điện thoại"</string>
+<string name="support_find_phone_summary">"Hét to：\' [Lời đánh thức] + Bạn ở đâu?\', điện thoại sẽ trả lời bạn bằng cách phát nhạc chuông tùy chỉnh."</string>
+<string name="support_call_phone">"Tiến hành gọi điện"</string>
+<string name="support_call_phone_summary">"Nói với điện thoại：\' [Lời đánh thức] + Gọi Xiao Wang\'，nó sẽ gọi ai đó."</string>
+<string name="support_send_mms">"Gửi tin nhắn"</string>
+<string name="support_send_mms_summary">"Nói với điện thoại：\' [Lời đánh thức] + Gửi tin nhắn văn bản cho Xiao Wang\'，nó sẽ ở ứng dụng nhắn tin để gửi tin nhắn."</string>
+<string name="support_camera">"Chụp ảnh"</string>
+<string name="support_camera_summary">"Nói với điện thoại：\' [Lời đánh thức] + Chụp ảnh cho tôi\'，nó sẽ mở camera và chụp ảnh trực tiếp."</string>
+<string name="support_open_music">"Phát Nhạc"</string>
+<string name="support_open_music_summary">"Nói với điện thoại:\' [Lời đánh thức] + Phát Wang Fei\'s \"Hong Dou\"\'，nó sẽ mở trình phát nhạc và phát bài hát."</string>
+<string name="support_open_app">"Khởi chạy các ứng dụng"</string>
+<string name="support_open_app_summary">"Nói với điện thoại：\' [Lời đánh thức] + Mở WeChat\'，điện thoại sẽ khởi chạy ứng dụng WeChat."</string>
+<string name="find_phone_content">"Bạn có thể hỏi tôi：\n\n Bạn ở đâu\n Bạn có nghe tôi không\n Hãy trả lời tôi"</string>
+<string name="call_phone_content">"Bạn có thể hỏi tôi：\n\n Gọi Xiao Wang\n Gọi lại Xiaomin\n Gọi dịch vụ khách hàng của China Mobile\n Quay số 114"</string>
+<string name="send_mms_content">"Bạn có thể hỏi tôi：\n\n Gủi cho Xiao Wang một tin nhắn văn bản\n Gửi một tin nhắn văn bản cho Xiaomin\n Trả lời tin nhắn văn bản cho mom\n Gửi thời gian họp cho Xiaoming bằng SMS"</string>
+<string name="open_camera_content">"Bạn có thể hỏi tôi：\n\n Chụp ảnh cho tôi\n Chụp ảnh phong cảnh\n Chụp ảnh biển chỉ đường."</string>
+<string name="open_music_content">"Bạn có thể hỏi tôi：\n\n Phát Wang Fei\'s \"Hong Dou\"\n Phát bài hát ngẫu nhiên\n Tôi muốn nghe "Pao Mo"\n Phát bàn hát của Zhang Xueyou"</string>
+<string name="open_app_content">"Bạn có thể hỏi tôi：\n\n Mở WeChat\n Tải về một ứng dụng "la bàn"\n Khởi chạy sổ tay"</string>
+<string name="default_trigger">"Kích hoạt: Xin chào Blue Genie v17 (tiếng Anh Mỹ)"</string>
+<string name="default_command">"Lệnh: Fitness v2.2 (tiếng Anh Mỹ)"</string>
+<string name="default_command_sen">"Độ nhạy: Bình thường"</string>
+<string name="trigger_prompt">"Nói Xin chào Blue Genie"</string>
+<string name="command_prompt1">""Bây giờ hãy nói một trong những câu sau đây…"</string>
+<string name="command_prompt2">""Bây giờ nói một câu lệnh"</string>
+<string name="cmd_step_count">"Đếm Bước"</string>
+<string name="cmd_calories">"Năng lượng"</string>
+<string name="cmd_floors">"Tầng"</string>
+<string name="cmd_distance">"Khoảng cách"</string>
+<string name="cmd_active_minutes">"Phút Hoạt động"</string>
+<string name="cmd_sleep_pattern">"Dạng mẫu Ngủ"</string>
+<string name="cmd_outside_temperature">"Nhiệt độ Bên ngoài"</string>
+<string name="cmd_outside_humidity">"Độ ẩm Bên ngoài"</string>
+<string name="cmd_what_time_is_it">"Mấy Giờ Rồi"</string>
+<string name="cmd_heart_rate">"Nhịp Tim"</string>
+<string name="resp_step_count">"Đếm Bước = 4306"</string>
+<string name="resp_calories">"Năng lượng Đốt cháy Hôm nay = 1445"</string>
+<string name="resp_floors">"Tầng Leo Hôm nay = 8"</string>
+<string name="resp_distance">"Khoảng cách Hôm nay = 2,52 dặm"</string>
+<string name="resp_active_minutes">"Phút Hoạt động Hôm nay= 17"</string>
+<string name="resp_sleep_pattern">"Ngủ Sâu Hôm nay = 3 giờ 25 phút"</string>
+<string name="resp_outside_temperature">"Nhiệt độ Bên ngoài = 74 F"</string>
+<string name="resp_outside_humidity">"Độ ẩm Bên ngoài = 41 %"</string>
+<string name="resp_what_time_is_it">"Thời gian Hiện tại="</string>
+<string name="resp_heart_rate">"Nhịp tim = 74 bpm"</string>
+<string name="time_left">"Thời gian Còn lại X giây"</string>
+<string name="language_changed_success">"đã thay đổi ngôn ngữ thành công!"</string>
+<string name="save_file_to_device_error">"Chuyển lời đánh thức thất bại, vui lòng thử lại sau!"</string>
+<string name="language_changed_failed">"thay đổi ngôn ngữ thất bại, vui lòng thử lại sau"</string>
+<string name="language_change_has_canceled">"đã hủy, bạn cũng có thể sử dụng ngôn ngữ trước đó"</string>
+<string name="finished">"Hoàn tất"</string>
+<string name="sensibility_text">"Thiết đặt độ nhạy của lời đánh thức trong ghi nhận \n \ Khi độ nhạy được đặt càng cao, tỷ lệ đánh thức càng cao\n \ Khi độ nhạy được đặt càng thấp, tỉ lệ đánh thức càng thấp"</string>
+<string name="update_phrass_success">"Cập nhập phrass thành công"</string>
+</resources>

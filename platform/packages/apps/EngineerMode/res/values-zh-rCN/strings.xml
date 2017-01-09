@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="mos_test_mode">Mos测试模式</string>
+    <string name="not_mos_test_mode">非Mos测试模式</string>
+    <string name="sim_invalid">SIM卡不可用</string>
+    <string name="apk_not_exist">该应用未安装</string>
+    <string name="not_support_visitor_or_user_mode">访客或新用户模式下不支持此项功能</string>
+    <string name="volte_switch">Volte 打开/关闭</string>
+	<string name="volte_switch_waring">该操作需要重启手机，是否继续？</string>
+    <string name="Default_value">默认值</string>
+    <string name="Self_defining_value">自定义</string>
+    <string name="customize">"自定义"</string>
+    <string name="supplementary_service_query">"补充业务查询"</string>
+    <string name="message_retransmission">"短信重发"</string>
+    <string name="integrity_protection">"完整性保护"</string>
+    <string name="automatic_startup_power">"上电自动开机"</string>
+    <string name="network_mode">"网络模式"</string>
+    <string name="w_prefer_plus">尽量驻留wcdma</string>
+    <string name="lte_impede_data">LTE数据阻止</string>
+    <string name="gprsservice">"Gprs attach/detach 服务"</string>
+    <string name="apn_settings">"Apn设置"</string>
+    <string name="real_network_setting">"真实网络设置"</string>
+    <string name="preferred_network_mode_set_title">"设置网络模式"</string>
+    <string name="preferred_network_mode_summary">"更改网络模式"</string>
+    <string name="iot_title">"IOT测试"</string>
+    <string name="aocsetting_iot">"通话计费(AOC)设置"</string>
+    <string name="protocalsetting_iot">"协议版本号设置"</string>
+    <string name="communitysupport_iot">"小区能力支持"</string>
+    <string name="community_cap_query">点击查询</string>
+    <string name="frequency_set">频点设置</string>
+    <string name="td_w_set">TD|WCDMA设置</string>
+    <string name="frequency_query">频点查询</string>
+    <string name="click_query_set_frequency">点击查询并设置</string>
+    <string name="click_query_frequency">点击查询</string>
+    <string name="lock_unlogk_frequency">锁频/解锁设置</string>
+    <string name="gsm_set">GSM设置</string>
+    <string name="frequency_band_set">频段设置</string>
+    <string name="click_set_band">点击设置</string>
+    <string name="band_query">频段查询</string>
+    <string name="not_support">不支持</string>
+    <string name="support">支持</string>
+    <string name="cta_iot_protocal_title">"协议版本号设置"</string>
+    <string name="cta_iot_protocal_summary">"协议版本号设置"</string>
+    <string name="cta_iot_fband_title">"FBAND设置(重启生效)"</string>
+    <string name="cta_iot_fband_summary">"FBAND主频或辅频设置"</string>
+    <string name="lockoperator_iot">"锁频/解锁操作"</string>
+    <string name="driversetting">"USIMDRVLS设置"</string>
+    <string name="safemodeswitch">"安全模式开关"</string>
+    <string name="iottest">"IOT测试"</string>
+    <string name="qpasetting">"QPA测试"</string>
+    <string name="power">"功率"</string>
+    <string name="apn_setting">APN设置</string>
+    <string name="real_network">真实网络设置(重启生效)</string>
+    <string name="alert_cmcc_set_message">该项包含进行CMCC要求测试项及部分测试项预设条件，请完成CMCC测试后，恢复出厂设置</string>
+    <string name="alert_cucc_set_message">该项包含进行CUCC要求测试项及部分测试项预设条件，请完成CUCC测试后，恢复出厂设置</string>
+    <string name="alertdialog_ok">确定</string>
+    <string name="alertdialog_cancel">取消</string>
+    <string name="usagetopoff">暂停</string>
+    <string name="usagetopon">刷新</string>
+    <string name="real_net">真实网络</string>
+    <string name="simulate_net">模拟网络</string>
+    <string name="btn_mtbfreset">开始预置</string>
+    <string name="btn_mtbffactoryset">恢复出厂设置</string>
+    <string name="mtbf">一键预置</string>
+    <string name="shortcut_selection">快捷方式选择</string>
+    <string name="launcher">桌面启动器</string>
+    <string name="mtbf_launcher_shortcut">快捷方式</string>
+    <string name="mtbf_launcher_shortcut_summary">桌面快捷方式，点击进入详细选择</string>
+    <string name="settings">设置</string>
+    <string name="mtbf_setting_conn">数据连接</string>
+    <string name="mtbf_setting_conn_summary">打开数据连接并且设置APN接入点</string>
+    <string name="mtbf_setting_time">日期时间</string>
+    <string name="mtbf_setting_time_summary">日期时间以及日期时间格式设置</string>
+    <string name="mtbf_setting_usb">开发者选项</string>
+    <string name="mtbf_setting_usb_summary">USB调试模式和保持唤醒</string>
+    <string name="mtbf_setting_im">输入法</string>
+    <string name="mtbf_setting_im_summary">设置Android输入法为默认输入法</string>
+    <string name="mtbf_setting_screen">显示设置</string>
+    <string name="mtbf_setting_screen_summary">亮度，休眠以及自动转屏设置</string>
+    <string name="mms">彩信</string>
+    <string name="mtbf_mms_notify">彩信通知</string>
+    <string name="mtbf_mms_notify_summary">关闭通知</string>
+    <string name="calendar">日历</string>
+    <string name="mtbf_calendar_notify">日历通知</string>
+    <string name="mtbf_calendar_notify_summary">关闭通知并设置默认提醒时间为无</string>
+    <string name="broswer">浏览器</string>
+    <string name="mtbf_broswer_mode">打开网页模式</string>
+    <string name="mtbf_broswer_mode_summary">取消以概览模式打开网页</string>
+    <string name="mtbf_broswer_bookmark">书签</string>
+    <string name="mtbf_broswer_bookmark_summary">从sd卡读取书签</string>
+    <string name="email">电子邮件</string>
+    <string name="mtbf_email_address">邮件账户</string>
+    <string name="mtbf_email_address_summary">预置电子邮件账户</string>
+    <string name="engineermode">工程模式</string>
+    <string name="mtbf_em_logs">删除logs</string>
+    <string name="mtbf_em_logs_summary">删除logs，包括system logs和kernel logs</string>
+    <string name="select_sim_type">请选择SIM卡类型</string>
+    <string name="select_email_addrs">请输入Email地址</string>
+    <string name="select_email_psw">请输入Email密码</string>
+    <string name="sim_type_cmcc">中国移动</string>
+    <string name="sim_type_cucc">中国联通</string>
+    <string name="select_text">选择应用</string>
+    <string name="select_all">全部选择</string>
+    <string name="unselect_all">取消全选</string>
+    <string name="shortcut_menu_ok">完成</string>
+    <string name="mtbf_processing">一键预置进行中</string>
+    <string name="mtbf_processing_wait">请等待...</string>
+    <string name="mtbf_result">一键预置结果</string>
+    <string name="btn_confirm">确定</string>
+    <string name="btn_retry">立刻重试</string>
+    <string name="all_done">预置完成</string>
+    <string name="input_card_to_test">请插卡设置</string>
+    <string name="transmit_at_maximum_power">WIFI射频以最大功率发射</string>
+    <string name="factoryset">恢复出厂设置</string>
+    <string name="retry_notify">三秒后自动重试一次</string>
+    <string name="retry">重试中</string>
+    <string name="empty_frequency">设备未搜索到频点</string>
+    <string name="empty_band">设备未搜索到频段</string>
+    <string name="query_frequency_result">频点搜索结果</string>
+    <string name="lock_frequency">锁频</string>
+    <string name="unlock_frequency">解频</string>
+    <string name="check_frequency_to_lock">勾选进行锁频设置</string>
+    <string name="alert_lock_frequency">解频设置将会对所有搜索到的频点进行解频操作</string>
+    <string name="input_rang">输入范围:1-16000</string>
+    <string name="gprscontent">数据内容:</string>
+    <string name="set_ready">关闭飞行模式并插卡设置</string>
+    <string name="default_set">默认设置</string>
+    <string name="custom_set">自定义设置</string>
+    <string name="custom_apn_set">CUCC测试，需要启用默认APN，请进入Setting启用其他APN</string>
+    <string name="about">关于</string>
+    <string name="version_info">版本信息</string>
+    <string name="flash_not_support">该产品不支持此项查询</string>
+    <string name="input_cmcc_card">请插入移动SIM卡进行设置</string>
+    <string name="input_cucc_card">请插入联通SIM卡进行设置</string>
+    <string name="input_sim_warn">请确保卡槽2无卡</string>
+    <string name="no_sim1_warn">请确保卡槽1有卡</string>
+    <string name="no_sim_warn">请确保卡槽有一张卡</string>
+    <string name="button_ok">确认</string>
+
+    <!-- add for VT option-->
+    <string name="VT_option">视频电话开关</string>
+    <string name="confirm">确认</string>
+    <string name="vtoption_on_message">开启本功能，将可能引起贵司使用相关第三方软件。若贵司和/或贵司的客户真实使用相关第三方软件，则贵司需要向该相关第三方支付软
+件授权使用费。确定修改，手机将会重启。</string>
+    <string name="vtoption_off_message">视频电话功能关闭需要重启手机，确定要重启吗?</string>
+    <!-- add for VT switch-->
+    <!-- add for LTE -->
+	<string name="setting_dialog_con1">是否确认该设置</string>
+	<string name="setting_dialog_con2">此项设置会自动重启手机</string>
+	<string name="setting_successfully"><xliff:g id="menu_lte">%s</xliff:g> 设置成功</string>
+	<string name="setting_failed"><xliff:g id="menu_lte">%s</xliff:g> 设置失败</string>
+	<string name="gps_configration">GPS 配置</string>
+	<string name="agps_log_show">显示 AGPS LOG</string>
+	<!-- SPRD: modify 20140419 Spreadtrum of 301972 EngineerMode, telephony-GPRS, the title shows the corresponding sim card @{ -->
+	<string name="gprs_sim_title">SIM</string>
+	<!-- @} -->
+    <!-- SPRD: modify 20140609 Spreadtrum of 321078 porting slide settings feature -->
+    <string name="android_utils">性能工具</string>
+    <string name="title_slide_settings">滑动参数设置</string>
+    <string name="summary_slide_settings">设置滑动相关的参数</string>
+
+    <string name="label_slide_settings">SlideSettings</string>
+
+    <!-- Launcher Settings -->
+    <string name="launcher_settings">Launcher左右滑动设置</string>
+
+    <string name="delay_time_slide">设定阻尼</string>
+    <string name="default_delay_time">默认阻尼 %1$d，取值范围[%2$d, %3$d]</string>
+    <string name="delay_time_explain">该值越大，滑动越慢</string>
+
+    <string name="slip_velocity">设定页面回滚时间</string>
+    <string name="default_slip_velocity">默认页面回滚时间 %1$d，取值范围[%2$d, %3$d]</string>
+    <string name="slip_velocity_explain">该值越大，页面回滚越慢</string>
+
+    <string name="set_la_snap_velocity">设定滑动翻页速度</string>
+    <string name="default_la_snap_velocity">默认滑动翻页速度 %1$d，取值范围[%2$d, %3$d]</string>
+    <string name="la_snap_velocity_explain">该值越大，滑动越快</string>
+
+    <string name="set_la_touchslop">设定触发滑动长度</string>
+    <string name="default_la_touchslop">默认触发滑动长度 %1$d，取值范围[%2$d, %3$d]</string>
+    <string name="la_touchslop_explain">该值越小，越容易触发滑动行为</string>
+
+    <string name="set_la_minvelocity">设定触发滑动速度I</string>
+    <string name="default_la_minvelocity">默认触发滑动速度I %1$d，取值范围[%2$d, %3$d]</string>
+    <string name="la_minvelocity_explain">该值越小，越容易触发滑动行为</string>
+
+    <string name="set_la_velocity">设定触发滑动速度II</string>
+    <string name="default_la_velocity">默认触发滑动速度II %1$d，取值范围[%2$d, %3$d]</string>
+    <string name="la_velocity_explain">该值越小，越容易触发滑动行为</string>
+
+    <string name="warn_la_velocity">触发滑动速度II必须大于触发滑动速度I，请重新设置</string>
+
+    <!-- ListView Settings -->
+    <string name="listview_settings">ListView上下滑动设置</string>
+
+    <string name="set_lv_friction">设定摩擦系数</string>
+    <string name="default_lv_friction">默认摩擦系数 %1$d，取值范围[%2$d, %3$d]</string>
+    <string name="lv_friction_explain">该值越大，滑动停下时停止的过程越快，响应的滑动距离越短</string>
+
+    <string name="set_lv_velocity">设定滑动速度</string>
+    <string name="default_lv_velocity">默认滑动速度 %1$d，取值范围[%2$d, %3$d]</string>
+    <string name="lv_velocity_explain">该值越大，滑动过程中，滑动速度越大</string>
+
+    <string name="set_lv_touchslop">设定触发滑动长度</string>
+    <string name="default_lv_touchslop">默认触发滑动长度 %1$d，取值范围[%2$d, %3$d]</string>
+    <string name="lv_touchslop_explain">该值越小，越容易触发滑动行为</string>
+
+    <string name="set_lv_minvelocity">设定触发滑动速度</string>
+    <string name="default_lv_minvelocity">默认触发滑动速度 %1$d，取值范围[%2$d, %3$d]</string>
+    <string name="lv_minvelocity_explain">该值越小，越容易触发滑动行为</string>
+
+    <string name="cancel_slide">取消</string>
+    <string name="ok">确定</string>
+    <!-- SPRD: modify 20140621 Spreadtrum of 325713 EngineerMode, telephony-LTE modem add Clear Prior Information@{ -->
+    <string name="btn_clear_prior_information">清除先验信息</string>
+    <!-- @} -->
+    <string name="fm_preference_title">FM</string>
+    <string name="turn">Turn 台</string>
+    <string name="seek">Seek 台</string>
+    <string name="earphone">设置耳机</string>
+    <string name="turn_button">Turn</string>
+    <string name="seek_button">Seek</string>
+    <string name="turn_textview">Turn 电台</string>
+
+    <string name="nOperInd">nOperInd : <xliff:g id="operind">%s</xliff:g></string>
+    <string name="nStereoInd">nStereoInd: <xliff:g id="stereoind">%s</xliff:g></string>
+    <string name="nRssi">nRssi: <xliff:g id="rssi">%s</xliff:g></string>
+    <string name="nFreqValue">nFreqValue: <xliff:g id="freqvalue">%s</xliff:g></string>
+    <string name="nPwrIndicator">nPwrIndicator: <xliff:g id="pwrindicator">%s</xliff:g></string>
+    <string name="nFreqOffset">nFreqOffset: <xliff:g id="freqoffset">%s</xliff:g></string>
+    <string name="nPilotDet">nPilotDet: <xliff:g id="pilotdet">%s</xliff:g></string>
+    <string name="nNoDacLpf">nNoDacLpf: <xliff:g id="nodaclpf">%s</xliff:g></string>
+
+    <string name="seek_all_channel_rssi">seek 全频道pwrIndicator（dBm）</string>
+    <string name="start">开始</string>
+    <string name="seel_all_channel_frequency_title">Seek全频段每个频点的次数</string>
+    <string name="set_earphone_status">设置耳机/外放播放</string>
+    <string name="earphone_and_extroverted_switch_title">设置耳机和外放多次切换</string>
+    <string name="earphone_and_extroverted_switch_start_switch">开始切换</string>
+    <string name="earphone_button_play">耳机播放</string>
+    <string name="extroverted_button_play">外放播放</string>
+    <!-- begin 562936 add by suyan.yang 2016.05.19 -->
+    <string name="channel_switch">频道设置</string>
+    <string name="channel_set_title">设置FM频道</string>
+    <string name="format">格式：87.5或101.7</string>
+    <!-- end 562936 add by suyan.yang 2016.05.19 -->
+    <string name="check_earphone">现在没有耳机，无法进行测试，请插入耳机</string>
+    <string name="check_input_count">请输入seek次数，点击开始</string>
+    <string name="invalid_count">无效的数字，请输入小于10位的数字</string>
+    <string name="alert_fm_test">FM Test 告警</string>
+    <string name="alert_close_fm">请于此项测试前关闭FM</string>
+    <string name="alert_fm">此项测试过程中，请不要收听FM</string>
+    <string name="fm_cancel">取消</string>
+
+    <string name="seel_all_channel_frequency_adapter_frequency_and_counts">Frequency:<xliff:g id="frequency">%s</xliff:g>    次数:<xliff:g id="counts">%s</xliff:g></string>
+
+    <string name="earphone_and_extroverted_switch_underway">"切换测试中 ..."</string>
+
+    <string name="seel_all_channel_frequency_adapter_frequency_and_rssi">Frequency:<xliff:g id="frequency">%s</xliff:g>    pwrIndicator:<xliff:g id="rssi">%s</xliff:g></string>
+
+    <string name="over">结束</string>
+
+    <string name="earphone_and_extroverted_switch_counts_string">请输入切换次数</string>
+
+    <string name="background_search_timer">背景搜索定时器长度(重启失效)</string>
+    <string name="lte_timer">LTE可用定时器长度(重启失效)</string>
+    <string name="rsrp_param">RSRP参数(重启失效)</string>
+    <string name="input">请输入设置值</string>
+    <string name="turn_channel_edit_text">请输入频道值</string>
+    <string name="check_input_frequency">请输入完整的频道段</string>
+    <string name="invalid_frequency">无效的频道，请输入数字小于3位的数字</string>
+
+    <string name="seek_channel_tip">正在seek台...</string>
+    <string name="seek_channel_counts">正在seek每个频点的次数...</string>
+
+    <string name="restart_invalid">重启生效</string>
+    <!--  @zhijie add 2014-7-28 netinfo -->
+    <string name="netinfo_server_cell">服务小区</string>
+    <string name="netinfo_neighbour_cell">内邻小区</string>
+    <string name="netinfo_adjacent_cell">间邻小区</string>
+    <string name="netinfo_outfield_information">外场网络信息</string>
+    <string name="netinfo_adjacent_cell_2g">2G邻小区</string>
+    <string name="netinfo_adjacent_cell_3g">3G邻小区</string>
+    <string name="netinfo_adjacent_cell_4g">4G邻小区</string>
+    <string name="no_server">没有网络</string>
+    <string name="unknow_server">未知网络</string>
+    <string name="netinfo_frequency">频点</string>
+    <string name="netinfo_psc">扰码</string>
+    <string name="netinfo_interference_value">干扰值</string>
+    <string name="netinfo_signal_strength">信号强度</string>
+
+   <!--BT EUT start-->
+    <string name="alert_bt_test">BT Test告警</string>
+    <string name="alert_close_bt_eut">请于此项测试前关闭BT EUT</string>
+    <string name="alert_close_bt">请于此项测试前关闭BT</string>
+    <string name="alert_bt">此项测试过程中，请不要打开BT</string>
+    <!--BT EUT end-->
+
+    <!-- Wifi EUT Start -->
+    <string name="alert_wifi_test">Wifi EUT告警</string>
+    <string name="alert_close_wifi">请在进行Wifi EUT之前关闭wifi</string>
+    <string name="alert_wifi">此项测试过程中，请不要打开Wifi</string>
+    <!-- Wifi EUT End -->
+
+    <!--Switch machine info start-->
+    <string name="engtest">工程模式开机</string>
+    <string name="alarm">关机闹钟开机</string>
+    <string name="charger">供电开机</string>
+    <string name="unknown">正常开机</string>
+    <string name="unknown_power_on">未知原因开机</string>
+    <string name="unknown_power_off">未知原因关机</string>
+    <string name="wdgreboot">硬件狗重启</string>
+    <string name="panic">kernel重启</string>
+    <string name="special">系统进程导致的重启</string>
+
+    <string name="power_on_info">开机信息</string>
+    <string name="power_off_info">关机信息</string>
+    <string name="modem_assert_info">Modem Assert信息</string>
+    <string name="battery_life_info">电池续航时间</string>
+
+    <string name="dump_info">Dump文件到SD卡</string>
+    <string name="clear_info">清除文件信息</string>
+
+    <string name="timer">定时关机</string>
+    <string name="power_shutdown_key">按电源键关机</string>
+    <string name="power_longpress_reboot_key">长按电源关机键关机</string>
+    <string name="power_reboot_key">按电源重启键关机</string>
+    <string name="battery">低电量关机</string>
+    <string name="recovery">恢复出厂设置关机</string>
+    <string name="over_temp">过温关机</string>
+
+    <string name="battery_life_time">电池续航时间</string>
+    <string name="open_battery_time">打开开关时信息</string>
+    <string name="low_power_time">低电量关机时间</string>
+    <string name="battery_life">电池续航</string>
+    <string name="open_time">时间: <xliff:g id="number_of_deleted_items">%s</xliff:g></string>
+    <string name="battery_percent">电池电量百分比: <xliff:g id="NUMBER">%d%%</xliff:g>"</string>
+    <string name="no_data_toast">文件中无数据保存</string>
+    <string name="no_sd_toast">请插入SD卡</string>
+    <string name="clear_success_toast">清除成功</string>
+    <string name="dump_file_toast">文件导出成功</string>
+    <string name="no_space_toast">SD卡内存不足</string>
+    <string name="no_space_internal">内部存储空间不足</string>
+    <!--Switch machine info end-->
+
+    <!-- Dummy nv Start -->
+    <string name="dunnysetting01">起测</string>
+    <string name="dunnysetting02">重选</string>
+    <string name="dunnysetting03">重选revert</string>
+    <string name="dunnysetting04">强制不重选</string>
+    <string name="dunnysetting05">重定向</string>
+    <string name="input_sim__warn">请插入SIM卡</string>
+    <string name="input_frequency">输入频点： </string>
+    <string name="input_bsic">输入bsic： </string>
+    <string name="select_band">选择BAND： </string>
+    <string name="redirection_open">打开</string>
+    <string name="redirection_close">关闭</string>
+    <string name="frequency_warn">频点没有填写</string>
+    <string name="bsic_warn">Bsic没有填写</string>
+    <!-- Dummy nv End -->
+    <string name="memory_leak_tip">已经点击过该选项，如需再次点击，请先退出工程模式后重试</string>
+    <string name="open_card_warn">请先关闭飞行模式或开启SIM卡</string>
+    <string name="switch_mode_warn_message">进入网络模式后不可以再进行开禁卡和飞行模式的操作，否则会出现问题</string>
+    <string name="feature_not_support">该产品不支持此项功能</string>
+    <string name="feature_not_support_by_user_version">User版本不支持此项功能</string>
+    <string name="feature_not_support_by_debug_version">Debug版本不支持此项功能</string>
+    <string name="feature_abnormal">该功能异常</string>
+    <string name="not_support_well">AT指令未完成</string>
+
+    <string name="screen_off_never_title">从不休眠</string>
+    <string name="close_screen_off_never">系统休眠时间请到setting中设置</string>
+    <string name="slog_not_start"> Slog未启动</string>
+    <string name="create_config">配置文件正在创建</string>
+    <string name="cat3andCat4">UE支持能力查询</string>
+    <string name="grrc_resident_state">GRRC驻留态</string>
+    <string name="grrc_random_access_state">GRRC随机接入态</string>
+    <string name="restart_ue_to_effective_log">此项设置需要重启手机生效，点击“确定”之后，手机将自动重启</string>
+    <string name="log_path_chage_to_internel">SD卡被卸载，Log将保存在内置存储路径</string>
+    <string name="log_path_chage_to_externel">SD卡已挂载，Log将保存在外置存储路径</string>
+    <string name ="misc_dialog_warn">提示</string>
+    <string name ="dialog_warn_content">它将花费10分钟左右，且不能进行其他操作，继续请点击“确定”，取消请点击“取消”</string>
+    <string name="vt_dialog_ok">确认</string>
+    <string name="vt_dialog_cancel">取消</string>
+    <string name="memory_leak_confirm">该操作将会触发modem assert，是否继续?</string>
+    <string name="switch_for_usb_active">USB接口激活</string>
+    <string name="uplmn_control">UPLMN控制</string>
+    <string name="bih_enabled">启用BIH</string>
+    <string name="is_roaming">漫游</string>
+    <string name="non_roaming">非漫游</string>
+    <string name="upload_aprfile">上传APR.xml</string>
+    <string name="click_to_upload_aprfile">点击上传文件</string>
+    <string name="aler_upload_aprfile">请打开Wifi或数据链接上传文件</string>
+    <string name="monitor_switch_warning">无研发特别要求请勿打开</string>
+    <string name="monitor_dialog_warning">此功能打开后会干扰测试，建议不要开启，是否还要开启？</string>
+
+    <!-- volte setting start-->
+    <string name="volte_setting">VoLTE设置</string>
+    <string name="volte_registration">注册设置</string>
+    <string name="volte_impi_impu_setting">IMPI/IMPU设置</string>
+    <string name="volte_impi_impu_sub_setting">自定义IMPI/IMPU</string>
+    <string name="volte_pcscf_setting">P-CSCF设置</string>
+    <string name="volte_ip_setting">IP承载</string>
+    <string name="volte_mut_length">MUT长度</string>
+    <string name="volte_subscribe_setting_switch">Subscribe订阅</string>
+    <string name="volte_sigcomp_setting">SigComp设置</string>
+    <string name="volte_sigcomp_setting_switch">SigComp信令压缩</string>
+    <string name="volte_sigcomp_algorithm">SigComp信令压缩算法</string>
+    <string name="volte_ipsec_setting">IPSec设置</string>
+    <string name="volte_expires_time_setting">Expires定时器设置</string>
+    <string name="volte_call">呼叫设置</string>
+    <string name="volte_code_way">编码方式</string>
+    <string name="volte_voice_code_way">语音编码方式</string>
+    <string name="volte_voice_code_speed">语音编码速率</string>
+    <string name="volte_precondition_setting">Precondition设置</string>
+    <string name="volte_precondition_setting_switch">启用Precondition</string>
+    <string name="volte_tqos_time_setting">Tqos定时器设置</string>
+    <string name="volte_tcall_time_setting">Tcall定时器设置</string>
+    <string name="volte_treg_time_setting">Treg定时器设置</string>
+    <string name="volte_ipsec_setting_switch">启用IPSec</string>
+    <string name="volte_maintain_algorithm">完保算法</string>
+    <string name="volte_encryption_algorithm">加密算法</string>
+    <string name="volte_psauthtype_setting">附加业务鉴权配置</string>
+    <string name="volte_psauthtype">鉴权类型</string>
+    <string name="volte_psauthtype_usrname_setting">用户名</string>
+    <string name="volte_psauthtype_password_setting">密码</string>
+    <string name="pls_input">请输入</string>
+    <string name="pcscf_static">静态</string>
+    <string name="pcscf_dynamic">动态</string>
+    <string name="pcscf_static_input">请输入P-CSCF地址</string>
+    <!-- volte setting end-->
+    <string name="wifi_auto_auth">Wifi自动认证</string>
+    <string name="mode_switch">模式切换</string>
+    <string name="mode_switch_waring">该操作将会重启手机，是否继续？</string>
+    <string name="open_aprserver">开启APR</string>
+    <string name="engineermode_save">保存</string>
+    <string name="apr_save_error">开启APR，请至少选择一项内容！</string>
+    <string name="check_apr_log">查看日志</string>
+    <string name="check_apr_log_summary">自动上传APR日志</string>
+    <string name="clear_apr_log">清空</string>
+    <string name="empty_view_hint">暂时没有数据!</string>
+    <string name="apr_switch_close_hint">请在APR Server中打开APR开关.</string>
+    <string name="apr_detect_time_hint">输入的数字过大,请重新输入.</string>
+    <string name="apr_group_hint">输入的内容过长,请重新输入.</string>
+    <string name="system_update">系统更新</string>
+    <!-- new slog -->
+    <string name="dsp_options_message">设置DSP options手机将立刻进行重启，是否继续进行设置？</string>
+    <string name="modem_log_warn">Modem Log抓取提示</string>
+    <string name="modem_log_enpc_warn">目前modem log的抓取方式为PC方式，如果要使用SD方式抓取，请点击“确定”按钮进入设置界面进行相关设置，否则请点击“取消”按钮结束此次操作</string>
+    <string name="modem_log_no_enpc_warn">使用SD方式抓取modem log，请点击“确定”按钮进入设置界面把ARM LOG等开关打开，否则请点击“取消”按钮结束此次操作</string>
+     <string name="log_output_settings">Log输出方式设置</string>
+    <string name="advanced_settings">高级设置</string>
+    <string name="custom_log_level">紧要级别（0-5）</string>
+    <string name="custom_trace_module">Trace的模块列表（32个十六进制字符）</string>
+    <string name="custom_msg_sap">Msg的SAP列表（64个十六进制字符）</string>
+    <string name="arm_log_output_settings">ARM Log输出方式设置</string>
+    <string name="log_output_custom">Log输出方式自定义</string>
+    <string name="custom_dialog_message">请在高级设置中进行设置，是否进入高级设置？</string>
+    <string name="sd_settings">Log存储容量设置</string>
+    <string name="scenarios_custom">应用场景自定义</string>
+    <string name="custom_last_cmd">上一次设置的命令</string>
+    <string name="custom_now_cmd">请输入要设置的命令</string>
+    <string name="custom_last_cmd_no">还没有自定义命令设置</string>
+    <string name="custom_command_input">自定义命令输入</string>
+    <string name="wiq_switch_meaasge">此开关打开或者关机都将重启手机，是否继续进行操作？</string>
+    <string name="sd_set_log_size">单个Log文件大小设置</string>
+    <string name="sd_set_all_log_size">SD卡Log存储总量高级设置</string>
+    <string name="data_set_all_log_size">Data分区Log存储总量设置</string>
+    <string name="sd_log_size_unit">（单位: MB）</string>
+    <string name="log_overwrite_enable">Log循环保存</string>
+    <string name="modem_saved_pc">PC端</string>
+    <string name="custom_default_set">恢复默认</string>
+    <string name="sd_log_set">SD卡Log存储总量设置</string>
+    <string name="scenarios">应用场景</string>
+    <!--softap_wifi begin-->
+    <string name="softap_auto_close_warn">Auto关闭提示</string>
+    <string name="auto_close_warnings">Auto关闭后，Auto的channel将自动设置为Wifi channel</string>
+    <!--softap_wifi end-->
+    <string name="multi_user_hint">当前为多用户模式,不能恢复出厂设置!</string>
+    <string name="antenna_set">天线设置</string>
+    <string name="other_test_tools">其他测试工具</string>
+
+    <!--single/dual_sim_mode begin-->
+    <string name="single_dual_sim_mode_switch">单双卡版本切换</string>
+    <string name="single_sim_mode">单卡版本</string>
+    <string name="dual_sim_mode">双卡版本</string>
+    <!--single/dual_sim_mode end-->
+    <string name="new_slog_summer">该功能还不能正常工作，请不要点击</string>
+    
+    <!--slog -->
+    <string name="slog_open_scene">scene</string>
+    <string name="slog_open_tool">Tools</string>
+    <!-- SPRD: Bug 557464 normal log button display is not same with scence activity @{ -->
+    <string name="slog_no_scene">无场景</string>
+    <string name="slog_info_no">无</string>
+    <!-- @} -->
+    <string name="slog_normal_scene">常规Log</string>
+    <string name="slog_data_scene">数据业务</string>
+    <string name="slog_voice_scene">语音业务</string>
+    <string name="slog_modem_scene">Modem功耗</string>
+    <string name="slog_wcn_scene">WCN功耗</string>
+    <string name="slog_sim_scene">SIM交互数据</string>
+    <string name="slog_custom_scene">自定义</string>
+    <string name="slog_scene_info">[当前场景log内容信息]</string>
+    <string name="slog_scene_save_time">[当前场景log存储时间]</string>
+    <string name="slog_scene_save_path">[当前场景log存储路径]</string>
+
+    <string name="slog_modem_assert">Modem Assert Manually</string>
+    <string name="slog_dump_wcn">Dump WCN Mem Manually</string>
+    <string name="slog_dump_gps">Gnss Log</string>
+    <string name="slog_save_sleep_log">Save SleepLog</string>
+    <string name="slog_save_log_buf">Save LogBuf</string>
+
+    <string name="slog_general">General setting</string>
+    <string name="slog_select_scene">场景选择</string>
+    
+    <string name="slog_defined_title">自定义</string>
+    
+    <string name="slog_defined_commit">确认</string>
+    <string name="slog_defined_general">General Settings</string>
+    <string name="slog_defined_general_1">Always show Slog in Notification</string>
+    <string name="slog_defined_general_2">snap device</string>
+    <string name="slog_defined_aplog">AP Log Settings</string>
+    <string name="slog_defined_aplog_1">Android Log</string>
+    <string name="slog_defined_aplog_2">TCP/IP Log</string>
+    <string name="slog_defined_aplog_3">BT HCI Log</string>
+    <string name="slog_defined_more">more</string>
+    <string name="slog_defined_aplog_more_title">Android Log Branches</string>
+    <string name="slog_defined_aplog_more_1">Main Log</string>
+    <string name="slog_defined_aplog_more_2">System Log</string>
+    <string name="slog_defined_aplog_more_3">Radio Log</string>
+    <string name="slog_defined_aplog_more_4">Event Log</string>
+    <string name="slog_defined_aplog_more_5">Kernel Log</string>
+    <string name="slog_defined_aplog_more_7">Crash Log</string>
+    <string name="slog_defined_aplog_more_groupradio">Android Log Level</string>
+    <string name="slog_defined_aplog_more_groupradio_1">2-VERBOSE</string>
+    <string name="slog_defined_aplog_more_groupradio_2">3-DEBUG</string>
+    <string name="slog_defined_aplog_more_groupradio_3">5-ERROR</string>
+    <string name="slog_defined_aplog_more_6">Art Debug Log</string>
+    <string name="slog_defined_modemlog">Modem Log Settings</string>
+    <string name="slog_defined_modemlog_1">Modem Log</string>
+    <string name="slog_defined_modemlog_2">TCP/IP Log</string>
+    <string name="slog_defined_modemlog_3">Enable Auto Dump Modem Assert</string>
+    <string name="slog_defined_modemlog_more_1">IQ Mode</string>
+    <string name="slog_defined_modemlog_more_2">Log 存储容量设置</string>
+    <string name="slog_defined_modemlog_more_3">Log Level Filter</string>
+    <string name="slog_defined_dsplog">DSP Log Settings</string>
+    <string name="slog_defined_dsplog_1">DSP Log</string>
+    <string name="slog_defined_ag_dsp_log">AG-DSP Log</string>
+    <string name="slog_defined_dsplog_2">DSP Log Output Mode</string>
+    <string name="slog_defined_dsplog_radio_1">Output from UART</string>
+    <string name="slog_defined_dsplog_radio_2">Output with Modem Log</string>
+    <string name="slog_defined_wcnlog">WCN Log Settings</string>
+    <string name="slog_defined_wcnlog_1">WIFI/BT Log</string>
+    <string name="slog_defined_wcnlog_2">GPS Log</string>
+    <string name="slog_defined_wcnlog_3">Enable Dump WCN Mem in User</string>
+    <string name="slog_dump_art">Dump Art debug log</string>
+    <string name="slog_modem_to_pc">Modem To PC</string>
+    <string name="slog_want_clear">是否清除log</string>
+    <string name="slog_modem_save_path">[当前场景modem log存储路径]</string>
+    <string name="send_power_dailog">进行RF Send Power操作之前请确认是否已经开启飞行模式，否则会出现问题</string>
+    <!--slogmodem error waring start-->
+    <string name="slogmodem_error_1">请求不识别</string>
+    <string name="slogmodem_error_2">命令参数错误</string>
+    <string name="slogmodem_error_3">命令执行失败</string>
+    <string name="slogmodem_error_4">系统正在保存 CP dump,sleep log 或 RingBuf</string>
+    <string name="slogmodem_error_5">抓取的方式不是SD卡</string>
+    <string name="slogmodem_error_6">CP不支持sleeplog功能</string>
+    <string name="slogmodem_error_7">CP不支持RingBuf功能</string>
+    <string name="slogmodem_error_8">CP发生了assert</string>
+    <!--slogmodem error waring end-->
+    <string name="ddr_switch">降DDR功耗</string>
+    <string name="mtbf_switch_stop">非MTBF测试请不要打开该开关</string>
+    <string name="mini_dump_path">MiniDump存储位置设置</string>
+    <string name="fm_dialog_tittle">错误</string>
+    <string name="fm_dialog_message">请插入耳机！</string>
+    <!-- SPRD: 474686 Feature for Uplmn @{ -->
+    <string name="uplmnswtich">Uplmn 打开/关闭</string>
+    <!-- @} -->
+    <string name="dis_miss">关闭</string>
+    <string name="logmanager_ylogd">完整Log</string>
+    <string name="desense_pll_tips">开始测试之前, 请执行如下命令:\n\nadb root\nadb remount\nadb shell setenforce 0</string>
+</resources>

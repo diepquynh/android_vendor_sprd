@@ -1,0 +1,130 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD: function call barring support. BEGIN-->
+    <string name="labelAO">"所有呼出"</string>
+    <string name="messageAO">"輸入呼叫限制密碼。"</string>
+    <string name="sum_ao_enabled_indicator">轉發所有通話</string>
+    <string name="sum_ao_enabled">"已啟用"</string>
+    <string name="sum_ao_disabled">"已禁用"</string>
+    <string name="enable_ao_forbidden">"您的運營商不支持啟用限制所有呼出功能。"</string>
+    <string name="disable_ao_forbidden">"您的運營商不支持禁用限制所有呼出功能。"</string>
+    <string name="labelOI">"國際長途呼出"</string>
+    <string name="messageOI">"輸入呼叫限制密碼。"</string>
+    <string name="sum_oi_enabled">"已啟用"</string>
+    <string name="sum_oi_disabled">"已禁用"</string>
+    <string name="enable_oi_forbidden">"您的運營商不支持啟用限制國際長途漫遊呼出功能。"</string>
+    <string name="disable_oi_forbidden">"您的運營商不支持禁用限制國際長途漫遊呼出功能。"</string>
+    <string name="labelOX">"國際長途漫遊呼出"</string>
+    <string name="messageOX">"輸入呼叫限制密碼。"</string>
+    <string name="sum_ox_enabled">"已啟用"</string>
+    <string name="sum_ox_disabled">"已禁用"</string>
+    <string name="enable_ox_forbidden">"您的運營商不支持啟用限制國際長途漫遊呼出功能。"</string>
+    <string name="disable_ox_forbidden">"您的運營商不支持禁用限制國際長途漫遊呼出功能。"</string>
+    <string name="labelAI">"所有來電"</string>
+    <string name="messageAI">"輸入呼叫限制密碼。"</string>
+    <string name="sum_ai_enabled">"已啟用"</string>
+    <string name="volte_call_availability">VoLTE是否啟用</string>
+    <string name="volte_call_availability_off">VoLTE關閉</string>
+    <string name="volte_call_availability_on">VoLTE啟用</string>
+    <string name="vt_resolution_setting">視頻分辨率選擇</string>
+    <string name="sum_ai_disabled">"已禁用"</string>
+    <string name="enable_ai_forbidden">"您的運營商不支持禁用限制所有來電功能。"</string>
+    <string name="disable_ai_forbidden">"您的運營商不支持禁用限制所有來電功能。"</string>
+    <string name="labelIR">"漫遊時來電"</string>
+    <string name="messageIR">"輸入呼叫限制密碼。"</string>
+    <string name="sum_ir_enabled">"已啟用"</string>
+    <string name="sum_ir_disabled">"已禁用"</string>
+    <string name="enable_ir_forbidden">"您的運營商不支持啟用限制漫遊時來電功能。"</string>
+    <string name="disable_ir_forbidden">"您的運營商不支持禁用限制漫遊時來電功能。"</string>
+    <string name="labelAB">"全部取消"</string>
+    <string name="messageAB">"輸入呼叫限制密碼。"</string>
+    <string name="sum_ab_enabled">"已啟用"</string>
+    <string name="sum_ab_disabled">"已禁用"</string>
+    <string name="enable_ab_forbidden">"您的運營商不支持全部取消呼叫限制功能。"</string>
+    <string name="disable_ab_forbidden">"您的運營商不支持全部啟用呼叫限制功能。"</string>
+    <string name="labelChgPwd">修改密碼</string>
+    <string name="DlgChgPwd_oldpwd">輸入呼叫限制密碼。</string>
+    <string name="DlgChgPwd_newpwd_first">輸入新密碼</string>
+    <string name="DlgChgPwd_newpwd_last">確認新密碼</string>
+    <string name="cb_pw_no_match" msgid="">"密碼不匹配"</string>
+    <string name="cb_pw_error" msgid="">"密碼不正確"</string>
+    <string name="cb_pw_correct" msgid="">"密碼修改成功"</string>
+    <string name="labelCB">呼叫限制</string>
+    <string name="call_barring_settings">呼叫限制設定</string>
+    <string name="callin_barring_settings">呼入限制設置</string>
+    <string name="callout_barring_settings">呼出限制設置</string>
+    <string name="labelCOUT">呼出限制</string>
+    <string name="labelCIN">呼入限制</string>
+    <string name="cb_error">呼叫限制被拒絕</string>
+    <!-- SPRD: function call barring support. END-->
+    <!-- SPRD: LND/SDN FEATURE -->
+    <!-- SPRD: Modify for bug610085 @{ -->
+    <string name="sdn_list">SDN 清單</string>
+    <string name="lnd_list">LND 清單</string>
+    <!-- @} -->
+    <string name="sim_x">"SIM%s"</string>
+    <string name="wait_message">"請稍後..."</string>
+    <!-- SPRD: add for bug601723  -->
+    <string name="menu_call">"呼叫聯絡人"</string>
+    <string name="lnd_no_contact_record">"SIM卡無最後撥號記錄。"</string>
+    <string name="sdn_no_contact_number">"此SIM卡不支援SDN號碼。"</string>
+    <string name="remove">"移除"</string>
+    <string name="delete_selected_contents">"您確定要刪除所選內容嗎？"</string>
+    <string name="sim_notready_can_not_delete">"SIM卡未準備好，無法删除。"</string>
+    <string name="contact_del_failed">"删除失敗"</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_VOLTE_LOCK @{ -->
+    <string name="volte_lock">"Volte鎖"</string>
+    <string name="menu_new_plmn">"新建"</string>
+    <string name="enter_plmn_hint">"請輸入plmn"</string>
+    <string name="plmn_enter_error">"無效plmn，請重試!"</string>
+    <string name="plmn_exist">"plmn已存在，請重新新增。"</string>
+    <string name="plmn_edit_tip">"編輯"</string>
+    <string name="plmn_new_tip">"新建"</string>
+    <!-- SPRD: Bug#474289 FAST DIAL FEATURE @{ -->
+    <string name="fast_dial_settings">"快速撥號設定"</string>
+    <string name="delete_fastdial">"刪除快速撥號"</string>
+    <string name="update_fastdial">"替換快速撥號"</string>
+    <string name="no_sim_text">"請插入或啟用SIM卡"</string>
+    <string name="sim_list_title">"請選擇 SIM 卡"</string>
+    <!-- @} -->
+
+    <!-- SPRD: FEATURE_FDN. @{ -->
+    <!-- SPRD: add for bug597909 -->
+    <string name="edit_and_save_fdn">"編輯固定撥號聯絡人"</string>
+    <string name="delete_and_save_fdn">"删除固定撥號聯絡人"</string>
+    <string name="call_fdn_number_by_sim">"呼叫"</string>
+    <string name="vt_call_fdn_numberr_by_sim">"视频电话"</string>
+    <!-- SPRD: add for bug609759 -->
+    <string name="airplane_changed_on">"飛航模式已開啟。"</string>
+    <!-- SPRD: add for bug602921  -->
+    <string name="number_empty" msgid="">號碼是空</string>
+    <string name="unblock_pin2">"解鎖PIN2"</string>
+    <string name="sum_fdn_unblock_pin2">"输入PUK2来解鎖您的SIM卡"</string>
+    <!-- SPRD: modify for bug615288  -->
+    <string name="oldPin2_Label">"舊 PIN2 (剩餘次數 <xliff:g>%s</xliff:g>)"</string>
+    <string name="pin2_Label">"PIN2 (剩餘次數 <xliff:g>%s</xliff:g>)"</string>
+    <string name="puk2_code_label">"輸入 PUK2 碼 (剩餘次數 <xliff:g>%s</xliff:g>)"</string>
+
+    <string name="promptWordOne">"您還有&#160;"</string>
+    <string name="promptWordTwo">"&#160;次機會"</string>
+    <string name="adn_full">FDN列表已滿</string>
+    <!-- @} -->
+    <string name="labelAudioCF">"語音來電轉接"</string>
+    <string name="labelVideoCF">"視訊來電轉接"</string>
+    <string name="audio_call_forward_setting_category_header">"語音電話"</string>
+    <string name="video_call_forward_setting_category_header">"視訊通話"</string>
+    <string name="labelCFT">固定時間段轉接</string>
+    <string name="sum_cft_disabled">"未啓用"</string>
+    <string name="start_time">開始時間</string>
+    <string name="stop_time">結束時間</string>
+    <string name="phonenumCFT_title">轉接號碼</string>
+    <string name="sum_cft_default_setting">未設定</string>
+    <string name="messageCFT">固定時間段的轉接號碼</string>
+    <string name="sum_vcfu_enabled_indicator">"轉接所有視訊來電"</string>
+    <!-- SPRD: add for bug598158 -->
+    <string name="fdn_invalid_name">"名称超過 14 位的上限，因此未更新 FDN。"</string>
+    <!-- SPRD: add for bug608713 -->
+    <string name="pin2_or_fdn_invalid">"未更新 FDN。可能是因為 PIN2 碼不正確或電話號碼遭拒，或電話名稱遭拒。"</string>
+    <!-- SPRD: add for bug637586 -->
+    <string name="add_and_save_fdn">添加聯繫人</string>
+</resources>

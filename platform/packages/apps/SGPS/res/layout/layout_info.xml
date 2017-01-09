@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_info"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                style="@style/style_table_left"
+                android:text="@string/title_provider" />
+
+            <TextView
+                android:id="@+id/tv_provider"
+                style="@style/style_table_right"
+                android:text="@string/provider" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/light_gray" />
+
+        <TableRow>
+
+            <TextView
+                style="@style/style_table_left"
+                android:text="@string/title_status" />
+
+            <TextView
+                android:id="@+id/tv_status"
+                style="@style/style_table_right"
+                android:text="@string/status" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/light_gray" />
+
+        <TableRow>
+
+            <TextView
+                style="@style/style_table_left"
+                android:text="@string/title_ttff" />
+
+            <TextView
+                android:id="@+id/tv_ttff"
+                style="@style/style_table_right"
+                android:text="@string/ttff" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/light_gray" />
+
+        <TableRow>
+
+            <TextView
+                style="@style/style_table_left"
+                android:text="@string/title_date" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                style="@style/style_table_right"
+                android:text="@string/date" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/light_gray" />
+
+        <TableRow>
+
+            <TextView
+                style="@style/style_table_left"
+                android:text="@string/title_time" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                style="@style/style_table_right"
+                android:text="@string/time" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/light_gray" />
+
+        <TableRow>
+
+            <TextView
+                style="@style/style_table_left"
+                android:text="@string/first_latitude_text" />
+
+            <TextView
+                android:id="@+id/first_latitude_text"
+                style="@style/style_table_right" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/light_gray" />
+
+        <TableRow>
+
+            <TextView
+                style="@style/style_table_left"
+                android:text="@string/first_longtitude_text" />
+
+            <TextView
+                android:id="@+id/first_longtitude_text"
+                style="@style/style_table_right" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/gray" />
+
+        <TableRow>
+
+            <TextView
+                style="@style/style_table_left"
+                android:text="@string/title_lat" />
+
+            <TextView
+                android:id="@+id/tv_latitude"
+                style="@style/style_table_right"
+                android:text="@string/latitude" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/light_gray" />
+
+        <TableRow>
+
+            <TextView
+                style="@style/style_table_left"
+                android:text="@string/title_lon" />
+
+            <TextView
+                android:id="@+id/tv_longitude"
+                style="@style/style_table_right"
+                android:text="@string/longitude" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/light_gray" />
+
+        <TableRow>
+
+            <TextView
+                style="@style/style_table_left"
+                android:text="@string/title_alt" />
+
+            <TextView
+                android:id="@+id/tv_altitude"
+                style="@style/style_table_right"
+                android:text="@string/altitude" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/light_gray" />
+
+        <TableRow>
+
+            <TextView
+                style="@style/style_table_left"
+                android:text="@string/title_acc" />
+
+            <TextView
+                android:id="@+id/tv_accuracy"
+                style="@style/style_table_right"
+                android:text="@string/accuracy" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/light_gray" />
+
+        <TableRow>
+
+            <TextView
+                style="@style/style_table_left"
+                android:text="@string/title_bear" />
+
+            <TextView
+                android:id="@+id/tv_bearing"
+                style="@style/style_table_right"
+                android:text="@string/bearing" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/light_gray" />
+
+        <TableRow>
+
+            <TextView
+                style="@style/style_table_left"
+                android:text="@string/title_speed" />
+
+            <TextView
+                android:id="@+id/tv_speed"
+                style="@style/style_table_right"
+                android:text="@string/speed" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/light_gray" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/average_cn0_left"
+                style="@style/style_table_left"
+                android:text="@string/title_average_cn0" />
+
+            <TextView
+                android:id="@+id/average_cn0"
+                android:text="@string/average_cn0" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/gray" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/tv_distance_left"
+                style="@style/style_table_left"
+                android:text="@string/title_distance" />
+
+            <TextView
+                android:id="@+id/tv_distance"
+                style="@style/style_table_right"
+                android:text="@string/distance" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/style_table_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_gps_version" />
+
+            <TextView
+                android:id="@+id/tv_gps_version"
+                style="@style/style_table_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:scrollbars="vertical"
+                android:singleLine="false" />
+        </LinearLayout>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/light_gray" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/style_table_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_sgps_version" />
+
+            <TextView
+                android:id="@+id/tv_sgps_version"
+                style="@style/style_table_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:scrollbars="vertical"
+                android:singleLine="false" />
+        </LinearLayout>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_hot"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/hot" >
+            </Button>
+
+            <Button
+                android:id="@+id/btn_warm"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/warm" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_cold"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/cold" >
+            </Button>
+
+            <Button
+                android:id="@+id/btn_full"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/full" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_hotstill"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/hot_still" >
+            </Button>
+
+            <Button
+                android:id="@+id/btn_restart"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/restart" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_supllog"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/supl_log" >
+            </Button>
+        </LinearLayout>
+        <!-- add change button to radio          start -->
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_gray"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio_hot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/hot" />
+
+            <RadioButton
+                android:id="@+id/radio_warm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/warm" />
+
+            <RadioButton
+                android:id="@+id/radio_cold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cold" />
+
+            <RadioButton
+                android:id="@+id/radio_full"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/full" />
+        </RadioGroup>
+        <!-- add change button to radio        end -->
+
+        <!-- add new feature for gps download bin by ansel.li-->
+        <!-- add  GPS-IMG-MODE radio button     start -->
+        <View
+            android:layout_height="1dip"
+            android:background="@color/gray" />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dip"
+                android:text="@string/gps_img_mode"
+                android:textSize="20dip" />
+        <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_gray"
+                android:orientation="horizontal" >
+            <RadioButton
+                android:id="@+id/radio_gps_beidou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/gps_beidou" />
+
+            <RadioButton
+                android:id="@+id/radio_gps_glonass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/gps_glonass" />
+         </RadioGroup>
+        <!-- add  GPS-IMG-MODE radio button     end -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/start" >
+            </Button>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_assert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_assert_text" >
+        </Button>
+
+        <!-- SPRD:SGPS Switch -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Switch
+                android:id="@+id/sgps_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dip"
+                android:text="@string/sgps_swtich_text"
+                android:textOff="@string/sgps_stop"
+                android:textOn="@string/sgps_start"
+                android:textSize="20dp"
+                tools:ignore="NewApi" />
+        </LinearLayout>
+        <!-- SPRD:add for GE2 b -->
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/gray" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Switch
+                android:id="@+id/single_satellite_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dip"
+                android:text="@string/single_satellite_text"
+                android:textSize="20dip"
+                tools:ignore="NewApi" />
+        </LinearLayout>
+
+        <!-- SPRD:SpreadOrBit Switch -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Switch
+                android:id="@+id/spreadorbit_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dip"
+                android:text="@string/spreadorbit_swtich_text"
+                android:textOff="@string/switch_off"
+                android:textOn="@string/switch_on"
+                android:textSize="20dp"
+                tools:ignore="NewApi" />
+        </LinearLayout>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/gray" />
+
+        <!-- SPRD:Real-EPH Switch -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Switch
+                android:id="@+id/real_eph_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dip"
+                android:text="@string/real_eph_switch_text"
+                android:textOff="@string/switch_off"
+                android:textOn="@string/switch_on"
+                android:textSize="20dp"
+                tools:ignore="NewApi" />
+        </LinearLayout>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/gray" />
+
+        <!-- SPRD:GNSS Log Switch -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Switch
+                android:id="@+id/gnss_log_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dip"
+                android:text="@string/gnss_log_switch_text"
+                android:textOff="@string/switch_off"
+                android:textOn="@string/switch_on"
+                android:textSize="20dp"
+                tools:ignore="NewApi" />
+        </LinearLayout>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/gray" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_gray"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/radio_gps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/GpsOnly" />
+
+            <RadioButton
+                android:id="@+id/radio_glonass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/GlonassOnly" />
+
+            <RadioButton
+                android:id="@+id/radio_bsd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/BDSOnly" />
+
+            <RadioButton
+                android:id="@+id/radio_glogps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/GlonassGps" />
+
+            <RadioButton
+                android:id="@+id/radio_gpsbds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/GpsBDS" />
+        </RadioGroup>
+        <!-- SPRD:add for GE2 e -->
+    </TableLayout>
+
+</ScrollView>

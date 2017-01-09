@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD: add for bug474285 callbarring @{ -->
+    <string name="labelCB">呼叫限制</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_DATA_ALWAYS_ONLINE @{ -->
+    <string name="data_always_online">"移动数据始终在线"</string>
+    <string name="data_always_online_summary">"某些移动网络耗用更多电量"</string>
+    <string name="data_always_online_dialog">"取消始终连接数据业务可能断开某些应用连接。请在应用中使用手动刷新功能获取网上数据。"</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_NATIONAL_DATA_ROAMING @{ -->
+    <string name="preferred_data_roaming_title">"数据漫游"</string>
+    <string name="preferred_data_roaming_summary">"仅限国内漫游"</string>
+    <string name="preferred_data_roaming_dialogtitle">"数据漫游"</string>
+    <string name="preferred_data_roaming_disable">"不允许"</string>
+    <string name="preferred_data_roaming_national">"仅限国内漫游"</string>
+    <string name="preferred_data_roaming_all_networks">"所有网络"</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_MANUAL_SEARCH_NETWORK @{ -->
+    <string name="dialog_network_selection_title">注意</string>
+    <string name="dialog_network_selection_message">在手动选网的条件下，手机不会选择其它运营商网络。所以注册网络失败后，需要重新手动选网或使用自动选网。请问要使用“手动选择”吗？</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_POPUP_DATA_DIALOG_ON_IMS -->
+    <string name="network_not_on">"当前数据连接处于关闭状态，是否设置数据连接？"</string>
+    <!-- SPRD: add for bug589612 -->
+    <string name="no_available_phone_accounts">"没有可用的通话帐户"</string>
+    <!-- SPRD: add for bug589602 -->
+    <string name="sim_label">"SIM%1$d "</string>
+    <!-- IP Dial Setting for bug474283 -->
+    <string name="ip_dialing_setting">"IP 拨号设置"</string>
+    <!-- SPRD: modify for bug 601486 @{ -->
+    <string name="fdn_name_maxlength">"请输入长度小于15位数的名称"</string>
+    <string name="fdn_number_maxlength">"请输入长度小于21位数的号码"</string>
+    <!-- @} -->
+    <!-- SPRD: add for bug579749 @{ -->
+    <string name="network_open">"正在开启数据连接。"</string>
+    <!-- @} -->
+    <!-- SPRD: add for bug616257 @{ -->
+    <string name="airplane_on">"请先关闭飞行模式。"</string>
+    <!-- @} -->
+    <!-- SPRD: Bug 609872 Wrong prompt message when change network selection mode @{ -->
+    <string name="automatic_selection_done">"切换到自动选择模式"</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_MOBILE_DATA_BUTTON @{ -->
+    <string name="mobile_data_network_button_title">移动数据网络</string>
+    <!-- @} -->
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--<PreferenceScreen-->
+        <!--android:title="@string/data_flow_cycle"-->
+        <!--android:summary="@string/data"-->
+        <PreferenceScreen
+            android:key="pref_data_cycle"
+            android:title="@string/data_flow_cycle"
+            android:dialogTitle="@string/data_flow_cycle"
+            android:entries="@array/pref_data_cycle_entries"
+            android:entryValues="@array/pref_data_cycle_entry_values"
+            android:defaultValue="0">
+            <intent android:action="com.sprd.generalsecurity.network.datarestrictdualsim"/>
+        </PreferenceScreen>
+
+
+
+        <!--&lt;!&ndash;<intent android:action="com.sprd.generalsecurity.network.dataflowmanagement"&ndash;&gt;-->
+            <!--&lt;!&ndash;/>&ndash;&gt;-->
+    <!--</PreferenceScreen>-->
+
+        <PreferenceScreen
+            android:title="@string/data_flow_rank"
+            >
+            <intent android:action="com.sprd.generalsecurity.network.networkrank"/>
+        </PreferenceScreen>
+
+    <CheckBoxPreference
+        android:key="networkspeed_switch"
+        android:title="@string/show_real_time_speed"
+        android:persistent="true" />
+
+    <PreferenceScreen
+        android:title="@string/network_control">
+
+        <intent android:action="com.sprd.generalsecurity.network.dataflowmanagement"
+            />
+    </PreferenceScreen>
+
+    <CheckBoxPreference
+        android:key="keyguard_data_switch"
+        android:title="@string/show_keyguard_data"
+        android:persistent="true" />
+
+</PreferenceScreen>
+    <!-- END_INCLUDE(preferences) -->

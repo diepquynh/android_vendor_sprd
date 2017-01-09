@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_label">"UI စနစ္"</string>
+<string name="status_bar_clear_all_button">"ျကည္လင္ေသာ"</string>
+<string name="status_bar_recent_remove_item_title">"စာရင္းမွပယ္ဖ်က္ပါ။"</string>
+<string name="status_bar_recent_inspect_item_title">"အက္ပ္အခ်က္အလက္"</string>
+<string name="status_bar_no_recent_apps">"သင့္လတ္တေလာဖန္သားျပင္မ်ားသည္ ဤေနရာတြင္ ေပၚသည္"</string>
+<string name="status_bar_accessibility_dismiss_recents">"မၾကာမီက သံုးခဲ့သည့္ေအပီပီကို ထုတ္ပယ္ပါ။"</string>
+<plurals name="status_bar_accessibility_recent_apps">
+<item quantity="one">"အက်ဥ္းၾကည့္ရႈေနသည့္ ဖန္သားျပင္ 1 ခု"</item>
+<item quantity="other">"အက်ဥ္းၾကည့္ရႈသည့္ ဖန္သားျပင္ %d ခု"</item>
+</plurals>
+<string name="status_bar_no_notifications_title">"သတိေပးခ်က္မ်ား မရွိပါ"</string>
+<string name="status_bar_ongoing_events_title">"ယခု ေဆာင္ရြက္ေနသည္။"</string>
+<string name="status_bar_latest_events_title">သတိေပးခ်က္မ်ား</string>
+<string name="battery_low_title">"ဘက္ထရီ အားနည္းေနၿပီ"</string>
+<string name="battery_low_percent_format">"<xliff:g id="percentage">%s</xliff:g> က်န္ရွိေန"</string>
+<string name="battery_low_percent_format_saver_started">"<xliff:g id="percentage">%s</xliff:g> က်န္ရွိေန.ဘက္ထရီ ေခၽြတာ ဖြင့္ထား."</string>
+<string name="invalid_charger">"USB အားသြင္းျခင္း မေထာက္ပံ့ပါ။ \n ေထာက္ပံ့သည့္ အားသြင္းၾကိဳးျဖင့္သာ သံုးႏိုင္သည္။"</string>
+<string name="invalid_charger_title">"USB ျဖင့္အားသြင္းျခင္းကုိ မပံ့ပုိးေပးထားပါ။"</string>
+<string name="invalid_charger_text">"ပံ့ပုိးေပးထားသည့္ အားသြင္းကိရိယာကုိသာ အသံုးျပဳပါ။"</string>
+<string name="battery_low_why">"ဆက္တင္မ်ား"</string>
+<string name="battery_saver_confirmation_title">"ဘက္ထရီေခြ်တာကိရိယာကုိ ဖြင့္မလား?"</string>
+<string name="battery_saver_confirmation_ok">"ဖြင့္ပါ"</string>
+<string name="battery_saver_start_action">"ဘက္ထရီေခြ်တာကိရိယာကုိ ဖြင့္ပါ"</string>
+<string name="status_bar_settings_settings_button">"ဆက္တင္မ်ား"</string>
+<string name="status_bar_settings_wifi_button">"Wi-Fi"</string>
+<string name="status_bar_settings_auto_rotation">"အလိုအေလ်ာက္ဖန္သားျပင္ကို လွည့္မည္"</string>
+<string name="status_bar_settings_mute_label">"အသံတိတ်"</string>
+<string name="status_bar_settings_auto_brightness_label">"အလိုအေလ်ာက္"</string>
+<string name="status_bar_settings_notifications">သတိေပးခ်က္မ်ား</string>
+<string name="bluetooth_tethered">"ဘလူးတုမွ မိုဘိုင္းအသံုးျပဳ၍ ကြန္ယက္ခ်ိတ္ဆက္ျခင္း"</string>
+<string name="status_bar_input_method_settings_configure_input_methods">အသြင္းနည္းလမ္းမ်ားကို စီစဥ္ပါ</string>
+<string name="status_bar_use_physical_keyboard">"လက္ပါေသာ physical ကီးဘုတ္ ကိုသံုးပါ။"</string>
+<string name="usb_device_permission_prompt">" <xliff:g id="application">%1$s</xliff:g> USB တြဲဖက္ ပစၥည္းကို ၀င္ရန္ေအပီပီကိုခြင့္ျပဳပါ?"</string>
+<string name="usb_accessory_permission_prompt">"<xliff:g id="application">%1$s</xliff:g> USB တြဲဖက္ ပစၥည္းကို ၀င္ရန္ ေအပီပီကိုခြင့္ျပဳပါ?"</string>
+<string name="usb_device_confirm_prompt">" <xliff:g id="activity">%1$s</xliff:g>ဖြင့္ျပီး USB ဆက္စပ္ပစၥည္း ခ်ိတ္ဆက္မည္လား ?"</string>
+<string name="usb_accessory_confirm_prompt">" <xliff:g id="activity">%1$s</xliff:g>ဖြင့္ျပီး USB ဆက္စပ္ပစၥည္း ခ်ိတ္ဆက္ထားမည္လား ?"</string>
+<string name="usb_accessory_uri_prompt">"ဤ USB ဆက္စပ္ပစၥည္း အတြက္ ေအပီပီ မသြင္းထားပါ။ ဤဆက္စပ္ပစၥည္းအတြက္ ပို၍ေလ့လာပါ။ <xliff:g id="url">%1$s</xliff:g>"</string>
+<string name="title_usb_accessory">"USB ဆက္စပ္ပစၥည္း"</string>
+<string name="label_view">"ျမင္ကြင္း"</string>
+<string name="always_use_device">"USB ကိရိယာ အတြက္ ဒီေဖါ့ကို သံုးပါ။"</string>
+<string name="always_use_accessory">"USB ဆက္စပ္ ပစၥည္း အတြက္ ဒီေဖါ့ကို သံုးပါ။"</string>
+<string name="usb_debugging_title">"USB ဖယ္ရွားရန္ ခြင့္ျပဳမလား?"</string>
+<string name="usb_debugging_message">"ကြန္ျပဴတာ၏ RSA ကီး လက္ျဖင့္ေရးသားျခင္း :\n <xliff:g id="fingerprint">%1$s</xliff:g>"</string>
+<string name="usb_debugging_always">"ဤကြန္ျပဴတာမွ အျမဲ ခြင့္ျပဳမည္"</string>
+<string name="usb_debugging_secondary_user_title">"USB ဖယ္ရွားရန္ ခြင့္မျပဳ"</string>
+<string name="usb_debugging_secondary_user_message">"သံုးစြဲသူ စာရင္း၀င္ထားေသာ္လည္း USB ဖြင့္မရ. ဤလကၡဏာကို သံုးရန္, ေက်းဇူးျပဳ၍ ထိန္းခ်ဳပ္သူသို ့ ေျပာင္းဖြင့္ပါ."</string>
+<string name="compat_mode_on">"ဖန္သားမ်က္ႏွာျပင္ အျပည့္ထိ ခ်ဲ႕ပါ။"</string>
+<string name="compat_mode_off">"ဖန္သားမ်က္ႏွာျပင္ကို ခ်ဲ႕ပါ။"</string>
+<string name="screenshot_saving_ticker">"ဖန္သားမ်က္ႏွာျပင္ကိုဓါတ္ပံုအျဖစ္ သိမ္းပါ \n ၂၀၂၆"</string>
+<string name="screenshot_saving_title">"ဖန္သားမ်က္ႏွာျပင္ကိုဓါတ္ပံုအျဖစ္ သိမ္းပါ \n ၂၀၂၆"</string>
+<string name="screenshot_saving_text">"ဖန္သားမ်က္ႏွာျပင္ကိုဓါတ္ပံုအျဖစ္ သိမ္းေနသည္။"</string>
+<string name="screenshot_saved_title">"ဖန္သားမ်က္ႏွာျပင္ကိုဓါတ္ပံုအျဖစ္ ဖမ္းယူပါ။"</string>
+<string name="screenshot_saved_text">"ဖန္သားျပင္ဓါတ္ပံု ျကည့္ရန္ နွိပ္ပါ."</string>
+<string name="screenshot_failed_title">"ဖန္သားမ်က္ႏွာျပင္ကိုဓါတ္ပံုအျဖစ္ အမိအရကူး၍မရနိုင္ပါ။"</string>
+<string name="screenshot_failed_to_save_unknown_text">"ဖန္သားျပင္ဓါတ္ပံု သိမ္းစဥ္ ျပသနာရွိ."</string>
+<string name="screenshot_failed_to_save_text">"သိုေလွာင္ေနရာ သတ္မွတ္ခ်က္ေျကာင့္ ဖန္သားျပင္္ဓါတ္ပံု သိမ္းမရနိုင္."</string>
+<string name="screenshot_failed_to_capture_text">"ေအပီပီ (သို ့) အဖြဲ ့အစည္းမွ ဖန္သားျပင္ဓါတ္ပံု ရိုက္ရန္ ခြင့္မျပဳ ."</string>
+<string name="usb_preference_title">"USB ဖိုင္ ေျပာင္းေ၇ႊ႔ရန္ ေရြးခ်ယ္စရာမ်ား"</string>
+<string name="use_mtp_button_title">"(MTP) မီဒီယာစက္ကို ခ်ိန္ပါ။"</string>
+<string name="use_ptp_button_title">"(PTP) ကင္မရာ ကို ခ်ိန္ပါ။"</string>
+<string name="installer_cd_button_title">" Mac ကို အန္းဒရိုက္ ဖိုင္ ေျပာင္းေ၇ႊ႕သည့္ ေအပီပီ ကိုသြင္းပါ။ "</string>
+<string name="accessibility_back">"ေနာက္သို ့"</string>
+<string name="accessibility_home">"အိမ္"</string>
+<string name="accessibility_menu">"မီႏူး"</string>
+<string name="accessibility_recent">"အက်ဥ္း"</string>
+<string name="accessibility_search_light">ရွာေဖြျခင္း</string>
+<string name="accessibility_camera_button">"ကင္မရာ"</string>
+<string name="accessibility_phone_button">ဖုန္း</string>
+<string name="accessibility_voice_assist_button">"အသံ အကူ"</string>
+<string name="accessibility_unlock_button">"ေသာ့ဖွင့်ြခင်း"</string>
+<string name="accessibility_unlock_button_fingerprint">"အန္ေလာ့ခ္ ခလုတ္, လက္ေခ်ာင္းစာ အတြက္ ေစာင့္ေန"</string>
+<string name="accessibility_unlock_without_fingerprint">"သင့္လက္ေခ်ာင္းစာ မသံုးဘဲနွင့္ အန္ေလာ့ခ္လုပ္ပါ"</string>
+<string name="unlock_label">"ေသာ့ဖွင့်ြခင်း"</string>
+<string name="phone_label">"ဖုန္းကုိ ဖြင့္ပါ"</string>
+<string name="voice_assist_label">"အသံအကူ ဖြင့္ပါ"</string>
+<string name="camera_label">"ကင္မရာကို ဇြင့္ပါ"</string>
+<string name="recents_caption_resize">"တက္စ္ အသစ္ ထားရန္ ေရြးခ်ယ္ပါ"</string>
+<string name="cancel">"မလုပ္ပါ"</string>
+<string name="accessibility_compatibility_zoom_button">"အံဝင္ခြင္က် ေအာင္ ခ်ံဳ႕ခ်ဲ႕နိုင္သည့္ ခလုတ္"</string>
+<string name="accessibility_compatibility_zoom_example">"ဆိုဒ္အငယ္မွ အၾကီးသို႕ခ်ဲ႕ပါ။"</string>
+<string name="accessibility_bluetooth_connected">"ဘလူးတူသ္ ခ်ိတ္ဆက္ထားသည္။"</string>
+<string name="accessibility_bluetooth_disconnected">"ဘလူးတူသ္ မခ်ိတ္ဆက္ထားပါ။"</string>
+<string name="accessibility_no_battery">"ဘတ္ထရီမရွိပါ။"</string>
+<string name="accessibility_battery_one_bar">"ဘတ္ထရီအားတစ္ဘား"</string>
+<string name="accessibility_battery_two_bars">"ဘတ္ထရီအားႏွစ္ဘား"</string>
+<string name="accessibility_battery_three_bars">"ဘတ္ထရီဲအားသံုးဘား"</string>
+<string name="accessibility_battery_full">"ဘတ္ထရီဲအားျပည့္"</string>
+<string name="accessibility_no_phone">"ဖုန္းမရွိပါ။"</string>
+<string name="accessibility_phone_one_bar">"ဖုန္းလိုင္းဆြဲအား တစ္ဘား"</string>
+<string name="accessibility_phone_two_bars">"ဖုန္းလိုင္းဆြဲအား ႏွစ္ ဘား"</string>
+<string name="accessibility_phone_three_bars">"ဖုန္းလိုင္းဆြဲအား သံုး ဘား"</string>
+<string name="accessibility_phone_signal_full">"ဖုန္းလိုင္းဆြဲအား ျပည့္။"</string>
+<string name="accessibility_no_data">"ေဒတာမရွိပါ"</string>
+<string name="accessibility_data_one_bar">"ေဒတာ တစ္ဘား "</string>
+<string name="accessibility_data_two_bars">"ေဒတာႏွစ္ဘား "</string>
+<string name="accessibility_data_three_bars">"ေဒတာသံုးဘား "</string>
+<string name="accessibility_data_signal_full">"ေဒတာအခ်က္အလက္လိုင္းျပည့္။"</string>
+<string name="accessibility_wifi_name">"<xliff:g id="wifi" example="Home Network">%s</xliff:g>သုိ႔ ခိ်တ္ဆက္ထားသည္"</string>
+<string name="accessibility_bluetooth_name">"<xliff:g id="bluetooth" example="Car Audio">%s</xliff:g>သုိ႔ ခိ်တ္ဆက္ထားသည္"</string>
+<string name="accessibility_cast_name">"သို ့ ခ်ိတ္ဆက္ထား <xliff:g id="cast" example="TV">%s</xliff:g>."</string>
+<string name="accessibility_no_wimax">"WiMAX မရွိပါ။"</string>
+<string name="accessibility_wimax_one_bar">"၀ိုင္ မက္စ္ WiMAX တစ္ဘား "</string>
+<string name="accessibility_wimax_two_bars">"၀ိုင္ မက္စ္ WiMAX ႏွစ္ဘား"</string>
+<string name="accessibility_wimax_three_bars">"၀ိုင္ မက္စ္ WiMAX သံုးဘား"</string>
+<string name="accessibility_wimax_signal_full">"၀ိုင္ မက္စ္ WiMAX လိုင္း ျပည့္ေနသည္။"</string>
+<string name="accessibility_ethernet_disconnected">"အီးတာနက္ မခ်ိတ္ဆက္ထား."</string>
+<string name="accessibility_ethernet_connected">"အီးတာနက္ ခ်ိတ္ဆက္ထား."</string>
+<string name="accessibility_no_signal">"ဆက္သြယ္မႈလိုင္းမရွိပါ."</string>
+<string name="accessibility_not_connected">"မခ်ိတ္ဆက္ထားပါ."</string>
+<string name="accessibility_zero_bars">"သုညဘားမ်ား."</string>
+<string name="accessibility_one_bar">"တစ္ဘား."</string>
+<string name="accessibility_two_bars">"ႏွစ္ဘား."</string>
+<string name="accessibility_three_bars">"သံုးဘား."</string>
+<string name="accessibility_signal_full">"ဆက္သြယ္မႈလိုင္းျပည့္ေနသည္."</string>
+<string name="accessibility_desc_on">"ဖြင့္သည္."</string>
+<string name="accessibility_desc_off">"ပိတ္သည္."</string>
+<string name="accessibility_desc_connected">"ခ်ိတ္ဆက္သည္."</string>
+<string name="accessibility_desc_connecting">"ခိ်တ္ဆက္ေနသည္"</string>
+<string name="accessibility_data_connection_roaming">ျပည္ျပကြန္ယက္သို ့ဝင္ေရာက္ျခင္း</string>
+<string name="accessibility_data_connection_wifi">"Wi-Fi"</string>
+<string name="accessibility_no_sim">"SIM မရွိပါ။"</string>
+<string name="accessibility_cell_data">"ဆယ္လူလာေဒတာ"</string>
+<string name="accessibility_cell_data_on">"ဆဲလ္လူလာ ေဒတာ ဖြင့္"</string>
+<string name="accessibility_cell_data_off">"ဆဲလ္လူလာ ေဒတာ ပိတ္"</string>
+<string name="accessibility_bluetooth_tether">"ဘလူးတုသ္ ခ်ိတ္ဆက္ျခင္း"</string>
+<string name="accessibility_airplane_mode">"ေလယ်ာဥ္ပ်ံသန္းပံုစံ"</string>
+<string name="accessibility_no_sims">"SIM ကဒ္ မရွိ."</string>
+<string name="accessibility_carrier_network_change_mode">"ကယ္ရီယာ ကြန္ရက္ ေျပာင္းျခင္း."</string>
+<string name="accessibility_battery_details">"ဘကၳရီ အေသးစိတ္ ဖြင့္ပါ"</string>
+<string name="accessibility_battery_level">"ဘကၳရီ <xliff:g id="number">%d</xliff:g> ရာခိုင္နွုန္း."</string>
+<string name="accessibility_battery_level_charging">"ဘကၳရီ အားသြင္းေန, <xliff:g id="battery_percentage">%d</xliff:g> ရာခိုင္နွုန္း."</string>
+<string name="accessibility_settings_button">"စစ္စတမ္ အျပင္အဆင္မ်ား"</string>
+<string name="accessibility_notifications_button">"အခ်က္ေပးခ်က္မ်ား"</string>
+<string name="accessibility_remove_notification">"သတိေပးခ်က္ကို ပယ္ဖ်က္ပါ။"</string>
+<string name="accessibility_gps_enabled">"GPS ဖြင့္ထားသည္။"</string>
+<string name="accessibility_gps_acquiring">"GPS ဆည္းပူးေနသည္။"</string>
+<string name="accessibility_tty_enabled">"တယ္လီ လက္ႏွိပ္စက္ ဖြင့္ထားသည္။"</string>
+<string name="accessibility_ringer_vibrate">"ဖုန္းျမည္သံတုန္ခါသံ"</string>
+<string name="accessibility_ringer_silent">"ဖုန္းျမည္သံတိတ္ဆိတ္ျခင္း"</string>
+<string name="accessibility_work_mode">"အလုပ္မုတ္"</string>
+<string name="accessibility_recents_item_will_be_dismissed">"<xliff:g id="app" example="Calendar">%s</xliff:g> ကုိဖယ္ထုတ္ပါ။"</string>
+<string name="accessibility_recents_item_dismissed">"<xliff:g id="app" example="ျပကၡဒိန္">%s</xliff:g> ဖယ္ထုတ္သည္။"</string>
+<string name="accessibility_recents_all_items_dismissed">"မျကာမီက ေအပီပီအားလံုး ေဖ်ာက္ဖ်က္ျပီး."</string>
+<string name="accessibility_recents_item_open_app_info">"ဖြင့္ပါ <xliff:g id="app" example="Calendar">%s</xliff:g> ေအပီပီ အင္ဖို."</string>
+<string name="accessibility_recents_item_launched">"<xliff:g id="app" example="Calendar">%s</xliff:g>ကုိ စတင္ေနသည္။"</string>
+<string name="accessibility_recents_task_header">"<xliff:g id="app" example="Chrome">%1$s</xliff:g> <xliff:g id="activity_label" example="www.google.com">%2$s</xliff:g>"</string>
+<string name="accessibility_notification_dismissed">"သတိေပးခ်က္ ထုတ္ပယ္သည္."</string>
+<string name="accessibility_desc_notification_shade">"သတိေပးခ်က္ တျဖည္းျဖည္း ထြက္လာသည္."</string>
+<string name="accessibility_desc_quick_settings">"အျမန္ ျပင္ဆင္ခ်က္မ်ား."</string>
+<string name="accessibility_desc_lock_screen">"ေသာ့ခတ္ ဖန္သားျပင္။"</string>
+<string name="accessibility_desc_settings">"ဆက္တင္မ်ား"</string>
+<string name="accessibility_desc_recent_apps">"အက်ဥ္း။"</string>
+<string name="accessibility_desc_close">"ပိတ္ပါ"</string>
+<string name="accessibility_quick_settings_user">"သံုးစြဲသူ <xliff:g id="user" example="John Doe">%s</xliff:g>."</string>
+<string name="accessibility_quick_settings_wifi">"<xliff:g id="signal" example="Three bars">%1$s</xliff:g>."</string>
+<string name="accessibility_quick_settings_wifi_changed_off">"Wifi ပိ္တ္ထားသည္။"</string>
+<string name="accessibility_quick_settings_wifi_changed_on">"Wifi ဖြင့္ထားသည္"</string>
+<string name="accessibility_quick_settings_mobile">"မိုဘိုင္း <xliff:g id="signal" example="Three bars">%1$s</xliff:g>. <xliff:g id="type" example="4G">%2$s</xliff:g>. <xliff:g id="network" example="T-Mobile">%3$s</xliff:g>."</string>
+<string name="accessibility_quick_settings_battery">"ဘက္ထရီ <xliff:g id="state" example="50% charging">%s</xliff:g>."</string>
+<string name="accessibility_quick_settings_airplane_off">"ေလယာဥ္မုဒ္ ပိတ္။"</string>
+<string name="accessibility_quick_settings_airplane_on">"ေလယာဥ္မုဒ္ ပြင့္။"</string>
+<string name="accessibility_quick_settings_airplane_changed_off">"ေလယာဥ္မုဒ္ ပိတ္ထားသည္။"</string>
+<string name="accessibility_quick_settings_airplane_changed_on">"ေလယာဥ္မုဒ္ ဖြင့္ထားသည္။"</string>
+<string name="accessibility_quick_settings_dnd_priority_on">"မေနွာင့္ယွက္ရ ဖြင့္ပါ, ဦးစားေပး သာလွ်င္."</string>
+<string name="accessibility_quick_settings_dnd_none_on">"မေနွာင့္ယွက္ရ ဖြင့္ပါ,  အားလံုး အသံတိတ္."</string>
+<string name="accessibility_quick_settings_dnd_alarms_on">"မေနွာင့္ယွက္ရ ဖြင့္ပါ,  အလန္းမ်ား သာလွ်င္."</string>
+<string name="accessibility_quick_settings_dnd">"မေနွာင့္ယွက္ပါနွင့္."</string>
+<string name="accessibility_quick_settings_dnd_off">"မေနွာင့္ယွက္ရ ပိတ္ပါ."</string>
+<string name="accessibility_quick_settings_dnd_changed_off">"မေနွာင့္ယွက္ရ ပိတ္ျပီး."</string>
+<string name="accessibility_quick_settings_dnd_changed_on">"မေနွာင့္ယွက္ရ ဖြင့္ပါ."</string>
+<string name="accessibility_quick_settings_bluetooth">"ဘလူးတုသ္."</string>
+<string name="accessibility_quick_settings_bluetooth_off">"ဘလူးတုသ္ ပိတ္။"</string>
+<string name="accessibility_quick_settings_bluetooth_on">"ဘလူးတုသ္ ဖြင့္။"</string>
+<string name="accessibility_quick_settings_bluetooth_connecting">"ဘလူးတုသ္ ခ်ိတ္ဆက္ေနသည္။"</string>
+<string name="accessibility_quick_settings_bluetooth_connected">"ဘလူးတူသ္ ခ်ိတ္ဆက္ထားသည္။"</string>
+<string name="accessibility_quick_settings_bluetooth_changed_off">"ဘလူးတုသ္ ပိ္တ္ထားသည္။"</string>
+<string name="accessibility_quick_settings_bluetooth_changed_on">"ဘလူးတုသ္ ဖြင့္ထားသည္။"</string>
+<string name="accessibility_quick_settings_location_off">"တည္ေနရာ အစီရင္ခံျခင္း ပိတ္။"</string>
+<string name="accessibility_quick_settings_location_on">"တည္ေနရာ အစီရင္ခံျခင္း ပြင့္။"</string>
+<string name="accessibility_quick_settings_location_changed_off">"တည္ေနရာ အစီရင္ခံျခင္းကုိ ပိတ္ထားသည္။"</string>
+<string name="accessibility_quick_settings_location_changed_on">"တည္ေနရာ အစီရင္ခံျခင္းကုိ ဖြင့္ထားသည္။"</string>
+<string name="accessibility_quick_settings_alarm">"ႏိုးစက္ကို <xliff:g id="time" example="Wed 3:30 PM">%s</xliff:g>တပ္ဆင္ပါ."</string>
+<string name="accessibility_quick_settings_close">"ပန္နယ္ကုိ ပိတ္ပါ။"</string>
+<string name="accessibility_quick_settings_more_time">"ေနာက္ထပ္အခ်ိန္။"</string>
+<string name="accessibility_quick_settings_less_time">"အခ်ိန္ေလွ်ာ့ပါ။"</string>
+<string name="accessibility_quick_settings_flashlight_off">"ဖက္ရွ္မီးအလင္း ပိတ္။"</string>
+<string name="accessibility_quick_settings_flashlight_unavailable">"ဖရက္ရွ္အလင္း မေထာက္ပံ့."</string>
+<string name="accessibility_quick_settings_flashlight_on">"ဖက္ရွ္မီးအလင္း ပြင့္။"</string>
+<string name="accessibility_quick_settings_flashlight_changed_off">"ဖလက္ရွ္မီး ပိ္တ္ထားသည္"</string>
+<string name="accessibility_quick_settings_flashlight_changed_on">"ဖလက္ရွ္မီး ဖြင့္ထားသည္"</string>
+<string name="accessibility_quick_settings_color_inversion_changed_off">"အေရာင္ေျပာင္းကုိ ပိတ္ထားသည္။"</string>
+<string name="accessibility_quick_settings_color_inversion_changed_on">"အေရာင္ေျပာင္းကုိ ဖြင့္ထားသည္။"</string>
+<string name="accessibility_quick_settings_hotspot_changed_off">"မုိဘုိင္းေဟာ့စေပါ့ကုိ ပိတ္ထားသည္။"</string>
+<string name="accessibility_quick_settings_hotspot_changed_on">"မုိဘုိင္းေဟာ့စေပါ့ကုိ ဖြင့္ထားသည္။"</string>
+<string name="accessibility_casting_turned_off">"ဖန္သားျပင္ လႈပ္ရွားမႈကုိ ရုိက္ယူျခင္း ရပ္သြားပါၿပီ။"</string>
+<string name="accessibility_quick_settings_work_mode_off">"အလုပ္မုတ္ ပိတ္."</string>
+<string name="accessibility_quick_settings_work_mode_on">"အလုပ္မုတ္ ဖြင့္."</string>
+<string name="accessibility_quick_settings_work_mode_changed_off">"အလုပ္မုတ္ ပိတ္ျပီး."</string>
+<string name="accessibility_quick_settings_work_mode_changed_on">"အလုပ္မုတ္ ဖြင့္ျပီး."</string>
+<string name="accessibility_quick_settings_data_saver_changed_off">"ေဒတာ ေခ်ြတာ ပိတ္ျပီး."</string>
+<string name="accessibility_quick_settings_data_saver_changed_on">"ေဒတာ ေခ်ြတာ ဖြင့္ျပီး."</string>
+<string name="accessibility_brightness">"ျပသမႈ အလင္းအေမွာင္"</string>
+<string name="data_usage_disabled_dialog_3g_title">"2G-3G ေဒတာ ခဏရပ္ျပီး"</string>
+<string name="data_usage_disabled_dialog_4g_title">"4G ေဒတာ ေဒတာ ခဏပိတ္ျပီး"</string>
+<string name="data_usage_disabled_dialog_mobile_title">"ဆဲလ္ ေဒတာ ခဏပိတ္ျပီး"</string>
+<string name="data_usage_disabled_dialog_title">"ေဒတာ ခဏပိတ္ျပီး"</string>
+<string name="data_usage_disabled_dialog">"ဆက္တင္ေဒတာ သတ္မွတ္ခ်က္ေရာက္, ဤစက္၀န္း၏ သတိေပးခ်က္အတြက္ ေဒတာသံုးစြဲမႈကို စက္မွ ခဏပိတ္မည္.\n\n သင့္ကယ္ရီယာမွ ျပန္စရန္ အခေျကးေပးေဆာင္ရမည္."</string>
+<string name="data_usage_disabled_dialog_enable">"ဆက္လက္"</string>
+<string name="status_bar_settings_signal_meter_disconnected">"အင္တာနက္ဆက္သြယ္မႈလိုင္းမရွိပါ"</string>
+<string name="status_bar_settings_signal_meter_wifi_nossid">"၀ိုင္ဖိုင္ Wi-Fi ဆက္သြယ္ထားသည္။"</string>
+<string name="gps_notification_searching_text">"GPS ကို ရွာေဖြေနသည္။"</string>
+<string name="gps_notification_found_text">"GPS ျဖင့္ တည္ေနရာကို တပ္ဆင္ပါ။"</string>
+<string name="accessibility_location_active">"တည္ေနရာေတာင္းဆိုမႈ အက္တစ္"</string>
+<string name="accessibility_clear_all">"သတိေပးခ်က္အားလံုးကို ပယ္ဖ်က္ပါ။"</string>
+<string name="notification_group_overflow_indicator">"+ <xliff:g id="number" example="3">%s</xliff:g>"</string>
+<plurals name="notification_group_overflow_description">
+<item quantity="one">"<xliff:g id="number" example="1">%s</xliff:g> အတြင္းတြင္ သတိေပးခ်က္ ရွိေသး."</item>
+<item quantity="other">"<xliff:g id="number" example="3">%s</xliff:g> အတြင္းတြင္ သတိေပးခ်က္မ်ား ရွိေသး."</item>
+</plurals>
+<string name="status_bar_notification_inspect_item_title">"သတိေပးခ်က္အျပင္ဆင္မ်ား"</string>
+<string name="status_bar_notification_app_settings_title">"<xliff:g id="app_name" example="Calendar">%s</xliff:g> ဆက္တင္မ်ား"</string>
+<string name="accessibility_rotation_lock_off">"ဖန္သားမ်က္ႏွာျပင္ ေအာ္တိုေျပာင္းလိမ့္မည္။"</string>
+<string name="accessibility_rotation_lock_on_landscape">"ဖန္သားမ်က္ႏွာျပင္ပံုကို ရႈခင္းပံုျဖင့္ ေလာ့ခ္လုပ္ထားသည္။"</string>
+<string name="accessibility_rotation_lock_on_portrait">"ဖန္သားမ်က္ႏွာပံုကို ပန္းခ်ီ၊လူ ဓါတ္ပံု ျဖင့္ ေလာ့ခ္ လုပ္ထား သည္။"</string>
+<string name="accessibility_rotation_lock_off_changed">"ဖန္သားျပင္သည္ ယခု အလုိအေလ်ာက္ လွည့္မည္ျဖစ္သည္။"</string>
+<string name="accessibility_rotation_lock_on_landscape_changed">"ဖန္သားျပင္ကုိ ယခု အလ်ားလုိက္လွည့္ထားၿပီး ေသာ့ခတ္ထားပါသည္။"</string>
+<string name="accessibility_rotation_lock_on_portrait_changed">"ဖန္သားျပင္ကုိ ယခု ေဒါင္လုိက္လွည့္ထားၿပီး ေသာ့ခတ္ထားပါသည္။"</string>
+<string name="dessert_case">"အခ်ိဳပြဲအုပ္"</string>
+<string name="start_dreams">"ဖန္သားျပင္ သိမ္းသူ"</string>
+<string name="ethernet_label">"အီသာနက္"</string>
+<string name="quick_settings_dnd_label">"မေႏွာက္ယွက္ပါႏွင့္"</string>
+<string name="quick_settings_dnd_priority_label">"ဦးစားေပးသီသန္ ့"</string>
+<string name="quick_settings_dnd_alarms_label">"အလန္းမ်ား သာလွ်င္"</string>
+<string name="quick_settings_dnd_none_label">"အားလံုး အသံတိတ္"</string>
+<string name="quick_settings_bluetooth_label">"ဘလူးတုသ္"</string>
+<string name="quick_settings_bluetooth_multiple_devices_label">"ဘလူးတုသ္ (<xliff:g id="number">%d</xliff:g> စက္ကိရိယာမ်ား)"</string>
+<string name="quick_settings_bluetooth_off_label">"ဘလူးတူသ္ ပိတ္ထားသည္"</string>
+<string name="quick_settings_bluetooth_detail_empty_text">"မည္သည့္ တြဲထားသည့္စက္မွ မရရွိႏုိင္ပါ"</string>
+<string name="quick_settings_brightness_label">"အလင္းလင္းအား"</string>
+<string name="quick_settings_rotation_unlocked_label">"အလိုအေလ်ာက္-လွည့္ျခင္း"</string>
+<string name="accessibility_quick_settings_rotation">"အလိုအေလ်ာက္ဖန္သားျပင္ကို လွည့္မည္"</string>
+<string name="accessibility_quick_settings_rotation_value">"ဆက္တင္လုပ္ သို ့ <xliff:g name="rotation" example="Portrait">%s</xliff:g>"</string>
+<string name="quick_settings_rotation_locked_label">"လွည့္ျခင္းကုိ ေသာ့ခတ္ထားသည္"</string>
+<string name="quick_settings_rotation_locked_portrait_label">"ပံုတူ"</string>
+<string name="quick_settings_rotation_locked_landscape_label">ရႈခင္း</string>
+<string name="quick_settings_ime_label">"အသြင္းနည္းလမ္း"</string>
+<string name="quick_settings_location_label">"တည္ေနရာ"</string>
+<string name="quick_settings_location_off_label">"တည္ေနရာပိတ္"</string>
+<string name="quick_settings_media_device_label">"မီဒီယာ ကိရိယာ"</string>
+<string name="quick_settings_rssi_emergency_only">"အေရးေပၚဖုန္းေခၚဆိုမႈမ်ားသာ"</string>
+<string name="quick_settings_settings_label">"ဆက္တင္မ်ား"</string>
+<string name="quick_settings_time_label">အခ်ိန္</string>
+<string name="quick_settings_user_label">"ကၽြႏု္ပ္"</string>
+<string name="quick_settings_user_title">"အသံုးျပဳသူ"</string>
+<string name="quick_settings_user_new_user">"သံုးစြဲသူအသစ္"</string>
+<string name="quick_settings_wifi_label">"Wi-Fi"</string>
+<string name="quick_settings_wifi_not_connected">"မခ်ိတ္ဆက္ထားပါ"</string>
+<string name="quick_settings_wifi_no_network">"ကြန္ရက္မရွိပါ"</string>
+<string name="quick_settings_wifi_off_label">"Wi-Fi ပိတ္ထားသည္ "</string>
+<string name="quick_settings_wifi_on_label">"Wi-Fi ဖြင့္"</string>
+<string name="quick_settings_wifi_detail_empty_text">"Wi-Fi ကြန္ရက္မ်ား မေထာက္ပံ့"</string>
+<string name="quick_settings_cast_title">"ပံုသြင္းပါ"</string>
+<string name="quick_settings_casting">"ပံုသြင္းျခင္း"</string>
+<string name="quick_settings_cast_device_default_name">"အမည္မေပးထားေသာ စက္"</string>
+<string name="quick_settings_cast_device_default_description">"ပံုထြင္းရန္ အသင့္ျဖစ္ေနပါၿပီ"</string>
+<string name="quick_settings_cast_detail_empty_text">"မည္သည့္ စက္မွ မရရွိႏုိင္ပါ"</string>
+<string name="quick_settings_brightness_dialog_title">"အလင္းလင္းအား"</string>
+<string name="quick_settings_brightness_dialog_auto_brightness_label">"အလိုအေလ်ာက္"</string>
+<string name="quick_settings_inversion_label">"အေရာင္မ်ားကုိ ေျပာင္းျပန္လွန္ပါ"</string>
+<string name="quick_settings_color_space_label">"အေရာင္ အမွန္ျပင္ မုဒ္"</string>
+<string name="quick_settings_more_settings">"ေနာက္ထပ္ ဆက္တင္မ်ား"</string>
+<string name="quick_settings_done">"ျပီးပါျပီ"</string>
+<string name="quick_settings_connected">"ခ်ိတ္ဆက္ျပီး"</string>
+<string name="quick_settings_connecting">"ဆက္သြယ္ေနသည္"</string>
+<string name="quick_settings_tethering_label">"ခ်ိတ္ဆက္ျခင္း"</string>
+<string name="quick_settings_hotspot_label">"ေဟာ့စေပါ့"</string>
+<string name="quick_settings_notifications_label">သတိေပးခ်က္မ်ား</string>
+<string name="quick_settings_flashlight_label">"ဖက္ရက္ရွ္မီးအလင္း"</string>
+<string name="quick_settings_cellular_detail_title">"ဆယ္လူလာေဒတာ"</string>
+<string name="quick_settings_cellular_detail_data_usage">"အခ်က္အလက္သံုးစြဲမႈ"</string>
+<string name="quick_settings_cellular_detail_remaining_data">"ေဒတာ က်န္ရွိေနသည္"</string>
+<string name="quick_settings_cellular_detail_over_limit">"သတ္မွတ္ထက္ေက်ာ္"</string>
+<string name="quick_settings_cellular_detail_data_used">"<xliff:g id="data_used" example="2.0 GB">%s</xliff:g> ကုိ အသံုးျပဳၿပီးပါၿပီ"</string>
+<string name="quick_settings_cellular_detail_data_limit">"ကန္႔သတ္ခ်က္ <xliff:g id="data_limit" example="2.0 GB">%s</xliff:g>"</string>
+<string name="quick_settings_cellular_detail_data_warning">"သတိေပးခ်က္ <xliff:g id="data_limit" example="2.0 GB">%s</xliff:g> ခု"</string>
+<string name="quick_settings_work_mode_label">"အလုပ္မုတ္"</string>
+<string name="recents_empty_message">"မျကာမီက အိုင္တမ္မ်ား မရွိ"</string>
+<string name="recents_empty_message_dismissed_all">"အားလံုးရွင္းျပီး"</string>
+<string name="recents_app_info_button_label">"အပလီေကးရွင္း အခ်က္အလက္"</string>
+<string name="recents_lock_to_app_button_label">"ဖန္သားျပင္ကို တြဲေနသည္"</string>
+<string name="recents_search_bar_label">ရွာေဖြျခင္း</string>
+<string name="recents_launch_error_message">"<xliff:g id="app" example="Calendar">%s</xliff:g>ကုိ စတင္၍ မရႏုိင္ပါ။"</string>
+<string name="recents_launch_disabled_message">"<xliff:g id="app" example="Calendar">%s</xliff:g> လံုျခံဳ-မုတ္ ပိတ္ျပီး."</string>
+<string name="recents_stack_action_button_label">"အားလံုးကို ႐ွင္းလင္းပါ"</string>
+<string name="recents_incompatible_app_message">"ခြဲထြက္-ဖန္သားျပင္ ေအပီပီ မေထာက္ပံ့"</string>
+<string name="recents_drag_hint_message">"ခြဲထြက္ ျမင္ကြင္းသံုးရန္ ဒီမွာ ဆြဲခ်ပါ"</string>
+<string name="recents_multistack_add_stack_dialog_split_horizontal">"အလ်ားလိုက္ ခြဲထြက္ပါ"</string>
+<string name="recents_multistack_add_stack_dialog_split_vertical">"ေဒါင္လိုက္ ခြဲထြက္ပါ"</string>
+<string name="recents_multistack_add_stack_dialog_split_custom">"စိတ္ျကိုက္ ခြဲထြက္ပါ"</string>
+<string name="expanded_header_battery_charged">"အားသြင္းျပီး။"</string>
+<string name="expanded_header_battery_charging">"အားသြင္းေနသည္"</string>
+<string name="expanded_header_battery_charging_with_time">"<xliff:g id="charging_time" example="2 hrs 25 min">%s</xliff:g> ျပည့္သည္အထိ"</string>
+<string name="expanded_header_battery_not_charging">"အားမသြင္းေနပါ"</string>
+<string name="ssl_ca_cert_warning">"ကြန္ရက္ \n ေစာင့္ျကည့္ခံ "</string>
+<string name="description_target_search">ရွာေဖြျခင္း</string>
+<string name="description_direction_up">"<xliff:g example="Unlock" id="target_description">%s</xliff:g>အတြက္။"</string>
+<string name="description_direction_left">"<xliff:g example="Unlock" id="target_description">%s</xliff:g>အတြက္ ဘယ္ဘက္ကိုပြတ္ဆြဲပါ။"</string>
+<string name="zen_priority_introduction">"အလန္းမ်ား,သတိေပးခ်က္မ်ား, အျဖစ္အပ်က္မ်ား, နွင့္ သင့္သတ္မွတ္ထားသည့္ ဖုန္းေခၚဆိုသူမ်ား မွ လြဲ၍ အသံနွင့္ တုန္ခါမႈ၏ အေနွာင့္အယွက္မရွိပါ."</string>
+<string name="zen_priority_customize_button">"ကိုယ္တိုင္စိတ္ၾကိဳက္"</string>
+<string name="zen_silence_introduction_voice">"၄င္းသည္ အသံအားလံုးနွင့္ တုန္ခါမႈ ,အလန္းမ်ား, သီခ်င္း, ဗီဒီယိုမ်ား, နွင့္ ဂိန္းမ်ား အပ္အ၀င္ ကန္ ့သတ္မည္.ဖုန္းေခၚဆိုမႈ ဆက္လက္ ေဆာင္ရြက္နိုင္သည္"</string>
+<string name="zen_silence_introduction">"၄င္းသည္ အသံအားလံုးနွင့္ တုန္ခါမႈ ,အလန္းမ်ား, သီခ်င္း, ဗီဒီယိုမ်ား, နွင့္ ဂိန္းမ်ား အပ္အ၀င္ ကန္ ့သတ္မည္."</string>
+<string name="keyguard_more_overflow_text">"+<xliff:g id="number_of_notifications" example="5">%d</xliff:g>"</string>
+<string name="speed_bump_explanation">"ေအာက္ပါ အေရးႀကီးေသာ အသိေပးခ်က္မ်ားကုိ ေလွ်ာ့ပါ"</string>
+<string name="notification_tap_again">"ဖြင့္ရန္ ထပ္နွိပ္ပါ"</string>
+<string name="keyguard_unlock">"ေသာ့ဖြင့္ရန္ အေပၚသုိ႕ ပြတ္ဆြဲပါ"</string>
+<string name="phone_hint">"ဖုန္းအတြက္ အိုင္ကြန္မွ ပြတ္ဆြဲပါ"</string>
+<string name="voice_hint">"အသံအကူ အတြက္ အိုင္ကြန္မွ ပြတ္ဆြဲပါ"</string>
+<string name="camera_hint">"ကင္မရာ အတြက္ အိုင္ကြန္မွ ပြတ္ဆြဲပါ"</string>
+<string name="interruption_level_none_with_warning">"အားလံုးအသံတိတ္. ဖန္သားျပင္ ဖတ္သူမ်ားကို လည္း အသံတိတ္ေစမည္."</string>
+<string name="interruption_level_none">"အားလံုး အသံတိတ္"</string>
+<string name="interruption_level_priority">"ဦးစားေပးသီသန္ ့"</string>
+<string name="interruption_level_alarms">"အလန္းမ်ား သာလွ်င္"</string>
+<string name="interruption_level_none_twoline">"အားလံုး \n အသံတိတ္"</string>
+<string name="interruption_level_priority_twoline">"ဦးစားေပး\n သာလွ်င္"</string>
+<string name="interruption_level_alarms_twoline">"အလန္းမ်ား\n သာလွ်င္"</string>
+<string name="keyguard_indication_charging_time">"အားသြင္းေနသည္ (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> ျပည့္သည္အထိ)"</string>
+<string name="keyguard_indication_charging_time_fast">"ျမန္ျမန္ သြင္းပါ (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g>ျပည့္သည္ အထိ)"</string>
+<string name="keyguard_indication_charging_time_slowly">"ေျဖးေျဖး သြင္းပါ (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g>ျပည့္သည္ အထိ)"</string>
+<string name="accessibility_multi_user_switch_switcher">"အသံုးျပဳသူ ဖလွယ္ပါ"</string>
+<string name="accessibility_multi_user_switch_switcher_with_current">"အသံုးျပဳသူကုိ ဖလွယ္ပါ၊ လက္ရွိ အသံုးျပဳသူ <xliff:g id="current_user_name" example="John Doe">%s</xliff:g>"</string>
+<string name="accessibility_multi_user_switch_inactive">"ယခု သံုးစြဲသူ <xliff:g id="current_user_name" example="John Doe">%s</xliff:g>"</string>
+<string name="accessibility_multi_user_switch_quick_contact">"ပရုိဖုိင္းကုိ ျပပါ"</string>
+<string name="user_add_user">"အသံုးျပဳသူ ထည့္ပါ"</string>
+<string name="user_new_user_name">"သံုးစြဲသူအသစ္"</string>
+<string name="guest_nickname">"ဧည့္သည္"</string>
+<string name="guest_new_guest">"ဧည့္သည္ ထည့္ပါ"</string>
+<string name="guest_exit_guest">"ဧည့္သည္ကုိ ဖယ္ရွားပါ"</string>
+<string name="guest_exit_guest_dialog_title">"ဧည့္သည္ကုိ ဖယ္ရွားမလား?"</string>
+<string name="guest_exit_guest_dialog_message">"ဤအပုိင္းထဲရွိ အက္ပ္ႏွင့္ ေဒတာအားလံုးကုိ ဖ်က္ပစ္လိမ့္မည္။"</string>
+<string name="guest_exit_guest_dialog_remove">ဖယ္ရွား</string>
+<string name="guest_wipe_session_title">"ျပန္ႀကိဳဆုိပါတယ္၊ ဧည့္သည္!"</string>
+<string name="guest_wipe_session_message">"သင့္အပုိင္းက႑ကုိ ဆက္လက္လုပ္ေဆာင္လုိပါသလား?"</string>
+<string name="guest_wipe_session_wipe">"ျပန္စမည္"</string>
+<string name="guest_wipe_session_dontwipe">"မွန္သည္၊ ဆက္လုပ္ပါ"</string>
+<string name="guest_notification_title">"ဧည့္သည္ သံုးစြဲသူ"</string>
+<string name="guest_notification_text">"ေအပီပီမ်ား နွင့္ ေဒတာ ပယ္ဖ်က္ရန္, ဧည့္သည္ သံုးစြဲသူ ဖယ္ရွားပါ"</string>
+<string name="guest_notification_remove_action">"ဧည့္သည္ကုိ ဖယ္ရွားပါ"</string>
+<string name="user_logout_notification_title">"သံုးစြဲသူ ထြက္ပါ"</string>
+<string name="user_logout_notification_text">"လက္ရွိ သံုးစြဲသူ ထြက္ပါ"</string>
+<string name="user_logout_notification_action">"သံုးစြဲသူ ထြက္ပါ"</string>
+<string name="user_add_user_title">"အသံုးျပဳသူသစ္ကုိ ထည့္မည္လား?"</string>
+<string name="user_add_user_message_short">"အသံုးျပဳသူအသစ္ကုိ သင္ထည့္သည္အခါ ထုိပုဂၢိဳလ္သည္ ၎တုိ႕၏ ေနရာကုိ တည္ေဆာက္ရန္ လုိအပ္သည္။ \n\nအျခားေသာ အသံုးျပဳသူမ်ားအားလံုးအတြက္ မည္သည့္အသံုးျပဳသူကမဆုိ အက္ပ္မ်ားကုိ အပ္ဒိတ္လုပ္ႏုိင္သည္။"</string>
+<string name="user_remove_user_title">"သံုးစြဲသူ ဖယ္မလား?"</string>
+<string name="user_remove_user_message">"သံုးစြဲသူ၏ ေအပီပီမ်ား နွင့္ ေဒတာ အားလံုး ပယ္ဖ်က္ခံရလိမ့္မည္."</string>
+<string name="user_remove_user_remove">ဖယ္ရွား</string>
+<string name="battery_saver_notification_title">"ဘက္ထရီေခြ်တာကိရိယာကုိ ပြင့္ေနသည္"</string>
+<string name="battery_saver_notification_text">"လုပ္ေဆာင္ခ်က္ႏွင့္ ေနာက္ခံေဒတာကို ေလ်ာ့ခ်ပါ"</string>
+<string name="battery_saver_notification_action_text">"ဘက္ထရီေခြ်တာကိရိယာကုိ ပိတ္ပါ"</string>
+<string name="media_projection_dialog_text">"<xliff:g id="app_seeking_permission" example="Hangouts">%s</xliff:g> သည္ သင့္ဖန္သားျပင္တြင္ ျပသသည္အရာအားလံုးကုိ စတင္ဖမ္းယူလိမ့္မည္။"</string>
+<string name="media_projection_remember_text">"ေနာက္တစ္ခါ ထပ္မျပပါႏွင့္"</string>
+<string name="clear_all_notifications_text">"အားလံုးကို ႐ွင္းလင္းပါ"</string>
+<string name="media_projection_action_text">"ယခုစတင္ပါ"</string>
+<string name="empty_shade_text">"သတိေပးခ်က္မ်ား မရွိပါ"</string>
+<string name="device_owned_footer">"စက္ကုိ ေစာင့္ၾကည့္ထားေကာင္း ထားႏုိင္ပါသည္"</string>
+<string name="profile_owned_footer">"ပရုိဖုိင္းကုိ ေစာင့္ၾကည့္ထားေကာင္း ထားႏုိင္ပါသည္"</string>
+<string name="vpn_footer">"ကြန္ရက္ေစာင့္ျကည့္စစ္ေဆးခံရမည္"</string>
+<string name="monitoring_title_device_owned">"စက္ကုိ ေစာင့္ၾကည့္ထားပါသည္"</string>
+<string name="monitoring_title_profile_owned">"ပရုိဖုိင္းကုိ ေစာင့္ၾကည့္ေနသည္"</string>
+<string name="monitoring_title">"ကြန္ရက္ထိန္းခ်ဳပ္ျခင္း"</string>
+<string name="disable_vpn">"VPN ကုိပိတ္ပါ"</string>
+<string name="disconnect_vpn">"VPN ကုိခ်ိတ္ဆက္မႈ ျဖဳတ္ပါ"</string>
+<string name="monitoring_description_device_owned">"သင့္စက္ စီမံထား ျဖင့္ <xliff:g id="organization">%1$s</xliff:g>.\n\n သင့္စီမံခန္ ့ခြဲသူသည္  ဆက္တင္မ်ား, ပူးတြဲ လက္ခံ,  ေအပီပီမ်ား,  နွင့္ ေဒတာ လက္ခံသည့္ သင့္စက္,  နွင့္ သင့္စက္ တည္ေနရာ သတင္းအခ်က္ တို ့ကို  ဦးေဆာင္ျပီး စီမံနိုင္သည္. ေနာက္ထပ္ သတင္းအခ်က္ အတြက္, သင့္စီမံခန္ ့ခြဲသူထံ ဆက္သြယ္ပါ."</string>
+<string name="monitoring_description_vpn">" VPN ခ်ိတ္ဆက္မႈ တစ္ခု ဆက္တင္လုပ္ရန္ ေအပီပီ ခြင့္ျပဳခ်က္ ေပးျပီး. \n\n ဤေအပီပီသည္ သင့္စက္နွင့္ ကြန္ရက္ လုပ္ငန္းကို ဦးေဆာင္နိုင္, အီးေမးလ္, ေအပီပီမ်ား, နွင့္ web စာမ်က္နွာမ်ား အပါအ၀င္."</string>
+<string name="monitoring_description_vpn_device_owned">"မွ သင့္စက္ စီမံ <xliff:g id="organization">%1$s</xliff:g>.\n\n သင့္ စီမံခန္ ့ခြဲသူသည္  ဆက္တင္မ်ား, လက္ခံ,  ေအပီပီမ်ား,  နွင့္ ေဒတာ လက္ခံသည့္ သံုးစြဲသူ,  အပါအ၀င္ ကြန္ရက္ လုပ္ေဆာင္ခ်က္ တို ့ကို  ဦးေဆာင္ျပီး စီမံနိုင္သည္ နွင့္ သင့္စက္ တည္ေနရာ သတင္းအခ်က္."\n\n VPN တစ္ခုနွင့္ ခ်ိတ္ဆက္ထား,၄င္းသည္ ကြန္ရက္ လုပ္ငန္းကို ဦးေဆာင္နိုင္, အီးေမးလ္, ေအပီပီမ်ား, နွင့္ web စာမ်က္နွာမ်ား အပါအ၀င္.\n\n ေနာက္ထပ္ သတင္းအခ်က္အတြက္ , စီမံခန္ ့ခြဲသူထံ ဆက္သြယ္ပါ."</string>
+<string name="monitoring_description_vpn_profile_owned">"လုပ္ငန္း ပရီုဖိုင္း  စီမံထား ျဖင့္ <xliff:g id="organization">%1$s</xliff:g>.\n\nသင့္ စီမံခန္ ့ခြဲသူသည္  သင့္ ကြန္ရက္ လုပ္ငန္းကို ဦးေဆာင္နိုင္, အီးေမးလ္, ေအပီပီမ်ား, နွင့္ web စာမ်က္နွာမ်ား အပါအ၀င္.\n\n ေနာက္ထပ္ သတင္းအခ်က္အတြက္ , စီမံခန္ ့ခြဲသူထံ ဆက္သြယ္ပါ.\n\n  VPN သို ့လည္းခ်ိတ္ဆက္နိုင္,၄င္းသည္ သင့္ ကြန္ရက္ လုပ္ငန္းကို ဦးေဆာင္နိုင္သည္"</string>
+<string name="monitoring_description_app">"ခ်ိတ္ဆက္ထား သို ့ <xliff:g id="application">%1$s</xliff:g>, သင့္ ကြန္ရက္ လုပ္ငန္းကို ဦးေဆာင္နိုင္, အီးေမးလ္, ေအပီပီမ်ား, နွင့္ web စာမ်က္နွာမ်ား အပါအ၀င္."</string>
+<string name="monitoring_description_app_personal">"ခ်ိတ္ဆက္ထား သို ့ <xliff:g id="application">%1$s</xliff:g>, ၄င္းသည္ သင့္ ကိုယ္ပိုင္ ကြန္ရက္ လုပ္ငန္းကို ဦးေဆာင္နိုင္, အီးေမးလ္, ေအပီပီမ်ား, နွင့္ web စာမ်က္နွာမ်ား အပါအ၀င္."</string>
+<string name="monitoring_description_app_work">"သင့္လုပ္ငန္း ပရိုဖိုင္း စီမံထား ျဖင့္ <xliff:g id="organization">%1$s</xliff:g>. သို ့ခ်ိတ္ဆက္ထား <xliff:g id="application">%2$s</xliff:g>, ၄င္းသည္ သင့္ လုပ္ငန္း ကြန္ရက္ လုပ္ငန္း ကို ဦးေဆာင္နိုင္, အီးေမးလ္, ေအပီပီမ်ား, နွင့္ web စာမ်က္နွာမ်ား အပါအ၀င္.\n\n ေနာက္ထပ္ သတင္းအခ်က္အတြက္ , စီမံခန္ ့ခြဲသူထံ ဆက္သြယ္ပါ."</string>
+<string name="monitoring_description_app_personal_work">"သင့္လုပ္ငန္း ပရိုဖိုင္း စီမံထား ျဖင့္ <xliff:g id="organization">%1$s</xliff:g>. သို ့ ခ်ိတ္ဆက္ထား <xliff:g id="application_work">%2$s</xliff:g>, ၄င္းသည္ သင့္ လုပ္ငန္း ကြန္ရက္ လုပ္ငန္း ကို ဦးေဆာင္နိုင္, အီးေမးလ္, ေအပီပီမ်ား, နွင့္ web စာမ်က္နွာမ်ား အပါအ၀င္.\n\nသို ့ လည္းဘဲ ခ်ိတ္ဆက္ထား <xliff:g id="application_personal">%3$s</xliff:g>, ၄င္းသည္ သင့္ကိုယ္ပိုင္ ကြန္ရက္ လုပ္ငန္းကို ဦးေဆာင္လိမ့္မည္."</string>
+<string name="monitoring_description_vpn_app_device_owned">"သင့္စက္စီမံ ျဖင့္ <xliff:g id="organization">%1$s</xliff:g>.\n\n သင့္ စီမံခန္ ့ခြဲသူသည္  ဆက္တင္မ်ား, လက္ခံ,  ေအပီပီမ်ား,  နွင့္ ေဒတာ လက္ခံသည့္ သံုးစြဲသူ,  အပါအ၀င္ ကြန္ရက္ လုပ္ေဆာင္ခ်က္ တို ့ကို  ဦးေဆာင္ျပီး စီမံနိုင္သည္ နွင့္ သင့္စက္,နွင့္ သင့္စက္ တည္ေနရာ သတင္းအခ်က္. \n\n သို ့ ခ်ိတ္ဆက္ထား <xliff:g id="application">%2$s</xliff:g>၄င္းသည္ ကြန္ရက္ လုပ္ငန္းကို ဦးေဆာင္နိုင္, အီးေမးလ္, ေအပီပီမ်ား, နွင့္ web စာမ်က္နွာမ်ား အပါအ၀င္.\n\n ေနာက္ထပ္ သတင္းအခ်က္အတြက္ , စီမံခန္ ့ခြဲသူထံ ဆက္သြယ္ပါ."</string>
+<string name="keyguard_indication_trust_disabled">"သင္ကုိယ္တုိင္ လက္ျဖင့္ ေသာ့ဖြင့္သည္အထိ စက္သည္ ေသာ့ပိတ္ေနလိမ့္မည္"</string>
+<string name="hidden_notifications_title">"အသိေပးခ်က္မ်ားကုိ ပုိ၍ျမန္ျမန္ ရယူပါ"</string>
+<string name="hidden_notifications_text">"သင္ ေသာ့မဖြင့္မီ ၎တုိ႕ကုိ ၾကည့္ပါ"</string>
+<string name="hidden_notifications_cancel">"မလိုအပ္ပါ"</string>
+<string name="hidden_notifications_setup">"တပ္ဆင္ျခင္း"</string>
+<string name="zen_mode_and_condition">"<xliff:g id="zen_mode" example="Priority interruptions only">%1$s</xliff:g>. <xliff:g id="exit_condition" example="For one hour">%2$s</xliff:g>"</string>
+<string name="volume_zen_end_now">"ယခု အဆံုးသတ္ပါ"</string>
+<string name="accessibility_volume_expand">"ခ်ဲ ့ပါ"</string>
+<string name="accessibility_volume_collapse">"လက္ခံ"</string>
+<string name="screen_pinning_title">"ဖန္သားျပင္ ခ်ိတ္ျပီး"</string>
+<string name="screen_pinning_description">"မတြယ္ကပ္သည္အထိ ၄င္းကို ျမင္ကြင္းတြင္ ထားသိုမည္. ထိပါ &amp; မတြယ္ကပ္ရန္ ေနာက္သို ့ ဆုတ္ကိုင္ပါ."</string>
+<string name="screen_pinning_positive">"ရပါၿပီ"</string>
+<string name="screen_pinning_negative">"မလိုအပ္ပါ"</string>
+<string name="quick_settings_reset_confirmation_title">"ပုန္းပါ <xliff:g id="tile_label" example="Hotspot">%1$s</xliff:g>?"</string>
+<string name="quick_settings_reset_confirmation_message">"၄င္းကို ဆက္တင္မ်ားတြင္ ေနာက္တစ္ျကိမ္ ဖြင့္လွ်င္ ျပန္ေပၚလာမည္."</string>
+<string name="quick_settings_reset_confirmation_button">"ေဖ်ာက္ထားပါ"</string>
+<string name="volumeui_prompt_message">"<xliff:g id="app_name" example="Volume Prototype 1">%1$s</xliff:g> ဒိုင္ယာေလာ့ခ္ အသံညွိ ခ်င္သည္."</string>
+<string name="volumeui_prompt_allow">"ခြင့္ျပဳ"</string>
+<string name="volumeui_prompt_deny">မလုပ္ပါ</string>
+<string name="volumeui_notification_title">"<xliff:g id="app_name" example="Volume Prototype 1">%1$s</xliff:g> ဒိုင္ယာေလာ့ခ္ အသံညွိ "</string>
+<string name="volumeui_notification_text">"မူလအတိုင္းျပန္သိမ္းရန္ နွိပ္ပါ."</string>
+<string name="managed_profile_foreground_toast">"သင့္ လုပ္ငန္း ပရိုဖိုင္းကို သံုးေန"</string>
+<string name="volume_stream_content_description_unmute">"%1$s. အသံဖြင့္ရန္ နွိပ္ပါ."</string>
+<string name="volume_stream_content_description_vibrate">"%1$s. တုန္ခါမွဳ ဆက္တင္အတြက္ နွိပ္ပါ. ဝင္ေရာက္ျခင္း ၀န္ေဆာင္မွဳမ်ား အသံတိတ္."</string>
+<string name="volume_stream_content_description_mute">"%1$s. အသံတိတ္ရန္ နွိပ္ပါ.ဝင္ေရာက္ျခင္း ၀န္ေဆာင္မွဳမ်ား အသံတိတ္."</string>
+<string name="volume_dialog_accessibility_shown_message">"%s အသံတိုးက်ယ္ ထိန္းခ်ဳပ္ရွိ. ဖယ္ရွားရန္ အေပၚသို ့ ့ပြတ္ဆြဲပါ."</string>
+<string name="volume_dialog_accessibility_dismissed_message">"အသံတိုးက်ယ္ ထိန္းခ်ဳပ္ ၀ွက္ထား"</string>
+<string name="system_ui_tuner">"စနစ္ UI Tuner"</string>
+<string name="show_battery_percentage">"အေသပိတ္ ဘက္ထရီ နွဳန္း ေဖၚျပပါ"</string>
+<string name="show_battery_percentage_summary">"ပါ၀ါအား မသြင္းခ်ိန္တြင္ အေျခအေနျပဘားတြင္ ဘက္ထရီ အဆင့္ နွဳန္း ေဖၚျပပါ"</string>
+<string name="quick_settings">"အျမန္ ဆက္တင္မ်ား"</string>
+<string name="status_bar">"အေျခအေန"</string>
+<string name="overview">"အက်ဥ္း"</string>
+<string name="demo_mode">"ဒီမို မုတ္"</string>
+<string name="enable_demo_mode">"ဒီမို မုတ္ ဖြင့္ပါ"</string>
+<string name="show_demo_mode">"ဒီမို မုတ္ ေဖၚျပပါ"</string>
+<string name="status_bar_ethernet">"အီသာနက္"</string>
+<string name="status_bar_alarm">"အလန္းသံ"</string>
+<string name="status_bar_work">"အလုပ္ ပရုိဖုိင္း"</string>
+<string name="status_bar_airplane">"ေလယာဥ္ပ်ံသန္းစဥ္ပံုစံ"</string>
+<string name="add_tile">"ေခါင္းစဥ္ ထည့္ပါ"</string>
+<string name="broadcast_tile">"ထုတ္လႊင့္မႈ ေခါင္းစဥ္"</string>
+<string name="zen_alarm_warning_indef">"သင္၏ ေနာက္တစ္ျကိမ္ အလန္း မျကားရ <xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g> သူတို ့မတိုင္မွီ ၄င္းကို မပိတ္လွ်င့္"</string>
+<string name="zen_alarm_warning">"သင္၏ ေနာက္တစ္ျကိမ္ အလန္း မျကားရ <xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g>"</string>
+<string name="alarm_template">"တြင္ <xliff:g id="when" example="7:00 AM">%1$s</xliff:g>"</string>
+<string name="alarm_template_far">"ဖြင့္ <xliff:g id="when" example="Fri 7:00 AM">%1$s</xliff:g>"</string>
+<string name="accessibility_quick_settings_detail">"အျမန္ ဆက္တင္မ်ား, <xliff:g id="title" example="Wi-Fi">%s</xliff:g>."</string>
+<string name="accessibility_status_bar_hotspot">"ေဟာ့စေပါ့"</string>
+<string name="accessibility_managed_profile">"အလုပ္ ပရုိဖုိင္း"</string>
+<string name="tuner_warning_title">"တစ္ခ်ိဳ ့အတြက္ ေပ်ာ္စရာ သို ့ေသာ္ အားလံုးအတြက္ မဟုတ္ပါ"</string>
+<string name="tuner_warning">"သင့္ ျပင္ပ နည္းလမ္းမ်ား တေျဖးေျဖး ညွိရန္ ဆက္တင္မ်ားမွ စနစ္ UI Tuner ေဆာင္ရြက္ျပီး   သင့္စိတ္ျကိုက္ အန္းဒရိုက္ ဆက္သြယ္သူ နွင့္ ခ်ိတ္ဆက္ပါ. ဤစမ္းသပ္ခ်က္ လကၡဏာမ်ား ေျပာင္း, က်ိဳး, (သို ့) အနာဂတ္ တြင္ လႊတ္ မေဖၚျပ. သတိနွင့္ ေဆြးေႏြးပါ."</string>
+<string name="tuner_persistent_warning">"ဤစမ္းသပ္ခ်က္ လကၡဏာမ်ား ေျပာင္း, က်ိဳး, (သို ့) အနာဂတ္ တြင္ လႊတ္ မေဖၚျပ. သတိနွင့္ ေဆြးေႏြးပါ."</string>
+<string name="got_it">"ရပါၿပီ"</string>
+<string name="tuner_toast">"၀မ္းသာပါတယ္! ဆက္တင္မ်ားမွ စနစ္ UI Tuner ထည့္ျပီး"</string>
+<string name="remove_from_settings">"ဆက္တင္မ်ားမွ ဖယ္ပါ"</string>
+<string name="remove_from_settings_prompt">"ဆက္တင္မ်ားမွ စနစ္ UI Tuner ဖယ္ျပီး ၄င္း၏ လကၡဏာမ်ား အားလံုး သံုးရန္ ပိတ္ပါ?"</string>
+<string name="activity_not_found">"စက္တြင္ ေအပီပီ မသြင္းထား"</string>
+<string name="clock_seconds">"နာရီ စကၠန္ ့ ေဖၚျပပါ"</string>
+<string name="clock_seconds_desc">"အေျခအေနျပဘားတြင္ နာရီ၏ စကၠန္ ့တံ ျပပါ. ဘကၳရီ သံုးစြဲခ်ိန္ကို ထိခိုက္လိမ့္မည္."</string>
+<string name="qs_rearrange">"အျမန္ ဆက္တင္မ်ား ျပန္စီပါ"</string>
+<string name="show_brightness">"အျမန္ ဆက္တင္မ်ားတြင္ လင္းအား ေဖၚျပပါ"</string>
+<string name="overview_nav_bar_gesture">"ခြဲထြက္ျမင္ကြင္း အေပၚ-ပြတ္ဆြဲ လက္ေရးဟန္ ဖြင့္ပါ"</string>
+<string name="overview_nav_bar_gesture_desc">"ျခံဳငံုျမင္ကြင္းခလုတ္ မွ အေပၚ ပြတ္ဆြဲျပီး ခြဲထြက္-ျမင္ကြင္း ၀င္ရန္ လက္ေရးဟန္ ဖြင့္ပါ"</string>
+<string name="experimental">"သုေတသန"</string>
+<string name="enable_bluetooth_title">"ဘလူးတုသ္ ဖြင့္မလား?"</string>
+<string name="enable_bluetooth_message">"တက္ပလက္မွ ကီးဘုတ္နွင့္ ခ်ိတ္ဆက္ရန္, ဦးဆံုး ဘလူးတူသ္ကို ဖြင့္ရမည္."</string>
+<string name="enable_bluetooth_confirmation_ok">"ဖြင့္ပါ"</string>
+<string name="show_silently">"သတိေပးခ်က္မ်ား တိတ္ဆိတ္စြာ ေဖၚျပပါ"</string>
+<string name="block">"သတိေပးခ်က္မ်ား အားလံုး ကန္ ့သတ္ပါ"</string>
+<string name="do_not_silence">"မတိတ္ဆိတ္နဲ ့"</string>
+<string name="do_not_silence_block">"မတိတ္ဆိတ္နဲ့ (သို ့) မကန္ ့သတ္နဲ ့"</string>
+<string name="tuner_full_importance_settings">"ပါ၀ါအား သတိေပးခ်က္ ထိန္းခ်ဳပ္မ်ား"</string>
+<string name="tuner_full_importance_settings_on">"ဖြင့္"</string>
+<string name="tuner_full_importance_settings_off">ပိတ္သည္</string>
+<string name="power_notification_controls_description">"ပါ၀ါအား သတိေပးခ်က္ထိန္းခ်ဳပ္မ်ား နွင့္, ေအပီပီ၏ သတိေပးခ်က္မ်ား အေရးျကီးအဆင့္ 0 မွ 5 ထိ ဆက္တင္လုပ္နိုင္. \n\n<b>အဆင့္ 5 </b> \n- သတိေပးခ်က္စာရင္း ထိပ္ဆံုး \n- ဖန္သားျပင္ အျပည့္ အေနွာင့္အယွက္ ခြင့္ျပဳ \n- အျမဲ ေခ်ာင္းျကည့္ \n\n<b>အဆင့္ 4 </b> \n- ဖန္သားျပင္ အျပည့္ အေနွာင့္အယွက္ ကာကြယ္ \n- အျမဲ ေခ်ာင္းျကည့္  \n\n<b>အဆင့္ 3 </b> \n- ဖန္သားျပင္ အျပည့္ အေနွာင့္အယွက္ ကာကြယ္ \n- ဘယ္ေတာ့မွ မေခ်ာင္းျကည့္ \n\n<b>အဆင့္ 2 </b> \n- ဖန္သားျပင္ အျပည့္ အေနွာင့္အယွက္ ကာကြယ္ \n- ဘယ္ေတာ့မွ မေခ်ာင္းျကည့္  \n- အသံနွင့္ တုန္ခါမွဳသံ ဘယ္ေတာ့မွ မလုပ္ \n\n<b>အဆင့္ 1 </b> \n- ဖန္သားျပင္ အျပည့္ အေနွာင့္အယွက္ ကာကြယ္ \n- ဘယ္ေတာ့မွ မေခ်ာင္းျကည့္ \n- အသံနွင့္ တုန္ခါမွဳသံ ဘယ္ေတာ့မွ မလုပ္ \n- ေသာ့ဖန္သားျပင္ နွင့္ အေျခအေနျပဘားမွ ၀ွက္ပါ \n- အေျခအေနျပဘား စာရင္း၏ ေအာက္ေျခတြင္ ေဖၚျပပါ \n\n<b>အဆင့္ 0 </b> \n- ေအပီပီမွ သတိေပးခ်က္အားလံုး ကန္ ့သတ္ပါ "</string>
+<string name="user_unspecified_importance">"အေရးျကီး: ေအာ္တို"</string>
+<string name="blocked_importance">"အေရးျကီး: အဆင့္ 0"</string>
+<string name="min_importance">"အေရးျကီး: အဆင့္ 1"</string>
+<string name="low_importance">"အေရးျကီး: အဆင့္ 2"</string>
+<string name="default_importance">"အေရးျကီး: အဆင့္ 3"</string>
+<string name="high_importance">"အေရးျကီး: အဆင့္ 4"</string>
+<string name="max_importance">"အေရးျကီး: အဆင့္ 5"</string>
+<string name="notification_importance_user_unspecified">"အေရးျကီး သတိေပးခ်က္တိုင္း အတြက္ ေအပီပီ ဆံုးျဖတ္ခ်ကသည္္."</string>
+<string name="notification_importance_blocked">"ဤေအပီပီမွ သတိေပးခ်က္မ်ား ဘယ္ေတာ့မွ မေဖၚျပနွင့္."</string>
+<string name="notification_importance_min">"ဖန္သားျပင္ အျပည့္  အေနွာင့္အယွက္, ေခ်ာင္းျကည့္, အသံ, (သို ့) တုန္ခါသံ မရွိ. ေသာ့ဖန္သားျပင္ နွင့္ အေျခအေနျပဘားမွ ၀ွက္ပါ."</string>
+<string name="notification_importance_low">"ဖန္သားျပင္ အျပည့္  အေနွာင့္အယွက္, ေခ်ာင္းျကည့္, အသံ, (သို ့) တုန္ခါသံ မရွိ."</string>
+<string name="notification_importance_default">"ဖန္သားျပင္ အျပည့္  အေနွာင့္အယွက္ (သို ့) ေခ်ာင္းျကည့္ မရွိ."</string>
+<string name="notification_importance_high">"အျမဲ ေခ်ာင္းပါ. ဖန္သားျပင္အျပည့္ ေနွာင့္ယွက္မွဳ မရွိ."</string>
+<string name="notification_importance_max">"အျမဲ ေခ်ာင္းျပီး,ဖန္သားျပင္အျပည့္ ေနွင့္ယွက္မွဳကို ခြင့္ျပဳပါ."</string>
+<string name="notification_more_settings">"ေနာက္ထပ္ ဆက္တင္မ်ား"</string>
+<string name="notification_done">"ျပီးပါျပီ"</string>
+<string name="notification_gear_accessibility">"<xliff:g id="app_name" example="YouTube">%1$s</xliff:g> သတိေပးခ်က္ ထိန္းခ်ဳပ္မ်ား"</string>
+<string name="color_and_appearance">"ကာလာနွင့္ ေဖၚျပခ်က္"</string>
+<string name="night_mode">"ညပံုစံ"</string>
+<string name="calibrate_display">"စံ ေဖၚျပခ်က္"</string>
+<string name="night_mode_on">"ဖြင့္"</string>
+<string name="night_mode_off">ပိတ္သည္</string>
+<string name="turn_on_automatically">"အလုိအေလ်ာက္ဖြင့္ပါ"</string>
+<string name="turn_on_auto_summary">"သင့္ေလ်ာ္သည့္ တည္ေနရာနွင့္ ေန ့အခ်ိန္အတြက္ ညမုတ္ ဖြင့္ပါ "</string>
+<string name="when_night_mode_on">"ညမုတ္ ဖြင့္ထားခ်ိန္"</string>
+<string name="use_dark_theme">"အန္းဒရြိဳက္ OS အေမွာင္ေခါင္းစဥ္ သံုးပါ"</string>
+<string name="adjust_tint">"အေရာင္သန္း ခ်ိန္ညွိ"</string>
+<string name="adjust_brightness">"လင္းအား ခ်ိန္ညွိ"</string>
+<string name="night_mode_disclaimer">"အေမွာင္ေခါင္းစဥ္ အန္းဒရြိဳက္ OS ဗဟိုေနရာတြင္ သံုးထားလွ်င္ အလင္းေခါင္းစဥ္ ,ဆက္တင္မ်ားကဲ့သို ့ တြင္ ပံုမွန္ ေဖၚျပမည္  ."</string>
+<string name="color_apply">"သံုးမည္"</string>
+<string name="color_revert_title">"ဆက္တင္မ်ား အတည္ျပဳ"</string>
+<string name="color_revert_message">"တစ္ခ်ိဳ ့ကာလာ ဆက္တင္မ်ား ၄င္းစက္ကို မျမင္နိုင္. OK ကို ကလစ္လုပ္ျပီး ၄င္းကာလာဆက္တင္မ်ားကို အတည္ျပဳပါ, တနည္းအားျဖင့္ ၄င္းဆက္တင္မ်ား 10 စကၠန္ ့ျပီးလွ်င္ ဆက္တင္ျပန္စမည္."</string>
+<string name="battery_panel_title">"ဘကၳရီ သံုးစြဲမွဳ"</string>
+<string name="battery_detail_charging_summary">"ပါ၀ါအားသြင္းခ်ိန္ ဘကၳရီ  ေခ်ြတာ မေထာက္ပံ့"</string>
+<string name="battery_detail_switch_title">"ဘက္ထရီေခြ်တာကိရိယာ"</string>
+<string name="battery_detail_switch_summary">"လုပ္ေဆာင္ခ်က္ႏွင့္ ေနာက္ခံေဒတာကို ေလ်ာ့ခ်ပါ"</string>
+<string name="keyboard_key_button_template">"ခလုတ္ <xliff:g id="name">%1$s</xliff:g>"</string>
+<string name="keyboard_key_back">"ေနာက္သို ့"</string>
+<string name="keyboard_key_dpad_up">"အေပၚ"</string>
+<string name="keyboard_key_dpad_down">"ေအာက္"</string>
+<string name="keyboard_key_dpad_left">"ဘယ္"</string>
+<string name="keyboard_key_dpad_right">"ညာ"</string>
+<string name="keyboard_key_dpad_center">"ဗဟို"</string>
+<string name="keyboard_key_space">"ေနရာလြတ္"</string>
+<string name="keyboard_key_backspace">"ဘက္စ္စေပ့စ္"</string>
+<string name="keyboard_key_media_play_pause">"ဖြင့္ပါ/ခဏပိတ္"</string>
+<string name="keyboard_key_media_stop">"ရပ္"</string>
+<string name="keyboard_key_media_next">ေနာက္ထပ္</string>
+<string name="keyboard_key_media_previous">"အျကိုျမင္ကြင္းမ်ား"</string>
+<string name="keyboard_key_media_rewind">"ျပန္ရစ္ပါ"</string>
+<string name="keyboard_key_media_fast_forward">"အျမန္ ထပ္ဆင့္ပုိ႕"</string>
+<string name="keyboard_key_page_up">"စာမ်က္နွာ အေပၚ"</string>
+<string name="keyboard_key_page_down">"စာမ်က္နွာ ေအာက္"</string>
+<string name="keyboard_key_forward_del">ပယ္ဖ်က္သည္</string>
+<string name="keyboard_key_numpad_template">"နံပါတ္ျပား <xliff:g id="name">%1$s</xliff:g>"</string>
+<string name="keyboard_shortcut_group_system">"စစ္စတမ္"</string>
+<string name="keyboard_shortcut_group_system_home">"အိမ္"</string>
+<string name="keyboard_shortcut_group_system_recents">"လတ္တေလာအရာမ်ား"</string>
+<string name="keyboard_shortcut_group_system_back">"ေနာက္သို ့"</string>
+<string name="keyboard_shortcut_group_system_notifications">သတိေပးခ်က္မ်ား</string>
+<string name="keyboard_shortcut_group_system_shortcuts_helper">"ကီးဘုတ္ ေရွာ့ကပ္မ်ား"</string>
+<string name="keyboard_shortcut_group_system_switch_input">"အင္ပြတ္နည္းလမ္းကိုေျပာင္းပါ"</string>
+<string name="keyboard_shortcut_group_applications">"ေအပီပီမ်ား"</string>
+<string name="keyboard_shortcut_group_applications_assist">"အကူ"</string>
+<string name="keyboard_shortcut_group_applications_browser">"ဘေရာက္ဆာ"</string>
+<string name="keyboard_shortcut_group_applications_contacts">"ဆက္သြယ္သူမ်ား"</string>
+<string name="keyboard_shortcut_group_applications_email">အီးေမးလ္</string>
+<string name="keyboard_shortcut_group_applications_im">"IM"</string>
+<string name="keyboard_shortcut_group_applications_music">"ဂီတ"</string>
+<string name="keyboard_shortcut_group_applications_calendar">"ျပကၡဒိန္"</string>
+<string name="tuner_full_zen_title">"အသံတိုးက်ယ္ ထိန္းခ်ဳပ္မ်ား ေဖၚျပ"</string>
+<string name="volume_and_do_not_disturb">"မေႏွာက္ယွက္ပါႏွင့္"</string>
+<string name="volume_dnd_silent">"အသံတိုးက်ယ္ ခလုတ္မ်ား ေရွာ့ကပ္"</string>
+<string name="volume_up_silent">"အသံက်ယ္စဥ္ မေနွာင့္ယွက္ရန္ ထြက္ပါ"</string>
+<string name="battery">"ဘက္ထရီ"</string>
+<string name="clock">"နာရီ"</string>
+<string name="headset">"နားၾကပ္"</string>
+<string name="accessibility_status_bar_headphones">"နားျကပ္မ်ား  ခ်ိတ္ဆက္ထား"</string>
+<string name="accessibility_status_bar_headset">"နားျကပ္ ခ်ိတ္ဆက္ထား"</string>
+<string name="data_saver">"ေဒတာ ေခ်ြတာ "</string>
+<string name="accessibility_data_saver_on">"ေဒတာ ေခ်ြတာ ဖြင့္ထား"</string>
+<string name="accessibility_data_saver_off">"ေဒတာ ေခ်ြတာ ပိတ္ထား"</string>
+<string name="switch_bar_on">"ဖြင့္"</string>
+<string name="switch_bar_off">ပိတ္သည္</string>
+<string name="nav_bar">"လမ္းညႊန္ဘား"</string>
+<string name="start">"စတင္ပါ"</string>
+<string name="center">"ဗဟို"</string>
+<string name="end">"ၿပီးဆုံး"</string>
+<string name="space">"ေနရာလပ္"</string>
+<string name="menu_ime">"မန္နူး / ကီးဘုတ္ ဖြင့္ပိတ္"</string>
+<string name="select_button">"ထည့္ရန္ခလုတ္ ေရြးခ်ယ္ပါ"</string>
+<string name="add_button">"ခလုတ္ ထည့္ပါ"</string>
+<string name="save">"သိမ္းပါ"</string>
+<string name="reset">"ျပန္သတ္မွတ္ပါ"</string>
+<string name="no_home_title">"မူလ ခလုတ္ မေတြ ့"</string>
+<string name="no_home_message">"ဤစက္ ပင္မ ခလုတ္ သို ့ေျပာင္းရန္ လိုအပ္. ေက်းဇူးျပဳ၍ မသိမ္းမီ ပင္မ ခလုတ္ ထည့္ပါ."</string>
+<string name="adjust_button_width">"ခလုတ္ က်ဥ္းက်ယ္ ခ်ိန္ညွိ"</string>
+<string name="clipboard">"ကလစ္ဘုတ္"</string>
+<string name="clipboard_description">"ကီးဘုတ္သို ့ အိုင္တမ္မ်ား တိုက္ရိုက္ဆြဲခ်ရန္ ခြင့္ျပဳ. ကလစ္ဘုတ္ရွိခ်ိန္တြင္ အိုင္တမ္မ်ားကို ကလစ္ဘုတ္ျပင္ပသို ့ တိုက္ရိုက္ဆြဲခ်နိုင္."</string>
+<string name="accessibility_key">"စိတ္ျကိဳက္ အညွြန္း ခလုတ္"</string>
+<string name="keycode">"ကီးကုတ္"</string>
+<string name="keycode_description">"အညႊန္းဘားတြင္ ထည့္ရန္ ကီးကုတ္ ခလုတ္မ်ား ကီးဘုုတ္ကီးကို ခြင့္ျပဳ. ဖိလွ်င္ ေရြးခ်ယ္သည့္ကီးဘုတ္ ကီး လုပ္မည္.ခလုတ္အတြက္ ဦးဆံုး ေရြးခ်ယ္ရမည္, ထို့ေနာက္ ခလုတ္တြင္ ရုပ္ပံုျဖင့္ ေဖၚျပမည္."</string>
+<string name="select_keycode">"ကီးဘုတ္ ခလုတ္ ေရြးခ်ယ္ပါ"</string>
+<string name="preview">"ျကိုတင္ျမင္ကြင္း"</string>
+<string name="drag_to_add_tiles">"ေခါင္းစဥ္မ်ား ထည့္ရန္ ဆြဲခ်ပါ"</string>
+<string name="drag_to_remove_tiles">"ဒီမွာ ဖယ္ရွားရန္ ဆြဲခ်ပါ"</string>
+<string name="qs_edit">တည္းျဖတ္သည္</string>
+<string name="tuner_time">အခ်ိန္</string>
+<string-array name="clock_options">
+<item>"နာရီမ်ား, မိနစ္မ်ား, နွင့္ စကၠန္ ့မ်ား ေဖၚျပပါ"</item>
+<item>"နာရီမ်ားနွင့္ မိနစ္မ်ား(ဒီေဖါ့) ေဖၚျပပါ"</item>
+<item>"ဤအိုင္ကြန္ မေဖၚျပနွင့္"</item>
+</string-array>
+<string-array name="battery_options">
+<item>"ရာခိုင္နွဳန္း အျမဲျပပါ"</item>
+<item>"ပါ၀ါအား သြင္းခ်ိန္ (ဒီေဖါ့) ရာခိုင္နွဳန္း ေဖၚျပပါ"</item>
+<item>"ဤအိုင္ကြန္ မေဖၚျပနွင့္"</item>
+</string-array>
+<string name="other">"အျခား"</string>
+<string name="accessibility_divider">"ခြဲထြက္-ဖန္သားျပင္ ခြဲသူ"</string>
+<string name="accessibility_action_divider_left_full">"ဘယ္ ဖန္သားျပင္ အျပည့္ "</string>
+<string name="accessibility_action_divider_left_70">"ဘယ္ 70%"</string>
+<string name="accessibility_action_divider_left_50">"ဘယ္ 50%"</string>
+<string name="accessibility_action_divider_left_30">"ဘယ္ 30%"</string>
+<string name="accessibility_action_divider_right_full">"ညာ ဖန္သားျပင္ အျပည့္ "</string>
+<string name="accessibility_action_divider_top_full">"ထိပ္ ဖန္သားျပင္ အျပည့္ "</string>
+<string name="accessibility_action_divider_top_70">"ထိပ္ 70%"</string>
+<string name="accessibility_action_divider_top_50">"ထိပ္ 50%"</string>
+<string name="accessibility_action_divider_top_30">"ထိပ္ 30%"</string>
+<string name="accessibility_action_divider_bottom_full">"ဖန္သားျပင္ အျပည့္ ေအာက္ေျခ"</string>
+<string name="accessibility_qs_edit_tile_label">"ေနရာ <xliff:g id="position" example="2">%1$d</xliff:g>, <xliff:g id="tile_name" example="Wi-Fi">%2$s</xliff:g>. တည္းျဖတ္ရန္ နွစ္ျကိမ္ နွိပ္ပါ."</string>
+<string name="accessibility_qs_edit_add_tile_label">"<xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g>. ထည့္ရန္ နွစ္ျကိမ္ နွိပ္ပါ."</string>
+<string name="accessibility_qs_edit_position_label">"ေနရာ <xliff:g id="position" example="2">%1$d</xliff:g>. ေရြးခ်ယ္ရန္ နွစ္ျကိမ္ နွိပ္ပါ."</string>
+<string name="accessibility_qs_edit_move_tile">"ေရွြ ့ပါ <xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g>"</string>
+<string name="accessibility_qs_edit_remove_tile">"ဖယ္ရွားပါ <xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g>"</string>
+<string name="accessibility_qs_edit_tile_added">"<xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g> ေနရာသို ့ထည့္ျပီး <xliff:g id="position" example="5">%2$d</xliff:g>"</string>
+<string name="accessibility_qs_edit_tile_removed">"<xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g> ဖယ္ျပီး"</string>
+<string name="accessibility_qs_edit_tile_moved">"<xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g> ေနရာေရႊ ့ ထား <xliff:g id="position" example="5">%2$d</xliff:g>"</string>
+<string name="accessibility_desc_quick_settings_edit">"အျမန္ ဆက္တင္မ်ား တည္းျဖတ္သူ."</string>
+<string name="accessibility_desc_notification_icon">"<xliff:g name="app_name" example="Gmail">%1$s</xliff:g> သတိေပးခ်က္: <xliff:g name="notification_text" example="5 new messages">%2$s</xliff:g>"</string>
+<string name="dock_forced_resizable">"ခြဲထြက္-ဖန္သားျပင္ နွင့္ ေအပီပီ အလုပ္မလုပ္"</string>
+<string name="dock_non_resizeble_failed_to_dock_text">"ခြဲထြက္-ဖန္သားျပင္ ေအပီပီ မေထာက္ပံ့ပါ."</string>
+<string name="accessibility_quick_settings_settings">"ဆက္တင္မ်ား ဖါင့္ပါ."</string>
+<string name="accessibility_quick_settings_expand">"အျမန္ ဆက္တင္မ်ား ဖြင့္ပါ."</string>
+<string name="accessibility_quick_settings_collapse">""အျမန္ ဆက္တင္မ်ား ပိတ္ပါ." "</string>
+<string name="accessibility_quick_settings_alarm_set">"အလန္း ဆက္တင္."</string>
+<string name="accessibility_quick_settings_no_internet">"အင္တာနက္ မရွိ."</string>
+<string name="accessibility_quick_settings_open_details">"အေသးစိတ္မ်ား ဖြင့္ပါ."</string>
+<string name="accessibility_quick_settings_open_settings">"ဖြင့္ပါ <xliff:g name="page" example="Bluetooth">%s</xliff:g> ဆက္တင္မ်ား."</string>
+<string name="accessibility_quick_settings_edit">"ဆက္တင္မ်ား အစီအစဥ္ တည္းျဖတ္ပါ."</string>
+<string name="accessibility_quick_settings_page">"စာမ်က္နွာ <xliff:g name="current_page" example="1">%1$d</xliff:g> ၏ <xliff:g name="num_pages" example="2">%2$d</xliff:g>"</string>
+<string name="quick_settings_volume_label">"အသံ ပရိုဖိုင္း"</string>
+<string name="battery_level_template">"<xliff:g id="level" example="45">%d</xliff:g>%%"</string>
+<string name="battery_overtage_title">"လံုျခံဳေရးသတိေပးခ်က္"</string>
+<string name="battery_overtage_content">"ပါ၀ါအားသြင္းရန္ ဗို ့ အလြန္မ်ားေန!"</string>
+<string name="battery_overtage_back">"ေနာက္သို ့"</string>
+<string name="assistant_key_home">"အိမ္"</string>
+<string name="assistant_key_search">ရွာေဖြျခင္း</string>
+<string name="assistant_key_menu">"မီႏူး"</string>
+<string name="assistant_key_back">"ေနာက္သို ့"</string>
+<string name="vibrate_hint">"တုန္ခါရန္ ဘယ္သုိ႔ ပြတ္ဆြဲပါ"</string>
+</resources>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*" >
+
+    <TableRow
+        android:id="@+id/netinfo_adjacent_3g_tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip" >
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+        />
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:text="@string/netinfo_frequency"
+        />
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:text="@string/netinfo_cpid"
+        />
+         <TextView
+            android:id="@+id/netinfo_adjacent_3g_label03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:text="@string/netinfo_signal_strength"
+        />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/netinfo_adjacent_3g_tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:text="@string/netinfo_cell_0"
+        />
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+        />
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+        />
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+        />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/netinfo_adjacent_3g_tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:text="@string/netinfo_cell_1"
+        />
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+        />
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+        />
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+        />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/netinfo_adjacent_3g_tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:text="@string/netinfo_cell_2"
+        />
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+        />
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+        />
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+        />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/netinfo_adjacent_3g_tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:text="@string/netinfo_cell_3"
+        />
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+        />
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+        />
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+        />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/netinfo_adjacent_3g_tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:text="@string/netinfo_cell_4"
+        />
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+        />
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+        />
+        <TextView
+            android:id="@+id/netinfo_adjacent_3g_label53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+        />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- begin 562936 add by suyan.yang 2016.05.19 -->
+    <TextView
+        android:id="@+id/channel_set_textview"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/turn_textview_background"
+        android:text="@string/channel_set_title"
+        android:textSize="15dp" />
+    <EditText
+        android:id="@+id/channel_edittext"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/channel_set_textview"
+        android:digits="0123456789."
+        android:hint="@string/format"
+        android:maxLength="10"/>
+    <Button
+        android:id="@+id/channel_switch"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/channel_edittext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/channel_set_textview"
+        android:text="@string/channel_switch" />
+    <!-- end 562936 add by suyan.yang 2016.05.19 -->
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@drawable/turn_textview_background"
+        android:layout_below="@id/channel_edittext"
+        android:text="@string/set_earphone_status"
+        android:textSize="15dp" />
+    
+    <TextView 
+        android:id="@+id/standard_line"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:layout_centerHorizontal="true" />    
+    <Button 
+        android:id="@+id/earphone_play"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/textView10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@id/standard_line"
+        android:layout_marginRight="10dp"
+        android:text="@string/earphone_button_play" />
+    
+    <Button 
+        android:id="@+id/extroverted_play"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/textView10"
+        android:layout_toRightOf="@id/standard_line"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/extroverted_button_play" />
+
+    <TextView
+        android:id="@+id/earphone_and_extroverted_switch_textview"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_below="@id/extroverted_play"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/turn_textview_background"
+        android:text="@string/earphone_and_extroverted_switch_title"
+        android:textSize="15dp" />
+    
+    <EditText 
+        android:id="@+id/earphone_and_extroverted_switch_edittext"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/earphone_and_extroverted_switch_textview"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:inputType="number"
+        android:maxLength="5"/>
+    <Button
+        android:id="@+id/earphone_and_extroverted_switch_start_switch"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/earphone_and_extroverted_switch_textview"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/earphone_and_extroverted_switch_edittext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/earphone_and_extroverted_switch_start_switch" />
+
+    <Button
+        android:id="@+id/rds_bler_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/earphone_and_extroverted_switch_edittext"
+        android:text="@string/fm_rds_bler"/>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BUG547014 zhijie.yang 2016/05/09 SPRD:add mipi log function -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:dialogTitle="@string/mipi_log"
+        android:entries="@array/mipi_log_entries"
+        android:entryValues="@array/mipi_log_values"
+        android:key="mipi_log"
+        android:title="@string/mipi_log" >
+    </ListPreference>
+
+</PreferenceScreen>

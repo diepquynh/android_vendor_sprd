@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by Spreadst -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/record_item_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/record_start"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_gravity="center_vertical"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/recode_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:background="@drawable/audio_play_image" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relative_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/record_displayname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                android:textColor="#212121"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/record_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="#7d7d7d"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <com.sprd.soundrecorder.MarkSeekBar
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginRight="-10dp"
+            android:background="@android:color/transparent"
+            android:maxHeight="1dp"
+            android:minHeight="1dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:progressDrawable="@drawable/progress_horizontal_new"
+            android:thumb="@drawable/seek_thumb"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="15dp" >
+
+        <ImageView
+            android:id="@+id/tag_icon"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/record_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:singleLine="true"
+            android:textColor="#afafaf"
+            android:textSize="11sp" />
+
+        <CheckBox
+            android:id="@+id/recode_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

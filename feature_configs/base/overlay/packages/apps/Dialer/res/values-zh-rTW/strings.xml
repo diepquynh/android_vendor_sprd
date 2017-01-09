@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD: add for bug474356 filter calllog @{ -->
+    <string name="call_log_outgoing_title">"已撥電話"</string>
+    <string name="call_log_incoming_title">"已接來電"</string>
+    <string name="call_log_outgoing_empty">"您沒有任何已撥電話。"</string>
+    <string name="call_log_incoming_empty">"您沒有任何已接來電。"</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_SIM_CARD_IDENTIFICATION_IN_CALLLOG -->
+    <string name="sim">"SIM"</string>
+    <!-- SPRD: FFEATURE_FILTER_CALL_LOGS_BY_SIME. @{ -->
+    <string name="view_setting">"查看"</string>
+    <string name="item_all_calls">"所有通話記錄"</string>
+    <string name="item_sim_calls">"SIM%d 通話記錄"</string>
+    <!-- @} -->
+    <!-- SPRD: FAST DIAL FEATURE -->
+    <string name="fast_dial_title">"快速撥號設定"</string>
+    <string name="no_fast_dial_number">"當前按鍵未設定快速撥號電話號碼。"</string>
+    <string name="fast_dial_in_guest_mode">"非機主模式下無法使用快速撥號功能"</string>
+    <!-- @} -->
+    <!-- SPRD: VIBRATION FEEDBACK FUNCTION & Modified for Bug608351 @{ -->
+    <string name="vibration_feedback_for_call_connection_setting_title">"通話連接提示"</string>
+    <string name="vibration_feedback_for_call_connection_title">"去電連接後發出震動反饋"</string>
+    <string name="vibration_feedback_for_call_disconnection_title">"通話結束後發出震動反饋"</string>
+    <!-- SPRD: CLEAR CALL LOG FEATURE. @{ -->
+    <string name="unselect_all">"全部不選中"</string>
+    <string name="select_all_sprd">"全部選中"</string>
+    <string name="doneButton">"完成"</string>
+    <string name="cancel">"取消"</string>
+    <string name="delete_selected_calls">"您確定要刪除全部選中的記錄嗎？"</string>
+    <string name="clearCallLogProgress_title">"刪除所有通話記錄\u2026"</string>
+    <string name="delete_success">"刪除成功"</string>
+    <string name="clear_all_call_log">"刪除所有通話記錄"</string>
+    <string name="clear_selected_call_log">"刪除全部選中的通話記錄"</string>
+    <string name="select_all">"全選"</string>
+    <string name="unselect_all">"取消全選"</string>
+    <string name="delete_all_calls_confirm">"您確定要刪除全部選中的記錄嗎？"</string>
+    <string name="do_not_select">"您沒有選擇要刪除的記錄"</string>
+    <string name="delete_calls">"刪除"</string>
+    <!-- @} -->
+    <!-- SPRD: bug#474283, IP DIAL FEATURE. @{ -->
+    <string name="ip_dialing_list_title">"IP 撥號設定"</string>
+    <string name="ip_dial_menu">"IP 撥號"</string>
+    <string name="ip_dialing_title">"IP 撥號"</string>
+    <string name="dialog_phone_permission_deny">如要啟用IP撥號設定，請開啟「電話」存取權限。</string>
+    <!-- @} -->
+    <!-- SPRD: add for search call log in google search box feature -->
+    <string name="search_description">"搜尋通話記錄"</string>
+    <!-- SPRD: Add for bug587904 -->
+    <string name="fast_dial_in_guest_mode">"非機主模式下無法使用快速撥號功能"</string>
+    <!-- SPRD: Add for bug588583 -->
+    <string name="error_permissions">"這個應用缺乏必要的權限，無法執行。請檢查您的權限設定。"</string>
+    <!-- SPRD: add for bug591174 -->
+    <string name="list_delimeter">" "</string>
+    <string name="search_shortcut_send_sms_message" msgid="2569304043345025525">"傳送訊息"</string>
+    <string name="call_log_action_send_message" msgid="5679719296905285131">"傳送訊息"</string>
+    <!-- SPRD: add for bug595799 ,599589 -->
+    <string name="number_anr_isnull">"聯絡人號碼爲空"</string>
+    <!-- SPRD: add for bug597967 -->
+    <string name="voice_mail_guest_mode">"非機主模式下無法使用語音留言功能"</string>
+    <!-- SPRD: add for bug597518 -->
+    <string name="no_available_number">"無可用號碼"</string>
+    <!-- SPRD: add for bug598305 -->
+    <string name="callHistoryIconLabel" msgid="3734413397291301223">"通話記錄"</string>
+    <!-- SPRD: add for bug598787 -->
+    <string name="no_available_sim">"請確認是否禁用或者插入了sim卡"</string>
+     <!-- SPRD: add for bug600810 -->
+    <string name="dialog_voicemail_airplane_mode_message" msgid="530922773669546093">"如要聽語音留言，請先關閉飛航模式。"</string>
+    <!-- SPRD: add for bug601372  -->
+    <string name="call_log_activity_title" msgid="7949633151371183580">"通話記錄"</string>
+    <!-- SPRD: add for bug602948 @{ -->
+    <string name="call_log_delete_all" msgid="4677609108288680411">"清除通話記錄"</string>
+    <string name="clearCallLogConfirmation_title" msgid="801753155679372984">"清除通話記錄？"</string>
+    <string name="clearCallLogConfirmation" msgid="7899552396101432827">"這項操作會將所有通話從您的記錄中刪除"</string>
+    <string name="action_menu_call_history_description" msgid="9018442816219748968">"通話記錄"</string>
+    <string name="call_log_all_empty" msgid="8357417710416340920">"沒有任何通話記錄"</string>
+    <string name="tab_history" msgid="2563144697322434940">"通話記錄"</string>
+    <string name="toast_entry_removed" msgid="8010830299576311534">"已從通話記錄中刪除"</string>
+    <string name="permission_no_calllog" msgid="555711464287041043">"如要查看您的通話記錄，請開啟「電話」存取權限。"</string>
+    <!-- @} -->
+    <!-- SPRD: add for bug602916 @{ -->
+    <string name="call_log_all_empty" msgid="8357417710416340920">"沒有任何通話記錄。"</string>
+    <string name="speed_dial_empty" msgid="8838921693673366129">"您的快速撥號功能尚未設定任何聯絡人。"</string>
+    <!-- SPRD: add for bug 601793 -->
+    <string name="permission_no_contacts">"如要查看您的聯絡人，請開啟「電話」和「聯絡人」存取權限。"</string>
+    <!-- @} -->
+    <!-- SPRD: add for bug 604233 -->
+    <string name="migrate_blocked_numbers_dialog_message" msgid="5598530398682662860">"「電話」應用程式需要變更封鎖功能的運作方式，以進一步保護您的安全。現在開始，系統會拒絕已封鎖號碼的來電和訊息，還會將這些號碼提供給其他應用程式。"</string>
+    <string name="block_number_confirmation_message_new_filtering" msgid="4524854769790960179">"您不會再收到這組號碼的來電或訊息。"</string>
+    <!-- @} -->
+    <!-- SPRD: add for bug611098 -->
+    <string name="no_permission_for_voicemail">"要使用語音信箱功能，請打開“電話”權限"</string>
+    <!-- SPRD: add for bug611786 -->
+    <string name="dialog_make_call_airplane_mode_message">"如要发起通話，請先關閉飛航模式。"</string>
+    <!-- SPRD: add for bug610233 -->
+    <string name="number_not_in_black_list">"號碼不在黑名單中。"</string>
+    <!-- SPRD: Add for bug613018 -->
+    <string name="ip_dial_in_guest_mode">"非機主模式下無法使用IP撥號功能"</string>
+</resources>

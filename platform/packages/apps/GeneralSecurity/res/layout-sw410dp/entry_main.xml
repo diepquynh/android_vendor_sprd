@@ -1,0 +1,40 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:rowCount="4"
+    android:columnCount="4"
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp">
+    <include
+        android:id="@+id/one"
+        android:layout_column="0" 
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        layout="@layout/grid_item"
+        android:layout_row="0" />
+
+    <include
+        android:id="@+id/three"
+        android:layout_column="0" 
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        layout="@layout/grid_item"
+        android:layout_row="1" />
+    <include
+        android:id="@+id/four"
+        android:layout_column="1" 
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        layout="@layout/grid_item"
+        android:layout_row="1" />
+
+    <include
+        android:id="@+id/two"
+        android:layout_column="1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        layout="@layout/grid_item"
+        android:layout_row="0" />
+</GridLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <add-resource name="config_updateadnuidCapable" type="bool"/>
+    <bool name="config_updateadnuidCapable">true</bool>
+    <!-- SPRD Add For Feature Bug 474988:
+         CMCC customized LTE RSRP signal level threshold. -->
+    <add-resource name="config_LTE_RSRP_threshold_overlay" type="array"/>
+    <integer-array translatable="false" name="config_LTE_RSRP_threshold_overlay">
+        <item>-140</item>
+        <item>-120</item>
+        <item>-113</item>
+        <item>-105</item>
+        <item>-97</item>
+        <item>-44</item>
+    </integer-array>
+    <!-- SPRD: Bug #474443 Porting cmcc wifi features to AndroidN -->
+    <string name="config_wifi_operator" translatable="false">cmcc</string>
+    <!-- Porting cmcc wifi features to AndroidN END -->
+    <!-- SPRD: Bug#474381 support GPS automatic update time BEG -->
+    <string name="config_location_support_operator" translatable="false">cmcc</string>
+    <!-- support GPS automatic update time END -->
+    <!-- SPRD: Add for bug601753 @{ -->
+    <bool name="config_showEmergencyCallOnly">false</bool>
+    <!-- @} -->
+</resources>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:camera="http://schemas.android.com/apk/res/com.android.camera2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/extend_fix_icon_height"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/auto_scene"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <com.android.camera.ui.RotateLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/auto_scene_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_operate_scene_auto_sprd_unselected" />
+
+                    <TextView
+                        android:id="@+id/auto_scene_tv"
+                        style="@style/DreamText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pref_camera_scenemode_entry_auto" />
+                </LinearLayout>
+            </com.android.camera.ui.RotateLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/action_scene"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <com.android.camera.ui.RotateLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/action_scene_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_operate_scene_action_sprd_unselected" />
+
+                    <TextView
+                        android:id="@+id/action_scene_tv"
+                        style="@style/DreamText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pref_camera_scenemode_entry_action" />
+                </LinearLayout>
+            </com.android.camera.ui.RotateLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/night_scene"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <com.android.camera.ui.RotateLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/night_scene_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_operate_scene_night_sprd_unselected" />
+
+                    <TextView
+                        android:id="@+id/night_scene_tv"
+                        style="@style/DreamText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pref_camera_scenemode_entry_night" />
+                </LinearLayout>
+            </com.android.camera.ui.RotateLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/normal_scene"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <com.android.camera.ui.RotateLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/normal_scene_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_operate_scene_normal_sprd_unselected" />
+
+                    <TextView
+                        android:id="@+id/normal_scene_tv"
+                        style="@style/DreamText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pref_camera_scenemode_entry_normal" />
+                </LinearLayout>
+            </com.android.camera.ui.RotateLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/portrait_scene"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <com.android.camera.ui.RotateLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/portrait_scene_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_operate_scene_portrait_sprd_unselected" />
+
+                    <TextView
+                        android:id="@+id/portrait_scene_tv"
+                        style="@style/DreamText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pref_camera_scenemode_entry_portrait" />
+                </LinearLayout>
+            </com.android.camera.ui.RotateLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/landscape_scene"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <com.android.camera.ui.RotateLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/landscape_scene_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_operate_scene_landscape_sprd_unselected" />
+
+                    <TextView
+                        android:id="@+id/landscape_scene_tv"
+                        style="@style/DreamText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pref_camera_scenemode_entry_landscape" />
+                </LinearLayout>
+            </com.android.camera.ui.RotateLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

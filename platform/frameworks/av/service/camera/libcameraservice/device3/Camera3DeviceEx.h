@@ -1,0 +1,4 @@
+#ifndef ANDROID_SERVERS_CAMERA_CAMERA3DEVICE_EX_H
+#define ANDROID_SERVERS_CAMERA_CAMERA3DEVICE_EX_H
+virtual int cancelPicture();
+#endif

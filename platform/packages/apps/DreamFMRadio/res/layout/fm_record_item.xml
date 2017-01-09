@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created By Spreadst -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/fm_record_item_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/record_start"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="6dip"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/recode_icon"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:background="@drawable/btn_fm_record_play" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/fm_record_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="48dip"
+                android:layout_marginStart="4dip"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <SeekBar
+                android:id="@+id/progress"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="-10dip"
+                android:layout_marginEnd="32dip"
+                android:background="@android:color/transparent"
+                android:maxHeight="1dip"
+                android:minHeight="1dip"
+                android:paddingLeft="0dip"
+                android:paddingRight="0dip"
+                android:progressDrawable="@drawable/progress_horizontal_new"
+                android:thumb="@drawable/seek_thumb"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:id="@+id/delete_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/fm_station_rds_margin_top_start"
+                android:buttonTint="@color/checkbox_hint_color"
+                android:checked="false"
+                android:clickable="false"
+                android:focusable="false"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

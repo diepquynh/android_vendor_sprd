@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="PC Log" >
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="modemlog_enable"
+        android:title="ARM Log" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="cp2log_enable"
+        android:title="CP2 Log" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <ListPreference
+        android:defaultValue="@string/modem_dsp_log_entries_values_default"
+        android:entries="@array/modem_dsp_log_entries"
+        android:entryValues="@array/modem_dsp_log_values"
+        android:key="dsplog_enable"
+        android:title="DSP options" />
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="audiolog_enable"
+        android:title="Audio Log" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="caplog_enable"
+        android:title="Cap Log" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="engpc_service"
+        android:title="EngPC Service" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="cp_assert_helper"
+        android:title="CP Assert Helper" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <Preference
+        android:key="wcdma_iq"
+        android:title="WCDMA IQ" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.debuglog.WCDMAIQActivity"
+            android:targetPackage="com.sprd.engineermode" >
+        </intent>
+    </Preference>
+    <Preference
+        android:key="memory_leak"
+        android:title="Memory Leak Log" >
+    </Preference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="wms_log"
+        android:title="WMS Debug Log" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="input_log"
+        android:title="Input Debug Log" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="art_log"
+        android:title="Art Debug Log" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <Preference
+        android:key="sleep_log"
+        android:title="Sleeplog" >
+    </Preference>
+
+    <PreferenceScreen android:title="@string/browserdebug" >
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="log_enabled"
+            android:title="Log enabled" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="save_receive"
+            android:title="Save receive" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="dump_tree"
+            android:title="Dump tree" >
+        </com.sprd.engineermode.EMSwitchPreference>
+    </PreferenceScreen>
+
+</PreferenceScreen>

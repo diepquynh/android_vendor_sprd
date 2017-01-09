@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+<carrier_config>
+<int name="maxImageHeight" value="1944" />
+<int name="maxMessageSize" value="1048576" />
+<int name="maxImageWidth" value="2592" />
+</carrier_config>
+    <!-- SPRD： Add for bug 505176,Telcel emergency number -->
+    <carrier_config network_preferred="true">
+        <string name="ecclist_nocard">060,112,911,000,08,110,118,119,999</string>
+        <string name="ecclist_withcard">112,911</string>
+        <string name="fake_ecclist_withcard">060</string>
+    </carrier_config>
+</carrier_config_list>

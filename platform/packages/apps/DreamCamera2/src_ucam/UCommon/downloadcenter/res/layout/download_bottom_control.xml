@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010,2011 Thundersoft Corporation
+    All rights Reserved
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity = "center_vertical"
+    android:background = "@drawable/download_image_action_bar"
+    >
+
+    <TextView
+        android:id="@+id/btn_multi_all_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:drawablePadding="-3dp"
+        android:layout_marginTop="-2dp"
+        android:paddingBottom="2dip"
+        android:textSize="@dimen/dd_bottom_font_size"
+        android:text="@string/download_text_multi_select_all"
+        android:textColor="@color/download_bottom_text_color"
+        android:drawableTop="@drawable/download_selectall_status"/>
+
+    <TextView
+        android:id="@+id/btn_multi_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:drawablePadding="-3dp"
+        android:layout_marginTop="-2dp"
+        android:paddingBottom="2dip"
+        android:textSize="@dimen/dd_bottom_font_size"
+        android:text="@string/download_text_multi_select_cancel"
+        android:textColor="@color/download_bottom_text_color"
+        android:drawableTop="@drawable/download_cancel_status"/>
+
+    <TextView
+        android:id = "@+id/btn_multi_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="-3dp"
+        android:layout_marginTop="-2dp"
+        android:paddingBottom="2dip"
+        android:gravity="center"
+        android:textSize="@dimen/dd_bottom_font_size"
+        android:text="@string/download_text_multi_select_delete"
+        android:textColor="@color/download_bottom_text_color"
+        android:drawableTop="@drawable/download_delete_status"/>
+</LinearLayout>

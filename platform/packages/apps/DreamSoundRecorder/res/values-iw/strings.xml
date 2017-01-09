@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"רשמקול"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"הקלט את ההודעה"</string>
+    <string name="message_recorded" msgid="381539460921872233">"ההודעה הוקלטה"</string>
+    <string name="review_message" msgid="201616012287839474">"סקירת הודעה"</string>
+    <string name="recording" msgid="4426791467211376099">"מקליט"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"ההקלטה נעצרה"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"שטח האחסון מלא"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"זהו האורך המרבי המותר"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"‏טען אחסון USB"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"‏הכנס כרטיס SD"</string>
+    <string name="min_available" msgid="5493947690062988925">"נותרו <xliff:g id="MINUTES">%d</xliff:g> דקות"</string>
+    <string name="sec_available" msgid="2297020788861694399">"נותרו <xliff:g id="SECONDS">%d</xliff:g> שניות"</string>
+    <string name="accept" msgid="1888285552128743656">"בוצע"</string>
+    <string name="discard" msgid="761613433029406319">"מחק"</string>
+    <string name="button_ok" msgid="3004911343723076226">"אישור"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"ההקלטות שלך"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"הקלטות אודיו"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"ההקלטות שלי"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"‏לא ניתן לגשת לאחסון USB."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"‏לא ניתן לגשת לכרטיס SD."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"שגיאת אפליקציה פנימית"</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"לא ניתן לשמור את האודיו שהוקלט"</string>
+    <string name="recording_save">ההקלטה נשמרה</string>
+     <string name="recording_nosave">ההקלטה לא נשמרה</string>
+     <string name="phone_message">"לא ניתן להפעיל את מקלט השמע בזמן שיחה."</string>
+     <string name="min_and_time_available">"כ-<xliff:g id="minutes">%d</xliff:g> דקות ו-<xliff:g id="seconds">%d</xliff:g> שניות זמינות"</string>
+     <string name="press_record">"לחצו להקלטה"</string>
+     <string name="save">"שמור"</string>
+     <string name="select_file_type">"בחרו סוג קובץ הקלטה"</string>
+     <string name="record_amr">"סוג AMR (איכות נמוכה)"</string>
+     <string name="record_3gpp">"סוג 3GPP (איכות גבוהה)"</string>
+     <string name="button_cancel">"בטל"</string>
+     <string name="path_save">"נתיב ברירת המחדל נשמר"</string>
+     <string name="path_nosave">"נתיב ברירת המחדל לא נשמר"</string>
+     <string name="path_default">"הנתיב הנוכחי אינו בר כתיבה או לא חוקי, זהו נתיב לנתיב אחסון פנימי"</string>
+     <string name="menu_set_save_path">"הגדר נתיב שמירה"</string>
+     <string name="back">"חזור..."</string>
+     <string name="path_label">"בבקשה בחרו נתיב שמירה"</string>
+     <string name="pause">הפסק</string>
+     <string name="storage_is_not_enough">"מקום האחסון אינו מספיק"</string>
+     <string name="menu_recording_file_list">"רשימת קבצי הקלטה"</string>
+     <string name="recording_list_empty">רוקן רשימה</string>
+     <string name="menu_recording_list_select_all">"בחר הכל"</string>
+     <string name="menu_recording_list_delete">"מחק"</string>
+     <string name="menu_recording_list_deselect_all">"בטל בחירה"</string>
+     <string name="recording_file_delete_success">ההקלטה נמחקה</string>
+     <string name="recording_file_database_failed">נכשל למחוק את קובץ מאגר הנתונים</string>
+     <string name="recording_file_delete_failed">מחיקת קובץ הקלטה נכשלה</string>
+     <string name="confirm_del">האם אתה בטוח שברצונך למחוק את הקבצים?</string>
+     <string name="button_delete">"מחק"</string>
+     <string name="recording_file_delete_alert_title">"מחק"</string>
+     <string name="recording_file_delete_alert_message">בטוח למחוק %1$s ?</string>
+     <string name="recording_file_list">"רשימת קבצי הקלטה"</string>
+     <string name="less_than_one_second">"שנייה אחת"</string>
+     <string name="is_scanning">"סורק המדיה סורק כעת, אנא המתינו..."</string>
+     <string name="emptylist">הרשימה ריקה</string>
+     <string name="choose_file">בבקשה בחרו בהקלטה שתרצו למחוק ממנה קבצים!"</string>
+     <string name="error_path">"הנתיב שבחרתם אינו קיים, בבקשה הגדירו שוב!"</string>
+     <string name="path_miss">"הנתיב שנשמר אינו קיים או שלא ניתן לגשת אליו!"</string>
+     <string name="low_memory">"הזיכרון אינו מספיק, ההקלטה תיעצר!"</string>
+     <string name="record_error">"חריגת הקלטה אירעה!"</string>
+     <string name="play_error">"נגן המזויקה מנוטרל, לא ניתן לפתוח!"</string>
+     <string name="dialog_title">"אנא בחרו"</string>
+     <string name="dialog_message">"לשמור את ההקלטה?"</string>
+     <string name="same_application_running">"מכשיר ההקלטה נמצא בשימושה של תוכנה אחרת, אנא סגרו תוכנה זו!"</string>
+     <string name="recording_time_short">"זמן ההקלטה קצר משנייה אחת, ההקלטה לא נשמרה"</string>
+     <string name="file_path_button">"נתיב קובץ"</string>
+     <string name="file_name">"שם קובץ:"</string>
+     <string name="file_path">"נתיב קובץ:"</string>
+     <string name="rename">"שנה שם"</string>
+     <string name="rename_save">"שינוי השם הסתיים בהצלחה"</string>
+     <string name="rename_nosave">"שינוי השם נכשל"</string>
+     <string name="filename_is_not_modified">"שם הקובץ לא שונה"</string>
+     <string name="duplicate_name">"שם הקובץ כפול"</string>
+     <string name="soundpicker_label">"בבקשה בחרו קובץ הקלטה"</string>
+     <string name="error_sdcard_path">"כרטיס SD לא קיים. נתיב ברירת המחדל של השמירה השתנה לזכרון הפנימי."</string>
+     <string name="input_length_overstep">"הקלט הגיע לאורך המירבי"</string>
+     <string name="filename_empty_error">"שם הקובץ לא יכול להישאר כשדה ריק, שמרו את השם המקורי"</string>
+     <string name="please_choose_files">"בבקשה בחרו קבצים"</string>
+     <string name="selected_files_count">"בחר <xliff:g id="COUNTS">%d</xliff:g>"</string>
+     <string name="use_default_path">"הנתיב השמור אינו קיים, השתמש בנתיב ברירת המחדל"</string>
+     <string name="stroage_not_mounted">"ההחסן אינו מחובר"</string>
+     <string name="special_char_exist">"תווים מיוחדים <xliff:g id="COUNTS">%s</xliff:g> אינם נתמכים"</string>
+     <string name="menu_select_more">בחר עוד</string>
+     <string name="menu_select_type">"הגדירו סוג קובץ"</string>
+     <string name="path_miss_nosave">"הנתיב השמור אינו קיים, ההקלטה לא נשמרה!"</string>
+     <string name="dialog_dismiss">"בטל"</string>
+     <string name="error_permissions">"האפליקציה זקוקה להרשאות קריטיות בשביל לפעול. בדוק את הגדרת ההרשאות."</string>
+     <string name="internal_sdcard">"כרטיס SD פנימי"</string>
+     <string name="external_sdcard">"כרטיס SD חיצוני"</string>
+     <string name="internal_storage">"אחסון פנימי"</string>
+     <string name="external_storage">"אחסון חיצוני"</string>
+
+    <string name="set_as_ring">"קבע כרינגטונים"</string>
+     <string name="read_file_path">"בדוק את נתיב הקובץ"</string>
+     <string name="operate_share">"שתף"</string>
+     <string name="ringtone_title_sim1">צלצול טלפון SIM1</string>
+     <string name="ringtone_title_sim2">"צלצול טלפון SIM2"</string>
+     <string name="ringtone_menu_short">"השתמש כרינגטון"</string>
+     <string name="please_insert_sim_card">"בבקשה הכניסו לפחות כרטיס SIM"</string>
+     <string name="ring_set_silent_vibrate">צלצול מותאם אישית אינו נתמך במצב הנוכחי"</string>
+     <string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" הוגדר בתור צלצול הטלפון של SIM1"</string>
+     <string name="ringtone_set_sim2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" הוגדר בתור צלצול הטלפון של SIM2"</string>
+     <string name="ringtone_set">"\"<xliff:g id="NAME">%s</xliff:g>\" מוגדר כצלצול טלפון."</string>
+     <string name="ring_set_fail">"סליחה, לא ניתן לנגן את השיר. בבקשה בחרו שיר חדש כצלצול שלכם"</string>
+     <string name="tag_limit">"מספר התוויות הגיע למקסימום"</string>
+     <string name="no_allow_play_calling">לא מורשה לנגן מוסיקה בזמן שיחה (רדיו \ וידאו).</string>
+     <string name="playback_failed">"הנגן אינו תומך בסוג זה של קובץ שמע."</string>
+     <string name="tag">"תג"</string>
+     <string name="previous_tag">"התג האחרון"</string>
+     <string name="next_tag">"התג הבא"</string>
+     <string name="recording_play">"השמע הקלטה"</string>
+     <string name="clip_duration_tip">"ערוך אורך"</string>
+     <string name="record_setting">"הגדרות הקלטה"</string>
+     <string name="file_type">סוג קובץ</string>
+     <string name="type_amr">סוג AMR</string>
+     <string name="type_3gpp">סוג 3gpp</string>
+     <string name="save_path">"נתיב שמור"</string>
+     <string name="set_timer_recording">"הגדר זמן הקלטה"</string>
+     <string name="timer_recording_detail">"התחל הקלטה ב <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g>עבור <xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">"הצג פרטים"</string>
+     <string name="file_size">"גודל הקובץ:"</string>
+     <string name="file_date">"תאריך הקובץ:"</string>
+     <string name="recording_start_time">"שעת התחלת הקלטה"</string>
+     <string name="recording_duration">"משך זמן ההקלטה"</string>
+     <string name="tuned_timer_recording">"הקלטת טיימר מופעלת"</string>
+     <string name="miss_timer_recording">"הקלטת טיימר שפוספה"</string>
+     <string name="miss_timer_time">"זמן: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>"שעה"</item>
+        <item>"שעות"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"טיימר הקלטה מוגדר לפחות מדקה אחת מעכשיו."</item>
+        <item>"טיימר הקלטה מוגדר ל <xliff:g id="HOURS">%1$s</xliff:g> מעכשיו."</item>
+        <item>"טיימר הקלטה מוגדר ל <xliff:g id="MINUTES">%2$s</xliff:g> מעכשיו."</item>
+        <item>"טיימר הקלטה מוגדר ל <xliff:g id="HOURS">%1$s</xliff:g>  <xliff:g id="MINUTES">%2$s</xliff:g> מעכשיו."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">"1 שעה"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> שעות"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"דקה אחת"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> דקות"</item>
+    </plurals>
+     <string name="start_record">"התחלת הקלטה"</string>
+     <string name="resume_record">"חדש הקלטה"</string>
+     <string name="start_play">"התחל השמעה"</string>
+     <string name="resume_play">"חדש השמעה"</string>
+     <string name="reset_timer_recording">"מכשיר ההקלטה נמצא בשימוש על ידי תוכנה אחרת,  נא אפס את ההקלטה!"</string>
+     <string name="storage_not_enough">"אין מספיק שטח אכסון, נכשל ניסיון ההקלטה!"</string>
+     <string name="phone_storage_not_enough">"אין מספיק שטח אכסון בטלפון!"</string>
+</resources>

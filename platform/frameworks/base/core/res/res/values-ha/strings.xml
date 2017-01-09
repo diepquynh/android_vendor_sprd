@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="XXX" msgid="XXX">"XXX"</string>
+    <string name="fileSizeSuffix">"<xliff:g id="number" example="123">%1$s</xliff:g> <xliff:g id="unit" example="KB">%2$s</xliff:g>"</string>
+     <string name="durationDays">"<xliff:g id="days">%1$d</xliff:g> kwanaki"</string>
+     <string name="durationDayHours">"<xliff:g id="days">%1$d</xliff:g> rana<xliff:g id="hours">%2$d</xliff:g> awanni"</string>
+     <string name="durationDayHour">"<xliff:g id="days">%1$d</xliff:g> rana<xliff:g id="hours">%2$d</xliff:g> awa"</string>
+     <string name="durationHours"><xliff:g id="hours">%1$d</xliff:g> awanni"</string>
+     <string name="durationHourMinutes">"<xliff:g id="hours">%1$d</xliff:g> awa<xliff:g id="minutes">%2$d</xliff:g>mintuna"</string>
+     <string name="durationHourMinute">"<xliff:g id="hours">%1$d</xliff:g> awa<xliff:g id="minutes">%2$d</xliff:g>minti"</string>
+     <string name="durationMinutes">"<xliff:g id="minutes">%1$d</xliff:g>mintuna"</string>
+     <string name="durationMinute">"<xliff:g id="minutes">%1$d</xliff:g> minti"</string>
+     <string name="durationMinuteSeconds">"<xliff:g id="minutes">%1$d</xliff:g> min<xliff:g id="seconds">%2$d</xliff:g> dakikoki"</string>
+     <string name="durationMinuteSecond">"<xliff:g id="minutes">%1$d</xliff:g> min<xliff:g id="seconds">%2$d</xliff:g> dakika"</string>
+     <string name="durationSeconds">"<xliff:g id="seconds">%1$d</xliff:g>dakikoki"</string>
+     <string name="durationSecond">"<xliff:g id="seconds">%1$d</xliff:g>dakika"</string>
+     <string name="untitled">"&lt;basuna&gt;"</string>
+     <string name="emptyPhoneNumber">"(Ba lambar waya)"</string>
+     <string name="unknownName">"Majahuli"</string>
+     <string name="defaultVoiceMailAlphaTag">"Voicemail"</string>
+     <string name="mmiError">"Damuwar hadawa ko tsarin MMI ba karfi."</string>
+     <string name="mmiFdnError">"An takaice aiki akan lambobin kira na dindindin kadai."</string>
+     <string name="serviceEnabled">"An bude sabis."</string>
+     <string name="serviceEnabledFor">"An bude sabis don:"</string>
+     <string name="serviceDisabled">"An rufe sabis."</string>
+     <string name="serviceRegistered">"An yi nasarar yin rijista."</string>
+     <string name="serviceErased">"Sahrewa yayi nasara."</string>
+     <string name="passwordIncorrect">"Password marar kyau."</string>
+     <string name="mmiComplete">"MMI code ya kammala."</string>
+     <string name="badPin">"Tsohon lambar PIN da ka buga ba daidai bane."</string>
+     <string name="badPuk">"Lambar PUK da ka buga ba daidai bane."</string>
+     <string name="mismatchPin">"Lambobin PINs da ka buga ba su yi daidai ba."</string>
+     <string name="invalidPin">"Rubuta PIN wanda yake lambobi 4 ko 8 ne."</string>
+     <string name="invalidPuk">"Buga lambar PUK mai lambobi 8 ko fiye."</string>
+     <string name="needPuk">"An kulle SIM card din ka da PUK. Rubuta lambar sirri ta PUK don ka bude."</string>
+     <string name="needPuk2">"Rubuta PUK2 don bude SIM card."</string>
+     <string name="enablePin">"Bai yiwu ba, bude marufin SIM/RUIM."</string>
+     <string name="ClipMmi">"Adireshin mai kiran da ke shigowa"</string>
+     <string name="ClirMmi">"Adireshin mai kira"</string>
+     <string name="ColpMmi">"Hadadden layi ID"</string>
+     <string name="ColrMmi">"Hadadden layi ID takaitacce"</string>
+     <string name="CfMmi">"Tura kira gaba"</string>
+     <string name="CwMmi">"Kira na jira"</string>
+     <string name="BaMmi">"Haramcewa kira"</string>
+     <string name="PwdMmi">"Canjin password"</string>
+     <string name="PinMmi">"Canjin PIN"</string>
+     <string name="CnipMmi">"Lamba mai kira na nan"</string>
+     <string name="CnirMmi">"Lamba mai kira an hana"</string>
+     <string name="ThreeWCMmi">"Kiran bai-uku"</string>
+     <string name="RuacMmi">"Kin amsa kiran waya masu ban haushi da ba a so"</string>
+     <string name="CndMmi">"Lamba mai kira ta kai"</string>
+     <string name="DndMmi">"Kar a tada hankali"</string>
+     <string name="CLIRDefaultOnNextCallOn">"Tsohon saitin ID na mai kira zuwa an hana. Kira na gaba: An hana"</string>
+     <string name="CLIRDefaultOnNextCallOff">"Tsohon saitin ID na mai kira zuwa an hana. Kira na gaba: Babu hani"</string>
+     <string name="CLIRDefaultOffNextCallOn">"Tsohon saitin ID na mai kira zuwa babu hani. Kira na gaba: An hana"</string>
+     <string name="CLIRDefaultOffNextCallOff">"Tsohon saitin ID na mai kira zuwa babu hani. Kira na gaba: Babu hani"</string>
+     <string name="serviceNotProvisioned">"Ba a samar da sabis ba."</string>
+     <string name="CLIRPermanent">Ba za ka iya canza saitocin ID mai kira ba.</string>
+     <string name="RestrictedChangedTitle">"Kebantacciyar dama"</string>
+     <string name="RestrictedOnData">"Sarbis na bayani an toshe."</string>
+     <string name="RestrictedOnEmergency">"Hidimar gaggawa an toshe."</string>
+     <string name="RestrictedOnNormal">"An toshe aikin murya."</string>
+     <string name="RestrictedOnAllVoice">"Duk hidimomin murya an toshe."</string>
+     <string name="RestrictedOnSms">"An toshe service din SMS."</string>
+     <string name="RestrictedOnVoiceData">"An toshe aikin murya/bayanai."</string>
+     <string name="RestrictedOnVoiceSms">"An toshe aikin murya/sakon SMS."</string>
+     <string name="RestrictedOnAll">"Duk hidimomin murya/Bayani/SMS an toshe."</string>
+     <string name="peerTtyModeFull">"An nemi  irin yanayin TTY CIKAKKE"</string>
+     <string name="peerTtyModeHco">"An nemi irin yanayin TTY HCO"</string>
+     <string name="peerTtyModeVco">"An nemi  irin yanayin TTY VCO"</string>
+     <string name="peerTtyModeOff">"An nemi irin yanayin TTY KASHE"</string>
+     <string name="serviceClassVoice">"Murya"</string>
+     <string name="serviceClassData">"BAYANAI"</string>
+     <string name="serviceClassFAX">"FAX"</string>
+     <string name="serviceClassSMS">"Kiraye kirayen murya"</string>
+     <string name="serviceClassDataAsync">"Async"</string>
+     <string name="serviceClassDataSync">"Jona"</string>
+     <string name="serviceClassPacket">"Yankin curin bayanai"</string>
+     <string name="roamingText0">"An kunna manunin kiran yawo"</string>
+     <string name="roamingText1">"An kashe manunin kiran yawo"</string>
+     <string name="roamingText2">"Fitilar manunin kiran yawo"</string>
+     <string name="roamingText3">"A wajen yankin"</string>
+     <string name="roamingText4">"A wajen Ginin"</string>
+     <string name="roamingText5">"Kiran yawo - Na\'urar da aka fi bukata"</string>
+     <string name="roamingText6">"Kiran yawo - Na\'urar da ake iya samu"</string>
+     <string name="roamingText7">"Kiran yawo - Abokin hadin guiwa"</string>
+     <string name="roamingText8">"Kiran yawo - Babban abokin hulda"</string>
+     <string name="roamingText9">"Kiran yawo - Akwai sabis cikakke"</string>
+     <string name="roamingText10">"Kiran yawo - Akwai karancin sabis"</string>
+     <string name="roamingText11">"Makunnin alamar kiran yawa"</string>
+     <string name="roamingText12">"Makashin alamar kiran yawo"</string>
+     <string name="roamingTextSearching">"Binciken sabis"</string>
+     <string name="wfcRegErrorTitle">"Kiran Wi-Fi"</string>
+     <string name="wifi_calling_off_summary">"A KASHE"</string>
+     <string name="wfc_mode_wifi_preferred_summary">"Wanda ya fi son Wi-Fi"</string>
+     <string name="wfc_mode_cellular_preferred_summary">"Wanda ya fi son salula"</string>
+     <string name="wfc_mode_wifi_only_summary">"Wi-fi kadai"</string>
+     <string name="cfTemplateNotForwarded">"<xliff:g id="bearer_service_code">{0}</xliff:g>: Ba a tura gaba ba"</string>
+     <string name="cfTemplateForwarded">"<xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g>"</string>
+     <string name="cfTemplateForwardedTime">"<xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g> bayan <xliff:g id="time_delay">{2}</xliff:g> dakika"</string>
+     <string name="cfTemplateRegistered">"<xliff:g id="bearer_service_code">{0}</xliff:g>: Ba a tura gaba ba"</string>
+     <string name="cfTemplateRegisteredTime">"<xliff:g id="bearer_service_code">{0}</xliff:g>: Ba a tura gaba ba"</string>
+     <string name="fcComplete">"Tsarin fuskoki cikakke."</string>
+     <string name="fcError">"Damuwar hadawa ko fuskar tsari ba karfi."</string>
+     <string name="httpErrorOk">"YA YI"</string>
+     <string name="httpError">"Akwai kuskuren yanayin sadarwa."</string>
+     <string name="httpErrorLookup">"Ba a ga adireshin URL."</string>
+     <string name="httpErrorUnsupportedAuthScheme">"Tsarin tantance shafin bai aiki a nan."</string>
+     <string name="httpErrorAuth">"Bai iya tantancewa ba."</string>
+     <string name="httpErrorProxyAuth">"Tantacewa ta mai hidima kurkusa tayi nasara."</string>
+     <string name="httpErrorConnect">"Bai hadu da uwar garken ba."</string>
+     <string name="httpErrorIO">"Ba sadarwa da uwar garke. Ka sake a wani lokaci."</string>
+     <string name="httpErrorTimeout">"Lokacin hada sadarwa da sever ya kare."</string>
+     <string name="httpErrorRedirectLoop">"Shafin ya kunshi nunin rariya na sever da yawa."</string>
+     <string name="httpErrorUnsupportedScheme">"Tsarin sadarwar bai aiki a nan."</string>
+     <string name="httpErrorFailedSslHandshake">"Bai iya kafa amintaccen haduwa ba."</string>
+     <string name="httpErrorBadUrl">"Bai iya bude shafin ba saboda adireshin URL ba daidai ba ne."</string>
+     <string name="httpErrorFile">"Bai iya riskar fayil ba."</string>
+     <string name="httpErrorFileNotFound">"Bai iya ganin fayil da aka nema ba."</string>
+     <string name="httpErrorTooManyRequests">"A na gudanar da bukatu masu dimbin yawa. Sake gwadawa."</string>
+     <string name="notification_title">"Kuskuren sa hannu a <xliff:g id="account" example="foo@gmail.com">%1$s</xliff:g>"</string>
+     <string name="contentServiceSync">"Jona"</string>
+     <string name="contentServiceSyncNotificationTitle">"Jona"</string>
+     <string name="contentServiceTooManyDeletesNotificationDesc">"Masu yawa <xliff:g id="content_type">%s</xliff:g> sharewa."</string>
+     <string name="low_memory" product="tablet">"Ma\'adanar Tablet ya cika. Share wasu fayaloli don a samu wuri."</string>
+     <string name="low_memory" product="watch">"Duba ma\'adanar ta cika. Share wasu fayaloli don ka samu wuri."</string>
+     <string name="low_memory" product="tv">"Ma\'adanar  TV a cike. Goge wasu fayaloli a samu sarari."</string>
+     <string name="low_memory" product="default">"Ma\'adanar wayar ta cika. Share wasu fayaloli don a samu wuri."</string>
+     <string name="ssl_ca_cert_warning">"Ana lura da yanayin sadarwar"</string>
+     <string name="ssl_ca_cert_noti_by_unknown">"Daga wani na ukun da ba a sani ba"</string>
+     <string name="ssl_ca_cert_noti_by_administrator">"Daga mai gudanar da tsarin  ayyukanka"</string>
+     <string name="ssl_ca_cert_noti_managed">"Daga <xliff:g id="managing_domain">%s</xliff:g>"</string>
+     <string name="work_profile_deleted">"An goge tsarin aikin"</string>
+     <string name="work_profile_deleted_description">"An goge tsarin aiki saboda rashin masarrafin mai gudanarwa."</string>
+     <string name="work_profile_deleted_details">"Tsarin aikin masarrafin mai gudanarwa ko dai an rasa shi ko ya lalace.Don haka, tsarin aikinka da wasu bayanai da suka dangance shi an goge su. Tuntubi mai gudanarwarka don gudummawa."</string>
+     <string name="work_profile_deleted_description_dpm_wipe">"Babu bayanan aikinka akan wannan na\'ura."</string>
+     <string name="factory_reset_warning">"Za a share na\'urarka"</string>
+     <string name="factory_reset_message">"Mai gudanarwar  masarrafin ya rasa sassa ko ya lalace, kuma ba za a iya amfani da shi ba.Yanzu na\'urarka za a share. Tuntubi mai gudanarwarka don gudummawa."</string>
+     <string name="me">"Ni"</string>
+     <string name="power_dialog" product="tablet">"Zabukan tablet"</string>
+     <string name="power_dialog" product="tv">"Zabin TV"</string>
+     <string name="power_dialog" product="default">"Zabukan sarrafa waya"</string>
+     <string name="silent_mode">"Yanayin shiru"</string>
+     <string name="turn_on_radio">"Kunna wayales"</string>
+     <string name="turn_off_radio">"Kashe wayales"</string>
+     <string name="screen_lock">"Kirkiri makullin screen"</string>
+     <string name="power_off">"Kashe"</string>
+     <string name="silent_mode_silent">Kararrawa a kashe</string>
+     <string name="silent_mode_vibrate">Kararrawa girgiza</string>
+     <string name="silent_mode_ring">Kararrawa a kunne</string>
+     <string name="reboot_to_update_title">"Sabunta na\'urar Android"</string>
+     <string name="reboot_to_update_prepare">"Ana shirin sabunta \u2026"</string>
+     <string name="reboot_to_update_package">"Ana sarrafa kunshin sabuntawa \u2026"</string>
+     <string name="reboot_to_update_reboot">"Ana sake kunna\u2026"</string>
+     <string name="reboot_to_reset_title">"Sake saita bayanin masana\'anta"</string>
+     <string name="reboot_to_reset_message">"Ana sake kunna\u2026"</string>
+     <string name="shutdown_progress">"Ana kashewa\u2026"</string>
+     <string name="shutdown_confirm" product="tablet">"Tablet din ka zai rufe."</string>
+     <string name="shutdown_confirm" product="tv">"TV dinka zai rufe."</string>
+     <string name="shutdown_confirm" product="watch">"Agogonka zai mutu."</string>
+     <string name="shutdown_confirm" product="default">"Wayarka za ta mutu."</string>
+     <string name="shutdown_confirm_question">"Kana so ka kashe?"</string>
+     <string name="reboot_safemode_title">Sake kunnawa zuwa amintaccen tsari</string>
+     <string name="reboot_safemode_confirm">Kana so ka sake kunnawa zuwa amintaccen tsari? Wannan zai kwance dukkan masarrafan da ka saka. Za a sake dawo da su in ka sake kunnawa.</string>
+     <string name="recent_tasks_title">"Na kwanan nan"</string>
+     <string name="no_recent_tasks">"Ba sabbin masarrafai."</string>
+     <string name="global_actions" product="tablet">"Zabukan tablet"</string>
+     <string name="global_actions" product="tv">"Zabin TV"</string>
+     <string name="global_actions" product="default">"Zabukan sarrafa waya"</string>
+     <string name="global_action_lock">"Kirkiri makullin screen"</string>
+     <string name="global_action_power_off">"Kashe"</string>
+     <string name="global_action_bug_report">"Rahoton Bug"</string>
+     <string name="bugreport_title">Karbi rahoton bug</string>
+     <string name="bugreport_message">Wannan zai karbi bayanan yanayin na\'urarka, don aika sakon imel. Zai dauki lokaci kadan daga kunna rahoton bug har zuwa lokacin aika shi ya yi, ka yi hakuri.</string>
+     <string name="global_action_toggle_silent_mode">"Yanayin shiru"</string>
+     <string name="global_action_silent_mode_on_status">"An KASHE sauti"</string>
+     <string name="global_action_silent_mode_off_status">"An KUNNA sauti"</string>
+     <string name="global_actions_toggle_airplane_mode">"Irin na jirgin sama"</string>
+     <string name="global_actions_airplane_mode_on_status">"Irin na jirgin sama a KUNNE"</string>
+     <string name="global_actions_airplane_mode_off_status">"Irin na jirgin sama a KASHE"</string>
+     <string name="global_action_settings">"Saituna"</string>
+     <string name="global_action_assist">"Tallafa"</string>
+     <string name="global_action_voice_assist">"Tallafin Murya"</string>
+     <string name="global_action_lockdown">"Kulle yanzu"</string>
+     <string name="safeMode">"Yanayin kare lafiya"</string>
+     <string name="android_system_label">"Na\'urar Android"</string>
+     <string name="user_owner_label">"NA MUTUM"</string>
+     <string name="managed_profile_label">"Aiki"</string>
+     <string name="permgrouplab_contacts">"Matuntuba"</string>
+     <string name="permgroupdesc_contacts">"sami damar ganin matuntubanka"</string>
+     <string name="permgrouplab_location">"Wuri"</string>
+     <string name="permgroupdesc_location">"sami damar bude wurin wannan na\'ura"</string>
+     <string name="permgrouplab_calendar">"kalanda"</string>
+     <string name="permgroupdesc_calendar">"sami dama bude kalandarka"</string>
+     <string name="permgrouplab_sms">"Kiraye kirayen murya"</string>
+     <string name="permgroupdesc_sms">"aika tare da ganin sakonnin SMS"</string>
+     <string name="permgrouplab_storage">"Ajiyewa"</string>
+     <string name="permgroupdesc_storage">"sami damar bude hotuna, midiya, da fayilolin da ke kan na\'urarka"</string>
+     <string name="permgrouplab_microphone">"Makirfon"</string>
+     <string name="permgroupdesc_microphone">"Nadi sauti"</string>
+     <string name="permgrouplab_camera">"Kamara"</string>
+     <string name="permgroupdesc_camera">"dauki hotuna kuma ka yi rikodin din bidoyo"</string>
+     <string name="permgrouplab_phone">"Waya"</string>
+     <string name="permgroupdesc_phone">"buga tare da gudanar da kiraye kirayen waya"</string>
+     <string name="permgrouplab_sensors">"Masu sunsunar Jiki"</string>
+     <string name="permgroupdesc_sensors">"sami damar bude bayanan mai sunsuna game da muhimman alamominka"</string>
+     <string name="capability_title_canRetrieveWindowContent">"Dawo da makunshin windo"</string>
+     <string name="capability_desc_canRetrieveWindowContent">"Duba makunshin windon da kake aiki da."</string>
+     <string name="capability_title_canRequestTouchExploration">"Kunna bincike da tabawa"</string>
+     <string name="capability_desc_canRequestTouchExploration">"Abubuwan da aka taba za su magantu da karfi kuma za a iya bincikar fuskar wayar ta yanayin fuska."</string>
+     <string name="capability_title_canRequestEnhancedWebAccessibility">"Kunna damar isa ga intanet"</string>
+     <string name="capability_desc_canRequestEnhancedWebAccessibility">"Za a sauke wasu rubutun don a iya isa ga makunshin masarrafin."</string>
+     <string name="capability_title_canRequestFilterKeyEvents">"Lura da rubutun da ka buga"</string>
+     <string name="capability_desc_canRequestFilterKeyEvents">"Hada da bayananka da lambobin katin kudinka da kalmomin shiga."</string>
+     <string name="permlab_statusBar">"nakasa ko gyaggyara matsayin sanda"</string>
+     <string name="permdesc_statusBar">"Yana kyale masarrafi ya kwance allon matsayi ko kari  da cire alamomin tsarin."</string>
+     <string name="permlab_statusBarService">"ragayar matsayi"</string>
+     <string name="permdesc_statusBarService">"Yana kyale masarrafin ya zama allon matsayi."</string>
+     <string name="permlab_expandStatusBar">"fadada/gabta matsayin sanda"</string>
+     <string name="permdesc_expandStatusBar">"Yana kyale masarrafin ya fadada ko ya rusa allon matsayin."</string>
+     <string name="permlab_install_shortcut">"dasa hanyoyin ratse"</string>
+     <string name="permdesc_install_shortcut">"Kyale masarrafin ya kara da sa yanken shiga a fuskar waya ba tare da katsalandan mai wayar ba."</string>
+     <string name="permlab_uninstall_shortcut">"Hanyoyin ratse na cirewa"</string>
+     <string name="permdesc_uninstall_shortcut">"Kyale masarrafin ya cire yanken shiga a fuskar waya ba tare da katsalandan mai wayar ba."</string>
+     <string name="permlab_processOutgoingCalls">"Sake hanyar kiran da ke fita"</string>
+     <string name="permdesc_processOutgoingCalls">"Yana kyale masarrafin ya ga lambar da ake bugawa yayin kiran da ke fita tare da zabin tura kiran zuwa ga wata lambar ko dakatar da kiran gaba daya."</string>
+     <string name="permlab_receiveSms">"karbi sakonnin tes (SMS)"</string>
+     <string name="permdesc_receiveSms">"Yana kyale masarrafin ya karbi sakonnin SMS tare da sarrafa su. Wannan na nufin masarrafi zai iya lura ko share sakonnin da aka aiko wa na\'urarka ba tare da nuna maka su ba."</string>
+     <string name="permlab_receiveMms">"karbi sakonnin tes (MMS)"</string>
+     <string name="permdesc_receiveMms">"Yana kyale masarrafin ya karbi sakonnin MMS tare da sarrafa su. Wannan na nufin masarrafi zai iya lura ko share sakonnin da aka aiko wa na\'urarka ba tare da nuna maka su ba."</string>
+     <string name="permlab_readCellBroadcasts">sake karanta sakonnin cell broadcast</string>
+     <string name="permdesc_readCellBroadcasts">Bar masarrafar ta karanta duk sakon cell broadcast da na\'urarka ta amsa. Sanarwar Cell broadcast ana isar da su ne a wasu wurare don gargadi gare ka kan hali na gaggawa. Wasu masarrafai masu hadari na iya shafar aikin na\'urarka idan wani yanayi na sakon gaggawa na cell broadcast ya samu.</string>
+     <string name="permlab_subscribedFeedsRead">"karanta bayanai/labaran da ake turowa"</string>
+     <string name="permdesc_subscribedFeedsRead">"Yana kyale masarrafin ya sami bayanai dangane da sakonnin da aka daidaita lokacin."</string>
+     <string name="permlab_sendSms">"aika tare da ganin sakonnin SMS"</string>
+     <string name="permdesc_sendSms">"Yana kyale masarrafin ya aika sakonnin SMS. Wannan zai iya jawo cajin kudi na bazata. Batagarin masarrafai za su ja ma kudi ta aikawa da sakonni ba tare da ka tabbatarwarka ba."</string>
+     <string name="permlab_readSms">"karanta sakonnin tes dinka (SMS ko MMS)"</string>
+     <string name="permdesc_readSms" product="tablet">"Yana kyale masarrafi ya karanta sakon SMS da aka adana a kan tablet dinka ko katin SIM. Wannan yana kyale masarrafin ya karanta duk sakonnin SMS, ba tare da la\'akari da abin da suka kunsa ko sirrin ba."</string>
+     <string name="permdesc_readSms" product="tv">"Yana kyale masarrafin ya karanta sakonnin SMS da aka adana a TV dinka ko katin SIM. Wannan na kyale masarrafin ya karanta duk sakonnin SMS, ba tare da la\'akari da abin da ya kunsa ko sirrin ba."</string>
+     <string name="permdesc_readSms" product="default">"Yana kyale masarrafi ya karanta sakon SMS da aka adana a kan wayarka ko katin SIM. Wannan yana kyale masarrafin ya karanta duk sakonnin SMS, ba tare da la\'akari da abin da suka kunsa ko sirrin ba."</string>
+     <string name="permlab_receiveWapPush">"karbi sakonnin tes (WAP)"</string>
+     <string name="permdesc_receiveWapPush">"Yana kyale masarrafin ya karbi sakonnin WAP ya sarrafa su. Wannan izinin ya hada da ikon lura ko share sakonnin da aka aiko ma ba tare da nuna maka su ba."</string>
+     <string name="permlab_getTasks">"dawo da masarrafan da ke aiki"</string>
+     <string name="permdesc_getTasks">"Yana kyale masarrafin ya dawo da bayanai kan umurnin baya-bayan nan ko wanda ke gudana. Wannan zai kyale masarrafin ya gano bayanai kan masarrafan da ake amfani da su a na\'urar."</string>
+     <string name="permlab_manageProfileAndDeviceOwners">"Gudanar da bayanin mutum da kuma masu na\'ura"</string>
+     <string name="permdesc_manageProfileAndDeviceOwners">"Yana bada dama ga manhajoji su saita masu bayanin mutum da kuma masu na;ura."</string>
+     <string name="permlab_reorderTasks">"sake tsarin masarrafan da ke aiki"</string>
+     <string name="permdesc_reorderTasks">"Yana kyale masarrafin ya gusar da umurni gaba ko baya. Masarrafin zai yi haka ba tare da umurninka ba."</string>
+     <string name="permlab_enableCarMode">"rayar da halin mota"</string>
+     <string name="permdesc_enableCarMode">"Yana kyale masarrafin ya ba da dama ga tsarin mota."</string>
+     <string name="permlab_killBackgroundProcesses">"rufe sauran masarrafai"</string>
+     <string name="permdesc_killBackgroundProcesses">"Yana kyale masarrafin ya kawo karshen tafiyar sauran masarrafai ta bayan fage. Wannan zai sa sauran masarrafai su daina aiki."</string>
+     <string name="permlab_systemAlertWindow">"jawo kan sauran masarrafai"</string>
+     <string name="permdesc_systemAlertWindow">"Yana kyale masarrafin ya ja a kan sauran masarrafan ko bangaren da mai amfani da na\'urar ke aiki. Za su iya katsalandan kan amfaninka da tsarin wani masarrafin, ko canza abin da kake jin shi kake gani a sauran masarrafan."</string>
+     <string name="permlab_persistentActivity">"sa masarrafin ya rika aiki koyaushe"</string>
+     <string name="permdesc_persistentActivity" product="tablet">Kyale masarrafan ya zama sashensa na cikin ma\'adana. Wannan zai takaita karfin ma\'adanan da ya rage ga sauran masarrafan, wanda hakan zai sa tablet din ta rage sauri.</string>
+     <string name="permdesc_persistentActivity" product="tv">"Yana kyale masarrafin ya bar sassan sa a cikin memori. Wannan zai takaita memorin da ke akwai ga sauran masarrafai yana sa TV ya yi sanya."</string>
+     <string name="permdesc_persistentActivity" product="default">Kyale masarrafan ya zama sashensa na cikin ma\'adana. Wannan zai takaita karfin ma\'adanan da ya rage ga sauran masarrafan, wanda hakan zai sa wayar ta rage sauri.</string>
+     <string name="permlab_getPackageSize">"auna wurin adanar masarrafi"</string>
+     <string name="permdesc_getPackageSize">"Yana kyale masarrafin  ya dawo da tsari, bayanai da girman wurin adana"</string>
+     <string name="permlab_writeSettings">"gyara saitocin tsarin"</string>
+     <string name="permdesc_writeSettings">"Yana kyale masarrafin ya gyara bayanan saitocin tsarin. Batagarin masarrafai za su iya lalata saitin tsarinka."</string>
+     <string name="permlab_receiveBootCompleted">"kunna daga mafari"</string>
+     <string name="permdesc_receiveBootCompleted" product="tablet">"Yana kyale masarrafin ya kunna kansa da zaran tsarin ya gama tashi. Wannan zai sa ya dauki lokaci mai tsawo don kunna tablet kuma ya kyale masarrafin ya rage saurin gaba daya tablet ta hanyar aiki jiddadun."</string>
+     <string name="permdesc_receiveBootCompleted" product="tv">"Yana kyale masarrafin ya kunna kansa da zaran tsarin ya gama tantance kansa. Wannan zai sa ya dauki tsawon lokaci ya kunna TV kuma ya kyale masarrafin ya sa tablet sanya ta hanyar aiki koyaushe."</string>
+     <string name="permdesc_receiveBootCompleted" product="default">"Yana kyale masarrafin ya kunna kansa da zaran tsarin ya gama tashi. Wannan zai sa ya dauki lokaci mai tsawo don kunna wayar kuma ya kyale masarrafin ya rage saurin gaba daya wayar ta hanyar aiki jiddadun."</string>
+     <string name="permlab_broadcastSticky">"aika sakonmagana mai jan hankali"</string>
+     <string name="permdesc_broadcastSticky" product="tablet">"Yana kyale masarrafin ya aika sakonni da ake watsawa masu danko, da ke makalewa bayan an gama watsawar. Yawan amfani da zai sa tablet ya rage sauri ko rashin tabbas ta hanyar sa shi amfani da memori mai yawa. "</string>
+     <string name="permdesc_broadcastSticky" product="tv">"Yana kyale masarrafin ya aika da sakonnin da ake  watsawa, wanda ke wanzuwa idan watsawar ta kare. Yawan amfani da zai za TV sanya ko rashin tabbas ta hanyar sa shi ya samu memori mai yawa. "</string>
+     <string name="permdesc_broadcastSticky" product="default">"Yana kyale masarrafin ya aika sakonni da ake watsawa masu danko, da ke makalewa bayan an gama watsawar. Yawan amfani da zai sa wayar ta rage sauri ko rashin tabbas ta hanyar sa ta amfani da memori mai yawa. "</string>
+     <string name="permlab_readContacts">"karanta jerin lambobinka"</string>
+     <string name="permdesc_readContacts" product="tablet">"Yana kyale masarrafin ya karanta bayanai dangane da lambobinka da ke aje a tablet, da ya hada da yawan kiran da kake yi, ko imel ko yadda ka yi sadarwa ta wasu hanyoyin da wasu daidaiku. Wannan izinin yana kyale masarrafan su adana bayanan lambar, kuma batagarin masarrafai za su iya musayar bayanai ba tare da saninka ba."</string>
+     <string name="permdesc_readContacts" product="tv">"Yana kyale masarrafin ya karanta bayanai dangane da lambobin kiranka da ke aje a TV dinka, da ya hada da zangon da  ka yi kira da shi ko imel ko sadarwa ta wata hanyar da wasu daidaiku. Wannan izinin yana kyale masarrafi ya adana bayanan lambobin kira, kuma batagarin masarrafai za su iya raba bayanan lambobin kira ba tare da saninka ba."</string>
+     <string name="permdesc_readContacts" product="default">"Yana kyale masarrafin ya karanta bayanai dangane da lambobinka da ke aje a wayar, da ya hada da yawan kiran da kake yi, ko imel ko yadda ka yi sadarwa ta wasu hanyoyin da wasu daidaiku. Wannan izinin yana kyale masarrafan su adana bayanan lambar, kuma batagarin masarrafai za su iya musayar bayanai ba tare da saninka ba."</string>
+     <string name="permlab_writeContacts">"gyara lambobinka"</string>
+     <string name="permdesc_writeContacts" product="tablet">"Yana kyale masarrafin ya gyara bayanai dangane da lambobinka da ke aje a tablet, da ya hada da yawan kiran da kake yi, ko imel ko yadda ka yi sadarwa ta wasu hanyoyin da wasu lambobi ayyanannu. Wannan izinin yana kyale masarrafan su share bayanan lamba."</string>
+     <string name="permdesc_writeContacts" product="tv">"Yana kyale masarrafin ya gyara bayanai dangane da lambobin kiran ka da aka aje a TV dinka, da ya hada da zangon da ka yi kira da shi, imel, ko sadarwa ta wata hanyar da wasu ayyanannun lambobin kira. Wannan izinin yana kyale masarrafai su goge bayanan lambar kira."</string>
+     <string name="permdesc_writeContacts" product="default">"Yana kyale masarrafin ya gyara bayanai dangane da lambobinka da ke aje a wayar, da ya hada da yawan kiran da kake yi, ko imel ko yadda ka yi sadarwa ta wasu hanyoyin da wasu lambobi ayyanannu. Wannan izinin yana kyale masarrafan su share bayanan lamba."</string>
+     <string name="permlab_readCallLog">karanta jerin kiraye-kiraye</string>
+     <string name="permdesc_readCallLog" product="tablet">Kyale masarrafan ya karanta jerin kira ga tablet dinka, da ya hada da kiran da ke shigowa da mai fita. Wannan izinin zai kyale masarrafin ya aje bayanan kira, kuma masarrafai masu hadari za su iya musayar bayanan kira ba tare da saninka ba.</string>
+     <string name="permdesc_readCallLog" product="tv">"Yana kyale masarrafin ya karanta jerin kira na TV dinka, da ya hada da bayanan kira masu shigowa da fita. Wannan izini yana kyale masarrafai su adana bayanan jerin kiran ka, kuma batagarin masarrafai za su iya raba bayanan jerin kiran ka ba tare da saninka ba."</string>
+     <string name="permdesc_readCallLog" product="default">Kyale masarrafan ya karanta jerin kira ga wayarka, da ya hada da kiran da ke shigowa da mai fita. Wannan izinin zai kyale masarrafin ya aje bayanan kira, kuma masarrafai masu hadari za su iya musayar bayanan kira ba tare da saninka ba.</string>
+     <string name="permlab_writeCallLog">rubuta jerin kira</string>
+     <string name="permdesc_writeCallLog" product="tablet">Kyale masarrafin ya sauya jerin kiran tablet dinka,duk da kiran da ke shigowa da mai fita. Masarrafai masu hadari za su iya amfani da haka su goge ko sauya maka jerin kira.</string>
+     <string name="permdesc_writeCallLog" product="tv">"Yana kyale masarrafin ya gyara jerin kira na TV dinka, da ya hada da bayanai dangane da kira masu shigowa da fita.Batagarin masarrafai za su iya amfani da shi su share ko gyara jerin kiran ka."</string>
+     <string name="permdesc_writeCallLog" product="default">Kyale masarrafin ya sauya jerin kiran wayarka,duk da kiran da ke shigowa da mai fita. Masarrafai masu hadari za su iya amfani da haka su goge ko sauya maka jerin kira.</string>
+     <string name="permlab_bodySensors">"masu sunsunar jiki (kamar masu lura da bugun zuciya)"</string>
+     <string name="permdesc_bodySensors" product="default">"Yana bada dsma ga manhaja ta bude bayanai daga masu sunsuna da ke lura da yanayinka na zahiri, kamar bugun zuciyarka."</string>
+     <string name="permlab_readCalendar">"karanta al\'amura masu zuwa a kalanda"</string>
+     <string name="permdesc_readCalendar" product="tablet">"Yana kyale masarrafin ya karanta dukkan tarurrukan da ke kalanda da aka aje a tablet dinka, da suka hada da na abokanka ko abokan aikinka. Wannan zai kyale masarrafin ya yi musaya ko adana bayanan kalandarka, ba tare da la\'akari da sirri ko muhimmancin su ba."</string>
+     <string name="permdesc_readCalendar" product="tv">"Yana kyale masarrafin ya karanta duk tarukan kalanda da ke aje a TV dinka, da suka hada da na abokai ko abokan aiki. Wannan zai kyale masarrafi ya raba ko ya adana bayanan kalandarka, ba tare da la\'akari da sirri ko muhimmanci ba."</string>
+     <string name="permdesc_readCalendar" product="default">"Yana kyale masarrafin ya karanta dukkan tarurrukan da ke kalanda da aka aje a wayarka, da suka hada da na abokanka ko abokan aikinka. Wannan zai kyale masarrafin ya yi musaya ko adana bayanan kalandarka, ba tare da la\'akari da sirri ko muhimmancin su ba."</string>
+     <string name="permlab_writeCalendar">"kara ko dan sake kalandar aikace-aikace da aika emel ga baki"</string>
+     <string name="permdesc_writeCalendar" product="tablet">Kyale masarrafin ya kara ko ya rage ko ya canza wasu ayyukan da za ka iya sauyawa a tablet dinka, ciki har da na abokai da abokan aiki. Wannan zai kyale masarrafin ya aika sakonnin da za a ga kamar sun fito ne daga wadanda ke cikin kalanda, ko ya sauya al\'amura ba tare da sanin mai shi ba.</string>
+     <string name="permdesc_writeCalendar" product="tv">"Yana kyale masarrafin ya kara, cire, canza taro da za ka iya gyarawa a kan TV dinka, da ya hada da na abokai ko abokan aiki. Wannan zai kyale masarrafi ya aika da sakonni da za su nuna kamar daga masu kalandar ne, ko gyara tarurruka ba tare da sanin masu shi ba."</string>
+     <string name="permdesc_writeCalendar" product="default">Kyale masarrafin ya kara ko ya rage ko ya canza wasu ayyukan da za ka iya sauyawa a wayarka, ciki har da na abokai da abokan aiki. Wannan zai kyale masarrafin ya aika sakonnin da za a ga kamar sun fito ne daga wadanda ke cikin kalanda, ko ya sauya al\'amura ba tare da sanin mai shi ba.</string>
+     <string name="permlab_accessLocationExtraCommands">"damar ganin karin wurin da mai tanadi ya umarta"</string>
+     <string name="permdesc_accessLocationExtraCommands">"Yana kyale masarrafin ya kai ga umurnin da ke ba da karin masu samar da wuri. Wannan zai kyale masarrafin ya tsoma baki kan aikin GPS ko sauran masomin wurare."</string>
+     <string name="permlab_accessFineLocation">"takamaimen wuri (GPS da na yanayin sadarwa)"</string>
+     <string name="permdesc_accessFineLocation">"Yana kyale masarrafin ya samu takamaimen wurinka ta amfani da tsarin gano wuri na duniya (GPS) ko masomin wuri ta yanayin sadarwa kamar hasumiyar watsa sakonni da Wi-Fi. Wadannan masu gano wuri dole a kunna su kuma akwai su a na\'urarka don masarrafin ya yi amfani da su. Masarrafan za su iya amfani da su don gano inda kake, kuma za su zuki karin karfin baturi."</string>
+     <string name="permlab_accessCoarseLocation">"kusan daidai wuri(bisa yanayin sadarwa)"</string>
+     <string name="permdesc_accessCoarseLocation">"Yana kyale masarrafin ya samu kusan daidai inda kake. Wannan wuri ana samun sa ne daga masomin wuri kamar hasumiyar aika sakonni da Wi-Fi. Wadannan masu ba da wurare dole a kunna su kuma akwai su a na\'urarka don masarrafin ya yi amfani da su. Masarrafan za su yi amfani da wannan su gano kusan daidai inda kake."</string>
+     <string name="permlab_modifyAudioSettings">"canza saitocin ka na jiyuwa"</string>
+     <string name="permdesc_modifyAudioSettings">"Yana kyale masarrafin ya gyara saitocin sautin kamar karan sautin da kuma wane sifika ake amfani da shi don fitar da sauti."</string>
+     <string name="permlab_recordAudio">"Nadi sauti"</string>
+     <string name="permdesc_recordAudio">"Yana kyale masarrafin ya yi rikodin sauti da makirfon. Wannan iziniin yana kyale masarrafin ya yi rikodin sauti a kowane lokaci ba tare da tabbatarwarka ba."</string>
+     <string name="permlab_sim_communication">"sadarwar sim"</string>
+     <string name="permdesc_sim_communication">"Yana kyale masarrafin ya aika umurni ga SIM. Wannan yana da hadari sosai."</string>
+     <string name="permlab_camera">"dauki hotuna"</string>
+     <string name="permdesc_camera">"Yana kyale masarrafin ya dauki hotuna da bidiyo da kyamarar. Wannan izinin yana kyale masarrafin ya yi amfani da kyamarar a kowane lokaci ba tare da tabbatarwarka ba."</string>
+     <string name="permlab_vibrate">"iko da gunji"</string>
+     <string name="permdesc_vibrate">"Yana kyale masarrafi ya yi iko da mai gunji."</string>
+     <string name="permlab_flashlight">"yi iko da tocilan"</string>
+     <string name="permdesc_flashlight">"Yana kyale masarrafi ya yi iko da hasken filash na hoto."</string>
+     <string name="permlab_callPhone">"kai tsaye kira lambobin waya"</string>
+     <string name="permdesc_callPhone">"Yana kyale masarrafi ya kira lambobin waya ba tare da sa bakinka ba. Wannan zai iya jawo cajin kudi na bazata ko kira. Lura cewa wannan bai kyale masarrafin ya kira lambobin gaggawa. Batagarin masarrafai za su ja maka cin kudi ta yin kira ba tare da tabbatarwarka ba."</string>
+     <string name="permlab_accessImsCallService">"sami damar bude aikin kira na SMS"</string>
+     <string name="permdesc_accessImsCallService">"Yana ga manhaja ta yi amfani da aikin IMS don yin kira ba tare da tallafawarka ba."</string>
+     <string name="permlab_readPhoneState">"karanta matsayin waya da yanayi"</string>
+     <string name="permdesc_readPhoneState">"Yana kyale masarrafin isa ga siffofin waya na na\'urar. Wannan izinin zai kyale masarrafin ya tantance lambobin waya da lambobin shaida, ko kira na tafiya da kuma lambar sirri da kira ke hade da ita."</string>
+     <string name="permlab_wakeLock" product="tablet">"hana tablet shiga yanayin tsaiko"</string>
+     <string name="permlab_wakeLock" product="tv">"hana TV daga barci"</string>
+     <string name="permlab_wakeLock" product="default">"hana waya ta dauke"</string>
+     <string name="permdesc_wakeLock" product="tablet">"Yana kyale masarrafin ya hana tablet shiga yanayin barci."</string>
+     <string name="permdesc_wakeLock" product="tv">"Yana kyale masarrafin ta hana TV daga shiga tsarin barci."</string>
+     <string name="permdesc_wakeLock" product="default">"Yana kyale masarrafin ya hana wayar shiga yanayin barci."</string>
+     <string name="permlab_transmitIr">"watsa hasken infrared"</string>
+     <string name="permdesc_transmitIr" product="tablet">"Kyale masarrafin ya yi amfani da tiransimitan hasken infrared na tablet."</string>
+     <string name="permdesc_transmitIr" product="tv">"Yana kyale masarrafin ya yi amfani da tiransimita din infrared na TV."</string>
+     <string name="permdesc_transmitIr" product="default">"Kyale masarrafin ya yi amfani da tiransimitan hasken infrared na wayar."</string>
+     <string name="permlab_setWallpaper">"Saita hoton fuskar waya"</string>
+     <string name="permdesc_setWallpaper">"Yana kyale masarrafin ya saita fuskar wayar tsarin."</string>
+     <string name="permlab_setWallpaperHints">"daidaita  girman fuskar wayar"</string>
+     <string name="permdesc_setWallpaperHints">"Yana kyale masarrafin ya saita girman tsarin fuskar wayar."</string>
+     <string name="permlab_setTimeZone">"saita yanayin lokaci"</string>
+     <string name="permdesc_setTimeZone" product="tablet">"Yana kyale masarrafin ya canza zangon lokacin agogon tablet."</string>
+     <string name="permdesc_setTimeZone" product="tv">"Yana kyale masarrafin ya canza zangon lokaci na TV."</string>
+     <string name="permdesc_setTimeZone" product="default">"Yana kyale masarrafin ya canza zangon lokacin agogon wayar."</string>
+     <string name="permlab_getAccounts">"samo ma\'ajiyoyin da ke kan na\'ura"</string>
+     <string name="permdesc_getAccounts" product="tablet">"Yana kyale masarrafin ya sami jerin ma\'ajiyoyin da tablet ya sani. Wannan zai iya hadawa da duk wata ma\'ajiya da masarrafan da ka dasa suka kirkira."</string>
+     <string name="permdesc_getAccounts" product="tv">"Yana kyale masarrafin ya samu jerin ma\'ajiyoyin da TV ya sani. Wannan ya hada da ma\'ajiyoyin da aka kirkira daga masarrafan da ka kafa."</string>
+     <string name="permdesc_getAccounts" product="default">"Yana kyale masarrafin ya sami jerin ma\'ajiyoyin da wayar ta sani. Wannan zai iya hadawa da duk wata ma\'ajiya da masarrafan da ka dasa suka kirkira."</string>
+     <string name="permlab_accessNetworkState">"duba mahadan yanayin sadarwa"</string>
+     <string name="permdesc_accessNetworkState">"Yana kyale masarrafin ya duba bayanai kan mahadan yanayin sadarwa kamar wadanne yanayin sadarwa ne ke akwwai kuma suke hade."</string>
+     <string name="permlab_createNetworkSockets">"cikakken isa ga yanayin sadarwa"</string>
+     <string name="permdesc_createNetworkSockets">"Yana kyale masarrafin ya kirkiri dangon yanayin sadarwa ya kuma yi amfani  da tsarin yanayin sadarwa da ya dace. Masarrafar lilo da sauran masarrafan suna ba da damar aikewa da bayanai ta intanet, don haka wannan izinin ba a bukatar sa don aikawa da bayanai ta intanet."</string>
+     <string name="permlab_changeNetworkState">"canza hade-haden mahadi"</string>
+     <string name="permdesc_changeNetworkState">"Yana kyale masarrafin ya canza halin mahadin yanayin sadarwa."</string>
+     <string name="permlab_changeTetherState">"Canza haden talala"</string>
+     <string name="permdesc_changeTetherState">"Yana kyale masarrafin ya canza halin mahadin da aka takaita na yanayin sadarwa."</string>
+     <string name="permlab_accessWifiState">"duba mahadan Wi-Fi"</string>
+     <string name="permdesc_accessWifiState">"Yana kyale masarrafin ya duba bayanai kan harhada Wi-Fi, kamar ko an kunna  Wi-Fi da sunan na\'urorin da suke hade da Wi-Fi."</string>
+     <string name="permlab_changeWifiState">"hada kuma katse daga Wi-Fi"</string>
+     <string name="permdesc_changeWifiState">"Yana kyale masarrafin ya hadu da kuma ya katse daga guraben isa ga Wi-Fi kuma ya yi canji ga saitin na\'urar don yanayin sadarwar Wi-Fi."</string>
+     <string name="permlab_changeWifiMulticastState">"kyale karbar dango-dango na Wi-Fi"</string>
+     <string name="permdesc_changeWifiMulticastState" product="tablet">"Yana kyale masarrafin ya karbi dangon da aka aike ga dukkan na\'urori a kan yanayin sadarwar Wi-Fi ta amfani da adiresoshin dango da yawa, ba kawai tablet dinka ba. Yana amfani da karfin wuta fiye da na tsarin da ba na dango da yawa ba."</string>
+     <string name="permdesc_changeWifiMulticastState" product="tv">"Yana kyale masarrafin ya amshi fakitin da aka aika wa duk na\'urori ta hanyar sadarwar Wi-Fi ta amfani da tsarin adiresoshin zangonni, ba kawai TV dinka ba. Yana amfani da makamashi sosai fiye da yanayin da ba na zangonni ba."</string>
+     <string name="permdesc_changeWifiMulticastState" product="default">"Yana kyale masarrafin ya karbi dangon da aka aike ga dukkan na\'urori a kan yanayin sadarwar Wi-Fi ta amfani da adiresoshin dango da yawa, ba kawai wayarka ba. Yana amfani da karfin wuta fiye da na tsarin da ba na dango da yawa ba."</string>
+     <string name="permlab_bluetoothAdmin">"isa ga saitocin Bluetooth"</string>
+     <string name="permdesc_bluetoothAdmin" product="tablet">"Yana kyale masarrafin ya saita Bluetooth na tablet, kuma ya gano tare da daidaitawa da na\'urorin da ke nesa."</string>
+     <string name="permdesc_bluetoothAdmin" product="tv">"Yana kyale masarrafin ya saita Bluetooth TV, kuma ya gano tare da daidaitawa da na\'urorin nesa."</string>
+     <string name="permdesc_bluetoothAdmin" product="default">"Yana kyale masarrafin ya saita Bluetooth na waya, kuma ya gano tare da daidaitawa da na\'urorin da ke nesa."</string>
+     <string name="permlab_accessWimaxState">"hada kuma katse daga WiMAX"</string>
+     <string name="permdesc_accessWimaxState">"Yana kyale masarrafi ya tabbatar ko WiMAX a kunne yake da bayanai kan wani yanayin sadarwar WiMAX din"</string>
+     <string name="permlab_changeWimaxState">"canja halin WiMAX"</string>
+     <string name="permdesc_changeWimaxState" product="tablet">Kyale masarrafin ya hadu da tablet din ko ya yanke daga tablet din ta yanayin sadarwar WiMAX</string>
+     <string name="permdesc_changeWimaxState" product="tv">"Yana kyale masarrafin ya hadu da TV kuma ya yanke TV daga yanayin sadarwar WiMAX."</string>
+     <string name="permdesc_changeWimaxState" product="default">Kyale masarrafin ya hadu da wayar ko ya yanke daga wayar ta yanayin sadarwar WiMAX</string>
+     <string name="permlab_bluetooth">"daidaita da na\'urorin Bluetooth"</string>
+     <string name="permdesc_bluetooth" product="tablet">"Yana kyale masarrafin ya ga saitin Bluetooth kan tablet , kuma ya hada  tare da karbar mahadan na\'urorin da aka daidaita da su."</string>
+     <string name="permdesc_bluetooth" product="tv">"Yana kyale masarrafin ya ga saitin Bluetooth na TV, ya yi kuma ya karbi haduwa da na\'urorin da aka daidaita su tare."</string>
+     <string name="permdesc_bluetooth" product="default">"Yana kyale masarrafin ya ga saitin Bluetooth kan waya, kuma ya hada  tare da karbar mahadan na\'urorin da aka daidaita da su."</string>
+     <string name="permlab_nfc">"sarrafa Sadarwar Kusa da Fili"</string>
+     <string name="permdesc_nfc">"Yana kyale masarrafin ya yi sadarwa da alamomin sadarwa (NFC), katuna, da masu karantawa."</string>
+     <string name="permlab_disableKeyguard">"kashe kwadon fuskar wayarka"</string>
+     <string name="permdesc_disableKeyguard">"Yana kyale masarrafin ya kashe makulli da duk wani tsaron da ya shafi kalmar shiga. Misali, wayar na kashe makullin yayin karbar kiran waya mai shigowa, sai kuma ya sake kunna makullin idan an kare kiran."</string>
+     <string name="permlab_manageFingerprint">"gudanar da kayan na\'ura na hoton yatsa"</string>
+     <string name="permdesc_manageFingerprint">"Yana bada dama ga manhaja ta kirkiro wasu hanyoyi don karawa da goge fayafayen hoton yatsa don amfani da su."</string>
+     <string name="permlab_useFingerprint">"yi amfani da kayan na\'ura na hoton yatsa"</string>
+     <string name="permdesc_useFingerprint">"Yana bada dama ga manhaja ta yi amfani da kayan na\'ura na hoton yatsu don tantancewa"</string>
+     <string name="fingerprint_acquired_partial">"An gano yankin hoton yatsu. Sake gwadwa."</string>
+     <string name="fingerprint_acquired_insufficient">"Ba za a iya sarrafa hoton yatsu ba. Sake gwadawa."</string>
+     <string name="fingerprint_acquired_imager_dirty">"Mai sunsunar hoton yatsu ta yi datti. Goge sannan ka sake gwadawa."</string>
+     <string name="fingerprint_acquired_too_fast">"Yatsa ya matsa da sauri. Sake gwadawa."</string>
+     <string name="fingerprint_acquired_too_slow">"Yatsa ya yi jinkirin matsawa. Sake gwadawa."</string>
+     <string name="fingerprint_error_hw_not_available">"Babu kayan na\'ura na hoton yatsa."</string>
+     <string name="fingerprint_error_no_space">"Ba za a iya adana hoton yatsa ba. Cike hoton yatsa da ke ciki."</string>
+     <string name="fingerprint_error_timeout">"An kai lokacin kare aikin hoton yatsa. Sake gwadawa."</string>
+     <string name="fingerprint_error_canceled">"An soke aikin hoton yatsa."</string>
+     <string name="fingerprint_error_lockout">"Yunkuri fiye da kima. Sake gwadawa wani lokaci."</string>
+     <string name="fingerprint_error_unable_to_process">"Sake gwadawa"</string>
+     <string name="fingerprint_name_template">"Yatsa <xliff:g id="fingerId" example="1">%d</xliff:g>"</string>
+     <string name="fingerprint_icon_content_description">"Alamar hoton yatsa"</string>
+     <string name="permlab_readSyncSettings">"karanta tsarin game na\'urori"</string>
+     <string name="permdesc_readSyncSettings">"Yana kyale masarrafin ya karanta saitocin daidaita ma\'ajiya. Misali, wannan  zai iya tabbatar da ko masarrafin mutane ya daidaita da ma\'ajiya."</string>
+     <string name="permlab_writeSyncSettings">"kunna da kashe daidaitawar"</string>
+     <string name="permdesc_writeSyncSettings">"Yana kyale masarrafi ya gyara saitocin daidaita ma\'ajiya. Misali, za a iya amfani da shi a kunna daidaita masarrafin mutane da wata ma\'ajiya."</string>
+     <string name="permlab_readSyncStats">"karanta kididdigar jgame na\'urori"</string>
+     <string name="permdesc_readSyncStats">"Yana kyale masarrafin ya karanta kididdigan daidaito na ma\'ajiya, da ya hada da tarihin abubuwan da aka daidaita da kuma bayanai nawa aka daidaita."</string>
+     <string name="permlab_sdcardRead" product="nosdcard">"karanta makunshin Ma\'ajiyar USB"</string>
+     <string name="permlab_sdcardRead" product="default">"karanta makunshin katinka na SD"</string>
+     <string name="permdesc_sdcardRead" product="nosdcard">"Kyale masarrafin ya karanta makunshin ma\'ajiyarka ta USB."</string>
+     <string name="permdesc_sdcardRead" product="default">"Kyale masarrafin ya karanta makunshin katinka na SD."</string>
+     <string name="permlab_sdcardWrite" product="nosdcard">"gyara ko share abin da ke cikin ma\'adanar USB naka"</string>
+     <string name="permlab_sdcardWrite" product="default">"gyara ko share abin da ke cikin katinka na SD"</string>
+     <string name="permdesc_sdcardWrite" product="nosdcard">"Yana kyale masarrafin ya rubuta ga ma\'adanar USB."</string>
+     <string name="permdesc_sdcardWrite" product="default">"Yana kyale masarrafin ya rubuta ga katin SD."</string>
+     <string name="permlab_use_sip">"yi/karbi kiran SIP"</string>
+     <string name="permdesc_use_sip">"Yana kyale masarrafin ya yi kuma ya karbi kiran SIP."</string>
+     <string name="permlab_register_sim_subscription">"yi rijista sabon sadarwar hadin SIM"</string>
+     <string name="permdesc_register_sim_subscription">"Yana kyale masarrafin ya yi rijistar sabon sadarwar hadin SIM."</string>
+     <string name="permlab_register_call_provider">"yi rijistar sabon hadin sadarwa"</string>
+     <string name="permdesc_register_call_provider">"Yana kyale masarrafin ya yi rijistar sabon hadin sadarwar."</string>
+     <string name="permlab_connection_manager">"kula da hadin sadarwa"</string>
+     <string name="permdesc_connection_manager">"Yana kyale masarrafin ya kula da hadin sadarwa."</string>
+     <string name="permlab_bind_incall_service">"yi aiki da kiran da ke kan fuskar wayar"</string>
+     <string name="permdesc_bind_incall_service">"Kyale masarrafin ya kula da lokaci da yadda mai amfani da na\'urar zai ga kiran a fuskar waya."</string>
+     <string name="permlab_bind_connection_service">"yi hulda da hidindimun tarho"</string>
+     <string name="permdesc_bind_connection_service">"Yana kyale masarrafin ya yi hulda da hidindimun tarho na ya yi/karbi kira."</string>
+     <string name="permlab_control_incall_experience">"samar da gogayyar amfani da kiran cikin gida"</string>
+     <string name="permdesc_control_incall_experience">"Yana kyale masarrafin ya samar da gogayyar amfani da kiran cikin gida."</string>
+     <string name="permlab_readNetworkUsageHistory">"karanta amfanin hanyar sadarwa na tarihi"</string>
+     <string name="permdesc_readNetworkUsageHistory">"Yana kyale masarrafin ya karanta tarihin amfani da yanayin sadarwar kan wasau yanayin sadarwar da masarrafai."</string>
+     <string name="permlab_manageNetworkPolicy">"Sarrafa dokokin hanyar sadarwa"</string>
+     <string name="permdesc_manageNetworkPolicy">"Yana kyale masarrafin ya gudanar da tsarin yanayin sadarwa da kayyade wasu takamaimen ka\'idodi."</string>
+     <string name="permlab_modifyNetworkAccounting">"inganta lissafin amfanin hanyar sadarwa"</string>
+     <string name="permdesc_modifyNetworkAccounting">"Yana kyale masarrafin ya gyara yadda ake auna amfani da yanayin sadarwa da masarrafai. Ba don amfanin masarrafan yau da kullum ba."</string>
+     <string name="permlab_accessNotifications">"isa ga tunatarwa"</string>
+     <string name="permdesc_accessNotifications">"Kyale masarrafin ya dawo, duba, da share tunatarwa, har da wadanda wasu masarrafan suka manna."</string>
+     <string name="permlab_bindNotificationListenerService">"hada ga umurnin tunatarwa ta sauraro"</string>
+     <string name="permdesc_bindNotificationListenerService">"Kyale mai rikon ya hada da umurnin tunatarwa ta sauraro. Ba a bukatar haka ga sauran musarrafai."</string>
+     <string name="permlab_bindConditionProviderService">"daure da sharadin mai ba da sabis"</string>
+     <string name="permdesc_bindConditionProviderService">"Yana kyale mai rike da na\'urar ya daura kan matakin karshe na haduwa da mai ba da sabis. Ba za a bukata ba don masarrafan yau da kullum."</string>
+     <string name="permlab_bindDreamService">"daura ga sabis da ake fata"</string>
+     <string name="permdesc_bindDreamService">"Yana kyale mai rike da na\'urar ya daura ga matakin karshe na haduwa ga sabis da ake fata. Ba za a bukata ba don masarrafan yau da kullum."</string>
+     <string name="permlab_invokeCarrierSetup">"yi amfani da masarrafin da ke saita bayanai da aka tanada"</string>
+     <string name="permdesc_invokeCarrierSetup">"Kyale mai rikon ya yi amfani da masarrafin saita bayanan da aka tanada. Ba a bukatar haka ga masarrafai."</string>
+     <string name="permlab_accessNetworkConditions">"saurari lura kan yanayin sadarwar"</string>
+     <string name="permdesc_accessNetworkConditions">"Kyale masarrafin ya saurari lura da yanayin sadarwar. Ba a bukatar haka ga sauran masarrafai."</string>
+     <string name="permlab_setInputCalibration">"canza tsarin sa bayanan na\'ura"</string>
+     <string name="permdesc_setInputCalibration">"Yana kyale masarrafin ya gyara tsarin awon fuskar wayar da ake tabawa. Ba za a bukata ba don masarrafan yau da kullum."</string>
+     <string name="permlab_accessDrmCertificates">"isa ga satifiket na DRM"</string>
+     <string name="permdesc_accessDrmCertificates">"Yana kyale masarrafi ya samar da tare da amfani da satifiket na DRM. Ba za a bukata ba don amfanin masarrafan yau da kullum."</string>
+     <string name="permlab_handoverStatus">"Karbi matsayin tiransifa na sakon Android"</string>
+     <string name="permdesc_handoverStatus">"Yana kyale wannan masarrafin ya karbi bayanan tiransifan sakonnin Android na lokacin"</string>
+     <string name="permlab_removeDrmCertificates">"cire satifiket na DRM"</string>
+     <string name="permdesc_removeDrmCertificates">"Yana kyale masarrafi ya cire satifiket na DRM. Ba za a bukata ba don amfanin masarrafan yau da kullum."</string>
+     <string name="permlab_bindCarrierMessagingService">"kulla da kamfanin ba da sakonni"</string>
+     <string name="permdesc_bindCarrierMessagingService">"Yana  kyale mai shi ya kulla babbar saduwa da kamfanin da ke ba da sadarwar sakonni. Ba za a bukace shi ba don masarrafai sahihai."</string>
+     <string name="permlab_bindCarrierServices">"hade da ayyukan mai dauka"</string>
+     <string name="permdesc_bindCarrierServices">"Yana bada dama ga mai rikewa ya hade da ayyukan mai dauka. Ba za a taba bukatarsa don manhajojin yau da kullum ba."</string>
+     <string name="permlab_access_notification_policy">"sami damar bude Kada A Taba"</string>
+     <string name="permdesc_access_notification_policy">"Yana bada dama ga manhaja ta karanta kuma ta rubuta saitawar Kada A Taba."</string>
+     <string name="policylab_limitPassword">"Takaita kalmar sirri"</string>
+     <string name="policydesc_limitPassword">"Sarrafa sawo da kuma haruffan da aka amince a kalmomin-shiga da PIN na kulle allon na\'ura."</string>
+     <string name="policylab_watchLogin">"Lura da yunkurin shiga"</string>
+     <string name="policydesc_watchLogin" product="tablet">"Lura da adadin kalmomin shiga da aka buga ba daidai ba wajen bude fuskar, kuma kulle tablet ko goge duk bayanan tablet din idan aka buga kalmomin shiga da ba daidai ba da yawa."</string>
+     <string name="policydesc_watchLogin" product="TV">"Lura da adadin kalmomin shiga da ba daidai ba da aka buga yayin bude shasan, kuma rufe TV ko share duk bayanan TV idan an buga kalmomin shiga da ba daidai ba da yawa."</string>
+     <string name="policydesc_watchLogin" product="default">"Lura da adadin kalmomin shiga da aka buga ba daidai ba wajen bude fuskar, kuma kulle wayar ko goge duk bayanan wayar idan aka buga kalmomin shiga da ba daidai ba da yawa."</string>
+     <string name="policydesc_watchLogin_secondaryUser" product="tablet">"Lura da yawan kalmomin-shiga marasa kyau da aka rubuta yayin da ake bude allon na\'ura, sannan ka kulle tablet din ko ka share duk bayanan wannan mai amfanin idan an rubuta kalmomin-shiga marasa kyau masu yawa."</string>
+     <string name="policydesc_watchLogin_secondaryUser" product="TV">"Lura da yawan kalmomin-shiga marasa kyau da aka rubuta yayin da ake bude allon na\'ura, sannan ka kulle TV din ko ka share duk bayanan wannan mai amfanin idan an rubuta kalmomin-shiga marasa kyau masu yawa."</string>
+     <string name="policydesc_watchLogin_secondaryUser" product="default">"Lura da yawan kalmomin-shiga marasa kyau da aka rubuta yayin da ake bude allon na\'ura, sannan ka kulle wayar din ko ka share duk bayanan wannan mai amfanin idan an rubuta kalmomin-shiga marasa kyau masu yawa."</string>
+     <string name="policylab_resetPassword">"Canja makullen allon na\'ura"</string>
+     <string name="policydesc_resetPassword">"Canja makullen allon na\'ura"</string>
+     <string name="policylab_forceLock">"Tilasta kulle"</string>
+     <string name="policydesc_forceLock">"Kula da yadda da lokacin da fuskar ke kulluwa."</string>
+     <string name="policylab_wipeData">"Share dukkan bayani"</string>
+     <string name="policydesc_wipeData" product="tablet">"Goge bayanan tablet ba tare da gargadi ba ta sake saita bayanan masana\'anta."</string>
+     <string name="policydesc_wipeData" product="tv">"Share bayanan TV ba tare da gargadi ba ta yin saitin masana\'anta."</string>
+     <string name="policydesc_wipeData" product="default">"Goge bayanan wayar ba tare da gargadi ba ta sake saita bayanan masana\'anta."</string>
+     <string name="policylab_wipeData_secondaryUser">"Share bayanan mai amfani"</string>
+     <string name="policydesc_wipeData_secondaryUser" product="tablet">"Share bayanan wannan mai amfani da ke kan wannan tablet ba tare da gargadi ba."</string>
+     <string name="policydesc_wipeData_secondaryUser" product="tv">"Share bayanan wannan mai amfani da ke kan wannan TV ba tare da gargadi ba."</string>
+     <string name="policydesc_wipeData_secondaryUser" product="default">"Share bayanan wannan mai amfani da ke kan wannan wayar ba tare da gargadi ba."</string>
+     <string name="policylab_setGlobalProxy">"Saita wakilcin duniya na na\'ura"</string>
+     <string name="policydesc_setGlobalProxy">"Saita wakilin duniya na na\'ura da za a yi amfani da shi yayin da aka bada damar tsari. Mai na\'ura ne kadai zai iya saita wakilin duniya."</string>
+     <string name="policylab_expirePassword">"Saita lokacin kare aikin kalmar-shiga na makullin allon na\'ura"</string>
+     <string name="policydesc_expirePassword">"Canja yawan lokutan da za a rika canja kalmar-shiga, PIN, ko zubi na makullin allon na\'ura."</string>
+     <string name="policylab_encryptedStorage">"Saita kangewar ma\'adana"</string>
+     <string name="policydesc_encryptedStorage">"Bukatar duk bayanan masarrafin da aka aje a sirrinta shi."</string>
+     <string name="policylab_disableCamera">"Rufe kyamarori"</string>
+     <string name="policydesc_disableCamera">"Hana amfani da duk kyamarorin na\'ura."</string>
+     <string name="policylab_disableKeyguardFeatures">"Kashe wasu siffofin makullin allon na\'ura."</string>
+     <string name="policydesc_disableKeyguardFeatures">"Hana amfani da wasu siffofin allon na\'ura."</string>
+     <string-array name="phoneTypes">
+        <item>"Shafin farko"</item>
+        <item>"Wayar tafi-da-gidanka"</item>
+        <item>"Aiki"</item>
+        <item>"Fax na aiki"</item>
+        <item>"Fax din gida"</item>
+        <item>"Pager"</item>
+        <item>"Wasu"</item>
+        <item>"Kwastan"</item>
+    </string-array>
+     <string-array name="emailAddressTypes">
+        <item>"Shafin farko"</item>
+        <item>"Aiki"</item>
+        <item>"Wasu"</item>
+        <item>"Kwastan"</item>
+    </string-array>
+     <string-array name="postalAddressTypes">
+        <item>"Shafin farko"</item>
+        <item>"Aiki"</item>
+        <item>"Wasu"</item>
+        <item>"Kwastan"</item>
+    </string-array>
+     <string-array name="imAddressTypes">
+        <item>"Shafin farko"</item>
+        <item>"Aiki"</item>
+        <item>"Wasu"</item>
+        <item>"Kwastan"</item>
+    </string-array>
+     <string-array name="organizationTypes">
+        <item>"Aiki"</item>
+        <item>"Wasu"</item>
+        <item>"Kwastan"</item>
+    </string-array>
+     <string-array name="imProtocols">
+        <item>"AIM"</item>
+        <item>"Windows Live"</item>
+        <item>"yahoo"</item>
+        <item>"Skype"</item>
+        <item>"QQ"</item>
+        <item>"Google Talk"</item>
+        <item>"ICQ"</item>
+        <item>"Jabber"</item>
+    </string-array>
+     <string name="phoneTypeCustom">"Kwastan"</string>
+     <string name="phoneTypeHome">"Shafin farko"</string>
+     <string name="phoneTypeMobile">"Wayar tafi-da-gidanka"</string>
+     <string name="phoneTypeWork">"Aiki"</string>
+     <string name="phoneTypeFaxWork">"Fax na aiki"</string>
+     <string name="phoneTypeFaxHome">"Fax din gida"</string>
+     <string name="phoneTypePager">"Pager"</string>
+     <string name="phoneTypeOther">"Wasu"</string>
+     <string name="phoneTypeCallback">"Sake kira"</string>
+     <string name="phoneTypeCar">"Mota"</string>
+     <string name="phoneTypeCompanyMain">"Babban Kampani"</string>
+     <string name="phoneTypeMain">"Babba"</string>
+     <string name="phoneTypeOtherFax">"Wani sakon fax"</string>
+     <string name="phoneTypeRadio">"Rediyo"</string>
+     <string name="phoneTypeTelex">"Telex"</string>
+     <string name="phoneTypeWorkMobile">"Tafi-da-gidanka na aiki"</string>
+     <string name="phoneTypeWorkPager">"Pager ta aiki"</string>
+     <string name="phoneTypeAssistant">"Mataimaki"</string>
+     <string name="phoneTypeMms">"MMS"</string>
+     <string name="eventTypeCustom">"Kwastan"</string>
+     <string name="eventTypeBirthday">"bikin ranar haihuwa"</string>
+     <string name="eventTypeAnniversary">"Bukin shekara"</string>
+     <string name="eventTypeOther">"Wasu"</string>
+     <string name="emailTypeCustom">"Kwastan"</string>
+     <string name="emailTypeHome">"Shafin farko"</string>
+     <string name="emailTypeWork">"Aiki"</string>
+     <string name="emailTypeOther">"Wasu"</string>
+     <string name="emailTypeMobile">"Wayar tafi-da-gidanka"</string>
+     <string name="postalTypeCustom">"Kwastan"</string>
+     <string name="postalTypeHome">"Shafin farko"</string>
+     <string name="postalTypeWork">"Aiki"</string>
+     <string name="postalTypeOther">"Wasu"</string>
+     <string name="imTypeCustom">"Kwastan"</string>
+     <string name="imTypeHome">"Shafin farko"</string>
+     <string name="imTypeWork">"Aiki"</string>
+     <string name="imTypeOther">"Wasu"</string>
+     <string name="imProtocolCustom">"Kwastan"</string>
+     <string name="imProtocolYahoo">"yahoo"</string>
+     <string name="imProtocolGoogleTalk">"dandali"</string>
+     <string name="orgTypeWork">"Aiki"</string>
+     <string name="orgTypeOther">"Wasu"</string>
+     <string name="orgTypeCustom">"Kwastan"</string>
+     <string name="relationTypeCustom">"Kwastan"</string>
+     <string name="relationTypeAssistant">"Mataimaki"</string>
+     <string name="relationTypeBrother">"Dan\'uwa"</string>
+     <string name="relationTypeChild">"Yaro/Yarinya"</string>
+     <string name="relationTypeDomesticPartner">"Abokin hadaka Na gida"</string>
+     <string name="relationTypeFather">"Uba/Mahaifi"</string>
+     <string name="relationTypeFriend">"Aboki"</string>
+     <string name="relationTypeManager">"Mai sarrafawa"</string>
+     <string name="relationTypeMother">"Uwa/Mahaifiya"</string>
+     <string name="relationTypeParent">"Uba/Uwa"</string>
+     <string name="relationTypePartner">"Abokin harka:"</string>
+     <string name="relationTypeReferredBy">"Wanda ya turo"</string>
+     <string name="relationTypeRelative">"Dangi"</string>
+     <string name="relationTypeSister">"Yar\'uwa"</string>
+     <string name="relationTypeSpouse">"Abokin zaman aure"</string>
+     <string name="sipAddressTypeCustom">"Kwastan"</string>
+     <string name="sipAddressTypeHome">"Shafin farko"</string>
+     <string name="sipAddressTypeWork">"Aiki"</string>
+     <string name="sipAddressTypeOther">"Wasu"</string>
+     <string name="quick_contacts_not_available">"Ba masarrafin ganin wannan lambar waya."</string>
+     <string name="keyguard_password_enter_pin_code">"Shiga da tsarin PIN"</string>
+     <string name="keyguard_password_enter_puk_code">"Buga lambar PUK da sabon lambar PIN"</string>
+     <string name="keyguard_password_enter_puk_prompt">"Lambar PUK"</string>
+     <string name="keyguard_password_enter_pin_prompt">"Sabuwar Lambar Pin"</string>
+     <string name="keyguard_password_entry_touch_hint">" <font size="17">Taba don shigar da kalmar-shiga</font> "</string>
+     <string name="keyguard_password_enter_password_code">"Shiga da kalmar shiga don budewa"</string>
+     <string name="keyguard_password_enter_pin_password_code">"Shigar da PIN don ka bude"</string>
+     <string name="keyguard_password_wrong_pin_code">"Lambar PIN marar kyau!"</string>
+     <string name="keyguard_label_text">"In za ka bude, danna jadawalin shirye shirye sannan 0."</string>
+     <string name="emergency_call_dialog_number_for_display">"Lambar gaggawa"</string>
+     <string name="lockscreen_carrier_default">"Ba sabis."</string>
+     <string name="lockscreen_screen_locked">"An kulle screen."</string>
+     <string name="lockscreen_instructions_when_pattern_enabled">"Danna jadawalin shirye shirye don budewa ko yin kiran gaggawa."</string>
+     <string name="lockscreen_instructions_when_pattern_disabled">"Danna jadawalin shirye shirye don budewa."</string>
+     <string name="lockscreen_pattern_instructions">"Zana samfur ga budewa"</string>
+     <string name="lockscreen_emergency_call">"Yanayin gaggawa"</string>
+     <string name="lockscreen_return_to_call">"Komo kan kira"</string>
+     <string name="lockscreen_pattern_correct">"Dai dai!"</string>
+     <string name="lockscreen_pattern_wrong">"Sake gwadawa"</string>
+     <string name="lockscreen_password_wrong">"Sake gwadawa"</string>
+     <string name="faceunlock_multiple_failures">An shige iyakar kokarin bude fuskar waya</string>
+     <string name="lockscreen_missing_sim_message_short">"babu katin SIM"</string>
+     <string name="lockscreen_missing_sim_message" product="tablet">"Babu katin SIM a cikin tablet."</string>
+     <string name="lockscreen_missing_sim_message" product="tv">"Ba katin SIM a TV."</string>
+     <string name="lockscreen_missing_sim_message" product="default">"Babu SIM card a cikin waya."</string>
+     <string name="lockscreen_missing_sim_instructions">"Sanya SIM card."</string>
+     <string name="lockscreen_missing_sim_instructions_long">"Babu katin SIM ko kuma ba mai karantuwa ba ne. Saka katin SIM."</string>
+     <string name="lockscreen_permanent_disabled_sim_message_short">Katin SIM da ba zai yi amfani ba</string>
+     <string name="lockscreen_permanent_disabled_sim_instructions">"An rufe katin SIM din ka dindindin.\n Tuntubi kamfanin layin wayarka don samun wani katin SIM din."</string>
+     <string name="lockscreen_transport_prev_description">"Layin sauti na baya"</string>
+     <string name="lockscreen_transport_next_description">"Layin sauti na gaba"</string>
+     <string name="lockscreen_transport_pause_description">"Tsaida"</string>
+     <string name="lockscreen_transport_play_description">"Kunna"</string>
+     <string name="lockscreen_transport_stop_description">"Dakata"</string>
+     <string name="lockscreen_transport_rew_description">"Dawo baya"</string>
+     <string name="lockscreen_transport_ffw_description">"Tura gaba"</string>
+     <string name="emergency_calls_only">"Kiran gaggawa kadai"</string>
+     <string name="lockscreen_network_locked_message">"An kulle hanyar sadarwa"</string>
+     <string name="lockscreen_sim_puk_locked_message">"An kulle SIM da PUK."</string>
+     <string name="lockscreen_sim_puk_locked_instructions">"Duba jagoran mai amfani da ko tuntubi masu kula da kwastoma."</string>
+     <string name="lockscreen_sim_locked_message">"An kulle SIM card."</string>
+     <string name="lockscreen_sim_unlock_progress_dialog_message">"A na bude SIM card \u2026"</string>
+     <string name="lockscreen_too_many_failed_attempts_dialog_message">"Ka zana nau\'in mabudinka ba daidai ba <xliff:g id="number">%d</xliff:g> sau.\n\nSake gwadawa a cikin <xliff:g id="number">%d</xliff:g> dakika."</string>
+     <string name="lockscreen_too_many_failed_password_attempts_dialog_message">" Ka shigar da kalmar-shigarka ba daidai ba. <xliff:g id="number">%d</xliff:g> times.\n\nPlease try again in <xliff:g id="number">%d</xliff:g> dakika."</string>
+     <string name="lockscreen_too_many_failed_pin_attempts_dialog_message">"Ka shigar da PIN din ka ba daidai ba <xliff:g id="number">%d</xliff:g> yawan lokuta.\n\nSake gwadawa a cikin <xliff:g id="number">%d</xliff:g> dakika."</string>
+     <string name="lockscreen_failed_attempts_almost_glogin" product="tablet">" Ka zana zanen budewarka ba daidai ba <xliff:g id="number">%d</xliff:g> lokaci. Bayan <xliff:g id="number">%d</xliff:g> karin yunkurin da bai nasara ba, za a bukaci ka bude tablet dinka ta amfani da sa hannun Google.\n\n Sake kuma ta <xliff:g id="number">%d</xliff:g> dakikoki. "</string>
+     <string name="lockscreen_failed_attempts_almost_glogin" product="tv">" Ka zana zanen budewarka ba daidai ba <xliff:g id="number">%d</xliff:g> sau. Bayan <xliff:g id="number">%d</xliff:g> karin yunkurin da bai nasara ba, za a nemi ka bude TV dinka ta amfani da shiga Google.\n\n sake gwadawa a <xliff:g id="number">%d</xliff:g> dakikoki. "</string>
+     <string name="lockscreen_failed_attempts_almost_glogin" product="default">" Ka zana zanen budewarka ba daidai ba <xliff:g id="number">%d</xliff:g> lokaci. Bayan <xliff:g id="number">%d</xliff:g> karin yunkurin da bai nasara ba, za a bukaci ka bude wayarka ta amfani da sa hannun Google.\n\n Sake kuma ta <xliff:g id="number">%d</xliff:g> dakikoki. "</string>
+     <string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet">" Ka yi yunkurin bude tablet ba daidai ba <xliff:g id="number">%d</xliff:g> yawan lokuta. Bayan <xliff:g id="number">%d</xliff:g> wasu yunkuri da ba su yi nasara ba, za a sake saita tablet din zuwa dauwamammen saitin kuma za a rasa duk bayana mai amfani."</string>
+     <string name="lockscreen_failed_attempts_almost_at_wipe" product="tv">" Ka yi yunkurin bude TV ba daidai ba <xliff:g id="number">%d</xliff:g> sau. Bayan <xliff:g id="number">%d</xliff:g> karin yunkurin da bai nasara ba, TV zai yi saiti da na masana\'anta kuma duk bayanan mai amfani da za a rasa su. "</string>
+     <string name="lockscreen_failed_attempts_almost_at_wipe" product="default">" Ka yi yunkurin bude waya ba daidai ba <xliff:g id="number">%d</xliff:g> yawan lokuta. Bayan <xliff:g id="number">%d</xliff:g> wasu yunkuri da ba su yi nasara ba, za a sake saita wayar zuwa dauwamammen saitin kuma za a rasa duk bayana mai amfani."</string>
+     <string name="lockscreen_failed_attempts_now_wiping" product="tablet">"Ka yi yunkurin bude tablet ba daidai ba <xliff:g id="number">%d</xliff:g> yawan lokuta. Yanzu za a sake saita tablet din zuwa dauwamammen saitin."</string>
+     <string name="lockscreen_failed_attempts_now_wiping" product="tv">" Ka yi yunkurin bude TV ba daidai ba <xliff:g id="number">%d</xliff:g> sau. Yanzu TV zai yi saiti zuwa na masana\'anta. "</string>
+     <string name="lockscreen_failed_attempts_now_wiping" product="default">" Ka yi yunkurin bude tablet ba daidai ba <xliff:g id="number">%d</xliff:g> yawan lokuta. Waya ga za a reset da masana\'antar tushe."</string>
+     <string name="lockscreen_too_many_failed_attempts_countdown">"Sake gwadawa a cikin <xliff:g id="number">%d</xliff:g> dakika."</string>
+     <string name="lockscreen_forgot_pattern_button_text">"An manta tsarin?"</string>
+     <string name="lockscreen_glogin_forgot_pattern">"Jerin asusu"</string>
+     <string name="lockscreen_glogin_too_many_attempts">"Nau\'in yunkuri da yawa!"</string>
+     <string name="lockscreen_glogin_instructions">"In za ka bude, shiga da adireshin akwatinka na google"</string>
+     <string name="lockscreen_glogin_username_hint">"Adireshin mai-amfani (imel)"</string>
+     <string name="lockscreen_glogin_password_hint">"Kalmar shiga"</string>
+     <string name="lockscreen_glogin_submit_button">"Bude/Shiga ciki"</string>
+     <string name="lockscreen_glogin_invalid_input">"Username ko passwoed marar kyau."</string>
+     <string name="lockscreen_glogin_account_recovery_hint">"Ka mance sunan mai amfani ko kalmar-shigarka\?\nZiyarci <b>google.com/accounts/recovery</b>"</string>
+     <string name="lockscreen_glogin_checking_password">"Dubawa\u2026"</string>
+     <string name="lockscreen_unlock_label">"Bude"</string>
+     <string name="lockscreen_sound_on_label">"An kunne sauti"</string>
+     <string name="lockscreen_sound_off_label">"An kashe sauti"</string>
+     <string name="lockscreen_access_pattern_start">"An fara zubi"</string>
+     <string name="lockscreen_access_pattern_cleared">"An goge zubi"</string>
+     <string name="lockscreen_access_pattern_cell_added">"An kara gidan rubutu"</string>
+     <string name="lockscreen_access_pattern_cell_added_verbose">"Rami <xliff:g id="cell_index" example="3">%1$s</xliff:g> an kara"</string>
+     <string name="lockscreen_access_pattern_detected">"An kammala zubi"</string>
+     <string name="lockscreen_access_pattern_area">"Sashen tsarawa."</string>
+     <string name="keyguard_accessibility_widget_changed">"%1$s. Na\'ura %2$d of %3$d."</string>
+     <string name="keyguard_accessibility_add_widget">"Kara na\'ura."</string>
+     <string name="keyguard_accessibility_widget_empty_slot">"Fanko"</string>
+     <string name="keyguard_accessibility_unlock_area_expanded">"Sashen budewa ya fadada."</string>
+     <string name="keyguard_accessibility_unlock_area_collapsed">"Sashen budewa ya rushe."</string>
+     <string name="keyguard_accessibility_widget">"<xliff:g id="widget_index">%1$s</xliff:g> na\'ura."</string>
+     <string name="keyguard_accessibility_user_selector">"Mai zabo mai amfani da na\'ura"</string>
+     <string name="keyguard_accessibility_status">"Hali"</string>
+     <string name="keyguard_accessibility_camera">"Kamara"</string>
+     <string name="keygaurd_accessibility_media_controls">"Kula da tsarin sauti"</string>
+     <string name="keyguard_accessibility_widget_reorder_start">"An soma sake tsara na\'ura."</string>
+     <string name="keyguard_accessibility_widget_reorder_end">"An kare sake tsara na\'ura."</string>
+     <string name="keyguard_accessibility_widget_deleted">Widget <xliff:g id="widget_index">%1$s</xliff:g> an goge."</string>
+     <string name="keyguard_accessibility_expand_lock_area">"Fadada sashe budewa."</string>
+     <string name="keyguard_accessibility_slide_unlock">"Juya budewa."</string>
+     <string name="keyguard_accessibility_pattern_unlock">"Tsara budewa."</string>
+     <string name="keyguard_accessibility_face_unlock">"Bude fuska."</string>
+     <string name="keyguard_accessibility_pin_unlock">"Bude Pin."</string>
+     <string name="keyguard_accessibility_password_unlock">"Bude kalmar shiga."</string>
+     <string name="keyguard_accessibility_pattern_area">"Sashen tsarawa."</string>
+     <string name="keyguard_accessibility_slide_area">"Sashen juyawa."</string>
+     <string name="password_keyboard_label_symbol_key">"\?123"</string>
+     <string name="granularity_label_character">harafi</string>
+     <string name="granularity_label_word">kalma</string>
+     <string name="granularity_label_link">mahada</string>
+     <string name="granularity_label_line">layi</string>
+     <string name="hour_ampm">"<xliff:g id="hour" example="3">%-l</xliff:g><xliff:g id="ampm" example="pm">%P</xliff:g>"</string>
+     <string name="hour_cap_ampm">"<xliff:g id="hour" example="3">%-l</xliff:g><xliff:g id="ampm" example="pm">%p</xliff:g>"</string>
+     <string name="factorytest_failed">"Gwajin masana\'anta ya kasa"</string>
+     <string name="factorytest_not_system">"Umurnin GWAJIN MASANA\'ANTA ana amfani da shi ne don abin da aka dasa a /tsarin/masarrafi."</string>
+     <string name="factorytest_no_action">"Ba wani abin da aka samu da ya samar da umurnin GWAJIN MASANA\'ANTA."</string>
+     <string name="factorytest_reboot">"Kashe ka kunna"</string>
+     <string name="js_dialog_title">"Shafin a \"<xliff:g id="title">%s</xliff:g>\" ya ce:"</string>
+     <string name="js_dialog_before_unload_title">"Tabbatar da tafiyar"</string>
+     <string name="js_dialog_before_unload_positive_button">"Bar wannan shafin"</string>
+     <string name="js_dialog_before_unload_negative_button">"Tsaya a wannan shafin"</string>
+     <string name="js_dialog_before_unload">"<xliff:g id="message">%s</xliff:g>\n\nKa tabbata kana so ka fita daga wannan shafin?"</string>
+     <string name="save_password_label">"Tabbatar"</string>
+     <string name="double_tap_toast">"Bayani mai amfani: taba sau biyu don ka jawo kusa ko tura wa nesa."</string>
+     <string name="autofill_this_form">"Mai cikawa da kansa"</string>
+     <string name="setup_autofill">"Saita Autofill"</string>
+     <string name="autofill_address_name_separator">"\u0020"</string>
+     <string name="autofill_address_summary_separator">",\u0020"</string>
+     <string name="autofill_province">"Lardi"</string>
+     <string name="autofill_postal_code">"Lambar akwatin gidan waya"</string>
+     <string name="autofill_state">"Yanayin bu"</string>
+     <string name="autofill_zip_code">"Lambar sirri ta ZIP"</string>
+     <string name="autofill_county">"Gunduma"</string>
+     <string name="autofill_island">"Tsibiri"</string>
+     <string name="autofill_district">"Nisa"</string>
+     <string name="autofill_department">"Sashe"</string>
+     <string name="autofill_prefecture">"Yankin mulki"</string>
+     <string name="autofill_parish">"Taron masu ibada"</string>
+     <string name="autofill_area">"Yanki"</string>
+     <string name="autofill_emirate">"Masarauta"</string>
+     <string name="permlab_readHistoryBookmarks">"karanta shafukan intanet da ka alamta da tarihi"</string>
+     <string name="permdesc_readHistoryBookmarks">"Yana kyale masarrafin ya karanta tarihin duk URLs da masarrafin lilo ya ziyarta, da dukkan wanda ya alamta. Lura: wannan izinin ba lalle ne masu masarrafin lilo na uku su tabbatar ba ko wasu masarrafai da suke iya bude shafukan intanet."</string>
+     <string name="permlab_writeHistoryBookmarks">"rubuta alamomin shafukan intanet da tarihi"</string>
+     <string name="permdesc_writeHistoryBookmarks" product="tablet">"Yana kyale masarrafin ya gyara tarihin masarrafin lilo ko alamar shafuka da aka aje a kan tablet dinka.  Wannan zai kyale masarrafin ya goge ko gyara bayanan masarrafin lilo. Lura: wannan izinin ba lalle ne masu masarrafin lilo na uku su tabbatar ba ko wasu masarrafai da suke iya bude shafukan intanet."</string>
+     <string name="permdesc_writeHistoryBookmarks" product="tv">"Yana kyale masarrafin ya gyara tarihin masarrafin  lilo ko alamun shafuka da aka aje a TV dinka. Wannan zai kyale masarrafi ya share ko ya gyara bayanan masarrafin lilo. Lura: wannan izinin ba za a tilasta shi ba ga masarrafin lilo na uku ko sauran masarrafan da suke aiki irin na masarrafin lilo."</string>
+     <string name="permdesc_writeHistoryBookmarks" product="default">"Yana kyale masarrafin ya gyara tarihin masarrafin lilo ko alamar shafuka da aka aje a kan wayarka.  Wannan zai kyale masarrafin ya goge ko gyara bayanan masarrafin lilo. Lura: wannan izinin ba lalle ne masu masarrafin lilo na uku su tabbatar ba ko wasu masarrafai da suke iya bude shafukan intanet."</string>
+     <string name="permlab_setAlarm">"saita kararrawa"</string>
+     <string name="permdesc_setAlarm">"Yana kyale masarrafin ya saita kararrawa a masarrafin kararrawar agogo da aka dasa. Wasu masarrafan kararrawar agogo ba za su yi aiki da wannan siffa ba."</string>
+     <string name="permlab_addVoicemail">"Kara sakon-murya"</string>
+     <string name="permdesc_addVoicemail">"Yana kyale masarrafi ya kara sakonni ga akwatinka na wasikun murya."</string>
+     <string name="permlab_writeGeolocationPermissions">"Inganta bada izinin nazunin Browser"</string>
+     <string name="permdesc_writeGeolocationPermissions">"Yana kyale masarrafin ya gyara izinin wurin masarrafin lilo. Batagarin masarrafai za su iya amfani da wannan su kyale aikawa da bayanan wuri ga shafuka na daban."</string>
+     <string name="save_password_message">"Kana son mashigin yana ta tuna da wannan kalmar shiga?"</string>
+     <string name="save_password_notnow">"Ba yanzu ba"</string>
+     <string name="save_password_remember">"Tuna"</string>
+     <string name="save_password_never">"Har abada"</string>
+     <string name="open_permission_deny">"Ba ka da izinin bude wannan shafin."</string>
+     <string name="text_copied">"An kwafe rubutu zuwa ragayar bayanai."</string>
+     <string name="more_item_label">"Kari"</string>
+     <string name="menu_space_shortcut_label">"sarari"</string>
+     <string name="menu_enter_shortcut_label">"shiga"</string>
+     <string name="menu_delete_shortcut_label">"Goge"</string>
+     <string name="search_go">"Bincika"</string>
+     <string name="search_hint">"Nemi…"</string>
+     <string name="searchview_description_search">"Bincika"</string>
+     <string name="searchview_description_query">"Tambayar bincike"</string>
+     <string name="searchview_description_clear">"Goge tuhuma"</string>
+     <string name="searchview_description_submit">"Mika tambaya"</string>
+     <string name="searchview_description_voice">"Binciken murya"</string>
+     <string name="enable_explore_by_touch_warning_title">A kunna bincike ta tabawa?</string>
+     <string name="enable_explore_by_touch_warning_message" product="tablet">" <xliff:g id="accessibility_service_name">%1$s</xliff:g> yana so ya kunna explore ta tabawa. Idan an kunna Explore ta tabawa, za ka ga ko ji abin da ke kasan yatsunka ko yin wani ishara don aiki da tablet din."</string>
+     <string name="enable_explore_by_touch_warning_message" product="default">" <xliff:g id="accessibility_service_name">%1$s</xliff:g> yana so ya kunna explore ta tabawa. Idan an kunna Explore ta tabawa, za ka ga ko ji abin da ke kasan yatsunka ko yin wani ishara don aiki da wayar."</string>
+     <string name="oneMonthDurationPast">"wata 1 da ya wuce"</string>
+     <string name="beforeOneMonthDurationPast">"Kafin wata 1 da ya wuce"</string>
+     <string name="last_month">"Watan da ya gaba ta"</string>
+     <string name="older">"Na da/older"</string>
+     <string name="preposition_for_date">"a kan <xliff:g id="date" example="May 29">%s</xliff:g>"</string>
+     <string name="preposition_for_time">"a <xliff:g id="time" example="2:33 am">%s</xliff:g>"</string>
+     <string name="preposition_for_year">"a cikin <xliff:g id="year" example="2003">%s</xliff:g>"</string>
+     <string name="day">"Yini"</string>
+     <string name="days">"kwanaki"</string>
+     <string name="hour">"awa"</string>
+     <string name="hours">"awoyi"</string>
+     <string name="minute">"MIN"</string>
+     <string name="minutes">"Minti"</string>
+     <string name="second">"dakika"</string>
+     <string name="seconds">"Sakan "</string>
+     <string name="week">"Mako"</string>
+     <string name="weeks">"makwanni"</string>
+     <string name="year">"shekara"</string>
+     <string name="years">"shekaru"</string>
+     <string name="VideoView_error_title">"Matsalar bidiyo"</string>
+     <string name="VideoView_error_text_invalid_progressive_playback">"Wannan bidiyon ba sahihi ba ne don nunawa a wannan na\'urar."</string>
+     <string name="VideoView_error_text_unknown">"Ba zai iya kunna wannan bidiyon ba."</string>
+     <string name="VideoView_error_button">"YA YI"</string>
+     <string name="relative_time">"<xliff:g id="date" example="4 hours ago">%1$s</xliff:g>, <xliff:g id="time" example="11:00 am">%2$s</xliff:g>"</string>
+     <string name="noon">"da rana"</string>
+     <string name="Noon">"da rana"</string>
+     <string name="midnight">"Tsakar dare"</string>
+     <string name="Midnight">"Tsakar dare"</string>
+     <string name="elapsed_time_short_format_mm_ss">"<xliff:g id="minutes" example="1">%1$02d</xliff:g>:<xliff:g id="seconds" example="23">%2$02d</xliff:g>"</string>
+     <string name="elapsed_time_short_format_h_mm_ss">"<xliff:g id="hours" example="1">%1$d</xliff:g>:<xliff:g id="minutes" example="43">%2$02d</xliff:g>:<xliff:g id="seconds" example="33">%3$02d</xliff:g>"</string>
+     <string name="selectAll">"Zabi duk"</string>
+     <string name="cut">"Yanke"</string>
+     <string name="copy">"kwafe"</string>
+     <string name="paste">"Lika"</string>
+     <string name="replace">"Maye gurbin\u2026"</string>
+     <string name="delete">"Goge"</string>
+     <string name="copyUrl">"Kwafi URL"</string>
+     <string name="selectTextMode">"Zabi rubutu"</string>
+     <string name="textSelectionCABTitle">"Zabar rubutu"</string>
+     <string name="addToDictionary">"Kara wa kamus"</string>
+     <string name="deleteText">"Goge"</string>
+     <string name="inputMethod">"Hanyar shigar da bayanai"</string>
+     <string name="editTextMenuTitle">"Gyara matani"</string>
+     <string name="low_internal_storage_view_title">"Gurbin ma\'adanar na gushewa"</string>
+     <string name="low_internal_storage_view_text">Wasu ayyukan tsarin ba zai yi aiki ba</string>
+     <string name="low_internal_storage_view_text_no_boot">"Ba isasshen ma\'adana na tsarin. Ka tabbatar kana da wuri mai nauyin 250MB kuma ka sake kunnawa."</string>
+     <string name="app_running_notification_title">"<xliff:g id="app_name">%1$s</xliff:g>na aiki"</string>
+     <string name="app_running_notification_text">"Taba don karin bayanai don a tsai da masarrafin."</string>
+     <string name="ok">"YA YI"</string>
+     <string name="cancel">"Soke"</string>
+     <string name="yes">"YA YI"</string>
+     <string name="no">"Soke"</string>
+     <string name="dialog_alert_title">"Kula"</string>
+     <string name="loading">"Ana daura wa\u2026"</string>
+     <string name="capital_on">"A kunne"</string>
+     <string name="capital_off">"A KASHE"</string>
+     <string name="whichApplication">"Aiki cikakke na amfani"</string>
+     <string name="whichApplicationNamed">"Cika umurnin ta amfani da %1$s"</string>
+     <string name="whichViewApplication">"Bude da "</string>
+     <string name="whichViewApplicationNamed">"Bude da %1$s"</string>
+     <string name="whichEditApplication">"Shirya da"</string>
+     <string name="whichEditApplicationNamed">"Shirya da %1$s"</string>
+     <string name="whichSendApplication">"Rarraba tare da "</string>
+     <string name="whichSendApplicationNamed">"Raba da %1$s"</string>
+     <string name="whichHomeApplication">"Zabi masarrafin kan fuskar waya"</string>
+     <string name="whichHomeApplicationNamed">"Amfani da %1$s matsayin asali"</string>
+     <string name="alwaysUse">"Yi amfani da shi a matsayin na asali a wannan aikin."</string>
+     <string name="use_a_different_app">"Amfani da masarrafi daban"</string>
+     <string name="clearDefaultHintMsg">"Share saitocin asali na tsari &gt; Apps &gt; Saukakke."</string>
+     <string name="chooseActivity">"Zabi aiki"</string>
+     <string name="chooseUsbActivity">"Zabi masarrafi don USB na na\'ura"</string>
+     <string name="noApplications">"Ba masarrafin da zai yi wannan aikin."</string>
+     <string name="aerr_application">"Abin takaici, <xliff:g id="application">%1$s</xliff:g> ya tsaya."</string>
+     <string name="aerr_process">"Abin takaici, tsarin <xliff:g id="process">%1$s</xliff:g> ya tsaya."</string>
+     <string name="anr_activity_application">"<xliff:g id="application">%2$s</xliff:g> bai yi.\n\nKana so ka rufe shi?"</string>
+     <string name="anr_activity_process">"Aiki <xliff:g id="activity">%1$s</xliff:g> bai yi.\n\nKana so ka rufe shi?"</string>
+     <string name="anr_application_process">"<xliff:g id="application">%1$s</xliff:g> bai yi. Kana so ka rufe shi?"</string>
+     <string name="anr_process">"Tsari <xliff:g id="process">%1$s</xliff:g> bai yi.\n\nKana so ka rufe shi?"</string>
+     <string name="force_close">"YA YI"</string>
+     <string name="report">"Aika ka sanar"</string>
+     <string name="wait">"Jira"</string>
+     <string name="webpage_unresponsive">Shafin ba ya ba da hada kai. \n\nKana so ka rufe shi?</string>
+     <string name="launch_warning_title">"Masarrafi an kautar"</string>
+     <string name="launch_warning_replace">"<xliff:g id="app_name">%1$s</xliff:g> yanzu yana aiki."</string>
+     <string name="launch_warning_original">"<xliff:g id="app_name">%1$s</xliff:g> an assasa shi tun asali."</string>
+     <string name="screen_compat_mode_scale">"Mizani"</string>
+     <string name="screen_compat_mode_show">"Nuna koda yaushe"</string>
+     <string name="screen_compat_mode_hint">"Sake kunna wannan a saitocin tsarin &gt; masarrafai &gt; Saukakke."</string>
+     <string name="smv_application">"Masarrafin <xliff:g id="application">%1$s</xliff:g>(tsari <xliff:g id="process">%2$s</xliff:g>) ya saba da tsarin sa kai na takaitaccen yanayi."</string>
+     <string name="smv_process">"Tsari <xliff:g id="process">%1$s</xliff:g> ya saba da tsarin sa kai na takaitaccen yanayi."</string>
+     <string name="android_upgrading_title">"Android na inganta\u2026"</string>
+     <string name="android_start_title">"Android na tashi\u2026"</string>
+     <string name="android_upgrading_fstrim">"Inganta ma\'adana."</string>
+     <string name="android_upgrading_apk">"Inganta masarrafi <xliff:g id="number" example="123">%1$d</xliff:g> na <xliff:g id="number" example="123">%2$d</xliff:g>."</string>
+     <string name="android_preparing_apk">"Ana shirin <xliff:g id="appname">%1$s</xliff:g>."</string>
+     <string name="android_upgrading_starting_apps">"Kunna masarrafai."</string>
+     <string name="android_upgrading_complete">"Ana kare kunnawa."</string>
+     <string name="heavy_weight_notification">"<xliff:g id="app">%1$s</xliff:g> yana aiki"</string>
+     <string name="heavy_weight_notification_detail">"Taba ka kai ga masarrafi"</string>
+     <string name="heavy_weight_switcher_title">"Canza masarrafi?"</string>
+     <string name="heavy_weight_switcher_text">"Wani masarrafin na aiki da dole a tsai da shi kafin ka kunna wani sabo."</string>
+     <string name="old_app_action">"Dawo zuwa ga <xliff:g id="old_app">%1$s</xliff:g>"</string>
+     <string name="old_app_description">"Kar ka kunna sabon masarrafi."</string>
+     <string name="new_app_action">"Kunna <xliff:g id="old_app">%1$s</xliff:g>"</string>
+     <string name="new_app_description">"Tsaida tsohon masarrafi ba tare da adanawa ba."</string>
+     <string name="dump_heap_notification">"<xliff:g id="proc">%1$s</xliff:g> an wuce makurar memore"</string>
+     <string name="dump_heap_notification_detail">"An tattara tulin kaya; taba don rarrabawa"</string>
+     <string name="dump_heap_title">"A rarraba tulin kaya?"</string>
+     <string name="dump_heap_text">"Aikin sarrafawar <xliff:g id="proc">%1$s</xliff:g>  ya wucenmakurar sarrafawar memore dinsa na <xliff:g id="size">%2$s</xliff:g>.Akwai tulin kaya don ka rarraba tare da makerinsa. Kula: wannan tulin kayan zai iya kunsar kowane daga cikin bayananka wadanda manhajar ke iya budewa."</string>
+     <string name="sendText">"Zabi aiki don tes"</string>
+     <string name="volume_ringtone">"Maragar sautin kira"</string>
+     <string name="volume_music">"Adadin taskar nishadi"</string>
+     <string name="volume_music_hint_playing_through_bluetooth">"Kunnawa ta cikin Bluetooth"</string>
+     <string name="volume_music_hint_silent_ringtone_selected">"Saita sautin kira shiru"</string>
+     <string name="volume_call">"Karar sautin kira mai shigowa"</string>
+     <string name="volume_bluetooth_call">"Kara murya kiran shigowa na Bluetooth"</string>
+     <string name="volume_alarm">"Karfin muryar kararawa"</string>
+     <string name="volume_notification">"Karfin sautin ankararwa"</string>
+     <string name="volume_unknown">"Masarrafin sauti"</string>
+     <string name="volume_icon_description_bluetooth">"Girman Bluetooth"</string>
+     <string name="volume_icon_description_ringer">"Karfin sautin kira"</string>
+     <string name="volume_icon_description_incall">"Karfin sauti na kira"</string>
+     <string name="volume_icon_description_media">"Adadin taskar nishadi"</string>
+     <string name="volume_icon_description_notification">"Karfin sautin ankararwa"</string>
+     <string name="ringtone_default">"Sautin kira na asali"</string>
+     <string name="ringtone_default_with_actual">"Sautin kira na dindindin (<xliff:g id="actual_ringtone">%1$s</xliff:g>)"</string>
+     <string name="ringtone_silent">"Ko daya"</string>
+     <string name="ringtone_picker_title">"Sautukan kira"</string>
+     <string name="ringtone_unknown">"Bakon sautin kira"</string>
+     <string name="wifi_available_sign_in">"Bude ka shiga hanyar sadarwar Wi-Fi"</string>
+     <string name="network_available_sign_in">"Bude ka shiga hanyar sadarwa"</string>
+     <string name="wifi_no_internet">"Wi-Fi ba shi da sadarwar intanet"</string>
+     <string name="wifi_no_internet_detailed">"Taba don ganin zabuka"</string>
+     <string name="wifi_watchdog_network_disabled">"Bai iya haduwa da Wi-Fi"</string>
+     <string name="wifi_watchdog_network_disabled_detailed">"\u0020yana da hadin intanet marar karfi."</string>
+     <string name="wifi_connect_alert_title">"A bada damar jonawa?"</string>
+     <string name="wifi_connect_alert_message">"Manhajar %1$s tana son jonawa da Hanyar sadarwar Wifi %2$s"</string>
+     <string name="wifi_connect_default_application">"Manhaja"</string>
+     <string name="wifi_p2p_dialog_title">"Wi-Fi kai tsaye"</string>
+     <string name="wifi_p2p_turnon_message">"Kunna Wi-Fi kai tsaye. Wannan zai kashe mabubbugar Wi-Fi."</string>
+     <string name="wifi_p2p_failed_message">"Bai iya kunna Wi-Fi kai tsaye ba"</string>
+     <string name="wifi_p2p_enabled_notification_title">"Wi-Fi kai tsaya a kunne"</string>
+     <string name="wifi_p2p_enabled_notification_message">"Taba don saituka"</string>
+     <string name="accept">"Accept"</string>
+     <string name="decline">"Ki "</string>
+     <string name="wifi_p2p_invitation_sent_title">An aika gayyata</string>
+     <string name="wifi_p2p_invitation_to_connect_title">Gayyata zuwa hadawa</string>
+     <string name="wifi_p2p_from_message">"Daga"</string>
+     <string name="wifi_p2p_to_message">"Ga:"</string>
+     <string name="wifi_p2p_enter_pin_message">Buga kalmomin PIN da ake bukata:</string>
+     <string name="wifi_p2p_show_pin_message">PIN:</string>
+     <string name="wifi_p2p_frequency_conflict_message" product="tablet">"Tablet zai katse na tamfurare daga Wi-Fi yayin da yake hade da <xliff:g id="device_name">%1$s</xliff:g>"</string>
+     <string name="wifi_p2p_frequency_conflict_message" product="tv">"TV zai  katse na wucin gadi daga Wi-Fi yayin da yake hade da <xliff:g id="device_name">%1$s</xliff:g>"</string>
+     <string name="wifi_p2p_frequency_conflict_message" product="default">"Wayar za ta katse na tamfurare daga Wi-Fi yayin da yake hade da <xliff:g id="device_name">%1$s</xliff:g>"</string>
+     <string name="select_character">"Shigar da harafi"</string>
+     <string name="sms_control_title">"A na aika sakonnin SMS"</string>
+     <string name="sms_control_message">"<b><xliff:g id="app_name">%1$s</xliff:g></b> yana aika adadi mai yawa na sakonninn SMS. Kana so ka kyale wannan masarrafin ya ci gaba da aika sakonnin?"</string>
+     <string name="sms_control_yes">"A kyale"</string>
+     <string name="sms_control_no">"Hana"</string>
+     <string name="sms_short_code_confirm_message">"<b><xliff:g id="app_name">%1$s</xliff:g></b> zai so ya aika sako ga <b><xliff:g id="dest_address">%2$s</xliff:g></b>."</string>
+     <string name="sms_short_code_details">"Wannan <b>zai jawo caji</b> kan ma\'ajiyar mobayil dinka."</string>
+     <string name="sms_premium_short_code_details">"<b>Wannan zai jawo caji kan ma\'ajiyar mobayil dinka.</b>"</string>
+     <string name="sms_short_code_confirm_allow">"Aika"</string>
+     <string name="sms_short_code_confirm_deny">"Soke"</string>
+     <string name="sms_short_code_remember_choice">"Tuna zabi na"</string>
+     <string name="sms_short_code_remember_undo_instruction">"Za ka iya canza wannan daga baya a saiti\u00A0&gt;\u00A0Apps""</string>
+     <string name="sms_short_code_confirm_always_allow">"Koyaushe kyale"</string>
+     <string name="sms_short_code_confirm_never_allow">"Kar a taba kyalewa"</string>
+     <string name="sim_removed_title">"An cire katin SIM"</string>
+     <string name="sim_removed_message">"Cibiyar sadarwar salular ba ta har sai ka sake kunnawa da sahihin katin SIM da ka sa."</string>
+     <string name="sim_done_button">"An yi"</string>
+     <string name="sim_added_title">"An kara katin SIM"</string>
+     <string name="sim_added_message">"Sake kunna na\'urarka don ka isa ga Cibiyar sadarwar salula."</string>
+     <string name="sim_restart_button">"Sake kunnawa"</string>
+     <string name="time_picker_dialog_title">"Saita lokaci"</string>
+     <string name="date_picker_dialog_title">"Saita kwanan wata"</string>
+     <string name="date_time_set">"Saita"</string>
+     <string name="date_time_done">"An yi"</string>
+     <string name="perms_new_perm_prefix">"<font size="12" fgcolor="#ff33b5e5">SABO: </font>"</string>
+     <string name="perms_description_app">Samarwa daga <xliff:g id="app_name">%1$s</xliff:g>.</string>
+     <string name="no_permissions">"Bbabu bukatar neman izini"</string>
+     <string name="perm_costs_money">"wannan zai ci ma kudi"</string>
+     <string name="usb_storage_activity_title">"Babbar ma\'adanar USB"</string>
+     <string name="usb_storage_title">"An jona USB"</string>
+     <string name="usb_storage_message" product="nosdcard">"Ka hada da kwamfutarka ta USB. Taba madannin da ke kasa in kana so ka kwafi fayaloli tsakanin kwamfutarka da ma\'adanar USB na Android dinka."</string>
+     <string name="usb_storage_message" product="default">"Ka hada da kwamfutarka ta USB. Taba madannin da ke kasa in kana so ka kwafi fayaloli tsakanin kwamfutarka da katin SD na Android dinka."</string>
+     <string name="usb_storage_button_mount">"Bude ma\'adanar USB"</string>
+     <string name="usb_storage_error_message" product="nosdcard">"Akwai matsala wajen amfani da ma\'adanar USB dinka don ajiya mai yawa ta USB."</string>
+     <string name="usb_storage_error_message" product="default">"Akwai matsala wajen amfani da katin SD dinka don ajiya mai yawa ta USB."</string>
+     <string name="usb_storage_notification_title">"An jona USB"</string>
+     <string name="usb_storage_notification_message">"Taba ka kwafi fayalolo ga/daga kwamfutarka."</string>
+     <string name="usb_storage_stop_notification_title">"Rufe ma\'adanar USB"</string>
+     <string name="usb_storage_stop_notification_message">"Taba ka kashe ma\'adanar USB."</string>
+     <string name="usb_storage_stop_title">"A na amfani da ma\'adanar USB"</string>
+     <string name="usb_storage_stop_message" product="nosdcard">"Kafin kashe ma\'adanar USB, kwance(\"fitar\") da ma\'adanar USB na Android dinka daga kwamfutarka."</string>
+     <string name="usb_storage_stop_message" product="default">"Kafin kashe ma\'adanar USB, kwance(\"fitar\") da katin SD na Android dinka daga kwamfutarka."</string>
+     <string name="usb_storage_stop_button_mount">"Rufe ma\'adanar USB"</string>
+     <string name="usb_storage_stop_error_message">"Akwai matsala wajen kashe ma\'adanar USB. Duba ka ga ko ka kwance tushen USB din, sai ka sake kuma."</string>
+     <string name="dlg_confirm_kill_storage_users_title">"Bude ma\'adanar USB"</string>
+     <string name="dlg_confirm_kill_storage_users_text">"In ka kunna ma\'adanar USB, wasu masarrafan da kake amfani da su za su tsaya kuma mai yiwuwa ba za su kasance ba har sai ka kashe ma\'adanar USB din."</string>
+     <string name="dlg_error_title">"Aikin USB bai yi nasara ba"</string>
+     <string name="dlg_ok">"YA YI"</string>
+     <string name="usb_charging_notification_title">"USB don yin caji"</string>
+     <string name="usb_mtp_notification_title">"USB don yin tiransifa ta fayil"</string>
+     <string name="usb_ptp_notification_title">"USB don yin tiransifa ta hoto"</string>
+     <string name="usb_midi_notification_title">"USB don MIDI"</string>
+     <string name="usb_accessory_notification_title">"An hada da magamin USB"</string>
+     <string name="usb_notification_message">"Taba don ganin karin zabuka."</string>
+     <string name="adb_active_notification_title">"An jona \'tsaftace USB\'"</string>
+     <string name="adb_active_notification_message">"Taba ka kashe cire kuskuren USB."</string>
+     <string name="select_input_method">"Canza mashigin haruffa"</string>
+     <string name="configure_input_methods">"Zabi mashigan haruffa"</string>
+     <string name="show_ime">"Nuna tsarin shigar bayanai"</string>
+     <string name="hardware">Kayan kwamfuta</string>
+     <string name="select_keyboard_layout_notification_title"> Zabi tsarin allon shigar bayanai</string>
+     <string name="select_keyboard_layout_notification_message">Taba ka zabi tsarin allon shigar da bayanai</string>
+     <string name="fast_scroll_alphabet">"\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+     <string name="fast_scroll_numeric_alphabet">"\u00200123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+     <string name="candidates_style">""<u>yan takara</u>""</string>
+     <string name="ext_media_checking_notification_title">"Ana shrin <xliff:g id="name" example="SD card">%s</xliff:g>"</string>
+     <string name="ext_media_checking_notification_message">"Ana binciken matsaloli"</string>
+     <string name="ext_media_new_notification_message">"Sabon <xliff:g id="name" example="SD card">%s</xliff:g> an gano"</string>
+     <string name="ext_media_ready_notification_message">"Don yin tiransifa ta hotuna da midiya"</string>
+     <string name="ext_media_unmountable_notification_title">"An gurbata shi <xliff:g id="name" example="SD card">%s</xliff:g>"</string>
+     <string name="ext_media_unmountable_notification_message">"<xliff:g id="name" example="SD card">%s</xliff:g> an gurbata shi. Taba don gyarawa."</string>
+     <string name="ext_media_unsupported_notification_title">"Bai dace ba <xliff:g id="name" example="SD card">%s</xliff:g>"</string>
+     <string name="ext_media_unsupported_notification_message">"Wannan na\'ura ba ta dace da wannan <xliff:g id="name" example="SD card">%s</xliff:g>. Taba don ka kafa a tsarin da ya dace."</string>
+     <string name="ext_media_badremoval_notification_title">"<xliff:g id="name" example="SD card">%s</xliff:g> an cire shi ba tsammani"</string>
+     <string name="ext_media_badremoval_notification_message">"Zare <xliff:g id="name" example="SD card">%s</xliff:g> kafin ka cire don gudun hasarar bayanai"</string>
+     <string name="ext_media_nomedia_notification_title">"An cire <xliff:g id="name" example="SD card">%s</xliff:g>"</string>
+     <string name="ext_media_nomedia_notification_message">"<xliff:g id="name" example="SD card">%s</xliff:g> an cire; shigar da wani sabo"</string>
+     <string name="ext_media_unmounting_notification_title">"Har yanzu ana fitarwa <xliff:g id="name" example="SD card">%s</xliff:g>\u2026"</string>
+     <string name="ext_media_unmounting_notification_message">"Kada ka cire"</string>
+     <string name="ext_media_init_action">"Kafa"</string>
+     <string name="ext_media_unmount_action">"Fitar"</string>
+     <string name="ext_media_browse_action">"Bincika"</string>
+     <string name="ext_media_missing_title">"<xliff:g id="name" example="SD card">%s</xliff:g> ya bata"</string>
+     <string name="ext_media_missing_message">"Sake shigar da wannan na\'ura"</string>
+     <string name="ext_media_move_specific_title">"Ana matsar da <xliff:g id="name" example="Calculator">%s</xliff:g>"</string>
+     <string name="ext_media_move_title">"Ana matsar da bayanai"</string>
+     <string name="ext_media_move_success_title">"An kammala matsarwa"</string>
+     <string name="ext_media_move_success_message">"An matsar da bayanai zuwa <xliff:g id="name" example="SD card">%s</xliff:g>"</string>
+     <string name="ext_media_move_failure_title">"An kasa matsar da bayanai"</string>
+     <string name="ext_media_move_failure_message">"An bar bayanai a wurinsu na ainihi"</string>
+     <string name="ext_media_status_removed">"An cire"</string>
+     <string name="ext_media_status_unmounted">"An fitar"</string>
+     <string name="ext_media_status_checking">"Dubawa\u2026"</string>
+     <string name="ext_media_status_mounted">"A shirye"</string>
+     <string name="ext_media_status_mounted_ro">"Karanta-kadai"</string>
+     <string name="ext_media_status_bad_removal">"An cire da ganganci"</string>
+     <string name="ext_media_status_unmountable">"An gurba ta shi"</string>
+     <string name="ext_media_status_unsupported">"Bai dace ba"</string>
+     <string name="ext_media_status_ejecting">"Ana fitar da\u2026"</string>
+     <string name="ext_media_status_formatting">"Ana yin fomatin\u2026"</string>
+     <string name="ext_media_status_missing">"Ba a shigar ba"</string>
+     <string name="activity_list_empty">"Ba wasu ayyukan da suka dace da aka samu."</string>
+     <string name="permlab_route_media_output">Canza mafitar manhajar sauti</string>
+     <string name="permdesc_route_media_output">Kyale masarrafi ya canza mafitar manhajar sauti zuwa wasu na\'urorin na waje.</string>
+     <string name="permlab_readInstallSessions">"Karanta gamuwar da aka dasa"</string>
+     <string name="permdesc_readInstallSessions">"Yana kyale masarrafi ya karanta gamuwar da aka dasa. Wannan yana kyale shi ya ga karin bayanai kan abubuwan da ke aiki da aka daddasa."</string>
+     <string name="permlab_requestInstallPackages">"Bukatar sanya kayayyaki"</string>
+     <string name="permdesc_requestInstallPackages">"Yana bada dama ga manhaja ta bukaci sanya kayayyaki."</string>
+     <string name="tutorial_double_tap_to_zoom_message_short">"Taba sau biyu don iko da takura"</string>
+     <string name="gadget_host_error_inflating">"Bai iya kara wani alami ba."</string>
+     <string name="ime_action_go">"Je ka"</string>
+     <string name="ime_action_search">"Bincika"</string>
+     <string name="ime_action_send">"Aika"</string>
+     <string name="ime_action_next">"Na gaba"</string>
+     <string name="ime_action_done">"An yi"</string>
+     <string name="ime_action_previous">"Na baya"</string>
+     <string name="ime_action_default">"Aiwatar"</string>
+     <string name="dial_number_using">"Buga lamba\nta amfani da <xliff:g id="number" example="555">%s</xliff:g>"</string>
+     <string name="create_contact_using">"Kirkiri matuntuba\nta amfani da <xliff:g id="number" example="555">%s</xliff:g>"</string>
+     <string name="grant_credentials_permission_message_header">"Masarrafi daya ko fiye sun bukaci izinin isa ga ma\'ajiyarka, a yanzu ko nan gaba."</string>
+     <string name="grant_credentials_permission_message_footer">"Kana son ka yarda da wannan roko?"</string>
+     <string name="grant_permissions_header_text">"Damar roko"</string>
+     <string name="allow">"A kyale"</string>
+     <string name="deny">"Hana"</string>
+     <string name="permission_request_notification_title">"An nemi a bada dama"</string>
+     <string name="permission_request_notification_with_subtitle">"Izinin da aka nema\nna ma\'ajiya <xliff:g id="account" example="foo@gmail.com">%s</xliff:g>."</string>
+     <string name="forward_intent_to_owner">"Kana amfani da masarrafin da ke wajen tarihin aikinka"</string>
+     <string name="forward_intent_to_work">"Kana amfani da wannan masarrafin a tarihin aikinka"</string>
+     <string name="input_method_binding_label">"Hanyar shigar da bayanai"</string>
+     <string name="sync_binding_label">"Jona"</string>
+     <string name="accessibility_binding_label">"Hanyar zuwa"</string>
+     <string name="wallpaper_binding_label">"Hoton fuskar waya"</string>
+     <string name="chooser_wallpaper">"Sauya hoton baya"</string>
+     <string name="notification_listener_binding_label">"Sanarwar mai sauraro"</string>
+     <string name="condition_provider_service_binding_label">"Mai ba da yanayi"</string>
+     <string name="vpn_title">"VPN an kunna"</string>
+     <string name="vpn_title_long">"An assasa VPN daga <xliff:g id="app" example="FooVPN client">%s</xliff:g>"</string>
+     <string name="vpn_text">"Taba ka gudanar da Cibiyar sadarwar."</string>
+     <string name="vpn_text_long">"Hade da <xliff:g id="gamuwa" example="ofis">%s</xliff:g>. Taba don gudanar da Cibiyar sadarwar."</string>
+     <string name="vpn_lockdown_connecting">"Koyaushe kan hada VPN\u2026"</string>
+     <string name="vpn_lockdown_connected">"Koyaushe kan hada VPN"</string>
+     <string name="vpn_lockdown_error">"Koyaushe a kan kuskuren VPN"</string>
+     <string name="vpn_lockdown_config">"Taba don ka tsara"</string>
+     <string name="upload_file">"Zaba fayil da za\'a haurar"</string>
+     <string name="no_file_chosen">"Babu fayil da aka zaba"</string>
+     <string name="reset">"sake saiti"</string>
+     <string name="submit">"Mika"</string>
+     <string name="car_mode_disable_notification_title">"A raya halin mota"</string>
+     <string name="car_mode_disable_notification_message">"Taba ka fice daga yanayin na mota."</string>
+     <string name="tethered_notification_title">"Durewa ko hotspot yana aiki "</string>
+     <string name="tetheredPC_notification_title">"Daurewar USB-intanet tana aiki"</string>
+     <string name="tethered_notification_message">"Taba don kafawa."</string>
+     <string name="back_button_label">"Baya"</string>
+     <string name="next_button_label">"Na gaba"</string>
+     <string name="skip_button_label">"Tsallake"</string>
+     <string name="find_on_page">"Sami a shafi"</string>
+     <plurals name="matches_found">
+<item quantity="one">"1/1"</item>
+<item quantity="other">"<xliff:g id="index" example="2">%d</xliff:g>/<xliff:g id="total" example="1 37">%d</xliff:g>"</item>
+    </plurals>
+     <string name="action_mode_done">"An yi"</string>
+     <string name="progress_erasing" product="nosdcard">"Goge ma\'adanar USB\u2026"</string>
+     <string name="progress_erasing" product="default">"Goge katin SD\u2026"</string>
+     <string name="share">"Raba"</string>
+     <string name="find">"Sami"</string>
+     <string name="websearch">"Binciken Intanet"</string>
+     <string name="find_next">"Samo na gaba"</string>
+     <string name="find_previous">"Samo na baya"</string>
+     <string name="gpsNotifTicker">"Bukatar wuri daga <xliff:g id="name">%s</xliff:g>"</string>
+     <string name="gpsNotifTitle">"Bukatar wuri"</string>
+     <string name="gpsNotifMessage">"Wanda bukata <xliff:g id="name">%1$s</xliff:g> (<xliff:g id="service" example="SUPL-service">%2$s</xliff:g>)"</string>
+     <string name="gpsVerifYes">"E"</string>
+     <string name="gpsVerifNo">"A\'a"</string>
+     <string name="sync_too_many_deletes">"Soke shiga iyaka"</string>
+     <string name="sync_too_many_deletes_desc">"Akwai <xliff:g id="number_of_deleted_items">%1$d</xliff:g> gogaggun abubuwa na <xliff:g id="type_of_sync">%2$s</xliff:g>, ma\'ajiya <xliff:g id="account_name">%3$s</xliff:g>. Me kake so ka yi?"</string>
+     <string name="sync_really_delete">"Goge abubuwan"</string>
+     <string name="sync_undo_deletes">"Dawo da gogewar"</string>
+     <string name="sync_do_nothing">"Kar ka yi komai yanzu"</string>
+     <string name="choose_account_label">"Zabi asusu"</string>
+     <string name="add_account_label">"Kara wata asusu"</string>
+     <string name="add_account_button_label">"Kara asusu"</string>
+     <string name="number_picker_increment_button">"Kara"</string>
+     <string name="number_picker_decrement_button">"Rage"</string>
+     <string name="number_picker_increment_scroll_mode">"<xliff:g id="value" example="3">%s</xliff:g> taba ka rike."</string>
+     <string name="number_picker_increment_scroll_action">"Ja sama ka kara kuma ja kasa ka rage."</string>
+     <string name="time_picker_increment_minute_button">"Kara minti"</string>
+     <string name="time_picker_decrement_minute_button">"Rage minti"</string>
+     <string name="time_picker_increment_hour_button">"Kara awa"</string>
+     <string name="time_picker_decrement_hour_button">"Rage awa"</string>
+     <string name="time_picker_increment_set_pm_button">"Saita PM"</string>
+     <string name="time_picker_decrement_set_am_button">"Saita AM"</string>
+     <string name="date_picker_increment_month_button">"Kara wata"</string>
+     <string name="date_picker_decrement_month_button">"Rage wata"</string>
+     <string name="date_picker_increment_day_button">"Kara kwana"</string>
+     <string name="date_picker_decrement_day_button">"Rage kwana"</string>
+     <string name="date_picker_increment_year_button">"Kara shekara"</string>
+     <string name="date_picker_decrement_year_button">"Rage shekara"</string>
+     <string name="date_picker_prev_month_button">"Watan da ya wuce"</string>
+     <string name="date_picker_next_month_button">"Wata mai zuwa\'"</string>
+     <string name="keyboardview_keycode_cancel">"Soke"</string>
+     <string name="keyboardview_keycode_done">"An yi"</string>
+     <string name="keyboardview_keycode_mode_change">"Changin yanayin na\'ura"</string>
+     <string name="activitychooserview_choose_application">"Zabi wani aiki"</string>
+     <string name="activitychooserview_choose_application_error">"Ba zai iya aza<xliff:g id="application_name" example="Acme">%s</xliff:g>"</string>
+     <string name="shareactionprovider_share_with">"Rarraba tare da "</string>
+     <string name="shareactionprovider_share_with_application">"Rarraba tare da <xliff:g id="application_name" example="Bluetooth">%s</xliff:g>"</string>
+     <string name="content_description_sliding_handle">"Marikin zamiya. Taba &amp; rike."</string>
+     <string name="description_target_unlock_tablet">"Buga don ka bude."</string>
+     <string name="keyboard_headset_required_to_hear_password">"Toshe da lasifikan kai don jin madannan kalmar shiga da ake furtawa."</string>
+     <string name="keyboard_password_character_no_headset">"Dot."</string>
+     <string name="action_bar_home_description">"Yawata shafin farko"</string>
+     <string name="action_bar_up_description">"Yawata sama"</string>
+     <string name="action_menu_overflow_description">"Karin zabuka"</string>
+     <string name="action_bar_home_description_format">"%1$s, %2$s"</string>
+     <string name="action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+     <string name="storage_internal">"Ma\'ajiyar ciki"</string>
+     <string name="storage_sd_card">"Katin SD"</string>
+     <string name="storage_sd_card_label">"<xliff:g id="manufacturer" example="SanDisk">%s</xliff:g> katin SD"</string>
+     <string name="storage_usb_drive">"Mashigin USB"</string>
+     <string name="storage_usb_drive_label">"<xliff:g id="manufacturer" example="Seagate">%s</xliff:g> Mashigin USB"</string>
+     <string name="storage_usb">"Ma\'adanar USB"</string>
+     <string name="data_usage_warning_title">"Gargadin amfanin bayanai"</string>
+     <string name="data_usage_warning_body">"Taba ka ga amfani da saitoci."</string>
+     <string name="data_usage_3g_limit_title">"An kai iyakar bayanai 2G-3G"</string>
+     <string name="data_usage_4g_limit_title">"An kai iyakar bayanai 4G"</string>
+     <string name="data_usage_mobile_limit_title">"An kai iyakar bayanan Salula"</string>
+     <string name="data_usage_wifi_limit_title">"An kai iyakar bayanan Wi-Fi"</string>
+     <string name="data_usage_limit_body">"An tsaida bayanai har karshen da\'ira"</string>
+     <string name="data_usage_3g_limit_snoozed_title">"An wuce makurar bayanan 2G-3G"</string>
+     <string name="data_usage_4g_limit_snoozed_title">"An wuce makurar bayanan 4G"</string>
+     <string name="data_usage_mobile_limit_snoozed_title">"An wuce iyakar bayanan Salula"</string>
+     <string name="data_usage_wifi_limit_snoozed_title">"An wuce iyakar bayanan Wi-Fi"</string>
+     <string name="data_usage_limit_snoozed_body">"<xliff:g id="size" example="3.8GB">%s</xliff:g> kan takamaimen iyaka."</string>
+     <string name="data_usage_restricted_title">"An takaice bayanan kewaye"</string>
+     <string name="data_usage_restricted_body">"Taba ka cire takaitawar."</string>
+     <string name="ssl_certificate">"Satifiket din kariya"</string>
+     <string name="ssl_certificate_is_valid">"Satifiket yana aiki."</string>
+     <string name="issued_to">"An bayar ga:"</string>
+     <string name="common_name">"Suna na koina:"</string>
+     <string name="org_name">"Kungiya/Ma\'aikata:"</string>
+     <string name="org_unit">"Yankin Kungiya:"</string>
+     <string name="issued_by">"Wanda ya bayar:"</string>
+     <string name="validity_period">"Inganci:"</string>
+     <string name="issued_on">"An bayar a ranar:"</string>
+     <string name="expires_on">"Gama aiki ran:"</string>
+     <string name="serial_number">"Jerin lamba"</string>
+     <string name="fingerprints">"Hoton hannu:"</string>
+     <string name="sha256_fingerprint">"Hoton yatsa na SHA-256:"</string>
+     <string name="sha1_fingerprint">"Hoton yatsa na SHA-1:"</string>
+     <string name="activity_chooser_view_see_all">"Duba duk..."</string>
+     <string name="activity_chooser_view_dialog_title_default">"Zabi aiki"</string>
+     <string name="share_action_provider_share_with">"Rarraba tare da "</string>
+     <string name="list_delimeter">", "</string>
+     <string name="sending">"Ana aika\u2026"</string>
+     <string name="launchBrowserDefault">"Kaddamar da masarrafin lilo?"</string>
+     <string name="SetupCallDefault">"A karbi kira?"</string>
+     <string name="activity_resolver_use_always">"Koda yaushe"</string>
+     <string name="activity_resolver_use_once">Sau daya kawai</string>
+     <string name="activity_resolver_work_profiles_support">"%1$s bai aiki da tarihin aiki"</string>
+     <string name="default_audio_route_name" product="tablet">"Tablet"</string>
+     <string name="default_audio_route_name" product="tv">"TV"</string>
+     <string name="default_audio_route_name" product="default">"Waya"</string>
+     <string name="default_audio_route_name_headphones">Sifikun ratayawa ta ka</string>
+     <string name="default_audio_route_name_dock_speakers">Girkakkun sifiku</string>
+     <string name="default_audio_route_category_name">"Na\'ura"</string>
+     <string name="bluetooth_a2dp_audio_route_name">Sautin Bluetooth</string>
+     <string name="wireless_display_route_description">"Nuna Waya-les"</string>
+     <string name="media_route_button_content_description">"Jefa"</string>
+     <string name="media_route_chooser_title">"Hada na\'ura"</string>
+     <string name="media_route_chooser_title_for_remote_display">"Sanya fuskar waya ga na\'ura"</string>
+     <string name="media_route_chooser_searching">"Neman na\'urori\u2026"</string>
+     <string name="media_route_chooser_extended_settings">"Saituna"</string>
+     <string name="media_route_controller_disconnect">"Cire hadi"</string>
+     <string name="media_route_status_scanning">tantancewa…</string>
+     <string name="media_route_status_connecting">"Ana hadawa..."</string>
+     <string name="media_route_status_available">"Samamme"</string>
+     <string name="media_route_status_not_available">"Ba zai samu ba"</string>
+     <string name="media_route_status_in_use">"cikin amfani"</string>
+     <string name="display_manager_built_in_display_name">"Fuskar cikin waya"</string>
+     <string name="display_manager_hdmi_display_name">"Fuskar waya na HDMI"</string>
+     <string name="display_manager_overlay_display_name">"shimfide kan #<xliff:g id="id">%1$d</xliff:g>"</string>
+     <string name="display_manager_overlay_display_title">"<xliff:g id="name">%1$s</xliff:g>: <xliff:g id="width">%2$d</xliff:g>x<xliff:g id="height">%3$d</xliff:g>, <xliff:g id="dpi">%4$d</xliff:g> dpi"</string>
+     <string name="display_manager_overlay_display_secure_suffix">", a tsare"</string>
+     <string name="kg_forgot_pattern_button_text">"Manta tsarin"</string>
+     <string name="kg_wrong_pattern">"Kuskuren tsari"</string>
+     <string name="kg_wrong_password">"Kuskuren kalmar shiga"</string>
+     <string name="kg_wrong_pin">"Kuskuren PIN"</string>
+     <string name="kg_too_many_failed_attempts_countdown">"Sake cikin <xliff:g id="number">%1$d</xliff:g> dakikoki."</string>
+     <string name="kg_pattern_instructions">"Zana tsarinka"</string>
+     <string name="kg_sim_pin_instructions">"Shigar da SIM PIN"</string>
+     <string name="kg_pin_instructions">"Shigar da PIN"</string>
+     <string name="kg_password_instructions">"Shiga da kalmar shiga"</string>
+     <string name="kg_puk_enter_puk_hint">"An kashe SIM yanzu. Shigar da lambar  PUK don ka ci gaba. Tuntubi masu layin don bayani."</string>
+     <string name="kg_puk_enter_pin_hint">"Shigar da lambar PIN da ake nema"</string>
+     <string name="kg_enter_confirm_pin_hint">"Tabbatar da lambar PIN da ake nema"</string>
+     <string name="kg_sim_unlock_progress_dialog_message">"A na bude SIM card \u2026"</string>
+     <string name="kg_password_wrong_pin_code">"Lambar PIN marar kyau!"</string>
+     <string name="kg_invalid_sim_pin_hint">"Rubuta PIN wanda yake lambobi 4 ko 8 ne."</string>
+     <string name="kg_invalid_sim_puk_hint">"Lambar PUK ya zama lambobi 8."</string>
+     <string name="kg_invalid_puk">"Sake shigar da lambar PUK na gaske. Sake maimaitawa zai kashe SIM kwata-kwata."</string>
+     <string name="kg_invalid_confirm_pin_hint" product="default">"Lambar PIN ba su yi daidai ba"</string>
+     <string name="kg_login_too_many_attempts">"Nau\'in yunkuri da yawa!"</string>
+     <string name="kg_login_instructions">"In za ka bude, shiga da adireshin akwatinka na google"</string>
+     <string name="kg_login_username_hint">"Adireshin mai-amfani (imel)"</string>
+     <string name="kg_login_password_hint">"Kalmar shiga"</string>
+     <string name="kg_login_submit_button">"Bude/Shiga ciki"</string>
+     <string name="kg_login_invalid_input">"Username ko passwoed marar kyau."</string>
+     <string name="kg_login_account_recovery_hint">"Ka mance sunan mai amfani ko kalmar-shigarka\?\nZiyarci <b>google.com/accounts/recovery</b>"</string>
+     <string name="kg_login_checking_password">"Bincikan Ma\'ajiyar\u2026"</string>
+     <string name="kg_too_many_failed_pin_attempts_dialog_message">"Ka shigar da PIN din ka ba daidai ba <xliff:g id="number">%d</xliff:g> yawan lokuta.\n\nSake gwadawa a cikin <xliff:g id="number">%d</xliff:g> dakika."</string>
+     <string name="kg_too_many_failed_password_attempts_dialog_message">" Ka shigar da kalmar-shigarka ba daidai ba. <xliff:g id="number">%d</xliff:g> times.\n\nPlease try again in <xliff:g id="number">%d</xliff:g> dakika."</string>
+     <string name="kg_too_many_failed_pattern_attempts_dialog_message">"Ka zana nau\'in mabudinka ba daidai ba <xliff:g id="number">%d</xliff:g> sau.\n\nSake gwadawa a cikin <xliff:g id="number">%d</xliff:g> dakika."</string>
+     <string name="kg_failed_attempts_almost_at_wipe" product="tablet">" Ka yi yunkurin bude tablet ba daidai ba <xliff:g id="number">%d</xliff:g> yawan lokuta. Bayan <xliff:g id="number">%d</xliff:g> wasu yunkuri da ba su yi nasara ba, za a sake saita tablet din zuwa dauwamammen saitin kuma za a rasa duk bayana mai amfani."</string>
+     <string name="kg_failed_attempts_almost_at_wipe" product="tv">" Ka yi yunkurin bude TV ba daidai ba <xliff:g id="number">%d</xliff:g> sau. Bayan <xliff:g id="number">%d</xliff:g> karin yunkurin da bai nasara ba, TV zai yi saiti da na masana\'anta kuma duk bayanan mai amfani da za a rasa su. "</string>
+     <string name="kg_failed_attempts_almost_at_wipe" product="default">" Ka yi yunkurin bude waya ba daidai ba <xliff:g id="number">%d</xliff:g> yawan lokuta. Bayan <xliff:g id="number">%d</xliff:g> wasu yunkuri da ba su yi nasara ba, za a sake saita wayar zuwa dauwamammen saitin kuma za a rasa duk bayana mai amfani."</string>
+     <string name="kg_failed_attempts_now_wiping" product="tablet">"Ka yi yunkurin bude tablet ba daidai ba <xliff:g id="number">%d</xliff:g> yawan lokuta. Yanzu za a sake saita tablet din zuwa dauwamammen saitin."</string>
+     <string name="kg_failed_attempts_now_wiping" product="tv">" Ka yi yunkurin bude TV ba daidai ba <xliff:g id="number">%d</xliff:g> sau. Yanzu TV zai yi saiti zuwa na masana\'anta. "</string>
+     <string name="kg_failed_attempts_now_wiping" product="default">" Ka yi yunkurin bude tablet ba daidai ba <xliff:g id="number">%d</xliff:g> yawan lokuta. Waya ga za a reset da masana\'antar tushe."</string>
+     <string name="kg_failed_attempts_almost_at_login" product="tablet">" Ba daidai ka zana tsarin bude yanayin <xliff:g id="number">%d</xliff:g> lokaci. Bayan <xliff:g id="number">%d</xliff:g> karin yunkurin da ba a yi nasara ba, za a bukaci ka bude tablet dinka ta amfani da Ma\'ajiyar i-mel.\n\n Sake kuma a <xliff:g id="number">%d</xliff:g> dakikoki. "</string>
+     <string name="kg_failed_attempts_almost_at_login" product="tv">" Ka zana zanen budewarka ba daidai ba <xliff:g id="number">%d</xliff:g> sau. Bayan <xliff:g id="number">%d</xliff:g> karin wasu yunkurin da ba su yi nasara ba, za a nemi ka bude TV dinka ta amfani da ma\'ajiyar imel.\n\n Sake kuma ta <xliff:g id="number">%d</xliff:g> dakikoki. "</string>
+     <string name="kg_failed_attempts_almost_at_login" product="default">" Ba daidai ka zana tsarin bude yanayin <xliff:g id="number">%d</xliff:g> lokaci. Bayan <xliff:g id="number">%d</xliff:g> karin yunkurin da ba a yi nasara ba, za a bukaci ka bude wayarka ta amfani da Ma\'ajiyar i-mel.\n\n Sake kuma a <xliff:g id="number">%d</xliff:g> dakikoki. "</string>
+     <string name="kg_text_message_separator" product="default">" \u2014 "</string>
+     <string name="kg_reordering_delete_drop_target_text">"Cire"</string>
+     <string name="safe_media_volume_warning" product="default">" "A kara murya fiye da matakin da aka shawarta?\n\nSauraro a kara mai yawa na tsawon lokaci zai iya lahanta jinka." </string>
+     <string name="continue_to_enable_accessibility">"Ci gaba da danne yatsu biyu don ci gaba da isa."</string>
+     <string name="accessibility_enabled">"Isa a kunne yake."</string>
+     <string name="enable_accessibility_canceled">"An soke isa."</string>
+     <string name="user_switched">"Mai amfani da yanzu <xliff:g id="name" example="Bob">%1$s</xliff:g>."</string>
+     <string name="user_switching_message">"Canzawa ga <xliff:g id="name" example="Bob">%1$s</xliff:g>\u2026"</string>
+     <string name="owner_name">"Mai shi"</string>
+     <string name="error_message_title">"Kuskure"</string>
+     <string name="error_message_change_not_allowed">"Wannan canjin ba a kyale shi daga mai kulawarka"</string>
+     <string name="app_not_found">"Babu shirin da zai gudanar da wannan aiki ba"</string>
+     <string name="revoke">"Mayar"</string>
+     <string name="mediasize_chinese_om_pa_kai">"Pa Kai"</string>
+     <string name="mediasize_chinese_om_dai_pa_kai">"Dai Pa Kai"</string>
+     <string name="mediasize_chinese_om_jurro_ku_kai">"Jurro Ku Kai"</string>
+     <string name="mediasize_unknown_portrait">"Zanen da ba a sani ba"</string>
+     <string name="mediasize_unknown_landscape">"Yanayin kasar da ba a sani ba"</string>
+     <string name="write_fail_reason_cancelled">"An soke"</string>
+     <string name="write_fail_reason_cannot_write">"Kuskure a rubuta makunshi"</string>
+     <string name="reason_unknown">"Majahuli"</string>
+     <string name="reason_service_unavailable">"Umurnin bugawa ba a kunne ba"</string>
+     <string name="print_service_installed_title">"<xliff:g id="name" example="Cloud Print">%s</xliff:g>An dasa umurnin"</string>
+     <string name="print_service_installed_message">"Taba don kunnawa"</string>
+     <string name="restr_pin_enter_admin_pin">"Shigar da lambar PIN na mai kula"</string>
+     <string name="restr_pin_enter_pin">"Shigar da PIN"</string>
+     <string name="restr_pin_incorrect">"Kuskure"</string>
+     <string name="restr_pin_enter_old_pin">"Lambar PIN"</string>
+     <string name="restr_pin_enter_new_pin">"Sabon PIN"</string>
+     <string name="restr_pin_confirm_pin">"Tabbatar da sabon PIN"</string>
+     <string name="restr_pin_create_pin">"Kirkiro lambar PIN don sauya takaitawa"</string>
+     <string name="restr_pin_error_doesnt_match">"lambobin PIN ba su dace ba. Sake kuma."</string>
+     <string name="restr_pin_error_too_short">"Lambar PIN ya yi kadan. Dole ya kai akalla lambobi 4."</string>
+     <string name="restr_pin_try_later">"Sake kuma daga baya"</string>
+     <string name="immersive_cling_title">"Ana duba babban allo"</string>
+     <string name="immersive_cling_description">"Don fita, shafa daga sama zuwa kasa."</string>
+     <string name="immersive_cling_positive">"AN SAMU"</string>
+     <string name="done_label">"An yi"</string>
+     <string name="hour_picker_description">"Mai nuna awanni a da\'ira"</string>
+     <string name="minute_picker_description">"Mai nuna Mintuna a da\'ira"</string>
+     <string name="select_hours">"Zabi awanni"</string>
+     <string name="select_minutes">"Zabi mintuna"</string>
+     <string name="select_day">"Zabi wata da rana"</string>
+     <string name="select_year">"Zabi shekara"</string>
+     <string name="deleted_key">"<xliff:g id="key" example="4">%1$s</xliff:g> an goge"</string>
+     <string name="managed_profile_label_badge">"Aiki <xliff:g id="label" example="Email">%1$s</xliff:g>"</string>
+     <string name="lock_to_app_toast">"Don cire tarnakin wannan fuskar, taba ka rike kuma ka duba a lokaci guda."</string>
+     <string name="lock_to_app_toast_accessible">"Don cire tarnakin wannan fuskar, taba ka riki dubawar."</string>
+     <string name="lock_to_app_toast_locked">"An manne manhaja: Ba a bada damar bambarewa akan wannan na\'ura ba."</string>
+     <string name="lock_to_app_start">"Tarnake fuskar"</string>
+     <string name="lock_to_app_exit">"An cire tarnakin fuska"</string>
+     <string name="lock_to_app_unlock_pin">"Tambayi lambar PIN kafin cire tarnakin"</string>
+     <string name="lock_to_app_unlock_pattern">"Tambayi zanen budewa kafin cire tarnaki"</string>
+     <string name="lock_to_app_unlock_password">"Tambayi kalmar shiga kafin cire tarnaki"</string>
+     <string name="package_installed_device_owner">"Mai gudanarwarka ya sanya"</string>
+     <string name="package_updated_device_owner">"Mai gudanarwarka ya sabunta"</string>
+     <string name="package_deleted_device_owner">"Mai gudanarwarka ya goge"</string>
+     <string name="battery_saver_description">"Don taimakawa a bunkasa karkon batiri, sabar batiri ta kan rage kwazon na\'urarka tare da takaita jijjiga, ayyukan wuri, da kuma mafi yawan bayanan zagaye. Imel, aikawa da sako, da sauran manhajoji da ke dogaro da hadin likawa ba lalle ne su iya sabuntawa ba sai dai in ka bude su. \n\nSabar batiri kan kashe kanta kai tsaye lokacin da na\'urarka ke yin caji."</string>
+     <string name="zen_mode_until">"Sai <xliff:g id="formattedTime" misali="10:00 PM">%1$s</xliff:g>"</string>
+     <string name="zen_mode_forever">"Har sai ka kashe wannan"</string>
+     <string name="zen_mode_forever_dnd">"Har sai ka kashe Kada A Taba"</string>
+     <string name="zen_mode_rule_name_combination">"<xliff:g id="first" example="Weeknights">%1$s</xliff:g> / <xliff:g id="rest" example="Meetings">%2$s</xliff:g>"</string>
+     <string name="toolbar_collapse_description">"Auka"</string>
+     <string name="zen_mode_feature_name">"Kar a tada hankali"</string>
+     <string name="zen_mode_downtime_feature_name">"Lokacin hutawa"</string>
+     <string name="zen_mode_default_weeknights_name">"Daren mako"</string>
+     <string name="zen_mode_default_weekends_name">"Karshen mako"</string>
+     <string name="zen_mode_default_events_name">"Taro"</string>
+     <string name="muted_by">"Rufe sauti daga <xliff:g id="third_party">%1$s</xliff:g>"</string>
+     <string name="system_error_wipe_data">"Akwai matsalar cikin gida a na\'urarka, kuma ba za ta samu tabbaci ba har sai ka sake saita bayanai na masana\'anta."</string>
+     <string name="system_error_manufacturer">"Akwai matsalar cikin gida tare da na\'urarka. Tuntubi masana\'ancinka don karin bayani."</string>
+     <string name="stk_cc_ussd_to_dial">"Bukatar USSD an gyara zuwa bukatar DIAL."</string>
+     <string name="stk_cc_ussd_to_ss">"Bukatar USSD an gyara zuwa bukatar SS."</string>
+     <string name="stk_cc_ussd_to_ussd">"Bukatar USSD an gyara zuwa sabon bukatar USSD."</string>
+     <string name="stk_cc_ss_to_dial">"Bukatar SS an gyara zuwa bukatar DIAL."</string>
+     <string name="stk_cc_ss_to_ussd">"Bukatar SS an gyara zuwa bukatar USSD."</string>
+     <string name="stk_cc_ss_to_ss">"Bukatar SS an gyara zuwa sabon bukatar SS."</string>
+     <string name="notification_work_profile_content_description">"Takaitaccen tarihin aiki"</string>
+     <string name="usb_midi_peripheral_name">"Gurbin gefe na USB din Android"</string>
+     <string name="usb_midi_peripheral_product_name">"Gurbin gefe na USB"</string>
+     <string name="floating_toolbar_open_overflow_description">"Karin zabuka"</string>
+     <string name="floating_toolbar_close_overflow_description">"Rufe tumbatsa"</string>
+     <string name="ext_media_status_shared">"An rarraba UMS"</string>
+     <string name="sim_ready_title_for_usb">"Gargadi"</string>
+     <string name="sim_card_activation_warning">"Don kafa masarrafai daga wasu na uku, ka sa katin SIM/USIM don kunna USB."</string>
+     <string name="usb_ok">"YA YI"</string>
+     <string name="usb_cdrom_notification_title">"Direban Intanet yana kunne"</string>
+     <string name="usb_charge_only_notification">"An hada a matsayin caji kadai"</string>
+     <string name="global_action_restart">"Sake kunnawa"</string>
+     <string name="reboot_device_title">"Sake kunnawa"</string>
+     <string name="global_reboot_close_apps">"Rufe duk masarrafai ka sake kunna wayar"</string>
+     <string name="reboot_device_confirm">"Za ka so sake kunna wayarka yanzu?"</string>
+     <plurals name="shutdown_after_seconds_plurals">
+<item quantity="one">"Wayar za ta mutu bayan <xliff:g id="NUMBER">%d</xliff:g> sakan"</item>
+<item quantity="other">"Waya za ta kulle bayan <xliff:g id="NUMBER">%d</xliff:g> dakikoki"</item>
+    </plurals>
+
+    <string name="station_state_msg">"%1$s a hade, %2$s a toshe"</string>
+     <string name="phoneFixedNumber">"Kafaffiyar Lamba"</string>
+     <string name="gps_time_sync_fail_str">"An gaza samun lokaci na GPS"</string>
+     <string name="disable_touch_mode_title">"Aljihu kashe na\'urar tabawa"</string>
+     <string name="disable_touch_mode_hint">"Kada a rufe fuskar waya"</string>
+     <string name="exit_disable_touch_mode_hint">"Za a iya dannan makunni tare da kara sauti don a kashe wannan yanayin"</string>
+
+    <plurals name="pinpuk_attempts">
+<item quantity="one">"Kana da <xliff:g id="number">%d</xliff:g> ragowar yunkuri kafin a rufe SIM."</item>
+<item quantity="other">"Kana da <xliff:g id="number">%d</xliff:g> ragowar yunkuri kafin a rufe SIM."</item>
+    </plurals>
+     <plurals name="last_num_days">
+<item quantity="one">"Kashe <xliff:g id="count">%d</xliff:g> rana daya"</item>
+<item quantity="other">"Kashe <xliff:g id="count">%d</xliff:g> ranaku"</item>
+    </plurals>
+     <plurals name="duration_seconds">
+<item quantity="one">"\'\'Dakika 1\'\'"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> dakikoki"</item>
+    </plurals>
+     <plurals name="duration_minutes">
+<item quantity="one">Minti 1</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> mintuna"</item>
+    </plurals>
+     <plurals name="duration_hours">
+<item quantity="one">"1 awa"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> awanni"</item>
+    </plurals>
+     <plurals name="wifi_available">
+<item quantity="one">"Akwai cibiyar sadarwar Wi-Fi"</item>
+<item quantity="other">"Akwai cibiyoyin sadarwar Wi-Fi"</item>
+    </plurals>
+     <plurals name="wifi_available_detailed">
+<item quantity="one">"Bude Cibiyar sadarwar Wi-Fi da ke akwai"</item>
+<item quantity="other">"Bude Cibiyoyin sadarwar Wi-Fi da ke akwai"</item>
+    </plurals>
+     <plurals name="restr_pin_countdown">
+<item quantity="one">"Sake cikin dakika 1"</item>
+<item quantity="other">"Sake kuma a <xliff:g id="count">%d</xliff:g> dakikoki"</item>
+    </plurals>
+     <plurals name="zen_mode_duration_minutes_summary">
+<item quantity="one">"Na minti guda (sai <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)"</item>
+<item quantity="other">"Na %1$d mintuna (sai <xliff:g id="formattedTime" misali="10:00 PM">%2$s</xliff:g>)"</item>
+    </plurals>
+     <plurals name="zen_mode_duration_minutes_summary_short">
+<item quantity="one">"Na minti 1 (har <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)"</item>
+<item quantity="other">"Na %1$d minti (har <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)"</item>
+    </plurals>
+     <plurals name="zen_mode_duration_hours_summary">
+<item quantity="one">"Na awa guda (har sai <xliff:g id="formattedTime" misali="10:00 PM">%2$s</xliff:g>)"</item>
+<item quantity="other">"Na %1$d awanni (sai <xliff:g id="formattedTime" misali="10:00 PM">%2$s</xliff:g>)"</item>
+    </plurals>
+     <plurals name="zen_mode_duration_hours_summary_short">
+<item quantity="one">"Na awa 1 (har <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)"</item>
+<item quantity="other">"Na %1$d awa (har <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)"</item>
+    </plurals>
+     <plurals name="zen_mode_duration_minutes">
+<item quantity="one">"Na minti guda"</item>
+<item quantity="other">"Na %d mintuna"</item>
+    </plurals>
+     <plurals name="zen_mode_duration_minutes_short">
+<item quantity="one">"Na minti 1"</item>
+<item quantity="other">"Na %d minti"</item>
+    </plurals>
+     <plurals name="zen_mode_duration_hours">
+<item quantity="one">"Na awa guda"</item>
+<item quantity="other">"Na %d awanni"</item>
+    </plurals>
+     <plurals name="zen_mode_duration_hours_short">
+<item quantity="one">"Na awa 1"</item>
+<item quantity="other">"Na %d awa"</item>
+    </plurals>
+     <plurals name="selected_count">
+<item quantity="one">"<xliff:g id="count" example="1">%1$d</xliff:g> an zaba"</item>
+<item quantity="other">"<xliff:g id="count" example="3">%1$d</xliff:g> an zaba"</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_warning">
+<item quantity="one">"An sanya izinin shaida"</item>
+<item quantity="other">"An sanya izinin shaida"</item>
+    </plurals>
+     <string-array name="wfcOperatorErrorAlertMessages">
+        <item>"don yin kira da aika sakwanni ta Wi-Fi, a fara tambayar masu ba da sabis su saita wannan aikin. Sannan a sake kunna kiran Wi-Fi daga saituna."</item>
+    </string-array>
+     <string-array name="wfcOperatorErrorNotificationMessages">
+        <item>"A yi rijista da mai ba sa sabis"</item>
+    </string-array>
+     <string-array name="wfcSpnFormats">
+        <item>"%s"</item>
+        <item>"%s kiran Wi-Fi"</item>
+    </string-array>
+     <string name="bugreport_option_interactive_title">"rahoton musaya"</string>
+     <string name="bugreport_option_interactive_summary">"A yi amfani da wannan a yanayin da yake na dole ne. zai ba ka damar bibiyar cigaban rahoton, ka shigar da karin bayanai game da matsalar, ka kuma dauki hoton allo. Za iya tsallake wani bangaren da ba shi da mihimmanci sosai, wanda rahotonsa zai dauku tsawon lokaci."</string>
+     <string name="bugreport_option_full_title">"Cikakken rahoto"</string>
+     <string name="bugreport_option_full_summary">"a yi amfani da wannan zabin don samun katse hanzarin na\'ura mafi kankanta yayin da na\'urarka ba ta aiki ko tana yi a hankali ko kuma lokacin da kake bukatar dukkanin bangaren rahoto. Ba za ta ba ka damar shigar da karin bayanai ba ka dauki karin hoton allo."</string>
+     <plurals name="bugreport_countdown">
+<item quantity="one">"Ana daukar hoton allo don rahiton matsala a <xliff:g id="number">%d</xliff:g>  sakan."</item>
+<item quantity="other">"Ana daukar hoton allo don rahiton matsala a <xliff:g id="number">%d</xliff:g>  sakanni."</item>
+    </plurals>
+     <string name="notification_hidden_text">"Abubuwa a boye"</string>
+     <string name="notification_hidden_by_policy_text">"An boye bayanan saboda kudiri"</string>
+     <string name="capability_title_canControlMagnification">"A sarra fadada nunawa"</string>
+     <string name="capability_desc_canControlMagnification">"A sarrafa matakin jawowar nunawa da daidaitawa"</string>
+     <string name="capability_title_canPerformGestures">"A yi ishara"</string>
+     <string name="capability_desc_canPerformGestures">"za a iya dannawa ko a tsunkula ko kuma yi wasu isharorin."</string>
+     <string name="now_string_shortest">"Yanzu"</string>
+     <plurals name="duration_minutes_shortest">
+<item quantity="one">"<xliff:g example="1" id="count">%d</xliff:g>m"</item>
+<item quantity="other">"<xliff:g example="2" id="count">%d</xliff:g>m"</item>
+    </plurals>
+     <plurals name="duration_hours_shortest">
+<item quantity="one">"<xliff:g example="1" id="count">%d</xliff:g>h"</item>
+<item quantity="other">"<xliff:g example="2" id="count">%d</xliff:g>h"</item>
+    </plurals>
+     <plurals name="duration_days_shortest">
+<item quantity="one">"<xliff:g example="1" id="count">%d</xliff:g>d"</item>
+<item quantity="other">"<xliff:g example="2" id="count">%d</xliff:g>d"</item>
+    </plurals>
+     <plurals name="duration_years_shortest">
+<item quantity="one">"<xliff:g example="1" id="count">%d</xliff:g>y"</item>
+<item quantity="other">"<xliff:g example="2" id="count">%d</xliff:g>y"</item>
+    </plurals>
+     <plurals name="duration_minutes_shortest_future">
+<item quantity="one">"a cikin <xliff:g example="1" id="count">%d</xliff:g>m"</item>
+<item quantity="other">"a cikin <xliff:g example="2" id="count">%d</xliff:g>m"</item>
+    </plurals>
+     <plurals name="duration_hours_shortest_future">
+<item quantity="one">"a cikin <xliff:g example="1" id="count">%d</xliff:g>h"</item>
+<item quantity="other">"a cikin <xliff:g example="2" id="count">%d</xliff:g>h"</item>
+    </plurals>
+     <plurals name="duration_days_shortest_future">
+<item quantity="one">"a cikin <xliff:g example="1" id="count">%d</xliff:g>d"</item>
+<item quantity="other">"a cikin <xliff:g example="2" id="count">%d</xliff:g>d"</item>
+    </plurals>
+     <plurals name="duration_years_shortest_future">
+<item quantity="one">"a cikin <xliff:g example="1" id="count">%d</xliff:g>y"</item>
+<item quantity="other">"a cikin <xliff:g example="2" id="count">%d</xliff:g>y"</item>
+    </plurals>
+     <plurals name="duration_minutes_relative">
+<item quantity="one">"<xliff:g example="1" id="count">%d</xliff:g> minti daya da ta wuce"</item>
+<item quantity="other">"<xliff:g example="2" id="count">%d</xliff:g> mintuna da suka wuce"</item>
+    </plurals>
+     <plurals name="duration_hours_relative">
+<item quantity="one">"<xliff:g example="1" id="count">%d</xliff:g> awa daya da ta wuce"</item>
+<item quantity="other">"<xliff:g example="2" id="count">%d</xliff:g> awanni da suka wuce"</item>
+    </plurals>
+     <plurals name="duration_days_relative">
+<item quantity="one">"<xliff:g example="1" id="count">%d</xliff:g> jiya"</item>
+<item quantity="other">"<xliff:g example="2" id="count">%d</xliff:g> kwanaki"</item>
+    </plurals>
+     <plurals name="duration_years_relative">
+<item quantity="one">"<xliff:g example="1" id="count">%d</xliff:g> bara"</item>
+<item quantity="other">"<xliff:g example="2" id="count">%d</xliff:g> shekarun da suka wuce"</item>
+    </plurals>
+     <plurals name="duration_minutes_relative_future">
+<item quantity="one">"a cikin <xliff:g example="1" id="count">%d</xliff:g> minti"</item>
+<item quantity="other">"a cikin <xliff:g example="2" id="count">%d</xliff:g> mintuna"</item>
+    </plurals>
+     <plurals name="duration_hours_relative_future">
+<item quantity="one">"a cikin <xliff:g example="1" id="count">%d</xliff:g> awa"</item>
+<item quantity="other">"a cikin <xliff:g example="2" id="count">%d</xliff:g> awanni"</item>
+    </plurals>
+     <plurals name="duration_days_relative_future">
+<item quantity="one">"a cikin <xliff:g example="1" id="count">%d</xliff:g> rana"</item>
+<item quantity="other">"a cikin <xliff:g example="2" id="count">%d</xliff:g> ranaku"</item>
+    </plurals>
+     <plurals name="duration_years_relative_future">
+<item quantity="one">"a cikin <xliff:g example="1" id="count">%d</xliff:g> shekara"</item>
+<item quantity="other">"a cikin <xliff:g example="2" id="count">%d</xliff:g> shekaru"</item>
+    </plurals>
+     <string name="paste_as_plain_text">"a zuba shi a matsayin rubutu kawai"</string>
+     <string name="undo">Kwance</string>
+     <string name="redo">"Sake yi"</string>
+     <string name="whichApplicationLabel">"Kammala aiki"</string>
+     <string name="whichViewApplicationLabel">Bude</string>
+     <string name="whichEditApplicationLabel">"Gyara"</string>
+     <string name="whichSendApplicationLabel">"Raba"</string>
+     <string name="whichSendToApplication">"A aika ta amfani da"</string>
+     <string name="whichSendToApplicationNamed">"A aika ta amfani da %1$s"</string>
+     <string name="whichSendToApplicationLabel">"Aika"</string>
+     <string name="whichHomeApplicationLabel">"A dauki hoto"</string>
+     <string name="whichImageCaptureApplication">"A dauki hoto da"</string>
+     <string name="whichImageCaptureApplicationNamed">"A dauki hoto da %1$s"</string>
+     <string name="whichImageCaptureApplicationLabel">"A dauki hoto"</string>
+     <string name="aerr_application_repeated">"<xliff:g id="application">%1$s</xliff:g> ya ci gaba da dakatawa"</string>
+     <string name="aerr_process_repeated">"<xliff:g id="process">%1$s</xliff:g> yana ta dakatawa"</string>
+     <string name="aerr_restart">"A sake bude manhaja"</string>
+     <string name="aerr_report">"Aika martani"</string>
+     <string name="aerr_close">"Rufe"</string>
+     <string name="aerr_mute">"A kashe sauti har sai an sake kunna na\'ura"</string>
+     <string name="aerr_wait">"Jira"</string>
+     <string name="aerr_close_app">"A rufe manhaja"</string>
+     <string name="unsupported_display_size_message">"<xliff:g id="app_name">%1$s</xliff:g> ba ya aiki da wannan satin nunawar, zai kuma iya yin abin da ba a zata ba."</string>
+     <string name="unsupported_display_size_show">"Nuna koda yaushe"</string>
+     <string name="android_upgrading_notification_title">"Ana inganta Android"</string>
+     <string name="android_upgrading_notification_body">"Wasu manahajojin ba za su yi aiki sosaiba har sai an kammala ingantawa"</string>
+     <string name="carrier_app_dialog_message">"Domin samu sabon sim dinka ya yi aiki sosai kana bukatar sanyawa ka kuma bude manhaja daga mai dauka."</string>
+     <string name="carrier_app_dialog_button">"SAMU APP"</string>
+     <string name="carrier_app_dialog_not_now">"Ba yanzu ba"</string>
+     <string name="carrier_app_notification_title">"An sa sabobn SIM"</string>
+     <string name="carrier_app_notification_text">"Dannan kasaita shi"</string>
+     <string name="usb_supplying_notification_title">"USB yana ba da wuta ga na\'urar da aka makala""</string>
+     <string name="taking_remote_bugreport_notification_title">"Ana daukar rahoton matsala"</string>
+     <string name="share_remote_bugreport_notification_title">"A sanar da rahoton matsala"</string>
+     <string name="sharing_remote_bugreport_notification_title">"Snar da rahoton matsala"</string>
+     <string name="share_remote_bugreport_notification_message_finished">"Mai lura da fasahar sadarwarka yana bukatar rahoton matsala, don ya taimaka wajen warware matsalolin wannan na\'ura. Za a iya sanar da manhajoji da bayanai."</string>
+     <string name="share_remote_bugreport_action">"Raba"</string>
+     <string name="decline_remote_bugreport_action">"Ki "</string>
+     <string name="vr_listener_binding_label">"Mai saurare na VR"</string>
+     <string name="notification_ranker_binding_label">"Sanarwar aikin mai kimantawa"</string>
+     <string name="extract_edit_menu_button">"Gyara"</string>
+     <string name="user_logging_out_message">"Fita <xliff:g id="name" example="Bob">%1$s</xliff:g>..."</string>
+     <string name="data_saver_description">"Don taimakawa wajen rage amfani da data, mai tattalin data ya hana wasu manhajojin turawa ko karbar bayanai a bayan fage.Manhajar da kake amfani da ita yanzu za ta iya amfani da data, amma za ta iya yin haka ba koyaushe ba. Hakan na iya nufin misali wadannan hotunan ba za su nuna ba har sai ka taba su."</string>
+     <string name="data_saver_enable_title">"A kunna datar saba?"</string>
+     <string name="data_saver_enable_button">"Kunna "</string>
+     <string name="zen_mode_alarm">"Har sai <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g> (alam na gaba)"</string>
+     <string name="expand_button_content_description">"A fadada madanni"</string>
+     <string name="expand_action_accessibility">"a zabi fadadawa"</string>
+     <string name="maximize_button_text">"A yawaita"</string>
+     <string name="close_button_text">"Rufe"</string>
+     <string name="notification_messaging_title_template">"<xliff:g id="conversation_title" example="Tasty Treat Team">%1$s</xliff:g>: <xliff:g id="sender_name" example="Adrian Baker">%2$s</xliff:g>"</string>
+     <string name="importance_from_user">"Ka saita muhimmancin wannan sanarwar."</string>
+     <string name="importance_from_person">"wannan yana da muhimmanci saboda mutanen da ya shafa."</string>
+     <string name="user_creation_account_exists">"A ba wa <xliff:g id="app" example="Gmail">%1$s</xliff:g>  dama ya kirkiri sabon mai amfani da <xliff:g id="account" example="foobar@gmail.com">%2$s</xliff:g> ?"</string>
+     <string name="user_creation_adding">"A ba wa <xliff:g id="app" example="Gmail">%1$s</xliff:g> dama ta kirkiri sabon mai amfani da <xliff:g id="account" example="foobar">%2$s</xliff:g>  (Dama akwai mai amfani da wannan asusu) ?"</string>
+     <string name="language_selection_title">"A kara harshe"</string>
+     <string name="country_selection_title">"Yankin da aka fi so"</string>
+     <string name="search_language_hint">"Rubuta sunan harshe"</string>
+     <string name="language_picker_section_suggested">""Wanda aka yi hasashe"</string>
+     <string name="language_picker_section_all">"Dukkanin harasa"</string>
+     <string name="locale_search_menu">"Bincika"</string>
+     <string name="work_mode_off_title">"An kashe yanayin aiki"</string>
+     <string name="work_mode_off_message">"A bawa baanan aiki dama ya yi aiki, hadi da manhajoji da daidaitawar bayan fage da ayyukan da suka dangance su"</string>
+     <string name="work_mode_turn_on">"Kunna "</string>
+     <string name="new_sms_notification_title">""Kana da sabon sako"</string>
+     <string name="new_sms_notification_content">"A bude manhajar SMS a kalla"</string>
+     <string name="user_encrypted_title">"Za a iya iyakance wasu ayyukan"</string>
+     <string name="user_encrypted_message">"Danna ka bude"</string>
+     <string name="user_encrypted_detail">"A yi amfani da kullewar data"</string>
+     <string name="profile_encrypted_detail">"An kulle bayanan aiki"</string>
+     <string name="profile_encrypted_message">"Dannna ka bude bayanan aiki"</string>
+     <string name="usb_mtp_launch_notification_title">"An hada da <xliff:g id="product_name">%1$s</xliff:g>"</string>
+     <string name="usb_mtp_launch_notification_description">"Danna ka gafayal-fayal"</string>
+     <string name="pin_target">"PIN"</string>
+     <string name="unpin_target">"An saki"</string>
+     <string name="app_info">"Bayanan manhaja"</string>
+     <string name="negative_duration">"\u2212<xliff:g id="time" example="1:14">%1$s</xliff:g>"</string>
+     <string name="audit_safemode_notification">"Saitin asali don amfani da wannan na\'urar ba da wata iyaka ba"</string>
+     <string name="audit_safemode_notification_details">"Taba ka samu karin bayani"</string>
+     <string name="suspended_widget_accessibility">"An kashe <xliff:g id="label" example="Calendar">%1$s</xliff:g>"</string>
+     <string name="network_unknown">"(NBA A SANI BA)"</string>
+     <string name="network_inhibit">"(HARAMUN)"</string>
+</resources>

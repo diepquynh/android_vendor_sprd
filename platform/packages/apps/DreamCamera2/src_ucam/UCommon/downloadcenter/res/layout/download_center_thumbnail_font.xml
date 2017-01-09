@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2010,2011 Thundersoft Corporation
+  All rights Reserved
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/image_thumbnail_layout"
+    android:layout_width = "match_parent"
+    android:layout_height = "@dimen/dd_font_thumbnails_height"
+    android:descendantFocusability = "blocksDescendants"
+    android:background="#FFFFFF"
+    android:visibility="invisible">
+    <ImageView
+        android:id = "@+id/image_thumbnail"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:gravity ="center"
+        android:layout_centerInParent = "true"
+        />
+    <CheckBox
+        android:id = "@+id/checkbox"
+        style = "@style/MyCheckBox"
+        android:layout_width = "@dimen/dd_font_thumbnails_height"
+        android:layout_height = "wrap_content"
+        android:clickable = "false"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentBottom = "true"
+        />
+</RelativeLayout>

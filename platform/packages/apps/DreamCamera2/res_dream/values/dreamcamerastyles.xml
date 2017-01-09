@@ -1,0 +1,76 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- AlderDialog主题 -->
+    <!--
+    <style name="ThemeDeviceDefaultDialogAlert" parent="@android:style/ThemeOverlay.Material.Dialog.Alert">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:background">#274285f4</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColorPrimary"></item>
+        <item name="android:textColorAlertDialogListItem">@android:color/white</item>
+    </style>
+    -->
+    <!--
+    <style name="ThemeDeviceDefaultDialogAlert" parent="@style/Theme.Camera">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:background">#274285f4</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColorAlertDialogListItem">@android:color/white</item>
+        <item name="android:alertDialogStyle">@style/SelfAlertDialogMeter</item>
+    </style>
+    -->
+    <style name="SelfCheckBox" parent="@android:style/Widget.Material.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/control_background_40dp_material</item>
+        <item name="android:button">@drawable/btn_check_material_anim</item>
+    </style>
+
+    <style name="ThemeDeviceDefaultDialogAlert" parent="@android:style/ThemeOverlay.Material.Dialog.Alert">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColorAlertDialogListItem">@android:color/white</item>
+        <item name="android:windowBackground">@drawable/bg_dialog_dark_sprd</item>
+        <item name="android:buttonBarButtonStyle">@style/SelfDialogButtonWhite</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!--
+        <item name="android:windowTitleStyle">@style/WindowTitle.Material</item>
+    <item name="textColor">?attr/textColorPrimary</item>
+    -->
+
+    <style name="SelfDialogButton" parent="*android:style/Widget.Material.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/dream_main_color</item>
+    </style>
+
+    <style name="SelfDialogButtonWhite" parent="*android:style/Widget.Material.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="SelfActionBar" parent="android:style/Theme.Material"></style>
+
+    <style name="SelfSwitch" parent="*android:style/Widget.Material.CompoundButton.Switch">
+        <item name="android:track">@drawable/switch_track_material</item>
+        <item name="android:thumb">@drawable/switch_thumb_material_anim</item>
+        <item name="android:background">@drawable/control_background_40dp_material</item>
+    </style>
+
+    <style name="SelfAlertDialogMeter" parent="*android:style/AlertDialog.Material">
+        <item name="*android:singleChoiceItemLayout">@layout/select_dialog_singlechoice_material_meter</item>
+    </style>
+
+    <style name="SelfAlertDialog" parent="*android:style/AlertDialog.Material">
+        <item name="*android:singleChoiceItemLayout">@layout/select_dialog_singlechoice_material</item>
+    </style>
+
+    <style name="SelfProgressBarStyleSmall" parent="*android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/progress_small_material</item>
+    </style>
+
+    <style name="DreamCheckedTextView">
+        <item name="*android:checkMarkGravity">start</item>
+    </style>
+
+</resources>

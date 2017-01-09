@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/slogui_menu_dropdown_panel"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/mode_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/slogui_list_selector"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:minHeight="40dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:text="@string/mode_create"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/mode_popup_list_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/slogui_list_header_background"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="@string/mode_popup_list_header"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/mode_popup_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@drawable/slogui_check_divider"
+        android:enabled="true"
+        android:minWidth="120dp"
+        android:visibility="gone" >
+    </ListView>
+
+</LinearLayout>

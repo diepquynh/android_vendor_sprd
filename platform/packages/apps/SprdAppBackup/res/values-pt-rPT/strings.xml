@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="calendar_agent_name">"Agenda"</string>
+<string name="gallery_agent_name">"Galeria"</string>
+<string name="contacts_agent_name">"Contatos"</string>
+<string name="mms_agent_sms_name">"Chamadas de voz"</string>
+<string name="mms_agent_mms_name">"MMS"</string>
+<string name="mms_agent_name">"MMS"</string>
+<string name="app_name">Recuperar Reserva</string>
+<string name="backup">"Backup"</string>
+<string name="restore">Restaurar</string>
+<string name="set_password">"Definir senha"</string>
+<string name="start_backup">Iniciar cópia de segurança</string>
+<string name="data_backup">Cópia de segurança de Dados</string>
+<string name="apk_backup">Cópia de segurança de Aplicações</string>
+<string name="next_step">Próximo Passo</string>
+<string name="data_restore">Restauro de Dados</string>
+<string name="apk_restore">Restauro de Aplicações</string>
+<string name="start_restore">Iniciar restauro</string>
+<string name="version_name">Versão:</string>
+<string name="please_holding">aguarde</string>
+<string name="backup_is_ongoing">Reservando</string>
+<string name="restore_is_ongoing">Recuperando</string>
+<string name="install_failed">Falha instalar</string>
+<string name="old_version_alter">"A versão antiga não pode sobrescrever na nova versão"</string>
+<string name="backup_complete">Cópia de segurança Completa</string>
+<string name="restore_complete">Restauro Completo</string>
+<string name="select_all">Sele Todos</string>
+<string name="exit_title">Sair</string>
+<string name="do_you_wanna_exit_really">Se quer sair de Recuperar Reserva?</string>
+<string name="cancel">"Cancelar"</string>
+<string name="confirm">"Confirmar"</string>
+<string name="delete">"Excluir"</string>
+<string name="confirm_delete">Se clica a tecla de Deletar, a qual vai deletar todos os arquivos de reserva sub o directório. Favor confirme se você quer deletar?</string>
+<string name="please_select_app_to_restore">Favor seleccione uma APLICAÇÃO pelo menos</string>
+<string name="please_select_dataitem_to_restore">Favor seleccione os dados que quer recuperar</string>
+<string name="no_app_backuped">Há nenhuma aplicação pode recuperar</string>
+<string name="hint">Indicação</string>
+<string name="sdcard_is_unmounted">O cartão de memória external não pode ser acessado, você não pode entrar em AplicaçãoReserva</string>
+<string name="backup_application">Aplicação de Reserva</string>
+<string name="backup_fail">Falha Reservar</string>
+<string name="warning">A aguardar...</string>
+<string name="please_select_app_or_data">Favor seleccione uma APLICAÇÃO ou Dados pelo menos</string>
+<string name="restore_fail">Falha recuperar</string>
+<string name="restore_application">Aplicação de Recuperação</string>
+<string name="application">"Aplicativo"</string>
+<string name="sdcard_is_not_available">"Favor insera o cartão de memória"</string>
+<string name="backup_is_cancelled">"A reserva foi cancelada"</string>
+<string name="sim_1">SIM cartão 1</string>
+<string name="sim_2">SIM cartão 2</string>
+<string name="confirm_delete_apk">Se clica a tecla de Deletar, a qual vai deletar apk. Favor confirme se você quer deletar?</string>
+<string name="lock_of_freespace">O espaço de guarda é insuficiente, favor limpe os dados de SD cartão</string>
+<string name="internal_lock_of_freespace">O espaço de guarda é insuficiente, favor limpe os dados de guarda internal</string>
+<string name="delete_all">"Excluir"</string>
+<string name="delete_data_hint">Apagar Dados</string>
+<string name="data_cannot_recovery_after_delete">Os dados não podem ser recuperados depois de deletar. Se quer deletar os dados?</string>
+<string name="deleting">Deletando</string>
+<string name="delete_complete">Deletar completo</string>
+<string name="delete_fail">"Falha ao Eliminar"</string>
+<string name="data">"Dados"</string>
+<string name="backup_success">Reservar com sucesso</string>
+<string name="backup_all_result">Resultado de Reserva</string>
+<string name="category_mms">"MMS"</string>
+<string name="category_sms">"Chamadas de voz"</string>
+<string name="select_sim">Selecionar cartão de SIM</string>
+<string name="sim_x">SIM%s</string>
+<string name="select_account">Seleccionar Conta</string>
+<string name="restore_is_cancelled">"A recuperação foi cancelada"</string>
+<string name="remove_duplication_hint">A guarda de dados foi completada. Talvez possa duplicar os dados. Se quer deletar os dados duplicados?</string>
+<string name="restore_success">A recuperação é com sucesso</string>
+<string name="delete_redundancy">Limpar redundância</string>
+<string name="clear_complete">Acabar a limpar</string>
+<string name="confirm_delete_menu">"Confirmar exclusão"</string>
+<string name="no_data_to_backup">sem dados para reservar</string>
+<string name="duplication_unsupport">Estes dados não suportam a limpar!</string>
+<string name="title_select_storage">Percurso de guarda</string>
+<string name="use_external_storage">O espaço de guarda internal é baixo, use a guarda external</string>
+<string name="internal_storage_not_available">a guarda internal não é disponível</string>
+<string name="agent_service_disconnected">"desligado"</string>
+<string name="remind_data">"Dados"</string>
+<string name="remind_read_userdata_title">"Ler dados de usuário"</string>
+<string name="remind_write_userdata_title">"Escrever dados de usuário"</string>
+<string name="remind_read_userdata_message">"Reserva vai ler"</string>
+<string name="remind_write_userdata_message">"Restaurar vai escrever"</string>
+<string name="go_back">Retroceder</string>
+<string name="cancle_select_all">Cancelar todos</string>
+    <string-array name="storage_items">
+        <item>"Guarda external"</item>
+        <item>"Armaz. interno"</item>
+        <item>"Usuário define o percurso de guarda"</item>
+    </string-array>
+     <string name="first_entry_alert">""Reservar e restaurar" características personalizadas para as características da China Mobile-específicas, disponíveis em todas as marcas da máquina de cliente da China Mobile usando cada uma."</string>
+     <string name="please_select_storage_path">"Favor Seleccione Percurso"</string>
+     <string name="scan_all_storage">"Explorar toda a guarda"</string>
+     <string name="scan_all_storage_complete">"Explorar toda a guarda completa"</string>
+     <string name="restore_select_storage_path">"Seleccionar o percurso de exploração"</string>
+     <string name="change_mobile_hint">"Mudar a dica de telemóvel"</string>
+     <string name="never_hint">"Nunca sugerir"</string>
+     <string name="not_insert_SD_backup_hint">"O telemóvel sem um SD cartão, se você precisa de recuperar os dados num novo telemóvel, através de SD cartão ou um computador será transferido para a recuperação de arquivo de reserva de novo telemóvel."</string>
+     <string name="read_detail">"Ler os detalhes"</string>
+     <string name="display_detail">"Display detalhes"</string>
+     <string name="not_insert_SD_backup_detail">"Substituido por SD cartão:1, SD cartão na máquina; 2, fazer uma reserva; 3, remover o SD cartão, insera a nova máquina; 4, abrir a reserva de nova máquina e recuperação de aplicação, seleccione a busca para reservar o arquivo para restaurar na função de recuperação. Através de substituição de computador: 1, reservar, e ver o percurso de reserva; 2, a máquina é ligada com um computador e abrir o directório de telefone; 3, o arquivo de reserva de percurso de reserva copia para o computador; 4, o novo telemóvel é ligado com o computador e abrir o novo directório de telemóvel; 5, o arquivo de reserva copia para qualquer directório dum novo telefone; 6, abrir a reserva de nova máquina e recuperação de aplicação, seleccione a busca para reservar o arquivo para restaurar na função de recuperação."</string>
+     <string name="no_SD_backup_detail">"1, a máquina será ligada com o computador e abrir o directório de telemóvel; 2, a via de /reserva/ de arquivo de reserva copiado para o computador; 3, o novo telemóvel é ligado com o computador e abrir um novo directório de telemóvel; 4, os arquivos de reserva serão copiados para qualquer directório de novo telemóvel; 5, abrir um reserva de novo telemóvel e recuperação de aplicação, seleccione a busca para o arquivo de reserva para restaurar na função de recuperação."</string>
+     <string name="no_SD_backup_hint">"Esta máquina tem nenhuma recuperação de dados de SD cartão, como solicitado na nova máquina, através de computador será transferida para a reserva de nova máquina para restaurar."</string>
+     <string name="scan_all_storage_please_holding">"Explorar tudo demora um tempo longo, favor espere..."</string>
+     <string-array name="select_path_items">
+        <item>guarda external</item>
+        <item>Guarda internal</item>
+    </string-array>
+     <string name="permission_missed_hint">"Permissão solicitada perdida. Por tanto, não pode realizar normalmente. Favor verifique os ajustes da sua permissão."</string>
+     <string name="dialog_dismiss">"Descartar"</string>
+
+    <string name="requires_permissions_message">"Esta aplicação não é permitida acessar à guarda external, favor seleccione a guarda internal."</string>
+     <string name="requires_permissions_close_button">OK</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:phone="http://schemas.android.com/apk/res/com.android.phone"
+     android:title="@string/labelCF">
+
+    <PreferenceScreen
+        android:key="audio_call_forwarding_key"
+        android:title="@string/labelAudioCF"
+        android:persistent="false" />
+
+    <PreferenceScreen
+        android:key="video_call_forwarding_key"
+        android:title="@string/labelVideoCF"
+        android:persistent="false" />
+
+</PreferenceScreen>

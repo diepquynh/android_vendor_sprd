@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">文件管理器</string>
+    <string name="action_settings">设置</string>
+    <string name="title_section_overview">快速查看</string>
+    <string name="title_section_external">存储卡</string>
+    <string name="title_section_all">全部</string>
+    <string name="title_section_internal">手机</string>
+    <string name="title_section_usbdisk">U盘</string>
+    <string name="descrip_file_icon">FileIcon</string>
+    <string name="descrip_actionbar_logo">向上</string>
+    <string name="descrip_actionbar_search">搜索</string>
+    <string name="descrip_actionbar_overflow">菜单</string>
+    <string name="quickscan_audio">音乐</string>
+    <string name="quickscan_image">图片</string>
+    <string name="quickscan_record">录音</string>
+    <string name="quickscan_video">视频</string>
+    <string name="quickscan_doc">文档</string>
+    <string name="quickscan_apk">APK安装文件</string>
+    <string name="quickscan_apk_short">APK</string>
+    <string name="file_list_flodermsg">日期:%1$s</string>
+    <string name="file_list_filemsg">日期:%1$s\t大小:%2$s</string>
+    <string name="dialog_hint_title">提示</string>
+    <string name="dialog_hint_msg">正在努力加载中...</string>
+    <string name="menu_search">搜索</string>
+    <string name="menu_back_home">返回首页</string>
+    <string name="menu_mkdir">新建文件夹</string>
+    <string name="menu_newfile">新建文件</string>
+    <string name="menu_mkdir_succeed">文件夹%1$s创建成功</string>
+    <string name="menu_mkdir_failed">抱歉！文件夹%1$s创建失败</string>
+    <string name="menu_newfile_succeed">文件%1$s创建成功</string>
+    <string name="menu_newfile_failed">抱歉！文件%1$s创建失败</string>
+    <string name="menu_select_more">选择多个</string>
+    <string name="menu_copy">复制</string>
+    <string name="menu_cut">剪切</string>
+    <string name="menu_sort_type">排序方式</string>
+    <string name="menu_storage_status">存储状态</string>
+    <string name="operate_delete">删除</string>
+    <string name="operate_clear">清空</string>
+    <string name="operate_delete_file_ask">确认删除文件%1$s吗？</string>
+    <string name="operate_delete_file_succeed">删除文件%1$s成功</string>
+    <string name="operate_delete_file_failed">抱歉！删除文件%1$s失败</string>
+    <string name="operate_viewdetails">属性</string>
+    <string name="operate_viewdetails_date">日期：%1$s</string>
+    <string name="operate_viewdetails_size">大小：%1$s</string>
+    <string name="operate_viewdetails_type_folder">类型：文件夹</string>
+    <string name="operate_viewdetails_type_file">类型：文件</string>
+    <string name="operate_folder_attribute">包含：%1$d个文件，%2$d个文件夹\n大小：%3$s</string>
+    <string name="operate_rename">重命名</string>
+    <string name="operate_rename_hint">请输入新的文件名</string>
+    <string name="operate_rename_succeed">重命名成功</string>
+    <string name="operate_rename_failed">抱歉：文件%1$s重命名失败</string>
+    <string name="operate_share">分享</string>
+    <string name="msg_file_input_empty">你输入的文件名为空</string>
+    <string name="msg_file_input_repeat">你输入的文件名%1$s已经存在，请选择其他的文件名</string>
+    <!-- SPRD: Bug405860 add string according to the bug decription. @{ -->
+    <string name="msg_folder_input_empty">你输入的文件夹名为空</string>
+    <!-- @} -->
+    <string name="msg_folder_empty">该文件夹为空</string>
+    <string name="msg_invalid_intent">系统中没有相关的应用可以打开该文件</string>
+    <string name="msg_issure_clear">是否删除当前文件夹中所有文件?</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="copying">正在复制，请稍后进行</string>
+    <string name="clipboard_empty">粘贴板为空</string>
+    <string name="text_exit_file_explore_title">退出</string>
+    <string name="text_exit_file_explore_prompt">真的要退出文件管理器吗？</string>
+    <string name="common_text_ok">确定</string>
+    <string name="common_text_cancel">取消</string>
+    <string name="common_text_paste">粘贴</string>    
+    <item name="viewtag_filepath" type="id"></item>
+    <item name="viewtag_filetype" type="id"></item>   
+    <string name="file_option">文件选项</string>
+    <string name="folder_option">文件夹选项</string>
+    <string name="file_detail">详情</string>
+    <string name="caculating">文件大小：正在计算…</string>
+    <string name="copy_finish">复制完成</string>
+    <string name="now_copying">复制过程中，请稍候...</string>
+    <string name="delete_finish">操作完成</string>
+    <string name="delete_fail">文件<xliff:g id="NAME">%s</xliff:g>删除失败</string>
+    <string name="now_deleting">删除过程中，请稍候...</string>
+    <string name="cancel_copy">操作被取消</string>
+    <string name="exist">%1$s已存在</string>
+    <string name="select_destination">选择存储位置</string>
+    <string name="empty_view_prompt">无文件，您可以通过外部连接电脑或者下载等方式获取文件和内容。</string>
+	<string name="fragment_search_key_hint">请输入要搜索的文件或文件名</string>
+    <string name="fragment_search_location">搜索范围:</string>
+    <string name="fragment_search_location_ex">搜索范围</string>
+    <string name="fragment_search_type">文件类型</string>
+    <string name="fragment_search_result">搜索结果</string>
+    <string name="fragment_search_searching">搜索中。。。</string>
+    <string name="fragment_search_noresult">没有搜索到您要的文件</string>
+    <string name="common_text_other">其他</string>
+	<string name="common_text_search">搜索</string>
+	<string name="fragment_search_invalid_result">文件过期，请确认。</string>
+    <string name="overview_menu_multiselect">选择多个</string>
+    <string name="overview_menu_install_all">全部安装</string>
+    <string name="overview_menu_install">安装</string>
+    <string name="overview_menu_delete">删除</string>    
+    <string name="sort_by_name">按名称</string>
+    <string name="sort_by_type">按文件类型</string>
+    <string name="sort_by_time_desc">按时间(降序)</string>
+    <string name="sort_by_time_asc">按时间(升序)</string>
+    <string name="sort_by_size_desc">按文件大小(降序)</string>
+    <string name="sort_by_size_asc">按文件大小(升序)</string>
+    <string name="sort_by_asc">升序</string>
+    <string name="sort_by_desc">降序</string>
+    <string name="display_setting">显示设置</string>
+    <string name="hide_file_display">隐藏文件显示</string>
+    <string name="display_hide_file">显示隐藏的文件</string>
+    <string name="operate_viewdetails_path">位置：%1$s</string>
+    <string name="operate_viewdetails_canread">是否可读：是</string>
+    <string name="operate_viewdetails_can_not_read">是否可读：否</string>
+    <string name="operate_viewdetails_can_not_write">是否可写：否</string>
+    <string name="operate_viewdetails_can_write">是否可写：是</string>
+    <string name="operate_viewdetails_hide">是否隐藏：是</string>
+    <string name="operate_viewdetails_not_hide">是否隐藏：否</string>
+    <string name="select_text">选择文件</string>
+    <string name="select_all">选择全部</string>
+    <string name="unselect_all">取消全部</string>
+    <string name="length_limited">已达到最大长度</string>
+    <string name="cannot_copy_to_itself">无法将文件夹粘贴到自身或它的子文件夹</string>
+    <string name="confirm_delete">要删除所选内容吗？</string>
+    <string name="search_empty">请输入搜索内容。</string>
+    <string name="search_type_empty">请选择文件类型。</string>
+    <string name="dialog_back">返回</string>
+    <string name="set_as">设置为</string>
+    <string name="invalid_char">文件名不能包含%s</string>
+    <string name="invalid_char_of_filename"><xliff:g id="SECTION">%s</xliff:g>文件系统的文件名不能包含<xliff:g id="INVALIDCHAR">%s</xliff:g></string>
+    <string name="invalid_char_of_foldername"><xliff:g id="SECTION">%s</xliff:g>文件系统的文件夹名不能包含<xliff:g id="INVALIDCHAR">%s</xliff:g></string>
+    <string name="no_enough_sapce">剩余空间不足</string>
+    <string name="file_type_wrong">文件类型错误</string>
+    <string name="failed_set_wallpaper">设置壁纸失败</string>
+    <string name="unsupport_type">不支持的铃声类型</string>
+    <string name="now_moving">移动过程中，请稍候...</string>
+    <string name="now_calculate">正在计算文件大小，请稍候...</string>
+    <string name="badname_as_point">为避免与文件系统混淆，请不要将文件(夹)命名为/,\\,.或..</string>
+    <string name="cut_filename_duplicate">与当前路径下文件或文件夹重名，请重新选择目录！</string>
+    <string name="share_file_limited">最多只能分享%1$d个文件</string>
+    <string name="install_apk_limited">最多只能安装%1$d个应用</string>
+    <string name="now_cleared">清空过程中，请稍候...</string>
+    <string name="not_replace">与父文件夹同名，不能替换</string>
+    <string-array name="select_dest">
+        <item name="title_phone">手机</item>
+        <item name="title_sdcard">存储卡</item>
+        </string-array>
+     <string-array name="copyfileWarning">
+                <item>替换</item>
+                <item>均保留</item>
+        </string-array>
+     <string-array name="copydirWarning">
+                <item>合并</item>
+                <item>替换</item>
+                <item>均保留</item>
+        </string-array>
+     <string-array name="sort_type">
+                <item>按名称</item>
+                <item>按文件类型</item>
+                <item>按时间</item>
+                <item>按大小</item>
+        </string-array>
+    <string name="sdcard_had_unmounted">正在操作的文件无效</string>
+    <string name="common_text_ignore">忽略</string>
+    <string name="cannot_copyfolder_itself">你无法将文件夹复制到自身</string>
+    <string name="cannot_cutfolder_itself">你无法将文件夹移入自身</string>
+    <string name="cannot_paste_reason">目标文件夹位于源文件夹%s内</string>
+    <string name ="badname_endwith_point">文件夹名不能以字符.结尾</string>
+    <string name="failed_option">操作失败</string>
+    <string name="failed_query">数据库查询不到此文件</string>
+    <!-- SPRD: Bug429954 add string according to the bug decription. @{ -->
+    <string name="failed_select_event">本次操作，只能选择500个项目</string>
+    <!-- @} -->
+    <string name="error_permissions">"此应用缺少运行所需的必要权限。请检查您的权限设置。"</string>
+    <string name="dialog_dismiss">"关闭"</string>
+    <string name="toast_fileexplorer_internal_error">文件管理器发生内部错误！</string>
+    <string name="error_choose_drm_for_gallery">DRM文件不可设置为幻灯片音乐，请选择其他文件</string>
+</resources>

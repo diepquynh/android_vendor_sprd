@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Ses Kaydedici"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Mesajınızı kaydedin"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Mesaj kaydedildi"</string>
+    <string name="review_message" msgid="201616012287839474">"Mesajı incele"</string>
+    <string name="recording" msgid="4426791467211376099">"Kaydediyor"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Kayıt durdu"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"Depolama alanı dolu"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"Maksimum uzunluğa ulaşıldı"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"USB bellek ekleyin"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"SD kart yerleştirin"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> dak. var"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> var"</string>
+    <string name="accept" msgid="1888285552128743656">"Tamam"</string>
+    <string name="discard" msgid="761613433029406319">"Sil"</string>
+    <string name="button_ok" msgid="3004911343723076226">"Tamam"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Kayıtlarınız"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Ses kayıtları"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Kayıtlarım"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"USB belleğe erişilemiyor."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"SD karta erişilemiyor."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Dahili uygulama hatası."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"Ses kaydı diske kaydedilemedi."</string>
+    <string name="recording_save">"Kaydedildi"</string>
+     <string name="recording_nosave">""Kayıt kaydedilmedi" "</string>
+     <string name="phone_message">"Arama sırasında Ses Kaydedici açılamıyor."</string>
+     <string name="min_and_time_available">"yaklaşık <xliff:g id="minutes">%d</xliff:g> dakika ve <xliff:g id="seconds">%d</xliff:g> erişilebilir"</string>
+     <string name="press_record">"Kayda basın"</string>
+     <string name="save">"Kaydet"</string>
+     <string name="select_file_type">""Kayıt dosyası türünü seçin" "</string>
+     <string name="record_amr">""amr tipi (düşük kalite)" "</string>
+     <string name="record_3gpp">""3gpp tipi (yüksek kalite)" "</string>
+     <string name="button_cancel">İptal</string>
+     <string name="path_save">"Varsayılan yol kaydedildi"</string>
+     <string name="path_nosave">"Varsayılan yol kaydedilmedi"</string>
+     <string name="path_default">" Kullanılan yol yazılamıyor ya da geçersiz, iç belleğe erişim yolu."</string>
+     <string name="menu_set_save_path">"Kaydetme yolunu ayarla"</string>
+     <string name="back">"Arka"</string>
+     <string name="path_label">"Lütfen kayıt yolunu seçiniz"</string>
+     <string name="pause">Duraklat</string>
+     <string name="storage_is_not_enough">""Depolama yeterli değil" "</string>
+     <string name="menu_recording_file_list">"Kayıt dosyası listesi"</string>
+     <string name="recording_list_empty">Listeyi boşalt</string>
+     <string name="menu_recording_list_select_all">Tümünü Seç</string>
+     <string name="menu_recording_list_delete">Sil</string>
+     <string name="menu_recording_list_deselect_all">"Seçimi kaldır"</string>
+     <string name="recording_file_delete_success">""Kayıt Silindi" "</string>
+     <string name="recording_file_database_failed">""Veritabanı dosyası silinemedi" "</string>
+     <string name="recording_file_delete_failed">""Kayıt dosyası silinemedi" "</string>
+     <string name="confirm_del">"Dosyaları silmek istediğinizden emin misiniz?"</string>
+     <string name="button_delete">Sil</string>
+     <string name="recording_file_delete_alert_title">Sil</string>
+     <string name="recording_file_delete_alert_message">"%1$s silmek istediğinizden emin misiniz?"</string>
+     <string name="recording_file_list">"Kayıt dosyası listesi"</string>
+     <string name="less_than_one_second">"1 saniye"</string>
+     <string name="is_scanning">"Medya tarayıcı tarama yapıyor, lütfen bekleyin..."</string>
+     <string name="emptylist">"liste boş"</string>
+     <string name="choose_file">"Lütfen silmek istediğiniz kayıt dosyasını seçin!"</string>
+     <string name="error_path">"Seçtiğiniz dizin mevcut değil, lütfen yeniden ayarlayın!"</string>
+     <string name="path_miss">"kaydedilen yol bulunmuyor ya da erişilemez!"</string>
+     <string name="low_memory">"Telefon hafızası yeterli değil, kaydetme sonlandırılacak!"</string>
+     <string name="record_error">"Kayıtta bir hata oluştu!"</string>
+     <string name="play_error">"Muzik çalısı kapatıldı, açılamaz ！"</string>
+     <string name="dialog_title">"Lütfen seçin"</string>
+     <string name="dialog_message">"Kayıt kaydedilsin mi?"</string>
+     <string name="same_application_running">"Kayıt cihazı başka bir program tarafından kullanılıyor, lütfen bu programı kapatın!"</string>
+     <string name="recording_time_short">Kayıt süresi 1 saniyeden az, kaydedilmedi</string>
+     <string name="file_path_button">"Dosya yolu"</string>
+     <string name="file_name">"Dosya adı："</string>
+     <string name="file_path">"Dosya yolu："</string>
+     <string name="rename">Yeniden adlandır</string>
+     <string name="rename_save">"Yeniden adlandırma başarılı"</string>
+     <string name="rename_nosave">yeniden adlandırma hatası</string>
+     <string name="filename_is_not_modified">"Dosya adı değiştirilmedi"</string>
+     <string name="duplicate_name">"mükerrer dosya adı"</string>
+     <string name="soundpicker_label">Lütfen kayıt dosyasını seçin</string>
+     <string name="error_sdcard_path">"sd kart mevcut değil. Varsayılan kaydetme dizini dahili depolama birimi olarak değiştirildi."</string>
+     <string name="input_length_overstep">"Giriş değeri maksimum uzunluğa ulaştı"</string>
+     <string name="filename_empty_error">"Dosya adı boş olamaz, orijinal adını kaydedin"</string>
+     <string name="please_choose_files">"lütfen dosyaları seçin"</string>
+     <string name="selected_files_count">"<xliff:g id="COUNTS">%d</xliff:g> seçildi"</string>
+     <string name="use_default_path">"Kayıtlı yol mevcut değil, varsayılan yolu kullanın" </string>
+     <string name="stroage_not_mounted">"Depolama takılı değil"</string>
+     <string name="special_char_exist">"Özel  karakterler <xliff:g id="COUNTS">%s</xliff:g> desteklenemez"</string>
+     <string name="menu_select_more">Daha Fazla Seçin</string>
+     <string name="menu_select_type">"Dosya tipini ayarla"</string>
+     <string name="path_miss_nosave">"Kaydedilen yol bulunmuyor, Kayıt saklanmadı ！"</string>
+     <string name="dialog_dismiss">"Kapat"</string>
+     <string name="error_permissions">"Uygulamanın, çalışması için gerekli olan kritik izinleri yok. Lütfen izin ayarlarınızı kontrol edin."</string>
+
+    <string name="internal_sdcard">"Dahili sdkart"</string>
+     <string name="external_sdcard">"Harici sdkart"</string>
+    <string name="internal_storage">"Dahili Depolama"</string>
+     <string name="external_storage">Harici depolama birimi</string>
+     <string name="set_as_ring">"Zil sesleri olarak ayarla"</string>
+     <string name="read_file_path">"Dosya yolunu denetleyin"</string>
+     <string name="operate_share">paylaş</string>
+     <string name="ringtone_title_sim1">"SIM1 Telefon zil sesi" </string>
+     <string name="ringtone_title_sim2">"SIM2 Telefon zil sesi ""</string>
+     <string name="ringtone_menu_short">"Zil sesi olarak kullan"</string>
+     <string name="please_insert_sim_card">"Lütfen en az bir SIM kart takın"</string>
+     <string name="ring_set_silent_vibrate">"Özel  telefon zilleri kullanılan modda kullanılamaz "</string>
+     <string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" SIM1 Telefon zil sesi olarak ayarlayın."</string>
+     <string name="ringtone_set_sim2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" SIM2 Telefon zil sesi olarak ayarlayın."</string>
+     <string name="ringtone_set">"<xliff:g id="NAME">%s</xliff:g> telefon zil sesi olarak ayarlandı."</string>
+     <string name="ring_set_fail">Maalesef, şarkı çalınamadı. Lütfen zil sesi olarak başka bir şarkı seçin</string>
+     <string name="tag_limit">"Etiket sayısı en yüksek sayıya ulaştı"</string>
+     <string name="no_allow_play_calling">"Görüşme sırasında müzik (radyo/video) çalınmasına izin verilmez."</string>
+     <string name="playback_failed">"Oyuncu ses dosyasının bu türünü desteklemiyor."</string>
+     <string name="tag">"Etiket"</string>
+     <string name="previous_tag">"Son etiket"</string>
+     <string name="next_tag">"Sonraki etiket"</string>
+     <string name="recording_play">"Oyunu kaydediyor"</string>
+     <string name="clip_duration_tip">"Uzunluğu düzenle"</string>
+     <string name="record_setting">"Kayıt ayarı"</string>
+     <string name="file_type">Dosya Türü</string>
+     <string name="type_amr">"amr tipi"</string>
+     <string name="type_3gpp">"3gpp tipi"</string>
+     <string name="save_path">"Kayıtlı yol"</string>
+     <string name="set_timer_recording">"Zamanlayıcı kaydını ayarla"</string>
+     <string name="timer_recording_detail">"Kayda şurda başla <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> şunun için <xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">"Ayrıntıları görüntüle"</string>
+     <string name="file_size">"Dosya boyutu"</string>
+     <string name="file_date">"Dosya tarihi :"</string>
+     <string name="recording_start_time">"Kayıt başlangıç saati"</string>
+     <string name="recording_duration">"Saat olarak kayıt süresi"</string>
+     <string name="tuned_timer_recording">"Kayıt zamanlayıcı açıldı"</string>
+     <string name="miss_timer_recording">"Kayıt zamanlayıcı kaçırıldı"</string>
+     <string name="miss_timer_time">"Zaman: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>"saat"</item>
+        <item>"saatler"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"Şu andan itibaren kayıt zamanlayıcı 1 dakikadan daha az ayarlandı."</item>
+        <item>"Kayıt zamanlayıcı şuna ayarlandı <xliff:g id="HOURS">%1$s</xliff:g> şu andan itibaren."</item>
+        <item>"Kayıt zamanlayıcı şuna ayarlandı <xliff:g id="MINUTES">%2$s</xliff:g> şu andan itibaren."</item>
+        <item>"Kayıt zamanlayıcı şuna ayarlandı <xliff:g id="HOURS">%1$s</xliff:g> ve <xliff:g id="MINUTES">%2$s</xliff:g>  şu andan itibaren."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">1 saat</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> saat"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"1 dakika"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> dakika"</item>
+    </plurals>
+     <string name="start_record">"kaydı başlat"</string>
+     <string name="resume_record">"kaydı kaldığı yerden sürdür"</string>
+     <string name="start_play">"oynatmaya başla"</string>
+     <string name="resume_play">"oynatmayı kaldığı yerden sürdür"</string>
+     <string name="reset_timer_recording">"Kayıt cihazı başka bir program tarafından kullanılıyor, lütfen kayıt zamanlayıcısını sıfırla!"</string>
+     <string name="storage_not_enough">"Depolama yeterli değil, kayıt zamanlayıcısını başlatma başarısız oldu!"</string>
+     <string name="phone_storage_not_enough">"Telefon depolama yeterli değil!"</string>
+</resources>

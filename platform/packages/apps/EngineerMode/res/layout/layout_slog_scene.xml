@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#000000"
+              >
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="@drawable/slogui_ab_background_overlay"
+            android:text="@string/slog_select_scene"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+        ></TextView>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+        <Button
+                android:id="@+id/btn_slog_normal_scene"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/slog_normal_scene"
+                android:layout_margin="15dp"
+                android:textSize="16sp"
+                android:background="@drawable/slog_scene_selecter"
+
+                />
+        <Button
+                android:id="@+id/btn_slog_data_scene"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/slog_data_scene"
+                android:textSize="16sp"
+                android:layout_margin="15dp"
+
+                android:background="@drawable/slog_scene_selecter"/>
+        <Button
+                android:id="@+id/btn_slog_voice_scene"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:text="@string/slog_voice_scene"
+                android:layout_margin="15dp"
+
+                android:background="@drawable/slog_scene_selecter"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+        <Button
+                android:id="@+id/btn_slog_modem_scene"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/slog_modem_scene"
+                android:layout_margin="15dp"
+                android:textSize="16sp"
+
+                android:background="@drawable/slog_scene_selecter"/>
+        <Button
+                android:id="@+id/btn_slog_wcn_scene"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/slog_wcn_scene"
+                android:layout_margin="15dp"
+                android:textSize="16sp"
+
+                android:background="@drawable/slog_scene_selecter"/>
+        <Button
+
+                android:id="@+id/btn_slog_sim_scene"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:text="@string/slog_sim_scene"
+                android:layout_margin="15dp"
+
+                android:background="@drawable/slog_scene_selecter"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+        <Button
+                android:id="@+id/btn_slog_custom_scene"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:text="@string/slog_custom_scene"
+                android:layout_margin="15dp"
+
+                android:background="@drawable/slog_scene_selecter"
+                />
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:visibility="invisible"
+
+                android:layout_margin="15dp"
+                android:background="@drawable/slog_scene_selecter"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:visibility="invisible"
+
+                android:layout_margin="15dp"
+                android:background="@drawable/slog_scene_selecter"/>
+    </LinearLayout>
+</LinearLayout>

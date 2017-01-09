@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff0f0f0"
+    android:orientation="vertical" >
+    <LinearLayout android:id="@+id/overview_general_layout_parent"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginRight="10dp"
+	    android:background="@drawable/quickscan_background"
+	    android:orientation="vertical" >
+    <LinearLayout 
+        android:id="@+id/overview_general_layout"
+        style="@style/QuickScanLinearLayoutRow" >
+
+        <LinearLayout
+            android:id="@+id/quickscan_audio_layout"
+            style="@style/QuickScanLinearLayoutColumn" >
+
+            <ImageView
+                android:id="@+id/quickscan_audio"
+                style="@style/QuickScanImageView"
+                android:contentDescription="@string/quickscan_audio"
+                android:src="@drawable/quickscan_audio_select"
+                android:scaleType="center" />
+
+            <TextView
+                android:id="@+id/quickscan_audio_text"
+                style="@style/QuickScanTextView"
+                android:textSize ="10sp"
+                android:text="@string/quickscan_audio" />
+        </LinearLayout>
+
+        <TextView style="@style/QuickScanColumnLine" />
+
+        <LinearLayout
+            android:id="@+id/quickscan_image_layout"
+            style="@style/QuickScanLinearLayoutColumn" >
+
+            <ImageView
+                android:id="@+id/quickscan_image"
+                style="@style/QuickScanImageView"
+                android:contentDescription="@string/quickscan_image"
+                android:src="@drawable/quickscan_image_select"
+                android:scaleType="center" />
+
+            <TextView
+                android:id="@+id/quickscan_image_text"
+                style="@style/QuickScanTextView"
+                android:textSize ="10sp"
+                android:text="@string/quickscan_image" />
+        </LinearLayout>
+
+        <TextView style="@style/QuickScanColumnLine" />
+
+        <LinearLayout
+            android:id="@+id/quickscan_video_layout"
+            style="@style/QuickScanLinearLayoutColumn" >
+
+            <ImageView
+                android:id="@+id/quickscan_video"
+                style="@style/QuickScanImageView"
+                android:contentDescription="@string/quickscan_video"
+                android:src="@drawable/quickscan_video_select"
+                android:scaleType="center" />
+
+            <TextView
+                android:id="@+id/quickscan_video_text"
+                style="@style/QuickScanTextView"
+                android:textSize ="10sp"
+                android:text="@string/quickscan_video" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/QuickScanLinearLayoutRow" >
+
+        <LinearLayout
+            android:id="@+id/quickscan_doc_layout"
+            style="@style/QuickScanLinearLayoutColumn" >
+
+            <ImageView
+                android:id="@+id/quickscan_doc"
+                style="@style/QuickScanImageView"
+                android:contentDescription="@string/quickscan_doc"
+                android:src="@drawable/quickscan_doc_select" 
+                android:scaleType="center"/>
+
+            <TextView
+                android:id="@+id/quickscan_doc_text"
+                style="@style/QuickScanTextView"
+                android:textSize ="10sp"
+                android:text="@string/quickscan_doc" />
+        </LinearLayout>
+
+        <TextView style="@style/QuickScanColumnLine" />
+
+        <LinearLayout
+            android:id="@+id/quickscan_apk_layout"
+            style="@style/QuickScanLinearLayoutColumn" >
+
+            <ImageView
+                android:id="@+id/quickscan_apk"
+                style="@style/QuickScanImageView"
+                android:contentDescription="@string/quickscan_apk"
+                android:src="@drawable/quickscan_apk_select"
+                android:scaleType="center" />
+
+            <TextView
+                android:id="@+id/quickscan_apk_text"
+                style="@style/QuickScanTextView"
+                android:textSize ="10sp"
+                android:text="@string/quickscan_apk" />
+        </LinearLayout>
+
+        <TextView style="@style/QuickScanColumnLine" />
+
+        <LinearLayout style="@style/QuickScanLinearLayoutColumn_empty" >
+
+            <ImageView
+                android:id="@+id/quickscan_record"
+                style="@style/QuickScanImageView"
+                android:background="#00000000" />
+
+            <TextView
+                android:id="@+id/quickscan_record_text"
+                android:textSize ="10sp"
+                style="@style/QuickScanTextView" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

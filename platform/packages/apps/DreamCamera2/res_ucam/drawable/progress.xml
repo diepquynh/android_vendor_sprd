@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2010,2011 Thundersoft Corporation
+  All rights Reserved
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@android:id/background">
+        <shape>
+            <solid android:color="#8F000000"/>
+            <corners android:radius="6dip" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <solid android:color="#FF00AAE3"/>
+                <stroke android:width="2dip" android:color="#8F000000"/>
+                <corners android:radius="4dip" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

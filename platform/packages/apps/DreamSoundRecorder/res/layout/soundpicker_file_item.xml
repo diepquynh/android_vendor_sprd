@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/recode_icon"
+        android:layout_gravity="center_vertical"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/audio_play_image" />
+
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="16dp" >
+
+    <TextView
+        android:id="@+id/picker_displayname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="17sp"/>
+    </LinearLayout>
+
+    <RadioButton
+        android:id="@+id/picker_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_gravity="center_vertical"
+        android:focusable="false"
+        android:clickable="false" />
+</LinearLayout>
+

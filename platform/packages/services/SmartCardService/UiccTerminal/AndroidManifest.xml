@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.simalliance.openmobileapi.uiccterminal"
+    android:versionCode="1"
+    android:versionName="1.0.0">
+
+    <!-- @SystemApi Indicates that this OMAPI Terminal is a "system terminal".
+     <p>Not for use by third-party applications. -->
+    <permission android:name="org.simalliance.openmobileapi.SYSTEM_TERMINAL"
+        android:protectionLevel="signature|privileged"
+        android:label="@string/permlab_systemTerminal"
+        android:description="@string/permdesc_systemTerminal" />
+
+    <!-- @SystemApi Permission used by SmartcardService to be able to bind to
+         system terminals.
+    <p>Not for use by third-party applications. -->
+    <permission android:name="org.simalliance.openmobileapi.BIND_TERMINAL"
+        android:protectionLevel="signature|privileged"
+        android:label="@string/permlab_bindTerminal"
+        android:description="@string/permdesc_bindTerminal" />
+
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="org.simalliance.openmobileapi.SYSTEM_TERMINAL"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application android:label="UiccTerminalService">
+        <uses-library android:name="org.simalliance.openmobileapi" android:required="true" />
+        <service android:name=".UiccTerminal"
+            android:enabled="true"
+            android:exported="true"
+            android:label="SIM"
+            android:permission="org.simalliance.openmobileapi.BIND_TERMINAL">
+            <intent-filter>
+                <action android:name="org.simalliance.openmobileapi.TERMINAL_DISCOVERY" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

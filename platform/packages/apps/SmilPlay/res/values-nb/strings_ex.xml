@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_number">"Til:"</string>
+<string name="cancel_call">"Avbryt"</string>
+<string name="delivery_toast_body_fail">"Melding ikke mottatt av %s."</string>
+<string name="read_report_toast_body">"Melding lest av %s."</string>
+<string name="read_report_toast_body_fail">"Melding ikke lest av %s."</string>
+<string name="delivery_toast_body_fail_rejected">"Melding avvist av %s."</string>
+<string name="user_not_exist">"Brukeren eksisterer ikke."</string>
+<string name="menu_resend">"Send på nytt"</string>
+<string name="low_storage_toast">"Lite plass" Slett noen filer for å frigjøre plass."</string>
+<string name="failed_to_download_mms">"Nedlasting av MMS feilet, prøv igjen senere"</string>
+<string name="failed_to_send_mms">"Sending av MMS feilet, prøv igjen senere"</string>
+<string name="success_to_send_mms">"Sending av MMS var vellykket"</string>
+<string name="sim_card_not_ready">"Sim kort er ikke klart"</string>
+<string name="sim_is_invalid">"Sim kort er ikke klart"</string>
+<string name="on_progress">"Behandler, vennligst vent…"</string>
+<string name="pref_internal_memory_usage_title">"MMS/Tilgjengelig/Totalt"</string>
+<string name="pref_internal_memory_usage_progress_summary">"Teller Ledig Minne"</string>
+<string name="please_wait_title">"Vent litt …"</string>
+<string name="sim_card_setting">"SIM-kort innstillinger"</string>
+<string name="multi_sim_manage_messages_title">"Meldinger på SIM<xliff:g id="COUNT">%1$S</xliff:g>"</string>
+<string name="pref_title_manage_sim_setting">"Administrer SIM Innstillinger"</string>
+<string name="pref_summary_manage_sim_setting">"Administrer meldinger lagret i SIM, leveringsrapporter, Utgått Tid, SMSC innstillinger osv."</string>
+<string name="pref_summary_notification_ringtone">"Standard ringelyd"</string>
+<string name="pref_summary_notification_ringtone_silent">"Stillhet"</string>
+<string name="menu_sim_capacity">"SIM kapasitet"</string>
+<string name="pref_title_manage_multi_sim_messages">"Administrer meldinger på SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="pref_summary_manage_multi_sim_messages">"Administrer meldinger lagret på SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_sim_success">"Vellykket kopiering til SIM"</string>
+<string name="toast_copy_to_sim_failure">"Kopiering til SIM feilet"</string>
+<string name="toast_sim_memory_full">"SIM minne er fullt"</string>
+<string name="toast_copy_to_multi_sim_success">"Vellykket kopiering til SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_multi_sim_failure">"Feilet kopiering til SIM<xliff:g id="COUNT">%1$s<xl></xl></xliff:g>"</string>
+<string name="toast_multi_sim_memory_full">"SIM <xliff:g id="COUNT">%1$S</xliff:g> minne er fullt"</string>
+<plurals name="conversation_num">
+<item quantity="one">"Du har 1 samtale."</item>
+<item quantity="other">"Du har <xliff:g id="number">%1$s</xliff:g> samtaler."</item>
+</plurals>
+<string name="count_of_new_mms">"%s nye meldinger"</string>
+<string name="pref_summary_store_sms_on_sim">"Når ny SMS mottas, lagre til SIM eller ikke"</string>
+<string name="pref_title_store_sms_on_sim">"Lagre SMS på SIM"</string>
+<string name="pref_title_sms_validity">"SMS gyldighet"</string>
+<string-array name="prefEntries_sms_validity">
+<item>"Ikke angitt"</item>
+<item>"1 time"</item>
+<item>"6 timer"</item>
+<item>"24 timer"</item>
+<item>"2 dager"</item>
+<item>"1 uke"</item>
+<item>"Maksimalt"</item>
+</string-array>
+<string name="done_slide_show">"Ferdig"</string>
+<string name="smsc_check_fdn_failure">"ditt meldingssenternummer er ikke på FDN-listen"</string>
+<string name="muti_select_all">"Merk alle"</string>
+<string name="menu_select_none">"Avbryt alle"</string>
+<string name="Conversation_check_type_selected_all">"Merk alle"</string>
+<string name="menu_msg_folder">"Mappevisning"</string>
+<string name="menu_msg_list">"Meldingsvisning"</string>
+<string name="folder_inbox">"Innboks"</string>
+<string name="folder_outbox">"Utboks"</string>
+<string name="folder_sent">"Sendt"</string>
+<string name="folder_drafts">"Utkast"</string>
+<string name="folder_empty">"Ingen Meldinger i denne Mappen"</string>
+<string name="folder_display_all">"Vis alle Meldinger"</string>
+<string name="folder_delete_messages">"Slett meldinger"</string>
+<string name="folder_loading">"Laster.."</string>
+<string name="folder_reply">"Svar"</string>
+<string name="folder_forward">"Videresend"</string>
+<string name="no_msg_del">"Ingen meldinger slettet"</string>
+<string name="exceed_slides_number_limitation">"Nådd begrensning for antall lysbilder"</string>
+<string name="has_vcard_or_vcalendar_attachment">"Har allerede <xliff:g id="TYPE">%1$s</xliff:g>, kan ikke legge til mer"</string>
+<string name="folder_sortby">"Sortér etter"</string>
+<string-array name="sort_type">
+<item>"Etter dato"</item>
+<item>"Med adresse"</item>
+</string-array>
+<string name="OTAConfig_title">"OTA konfigurasjonsinnstillinger"</string>
+<string name="OTAConfig_Message">"Vil du lagre OTA konfigurasjon?"</string>
+<string name="OTAConfiy_Success">"OTA-melding innstilling lykkes"</string>
+<string name="OTAConfiy_Error">"OTA konfigurasjon feilet"</string>
+<string name="ota_pin_error">"OTA sikkerhetsfeil"</string>
+<string name="ota_retry">"passord feil"</string>
+<string name="ota_pin_exception">"OTA konfigurering fiasko: programfeil."</string>
+<string name="ota_mime_error">"OTA konfigurering fiasko: meldingsdatafeil."</string>
+<string name="ota_support_not">"OTA konfigurering fiasko: <xliff:g id="OTATYPE">%1$s</xliff:g> ikke støttet type."</string>
+<string name="pref_reply_path_title">"Svarsti innstillinger"</string>
+<string name="pref_title_reply_path">"Svarsti"</string>
+<string name="pref_summary_reply_path">"Svar via samme senter"</string>
+<string name="cannot_add_picture_and_vcard">"Kan ikke legge til VCard og bilde til samme lysbilde"</string>
+<string name="mms_setting">"MMS innstillinger"</string>
+<string name="pref_title_font_size">"Tekststørrelse innstillinger"</string>
+<string name="font_size_setting">"Tekststørrelse innstillinger"</string>
+<string name="font_size">"Fontstørrelsen er: <xliff:g id="font_size_id">%1$s</xliff:g>"</string>
+<string name="menu_copy_to_sim_memory">"Kopier melding til SIM"</string>
+<string name="menu_add_recipient_to_contacts">"Legg til  <xliff:g id="name">%s</xliff:g>i kontakter"</string>
+<string name="action_next">"Neste"</string>
+<string name="message_signature_setting">"Signaturinnstillinger"</string>
+<string name="pref_signature_enable_title">"Valgfri signatur"</string>
+<string name="pref_signature_enabl_summary">"Legg til signatur i hver MMS-melding du sender automatisk"</string>
+<string name="pref_signature_input_title">"Endre signatur"</string>
+<string name="pref_signature_input_summary">"Skriv her for å angi din signatur"</string>
+<string name="pref_signature_input_limited">"Signaturen har nådd sin grense"</string>
+<string name="pref_hint_signature_edittext">"Vennligst oppgi din signatur"</string>
+<string name="toast_append_signature_failed">"Tilføyelse av signatur til MMS feilet. Lysbildestørrelsen er nådd"</string>
+<string name="pageIndex">"Side %s"</string>
+<string name="remove_subject">"Fjern emne"</string>
+<string name="toast_message_when_memory_full">"Minnet er fullt, vennligst frigjør plass og start på nytt"</string>
+<string name="toast_save_classzero_message_failed">"Ingen plass igjen, lagring av melding feilet"</string>
+<string name="toast_shared_file_failed">"Ustøttet mediafil, deling feilet."</string>
+<string name="message_too_many_recipients_picked">"Beklager, du kan ikke legge til flere enn <xliff:g id="COUNT">%1$s</xliff:g> kontakter per gang""</string>
+<string name="pref_title_manage_sim_smsc">"SMS Servicesenter"</string>
+<string name="smsc_set_fails">"SMS-nummerinnstillinger mislyktes"</string>
+<string name="smsc_set_success">"Vellykket angitt."</string>
+<string name="smsc_change_success">"Endring vellykket."</string>
+<string name="smsc_add_success">"Ble lagt til"</string>
+<string name="received_new_wap_contact">"Mottok en SMS VCard melding"</string>
+<string name="save_new_wap_contact">"Lagre"</string>
+<string name="cancle_new_wap_contact">"Avbryt"</string>
+<string name="menu_sim_message">"Meldinger i SIM"</string>
+<string name="folder_display_option">"Visningsalternativ"</string>
+<string name="confirm_open_browser_dialog_title">"Melding"</string>
+<string name="confirm_open_browser_dialog_message">"Vil åpnes i nettleseren, fortsette?"</string>
+<plurals name="delete_confirm">
+<item quantity="one">"1 valgt objekt"</item>
+<item quantity="other">"<xliff:g id="del_count">%1$s</xliff:g> Valgte objekter"</item>
+</plurals>
+<string name="select_sim_card">"Vennligst velg SIM kort"</string>
+<string name="menu_video_call_back">"Videosamtale <xliff:g id="name">%s</xliff:g>"</string>
+<string name="menu_edit_before_call_back">"Endre før samtale <xliff:g id="name">%s</xliff:g>"</string>
+<string name="min_zoom">"nådd minimumsgrensen"</string>
+<string name="max_zoom">"nådd maksimumsgrensen"</string>
+<string name="sms_forward">"Videresend"</string>
+<string name="sms_merge_forward">"Slå sammen og Videresend"</string>
+<string name="sms_merge_dialog_title">"Presis"</string>
+<string name="sms_merge_dialog_content">"Du kan kun slå sammen mellom 2 og 30 SMS-meldinger. Vennligst påse dette."</string>
+<string name="sms_merge_forward_empty">"Ingen SMSer å slå sammen og videresende."</string>
+<string name="sms_forwarding_number">"SMS videresending innstillinger"</string>
+<string name="pref_sms_forwarding_number_title">"SMS videresending nummer"</string>
+<string name="pref_sms_forwarding_number_summary">"Videresender SMS med mottakers nummer"</string>
+<string name="sim_list_title">"Vennligst velg SIM kort"</string>
+<string name="type_vcard">"kontakt"</string>
+<string name="type_vcalendar">"Kalender"</string>
+<string name="attach_vcard">"kontakt"</string>
+<string name="attach_vcalendar">"Kalender"</string>
+<string name="add_slide_before">"Legg til lysbilde (før)"</string>
+<string name="add_slide_after">"Legg til lysbilde (etter)"</string>
+<string name="re_take_picture">"Lagring av bildet feilet, vennligst ta bilde på nytt."</string>
+<string name="exceed_text_length_limitation">"Maksimal tekstlengde er oversteget"</string>
+<string name="move_message_to_phone_memory">"Kopiering av melding til telefonminne var vellykket"</string>
+<string name="can_not_copy_the_message">"Ute av stand til å kopiere meldingen"</string>
+<string name="confirm_import_vcard">"Importere Vcard?"</string>
+<string name="pref_title_manage_simx_smsc">"SIM<xliff:g id="COUNT">%1$s</xliff:g> SMS Servicesenter"</string>
+<string name="simx_settings_title">"SIM<xliff:g id="COUNT">%1$s</xliff:g> Innstilling"</string>
+<string name="pref_summary_sms_validity">"Kort melding gyldighet"</string>
+<string-array name="prefEntries_mms_validity">
+<item>"1 time"</item>
+<item>"12 timer"</item>
+<item>"24 timer"</item>
+<item>"2 dager"</item>
+<item>"Maksimalt"</item>
+</string-array>
+<string-array name="prefEntries_mms_priority">
+<item>"Høy"</item>
+<item>"Vanlig"</item>
+<item>"Lav"</item>
+</string-array>
+<string name="pref_title_mms_validity">"Multimediamelding gyldighet"</string>
+<string name="pref_summary_mms_validity">"Multimediamelding gyldighet"</string>
+<string name="pref_title_mms_priority">"prioritet"</string>
+<string name="pref_summary_mms_priority">"Prioriteringsinnstillinger"</string>
+<string name="sim_settings_title">"SIM%s Setting"</string>
+<string name="toast_copy_to_simx_success">"Ble kopiert til <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_simx_failure">"Feilet å kopiere til <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_simx_memory_full">"<xliff:g id="COUNT">%1$s</xliff:g> er full"</string>
+<string name="pref_title_manage_sim_x_setting">"Administrer SIM<xliff:g id="COUNT">%1$s</xliff:g> Innstillinger"</string>
+<string name="pref_title_mms_creation_mode">"Etableringsmodus"</string>
+<string-array name="mms_creation_mode_entries">
+<item>"begrenset"</item>
+<item>"Advarsel"</item>
+<item>"Ledig"</item>
+</string-array>
+<string name="exceed_resolution_limit">"Oppløsning overskrider grensen"</string>
+<string name="want_to_add_media">"Ønsker du å legge til denne <xliff:g id="NAME">%1$s</xliff:g> i din melding?"</string>
+<string name="mms_can_not_add_vcard">"Slette eksisterende vedlegg for å legge til kontakter"</string>
+<string name="mms_can_not_add_vcalendar">"Slette eksisterende vedlegg for å legge til lysbilde"</string>
+<string name="converting_to_text_message">"Konverterer til tekstmelding\u2026"</string>
+<string name="select_calendar">"Velg Agenda"</string>
+<string name="no_calendar">"Ingen Agenda"</string>
+<string name="exceed_slides_number_message">"Valgt <xliff:g id="NUMBER">%1$s</xliff:g> dagsorden，Maks er <xliff:g id="NUMBER">%2$s</xliff:g> dagsorden"</string>
+<string name="add_to_blacklist">"Legg til i svarteliste"</string>
+<string name="failed_addToBlacklist">"Tillegging i svarteliste mislyktes."</string>
+<string name="creating_slideshow_title">"Lager lysbildefremvisning"</string>
+<string name="attachment_vcalendar">"Vcalendar"</string>
+<string name="attachment_vcard">"Vcard"</string>
+<string name="text_limited_warning">"Restriksjoner på antall tegn"</string>
+<string name="subject_text_length_limitation">"Emnet har nådd grensen for lengde"</string>
+<string name="attach_commonPhrases">"Vanlige uttrykk"</string>
+<string name="commonphrase_empty">"Ingen vanlige fraser"</string>
+<string name="quick_reply">"Hurtigsvar"</string>
+<string name="common_messages">"Vanlig uttrykk"</string>
+<string name="common_add_text">"Ny"</string>
+<string name="common_delete_text">"Slett"</string>
+<string name="common_delete_message">"Bekrefte sletting?"</string>
+<string name="common_delete">"Slett"</string>
+<string name="common_phrase_contextmenu_title">"Driftsmeny"</string>
+<string name="common_edit">"Rediger"</string>
+<string name="commonphrase_delete_empty">"Inget uttrykk kan slettes"</string>
+<string name="common_phrase_edit_dialog_title">"Alternativer"</string>
+<string name="common_phrase_edit_dialog_inform">"Lagre endring?"</string>
+<string name="common_phrase_edit_max_length">"Har nådd grensen for antall tegn"</string>
+<string name="common_messages_edit">"Rediger vanlig frase"</string>
+<string name="common_save">"Lagre"</string>
+<string name="common_cancel">"Avbryt"</string>
+<string name="add_empty_common_messages">"Sett inn hvilket som helst tegn"</string>
+<string name="pref_other_settings_title">"Annet"</string>
+<string name="pre_key_title_common_messages">"Vanlig uttrykk"</string>
+<string name="common_phrase_selection">"Velg vanlige uttrykk"</string>
+<string name="wap_push_message_dialog_title">"WAP Push Melding"</string>
+<string name="open_website">"Åpne nettside"</string>
+<string name="activity_not_found">"Fant ingen passende programmer"</string>
+<string name="add_contact">"Sett inn Kontakter"</string>
+<string name="receive_from">"Motta fra %s"</string>
+<string name="send_from">"Send fra %s"</string>
+<string name="dl_expired_wap_push">"Det finnes <xliff:g id="COUNT">%1$s</xliff:g> utgåtte wap meldinger, disse vil bli slettet."</string>
+<string name="invalid_recipient">"Ugyldig mottaker"</string>
+<string name="max_recipients_count">"Begrensningen på mottakere er <xliff:g id="MAXCOUNT">%1$s</xliff:g>."</string>
+<string name="no_media_selected">"Ingen media er valgt!"</string>
+<string name="search_max_length">"Søkesetning er for lang, blir begrenset til 512."</string>
+<string name="sim_capacity_used">"Brukt:"</string>
+<string name="sim_capacity_total">"Total:"</string>
+<string name="too_many_contacts">"Begrensningen på mottakere er <xliff:g id="MAXLIMIT">%1$s</xliff:g>, vil derfor legge til <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> mottakere vil legges til."</string>
+<string name="delivery_toast_body_expired">"Melding er utgått %s."</string>
+<string name="discard_dialog">"Vil du virkelig dele denne informasjonen?"</string>
+<string name="contacts_count_excceeds">"Du har allerede lagt til <xliff:g id="MAXLIMIT">%1$s</xliff:g> mottakere, det er ikke tillatt å  legge til flere."</string>
+<string name="received_new_wap_vcalendar">"Mottok en SMS Vcalendar Melding"</string>
+<string name="remove_vcalendar_first">"Slett vcalendar vedlegg først for å redigere dette."</string>
+<string name="remove_vcard_first">"Slett vcard vedlegg først for å redigere dette."</string>
+<string name="import_vcalendar">"Importer Vcalendar"</string>
+<string name="no_vcalendar">"Ingen Vcalendar funnet"</string>
+<string name="import_vcalendar_fail">"Kunne ikke importere Vcalendar"</string>
+<string name="unable_to_add_all">"Maksimal grense for meldingsstørrelse er nådd, noen deler kunne ikke legges til."</string>
+<string name="replce_slideshow_dilaog_dismiss">"Erstatting av lysbildeshowet vil slette nåværende vedlegg, ønsker du å fortsette?"</string>
+<string name="pref_title_sms_retry_times">"Aktiver SMS gjenforsøk"</string>
+<string name="smsc_list">"SMS-senterliste"</string>
+<string name="smsc_list_empty">"Ingen SMS-senternummer"</string>
+<string name="smsc_list_loading">"Laster"</string>
+<string name="smsc_list_menu_edit">"Rediger"</string>
+<string name="smsc_list_menu_activate">"Aktiver"</string>
+<string name="smsc_list_not_allow_to_clear">"Ikke tillatt å legge til tomme numre"</string>
+<string name="smsc_list_empty_number">"Klikk for å legge til et nytt nummer"</string>
+<string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g> vedlegg lagret i <xliff:g id="path">%2$s</xliff:g>,<xliff id="fail">%3$d</xliff> lagring av vedlegg feilet"</string>
+<string name="box_msg_list_menu_addtocontacts">"Legg til i kontakter"</string>
+<string name="box_msg_list_menu_call">"Ring"</string>
+<string name="box_msg_list_menu_editbeforecall">"Endre før samtale"</string>
+<string name="box_msg_list_menu_videocall">"Videosamtale"</string>
+<string name="soundrecorder_fail_msg">"Kunne ikke starte LydOpptak"</string>
+<string name="camera_fail_msg">"Kunne ikke starte Kamera."</string>
+<string name="video_fail_msg">"Kunne ikke starte Video."</string>
+<string name="pref_encode_type_setting_title">"Kode innstillinger"</string>
+<string name="pref_encode_type_title">"Socket type"</string>
+<string name="confirm_convert_to_mms">"Mottakere inneholder epost, meldingen vil sendes som en MMS"</string>
+<string name="send_as_mms">"Send MMS"</string>
+<string name="send_as_sms">"Send bare SMS"</string>
+<string name="protected_file">"Beskyttet Fil kan ikke legges til"</string>
+<string name="success_to_send_sms">"SMS ble sendt"</string>
+<string name="confirm_ota_message">"Bekreft OTA-innstillinger?"</string>
+<string name="confirm_ota">"OK"</string>
+<string name="cancel_ota">"Avbryt"</string>
+<string name="ota_cancelled">"OTA Innstillinger avbrutt."</string>
+<string name="message_too_big_for_audio">"Meldingen er for stor til at en lydfil kan legges ved."</string>
+<string name="contacts_count_can_send">"Kjære kunde, antall mottakere overskrider grensen, det er kun tillatt å sende <xliff:g id="MAXLIMIT">%1$s</xliff:g> , vennligst send i flere omganger."</string>
+<string name="attach_common_messages">"Vanlige uttrykk"</string>
+<string name="attach_subject">"Emne"</string>
+<string name="valid_sub">"Ugyldig SIM-kort"</string>
+<string name="add_contacts_dialog_title">"Legg til kontakter"</string>
+<string name="add_contact_as_text">"Tekstmelding"</string>
+<string name="confirm_import_vcalendar">"Importere Vcalendar?"</string>
+<string name="confirm_save_otherfiles">"Lagre vedlegget?"</string>
+<string name="pref_notification_settings_title_sim1">"sim1 Varslinger"</string>
+<string name="pref_notification_settings_title_sim2">"sim2 Varslinger"</string>
+<string name="pref_notification_settings_title_sim">"sim Varslinger"</string>
+<string name="dlg_media_removed">"Media uten riktig sti i vedlegget ble slettet, ønsker du å fortsette å sende den?"</string>
+<string name="toast_media_removed">"Media uten riktig sti i vedlegget ble slettet, vennligst sjekk!"</string>
+<string name="dl_failure_roaming">"Roaming status, kunne ikke laste ned melding!"</string>
+<string name="recipient_invalid">"<xliff:g id="invalid_number" example="1">%1$s</xliff:g> ugyldige Mottaker(e)"</string>
+<string name="recipient_invalid_detail">"Ugyldig(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+<string name="recipient_changed_detail">"Endret(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+</resources>

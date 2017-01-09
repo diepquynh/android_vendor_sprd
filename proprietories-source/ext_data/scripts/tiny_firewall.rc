@@ -1,0 +1,11 @@
+#enable dns filter
+service enable_dns /system/bin/tiny_firewall.sh enable_dns
+    user root
+    disabled
+    oneshot
+
+#disable dns filter
+service disable_dns /system/bin/tiny_firewall.sh disable_dns
+    user root
+    disabled
+    oneshot

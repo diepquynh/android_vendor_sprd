@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPRD: Add for bug471289, add Account guide. @{ -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:paddingTop="6dip"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:id="@+id/mail_type_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+     />
+     <TextView
+         android:id="@+id/mail_type_name"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_marginLeft="10dip"
+         android:layout_marginRight="10dip"
+         android:ellipsize="end"
+         android:singleLine="true"
+         android:textSize="20sp"
+         android:textColor="@android:color/black"
+      />
+</LinearLayout>
+<!-- @} -->

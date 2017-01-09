@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_grid_menu"
+    android:gravity="center"
+    android:paddingTop="10dp" >
+
+    <!-- SPRD:fix bug535435 some icons show not friendly -->
+    <ImageButton android:id="@+id/puzzle_grid_piece_single_select"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/puzzle_grid_replace_selector"
+        android:gravity="center"
+        android:padding="3dp" />
+    <ImageButton android:id="@+id/puzzle_grid_piece_rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/puzzle_grid_rotate_selector"
+        android:gravity="center"
+        android:padding="3dp" />
+    <ImageButton android:id="@+id/puzzle_grid_piece_flip"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/puzzle_grid_flip_selector"
+        android:gravity="center"
+        android:padding="3dp" />
+</LinearLayout>

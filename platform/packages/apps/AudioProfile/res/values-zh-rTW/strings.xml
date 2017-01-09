@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ringtone_summary"></string>
+    <string name="sound_category_calls_and_notification_title">"鈴聲"</string>
+    <string name="notification_sound_summary"></string>
+    <string name="ring_volume_summary"></string>
+    <string name="audio_profiles">場景模式</string>
+    <string name="predefined_audio_profiles">預​​設模式</string>
+    <string name="user_defined_audio_profiles">自訂義模式</string>
+    <string name="standard_string">標準</string>
+    <string name="silent_string">靜音</string>
+    <string name="vibrate_string">震動</string>
+    <string name="outdoor_string">戶外</string>
+    <string name="outdoor_summary">鈴聲最大並震動</string>
+    <string name="add_profile">新增</string>
+    <string name="use_profile">啟用</string>
+    <string name="edit_profile">編輯</string>
+    <string name="rename_profile">重新命名</string>
+    <string name="reset_profile">重置</string>
+    <string name="delete_profile">刪除</string>
+    <string name="empty_name_dialog">名稱不能為空</string>
+    <string name="duplicate_display_name_dialog">名稱已存在</string>
+    <!-- SPRD: Bug 465326 modified "情景" to "場景" @{-->
+    <string name="add_profile_msg">請輸入場景模式名稱</string>
+    <string name="rename_profile_msg">請輸入場景模式名稱</string>
+    <string name="delete_profile_msg">確認要刪除場景模式 <xliff:g id="name">%s</xliff:g>嗎？</string>
+    <string name="reset_profile_msg">所有場景模式將被恢復為預設值</string>
+    <!-- }@ -->
+    <string name="incoming_call_volume_title">"鈴聲和通知"</string>
+    <string name="alarm_volume_title">"鬧鐘"</string>
+    <string name="dlg_ok">"確定"</string>
+    <string name="dlg_cancel">"取消"</string>
+    <string name="sound_settings">"聲音設定"</string>
+    <string name="vibrate_title">"通話"</string>
+    <string name="vibrate_summary">"在接到電話時發出震動反饋"</string>
+    <string name="ringtone_title">"來電鈴聲"</string>
+    <string name="sound_category_notification_title">"通知"</string>
+    <string name="notification_sound_title">"默認通知"</string>
+    <string name="all_volume_title">"音量"</string>
+    <string name="notification_sound_dialog_title">"選擇通知鈴聲"</string>
+    <string name="sound_category_feedback_title">"系統"</string>
+    <string name="dial_pad_tones_title">"撥號鍵盤音效"</string>
+    <string name="screen_locking_sounds_title">"螢幕鎖定音效"</string>
+    <!-- <string name="charging_sounds_title">"充電音效"</string> -->
+    <string name="sound_effects_enable_title">"觸摸提示音"</string>
+    <string name="haptic_feedback_enable_title">"觸摸時震動"</string>
+    <string name="revert_ring_vol">該模式下手機鈴聲音量不能是零，將被變更成默認音量。</string>
+    <string name="input_limit">已達輸入上限</string>
+    <string name="ringtone_default_message">"對不起，該鈴聲文件無法播放，已將默認鈴聲文件設為鈴聲"</string>
+    <string name="sim_ringtone_title">"SIM<xliff:g id="SIM_LOCK_STRING">%1$s</xliff:g> <xliff:g id="TYPE">%2$s</xliff:g> 來電鈴聲"</string>
+    <string name="ringtone_not_exist_message">"對不起，該鈴聲文件不存在"</string>
+    <string-array translatable="true" name="profile_display_name">
+                <item>標準</item>
+                <item>靜音</item>
+                <item>震動</item>
+                <item>戶外</item>
+        </string-array>
+    <string name="media_volume_titles">"音樂,視頻,遊戲,其他媒體"</string>
+    <string name="ring_volume_title">"鈴聲"</string>
+    <string name="notification_volume_title">"通知"</string>
+
+  <string name="sound_improvement">"音效增強"</string>
+  <string name="sound_improvement_select">"魔力低音增強"</string>
+  <string name="sound_improvement_summary">"針對耳機的音效提升"</string>
+  <string name="messagetone_summary"></string>
+  <string name="messagetone_title">"訊息鈴聲"</string>
+  <string name="sim_messagetone_title">"SIM<xliff:g id="SIM_LOCK_STRING">%1$s</xliff:g> <xliff:g id="TYPE">%2$s</xliff:g> 訊息鈴聲"</string>
+  <string name="vibrate_category_feedback_title">"震動"</string>
+  <string name="vibrate_msg_title">"訊息"</string>
+  <string name="vibrate_msg_summary">"在來新消息時發出震動反饋"</string>
+</resources>

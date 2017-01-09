@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"錄音程式"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"錄製簡訊"</string>
+    <string name="message_recorded" msgid="381539460921872233">"已錄製簡訊"</string>
+    <string name="review_message" msgid="201616012287839474">"檢視簡訊"</string>
+    <string name="recording" msgid="4426791467211376099">"錄音中"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"停止錄音"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"儲存空間已滿"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"已達長度上限"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"插入 USB 儲存裝置"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"插入 SD 卡"</string>
+    <string name="min_available" msgid="5493947690062988925">"還可錄製 <xliff:g id="MINUTES">%d</xliff:g> 分鐘"</string>
+    <string name="sec_available" msgid="2297020788861694399">"還可錄製 <xliff:g id="SECONDS">%d</xliff:g> 秒"</string>
+    <string name="accept" msgid="1888285552128743656">"完成"</string>
+    <string name="discard" msgid="761613433029406319">"捨棄"</string>
+    <string name="button_ok" msgid="3004911343723076226">"確定"</string>
+    <string name="soundpicker_label">請選擇錄音檔案</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"您的錄音"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"錄音"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"我的錄音"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"無法存取 USB 儲存裝置。"</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"無法存取 SD 卡。"</string>
+    <string name="error_app_internal" msgid="312884382388702022">"內部應用程式錯誤"</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"無法儲存錄製的音訊。"</string>
+    <string name="choose_file">"請選擇要刪除的錄音檔案!"</string>
+     <string name="min_and_time_available">"約可錄製 <xliff:g id="MINUTES">%d</xliff:g> 分 <xliff:g id="SECONDS">%d</xliff:g> 秒"</string>
+     <string name="dialog_title">"請選擇"</string>
+     <string name="dialog_message">"是否儲存錄音？"</string>
+     <string name="recording_time_short">"低於1秒錄音不予儲存"</string>
+     <string name="path_miss">"儲存路徑不存在或無法訪問！"</string>
+     <string name="record_error">"錄音產生異常！"</string>
+     <string name="play_error">音樂播放器已停用,無法打開！</string>
+     <string name="phone_message">正在通話中不能使用錄音機。</string>
+     <string name="press_record">"按下 [錄音]"</string>
+     <string name="file_path_button">檔案路徑</string>
+     <string name="file_name">檔案名稱：</string>
+     <string name="file_path">檔案路徑：</string>
+     <string name="rename">重新命名</string>
+     <string name="rename_save">重新命名成功</string>
+     <string name="rename_nosave">重新命名失敗</string>
+     <string name="filename_is_not_modified">檔案名未修改</string>
+     <string name="duplicate_name">同目錄下，檔案名不能相同</string>
+     <string name="recording_save">"錄音檔案已儲存"</string>
+     <string name="recording_nosave">"錄音未儲存"</string>
+     <string name="button_cancel">取消</string>
+     <string name="path_save">路徑已儲存</string>
+     <string name="path_nosave">路徑未儲存</string>
+     <string name="path_default">當前路徑不可寫或者無效，現路徑改為內部儲存路徑</string>
+     <string name="menu_set_save_path">設定儲存路徑</string>
+     <string name="back">返回..</string>
+     <string name="storage_is_not_enough">儲存空間不足</string>
+     <string name="select_file_type">選擇錄製檔案類型</string>
+     <string name="record_amr">amr類型（低品質）</string>
+     <string name="record_3gpp">3gpp類型（高品質）</string>
+     <string name="path_label">請選擇路徑</string>
+     <string name="menu_recording_file_list">錄音清單</string>
+     <string name="menu_recording_list_select_all">全選</string>
+     <string name="menu_recording_list_delete">刪除</string>
+     <string name="menu_recording_list_deselect_all">取消全選</string>
+     <string name="recording_file_delete_success">錄音檔案刪除成功</string>
+     <string name="recording_file_database_failed">資料庫刪除失敗</string>
+     <string name="recording_file_delete_failed">錄音檔案刪除失敗</string>
+     <string name="confirm_del">確定要刪除檔案嗎?</string>
+     <string name="button_delete">刪除</string>
+     <string name="recording_file_delete_alert_title">刪除</string>
+     <string name="recording_file_delete_alert_message">確認刪除 %1$s 檔案嗎?</string>
+     <string name="recording_file_list">錄音清單</string>
+     <string name="less_than_one_second">"1秒"</string>
+     <string name="is_scanning">"系統正在掃描媒體檔案，請稍後重試。"</string>
+     <string name="low_memory">"記憶體不足，應用將停止"</string>
+     <string name="emptylist">清單為空</string>
+     <string name="error_path">"儲存路徑不存在，請重新選擇！"</string>
+     <string name="same_application_running">"錄音設備正在被其它程式使用中，請先關閉此類程式！"</string>
+     <string name="error_sdcard_path">SD卡不存在，現路徑改為內部存儲</string>
+     <string name="input_length_overstep">輸入已達最大長度</string>
+     <string name="filename_empty_error">檔案名不能為空,不做修改</string>
+     <string name="please_choose_files">請選擇檔案</string>
+     <string name="selected_files_count">"已選擇<xliff:g id="COUNTS">%d</xliff:g>項 "</string>
+     <string name="save">儲存</string>
+     <string name="use_default_path">儲存路徑不存在，使用預設路徑</string>
+     <string name="special_char_exist">"重新命名不支援特殊字符<xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="stroage_not_mounted">儲存路徑不可用，無法設定儲存路徑</string>
+     <string name="menu_select_more">選擇多個檔案</string>
+     <string name="menu_select_type">設定檔案類型</string>
+     <string name="path_miss_nosave">"儲存路徑不存在,錄音未儲存！"</string>
+     <string name="dialog_dismiss">"關閉"</string>
+     <string name="error_permissions">"這個應用程式缺乏必要的關鍵權限，因此無法執行。請檢查您的權限設定。"</string>
+     <string name="internal_sdcard">內卡</string>
+     <string name="external_sdcard">外卡</string>
+     <string name="internal_storage">內部儲存</string>
+     <string name="external_storage">外部儲存</string>
+
+     <string name="pause">暫停</string>
+     <string name="recording_list_empty">空清單</string>
+     <string name="set_as_ring">設爲鈴聲</string>
+     <string name="read_file_path">查看路徑</string>
+     <string name="operate_share">分享</string>
+     <string name="ringtone_title_sim1">SIM1 手機鈴聲</string>
+     <string name="ringtone_title_sim2">SIM2 手機鈴聲"</string>
+     <string name="ringtone_menu_short">設成鈴聲</string>
+     <string name="please_insert_sim_card">請至少插入一張sim卡</string>
+     <string name="ring_set_silent_vibrate">當前模式不支援自定義鈴聲</string>
+     <string name="ringtone_set_sim1">已將<xliff:g id="NAME">%s</xliff:g>設為SIM1手機鈴聲。</string>
+     <string name="ringtone_set_sim2">已將<xliff:g id="NAME">%s</xliff:g>設為SIM2手機鈴聲。</string>
+     <string name="ringtone_set">已將<xliff:g id="NAME">%s</xliff:g>設為手機鈴聲。</string>
+     <string name="ring_set_fail">很抱歉，此樂曲無法播放。請選擇另一首樂曲作為鈴聲。</string>
+     <string name="tag_limit">標記數量已經達到上限</string>
+     <string name="no_allow_play_calling">"通話時不允許播放音樂(收音機/視頻)。"</string>
+     <string name="playback_failed" msgid="3811851150820251398">"抱歉，播放檔案失敗。"</string>
+     <string name="tag">標記</string>
+     <string name="previous_tag">上一個標記</string>
+     <string name="next_tag">下一個標記</string>
+     <string name="recording_play">錄音播放</string>
+     <string name="clip_duration_tip">剪輯時長</string>
+     <string name="record_setting">錄音設定</string>
+     <string name="file_type">檔案類型</string>
+     <string name="type_amr">amr類型</string>
+     <string name="type_3gpp">3gpp類型</string>
+     <string name="save_path">儲存路徑</string>
+     <string name="set_timer_recording">設定定時錄音</string>
+     <string name="timer_recording_detail">"<xliff:g id="HOURS">%s</xliff:g>:<xliff:g id="MINUTES">%s</xliff:g>開始錄音，持續<xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">查看詳細資料</string>
+     <string name="file_size">檔案大小：</string>
+     <string name="file_date">檔案日期：</string>
+     <string name="recording_start_time">錄音開始時間</string>
+     <string name="recording_duration">錄製持續小時</string>
+     <string name="tuned_timer_recording">已開啟定時錄音</string>
+     <string name="miss_timer_recording">已錯過定時錄音</string>
+     <string name="miss_timer_time">時間: <xliff:g id="TIME">%s</xliff:g></string>
+     <string-array name="duration_hours">
+        <item>小時</item>
+        <item>小時</item>
+     </string-array>
+     <string-array name="timer_recording_time">
+        <item>已將定時錄音設定在1分鐘內啟動。</item>
+        <item>已將定時錄音設定在<xliff:g id="HOURS">%1$s</xliff:g>後啟動。</item>
+        <item>已將定時錄音設定在<xliff:g id="MINUTES">%2$s</xliff:g>後啟動。</item>
+        <item>已將定時錄音設定在<xliff:g id="HOURS">%1$s</xliff:g>又<xliff:g id="MINUTES">%2$s</xliff:g>後啟動。</item>
+     </string-array>
+     <plurals name="hours">
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g>小時</item>
+        <item quantity="one">1小時</item>
+     </plurals>
+     <plurals name="minutes">
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g>分鐘</item>
+        <item quantity="one">1分鐘</item>
+     </plurals>
+     <string name="start_record">開始錄音</string>
+     <string name="resume_record">繼續錄音</string>
+     <string name="start_play">開始播放</string>
+     <string name="resume_play">繼續播放</string>
+     <string name="reset_timer_recording">"錄音設備正在被其它程式使用中，請重新設定定時錄音！"</string>
+     <string name="storage_not_enough">"儲存空間不足，無法啟動定時錄音！"</string>
+      <string name="phone_storage_not_enough">"手機記憶體不足！"</string>
+      <string name="file_is_corrupt">"檔案已損壞"</string>
+</resources>

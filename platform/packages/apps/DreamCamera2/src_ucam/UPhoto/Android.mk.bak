@@ -1,0 +1,76 @@
+#
+# Copyright (C) 2011,2012 Thundersoft Corporation
+# All rights Reserved
+#
+LOCAL_PATH:= $(call my-dir)
+MY_LOCAL_PATH := $(LOCAL_PATH)
+include $(CLEAR_VARS)
+
+LOCAL_MODULE_TAGS := optional
+LOCAL_STATIC_JAVA_LIBRARIES += libemail-uphoto
+LOCAL_STATIC_JAVA_LIBRARIES += android-support-v4
+
+LOCAL_SRC_FILES := $(call all-java-files-under, src)
+#LOCAL_SRC_FILES += $(call all-java-files-under, ../Camera/src/com/ucamera/ucam/jni)
+#LOCAL_SRC_FILES += $(call all-java-files-under, ../Camera/src/com/ucamera/ucam/ResourceInitializer.java)
+#LOCAL_SRC_FILES += $(call all-java-files-under, ../Camera/src/com/ucamera/ucam/utils/LogUtils.java)
+#LOCAL_SRC_FILES += $(call all-java-files-under, ../Camera/src/com/ucamera/ucam/compatible/Models.java)
+#LOCAL_SRC_FILES += $(call all-java-files-under, ../Camera/src/com/ucamera/ucam/variant/Build.java)
+LOCAL_SRC_FILES += $(call all-java-files-under, ../UGallery/src)
+LOCAL_SRC_FILES += $(call all-java-files-under, ../UCommon/puzzle/src)
+#LOCAL_SRC_FILES += $(call all-java-files-under, ../UCommon/sns/src)
+LOCAL_SRC_FILES += $(call all-java-files-under, ../UCommon/downloadcenter/src)
+#LOCAL_SRC_FILES += $(call all-java-files-under, ../UCommon/stat/src)
+
+LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
+LOCAL_RESOURCE_DIR += $(LOCAL_PATH)/../UGallery/res
+LOCAL_RESOURCE_DIR += $(LOCAL_PATH)/../UCommon/puzzle/res
+#LOCAL_RESOURCE_DIR += $(LOCAL_PATH)/../UCommon/sns/res
+LOCAL_RESOURCE_DIR += $(LOCAL_PATH)/../UCommon/downloadcenter/res
+
+LOCAL_AAPT_FLAGS := --auto-add-overlay \
+    --extra-packages com.ucamera.ugallery:com.ucamera.ucomm.puzzle:com.ucamera.ucomm.sns:com.ucamera.ucomm.downloadcenter
+
+ifneq (,$(TARGET_BUILD_APPS))
+  LOCAL_JNI_SHARED_LIBRARIES := libmakeupengine libImageProcessJni libGpuProcessJni
+else
+  LOCAL_REQUIRED_MODULES := libmakeupengine libImageProcessJni libGpuProcessJni
+endif
+
+LOCAL_PACKAGE_NAME := UPhoto
+LOCAL_CERTIFICATE := media
+LOCAL_PROGUARD_FLAGS := -include $(LOCAL_PATH)/proguard.flags
+LOCAL_PROGUARD_FLAGS += -include $(LOCAL_PATH)/../UGallery/proguard.flags
+LOCAL_PROGUARD_FLAGS += -include $(LOCAL_PATH)/../UCommon/sns/proguard.flags
+LOCAL_PROGUARD_FLAGS += -include $(LOCAL_PATH)/../UCommon/puzzle/proguard.flags
+
+LOCAL_ASSET_DIR := $(call intermediates-dir-for, APPS, $(LOCAL_PACKAGE_NAME),,COMMON)/assets
+ifeq ($(UPHOTO_ASSET_COMMON_DIR),)
+UPHOTO_ASSET_COMMON_DIR := $(LOCAL_ASSET_DIR)
+$(info Coping UPhoto common assets to: $(UPHOTO_ASSET_COMMON_DIR))
+$(shell rm -rf $(UPHOTO_ASSET_COMMON_DIR))
+define my-copy-assets
+$(foreach f, $(call find-subdir-assets, $(1)), \
+  $(shell mkdir -p $(dir $(2)/$(f)); $(ACP) -fp $(1)/$(f) $(2)/$(f)) \
+)
+endef
+$(shell rm -rf $(LOCAL_ASSET_DIR))
+$(call my-copy-assets, $(LOCAL_PATH)/assets, $(LOCAL_ASSET_DIR))
+$(call my-copy-assets, $(LOCAL_PATH)/../UCommon/puzzle/assets, $(LOCAL_ASSET_DIR))
+endif
+
+LOCAL_DEX_PREOPT := false
+
+include $(BUILD_PACKAGE)
+
+include $(CLEAR_VARS)
+
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
+                    libemail-uphoto:libs/email.jar
+LOCAL_PREBUILT_LIBS :=libmakeupengine:libs/armeabi-v7a/libmakeupengine.so
+LOCAL_PREBUILT_LIBS +=libGpuProcessJni:libs/armeabi-v7a/libGpuProcessJni.so
+LOCAL_PREBUILT_LIBS +=libImageProcessJni:libs/armeabi-v7a/libImageProcessJni.so
+include $(BUILD_MULTI_PREBUILT)
+
+#include $(LOCAL_PATH)/jni/Android.mk
+

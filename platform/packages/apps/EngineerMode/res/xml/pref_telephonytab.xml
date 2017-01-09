@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="auto_answer"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="@string/autoanswer" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <PreferenceScreen
+        android:key="band_select"
+        android:title="@string/bandselect" >
+    </PreferenceScreen>
+
+    <ListPreference
+        android:entries="@array/supplementary_service_query_entries"
+        android:entryValues="@array/supplementary_service_query_values"
+        android:key="supplementary_service_query"
+        android:title="CFU" />
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="lte_impede_data"
+        android:title="@string/lte_impede_data" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <Preference
+        android:key="network_mode"
+        android:title="@string/network_mode" >
+        <!-- SPRD: modify 20140701 Spreadtrum of 328867 EngineerMode,there is no "NetworkMode" options in Telephony  @{ -->
+        <!-- <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.debuglog.NetModeSelectActivity"
+            android:targetPackage="com.sprd.engineermode" /> -->
+        <!-- modify 20140701 Spreadtrum of 328867 @} -->
+    </Preference>
+    <Preference
+        android:key="imageswitch"
+        android:title="Image Switch" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.android.regionconfig.SwitchSysVersionOem"
+            android:targetPackage="com.android.regionconfig" />
+    </Preference>
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/mode_switch"
+        android:entryValues="@array/mode_switch_value"
+        android:key="mode_switch"
+        android:title="@string/mode_switch" />
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/single_dual_sim_mode_switch"
+        android:entryValues="@array/single_dual_sim_mode_switch_value"
+        android:key="single_dual_sim_mode_switch"
+        android:title="@string/single_dual_sim_mode_switch" />
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="w_prefer_plus"
+        android:title="@string/w_prefer_plus" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <Preference
+        android:key="net_info"
+        android:title="@string/netinfo" >
+           <!-- intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.NetInfoActivity"
+            android:targetPackage="com.sprd.engineermode" />-->
+    </Preference>
+    <Preference
+        android:key="cat3_4"
+        android:title="@string/cat3andCat4" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.CategaryActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <Preference
+        android:key="csfb2gsm_delay"
+        android:title="@string/csfb2gsm" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.Csfb2GsmDelayActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <Preference
+        android:key="vamos_cpc"
+        android:title="@string/vamos_cpc" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.VamosCpcShowActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <Preference
+        android:key="netinfo_statistics"
+        android:title="@string/netinfostatistics" >
+    </Preference>
+    <PreferenceScreen
+        android:title="@string/userinfo" >
+        <Preference
+            android:key="behavior_info"
+            android:title="@string/behaviorinfo" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.sprd.engineermode.telephony.userinfo.BehaviorInfoRecordActivity"
+                android:targetPackage="com.sprd.engineermode" />
+        </Preference>
+        <Preference
+            android:key="net_info_record"
+            android:title="@string/netinforecord" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.sprd.engineermode.telephony.userinfo.NetInfoRecordActivity"
+                android:targetPackage="com.sprd.engineermode" />
+        </Preference>
+    </PreferenceScreen>
+    <Preference
+        android:key="gprs_set"
+        android:title="@string/gprs_title" >
+
+        <!--
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.GPRSSetActivity"
+            android:targetPackage="com.sprd.engineermode" />
+        -->
+    </Preference>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="dataservicepreferred"
+        android:title="@string/mobiledataservice" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="fastdormancy"
+        android:title="@string/fastdormancy" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <PreferenceScreen android:title="@string/simmelock" >
+        <Preference
+            android:key="networkpersonalization"
+            android:title="@string/networkpersonalization" >
+        </Preference>
+        <Preference
+            android:key="networksubsetpersonalization"
+            android:title="@string/networksubsetpersonalization" >
+        </Preference>
+        <Preference
+            android:key="serviceproviderpersonalization"
+            android:title="@string/serviceproviderpersonalization" >
+        </Preference>
+        <Preference
+            android:key="corporatepersonalization"
+            android:title="@string/corporatepersonalization" >
+        </Preference>
+        <Preference
+            android:key="simpersonalization"
+            android:title="@string/simpersonalization" >
+        </Preference>
+    </PreferenceScreen>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="sim_trace"
+        android:title="@string/sim_trace"
+        android:summary="@string/restart_invalid" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/video_type_entries"
+        android:entryValues="@array/video_type_values"
+        android:key="video_type"
+        android:title="@string/videotype" />
+
+    <Preference
+        android:key="paraset"
+        android:title="@string/paraset" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.ParaSetPrefActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <Preference
+        android:key="app_settings"
+        android:title="@string/appsettings" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.AppSettingsPrefActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <!--
+    <Preference
+        android:key="dummy_nv"
+        android:title="@string/dummysettings">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.DummySimSelectActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    -->
+    <Preference
+        android:key="ps_related"
+        android:title="PS Related" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.PSRelatedPrefActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="qos_switch"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="@string/qosswitch" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="sprd_ilog"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="@string/sprdilog" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="VT_option"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="@string/VT_option" >
+    </com.sprd.engineermode.EMSwitchPreference>
+<!-- SPRD: modify 20140701 Spreadtrum of 328867 EngineerMode,there is no "NetworkMode" options in Telephony  @{ -->
+    <!-- <Preference
+        android:key="lte_set"
+        android:title="LTE" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.LTEActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference> -->
+<!-- @} -->
+    <PreferenceScreen
+        android:key = "lte_modem_set"
+        android:title="LTE Modem" >
+        <EditTextPreference
+            android:key="lte_backgroundsearch"
+            android:summary="please input data"
+            android:title="@string/background_search_timer"
+            android:numeric="integer"
+            android:maxLength="4">
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="lte_timer"
+            android:summary="please input data"
+            android:title="@string/lte_timer"
+            android:numeric="integer"
+            android:maxLength="4">
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="lte_rsrp"
+            android:summary="please input data"
+            android:title="@string/rsrp_param"
+            android:numeric="integer"
+            android:maxLength="2">
+        </EditTextPreference>
+        <!-- SPRD: modify 20140621 Spreadtrum of 325713 EngineerMode, telephony-LTE modem add Clear Prior Information@{ -->
+        <Preference
+            android:key="clear_prior_information"
+            android:title="@string/btn_clear_prior_information"
+            android:summary="click to clear">
+        </Preference>
+    </PreferenceScreen>
+    <com.sprd.engineermode.EMSwitchPreference
+            android:key="switch_for_usb_active"
+            android:summaryOff="Close"
+            android:summaryOn="Open"
+            android:title="@string/switch_for_usb_active">
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="dns_filter"
+        android:title="DNS Filter">
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="auto_auth"
+        android:title="@string/wifi_auto_auth">
+    </com.sprd.engineermode.EMSwitchPreference>
+    <Preference
+        android:key="volte_setting"
+        android:title="@string/volte_setting">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.volte.VolteSettingsActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <Preference
+        android:key="iot_pdp"
+        android:title="PDP TEST" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.IotAndPdpActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+
+    <Preference
+        android:key="nv_item_list"
+        android:title="@string/nvitem_list" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.NVItemListActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="thermal_switch"
+        android:title="Thermal Switch">
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="thermal_pa_switch"
+        android:title="Thermal PA Switch" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="data_switch"
+        android:title="Data Switch">
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="volte_switch"
+        android:title="@string/volteswitch" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <!--SPRD: 474686 Feature for Uplmn @{ -->
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="uplmn_switch"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="@string/uplmnswitch" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <!-- @} -->
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="ims_switch"
+        android:title="@string/imsswitch" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <!-- begin 550429 add by suyan.yang 2016.05.10 -->
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="sms_over_ip_switch"
+        android:title="@string/sms_over_ip_switch" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <!-- end 550429 add by suyan.yang 2016.05.10 -->
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="load_apn"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="Load APN" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="ddr_switch"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="@string/ddr_switch" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <!--
+    <EditTextPreference
+        android:key="session_timer"
+        android:numeric="integer"
+        android:maxLength="6"
+        android:title="@string/session_timer">
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:key="force_mt_session_timer"
+        android:numeric="integer"
+        android:maxLength="6"
+        android:title="@string/sip_force_mt_session_timer">
+    </EditTextPreference>
+    -->
+    <PreferenceScreen
+        android:key="nxp_list"
+        android:title="@string/nxp" >
+    </PreferenceScreen>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="mos_switch"
+        android:title="@string/mos_switch" >
+    </com.sprd.engineermode.EMSwitchPreference>
+</PreferenceScreen>

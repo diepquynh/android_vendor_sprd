@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/app_name" >
+
+        <PreferenceScreen
+            android:key="check_update"
+            android:persistent="false" >
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="check_update_special"
+            android:persistent="false" 
+            android:title="@string/special_check" >
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="check_update_daily"
+            android:persistent="false"
+            android:title="@string/daily_check" >
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="set_update"
+            android:persistent="false"
+            android:title="@string/setting" >
+        </PreferenceScreen>
+
+</PreferenceScreen>

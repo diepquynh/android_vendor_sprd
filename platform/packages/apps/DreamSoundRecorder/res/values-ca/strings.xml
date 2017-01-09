@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Enregistrador de so"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Enregistreu el missatge"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Missatge enregistrat"</string>
+    <string name="review_message" msgid="201616012287839474">"Revisió del missatge"</string>
+    <string name="recording" msgid="4426791467211376099">"S\'està enregistrant"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Enregistrament aturat"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"L\'emmagatzematge és ple"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"S\'ha arribat a la longitud màxima"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Instal·la l\'emmagatzematge USB"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Insereix una targeta SD"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> min disponibles"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> s disponibles"</string>
+    <string name="accept" msgid="1888285552128743656">"Fet"</string>
+    <string name="discard" msgid="761613433029406319">"Descarta"</string>
+    <string name="button_ok" msgid="3004911343723076226">"D\'acord"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Els teus enregistraments"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Enregistraments d\'àudio"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Els meus enregistraments"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"No es pot accedir a l\'emmagatzematge USB."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"No es pot accedir a la targeta SD."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Error intern d\'aplicació."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"No s\'ha pogut desar l\'àudio registrat."</string>
+        <string name="press_record">"Premeu \"enregistra\""</string>
+    <string name="recording_save">"L\'enregistrament s\'ha guardat"</string>
+    <string name="recording_nosave">"L\'enregistrament no s\'ha guardat"</string>
+    <string name="phone_message">"No es pot activar l\'enregistrador de so mentre es truca."</string>
+    <string name="min_and_time_available">"Mode <xliff:g id="minutes">%d</xliff:g> minuts i <xliff:g id="seconds">%d</xliff:g> segons disponibles"</string>
+    <string name="save">"Desa"</string>
+    <string name="select_file_type">"Seleccioneu el tipus de fitxer de registre"</string>
+    <string name="record_amr">"tipus amr"</string>
+    <string name="record_3gpp">"tipus 3gpp"</string>
+    <string name="button_cancel">"Cancel·la"</string>
+    <string name="path_save">"S\'ha guardat el camí per defecte"</string>
+    <string name="path_nosave">"No s\'ha guardat el camí per defecte"</string>
+    <string name="path_default">"El camí actual no és vàlid o no s\'hi pot escriure, és el camí a la memòria interna"</string>
+    <string name="menu_set_save_path">"S\'ha establert el camí desat"</string>
+    <string name="back">"Enrere…"</string>
+    <string name="path_label">"Seleccioneu el camí desat"</string>
+    <string name="pause">"Atura"</string>
+    <string name="storage_is_not_enough">"No hi ha prou espai a la memòria"</string>
+    <string name="menu_recording_file_list">"S\'està guardant la llista de fitxers"</string>
+    <string name="recording_list_empty">"Llista buida"</string>
+    <string name="menu_recording_list_select_all">"Selec. tot"</string>
+    <string name="menu_recording_list_delete">"Suprimeix"</string>
+    <string name="menu_recording_list_deselect_all">"Desseleccionar"</string>
+    <string name="recording_file_delete_success">"Enregistrament esborrat"</string>
+    <string name="recording_file_database_failed">"No s\'ha pogut esborrar el fitxer de base de dades"</string>
+    <string name="recording_file_delete_failed">"No s\'ha pogut esborrar el fitxer d\'enregistrament"</string>
+    <string name="confirm_del">"Esteu segurs d\'esborrar els fitxers?"</string>
+    <string name="button_delete">"Suprimeix"</string>
+    <string name="recording_file_delete_alert_title">"Suprimeix"</string>
+    <string name="recording_file_delete_alert_message">"Esteu segurs d\'eliminar  %1$s ?"</string>
+    <string name="recording_file_list">"S\'està guardant la llista de fitxers"</string>
+    <string name="less_than_one_second">"1 segon"</string>
+    <string name="is_scanning">"MediaScanner està escanejant, espereu…"</string>
+    <string name="emptylist">"La llista està buida"</string>
+    <string name="choose_file">"Seleccioneu els fitxers d\'enregistrament que voleu eliminar!"</string>
+    <string name="error_path">"El camí que heu seleccionat no existeix, seleccioneu-ne un altre!"</string>
+    <string name="path_miss">"El camí desat no existeix o no s\'hi pot accedir!"</string>
+    <string name="low_memory">"No hi ha prou memòria disponible al telèfon, l\'enregistrament s\'aturarà!"</string>
+    <string name="record_error">"S\'ha produït una excepció durant l\'enregistrament!"</string>
+    <string name="play_error">"S\'ha desactivat el reproductor de música, no es pot obrir!"</string>
+    <string name="dialog_title">"Seleccioneu"</string>
+    <string name="dialog_message">"Voleu desar l\'enregistrament?"</string>
+    <string name="same_application_running">"Un altre programa està utilitzant el dispositiu d\'enregistrament, tanqueu aquest programa!"</string>
+    <string name="recording_time_short">"El temps d\'enregistrament és inferior a 1 segon, no s\'ha desat"</string>
+    <string name="rename">"Canvia el nom"</string>
+    <string name="rename_save">"Canvia el nom del procés realitzar correctament"</string>
+    <string name="rename_nosave">"Canvia el nom de l\'error"</string>
+    <string name="filename_is_not_modified">"No s\'ha modificat el nom del fitxer"</string>
+    <string name="duplicate_name">"el nom del fitxer està duplicat"</string>
+    <string name="soundpicker_label">"Seleccioneu un fitxer d\'enregistrament"</string>
+    <string name="error_sdcard_path">"la targeta SD no existeix. El camí segur per defecte es desplaça a la memòria interna."</string>
+    <string name="input_length_overstep">"L\'element d\'entrada ha arribat a la longitud màxima"</string>
+    <string name="filename_empty_error">"El camp nom de fitxer s\'ha de completar, guarda el nom original"</string>
+    <string name="please_choose_files">"escolliu fitxers"</string>
+    <string name="selected_files_count">"s\'ha escollit<xliff:g id="COUNTS">%d</xliff:g>"</string>
+    <string name="use_default_path">"El fitxer desat no existeix, feu servir el camí per defecte"</string>
+    <string name="stroage_not_mounted">"La memòria no està muntada"</string>
+    <string name="special_char_exist">"Els caràcters especials <xliff:g id="COUNTS">%s</xliff:g> no són compatibles"</string>
+    <string name="menu_select_more">"Seleccionar-ne més"</string>
+    <string name="menu_select_type">"Definir el tipus de fitxer"</string>
+    <string name="path_miss_nosave">"El fitxer desat no existeix, l\'enregistrament no s\'ha desat!"</string>
+    <string name="file_path_button">"Camí de fitxer"</string>
+     <string name="file_name">"Nom del fitxer:"</string>
+     <string name="file_path">"Camí de fitxer:"</string>
+     <string name="dialog_dismiss">"Omet"</string>
+     <string name="error_permissions">"L\'aplicació no té els permisos importants necessaris per executar-se. Comprova la configuració dels permisos."</string>
+
+    <string name="internal_sdcard">"Deixa que ho decideixi el sistema"</string>
+     <string name="external_sdcard">"Targeta SD externa"</string>
+    <string name="internal_storage">"Emmagatzematge intern"</string>
+     <string name="external_storage">"Emmagatzematge extern"</string>
+     <string name="set_as_ring">"Establir com a to de trucada"</string>
+     <string name="read_file_path">"Comprovar el camí del fitxer"</string>
+     <string name="operate_share">"Comparteix"</string>
+     <string name="ringtone_title_sim1">"So de trucada del telèfon SIM1"</string>
+     <string name="ringtone_title_sim2">"To de trucada de la targeta SIM2"</string>
+     <string name="ringtone_menu_short">"Utilitza com a so"</string>
+     <string name="please_insert_sim_card">"Inseriu com a mínim una targeta SIM"</string>
+     <string name="ring_set_silent_vibrate">"Els sons de trucada personalitzats no són compatibles amb el mode actual"</string>
+     <string name="ringtone_set_sim1">"Alarma \"<xliff:g id="name" exemple="Alarma">%s</xliff:g>\" establerta com a so de trucada del telèfon, per la SIM1."</string>
+     <string name="ringtone_set_sim2">"Alarma \"<xliff:g id="name" exemple="Alarma">%s</xliff:g>\" establerta com a so de trucada del telèfon, per la SIM2."</string>
+     <string name="ringtone_set">"S\'ha establert \"<xliff:g id="NAME">%s</xliff:g>\" com a so de trucada del telèfon."</string>
+     <string name="ring_set_fail">"Disculpeu les molèsties, no s\'ha pogut reproduir la cançó. Seleccioneu una altra cançó com a so de trucada."</string>
+     <string name="tag_limit">"S\'ha arribat al nombre màxim d\'etiquetes"</string>
+     <string name="no_allow_play_calling">"No es pot reproduir música durant una trucada (ràdio/vídeo)."</string>
+     <string name="playback_failed">"El reproductor no és compatible amb aquest tipus de fitxer d\'àudio."</string>
+     <string name="tag">"Etiqueta"</string>
+     <string name="previous_tag">"Darrera etiqueta"</string>
+     <string name="next_tag">"Següent etiqueta"</string>
+     <string name="recording_play">"Reproducció"</string>
+     <string name="clip_duration_tip">"Editar la longitud"</string>
+     <string name="record_setting">"Configuració de la gravació"</string>
+     <string name="file_type">"Tipus de fitxer"</string>
+     <string name="type_amr">"tipus amr"</string>
+     <string name="type_3gpp">"tipus 3gpp"</string>
+     <string name="save_path">"Camí desat"</string>
+     <string name="set_timer_recording">"Establir el temporitzador de gravació"</string>
+     <string name="timer_recording_detail">"Començar la gravació a <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> durant  <xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">"Mostra els detalls"</string>
+     <string name="file_size">"Mida del fitxer:"</string>
+     <string name="file_date">"Data del fitxer:"</string>
+     <string name="recording_start_time">"S\'està enregistrant l\'hora d\'inici"</string>
+     <string name="recording_duration">"Enregistrament de la duració en hores"</string>
+     <string name="tuned_timer_recording">"Temporitzador de gravació activat"</string>
+     <string name="miss_timer_recording">"No s\'ha arribat a temps pel temporitzador de gravació"</string>
+     <string name="miss_timer_time">"Hora: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>" hora"</item>
+        <item>" hores"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"La gravació amb temporitzador comença d\'aquí a menys d\'un minut."</item>
+        <item>"La gravació amb temporitzador comença d\'aquí a <xliff:g id="HOURS">%1$s</xliff:g>"</item>
+        <item>"La gravació amb temporitzador comença d\'aquí a <xliff:g id="MINUTES">%2$s</xliff:g>."</item>
+        <item>"La gravació amb temporitzador comença d\'aquí a <xliff:g id="HOURS">%1$s</xliff:g> i <xliff:g id="MINUTES">%2$s</xliff:g>."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">"1 hora"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g>  hores"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"1 minut"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g>  minuts"</item>
+    </plurals>
+     <string name="start_record">"inici de gravació"</string>
+     <string name="resume_record">"continua la gravació"</string>
+     <string name="start_play">"inici de reproducció"</string>
+     <string name="resume_play">"continua la reproducció"</string>
+     <string name="reset_timer_recording">"Hi ha un altre programa que està fent servir el dispositiu de gravació, torneu a configurar el temporitzador de gravació!"</string>
+     <string name="storage_not_enough">"No hi ha prou memòria, no s\'ha pogut iniciar la gravació amb temporitzador!"</string>
+     <string name="phone_storage_not_enough">"No hi ha prou memòria al telèfon!"</string>
+</resources>

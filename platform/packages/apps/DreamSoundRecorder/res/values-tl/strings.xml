@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Recorder ng Tunog"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"I-record ang iyong mensahe"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Na-record ang mensahe"</string>
+    <string name="review_message" msgid="201616012287839474">"I-review ang mensahe"</string>
+    <string name="recording" msgid="4426791467211376099">"Nagre-record"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Itinigil ang pag-record"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"Puno na ang imbakan"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"Naabot na ang maximum na haba"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"I-mount ang imbakan ng USB"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Magpasok ng SD card"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> min ang available"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g>s ang available"</string>
+    <string name="accept" msgid="1888285552128743656">"Tapos na"</string>
+    <string name="discard" msgid="761613433029406319">"Itapon"</string>
+    <string name="button_ok" msgid="3004911343723076226">"OK"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Iyong mga pag-record"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Mga pag-record ng audio"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Aking mga pag-record"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"Hindi ma-access ang imbakan ng USB."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"Hindi ma-access ang SD card."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Panloob na error sa application."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"Hindi mai-save na-record na audio."</string>
+    <string name="recording_save">"Na-save ang pagre-record"</string>
+     <string name="recording_nosave">"Ang pagtatala ay hindi nailigtas"</string>
+     <string name="phone_message">""Hindi maaring mapagana ang Tagapagtala ng Tunog habang tumatawag.\'"</string>
+     <string name="min_and_time_available">"Tungkol <xliff:g id="minutes">%d</xliff:g> minuto at <xliff:g id="seconds">%d</xliff:g> segundo na magagamit"</string>
+     <string name="press_record">"Pindutin ang Record"</string>
+     <string name="save">"I-save"</string>
+     <string name="select_file_type">"Piliin ang uri ng Tala na payl"</string>
+     <string name="record_amr">"amr na uri(mababang-kalidad)"</string>
+     <string name="record_3gpp">"3gpp na uri(mataas na kalidad)"</string>
+     <string name="button_cancel">"Kanselahin"</string>
+     <string name="path_save">"Default na landas ay nailigtas"</string>
+     <string name="path_nosave">"Default na landas ay hindi nailigtas"</string>
+     <string name="path_default">"Ang kasalukuyang landas ay hindi masulatan o hindi balido, ito ay ang landas sa panloob na lalagyan na landas"</string>
+     <string name="menu_set_save_path">"Itakda ang daanan ng pagligtas"</string>
+     <string name="back">"Likod.."</string>
+     <string name="path_label">"Mangyaring pumili ng daanan sa pagligtas"</string>
+     <string name="pause">tumigil</string>
+     <string name="storage_is_not_enough">"Ang imbakan ay hindi sapat"</string>
+     <string name="menu_recording_file_list">"Listahan ng payl sa mga naitala"</string>
+     <string name="recording_list_empty">"Limasin ang listahan"</string>
+     <string name="menu_recording_list_select_all">"Piliin lahat"</string>
+     <string name="menu_recording_list_delete">"Tanggalin"</string>
+     <string name="menu_recording_list_deselect_all">"Huwag piliin"</string>
+     <string name="recording_file_delete_success">"Naitala nabura"</string>
+     <string name="recording_file_database_failed">"Nabigong burahin ang database na payl"</string>
+     <string name="recording_file_delete_failed">"Nabigong burahin ang payl ng mga naitala"</string>
+     <string name="confirm_del">"Sigurado ka bang burahin ang mga files?"</string>
+     <string name="button_delete">"Tanggalin"</string>
+     <string name="recording_file_delete_alert_title">"Tanggalin"</string>
+     <string name="recording_file_delete_alert_message">"Siguruhing burahin %1$s ?"</string>
+     <string name="recording_file_list">"Listahan ng payl sa mga naitala"</string>
+     <string name="less_than_one_second">"1 segundo"</string>
+     <string name="is_scanning">"MediaScanner ay nag-scan ngayon, mangyaring maghintay..."</string>
+     <string name="emptylist">"Listahan ay walang laman"</string>
+     <string name="choose_file">"Mangyaring piliin ang naitala na gusto mong buburahin na mga payl!"</string>
+     <string name="error_path">"Ang path na pinili mo ay hindi na umiiral, mangyaring itakda muli!"</string>
+     <string name="path_miss">"Ang naka-imbak na daan ay hindi na umiiral o hindi magamit!"</string>
+     <string name="low_memory">"Ang memorya ng telepono ay hindi sapat, ang pagtatala ay mahihinto!"</string>
+     <string name="record_error">"Pagtatala ng isang pagbubukod ay nangyayari!"</string>
+     <string name="play_error">"Ang tagatugtog ng musika ay hindi pinagana,hindi mabuksan！"</string>
+     <string name="dialog_title">"Mangyaring pumili"</string>
+     <string name="dialog_message">"Iligtas ang naitala?"</string>
+     <string name="same_application_running">"Ang kagamitan sa pagtatala ay ginamit ng isa pang programa, mangyaring pakisara sa programang ito!"</string>
+     <string name="recording_time_short">Ang oras ng rekording ay mababa na sa 1 segundo, hindi naitago </string>
+     <string name="file_path_button">"Landas ng Payl"</string>
+     <string name="file_name">"Pangalan ng Payl："</string>
+     <string name="file_path">"Landas ng Payl："</string>
+     <string name="rename">"Muling Pangalanan"</string>
+     <string name="rename_save">"Pag bago ng pangalan at matagumpay"</string>
+     <string name="rename_nosave">bigo ang pagbago ng pangalan</string>
+     <string name="filename_is_not_modified">"Salansan ng pangalan ay hindi nabago"</string>
+     <string name="duplicate_name">"Duplikado na salansan ng pangalan"</string>
+     <string name="soundpicker_label">Paki pili ng rekording na salansan</string>
+     <string name="error_sdcard_path">"sdkard ay wala. Ibalik ang dating daan sa ibang lalagyan."</string>
+     <string name="input_length_overstep">"Pagpasok  ay umabot sa pinakamataas na haba"</string>
+     <string name="filename_empty_error">"Salansan ng pangalan hindi pwedeng walang laman, paki salba sa orihinal na pangalan"</string>
+     <string name="please_choose_files">"Paki pili ng salansan"</string>
+     <string name="selected_files_count">"pinili<xliff:g id="COUNTS">%d</xliff:g>"</string>
+     <string name="use_default_path">"Ang imbakan na daan ay hindi makita, gamitan ang dating daan"</string>
+     <string name="stroage_not_mounted">"Ang imbakan ay hindi naimuntar"</string>
+     <string name="special_char_exist">"Mga espesyal na karakter<xliff:g id="COUNTS">%s</xliff:g> ay hindi sinusuportahan"</string>
+     <string name="menu_select_more">Dagdagan pa ang pag pili</string>
+     <string name="menu_select_type">"Itakda ang uri ng payl"</string>
+     <string name="path_miss_nosave">"Ang naimbak na daan ay hindi na umiiral, ang pagtatala ay hindi naimbak！"</string>
+     <string name="dialog_dismiss">"Balewalain"</string>
+     <string name="error_permissions">"Walang mga kinakailangang kritikal na pahintulot ang app upang tumakbo. Pakitingnan ang mga setting ng iyong mga pahintulot."</string>
+
+    <string name="internal_sdcard">"Panloob na sd kard"</string>
+     <string name="external_sdcard">"Panlabas na sd kard"</string>
+    <string name="internal_storage">"Panloob imbakan"</string>
+     <string name="external_storage">external storage</string>
+     <string name="set_as_ring">"Itakda bilang tunog na taginting"</string>
+     <string name="read_file_path">"Suriin ang daanan ng payl"</string>
+     <string name="operate_share">"Ibahagi"</string>
+     <string name="ringtone_title_sim1">"SIM1 na rington ng telepono"</string>
+     <string name="ringtone_title_sim2">"SIM2 Rington ng Telepono"</string>
+     <string name="ringtone_menu_short">"Gamitin bilang ringtone"</string>
+     <string name="please_insert_sim_card">"Mangyaring magpasok ng SIM na kard man lang"</string>
+     <string name="ring_set_silent_vibrate">"Pasadyang mga ringtone ay hindi suportado sa kasalukuyang moda"</string>
+     <string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" i-takda bilang SIM1 na rington ng telepono."</string>
+     <string name="ringtone_set_sim2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" itakda bilang SIM2 na rington ng telepono."</string>
+     <string name="ringtone_set">"I-set ang \"<xliff:g id="NAME">%s</xliff:g>\" bilang ringtone ng telepono."</string>
+     <string name="ring_set_fail">Sori, ang kanta ay hindi pwedeng patugtugin. Paki pili ng ibang kanta para sa ringtone</string>
+     <string name="tag_limit">"Ang numero ng mga tag ay umabot na sa pinakamataas"</string>
+     <string name="no_allow_play_calling">"Hindi pinayagan na patugtugin ang musika sa panahon ng isang tawag (radyo / bidyo)."</string>
+     <string name="playback_failed">"Ang pleyer ay di sumusuporta nitong tipo ng payl na awdyo"</string>
+     <string name="tag">Tag</string>
+     <string name="previous_tag">"Huling tag"</string>
+     <string name="next_tag">"Susunod na tag"</string>
+     <string name="recording_play">"Nagrerekord ng tugtog"</string>
+     <string name="clip_duration_tip">"I-edit ang haba"</string>
+     <string name="record_setting">"Seting ng Rekord"</string>
+     <string name="file_type">Uri ng Salansan</string>
+     <string name="type_amr">"tipong amr"</string>
+     <string name="type_3gpp">"tipong 3gpp"</string>
+     <string name="save_path">"Daanang tinago"</string>
+     <string name="set_timer_recording">"Itakda ang taymer ng pagrekord"</string>
+     <string name="timer_recording_detail">"Simulan ang pagrekord sa <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> para <xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">"Tingnan ang mga detalye"</string>
+     <string name="file_size">"Sukat ng Payl："</string>
+     <string name="file_date">"Petsa ng Payl："</string>
+     <string name="recording_start_time">"Simulang oras ng pagrekord"</string>
+     <string name="recording_duration">"Haba ng oras sa pagrekord"</string>
+     <string name="tuned_timer_recording">"Taymer ng pagrekord ay naka-tune on"</string>
+     <string name="miss_timer_recording">"Pumalya na taymer sa pagrekord"</string>
+     <string name="miss_timer_time">"Oras: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>" oras"</item>
+        <item>" mga oras"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"Taymer ng pagrekord ay nakatakda ng kulang sa 1 minuto mula ngayon."</item>
+        <item>"Taymer ng pagrekord ay nakatakda para sa  <xliff:g id="HOURS">%1$s</xliff:g>  mula ngayon."</item>
+        <item>"Taymer ng pagrekord ay nakatakda para sa <xliff:g id="MINUTES">%2$s</xliff:g> mula ngayon."</item>
+        <item>"Taymer ng pagrekord ay nakatakda para sa <xliff:g id="HOURS">%1$s</xliff:g> at <xliff:g id="MINUTES">%2$s</xliff:g> mula ngayon."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">"1 oras"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g>  oras"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"1 minuto"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g>  minuto"</item>
+    </plurals>
+     <string name="start_record">"simulan magrekord"</string>
+     <string name="resume_record">"magbalik pagtugtog"</string>
+     <string name="start_play">"simulan magtugtog"</string>
+     <string name="resume_play">"magbalik pagtugtog"</string>
+     <string name="reset_timer_recording">"Ang aparatong nagrekord ay ginagamit sa ibang programa, mangyari itakda muli ang taymer ng pagrekord!"</string>
+     <string name="storage_not_enough">"Ang imbakan ay di sapat, bigong magsimula-uli ang taymer ng pagrekord!"</string>
+     <string name="phone_storage_not_enough">"Ang imbakan ng telepono ay di sapat!"</string>
+</resources>

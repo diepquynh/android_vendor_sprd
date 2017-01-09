@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="?android:attr/dividerHorizontal"
+    android:showDividers="middle"
+    android:dividerPadding="0dip">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/network_control_head"
+        android:textColor="#000000"
+        android:paddingLeft="10dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/data1"
+            android:id="@+id/checkBoxAllSim1"
+            android:button="@null"
+            android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+            android:paddingLeft="70dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/data2"
+            android:id="@+id/checkBoxAllSim2"
+            android:button="@null"
+            android:paddingLeft="6dp"
+            android:drawableRight="?android:attr/listChoiceIndicatorMultiple"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wlan"
+            android:id="@+id/checkBoxAllWIFI"
+            android:button="@null"
+            android:paddingLeft="4dp"
+            android:drawableRight="?android:attr/listChoiceIndicatorMultiple"/>
+
+    </LinearLayout>
+
+
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1">
+
+        <ListView android:id="@android:id/list"
+            android:drawSelectorOnTop="false"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:layout_gravity="left|center_vertical"
+            />
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPRD: add for wifi new features -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Broadcom, WAPI BGN-->
+    <string name="wifi_wapi_psk_type">"密码类型"</string>
+    <string name="wifi_wapi_as_certificate">"AS 证书"</string>
+    <string name="wifi_wapi_user_certificate">"用户证书"</string>
+    <string name="wifi_wapi_fail_to_init">"无法打开WAPI证书，\n证书可能是不可用的"</string>
+    <string name="wifi_wapi_fail_to_auth">"WAPI认证失败，\n请检查证书的有效性"</string>
+    <string name="wifi_wapi_cert_lost">"未找到正在连接的接入点的证书"</string>
+    <string name="wifi_security_wapi_psk_hexadecimal">"WAPI PSK 十六进制"</string>
+    <!-- Broadcom, WAPI END-->
+
+    <!-- SPRD: EAP SIM/AKA slot BGN-->
+    <string name="wifi_eap_sim_slots">"SIM 卡槽"</string>
+    <string name="wifi_eap_sim_slot1">"SIM 卡槽1"</string>
+    <string name="wifi_eap_sim_slot2">"SIM 卡槽2"</string>
+    <!-- SPRD: EAP SIM/AKA slot END -->
+
+    <!-- SPRD: cmcc wifi features BGN -->
+    <string name="cmcc_wifi_features">"移动定制项"</string>
+    <string name="trust_accesspoints_list">"信任接入点"</string>
+    <string name="unkown_accesspoints_list">"未知接入点"</string>
+
+    <string name="wifi_disconnect">"断开"</string>
+    <string name="wifi_netmask">"网络掩码"</string>
+    <string name="wifi_secured_first_item">"通过 <xliff:g>%1$s</xliff:g> 进行保护"</string>
+    <string name="wifi_secured_second_item">"，通过 <xliff:g>%1$s</xliff:g> 进行保护"</string>
+
+    <string name="mobile_to_wlan_policy_category">网络选择提示</string>
+    <string name="mobile_to_wlan_policy_title">"蜂窝网-&gt;WLAN重选"</string>
+    <string name="mobile_to_wlan_policy_auto">"自动重选"</string>
+    <string name="mobile_to_wlan_policy_manual">"手动重选"</string>
+    <string name="mobile_to_wlan_policy_ask">"总是询问"</string>
+
+    <string name="show_dialog_connect_to_cmcc_title">连接提示</string>
+    <string name="show_dialog_connect_to_cmcc_summary">显示已连接到中国移动WLAN的提示</string>
+    <string name="reset_wifi_policy_dialog_flag_title">恢复提示信息</string>
+    <string name="reset_wifi_policy_dialog_flag_toast_message">提示信息已恢复</string>
+
+    <string name="wifi_alarm_category_title">WLAN 定时设置</string>
+    <string name="wifi_connect_alarm_title">定时自动连接WLAN</string>
+    <string name="wifi_disconnect_alarm_title">定时断开WLAN开关</string>
+    <string name="wifi_alarm_time_title">设置时间</string>
+    <!-- SPRD: cmcc wifi features END -->
+
+    <!-- SPRD: cucc wifi features BGN -->
+    <string name="network_preference_settings">网络管理</string>
+    <string name="network_type_choosen">优先选择连接的网络</string>
+    <!-- SPRD: cucc wifi features END -->
+
+    <!-- SPRD: add for BUG487742 -->
+    <string name="network_id_illegal_character">请输入有效的网络标识</string>
+
+    <!-- SPRD: add for wep BGN -->
+    <string name="key_index">"密钥索引"</string>
+    <string name="wep_password_tip_text">WEP类型请输入5，13，16位ASCII码字符或10，26，32位其他字符。</string>
+    <!-- SPRD: add for wep END -->
+
+    <!-- SPRD: add for auto roam function -->
+    <string name="wifi_auto_roam">自动漫游</string>
+
+    <!-- SPRD: Add for extends hotspot BGN -->
+    <string name="hotspot">WLAN热点</string>
+    <string name="hotspot_settings">设置WLAN热点</string>
+    <string name="hotspot_preference_title">WLAN热点设置及用户管理</string>
+    <string name="hotspot_connected_stations">已连接用户</string>
+    <string name="hotspot_no_connected_station">0 个已连接用户</string>
+    <string name="hotspot_blocked_stations">已封锁用户</string>
+    <string name="hotspot_no_blocked_station">0 个已封锁用户</string>
+    <string name="block">阻止</string>
+    <string name="unblock">解除封锁</string>
+    <string name="softap_need_mobile_data_enabled">"便携式WLAN热点需开启移动数据连接，可能会产生额外费用。"</string>
+    <string name="wifi_max_connect">最大连接数</string>
+    <string name="wifi_channel">WLAN 信道</string>
+    <string name="wifi_tether_connect_title">个已连接用户</string>
+    <string name="wifi_tether_block_title">个已封锁用户</string>
+    <string name="hotspot_add_blockedstations_limit">已封锁用户已达到最大限制，无法继续添加</string>
+    <string name="hotspot_mode">热点管理模式</string>
+    <string name="hotspot_whitelist_stations">白名单设备列表</string>
+    <string name="hotspot_no_whitelist_station">+ 手动添加白名单设备</string>
+    <string name="hotspot_whitelist">管理设备</string>
+    <string name="hotspot_whitelist_add">添加到白名单</string>
+    <string name="hotspot_whitelist_cancel">取消</string>
+    <string name="hotspot_offwhite">移除</string>
+    <string name="hotspot_name_txt">设备名称</string>
+    <string name="hotspot_mac_txt">MAC地址</string>
+    <string name="wifi_add_whitelist_error">添加失败，请输入正确的MAC地址</string>
+    <string name="wifi_add_whitelist_limit">添加失败，最大只支持添加8台设备</string>
+    <string name="hotspot_wps_connect">WPS 连接</string>
+    <string name="hotspot_select_wps">选择 WPS 模式</string>
+    <string name="hotspot_wps_mode">WPS 模式</string>
+    <string name="hotspot_connect">连接</string>
+    <string name="hotspot_wps_pin">请输入PIN码</string>
+    <string name="hotspot_pin_error">无法连接，请输入正确的PIN码格式</string>
+    <string name="hotspot_pin_success">请点击连接按钮</string>
+    <!-- add for keep Wi-Fi hotspot on -->
+    <string name="soft_ap_sleep_policy_title">保持WLAN热点开启</string>
+    <string name="hotspot_hidden_ssid_title">隐藏SSID</string>
+    <string name="hotspot_hidden_ssid_summary">隐藏用于广播的热点 SSID</string>
+    <string name="hotspot_hidden_ssid_and_disable_wps_summary">隐藏用于广播的热点SSID，同时会禁止WPS功能</string>
+    <!-- SPRD: Add for extends hotspot END -->
+
+    <!-- SPRD: passpoint BGN -->
+    <string name="passpoint">Passpoint</string>
+    <string name="wifi_passpoint_settings_title">Passpoint</string>
+    <string name="passpoint_show_title">Passpoint_show_title</string>
+    <string name="passpoint_titlebar">Passpoint AP列表</string>
+    <string name="wifi_saved_passpoint_titlebar">已保存配置列表</string>
+    <string name="passpoint_realm_hint">Realm</string>
+    <string name="passpoint_priority_hint">Priority</string>
+    <string name="passpoint_domain_hint">FQDN</string>
+    <string name="passpoint_roam_hint">Roam</string>
+    <string name="passpoint_username_hint">用户名</string>
+    <string name="passpoint_password_hint">密码</string>
+    <string name="passpoint_eap_security">EAP方法</string>
+    <string name="eap_tls_ca_certificate">CA证书</string>
+    <string name="eap_tls_user_certificate">用户证书</string>
+    <string name="eap_ttls_sec_auth">阶段2身份验证</string>
+    <string name="eap_ttls_ca_certificate">CA证书</string>
+    <string name="eap_sim_selection">选择SIM卡</string>
+    <string name="passpoint_config_forget">删除配置</string>
+    <string name="passpoint_config_cancel">返回</string>
+    <string name="passpoint_on">Passpoint 功能开启</string>
+    <string name="passpoint_off">Passpoint 功能关闭</string>
+    <string name="passpoint_add_config">添加配置</string>
+    <string name="passpoint_saved_config">已保存配置</string>
+    <string name="open_wifi_first">请先打开WLAN功能</string>
+    <string name="wifi_saved_passpoint_config">Passpoint 配置</string>
+    <string name="passpoint_empty_list_wifi_on">"正在搜索Passpoint网络…"</string>
+    <string name="passpoint_empty_list_user_restricted">"您无权更改Passpoint网络。"</string>
+    <!-- SPRD: passpoint END -->
+    <string name="wifi_off_generic">已关闭</string>
+
+</resources>

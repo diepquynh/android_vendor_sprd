@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_number">"Kam:"</string>
+<string name="cancel_call">"Atšaukti"</string>
+<string name="delivery_toast_body_fail">"Pranešimas negautas %s."</string>
+<string name="read_report_toast_body">"Pranešimas perskaitytas %s."</string>
+<string name="read_report_toast_body_fail">"Pranešimas neperskaitytas %s."</string>
+<string name="delivery_toast_body_fail_rejected">"Pranešimas atmestas %s."</string>
+<string name="user_not_exist">"Toks vartotojas neegzistuoja."</string>
+<string name="menu_resend">"Persiųsti"</string>
+<string name="low_storage_toast">"Mažai vietos!Ištrinkite kai kuriuos failus, kad atlaisvintumėte vietos."</string>
+<string name="failed_to_download_mms">"Nepavyko parsiųsti MMS, bandykite vėliau"</string>
+<string name="failed_to_send_mms">"Nepavyko išsiųsti MMS, bandykite vėliau"</string>
+<string name="success_to_send_mms">"MMS sėkmingai išsiųstas"</string>
+<string name="sim_card_not_ready">"Sim kortelė neparuošta"</string>
+<string name="sim_is_invalid">"Sim kortelė neparuošta"</string>
+<string name="on_progress">"Apdorojama, prašom palaukti..."</string>
+<string name="pref_internal_memory_usage_title">"MMS/Laisvos vietos/Iš viso"</string>
+<string name="pref_internal_memory_usage_progress_summary">"Skaičiuojama kiek yra laisvos vietos..."</string>
+<string name="please_wait_title">"Prašom palaukti..."</string>
+<string name="sim_card_setting">"SIM kortelės nustatymas"</string>
+<string name="multi_sim_manage_messages_title">"Pranešimai SIM<xliff:g id="COUNT">%1$S</xliff:g>"</string>
+<string name="pref_title_manage_sim_setting">"Tvarkyti SIM nustatymus"</string>
+<string name="pref_summary_manage_sim_setting">"Tvarkyti pranešimus SIM kortelėje, Pristatymo ataskaitos, Galiojimo laikas, Smsc nustatymas t.t."</string>
+<string name="pref_summary_notification_ringtone">"Numatytasis skambėjimo tonas"</string>
+<string name="pref_summary_notification_ringtone_silent">"Tylusis"</string>
+<string name="menu_sim_capacity">"SIM dydis"</string>
+<string name="pref_title_manage_multi_sim_messages">"Tvarkyti pranešimus SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="pref_summary_manage_multi_sim_messages">"Tvarkyti pranešimus SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_sim_success">"Perkelta į SIM"</string>
+<string name="toast_copy_to_sim_failure">"Nepavyko nukopijuoti į SIM"</string>
+<string name="toast_sim_memory_full">"SIM atmintis pilna"</string>
+<string name="toast_copy_to_multi_sim_success">"Perkelta į SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_multi_sim_failure">"Nepavyko nukopijuoti į SIM<xliff:g id="COUNT">%1$s<xl></xl></xliff:g>"</string>
+<string name="toast_multi_sim_memory_full">"SIM <xliff:g id="COUNT">%1$S</xliff:g> atmintis pilna"</string>
+<plurals name="conversation_num">
+<item quantity="one">"Turite 1 pokalbį."</item>
+<item quantity="other">"Turite <xliff:g id="number">%1$s</xliff:g> pokalbių."</item>
+</plurals>
+<string name="count_of_new_mms">"%s naujų pranešimų"</string>
+<string name="pref_summary_store_sms_on_sim">"Kai gaunamas naujas SMS, išsaugoti SIM kortelėje ar ne"</string>
+<string name="pref_title_store_sms_on_sim">"Išsaugoti SMS SIM kortelėje"</string>
+<string name="pref_title_sms_validity">"SMS galiojimas"</string>
+<string-array name="prefEntries_sms_validity">
+<item>"Nenustatyta"</item>
+<item>"1 val."</item>
+<item>"6 val."</item>
+<item>"24 val."</item>
+<item>"2 d."</item>
+<item>"1 savaitė"</item>
+<item>"Maksimalus"</item>
+</string-array>
+<string name="done_slide_show">"Atlikta"</string>
+<string name="smsc_check_fdn_failure">"Jūsų pranešimų centro numeris nepriklauso fdn sąrašui."</string>
+<string name="muti_select_all">"Rinktis viską"</string>
+<string name="menu_select_none">"Atšaukti visų pasirinkimą"</string>
+<string name="Conversation_check_type_selected_all">"Rinktis viską"</string>
+<string name="menu_msg_folder">"Aplanko peržiūra"</string>
+<string name="menu_msg_list">"Pranešimo peržiūra"</string>
+<string name="folder_inbox">"Gautieji"</string>
+<string name="folder_outbox">"Išsiųstieji"</string>
+<string name="folder_sent">"Išsiųsta"</string>
+<string name="folder_drafts">"Juodrašč."</string>
+<string name="folder_empty">"Šiame aplanke nėra pranešimų."</string>
+<string name="folder_display_all">"Rodyti visus pranešimus"</string>
+<string name="folder_delete_messages">"Ištrinti pranešimus"</string>
+<string name="folder_loading">"Įkeliama.."</string>
+<string name="folder_reply">"Atsakyti"</string>
+<string name="folder_forward">"Persiųsti"</string>
+<string name="no_msg_del">"Nėra ištrintų pranešimų"</string>
+<string name="exceed_slides_number_limitation">"Pasiekta skaidrių skaičiaus riba"</string>
+<string name="has_vcard_or_vcalendar_attachment">"Jau turi <xliff:g id="TYPE">%1$s</xliff:g>, negalima pridėti dar vieno"</string>
+<string name="folder_sortby">"Rūšiuoti pagal"</string>
+<string-array name="sort_type">
+<item>"Pagal laiką"</item>
+<item>"Pagal adresą"</item>
+</string-array>
+<string name="OTAConfig_title">"OTA konfig. nustatymai"</string>
+<string name="OTAConfig_Message">"Ar tikrai norite išsaugoti OTA konfig.?"</string>
+<string name="OTAConfiy_Success">"OTA pranešimo nustatymas sėkmingas"</string>
+<string name="OTAConfiy_Error">"Nepavyko konfig. OTA""</string>
+<string name="ota_pin_error">"OTA apsauga nepavyko"</string>
+<string name="ota_retry">"slaptažodžio klaida"</string>
+<string name="ota_pin_exception">"OTA konfig. nesėkmė：programos klaida."</string>
+<string name="ota_mime_error">"OTA konfig.nesėkmė：pranešimo duomenų klaida."</string>
+<string name="ota_support_not">"OTA konfig. nesėkmė：<xliff:g id="OTATYPE">%1$s</xliff:g> nepalaikomas tipas."</string>
+<string name="pref_reply_path_title">"Atsakymo takelio nustatymai"</string>
+<string name="pref_title_reply_path">"Atsakymo takelis"</string>
+<string name="pref_summary_reply_path">"Atsakyti per tą patį centrą"</string>
+<string name="cannot_add_picture_and_vcard">"Negalima pridėti vkortelės ir nuotraukos į vieną skaidrę."</string>
+<string name="mms_setting">"MMS nustatymas"</string>
+<string name="pref_title_font_size">"Šrifto dydžio nustatymas"</string>
+<string name="font_size_setting">"Šrifto dydžio nustatymas"</string>
+<string name="font_size">"Šrifto dydis yra: <xliff:g id="font_size_id">%1$s</xliff:g>"</string>
+<string name="menu_copy_to_sim_memory">"Kopijuoti pranešimą į SIM"</string>
+<string name="menu_add_recipient_to_contacts">"Pridėti <xliff:g id="name">%s</xliff:g>prie kontaktų"</string>
+<string name="action_done">"Atlikta"</string>
+<string name="message_signature_setting">"Parašo nustatymas"</string>
+<string name="pref_signature_enable_title">"Pasirenkamas parašas"</string>
+<string name="pref_signature_enabl_summary">"Automatiškai pridėti parašą prie kiekvieno jūsų siunčiamo MMS pranešimo"</string>
+<string name="pref_signature_input_title">"Redaguoti parašą"</string>
+<string name="pref_signature_input_summary">"Įeikit čia, kad pasirašytumėte"</string>
+<string name="pref_signature_input_limited">"Parašas pasiekė ribą"</string>
+<string name="pref_hint_signature_edittext">"Prašom pasirašyti čia"</string>
+<string name="toast_append_signature_failed">"Nepavyko pridėti parašo prie MMS, Skaidrių dydis pasiekė ribą"</string>
+<string name="pageIndex">"Puslapis %s"</string>
+<string name="remove_subject">"Pašalinti temą"</string>
+<string name="toast_message_when_memory_full">"Atmintis pilna, atlaisvinkite šiek tiek vietos ir pakartotinai paleiskite"</string>
+<string name="toast_save_classzero_message_failed">"Neliko laisvos vietos, nepavyko išsaugoti pranešimo"</string>
+<string name="toast_shared_file_failed">"Nepalaikomas media failas, nepavyko pasidalinti."</string>
+<string name="message_too_many_recipients_picked">"Atsiprašome, jūs negalite pridėti daugiau nei <xliff:g id="COUNT">%1$s</xliff:g> kontaktų vienu metu""</string>
+<string name="pref_title_manage_sim_smsc">"SMS Paslaugų centras"</string>
+<string name="smsc_set_fails">"Smsc nustatymas nepavyko"</string>
+<string name="smsc_set_success">"Sėkmingai nustatyta."</string>
+<string name="smsc_change_success">"Sėkmingai pakeista."</string>
+<string name="smsc_add_success">"Sėkmingai pridėta"</string>
+<string name="received_new_wap_contact">"Gautas SMS Vkortelės pranešimas"</string>
+<string name="save_new_wap_contact">"Išsaugoti"</string>
+<string name="cancle_new_wap_contact">"Atšaukti"</string>
+<string name="menu_sim_message">"SIM kortelės pranešimai"</string>
+<string name="folder_display_option">"Rodyti pasirinktį"</string>
+<string name="confirm_open_browser_dialog_title">"Pranešimas"</string>
+<string name="confirm_open_browser_dialog_message">"Bus atidaryta naršyklė,tęsti?"</string>
+<plurals name="delete_confirm">
+<item quantity="one">"Pasirinkti 1 elementą"</item>
+<item quantity="other">"Pasirinkite <xliff:g id="del_count">%1$s</xliff:g> elementus"</item>
+</plurals>
+<string name="select_sim_card">"Pasirinkite SIM kortelę"</string>
+<string name="menu_video_call_back">"Vaizdo skambutis <xliff:g id="name">%s</xliff:g>"</string>
+<string name="menu_edit_before_call_back">"Redaguoti prieš skambinimą <xliff:g id="name">%s</xliff:g>"</string>
+<string name="min_zoom">"pasiektas minimumas"</string>
+<string name="max_zoom">"pasiektas maksimumas"</string>
+<string name="sms_merge_forward">"Sujungti ir persiųsti"</string>
+<string name="sms_merge_dialog_title">"Skubus"</string>
+<string name="sms_merge_dialog_content">"Galite sujungti nuo 2 iki 30 SMS pranešimų. Prašom patikrinti."</string>
+<string name="sms_merge_forward_empty">"Nėra sujungiamų ir persiunčiamų SMS pranešimų."</string>
+<string name="sms_forwarding_number">"SMS persiuntimo nustatymas"</string>
+<string name="pref_sms_forwarding_number_title">"SMS persiuntimo numeris"</string>
+<string name="pref_sms_forwarding_number_summary">"SMS persiuntimas su gavėjo numeriu"</string>
+<string name="sim_list_title">"Pasirinkite SIM kortelę"</string>
+<string name="type_vcard">"kontaktas"</string>
+<string name="type_vcalendar">"Kalendorius"</string>
+<string name="attach_vcard">"Kontaktas"</string>
+<string name="attach_vcalendar">"Kalendorius"</string>
+<string name="add_slide_before">"Pridėti skaidrę(prieš)"</string>
+<string name="add_slide_after">"Pridėti skaidrę(po)"</string>
+<string name="re_take_picture">"Nepavyko išsaugoti nuotraukos,nupaveiksluokite dar kartą."</string>
+<string name="exceed_text_length_limitation">"Viršyta teksto ilgio riba."</string>
+<string name="move_message_to_phone_memory">"Pranešimas sėkmingai nukopiuotas į telefono atmintį"</string>
+<string name="can_not_copy_the_message">"Negalima nukopijuoti pranešimo"</string>
+<string name="confirm_import_vcard">"Importuoyi šią VCard？"</string>
+<string name="pref_title_manage_simx_smsc">"SIM<xliff:g id="COUNT">%1$s</xliff:g> SMS paslaugų centras"</string>
+<string name="simx_settings_title">"SIM<xliff:g id="COUNT">%1$s</xliff:g> nustatymas"</string>
+<string name="pref_summary_sms_validity">"Trumpųjų žinučių galiojimas"</string>
+<string-array name="prefEntries_mms_validity">
+<item>"1 val."</item>
+<item>"12 val."</item>
+<item>"24 val."</item>
+<item>"2 d."</item>
+<item>"Maksimalus"</item>
+</string-array>
+<string-array name="prefEntries_mms_priority">
+<item>"Aukšta"</item>
+<item>"Įprastas"</item>
+<item>"Maža"</item>
+</string-array>
+<string name="pref_title_mms_validity">"Multimedijos pranešimo galiojimas"</string>
+<string name="pref_summary_mms_validity">"Multimedijos pranešimo galiojimas"</string>
+<string name="pref_title_mms_priority">"Prioritetas"</string>
+<string name="pref_summary_mms_priority">"Prioritetų nustatymas"</string>
+<string name="sim_settings_title">"SIM kortelės nustatymas"</string>
+<string name="toast_copy_to_simx_success">"Sėkmingai nukopijuota į<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_simx_failure">"Nepavyko nukopijuoti į<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_simx_memory_full">"<xliff:g id="COUNT">%1$s</xliff:g>yra pilna"</string>
+<string name="pref_title_manage_sim_x_setting">"Tvarkyti SIM<xliff:g id="COUNT">%1$s</xliff:g> Nustatymai"</string>
+<string name="pref_title_mms_creation_mode">"Kūrimo režimas"</string>
+<string-array name="mms_creation_mode_entries">
+<item>"Ribotas"</item>
+<item>"Įspėjimas"</item>
+<item>"Nemokama"</item>
+</string-array>
+<string name="exceed_resolution_limit">"Viršyta rezoliucijos riba"</string>
+<string name="want_to_add_media">"Ar norite pridėti šį <xliff:g id="NAME">%1$s</xliff:g> savo pranešime?"</string>
+<string name="mms_can_not_add_vcard">"Ištrinti esamą priedą, kad būtų galima pridėti kontaktus"</string>
+<string name="mms_can_not_add_vcalendar">"Ištrinti esamą priedą, kad būtų galima pridėti skaidrę"</string>
+<string name="converting_to_text_message">"Konvertuojama į tekstinius pranešimus..."</string>
+<string name="select_calendar">"Rinktis darbotvarkę"</string>
+<string name="no_calendar">"Nėra darbotvarkės"</string>
+<string name="exceed_slides_number_message">"Pasirinkta <xliff:g id="NUMBER">%1$s</xliff:g> darbotvarkių，Maks. yra <xliff:g id="NUMBER">%2$s</xliff:g> darbotvarkių"</string>
+<string name="add_to_blacklist">"PRIDĖTI Į JUODĄJĮ SĄRAŠĄ"</string>
+<string name="failed_addToBlacklist">"Nepavyko pridėti prie juodojo sąrašo."</string>
+<string name="creating_slideshow_title">"Kuriamas skaidrių demonstravimas"</string>
+<string name="attachment_vcalendar">"Vkalendorius"</string>
+<string name="attachment_vcard">"vcard"</string>
+<string name="text_limited_warning">"Įvesties apribojimas"</string>
+<string name="subject_text_length_limitation">"Pasiekta temos ilgio apribojimo riba."</string>
+<string name="attach_commonPhrases">"Bendros frazės"</string>
+<string name="commonphrase_empty">"Nėra bendrų frazių"</string>
+<string name="quick_reply">"Greiti atsakai"</string>
+<string name="common_messages">"Bendra frazė"</string>
+<string name="common_add_text">"Naujiena"</string>
+<string name="common_delete_text">"Ištrinti"</string>
+<string name="common_delete_message">"Patvirtinti ištrynimą?"</string>
+<string name="common_delete">"Ištrinti"</string>
+<string name="common_phrase_contextmenu_title">"Valdymo meniu"</string>
+<string name="common_edit">"Redaguoti"</string>
+<string name="commonphrase_delete_empty">"Negalima ištrinti nė vienos frazės"</string>
+<string name="common_phrase_edit_dialog_title">"Parinktys"</string>
+<string name="common_phrase_edit_dialog_inform">"Išsaugoti redaguotą ?"</string>
+<string name="common_phrase_edit_max_length">"Pasiekta įvesties apribojimo riba!"</string>
+<string name="common_messages_edit">"Redaguoti bendrą frazę"</string>
+<string name="common_save">"Išsaugoti"</string>
+<string name="common_cancel">"Atšaukti"</string>
+<string name="add_empty_common_messages">"Įvesti bet kurį simbolį"</string>
+<string name="pref_other_settings_title">"Kita"</string>
+<string name="pre_key_title_common_messages">"Bendra frazė"</string>
+<string name="common_phrase_selection">"Rinktis bendras frazes"</string>
+<string name="wap_push_message_dialog_title">""Wap Push pranešimas"</string>
+<string name="open_website">""Atidaryti tinklalapį"</string>
+<string name="activity_not_found">"Nerasta tinkama programa"</string>
+<string name="add_contact">"Įdėti kontaktus"</string>
+<string name="receive_from">"Gauti iš %s"</string>
+<string name="send_from">"Siųsti iš %s"</string>
+<string name="dl_expired_wap_push">"Yra <xliff:g id="COUNT">%1$s</xliff:g> nebegaliojančių wap pranešimų, kurie bus ištrinti."</string>
+<string name="invalid_recipient">"Neteisingas gavėjas"</string>
+<string name="max_recipients_count">"Gavėjų riba yra <xliff:g id="MAXCOUNT">%1$s</xliff:g>."</string>
+<string name="no_media_selected">"Nepasirinktas joks media failas!"</string>
+<string name="search_max_length">"Paieškos sakinys per ilgas, bus apribota iki 512."</string>
+<string name="sim_capacity_used">"Panaudota:"</string>
+<string name="sim_capacity_total">"Iš viso:"</string>
+<string name="too_many_contacts">"Gavėjų riba yra <xliff:g id="MAXLIMIT">%1$s</xliff:g>, bus pridėta <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> gavėjų bus pridėta."</string>
+<string name="delivery_toast_body_expired">"Pranešimas nebegalioja %s."</string>
+<string name="discard_dialog">"Jūs tikrai norite atsisakyti šios informacijos?"</string>
+<string name="contacts_count_excceeds">"Jūs jau pridėjote <xliff:g id="MAXLIMIT">%1$s</xliff:g> gavėjų,daugiau nebegalima pridėti."</string>
+<string name="copy">"Kopijuoti"</string>
+<string name="received_new_wap_vcalendar">"Gautas SMS Vkalendoriaus pranešimas"</string>
+<string name="remove_vcalendar_first">"Ištrinkite prisegtą vkalendorių ir pirmiausia jį redaguokite."</string>
+<string name="remove_vcard_first">"Ištrinkite prisegtą vkortelę ir pirmiausia ją redaguokite."</string>
+<string name="import_vcalendar">"Importuoti VKalendorių"</string>
+<string name="no_vcalendar">"Nerastas joks VKalendorius"</string>
+<string name="import_vcalendar_fail">"Nebuvo galima importuoti VKalendoriaus."</string>
+<string name="unable_to_add_all">"Pasiekta pranešimo riba, kai kurios dalys nėra pridėtos."</string>
+<string name="replce_slideshow_dilaog_dismiss">"Pakeitus skaidrių demonstravimą, esamas priedas bus ištrintas,ar norite tęsti?"</string>
+<string name="pref_title_sms_retry_times">"Įjungti SMS siuntimo kartojimą"</string>
+<string name="smsc_list">"SMS centro sąrašas"</string>
+<string name="smsc_list_empty">"Nėra SMS centro numerių"</string>
+<string name="smsc_list_loading">"Įkeliama"</string>
+<string name="smsc_list_menu_edit">"Redaguoti"</string>
+<string name="smsc_list_menu_activate">"Aktyvinti"</string>
+<string name="smsc_list_not_allow_to_clear">"Neleidžiama išvalyti numerio"</string>
+<string name="smsc_list_empty_number">"Paspauskite, norėdami pridėti naują numerį"</string>
+<string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g> prisegtas failas išsaugotas<xliff:g id="path">%2$s</xliff:g>,<xliff id="fail">%3$d</xliff> nepavyko išsaugoti prisegto failo"</string>
+<string name="box_msg_list_menu_addtocontacts">"Pridėti prie Žmonių"</string>
+<string name="box_msg_list_menu_call">"Skambinti"</string>
+<string name="box_msg_list_menu_editbeforecall">"Redaguoti prieš skambinimą"</string>
+<string name="box_msg_list_menu_videocall">"Vaizdo sk."</string>
+<string name="soundrecorder_fail_msg">"Nepavyksta paleisti garso įrašytuvo."</string>
+<string name="camera_fail_msg">"Nepavyksta paleisti fotoaparato."</string>
+<string name="video_fail_msg">"Nepavyksta paleisti vaizdo įrašo."</string>
+<string name="pref_encode_type_setting_title">"Kodavimo tipo nustatymas"</string>
+<string name="pref_encode_type_title">"Kodavimas tipas"</string>
+<string name="confirm_convert_to_mms">"Gavėjai turi elektroninį paštą, pranešimas bus išsiųstas kaip MMS"</string>
+<string name="send_as_mms">"Siųsti MMS"</string>
+<string name="send_as_sms">"Siųsti tik SMS"</string>
+<string name="protected_file">"Negalima pridėti apsaugoto failo"</string>
+<string name="success_to_send_sms">"SMS sėkmingai išsiųstas"</string>
+<string name="confirm_ota_message">"Patvirtinti OTA nustatymus?"</string>
+<string name="confirm_ota">"Gerai"</string>
+<string name="cancel_ota">"Atšaukti"</string>
+<string name="ota_cancelled">"OTA nustatymai atšaukti."</string>
+<string name="message_too_big_for_audio">"Pranešimas užima per daug vietos, kad butų galima prisegti garso įrašą."</string>
+<string name="contacts_count_can_send">"Brangus kliente, gavėjai viršyjo sistemos ribą, leidžiama tik siųsti <xliff:g id="MAXLIMIT">%1$s</xliff:g> , prašom siųsti dalimis."</string>
+<string name="attach_common_messages">"Bendros frazės"</string>
+<string name="attach_subject">"Tema"</string>
+<string name="add_contacts_dialog_title">"Pridėti kontaktus"</string>
+<string name="add_contact_as_text">"teksto pranešimas"</string>
+    <string name="action_next">"Kitas"</string>
+     <string name="sms_forward">"Persiųsti"</string>
+     <string name="valid_sub">"negaliojanti SIM kortelė"</string>
+     <string name="confirm_import_vcalendar">"Importuoti šį Vcalendar?"</string>
+     <string name="confirm_save_otherfiles">"Išsaugoti šį priedą?"</string>
+     <string name="pref_notification_settings_title_sim1">"sim1 Pranešimai"</string>
+     <string name="pref_notification_settings_title_sim2">"sim2 Pranešimai"</string>
+     <string name="pref_notification_settings_title_sim">"sim Pranešimai"</string>
+     <string name="dlg_media_removed">"Priedas su neteisingu failo adresu buvo pašalintas, tęsti siuntimą?"</string>
+     <string name="toast_media_removed">"Priedas su neteisingu failo adresu buvo pašalintas, prašome patikrinti!"</string>
+     <string name="dl_failure_roaming">"Tarptinklinio ryšio būseną, nepavyko parsiųsti žinutės!"</string>
+     <string name="recipient_invalid">"<xliff:g id="invalid_number" example="1">%1$s</xliff:g> Gavėjai (-ių) neteisingi"</string>
+     <string name="recipient_invalid_detail">"Neteisingi(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+     <string name="recipient_changed_detail">"Pakeisti(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+
+</resources>

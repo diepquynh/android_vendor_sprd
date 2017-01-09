@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sprd.opm"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:sharedUserId="android.uid.phone" >
+
+    <uses-sdk android:targetSdkVersion="21"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
+
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name=".OPApplication"
+        android:persistent="true">
+
+        <meta-data
+            android:name="dmkey"
+            android:value="A100000860" />
+
+        <service
+            android:name="cn.richinfo.dm.service.DMService"
+            android:exported="true" >
+
+        </service>
+
+        <receiver android:name="cn.richinfo.dm.receiver.DMBroadCastReceiver">
+            <intent-filter >
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="com.dmyk.android.telephony.action.SIM_STATE_CHANGED"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.dmyk.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="cn.richinfo.dmyk.action.APPINFO" />
+                <action android:name="cn.richinfo.dmyk.action.APPINFO_RETRY" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="cn.richinfo.dmyk.action.REGISITER" />
+                <action android:name="cn.richinfo.dmyk.action.REGISITER_RETRY" />
+                <action android:name="cn.richinfo.dmyk.action.HEARTBEAT" />
+                <action android:name="cn.richinfo.dmyk.action.HEARTBEAT_RETRY" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="cn.richinfo.dmyk.action.APN" />
+                <action android:name="cn.richinfo.dmyk.action.APN_RETRY" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="com.dmyk.android.telephony.action.VOLTE_STATE_CHANGE" />
+                <action android:name="com.dmyk.android.telephony.action.APN_STATE_CHANGE" />
+            </intent-filter>
+
+        </receiver>
+
+    </application>
+
+</manifest>

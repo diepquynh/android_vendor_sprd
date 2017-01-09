@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/describe_view_default_margin_or_padding"
+        android:text="@string/sensibility_text"
+        android:textSize="@dimen/default_text_size" />
+
+    <SeekBar
+        android:id="@+id/sensor_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/describe_view_default_margin_or_padding"
+        android:layout_marginRight="@dimen/describe_view_default_margin_or_padding"
+        android:background="@drawable/background_main_num_new"
+        android:progress="90"
+        android:progressDrawable="@drawable/blank"
+        android:thumb="@drawable/pointer" />
+
+</LinearLayout>

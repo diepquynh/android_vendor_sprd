@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_number">"Vast.ott:"</string>
+<string name="cancel_call">"Peruuta"</string>
+<string name="delivery_toast_body_fail">"Viesti, jota ei otettu vastaan %s mennessä."</string>
+<string name="read_report_toast_body">"Viesti, joka luettiin %s mennessä."</string>
+<string name="read_report_toast_body_fail">"Viesti, jota ei luettu %s mennessä."</string>
+<string name="delivery_toast_body_fail_rejected">"Viesti, joka evätiin %s mennessä."</string>
+<string name="user_not_exist">"Käyttäjä ei ole olemassa."</string>
+<string name="menu_resend">"Lähetä uudelleen"</string>
+<string name="low_storage_toast">"Pieni tila! Pyyhi joitakin tiedostoja tilan vapauttamiseksi."</string>
+<string name="failed_to_download_mms">"MMS lataus ei onnistunut, yritä myöhemmin uudelleen"</string>
+<string name="failed_to_send_mms">"MMS lähetys ei onnistunut, yritä myöhemmin uudelleen"</string>
+<string name="success_to_send_mms">"MMS lähetys onnistui"</string>
+<string name="sim_card_not_ready">"Sim-kortti ei ole valmis"</string>
+<string name="sim_is_invalid">"Sim-kortti ei ole valmis"</string>
+<string name="on_progress">"Käsittelee, odota..."</string>
+<string name="pref_internal_memory_usage_title">"MMS/Käytettävissä/Yhteensä"</string>
+<string name="pref_internal_memory_usage_progress_summary">"Muistitilan laskeminen..."</string>
+<string name="please_wait_title">"Odottaa..."</string>
+<string name="sim_card_setting">"SIM-kortin asetus"</string>
+<string name="multi_sim_manage_messages_title">"Viestit SIM<xliff:g id="COUNT">%1$S</xliff:g>"</string>
+<string name="pref_title_manage_sim_setting">"Käsittele SIM-asetukset"</string>
+<string name="pref_summary_manage_sim_setting">"Käsittele viestejä, joita säilytetään SIM-kortilla, toimitusraportteja, umpeen menneitä aikoja, Smsc asetuksia, jne."</string>
+<string name="pref_summary_notification_ringtone">"Oletussoittoääni"</string>
+<string name="pref_summary_notification_ringtone_silent">"Hiljaisuus"</string>
+<string name="menu_sim_capacity">"SIM kapasiteetti"</string>
+<string name="pref_title_manage_multi_sim_messages">"Käsittele viestejä SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="pref_summary_manage_multi_sim_messages">"Käsittele viestejä SIM:kortilla varastoituna<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_sim_success">"Tuloksena menee SIM-kortille"</string>
+<string name="toast_copy_to_sim_failure">"Ei pysty kopioimaan SIM-kortille"</string>
+<string name="toast_sim_memory_full">"SIM-muisti on täynnä"</string>
+<string name="toast_copy_to_multi_sim_success">"Tuloksena menee SIM-kortille<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_multi_sim_failure">"Ei pystynyt kopioimaan SIM-kortille<xliff:g id="COUNT">%1$s<xl></xl></xliff:g>"</string>
+<string name="toast_multi_sim_memory_full">"SIM <xliff:g id="COUNT">%1$S</xliff:g> muisti täynnä"</string>
+<plurals name="conversation_num">
+<item quantity="one">"Sinulla on 1 keskustelu."</item>
+<item quantity="other">"Sinulla on <xliff:g id="number">%1$s</xliff:g> keskustelua."</item>
+</plurals>
+<string name="count_of_new_mms">"%s uutta viestiä"</string>
+<string name="pref_summary_store_sms_on_sim">"Kun saat uuden SMS-viestin, tallenna se SIM-kortille tai älä"</string>
+<string name="pref_title_store_sms_on_sim">""Tallenna SMS-viesti SIM-kortille”"</string>
+<string name="pref_title_sms_validity">"SMS voimassaolo"</string>
+<string-array name="prefEntries_sms_validity">
+<item>"Ei asetettu"</item>
+<item>"1 tunti"</item>
+<item>"6 tuntia"</item>
+<item>"24 tuntia"</item>
+<item>"2 päivää"</item>
+<item>"1 viikko"</item>
+<item>"Maximi"</item>
+</string-array>
+<string name="done_slide_show">"Valmis"</string>
+<string name="smsc_check_fdn_failure">"Viestisi keskusnumero ei kuulu fdn-luetteloon."</string>
+<string name="muti_select_all">"Valitse kaikki"</string>
+<string name="menu_select_none">"Poista kaikki valinnat"</string>
+<string name="Conversation_check_type_selected_all">"Valitse kaikki"</string>
+<string name="menu_msg_folder">"Kansion kuva"</string>
+<string name="menu_msg_list">"Viestin kuva"</string>
+<string name="folder_inbox">"Postilaatikko"</string>
+<string name="folder_outbox">"Lähtevät"</string>
+<string name="folder_sent">"Lähetetyt"</string>
+<string name="folder_drafts">"Luonnokset"</string>
+<string name="folder_empty">"Ei viestiä tässä kansiossa."</string>
+<string name="folder_display_all">"Näyttää kaikki viestit"</string>
+<string name="folder_delete_messages">"Poista viestejä"</string>
+<string name="folder_loading">"Lataa.."</string>
+<string name="folder_reply">"Vastaa"</string>
+<string name="folder_forward">"Lähetä edelleen"</string>
+<string name="no_msg_del">"Ei viestejä pyyhitty"</string>
+<string name="exceed_slides_number_limitation">"Saavutti diakuvien rajamäärän "</string>
+<string name="has_vcard_or_vcalendar_attachment">"Siinä on jo <xliff:g id="TYPE">%1$s</xliff:g>, ei voi lisätä enempää"</string>
+<string name="folder_sortby">"Lajitteluperuste"</string>
+<string-array name="sort_type">
+<item>"Ajan mukaan"</item>
+<item>"Osoitteen mukaan"</item>
+</string-array>
+<string name="OTAConfig_title">"OTAKonfig asetukset"</string>
+<string name="OTAConfig_Message">"Haluatko varmasti tallentaa OTA konfig?"</string>
+<string name="OTAConfiy_Success">"OTA viestin asetukset onnistuivat"</string>
+<string name="OTAConfiy_Error">"OTA konfig vika""</string>
+<string name="ota_pin_error">"OTA tturvallisuusvika"</string>
+<string name="ota_retry">"salasanavirhe"</string>
+<string name="ota_pin_exception">"OTA konfig vika：ohjelmavika."</string>
+<string name="ota_mime_error">"OTA konfig vika：viestitiedon vika."</string>
+<string name="ota_support_not">"OTA konfig vika：<xliff:g id="OTATYPE">%1$s</xliff:g> ei tuettu tyyppi."</string>
+<string name="pref_reply_path_title">"Vastaa polkuasetuksiin"</string>
+<string name="pref_title_reply_path">"Vastaa polkuun"</string>
+<string name="pref_summary_reply_path">"Vastaa saman keskuksen kautta"</string>
+<string name="cannot_add_picture_and_vcard">"Ei pysty lisäämään vkorttia ja kuvaa yhteen diaan."</string>
+<string name="mms_setting">"MMS asetus"</string>
+<string name="pref_title_font_size">"Kirjasinkoon asetus"</string>
+<string name="font_size_setting">"Kirjasinkoon asetus"</string>
+<string name="font_size">"Kirjasinkoko on: <xliff:g id="font_size_id">%1$s</xliff:g>"</string>
+<string name="menu_copy_to_sim_memory">"Kopioi viesti SIM-kortille"</string>
+<string name="menu_add_recipient_to_contacts">"Lisää <xliff:g id="name">%s</xliff:g>yhteyksiin "</string>
+<string name="action_done">"Valmis"</string>
+<string name="message_signature_setting">"Allekirjoituksen asetus"</string>
+<string name="pref_signature_enable_title">"Vaihtoehtoinen allekirjoitus"</string>
+<string name="pref_signature_enabl_summary">"Liittää automaattisesti allekirjoituksen jokaiseen MMS-viestiin jonka lähetät "</string>
+<string name="pref_signature_input_title">"Muokkaa allekirjoitus"</string>
+<string name="pref_signature_input_summary">"Kirjoita tähän allekirjoituksesi asettamiseksi "</string>
+<string name="pref_signature_input_limited">"Allekirjoitus on saavuttanut rajansa "</string>
+<string name="pref_hint_signature_edittext">"Kirjoita allekirjoituksesi"</string>
+<string name="toast_append_signature_failed">"Allekirjoituksen liittäminen MMS:ään epäonnistui, diojen  koko on saavutettu"</string>
+<string name="pageIndex">"Sivu %s"</string>
+<string name="remove_subject">"Poista aihe"</string>
+<string name="toast_message_when_memory_full">"Muisti on täynnä, vapauta tilaa ja käynnistä uudelleen "</string>
+<string name="toast_save_classzero_message_failed">"Ei tilaa jäljellä, viestin tallennus epäonnistui"</string>
+<string name="toast_shared_file_failed">"Tukematon mediatiedosto, jakaminen epäonnistui."</string>
+<string name="message_too_many_recipients_picked">"Et valitettavasti voi lisätä enempää, kuin <xliff:g id="COUNT">%1$s</xliff:g> yhteyttä per aika""</string>
+<string name="pref_title_manage_sim_smsc">"SMS palvelukeskus"</string>
+<string name="smsc_set_fails">"Smsc asetus epäonnistui"</string>
+<string name="smsc_set_success">"Asetus onnistus."</string>
+<string name="smsc_change_success">"Muutos onnistui."</string>
+<string name="smsc_add_success">"Lisäys onnistui"</string>
+<string name="received_new_wap_contact">"Vastaanotti SMS Vkortin viestin"</string>
+<string name="save_new_wap_contact">"Tallenna"</string>
+<string name="cancle_new_wap_contact">"Peruuta"</string>
+<string name="menu_sim_message">"Viestit SIM-kortilla"</string>
+<string name="folder_display_option">"Näyttöoptio"</string>
+<string name="confirm_open_browser_dialog_title">"Viesti"</string>
+<string name="confirm_open_browser_dialog_message">"Se avaa selaimen, jatkatko?"</string>
+<plurals name="delete_confirm">
+<item quantity="one">"Valitse 1 erä"</item>
+<item quantity="other">"Valitse <xliff:g id="del_count">%1$s</xliff:g> erät"</item>
+</plurals>
+<string name="select_sim_card">"Valitse SIM-kortti"</string>
+<string name="menu_video_call_back">"Videosoitto <xliff:g id="name">%s</xliff:g>"</string>
+<string name="menu_edit_before_call_back">"Muokkaa ennen soittoa <xliff:g id="name">%s</xliff:g>"</string>
+<string name="min_zoom">"saavutti minimin"</string>
+<string name="max_zoom">"saavutti maksimin"</string>
+<string name="sms_merge_forward">"Yhdistä ja lähetä eteenpäin"</string>
+<string name="sms_merge_dialog_title">"Kehotus"</string>
+<string name="sms_merge_dialog_content">"Voit yhdistää ainoastaan 2 ja 30 SMS-viestin välillä. Tarkista se."</string>
+<string name="sms_merge_forward_empty">"Ei SMS-viestiä yhdistettäväksi ja lähetettäväksi."</string>
+<string name="sms_forwarding_number">"SMS eteenpäinlähetysasetus"</string>
+<string name="pref_sms_forwarding_number_title">"SMS eteenpäinlähetysnumero"</string>
+<string name="pref_sms_forwarding_number_summary">"Eteenpäinlähetys SMS-viesti vastaanottajan numerolla "</string>
+<string name="sim_list_title">"Valitse SIM-kortti"</string>
+<string name="type_vcard">"yhteystieto"</string>
+<string name="type_vcalendar">"Kalenteri"</string>
+<string name="attach_vcard">"Yhteystieto"</string>
+<string name="attach_vcalendar">"Kalenteri"</string>
+<string name="add_slide_before">"Lisää dia (ennen)"</string>
+<string name="add_slide_after">"Lisää dia (jälkeen)"</string>
+<string name="re_take_picture">"Kuvan tallentaminen epäonnistuu, kaappaa kuva uudelleen."</string>
+<string name="exceed_text_length_limitation">"Ylitit tekstipituuden rajoituksen."</string>
+<string name="move_message_to_phone_memory">"Viestin kopioiminen onnistui puhelimen muistiin "</string>
+<string name="can_not_copy_the_message">"Ei pysty kopioimaan viestiä"</string>
+<string name="confirm_import_vcard">"Tuotko tämän VKortin？"</string>
+<string name="pref_title_manage_simx_smsc">"SIM<xliff:g id="COUNT">%1$s</xliff:g> SMS Palvelukeskus"</string>
+<string name="simx_settings_title">"SIM<xliff:g id="COUNT">%1$s</xliff:g> Asetus"</string>
+<string name="pref_summary_sms_validity">"Lyhyen viestin voimassaolo"</string>
+<string-array name="prefEntries_mms_validity">
+<item>"1 tunti"</item>
+<item>"12 tuntia"</item>
+<item>"24 tuntia"</item>
+<item>"2 päivää"</item>
+<item>"Maximi"</item>
+</string-array>
+<string-array name="prefEntries_mms_priority">
+<item>"Korkea"</item>
+<item>"Normaali"</item>
+<item>"Matala"</item>
+</string-array>
+<string name="pref_title_mms_validity">""Multimedia viestin voimassaolo"</string>
+<string name="pref_summary_mms_validity">""Multimedia viestin voimassaolo"</string>
+<string name="pref_title_mms_priority">"Tärkeät"</string>
+<string name="pref_summary_mms_priority">"Etusijan asetus"</string>
+<string name="sim_settings_title">"SIM-kortin asetus"</string>
+<string name="toast_copy_to_simx_success">"Onnistunut kopio <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_simx_failure">"Epäonnistunut kopio<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_simx_memory_full">"<xliff:g id="COUNT">%1$s</xliff:g>on täynnä"</string>
+<string name="pref_title_manage_sim_x_setting">"Käsittele SIM<xliff:g id="COUNT">%1$s</xliff:g> Asetuksia"</string>
+<string name="pref_title_mms_creation_mode">"Luontitila"</string>
+<string-array name="mms_creation_mode_entries">
+<item>"Rajoitettu"</item>
+<item>"Varoitus"</item>
+<item>"Vapaa"</item>
+</string-array>
+<string name="exceed_resolution_limit">"Erottelukyky ylitti rajan"</string>
+<string name="want_to_add_media">"Haluatko lisätä tämän <xliff:g id="NAME">%1$s</xliff:g> viestiisi?"</string>
+<string name="mms_can_not_add_vcard">""Pyyhi olemassaolevia liitteitä yhteyksien lisäämiseksi”"</string>
+<string name="mms_can_not_add_vcalendar">"Pyyhi olemassaolevat liitteet dian lisäämiseksi "</string>
+<string name="converting_to_text_message">"Muutetaan tekstiviestiin..."</string>
+<string name="select_calendar">"Valitse työlista"</string>
+<string name="no_calendar">"Ei työlistaa"</string>
+<string name="exceed_slides_number_message">"Valittu <xliff:g id="NUMBER">%1$s</xliff:g> työtaulu，Max on <xliff:g id="NUMBER">%2$s</xliff:g> työlista"</string>
+<string name="add_to_blacklist">"LISÄÄ MUSTAAN LISTAAN"</string>
+<string name="failed_addToBlacklist">"Lisäys mustaan listaan epäonnistui."</string>
+<string name="creating_slideshow_title">"Diaesityksen luominen"</string>
+<string name="attachment_vcalendar">"Vkalenteri"</string>
+<string name="attachment_vcard">"vkortti"</string>
+<string name="text_limited_warning">"Syötön rajoitus"</string>
+<string name="subject_text_length_limitation">"On saavuttanut kohteen pituuden rajoituksen."</string>
+<string name="attach_commonPhrases">"Yleislausekkeet"</string>
+<string name="commonphrase_empty">"Ei yleislausekkeita"</string>
+<string name="quick_reply">"Pikavastaukset"</string>
+<string name="common_messages">"Yleislauseke"</string>
+<string name="common_add_text">"Uusi"</string>
+<string name="common_delete_text">"Poista"</string>
+<string name="common_delete_message">"Vahvistatko pyyhkimisen?"</string>
+<string name="common_delete">"Poista"</string>
+<string name="common_phrase_contextmenu_title">"Toiminnan valikko"</string>
+<string name="common_edit">"Muokkaa"</string>
+<string name="commonphrase_delete_empty">"Ei vaihetta voida pyyhkiä"</string>
+<string name="common_phrase_edit_dialog_title">"Asetukset"</string>
+<string name="common_phrase_edit_dialog_inform">"Tallennatko muokkauksesi ?"</string>
+<string name="common_phrase_edit_max_length">"On saavuttanut syötön rajoituksen!"</string>
+<string name="common_messages_edit">"Muokkaa yleislauseke"</string>
+<string name="common_save">"Tallenna"</string>
+<string name="common_cancel">"Peruuta"</string>
+<string name="add_empty_common_messages">"Syötä joku kirjainmerkki"</string>
+<string name="pref_other_settings_title">"Muu"</string>
+<string name="pre_key_title_common_messages">"Yleislauseke"</string>
+<string name="common_phrase_selection">"Valitse yleislausekkeita"</string>
+<string name="wap_push_message_dialog_title">""Wap Push viesti"</string>
+<string name="open_website">"Avaa verkkopalsta"</string>
+<string name="activity_not_found">"Ei löytynyt sopivaa sovellutusta "</string>
+<string name="add_contact">"Liitä yhteydet"</string>
+<string name="receive_from">"Vastaanottanut %s:sta"</string>
+<string name="send_from">"Lähettänyt %s:sta"</string>
+<string name="dl_expired_wap_push">"Siinä on <xliff:g id="COUNT">%1$s</xliff:g> wap viestiä mennyt umpeen, ne pyyhitään."</string>
+<string name="invalid_recipient">"Pätemätön vastaanottaja"</string>
+<string name="max_recipients_count">"Vastaanottajien rajoitus on <xliff:g id="MAXCOUNT">%1$s</xliff:g>."</string>
+<string name="no_media_selected">"Ei mediaa ole valittu!"</string>
+<string name="search_max_length">"Hakulause on liian pitkä, rajoitetaan 512:hin."</string>
+<string name="sim_capacity_used">"Käytetty:"</string>
+<string name="sim_capacity_total">"Yhteensä:"</string>
+<string name="too_many_contacts">"Vastaanottajien rajoitus on <xliff:g id="MAXLIMIT">%1$s</xliff:g>, lisää keula <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> vastaannottajia lisätään."</string>
+<string name="delivery_toast_body_expired">"Viesti meni %s:n umpeen."</string>
+<string name="discard_dialog">"Haluatko todellakin jakaa tämän tiedon?"</string>
+<string name="contacts_count_excceeds">"Olet jo lisännyt <xliff:g id="MAXLIMIT">%1$s</xliff:g> vastaanottajiin, ei voi lisätä enempää."</string>
+<string name="copy">"Kopioi"</string>
+<string name="received_new_wap_vcalendar">"Vastaanotti SMS Vkalenteriviestin"</string>
+<string name="remove_vcalendar_first">"Pyyhi vkalenteri, joka on liitetty ensin tämän muokkaamiseksi."</string>
+<string name="remove_vcard_first">"Pyyhi vkortti, joka on liitetty ensin tämän muokkaamiseksi."</string>
+<string name="import_vcalendar">"Tuo Vkalenteri"</string>
+<string name="no_vcalendar">"Ei Vkalenteria löytynyt"</string>
+<string name="import_vcalendar_fail">"Ei pystynyt tuomaan Vkalenteria."</string>
+<string name="unable_to_add_all">"Viestin kokoraja saavutettu, jotkut osat ei ole lisätty."</string>
+<string name="replce_slideshow_dilaog_dismiss">"Vaihda diaesitys pyyhkii nykyisen liitteen, yritätkö jatkaa?"</string>
+<string name="pref_title_sms_retry_times">"Kytke SMS uudelleenyritys päälle"</string>
+<string name="smsc_list">"SMS keskuslista"</string>
+<string name="smsc_list_empty">"Ei SMS keskuksen numeroita"</string>
+<string name="smsc_list_loading">"Lataus"</string>
+<string name="smsc_list_menu_edit">"Muokkaa"</string>
+<string name="smsc_list_menu_activate">"Aktivoi"</string>
+<string name="smsc_list_not_allow_to_clear">"Ei salli numeroiden pyyhkimistä"</string>
+<string name="smsc_list_empty_number">"Napauta uuden numeron lisäämiseksi "</string>
+<string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g> liite tallennettu kohtaan<xliff:g id="path">%2$s</xliff:g>,<xliff id="fail">%3$d</xliff> liitteen tallennnus epäonnistui"</string>
+<string name="box_msg_list_menu_addtocontacts">"Lisää Ihmiset-sovellukseen"</string>
+<string name="box_msg_list_menu_call">"Soita"</string>
+<string name="box_msg_list_menu_editbeforecall">"Muokkaa ennen soittoa"</string>
+<string name="box_msg_list_menu_videocall">"Videopuh."</string>
+<string name="soundrecorder_fail_msg">"Ei pystynyt aloittamaan ÄänenTallennusta."</string>
+<string name="camera_fail_msg">"Ei pystynyt käynnistämään kameraa."</string>
+<string name="video_fail_msg">"Ei pystynyt käynnistämään videota."</string>
+<string name="pref_encode_type_setting_title">"Kirjoitusasetuksen salakoodaus"</string>
+<string name="pref_encode_type_title">"Salakoodaustyyppi"</string>
+<string name="confirm_convert_to_mms">"Vastaanottaja sisältää sähköpostia, viesti lähetetään MMS-viestinä"</string>
+<string name="send_as_mms">"Lähetä multimediaviesti"</string>
+<string name="send_as_sms">"Lähetä vain SMS"</string>
+<string name="protected_file">"Suojeltua tiedostoa ei voida lisätä"</string>
+<string name="success_to_send_sms">"Lähetä SMS onnistui"</string>
+<string name="confirm_ota_message">"Vahvistatko OTA-asetukset?"</string>
+<string name="confirm_ota">"OK"</string>
+<string name="cancel_ota">"Peruuta"</string>
+<string name="ota_cancelled">"OTA asetukset peruutettu."</string>
+<string name="message_too_big_for_audio">"Viesti on liian pitkä ääneen lisättäväksi."</string>
+<string name="contacts_count_can_send">"Hyvä asiakas, vastaanottaja on ylittänyt järjestelmän rajan, voidaan lähettää vain <xliff:g id="MAXLIMIT">%1$s</xliff:g> , lähetä eriä."</string>
+<string name="attach_common_messages">"Yleislausekkeet"</string>
+<string name="attach_subject">"Aihe"</string>
+<string name="add_contacts_dialog_title">"Lisää yhteydet"</string>
+<string name="add_contact_as_text">"tekstiviesti"</string>
+    <string name="action_next">"Seuraava"</string>
+     <string name="sms_forward">"Lähetä edelleen"</string>
+     <string name="valid_sub">"epäkelpo SIM kortti"</string>
+     <string name="confirm_import_vcalendar">"Tuo tämä Vkelenteri?"</string>
+     <string name="confirm_save_otherfiles">"Tallenna tämä liite?"</string>
+     <string name="pref_notification_settings_title_sim1">"sim1 ilmoitukset"</string>
+     <string name="pref_notification_settings_title_sim2">"sim2 ilmoitukset"</string>
+     <string name="pref_notification_settings_title_sim">"sim ilmoitukset"</string>
+     <string name="dlg_media_removed">"Media ilman oikeaa polkua  liitteessä poistettiin, jatketaanko lähettämistä?"</string>
+     <string name="toast_media_removed">"Media ilman oikeaa polkua liitteessä poistettiin, tarkista!"</string>
+     <string name="dl_failure_roaming">"Roaming-tila, ei voitu ladata viestiä!"</string>
+     <string name="recipient_invalid">"<xliff:g id="invalid_number" example="1">%1$s</xliff:g> Vastaanottaja virheellinen"</string>
+     <string name="recipient_invalid_detail">"Virheellinen(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+     <string name="recipient_changed_detail">"Vaihdettu(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+
+</resources>

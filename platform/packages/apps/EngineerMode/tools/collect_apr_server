@@ -1,0 +1,31 @@
+#!/system/bin/sh
+
+cmd=$1
+REFRESH_ACTION="com.sprd.engineermode.debuglog.refresh_ui"
+
+function usage
+{
+  echo "Usage: collect_apr_server enable"
+  echo "       collect_apr_server disable"
+}
+
+if [ "$cmd" = "" ] ; then
+  usage
+  exit 1
+fi
+
+if [ "$cmd" = "enable" ] ; then
+  # enable collect apr
+  setprop persist.sys.apr.enabled 1
+elif [ "$cmd" = "disable" ] ; then
+  # disable collect apr
+  setprop persist.sys.apr.enabled 0
+else
+  # error
+  echo "not support commond!"
+  usage
+  exit 1
+fi
+# refresh ui
+am broadcast -a $REFRESH_ACTION
+

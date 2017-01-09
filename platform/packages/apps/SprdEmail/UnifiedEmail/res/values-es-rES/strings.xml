@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="from">"De"</string>
+<string name="to">"Para"</string>
+<string name="cc">"Cc"</string>
+<string name="bcc">"Cco"</string>
+<string name="subject_hint">"Asunto"</string>
+<string name="body_hint">"Redactar un correo electrónico"</string>
+<string name="add_file_attachment">"Adjuntar un archivo"</string>
+<string name="add_photo_attachment">"Adjuntar imagen"</string>
+<string name="save_draft">"Guardar como borrador"</string>
+<string name="discard">"Descartar"</string>
+<string name="compose">"Redactar"</string>
+<string name="compose_title">"Redactar"</string>
+<string-array name="compose_modes">
+<item>"Responder"</item>
+<item>"Responder a todos"</item>
+<item>"Atrás"</item>
+</string-array>
+<string name="reply_attribution">"En <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> escribió:"</string>
+<string name="forward_attribution">"---------- Mensaje reenviado ----------&lt;br&gt;Desde: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;Fecha: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;Asunto: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;Para: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;"</string>
+<string name="forward_attribution_no_headers">"---------- Mensaje reenviado ----------"</string>
+<string name="cc_attribution">"Cc: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;"</string>
+<string name="select_attachment_type">"Elegir el tipo de archivo adjunto"</string>
+<string name="too_large_to_attach_single">"No se puede adjuntar un archivo que supere el límite de <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+<string name="too_large_to_attach_multiple">"No se adjuntaron uno o varios archivos. Se alcanzó el límite de <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+<string name="too_large_to_attach_additional">"No se adjuntó el archivo. Se alcanzó el límite de <xliff:g id="maxSize">%1$s</xliff:g>"</string>
+<string name="generic_attachment_problem">"No se pudo adjuntar el archivo."</string>
+<string name="attachment_permission_denied">"Permiso denegado para el anexo."</string>
+<string name="recipient_needed">"Agregue al menos un destinatario."</string>
+<string name="confirm_send_message_with_no_subject">"El asunto del mensaje está vacío."</string>
+<string name="confirm_send_message_with_no_body">"El cuerpo del mensaje está vacío."</string>
+<string name="confirm_send_message">"¿Desea enviar este mensaje?"</string>
+<string name="message_discarded">"Mensaje descartado"</string>
+<string name="signature">"\n\n<xliff:g id="signature">%s</xliff:g>"</string>
+<string name="custom_from_account_label">"Enviar correo como:"</string>
+<string name="send">"Enviar"</string>
+<string name="mark_read">"Marcar como leído"</string>
+<string name="mark_unread">"Marcar como no leído"</string>
+<string name="toggle_read_unread">"Lectura del conmutador sin leer"</string>
+<string name="mute">"SILENCIO"</string>
+<string name="add_star">"Añadir asterisco"</string>
+<string name="remove_star">"Eliminar asterisco"</string>
+<string name="remove_folder">"Eliminar de <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<string name="archive">"Archivar"</string>
+<string name="report_spam">"Notificar spam"</string>
+<string name="mark_not_spam">"Informar que no es spam"</string>
+<string name="report_phishing">"Denunciar suplantación de identidad"</string>
+<string name="delete">"eliminar"</string>
+<string name="discard_drafts">"Descartar borradores"</string>
+<string name="discard_failed">"Error al descartar"</string>
+<string name="refresh">"Actualizar"</string>
+<string name="reply">"Responder"</string>
+<string name="reply_all">"Responder a todos"</string>
+<string name="resume_draft">"Editar"</string>
+<string name="forward">"Atrás"</string>
+<string name="menu_compose">"Redactar"</string>
+<string name="menu_change_folders">"Cambiar carpetas"</string>
+<string name="menu_move_to">"Mover a"</string>
+<string name="menu_move_to_inbox">"Mover a la bandeja de entrada"</string>
+<string name="menu_manage_folders">"Configuración de carpetas"</string>
+<string name="menu_show_original">"Volver a tamaño automático"</string>
+<string name="menu_settings">"Configuraciones"</string>
+<string name="menu_search">"Buscar"</string>
+<string name="menu_toggle_drawer">"Cajón del Conmutador"</string>
+<string name="drawer_title">"Navegación"</string>
+<string name="mark_important">"Marcar como importante"</string>
+<string name="mark_not_important">"Marcar como no importante"</string>
+<string name="add_cc_label">"Agregar Cc/Cco"</string>
+<string name="add_bcc_label">"Agregar Cco"</string>
+<string name="quoted_text">"Incluir el texto citado"</string>
+<string name="quoted_text_label">"Citar texto"</string>
+<string name="respond_inline">"Responder en línea"</string>
+<string name="bytes">"<xliff:g id="count">%s</xliff:g>&#160;B"</string>
+<string name="kilobytes">"<xliff:g id="count">%s</xliff:g>&#160;KB"</string>
+<string name="megabytes">"<xliff:g id="count">%s</xliff:g>&#160;MB"</string>
+<string name="attachment_image">"Imagen"</string>
+<string name="attachment_video">"Vídeo"</string>
+<string name="attachment_audio">"Audio"</string>
+<string name="attachment_text">"Texto"</string>
+<string name="attachment_application_msword">"Documento"</string>
+<string name="attachment_application_vnd_ms_powerpoint">"Presentación"</string>
+<string name="attachment_application_vnd_ms_excel">"Hoja de cálculo"</string>
+<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> Archivo"</string>
+<string name="preview_attachment">"Vista previa"</string>
+<string name="save_attachment">"Guardar"</string>
+<string name="download_again">"Volver a descargar"</string>
+<string name="remove_attachment_desc">"Remover anexo <xliff:g id="attachmentName">%s</xliff:g>"</string>
+<string name="more_info_attachment">"Info"</string>
+<string name="no_application_found">"Ninguna aplicación puede abrir este archivo adjunto para su visualización."</string>
+<string name="fetching_attachment">"Obteniendo el archivo adjunto"</string>
+<string name="please_wait">"Por favor espere\u2026"</string>
+<string name="saved">"Guardado,&#160;<xliff:g id="size">%s</xliff:g>"</string>
+<string name="download_failed">"No se pudo descargar. Toque para volver a intentarlo."</string>
+<string name="menu_photo_save_all">"Guardar todo"</string>
+<string name="menu_photo_share">"Compartir"</string>
+<string name="menu_photo_share_all">"Compartir todo"</string>
+<string name="menu_photo_print">"Imprimir"</string>
+<string name="saving">"Guardando&#8230;"</string>
+<string name="choosertitle_sharevia">"Compartir vía"</string>
+<string name="contextmenu_openlink">"Abrir en el navegador"</string>
+<string name="contextmenu_copy">"Copiar"</string>
+<string name="contextmenu_copylink">"Copiar URL de vínculo"</string>
+<string name="contextmenu_view_image">"Ver imagen"</string>
+<string name="contextmenu_dial_dot">"Marcar\u2026"</string>
+<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+<string name="contextmenu_add_contact">"Añadir contacto"</string>
+<string name="contextmenu_send_mail">"Enviar correo electrónico"</string>
+<string name="contextmenu_map">"Mapa"</string>
+<string name="contextmenu_sharelink">"Compartir vínculo"</string>
+<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> sobre <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> en <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> sobre <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> en <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> sobre <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> en <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>, etiquetas: <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="content_description_today_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> sobre <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> en <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>, etiquetas: <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="read_string">"conversación leída"</string>
+<string name="unread_string">"conversación no leída"</string>
+<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="badge_and_subject">"<xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g>"</string>
+<plurals name="draft">
+<item quantity="one">"Borrador"</item>
+<item quantity="other">"Borradores"</item>
+</plurals>
+<string name="sending">"Enviando\u2026"</string>
+<string name="message_retrying">"Reintentando\u2026"</string>
+<string name="message_failed">"Error"</string>
+<string name="send_failed">"No se envió el mensaje."</string>
+<string name="me_object_pronoun">"Yo"</string>
+<string name="me_subject_pronoun">"Yo"</string>
+<plurals name="confirm_delete_conversation">
+<item quantity="one">"¿Desea eliminar esta conversación?"</item>
+<item quantity="other">"¿Desea eliminar estas <xliff:g id="count">%1$d</xliff:g> conversaciones?"</item>
+</plurals>
+<plurals name="confirm_archive_conversation">
+<item quantity="one">"¿Desea archivar esta conversación?"</item>
+<item quantity="other">"¿Desea archivar estas <xliff:g id="count">%1$d</xliff:g> conversaciones?"</item>
+</plurals>
+<plurals name="confirm_discard_drafts_conversation">
+<item quantity="one">"¿Desea descartar este mensaje?"</item>
+<item quantity="other">"¿Desea descartar estos <xliff:g id="count">%1$d</xliff:g> mensajes?"</item>
+</plurals>
+<string name="confirm_discard_text">"¿Desea descartar este mensaje?"</string>
+<string name="loading_conversations">"Cargando\u2026"</string>
+<string name="empty_inbox">"¡No tiene nada pendiente! Que tenga un buen día."</string>
+<string name="empty_search">"¡Upss! No se encontraron resultados para \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+<string name="empty_spam_folder">"¡Hurra! No hay spam."</string>
+<string name="empty_trash_folder">"La Papelera está vacía. Gracias por reciclar."</string>
+<string name="empty_folder">"No hay correo en esta carpeta."</string>
+<string name="getting_messages">"Cargando sus mensajes"</string>
+<string name="undo">"DESHACER"</string>
+<plurals name="conversation_unstarred">
+<item quantity="one">"Eliminando el asterisco de <xliff:g id="count">%1$d</xliff:g> conversación"</item>
+<item quantity="other">"Eliminando el asterisco de <xliff:g id="count">%1$d</xliff:g> conversaciones"</item>
+</plurals>
+<plurals name="conversation_muted">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> silenciada"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> silenciada"</item>
+</plurals>
+<plurals name="conversation_spammed">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> informada como spam"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> informada como spam"</item>
+</plurals>
+<plurals name="conversation_not_spam">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> no es spam"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> no es spam"</item>
+</plurals>
+<plurals name="conversation_not_important">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> marcada como no importante"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> marcada como no importante"</item>
+</plurals>
+<plurals name="conversation_phished">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> marcada como suplantación de identidad"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> marcada como suplantación de identidad"</item>
+</plurals>
+<plurals name="conversation_archived">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> archivada"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> archivada"</item>
+</plurals>
+<plurals name="conversation_deleted">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> eliminada"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> eliminada"</item>
+</plurals>
+<string name="deleted">"Eliminada"</string>
+<string name="archived">"Archivado"</string>
+<string name="folder_removed">"Eliminada de <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<plurals name="conversation_folder_changed">
+<item quantity="one">"Carpeta modificada"</item>
+<item quantity="other">"Carpetas modificadas"</item>
+</plurals>
+<string name="conversation_folder_moved">"Mover a <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<string name="search_results_header">"Resultados"</string>
+<string name="search_unsupported">"Esta cuenta no admite la función de búsqueda."</string>
+<string name="search_suggestion_desc">"Sugerencia: <xliff:g id="suggestion">%s</xliff:g>"</string>
+<string name="add_label">"Añadir carpeta"</string>
+<plurals name="new_incoming_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> nuevo mensaje"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> nuevos mensajes"</item>
+</plurals>
+<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;Ver detalles&lt;/a&gt;"</string>
+<string name="hide_details">"Ocultar detalles"</string>
+<string name="to_message_header">"para <xliff:g id="recipients">%1$s</xliff:g>"</string>
+<string name="bcc_header_for_recipient_summary">"CCO:\u0020"</string>
+<string name="contact_info_string">"Mostrar la información de contacto de <xliff:g id="name">%1$s</xliff:g>"</string>
+<string name="contact_info_string_default">"Mostrar la información de contacto"</string>
+<plurals name="show_messages_read">
+<item quantity="other">"Expandir <xliff:g id="count" example="4">%1$d</xliff:g> mensajes antiguos"</item>
+</plurals>
+<plurals name="super_collapsed_block_accessibility_announcement">
+<item quantity="other">"Expandida <xliff:g id="count" example="4">%1$d</xliff:g> mensajes antiguos"</item>
+</plurals>
+<string name="from_heading">"Desde:"</string>
+<string name="replyto_heading">"Responder a:"</string>
+<string name="to_heading">"Para:\u0020"</string>
+<string name="to_heading_no_space">"Para:"</string>
+<string name="cc_heading">"Cc:"</string>
+<string name="bcc_heading">"CCO:"</string>
+<string name="date_heading">"Fecha:"</string>
+<string name="show_images">"Ver imágenes"</string>
+<string name="always_show_images">"Mostrar siempre las imágenes de este remitente"</string>
+<string name="always_show_images_toast">"Las imágenes de este remitente se mostrarán automáticamente."</string>
+<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> a través de  <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+<string name="message_saved">"Mensaje guardado como borrador"</string>
+<string name="sending_message">"Enviando el mensaje\u2026"</string>
+<string name="invalid_recipient">"La dirección <xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> no es válida."</string>
+<string name="show_elided">"Mostrar texto citado"</string>
+<string name="hide_elided">"\u25BC Ocultar el texto citado"</string>
+<string name="message_invite_title">"Invitación de calendario"</string>
+<string name="message_invite_calendar_view">"Ver en calendario"</string>
+<string name="message_invite_label_attending">"¿Asistirás?"</string>
+<string name="message_invite_accept">"Sí"</string>
+<string name="message_invite_tentative">"Tal vez"</string>
+<string name="message_invite_decline">"No"</string>
+<string name="enumeration_comma">",\u0020"</string>
+<string name="send_anyway">"Enviar de todas formas"</string>
+<string name="ok">"OK"</string>
+<string name="done">"Hecho"</string>
+<string name="cancel">"Cancelar"</string>
+<string name="clear">"Eliminar"</string>
+<string name="next">"Próximo"</string>
+<string name="previous">"Anterior"</string>
+<string-array name="sync_status">
+<item>"Acción finalizada correctamente"</item>
+<item>"Sin conexión"</item>
+<item>"No se ha podido acceder."</item>
+<item>"Error de seguridad"</item>
+<item>"No se pudo sincronizar."</item>
+<item>"Error interno"</item>
+<item>"Se produjo un error de servidor. "</item>
+</string-array>
+<string name="tap_to_configure">"Toque para configurarlas."</string>
+<string name="non_synced_folder_description">"Para ver conversaciones, sincronice esta carpeta."</string>
+<string name="tap_to_configure_folder_sync">"Sincronizar carpeta"</string>
+<string name="large_unseen_count">"<xliff:g id="count" example="99">%d</xliff:g>+ nuevos"</string>
+<string name="unseen_count">"<xliff:g id="count" example="4">%d</xliff:g> nuevos"</string>
+<plurals name="actionbar_unread_messages">
+<item quantity="other">"<xliff:g id="count" example="4">%1$d</xliff:g> sin leer"</item>
+</plurals>
+<string name="view_more_conversations">"Ver más conversaciones"</string>
+<string name="loading_conversation">"Cargando\u2026"</string>
+<string name="activity_mailbox_selection">"Seleccionar la cuenta"</string>
+<string name="activity_folder_selection">"Seleccionar carpeta"</string>
+<string name="folder_shortcut_widget_label">"Carpeta de correo electrónico"</string>
+<string name="change_folders_selection_dialog_title">"Cambiar carpetas"</string>
+<string name="move_to_selection_dialog_title">"Mover a"</string>
+<string name="search_hint">"Buscar"</string>
+<string name="voice_search_not_supported">"Búsqueda por voz no es compatible con este dispositivo."</string>
+<string name="search_back_desc">"Cerrar búsqueda"</string>
+<string name="search_voice_desc">"Iniciar búsqueda por voz"</string>
+<string name="search_clear_desc">"Borrar texto de búsqueda"</string>
+<string name="network_error">"Sin conexión"</string>
+<string name="retry">"Volver a procesar"</string>
+<string name="load_more">"Realizar más cargas"</string>
+<string name="shortcut_name_title">"Definir el nombre del acceso directo a la carpeta"</string>
+<string name="wait_for_sync_title">"Esperando para sincronizar"</string>
+<string name="not_synced_title">"Cuenta no sincronizada"</string>
+<string name="wait_for_manual_sync_body">"Esta cuenta no está configurada para sincronizarse automáticamente.\nToque <b>Sincronizar Nuevamente</b> para sincronizar el correo una vez, o <b>Cambie la configuración de sincronización</b> para establecer que esta cuenta sincronice el correo de forma automática."</string>
+<string name="manual_sync">"Sincronizar ahora"</string>
+<string name="change_sync_settings">"Cambiar configuraciones de sincronización"</string>
+<string name="photo_load_failed">"No se pudo cargar la imagen"</string>
+<string name="cant_move_or_change_labels">"No se puede mover porque la selección contiene varias cuentas."</string>
+<string name="multiple_new_message_notification_item">"<b><xliff:g id="sender">%1$s</xliff:g></b>\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="ignore_spam_warning">"Ignorar; confío en este mensaje."</string>
+<string name="via_domain">"a través de <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+<string name="signin">"Acceder"</string>
+<string name="info">"Info"</string>
+<string name="report">"Informe"</string>
+<string name="show">"Mostrar"</string>
+<string name="sync_error">"No se pudo sincronizar."</string>
+<string name="sync_error_message">"Su dispositivo no tiene suficiente espacio de almacenamiento para establecer la sincronización."</string>
+<string name="storage">"Almacenamiento"</string>
+<string name="senders_split_token">",\u00A0"</string>
+<string name="draft_count_format">"\u00A0(<xliff:g id="count">%1$s</xliff:g>)"</string>
+<string name="all_folders_heading">"Todas las carpetas"</string>
+<string name="recent_folders_heading">"Carpetas recientes"</string>
+<string name="message_details_title">"Detalles del mensaje"</string>
+<string name="preference_advance_to_title">"Avance automático"</string>
+<string-array name="prefEntries_autoAdvance">
+<item>"Más reciente"</item>
+<item>"Mayor"</item>
+<item>"Lista de conversaciones"</item>
+</string-array>
+<string-array name="prefSummaries_autoAdvance">
+<item>"Mostrar la conversación más reciente luego de la eliminación"</item>
+<item>"Mostrar la conversación más antigua luego de la eliminación"</item>
+<item>"Mostrar la lista de conversaciones luego de la eliminación"</item>
+</string-array>
+<string name="prefDialogTitle_autoAdvance">"Avanzar a"</string>
+<string name="clear_display_images_whitelist_title">"Borrar aprobaciones de imágenes"</string>
+<string name="clear_display_images_whitelist_dialog_title">"¿Borrar aprobaciones de imágenes?"</string>
+<string name="clear_display_images_whitelist_dialog_message">"Dejar de mostrar imágenes intercaladas de remitentes que permitió anteriormente"</string>
+<string name="sender_whitelist_cleared">"Las imágenes no se mostrarán automáticamente."</string>
+<string name="preferences_signature_title">"Firma"</string>
+<string name="preferences_signature_dialog_title">"Firma"</string>
+<string name="preferences_signature_summary_not_set">"Sin establecer"</string>
+<string name="notification_action_reply">"Responder"</string>
+<string name="notification_action_reply_all">"Responder a todos"</string>
+<string name="notification_action_archive">"Archivar"</string>
+<string name="notification_action_remove_label">"Eliminar etiqueta"</string>
+<string name="notification_action_delete">"eliminar"</string>
+<string name="notification_action_undo_archive">"Archivado"</string>
+<string name="notification_action_undo_remove_label">"Etiqueta eliminada"</string>
+<string name="notification_action_undo_delete">"Eliminada"</string>
+<string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+<plurals name="new_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> nuevo mensaje"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> nuevos mensajes"</item>
+</plurals>
+<string name="single_new_message_notification_title">"<xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="silent_ringtone">"Silencio"</string>
+<string name="preference_removal_action_title">"Acción predeterminada"</string>
+<string-array name="prefEntries_removal_action">
+<item>"Archivar"</item>
+<item>"eliminar"</item>
+</string-array>
+<string-array name="prefSummaries_removal_action_summary">
+<item>"Archivar"</item>
+<item>"eliminar"</item>
+</string-array>
+<string name="prefDialogTitle_removal_action">"Acción predeterminada"</string>
+<string name="preferences_default_reply_all_title">"Responder a todos"</string>
+<string name="preferences_default_reply_all_summary_impl">"Usar como opción predeterminada para responder mensajes"</string>
+<string name="preference_swipe_title">"Arrastrar acciones"</string>
+<string name="preference_swipe_description">"En lista de conversaciones"</string>
+<string name="preference_sender_image_title">"Imagen del remitente"</string>
+<string name="preference_sender_image_description">"Mostrar al lado del nombre en la lista de conversaciones"</string>
+<string name="empty_trash">"Vaciar papelera"</string>
+<string name="empty_spam">"Vaciar Spam"</string>
+<string name="empty_trash_dialog_title">"¿Vaciar papelera?"</string>
+<string name="empty_spam_dialog_title">"¿Vaciar Spam?"</string>
+<plurals name="empty_folder_dialog_message">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> mensaje se eliminará de forma permanente."</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> mensajes se eliminarán de forma permanente."</item>
+</plurals>
+<string name="drawer_open">"Abrir panel de navegación"</string>
+<string name="drawer_close">"Cerrar panel de navegación"</string>
+<string name="conversation_photo_welcome_text">"Toque la imagen de un remitente para seleccionar esa conversación."</string>
+<string name="long_press_to_select_tip">"Toque &amp;amp mantenga presionada una conversación para seleccionarla. Luego, toque otras conversaciones para seleccionarlas."</string>
+<string name="folder_icon_desc">"Ícono de carpeta"</string>
+<string name="add_account">"Añadir cuenta"</string>
+<string name="dismiss_tip_hover_text">"Descartar sugerencia"</string>
+<string name="auto_sync_off">"La sincronización automática está desactivada. Toque para activarla."</string>
+<string name="account_sync_off">"La sincronización de la cuenta está desactivada. Para activarla, vaya a la &lt;a href=\'http://www.example.com\'&gt;Account\u00A0settings.&lt;/a&gt;"</string>
+<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g>sin enviar en <xliff:g id="outbox">%2$s</xliff:g>"</string>
+<string name="turn_auto_sync_on_dialog_title">"¿Activar la sincronización automática?"</string>
+<string name="turn_auto_sync_on_dialog_body">"Los cambios que realice en todas las aplicaciones y cuentas, no sólo en Gmail, se sincronizarán con la Web con otros dispositivos que tenga y con su <xliff:g id="phone_or_tablet">%1$s</xliff:g>."</string>
+<string name="phone">"Teléfono"</string>
+<string name="tablet">"Tablet"</string>
+<string name="turn_auto_sync_on_dialog_confirm_btn">"Activar"</string>
+<string name="show_n_more_folders">"Mostrar <xliff:g id="number">%1$s</xliff:g> carpetas"</string>
+<string name="hide_folders">"Ocultar carpetas"</string>
+<string name="print">"Imprimir"</string>
+<string name="print_all">"Imprimir todo"</string>
+<plurals name="num_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> mensaje"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> mensajes"</item>
+</plurals>
+<string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> en <xliff:g id="time">%2$s</xliff:g>"</string>
+<string name="draft_to_heading">"Borrador para:"</string>
+<string name="draft_heading">"Borrador"</string>
+<string name="quoted_text_hidden_print">"Texto citado oculto"</string>
+<plurals name="num_attachments">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> archivo adjunto"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> archivos adjuntos"</item>
+</plurals>
+<string name="no_subject">"(Sin asunto)"</string>
+<string name="vacation_responder">"Respuesta automática"</string>
+<string name="preferences_vacation_responder_title">"Respuesta automática"</string>
+<string name="vacation_responder_body_hint_text">"Mensaje"</string>
+<string name="send_to_contacts_text">"Enviar sólo a mis contactos"</string>
+<string name="send_to_domain_text">"Enviar sólo a <xliff:g id="domain">%1$s</xliff:g>"</string>
+<string name="pick_start_date_title">"Inicio"</string>
+<string name="pick_end_date_title">"Fin (opcional)"</string>
+<string name="date_not_set">"Sin establecer"</string>
+<string name="set_end_date_dialog_title">"Fecha de finalización (opcional)"</string>
+<string name="custom_date">"Personalizado"</string>
+<string name="date_none">"Ninguno"</string>
+<string name="discard_changes">"¿Descartar cambios?"</string>
+<string name="vacation_responder_changes_saved">"Cambios de respuesta automática guardados"</string>
+<string name="vacation_responder_changes_discarded">"Cambios de respuesta automática descartados"</string>
+<string name="vacation_responder_off">"Apagado"</string>
+<string name="vacation_responder_on">"Activada, desde el <xliff:g id="date">%1$s</xliff:g>"</string>
+<string name="vacation_responder_on_with_end_date">"Activada, desde el <xliff:g id="start-date">%1$s</xliff:g> hasta el <xliff:g id="end-date">%2$s</xliff:g>"</string>
+<string name="vacation_responder_empty_subject_and_body_warning">"Agregue un asunto o mensaje."</string>
+<string name="view_entire_message">"Ver mensaje completo"</string>
+<string name="eml_loader_error_toast">"No se puede abrir este archivo."</string>
+<string name="help_and_info">"ayuda"</string>
+<string name="help_and_feedback">"Ayuda &amp; comentarios"</string>
+<string name="feedback">"Enviar comentarios"</string>
+<string name="copyright">"&#169;<xliff:g id="year" example="2010">%1$d</xliff:g> Google Inc."</string>
+<string name="version">"<xliff:g id="app_name" example="Email">%1$s</xliff:g> versión <xliff:g id="versión" example="2.2.1">%2$s</xliff:g>"</string>
+<string name="print_dialog">"Imprimir\u2026"</string>
+<string name="copyright_information">"Información de copyright"</string>
+<string name="privacy_policy">"Política de privacidad"</string>
+<string name="open_source_licenses">"Abrir licencias fuente"</string>
+<string name="reply_choice_yes">"Sí"</string>
+<string name="reply_choice_no">"No"</string>
+<string name="reply_choice_ok">"OK"</string>
+<string name="reply_choice_hehe">"Hehe"</string>
+<string name="reply_choice_thanks">"Gracias"</string>
+<string name="reply_choice_i_agree">"Estoy de acuerdo"</string>
+<string name="reply_choice_nice">"Lindo"</string>
+<string name="reply_on_my_way">"Estoy en camino."</string>
+<string name="reply_choice_later">"De acuerdo, luego le llamo."</string>
+<string name="preference_header_action_confirmations">"Confirmaciones de acción"</string>
+<string name="preference_confirm_before_delete_title">"Confirmar antes de eliminar"</string>
+<string name="preference_confirm_before_archive_title">"Confirmar antes de archivar"</string>
+<string name="preference_confirm_before_send_title">"Confirmar antes de enviar"</string>
+<string name="preferences_conversation_mode_title">"Ajuste automático de mensajes"</string>
+<string name="preferences_conversation_mode_summary">"Reducir los mensajes para que se ajusten a la pantalla"</string>
+<string name="preferences_disable_snap_headers_title">"Acciones de mensajes"</string>
+<string-array name="prefSummaries_snapHeader">
+<item>"Mostrar siempre las acciones de los mensajes en la parte superior de la pantalla"</item>
+<item>"Mostrar las acciones de los mensajes sólo en la parte superior de la pantalla cuando se la rota a la posición vertical"</item>
+<item>"No mostrar acciones de mensajes fuera del encabezado del mensaje"</item>
+</string-array>
+<string-array name="prefEntries_snapHeader">
+<item>"Mostrar siempre"</item>
+<item>"Mostrar sólo en posición vertical"</item>
+<item>"No mostrar"</item>
+</string-array>
+<string name="clear_history_title">"Eliminar historial de búsqueda"</string>
+<string name="search_history_cleared">"Se eliminó el historial de búsqueda."</string>
+<string name="clear_history_dialog_title">"¿Eliminar historial de búsqueda?"</string>
+<string name="clear_history_dialog_message">"Se eliminarán todas las búsquedas que realizó."</string>
+<string name="manage_accounts_menu_item">"Administrar cuentas"</string>
+<string name="general_preferences_title">"Configuración general"</string>
+<string name="activity_preferences">"Configuraciones"</string>
+<string name="overflow_description">"Más opciones"</string>
+<string name="security_hold_required_text">"Actualización de seguridad requerida para <xliff:g id="email_address">%1$s</xliff:g>"</string>
+<string name="update_security_text">"actualizar ahora"</string>
+<string name="forms_are_disabled">"Formas están deshabilitadas en Gmail"</string>
+<string name="add_contacts_too_much">"El número máximo de destinatarios es de 50."</string>
+<string name="account_delete_dlg_title">"Remover cuenta"</string>
+<string name="account_delete_waiting">"Eliminando, por favor espere ..."</string>
+<string name="filter_all">"Todos"</string>
+<string name="filter_receiver">"Receptor"</string>
+<string name="filter_sender">"Emisor"</string>
+<string name="filter_subject">"Asunto"</string>
+<string name="filter_content">"contenido"</string>
+<string name="search_on_server">"Buscar en el Servidor"</string>
+<string name="download_confirm_msg">"La red no es WLAN, y el adjunto es grande, por favor confirme si desea continuar"</string>
+<string name="download_deny_malware">"Tal vez un programa malicioso. No se pudo descargar."</string>
+<string name="download_deny_wifionly">"Sólo se puede descargar mientras esté WLAN."</string>
+<string name="download_deny_nointent">"Ninguna app puede abrirlo. No se pudo descargar."</string>
+<string name="download_deny_nosideload">"Volver a intentar después de permitir la instalación de apps de origen desconocido."</string>
+<string name="download_deny_apkinstall">"No se puede instalar ningún apk. No se pudo descargar."</string>
+<string name="download_deny_policy">"No se puede descargar como política de cuenta."</string>
+<string name="download_att_external">"Descarga para descargar"</string>
+<string name="save_to_where">"Adjunto es guardado correctamente en:&#160;"</string>
+<string name="missing_required_permission">"Inhabilitó un permiso necesario."</string>
+<string name="permission_change">"Puesto que los permisos cambian, vuelva a seleccionar el archivo."</string>
+<string name="permission_change_redo">"Dado que los permisos cambian, por favor, realícelo de nuevo."</string>
+<string name="preference_default_signature_title">"Firma"</string>
+<string name="signature_default">"Enviado desde mi teléfono"</string>
+<string name="set_priority_high">"Establecer prioridad alta"</string>
+<string name="set_priority_normal">"Establecer prioridad normal"</string>
+<string name="set_priority_low">"Establecer prioridad baja"</string>
+<string name="file_not_exist">"El archivo adjunto local no existe, ¡por favor, descargue de nuevo!"</string>
+<string name="body_input_more">"Lo sentimos, sólo se puede ingresar %1$s caracteres"</string>
+
+</resources>

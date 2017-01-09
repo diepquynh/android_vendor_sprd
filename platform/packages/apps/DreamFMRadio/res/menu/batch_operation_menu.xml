@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created By Spreadst -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item_add_to_favourite"
+        android:icon="@drawable/ic_menu_favorite_on"
+        android:title="@string/favorites"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/item_remove_favourite"
+        android:icon="@drawable/ic_menu_favorite_off"
+        android:title="@string/remove_favorite"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/item_delete"
+        android:icon="@drawable/ic_menu_delete_on"
+        android:title="@string/delete_title_tip"
+        android:showAsAction="always"/>
+
+</menu>

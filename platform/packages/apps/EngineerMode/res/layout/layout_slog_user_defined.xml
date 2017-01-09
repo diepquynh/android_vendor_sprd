@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+<!--  
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/left_arrow" />
+-->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/slog_defined_title"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_commit"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+			android:text="@string/slog_defined_commit"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <!-- general settings -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/slog_defined_general"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <RelativeLayout
+                android:id="@+id/rl_general_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_general_1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_general_1"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_general_1"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/iv_general_1"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/checkbox_off"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_general_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_general_2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_general_2"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_general_2"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_general_2"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/checkbox_off"
+                    android:visibility="gone"  />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <!-- AP log Settings -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/slog_defined_aplog"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <RelativeLayout
+                android:id="@+id/rl_android_log"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_android_log"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_android_log"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_aplog_1"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_android_log"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/checkbox_on" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_tcpip_log"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_tcpip_log"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_tcpip_log"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_aplog_2"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_tcpip_log"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/checkbox_off" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bt_log"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_bt_log"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_bt_log"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_aplog_3"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_bt_log"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/checkbox_on" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_ap_more"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_ap_more"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_ap_more"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_more"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_ap_more"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/slogui_option_collector" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <LinearLayout
+                android:id="@+id/ll_more_ap_log"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/slog_defined_aplog_more_title"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_ap_main"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/iv_ap_main"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/iv_ap_main"
+                        android:gravity="center_vertical"
+                        android:text="@string/slog_defined_aplog_more_1"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_ap_main"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/checkbox_on" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_ap_system"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/iv_ap_system"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/iv_ap_system"
+                        android:gravity="center_vertical"
+                        android:text="@string/slog_defined_aplog_more_2"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_ap_system"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/checkbox_on" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_ap_radio"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/iv_ap_radio"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/iv_ap_radio"
+                        android:gravity="center_vertical"
+                        android:text="@string/slog_defined_aplog_more_3"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_ap_radio"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/checkbox_on" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_ap_event"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/iv_ap_event"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/iv_ap_event"
+                        android:gravity="center_vertical"
+                        android:text="@string/slog_defined_aplog_more_4"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_ap_event"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/checkbox_on" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_ap_kernel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/iv_ap_kernel"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/iv_ap_kernel"
+                        android:gravity="center_vertical"
+                        android:text="@string/slog_defined_aplog_more_5"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_ap_kernel"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/checkbox_on" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_ap_crash"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/iv_ap_crash"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/iv_ap_crash"
+                        android:gravity="center_vertical"
+                        android:text="@string/slog_defined_aplog_more_7"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_ap_crash"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/checkbox_on" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#000000"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/slog_defined_aplog_more_groupradio"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/slog_log_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" >
+
+                    <RadioButton
+                        android:id="@+id/slog_log_level_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/slog_defined_aplog_more_groupradio_1"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/slog_log_level_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/slog_defined_aplog_more_groupradio_2"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/slog_log_level_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/slog_defined_aplog_more_groupradio_3"
+                        android:textSize="16sp" />
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#000000" />
+
+                <RelativeLayout
+                   	android:id="@+id/rl_ap_artdebug"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/iv_ap_artdebug"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/iv_ap_artdebug"
+                        android:gravity="center_vertical"
+                        android:text="@string/slog_defined_aplog_more_6"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_ap_artdebug"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/checkbox_on" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <!-- Modem Log -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/slog_defined_modemlog"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <RelativeLayout
+                android:id="@+id/rl_modem_log"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_modem_log"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_modem_log"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_modemlog_1"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_modem_log"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/checkbox_off" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_cp_tcpip_log"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_cp_tcpip_log"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_cp_tcpip_log"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_modemlog_2"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_cp_tcpip_log"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/checkbox_off" />
+            </RelativeLayout>
+
+            <!-- SPRD: Bug 568186 add CM4 log in EngineerMode @{ -->
+            <RelativeLayout
+                android:id="@+id/rl_cm4_log"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_cm4_log"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_cm4_log"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_cm4_log"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_cm4_log"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/checkbox_on" />
+            </RelativeLayout>
+            <!-- @} -->
+
+            <!-- SPRD: add voice and wcn log in EngineerMode @{ -->
+            <RelativeLayout
+                android:id="@+id/rl_arm_pcm_log"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_arm_pcm_log"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_arm_pcm_log"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_arm_pcm_log"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_arm_pcm_log"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/checkbox_on" />
+            </RelativeLayout>
+            <!-- @} -->
+
+
+
+            <RelativeLayout
+                android:id="@+id/rl_auto_dump"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_auto_dump"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_auto_dump"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_modemlog_3"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_auto_dump"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/checkbox_off" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_cp_more"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_cp_more"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_cp_more"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_more"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_cp_more"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/slogui_option_collector" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <LinearLayout
+                android:id="@+id/ll_more_cp_log"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv_iq_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="@string/slog_defined_modemlog_more_1"
+                    android:textSize="16sp"
+                     />
+
+                <TextView
+                    android:id="@+id/tv_memory_leak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="@string/slog_defined_modemlog_more_2"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_cp_log_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="@string/slog_defined_modemlog_more_3"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <!-- Dsp Log -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/slog_defined_dsplog"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <RelativeLayout
+                android:id="@+id/rl_ag_dsp_more_option"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/rl_ag_dsp_more_option"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/rl_ag_dsp_more_option"
+                    android:gravity="center_vertical"
+                    android:text="@string/ag_dsp_output_mode"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_ag_dsp_more_option"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/slogui_option_collector" />
+            </RelativeLayout>
+            <LinearLayout
+                android:id="@+id/ll_ag_dsp_output_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/rb_ag_dsp_output_disable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/ag_dsp_output_disable"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb_ag_dsp_output_uart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/ag_dsp_output_uart"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb_ag_dsp_output_usb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/ag_dsp_output_usb"
+                        android:textSize="16sp" />
+                </RadioGroup>
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/rl_ag_dsp_dump_log"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_ag_dsp_dump_log"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_ag_dsp_dump_log"
+                    android:gravity="center_vertical"
+                    android:text="@string/ag_dsp_pcm_dump_log"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_ag_dsp_dump_log"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/checkbox_on" />
+            </RelativeLayout>
+
+            <!-- SPRD: add AG-DSP log in EngineerMode @{ -->
+            <RelativeLayout
+                android:id="@+id/rl_ag_dsp_log"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_ag_dsp_log"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_ag_dsp_log"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_ag_dsp_log"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_ag_dsp_log"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/checkbox_on" />
+            </RelativeLayout>
+            <!-- @} -->
+
+            <!-- SPRD: add voice and wcn log in EngineerMode @{ -->
+            <RelativeLayout
+                android:id="@+id/rl_dsp_pcm_log"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_dsp_pcm_log"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_dsp_pcm_log"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_dsp_pcm_log"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_dsp_pcm_log"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/checkbox_on" />
+            </RelativeLayout>
+            <!-- @} -->
+
+            <RelativeLayout
+                android:id="@+id/rl_dsp_more_option"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_dsp_more_option"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_dsp_more_option"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_dsplog_2"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_dsp_more_option"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/slogui_option_collector" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_more_dsp_log"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/rb_output_uart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/slog_defined_dsplog_radio_1"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb_output_modemlog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/slog_defined_dsplog_radio_2"
+                        android:textSize="16sp" />
+                </RadioGroup>
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/rl_dsp_log"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_dsp_log"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_dsp_log"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_dsplog_1"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_dsp_log"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/checkbox_on" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <!-- WCN log -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/slog_defined_wcnlog"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <RelativeLayout
+                android:id="@+id/rl_cp_bt_log"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_cp_bt_log"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_cp_bt_log"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_wcnlog_1"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_cp_bt_log"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/checkbox_on" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_gps_log"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_gps_log"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_gps_log"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_wcnlog_2"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_gps_log"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/checkbox_on" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_dump_wcn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_dump_wcn"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/iv_dump_wcn"
+                    android:gravity="center_vertical"
+                    android:text="@string/slog_defined_wcnlog_3"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/iv_dump_wcn"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/checkbox_on" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

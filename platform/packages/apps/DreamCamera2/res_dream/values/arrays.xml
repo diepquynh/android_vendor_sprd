@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="camera_modes_in_nav_drawer_if_supported">
+        <item>@integer/camera_mode_auto_photo</item>
+        <item>@integer/camera_mode_manual</item>
+        <item>@integer/camera_mode_continue</item>
+        <item>@integer/camera_mode_interval</item>
+        <item>@integer/camera_mode_panorama</item>
+        <item>@integer/camera_mode_refocus</item>
+        <item>@integer/camera_mode_scene</item>
+        <item>@integer/camera_mode_pip</item>
+        <item>@integer/camera_mode_gcam</item>
+        <item>@integer/camera_mode_gif_photo</item>
+        <item>@integer/camera_mode_scenery</item>
+
+        <item>@integer/camera_mode_auto_video</item>
+        <item>@integer/camera_mode_viv</item>
+        <item>@integer/camera_mode_timelapse</item>
+        <item>@integer/camera_mode_slowmotion</item>
+        <item>@integer/camera_mode_gif_video</item>
+        <item>@integer/camera_mode_audio_picture</item>
+        <item>@integer/camera_mode_vgesture</item>
+        <item>@integer/camera_mode_qrcode</item>
+        <item>@integer/camera_mode_filter</item>
+        <item>@integer/camera_mode_capture_intent</item>
+        <item>@integer/camera_mode_video_intent</item>
+    </integer-array>
+
+    <!-- An array of camera mode indices in the sequence of their appearance
+    in the mode drawer. -->
+
+    <!-- Camera modes that each supported mode is nested in in nav drawer. -->
+    <integer-array name="camera_mode_nested_in_nav_drawer">
+        <item>@integer/camera_mode_auto_photo</item>
+        <item>@integer/camera_mode_manual</item>
+        <item>@integer/camera_mode_continue</item>
+        <item>@integer/camera_mode_interval</item>
+        <item>@integer/camera_mode_panorama</item>
+        <item>@integer/camera_mode_refocus</item>
+        <item>@integer/camera_mode_scene</item>
+        <item>@integer/camera_mode_pip</item>
+        <item>@integer/camera_mode_gcam</item>
+        <item>@integer/camera_mode_gif_photo</item>
+        <item>@integer/camera_mode_scenery</item>
+
+        <item>@integer/camera_mode_auto_video</item>
+        <item>@integer/camera_mode_viv</item>
+        <item>@integer/camera_mode_timelapse</item>
+        <item>@integer/camera_mode_slowmotion</item>
+        <item>@integer/camera_mode_gif_video</item>
+        <item>@integer/camera_mode_audio_picture</item>
+        <item>@integer/camera_mode_vgesture</item>
+        <item>@integer/camera_mode_qrcode</item>
+        <item>@integer/camera_mode_filter</item>
+        <item>@integer/camera_mode_capture_intent</item>
+        <item>@integer/camera_mode_video_intent</item>
+    </integer-array>
+
+    <integer-array name="camera_modes_always_visible"></integer-array>
+
+    <integer name="camera_mode_auto_photo">0</integer>
+    <integer name="camera_mode_manual">1</integer>
+    <integer name="camera_mode_continue">2</integer>
+    <integer name="camera_mode_interval">3</integer>
+    <integer name="camera_mode_panorama">4</integer>
+    <integer name="camera_mode_refocus">5</integer>
+    <integer name="camera_mode_scene">6</integer>
+    <integer name="camera_mode_pip">7</integer>
+    <integer name="camera_mode_gcam">8</integer>
+    <integer name="camera_mode_gif_photo">9</integer>
+    <integer name="camera_mode_scenery">10</integer>
+    <integer name="camera_mode_auto_video">11</integer>
+    <integer name="camera_mode_viv">12</integer>
+    <integer name="camera_mode_timelapse">13</integer>
+    <integer name="camera_mode_slowmotion">14</integer>
+    <integer name="camera_mode_gif_video">15</integer>
+    <integer name="camera_mode_audio_picture">16</integer>
+    <integer name="camera_mode_vgesture">17</integer>
+    <integer name="camera_mode_qrcode">18</integer>
+    <integer name="camera_mode_max_index">18</integer>
+    <integer name="camera_mode_filter">19</integer>
+    <integer name="camera_mode_capture_intent">20</integer>
+    <integer name="camera_mode_video_intent">21</integer>
+
+    <array name="camera_mode_icon">
+        <item>@drawable/ic_auto_mode_sprd_unselected</item>
+        <item>@drawable/ic_manual_mode_sprd_unselected</item>
+        <item>@drawable/ic_burst_mode_sprd_unselected</item>
+        <item>@drawable/ic_interval_mode_sprd_unselected</item>
+        <item>@drawable/ic_pano_mode_sprd_unselected</item>
+        <item>@drawable/ic_aperture_mode_sprd_unselected</item>
+        <item>@drawable/ic_scenes_mode_sprd_unselected</item>
+        <item>@drawable/ic_pip_mode_sprd_unselected</item>
+        <item>@drawable/ic_frame_mode_sprd_unselected</item>
+        <item>@drawable/ic_gif_mode_sprd_unselected</item>
+        <item>@drawable/ic_frame_mode_sprd_unselected</item>
+
+        <item>@drawable/ic_video_mode_sprd_unselected</item>
+        <item>@drawable/ic_pip_mode_sprd_unselected</item>
+        <item>@drawable/ic_time_lapse_mode_sprd_unselected</item>
+        <item>@drawable/ic_slow_motion_mode_sprd_unselected</item>
+        <item>@drawable/ic_gif_mode_sprd_unselected</item>
+        <item>@drawable/ic_pic_with_sound_mode_sprd_unselected</item>
+        <item>@drawable/ic_gesture_mode_sprd_unselected</item>
+        <item>@drawable/ic_qr_code_mode_sprd_unselected</item>
+    </array>
+
+    <array name="camera_mode_selected_icon">
+        <item>@drawable/ic_auto_mode_sprd_selected</item>
+        <item>@drawable/ic_manual_mode_sprd_selected</item>
+        <item>@drawable/ic_burst_mode_sprd_selected</item>
+        <item>@drawable/ic_interval_mode_sprd_selected</item>
+        <item>@drawable/ic_pano_mode_sprd_selected</item>
+        <item>@drawable/ic_aperture_mode_sprd_selected</item>
+        <item>@drawable/ic_scenes_mode_sprd_selected</item>
+        <item>@drawable/ic_pip_mode_sprd_selected</item>
+        <item>@drawable/ic_frame_mode_sprd_selected</item>
+        <item>@drawable/ic_gif_mode_sprd_selected</item>
+        <item>@drawable/ic_frame_mode_sprd_selected</item>
+
+        <item>@drawable/ic_video_mode_sprd_selected</item>
+        <item>@drawable/ic_pip_mode_sprd_selected</item>
+        <item>@drawable/ic_time_lapse_mode_sprd_selected</item>
+        <item>@drawable/ic_slow_motion_mode_sprd_selected</item>
+        <item>@drawable/ic_gif_mode_sprd_selected</item>
+        <item>@drawable/ic_pic_with_sound_mode_sprd_selected</item>
+        <item>@drawable/ic_gesture_mode_sprd_selected</item>
+        <item>@drawable/ic_qr_code_mode_sprd_selected</item>
+    </array>
+
+    <string-array name="camera_mode_text">
+        <item>@string/camera_mode_auto_photo</item>
+        <item>@string/camera_mode_manual</item>
+        <item>@string/pref_camera_continuous_capture_title</item>
+        <item>@string/camera_mode_interval</item>
+        <item>@string/mode_panorama</item>
+        <item>@string/mode_refocus</item>
+        <item>@string/camera_mode_scene</item>
+        <item>@string/camera_mode_pip</item>
+        <item>@string/camera_mode_gcam</item>
+        <item>@string/camera_mode_gif</item>
+        <item>@string/camera_mode_scenery</item>
+
+        <item>@string/mode_video</item>
+        <item>@string/camera_mode_viv</item>
+        <item>@string/mode_timelapse</item>
+        <item>@string/camera_mode_slowmotion</item>
+        <item>@string/camera_mode_gif</item>
+        <item>@string/camera_mode_audio_picture</item>
+        <item>@string/camera_mode_vgesture</item>
+        <item>@string/camera_mode_qrcode</item>
+    </string-array>
+
+    <array name="camera_mode_cover_icon">
+        <item>@drawable/ic_camera_blanket</item>
+        <item>@drawable/ic_manual_blanket</item>
+        <item>@drawable/ic_burst_blanket</item>
+        <item>@drawable/ic_interval_blanket</item>
+        <item>@drawable/ic_pano_blanket</item>
+        <item>@drawable/ic_aperture_blanket</item>
+        <item>@drawable/ic_scenes_blanket</item>
+        <item>@drawable/ic_pip_blanket</item>
+        <item>@drawable/ic_camera_blanket</item>
+        <item>@drawable/ic_gif_blanket</item>
+        <item>@drawable/ic_frame_blanket</item>
+
+        <item>@drawable/ic_video_blanket</item>
+        <item>@drawable/ic_pip_blanket</item>
+        <item>@drawable/ic_time_lapse_blanket</item>
+        <item>@drawable/ic_slow_motion_blanket</item>
+        <item>@drawable/ic_gif_blanket</item>
+        <item>@drawable/ic_pic_with_sound_blanket</item>
+        <item>@drawable/ic_gesture_blanket</item>
+        <item>@drawable/ic_qr_code_blanket</item>
+        <item>@drawable/ic_camera_blanket</item>
+        <item>@drawable/ic_camera_blanket</item>
+        <item>@drawable/ic_video_blanket</item>
+    </array>
+
+    <string-array name="camera_mode_content_description">
+        <item>@string/mode_camera_desc</item>
+        <item>@string/mode_camera_desc</item>
+        <item>@string/pref_camera_continuous_capture_title</item>
+        <item>@string/camera_mode_interval</item>
+        <item>@string/mode_panorama_desc</item>
+        <item>@string/mode_refocus_desc</item>
+        <item>@string/camera_mode_scene</item>
+        <item>@string/camera_mode_pip</item>
+        <item>@string/camera_mode_gcam</item>
+        <item>@string/camera_mode_gif</item>
+        <item>@string/camera_mode_scenery</item>
+
+        <item>@string/mode_video</item>
+        <item>@string/camera_mode_viv</item>
+        <item>@string/mode_timelapse</item>
+        <item>@string/camera_mode_slowmotion</item>
+        <item>@string/camera_mode_gif</item>
+        <item>@string/camera_mode_audio_picture</item>
+        <item>@string/camera_mode_vgesture</item>
+        <item>@string/camera_mode_qrcode</item>
+    </string-array>
+
+    <array name="dream_camera_mode_shutter_icon">
+        <item>@drawable/ic_capture_camera_sprd</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+        <item>@drawable/ic_capture_refocus</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+
+        <item>@drawable/ic_capture_video_sprd</item>
+        <item>@drawable/ic_capture_video_sprd</item>
+        <item>@drawable/ic_capture_video_sprd</item>
+        <item>@drawable/ic_capture_video_sprd</item>
+        <item>@drawable/ic_capture_video_sprd</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+        <item>@drawable/ic_capture_video_sprd</item>
+    </array>
+
+    <integer name="mode_support_all">-1</integer>
+    <integer name="mode_support_photo">0</integer>
+    <integer name="mode_support_video">1</integer>
+    <integer name="mode_support_none">999</integer>
+    <integer name="camera_support_all">-1</integer>
+    <integer name="camera_support_back">0</integer>
+    <integer name="camera_support_front">1</integer>
+    <integer name="camera_support_none">999</integer>
+
+    <integer-array name="dream_module_mode_support_list">
+        <item>@integer/mode_support_photo</item>
+        <item>@integer/mode_support_photo</item>
+        <item>@integer/mode_support_photo</item>
+        <item>@integer/mode_support_photo</item>
+        <item>@integer/mode_support_photo</item>
+        <item>@integer/mode_support_photo</item>
+        <item>@integer/mode_support_photo</item>
+        <item>@integer/mode_support_photo</item>
+        <item>@integer/mode_support_photo</item>
+        <item>@integer/mode_support_photo</item>
+        <item>@integer/mode_support_photo</item>
+
+        <item>@integer/mode_support_video</item>
+        <item>@integer/mode_support_none</item>
+        <item>@integer/mode_support_video</item>
+        <item>@integer/mode_support_video</item>
+        <item>@integer/mode_support_video</item>
+        <item>@integer/mode_support_photo</item>
+        <item>@integer/mode_support_photo</item>
+        <item>@integer/mode_support_photo</item>
+        <item>@integer/mode_support_photo</item>
+        <item>@integer/mode_support_none</item>
+        <item>@integer/mode_support_none</item>
+    </integer-array>
+
+    <integer-array name="dream_module_camera_support_list">
+        <item>@integer/camera_support_all</item>
+        <item>@integer/camera_support_back</item>
+        <item>@integer/camera_support_back</item>
+        <item>@integer/camera_support_front</item>
+        <item>@integer/camera_support_back</item>
+        <item>@integer/camera_support_back</item>
+        <item>@integer/camera_support_back</item>
+        <item>@integer/camera_support_all</item>
+        <item>@integer/camera_support_back</item>
+        <item>@integer/camera_support_all</item>
+        <item>@integer/camera_support_all</item>
+
+        <item>@integer/camera_support_all</item>
+        <item>@integer/camera_support_all</item>
+        <item>@integer/camera_support_back</item>
+        <item>@integer/camera_support_back</item>
+        <item>@integer/camera_support_all</item>
+        <item>@integer/camera_support_all</item>
+        <item>@integer/camera_support_front</item>
+        <item>@integer/camera_support_back</item>
+        <item>@integer/camera_support_all</item>
+        <item>@integer/camera_support_all</item>
+        <item>@integer/camera_support_all</item>
+    </integer-array>
+
+    <array name="dream_camera_flashmode_icons" translatable="false">
+        <item>@drawable/dream_ic_flash_off</item>
+        <item>@drawable/dream_ic_flash_auto</item>
+        <item>@drawable/dream_ic_flash_on</item>
+    </array>
+    <array name="dream_video_flashmode_icons" translatable="false">
+        <item>@drawable/dream_ic_flash_on</item>
+        <item>@drawable/dream_ic_flash_off</item>
+    </array>
+    <array name="dream_gif_flashmode_icons" translatable="false">
+        <item>@drawable/dream_ic_flash_on</item>
+        <item>@drawable/dream_ic_flash_off</item>
+    </array>
+    <array name="dream_camera_id_icons" translatable="false">
+        <item>@drawable/dream_ic_switch_camera_back</item>
+        <item>@drawable/dream_ic_switch_camera_front</item>
+    </array>
+    <array name="dream_camera_hdr_icons" translatable="false">
+        <item>@drawable/dream_ic_hdr_off</item>
+        <item>@drawable/dream_ic_hdr_on</item>
+    </array>
+    <array name="dream_countdown_duration_icons" translatable="false">
+        <item>@drawable/dream_ic_timer_off</item>
+        <item>@drawable/dream_ic_timer_3s</item>
+        <item>@drawable/dream_ic_timer_10s</item>
+    </array>
+    <array name="dream_countdown_duration_icons_without_off" translatable="false">
+        <item>@drawable/dream_ic_timer_3s</item>
+        <item>@drawable/dream_ic_timer_10s</item>
+    </array>
+    <array name="dream_metering_icons" translatable="false">
+        <item>@drawable/dream_ic_metering_average</item>
+        <item>@drawable/dream_ic_metering_center</item>
+        <item>@drawable/dream_ic_metering_spot</item>
+    </array>
+    <array name="metering_descriptions" translatable="false">
+        <item>@string/pref_camera_metering_entry_value_center_weighted</item>
+        <item>@string/pref_camera_metering_entry_value_frame_average</item>
+        <item>@string/pref_camera_metering_entry_value_spot_metering</item>
+    </array>
+    <array name="dream_make_up_icons" translatable="false">
+        <item>@drawable/dream_ic_make_up_off</item>
+        <item>@drawable/dream_ic_make_up_on</item>
+    </array>
+    <array name="dream_make_up_descriptions" translatable="false">
+        <item>@string/setting_off</item>
+        <item>@string/setting_on</item>
+    </array>
+    <array name="video_flash_descriptions" translatable="false">
+      <item>@string/flash_off_desc</item>
+      <item>@string/flash_on_desc</item>
+    </array>
+    <array name="video_flashmode_icons" translatable="false">
+        <item>@drawable/ic_flash_off</item>
+        <item>@drawable/ic_flash_on</item>
+    </array>
+    <string-array name="pref_video_flashmode_entryvalues" translatable="false">
+        <item>torch</item>
+        <item>off</item>
+    </string-array>
+
+    <array name="gif_flash_descriptions" translatable="false">
+      <item>@string/flash_off_desc</item>
+      <item>@string/flash_on_desc</item>
+    </array>
+    <array name="gif_flashmode_icons" translatable="false">
+        <item>@drawable/ic_flash_off</item>
+        <item>@drawable/ic_flash_on</item>
+    </array>
+
+    <string-array name="pref_gif_flashmode_entryvalues" translatable="false">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+
+    <!-- SPRD: dev new feature white balance start -->
+    <string-array name="pref_camera_whitebalance_entries" translatable="false">
+        <item>@string/pref_camera_whitebalance_entry_auto</item>
+        <item>@string/pref_camera_whitebalance_entry_daylight</item>
+        <item>@string/pref_camera_whitebalance_entry_cloudy</item>
+        <item>@string/pref_camera_whitebalance_entry_incandescent</item>
+        <item>@string/pref_camera_whitebalance_entry_fluorescent</item>
+    </string-array>
+    <string-array name="pref_camera_whitebalance_entryvalues" translatable="false">
+        <item>auto</item>
+        <item>daylight</item>
+        <item>cloudy-daylight</item>
+        <item>incandescent</item>
+        <item>fluorescent</item>
+    </string-array>
+
+    <!-- Icons for flash icons -->
+    <array name="pref_camera_qrcode_flash_indicators" translatable="false">
+        <item>@drawable/ic_flash_off</item>
+        <item>@drawable/ic_flash_on</item>
+    </array>
+
+    <!-- Icons for qrcode gallery icons -->
+    <array name="pref_camera_qrcode_gallery_indicators" translatable="false">
+        <item>@drawable/ic_gallery_indicator_sprd</item>
+        <item>@drawable/ic_gallery_indicator_disabled_sprd</item>
+    </array>
+</resources>

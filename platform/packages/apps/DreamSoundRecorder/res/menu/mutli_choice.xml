@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Spreadst -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item_share"
+        android:icon="@drawable/ic_editor_share"
+        android:showAsAction="always"
+        android:title="@string/operate_share"/>
+    <item
+        android:id="@+id/item_delete"
+        android:icon="@drawable/ic_editor_delete"
+        android:showAsAction="always"
+        android:title="@string/menu_recording_list_delete"/>
+
+    <item
+        android:id="@+id/sub_item_select_all"
+        android:enabled="true"
+        android:showAsAction="never"
+        android:title="@string/menu_recording_list_select_all" />
+    <item
+        android:id="@+id/sub_item_rename"
+        android:enabled="true"
+        android:showAsAction="never"
+        android:title="@string/rename" />
+    <item
+        android:id="@+id/sub_item_set_ring"
+        android:enabled="true"
+        android:showAsAction="never"
+        android:title="@string/set_as_ring" />
+    <item
+        android:id="@+id/sub_view_details"
+        android:enabled="true"
+        android:showAsAction="never"
+        android:title="@string/view_file_details" />
+
+
+</menu>

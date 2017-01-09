@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    coreApp="true"
+    package="com.sprd.reliance.plugins"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <application>
+        <meta-data
+            android:name="isFeatureAddon"
+            android:value="true" />
+
+        <meta-data
+            android:name="targetPackages_LowBatteryCallUtils_plugin"
+            android:value="com.android.phone;com.android.dialer;com.android.contacts;com.android.contacts.commom" />
+        <meta-data
+            android:name="targetPackages_SettingsReliancePlugin"
+            android:value="com.android.settings" />
+        <meta-data
+            android:name="targetPackages_CallSettingsReliancePlugin"
+            android:value="com.android.callsettings" />
+        <meta-data
+            android:name="targetPackages_ReliancePolicy"
+            android:value="com.android.phone" />
+
+        <meta-data
+            android:name="featureClassNames_LowBatteryCallUtils_plugin"
+            android:value="plugin.sprd.CallUtilsPlugin.AddonLowBatteryCallUtils" />
+        <meta-data
+            android:name="featureClassNames_SettingsReliancePlugin"
+            android:value="com.sprd.settings.SettingsReliancePlugin" />
+        <meta-data
+            android:name="featureClassNames_CallSettingsReliancePlugin"
+            android:value="com.sprd.callsettings.callsettingsrelianceplugin.CallSettingsReliancePlugin" />
+        <meta-data
+            android:name="featureClassNames_DialerReliancePlugin"
+            android:value="com.sprd.dialer.DialerReliancePlugin" />
+        <meta-data
+            android:name="featureClassNames_ReliancePolicy"
+            android:value="plugin.sprd.operatorpolicy.OperatorPolicyFactory" />
+    </application>
+
+</manifest>

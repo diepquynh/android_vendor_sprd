@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/black_menu_add"
+        android:icon="@drawable/ic_add_contact_holo_dark"
+        android:title="@string/BlaclList_Menu_Add"/>
+    <item
+        android:id="@+id/black_menu_delete"
+        android:showAsAction="withText"
+        android:title="@string/BlaclList_Menu_Delede_Some"/>
+    <!--SPRD: add for bug423428 @{-->
+    <item
+        android:id="@+id/add_call_menu"
+        android:showAsAction="withText"
+        android:title="@string/BlackList_Menu_Add_Call_Some"/>
+    <item
+        android:id="@+id/add_sms_menu"
+        android:showAsAction="withText"
+        android:title="@string/BlackList_Menu_Add_Sms_Some"/>
+    <item
+        android:id="@+id/add_call_with_sms_menu"
+        android:showAsAction="withText"
+        android:title="@string/BlackList_Menu_Add_Call_With_Sms_Some"/>
+    <!-- }-->
+    <item
+        android:id="@+id/black_menu_cancel"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/cancel"/>
+    <item
+        android:id="@+id/black_menu_delete_confirm"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/done"
+        android:enabled="false"/>
+
+</menu>

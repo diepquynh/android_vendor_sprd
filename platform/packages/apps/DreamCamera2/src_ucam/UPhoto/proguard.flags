@@ -1,0 +1,63 @@
+#
+# Copyright (C) 2011,2012 Thundersoft Corporation
+# All rights Reserved
+#
+
+-keep class * extends android.app.Activity{
+  public void onClick*(...);
+}
+
+-keep class com.ucamera.uphoto.ImageEditControlActivity{
+  public void handle*(...);
+  private void handle*(...);
+}
+
+-keepclasseswithmembernames class * {
+  public ** getDefault();
+}
+
+
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-dontpreverify
+-verbose
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+-keepclasseswithmembernames class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+-keepclasseswithmembernames class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+-keep class com.ucamera.uphoto.FeatureInfo {
+    *;
+}
+-keep class com.ucamera.uphoto.FeatureInfo$MakeupDeblemish {
+    *;
+}
+
+-keep class com.ucamera.uphoto.ViewAttributes
+-keepattributes RuntimeVisibleAnnotations
+-keep class com.ucamera.ucam.jni.ImageProcessJni {
+    public static void CMMCallback(int,int);
+}
+
+-keep public class com.ucamera.uphoto.R$*{
+    public static final int *;
+}

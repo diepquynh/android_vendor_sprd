@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (C) 2010,2012 Thundersoft Corporation
+   All rights Reserved
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/pref_gif_settings_category" >
+        <com.ucamera.ucam.settings.custom.MyListPreference
+            android:key="pref_gif_mode_pic_size_key"
+            android:layout="@layout/preference"
+            android:persistent="false"
+            android:widgetLayout="@null" />
+        <com.ucamera.ucam.settings.custom.MyListPreference
+            android:key="pref_gif_mode_pic_number_key"
+            android:layout="@layout/preference"
+            android:persistent="false"
+            android:widgetLayout="@null" />
+    <!-- <com.ucamera.ucam.settings.custom.CheckBoxPreference
+        android:key="sf_pref_revise_orientation_key"
+        android:layout="@layout/preference"
+        android:title="@string/pref_revise_orientation_title"
+        android:widgetLayout="@layout/preference_dialog" />
+    <com.ucamera.ucam.settings.custom.MyPathPreference
+        android:dialogTitle="@string/text_save_path"
+        android:key="sf_pref_ucam_select_path_key"
+        android:layout="@layout/preference2"
+        android:summary="@string/text_ucam_save_path_summary"
+        android:title="@string/text_save_path"
+        android:widgetLayout="@null" />
+    <com.ucamera.ucam.settings.custom.OtherPreference
+            android:key="sf_pref_reset_settings_key"
+            android:layout="@layout/preference"
+            android:title="@string/pref_reset_settings_title"
+            android:widgetLayout="@null" /> -->
+</PreferenceScreen>

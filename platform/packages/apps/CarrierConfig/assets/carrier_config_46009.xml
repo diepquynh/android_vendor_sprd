@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <carrier_config>
+        <string name="ecclist_withcard">112,911,000,08,118</string>
+        <string name="fake_ecclist_withcard">110,119,120,122,999</string>
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <string name="ecclist_nocard">110,119,120,122,999,112,911,000,08,118</string>
+        <string name="ecclist_withcard">112,911,000,08,118</string>
+        <string name="fake_ecclist_withcard">110,119,120,122,999</string>
+    </carrier_config>
+    <carrier_config spn="小米移动">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">小米移动</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

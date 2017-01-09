@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    coreApp="true"
+    package="com.sprd.omacp"
+    android:sharedUserId="android.uid.phone" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:process="com.android.phone"
+        android:theme="@style/AppTheme" >
+        <service
+            android:name="com.sprd.omacp.transaction.OtaOmaService"
+            android:exported="false" />
+
+        <receiver android:name="com.sprd.omacp.transaction.OtaOmaReceiver" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
+
+                <data android:mimeType="application/vnd.wap.connectivity-wbxml" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
+
+                <data android:mimeType="application/x-wap-prov.browser-bookmarks" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
+
+                <data android:mimeType="application/x-wap-prov.browser-settings" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sprd.omacp.transaction.ReceiptReceiver" >
+            <intent-filter android:priority="0" >
+                <action android:name="com.android.ApnDataConfig" />
+            </intent-filter>
+            <intent-filter android:priority="0" >
+                <action android:name="com.android.EmailDataConfig" />
+            </intent-filter>
+            <intent-filter android:priority="0" >
+                <action android:name="com.andorid.BrowserDataConfig" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (C) 2012,2013 Thundersoft Corporation
+    All rights Reserved
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ucamera.uphoto"
+    android:installLocation="auto"
+    android:versionCode="300012001"
+    android:versionName="3.0.0.012001" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:name="com.ucamera.uphoto.UPhotoApplication"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/icon_u_photo"
+        android:label="@string/text_uphoto_label"
+        android:theme="@style/Theme.UPhoto" >
+        <activity
+            android:name="com.ucamera.uphoto.ImageEditControlActivity"
+            android:icon="@drawable/icon_u_photo"
+            android:label="@string/text_uphoto_label"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.ucamera.ucam.UPhoto" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SPRD_EDITOR" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <data android:mimeType="image/*" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- fixed the bug5898 -->
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+
+                <data android:mimeType="image/*" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.UGALLERY_EDIT" />
+
+                <data android:mimeType="image/*" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ucamera.uphoto.UPhotoPreferencesActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".CropImage" />
+        <activity
+            android:name="com.ucamera.ucomm.downloadcenter.DownloadCenterActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ucamera.ucomm.downloadcenter.DownloadTabActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ucamera.ucomm.puzzle.PuzzleActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ucamera.uphoto.exception.MailSenderActivity"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.EMBED" />
+            </intent-filter>
+        </activity>
+        <!-- SNS -->
+        <!-- <activity
+            android:name="com.ucamera.ucomm.sns.ShareActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|navigation"
+            android:label="@string/sns_title_share"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.UGALLERY_SHARE" />
+
+                <data android:mimeType="image/*" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> -->
+        <!-- <activity
+            android:name="com.ucamera.ucomm.sns.AccountsActivity"
+            android:label="@string/sns_title_account_settings"
+            android:screenOrientation="portrait" /> -->
+        <!-- UGallery -->
+        <activity
+            android:name="com.ucamera.ugallery.ImageGallery"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/text_ugallery_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+                <data android:mimeType="vnd.android.cursor.dir/image" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+                <data android:mimeType="vnd.android.cursor.dir/image" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ucamera.ugallery.BaseImagePicker"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ucamera.ugallery.ViewImage"
+            android:configChanges="orientation|keyboardHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.UGallery.ViewImage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ucamera.ugallery.DefaultImagePicker"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ucamera.ucomm.puzzle.PuzzleImagePicker"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.SPRD_PUZZLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ucamera.ugallery.CropImage"
+            android:configChanges="orientation|keyboardHidden"
+            android:process=":CropImage" >
+            <intent-filter>
+                <action android:name="com.android.camera.action.CROP" />
+
+                <data android:mimeType="image/*" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.ALTERNATIVE" />
+                <category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ucamera.ugallery.preference.UGalleryPreferenceActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="com.ucamera.ugallery.provider.UCamDataProvider"
+            android:authorities="com.ucamera.uphoto.provider"
+            android:grantUriPermissions="true" />
+        <!-- UGallery END -->
+    </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+</manifest>

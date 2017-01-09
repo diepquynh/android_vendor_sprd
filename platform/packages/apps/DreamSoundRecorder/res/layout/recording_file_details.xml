@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by Spreadst -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="30dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:singleLine="true"
+            android:text="@string/file_name"
+            android:textColor="#212121"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/file_name_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="left" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:singleLine="true"
+            android:text="@string/file_size"
+            android:textColor="#212121"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/file_size_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="left">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:singleLine="true"
+            android:text="@string/file_path"
+            android:textColor="#212121"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/file_path_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:singleLine="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="left" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:singleLine="true"
+            android:text="@string/file_date"
+            android:textColor="#212121"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/file_date_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

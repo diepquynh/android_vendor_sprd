@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+        <style name="SeekBar.GRID.EFFECT" parent="android:Widget.SeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/bg_size_slider</item>
+        <item name="android:indeterminateDrawable">@drawable/bg_size_slider</item>
+        <item name="android:minHeight">10dip</item>
+        <item name="android:maxHeight">80dip</item>
+        <item name="android:paddingLeft">2dip</item>
+        <item name="android:paddingRight">2dip</item>
+        <item name="android:thumb">@drawable/bt_bg_size_slider</item>
+        <item name="android:thumbOffset">2dip</item>
+        <item name="android:focusable">true</item>
+    </style>
+</resources>

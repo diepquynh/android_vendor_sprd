@@ -1,0 +1,4 @@
+service slogmodem /system/bin/slogmodem
+    class main
+    user shell
+    group system sdcard_rw media_rw audio

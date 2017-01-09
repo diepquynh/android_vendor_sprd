@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010,2011 Thundersoft Corporation
+    All rights Reserved
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_bottom_normal_action"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/edit_bottom_bar_bg"
+    android:gravity="center"
+    android:padding="2dp"
+    android:orientation="horizontal">
+   <LinearLayout
+        android:id="@+id/layout_lock_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity = "center"
+        android:addStatesFromChildren="true"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/btn_lock_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/gallery_lock_status"
+            android:gravity = "center"
+            android:textSize="11dip"
+            android:drawablePadding="-4dp"
+            android:layout_marginTop="-2dp"
+            android:textColor="@color/gallery_bottom_text_color"
+            android:paddingBottom="2dip"
+            android:layout_weight="1"
+            android:text="@string/secret_ablum_add"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_multi_sel_operate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity = "center"
+        android:addStatesFromChildren="true">
+
+        <TextView
+            android:id="@+id/btn_multi_sel_operate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/gallery_entry_select_status"
+            android:textSize="11dip"
+            android:drawablePadding="-4dp"
+            android:layout_marginTop="-2dp"
+            android:textColor="@color/gallery_bottom_text_color"
+            android:gravity = "center"
+            android:paddingBottom="2dip"
+            android:layout_weight="1"
+            android:text="@string/text_select_image"/>
+    </LinearLayout>
+</LinearLayout>

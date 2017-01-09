@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/pdp_test" >
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="key_iot"
+        android:summaryOff="Off"
+        android:summaryOn="On"
+        android:title="Pdp Status" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="key_pdp_noretry"
+        android:summaryOff="Off"
+        android:summaryOn="On"
+        android:title="Pdp NoRetry" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="key_pdp_one"
+        android:summaryOff="Deactivate"
+        android:summaryOn="Activate"
+        android:title="PDP 1" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="key_pdp_two"
+        android:summaryOff="Deactivate"
+        android:summaryOn="Activate"
+        android:title="PDP 2" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="key_reuse_default_pdn"
+        android:summaryOff="Off"
+        android:summaryOn="On"
+        android:title="Reuse Default PDN" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+</PreferenceScreen>

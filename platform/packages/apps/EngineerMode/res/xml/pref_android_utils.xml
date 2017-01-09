@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<!--
+    <Preference
+        android:key="key_slide_settings"
+        android:title="@string/title_slide_settings"
+        android:summary="@string/summary_slide_settings" >
+        <intent
+            android:targetClass="com.sprd.engineermode.slidesettings.SlideSettingsActivity"
+            android:targetPackage="com.sprd.engineermode" >
+        </intent>
+    </Preference>
+-->
+
+
+    <!-- SPRD:modify for Bug 653299 add switch for starting window. @{ -->
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="startingwindow"
+        android:title="@string/startingwindow" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <!-- @} -->
+</PreferenceScreen>

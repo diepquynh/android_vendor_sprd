@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="camera_mode">Camera Mode</string>
+    <string name="camera_mode_auto_photo">Auto</string>
+    <string name="camera_mode_manual">Manual</string>
+    <string name="camera_mode_scenery">Frame</string>
+    <string name="camera_mode_scene">Scene</string>
+    <string name="camera_mode_pip">PIP</string>
+    <string name="camera_mode_gcam">Gcam</string>
+    <string name="camera_mode_gif">Gif</string>
+    <string name="camera_mode_interval">Interval</string>
+    <string name="camera_mode_viv">Viv</string>
+    <string name="camera_mode_audio_picture">Audio Picture</string>
+    <string name="camera_mode_vgesture">Vgesture</string>
+    <string name="camera_mode_qrcode">Qr Code</string>
+    <string name="mode_timelapse">TimeLapse</string>
+    <string name="camera_mode_slowmotion">SlowMotion</string>
+    <string name="slide_panel_capture">Capture</string>
+    <string name="slide_panel_mode">Mode</string>
+    <string name="slide_panel_filter">Filter</string>
+    <string name="extend_panel_exposure">Exposure</string>
+    <string name="extend_panel_iso">ISO</string>
+    <string name="extend_panel_wb">WB</string>
+    <string name="extend_panel_style">Style</string>
+    <string name="extend_panel_style_default">Default</string>
+    <string name="extend_panel_style_customize">Customize</string>
+    <string name="zoom_scale">Zoom Scale</string>
+    <string name="make_up_effect">Makeup Effect</string>
+    <string name="min_make_up_level">1</string>
+    <string name="max_make_up_level">5</string>
+    <string name="dream_freeze_frame_confirm_delete_text">Do you want to give up all of pictures?</string>
+    <string name="welcome_confirm">Start Capture</string>
+    <string name="welcome_right">Slide right to switch mode.</string>
+    <string name="welcome_left">Slide left to enter filter.</string>
+    <string name="pref_camera_scenemode_entry_landscape">Scenery</string>
+    <string name="dream_scenery_module_warning">Frame mode will invalidate some settings</string>
+    <string name="dream_continuephotomodule_module_warning">Long press shutter to burst capture,lift to stop or reach burst limit</string>
+    <string name="dream_slowmotion_module_warning">You can change the slowmotion rate in the settings menu</string>
+    <string name="dream_timelapse_module_warning">You can change the delay interval in the settings menu</string>
+
+    <!-- SPRD: fix Bug 533869 -->
+    <string name="mirror_mutex">Some of the settings have been restored while the mirror on!</string>
+    <string name="dream_setting_back_camera_photo">Picture Size(Back Camera)</string>
+    <string name="dream_setting_back_camera_video">Video Size(Back Camera)</string>
+    <string name="dream_setting_front_camera_photo">Picture Size(Front Camera)</string>
+    <string name="dream_setting_front_camera_video">Video Size(Front Camera)</string>
+    <string name="capture_total">" / 99"</string>
+    <string name="capture_0">0</string>
+    <string name="dream_pref_restore_detail">Restore defaults</string>
+    <string name="dream_restore_message">To the default settings to recover the camera?</string>
+
+    <string name="pref_shutter_sound_title">Camera Sound</string>
+
+    <string name="color_effect_mutex">Some of the settings have been restored while color effect on!</string>
+
+    <!-- fix bug 578797 New feature:QR code @{ -->
+    <string name="pref_key_qrcode_function">QR code</string>
+    <string name="scan_qrcode">Scan QR code</string>
+    <string name="back_qrcode_scan">back QR code scan</string>
+    <string name="qrcode_scan">QR code scan</string>
+    <string name="scan_text">Align QR Code within frame to scan</string>
+    <string name="rescan_label">rescan</string>
+    <string name="access_link_label">Go to link</string>
+    <string name="scan_result">scan result</string>
+    <string name="qrcode">Url:</string>
+    <string name="qrcode_result">Can not get data,rescan</string>
+    <string name="qrcode_can_not_resolve">Can not resolve the url</string>
+    <!-- }@ -->
+
+    <!-- fix bug fix Bug 616294 add warn location express when enter into Camera @{ -->
+    <string name="warn_location_title">Warning</string>
+    <string name="warn_location_message">Do you need to turn on the location service？</string>
+    <!-- }@ -->
+</resources>

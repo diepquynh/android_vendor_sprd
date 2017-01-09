@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2010,2011 Thundersoft Corporation
+     All rights Reserved
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:layout="@layout/category_preference"
+        android:title="@string/text_settings_title" >
+
+<!--         <com.ucamera.ugallery.preference.CheckBoxPreference
+            android:defaultValue="true"
+            android:key="sf_pref_settings_password"
+            android:summaryOff="@string/text_settings_show_hiden_files"
+            android:summaryOn="@string/text_settings_hide_hiden_files"
+            android:title="@string/text_settings_password"
+            android:layout="@layout/custom_preference"
+            android:widgetLayout="@layout/new_checkbox" /> -->
+        <com.ucamera.ugallery.preference.CheckBoxPreference
+            android:defaultValue="false"
+            android:key="sf_pref_settings_creatpwd"
+            android:summaryOff="@string/text_settings_close_pwd"
+            android:summaryOn="@string/text_settings_use_pwd"
+            android:title="@string/text_settings_pwdset"
+            android:layout="@layout/custom_preference"
+            android:widgetLayout="@layout/new_checkbox" />
+        <com.ucamera.ugallery.preference.OtherPreference
+            android:layout="@layout/custom_preference"
+            android:key="sf_pref_settings_showtips"
+            android:title="@string/secret_ablum_setting_way"/>
+        <com.ucamera.ugallery.preference.OtherPreference
+            android:key="sf_pref_feedback_key"
+            android:layout="@layout/custom_preference"
+            android:title="@string/text_feedback_title"
+            android:widgetLayout="@layout/preference_dialog" />
+        <com.ucamera.ugallery.preference.OtherPreference
+            android:key="sf_pref_aboutus_key"
+            android:layout="@layout/custom_preference"
+            android:title="@string/menu_info_version"
+            android:widgetLayout="@layout/preference_dialog" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

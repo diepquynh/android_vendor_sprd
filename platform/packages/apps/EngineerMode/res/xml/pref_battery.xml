@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <SwitchPreference
+        android:key="battery_life"
+        android:title="@string/battery_life" >
+    </SwitchPreference>
+
+    <PreferenceCategory android:key="battery_time" >
+        <Preference
+            android:key="open_battery_time"
+            android:title="@string/open_battery_time" >
+        </Preference>
+
+            <Preference
+                android:key="low_power_time"
+                android:title="@string/low_power_time" >
+            </Preference>
+            <Preference
+                android:key="life_time"
+                android:title="@string/battery_life_time" >
+            </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

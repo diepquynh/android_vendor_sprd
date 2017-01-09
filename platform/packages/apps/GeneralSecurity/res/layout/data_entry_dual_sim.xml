@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/statics">
+    <FrameLayout
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/title_sim1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:text="@string/data1"
+            android:gravity="left"
+            android:layout_marginTop="1dp"
+            android:textSize="13sp"
+            android:layout_alignLeft="@id/imageView"/>
+
+        <TextView
+            android:id="@+id/text_data_remained_sim1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_sim1"
+            android:text="@string/data_remained"
+            android:singleLine="true"
+            android:gravity="left"
+            android:layout_marginTop="1dp"
+            android:textSize="13sp"
+            android:layout_alignLeft="@id/imageView"/>
+        <TextView
+            android:id="@+id/text_data_used_sim1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_data_remained_sim1"
+            android:text="@string/data_used"
+            android:singleLine="true"
+            android:gravity="left"
+            android:layout_marginTop="1dp"
+            android:textSize="13sp"
+            android:textColor="#660000"
+            android:layout_alignLeft="@id/imageView"/>
+
+        <TextView
+            android:id="@+id/text_data_unset"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_data_used_sim1"
+            android:text="@string/month_data_unset"
+            android:singleLine="true"
+            android:gravity="left"
+            android:layout_marginTop="1dp"
+            android:textColor="#ff0000"
+            android:textSize="13sp"
+            android:layout_alignLeft="@id/imageView"/>
+
+        <FrameLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:id="@+id/imageView2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            />
+
+       <TextView
+            android:id="@+id/title_sim2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:text="@string/data2"
+            android:layout_alignParentRight="true"
+            android:gravity="left"
+           android:textSize="13sp"
+            android:layout_marginTop="1dp"
+           android:layout_alignLeft="@id/imageView2"/>
+
+        <TextView
+            android:id="@+id/text_data_remained_sim2"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_sim2"
+            android:text="@string/data_remained"
+            android:singleLine="true"
+            android:gravity="left"
+            android:textSize="13sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="1dp"
+            android:layout_alignLeft="@id/imageView2"/>
+        <TextView
+            android:id="@+id/text_data_used_sim2"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_data_remained_sim2"
+            android:text="@string/data_used"
+            android:layout_alignParentRight="true"
+            android:gravity="left"
+            android:singleLine="true"
+            android:layout_marginTop="1dp"
+            android:textSize="13sp"
+            android:layout_alignLeft="@id/imageView2"/>
+        <TextView
+            android:id="@+id/text_data_unset2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_data_used_sim2"
+            android:text="@string/month_data_unset"
+            android:singleLine="true"
+            android:gravity="left"
+            android:textColor="#ff0000"
+            android:textSize="13sp"
+            android:layout_marginTop="1dp"
+            android:layout_alignLeft="@id/imageView2"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/statics"
+        android:singleLine="true"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="@string/data_stat_description" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/data_restrict_sim1"
+        android:id="@+id/button1"
+        android:layout_marginLeft="1dp"
+        android:textSize="13sp"
+        android:layout_below="@id/description"
+        android:background="@drawable/datarestrict_dual"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/data_restrict_sim2"
+        android:id="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="1dp"
+        android:textSize="13sp"
+        android:background="@drawable/datarestrict_dual"
+        android:layout_below="@id/description"/>
+
+    <FrameLayout
+        android:id="@+id/pref"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/button"
+        android:layout_below="@id/button1"
+        ></FrameLayout>
+</RelativeLayout>

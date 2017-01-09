@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageButton android:id="@+id/operate_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/btn_edit_view_status"/>
+
+    <ImageButton android:id="@+id/operate_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/edit_label_btn_ok_status"/>
+
+    <LinearLayout android:id="@+id/edit_undo_redo_layout"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:onClick="true"
+        android:layout_toRightOf="@id/operate_cancel"
+        android:layout_toLeftOf="@id/operate_ok"
+        android:gravity = "center">
+        <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:gravity = "center">
+            <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                android:gravity="center"
+                android:layout_weight = "1.0">
+                <ImageButton
+                    android:id = "@+id/btn_edit_undo"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:background = "@drawable/edit_undo_selector"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                android:layout_weight = "1.0"
+                android:gravity = "center">
+                <ImageButton
+                    android:id = "@+id/btn_edit_redo"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:background = "@drawable/edit_redo_selector"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

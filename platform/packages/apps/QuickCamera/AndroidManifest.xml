@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+        package="com.sprd.quickcamera"
+        android:sharedUserId="android.uid.system">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_ALL_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- ActivityManager -->
+    <uses-permission android:name="android.permission.START_ANY_ACTIVITY" />
+
+    <!-- WindowManager -->
+    <!--<uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW" />-->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!--
+    <uses-permission android:name="android.permission.READ_FRAME_BUFFER" />
+    <uses-permission android:name="android.permission.MANAGE_APP_TOKENS" />
+    <uses-permission android:name="android.permission.SET_ORIENTATION" />
+    -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Keyguard -->
+    <uses-permission android:name="android.permission.CONTROL_KEYGUARD" />
+
+    <!-- QuickCamera -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+
+    <application
+        android:hardwareAccelerated="true"
+        android:process="com.android.quickcamera"
+        android:supportsRtl="true">
+
+        <service android:name="com.sprd.quickcamera.QuickCameraService"
+            android:process=":quickcamera"
+            android:exported="false" />
+
+    </application>
+</manifest>

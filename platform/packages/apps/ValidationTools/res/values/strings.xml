@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_entry_value_on" translatable="false">On</string>
+    <string name="hello">Hello World, ValidationToolsActivity!</string>
+    <string name="app_name">ValidationTools</string>
+    <string name="TestTitleString">Factory Test</string>
+    <string name="TestResultTitleString">Factory Test Result</string>
+    <string name="TestResultTitleStringFail">Factory Test Result(Fail)</string>
+    <string name="system_test_title">System</string>
+    <string name="item_test_title">Items Test</string>
+    <string name="test_info_title">Test Info</string>
+    <string name="recovery_stage_title">Reset</string>
+    <string name="display_test_title">Screen</string>
+    <string name="ring_test_title">Ring</string>
+    <string name="phone_test_title">Phone</string>
+    <string name="accessories_test_title">Accessories</string>
+    <string name="wireless_test_title">Wireless</string>
+    <string name="sensor_test_title">Sensor</string>
+    <string name="camera_test_title">Camera</string>
+    <string name="key_test_title">Key</string>
+    <string name="full_test_title">Full Test</string>
+    <string name="test_result_title">Test Result</string>
+    <string name="version_test">Version test</string>
+    <string name="rf_cali_test">RF CALI test</string>
+    <string name="rtc_test">RTC test</string>
+    <string name="lcd_test">LCD test</string>
+    <string name="backlight_test">Backlight test</string>
+    <string name="backlight_des">Are saw backlight and keypad light flashes twice in a row?</string>
+    <string name="touchpoint_test">Single touch point test</string>
+    <string name="touchpoint_info">Please draw a line connecting two days on the diagonal</string>
+    <string name="touchpoint_info_fail">Single-touch failed, please click the back key to retry</string>
+    <string name="muti_touchpoint_test">Muti-touch point test</string>
+    <string name="muti_touchpoint_info">Move two balls simultaneously by two touch</string>
+    <string name="ctp_test">CTP test</string>
+    <string name="vibrator_test">Ringtones motor test</string>
+    <string name="melody_test">Melody test</string>
+    <string name="melody_play_info">Whether to play and vibration?</string>
+    <string name="phone_loopback_test">Phone loopback test</string>
+    <string name="phone_loopback_test_notice">Please say whatever to the mic</string>
+    <string name="phone_loopback_result_check">Did you hear the loopback?</string>
+    <string name="wifi_result_check">Have find the device?</string>
+    <string name="gps_result_check">Have find the device?</string>
+    <string name="sim_test">SIM card test</string>
+    <string name="device_test">Device test</string>
+    <string name="phone_call_test">Phone call test</string>
+    <string name="phone_call_info">Normal play and hang up the phone</string>
+    <string name="sdcard_test">SD card test</string>
+    <string name="no_sdcard">No SD card</string>
+    <string name="charger_test">Charger test</string>
+    <string name="headset_test">Headset test</string>
+    <string name="fm_test">FM test</string>
+    <string name="soundtrigger_test">SoundTrigger test</string>
+    <string name="mobile_tv_test">Mobile test</string>
+    <string name="atv_test">ATV test</string>
+    <string name="wifi_test">WIFI test</string>
+    <string name="bt_test">Bluetooth test</string>
+    <string name="gps_test">GPS test</string>
+    <string name="btut_test">BTEUT test</string>
+    <string name="gravity_sensor_test">gravity sensor test</string>
+    <string name="oritention_sensor_test">Orientation sensor test</string>
+    <string name="proximity_sensor_test">Proximity and Light sensor test</string>
+    <string name="light_sensor_test">Ligth sensor test</string>
+    <string name="camera_test">Camera test</string>
+    <string name="key_test">Key test</string>
+    <string name="key_test_info">The keys are in line with</string>
+
+    <!-- Camera test -->
+    <string name="front_camera_title_text">Front Camera Test</string>
+    <string name="back_camera_title_text">Back Camera Test</string>
+    <string name="camera_failue">The camera test fails!</string>
+    <string name="camera_pass">The camera test passes!</string>
+    <string name="take_picture">Take picture</string>
+    <string name="preview">Preview</string>
+    <string name="text_pass">Pass</string>
+    <string name="text_fail">Fail</string>
+    <string name="text_na">Not test</string>
+    <string name="text_change_camera">Change Camera</string>
+    <string name="text_pass_msg">PASS</string>
+    <string name="test_result_ID_title">ID</string>
+    <string name="test_result_case_title">Test Case</string>
+    <string name="test_result_result_title">Result</string>
+    <string name="back_camera_test">Back camera test</string>
+    <string name="front_camera_test">Front camera test</string>
+    <string name="test_case_name">Test case</string>
+    <string name="test_case_result">Test result</string>
+    <string name="key_test_home">Home</string>
+    <string name="key_test_menu">Menu</string>
+    <string name="key_test_back">Back</string>
+    <string name="key_test_search">Search</string>
+    <string name="key_test_camera">Camera</string>
+    <string name="key_test_volume_up">Volume up</string>
+    <string name="key_test_volume_down">Volume down</string>
+    <string name="key_test_power">Power</string>
+    <string name="key_test_finish">Finish</string>
+    <string name="android_version">Android Version:</string>
+    <string name="prop_version">Prop Version:</string>
+    <string name="build_number">Build Number:</string>
+    <string name="device_sn">Device Sn:</string>
+    <string name="osensor_orien">"Orientation is "</string>
+    <string name="osensor_info">Compass needle is rotated</string>
+    <string name="sensor_show_msg">Tilt the phone, can you see the arrow?</string>
+    <string name="psensor_btn_on">On</string>
+    <string name="psensor_btn_off">Off</string>
+    <string name="psensor_msg_value">Value :</string>
+    <string name="psensor_msg_value_far">Distant</string>
+    <string name="psensor_msg_value_near">Closer</string>
+    <string name="psensor_msg_status">PSensor Status :</string>
+    <string name="psensor_msg_data">PROX_DATA =</string>
+    <string name="lsensor_value">Lsensor value =</string>
+    <string name="wifi_title_text">Wifi Test</string>
+    <string name="wifi_enabled_failure">Device can not enabled</string>
+    <string name="wifi_Initializing">Initializing...</string>
+    <string name="wifi_scaning">Scanning...</string>
+    <string name="wifi_dialog">Please wait and don\' exit!</string>
+    <string name="wifi_device_ok">The wifi device is ok!</string>
+    <string name="wifi_scan_failure">No wifi device found</string>
+    <string name="wifi_stop_device">Stopping wifi device,please wait...</string>
+    <string name="rtc_tag">System time\n</string>
+    <string name="ctp_tag">Enter CTP mode, please waiting ...</string>
+    <string name="btut_tag">Enter BTEUT mode, please waiting ...</string>
+
+    <!-- Bluetooth test -->
+    <string name="bluetooth_search_title">Bluetooth Searching</string>
+    <string name="start_searching">Start searching !</string>
+    <string name="bluetooth_failue">The bluetooth test fails!</string>
+    <string name="bluetooth_pass">The bluetooth test passes!</string>
+
+    <!-- GPS test -->
+    <string name="gps_title_text">GPS Test</string>
+    <string name="gps_result_ok">The GPS test passes!</string>
+    <string name="gps_result_failure">The GPS test fails!</string>
+    <string name="gps_satellite_msg">The satellite count is </string>
+    <string name="gps_not_enabled_msg">The GPS is not enabled</string>
+    <string name="gps_show_settings">Show GPS Settings</string>
+    <string name="gps_time_msg">Seconds passed</string>
+
+    <!-- Phone test -->
+    <string name="phone_call_text">Calling 112...</string>
+    <string name="sim_card_test_tittle">SIM card test</string>
+    <string name="sim_card_0_result">SIM card 1 test result</string>
+    <string name="sim_card_1_result">SIM card 2 test result</string>
+    <string name="sim_test_result">Test result</string>
+    <string name="test_completed">Test Complete</string>
+    <string name="micphone_msg">Voice cycle test</string>
+
+    <!-- Ring test -->
+    <string name="vibrator_test_tag">Touch screen to vibrator</string>
+
+    <!-- accessories test -->
+    <string name="sdcard_test_tag">Testing sdcard</string>
+    <string name="sdcard_test_write">Writing file...</string>
+    <string name="sdcard_test_read">Reading file...</string>
+    <string name="sdcard_test_result_success">Success</string>
+    <string name="sdcard_test_result_fail">Fail</string>
+    <string name="status">Status:</string>
+    <string name="plugged">Plugged:</string>
+    <string name="battery_title_text">Charger Test</string>
+    <string name="headset_plugged">Plugged,you can test headset hook if has.</string>
+    <string name="headset_unplugged">Unplugged</string>
+    <string name="headset_notice">Please test by step</string>
+    <string name="please_plugin">First ,please plugin your headset</string>
+    <string name="please_press_answer_key">Second ,please press your headset answer key</string>
+    <string name="please_test_loopback">Now,you can test the loopback by headset</string>
+    <string name="headset_answer_key">Answer key</string>
+
+    <!-- touch test -->
+    <string name="linear_dialog_btn_ok">OK</string>
+    <string name="linear_dialog_msg_pass">PASS!</string>
+    <string name="linear_dialog_msg_fail">FAIL!</string>
+
+    <!-- Ring test -->
+    <string name="melody_play_tag">Playing melody : </string>
+
+    <!-- wireless test -->
+    <string name="fm_test_wb_button_test">Select Wave Band</string>
+    <string name="input_tag">Input wave band</string>
+    <string name="wb_text">Playing</string>
+    <string name="wb_text_info">Are receive radio and play</string>
+    <string name="fm_dialog_tittle">Error</string>
+    <string name="fm_dialog_message">Please plug headset!</string>
+    <string name="fm_dialog_hardwaresuppot">Please ensure hardware is supported!</string>
+    <string name="fm_dialog_button">OK</string>
+    <string name="fm_dialog_know">I know</string>
+    <string name="fm_test_research">Search</string>
+    <string name="fm_test_search_station">Searching channels.</string>
+    <string name="gps_open_err">GPS open error</string>
+    <string name="headset_hook">Headset hooked,enter headset loopback!</string>
+    <string name="light_msg_text">Notice the flash is opened？</string>
+    <string name="camera_test_result_check">Whether displayed the camera screen and flash(if exist)?</string>
+    <string name="touch_continue">Touch screen to continue</string>
+    <string name="touch_to_tv">Touch screen to test Mobile TV.</string>
+    <string name="tv_test">Mobile TV Test</string>
+    <string name="lcd_max">Five color of LCD test is done (White, Red, Green, Blue, Yellow) ?</string>
+    <string name="voltage">Battery Voltage:</string>
+    <string name="tip_for_psensor">Please obscure the sensor,watch Psensor frame and Lsensor progressbar</string>
+    <string name="sdcard_sim_test">Sdcard and sim test</string>
+    <string name="electronic">Input Electronic:</string>
+    <string name="battery_electronic">Battery Electronic:</string>
+    <string name="electronicerror">Cannot get electronic info!</string>
+    <string name="can_not_pass">Can not pass</string>
+    <string name="charger_ac_plugged">AC plugged</string>
+    <string name="charger_usb_plugged">USB plugged</string>
+    <string name="charger_no_plugged">No AC or USB plugged</string>
+    <string name="charger_unknown">Unknown</string>
+    <string name="charger_charging">Charging</string>
+    <string name="charger_not_charging">Not charging</string>
+    <string name="charger_discharging_info">Please insert the usb or charger operation</string>
+    <string name="charger_discharging">Discharging</string>
+    <string name="charger_full">Full</string>
+    <string name="charger_info">Whether the charge point status?</string>
+    <string name="sd_sim_test_sim_state">Sim state</string>
+    <string name="sd_sim_test_sim_state_fine">Fine</string>
+    <string name="sd_sim_test_sim_state_no_sim">No SIM card</string>
+    <string name="sd_sim_test_sim_state_unknow">Locked/Unknown</string>
+    <string name="not_surport">Not support</string>
+    <string name="sdcard2_test_result_success">External card read and write success</string>
+    <string name="sdcard2_test_result_fail">External card read or write fail</string>
+    <string name="no_sdcard2">No external card</string>
+    <string name="sdcard1_test">Internal card test</string>
+    <string name="sdcard2_test">External card test</string>
+    <string name="otg_test">OTG test</string>
+    <string name="otg_test_success">OTG Test Success</string>
+    <string name="otg_no_devices">No OTG devices</string>
+    <string name="otg_test_fail">OTG Test Fail</string>
+    <string name="otg_begin_test">OTG is begin test...</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_validation_tools_main">MMI test</string>
+    <string name="alert_dialog_title">Please check the result</string>
+    <string name="alert_dialog_test">Yes - Pass\nNo - Fail\nOr press BACK for retry</string>
+    <string name="alert_finish_test">Pass the test anyway?</string>
+    <string name="test_info_imei">IMEI</string>
+    <string name="test_info_blt">BT</string>
+    <string name="test_info_phase_check">PHASE  CHECK</string>
+    <string name="status_indicator_red">Status Indicator Red</string>
+    <string name="status_indicator_green">Status Indicator Green</string>
+    <string name="status_indicator_blue">Status Indicator Blue</string>
+    <string name="red_light_info">Red light is turned on?</string>
+    <string name="green_light_info">Green light is turned on?</string>
+    <string name="blue_light_info">Blue light is turned on?</string>
+    <string name="hall_induction">Hall Sensor Test</string>
+    <string name="font_msg_text">Open Front camera?</string>
+    <string name="text_retry">Retry</string>
+    <string name="full_test">Full Test</string>
+    <string name="item_test">Item Test</string>
+    <string name="test_info">Test Info</string>
+    <string name="reset">Reset</string>
+    <string name="has_camera_title">Does has snap shot key on your phone?</string>
+    <string name="has_camera_key">Yes</string>
+    <string name="no_camera_key">No</string>
+    <string name="bt_addr">Bluetooth Address:</string>
+    <string name="bt_state">Bluetooth State:</string>
+    <string name="bt_device">Bluetooth Devices:</string>
+    <string name="wifi_addr">Wifi Address:</string>
+    <string name="wifi_state">Wifi State:</string>
+    <string name="wifi_device">Wifi Devices:</string>
+    <string name="bg_test_notice">Background test result,The Fail items will test again!</string>
+    <string name="start_retest">Retest the fail items</string>
+    <string name="phoneloopback_speaker">Speaker loopback(Main mic)</string>
+    <string name="phoneloopback_earpiece">Receiver loopback(Aux mic)</string>
+    <string name="fm_not_power_up">Not power up</string>
+    <string name="multi_user_hint">The current is multi-user mode, can not factory testing!</string>
+    <string name="charger_test_success">charger test success!</string>
+    <string name="charger_test_fail">charger test fail!</string>
+    <string name="charger_electronic">Charger Electronic:</string>
+    <string name="charger_Voltage">Charger Voltage:</string>
+    <string name="charging_test">Being tested, please wait!</string>
+    <string name="magnetic_test">Magnetic Test</string>
+    <string name="magnetic_title">Magnetic Sensor Testing...</string>
+    <string name="magnetic_info">Please shaking the phone and observe the changes in the value of X-axis，Y-axis and Z-axis</string>
+    <string name="gyroscope_title">Gyposcope Sensor Testing...</string>
+    <string name="gyroscope_warn">Please overturn the phone in X/Y/Z axis！</string>
+    <string name="gyroscope_test">Gyposcope Test</string>
+    <string name="pressure_test">Pressure Test</string>
+    <string name="pressure_title">Pressure Sensor Testing...</string>
+    <string name="pressure_value">Pressure Sensor Value: </string>
+    <string name="a_sensor_calibration">Acceleration Sensor Calibration</string>
+    <string name="a_sensor_calibration_tips">Acceleration Sensor is Calibrating...Please put your phone flat,Do not shaking it!</string>
+    <string name="a_sensor_calibration_fail">Acceleration Sensor Calibration Fail!</string>
+    <string name="g_sensor_calibration">Gyroscope Sensor Calibration</string>
+    <string name="g_sensor_calibration_tips">Gyroscope Sensor is Calibrating...Please put your phone flat,Do not shaking it</string>
+    <string name="g_sensor_calibration_fail">Gyroscope Sensor Calibration Fail!</string>
+    <string name="front_camera_fail_tips">Front camera test fail</string>
+    <string name="back_camera_fail_tips">Bront camera test fail</string>
+    <!-- BEGIN BUG479359 zhijie.yang 2016/5/5 MMI add the magnetic sensors and the prox sensor calibration-->
+    <string name="m_sensor_calibration">Magnetic Sensor Calibration</string>
+    <string name="m_sensor_calibration_tips">Magnetic Sensor is Calibrating...Please put your phone flat,Do not shaking it!</string>
+    <string name="m_sensor_calibration_fail">Magnetic Sensor calibration fail, it needes to import the calibration data!</string>
+    <string name="prox_calibration_button_auto">Auto Calibration</string>
+    <string name="prox_calibration_button_manual">Manual Calibration</string>
+    <string name="prox_sensor_calibration">Prox Sensor Calibration</string>
+    <string name="prox_auto_test_tips">Prox Sensor is the automatic calibrating...Please put the phone flat, Do not shaking it and blocking the screen!</string>
+    <string name="prox_auto_test_fail">Prox Sensor auto-calibration failure!</string>
+    <string name="alertdialog_ok">OK</string>
+    <string name="prox_manual_tips_near">Please put the phone into the fixture,Bezel on the phone at just above 3 cm,after that press ok to start near-calibration!</string>
+    <string name="prox_manual_tips_far">Please put the phone into the fixture,Bezel on the phone at just above 5 cm,after that press ok to start far-calibration!</string>
+    <string name="prox_manual_tips_near_testing">Prox Sensor Manual Near-distance is Calibrating...</string>
+    <string name="prox_manual_tips_far_testing">Prox Sensor Manual Far-distance is Calibrating...</string>
+    <string name="prox_manual_tips_near_pass">Prox Sensor Manual Near-distance Calibration pass!</string>
+    <string name="prox_manual_tips_far_pass">Prox Sensor Manual Far-distance Calibration pass!</string>
+    <string name="prox_manual_tips_near_fail">Prox Sensor Manual Near-distance Calibration failure!</string>
+    <string name="prox_manual_tips_far_fail">Prox Sensor Manual Far-distance Calibration failure!</string>
+    <!-- END BUG479359 zhijie.yang 2016/5/5 MMI add the magnetic sensors and the prox sensor calibration-->
+    <string name="start_soundtrigger">test</string>
+    <!-- Begin BUG579076 alisa.li 2016/7/11 Chinese localization-->
+    <string name="soundtrigger_click_button">please click the button</string>
+    <string name="soundtrigger_load">Initing</string>
+    <string name="loading_soundTrigger">Initing, please wait</string>
+    <string name="prepare_play_sound">Sound Trigger is OK,prepare to play sound</string>
+    <string name="test_fail">test fail</string>
+    <string name="test_pass">test pass</string>
+    <!-- End BUG579076 alisa.li 2016/7/11 Chinese localization-->
+    <!-- BEGIN BUG555701 zhijie.yang 2016/05/21 -->
+    <string name="secondary_camera_title_text">Secondary Camera Test</string>
+    <string name="secondary_camera_fail_tips">Secondary camera test fail</string>
+    <string name="secondary_msg_text">Open Secondary camera?</string>
+    <!-- END BUG555701 zhijie.yang 2016/05/21 -->
+
+    <!-- Bug 615326 -->
+    <string name="receiver_loopback_success">Switch To Receiver LoopBack Success!</string>
+    <string name="receiver_loopback_fail">Switch To Receiver LoopBack Fail!</string>
+    <string name="speaker_loopback_success">Switch To Speaker LoopBack Success!</string>
+    <string name="speaker_loopback_fail">Switch To Speaker LoopBack Fail!</string>
+    <string name="receiver_loopback_open">Receiver LoopBack Opened!</string>
+    <string name="receiver_loopback_open_fail">Receiver LoopBack Init Fail!</string>
+    <string name="speaker_loopback_open">Speaker LoopBack Opened!</string>
+    <string name="speaker_loopback_open_fail">Speaker LoopBack Init Fail!</string>
+</resources>

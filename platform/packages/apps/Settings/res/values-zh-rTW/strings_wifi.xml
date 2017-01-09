@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPRD: add for wifi new features -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Broadcom, WAPI BGN-->
+     <string name="wifi_wapi_psk_type">"密碼類型"</string>
+     <string name="wifi_wapi_as_certificate">"AS 證書"</string>
+     <string name="wifi_wapi_user_certificate">"用戶證書"</string>
+     <string name="wifi_wapi_cert_lost">"未找到正在連接的存取點的證書"</string>
+     <string name="wifi_security_wapi_psk_hexadecimal">"WAPI PSK 十六進制"</string>
+     <string name="wifi_wapi_fail_to_init">"無法打開WAPI證書，\n證書可能是不可用的"</string>
+     <string name="wifi_wapi_fail_to_auth">"WAPI認證失敗，\n請檢查證書的有效性"</string>
+    <!-- Broadcom, WAPI END-->
+
+    <!-- SPRD: EAP SIM/AKA slot BGN-->
+    <string name="wifi_eap_sim_slots">"SIM 卡槽"</string>
+    <string name="wifi_eap_sim_slot1">"SIM 卡槽1"</string>
+    <string name="wifi_eap_sim_slot2">"SIM 卡槽2"</string>
+    <!-- SPRD: EAP SIM/AKA slot END -->
+
+    <!-- SPRD: cmcc wifi features BGN -->
+    <string name="cmcc_wifi_features">"移動定制項"</string>
+    <string name="trust_accesspoints_list">"信任存取點"</string>
+    <string name="unkown_accesspoints_list">"不明存取點"</string>
+
+    <string name="wifi_disconnect">"斷開"</string>
+    <string name="wifi_netmask">"網路遮罩"</string>
+    <string name="wifi_secured_first_item">"透過 <xliff:g>%1$s</xliff:g> 加密保護"</string>
+    <string name="wifi_secured_second_item">"，透過 <xliff:g>%1$s</xliff:g> 加密保護"</string>
+
+    <string name="mobile_to_wlan_policy_category">網路選擇提示</string>
+    <string name="mobile_to_wlan_policy_title">"蜂巢網-&gt;Wi-Fi重選"</string>
+    <string name="mobile_to_wlan_policy_auto">"自動重選"</string>
+    <string name="mobile_to_wlan_policy_manual">"手動重選"</string>
+    <string name="mobile_to_wlan_policy_ask">"總是詢問"</string>
+
+    <string name="show_dialog_connect_to_cmcc_title">連接提示</string>
+    <string name="show_dialog_connect_to_cmcc_summary">顯示已連接到中國移動Wi-Fi的提示</string>
+    <string name="reset_wifi_policy_dialog_flag_title">恢復提示訊息</string>
+    <string name="reset_wifi_policy_dialog_flag_toast_message">提示訊息已恢復</string>
+
+    <!-- SPRD: add for cmcc wifi on/off alarm feature  -->
+    <string name="wifi_alarm_category_title">Wi-Fi定時設定</string>
+    <string name="wifi_connect_alarm_title">定時自動連接Wi-Fi</string>
+    <string name="wifi_disconnect_alarm_title">定時斷開Wi-Fi開關</string>
+    <string name="wifi_alarm_time_title">設定時間</string>
+    <!-- SPRD: cmcc wifi features END -->
+
+    <!-- SPRD: cucc wifi features BGN -->
+    <string name="network_preference_settings">網路管理</string>
+    <string name="network_type_choosen">優先選擇連接的網路</string>
+    <!-- SPRD: cucc wifi features END -->
+
+    <!-- SPRD: add for BUG487742 -->
+    <string name="network_id_illegal_character">請輸入有效的網路標識</string>
+
+    <!-- SPRD: add for wep BGN -->
+    <string name="key_index">"金鑰索引"</string>
+    <string name="wep_password_tip_text">WEP類型請輸入5，13，16位ASCII碼字符或10，26，32位其他字符。</string>
+    <!-- SPRD: add for wep END -->
+
+    <!-- SPRD: add for auto roam function -->
+    <string name="wifi_auto_roam">自動漫遊</string>
+
+    <!-- SPRD: Add for extends hotspot BGN -->
+    <string name="hotspot">Wi-Fi熱點</string>
+    <string name="hotspot_settings">設定Wi-Fi熱點</string>
+    <string name="hotspot_preference_title">Wi-Fi熱點設定及用戶管理</string>
+    <string name="hotspot_connected_stations">已連接用戶</string>
+    <string name="hotspot_no_connected_station">0 個連接用戶</string>
+    <string name="hotspot_blocked_stations">已封鎖用戶</string>
+    <string name="hotspot_no_blocked_station">0 個封鎖用戶</string>
+    <string name="block">阻止</string>
+    <string name="unblock">解除封鎖</string>
+    <string name="softap_need_mobile_data_enabled">"可攜式 Wi-Fi 無線基地台需開啟移動數據連接，可能會產生額外費用。"</string>
+    <string name="wifi_max_connect">最大連接數</string>
+    <string name="wifi_channel">Wi-Fi 信道</string>
+    <string name="wifi_tether_connect_title">個已連接用戶</string>
+    <string name="wifi_tether_block_title">個已封鎖用戶</string>
+    <string name="hotspot_add_blockedstations_limit">已封鎖用戶已達到最大限制，無法繼續新增</string>
+    <string name="hotspot_mode">熱點管理模式</string>
+    <string name="hotspot_whitelist_stations">白名單設備清單</string>
+    <string name="hotspot_no_whitelist_station">+ 手動新增白名單設備</string>
+    <string name="hotspot_whitelist">管理設備</string>
+    <!-- SPRD: Bug#597493 string translation -->
+    <string name="hotspot_whitelist_add">新增到白名單</string>
+    <!-- SPRD: string translation -->
+    <string name="hotspot_whitelist_cancel">取消</string>
+    <string name="hotspot_offwhite">移除</string>
+    <string name="hotspot_name_txt">設備名稱</string>
+    <string name="hotspot_mac_txt">MAC位址</string>
+    <string name="wifi_add_whitelist_error">新增失敗，請輸入正確的mac位址</string>
+    <string name="wifi_add_whitelist_limit">新增失敗，最大隻支援新增8台設備</string>
+    <string name="hotspot_wps_connect">WPS 連接</string>
+    <string name="hotspot_select_wps">選擇 WPS 模式</string>
+    <string name="hotspot_wps_mode">WPS 模式</string>
+    <string name="hotspot_connect">連接</string>
+    <string name="hotspot_wps_pin">請輸入PIN碼</string>
+    <string name="hotspot_pin_error">無法連接,請輸入正確的PIN碼格式</string>
+    <string name="hotspot_pin_success">請點擊連接按鈕</string>
+    <!-- add for keep Wi-Fi hotspot on -->
+    <string name="soft_ap_sleep_policy_title">保持Wi-Fi熱點開啟</string>
+    <string name="hotspot_hidden_ssid_title">隱藏SSID</string>
+    <string name="hotspot_hidden_ssid_summary">隱藏用於廣播的熱點 SSID</string>
+    <string name="hotspot_hidden_ssid_and_disable_wps_summary">隱藏用於廣播的熱點SSID，同時會禁止WPS功能</string>
+    <!-- SPRD: Add for extends hotspot END -->
+
+    <!-- SPRD: passpoint BGN -->
+    <string name="passpoint">Passpoint</string>
+    <string name="wifi_passpoint_settings_title">Passpoint</string>
+    <string name="passpoint_show_title">Passpoint_show_title</string>
+    <string name="passpoint_titlebar">Passpoint AP清單</string>
+    <string name="wifi_saved_passpoint_titlebar">已儲存配置清單</string>
+    <string name="passpoint_realm_hint">Realm</string>
+    <string name="passpoint_priority_hint">Priority</string>
+    <string name="passpoint_domain_hint">FQDN</string>
+    <string name="passpoint_roam_hint">Roam</string>
+    <string name="passpoint_username_hint">用戶名</string>
+    <string name="passpoint_password_hint">密碼</string>
+    <string name="passpoint_eap_security">EAP方法</string>
+    <string name="eap_tls_ca_certificate">CA證書</string>
+    <string name="eap_tls_user_certificate">用戶證書</string>
+    <string name="eap_ttls_sec_auth">階段2身份驗證</string>
+    <string name="eap_ttls_ca_certificate">CA證書</string>
+    <string name="eap_sim_selection">選擇SIM卡</string>
+    <string name="passpoint_config_forget">刪除配置</string>
+    <string name="passpoint_config_cancel">返回</string>
+    <string name="passpoint_on">Passpoint 功能開啟</string>
+    <string name="passpoint_off">Passpoint 功能關閉</string>
+    <string name="passpoint_add_config">新增配置</string>
+    <string name="passpoint_saved_config">已儲存配置</string>
+    <string name="open_wifi_first">請先打開Wi-Fi功能</string>
+    <string name="wifi_saved_passpoint_config">Passpoint 配置</string>
+    <string name="passpoint_empty_list_wifi_on">"正在搜尋 Passpoint 網路…"</string>
+    <string name="passpoint_empty_list_user_restricted">"您沒有變更 Passpoint 網路的權限。"</string>
+    <!-- SPRD: passpoint END -->
+    <string name="wifi_off_generic">已關閉</string>
+
+</resources>

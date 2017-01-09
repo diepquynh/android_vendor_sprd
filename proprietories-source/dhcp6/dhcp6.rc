@@ -1,0 +1,4 @@
+service dhcp6c_wifi /system/bin/dhcp6c -c /data/misc/dhcp6c/dhcp6c.conf wlan0
+    user root
+    disabled
+    oneshot

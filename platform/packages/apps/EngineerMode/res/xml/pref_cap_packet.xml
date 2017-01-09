@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+     android:title="@string/cap_log_packet" >
+
+    <EditTextPreference
+        android:hint="@string/cap_log_size_unit"
+        android:key="cap_log_packet"
+        android:maxLength="3"
+        android:numeric="integer"
+        android:summary=""
+        android:title="@string/cap_log_packet" >
+    </EditTextPreference>
+
+</PreferenceScreen>

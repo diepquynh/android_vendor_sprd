@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="phoneAppLabel" product="tablet">"Datar Salula"</string>
+<string name="phoneAppLabel" product="default">"Ayyukan Waya"</string>
+<string name="emergencyDialerIconLabel">"Mai bugawa na gaggawa"</string>
+<string name="phoneIconLabel">"Waya"</string>
+<string name="fdnListLabel">"Jerin FDN"</string>
+<string name="unknown">"Majahuli"</string>
+<string name="private_num">"Kebabbiyar lamba"</string>
+<string name="payphone">"Wayar kudi"</string>
+<string name="onHold">"A kan tsaiko"</string>
+<string name="mmiStarted">"An bude MMI code"</string>
+<string name="ussdRunning">USSD code yana aiki\u2026</string>
+<string name="mmiCancelled">"An soke MMI code"</string>
+<string name="enter_input">"Sakon USSD message dole ya zama tsakanin <xliff:g id="min_len" >%d</xliff:g> da <xliff:g id="max_len" >%d</xliff:g> haruffa. Ka sake kuma."</string>
+<string name="manageConferenceLabel">"Sarrafa kiran taron hanyar sadarwa"</string>
+<string name="ok">"YA YI"</string>
+<string name="audio_mode_speaker">"Mai-magana"</string>
+<string name="audio_mode_earpiece">"Na\'urar kunne ta waya"</string>
+<string name="audio_mode_wired_headset">"Na\'urar kunne mai waya"</string>
+<string name="audio_mode_bluetooth">"Bluetooth"</string>
+<string name="wait_prompt_str">"A aika wadannan sautukan?\n"</string>
+<string name="pause_prompt_str">"A na aika sautuka\n"</string>
+<string name="send_button">"Aika"</string>
+<string name="pause_prompt_yes">"E"</string>
+<string name="pause_prompt_no">" A\'a"</string>
+<string name="wild_prompt_str">"Maye irin harafin da wani"</string>
+<string name="no_vm_number">"Lambar voicemail da ta bata"</string>
+<string name="no_vm_number_msg">"Ba a adana lambar voicemail a cikin SIM card ba."</string>
+<string name="add_vm_number_str">"Kara lamba"</string>
+<string name="puk_unlocked">"An bude PIN1! Wayar tana budewa\u2026"</string>
+<string name="label_ndp">"PIN din bude SIM network"</string>
+<string name="sim_ndp_unlock_text">"Bude"</string>
+<string name="sim_ndp_dismiss_text">"Sallama"</string>
+<string name="requesting_unlock">"Bukatar sake bude hanyar sadarwa\u2026"</string>
+<string name="unlock_failed">"Neman bude hanyar sadarwa bai yi nasara ba."</string>
+<string name="unlock_success">"An yi nasarar bude sadarwa."</string>
+<string name="mobile_network_settings_not_available">"Babu saitukan hanyar sadarwa na salula ga wannan mai amfani."</string>
+<string name="labelGSMMore">"Saitukan kiran GSM"</string>
+<string name="labelGsmMore_with_label">"Saitukan kira na GSM (<xliff:g id="subscriptionlabel" example="T-Mobile">%s</xliff:g>)"</string>
+<string name="labelCDMAMore">"Saituna kira CDMA"</string>
+<string name="labelCdmaMore_with_label">"Saitukan kira na CDMA(<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)"</string>
+<string name="apn_settings">"Ganin sunayen wuri"</string>
+<string name="settings_label">"Tsarin mahadi"</string>
+<string name="phone_accounts">"Saitukan asusun waya"</string>
+<string name="phone_accounts_make_calls_with">"Yi kira da"</string>
+<string name="phone_accounts_make_sip_calls_with">"Yi kiran SIP da"</string>
+<string name="phone_accounts_ask_every_time">"Tambaya farko"</string>
+<string name="phone_accounts_default_account_label">"Babu netwok"</string>
+<string name="phone_accounts_settings_header">"Saituna"</string>
+<string name="phone_accounts_choose_accounts">"Zabi ma\'ajiyoyi"</string>
+<string name="phone_accounts_selection_header">"Ma\'ajiyoyin waya"</string>
+<string name="phone_accounts_add_sip_account">"Kara ma\'jiyar SIP"</string>
+<string name="phone_accounts_configure_account_settings">"Saita saitocin ma\'ajiya"</string>
+<string name="phone_accounts_all_calling_accounts">"Asusan duk kira:"</string>
+<string name="phone_accounts_all_calling_accounts_summary">"Zabi wadanne asusu za su iya yin kira"</string>
+<string name="wifi_calling">"Kiran Wi-Fi"</string>
+<string name="connection_service_default_label">"Aikin hadin sadarwa da ke gine a ciki"</string>
+<string name="voicemail">"Voicemail"</string>
+<string name="voicemail_settings_with_label">"Voicemail (<xliff:g id="subscriptionlabel" example="Mock Carrier">%s</xliff:g>)"</string>
+<string name="voicemail_abbreviated">"VM:"</string>
+<string name="networks">"Kamfanonin wayar sadarwa"</string>
+<string name="cell_broadcast_settings">"Yada sako na gaggawa"</string>
+<string name="call_settings">"Saituka"</string>
+<string name="additional_gsm_call_settings">"Karin saituna"</string>
+<string name="additional_gsm_call_settings_with_label">"Karin saitoci (<xliff:g id="subscriptionlabel" misali="Verizon">%s</xliff:g>)"</string>
+<string name="sum_gsm_call_settings">"Karin GSM saitunan kira kadai"</string>
+<string name="additional_cdma_call_settings">"Karin CDMA saitunan kira"</string>
+<string name="sum_cdma_call_settings">"Karin CDMA saitunan kira kadai"</string>
+<string name="labelNwService">"Zubin lmahadin sadarwa"</string>
+<string name="labelCallerId">"ID mai kira"</string>
+<string name="sum_loading_settings">Loda saitin\u2026</string>
+<string name="sum_hide_caller_id">"A boye lamba yayin kira mai fita"</string>
+<string name="sum_show_caller_id">"Lamba ta bayyana yayin kira mai fita"</string>
+<string name="sum_default_caller_id">"Yi amfani da saitin mai waya na dindindin don bayyana lamba ta a cikin kiran da na keyi"</string>
+<string name="labelCW">"Kira na jira"</string>
+<string name="sum_cw_enabled">"Lokacin kira, sanas da ni kiraye-kiraye masu shigowa"</string>
+<string name="sum_cw_disabled">"Lokacin kira, sanas da ni kiraye-kiraye masu shigowa"</string>
+<string name="call_forwarding_settings">"Saitunan tura kira gaba"</string>
+<string name="call_forwarding_settings_with_label">"Saitocin tura kira gaba (<xliff:g id="subscriptionlabel" misali="Verizon">%s</xliff:g>)"</string>
+<string name="labelCFU">"Kullum gaba"</string>
+<string name="messageCFU">"Kullum yi amfani da wannan lamba"</string>
+<string name="sum_cfu_enabled">"Tura duk kiraye-kiraye tura gaba ga {0}"</string>
+<string name="sum_cfu_enabled_no_number">"Lambar ba za ta kamu ba"</string>
+<string name="sum_cfu_disabled">"A KASHE"</string>
+<string name="labelCFB">"Yayin da ake tsakiyar aiki"</string>
+<string name="messageCFB">"Lamba yayin amfani da waya"</string>
+<string name="sum_cfb_enabled">"Tura gaba ga {0}"</string>
+<string name="sum_cfb_disabled">"A KASHE"</string>
+<string name="disable_cfb_forbidden">"Kamfanin layin wayarka bai yarda da kashe tura kira gaba ba yayin da wayarka ke aiki."</string>
+<string name="labelCFNRy">"Yayin da ba a amsa ba"</string>
+<string name="messageCFNRy">"Lamba yayin da ba a amsa kira ba"</string>
+<string name="sum_cfnry_enabled">"Tura gaba ga {0}"</string>
+<string name="sum_cfnry_disabled">"A KASHE"</string>
+<string name="disable_cfnry_forbidden">"Kamfanin layin wayarka bai yarda da kashe tura kira gaba ba yayin da wayarka bai amsa kira."</string>
+<string name="labelCFNRc">"Yayin da ba a caji"</string>
+<string name="messageCFNRc">"Lamba yayin da layi ya ki kamuwa"</string>
+<string name="sum_cfnrc_enabled">"Tura gaba ga {0}"</string>
+<string name="sum_cfnrc_disabled">"An kashe"</string>
+<string name="disable_cfnrc_forbidden">"Kamfanin layin wayarka bai yarda da kashe tura kira gaba ba yayin da wayarka ba a riskar ta."</string>
+<string name="updating_title">"Saituka"</string>
+<string name="call_settings_admin_user_only">"Mai lura ne kadai zai iya sauya saitin kira"</string>
+<string name="call_settings_with_label">"Saiti (<xliff:g id="subscriptionlabel" example="Mock Carrier">%s</xliff:g>)"</string>
+<string name="error_updating_title">"Kuskure saitunan kira"</string>
+<string name="reading_settings">"Karanta tsari\u2026"</string>
+<string name="updating_settings">"A na sabunta saituka\u2026"</string>
+<string name="reverting_settings">"Mayar da tsari\u2026"</string>
+<string name="response_error">"Motsin da ba a yi tsammani ba daga hanyar sadarwa."</string>
+<string name="exception_error">"Matsala a SIM card ko layin sadarwa."</string>
+<string name="stk_cc_ss_to_dial_error">"An gyaya neman SS na zuwa neman DANNAWA"</string>
+<string name="stk_cc_ss_to_ussd_error">"An gyaya neman SS na zuwa neman USSD"</string>
+<string name="stk_cc_ss_to_ss_error">"An gyaya neman SS na zuwa sabon neman SS"</string>
+<string name="fdn_check_failure">Masarrafin wayarka na saitin kiran lambobi a kunne yake. Don haka abubuwan da suka shafi kira ba sa aiki.</string>
+<string name="radio_off_error">"Ka kunna rediyo kafin ganin wannan saitunan."</string>
+<string name="close_dialog">"YA YI"</string>
+<string name="enable">"Kunna "</string>
+<string name="disable">"Kashe"</string>
+<string name="change_num">"Daukakawa"</string>
+<string-array name="clir_display_values">
+<item>"Tsarin sadarwa na dindindin"</item>
+<item>"Boye Lamba"</item>
+<item>"Nuna lamba"</item>
+</string-array>
+<string name="vm_changed">"An canja lambar voicemail."</string>
+<string name="vm_change_failed">"Ba zai iya canza lambar sakon muryar ba.\nTuntubi kamfanin wayarka in matsalar ta ci gaba."</string>
+<string name="fw_change_failed">"Ba zai iya canza lambar tura kiran ba.\nTuntubi kamfanin wayarka in matsalar ta ci gaba."</string>
+<string name="fw_get_in_vm_failed">"Ta kasa ta dauke da ajiye saitunan lambar tura gaba yanzu. \nKo kana son a canza zuwa sabuwar mai tanadi ko yaya?"</string>
+<string name="no_change">"Ba a canja komai ba."</string>
+<string name="sum_voicemail_choose_provider">"Zaba hidimar wasikar sauti"</string>
+<string name="voicemail_default">"Kamfanin sadarwarka"</string>
+<string name="mobile_networks">"Saitukan sadarwa na salula"</string>
+<string name="label_available">"Samammen mahadai"</string>
+<string name="load_networks_progress">"Ana bincika..."</string>
+<string name="empty_networks_list">"Babu hanyar sadarwa."</string>
+<string name="search_networks">"Bincika hanyoyin sadarwa"</string>
+<string name="network_query_error">"Kure yayin neman mahadai."</string>
+<string name="register_on_network">"Ana rijista akan <xliff:g id="network">%s</xliff:g>\u2026"</string>
+<string name="not_allowed">"Katin SIM dinka bai yarda da haduwa da wannan sabis din ba."</string>
+<string name="connect_later">"Ba zai hadu da wannan sabis din yanzu ba. Sake gwadawa anjima."</string>
+<string name="registration_done">"An yi rijistarsa a kamfanin sadarwa."</string>
+<string name="sum_carrier_select">"Zabi kamfanin sadarwa"</string>
+<string name="sum_search_networks">"Binciko duk hanyoyin sadarwar da ke bude"</string>
+<string name="select_automatically">"Zaba automatikiyyan"</string>
+<string name="sum_select_automatically">"Zabi sadarwar da ka so automatikiyyan"</string>
+<string name="register_automatically">"Rajista automatikiyya\u2026"</string>
+<string name="preferred_network_mode_title">"Yanayin sadarwar da aka zaba"</string>
+<string name="preferred_network_mode_summary">"Canza halin aikin mahadi"</string>
+<string name="preferred_network_mode_dialogtitle">"Yanayin sadarwar da aka zaba"</string>
+<string name="preferred_network_mode_wcdma_perf_summary">"Yanayin sadarwar da aka fi kauna: WCDMA da aka fi kauna"</string>
+<string name="preferred_network_mode_gsm_only_summary">"Yanayin sadarwar da aka fi kauna: GSM kadai"</string>
+<string name="preferred_network_mode_wcdma_only_summary">"Yanayin sadarwar da aka fi kauna:  WCDMA kadai"</string>
+<string name="preferred_network_mode_gsm_wcdma_summary">"Yanayin sadarwar da aka fi kauna: GSM / WCDMA"</string>
+<string name="preferred_network_mode_cdma_summary">"Yanayin sadarwar da aka fi kauna: CDMA"</string>
+<string name="preferred_network_mode_cdma_evdo_summary">"Yanayin sadarwar da aka fi kauna:  CDMA / EvDo"</string>
+<string name="preferred_network_mode_cdma_only_summary">"Yanayin sadarwar da aka fi kauna: CDMA kadai"</string>
+<string name="preferred_network_mode_evdo_only_summary">"Yanayin sadarwar da aka fi kauna: CDMA kadai"</string>
+<string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">"Tsarin yanayin sadarwar da aka fi so: CDMA/EvDo/GSM/WCDMA"</string>
+<string name="preferred_network_mode_lte_summary">"Tsarin yanayin sadarwar da aka fi so: LTE"</string>
+<string name="preferred_network_mode_lte_gsm_wcdma_summary">"Tsarin yanayin sadarwar da aka fi so: GSM/WCDMA/LTE"</string>
+<string name="preferred_network_mode_lte_cdma_evdo_summary">"Tsarin yanayin sadarwar da aka fi so: CDMA+LTE/EVDO"</string>
+<string name="preferred_network_mode_global_summary">"Yanayin sadarwar da aka fi kauna: Global"</string>
+<string name="preferred_network_mode_lte_wcdma_summary">"Tsarin yanayin sadarwar da aka fi so: LTE / WCDMA"</string>
+<string name="preferred_network_mode_lte_gsm_umts_summary">"Yanayin sadarwar da aka fi so: LTE / GSM / UMTS"</string>
+<string name="preferred_network_mode_lte_cdma_summary">"Yanayin hanyar sadarwa da aka fi so: LTE / CDMA"</string>
+<string name="preferred_network_mode_tdscdma_summary">"Yanayin netwok da aka fi so: TDSCDMA"</string>
+<string-array name="preferred_network_mode_choices">
+<item>"LTE / WCDMA"</item>
+<item>"LTE"</item>
+<item>"Na duniya"</item>
+<item>"GSM/WCDMA/LTE"</item>
+<item>"CDMA + LTE/EvDo"</item>
+<item>"CDMA/EvDo/GSM/WCDMA"</item>
+<item>"EvDo kadai"</item>
+<item>"Auto"</item>
+<item>"CDMA/EvDo automatik"</item>
+<item>"GSM/WCDMA automatik"</item>
+<item>"WCDMA kawai"</item>
+<item>"GSM kawai"</item>
+<item>"GSM/WCDMA da aka fi so"</item>
+</string-array>
+<string name="enhanced_4g_lte_mode_title">"Bunkasa yanayin 4G LTE"</string>
+<string name="enhanced_4g_lte_mode_summary">"Yi amfani da hidimar LTE don kyautata sadarwar murya da sauransu (ba da zabi)"</string>
+<string name="data_enabled">"Raya bayani"</string>
+<string name="data_enable_summary">"Kyale amfani da bayanai"</string>
+<string name="dialog_alert_title">"Kula"</string>
+<string name="roaming">"Yawon bayanai"</string>
+<string name="roaming_enable">"Hada ga bayanin hidimomi lokacin yawo"</string>
+<string name="roaming_disable">"Hada ga bayanin hidimomi lokacin yawo"</string>
+<string name="roaming_reenable_message">"Ka rasa haduwa da bayanai saboda ka bar yanayin sadarwarka yayin da yawon bayanai yake kashe."</string>
+<string name="roaming_warning">"Za ka iya jawo muimmin cajin kudi."</string>
+<string name="roaming_alert_title">"Kyale tafiya da bayanai?"</string>
+<string name="gsm_umts_options">"Zabin GSM/UMTS"</string>
+<string name="cdma_options">"Zabubbukan CDMA"</string>
+<string name="throttle_data_usage">"Amfani da bayani"</string>
+<string name="throttle_current_usage">"Bayanin da aka mora a lokaci yanzu"</string>
+<string name="throttle_time_frame">"Lokacin amfani da bayani"</string>
+<string name="throttle_rate">"Bayanin Kimar manufa"</string>
+<string name="throttle_help">"Kara sani"</string>
+<string name="throttle_status_subtext">"<xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) na <xliff:g id="used">%3$s</xliff:g> makurar lokaci\nLokaci na gaba yana farawa a cikin <xliff:g id="used">%4$d</xliff:g> kwanaki (<xliff:g id="used">%5$s</xliff:g>)"</string>
+<string name="throttle_data_usage_subtext">"<xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) na <xliff:g id="used">%3$s</xliff:g> makurar lokaci"</string>
+<string name="throttle_data_rate_reduced_subtext">"<xliff:g id="user">%1$s</xliff:g> an wuce makura\nAn rage yawan bayani zuwa <xliff:g id="used">%2$d</xliff:g> Kb/s"</string>
+<string name="throttle_time_frame_subtext">"<xliff:g id="used">%1$d</xliff:g>\u066A na zagaye ya kare\nLokaci na gaba zai fara a cikin <xliff:g id="used">%2$d</xliff:g> kwanaki (<xliff:g id="used">%3$s</xliff:g>)"</string>
+<string name="throttle_rate_subtext">"An rage yawan bayanai <xliff:g id="used">%1$d</xliff:g> Kb/s idan aka wuce adadin amfani da bayanai        "</string>
+<string name="throttle_help_subtext">"Karin bayanai game da ka\'idar amfani da data na kamfanin sadarwarka na salula"</string>
+<string name="cell_broadcast_sms">"Watsa SMS sulluru"</string>
+<string name="enable_disable_cell_bc_sms">"Watsa SMS sulluru"</string>
+<string name="cell_bc_sms_enable">"Watsa bayanan SMS a kunne"</string>
+<string name="cell_bc_sms_disable">"Watsa bayanan SMS a kashe"</string>
+<string name="cb_sms_settings">"Saitocin watsa bayanan SMS"</string>
+<string name="enable_disable_emergency_broadcast">"Watsa wa na gaggawa"</string>
+<string name="emergency_broadcast_enable">"Rayar da watsa wa na gaggawa"</string>
+<string name="emergency_broadcast_disable">"Nakasar da watsa wa na gaggawa"</string>
+<string name="enable_disable_administrative">"Na mulki"</string>
+<string name="administrative_enable">"Iyad da na mulki"</string>
+<string name="administrative_disable">"Gurgunta na mulki"</string>
+<string name="enable_disable_maintenance">"Gyara"</string>
+<string name="maintenance_enable">"Akwai damar yin gyara"</string>
+<string name="maintenance_disable">"Babu damar yin gyara"</string>
+<string name="general_news_settings">"Labarai na dukka"</string>
+<string name="bf_news_settings">"Labaran kudi da kasuwanci"</string>
+<string name="sports_news_settings">"Labaran Wasanni"</string>
+<string name="entertainment_news_settings">"Labaran nishadantar wa"</string>
+<string name="enable_disable_local">"Local"</string>
+<string name="local_enable">"Labarun gida"</string>
+<string name="local_disable">"Tashin damar barun gidaalocale"</string>
+<string name="enable_disable_regional">"Na lardi/yanki"</string>
+<string name="regional_enable">"An bude labaran lardi"</string>
+<string name="regional_disable">"An rufe labaran lardi"</string>
+<string name="enable_disable_national">"Na kasa"</string>
+<string name="national_enable">"An bude damar Labaran kasa"</string>
+<string name="national_disable">"An rufe damar labaran kasa"</string>
+<string name="enable_disable_international">"Na duniya"</string>
+<string name="international_enable">"An bude labaran duniya"</string>
+<string name="international_disable">"An rufe labaran duniya"</string>
+<string name="list_language_title">"Irin yare:"</string>
+<string name="list_language_summary">"Zabi yaren da za ka ji labarai"</string>
+<string-array name="list_language_entries">
+<item>"Turanci"</item>
+<item>"Faransanci"</item>
+<item>"Sifaniyanci"</item>
+<item>"Japananci"</item>
+<item>"Koriyanci"</item>
+<item>"Chanawa"</item>
+<item>"Harshen Hebrew"</item>
+</string-array>
+<string name="list_language_dtitle">"Tyarurruka"</string>
+<string name="enable_disable_local_weather">"Yanayin locale"</string>
+<string name="local_weather_enable">"Damar tsarin locale"</string>
+<string name="local_weather_disable">"Rashin damar locale"</string>
+<string name="enable_disable_atr">"Rahotannin tafiye-tafiye yankin"</string>
+<string name="atr_enable">"An rayar da rahotannin tafiye-tafiye yankin"</string>
+<string name="atr_disable">"An nakasa rahotannin tafiye-tafiye yankin"</string>
+<string name="enable_disable_lafs">"Tsarin tashin jirgi na cikin gida"</string>
+<string name="lafs_enable">"An bude tsarin tashin jirgi na cikin gida "</string>
+<string name="lafs_disable">"An rufe tsarin tashin jirgi na cikin gida"</string>
+<string name="enable_disable_restaurants">"Gidajen abinci"</string>
+<string name="restaurants_enable">"An bude madannin Gidajen abinci"</string>
+<string name="restaurants_disable">"An rufe madannin Gidajen abinci"</string>
+<string name="enable_disable_lodgings">"Lodging"</string>
+<string name="lodgings_enable">"Damar lodgings"</string>
+<string name="lodgings_disable">"Rashin damar lodgings"</string>
+<string name="enable_disable_retail_directory">"Jadawalin kasuwanci"</string>
+<string name="retail_directory_enable">"Za a iya shiga Jadawalin kasuwanci"</string>
+<string name="retail_directory_disable">"An rufe Jadawalin kasuwanci"</string>
+<string name="enable_disable_advertisements">"Tallace- tallace"</string>
+<string name="advertisements_enable">"Iyad da tallace-tallace"</string>
+<string name="advertisements_disable">"Nakasar da tallace-tallace"</string>
+<string name="enable_disable_stock_quotes">"Farashin kaya"</string>
+<string name="stock_quotes_enable">"An bude farashin kaya"</string>
+<string name="stock_quotes_disable">"An rufe farashin kaya"</string>
+<string name="enable_disable_eo">"Damar bada aiki"</string>
+<string name="eo_enable">"Damar bada aiki an rayar"</string>
+<string name="eo_disable">"Damar bada aiki an nakasar"</string>
+<string name="enable_disable_mhh">"Likita, lafiya, da Asibiti"</string>
+<string name="mhh_enable">"Likita, Lafiya, da Asibiti a kunne"</string>
+<string name="mhh_disable">"Likita, Lafiya, da Asibiti a kashe"</string>
+<string name="enable_disable_technology_news">"Labaran kimiyyar fasara"</string>
+<string name="technology_news_enable">"An bude Labaran Kimiyyar fasaha"</string>
+<string name="technology_news_disable">"An rufe Labaran Kimiyyar fasaha"</string>
+<string name="enable_disable_multi_category">"Mai-kashi kashi"</string>
+<string name="multi_category_enable">"An bude Mai-kashi kashi"</string>
+<string name="multi_category_disable">"An rufe mai-kashi kashi"</string>
+<string name="network_lte">"LTE (an ba da shawara)"</string>
+<string name="network_4G">"4G (an ba da shawara)"</string>
+<string name="network_global">"Na duniya"</string>
+<string name="cdma_system_select_title">"Zaben na\'ura"</string>
+<string name="cdma_system_select_summary">"Canza halin yawon cdma"</string>
+<string name="cdma_system_select_dialogtitle">"Zaben na\'ura"</string>
+<string-array name="cdma_system_select_choices">
+<item>"Shafin farko kawai"</item>
+<item>"Kai tsaye"</item>
+</string-array>
+<string name="cdma_subscription_title">"Rijistar CDMA"</string>
+<string name="cdma_subscription_summary">"Canja tsakanin RUIM/SIM da NV"</string>
+<string name="cdma_subscription_dialogtitle">"rijista"</string>
+<string name="cdma_activate_device">"Assasa na\'ura"</string>
+<string name="cdma_lte_data_service">"Kafa aikin bayanai"</string>
+<string name="carrier_settings_title">"Saitin kamfanin wayar sadarwa"</string>
+<string name="fdn">"Kayyadaddun lambobin bugawa "</string>
+<string name="fdn_with_label">"Zaunannun lambobin kira (<xliff:g id="subscriptionlabel" misali="Verizon">%s</xliff:g>)"</string>
+<string name="manage_fdn_list">"Jerin FDN"</string>
+<string name="fdn_list_with_label">"Jerin FDN (<xliff:g id="subscriptionlabel" misali="Verizon">%s</xliff:g>)"</string>
+<string name="fdn_activation">"Rayarwar FDN"</string>
+<string name="fdn_enabled">"Kayyadaddun lambobin bugawa an rayar"</string>
+<string name="fdn_disabled">"Kayyadaddun lambobin bugawa an nakasar"</string>
+<string name="enable_fdn">"Rayar da FDN"</string>
+<string name="disable_fdn">"Nakasa FDN"</string>
+<string name="change_pin2">"Canza PIN2"</string>
+<string name="enable_fdn_ok">"Nakasa FDN"</string>
+<string name="disable_fdn_ok">"Rayar da FDN"</string>
+<string name="sum_fdn">"Sarrafa lambobin kira na dindindin"</string>
+<string name="sum_fdn_change_pin">"Canza PIN don shigan FDN"</string>
+<string name="sum_fdn_manage_list">"Sarrafa jerin lambobin waya"</string>
+<string name="voice_privacy">"Sirrin akwatin murya"</string>
+<string name="voice_privacy_summary">"Rayar da halin sirri mafiya"</string>
+<string name="tty_mode_option_title">"Yanayin TTY"</string>
+<string name="tty_mode_option_summary">"Saita TTY mode"</string>
+<string name="auto_retry_mode_title">"Sakewa automatik"</string>
+<string name="auto_retry_mode_summary">"Kunna yanayin sakewa automatik"</string>
+<string name="tty_mode_not_allowed_video_call">"Ba a yarda da canji na Yanayin TTY yayin da ake kiran bidiyo ba"</string>
+<string name="menu_add">"Kara asireshi"</string>
+<string name="menu_edit">"Gyara hulda"</string>
+<string name="menu_delete">"Soke tuntuba"</string>
+<string name="get_pin2">"Buga PIN2"</string>
+<string name="name">"Ta suna"</string>
+<string name="number">"Lamba"</string>
+<string name="save">"Adana"</string>
+<string name="add_fdn_contact">"Kara kafaffiyar lambar bugawa"</string>
+<string name="adding_fdn_contact">"Ana karin kafaffiyar lambar bugawa\u2026"</string>
+<string name="fdn_contact_added">"Kayyadaddun lambobin bugawa an kara."</string>
+<string name="edit_fdn_contact">"Gyara kayadadden lambar bugawa"</string>
+<string name="updating_fdn_contact">"A na sabunta lambar da ke buga wa da da kanta\u2026"</string>
+<string name="fdn_contact_updated">"Kayyadaddun lambobin bugawa an sabunta."</string>
+<string name="delete_fdn_contact">"Soke kayyadaddun lambar bugawa"</string>
+<string name="deleting_fdn_contact">"Soken kayyadaddu lambar bugawa\u2026"</string>
+<string name="fdn_contact_deleted">"Kayyadaddun lambobin bugawa an goge."</string>
+<string name="pin2_invalid">"FDN ba a daukaka ba saboda ka buga lambar PIN ba daidai ba."</string>
+<string name="fdn_invalid_number">"FDN ba a daukaka ba saboda lambar ba za ta wuce lambobi 20 ba."</string>
+<string name="pin2_or_fdn_invalid">FDN ba a kara masa kuzari ba. Lambar PIN2 ba daidai ba ne ko lambar wayar ba a yarda da shi ba.</string>
+<string name="fdn_failed">"Aiki da FDN ya gaza."</string>
+<string name="simContacts_emptyLoading">"Karantawa daga SIM card\u2026"</string>
+<string name="simContacts_empty">"Babu abokan sadarwa a SIM card dinka."</string>
+<string name="simContacts_title">"Zabi abokan sadarwa ka shigo da su"</string>
+<string name="simContacts_airplaneMode">"Kashe yanayin cikin jirgi don shigowa da matuntubai daga katin SIM."</string>
+<string name="enable_pin">"Rayar/nakasar da SIM PIN"</string>
+<string name="change_pin">"Canja PIN din SIM"</string>
+<string name="enter_pin_text">"PIN din SIM:"</string>
+<string name="oldPinLabel">"Tsohon PIN"</string>
+<string name="newPinLabel">"Sabon PIN"</string>
+<string name="confirmPinLabel">"Tabbatar da sabon PIN"</string>
+<string name="badPin">"Tsohon lambar PIN da ka buga ba daidai ba ne. Sake kuma."</string>
+<string name="mismatchPin">"Lambobin PIN da ka buga ba su yi daidai da juna ba. Sake kuma."</string>
+<string name="invalidPin">"Rubuta PIN wanda yake lambobi 4 ko 8 ne."</string>
+<string name="disable_sim_pin">"Share PIN na SIM"</string>
+<string name="enable_sim_pin">"Saita PIN na SIM"</string>
+<string name="enable_in_progress">"Ana saitin PIN\u2026"</string>
+<string name="enable_pin_ok">"Saitin PIN"</string>
+<string name="disable_pin_ok">"An share PIN"</string>
+<string name="pin_failed">"PIN marar kyau"</string>
+<string name="pin_changed">"An sabunta PIN"</string>
+<string name="puk_requested">"Kalmar-shiga marar kyau. An toshe PIN yanzu. An bukaci PUK."</string>
+<string name="enter_pin2_text">"PIN2"</string>
+<string name="oldPin2Label">"Tsohon PIN2"</string>
+<string name="newPin2Label">"Sabon PIN2"</string>
+<string name="confirmPin2Label">"Tabbatar da sabon PIN2"</string>
+<string name="badPuk2">"PUK2 marar kyau. Sake gwadawa."</string>
+<string name="badPin2">"Tshohon PIN2 marar kyau. Sake gwadawa.\'"</string>
+<string name="mismatchPin2">"PIN2s ba su dace ba. Sake gwadawa."</string>
+<string name="invalidPin2">"Shigar da PIN2 mai lambobi 4 zuwa 8."</string>
+<string name="invalidPuk2">"Shigar da PUK2 mai lambobi 8."</string>
+<string name="pin2_changed">"An sabunta PIN2" "</string>
+<string name="label_puk2_code">"Shigar da lambar PUK2"</string>
+<string name="fdn_enable_puk2_requested">"Kalmar-shiga marar kyau. An toshe PIN2 yanzu. Don sake gwadawa, canja PIN 2."</string>
+<string name="puk2_requested">"Kalmar-shiga marar kyau. An kulle SIM yanzu. Shigar da PUK2."</string>
+<string name="puk2_blocked">"PUK2 an toshe shi sarmadan."</string>
+<string name="pin2_attempts">"\nKana da <xliff:g id="number">%d</xliff:g> ragowar damar gwadawa."</string>
+<string name="pin2_unblocked">"PIN2 yanzu ba a toshe yake ba"</string>
+<string name="pin2_error_exception">"Matsalar hanyar sadarwa ko katin SIM"</string>
+<string name="voicemail_settings_number_label">"Lambar voicemail"</string>
+<string name="card_title_dialing">"ana bugawa"</string>
+<string name="card_title_redialing">"Ana sake bugawa"</string>
+<string name="card_title_conf_call">"Kiran taro"</string>
+<string name="card_title_incoming_call">"Kara mai shigowa"</string>
+<string name="card_title_call_ended">"An kawo karshen kira"</string>
+<string name="card_title_on_hold">"A kan tsaiko"</string>
+<string name="card_title_hanging_up">"Ajiye kira"</string>
+<string name="card_title_in_call">"Kira mai shigowa"</string>
+<string name="notification_voicemail_title">"Sabuwar voicemail"</string>
+<string name="notification_voicemail_title_count">"Sabuwar voicemail (<xliff:g id="count">%d</xliff:g>)"</string>
+<string name="notification_voicemail_text_format">"Buga <xliff:g id="voicemail_number">%s</xliff:g>"</string>
+<string name="notification_voicemail_no_vm_number">"Bakuwar lambar voicemail"</string>
+<string name="notification_network_selection_title">"Ba sabis."</string>
+<string name="notification_network_selection_text">"Hanyar sadarwar da aka zaba (<xliff:g id="operator_name">%s</xliff:g>) babu ita"</string>
+<string name="incall_error_power_off">"Kashe yanayin cikin jirgi don yin kira."</string>
+<string name="incall_error_power_off_wfc">"Kashe yanayin cikin jirgi ko ka jona da hanyar sadarwa ta wayales don yin kira."</string>
+<string name="incall_error_ecm_emergency_only">"A fiita daga kiran gaggawa don yin kiran da ba na gaggawa ba."</string>
+<string name="incall_error_emergency_only">"Ba a yi rijistarsa ba a kan layin."</string>
+<string name="incall_error_out_of_service">"Babu layin sadarwar salula"</string>
+<string name="incall_error_out_of_service_wfc">"Babu hanyar sadarwa ta salula. Jona da hanyar sadarwa ta wayales don yin kira."</string>
+<string name="incall_error_no_phone_number_supplied">"Don buga kira, shigar da lamba mai aiki."</string>
+<string name="incall_error_call_failed">"Kira ya katse"</string>
+<string name="incall_status_dialed_mmi">"Bude jerim MMI\u2026"</string>
+<string name="incall_error_supp_service_unknown">"Sabis bai dace ba\'"</string>
+<string name="incall_error_supp_service_switch">"Ba za a iya musayar kira ba."</string>
+<string name="incall_error_supp_service_separate">"Ba za a iya raba kira ba."</string>
+<string name="incall_error_supp_service_transfer">"Ba za a iya yin tiransifa ba."</string>
+<string name="incall_error_supp_service_conference">"An kasa yin hirar waya ta intanet."</string>
+<string name="incall_error_supp_service_reject">"Ba za a iya watsi da kira ba."</string>
+<string name="incall_error_supp_service_hangup">"Ba za a iya sakin kira ba."</string>
+<string name="incall_error_supp_service_hold">"Ba za a iya rike kiran ba"</string>
+<string name="incall_error_wfc_only_no_wireless_network">"Jona da hanyar sadarwa ta wayales don yin kira.\'"</string>
+<string name="emergency_enable_radio_dialog_title">"Kiran gaggawa"</string>
+<string name="emergency_enable_radio_dialog_message">"A na kunna rediyo\u2026"</string>
+<string name="emergency_enable_radio_dialog_retry">"Babu sabis. Sake gwadawa\u2026"</string>
+<string name="radio_off_during_emergency_call">"Ba za a iya shiga yanayin jirgin sama ba lokacin da ake kiran gaggawa ba"</string>
+<string name="dial_emergency_error">"Ba za a iya kira ba. <xliff:g id="non_emergency_number">%s</xliff:g> ba lambar gaggawa ba ce."</string>
+<string name="dial_emergency_empty_error">"Ba za a iya kira ba. Buga lambar gaggawa."</string>
+<string name="dialerKeyboardHintText">"Yi amfani da keyboard don buga lambobin kira"</string>
+<string name="onscreenHoldText">"Rike"</string>
+<string name="onscreenEndCallText">"Karshe"</string>
+<string name="onscreenShowDialpadText">"Anbin kira"</string>
+<string name="onscreenMuteText">"Shiru"</string>
+<string name="onscreenAddCallText">"Kara kira"</string>
+<string name="onscreenMergeCallsText">"Kiraye-kirayen hadaka"</string>
+<string name="onscreenSwapCallsText">"Musanye"</string>
+<string name="onscreenManageCallsText">"Sarrafa kiraye kirayen tarho"</string>
+<string name="onscreenManageConferenceText">"Sarrafa"</string>
+<string name="onscreenAudioText">"Sauti"</string>
+<string name="onscreenVideoCallText">"Kiran bidiyo"</string>
+<string name="importSimEntry">"Shigo da "</string>
+<string name="importAllSimEntries">"Shigo da duk"</string>
+<string name="importingSimContacts">"Ana shigo da abokan tuntubar SIM"</string>
+<string name="importToFDNfromContacts">"Dauko ka shigo daga abokan tuntuba"</string>
+<string name="singleContactImportedMsg">""Lambobin da aka shigo da su"</string>
+<string name="failedToImportSingleContactMsg">"Ba a iya shigo da lambobi ba"</string>
+<string name="hac_mode_title">"Abubuwan kara ji"</string>
+<string name="hac_mode_summary">"Kunna maganadison abin jin magana"</string>
+<string-array name="tty_mode_entries">
+<item>"An kashe TTY"</item>
+<item>"TTY ya cika"</item>
+<item>"TTY HCO"</item>
+<item>"TTY VCO"</item>
+</string-array>
+<string name="dtmf_tones_title">"Sautunan DTMF"</string>
+<string name="dtmf_tones_summary">"Saita tsawon lokacin sautukan DTMF"</string>
+<string-array name="dtmf_tone_entries">
+<item>"Wanda aka saba"</item>
+<item>"Dogo"</item>
+</string-array>
+<string name="network_info_message">"Sakon hanyar sadarwa"</string>
+<string name="network_error_message">"Sakon kuskure\'"</string>
+<string name="ota_title_activate">"Kuzarta wayar ka"</string>
+<string name="ota_touch_activate">"Da bukatar kiran musamman don ta da sabis din wayarka.\n\nbayan dannawa \u201CKunna\u201D, saurari umurnin da za a bayar don ta da wayarka."</string>
+<string name="ota_hfa_activation_title">"Kunnawa..."</string>
+<string name="ota_hfa_activation_dialog_message">"Wayar na kunna sabis din bayanan mobayil.\n\nWannan zai dauki har mintuna 5."</string>
+<string name="ota_skip_activation_dialog_title">"Tsallake assasa wa\?"</string>
+<string name="ota_skip_activation_dialog_message">"In ka tsallake assasawa, ba ka iya yin kira ko samun hanyar sadarwa ta bayanan wayar tafi-da-gidanka (duk da cewa za ka iya samun hanyoyin sadarwar Wi-Fi). Kafin ka assasa wayarka, za a rika tuna maka ka assasa ta duk lokacin da ka kunna ta."</string>
+<string name="ota_skip_activation_dialog_skip_label">"Tsallake"</string>
+<string name="ota_activate">"Tada"</string>
+<string name="ota_title_activate_success">"An ta da wayar."</string>
+<string name="ota_title_problem_with_activation">"An sami matsala wajen sake budewa"</string>
+<string name="ota_listen">"Bi umarnan da ake fada har sai ka ji cewa rayar wa ta cika."</string>
+<string name="ota_speaker">"Mai-magana"</string>
+<string name="ota_progress">"Ana fasalta tsarin wayarka\u2026\'"</string>
+<string name="ota_failure">"An kasa fasalta tsarin wayarka"</string>
+<string name="ota_successful">"Wayarka yanzu an ta da ta. Zai dauki har mintuna 15 kafin sabis ya soma aiki."</string>
+<string name="ota_unsuccessful">"Wayarka ba ta ta shi ba. \nZa ka bukaci ka sami wani wurin da ke da sabis mai karfi (kusa da windo, ko a waje). \n\nSake kuma ko kira mai hidimar kwastoma don karin zabi."</string>
+<string name="ota_spc_failure">"WUCE KIMA SPC RASHIN CIN NASARORI"</string>
+<string name="ota_call_end">"Baya"</string>
+<string name="ota_try_again">"Sake gwadawa"</string>
+<string name="ota_next">"Na gaba"</string>
+<string name="phone_entered_ecm_text">"An shigad da halin sake kira na gaggawa"</string>
+<string name="phone_in_ecm_notification_title">"Halin sake kira na gaggawa"</string>
+<string name="phone_in_ecm_call_notification_text">"An nakasa hada bayani"</string>
+<plurals name="phone_in_ecm_notification_time">
+<item quantity="one">"Babu hadin data na <xliff:g id="count">%s</xliff:g> minti"</item>
+<item quantity="other">"Babu hadin data na <xliff:g id="count">%s</xliff:g> mintuna"</item>
+</plurals>
+<plurals name="alert_dialog_exit_ecm">
+<item quantity="one">"Wayar za ka kasance cikin yanayin kiran gaggawa na <xliff:g id="count">%s</xliff:g> minti. Yayin cikin wannan yanayi ba wani masarrafi da ke amfani da bayanai ta intanet da za a iya amfani da shi. Kana so ka fice yanzu?"</item>
+<item quantity="other">"Wayar za ta kasance cikin yanayin kiran gaggawa na <xliff:g id="count">%s</xliff:g> mintuna. Yayin cikin wannan yanayi ba wani masarrafi da ke amfani da bayanai ta intane da za a iya amfani da shi. Kana so ka fice yanzu?"</item>
+</plurals>
+<plurals name="alert_dialog_not_avaialble_in_ecm">
+<item quantity="one">"Aikin da ka zaba babu shi yayin da yake cikin yanayin kiran gaggawa. Wayar za ta kasance a wannan yanayina <xliff:g id="count">%s</xliff:g> minti. Kana so ka fice yanzu?"</item>
+<item quantity="other">"Aikin da ka zaba babu shi yayin da yake cikin yanayin kiran gaggawa. Wayar za ta kasance a wannan yanayina <xliff:g id="count">%s</xliff:g> mintuna. Kana so ka fice yanzu?"</item>
+</plurals>
+<string name="alert_dialog_in_ecm_call">"Aikin da ka zaba babu shi yayin kiran gaggawa."</string>
+<string name="progress_dialog_exiting_ecm">"Fitar wa halin sake kira na gaggawa"</string>
+<string name="alert_dialog_yes">"E"</string>
+<string name="alert_dialog_no">" A\'a"</string>
+<string name="alert_dialog_dismiss">"Sallama"</string>
+<string name="voicemail_provider">"Sabis"</string>
+<string name="voicemail_settings">"Kafa"</string>
+<string name="voicemail_number_not_set">"&lt; Ba a saita ba &gt;"</string>
+<string name="other_settings">"Wasu tsarin yin kira"</string>
+<string name="calling_via_template">"Yin kira ta <xliff:g id="provider_name">%s</xliff:g>"</string>
+<string name="contactPhoto">"hoton hulda"</string>
+<string name="goPrivate">"je ka na kebe"</string>
+<string name="selectContact">"zabi matuntuba"</string>
+<string name="not_voice_capable">"Kiran murya bai dace ba"</string>
+<string name="description_dial_button">"Buga"</string>
+<string name="voicemail_notification_vibrate_when_title">"Jijjiga"</string>
+<string name="voicemail_notification_vibarte_when_dialog_title">"Jijjiga"</string>
+<string name="voicemail_visual_voicemail_switch_title">"Voicemail da ake gani"</string>
+<string name="voicemail_notification_ringtone_title">"Sauti"</string>
+<string name="preference_category_ringtone">"Amon kira &amp; gunji"</string>
+<string name="pstn_connection_service_label">"Katinan SIM da aka gina a ciki"</string>
+<string name="enable_video_calling_title">"Kunna kiran bidiyo"</string>
+<string name="enable_video_calling_dialog_msg">"Don kunna kiran bidiyo, akwai bukatar ka bada damar Yanayin 4G LTE Da aka bunkasa a cikin saitukan hanyar sadarwa."</string>
+<string name="enable_video_calling_dialog_settings">"Tsarin mahadi"</string>
+<string name="enable_video_calling_dialog_close">"Rufe"</string>
+<string name="sim_label_emergency_calls">"kiran gaggawa"</string>
+<string name="sim_description_emergency_calls">"Kiran gaggawa kawai"</string>
+<string name="sim_description_default">"Katin SIM, gurbi: <xliff:g id="slot_id">%s</xliff:g>"</string>
+<string name="accessibility_settings_activity_title">"Hanyar zuwa"</string>
+<string name="status_hint_label_incoming_wifi_call">"Kiran Wi-Fi da ke shigowa"</string>
+<string name="status_hint_label_wifi_call">"Kiran Wi-Fi"</string>
+<string name="emergency_action_launch_hint">"sake dannanwa ka bude"</string>
+<string name="message_decode_error">"An sami matsala yayin bambare sakon."</string>
+<string name="callFailed_cdma_activation">"Katin SIM ya assasa sabis din ka kuma ya sabunta damar yawo ta wayarka."</string>
+<string name="callFailed_cdma_call_limit">" Akwai kiran da ake kan yi da yawa. A kashe ko a hada wasu kiran kafin a fara wani sabo. "</string>
+<string name="uplmn_setting_title">"Zabin da aka fi so"</string>
+<string name="call_end_try_again">"A sake jarrabawa bayan an gama kiran"</string>
+<string name="labelCF">"Tura kira gaba"</string>
+<string name="sum_cfu_enabled_indicator">"Tura gaba duk kira"</string>
+<string name="ActiveUnconCf">"Tura kira gaba ba sharadi"</string>
+<string name="ActiveConCf">"Tura kira da sharad"</string>
+<string name="CallForwarded">"Tura kira gaba"</string>
+<string name="CallWaiting">"Kira na jira"</string>
+<string name="OutCallBarred">"Hana kira mai fita"</string>
+<string name="InCallBarred">"An kange kira mai shigowa"</string>
+<string name="ForwardedCall">"Kira da aka tura gaba"</string>
+<string name="CallHold">"An rike kiran"</string>
+<string name="CallRetrieved">"An dauko kira"</string>
+<string name="IncomingCallForwarded">"Karin kira mai zuwa an tura gaba"</string>
+<string name="network_not_on">"Sadarwa ba a kunne yake ba, Kana so ka saita matsayin sadarwa?"</string>
+<string name="network_unknown">"Majahuli"</string>
+<string name="network_inhibit">"HARAMTACCE"</string>
+<string name="ip_dialing_title">"Yin kiran IP"</string>
+<string name="ip_dialing_list_title">Jerin kiran IP</string>
+<string name="ip_no_number">"Rashin lambobi kafin lambar IP"</string>
+<string name="ip_no_number_msg">"Lambobi kafin IP ba a adana kan waya ba."</string>
+<string name="ip_number_empty_loading">"Jerin kiran IP fanko ne."</string>
+<string name="remove">"Cire"</string>
+<string name="ip_number_is_too_long">"IP na lambobin yin kira ba zai wuce 20."</string>
+<string name="add_ip_number_str">"Sabo"</string>
+<string name="ip_dialing_num_error">Zai iya aje lambobin IP 10 ne.</string>
+<string name="ip_dialing_num_repeat">Sake lamba, kari ya gaza</string>
+<string name="menu_selected_all">"Zabi duk"</string>
+<string name="menu_select_none">"Cire zabin duk"</string>
+<string name="doneButton">"An yi"</string>
+<string name="cancel">"Soke"</string>
+<string name="lnd_list">"Jerin LND"</string>
+<string name="sdn_list">"Jerin SDN"</string>
+<string name="network_wcdma_only">"WCDMA kawai"</string>
+<string name="network_3g_2g">"Yanayi kadai na 3G/2G"</string>
+<string name="network_gsm_only">"GSM kawai"</string>
+<string name="network_2g_only">"Yanayin 2G Kadai"</string>
+<string name="network_lte_pref">"Yanayi Mai yawa na 4G/3G/2G"</string>
+<string name="network_lte_only">"LTE kawai"</string>
+<string-array name="enabled_networks_except_lte_choices">
+<item>"GSM kawai"</item>
+<item>"WCDMA kawai"</item>
+<item>"WCDMA/GSM"</item>
+</string-array>
+<string-array name="lte_preferred_networks_choices_for_common">
+<item>"Yanayi Mai yawa na 4G/3G/2G"</item>
+<item>"Yanayi kadai na 3G/2G"</item>
+<item>"Yanayin 2G Kadai"</item>
+</string-array>
+<string name="network_registration_fail_title">"Ba a yi nasarar rijistar netwok ba"</string>
+<string name="network_registration_fail">"Ba a yi nasarar rijistar netwok ba, ko a bude aikin zabe kai tsaye?"</string>
+</resources>

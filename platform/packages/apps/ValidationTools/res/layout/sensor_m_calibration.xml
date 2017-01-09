@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BUG479359 zhijie.yang 2016/5/5 MMI add the magnetic sensors and the prox sensor calibration-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/title_sensor_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dip"
+        android:layout_marginRight="50dip"
+        android:layout_marginLeft="50dip"
+        android:text="@string/m_sensor_calibration_tips"
+        android:textColor="#ffff0000" />
+
+</LinearLayout>

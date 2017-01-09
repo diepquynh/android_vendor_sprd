@@ -1,0 +1,232 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/gprs_attach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/gprs_attach" >
+            </Button>
+
+            <Button
+                android:id="@+id/gprs_deattach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/gprs_deattach" >
+            </Button>
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/always_needed_attach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/always"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/always_attach" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/needed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/when_need" >
+            </RadioButton>
+        </RadioGroup>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="1dp"
+            android:background="?android:attr/listDivider" />
+
+	    <RadioGroup
+	        android:id="@+id/radiogroup_pdp_set"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="1dip"
+	        android:orientation="vertical" >
+
+	        <RadioButton
+	            android:id="@+id/fir_pdp"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:checked="true"
+	            android:text="@string/fir_pdp" >
+	        </RadioButton>
+
+	        <RadioButton
+	            android:id="@+id/sec_pdp"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/sec_pdp" >
+	        </RadioButton>
+	    </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radiogroup_pdp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:layout_marginTop="1dip"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/as_prm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="@string/as_primary" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/as_sec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="@string/as_secondary" >
+            </RadioButton>
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+	        <TextView
+		       android:id="@+id/view"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:text="@string/traffic_class"
+		       />
+		    <Spinner
+		        android:id="@+id/traffic_class_spinner"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true">
+	        </Spinner>
+	    </LinearLayout>
+
+	    <Spinner
+	        android:id="@+id/pdp_spinner"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+	    </Spinner>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/activate_pdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/activate_pdp" >
+            </Button>
+
+            <Button
+                android:id="@+id/deactivate_pap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/deactivate_pap" >
+            </Button>
+        </LinearLayout>
+        <!-- SPRD: modify 20140424 Spreadtrum of 302980 telephonyt-gprs and telephony-ps related-gprs data send function repeat @{ -->
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dip"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/content_explain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="@string/input_rang"
+                android:textSize="15dip" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit_data1"
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:maxLength="5"
+                android:numeric="integer"
+                android:text="@string/hide_text"
+                android:textSize="17dip" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/content_explain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:text="@string/gprscontent"
+                android:textSize="15dip" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit_data2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="@string/hide_text1"
+                android:textSize="17dip" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/send_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/send_data" >
+            </Button>
+
+            <Button
+                android:id="@+id/clear_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/clear_data" >
+            </Button>
+        </LinearLayout>
+        <!-- @} -->
+    </LinearLayout>
+
+</ScrollView>

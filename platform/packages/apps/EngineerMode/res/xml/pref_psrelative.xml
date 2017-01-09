@@ -1,0 +1,75 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:summary="More information"
+    android:title="PS Related" >
+    <PreferenceScreen android:title="Lock Frequency" >
+        <Preference
+            android:title="GSM Frequency"
+            android:key="gsm_frequency">
+        </Preference>
+        <Preference
+            android:title="TD/W/LTE Frequency" 
+            android:key="others_frequency">
+        </Preference>
+    </PreferenceScreen>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="autoattach_value"
+        android:summary="At Power On"
+        android:title="Auto Attach" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <Preference
+        android:key="aocsetting"
+        android:title="AOC Setting" >
+    </Preference>
+    <!--
+     telephony tab GPRS Setting is same to this
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="true"
+        android:key="pdpact"
+        android:summaryOff="Deactive"
+        android:summaryOn="Active"
+        android:title="PDP Active" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    -->
+    <!--
+     SPRD: modify 20140424 Spreadtrum of 302980 telephonyt-gprs and telephony-ps related-gprs data send function repeat @{*/
+    <Preference
+        android:key="gprsdata_value"
+        android:title="GPRS Data Send" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.SendGPRSDataActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference> @}
+    -->
+
+    <ListPreference
+        android:dialogTitle="Mode"
+        android:entries="@array/smsinfo"
+        android:entryValues="@array/smsinfo_value"
+        android:key="smsserver"
+        android:title="SMS Server" >
+    </ListPreference>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="timeslotconflict"
+        android:title="TimeSlot Conflict" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <Preference
+        android:key="siminfo"
+        android:title="SIM Info" >
+    </Preference>
+
+    <Preference
+        android:key="hspa_setting"
+        android:title="@string/hspa_setting" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.HspaSettingActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+
+</PreferenceScreen>

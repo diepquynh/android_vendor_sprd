@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+     Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="6295623783273502721">"វិទ្យុ FM"</string>
+    <string name="toast_station_searched" msgid="4804871039582320419">"ស្វែងរកស្ថានីយ៍ដែលមានផ្តល់ជូន"</string>
+    <string name="toast_cannot_search" msgid="8816492120732683772">"មិនអាចស្វែងរកស្ថានីយដែលមានផ្តល់ជូនទេ"</string>
+    <string name="optmenu_speaker" msgid="3726411287495057671">"ឧបករណ៍បំពងសម្លេង"</string>
+    <string name="optmenu_earphone" msgid="5400875884296655508">"កាសស្តាប់"</string>
+    <string name="save" msgid="7204164791719833151">"រក្សាទុក"</string>
+    <string name="toast_sdcard_missing" msgid="3707819946661311504">"កាត SD  របស់អ្នកបាត់បង់ហើយ!"</string>
+    <string name="toast_sdcard_insufficient_space" msgid="1150004976629615550">"មិនមានចន្លោះទិន្នន័យកាត SD គ្រប់គ្រាន់ទេ!"</string>
+    <string name="toast_recorder_internal_error" msgid="8218803072221129182">"កំហុសខាងក្នុងបានកើតឡើងនៅក្នុងឧបករណ៍ថត!"</string>
+    <string name="btn_save_recording" msgid="7888937971238580699">"រក្សាទុក"</string>
+    <string name="btn_discard_recording" msgid="4316913232405323087">"បោះបង់"</string>
+    <string name="edit_recording_name_hint" msgid="3582848435650002280">"វាយបញ្ចូលឈ្មោះឯកសារនៅទីនេះ"</string>
+    <string name="already_exists" msgid="3665755106404888637">"មានរួចទៅហើយ"</string>
+    <string name="not_available" msgid="6709882926236090124">"មិនមានទេបច្ចុប្បន្ននេះ"</string>
+    <string name="talk_prev_station" msgid="8940546148820098004">"ស្ថានីយពីមុន"</string>
+    <string name="talk_decrease" msgid="6796562419095928389">"បន្ថយប្រេកង់"</string>
+    <string name="talk_increase" msgid="7207549524364881559">"បង្កើនប្រេកង់"</string>
+    <string name="talk_next_station" msgid="2711772562090360378">"ស្ថានីយបន្ទាប់"</string>
+    <string name="talk_add_favorite" msgid="1560744966239678417">"បន្ថែមទៅការចូលចិត្ត"</string>
+    <string name="talk_start_recording" msgid="2081128687917550957">"ចាប់ផ្តើមថត"</string>
+    <string name="more" msgid="8975740653205119861">"ច្រើនទៀត"</string>
+    <string name="recording_tips" msgid="9013420338482370789">"កំពុងថត…"</string>
+    <string name="fm_symbol" msgid="2254633383284842986">"FM"</string>
+    <string name="fm_turn_on" msgid="407678074231499621">"លេង ឬបិទវិទ្យុ FM"</string>
+    <string name="fm_over_start_record" msgid="2072548132520550718">"ចាប់ផ្តើមថត"</string>
+    <string name="fm_over_record_list" msgid="8958996187616432424">"ការថតដែលបានរក្សាទុក"</string>
+    <string name="fm_station_list_menu_refresh" msgid="1351081387336325789">"ផ្ទុកឡើងវិញ"</string>
+    <string name="fm_no_headset_text" msgid="6831656307562812248">"ដើម្បី​ស្តាប់ សូម​ដោត​កាស​ចូល (ប្រើ​ជា​អង់តែន)។"</string>
+    <string name="station_title" msgid="4027617747760605320">"ស្ថានីយវិទ្យុ"</string>
+    <string name="station_searching_tips" msgid="6970095710072278870">"ចាប់យកស្ថានីយ៍"</string>
+    <string name="station_empty_text" msgid="6847327406626186898">"មិនមានស្ថានីយ៍ត្រូវបានរកឃើញទេ"</string>
+    <string name="minutes_label" msgid="3225846493097986594">"ម"</string>
+    <string name="seconds_label" msgid="3998011734682420096">"វ"</string>
+    <string name="timer_default" msgid="8062388403825907344">"00"</string>
+    <string name="record_title" msgid="8695283158200902780">"ការថត"</string>
+    <string name="record_notification_message" msgid="4999850730062263290">"ការថតនៅក្នុងដំណើរការ"</string>
+    <string name="stop_record" msgid="4787351642158009287">"ឈប់ថត"</string>
+    <string name="save_dialog_title" msgid="6977508764748097072">"រក្សាទុកការថត?"</string>
+    <string name="save_dialog_caption" msgid="8618327604827517841">"ដើម្បីស្តាប់ការថត បើកកម្មវិធី ចាក់តន្ត្រី។"</string>
+    <string name="favorites" msgid="2732520024474501799">"ការចូលចិត្ត"</string>
+    <string name="rename" msgid="1770973764866255260">"ប្ដូរ​ឈ្មោះ"</string>
+    <string name="station_rename_hint" msgid="4291305834497293746">"បញ្ចូលឈ្មោះស្ថានីយ៍"</string>
+    <string name="remove_favorite" msgid="3128670507986192468">"យកការចូលចិត្តចេញ"</string>
+    <string name="toast_record_saved" msgid="2543677492878715874">"ការថតបានរក្សាទុក"</string>
+    <string name="toast_record_not_saved" msgid="6526674547687611282">"ការថតមិនបានរក្សាទុកទេ"</string>
+    <string name="toast_listen" msgid="2014315478895754055">"ស្តាប់"</string>
+    <string name="toast_station_renamed" msgid="2185292052267585710">"ស្ថានីយ៍នេះត្រូវបានប្តូរឈ្មោះ"</string>
+    <string name="station_freq">"ប្រេកង់របស់ស្ថានីយ៍"</string>
+     <string name="change_frequency">"ប្តូរប្រេកង់"</string>
+     <string name="button_ok">"យល់ព្រម"</string>
+     <string name="button_cancel">បោះបង់</string>
+     <string name="range_error">"ហួសពីវិសាលភាពនៃរលកវិទ្យុហើយ(87.5MHz-108MHz)"</string>
+     <string name="freq_input_info">"សូមបញ្ចូលតម្លៃប្រេកង់"</string>
+     <string name="fm_over_record_format">"ទម្រង់នៃឯកសារថតសម្លេង"</string>
+     <string name="select_file_type">"សូមជ្រើសរើសទម្រង់ឯកសារ"</string>
+     <string name="storage_phone">"ទូរស័ព្ទ"</string>
+     <string name="storage_sd">"កាត​អេសឌី"</string>
+     <string name="select_file_path">"ជ្រើសរើសគន្លងរក្សាទុក"</string>
+     <string name="record_path">"កំណត់គន្លងរក្សាទុក"</string>
+     <string name="from_current_search">"ស្វែងរកពីប៉ុស្តិ៍ដែលកំពុងប្រើ"</string>
+     <string name="error_permissions">"កម្មវិធីនេះមិនមានសិទ្ធិអនុញ្ញាតគ្រប់គ្រាន់ដើម្បីដំណើរការទេ។ សូមពិនិត្យការកំណត់សិទ្ធិអនុញ្ញាតរបស់អ្នក។"</string>
+     <string name="dialog_dismiss">"ចាកចេញ"</string>
+     <string name="fm_play">"បើកស្តាប់វិទ្យុFM"</string>
+     <string name="fm_stop">"បញ្ឈប់ស្តាប់វទ្យុFM"</string>
+     <string name="toast_record_not_saved_fortime">ឯកសារថតសម្លេងតិចជាង1វិនាទី មិនទាន់រក្សាទុក</string>
+     <string name="station_change_freq_hint">"បញ្ចូលប្រេកង់នៃប៉ុស្តិ៍វិទ្យុ"</string>
+     <string name="toast_station_freq_changed">"ប្រេកង់របស់ស្ថានីយ៍នេះត្រូវបានកែប្រែហើយ"</string>
+     <string name="toast_play_fm">"ដើម្បីចាប់ផ្តើមថតសម្លេង សូមបើកស្តាប់វិទ្យុFM។"</string>
+     <string name="same_application_running">"ឧបករណ៍ថតសម្លេងគឺកំពុងត្រូវបានប្រើដោយកម្មវិធីផ្សេងទៀត សូមបិទកម្មវិធីប្រភេទនេះចោលសិន!"</string>
+
+    <string name="toast_record_not_saved_tmpfile_deleted">"ឯកសារថតសម្លេងមិនមានទេ មិនអាចរក្សាទុកបានទេ"</string>
+     <string name="rds_switch_off">"បិទRDS"</string>
+     <string name="rds_switch_on">"បើកRDS"</string>
+     <string name="rds_af_switch_off">"បិទAF"</string>
+     <string name="rds_af_switch_on">"បើកAF"</string>
+     <string name="fm_regularly_poweroff">"បិទតាមពេលកំណត់"</string>
+     <string name="cancel_regularly_poweroff">"លុបចោលការបិទតាមពេលកំណត់"</string>
+     <string name="time_10min">"15នាទី"</string>
+     <string name="time_20min">"30នាទី"</string>
+     <string name="time_30min">"60នាទី"</string>
+     <string name="time_60min">"90នាទី"</string>
+     <string name="time_units">"MIN"</string>
+     <string name="time_scustom_setting">"ការកំណត់តាមចិត្តខ្លួនឯង"</string>
+     <string name="fm_record_list">"បញ្ជីការថតសម្លងវិទ្យុFM"</string>
+     <string name="search_hint">"ស្វែងរក ការថតសម្លងវិទ្យុFM&#8230;"</string>
+     <string name="favorite_station_tag">"ស្ថានីយ៍សំណព្វ"</string>
+     <string name="other_station_tag">"ស្ថានីយ៍ដទៃ"</string>
+     <string name="station_edit">"កែតម្រូវស្ថានីយ៍"</string>
+     <string name="station_batch_operation">"ដំណើការជាក្រុម"</string>
+     <string name="station_name">"ឈ្មោះស្ថានីយ៍"</string>
+     <string name="select_all">ជ្រើសរើសទាំងអស់</string>
+     <string name="cancel_select_all">បោះបង់ការជ្រើសរើសទាំងអស់</string>
+     <string name="progress_deleting">កំពុងលុបចោល</string>
+     <string name="no_storage_permission">"មិនមានការអនុញ្ញាតផ្ទុកទេ !"</string>
+     <string name="no_allow_play_calling">មិនអនុញ្ញាតិអោយចាក់តន្ត្រីក្នុងពេលកំពុងហៅទូរស័ព្ទទេ(វិទ្យុ/វីដេអូ)។</string>
+     <string name="playback_failed">សូមទោស ប្រដាប់បញ្ចាំងមិនគាំទ្រឯកសារសំឡេងនេះ</string>
+     <string name="play_error">"ការចាក់មាកំហុស។""</string>
+     <string name="list_exists">"ប៉ុស្តិ៍នេះមាននៅក្នុងបញ្ជីប៉ុស្តិ៍រួចទៅហើយ។"</string>
+     <string name="batch_operation">"ដំណើការជាក្រុម"</string>
+     <string name="input_error">"សូមបញ្ចូលពេលវេលាដែលត្រឹមត្រូវ"</string>
+     <string name="record_start">"ចាប់ផ្ដើម​"</string>
+     <string name="edit_freq">"កែតម្រូវស្ថានីយ៍"</string>
+     <string name="toast_storage_device_missing">"រកមិនឃើញអង្គចងចាំរបស់លោកអ្នកទេ!"</string>
+     <string name="fm_prevstation_title">"មុន"</string>
+     <string name="fm_stopplay_title">"ឈប់"</string>
+     <string name="fm_nextstation_title">"បន្ទាប់​"</string>
+     <string name="airplane_title">"ការព្រមានម៉ូដហោះហើរ"</string>
+     <string name="airplane_message">"មិនអាចបើកវិទ្យុFMនៅពេលបើកប្រើម៉ូដហោះហើរនោះទេ។"</string>
+     <string name="delete_title_tip">លុបចោល</string>
+     <string name="playmode_title_tip">"ម៉ូដចាក់"</string>
+</resources>

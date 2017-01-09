@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">File Explorer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section_overview">Quick View</string>
+    <string name="title_section_external">External Storage</string>
+    <string name="title_section_internal">Internal Storage</string>
+    <string name="title_section_usbdisk">USB Disk</string>
+    <string name="title_section_all">All</string>
+    <string name="descrip_file_icon">FileIcon</string>
+    <string name="descrip_actionbar_logo">Upward</string>
+    <string name="descrip_actionbar_search">Search</string>
+    <string name="descrip_actionbar_overflow">Menu</string>
+    <string-array name="select_dest">
+        <item name="title_phone">Internal Storage</item>
+        <item name="title_sdcard">External Storage</item>
+    </string-array>
+    <string name="quickscan_audio">Audio</string>
+    <string name="quickscan_image">Images</string>
+    <string name="quickscan_record">Records</string>
+    <string name="quickscan_video">Video</string>
+    <string name="quickscan_doc">Documents</string>
+    <string name="quickscan_apk">Applications</string>
+    <string name="quickscan_apk_short">APK</string>
+    <string name="file_list_flodermsg">Date:%1$s</string>
+    <string name="file_list_filemsg">Date:%1$s\tSize:%2$s</string>
+    <string name="dialog_hint_title">Prompt</string>
+    <string name="dialog_hint_msg">Loading...</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_back_home">Back to Home</string>
+    <string name="menu_mkdir">New folder</string>
+    <string name="menu_newfile">New file</string>
+    <!-- SPRD: change string for bug399522. @{ -->
+    <string name="menu_mkdir_succeed">New Folder %1$s created successfully</string>
+    <!-- @} -->
+    <string name="menu_mkdir_failed">Failed to create folder %1$s</string>
+    <!-- SPRD 426087 remove \' @{ -->
+    <!-- SPRD 389482 change string according to the bug decription @{ -->
+    <string name="menu_newfile_succeed">New File %1$s Created Successfully</string>
+    <!-- @} -->
+    <!-- @} -->
+    <string name="menu_newfile_failed">Failed to create file %1$s</string>
+    <string name="menu_select_more">Select more</string>
+    <string name="menu_copy">Copy</string>
+    <string name="menu_cut">Cut</string>
+    <string name="menu_sort_type">Sort by</string>
+    <string name="menu_storage_status">Storage</string>
+    <string name="operate_delete">Delete</string>
+    <string name="operate_clear">Clear</string>
+    <string name="operate_delete_file_ask">Are you sure you want to delete %1$s？</string>
+    <string name="operate_delete_file_succeed">Delete file %1$s success</string>
+    <string name="operate_delete_file_failed">Failed to delete file %1$s </string>
+    <string name="operate_viewdetails">Properties</string>
+    <string name="operate_viewdetails_date">Date: %1$s</string>
+    <string name="operate_viewdetails_size">Size: %1$s</string>
+    <string name="operate_viewdetails_type_folder">Type: Folder</string>
+    <string name="operate_viewdetails_type_file">Type: File</string>
+    <string name="operate_folder_attribute">Include: %1$d Files，%2$d Folders\nSize: %3$s</string>
+    <string name="operate_rename">Rename</string>
+    <string name="operate_rename_hint">Please enter new folder name</string>
+    <string name="operate_rename_succeed">Rename successfully</string>
+    <string name="operate_rename_failed">Failed to rename file %1$s</string>
+    <string name="operate_share">Share</string>
+    <string name="msg_file_input_empty">File name is empty</string>
+    <string name="msg_file_input_repeat">The name %1$s already exists, please enter another one.</string>
+    <!-- SPRD: Bug405860 add string according to the bug decription. @{ -->
+    <string name="msg_folder_input_empty">Folder name is empty</string>
+    <!-- @} -->
+    <string name="msg_folder_empty">The Folder is empty</string>
+    <string name="msg_invalid_intent">The system does not support this type of file</string>
+    <string name="msg_issure_clear">Clear this current folder?</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="copying">Copying,please wait</string>
+    <string name="clipboard_empty">The clipboard is empty</string>
+    <string name="text_exit_file_explore_title">Exit</string>
+    <string name="text_exit_file_explore_prompt">Are you sure you want to exit?</string>
+    <string name="common_text_ok">OK</string>
+    <string name="common_text_cancel">Cancel</string>
+    <string name="common_text_paste">Paste</string>
+    <item name="viewtag_filepath" type="id"></item>
+    <item name="viewtag_filetype" type="id"></item>
+    <string-array name="copyfileWarning">
+        <item>Replace</item>
+        <item>Save both</item>
+    </string-array>
+    <string-array name="copydirWarning">
+        <item>Join</item>
+        <item>Replace</item>
+        <item>Save both</item>
+    </string-array>
+    <string name="file_option">File Options</string>
+    <string name="folder_option">Folder Options</string>
+    <string name="file_detail">Details</string>
+    <string name="caculating">Size: Calculating...</string>
+	<string name="copy_finish">Copy completed</string>
+    <string name="now_copying">Copying , please wait...</string>
+    <string name="delete_finish">The operation completed</string>
+    <string name="delete_fail">Failed to delete file <xliff:g id="NAME">%s</xliff:g></string>
+    <string name="now_deleting">Removing , please wait...</string>
+    <string name="cancel_copy">The operation was canceled</string>
+    <string name="exist">The file already exists</string>
+    <string name="select_destination">Select From</string>
+    <string name="empty_view_prompt">Empty folder, you may acquire more documents through PC or Internet.</string>
+    <string name="fragment_search_key_hint">Type the key you want to search</string>
+    <string name="fragment_search_location">Search Location:</string>
+    <string name="fragment_search_location_ex">Search Location</string>
+    <string name="fragment_search_type">File Type</string>
+    <string name="fragment_search_result">Search Result</string>
+    <string name="fragment_search_searching">Searching…</string>
+    <string name="fragment_search_noresult">Find nothing</string>
+    <string name="common_text_other">Other</string>
+    <string name="common_text_search">Search</string>
+	<string name="fragment_search_invalid_result">The file is out of date, please check.</string>
+    <string name="overview_menu_multiselect">Select more</string>
+    <string name="overview_menu_install_all">Install all</string>
+    <string name="overview_menu_install">Install</string>
+    <string name="overview_menu_delete">Delete</string>
+    <string name="sort_by_name">By name</string>
+    <string name="sort_by_type">By type</string>
+    <string name="sort_by_time_desc">By time(desc)</string>
+    <string name="sort_by_time_asc">By time(asc)</string>
+    <string name="sort_by_size_desc">By name(desc)</string>
+    <string name="sort_by_size_asc">By name(asc)</string>
+    <string-array name="sort_type">
+        <item>Name</item>
+        <item>Type</item>
+        <item>Date</item>
+        <item>Size</item>
+    </string-array>
+    <string name="sort_by_asc">Ascending</string>
+    <string name="sort_by_desc">Descending</string>
+    <string name="display_setting">Display Settings</string>
+    <string name="hide_file_display">Show hidden files</string>
+    <string name="display_hide_file">Show hidden files</string>
+    <string name="operate_viewdetails_path">File path: %1$s</string>
+    <string name="operate_viewdetails_canread">Can read: Yes</string>
+    <string name="operate_viewdetails_can_not_read">Can read: No</string>
+    <string name="operate_viewdetails_can_not_write">can write: No</string>
+    <string name="operate_viewdetails_can_write">Can write: Yes</string>
+    <string name="operate_viewdetails_hide">Is hidden file: Yes</string>
+    <string name="operate_viewdetails_not_hide">Is hidden file: No</string>
+    <string name="select_text">Select file</string>
+    <string name="select_all">Select all</string>
+    <string name="unselect_all">Cancel all</string>
+    <string name="length_limited">The name up to the max length</string>
+    <string name="cannot_copy_to_itself">Unable to copy directory to itself or its subdirectory</string>
+    <string name="confirm_delete">Confirm to delete?</string>
+    <string name="search_empty">Please enter search item.</string>
+    <string name="search_type_empty">Please select the file type.</string>
+    <string name="dialog_back">Back</string>
+    <string name="set_as">Set as</string>
+    <string name="invalid_char">File name contain invalid char like %s</string>
+    <string name="invalid_char_of_filename"><xliff:g id="SECTION">%s</xliff:g> filesystem\'s file name contain invalid char like <xliff:g id="INVALIDCHAR">%s</xliff:g></string>
+    <string name="invalid_char_of_foldername"><xliff:g id="SECTION">%s</xliff:g> filesystem\'s folder name contain invalid char like <xliff:g id="INVALIDCHAR">%s</xliff:g></string>
+    <string name="no_enough_sapce">No enough space</string>
+    <string name="file_type_wrong">The file type is wrong</string>
+    <string name="failed_set_wallpaper">Failed to set WallPaper</string>
+    <string name="unsupport_type">Unsupported ringtone type</string>
+    <string name="now_moving">Moving, please wait...</string>
+    <string name="now_calculate">Calculating, please wait...</string>
+    <string name="badname_as_point">Should not be named as /,\\,. or .., that may confuse with your file system</string>
+    <string name="cut_filename_duplicate">The current path of the file or folder has the same name, please re-select the directory!</string>
+    <string name="share_file_limited">The limit of shared file is %1$d</string>
+    <string name="install_apk_limited">The limit of install apk is %1$d</string>
+    <string name="now_cleared">Being cleared, please wait...</string>
+    <string name="not_replace">Can not be replaced because of the same name of parent folder</string>
+    <string name="sdcard_had_unmounted">Operating file is invalid</string>
+    <string name="common_text_ignore">Ignore</string>
+    <string name="cannot_copyfolder_itself">You cannot copy folder into itself</string>
+    <string name="cannot_cutfolder_itself">You cannot move folder into itself</string>
+    <string name="cannot_paste_reason">The destination folder is inside the source folder %s</string>
+    <string name ="badname_endwith_point">The end of the folder name can not be with .</string>
+    <string name="failed_option">Option failed</string>
+    <string name="failed_query">Database can not query this file</string>
+    <!-- SPRD: Bug429954 add string according to the bug decription. @{ -->
+    <string name="failed_select_event">Only choose 500 items in this operation.</string>
+    <!-- @} -->
+    <string name="error_permissions">The app does not have critical permissions needed to run. Please check your permissions settings.</string>
+    <string name="dialog_dismiss">Dismiss</string>
+    <string name="toast_fileexplorer_internal_error">An internal error occurred in file explorer!</string>
+    <string name="error_choose_drm_for_gallery">"DRM file can not be set to slide music, please choose another one"</string>
+</resources>

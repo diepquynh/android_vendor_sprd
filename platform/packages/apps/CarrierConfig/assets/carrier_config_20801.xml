@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <carrier_config>
+        <int name="vvm_port_number_int" value="20481"/>
+        <string name="vvm_destination_number_string">21101</string>
+        <int name="maxImageHeight" value="1944"/>
+        <string name="carrier_vvm_package_name_string">com.orange.vvm</string>
+        <string name="vvm_type_string">vvm_type_omtp</string>
+        <int name="maxMessageSize" value="614400"/>
+        <int name="maxImageWidth" value="2592"/>
+    </carrier_config>
+    <carrier_config>
+        <string name="vmnumber">888</string>
+    </carrier_config>
+    <carrier_config spn="C le mobile">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">C le mobile</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="vmnumber">888</string>
+    </carrier_config>
+    <carrier_config spn="Virgin">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Virgin</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="M6 Mobile">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">M6 Mobile</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="NRJ Mobile">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">NRJ Mobile</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="vmnumber">888</string>
+    </carrier_config>
+    <carrier_config spn="Breizh Mobile">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Breizh Mobile</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config imsi="20801xxx67xxxxx">
+        <boolean name="mvno" value="true"/>
+        <string name="spn">Virgin</string>
+        <string name="carrier_name_string">Virgin</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="Syma">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Syma</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

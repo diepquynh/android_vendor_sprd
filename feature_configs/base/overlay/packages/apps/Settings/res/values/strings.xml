@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD: FEATURE_OF_APN_AND_DATA_POP_UP @{ -->
+    <string name="apn_popup_title">APN Config</string>
+    <string name="apn_popup_summary">In order to ensure full connectivity, please select default internet settings for your SIM-card. Please note that additional data costs may be charged by your operator when having an active data connection.</string>
+    <string name="apn_popup_change">Change</string>
+    <string name="apn_popup_close">Close</string>
+    <string name="data_popup_title">Data Services</string>
+    <string name="data_popup_summary">Mobile data connection enabled by default. Enabling mobile data connection may incur additional charges from operator, if you do not have an unlimited data plan.</string>
+    <string name="data_popup_enable">Change</string>
+    <string name="data_popup_disable">Close</string>
+    <!-- @} -->
+    <!-- SPRD: new featrue:Smart Dual SIM @{ -->
+    <string name="smart_dual_sim_title">"Smart Dual SIM"</string>
+    <string name="smart_dual_sim_summary">"Manage the Smart Dual SIM status"</string>
+    <string name="smart_dual_sim_number_null">"The sim number is empty. Please input sim number"</string>
+    <string name="smart_forwarding_show_dialog">"Do not show this again"</string>
+    <string name="number_sim1">"SIM1 number:"</string>
+    <string name="number_sim2">"SIM2 number:"</string>
+    <string name="cfu_is_on">"The always call forward is on"</string>
+    <string name="smart_call_forward_error">"Network or SIM card error."</string>
+    <string name="updating_settings">"Updating settings..."</string>
+    <string name="reading_settings">"Reading settings..."</string>
+    <string name="smart_dual_sim_hint">"Please input sim number"</string>
+    <string name="smart_dual_sim_warning_message">"Enable Smart Dual SIM?\nWith some service providers, this function may not work probably or you maybe charged."</string>
+    <string name="response_error">Unexpected response from network.</string>
+    <string name="radio_off_error">Turn on the radio before viewing these settings.</string>
+    <string name="fdn_check_failure">Your Phone app\'s Fixed Dialing Numbers setting is turned on. As a result, some call-related features aren\'t working.</string>
+    <string name="exception_error">Network or SIM card error.</string>
+    <!-- @} -->
+    <!-- @Need to clearly distinguish between the main and gsm card -->
+    <string name="main_card_slot">"PRI. "</string>
+    <string name="gsm_card_slot">"SEC. "</string>
+    <!-- @} -->
+    <!-- SPRD: add for bug621123 @{ -->
+    <string-array name="country_codes">
+        <item>+91</item>
+        <item>+86</item>
+    </string-array>
+    <!-- @} -->
+</resources>

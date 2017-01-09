@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="MTBF" >
+
+<!--     <PreferenceCategory -->
+<!--         xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!--         android:title="@+string/launcher" > -->
+<!--         <Preference -->
+<!--             android:key="launcher_sc_set" -->
+<!--             android:summary="@+string/mtbf_launcher_shortcut_summary" -->
+<!--             android:title="@+string/mtbf_launcher_shortcut" > -->
+<!--         </Preference> -->
+<!--     </PreferenceCategory> -->
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@+string/settings" >
+        <Preference
+            android:key="setting_conn_set"
+            android:summary="@+string/mtbf_setting_conn_summary"
+            android:title="@+string/mtbf_setting_conn" >
+        </Preference>
+        <Preference
+            android:key="setting_time_set"
+            android:summary="@+string/mtbf_setting_time_summary"
+            android:title="@+string/mtbf_setting_time" >
+        </Preference>
+        <Preference
+            android:key="setting_usb_set"
+            android:summary="@+string/mtbf_setting_usb_summary"
+            android:title="@+string/mtbf_setting_usb" >
+        </Preference>
+        <Preference
+            android:key="setting_im_set"
+            android:summary="@+string/mtbf_setting_im_summary"
+            android:title="@+string/mtbf_setting_im" >
+        </Preference>
+        <Preference
+            android:key="setting_screen_set"
+            android:summary="@+string/mtbf_setting_screen_summary"
+            android:title="@+string/mtbf_setting_screen" >
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@+string/mms" >
+        <Preference
+            android:key="setting_mms_set"
+            android:summary="@+string/mtbf_mms_notify_summary"
+            android:title="@+string/mtbf_mms_notify" >
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@+string/calendar" >
+        <Preference
+            android:key="setting_calendar_set"
+            android:summary="@+string/mtbf_calendar_notify_summary"
+            android:title="@+string/mtbf_calendar_notify" >
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@+string/broswer" >
+        <Preference
+            android:key="setting_broswer_set"
+            android:summary="@+string/mtbf_broswer_mode_summary"
+            android:title="@+string/mtbf_broswer_mode" >
+        </Preference>
+        <Preference
+            android:key="setting_bookmark_set"
+            android:summary="@+string/mtbf_broswer_bookmark_summary"
+            android:title="@+string/mtbf_broswer_bookmark" >
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@+string/email" >
+        <Preference
+            android:key="setting_email_addr_set"
+            android:summary="@+string/mtbf_email_address_summary"
+            android:title="@+string/mtbf_email_address" >
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@+string/engineermode" >
+        <Preference
+            android:key="setting_em_logs_set"
+            android:summary="@+string/mtbf_em_logs_summary"
+            android:title="@+string/mtbf_em_logs" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

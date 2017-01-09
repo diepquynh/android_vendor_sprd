@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sprd.voicetrigger"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="23"/>
+
+    <original-package android:name="com.sprd.voicetrigger" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_HOTWORD" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MANAGE_USERS" />
+
+    <application
+        android:name=".VoiceTriggerApp"
+        android:allowBackup="true"
+        android:icon="@drawable/enroll_speach0"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:supportsRtl="true">
+        <activity
+            android:name=".VoiceTriggerMainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop"
+            android:process=":ui"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SubSettingsDialogWhenLarge">
+            <intent-filter>
+                <action android:name="com.sprd.action.VOICE_TRIGGER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <receiver
+            android:name=".VoiceTriggerReceiver"
+            android:process=":ui">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".SensibilityActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop"
+            android:process=":ui"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SubSettingsDialogWhenLarge" />
+        <activity
+            android:name=".SupportActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop"
+            android:process=":ui"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SubSettingsDialogWhenLarge" />
+        <activity
+            android:name=".HeadsetActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop"
+            android:process=":ui"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SubSettingsDialogWhenLarge" />
+        <activity
+            android:name=".ChooseWakeUpWordActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop"
+            android:process=":ui"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SubSettingsDialogWhenLarge">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WakeupDescribeActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop"
+            android:process=":ui"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SubSettingsDialogWhenLarge" />
+        <activity
+            android:name=".LanguageChooseActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop"
+            android:process=":ui"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SubSettingsDialogWhenLarge" />
+        <activity
+            android:name=".HelpActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop"
+            android:process=":ui"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SubSettingsDialogWhenLarge" />
+        <activity
+            android:name=".HelloTriggerActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop"
+            android:process=":ui"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Wallpaper" />
+
+        <service
+            android:name=".services.VoiceTriggerService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.sprd.voicetrigger.VoiceTriggerService" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name=".provider.MyContentProvider"
+            android:authorities="com.sprd.voicetrigger.provider"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":ui">
+
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_label">"UI del sistema"</string>
+<string name="status_bar_clear_all_button">"Borrar"</string>
+<string name="status_bar_recent_remove_item_title">"Eliminar de la lista"</string>
+<string name="status_bar_recent_inspect_item_title">"Información de la aplicación"</string>
+<string name="status_bar_no_recent_apps">"Sus pantallas recientes aparecen aquí."</string>
+<string name="status_bar_accessibility_dismiss_recents">"Rechazar aplicaciones recientes"</string>
+<plurals name="status_bar_accessibility_recent_apps">
+<item quantity="one">"1 pantalla en general"</item>
+<item quantity="other">"%d pantallas en General"</item>
+</plurals>
+<string name="status_bar_no_notifications_title">"No hay notificaciones"</string>
+<string name="status_bar_ongoing_events_title">"Continuo"</string>
+<string name="status_bar_latest_events_title">"Notificaciones"</string>
+<string name="battery_low_title">"Batería baja"</string>
+<string name="battery_low_percent_format">"<xliff:g id="percentage">%s</xliff:g> restante"</string>
+<string name="battery_low_percent_format_saver_started">"<xliff:g id="percentage">%s</xliff:g> restante. Ahorrador de batería está encendido."</string>
+<string name="invalid_charger">"No admite la carga USB.\nUtilice sólo el cargador suministrado."</string>
+<string name="invalid_charger_title">"No admite la carga USB."</string>
+<string name="invalid_charger_text">"Utilice únicamente el cargador suministrado."</string>
+<string name="battery_low_why">"Configuraciones"</string>
+<string name="battery_saver_confirmation_title">"¿Activar ahorro de batería?"</string>
+<string name="battery_saver_confirmation_ok">"Activar"</string>
+<string name="battery_saver_start_action">"Activar ahorro de batería"</string>
+<string name="status_bar_settings_settings_button">"Configuraciones"</string>
+<string name="status_bar_settings_wifi_button">"Wi-Fi"</string>
+<string name="status_bar_settings_auto_rotation">"Auto rotar pantalla"</string>
+<string name="status_bar_settings_mute_label">"SILENCIO"</string>
+<string name="status_bar_settings_auto_brightness_label">"AUTOMÁTICO"</string>
+<string name="status_bar_settings_notifications">"Notificaciones"</string>
+<string name="bluetooth_tethered">"Bluetooth anclado"</string>
+<string name="status_bar_input_method_settings_configure_input_methods">"Configurar métodos de entrada."</string>
+<string name="status_bar_use_physical_keyboard">"Teclado físico"</string>
+<string name="usb_device_permission_prompt">"¿Permitir a la aplicación <xliff:g id="application">%1$s</xliff:g> acceder al dispositivo USB?"</string>
+<string name="usb_accessory_permission_prompt">"¿Permitir a la aplicación <xliff:g id="application">%1$s</xliff:g> acceder al accesorio USB?"</string>
+<string name="usb_device_confirm_prompt">"¿Abrir <xliff:g id="activity">%1$s</xliff:g> cuando esté conectado el dispositivo USB?"</string>
+<string name="usb_accessory_confirm_prompt">"¿Abrir <xliff:g id="activity">%1$s</xliff:g> cuando esté conectado el accesorio USB?"</string>
+<string name="usb_accessory_uri_prompt">"Todavía no hay aplicaciones instaladas funcionando con este accesorio USB. Más información sobre este accesorio en <xliff:g id="url">%1$s</xliff:g>"</string>
+<string name="title_usb_accessory">"Accesorio USB"</string>
+<string name="label_view">"Ver"</string>
+<string name="always_use_device">"Utilizar de forma predeterminada para este dispositivo USB."</string>
+<string name="always_use_accessory">"Utilizar de forma predeterminada para este accesorio USB."</string>
+<string name="usb_debugging_title">"¿Permitir depuración por USB?"</string>
+<string name="usb_debugging_message">"La huella digital de su clave RSA en el ordenador es:\n<xliff:g id="fingerprint">%1$s</xliff:g>"</string>
+<string name="usb_debugging_always">"Permitir siempre desde este ordenador"</string>
+<string name="usb_debugging_secondary_user_title">"No tiene permitida la depuración por USB"</string>
+<string name="usb_debugging_secondary_user_message">"El usuario actualmente conectado a este dispositivo no puede activar la depuración USB. Para utilizar esta característica, cambie a un usuario Administrador."</string>
+<string name="compat_mode_on">"Zoom para llenar la pantalla"</string>
+<string name="compat_mode_off">"Estirar para llenar la pantalla"</string>
+<string name="screenshot_saving_ticker">"Guardando captura de pantalla\u2026"</string>
+<string name="screenshot_saving_title">"Guardando captura de pantalla\u2026"</string>
+<string name="screenshot_saving_text">"La captura de pantalla se está guardando."</string>
+<string name="screenshot_saved_title">"Se guardó la captura de pantalla."</string>
+<string name="screenshot_saved_text">"Toque para ver su captura de pantalla."</string>
+<string name="screenshot_failed_title">"No se pudo guardar la captura de pantalla."</string>
+<string name="screenshot_failed_to_save_unknown_text">"Problema encontrado al guardar la captura de pantalla."</string>
+<string name="screenshot_failed_to_save_text">"No se puede guardar la captura de pantalla debido al espacio de almacenamiento limitado."</string>
+<string name="screenshot_failed_to_capture_text">""La aplicación o la organización no permite realizar capturas de pantalla"."</string>
+<string name="usb_preference_title">"Opciones de transferencia de archivos por USB"</string>
+<string name="use_mtp_button_title">"Activar como reproductor multimedia (MTP)"</string>
+<string name="use_ptp_button_title">"Activar como cámara (PTP)"</string>
+<string name="installer_cd_button_title">"Instalar la aplicación Transferencia de Archivo Android para Mac"</string>
+<string name="accessibility_back">"Regresar"</string>
+<string name="accessibility_home">"Inicio"</string>
+<string name="accessibility_menu">"Menú"</string>
+<string name="accessibility_recent">"Recientes"</string>
+<string name="accessibility_search_light">"Buscar"</string>
+<string name="accessibility_camera_button">"Cámara"</string>
+<string name="accessibility_phone_button">"Teléfono"</string>
+<string name="accessibility_voice_assist_button">"Ayuda de voz"</string>
+<string name="accessibility_unlock_button">"Desbloquear"</string>
+<string name="accessibility_unlock_button_fingerprint">"Botón desbloqueado, esperando la huella digital"</string>
+<string name="accessibility_unlock_without_fingerprint">"Desbloquear sin utilizar su huella digital"</string>
+<string name="unlock_label">"Desbloquear"</string>
+<string name="phone_label">"abrir teléfono"</string>
+<string name="voice_assist_label">"abrir el asistente de voz"</string>
+<string name="camera_label">"abrir cámara"</string>
+<string name="recents_caption_resize">"Selecciona el nuevo diseño de la tarea."</string>
+<string name="cancel">"Cancelar"</string>
+<string name="accessibility_compatibility_zoom_button">"Botón de zoom de compatibilidad"</string>
+<string name="accessibility_compatibility_zoom_example">"Zoom de pantalla más pequeña a más grande"</string>
+<string name="accessibility_bluetooth_connected">"Bluetooth conectado"</string>
+<string name="accessibility_bluetooth_disconnected">"Bluetooth desconectado"</string>
+<string name="accessibility_no_battery">"No hay batería."</string>
+<string name="accessibility_battery_one_bar">"Una barra de batería"</string>
+<string name="accessibility_battery_two_bars">"Dos barras de batería"</string>
+<string name="accessibility_battery_three_bars">"Tres barras de batería"</string>
+<string name="accessibility_battery_full">"Batería completa"</string>
+<string name="accessibility_no_phone">"Sin teléfono"</string>
+<string name="accessibility_phone_one_bar">"Una barra de teléfono"</string>
+<string name="accessibility_phone_two_bars">"Dos barras de teléfono"</string>
+<string name="accessibility_phone_three_bars">"Tres barras de teléfono"</string>
+<string name="accessibility_phone_signal_full">"Señal de teléfono completa"</string>
+<string name="accessibility_no_data">"No hay datos."</string>
+<string name="accessibility_data_one_bar">"Una barra de datos"</string>
+<string name="accessibility_data_two_bars">"Dos barras de datos"</string>
+<string name="accessibility_data_three_bars">"Tres barras de datos"</string>
+<string name="accessibility_data_signal_full">"Señal de datos completa"</string>
+<string name="accessibility_wifi_name">"Conectado a  <xliff:g id="wifi" example="Home Network">%s</xliff:g>."</string>
+<string name="accessibility_bluetooth_name">"Conectado a <xliff:g id="bluetooth" example="Car Audio">%s</xliff:g>."</string>
+<string name="accessibility_cast_name">"Conectado a <xliff:g id="cast" example="TV">%s</xliff:g>."</string>
+<string name="accessibility_no_wimax">"Sin conexión WiMAX"</string>
+<string name="accessibility_wimax_one_bar">"Una barra de WiMAX"</string>
+<string name="accessibility_wimax_two_bars">"Dos barras de WiMAX"</string>
+<string name="accessibility_wimax_three_bars">"Tres barras de WiMAX"</string>
+<string name="accessibility_wimax_signal_full">"Señal de WiMAX al máximo"</string>
+<string name="accessibility_ethernet_disconnected">"Ethernet desconectada"</string>
+<string name="accessibility_ethernet_connected">"Ethernet conectada"</string>
+<string name="accessibility_no_signal">"Sin señal"</string>
+<string name="accessibility_not_connected">"Sin conexión."</string>
+<string name="accessibility_zero_bars">"Cero barras"</string>
+<string name="accessibility_one_bar">"Una barra"</string>
+<string name="accessibility_two_bars">"Dos barras"</string>
+<string name="accessibility_three_bars">"Tres barras"</string>
+<string name="accessibility_signal_full">"Señal excelente"</string>
+<string name="accessibility_desc_on">"Activado"</string>
+<string name="accessibility_desc_off">"Apagado."</string>
+<string name="accessibility_desc_connected">"Conectado."</string>
+<string name="accessibility_desc_connecting">"Conectando."</string>
+<string name="accessibility_data_connection_roaming">"Itinerancia"</string>
+<string name="accessibility_data_connection_wifi">"Wi-Fi"</string>
+<string name="accessibility_no_sim">"Sin tarjeta SIM"</string>
+<string name="accessibility_cell_data">"Datos del móvil"</string>
+<string name="accessibility_cell_data_on">"Datos de móviles activados"</string>
+<string name="accessibility_cell_data_off">"Datos de móviles desactivados"</string>
+<string name="accessibility_bluetooth_tether">"Conexión mediante Bluetooth"</string>
+<string name="accessibility_airplane_mode">"Modo avión"</string>
+<string name="accessibility_no_sims">"No hay tarjeta SIM."</string>
+<string name="accessibility_carrier_network_change_mode">"Cambio de proveedor de red"</string>
+<string name="accessibility_battery_details">"Abrir detalles de la batería"</string>
+<string name="accessibility_battery_level">"Batería <xliff:g id="number">%d</xliff:g> porcentaje."</string>
+<string name="accessibility_battery_level_charging">"Bateria cargando, <xliff:g id="battery_percentage">%d</xliff:g> porcentaje."</string>
+<string name="accessibility_settings_button">"Configuración del sistema."</string>
+<string name="accessibility_notifications_button">"Notificaciones."</string>
+<string name="accessibility_remove_notification">"Eliminar notificación"</string>
+<string name="accessibility_gps_enabled">"GPS habilitado"</string>
+<string name="accessibility_gps_acquiring">"Adquiriendo GPS"</string>
+<string name="accessibility_tty_enabled">"TeleTypewriter habilitado"</string>
+<string name="accessibility_ringer_vibrate">"Timbre vibratorio."</string>
+<string name="accessibility_ringer_silent">"Timbre en silencio"</string>
+<string name="accessibility_work_mode">"Modo de trabajo"</string>
+<string name="accessibility_recents_item_will_be_dismissed">"Descartar <xliff:g id="app" example="Calendar">%s</xliff:g>."</string>
+<string name="accessibility_recents_item_dismissed">"<xliff:g id="app" example="Calendar">%s</xliff:g> descartado."</string>
+<string name="accessibility_recents_all_items_dismissed">"Se descartaron todas las aplicaciones recientes."</string>
+<string name="accessibility_recents_item_open_app_info">"Abrir <xliff:g id="app" example="Calendar">%s</xliff:g> información de la aplicación."</string>
+<string name="accessibility_recents_item_launched">"Iniciando <xliff:g id="app" example="Calendar">%s</xliff:g>."</string>
+<string name="accessibility_recents_task_header">"<xliff:g id="app" example="Chrome">%1$s</xliff:g> <xliff:g id="activity_label" example="www.google.com">%2$s</xliff:g>"</string>
+<string name="accessibility_notification_dismissed">"Notificación descartada"</string>
+<string name="accessibility_desc_notification_shade">"Tonalidad de la notificación"</string>
+<string name="accessibility_desc_quick_settings">"Configuración rápida"</string>
+<string name="accessibility_desc_lock_screen">"Pantalla bloqueada"</string>
+<string name="accessibility_desc_settings">"Configuraciones"</string>
+<string name="accessibility_desc_recent_apps">"Recientes."</string>
+<string name="accessibility_desc_close">"Cerrar"</string>
+<string name="accessibility_quick_settings_user">"Usuario <xliff:g id="user" example="John Doe">%s</xliff:g>."</string>
+<string name="accessibility_quick_settings_wifi">"<xliff:g id="signal" example="Three bars">%1$s</xliff:g>."</string>
+<string name="accessibility_quick_settings_wifi_changed_off">"Wi-Fi desactivado"</string>
+<string name="accessibility_quick_settings_wifi_changed_on">"Wi-Fi activado"</string>
+<string name="accessibility_quick_settings_mobile">"Móvil <xliff:g id="signal" example="Three bars">%1$s</xliff:g>. <xliff:g id="type" example="4G">%2$s</xliff:g>. <xliff:g id="network" example="T-Mobile">%3$s</xliff:g>."</string>
+<string name="accessibility_quick_settings_battery">"Batería <xliff:g id="state" example="50% charging">%s</xliff:g>."</string>
+<string name="accessibility_quick_settings_airplane_off">"Modo avión está DESACTIVADO"</string>
+<string name="accessibility_quick_settings_airplane_on">"Modo avión está ACTIVADO"</string>
+<string name="accessibility_quick_settings_airplane_changed_off">"Modo de avión: desactivado"</string>
+<string name="accessibility_quick_settings_airplane_changed_on">"Modo de avión: activado"</string>
+<string name="accessibility_quick_settings_dnd_priority_on">"No molestar activado, sólo prioridad"</string>
+<string name="accessibility_quick_settings_dnd_none_on">"No molestar activado, silencio total"</string>
+<string name="accessibility_quick_settings_dnd_alarms_on">"No molestar activado, sólo alarmas"</string>
+<string name="accessibility_quick_settings_dnd">"No molestar."</string>
+<string name="accessibility_quick_settings_dnd_off">"No molestar desactivado"</string>
+<string name="accessibility_quick_settings_dnd_changed_off">"No molestar desactivado"</string>
+<string name="accessibility_quick_settings_dnd_changed_on">"No molestar activado"</string>
+<string name="accessibility_quick_settings_bluetooth">"Bluetooth."</string>
+<string name="accessibility_quick_settings_bluetooth_off">"Bluetooth desactivado"</string>
+<string name="accessibility_quick_settings_bluetooth_on">"Bluetooth activado"</string>
+<string name="accessibility_quick_settings_bluetooth_connecting">"Bluetooth conectándose"</string>
+<string name="accessibility_quick_settings_bluetooth_connected">"Bluetooth conectado"</string>
+<string name="accessibility_quick_settings_bluetooth_changed_off">"Bluetooth desactivado"</string>
+<string name="accessibility_quick_settings_bluetooth_changed_on">"Bluetooth activado"</string>
+<string name="accessibility_quick_settings_location_off">"Informes de Ubicación desactivados"</string>
+<string name="accessibility_quick_settings_location_on">"Informes de Ubicación activados"</string>
+<string name="accessibility_quick_settings_location_changed_off">"Informes de Ubicación desactivados"</string>
+<string name="accessibility_quick_settings_location_changed_on">"Informes de Ubicación activados"</string>
+<string name="accessibility_quick_settings_alarm">"La alarma sonará en <xliff:g id="time" example="Wed 3:30 PM">%s</xliff:g>."</string>
+<string name="accessibility_quick_settings_close">"Cerrar panel"</string>
+<string name="accessibility_quick_settings_more_time">"Más tiempo"</string>
+<string name="accessibility_quick_settings_less_time">"Menos tiempo"</string>
+<string name="accessibility_quick_settings_flashlight_off">"Linterna desactivada"</string>
+<string name="accessibility_quick_settings_flashlight_unavailable">"La linterna no está disponible."</string>
+<string name="accessibility_quick_settings_flashlight_on">"Linterna activada"</string>
+<string name="accessibility_quick_settings_flashlight_changed_off">"Linterna desactivada"</string>
+<string name="accessibility_quick_settings_flashlight_changed_on">"Linterna activada"</string>
+<string name="accessibility_quick_settings_color_inversion_changed_off">"Inversión de color desactivada"</string>
+<string name="accessibility_quick_settings_color_inversion_changed_on">"Inversión de color activada"</string>
+<string name="accessibility_quick_settings_hotspot_changed_off">"Zona móvil desactivada"</string>
+<string name="accessibility_quick_settings_hotspot_changed_on">"Zona móvil activada"</string>
+<string name="accessibility_casting_turned_off">"Transmisión de pantalla detenida"</string>
+<string name="accessibility_quick_settings_work_mode_off">"Modo de trabajo desactivado."</string>
+<string name="accessibility_quick_settings_work_mode_on">"Modo de trabajo activado."</string>
+<string name="accessibility_quick_settings_work_mode_changed_off">"Modo de trabajo desactivado."</string>
+<string name="accessibility_quick_settings_work_mode_changed_on">"Modo de trabajo activado."</string>
+<string name="accessibility_quick_settings_data_saver_changed_off">"Protector de datos desactivado."</string>
+<string name="accessibility_quick_settings_data_saver_changed_on">"Protector de datos activado."</string>
+<string name="accessibility_brightness">"Brillo de pantalla"</string>
+<string name="data_usage_disabled_dialog_3g_title">"Datos 2G-3G detenidos"</string>
+<string name="data_usage_disabled_dialog_4g_title">"Datos 4G detenidos"</string>
+<string name="data_usage_disabled_dialog_mobile_title">"Datos del móvil detenidos"</string>
+<string name="data_usage_disabled_dialog_title">"Datos detenidos"</string>
+<string name="data_usage_disabled_dialog">"Debido que se alcanzó el límite de datos establecido, el dispositivo detuvo el uso de datos para el resto de este ciclo.\n\nLa reanudación podría tener como resultado cargos del proveedor."</string>
+<string name="data_usage_disabled_dialog_enable">"Reanudar"</string>
+<string name="status_bar_settings_signal_meter_disconnected">"Sin conexión a Internet"</string>
+<string name="status_bar_settings_signal_meter_wifi_nossid">"Wi-Fi conectado"</string>
+<string name="gps_notification_searching_text">"Buscando GPS"</string>
+<string name="gps_notification_found_text">"La ubicación se estableció por GPS"</string>
+<string name="accessibility_location_active">"Solicitudes de ubicación activas"</string>
+<string name="accessibility_clear_all">"Eliminar todas las notificaciones"</string>
+<string name="notification_group_overflow_indicator">"+ <xliff:g id="number" example="3">%s</xliff:g>"</string>
+<plurals name="notification_group_overflow_description">
+<item quantity="one">"<xliff:g id="number" example="1">%s</xliff:g> más notificación adentro."</item>
+<item quantity="other">"<xliff:g id="number" example="3">%s</xliff:g> más notificaciones adentro."</item>
+</plurals>
+<string name="status_bar_notification_inspect_item_title">"Configuración de notificaciones"</string>
+<string name="status_bar_notification_app_settings_title">"<xliff:g id="app_name" example="Calendar">%s</xliff:g> configuraciones"</string>
+<string name="accessibility_rotation_lock_off">"La pantalla girará automáticamente."</string>
+<string name="accessibility_rotation_lock_on_landscape">"La pantalla está bloqueada en modo horizontal."</string>
+<string name="accessibility_rotation_lock_on_portrait">"La pantalla está bloqueada en modo vertical."</string>
+<string name="accessibility_rotation_lock_off_changed">"La pantalla ahora rotará automáticamente."</string>
+<string name="accessibility_rotation_lock_on_landscape_changed">"La pantalla está bloqueada en orientación horizontal."</string>
+<string name="accessibility_rotation_lock_on_portrait_changed">"La pantalla está bloqueada en orientación vertical."</string>
+<string name="dessert_case">"Caja para postres"</string>
+<string name="start_dreams">"Salvapantallas"</string>
+<string name="ethernet_label">"Ethernet"</string>
+<string name="quick_settings_dnd_label">"No molestar"</string>
+<string name="quick_settings_dnd_priority_label">"Sólo prioridad"</string>
+<string name="quick_settings_dnd_alarms_label">"Sólo alarmas"</string>
+<string name="quick_settings_dnd_none_label">"Silencio total"</string>
+<string name="quick_settings_bluetooth_label">"Bluetooth"</string>
+<string name="quick_settings_bluetooth_multiple_devices_label">"Bluetooth (<xliff:g id="number">%d</xliff:g> Dispositivos)"</string>
+<string name="quick_settings_bluetooth_off_label">"Bluetooth desactivado"</string>
+<string name="quick_settings_bluetooth_detail_empty_text">"No hay dispositivos sincronizados disponibles"</string>
+<string name="quick_settings_brightness_label">"Brillo"</string>
+<string name="quick_settings_rotation_unlocked_label">"Rotación automática"</string>
+<string name="accessibility_quick_settings_rotation">"Auto rotar pantalla"</string>
+<string name="accessibility_quick_settings_rotation_value">"Configurar a <xliff:g name="rotation" example="Portrait">%s</xliff:g>"</string>
+<string name="quick_settings_rotation_locked_label">"Rotación bloqueada"</string>
+<string name="quick_settings_rotation_locked_portrait_label">"Vertical"</string>
+<string name="quick_settings_rotation_locked_landscape_label">"Horizontal"</string>
+<string name="quick_settings_ime_label">"Introducir método"</string>
+<string name="quick_settings_location_label">"Ubicación"</string>
+<string name="quick_settings_location_off_label">"Ubicación desactivada"</string>
+<string name="quick_settings_media_device_label">"Dispositivo multimedia"</string>
+<string name="quick_settings_rssi_emergency_only">"Sólo llamadas de emergencia"</string>
+<string name="quick_settings_settings_label">"Configuraciones"</string>
+<string name="quick_settings_time_label">"Hora"</string>
+<string name="quick_settings_user_label">"Yo"</string>
+<string name="quick_settings_user_title">"Usuario"</string>
+<string name="quick_settings_user_new_user">"Nuevo usuario"</string>
+<string name="quick_settings_wifi_label">"Wi-Fi"</string>
+<string name="quick_settings_wifi_not_connected">"Sin conexión"</string>
+<string name="quick_settings_wifi_no_network">"Sin red"</string>
+<string name="quick_settings_wifi_off_label">"Wi-Fi desactivada"</string>
+<string name="quick_settings_wifi_on_label">"Wi-Fi Activado"</string>
+<string name="quick_settings_wifi_detail_empty_text">"No hay redes Wi-Fi disponibles"</string>
+<string name="quick_settings_cast_title">"Emitir"</string>
+<string name="quick_settings_casting">"Transmitir"</string>
+<string name="quick_settings_cast_device_default_name">"Dispositivo sin nombre"</string>
+<string name="quick_settings_cast_device_default_description">"Listo para transmitir"</string>
+<string name="quick_settings_cast_detail_empty_text">"No hay dispositivos disponibles"</string>
+<string name="quick_settings_brightness_dialog_title">"Brillo"</string>
+<string name="quick_settings_brightness_dialog_auto_brightness_label">"AUTOMÁTICO"</string>
+<string name="quick_settings_inversion_label">"Invertir colores"</string>
+<string name="quick_settings_color_space_label">"Modo de corrección de color"</string>
+<string name="quick_settings_more_settings">"Más configuraciones"</string>
+<string name="quick_settings_done">"Hecho"</string>
+<string name="quick_settings_connected">"Conectado"</string>
+<string name="quick_settings_connecting">"Conectando..."</string>
+<string name="quick_settings_tethering_label">"Anclaje a red"</string>
+<string name="quick_settings_hotspot_label">"Punto de acceso"</string>
+<string name="quick_settings_notifications_label">"Notificaciones"</string>
+<string name="quick_settings_flashlight_label">"Linterna"</string>
+<string name="quick_settings_cellular_detail_title">"Datos del móvil"</string>
+<string name="quick_settings_cellular_detail_data_usage">"Uso de datos"</string>
+<string name="quick_settings_cellular_detail_remaining_data">"Datos restantes"</string>
+<string name="quick_settings_cellular_detail_over_limit">"Límite superado"</string>
+<string name="quick_settings_cellular_detail_data_used">"<xliff:g id="data_used" example="2.0 GB">%s</xliff:g> utilizado"</string>
+<string name="quick_settings_cellular_detail_data_limit">"<xliff:g id="data_limit" example="2.0 GB">%s</xliff:g> límite"</string>
+<string name="quick_settings_cellular_detail_data_warning">"<xliff:g id="data_limit" example="2.0 GB">%s</xliff:g> advertencia"</string>
+<string name="quick_settings_work_mode_label">"Modo de trabajo"</string>
+<string name="recents_empty_message">"No hay elementos recientes"</string>
+<string name="recents_empty_message_dismissed_all">"Usted ha eliminado todo"</string>
+<string name="recents_app_info_button_label">"Información de la aplicación"</string>
+<string name="recents_lock_to_app_button_label">"Fijar pantalla"</string>
+<string name="recents_search_bar_label">"Buscar"</string>
+<string name="recents_launch_error_message">"No se pudo iniciar <xliff:g id="app" example="Calendar">%s</xliff:g>."</string>
+<string name="recents_launch_disabled_message">"<xliff:g id="app" example="Calendar">%s</xliff:g> está deshabilitado en modo seguro."</string>
+<string name="recents_stack_action_button_label">"Borrar todo"</string>
+<string name="recents_incompatible_app_message">"La aplicación no admite la pantalla dividida"</string>
+<string name="recents_drag_hint_message">"Arrastre aquí para usar la pantalla dividida"</string>
+<string name="recents_multistack_add_stack_dialog_split_horizontal">"División horizontal"</string>
+<string name="recents_multistack_add_stack_dialog_split_vertical">"División vertical"</string>
+<string name="recents_multistack_add_stack_dialog_split_custom">"División personalizada"</string>
+<string name="expanded_header_battery_charged">"Cargado"</string>
+<string name="expanded_header_battery_charging">"Cargando"</string>
+<string name="expanded_header_battery_charging_with_time">"<xliff:g id="charging_time" example="2 hrs 25 min">%s</xliff:g> hasta estar completo"</string>
+<string name="expanded_header_battery_not_charging">"No se está cargando"</string>
+<string name="ssl_ca_cert_warning">"Es posible que la red\nesté supervisada."</string>
+<string name="description_target_search">"Buscar"</string>
+<string name="description_direction_up">"Deslizar hacia arriba para <xliff:g id="target_description" example="Unlock">%s</xliff:g>."</string>
+<string name="description_direction_left">""Deslizar a la izquierda para <xliff:g id="target_description" example="Unlock">%s</xliff:g>."</string>
+<string name="zen_priority_introduction">"No le molestarán los sonidos ni las vibraciones, excepto que se trate de alarmas, recordatorios, eventos y emisores que especifique."</string>
+<string name="zen_priority_customize_button">"Personalizar"</string>
+<string name="zen_silence_introduction_voice">"Esta acción bloquea TODOS los sonidos y las vibraciones, incluidas las que provienen de alarmas, música, vídeos y juegos. Podrá realizar llamadas telefónicas."</string>
+<string name="zen_silence_introduction">"Esta acción bloquea TODOS los sonidos y las vibraciones, incluso los que provienen de alarmas, música, vídeos y juegos."</string>
+<string name="keyguard_more_overflow_text">"+<xliff:g id="number_of_notifications" example="5">%d</xliff:g>"</string>
+<string name="speed_bump_explanation">"Notificaciones menos urgentes abajo"</string>
+<string name="notification_tap_again">"Toque de nuevo para abrir"</string>
+<string name="keyguard_unlock">"Deslizar hacia arriba para desbloquear"</string>
+<string name="phone_hint">"Deslizar desde el ícono para el teléfono."</string>
+<string name="voice_hint">"Deslizar desde el ícono para abrir asistente de voz."</string>
+<string name="camera_hint">"Deslizar desde el ícono para la cámara."</string>
+<string name="interruption_level_none_with_warning">"Silencio total. También se silenciarán los lectores de pantalla."</string>
+<string name="interruption_level_none">"Silencio total"</string>
+<string name="interruption_level_priority">"Sólo prioridad"</string>
+<string name="interruption_level_alarms">"Sólo alarmas"</string>
+<string name="interruption_level_none_twoline">"Silencio\ntotal"</string>
+<string name="interruption_level_priority_twoline">"Sólo\nprioridad"</string>
+<string name="interruption_level_alarms_twoline">"Sólo\nalarmas"</string>
+<string name="keyguard_indication_charging_time">"Cargando (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> until full)"</string>
+<string name="keyguard_indication_charging_time_fast">"Carga rápida (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> hasta llena)"</string>
+<string name="keyguard_indication_charging_time_slowly">"Carga lenta (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> hasta lleno)"</string>
+<string name="accessibility_multi_user_switch_switcher">"Cambiar de usuario"</string>
+<string name="accessibility_multi_user_switch_switcher_with_current">"Cambiar de usuario, usuario actual <xliff:g id="current_user_name" example="John Doe">%s</xliff:g>"</string>
+<string name="accessibility_multi_user_switch_inactive">"Usuario actual <xliff:g id="current_user_name" example="John Doe">%s</xliff:g>"</string>
+<string name="accessibility_multi_user_switch_quick_contact">"Mostrar perfil"</string>
+<string name="user_add_user">"Agregar usuario"</string>
+<string name="user_new_user_name">"Nuevo usuario"</string>
+<string name="guest_nickname">"Invitado"</string>
+<string name="guest_new_guest">"Agregar invitado"</string>
+<string name="guest_exit_guest">"Eliminar invitado"</string>
+<string name="guest_exit_guest_dialog_title">"¿Eliminar invitado?"</string>
+<string name="guest_exit_guest_dialog_message">"Se eliminarán las aplicaciones y los datos de esta sesión."</string>
+<string name="guest_exit_guest_dialog_remove">"Eliminar"</string>
+<string name="guest_wipe_session_title">"Bienvenido nuevamente, invitado."</string>
+<string name="guest_wipe_session_message">"¿Quieres retomar la sesión?"</string>
+<string name="guest_wipe_session_wipe">"Volver a empezar"</string>
+<string name="guest_wipe_session_dontwipe">"Sí, continuar"</string>
+<string name="guest_notification_title">"Usuario invitado"</string>
+<string name="guest_notification_text">"Para borrar aplicaciones y datos, elimina el usuario invitado"</string>
+<string name="guest_notification_remove_action">"Eliminar invitado"</string>
+<string name="user_logout_notification_title">"Cierre de sesión del usuario"</string>
+<string name="user_logout_notification_text">"Cierre de sesión del usuario actual"</string>
+<string name="user_logout_notification_action">"Cierre de sesión del usuario"</string>
+<string name="user_add_user_title">"¿Añadir nuevo usuario?"</string>
+<string name="user_add_user_message_short">"Cuando agrega un nuevo usuario, esa persona necesita configurar su espacio.\n\nCualquier usuario puede actualizar aplicaciones para todos los otros usuarios."</string>
+<string name="user_remove_user_title">"¿Eliminar usuario?"</string>
+<string name="user_remove_user_message">"Todas las aplicaciones y datos de este usuario se eliminarán."</string>
+<string name="user_remove_user_remove">"Eliminar"</string>
+<string name="battery_saver_notification_title">"Ahorro de batería activado"</string>
+<string name="battery_saver_notification_text">"Reduce el rendimiento y el uso de datos en segundo plano."</string>
+<string name="battery_saver_notification_action_text">"Desactivar el ahorro de batería"</string>
+<string name="media_projection_dialog_text">"<xliff:g id="app_seeking_permission" example="Hangouts">%s</xliff:g> comenzará la captura de todo lo que se muestre en su pantalla."</string>
+<string name="media_projection_remember_text">"no mostrar nuevamente"</string>
+<string name="clear_all_notifications_text">"Borrar todo"</string>
+<string name="media_projection_action_text">"Comenzar ahora"</string>
+<string name="empty_shade_text">"No hay notificaciones"</string>
+<string name="device_owned_footer">"El dispositivo puede ser monitoreado"</string>
+<string name="profile_owned_footer">"El perfil puede ser monitoreado"</string>
+<string name="vpn_footer">"Red puede ser monitoreada"</string>
+<string name="monitoring_title_device_owned">"Monitoreando dispositivo"</string>
+<string name="monitoring_title_profile_owned">"Monitoreando perfil"</string>
+<string name="monitoring_title">"Monitoreando red"</string>
+<string name="disable_vpn">"Inhabilitar VPN"</string>
+<string name="disconnect_vpn">"Desconectar VPN"</string>
+<string name="monitoring_description_device_owned">"Su dispositivo está gestionado por <xliff:g id="organization">%1$s</xliff:g>.\n\nSu administrador puede monitorear y administrar las configuraciones, el acceso corporativo, las aplicaciones, los datos asociados a su dispositivo, e información de ubicación de su dispositivo. Para obtener más información, póngase en contacto con el administrador."</string>
+<string name="monitoring_description_vpn">"Usted dio un permiso de aplicación para configurar una conexión VPN.\n\nEsta aplicación puede controlar su dispositivo y actividad de la red, incluyendo correos electrónicos, aplicaciones y sitios web."</string>
+<string name="monitoring_description_vpn_device_owned">"Su dispositivo está gestionado por <xliff:g id="organization">%1$s</xliff:g>.\n\nSu administrador puede monitorear y administrar las configuraciones, el acceso corporativo, las aplicaciones, los datos asociados a su dispositivo, e información de ubicación de su dispositivo.\n\nEstá conectado a una VPN, que puede supervisar su actividad de la red, incluyendo correos electrónicos, aplicaciones y sitios web.\n\nPara obtener más información, póngase en contacto con el administrador."</string>
+<string name="monitoring_description_vpn_profile_owned">"Su perfil de trabajo está gestionado por <xliff:g id="organization">%1$s</xliff:g>.\n\nEl administrador tiene la capacidad de monitorizar la actividad de su red, incluyendo mensajes de correo electrónico, aplicaciones y sitios web.\n\nPara obtener más información, póngase en contacto con su administrador.\n\nTambién está conectado a una VPN, que puede supervisar la actividad de su red."</string>
+<string name="monitoring_description_app">"Usted está conectado a <xliff:g id="application">%1$s</xliff:g>, que puede supervisar la actividad de su red, incluyendo mensajes de correo electrónico, aplicaciones y sitios web."</string>
+<string name="monitoring_description_app_personal">"Usted está conectado a <xliff:g id="application">%1$s</xliff:g>, que puede supervisar la actividad de su red personal, incluyendo correos electrónicos, aplicaciones y sitios web."</string>
+<string name="monitoring_description_app_work">"Su perfil de trabajo está gestionado por <xliff:g id="organization">%1$s</xliff:g>. Está conectado a <xliff:g id="application">%2$s</xliff:g>, que puede supervisar la actividad de su red de trabajo, incluyendo correos electrónicos, aplicaciones y sitios web.\n\nPara obtener más información, póngase en contacto con el administrador."</string>
+<string name="monitoring_description_app_personal_work">"Su perfil de trabajo está gestionado por <xliff:g id="organization">%1$s</xliff:g>. Está conectado a <xliff:g id="application_work">%2$s</xliff:g>, que puede supervisar la actividad de su red de trabajo, incluyendo correos electrónicos, aplicaciones y sitios web.\n\nTambién está conectado a <xliff:g id="application_personal">%3$s</xliff:g>, que puede supervisar la actividad de su red personal."</string>
+<string name="monitoring_description_vpn_app_device_owned">"Su dispositivo está gestionado por <xliff:g id="organization">%1$s</xliff:g>.\n\nSu administrador puede controlar y administrar la configuración, acceso corporativo, aplicaciones, datos asociados a su dispositivo, e información de ubicación de su dispositivo.\n\nUsted está conectado a <xliff:g id="application">%2$s</xliff:g>, que puede supervisar su actividad de la red, incluyendo correos electrónicos, aplicaciones y sitios web.\n\nPara obtener más información, póngase en contacto con el administrador."</string>
+<string name="keyguard_indication_trust_disabled">"El dispositivo permanecerá bloqueado hasta que lo desbloquee manualmente"</string>
+<string name="hidden_notifications_title">"Reciba notificaciones más rápido"</string>
+<string name="hidden_notifications_text">"Véalas antes de que lo desbloquee"</string>
+<string name="hidden_notifications_cancel">"No gracias"</string>
+<string name="hidden_notifications_setup">"Instalar"</string>
+<string name="zen_mode_and_condition">"<xliff:g id="zen_mode" example="Priority interruptions only">%1$s</xliff:g>. <xliff:g id="exit_condition" example="For one hour">%2$s</xliff:g>"</string>
+<string name="volume_zen_end_now">"Finalizar ahora"</string>
+<string name="accessibility_volume_expand">"Expandir"</string>
+<string name="accessibility_volume_collapse">"Contraer"</string>
+<string name="screen_pinning_title">"Pantalla fija"</string>
+<string name="screen_pinning_description">"Esto lo mantiene a la vista hasta desanclar. Toque &amp; retener para desanclar."</string>
+<string name="screen_pinning_positive">"Entendido"</string>
+<string name="screen_pinning_negative">"No gracias"</string>
+<string name="quick_settings_reset_confirmation_title">"Esconder <xliff:g id="tile_label" example="Hotspot">%1$s</xliff:g>?"</string>
+<string name="quick_settings_reset_confirmation_message">"Volverá a aparecer la próxima vez que la encienda en configuraciones."</string>
+<string name="quick_settings_reset_confirmation_button">"Esconder"</string>
+<string name="volumeui_prompt_message">"<xliff:g id="app_name" example="Volume Prototype 1">%1$s</xliff:g> quiere ser el diálogo de volumen."</string>
+<string name="volumeui_prompt_allow">"Permitir"</string>
+<string name="volumeui_prompt_deny">"Denegar"</string>
+<string name="volumeui_notification_title">"<xliff:g id="app_name" example="Volume Prototype 1">%1$s</xliff:g> es el diálogo de volumen"</string>
+<string name="volumeui_notification_text">"Toque para restaurar el original."</string>
+<string name="managed_profile_foreground_toast">"Está usando su perfil de trabajo"</string>
+<string name="volume_stream_content_description_unmute">"%1$s. Toque para activar el sonido."</string>
+<string name="volume_stream_content_description_vibrate">"%1$s. Toque para establecer que vibre. Los servicios de accesibilidad pueden ser silenciados."</string>
+<string name="volume_stream_content_description_mute">"%1$s. Toque para silenciar. Los servicios de accesibilidad pueden ser silenciados."</string>
+<string name="volume_dialog_accessibility_shown_message">"%s se muestran los controles de volumen. Deslizar hacia arriba para descartar."</string>
+<string name="volume_dialog_accessibility_dismissed_message">"Controles de volumen ocultos"</string>
+<string name="system_ui_tuner">"Sintonizador de IU del sistema"</string>
+<string name="show_battery_percentage">"Mostrar porcentaje de la batería integrada"</string>
+<string name="show_battery_percentage_summary">"Mostrar porcentaje del nivel de batería en el ícono de la barra de estado cuando no se está cargando"</string>
+<string name="quick_settings">"Configuración rápida"</string>
+<string name="status_bar">"barra de estado"</string>
+<string name="overview">"Recientes"</string>
+<string name="demo_mode">"Modo demostración"</string>
+<string name="enable_demo_mode">"Activar el modo de demostración"</string>
+<string name="show_demo_mode">"Mostrar modo de demostración"</string>
+<string name="status_bar_ethernet">"Ethernet"</string>
+<string name="status_bar_alarm">"Alarma"</string>
+<string name="status_bar_work">"Perfil de trabajo"</string>
+<string name="status_bar_airplane">"Modo avión"</string>
+<string name="add_tile">"Agregar mosaico"</string>
+<string name="broadcast_tile">"Mosaico de transmisión"</string>
+<string name="zen_alarm_warning_indef">"No oirá su próxima alarma <xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g> a menos que desactive esta antes"</string>
+<string name="zen_alarm_warning">"No oirá su próxima alarma <xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g>"</string>
+<string name="alarm_template">"a las <xliff:g id="when" example="7:00 AM">%1$s</xliff:g>"</string>
+<string name="alarm_template_far">"en <xliff:g id="when" example="Fri 7:00 AM">%1$s</xliff:g>"</string>
+<string name="accessibility_quick_settings_detail">"Configuración rápida, <xliff:g id="title" example="Wi-Fi">%s</xliff:g>."</string>
+<string name="accessibility_status_bar_hotspot">"Punto de acceso"</string>
+<string name="accessibility_managed_profile">"Perfil de trabajo"</string>
+<string name="tuner_warning_title">"Diversión para algunos, pero no para todos"</string>
+<string name="tuner_warning">"El sintonizador de IU del sistema le brinda más formas para editar y personalizar la interfaz de usuario de Android. Estas funciones experimentales pueden cambiar, dejar de funcionar o no incluirse en futuras versiones. Proceda con precaución."</string>
+<string name="tuner_persistent_warning">"Estas funciones experimentales pueden cambiar, dejar de funcionar o no incluirse en futuras versiones. Proceda con precaución."</string>
+<string name="got_it">"Entendido"</string>
+<string name="tuner_toast">"¡Congratulaciones! Se agregó el sintonizador de UI del sistema a Configuración"</string>
+<string name="remove_from_settings">"Quitar de Configuraciones"</string>
+<string name="remove_from_settings_prompt">"¿Desea eliminar el sintonizador  UI del Sistema y dejar de utilizar todas sus funciones?"</string>
+<string name="activity_not_found">"La aplicación no está instalada en su dispositivo"</string>
+<string name="clock_seconds">"Mostrar segundos del reloj"</string>
+<string name="clock_seconds_desc">"Mostrar los segundos del reloj en la barra de estado. Puede afectar la vida de la batería."</string>
+<string name="qs_rearrange">"Reorganizar configuraciones rápidas"</string>
+<string name="show_brightness">"Mostrar brillo en Configuraciones Rápidas"</string>
+<string name="overview_nav_bar_gesture">"Habilitar el gesto de deslizamiento de pantalla dividida"</string>
+<string name="overview_nav_bar_gesture_desc">"Habilitar gesto para ingresar a la pantalla dividida desplazándose desde el botón Descripción general"</string>
+<string name="experimental">"Experimental"</string>
+<string name="enable_bluetooth_title">"¿Activar Bluetooth?"</string>
+<string name="enable_bluetooth_message">"Para conectar su teclado con su tablet, primero debe activar Bluetooth."</string>
+<string name="enable_bluetooth_confirmation_ok">"Activar"</string>
+<string name="show_silently">"Mostrar notificaciones silenciosamente"</string>
+<string name="block">"Bloquear todas las notificaciones"</string>
+<string name="do_not_silence">"No silenciar"</string>
+<string name="do_not_silence_block">"No silenciar a bloquear"</string>
+<string name="tuner_full_importance_settings">"Controles de notificación de energía"</string>
+<string name="tuner_full_importance_settings_on">"ENCENDIDO"</string>
+<string name="tuner_full_importance_settings_off">"Apagado"</string>
+<string name="power_notification_controls_description">"Con los controles de notificación de energía, puede establecer un nivel de importancia de 0 a 5 para las notificaciones de una aplicación. \n\n<b>Nivel 5</b> \n- Mostrar en la parte superior de la lista de notificación \n- Permitir interrupción de pantalla completa \n- Siempre mirar \n\n<b>Nivel 4</b> \n- Evitar la interrupción de pantalla completa \n- Siempre mirar \n\n<b>Nivel 3</b> \n- Evitar la interrupción de pantalla completa \n- Nunca mirar \n\n<b>Nivel 2</b> \n- Evitar la interrupción de pantalla completa \n- Nunca mirar \n- Nunca realizar sonido y vibración \n\n<b>Nivel 1</b> \n- Evitar la interrupción de pantalla completa \n- Nunca mirar \n- Nunca realizar sonido o vibración \n- Ocultar de la pantalla de bloqueo y la barra de estado \n- Mostrar en la parte inferior de la lista de notificaciones \n\n<b>Nivel 0</b> \n- Bloquear todas las notificaciones de la aplicación"</string>
+<string name="user_unspecified_importance">"Importancia: Automático"</string>
+<string name="blocked_importance">"Importancia: Nivel 0"</string>
+<string name="min_importance">"Importancia: Nivel 1"</string>
+<string name="low_importance">"Importancia: Nivel 2"</string>
+<string name="default_importance">"Importancia: Nivel 3"</string>
+<string name="high_importance">"Importancia: Nivel 4"</string>
+<string name="max_importance">"Importancia: Nivel 5"</string>
+<string name="notification_importance_user_unspecified">"La aplicación determina la importancia de cada notificación."</string>
+<string name="notification_importance_blocked">"Nunca mostrar notificaciones de esta aplicación."</string>
+<string name="notification_importance_min">"No hay interrupción de pantalla completa, ojear, sonido o vibración. Ocultar de la pantalla de bloqueo y de la barra de estado."</string>
+<string name="notification_importance_low">"No hay interrupción de pantalla completa, ojear, sonido o vibración."</string>
+<string name="notification_importance_default">"No hay interrupción de pantalla completa ni ojear."</string>
+<string name="notification_importance_high">"Siempre ojear, no hay interrupción de pantalla completa."</string>
+<string name="notification_importance_max">"Siempre ojear, y permitir la interrupción de pantalla completa."</string>
+<string name="notification_more_settings">"Más configuraciones"</string>
+<string name="notification_done">"Hecho"</string>
+<string name="notification_gear_accessibility">"<xliff:g id="app_name" example="YouTube">%1$s</xliff:g> controles de notificación"</string>
+<string name="color_and_appearance">"Color y apariencia"</string>
+<string name="night_mode">"Modo nocturno"</string>
+<string name="calibrate_display">"Calibrar pantalla"</string>
+<string name="night_mode_on">"ENCENDIDO"</string>
+<string name="night_mode_off">"Apagado"</string>
+<string name="turn_on_automatically">"Activar automáticamente"</string>
+<string name="turn_on_auto_summary">"Cambie al Modo Nocturno según corresponda para la ubicación y la hora del día"</string>
+<string name="when_night_mode_on">"Cuando el Modo Nocturno está activado"</string>
+<string name="use_dark_theme">"Utilizar tema oscuro para Android OS"</string>
+<string name="adjust_tint">"Ajustar matiz"</string>
+<string name="adjust_brightness">"Ajustar brillo"</string>
+<string name="night_mode_disclaimer">"El tema oscuro se aplica a las áreas centrales del sistema operativo Android que normalmente se muestran en un tema ligero, como Configuraciones."</string>
+<string name="color_apply">"Aplicar"</string>
+<string name="color_revert_title">"Confirmar configuración"</string>
+<string name="color_revert_message">"Algunas configuraciones de color pueden hacer este dispositivo inutilizable. Haga clic en Aceptar para confirmar esta configuración de color, de lo contrario estos ajustes se restablecerán después de 10 segundos."</string>
+<string name="battery_panel_title">"Uso de la batería"</string>
+<string name="battery_detail_charging_summary">"El Ahorrador de batería no está disponible durante la carga"</string>
+<string name="battery_detail_switch_title">"Ahorro de batería"</string>
+<string name="battery_detail_switch_summary">"Reduce el rendimiento y el uso de datos en segundo plano."</string>
+<string name="keyboard_key_button_template">"Botón <xliff:g id="name">%1$s</xliff:g>"</string>
+<string name="keyboard_key_back">"Regresar"</string>
+<string name="keyboard_key_dpad_up">"Arriba"</string>
+<string name="keyboard_key_dpad_down">"Abajo"</string>
+<string name="keyboard_key_dpad_left">"Izquierda"</string>
+<string name="keyboard_key_dpad_right">"Derecha"</string>
+<string name="keyboard_key_dpad_center">"Centro"</string>
+<string name="keyboard_key_space">"espacio"</string>
+<string name="keyboard_key_backspace">"retroceso"</string>
+<string name="keyboard_key_media_play_pause">"Reproducir/Pausar"</string>
+<string name="keyboard_key_media_stop">"Detener"</string>
+<string name="keyboard_key_media_next">"Próximo"</string>
+<string name="keyboard_key_media_previous">"Anterior"</string>
+<string name="keyboard_key_media_rewind">"Rebobinar"</string>
+<string name="keyboard_key_media_fast_forward">"Avance rápido"</string>
+<string name="keyboard_key_page_up">"Página Arriba"</string>
+<string name="keyboard_key_page_down">"Página Abajo"</string>
+<string name="keyboard_key_forward_del">"Eliminar"</string>
+<string name="keyboard_key_numpad_template">"Numpad <xliff:g id="name">%1$s</xliff:g>"</string>
+<string name="keyboard_shortcut_group_system">"Sistema"</string>
+<string name="keyboard_shortcut_group_system_home">"Inicio"</string>
+<string name="keyboard_shortcut_group_system_recents">"Recientes"</string>
+<string name="keyboard_shortcut_group_system_back">"Regresar"</string>
+<string name="keyboard_shortcut_group_system_notifications">"Notificaciones"</string>
+<string name="keyboard_shortcut_group_system_shortcuts_helper">"Atajos de teclado"</string>
+<string name="keyboard_shortcut_group_system_switch_input">"Cambiar método de introducción"</string>
+<string name="keyboard_shortcut_group_applications">"Aplicaciones"</string>
+<string name="keyboard_shortcut_group_applications_assist">"Ayuda"</string>
+<string name="keyboard_shortcut_group_applications_browser">"Navegador"</string>
+<string name="keyboard_shortcut_group_applications_contacts">"Contactos"</string>
+<string name="keyboard_shortcut_group_applications_email">"Correo electrónico"</string>
+<string name="keyboard_shortcut_group_applications_im">"IM"</string>
+<string name="keyboard_shortcut_group_applications_music">"Música"</string>
+<string name="keyboard_shortcut_group_applications_calendar">"Calendario"</string>
+<string name="tuner_full_zen_title">"Mostrar con controles de volumen"</string>
+<string name="volume_and_do_not_disturb">"No molestar"</string>
+<string name="volume_dnd_silent">"Atajo de botones de volumen"</string>
+<string name="volume_up_silent">"Salir de no molestar al subir el volumen"</string>
+<string name="battery">"Batería"</string>
+<string name="clock">"Reloj"</string>
+<string name="headset">"Auriculares"</string>
+<string name="accessibility_status_bar_headphones">"Audífonos conectados"</string>
+<string name="accessibility_status_bar_headset">"Auriculares conectados"</string>
+<string name="data_saver">"Ahorrador de datos"</string>
+<string name="accessibility_data_saver_on">"Ahorrador de datos está activado"</string>
+<string name="accessibility_data_saver_off">"Ahorrador de datos está desactivado"</string>
+<string name="switch_bar_on">"ENCENDIDO"</string>
+<string name="switch_bar_off">"Apagado"</string>
+<string name="nav_bar">"Barra de navegación"</string>
+<string name="start">"Iniciar"</string>
+<string name="center">"Centro"</string>
+<string name="end">"Finalizar"</string>
+<string name="space">"Espaciador"</string>
+<string name="menu_ime">"Menú / Conmutador de Teclado"</string>
+<string name="select_button">"Botón de selección para agregar"</string>
+<string name="add_button">"Botón Agregar"</string>
+<string name="save">"Guardar"</string>
+<string name="reset">"Reiniciar"</string>
+<string name="no_home_title">"No se encontró ningún botón de inicio"</string>
+<string name="no_home_message">"Se necesita un botón de inicio para poder navegar por este dispositivo. Agregue un botón de inicio antes de guardarlo."</string>
+<string name="adjust_button_width">"Ajustar el ancho del botón"</string>
+<string name="clipboard">"Portapapeles"</string>
+<string name="clipboard_description">"El Portapapeles permite arrastrar los elementos directamente al portapapeles y también se pueden arrastrar directamente desde el portapapeles cuando están presentes."</string>
+<string name="accessibility_key">"Botón de navegación personalizado"</string>
+<string name="keycode">"Código Clave"</string>
+<string name="keycode_description">""Los botones del Código Clave permiten que las teclas del teclado se agreguen a la Barra de Navegación y, al pulsarlos, emulan la tecla del teclado seleccionada, primero debe seleccionarse la tecla para el botón y luego aparecer una imagen en el botón"."</string>
+<string name="select_keycode">"Seleccionar botón de Código Clave"</string>
+<string name="preview">"Vista previa"</string>
+<string name="drag_to_add_tiles">"Arrastrar para agregar mosaicos"</string>
+<string name="drag_to_remove_tiles">"Arrastre aquí para eliminar"</string>
+<string name="qs_edit">"Editar"</string>
+<string name="tuner_time">"Hora"</string>
+<string-array name="clock_options">
+<item>"Mostrar horas, minutos y segundos"</item>
+<item>"Mostrar horas y minutos (predeterminado)"</item>
+<item>"No mostrar este ícono"</item>
+</string-array>
+<string-array name="battery_options">
+<item>"Mostrar siempre el porcentaje"</item>
+<item>"Mostrar porcentaje al cargar (predeterminado)"</item>
+<item>"No mostrar este ícono"</item>
+</string-array>
+<string name="other">"Otro"</string>
+<string name="accessibility_divider">"Divisor de pantalla dividida"</string>
+<string name="accessibility_action_divider_left_full">"Izquierda pantalla completa"</string>
+<string name="accessibility_action_divider_left_70">"Izquierda 70%"</string>
+<string name="accessibility_action_divider_left_50">"Izquierda 50%"</string>
+<string name="accessibility_action_divider_left_30">"Izquierda 30%"</string>
+<string name="accessibility_action_divider_right_full">"Derecha pantalla completa"</string>
+<string name="accessibility_action_divider_top_full">"Superior pantalla completa"</string>
+<string name="accessibility_action_divider_top_70">"Superior 70%"</string>
+<string name="accessibility_action_divider_top_50">"Superior 50%"</string>
+<string name="accessibility_action_divider_top_30">"Superior 30%"</string>
+<string name="accessibility_action_divider_bottom_full">"Inferior pantalla completa"</string>
+<string name="accessibility_qs_edit_tile_label">"Posición <xliff:g id="position" example="2">%1$d</xliff:g>, <xliff:g id="tile_name" example="Wi-Fi">%2$s</xliff:g>. Doble toque para editar."</string>
+<string name="accessibility_qs_edit_add_tile_label">"<xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g>. Doble toque para añadir."</string>
+<string name="accessibility_qs_edit_position_label">"Posición <xliff:g id="position" example="2">%1$d</xliff:g>. Doble toque para seleccionar."</string>
+<string name="accessibility_qs_edit_move_tile">"Mover <xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g>"</string>
+<string name="accessibility_qs_edit_remove_tile">"Remover <xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g>"</string>
+<string name="accessibility_qs_edit_tile_added">"<xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g> se añade a la posición <xliff:g id="position" example="5">%2$d</xliff:g>"</string>
+<string name="accessibility_qs_edit_tile_removed">"<xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g> está removido"</string>
+<string name="accessibility_qs_edit_tile_moved">"<xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g> movido a la posición <xliff:g id="position" example="5">%2$d</xliff:g>"</string>
+<string name="accessibility_desc_quick_settings_edit">""Editor de configuración rápida"."</string>
+<string name="accessibility_desc_notification_icon">"<xliff:g name="app_name" example="Gmail">%1$s</xliff:g> notificación: <xliff:g name="notification_text" example="5 new messages">%2$s</xliff:g>"</string>
+<string name="dock_forced_resizable">""Es posible que la aplicación no funcione con pantalla dividida"."</string>
+<string name="dock_non_resizeble_failed_to_dock_text">"La aplicación no admite la pantalla dividida."</string>
+<string name="accessibility_quick_settings_settings">"Abrir configuraciones"</string>
+<string name="accessibility_quick_settings_expand">""Abrir configuraciones rápidas"."</string>
+<string name="accessibility_quick_settings_collapse">""Cerrar configuraciones rápidas"."</string>
+<string name="accessibility_quick_settings_alarm_set">"Establecer alarma"</string>
+<string name="accessibility_quick_settings_no_internet">"Sin internet"</string>
+<string name="accessibility_quick_settings_open_details">"Abrir detalles"</string>
+<string name="accessibility_quick_settings_open_settings">"Abrir <xliff:g name="page" example="Bluetooth">%s</xliff:g> configuraciones."</string>
+<string name="accessibility_quick_settings_edit">"Editar orden de configuraciones."</string>
+<string name="accessibility_quick_settings_page">"Página <xliff:g name="current_page" example="1">%1$d</xliff:g> de <xliff:g name="num_pages" example="2">%2$d</xliff:g>"</string>
+<string name="quick_settings_volume_label">"Perfil de Audio"</string>
+<string name="battery_level_template">"<xliff:g id="level" example="45">%d</xliff:g>%%"</string>
+<string name="battery_overtage_title">"Advertencia de seguridad"</string>
+<string name="battery_overtage_content">"¡El voltaje de carga es demasiado alto!"</string>
+<string name="battery_overtage_back">"Regresar"</string>
+<string name="assistant_key_home">"Inicio"</string>
+<string name="assistant_key_search">"Buscar"</string>
+<string name="assistant_key_menu">"Menú"</string>
+<string name="assistant_key_back">"Regresar"</string>
+<string name="vibrate_hint">"Arrastrar a la izquierda para Vibrar"</string>
+</resources>

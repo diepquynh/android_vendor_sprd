@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Add 20140305 Spreadst of 141010 add UA setting feature start -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+    <EditText android:id="@+id/ua_editor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dip"
+        android:layout_marginTop="1dip"
+        android:layout_marginRight="1dip"
+        android:layout_marginBottom="1dip"
+        android:maxLength="256"
+        android:lines="8"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:windowSoftInputMode="adjustUnspecified|stateHidden"
+        android:configChanges="orientation|keyboardHidden"
+        />
+    <RadioGroup android:id="@+id/ua_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:checkedButton="@+id/ENC_WBXML" >
+
+        <RadioButton android:id="@+id/default_ua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/ua_default" />
+
+        <RadioButton android:id="@+id/other_ua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:focusable="false"
+            android:text="@string/ua_other"/>
+
+        <RadioButton android:id="@+id/custom_ua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:focusable="false"
+            android:text="@string/ua_custom" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip">
+            <Button android:id="@+id/btn_ok"
+               android:layout_width="150dip"
+               android:layout_height="wrap_content"
+               android:text="@string/ok" />
+            <Button android:id="@+id/btn_cancel"
+               android:layout_width="150dip"
+               android:layout_height="wrap_content"
+               android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>
+<!-- Add 20140305 Spreadst of 141010 add UA setting feature end -->

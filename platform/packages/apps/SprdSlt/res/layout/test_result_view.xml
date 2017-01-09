@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/result_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/test_result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|left"
+        android:layout_margin="5dip"
+        android:paddingLeft="3dip"
+        android:text="@string/TestResultTitleString"
+        android:textColor="#007f00"
+        android:textSize = "17sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/list_bg_set"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/test_result_height"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/TableTextStyleTitle"
+                android:layout_width="0px"
+                android:layout_height="@dimen/test_result_height"
+                android:layout_column="0"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/test_result_ID_title" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="@dimen/test_result_height"
+                android:layout_column="1"
+                android:background="@drawable/line_v" />
+
+            <TextView
+                style="@style/TableTextStyleTitle"
+                android:layout_width="0px"
+                android:layout_height="@dimen/test_result_height"
+                android:layout_column="2"
+                android:layout_weight="6"
+                android:gravity="center"
+                android:text="@string/test_result_case_title" >
+            </TextView>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="@dimen/test_result_height"
+                android:layout_column="3"
+                android:background="@drawable/line_v" />
+
+            <TextView
+                android:id="@+id/test_result"
+                style="@style/TableTextStyleTitle"
+                android:layout_width="0px"
+                android:layout_height="@dimen/test_result_height"
+                android:layout_column="4"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/test_result_result_title" >
+            </TextView>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/divider_line_color" />
+
+        <ListView
+            android:id="@+id/reslut_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@drawable/line_h"
+            android:dividerHeight="2px"
+            android:fadingEdge="none"
+            android:scrollbars="none"
+            android:scrollingCache="false" >
+
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/retest"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="@string/retest" >
+        </Button>
+
+        <Button
+            android:id="@+id/test_end"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="@string/test_end" >
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

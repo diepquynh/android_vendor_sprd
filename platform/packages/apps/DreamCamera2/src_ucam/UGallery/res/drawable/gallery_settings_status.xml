@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2010,2013 Thundersoft Corporation
+  All rights Reserved
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:state_enabled="true" android:drawable="@drawable/gallery_btn_more_pressed" />
+    <item android:state_focused="true" android:state_enabled="true" android:drawable="@drawable/gallery_btn_more_pressed" />
+    <item android:state_enabled="false" android:drawable="@drawable/gallery_btn_more" />
+</selector>
+

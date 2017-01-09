@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">泛安全</string>
+    <string name="action_settings">Settings</string>
+    <string name="memory">内存空间管理</string>
+    <string name="storage">垃圾文件清理</string>
+    <string name="battery">省电管理</string>
+    <string name="flow">流量管理</string>
+    <string name="data">数据</string>
+	<string name="data1">SIM1</string>
+	<string name="data2">SIM2</string>
+    <string name="wlan">WLAN</string>
+    <string name="network_control">联网控制</string>
+    <string name="network_control_head">应用</string>
+    <string name="data_flow_management">流量管理</string>
+    <string name="data_flow_rank">流量排行</string>
+    <string name="data_flow_cycle">流量周期</string>
+    <string name="pref_data_cycle_default">本月</string>
+    <string name="data_cycle_week">本周</string>
+    <string name="data_cycle_day">今日</string>
+    <string name="data_remained">剩余流量%1$s</string>
+    <string name="data_used">套餐内已用流量%1$s</string>
+    <string name="data_restrict_title">设置SIM%1$d数据流量</string>
+    <string name="percent_set">%1$d%%</string>
+    <string name="data_set">%1$.02fMB</string>
+    <string name="data_restrict_sim">设置数据流量限制</string>
+    <string name="data_restrict_sim1">设置SIM1数据流量限制</string>
+    <string name="data_restrict_sim2">设置SIM2数据流量限制</string>
+    <string name="data_stat_description">数据流量的使用值以运营商实际出帐数据为准</string>
+    <string name="month_data_category">每月数据流量套餐</string>
+    <string name="month_data_setting">每月套餐流量</string>
+    <string name="month_data_used">已用套餐流量</string>
+    <string name="data_unset">未设置</string>
+    <string name="month_data_unset">流量数据未设置</string>
+    <string name="restrict_setting">设置数据流量上限提醒</string>
+    <string name="data_restrict_month">每月流量上限提醒</string>
+    <string name="data_restrict_day">每日流量上限提醒</string>
+    <string name="max_data_day">每日流量上限</string>
+    <string name="data_set_description">该安全提醒为每月流量套餐百分比</string>
+    <string name="warning_msg">%1$s本月流量使用已超过月流量限制的%2$d%%</string>
+    <string name="warning_msg_month_SIM">%1$s本月流量使用已超过月流量上限</string>
+    <string name="warning_msg_day_SIM">%1$s本日流量使用已超过日流量限制设定</string>
+    <string name="sim_changed">发现不同的SIM卡插入手机，请重新设置泛安全应用的流量管理功能</string>
+    <string name="data_flow_data">数据:%1$s</string>
+    <string name="operating_wait">正在设置,请稍后</string>
+    <string name="android_os">Android操作系统</string>
+    <string name="app_removed">应用已卸载</string>
+    <string name="show_real_time_speed">显示实时网速</string>
+    <string name="show_keyguard_data">锁屏消耗流量</string>
+    <string name="current_speed_default">当前</string>
+    <string name="network_order_des">(按照数据和WIFI用量总和进行排序)</string>
+
+    <string name="network_speed">%1$s网速: %2$s</string>
+    <string name="data_used_lockscreen_title">锁屏流量消耗</string>
+    <string name="data_used_lockscreen_message">锁屏期间流量消耗: %1$s</string>
+
+    <string name="can_rubbish_ram">已用内存：<xliff:g id="NUMPROCESS">%1$s</xliff:g>,已释放<xliff:g id="SPACEPROCESS">%2$s</xliff:g></string>
+    <string name="used_ram"><xliff:g id="NUMPROCESS">%1$s</xliff:g>个程序在运行，清理后可预计释放<xliff:g id="SPACEPROCESS">%2$s</xliff:g></string>
+    <string name="start_memory_button">一键清理</string>
+    <string name="end_memory_button">清理完成</string>
+    <string name="doing_memory_button">正在清理</string>
+    <string name="nothing_can_removed">无可清理项</string>
+    <string name="commonMode">常规模式</string>
+    <string name="intelligentMode">智能省电模式</string>
+    <string name="longMode">超长待机模式</string>
+    <string name="sleepMode">睡眠模式</string>
+    <string name="commonModeSummary"></string>
+    <string name="intelligentModeSummary">日常使用（保持通话、消息和数据）</string>
+    <string name="longModeSummary">低电量使用（保留通话和消息）</string>
+    <string name="sleepModeSummary">夜间使用（仅保留闹钟）</string>
+    <string name="batteryDialogTitle">使用<xliff:g id="MODE">%1$s</xliff:g>将：</string>
+    <string name="standbyScreen">30秒</string>
+    <string name="mode_on">开启</string>
+    <string name="mode_off">关闭</string>
+    <string name="vibartion_only_in_silent">仅在静音时振动</string>
+    <string name="batetry_hardware_list">硬件耗电排行</string>
+    <string name="batetry_software_list">软件耗电排行</string>
+    <string name="power_idle">"手机待机"</string>
+    <string name="power_cell">"移动网络待机"</string>
+    <string name="power_phone">"语音通话"</string>
+    <string name="power_screen">"屏幕"</string>
+    <string name="power_flashlight">"手电筒"</string>
+    <string name="power_camera">"相机"</string>
+    <string name="power_wifi">"WLAN"</string>
+    <string name="power_bluetooth">"蓝牙"</string>
+    <string name="power_unaccounted">"其他"</string>
+    <string name="power_overcounted">"多算了的"</string>
+    <string name="process_kernel_label">"Android操作系统"</string>
+    <string name="process_mediaserver_label">"媒体服务器"</string>
+    <string name="process_dex2oat_label">"应用优化"</string>
+    <string name="process_drmserver_label">"DRM服务器"</string>
+
+    <!-- Battery Usage -->
+    <string name="battery_desc_standby">"手机待机所耗的电量"</string>
+    <string name="battery_desc_voice">"语音通话所耗的电量"</string>
+    <string name="battery_desc_bluetooth">"蓝牙所耗的电量"</string>
+    <string name="battery_desc_display">"显示屏和背光所耗的电量"</string>
+    <string name="battery_desc_users">"用户所耗的电量"</string>
+    <string name="battery_desc_overcounted">"多算了的用电量"</string>
+    <string name="battery_desc_camera">"相机所耗的电量"</string>
+    <string name="battery_desc_unaccounted">"其他耗电量"</string>
+    <string name="battery_desc_apps">"该应用所耗的电量"</string>
+    <string name="battery_desc_flashlight">"手电筒所耗的电量"</string>
+    <string name="battery_desc_wifi">"WLAN网络所耗的电量"</string>
+    <string name="battery_desc_radio">"移动网络所耗的电量"</string>
+    <string name="usage_type_cpu">"CPU总使用时间"</string>
+    <string name="usage_type_cpu_foreground">"CPU（前台）"</string>
+    <string name="usage_type_wake_lock">"保持唤醒状态"</string>
+    <string name="usage_type_gps">"GPS"</string>
+    <string name="usage_type_wifi_running">"WLAN运行时间"</string>
+    <string name="usage_type_data_send">"发送的移动数据包"</string>
+    <string name="usage_type_data_recv">"接收的移动数据包"</string>
+    <string name="usage_type_radio_active">"移动无线装置运行时间"</string>
+    <string name="usage_type_data_wifi_send">"发送的WLAN数据包"</string>
+    <string name="usage_type_data_wifi_recv">"接收的WLAN数据包"</string>
+    <string name="usage_type_audio">"音频"</string>
+    <string name="usage_type_video">"视频"</string>
+    <string name="usage_type_camera">"相机"</string>
+    <string name="usage_type_flashlight">"手电筒"</string>
+    <string name="usage_type_computed_power">"计算出的耗电量"</string>
+    <string name="usage_type_on_time">"运行时间"</string>
+    <string name="usage_type_no_coverage">"无信号时间"</string>
+    <string name="cancel">"取消"</string>
+    <string name="controls_subtitle">"省电提示"</string>
+    <string name="high_power_apps">"电池优化"</string>
+    <string name="details_subtitle">"详细使用情况"</string>
+    <string name="packages_subtitle">"包含的软件包"</string>
+
+    <string name="bluetooth_settings">"蓝牙"</string>
+    <string name="wifi_settings">"WLAN"</string>
+    <string name="radio_controls_title">"更多"</string>
+    <string name="usage_type_total_battery_capacity">"电池总容量"</string>
+    <string name="usage_type_actual_power">"观察到的耗电量"</string>
+    <string name="battery_action_app_details">"应用信息"</string>
+    <string name="battery_sugg_apps_info">"停止或卸载应用"</string>
+    <string name="display_settings">"显示"</string>
+    <string name="battery_sugg_display">"降低屏幕亮度，缩短休眠延时"</string>
+    <string name="battery_sugg_wifi">"未使用或无法使用WLAN网络时将WLAN关闭"</string>
+    <string name="battery_sugg_bluetooth_basic">"请在不使用蓝牙功能时将其关闭"</string>
+    <string name="battery_sugg_radio">"不在信号覆盖范围内时切换到飞行模式，以节约电量"</string>
+    <string name="mah"><xliff:g id="number" example="30">%s</xliff:g> mAh</string>
+    <string name="battery_history_hours"><xliff:g id="hours">%1$d</xliff:g>h <xliff:g id="minutes">%2$d</xliff:g>m <xliff:g id="seconds">%3$d</xliff:g>s</string>
+    <string name="battery_history_minutes"><xliff:g id="minutes">%1$d</xliff:g>m <xliff:g id="seconds">%2$d</xliff:g>s</string>
+    <string name="battery_history_seconds"><xliff:g id="seconds">%1$d</xliff:g>s</string>
+    <string name="battery_history_days_no_seconds"><xliff:g id="days">%1$d</xliff:g>d <xliff:g id="hours">%2$d</xliff:g>h <xliff:g id="minutes">%3$d</xliff:g>m</string>
+    <string name="battery_history_hours_no_seconds"><xliff:g id="hours">%1$d</xliff:g>h <xliff:g id="minutes">%2$d</xliff:g>m</string>
+    <string name="battery_history_minutes_no_seconds"><xliff:g id="minutes">%1$d</xliff:g>m</string>
+    <string name="battery_history_days"><xliff:g id="days">%1$d</xliff:g>d <xliff:g id="hours">%2$d</xliff:g>h <xliff:g id="minutes">%3$d</xliff:g>m <xliff:g id="seconds">%4$d</xliff:g>s</string>
+    <string name="battery_history_millis"><xliff:g id="millis">%.2f</xliff:g>ms</string>
+
+    <string name="internal_storage">内部存储</string>
+    <string name="external_storage">外部存储</string>
+
+    <string name="cache_file">缓存文件</string>
+    <string name="rubbish_file">垃圾文件</string>
+    <string name="invalid_file">无效文件</string>
+    <string name="temp_file">临时文件</string>
+    <string name="large_file">大文件</string>
+
+    <string name="storage_size">0M</string>
+    <string name="symbol">">"</string>
+
+    <string name="start_scan_button">开始扫描</string>
+    <string name="clean_memory_button">一键清理</string>
+    <string name="doing_scan_memory_button">正在扫描</string>
+    <string name="doing_clean_memory_button">正在清理</string>
+    <string name="end_clean_memory_button">完成</string>
+
+    <string name="already_checked">已选文件大小</string>
+
+    <string name="installed">已安装</string>
+    <string name="unInstalled">未安装</string>
+
+    <string name="invalid_apk">无效文件</string>
+    <string name="clean_storage_menu">清理</string>
+
+    <string name="cleaning_wait">正在清理,请稍后</string>
+    <string name="use_gs_in_owner">请在机主用户下使用，稍后将不会在此界面出现泛安全应用</string>
+    <string name="settings_safetylegal_activity_loading">正在加载\u2026</string>
+    <string name="running_processes_header_apps">应用</string>
+    <string name="max_data_flow_value">超出最大值，设为5000000</string>
+
+    <string name="no_running_services">无可清理项</string>
+    <string name="sdcard_state_inserted">SD卡已插入</string>
+    <string name="sdcard_state_removed">SD卡已拔出</string>
+    <string name="power_usage_not_available">无数据</string>
+</resources>

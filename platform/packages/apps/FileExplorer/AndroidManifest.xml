@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sprd.fileexplorer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+    <application
+        android:name="FileExplorerApp"
+        android:allowBackup="true"
+        android:icon="@drawable/fileexplore_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:supportsRtl="true" >
+        <activity
+            android:name="com.sprd.fileexplorer.activities.FileExploreActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboard|locale|mnc|mcc"
+            android:label="@string/app_name"
+            android:theme="@style/FileExplorMaterialThemeNewui" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sprd.fileexplorer.activities.FilePickerActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboard|mnc|mcc"
+            android:theme="@style/FileExplorMaterialThemeNewui" >
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+                <data android:mimeType="text/x-vCalendar" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.RINGTONE_PICKER"/>
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+            <intent-filter>
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SET_SPREAD_WALLPAPER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="com.sprd.fileexplorer.activities.FilePasteActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden|navigation|fontScale|mnc|mcc|locale|layoutDirection|"
+            android:theme="@style/FileExplorMaterialThemeNewui" >
+        </activity>
+        <activity
+            android:name="com.sprd.fileexplorer.activities.FileSearchActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboard|mnc|mcc"
+            android:label="@string/menu_search"
+            android:theme="@style/FileSearchMaterialThemeNewui" >
+        </activity>
+        <activity
+            android:name="com.sprd.fileexplorer.activities.FileSearchResultActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboard|mnc|mcc"
+            android:label="@string/fragment_search_result"
+            android:theme="@style/FileExplorMaterialThemeNewui"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.sprd.fileexplorer.activities.SettingActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboard|mnc|mcc"
+            android:label="@string/action_settings"
+            android:theme="@style/FileExplorMaterialThemeNewui" >
+        </activity>
+        <activity
+            android:name="com.sprd.fileexplorer.activities.MultiSelectActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboard|locale|mnc|mcc|layoutDirection|fontScale"
+            android:theme="@style/FileExplorMaterialThemeNewui" >
+        </activity>
+        
+        <activity
+            android:name="com.sprd.fileexplorer.activities.OverViewActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboard|mnc|mcc"
+            android:theme="@style/FileExplorMaterialThemeNewui" >
+        </activity>
+
+        <receiver android:name="com.sprd.fileexplorer.StorageReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.MEDIA_BAD_REMOVAL" />
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sprd.fileexplorer.PickerReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_GET_CONTENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.sprd.fileexplorer.fileProvider"
+            android:grantUriPermissions="true"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+    </application>
+
+</manifest>

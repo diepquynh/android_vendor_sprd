@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:key="de_sense_pll"
+        android:title="De Sense PLL" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.hardware.DeSensePLLActivity"
+            android:targetPackage="com.sprd.engineermode" >
+        </intent>
+    </Preference>
+    <Preference
+        android:key="hash_value"
+        android:summary="@string/hash_value_not_writed"
+        android:title="@string/hash_value" >
+    </Preference>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="usb_charge"
+        android:title="USB Charge" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="camera_api"
+        android:summaryOff="Api1"
+        android:summaryOn="Api2"
+        android:title="Camera Api" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <Preference
+        android:key="root_check"
+        android:summary="@string/root_checking"
+        android:title="@string/root_check" >
+    </Preference>
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/reset_setting_entries"
+        android:entryValues="@array/reset_setting_values"
+        android:key="reset_setting"
+        android:title="Reset Setting" />
+
+    <Preference
+        android:key="antenna_set"
+        android:title="@string/antenna_set" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.hardware.AntennaSettingsActivity"
+            android:targetPackage="com.sprd.engineermode" >
+        </intent>
+    </Preference>
+
+</PreferenceScreen>

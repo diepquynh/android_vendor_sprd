@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dream_welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dream_background_transluent"
+    android:onClick="onWelcome"
+    android:visibility="visible" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/welcome_line_spacing"
+            android:orientation="horizontal" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rotation="180"
+                android:scaleType="fitCenter"
+                android:src="@drawable/initial_arrows_sprd"
+                android:visibility="invisible" />
+            <TextView
+                style="@style/DreamText"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_right" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rotation="180"
+                android:scaleType="fitCenter"
+                android:src="@drawable/initial_arrows_sprd" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/initial_arrows_sprd" />
+            <TextView
+                style="@style/DreamText"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_left" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/initial_arrows_sprd"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <CheckBox
+        style="@style/DreamText"
+        android:textSize="18dp"
+        android:buttonTint="#4285f4"
+        android:id="@+id/checkbox_save_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="100dp"
+        android:text="@string/pref_camera_save_location_title"
+        />
+
+    <Button
+        style="@style/DreamText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/initial_bth_background_sprd"
+        android:onClick="onConfirmWelcome"
+        android:text="@string/welcome_confirm" />
+
+</FrameLayout>

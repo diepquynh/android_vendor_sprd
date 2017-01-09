@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/need_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include
+            android:layout_weight="1"
+            layout="@layout/memory_header" />
+
+        <include
+            android:layout_weight="1"
+            layout="@layout/memory_view" />
+    </LinearLayout>
+
+    <include layout="@layout/loading_container" />
+
+</FrameLayout>

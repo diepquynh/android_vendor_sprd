@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.ModeListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mode_list_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:fillViewport="true"
+    android:visibility="invisible" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dream_background_transluent_five" />
+
+    <TextView
+        android:id="@+id/mode_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="@string/camera_mode"
+        android:textColor="@color/mode_selector_text_color"
+        android:textSize="@dimen/mode_selector_text_size" />
+
+    <GridLayout
+        android:id="@+id/mode_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/mode_selector_margin_left_right"
+        android:layout_marginRight="@dimen/mode_selector_margin_left_right"
+        android:columnCount="3"
+        android:gravity="center" >
+    </GridLayout>
+
+    <com.android.camera.ui.RotateImageView
+        android:id="@+id/settings_button"
+        android:layout_width="@dimen/mode_list_settings_icon_size"
+        android:layout_height="@dimen/mode_list_settings_icon_size"
+        android:layout_gravity="top|left"
+        android:background="@drawable/settings_gear_background"
+        android:contentDescription="@string/mode_settings"
+        android:scaleType="center"
+        android:src="@drawable/ic_settings_normal"
+        android:visibility="gone" />
+
+</com.android.camera.ui.ModeListView>

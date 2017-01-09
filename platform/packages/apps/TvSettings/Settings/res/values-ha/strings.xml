@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="settings_app_name">"Saituna"</string>
+<string name="launcher_settings_app_name">"Saituna"</string>
+<string name="launcher_network_app_name">"SIM1 Network"</string>
+<string name="launcher_restricted_profile_app_name">"Takaitaccen tarihin da aka takaita"</string>
+<string name="header_category_device">"Na\'ura"</string>
+<string name="header_category_preferences">"Zabin da aka fi so"</string>
+<string name="header_category_accessories">"Daga nesa &amp; kayayyaki"</string>
+<string name="header_category_personal">"NA MUTUM"</string>
+<string name="accounts_category_title">"Asusu"</string>
+<string name="add_account">"Kara asusu"</string>
+<string name="account_header_remove_account">"Cire asusu"</string>
+<string name="account_sync">"Zabi masarrafan da aka daidaita"</string>
+<string name="sync_now">"Jona yanzu"</string>
+<string name="sync_in_progress">"Daidaitawa\u2026"</string>
+<string name="last_synced">"Daidaitawan karshe <xliff:g id="time">%1s</xliff:g>"</string>
+<string name="sync_disabled">"An kashe"</string>
+<string name="account_remove">"Cire asusu"</string>
+<string name="account_remove_failed">"Bai iya cire ma\'ajiyar ba"</string>
+<string name="sync_failed">Sync ya gaza</string>
+<string name="sync_active">Sync yana aiki</string>
+<string name="connectivity_network">"SIM1 Network"</string>
+<string name="connectivity_wifi">"Wi-Fi"</string>
+<string name="connectivity_ethernet">"Ethernet"</string>
+<string name="wifi_setting_always_scan">"Tantancewa koyaushe akwai"</string>
+<string name="wifi_setting_always_scan_context">"Kyale sabis din gano wuri na Google da sauran masarrafi su tantance yanayin sadarwa, ko da kuwa Wi-Fi na kashe"</string>
+<string name="wifi_setting_enable_wifi">"Wi-Fi"</string>
+<string name="device_daydream">"Adana allo"</string>
+<string name="device_display">"Bayyana tsari"</string>
+<string name="device_sound">"Sauti"</string>
+<string name="device_surround_sound">"Kewaye sauti"</string>
+<string name="device_sound_effects">"Sautukan tsari"</string>
+<string name="device_apps">"APPs"</string>
+<string name="device_storage_reset">"Ma\'adana &amp; sake saiti"</string>
+<string name="device_backup_restore">"Madadi &amp; dawo da"</string>
+<string name="device_reset">"Sake saita bayanin masana\'anta"</string>
+<string name="device_calibration">"Aunawa"</string>
+<string name="device_storage_clear_cache_title">"Goge kunsassun bayanai?"</string>
+<string name="device_storage_clear_cache_message">"Wannan zai goge duk kunsassun bayanai na masarrafai."</string>
+<string name="apps_downloaded">"Masarrafan da aka sauke"</string>
+<string name="apps_system">Tsarin masarrafai</string>
+<string name="apps_running">"Masarrafan da ke aiki"</string>
+<string name="accessories_add">"Kara kaya"</string>
+<string name="accessory_state_pairing">"Biyuntawa&amp;#8230;"</string>
+<string name="accessory_state_connecting">"Hadawa&amp;#8230;"</string>
+<string name="accessory_state_error">"Bai iya biyuntawa"</string>
+<string name="accessory_state_canceled">"sokakke"</string>
+<string name="accessory_state_paired">"Biyuntacce"</string>
+<string name="accessory_options">"Kayayyaki"</string>
+<string name="accessory_unpair">"Raba jerewa"</string>
+<string name="accessory_battery">"Batiri <xliff:g id="percentage">%1$d</xliff:g>%%"</string>
+<string name="accessory_unpairing">"Kwance biyunta na\'ura&amp;#8230;"</string>
+<string name="accessory_connected">"An hada"</string>
+<string name="accessories_add_title">"Neman kayayyaki&amp;#8230;"</string>
+<string name="accessories_add_bluetooth_inst">"Kafin biyunta Bluetooth na na\'urorinku, ka tabbatar suna cikin yanayin biyuntawa"</string>
+<string name="accessories_autopair_msg">"An ga na\'ura kuma za ta biyuntu automatikiyyan a <xliff:g id="countdown">%1$s</xliff:g> dakikoki"</string>
+<string name="error_action_not_supported">"Wannan aiki ba zai yiwu ba"</string>
+<string name="bluetooth_pairing_request">"Bukatar jerawa ta Bluetooth"</string>
+<string name="bluetooth_confirm_passkey_msg">"Don biyuntawa da: <b><xliff:g id="device_name">%1$s</xliff:g></b>, tabbatar yana nuna wannan mabudin shiga: <b><xliff:g id="passkey">%2$s</xliff:g></b>"</string>
+<string name="bluetooth_incoming_pairing_msg">"Daga: <b><xliff:g id="device_name">%1$s</xliff:g></b><br>A biyunta da wannan na\'ura?"</string>
+<string name="bluetooth_display_passkey_pin_msg">"Don biyuntawa da: <b><xliff:g id="device_name">%1$s</xliff:g></b><br>Buga a kan: <b><xliff:g id="passkey">%2$s</xliff:g></b>, sai ka danna Koma ko Shiga."</string>
+<string name="bluetooth_enter_pin_msg">"Don biyuntawa da: <b><xliff:g id="device_name">%1$s</xliff:g></b>, <br>Buga lambar PIN na na\'urar:"</string>
+<string name="bluetooth_enter_passkey_msg">"Don biyuntawa da: <b><xliff:g id="device_name">%1$s</xliff:g></b>, <br>Buga mabudin shiga na na\'urar:"</string>
+<string name="bluetooth_pin_values_hint">"Yawanci 0000 ko 1234"</string>
+<string name="bluetooth_pair">"Hada"</string>
+<string name="bluetooth_cancel">"Soke"</string>
+<string name="system_date_time">"Kwanan wata &amp; lokaci"</string>
+<string name="system_language">"Irin yare:"</string>
+<string name="system_keyboard">"keyboard"</string>
+<string name="system_home">"Allon gida"</string>
+<string name="system_search">"Bincika"</string>
+<string name="system_security">"Tsaro &amp; Takaitawa"</string>
+<string name="system_speech">"Zance"</string>
+<string name="system_inputs">"Abin shigarwa"</string>
+<string name="system_accessibility">"Hanyar zuwa"</string>
+<string name="system_developer_options">"Rayarwa"</string>
+<string name="accessibility_none">Ba wanda</string>
+<string name="system_diagnostic">"Amfani &amp; An duba"</string>
+<string name="about_system_update">"Sabuntawar na\'ura"</string>
+<string name="about_preference">"Game da "</string>
+<string name="device_name">"Sunan na\'ura"</string>
+<string name="restart_button_label">"Sake kunnawa"</string>
+<string name="about_legal_info">"Bayanan doka"</string>
+<string name="about_legal_license">"Bude lasisan abin na asali"</string>
+<string name="about_terms_of_service">"Dokar Google"</string>
+<string name="about_license_activity_unavailable">"Lasisin bayanai ba shi"</string>
+<string name="about_model">"Sabon yayi"</string>
+<string name="about_version">"Nau\'i"</string>
+<string name="about_serial">"Jerin lamba"</string>
+<string name="about_build">"Gina"</string>
+<plurals name="show_dev_countdown"></plurals>
+<string name="about_ads">"Talloli"</string>
+<string name="show_dev_on">"Yanzu kai makirkiri ne!"</string>
+<string name="show_dev_already">"Ba bukata, ka riga ka zama makirkiri"</string>
+<string name="device_info_default">"Majahuli"</string>
+<string name="selinux_status">"Matsayin SELinux"</string>
+<string name="selinux_status_disabled">"An kashe"</string>
+<string name="selinux_status_permissive">"Mai ba da dama"</string>
+<string name="selinux_status_enforcing">"Tabbatar da"</string>
+<string name="additional_system_update_settings_list_item_title">"Karin abubuwan sabuntawar na\'ura"</string>
+<string name="device_status">"Hali"</string>
+<string name="device_status_summary">"netwok da lamba da sauran bayanai"</string>
+<string name="manual">"NA HANNU"</string>
+<string name="regulatory_information">"Bayanan ka\'idoji"</string>
+<string name="device_feedback">"Aika sakon martani dangane da wannan na\'urar"</string>
+<string name="fcc_equipment_id">ID na kayan na\'ura</string>
+<string name="baseband_version">"Juyin Baseband"</string>
+<string name="kernel_version">"Kanyar kernel"</string>
+<string name="status_unavailable">"Babu shi"</string>
+<string name="device_status_title">"Hali"</string>
+<string name="battery_status_title">"Matsayin batir"</string>
+<string name="battery_level_title">"Matakin batir"</string>
+<string name="sim_status_title">"SIM matsayi"</string>
+<string name="imei_information_title">"Bayanan IMEI"</string>
+<string name="status_bt_address">"Adireshin Bluetooth"</string>
+<string name="status_up_time">"Lokacin aiki"</string>
+<string name="status_wimax_mac_address">"Adireshin MAC mai gig 4"</string>
+<string name="legal_information">"Bayanan doka"</string>
+<string name="copyright_title">"Hakkin ma wallafi"</string>
+<string name="license_title">"Dasisi"</string>
+<string name="terms_title">"Dokoki da ka\'idoji"</string>
+<string name="webview_license_title">"Lasisin ganin tsarin intanet"</string>
+<string name="wallpaper_attributions">"hoton bango"</string>
+<string name="wallpaper_attributions_values">"Masu samar da surar Satalayit:\n©2014 CNES / Astrium, DigitalGlobe, Bluesky"</string>
+<string-array name="wifi_signal_strength">
+<item>"Marar kyau"</item>
+<item>"Dan dama"</item>
+<item>"Da kyau"</item>
+<item>"Da kyau matuka"</item>
+</string-array>
+<string name="title_mac_address">"Adireshin MAC"</string>
+<string name="title_signal_strength">"Karfin sigina"</string>
+<string name="title_ip_address">"Adireshin  IP"</string>
+<string name="title_ssid">"Shigar da sunan cibiyar sadarwar Wi-Fi"</string>
+<string name="title_internet_connection">"Haduwar intanet"</string>
+<string name="connected">"An hada"</string>
+<string name="not_connected">"Ba a hada ba"</string>
+<string name="wifi_setting_header_other_options">"Sauran zabuka"</string>
+<string name="wifi_setting_see_all">"Duba duk..."</string>
+<string name="wifi_setting_see_fewer">"A ga kadan"</string>
+<string name="wifi_setting_available_networks">"Samammen mahadai"</string>
+<string name="wifi_setting_other_options_wps">"Hada ta WPS"</string>
+<string name="wifi_setting_other_options_add_network">"Kara sabon cibiyar sadarwa"</string>
+<string name="security_type">"Salon tsaro"</string>
+<string name="wps_network">"Hada ta WPS"</string>
+<string name="other_network">"Wasu cibiyar sadarwa&amp;#8230;"</string>
+<string name="skip_network">"Tsallake"</string>
+<string name="wifi_security_type_none">Ba wanda</string>
+<string name="title_wifi_no_networks_available">"Tantancewa&amp;#8230;"</string>
+<string name="title_wifi_could_not_save">"Bai iya adana saitoci don <xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="title_wifi_could_not_connect">"Bai iya haduwa da <xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="title_wifi_could_not_connect_timeout">"Bai samu <xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="title_wifi_could_not_connect_authentication_failure">"Kalmar shiga Wi-Fi ba daidai ba"</string>
+<string name="title_wifi_could_not_connect_ap_reject">"Cibiyar sadarwar Wi-Fi ba ta karbi hadawar ba"</string>
+<string name="title_wifi_advanced_options">"Saita <xliff:g id="ssid">%1$s</xliff:g> Wakilci da saitocin IP?"</string>
+<string name="title_wifi_proxy_settings">"Saitukan dindindin"</string>
+<string name="title_wifi_proxy_hostname">"Wakilcin uwar suna:"</string>
+<string name="title_wifi_proxy_port">"Wakilcin gurabu:"</string>
+<string name="title_wifi_proxy_bypass">"Zagaye wakilci na:"</string>
+<string name="title_wifi_ip_settings">"Adireshin IP"</string>
+<string name="title_wifi_ip_address">"Adireshin IP:"</string>
+<string name="title_wifi_gateway">"Mafita:"</string>
+<string name="title_wifi_network_prefix_length">"Tsawon karin cibiyar sadarwa:"</string>
+<string name="title_wifi_proxy_settings_invalid">"Saitocin wakilci ba daidai ba"</string>
+<string name="title_wifi_ip_settings_invalid">"Saitocin IP ba daidai ba"</string>
+<string name="title_wifi_known_network">"<xliff:g id="ssid">%1$s</xliff:g> Cibiyar sadarwar da aka adana"</string>
+<string name="wifi_action_try_again">"Sake gwadawa"</string>
+<string name="wifi_action_view_available_networks">"Duba cibiyoyin sadarwar da ke akwai"</string>
+<string name="wifi_connecting">"Hadawa da <xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="wifi_saving">"Adana saitocin <xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="wifi_connect">"Hada"</string>
+<string name="wifi_forget_network">"Manta da layin sadarwa"</string>
+<string name="wifi_forget_network_description">"Wannan ya goge bayanan da aka yi amfani da shi don hadawa da wannan cibiyar sadarwa, da ya hada da kalmar shiga da aka adana"</string>
+<string name="wifi_action_ok">"YA YI"</string>
+<string name="wifi_action_change_network">"Canza"</string>
+<string name="wifi_action_dont_change_network">"Kar ka canza"</string>
+<string name="wifi_action_advanced_yes">"YA YI"</string>
+<string name="wifi_action_advanced_no">"A\'a (an yaba)"</string>
+<string name="wifi_action_proxy_none">Ba wanda</string>
+<string name="wifi_action_proxy_manual">"NA HANNU"</string>
+<string name="wifi_action_static">"Sandararre"</string>
+<string name="wifi_action_status_info">"Matsayin bayanaiStatus info"</string>
+<string name="wifi_action_advanced_options_title">"Babban Zabi"</string>
+<string name="wifi_ip_settings_invalid_ip_address">"Shigar da adireshin IP da yake daidai"</string>
+<string name="wifi_ip_settings_invalid_gateway">"Shigar da adireshin mafita da yake daidai"</string>
+<string name="wifi_ip_settings_invalid_dns">"Shigar da adireshin DNS da yake daidai"</string>
+<string name="wifi_ip_settings_invalid_network_prefix_length">"Shigar da kari a sunan cibiyar sadarwa tsakanin 0 da 32"</string>
+<string name="wifi_ip_address_description">"A sanya ingantacceb adreshin IP\nMisali: <xliff:g>192.168.1.128</xliff:g>"</string>
+<string name="wifi_dns1_description">"A sanya ingantacceb adreshin IP ko a bar shi ba komai..\nMisali: <xliff:g>8.8.8.8</xliff:g>"</string>
+<string name="wifi_dns2_description">"A sanya ingantacceb adreshin IP ko a bar shi ba komai.\nMisali: <xliff:g>8.8.4.4</xliff:g>"</string>
+<string name="wifi_gateway_description">"A sanya ingantacceb adreshin IP ko a bar shi ba komai.\nMisali: <xliff:g>192.168.1.1</xliff:g>"</string>
+<string name="wifi_network_prefix_length_description">""A sanya ingantaccen tsayin dafa goshin netwok.\nMisali: <xliff:g>24</xliff:g>"</string>
+<string name="proxy_error_invalid_host">"Uwar suna ba daidai ba"</string>
+<string name="proxy_error_invalid_exclusion_list">"Wannan jerin cirarrun sunayen ba daidai ba. Shigar da jerin sunayen da aka raba da wakafi na shafukan intanet."</string>
+<string name="proxy_error_empty_port">"Wurin gurabun ba zai zama ba komai ba"</string>
+<string name="proxy_error_empty_host_set_port">"Idan wurin uwar ba komai, bar wurin gurabun ba komai"</string>
+<string name="proxy_error_invalid_port">"Gurabun ba daidai ba ne"</string>
+<string name="proxy_warning_limited_support">"HTTP Wakilci ne masarrafin lilo ke amfani da shi amma ba za a yi amfani da shi a sauran masarrafai"</string>
+<string name="proxy_port_description">"A sanya ingantaccen rami.\nMisali: <xliff:g>8080</xliff:g>"</string>
+<string name="proxy_exclusionlist_description">"Sanya jerin da ake rarrabe shi da wakafi na asalin da aka ware ko a bar shi ba komai.\nMisali: <xliff:g>example.com,mycomp.test.com,localhost</xliff:g>"</string>
+<string name="proxy_hostname_description">"A sanya ingantaccen hostname.\nmisali:  <xliff:g>proxy.example.com</xliff:g>"</string>
+<string name="wifi_summary_title_connected">"Cibiyar sadarwa an hada"</string>
+<string name="wifi_summary_title_not_connected">"Cibiyar sadarwar ba a hada ba"</string>
+<string name="wifi_summary_description_connected_to_wifi_network">" An hada da <xliff:g id="ssid">%1$s</xliff:g>. Hada ga wata cibiyar sadarwar daban?"</string>
+<string name="wifi_summary_unknown_network">"Majahulin cibiyar sadarwa"</string>
+<string name="title_ok">"YA YI"</string>
+<string name="title_cancel">"Soke"</string>
+<string name="storage_title">"Ajiyewa"</string>
+<string name="storage_available">"Samamme"</string>
+<string name="storage_size">"Jimlar sarari: <xliff:g id="total_space">%1$s</xliff:g>"</string>
+<string name="storage_calculating_size">"Lissafa\u2026"</string>
+<string name="storage_apps_usage">"APPs"</string>
+<string name="storage_downloads_usage">"Abubuwan da aka sauke"</string>
+<string name="storage_dcim_usage">"Hotuna &amp; bidiyo"</string>
+<string name="storage_music_usage">"Sauti"</string>
+<string name="storage_media_misc_usage">"Misc."</string>
+<string name="storage_media_cache_usage">"Kunsassun bayanai"</string>
+<string name="storage_eject">"Fitar"</string>
+<string name="storage_format">"Share ka yi fomatin"</string>
+<string name="storage_format_as_private">"Goge &amp; Goge shi a matsayin ma\'ajiyar na\'ura"</string>
+<string name="storage_format_as_public">"Goge &amp; Goge shi a matsayin ma\'ajiyar da za a cire"</string>
+<string name="storage_format_for_private">"Yi fomatin a matsayin ma\'adanar na\'ura"</string>
+<string name="storage_not_connected">"Ba a hada ba"</string>
+<string name="storage_migrate">"A mayar da bayanai zuwa wannan ma\'ajiyar"</string>
+<string name="storage_migrate_away">"A mayar da bayanai zuwa ma\'ajiya daban daban"</string>
+<string name="storage_no_apps">"Ba wata manhaja da za a adana"</string>
+<string name="storage_forget">":A manata da wannan ma\'ajiyar na\'urar""</string>
+<string name="storage_forget_wall_of_text">"Don amfani da manhajoji ko bayanan da wannan drive ya kunsa, sake soka shi ciki. Wani zabin kuma, za ka iya zabar ka manta da wannan ma\'adana idan babu drive din. \n\nIdan ka zabi ka manta, za an yi hasarar duk bayanan da drive din ya kunsa har abada. \n\nZa ka iya sake sanya manhajojin daga bisani, amma za a yi hasarar bayanan da aka adana akan wannan drive din."</string>
+<string name="storage_device_storage_section">"Ma\'adanar na\'ura"</string>
+<string name="storage_removable_storage_section">"Ma\'adana da ake cirewa"</string>
+<string name="storage_reset_section">"sake saiti"</string>
+<string name="storage_mount_success">"<xliff:g id="name" example="SD card">%1$s</xliff:g> an kafa shi"</string>
+<string name="storage_mount_failure">"An kasa kafawa <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_mount_adopted">"An sake hada ma\'ajiyar USB"</string>
+<string name="storage_unmount_success">"<xliff:g id="name" example="SD card">%1$s</xliff:g> an zare shi lafiya"</string>
+<string name="storage_unmount_failure">"An kasa zarewa lafiya <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_unmount_failure_cant_find">"An kasa samun drive da za a zare"</string>
+<string name="storage_format_success">"<xliff:g id="name" example="SD card">%1$s</xliff:g> an yi fomatin"</string>
+<string name="storage_format_failure">"An kasa yin fomatin <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_format_as_private_title">"Yi fomatin a matsayin ma\'adanar na\'ura"</string>
+<string name="storage_wizard_format_as_private_description">"Wannan na bukatar a yi fomatin drive na USB don ya sami kariya. Bayan an yi fomatin, wannan drive zai yi aiki ne kadai tare da wannan na\'ura. Yin fomatin yana share duk bayanan da aka adana su kwanan nan akan na\'urar. Don gudun hasarar bayanai, yi tunanin yi masa tallafin baya."</string>
+<string name="storage_wizard_format_as_public_title">"Share ka yi fomatin"</string>
+<string name="storage_wizard_format_as_public_description">"Bayan gogewa za a iya amfani da wannan USB a wasu na\'urorin. Za a goge dukkanin bayanai. A samar da madogara ta fara tura bayanan zuwa wata ma\'ajiyar."</string>
+<string name="storage_wizard_format_progress_title">"Ana yin fomatin drive na USB&amp;#8230;"</string>
+<string name="storage_wizard_format_progress_description">"Wannan zai iya daukar lokaci. Kada ka cire drive din."</string>
+<string name="storage_wizard_migrate_choose_title">"A zabi ma\'ajiyar da za a mayar da bayanai"</string>
+<string name="storage_wizard_migrate_confirm_title">"Matsar da bayanai zuwa <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_migrate_confirm_description">"Matsar da hotunanka, fayiloli da bayanan manhaja zuwa <xliff:g id="name" example="SD card">%1$s</xliff:g>. Wannan zai iya daukar mintuna kadan. Wasu manhajojin ba za su yi aiki sosai ba yayin da ake  matsarwa."</string>
+<string name="storage_wizard_migrate_confirm_action_move_now">"Matsar yanzu"</string>
+<string name="storage_wizard_migrate_confirm_action_move_later">"Matsar wani lokaci"</string>
+<string name="storage_wizard_migrate_toast_success">"Bayanan da aka kwashe zuwa <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_migrate_toast_failure">"Ba za a iya kwashe bayanai zuwa <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_migrate_progress_title">"Ana matsar da bayanai zuwa <xliff:g id="name" example="SD card">%1$s</xliff:g>&amp;#8230;"</string>
+<string name="storage_wizard_migrate_progress_description">"Wannan zai iya daukar lokaci. Kada ka cire drive din. \nWasu manhajojin ba za su yi aiki sosai ba yayin da ake matsarwa."</string>
+<string name="storage_wizard_format_slow_title">"Wannan drive da alama ya rage gudu.\'"</string>
+<string name="storage_wizard_format_slow_summary">"Za ka iya cigaba, sai dai manhajojin da aka matsar zuwa wannan wurin za su iya yin tangarda inda tiransifar bayanai za ta iya daukar dogon lokaci. Yi tunanin amfani da drive mafi gudu don kyakkyawan aiki."</string>
+<string name="storage_wizard_format_action">"Format"</string>
+<string name="storage_wizard_backup_apps_action">"Manhajojin tallafin baya"</string>
+<string name="storage_wizard_back_up_apps_title">"Manhajojin da aka adana a cikin <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_back_up_apps_and_data_title">"Manhajoji da bayanan da aka adana a cikin <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_back_up_apps_space_available">"<xliff:g id="size" example="1.23GB">%1$s</xliff:g> akwai"</string>
+<string name="storage_wizard_eject_private_title">"A cire ma\'ajiyar na\'ura"</string>
+<string name="storage_wizard_eject_private_description">"Manhajoji da ke kanma\'adanar wannan na\'ura za su daina aiki yayin da aka zare ta. An yi fomatin din wannan drive na USB don ya yi aiki akan wannan na\'ura kadai. Ba zai yi aiki akan wasu ba."</string>
+<string name="storage_wizard_eject_progress_title">"Ana zarewa <xliff:g id="name" example="SD Card">%1$s</xliff:g>&amp;#8230;"</string>
+<string name="storage_wizard_move_app_title">"Ma\'adana da aka yi amfani"</string>
+<string name="storage_wizard_move_app_progress_title">"Ana matsarwa <xliff:g id="name" example="YouTube">%1$s</xliff:g>&amp;#8230;"</string>
+<string name="storage_wizard_move_app_progress_description">""Kada ka cire drive yayin da ake matsar da.\nThe <xliff:g id="appname" example="YouTube">%1$s</xliff:g> ba za a sami manhaja da ke wannan na\'ura ba har sai an kammala matsarwa."</string>
+<string name="storage_wizard_forget_confirm_title">"A manta da ma\'ajiyar na\'ura"</string>
+<string name="storage_wizard_forget_confirm_description">"Za a yi hasarar duk bayananka da aka adana a cikin wannan drive har abada tare da \'Manta\'. Kana son ka cigaba?"</string>
+<string name="storage_wizard_forget_action">"Manta"</string>
+<string name="storage_new_title">"An jona drive na USB"</string>
+<string name="storage_new_action_browse">"Shiga intanet"</string>
+<string name="storage_new_action_adopt">"A saita a matsayin ma\'ajiyar na\'ura"</string>
+<string name="storage_new_action_format_public">"Saita a matsayin ma\'adanar da ake iya cirewa"</string>
+<string name="storage_new_action_eject">"Fitar"</string>
+<string name="storage_missing_title">"<xliff:g id="name" example="SD Card">%1$s</xliff:g> an cire"</string>
+<string name="storage_missing_description">"Ba za a sami wasu manhajoji ba ko kuma ba za su yi aiki sosai ba har sai an sake jona drive."</string>
+<string name="insufficient_storage">"Babu sauran sarari a ma\'adana."</string>
+<string name="does_not_exist">"Babu wannan shirin."</string>
+<string name="app_forward_locked">"Wannan shirin yana da kariyar-kwafe."</string>
+<string name="invalid_location">"Wurin dasawa da aka nuna ba daidai ba ne."</string>
+<string name="system_package">"Ba za a iya dasa sabuntattun bayanan na\'ura a taskar nishadi dake wajen na\'ura ba."</string>
+<string name="move_error_device_admin">"Ba za aiya sanya mai lura da na\'ura ba a kafa ta waje ba"</string>
+<string name="learn_more_action">"Kara sani"</string>
+<string name="wifi_wps_retry_scan">"Kuma jarraba"</string>
+<string name="wifi_wps_title">"Neman mai ba da hanya na WPS \u2026"</string>
+<string name="wifi_wps_instructions">"Danna madannin saita kariyar Wi-Fi da ke kan mai ba da hanya naka ba .\nZa a kira shi \"WPS\" ko yana da alami a dama."</string>
+<string name="wifi_wps_onstart_pin">"Shigar da PIN <xliff:g id="number">%1$s</xliff:g> kan mai ba da hanya naka na Wi-Fi"</string>
+<string name="wifi_wps_onstart_pin_description">"Bayan ka shigar da PIN, saitawa zai dauki mintuna 2 don gamawa"</string>
+<string name="wifi_wps_failed_generic">"Bai samu mai ba da hanya na Wi-Fi ba"</string>
+<string name="wifi_wps_failed_wep">"Saitocin tsaro na Wi-Fi (WEP) ba sa aiki"</string>
+<string name="wifi_wps_failed_tkip">"Saitocin tsaro na Wi-Fi (TKIP) ba sa aiki"</string>
+<string name="wifi_wps_failed_overlap">"Wani zaman WPS na gudana. Sake yi kuma cikin mintuna kadan."</string>
+<string name="system_date">"Ta kwanan wata"</string>
+<string name="system_time">"Lokaci"</string>
+<string name="system_set_date">"Saita kwanan wata"</string>
+<string name="system_set_time">"Saita lokaci"</string>
+<string name="system_set_time_zone">"saita yanayin lokaci"</string>
+<string name="desc_set_time_zone">"<xliff:g id="offset" example="GMT-08:00">%1$s</xliff:g>, <xliff:g id="name" example="Pacific Standard Time">%2$s</xliff:g>"</string>
+<string name="system_set_time_format">"Yi amfani da tsarin awa 24"</string>
+<string name="desc_set_time_format">"<xliff:g id="state" example="Off">%1$s</xliff:g> (<xliff:g id="sample" example="3:14 PM">%2$s</xliff:g>)"</string>
+<string name="system_auto_date_time">"Kwanan wata automatikiyya &amp; lokaci"</string>
+<string-array name="auto_date_time_entries">
+<item>"Yi amfani da garabasar hanyar sadarwa"</item>
+<item>"A KASHE"</item>
+</string-array>
+<string-array name="auto_date_time_ts_entries">
+<item>"Yi amfani da garabasar hanyar sadarwa"</item>
+<item>"A yi amnai da sufurin lokacin da stream ya bayar"</item>
+<item>"A KASHE"</item>
+</string-array>
+<string name="system_location">"Wuri"</string>
+<string name="system_desc_location">Bar masarrafan da suka nemi izinin amfani da bayanan inda kake</string>
+<string name="system_network_location_confirm">"Wurin da aka yarda"</string>
+<string name="location_mode_title">"Yanayi"</string>
+<string name="location_category_recent_location_requests">"Neman gano wuri ba dadewa"</string>
+<string name="location_no_recent_apps">"Ba masarrafin da ya nemi gano wuri ba dadewa"</string>
+<string name="location_high_battery_use">"Tsananin amfani da batur"</string>
+<string name="location_low_battery_use">"Karancin amfani da batur"</string>
+<string name="location_mode_wifi_description">"Yi amfani da Wi\u2011Fi don estimin wuri"</string>
+<string name="location_status">"Matsayin wuri"</string>
+<string name="location_services">"Ayyukan wuri"</string>
+<string name="on">"A kunne"</string>
+<string name="off">"A KASHE"</string>
+<string name="google_location_services_title">"hidindimun gano wuri na Google"</string>
+<string name="third_party_location_services_title">"Wasu masu hidimar gano wuri na daban"</string>
+<string name="location_reporting">"Rahoton gano wuri"</string>
+<string name="location_history">"Tarihin gano wuri"</string>
+<string name="location_reporting_desc">"Google na amfani da wannan dama a abubuwa kamar Google Now da Google Maps. Kunna rahoton gano wuri yana kyale kayan Google da ke amfani da wannan  siffa ya adana kuma ya yi amfani da bayanan wurin da na\'urarka take na baya bayan nan da ke da dangantaka da ma\'ajiyarka ta Google."</string>
+<string name="location_history_desc">"Idan an kunna tarihin wuri don wannan ma\'ajiya, Google zai adana bayanan wurin da na\'urarka take don amfanin masarrafanka.\n\nMisali, Google Maps zai iya ba ka jihohi, kuma Google Now zai iya sanar da kai yawan karakainan ababen hawa.\n\nZa ka iya kashe tarihin gano wuri a kowane lokaci, amma yin hakan bai share shi ba. Don gani da kuma sarrafa tarihin gano wurinka, ka ziyarci maps.google.com/locationhistory."</string>
+<string name="delete_location_history_title">"Share tarihin gano wuri"</string>
+<string name="delete_location_history_desc">"Wannan zai share duk tarihin gano wuri da aka adana a wannan na\'ura don wannan ma\'ajiyar Google. Ba za ka iya dawo da wannan sharewar ba. Wasu masarrafan, da suka hada da Google Now, za su daina aiki."</string>
+<string name="system_services">"Aiyuka"</string>
+<string name="accessibility_service_settings">"Saitocin hidindimu"</string>
+<string name="accessibility_toggle_high_text_contrast_preference_title">"Rubutu mai haske da yawa"</string>
+<string name="accessibility_captions">"Bayanai"</string>
+<string name="accessibility_captions_description">"Saitocin rubutun bayani kan bidiyo"</string>
+<string name="captions_display">"Bayyana tsari"</string>
+<string name="captions_display_on">"A kunne"</string>
+<string name="captions_display_off">"A KASHE"</string>
+<string name="display_options">"Bayyana zabi"</string>
+<string name="captions_configure">"Saita"</string>
+<string name="captions_language">"Irin yare:"</string>
+<string name="captions_textsize">"Girman rubutu"</string>
+<string name="captions_captionstyle">"Salon bayani"</string>
+<string name="captions_customoptions">"Zabi na dawwama"</string>
+<string name="captions_fontfamily">"Salon haruffa"</string>
+<string name="captions_textcolor">"Kalan rubutu"</string>
+<string name="captions_edgetype">"Irin gefe"</string>
+<string name="captions_edgecolor">"Kalan gefe"</string>
+<string name="captions_backgroundshow">"A nun bayan fage"</string>
+<string name="captions_backgroundcolor">"Kalan bayan fage"</string>
+<string name="captions_backgroundopacity">"Duhun bayan fage"</string>
+<string name="captioning_preview_text">"Bayanai za su yi kama da haka"</string>
+<string name="captions_textopacity">"Karfin rubutu"</string>
+<string name="captions_windowshow">"A nuna window"</string>
+<string name="captions_windowcolor">"Kalar Windo"</string>
+<string name="captions_windowopacity">"Hasken Windo"</string>
+<string name="captions_style_0">"Fari kan baki"</string>
+<string name="captions_style_1">"Baki kan fari"</string>
+<string name="captions_style_2">"Yelo kan baki"</string>
+<string name="captions_style_3">"Yelo kan bulu"</string>
+<string name="captions_style_custom">"Kwastan"</string>
+<string name="color_white">"fari"</string>
+<string name="color_black">"Baki"</string>
+<string name="color_red">"Ja"</string>
+<string name="color_green">"Kore"</string>
+<string name="color_blue">"Shudi"</string>
+<string name="color_cyan">"Siyan"</string>
+<string name="color_yellow">"Yelo"</string>
+<string name="color_magenta">"Majenta"</string>
+<string name="system_accessibility_status">"Kunna"</string>
+<string name="system_accessibility_config">"Saitoci"</string>
+<string name="system_accessibility_service_on_confirm_title">"amfani da <xliff:g id="service" example="TalkBack">%1$s</xliff:g>?"</string>
+<string name="system_accessibility_service_on_confirm_desc">"<xliff:g id="service" example="TalkBack">%1$s</xliff:g> zai tattara duk rubutun da ka buga, banda kalmomin shiga. Wannan ya hada da bayanan kashin kai kamar lambobin katin banki."</string>
+<string name="system_accessibility_service_off_confirm_title">"Dakata <xliff:g id="service" example="TalkBack">%1$s</xliff:g>?"</string>
+<string name="system_accessibility_service_off_confirm_desc">"Zabar OK zai tsai da <xliff:g id="service" example="TalkBack">%1$s</xliff:g>."</string>
+<string name="system_accessibility_tts_output">"Rubutu zuwa magana"</string>
+<string name="system_accessibility_tts_engine_config">"Shirya inji"</string>
+<string name="system_speak_passwords">"Fadi kalmomin-shiga"</string>
+<string name="system_preferred_engine">"Injin da aka fi so"</string>
+<string name="system_speech_rate">"Adadin zance"</string>
+<string name="system_play_sample">"Kunna samfoti"</string>
+<string name="system_install_voice_data">"Dasa bayanan murya "</string>
+<string name="system_general">"Na dukka"</string>
+<string name="system_debugging">Yana cire bug</string>
+<string name="system_input">"Sanya"</string>
+<string name="system_drawing">Zanawa</string>
+<string name="system_monitoring">Lura</string>
+<string name="system_apps">"APPs"</string>
+<string name="system_stay_awake">"Kasance a falke"</string>
+<string name="system_hdcp_checking">"Ana duba HDCP"</string>
+<string name="system_hdmi_optimization">"HDMI ingantawa"</string>
+<string name="system_reboot_confirm">"Sake kunnawa yanzu?"</string>
+<string name="system_desc_reboot_confirm">"Don sabuntawa wannan saitocin, na\'urarka na bukatar a sake kunna ta"</string>
+<string name="system_never_check">"Kar ka duba"</string>
+<string name="system_check_for_drm_content_only">"Duba bayanan DRM kadai"</string>
+<string name="system_always_check">"Duba koda  yaushe"</string>
+<string name="system_bt_hci_log">"Bluetooth HCI shigarwa"</string>
+<string name="system_email_address">"Adireshin emel"</string>
+<string name="system_usb_debugging">"Garanbawul din USB"</string>
+<string name="system_allow_mock_locations">"Bada damar wuraren bogi"</string>
+<string name="system_select_debug_app">Zabi masarrafin cire bug</string>
+<string name="system_wait_for_debugger">Jira mai cire bug</string>
+<string name="system_verify_apps_over_usb">"Binciki masarrafai a Ma\'adanar USB"</string>
+<string name="system_desc_verify_apps_over_usb">"Duba masarrafan da aka dasa ta ADB/ADT don batattun halayya"</string>
+<string name="system_wifi_verbose_logging">"Wi-Fi shigar da kalmomi"</string>
+<string name="system_desc_wifi_verbose_logging">"Ba da dama ga Wi-Fi shigar da kalmomi"</string>
+<string name="system_show_touches">"Nuna tabe tabe"</string>
+<string name="system_pointer_location">"Wurin kibiyar nuni"</string>
+<string name="system_show_layout_bounds">Nuna iyakar tsari</string>
+<string name="system_show_gpu_view_updates">Nuna GPU don ganin kara kuzari</string>
+<string name="system_show_hardware_layer">"Nuna shimfidar kayan na\'urar"</string>
+<string name="system_show_gpu_overdraw">"Nuna zanen GPU"</string>
+<string name="system_show_surface_updates">"Nuna sabuntawa na sarari"</string>
+<string name="system_window_animation_scale">"Ma\'aunin motsin hoto na shafi"</string>
+<string name="system_transition_animation_scale">"Ma\'aunin motsin hoto na sauyi"</string>
+<string name="system_animator_duration_scale">Tsawon Sikelin Animator</string>
+<string name="system_strict_mode_enabled">"An bude yanayi mai tsauri"</string>
+<string name="system_show_cpu_usage">"Nuna amfanin CPU"</string>
+<string name="system_profile_gpu_rendering">Tarihin bayanai na GPU yana bayyana</string>
+<string name="system_enable_traces">Kunna alamu</string>
+<string name="system_dont_keep_activities">"Kar ka rike ayyuka"</string>
+<string name="system_background_process_limit">"Iyakar aikin kewaye"</string>
+<string name="system_show_all_anrs">"Nuna duk ANRs"</string>
+<string name="system_desc_stay_awake">"Kar ka ba da dama ga barci"</string>
+<string name="system_desc_hdcp_checking">"Yi amfani da don abin da ke cikin DRM kawai"</string>
+<string name="system_desc_hdmi_optimization">"Inganta nunawa don karfin  hoto mafi yawa ko karfin firam mafi yawa. Wannan na shafan nuna Ultra HD ne kawai. Canza wannan saitocin zai sake kunna na\'urarka."</string>
+<string name="system_desc_bt_hci_log">"Ba da dama ga shigar sirri na Bluetooth HCI"</string>
+<string name="system_desc_usb_debugging">"Yanayin cire kuskure yayin da aka hada USB"</string>
+<string name="system_desc_wait_for_debugger">"Masarrafin da aka cire kuskure na jiran mai cirewar ya hadu kafin zartarwa"</string>
+<string name="system_desc_show_layout_bounds">Nuna iyakar gajerun bidiyo, sassa da sauransu</string>
+<string name="system_desc_show_gpu_view_updates">Filash yana nuna cikin windows in an zana shi da GPU</string>
+<string name="system_desc_show_hardware_layer">"Kayayyakin Filash suna zama kore in an sabunta"</string>
+<string name="system_desc_show_gpu_overdraw">"Daga mafi kyau zuwa mafi muni: bulu, kore, ja-ja-ja-ja, ja"</string>
+<string name="system_desc_show_surface_updates">"Haska duk tagar idan suna sabuntuwa"</string>
+<string name="system_desc_strict_mode_enabled">"Haska fuskar na\'urar idan masarrafan sun aiki mai tsawo a kan babban layi"</string>
+<string name="system_desc_show_cpu_usage">"Murfin allon na\'ura yana nuna amfani CPU na yanzu"</string>
+<string name="system_desc_profile_gpu_rendering">Auna lokacin bayyana a tsarin adb shell dumpsys gfxinfo</string>
+<string name="action_on_title">"A kunne"</string>
+<string name="action_off_title">"A KASHE"</string>
+<string name="action_on_description">"A kunne"</string>
+<string name="action_off_description">"A KASHE"</string>
+<string name="agree">"Yarda"</string>
+<string name="disagree">"Ba yarda"</string>
+<string name="security_unknown_sources_title">"Bakonnin majiyoyi"</string>
+<string name="security_unknown_sources_desc">"Kyale dasa masarrafai daga wasu masoman da ba Play Store ba"</string>
+<string name="security_unknown_sources_confirm_title">"A ba wa wanda ba a sani ba dama"</string>
+<string name="security_unknown_sources_confirm_desc">"Na\'urarka da bayanan kashin kanka za su yi saukin gamuwa da hari daga masarrafan da suka fito daga majahulan masomai. Ka yarda kai ke da alhakin duk wata barna ga na\'urarka ko asarar bayanai da zai auku saboda amfani da wadannan masarrafai."</string>
+<string name="security_verify_apps_title">"Binciki masarrafi"</string>
+<string name="security_verify_apps_desc">"Kar ka bari ko yi gargadi kafin dasa masarrafin da zai iya jawo barna"</string>
+<string name="system_hdcp_checking_never">"Har abada"</string>
+<string name="system_hdcp_checking_drm">"Don abin da ke cikin DRM"</string>
+<string name="system_hdcp_checking_always">"Koda yaushe"</string>
+<string name="system_hdmi_optimization_best_resolution">"Karfin kyawu sosai"</string>
+<string name="system_hdmi_optimization_best_framerate">"Adadin sanduna mafi kyawu"</string>
+<string name="system_hw_overdraw_off">"A KASHE"</string>
+<string name="system_hw_overdraw_areas">"Nuna wurin da aka faye zane"</string>
+<string name="system_hw_overdraw_counter">"Nuna makirgin inda aka faye zane"</string>
+<string name="no_application">Ba komai</string>
+<string name="enable_opengl_traces_none">Ba wanda</string>
+<string-array name="animation_scale_entries">
+<item>"An kashe motsin hotuna"</item>
+<item>"Ma\'aunin motsin hotuna .5x"</item>
+<item>"Ma\'aunin motsin hotuna 1x"</item>
+<item>"Ma\'aunin motsin hotuna 1.5x"</item>
+<item>"Ma\'aunin motsin hotuna 2x"</item>
+<item>"Ma\'aunin motsin hotuna 5x"</item>
+<item>"Ma\'aunin motsin hotuna 105x"</item>
+</string-array>
+<string name="track_frame_time_off">"A KASHE"</string>
+<string name="track_frame_time_bars">"Sandunan kan fuskar waya"</string>
+<string name="app_process_limit_standard">"Daidaitacciyar iyaka"</string>
+<string name="app_process_limit_zero">"Babu hanyyoyin aiki na kewayen baya"</string>
+<string name="app_process_limit_one">"A iya kurewa aiki 1"</string>
+<string name="app_process_limit_two">"A iya kurewa aiki 2"</string>
+<string name="app_process_limit_three">"A iya kurewa aiki 3"</string>
+<string name="app_process_limit_four">"A iya kurewa aiki 4"</string>
+<string name="tts_rate_very_slow">"A hankali matuka"</string>
+<string name="tts_rate_slow">"A hankali"</string>
+<string name="tts_rate_normal">"Wanda aka saba"</string>
+<string name="tts_rate_fast">"Mai sauri"</string>
+<string name="tts_rate_very_fast">"Da sauri matuka"</string>
+<string name="title_current_keyboard">"Allon mabudai na yanzu"</string>
+<string name="title_configure">"Saita"</string>
+<string name="desc_configure_keyboard">"Zabin allon mabudai"</string>
+<string name="computing_size">"Ana buga lissafin\u2026"</string>
+<string name="title_select_wifi_network">"Zabi cibiyar sadarwarka ta Wi-Fi"</string>
+<string name="accessories_wifi_display_rename_device">"Sake suna"</string>
+<string name="accessories_wifi_display_enable">"Wi-Fi nuna"</string>
+<string name="accessories_wifi_display_pin_required">"Ana bukatar PIN"</string>
+<string name="whichApplication">"Aiki cikakke na amfani"</string>
+<string name="alwaysUseQuestion">"Koyaushe amfani da wannan zabi don wannan aikin?"</string>
+<string name="alwaysUseOption">"Koyaushe amfani da"</string>
+<string name="justOnceOption">Sau daya kawai</string>
+<string name="noApplications">"Ba masarrafin da zai yi wannan aikin."</string>
+<string name="noAppsGoBack">"Baya"</string>
+<string name="inputs_inputs">"Abin shigarwa"</string>
+<string name="inputs_header_cec">"Kula da laturonin mabukaci (CEC)"</string>
+<string name="inputs_cec_settings">"Kula da saitocin na\'ura"</string>
+<string name="inputs_blu_ray">"Bulu-tsirkiya"</string>
+<string name="inputs_cable">"Waya"</string>
+<string name="inputs_game">"Na\'urar wasan bidiyo"</string>
+<string name="inputs_aux">"Kari"</string>
+<string name="inputs_custom_name">"Sunan asali"</string>
+<string name="inputs_custom_name_description_fmt">"A sanya sunan <xliff:g id="input" example="HDMI">%1$s</xliff:g> mashiga."</string>
+<string name="inputs_hide">"Boyayye"</string>
+<string name="inputs_show">"A nuna wannan mashigar"</string>
+<string name="input_header_names">"Ta suna"</string>
+<string name="inputs_hdmi_control">"Kula da HDMI"</string>
+<string name="inputs_hdmi_control_desc">"Kyale TV kula da na\'urar HDMI"</string>
+<string name="inputs_device_auto_off">"Na\'urar kunnawa automatikiyya na kashe"</string>
+<string name="inputs_device_auto_off_desc">"kashe na\'urar HDMI da TV"</string>
+<string name="inputs_tv_auto_on">"Kunna TV automatikiyya na kunne"</string>
+<string name="inputs_tv_auto_on_desc">"Kunna TV da na\'urar HDMI"</string>
+<plurals name="inputs_header_connected_input"></plurals>
+<plurals name="inputs_header_standby_input"></plurals>
+<plurals name="inputs_header_disconnected_input"></plurals>
+<string name="user_add_profile_item_summary">"Takaita isa ga masarrafai da sauran abin da ke cikin ma\'ajiyarka"</string>
+<string name="user_new_profile_name">"Takaitaccen tarihin da aka takaita"</string>
+<string name="user_restrictions_controlled_by">"Kula daga <xliff:g id="app">%1$s</xliff:g>"</string>
+<string name="app_not_supported_in_limited">"Wannnan masarrafin bai da goyon bayan takaitaccen tarihin da aka takaita"</string>
+<string name="app_sees_restricted_accounts">"Wannan masarrafin zai iya isa ga Ma\'ajiyarka"</string>
+<string name="restriction_location_enable_title">"Wuri"</string>
+<string name="restriction_location_enable_summary">"Kyale masarrafai su yi amfani da bayanin wurinka"</string>
+<string name="restricted_profile_switch_to">"Shigar da takaitaccen tarihi"</string>
+<string name="restricted_profile_switch_out">"Fita daga takaitaccen tarihi"</string>
+<string name="restricted_profile_delete_title">"Share takaitaccen tarihi"</string>
+<string name="restricted_profile_create_title">"A kirkiri bayanai masu tsaro"</string>
+<string name="restricted_profile_configure_title">"Saituna"</string>
+<string name="restricted_profile_configure_apps_title">"Masarrafan da aka kyale"</string>
+<plurals name="restricted_profile_configure_apps_description"></plurals>
+<string name="restricted_profile_allowed">"An bada dama"</string>
+<string name="restricted_profile_not_allowed">"Ba a bada dama ba"</string>
+<string name="restricted_profile_customize_restrictions">"Takaitawa na asali"</string>
+<string name="restricted_profile_configure_apps_description_loading">"Lokaci guda\u2026"</string>
+<string name="restricted_profile_change_password_title">"Canza lambar PIN"</string>
+<string name="app_sees_restricted_accounts_and_controlled_by">"Wannan manhajar za ta iya bude asusanka. Wanda ke sarrafa ta <xliff:g id="app">%1$s</xliff:g>"</string>
+<string name="pin_enter_unlock_channel">"Shigar da PIN don kallon wannan tashar"</string>
+<string name="pin_enter_unlock_program">"Shigar da PIN don kallon wannan shirin"</string>
+<string name="pin_enter_pin">"Shigar da PIN"</string>
+<string name="pin_enter_new_pin">"Saita sabon PIN"</string>
+<string name="pin_enter_again">"Sake shigar da sabon PIN"</string>
+<string name="pin_enter_old_pin">"Shigar da tsohon PIN"</string>
+<string name="pin_enter_wrong_seconds">"Ka shigar da PIN din da ba shi ba ne sau 5. \nSake gwadawa a cikin <xliff:g id="relative_time_span" example="60">%1$d</xliff:g> dakikoki."</string>
+<string name="pin_toast_wrong">"PIN ba daidai ba, sake kuma"</string>
+<string name="pin_toast_not_match">"Sake kuma, PIN bai dace ba"</string>
+<string name="wifi_setup_input_password">"Shigar da kalmar-shiga ta<xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="wifi_setup_connection_success">"An yi nasarar hadawa"</string>
+<string name="wifi_setup_save_success">"An yi nasarar ajiyewa!"</string>
+<string name="device_apps_app_management_version">"zubi <xliff:g id="app_version">%1$s</xliff:g>"</string>
+<string name="device_apps_app_management_open">Bude</string>
+<string name="device_apps_app_management_force_stop">"Tilasta tsaya"</string>
+<string name="device_apps_app_management_force_stop_desc">"Yanzu yanzu za a kashe a kunna wannan shirin. Ka tabbata kana son ka dakatar?"</string>
+<string name="device_apps_app_management_uninstall">"A cire"</string>
+<string name="device_apps_app_management_uninstall_desc">"Kana so ka cire dasa wannan masarrafin?"</string>
+<string name="device_apps_app_management_uninstall_updates">"Cire abubuwan sabuntawa"</string>
+<string name="device_apps_app_management_uninstall_updates_desc">"Kana son ka girka dukka sabunta wa ga wannan shirin dabarar Android?"</string>
+<string name="device_apps_app_management_disable">"Dakatar"</string>
+<string name="device_apps_app_management_disable_desc">"Kana son ka kashe wannan manhajar?"</string>
+<string name="device_apps_app_management_enable">"Kunna"</string>
+<string name="device_apps_app_management_enable_desc">"Kana son bada damar wannan manhajar?"</string>
+<string name="device_apps_app_management_storage_used">"Ma\'adana da aka yi amfani"</string>
+<string name="device_apps_app_management_storage_used_desc">"<xliff:g id="size" example="30.2MB">%1$s</xliff:g> wanda aka yi amfani da shi a cikin <xliff:g id="volume" example="internal storage">%2$s</xliff:g>"</string>
+<string name="device_apps_app_management_clear_data">"Share bayanai"</string>
+<string name="device_apps_app_management_clear_data_desc">"Za a goge duk bayanan wannan manhajar gaba daya. \nWannan ya hada da duk fayiloli, saituka, asusai, rumbunan bayanai, dss."</string>
+<string name="device_apps_app_management_clear_default">"Share dauwamarwa"</string>
+<string name="device_apps_app_management_clear_default_set">"saita ka kaddamar da wannan manhajar don wasu ayyuka"</string>
+<string name="device_apps_app_management_clear_default_none">"Babu saitin wasu dauwamara"</string>
+<string name="device_apps_app_management_clear_cache">"Goge caches"</string>
+<string name="device_apps_app_management_notifications">"Ankararwa"</string>
+<string name="device_apps_app_management_permissions">"Bayar da izini "</string>
+<string name="settings_ok">"YA YI"</string>
+<string name="settings_cancel">"Soke"</string>
+<string name="settings_on">"A kunne"</string>
+<string name="settings_off">"A KASHE"</string>
+<string name="device_daydreams_none">"A kashe allo"</string>
+<string name="device_daydreams_select">"Adana allo"</string>
+<string name="device_daydreams_test">"Kunna yanzu"</string>
+<string name="device_daydreams_sleep">"Yaushe za a fara"</string>
+<string name="device_daydreams_sleep_description">"Adana allo zai fara bayan wannan lokacin da ba a yi aiki ba.idan ba a zabi wani adana allon ba allon zai mutu"</string>
+<string name="device_daydreams_sleep_summary">"Bayan  <xliff:g id="sleep_description" example="3 minutes">%1$s</xliff:g> na rashin aiki"</string>
+<string name="device_daydreams_screen_off">"A sa nau\'ra bacci"</string>
+<string name="device_daydreams_screen_off_description">"Allon na\'ura zai kashe kansa bayan wannan lokaci na rashin aiki."</string>
+<string name="backup_configure_account_default_summary">"Babu wani asusu da a halin yanzu yake adana bayanan tallafin-baya"</string>
+<string name="backup_erase_dialog_message">"A dakatar da yin tallafin baya ga kalmomin-shigar ka na Wi-fi, ajiyayyun bayanai, sauran saituka, da bayanan manhaja, sannan ka share duk kwafin da ke kan sabobin Google?"</string>
+<string name="privacy_backup_data">"Goyon baya bayani na"</string>
+<string name="privacy_backup_account">"Asusun tallafin-baya"</string>
+<string name="privacy_automatic_restore">"Mai da wa a kashin kanta"</string>
+<string name="factory_reset_device">"sake saita na\'ura"</string>
+<string name="factory_reset_description">"Wannan za share duk bayanai daga ma\'adanar ciki ta na\'urarka, da suka hada da: asusunka na Goodle, saitukan bayanan na\'ura da manhaja, da kuma manhajojin da aka sauke"</string>
+<string name="confirm_factory_reset_description">"A goge dukkan bayanan da suka shafe ka da duk wani shiri da aka sauke? Ba zai yiwu a sake canja wannan aiki ba!"</string>
+<string name="confirm_factory_reset_device">"Goge komai"</string>
+<string name="select_device_name_title">"Zaba wa abin ka suna <xliff:g id="devicemodel" example="Nexus Player">%1$s</xliff:g>"</string>
+<string name="select_device_name_description">"Suna zai taimaka a gane  <xliff:g id="devicemodel" example="Nexus Player">%1$s</xliff:g> Yayin amfani da ita daga wasu na\'urorin, kamar wayarka, ko kwamfuta."</string>
+<string-array name="rooms">
+<item>"Dakin Zama"</item>
+<item>"Dakin Midiya"</item>
+<item>"Dakin Iyali"</item>
+<item>"Dakin Cin abinci"</item>
+<item>"Kebantaccen daki"</item>
+<item>"Dakin kwanciya"</item>
+<item>"Dakin girki"</item>
+</string-array>
+<string name="custom_room">"Shigar da sunan al\'ada&amp;#8230;"</string>
+<string name="device_rename_title">"A cire wadannan <xliff:g id="devicemodel" example="Nexus Player">%1$s</xliff:g>"</string>
+<string name="device_rename_description">"Wannan <xliff:g id="devicemodel" example="Nexus Player">%1$s</xliff:g> an sa mata suna \"<xliff:g id="devicename" example="Living Room Player">%2$s</xliff:g>\""</string>
+<string name="change_setting">"Canza"</string>
+<string name="keep_settings">"Kar ka canza"</string>
+<string name="apps_permissions">"Bayar da izini "</string>
+<string name="device_apps_permissions">"Izinin manhaja"</string>
+<string name="app_permissions_group_summary">"<xliff:g id="count" example="10">%d</xliff:g> na <xliff:g id="count" example="10">%d</xliff:g> manhajoji da aka bada dama"</string>
+<string name="bluetooth_permission_request">"Nemi izinin Bluetooth"</string>
+<string name="security_patch">"Matsayin kara karfin tsaron Android"</string>
+<string name="choose_application">"A zabi manhaja"</string>
+<string name="experimental_preference">"(Na gwaji)"</string>
+<string name="reboot_safemode_action">Sake kunnawa zuwa amintaccen tsari</string>
+<string name="reboot_safemode_confirm">"Ana son a sake kunnawa zuwa yanayin aminci?"</string>
+<string name="reboot_safemode_desc">"Wannan zai kashe dukkanin manhajojin wasu da ka sanya. The su dawo idan ka sake kunnawa."</string>
+</resources>

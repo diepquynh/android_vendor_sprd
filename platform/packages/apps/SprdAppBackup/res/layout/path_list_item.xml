@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" 
+	android:paddingLeft="6.0dip" 
+	android:paddingTop="5.0dip" 
+	android:paddingRight="6.0dip" 
+	android:paddingBottom="5.0dip" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"> -->
+	
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    		android:orientation="horizontal" 
+				android:paddingLeft="6.0dip" 
+				android:paddingTop="5.0dip" 
+				android:paddingRight="6.0dip" 
+				android:paddingBottom="5.0dip"
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content">
+		
+
+        <!-- SPRD: for Bug283597,Optimization, this CheckedTextView is useless, remove it. -->
+        <!-- CheckedTextView android:id="@+id/check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:layout_alignParentLeft="true"/-->
+
+        <ImageView android:id="@+id/icon" 
+                android:layout_width="48.0dip" 
+                android:layout_height="48.0dip" 
+                android:scaleType="centerInside"
+                android:layout_alignParentLeft="true"/>
+                <!-- android:layout_toRightOf="@id/check"-->
+       	
+        <TextView android:id="@+id/file_name" 
+                android:textSize="18.0sp" 
+                android:textColor="@android:color/black" 
+                android:paddingLeft="5.0dip" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:shadowColor="@android:color/white" 
+                android:maxLines="3" 
+                android:shadowDx="0.5" 
+                android:shadowDy="0.5" 
+                android:shadowRadius="0.5" 
+                android:layout_toRightOf="@id/icon"/>
+        <!-- SPRD: for Bug283597,Optimization, this TextView is useless, remove it. -->
+        <!-- TextView android:id="@+id/sub_file_num" 
+                android:textSize="14.0sp" 
+                android:textColor="#ffcccccc" 
+                android:paddingLeft="5.0dip" 
+                android:paddingTop="5.0dip" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:shadowColor="@android:color/black" 
+                android:shadowDx="0.5" 
+                android:shadowDy="0.5" 
+                android:shadowRadius="0.5" 
+                android:layout_toRightOf="@id/icon" 
+                android:layout_below="@id/file_name"/-->
+        	
+        <TextView android:id="@+id/file_date" 
+                android:textSize="14.0sp" 
+                android:textColor="#ffcccccc" 
+                android:paddingTop="5.0dip" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:shadowColor="@android:color/black" 
+                android:shadowDx="0.5" 
+                android:shadowDy="0.5" 
+                android:shadowRadius="0.5" 
+                android:layout_below="@id/file_name" 
+                android:layout_alignParentRight="true"/>
+        	
+    </RelativeLayout>
+<!-- </LinearLayout> -->

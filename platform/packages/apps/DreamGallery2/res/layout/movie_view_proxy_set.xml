@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Spreadst-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+       android:key="ApnSetting"
+       android:title="@string/movie_view_network"
+       android:persistent="false" >
+    <Preference
+            android:key="ApnEntrySet"
+            android:title="@string/movie_view_apn_set"
+            android:persistent="false" />
+     </PreferenceCategory>
+    <PreferenceCategory
+            android:key="ProxySet"
+            android:title="@string/movie_view_proxy_set"
+            android:persistent="false" >
+        <CheckBoxPreference
+            android:key="ProxyEnable"
+            android:title="@string/movie_view_proxy_enable"/>
+       <EditTextPreference
+        android:title="@string/movie_view_proxy_ip_set"
+        android:dialogTitle="@string/movie_view_proxy_ip_set"
+        android:key="proxy_ip_set"
+        android:singleLine="true"
+        android:inputType="textUri"
+        />
+    <EditTextPreference
+        android:title="@string/movie_view_proxy_port_set"
+        android:dialogTitle="@string/movie_view_proxy_port_set"
+        android:key="proxy_port_set"
+        android:singleLine="true"
+        android:inputType="number"
+        />
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:key="Rtp_rtcpSet"
+            android:title="@string/movie_view_rtp_rtcp_port_set"
+            android:persistent="false" >
+
+    <EditTextPreference
+        android:title="@string/movie_view_max_port_set"
+        android:dialogTitle="@string/movie_view_max_port_set"
+        android:key="max_port_set"
+        android:singleLine="true"
+        android:inputType="number"
+        />
+     <EditTextPreference
+        android:title="@string/movie_view_min_port_set"
+        android:dialogTitle="@string/movie_view_min_port_set"
+        android:key="min_port_set"
+        android:singleLine="true"
+        android:inputType="number"
+        />
+  </PreferenceCategory>
+</PreferenceScreen>

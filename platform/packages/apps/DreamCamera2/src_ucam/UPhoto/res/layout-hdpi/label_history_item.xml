@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010,2013 Thundersoft Corporation
+    All rights Reserved
+    -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.android.camera2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <RelativeLayout android:id="@+id/edit_label_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.ucamera.uphoto.BalloonView
+            android:id="@+id/edit_balloon_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:balloonHeight="@dimen/history_balloon_heigh"
+            custom:balloonWidth="@dimen/history_balloon_width"
+            custom:viewHeight="48dip"
+            custom:viewWidth="120dip"
+            custom:balloonSize="12dip"
+            android:visibility="gone"/>
+        <com.ucamera.uphoto.LabelView
+            android:id="@+id/edit_label_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+   <ImageView
+        android:id="@+id/edit_delete_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/edit_label_layout"
+        android:layout_alignRight="@id/edit_label_layout"
+        android:background="@drawable/edit_common_title_delete"/>
+</RelativeLayout>

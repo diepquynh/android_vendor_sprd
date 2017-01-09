@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <TextView
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/uplmn_index" />
+
+    <EditText
+        android:id="@+id/index_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:maxLength="2"
+        android:numeric="integer"
+        android:phoneNumber="true"
+        android:singleLine="true" />
+
+    <TextView
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/uplmn_id" />
+
+    <EditText
+        android:id="@+id/id_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="6"
+        android:numeric="integer"
+        android:phoneNumber="true"
+        android:singleLine="true" />
+
+    <TextView
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/uplmn_type" />
+
+    <EditText
+        android:id="@+id/type_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="1"
+        android:numeric="integer"
+        android:phoneNumber="true"
+        android:singleLine="true" />
+
+</LinearLayout>

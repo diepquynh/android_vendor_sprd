@@ -1,0 +1,49 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Behavior Info Record" >
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="key_screen_info_record"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="Screen on/off Record" />
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="key_wifi_info_record"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="Wifi on/off record" />
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="key_data_info_record"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="Data on/off record" />
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="key_bt_info_record"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="Bt on/off record" />
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="key_gps_info_record"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="Gps on/off record" />
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="key_call_info_record"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="Call record" />
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="key_server_freq_record"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="Server freq changes record" />
+    <Preference
+        android:key="query_time"
+        android:title="Query Time Set">
+    </Preference>
+</PreferenceScreen>

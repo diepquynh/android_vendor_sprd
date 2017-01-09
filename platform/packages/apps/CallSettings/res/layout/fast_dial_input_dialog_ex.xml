@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dip"
+    android:paddingRight="15dip"
+    android:orientation="horizontal">
+
+    <!-- SPRD: modify for bug604335 -->
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="0dip"
+        android:layout_height="48dip"
+        android:layout_weight="0.8"
+        android:layout_marginTop="16dip"
+        android:maxLength="1024"
+        android:inputType="phone" />
+
+    <ImageButton android:id="@+id/contacts"
+        android:layout_width="0dip"
+        android:layout_height="48dip"
+        android:layout_weight="0.2"
+        android:layout_marginTop="8dip"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_see_contacts_holo_dark"
+        android:contentDescription="@string/selectContact" />
+</LinearLayout>

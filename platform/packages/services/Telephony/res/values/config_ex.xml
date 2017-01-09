@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SPRD Add For Bug 476003: CUCC manual search PLMN case disable FPLMN -->
+    <string name="feature_addon_for_teleService">plugin.sprd.teleservicesupportoperator.TeleServiceSupportOperator</string>
+    <!-- SPRD Add For Bug 477160: CMCC case: refers to COLP support -->
+    <string name="feature_show_calling_number">plugin.sprd.showcallingnumber.ShowCallingNumberPlugin</string>
+    <string name="feature_support_simlock">"plugin.sprd.simlock.SimLockManagerPlugin"</string>
+    <!-- SPRD: add USSD dialog for bug 490252 & 490253 -->
+    <string name="telephony_orange_plugin" translatable="false">plugin.sprd.telephonyOrangePlugin.TelephonyOrangePlugin</string>
+    <string name="feature_telcel_dtmftone_support_plugin">plugin.sprd.dtmftoneSupport.DTMFToneSupportPlugin</string>
+</resources>

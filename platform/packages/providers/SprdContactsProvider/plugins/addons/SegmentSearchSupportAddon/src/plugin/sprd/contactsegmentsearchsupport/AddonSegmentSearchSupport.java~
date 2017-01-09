@@ -1,0 +1,35 @@
+package plugin.sprd.contactsegmentsearchsupport;
+
+import android.app.AddonManager;
+import android.content.Context;
+import com.android.providers.contacts.DataRowHandler;
+import com.android.providers.contacts.SearchIndexManager.IndexBuilder;
+import com.sprd.providers.plugin.SegmentSearchSupport;
+import android.util.Log;
+
+public class AddonSegmentSearchSupport extends SegmentSearchSupport implements AddonManager.InitialCallback {
+
+    private static final String TAG = "SegmentSearchSupportAddon";
+    private Context mAddonContext;
+    public static final int MAX_SEARCH_SNIPPET_SIZE = 50;
+
+    @Override
+    public Class onCreateAddon(Context context, Class clazz) {
+        mAddonContext = context;
+        return clazz;
+    }
+
+    @Override
+    public void appendTokenForSegmentSearch(String normalizedNumber, IndexBuilder builder) {
+        Log.d("ben.song", "appendTokenForSegmentSearch normalizedNumber: " + normalizedNumber);
+        int N = normalizedNumber.length();
+        for (int i = 1; i < N; ++i) {
+            builder.appendToken(normalizedNumber.substring(i,
+                    Math.min(i + MAX_SEARCH_SNIPPET_SIZE, N)));
+        }
+    }
+    @Override
+    public void appendSnipSearch( StringBuilder sb) {
+        sb.append("%");
+    }
+}

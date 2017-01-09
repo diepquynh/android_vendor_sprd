@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*" >
+
+    <TableRow
+        android:id="@+id/droptimes_tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/droptimes_label00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/droptimes_2g"
+                android:layout_gravity="left|center_vertical"
+            />
+            <TextView
+                android:id="@+id/droptimes_label01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+            />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/droptimes_tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/droptimes_label10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/droptimes_3g"
+                android:layout_gravity="left|center_vertical"
+            />
+            <TextView
+                android:id="@+id/droptimes_label11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+            />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/droptimes_tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/droptimes_label20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/droptimes_lte"
+                android:layout_gravity="left|center_vertical"
+            />
+            <TextView
+                android:id="@+id/droptimes_label21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+            />
+    </TableRow>
+
+</TableLayout>

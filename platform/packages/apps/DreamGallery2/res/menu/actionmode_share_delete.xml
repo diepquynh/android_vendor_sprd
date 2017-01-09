@@ -1,0 +1,29 @@
+<!-- Created By Spreadst -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.drawerlayout.MainActivity" >
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/share"
+        android:orderInCategory="100"
+        android:title="@string/share_actionmode"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/new_actionmode_del"
+        android:orderInCategory="100"
+        android:title="@string/delete_actionmode"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/select_all"
+        android:title="@string/select_all"
+        android:orderInCategory="100"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/protection_information"
+        android:title="@string/protected_info"
+        android:orderInCategory="100"
+        android:showAsAction="never"/>
+</menu>

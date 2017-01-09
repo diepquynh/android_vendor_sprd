@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="settings_app_name">"Configuraciones"</string>
+<string name="launcher_settings_app_name">"Configuraciones"</string>
+<string name="launcher_network_app_name">"Red"</string>
+<string name="launcher_restricted_profile_app_name">"Perfil restringido"</string>
+<string name="header_category_device">"dispositivo"</string>
+<string name="header_category_preferences">"Preferencias"</string>
+<string name="header_category_accessories">"Control remoto &amp;amp accesorios"</string>
+<string name="header_category_personal">"Personal"</string>
+<string name="accounts_category_title">"Cuentas"</string>
+<string name="add_account">"Añadir cuenta"</string>
+<string name="account_header_remove_account">"Remover cuenta"</string>
+<string name="account_sync">"Elegir aplicaciones sincronizadas"</string>
+<string name="sync_now">"Sincronizar ahora"</string>
+<string name="sync_in_progress">"Sincronizando\u2026"</string>
+<string name="last_synced">"Última sincronización <xliff:g id="time">%1s</xliff:g>"</string>
+<string name="sync_disabled">Deshabilitado"</string>
+<string name="account_remove">"Remover cuenta"</string>
+<string name="account_remove_failed">"No se pudo eliminar la cuenta."</string>
+<string name="sync_failed">"Error de sincronización"</string>
+<string name="sync_active">"Sincronización activada"</string>
+<string name="connectivity_network">"Red"</string>
+<string name="connectivity_wifi">"Wi-Fi"</string>
+<string name="connectivity_ethernet">"Ethernet"</string>
+<string name="wifi_setting_always_scan">"Búsqueda siempre disponible"</string>
+<string name="wifi_setting_always_scan_context">"Permita que el servicio de ubicación de Google y otras aplicaciones busquen redes aunque la conexión Wi-Fi esté desactivada."</string>
+<string name="wifi_setting_enable_wifi">"Wi-Fi"</string>
+<string name="device_daydream">"Salvapantallas"</string>
+<string name="device_display">"Pantalla"</string>
+<string name="device_sound">"Sonido"</string>
+<string name="device_surround_sound">"Sonido envolvente"</string>
+<string name="device_sound_effects">"Sonidos del sistema"</string>
+<string name="device_apps">"Aplicaciones"</string>
+<string name="device_storage_reset">"Almacenamiento &amp; restablecimiento"</string>
+<string name="device_backup_restore">"Copia de seguridad &amp; restablecer"</string>
+<string name="device_reset">"Restablecer datos de fábrica"</string>
+<string name="device_calibration">"Calibración"</string>
+<string name="device_storage_clear_cache_title">"¿Desea borrar los datos almacenados en caché?"</string>
+<string name="device_storage_clear_cache_message">"Esto borrará los datos en caché de las aplicaciones."</string>
+<string name="apps_downloaded">"Aplicaciones descargadas"</string>
+<string name="apps_system">"Aplicaciones del sistema"</string>
+<string name="apps_running">"Aplicaciones en ejecución"</string>
+<string name="accessories_add">"Agregar accesorio"</string>
+<string name="accessory_state_pairing">"Vinculando&amp;#8230;"</string>
+<string name="accessory_state_connecting">"Conectando&amp;#8230;"</string>
+<string name="accessory_state_error">"No se pudo sincronizar."</string>
+<string name="accessory_state_canceled">"Cancelado"</string>
+<string name="accessory_state_paired">"Sincronizado"</string>
+<string name="accessory_options">"Accesorio"</string>
+<string name="accessory_unpair">"Desvincular"</string>
+<string name="accessory_battery">"Batería <xliff:g id="percentage">%1$d</xliff:g>%%"</string>
+<string name="accessory_unpairing">"Desincronizando dispositivo&amp;#8230;"</string>
+<string name="accessory_connected">"Conectado"</string>
+<string name="accessories_add_title">"Buscando accesorios&amp;#8230;"</string>
+<string name="accessories_add_bluetooth_inst">"Antes de sincronizar los dispositivos Bluetooth, asegúrese de que ellos estén en el modo de sincronización."</string>
+<string name="accessories_autopair_msg">"Se encontró un dispositivo que se sincronizará de forma automática en <xliff:g id="countdown">%1$s</xliff:g> segundos"</string>
+<string name="error_action_not_supported">"Esta acción no se admite."</string>
+<string name="bluetooth_pairing_request">"Solicitud de vinculación de Bluetooth"</string>
+<string name="bluetooth_confirm_passkey_msg">"Para sincronizar con: <b><xliff:g id="device_name">%1$s</xliff:g></b>, asegúrese de que se muestre esta clave de acceso: <b><xliff:g id="passkey">%2$s</xliff:g></b>"</string>
+<string name="bluetooth_incoming_pairing_msg">"Desde: <b><xliff:g id="device_name">%1$s</xliff:g></b><br>¿Sincronizar con este dispositivo?"</string>
+<string name="bluetooth_display_passkey_pin_msg">"Para sincronizar con: <b><xliff:g id="device_name">%1$s</xliff:g></b><br>Escriba: <b><xliff:g id="passkey">%2$s</xliff:g></b>, y luego presione Volver o Intro."</string>
+<string name="bluetooth_enter_pin_msg">"Para sincronizar con: <b><xliff:g id="device_name">%1$s</xliff:g></b>, <br>Escriba el PIN obligatorio del dispositivo:"</string>
+<string name="bluetooth_enter_passkey_msg">"Para sincronizar con: <b><xliff:g id="device_name">%1$s</xliff:g></b>, <br>Escriba la clave de acceso obligatoria del dispositivo:"</string>
+<string name="bluetooth_pin_values_hint">"Por lo general, 0000 ó 1234"</string>
+<string name="bluetooth_pair">"Vincular"</string>
+<string name="bluetooth_cancel">"Cancelar"</string>
+<string name="system_date_time">"Fecha y hora"</string>
+<string name="system_language">"Idioma"</string>
+<string name="system_keyboard">"Teclado"</string>
+<string name="system_home">"Pantalla principal"</string>
+<string name="system_search">"Buscar"</string>
+<string name="system_security">"Seguridad &amp; restricciones"</string>
+<string name="system_speech">"Voz"</string>
+<string name="system_inputs">"Entradas"</string>
+<string name="system_accessibility">"Accesibilidad"</string>
+<string name="system_developer_options">"Opciones del programador"</string>
+<string name="accessibility_none">"Ninguno"</string>
+<string name="system_diagnostic">"Utilice &amp; Diagnósticos"</string>
+<string name="about_system_update">"Actualización del sistema"</string>
+<string name="about_preference">"Acerca de"</string>
+<string name="device_name">"Nombre del dispositivo"</string>
+<string name="restart_button_label">"Reiniciar"</string>
+<string name="about_legal_info">"Información legal"</string>
+<string name="about_legal_license">"Abrir licencias fuente"</string>
+<string name="about_terms_of_service">"Avisos legales de Google"</string>
+<string name="about_license_activity_unavailable">"Los datos de licencia no están disponibles."</string>
+<string name="about_model">"Modelo"</string>
+<string name="about_version">"Versión"</string>
+<string name="about_serial">"Número de serie"</string>
+<string name="about_build">"Compilación"</string>
+<plurals name="show_dev_countdown"></plurals>
+<string name="about_ads">"Anuncios"</string>
+<string name="show_dev_on">"¡Ahora usted es un promotor!"</string>
+<string name="show_dev_already">"No es necesario, ya eres programador."</string>
+<string name="device_info_default">"Desconocido"</string>
+<string name="selinux_status">"Estado de SELinux"</string>
+<string name="selinux_status_disabled">Deshabilitado"</string>
+<string name="selinux_status_permissive">"Permisivo"</string>
+<string name="selinux_status_enforcing">"Obligatorio"</string>
+<string name="additional_system_update_settings_list_item_title">"Actualizaciones del sistema adicionales"</string>
+<string name="device_status">"Estado"</string>
+<string name="device_status_summary">"Red, números de serie y otra información"</string>
+<string name="manual">"Manual"</string>
+<string name="regulatory_information">"Información regulatoria"</string>
+<string name="device_feedback">"Envía comentarios del dispositivo"</string>
+<string name="fcc_equipment_id">"Identificación del equipo"</string>
+<string name="baseband_version">"Versión de banda base"</string>
+<string name="kernel_version">"Versión de núcleo"</string>
+<string name="status_unavailable">"No disponible"</string>
+<string name="device_status_title">"Estado"</string>
+<string name="battery_status_title">"Estado de batería"</string>
+<string name="battery_level_title">"Nivel de la batería"</string>
+<string name="sim_status_title">"Estado de SIM"</string>
+<string name="imei_information_title">"Información de IMEI"</string>
+<string name="status_bt_address">"Dirección de Bluetooth"</string>
+<string name="status_up_time">"Tiempo de actividad"</string>
+<string name="status_wimax_mac_address">"Dirección MAC de 4G"</string>
+<string name="legal_information">"Información legal"</string>
+<string name="copyright_title">"Derechos de autor"</string>
+<string name="license_title">"Licencia"</string>
+<string name="terms_title">"Términos y condiciones"</string>
+<string name="webview_license_title">"Licencia de WebView del sistema"</string>
+<string name="wallpaper_attributions">"Fondos de Pantalla"</string>
+<string name="wallpaper_attributions_values">"Proveedores de imágenes satelitales:\n©2014 CNES / Astrium, DigitalGlobe, Bluesky"</string>
+<string-array name="wifi_signal_strength">
+<item>"Baja calidad"</item>
+<item>"Aceptable"</item>
+<item>"Bueno"</item>
+<item>"Excelente"</item>
+</string-array>
+<string name="title_mac_address">"Dirección MAC"</string>
+<string name="title_signal_strength">"Potencia de la señal"</string>
+<string name="title_ip_address">"Dirección IP"</string>
+<string name="title_ssid">"Ingresar el nombre de la red Wi-Fi"</string>
+<string name="title_internet_connection">"Conexión a Internet"</string>
+<string name="connected">"Conectado"</string>
+<string name="not_connected">"Sin conexión"</string>
+<string name="wifi_setting_header_other_options">"OTRAS OPCIONES"</string>
+<string name="wifi_setting_see_all">"Ver todo"</string>
+<string name="wifi_setting_see_fewer">"Ver menos"</string>
+<string name="wifi_setting_available_networks">"REDES DISPONIBLES"</string>
+<string name="wifi_setting_other_options_wps">"Conectar a través de WPS"</string>
+<string name="wifi_setting_other_options_add_network">"Agregar red nueva"</string>
+<string name="security_type">"Tipo de seguridad"</string>
+<string name="wps_network">"Conectar a través de WPS"</string>
+<string name="other_network">"Otra red&amp;#8230;"</string>
+<string name="skip_network">"Omitir"</string>
+<string name="wifi_security_type_none">"Ninguno"</string>
+<string name="title_wifi_no_networks_available">"Analizando&amp;#8230;"</string>
+<string name="title_wifi_could_not_save">"No se pudo guardar la configuración de <xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="title_wifi_could_not_connect">"No se pudo conectar a <xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="title_wifi_could_not_connect_timeout">"No se pudo encontrar <xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="title_wifi_could_not_connect_authentication_failure">"Contraseña de Wi-Fi no válida"</string>
+<string name="title_wifi_could_not_connect_ap_reject">"La red Wi-Fi no aceptó la conexión"</string>
+<string name="title_wifi_advanced_options">"¿Configurar <xliff:g id="ssid">%1$s</xliff:g> Configuraciones Proxy e IP?"</string>
+<string name="title_wifi_proxy_settings">"Configuración de proxy"</string>
+<string name="title_wifi_proxy_hostname">"Nombre del servidor proxy."</string>
+<string name="title_wifi_proxy_port">"Puerto de proxy:"</string>
+<string name="title_wifi_proxy_bypass">"Saltar proxy para:"</string>
+<string name="title_wifi_ip_settings">"Configuración de IP"</string>
+<string name="title_wifi_ip_address">"Dirección IP:"</string>
+<string name="title_wifi_gateway">"Acceso:"</string>
+<string name="title_wifi_network_prefix_length">"Longitud de prefijo de red:"</string>
+<string name="title_wifi_proxy_settings_invalid">"Configuración de proxy no válida"</string>
+<string name="title_wifi_ip_settings_invalid">"Configuración de IP no válida"</string>
+<string name="title_wifi_known_network">"<xliff:g id="ssid">%1$s</xliff:g> es una red guardada"</string>
+<string name="wifi_action_try_again">"Inténtelo de nuevo"</string>
+<string name="wifi_action_view_available_networks">"Ver redes disponibles"</string>
+<string name="wifi_connecting">"Conectándose a <xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="wifi_saving">"Guardando configuración de <xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="wifi_connect">"Conectar"</string>
+<string name="wifi_forget_network">"Olvidar red"</string>
+<string name="wifi_forget_network_description">"Esto borrará los datos que se usan para conectarse a la red, incluida la contraseña guardada."</string>
+<string name="wifi_action_ok">"OK"</string>
+<string name="wifi_action_change_network">"Cambiar"</string>
+<string name="wifi_action_dont_change_network">"No cambiar"</string>
+<string name="wifi_action_advanced_yes">"OK"</string>
+<string name="wifi_action_advanced_no">"No (recomendado)"</string>
+<string name="wifi_action_proxy_none">"Ninguno"</string>
+<string name="wifi_action_proxy_manual">"Manual"</string>
+<string name="wifi_action_static">"Estático"</string>
+<string name="wifi_action_status_info">"Información de estado"</string>
+<string name="wifi_action_advanced_options_title">"Opciones avanzadas"</string>
+<string name="wifi_ip_settings_invalid_ip_address">"Ingrese una dirección IP válida."</string>
+<string name="wifi_ip_settings_invalid_gateway">"Ingrese una dirección de puerta de enlace válida."</string>
+<string name="wifi_ip_settings_invalid_dns">"Ingrese una dirección DNS válida."</string>
+<string name="wifi_ip_settings_invalid_network_prefix_length">"Ingrese una longitud de prefijo de red de 0 a 32."</string>
+<string name="wifi_ip_address_description">"Ingrese una dirección IP válida.\nEjemplo: <xliff:g>192.168.1.128</xliff:g>"</string>
+<string name="wifi_dns1_description">"Ingrese una dirección IP válida o déjela vacía.\nEjemplo: <xliff:g>8.8.8.8</xliff:g>"</string>
+<string name="wifi_dns2_description">"Ingrese una dirección IP válida o déjela vacía.\nEjemplo: <xliff:g>8.8.4.4</xliff:g>"</string>
+<string name="wifi_gateway_description">"Ingrese una dirección IP válida o déjela vacía.\nEjemplo: <xliff:g>192.168.1.1</xliff:g>"</string>
+<string name="wifi_network_prefix_length_description">"Introduzca una longitud de prefijo de red válido.\nEjemplo: <xliff:g>24</xliff:g>"</string>
+<string name="proxy_error_invalid_host">"El nombre de host no es válido."</string>
+<string name="proxy_error_invalid_exclusion_list">"Esta lista de exclusión no es válida. Ingrese una lista de dominios excluidos separados por comas."</string>
+<string name="proxy_error_empty_port">"El campo de puerto no puede estar vacío."</string>
+<string name="proxy_error_empty_host_set_port">"Si el campo de host está vacío, deje el campo de puerto en blanco."</string>
+<string name="proxy_error_invalid_port">"El puerto no es válido."</string>
+<string name="proxy_warning_limited_support">"El navegador usa el proxy HTTP, pero tal vez las demás aplicaciones no lo usen."</string>
+<string name="proxy_port_description">"Ingrese un puerto válido.\nEjemplo: <xliff:g>8080</xliff:g>"</string>
+<string name="proxy_exclusionlist_description">"Introduzca una lista separada por comas de dominios excluidos o deje en blanco.\nEjemplo: <xliff:g>example.com,mycomp.test.com,localhost</xliff:g>"</string>
+<string name="proxy_hostname_description">"Introduzca un nombre de host válido.\nEjemplo: <xliff:g>proxy.example.com</xliff:g>"</string>
+<string name="wifi_summary_title_connected">"Red conectada"</string>
+<string name="wifi_summary_title_not_connected">"Red no conectada"</string>
+<string name="wifi_summary_description_connected_to_wifi_network">"Ya se estableció conexión con <xliff:g id="ssid">%1$s</xliff:g>. ¿Desea conectarse a otra red?"</string>
+<string name="wifi_summary_unknown_network">"una red desconocida"</string>
+<string name="title_ok">"OK"</string>
+<string name="title_cancel">"Cancelar"</string>
+<string name="storage_title">"Almacenamiento"</string>
+<string name="storage_available">"Disponible"</string>
+<string name="storage_size">"Espacio total: <xliff:g id="total_space">%1$s</xliff:g>"</string>
+<string name="storage_calculating_size">"Calculando\u2026"</string>
+<string name="storage_apps_usage">"Aplicaciones"</string>
+<string name="storage_downloads_usage">"Descargas"</string>
+<string name="storage_dcim_usage">"Fotos &amp; vídeos"</string>
+<string name="storage_music_usage">"Audio"</string>
+<string name="storage_media_misc_usage">"Varios"</string>
+<string name="storage_media_cache_usage">"Datos almacenados en caché"</string>
+<string name="storage_eject">"Expulsar"</string>
+<string name="storage_format">"Borrar &amp; formatear"</string>
+<string name="storage_format_as_private">"Borrar &amp; formato como almacenamiento de dispositivos"</string>
+<string name="storage_format_as_public">"Borrar &amp; formato como almacenamiento extraíble"</string>
+<string name="storage_format_for_private">"Formatear como almacenamiento del dispositivo"</string>
+<string name="storage_not_connected">"Sin conexión"</string>
+<string name="storage_migrate">"Migrar datos a este almacenamiento"</string>
+<string name="storage_migrate_away">"Migrar datos a otro almacenamiento"</string>
+<string name="storage_no_apps">"No hay aplicaciones de respaldo"</string>
+<string name="storage_forget">"Olvidar de este dispositivo de almacenamiento"</string>
+<string name="storage_forget_wall_of_text">"Para utilizar las aplicaciones o los datos que contiene este medio, vuelva a insertarlo. De manera alternativa, si el medio no está disponible, puede elegir borrar este almacenamiento.\n\nSi decide hacerlo, se perderán todos los datos guardados en el medio de forma permanente.\n\nPodrá volver a instalar las aplicaciones luego, pero se perderán los datos almacenados en este medio."</string>
+<string name="storage_device_storage_section">"Almacenamiento del dispositivo"</string>
+<string name="storage_removable_storage_section">"Almacenamiento extraíble"</string>
+<string name="storage_reset_section">"Reiniciar"</string>
+<string name="storage_mount_success">"<xliff:g id="name" example="SD card">%1$s</xliff:g> está montado"</string>
+<string name="storage_mount_failure">"No se pudo activar <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_mount_adopted">"Almacenamiento USB reconectado"</string>
+<string name="storage_unmount_success">"<xliff:g id="name" example="SD card">%1$s</xliff:g> se expulsó de forma segura"</string>
+<string name="storage_unmount_failure">"No se pudo expulsar de forma segura <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_unmount_failure_cant_find">"No se pudo encontrar un medio para expulsar"</string>
+<string name="storage_format_success">"<xliff:g id="name" example="SD card">%1$s</xliff:g> se formateó"</string>
+<string name="storage_format_failure">"No se pudo formatear <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_format_as_private_title">"Formatear como almacenamiento del dispositivo"</string>
+<string name="storage_wizard_format_as_private_description">"Debe formatear la unidad USB para que funcione de manera segura. Al finalizar el proceso, la unidad sólo funcionará en este dispositivo. Si la formatea, se borrarán todos los datos almacenados en ella. Para evitar perderlos, puede crear una copia de seguridad."</string>
+<string name="storage_wizard_format_as_public_title">"Borrar &amp; formatear"</string>
+<string name="storage_wizard_format_as_public_description">"Después de formatear, puede utilizar esta unidad USB en otros dispositivos.Todos los datos se borrarán.Considere realizar una copia de seguridad primero moviendo las aplicaciones a otro almacenamiento de dispositivos."</string>
+<string name="storage_wizard_format_progress_title">"Formateando la unidad USB&amp;#8230;"</string>
+<string name="storage_wizard_format_progress_description">"Esta acción puede demorar un momento. No extraiga la unidad."</string>
+<string name="storage_wizard_migrate_choose_title">"Elija almacenamiento para migrar datos"</string>
+<string name="storage_wizard_migrate_confirm_title">"Transferir datos a <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_migrate_confirm_description">"Transfiera sus fotos, archivos y datos de las aplicaciones a <xliff:g id="name" example="SD card">%1$s</xliff:g>.  Esta acción puede demorar unos minutos. Algunas aplicaciones no funcionarán de forma correcta durante la transferencia."</string>
+<string name="storage_wizard_migrate_confirm_action_move_now">"Transferir ahora"</string>
+<string name="storage_wizard_migrate_confirm_action_move_later">"Transferir más tarde"</string>
+<string name="storage_wizard_migrate_toast_success">"Datos migrados a <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_migrate_toast_failure">"No se pudieron migrar los datos a <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_migrate_progress_title">"Transfiriendo los datos a <xliff:g id="name" example="SD card">%1$s</xliff:g>&amp;#8230;"</string>
+<string name="storage_wizard_migrate_progress_description">"Esta acción puede demorar un momento. No extraiga la unidad.\nAlgunas aplicaciones no funcionarán de forma correcta durante la transferencia."</string>
+<string name="storage_wizard_format_slow_title">"Esta unidad funciona con lentitud."</string>
+<string name="storage_wizard_format_slow_summary">"Puede continuar, pero es posible que las aplicaciones que mueva a esta ubicación se vuelvan inestables y la transferencia de datos demore más tiempo. Considere utilizar una unidad más rápida para mejorar el rendimiento."</string>
+<string name="storage_wizard_format_action">"Formato"</string>
+<string name="storage_wizard_backup_apps_action">"Crear una copia de seguridad para las aplicaciones"</string>
+<string name="storage_wizard_back_up_apps_title">"Las aplicaciones que se guardaron en <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_back_up_apps_and_data_title">"Las aplicaciones y los datos que se guardaron en <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_back_up_apps_space_available">"<xliff:g id="size" example="1.23GB">%1$s</xliff:g> disponible"</string>
+<string name="storage_wizard_eject_private_title">"Expulsar el almacenamiento del dispositivo"</string>
+<string name="storage_wizard_eject_private_description">"Las aplicaciones que se almacenaron en este dispositivo dejarán de funcionar cuando se expulsen. Esta unidad USB está formateada para funcionar sólo en este dispositivo y no funcionará en otros."</string>
+<string name="storage_wizard_eject_progress_title">"Expulsando <xliff:g id="name" example="SD Card">%1$s</xliff:g>&amp;#8230;"</string>
+<string name="storage_wizard_move_app_title">"Almacenamiento utilizado"</string>
+<string name="storage_wizard_move_app_progress_title">"Transfiriendo <xliff:g id="name" example="YouTube">%1$s</xliff:g>&amp;#8230;"</string>
+<string name="storage_wizard_move_app_progress_description">""No extraiga la unidad durante el proceso.\nLa <xliff:g id="appname" example="YouTube">%1$s</xliff:g> aplicación estará disponible en este dispositivo cuando se complete la transferencia."</string>
+<string name="storage_wizard_forget_confirm_title">"¿Olvidó el almacenamiento del dispositivo?"</string>
+<string name="storage_wizard_forget_confirm_description">"Al seleccionar la opción para borrar el medio, se perderán todos los datos almacenados en esa unidad de forma permanente. ¿Desea continuar?"</string>
+<string name="storage_wizard_forget_action">"Olvidar"</string>
+<string name="storage_new_title">"Unidad USB conectada"</string>
+<string name="storage_new_action_browse">"Explorar"</string>
+<string name="storage_new_action_adopt">"Configurar como almacenamiento de dispositivos"</string>
+<string name="storage_new_action_format_public">"Configurar como almacenamiento extraíble"</string>
+<string name="storage_new_action_eject">"Expulsar"</string>
+<string name="storage_missing_title">"<xliff:g id="name" example="SD Card">%1$s</xliff:g>eliminado"</string>
+<string name="storage_missing_description">"Algunas aplicaciones no estarán disponibles o no funcionarán correctamente hasta que vuelva a conectar la unidad."</string>
+<string name="insufficient_storage">"No hay suficiente espacio de almacenamiento."</string>
+<string name="does_not_exist">"La aplicación no existe."</string>
+<string name="app_forward_locked">"La aplicación está protegida contra copias."</string>
+<string name="invalid_location">"La ubicación de la instalación no es válida."</string>
+<string name="system_package">"Las actualizaciones del sistema no se pueden instalar en medios externos."</string>
+<string name="move_error_device_admin">"El Administrador de dispositivos no se puede instalar en medio externo."</string>
+<string name="learn_more_action">"Más información"</string>
+<string name="wifi_wps_retry_scan">"Volver a procesar"</string>
+<string name="wifi_wps_title">"Buscando router WPS\u2026"</string>
+<string name="wifi_wps_instructions">"Presione el botón Configuración Protegida Wi-Fi en el router.\nEs posible que se denomine \"WPS\" o que contenga el símbolo de la izquierda."</string>
+<string name="wifi_wps_onstart_pin">"Ingrese el PIN <xliff:g id="number">%1$s</xliff:g> en su router Wi-Fi"</string>
+<string name="wifi_wps_onstart_pin_description">"Luego de que ingrese el PIN, la configuración puede tardar hasta dos minutos en completarse."</string>
+<string name="wifi_wps_failed_generic">"No se pudo encontrar el router Wi-Fi."</string>
+<string name="wifi_wps_failed_wep">"No se admite la configuración de seguridad de router Wi-Fi (WEP)."</string>
+<string name="wifi_wps_failed_tkip">"No se admite la configuración de seguridad de router Wi-Fi (TKIP)."</string>
+<string name="wifi_wps_failed_overlap">"Hay otra sesión WPS en curso. Vuelva a intentarlo en unos minutos."</string>
+<string name="system_date">"Fecha"</string>
+<string name="system_time">"Hora"</string>
+<string name="system_set_date">"Configurar fecha"</string>
+<string name="system_set_time">"Configurar hora"</string>
+<string name="system_set_time_zone">"configurar zona horaria"</string>
+<string name="desc_set_time_zone">"<xliff:g id="offset" example="GMT-08:00">%1$s</xliff:g>, <xliff:g id="name" example="Pacific Standard Time">%2$s</xliff:g>"</string>
+<string name="system_set_time_format">"Utilizar formato de 24 horas"</string>
+<string name="desc_set_time_format">"<xliff:g id="state" example="Off">%1$s</xliff:g> (<xliff:g id="sample" example="3:14 PM">%2$s</xliff:g>)"</string>
+<string name="system_auto_date_time">"Fecha &amp; hora automáticas"</string>
+<string-array name="auto_date_time_entries">
+<item>"Utilizar hora proporcionada por la red"</item>
+<item>"Apagado"</item>
+</string-array>
+<string-array name="auto_date_time_ts_entries">
+<item>"Utilizar hora proporcionada por la red"</item>
+<item>"Usar el tiempo de transporte proporcionado"</item>
+<item>"Apagado"</item>
+</string-array>
+<string name="system_location">"Ubicación"</string>
+<string name="system_desc_location">"Permitir que las aplicaciones que solicitaron permiso usen la información de su ubicación"</string>
+<string name="system_network_location_confirm">"Consentimiento de ubicación"</string>
+<string name="location_mode_title">"Modo"</string>
+<string name="location_category_recent_location_requests">"Solicitudes de ubicaciones recientes"</string>
+<string name="location_no_recent_apps">"Ninguna aplicación solicitó la ubicación recientemente."</string>
+<string name="location_high_battery_use">"Uso de batería alto"</string>
+<string name="location_low_battery_use">"Uso de batería bajo"</string>
+<string name="location_mode_wifi_description">"Utilizar Wi‑Fi para calcular ubicación"</string>
+<string name="location_status">"Estado de ubicación"</string>
+<string name="location_services">"Servicios de ubicación"</string>
+<string name="on">"ENCENDIDO"</string>
+<string name="off">"Apagado"</string>
+<string name="google_location_services_title">"Servicios de ubicación de Google"</string>
+<string name="third_party_location_services_title">"Servicios de ubicación de terceros"</string>
+<string name="location_reporting">"Informes de Ubicación"</string>
+<string name="location_history">"Historial de Ubicaciones"</string>
+<string name="location_reporting_desc">"Google utiliza esta función en ciertos productos, como Google Now y Google Maps. Activar los Informes de Ubicación permite que cualquier producto de Google que utilice esta función pueda almacenar y hacer uso de los datos de ubicación más recientes del dispositivo asociado a la cuenta de Google."</string>
+<string name="location_history_desc">"Al activar el Historial de Ubicaciones para esta cuenta, Google podrá almacenar los datos de ubicación del dispositivo para que los utilicen las aplicaciones.\n\nPor ejemplo, Google Maps puede ofrecerle rutas y Google Now información sobre el tráfico en su viaje cotidiano.\n\nPuede desactivar el Historial de Ubicaciones en cualquier momento, pero esta acción no eliminará el historial. Para consultar y administrar el Historial de Ubicaciones, visite maps.google.com/locationhistory."</string>
+<string name="delete_location_history_title">"Eliminar Historial de Ubicaciones"</string>
+<string name="delete_location_history_desc">"Se borrará el Historial Ubicaciones que han sido almacenadas de este dispositivo para esta Cuenta Google; No se podrá deshacer la eliminación. Ciertas aplicaciones, como Google Now, no funcionarán."</string>
+<string name="system_services">"Servicios"</string>
+<string name="accessibility_service_settings">"Configuración del servicio"</string>
+<string name="accessibility_toggle_high_text_contrast_preference_title">"Texto de alto contraste"</string>
+<string name="accessibility_captions">"Subtítulos"</string>
+<string name="accessibility_captions_description">"Configuración del texto de subtítulos opcionales superpuestos en el video"</string>
+<string name="captions_display">"Pantalla"</string>
+<string name="captions_display_on">"ENCENDIDO"</string>
+<string name="captions_display_off">"Apagado"</string>
+<string name="display_options">"Mostrar opciones"</string>
+<string name="captions_configure">"Configurar"</string>
+<string name="captions_language">"Idioma"</string>
+<string name="captions_textsize">"Tamaño del texto"</string>
+<string name="captions_captionstyle">"Estilo de subtítulos"</string>
+<string name="captions_customoptions">"Opciones personalizadas"</string>
+<string name="captions_fontfamily">"Familia de fuentes"</string>
+<string name="captions_textcolor">"Color del texto"</string>
+<string name="captions_edgetype">"Tipo de borde"</string>
+<string name="captions_edgecolor">"Color del borde"</string>
+<string name="captions_backgroundshow">"Mostrar segundo plano"</string>
+<string name="captions_backgroundcolor">"Color de fondo"</string>
+<string name="captions_backgroundopacity">"Opacidad del fondo"</string>
+<string name="captioning_preview_text">"Así se verán los subtítulos."</string>
+<string name="captions_textopacity">"Opacidad del texto"</string>
+<string name="captions_windowshow">"Mostrar ventana"</string>
+<string name="captions_windowcolor">"Color de la ventana"</string>
+<string name="captions_windowopacity">"Opacidad de la ventana"</string>
+<string name="captions_style_0">"Blanco sobre negro"</string>
+<string name="captions_style_1">"Negro sobre blanco"</string>
+<string name="captions_style_2">"Amarillo sobre negro"</string>
+<string name="captions_style_3">"Amarillo sobre azul"</string>
+<string name="captions_style_custom">"Personalizado"</string>
+<string name="color_white">"Blanco"</string>
+<string name="color_black">"Negro"</string>
+<string name="color_red">"Rojo"</string>
+<string name="color_green">"Verde"</string>
+<string name="color_blue">"Azul"</string>
+<string name="color_cyan">"Cian"</string>
+<string name="color_yellow">"Amarillo"</string>
+<string name="color_magenta">"Magenta"</string>
+<string name="system_accessibility_status">"Habilitar"</string>
+<string name="system_accessibility_config">"Configuración"</string>
+<string name="system_accessibility_service_on_confirm_title">"¿Utilizar <xliff:g id="service" example="TalkBack">%1$s</xliff:g>?"</string>
+<string name="system_accessibility_service_on_confirm_desc">"<xliff:g id="service" example="TalkBack">%1$s</xliff:g>puede recopilar todo el texto que escriba, excepto las contraseñas. Ese texto puede incluir datos personales, como números de tarjetas de crédito."</string>
+<string name="system_accessibility_service_off_confirm_title">"¿Desea detener <xliff:g id="service" example="TalkBack">%1$s</xliff:g>?"</string>
+<string name="system_accessibility_service_off_confirm_desc">"Seleccionando Aceptar detendrá Aceptar <xliff:g id="service" example="TalkBack">%1$s</xliff:g>."</string>
+<string name="system_accessibility_tts_output">"Texto a voz"</string>
+<string name="system_accessibility_tts_engine_config">"Configuración del motor"</string>
+<string name="system_speak_passwords">"Decir contraseñas"</string>
+<string name="system_preferred_engine">"Motor preferido"</string>
+<string name="system_speech_rate">"Velocidad de voz"</string>
+<string name="system_play_sample">"Reproducir una muestra"</string>
+<string name="system_install_voice_data">"Instalar datos de voz"</string>
+<string name="system_general">"General"</string>
+<string name="system_debugging">"Depuración"</string>
+<string name="system_input">"Entrada"</string>
+<string name="system_drawing">"Dibujo"</string>
+<string name="system_monitoring">"Monitoreo"</string>
+<string name="system_apps">"Aplicaciones"</string>
+<string name="system_stay_awake">"Permanecer activo"</string>
+<string name="system_hdcp_checking">"Comprobación HDCP"</string>
+<string name="system_hdmi_optimization">"Optimización HDMI"</string>
+<string name="system_reboot_confirm">"¿Reiniciar ahora?"</string>
+<string name="system_desc_reboot_confirm">"Para actualizar esta configuración, debe reiniciar el dispositivo."</string>
+<string name="system_never_check">"Nunca comprobar"</string>
+<string name="system_check_for_drm_content_only">"Comprobar solamente contenido DRM"</string>
+<string name="system_always_check">"Comprobar siempre"</string>
+<string name="system_bt_hci_log">"Registro de HCI de Bluetooth"</string>
+<string name="system_email_address">"Dirección de correo electrónico"</string>
+<string name="system_usb_debugging">"Depuración por USB"</string>
+<string name="system_allow_mock_locations">"Permitir ubicaciones de prueba"</string>
+<string name="system_select_debug_app">"Seleccionar la aplicación para depurar"</string>
+<string name="system_wait_for_debugger">"Esperar al depurador"</string>
+<string name="system_verify_apps_over_usb">"Verificar aplicaciones por USB"</string>
+<string name="system_desc_verify_apps_over_usb">"Comprobar que las aplicaciones instaladas mediante ADB/ADT no ocasionen daños"</string>
+<string name="system_wifi_verbose_logging">"Registro detallado de Wi-Fi"</string>
+<string name="system_desc_wifi_verbose_logging">"Habilitar registro detallado de Wi-Fi"</string>
+<string name="system_show_touches">"Mostrar toques"</string>
+<string name="system_pointer_location">"Ubicación del puntero"</string>
+<string name="system_show_layout_bounds">"Mostrar límites de diseño"</string>
+<string name="system_show_gpu_view_updates">“Mostrar actualizaciones de vistas GPU”</string>
+<string name="system_show_hardware_layer">"Mostrar capa de hardware"</string>
+<string name="system_show_gpu_overdraw">"Mostrar superposición GPU"</string>
+<string name="system_show_surface_updates">"Ver actualizaciones de superficie"</string>
+<string name="system_window_animation_scale">"Ventana de escala de animación"</string>
+<string name="system_transition_animation_scale">"Transición de escala de animación"</string>
+<string name="system_animator_duration_scale">"Escala de duración de animador"</string>
+<string name="system_strict_mode_enabled">"Modo estricto habilitado"</string>
+<string name="system_show_cpu_usage">"Mostrar el uso de CPU"</string>
+<string name="system_profile_gpu_rendering">"Representación GPU del perfil"</string>
+<string name="system_enable_traces">"Habilitar seguimientos"</string>
+<string name="system_dont_keep_activities">"Eliminar actividades"</string>
+<string name="system_background_process_limit">"Límite de procesos en segundo plano"</string>
+<string name="system_show_all_anrs">"Errores de aplicaciones sin respuesta"</string>
+<string name="system_desc_stay_awake">"Inhabilitar suspensión"</string>
+<string name="system_desc_hdcp_checking">"Usar para contenido DRM solamente"</string>
+<string name="system_desc_hdmi_optimization">"Optimiza la pantalla para disfrutar de una máxima resolución o velocidad de fotogramas. Esto sólo afecta a pantallas Ultra HD. Si cambia esta opción, el dispositivo se reiniciará."</string>
+<string name="system_desc_bt_hci_log">"Habilitar registro de búsqueda de HCI de Bluetooth"</string>
+<string name="system_desc_usb_debugging">"Modo de depuración cuando se conecta el USB"</string>
+<string name="system_desc_wait_for_debugger">"Aplicación espera adjunto del depurador para ejecutar"</string>
+<string name="system_desc_show_layout_bounds">"Mostrar límites de recortes, márgenes, etc."</string>
+<string name="system_desc_show_gpu_view_updates">"Mostrar vistas de ventanas procesadas con GPU"</string>
+<string name="system_desc_show_hardware_layer">"Luz verde en capas de hardware al actualizarse"</string>
+<string name="system_desc_show_gpu_overdraw">"De mejor a peor: azul, verde, rojo claro, rojo"</string>
+<string name="system_desc_show_surface_updates">"Destello en superficie por actualización"</string>
+<string name="system_desc_strict_mode_enabled">"Mostrar pantalla con operaciones largas en función principal"</string>
+<string name="system_desc_show_cpu_usage">"Mostrar superposición en pantalla con uso actual de la CPU"</string>
+<string name="system_desc_profile_gpu_rendering">"Mide tiempo de reproducción en adb shell dumpsys gfxinfo."</string>
+<string name="action_on_title">"ENCENDIDO"</string>
+<string name="action_off_title">"Apagado"</string>
+<string name="action_on_description">"ENCENDIDO"</string>
+<string name="action_off_description">"Apagado"</string>
+<string name="agree">"de acuerdo"</string>
+<string name="disagree">"no estar de acuerdo"</string>
+<string name="security_unknown_sources_title">"Fuentes desconocidas"</string>
+<string name="security_unknown_sources_desc">"Permitir la instalación de aplicaciones provenientes de fuentes diferentes de Play Store"</string>
+<string name="security_unknown_sources_confirm_title">"Permitir fuentes desconocidas"</string>
+<string name="security_unknown_sources_confirm_desc">"Su dispositivo y los datos personales son más vulnerables a los ataques de aplicaciones de fuentes desconocidas. Usted acepta ser el único responsable de cualquier daño que se pueda producir en su dispositivo o de la pérdida de datos que pueda derivar del uso de estas aplicaciones."</string>
+<string name="security_verify_apps_title">"Verificar aplicaciones"</string>
+<string name="security_verify_apps_desc">"No permitir o advertir antes de instalar aplicaciones que puedan ocasionar daños"</string>
+<string name="system_hdcp_checking_never">"Nunca"</string>
+<string name="system_hdcp_checking_drm">"Para contenido DRM"</string>
+<string name="system_hdcp_checking_always">"Siempre"</string>
+<string name="system_hdmi_optimization_best_resolution">"Máxima resolución"</string>
+<string name="system_hdmi_optimization_best_framerate">"Máxima velocidad de fotogramas"</string>
+<string name="system_hw_overdraw_off">"Apagado"</string>
+<string name="system_hw_overdraw_areas">"Mostrar áreas superpuestas"</string>
+<string name="system_hw_overdraw_counter">"Mostrar contador de superposiciones"</string>
+<string name="no_application">"Ninguna"</string>
+<string name="enable_opengl_traces_none">"Ninguno"</string>
+<string-array name="animation_scale_entries">
+<item>"Animación desactivada"</item>
+<item>"Escala de animación ,5x"</item>
+<item>"Escala de animación 1x"</item>
+<item>"Escala de animación 1,5x"</item>
+<item>"Escala de animación 2x"</item>
+<item>"Escala de animación 5x"</item>
+<item>"Escala de animación 10x"</item>
+</string-array>
+<string name="track_frame_time_off">"Apagado"</string>
+<string name="track_frame_time_bars">"En pantalla como barras"</string>
+<string name="app_process_limit_standard">"Límite estándar"</string>
+<string name="app_process_limit_zero">"Sin procesos en segundo plano"</string>
+<string name="app_process_limit_one">"Máximo 1 proceso"</string>
+<string name="app_process_limit_two">"Máximo 2 procesos"</string>
+<string name="app_process_limit_three">"Máximo 3 procesos"</string>
+<string name="app_process_limit_four">"Máximo 4 procesos"</string>
+<string name="tts_rate_very_slow">"Muy lento"</string>
+<string name="tts_rate_slow">"Lento"</string>
+<string name="tts_rate_normal">"Normal"</string>
+<string name="tts_rate_fast">"Veloz"</string>
+<string name="tts_rate_very_fast">"Muy veloz"</string>
+<string name="title_current_keyboard">"Teclado actual"</string>
+<string name="title_configure">"Configurar"</string>
+<string name="desc_configure_keyboard">"Opciones del teclado"</string>
+<string name="computing_size">"Calculando\u2026"</string>
+<string name="title_select_wifi_network">"Seleccione su red Wi-Fi"</string>
+<string name="accessories_wifi_display_rename_device">"Renombrar"</string>
+<string name="accessories_wifi_display_enable">"Pantalla Wi-Fi"</string>
+<string name="accessories_wifi_display_pin_required">"Requerir PIN"</string>
+<string name="whichApplication">"Completar acción utilizando"</string>
+<string name="alwaysUseQuestion">"¿Usar siempre esta opción para esta acción?"</string>
+<string name="alwaysUseOption">"Usar siempre"</string>
+<string name="justOnceOption">"Sólo una vez"</string>
+<string name="noApplications">"No hay aplicaciones que puedan realizar esta acción."</string>
+<string name="noAppsGoBack">"Regresar"</string>
+<string name="inputs_inputs">"Entradas"</string>
+<string name="inputs_header_cec">"CEC (Control de Electrónica de Consumo)"</string>
+<string name="inputs_cec_settings">"Configuraciones de control de dispositivo"</string>
+<string name="inputs_blu_ray">"Blu-ray"</string>
+<string name="inputs_cable">"Cable"</string>
+<string name="inputs_game">"Consola de juegos"</string>
+<string name="inputs_aux">"Aux"</string>
+<string name="inputs_custom_name">"Nombre personalizado"</string>
+<string name="inputs_custom_name_description_fmt">"Introduzca un nombre para el <xliff:g id="input" example="HDMI">%1$s</xliff:g> entrada."</string>
+<string name="inputs_hide">"Oculto"</string>
+<string name="inputs_show">"Mostrar esta entrada"</string>
+<string name="input_header_names">"Nombre"</string>
+<string name="inputs_hdmi_control">"Control de HDMI"</string>
+<string name="inputs_hdmi_control_desc">"Permite al televisor controlar dispositivos HDMI."</string>
+<string name="inputs_device_auto_off">"Apagado automático dispositivo"</string>
+<string name="inputs_device_auto_off_desc">"Apagar dispositivos HDMI con el televisor"</string>
+<string name="inputs_tv_auto_on">"Encendido automático del televisor"</string>
+<string name="inputs_tv_auto_on_desc">"Encender el televisor con dispositivo HDMI"</string>
+<plurals name="inputs_header_connected_input"></plurals>
+<plurals name="inputs_header_standby_input"></plurals>
+<plurals name="inputs_header_disconnected_input"></plurals>
+<string name="user_add_profile_item_summary">"Restringir el acceso a las aplicaciones y a otro contenido de la cuenta"</string>
+<string name="user_new_profile_name">"Perfil restringido"</string>
+<string name="user_restrictions_controlled_by">"Controladas por <xliff:g id="app">%1$s</xliff:g>"</string>
+<string name="app_not_supported_in_limited">"Esta aplicación no se admite para perfiles restringidos."</string>
+<string name="app_sees_restricted_accounts">"Esta aplicación puede acceder a sus cuentas."</string>
+<string name="restriction_location_enable_title">"Ubicación"</string>
+<string name="restriction_location_enable_summary">"Permitir que las aplicaciones usen la información de su ubicación"</string>
+<string name="restricted_profile_switch_to">"Acceder a perfil restringido"</string>
+<string name="restricted_profile_switch_out">"Salir de perfil restringido"</string>
+<string name="restricted_profile_delete_title">"Eliminar perfil restringido"</string>
+<string name="restricted_profile_create_title">"Crear perfil restringido"</string>
+<string name="restricted_profile_configure_title">"Configuraciones"</string>
+<string name="restricted_profile_configure_apps_title">"Aplicaciones permitidas"</string>
+<plurals name="restricted_profile_configure_apps_description"></plurals>
+<string name="restricted_profile_allowed">"Permitido"</string>
+<string name="restricted_profile_not_allowed">"No permitido"</string>
+<string name="restricted_profile_customize_restrictions">"Personalizar restricciones"</string>
+<string name="restricted_profile_configure_apps_description_loading">"Un momento\u2026"</string>
+<string name="restricted_profile_change_password_title">"Cambiar PIN"</string>
+<string name="app_sees_restricted_accounts_and_controlled_by">"Esta aplicación puede acceder a sus cuentas. Controladas por <xliff:g id="app">%1$s</xliff:g>"</string>
+<string name="pin_enter_unlock_channel">"Ingrese el PIN para ver este canal"</string>
+<string name="pin_enter_unlock_program">"Ingrese el PIN para ver este programa"</string>
+<string name="pin_enter_pin">"Ingresar PIN"</string>
+<string name="pin_enter_new_pin">"Configurar PIN nuevo"</string>
+<string name="pin_enter_again">"Vuelva a ingresar el PIN nuevo"</string>
+<string name="pin_enter_old_pin">"Ingresar PIN anterior"</string>
+<string name="pin_enter_wrong_seconds">"Ingresó un PIN incorrecto 5 veces.\nVuelva a intentarlo en <xliff:g id="relative_time_span" example="60">%1$d</xliff:g> segundos."</string>
+<string name="pin_toast_wrong">"El PIN es incorrecto. Vuelva a intentarlo."</string>
+<string name="pin_toast_not_match">"Vuelve a intentarlo, el PIN no coincide."</string>
+<string name="wifi_setup_input_password">"Ingresar la contraseña de <xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="wifi_setup_connection_success">"Conectado correctamente"</string>
+<string name="wifi_setup_save_success">"Guardado exitosamente"</string>
+<string name="device_apps_app_management_version">"versión <xliff:g id="app_version">%1$s</xliff:g>"</string>
+<string name="device_apps_app_management_open">"Abrir"</string>
+<string name="device_apps_app_management_force_stop">"Forzar la detención"</string>
+<string name="device_apps_app_management_force_stop_desc">"Si fuerza la detención de una aplicación, es posible que funcione incorrectamente."</string>
+<string name="device_apps_app_management_uninstall">"Desinstalar"</string>
+<string name="device_apps_app_management_uninstall_desc">"¿Desea desinstalar esta aplicación?"</string>
+<string name="device_apps_app_management_uninstall_updates">"Desinstalar las actualizaciones"</string>
+<string name="device_apps_app_management_uninstall_updates_desc">"Se desinstalarán todas las actualizaciones de esta aplicación del sistema Android."</string>
+<string name="device_apps_app_management_disable">"Inhabilitar"</string>
+<string name="device_apps_app_management_disable_desc">"¿Desea inhabilitar esta aplicación?"</string>
+<string name="device_apps_app_management_enable">"Habilitar"</string>
+<string name="device_apps_app_management_enable_desc">"¿Desea habilitar esta aplicación?"</string>
+<string name="device_apps_app_management_storage_used">"Almacenamiento utilizado"</string>
+<string name="device_apps_app_management_storage_used_desc">"<xliff:g id="size" example="30.2MB">%1$s</xliff:g> usado en <xliff:g id="volume" example="internal storage">%2$s</xliff:g>"</string>
+<string name="device_apps_app_management_clear_data">"Eliminar datos"</string>
+<string name="device_apps_app_management_clear_data_desc">"Se borrarán todos los datos de esta aplicación de forma permanente.\nLos datos incluyen todos los archivos y todas las opciones de configuración, las cuentas, las bases de datos, etc."</string>
+<string name="device_apps_app_management_clear_default">"Eliminar configuraciones predeterminadas"</string>
+<string name="device_apps_app_management_clear_default_set">"Configurar para abrir según acciones"</string>
+<string name="device_apps_app_management_clear_default_none">"No hay configuraciones predeterminadas establecidas."</string>
+<string name="device_apps_app_management_clear_cache">"Eliminar memoria caché"</string>
+<string name="device_apps_app_management_notifications">"Notificaciones"</string>
+<string name="device_apps_app_management_permissions">"Permisos"</string>
+<string name="settings_ok">"OK"</string>
+<string name="settings_cancel">"Cancelar"</string>
+<string name="settings_on">"ENCENDIDO"</string>
+<string name="settings_off">"Apagado"</string>
+<string name="device_daydreams_none">"Apagar la pantalla"</string>
+<string name="device_daydreams_select">"Salvapantallas"</string>
+<string name="device_daydreams_test">"Comenzar ahora"</string>
+<string name="device_daydreams_sleep">"Cuándo empezar"</string>
+<string name="device_daydreams_sleep_description">"El protector de pantalla comienza después de este período de inactividad. Si no se selecciona el protector de pantalla, la pantalla se apaga."</string>
+<string name="device_daydreams_sleep_summary">"Después de <xliff:g id="sleep_description" example="3 minutes">%1$s</xliff:g> de inactividad"</string>
+<string name="device_daydreams_screen_off">"Poner el dispositivo en reposo"</string>
+<string name="device_daydreams_screen_off_description">"La pantalla se apaga después de este período de inactividad."</string>
+<string name="backup_configure_account_default_summary">"Ninguna cuenta está almacenando actualmente datos con copia de seguridad."</string>
+<string name="backup_erase_dialog_message">"¿Desea dejar de guardar copias de seguridad de sus contraseñas de Wi-Fi, marcadores, configuraciones y datos de aplicaciones, y eliminar todas las copias de los servidores de Google?"</string>
+<string name="privacy_backup_data">"Respaldar mi información"</string>
+<string name="privacy_backup_account">"Cuenta de copia de seguridad"</string>
+<string name="privacy_automatic_restore">"Restaurar automáticamente"</string>
+<string name="factory_reset_device">"Restablecer dispositivo"</string>
+<string name="factory_reset_description">"Se borrarán todos los datos del almacenamiento interno de su dispositivo, incluidos los datos y parámetros de configuración de sus aplicaciones y del sistema, las aplicaciones que descargó y su cuenta de Google."</string>
+<string name="confirm_factory_reset_description">"¿Desea borrar su información personal y las aplicaciones que descargó? Esta acción no se puede deshacer."</string>
+<string name="confirm_factory_reset_device">"Eliminar todo"</string>
+<string name="select_device_name_title">"Elija un nombre para su <xliff:g id="devicemodel" example="Nexus Player">%1$s</xliff:g>"</string>
+<string name="select_device_name_description">"Un nombre le ayudará a identificar su <xliff:g id="devicemodel" example="Nexus Player">%1$s</xliff:g> al acceder a él desde otros dispositivos como su teléfono, tablet u ordenador."</string>
+<string-array name="rooms">
+<item>"Sala de estar"</item>
+<item>"Sala multimedia"</item>
+<item>"Sala familiar"</item>
+<item>"Comedor"</item>
+<item>"Estudio"</item>
+<item>"Dormitorio"</item>
+<item>"Cocina"</item>
+</string-array>
+<string name="custom_room">"Ingresar nombre personalizado&amp;#8230;"</string>
+<string name="device_rename_title">"Renombrar este <xliff:g id="devicemodel" example="Nexus Player">%1$s</xliff:g>"</string>
+<string name="device_rename_description">"Este <xliff:g id="devicemodel" example="Nexus Player">%1$s</xliff:g> está actualmente nombrado \"<xliff:g id="devicename" example="Living Room Player">%2$s</xliff:g>\""</string>
+<string name="change_setting">"Cambiar"</string>
+<string name="keep_settings">"No cambiar"</string>
+<string name="apps_permissions">"Permisos"</string>
+<string name="device_apps_permissions">"Permisos de aplicaciones"</string>
+<string name="app_permissions_group_summary">"<xliff:g id="count" example="10">%d</xliff:g> de <xliff:g id="count" example="10">%d</xliff:g> aplicaciones permitidas"</string>
+<string name="bluetooth_permission_request">"Solicitud de permiso de Bluetooth"</string>
+<string name="security_patch">"Nivel de parche de seguridad de Android"</string>
+<string name="choose_application">"Elegir aplicación"</string>
+<string name="experimental_preference">"(Experimental)"</string>
+<string name="reboot_safemode_action">"Reiniciar en modo seguro"</string>
+<string name="reboot_safemode_confirm">"¿Desea reiniciar en modo seguro?""</string>
+<string name="reboot_safemode_desc">""Esto deshabilitará todas las aplicaciones de terceros que haya instalado y se restaurarán cuando vuelva a reiniciar"."</string>
+</resources>

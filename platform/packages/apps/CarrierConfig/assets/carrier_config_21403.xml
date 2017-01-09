@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <carrier_config>
+        <int name="maxImageHeight" value="1944"/>
+        <int name="maxMessageSize" value="1048576"/>
+        <int name="maxImageWidth" value="2592"/>
+    </carrier_config>
+    <carrier_config>
+        <string name="vmnumber">242</string>
+    </carrier_config>
+    <carrier_config spn="MASMovil">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">MasMovil</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="vmnumber">242</string>
+    </carrier_config>
+    <carrier_config spn="LlamaYA">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">LlamaYA</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="Carrefour">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Carrefour</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="vmnumber">242</string>
+        <string name="vmtag">Carrefour voicemail</string>
+    </carrier_config>
+    <carrier_config pnn="simyo">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Simyo</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="simyo">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Simyo</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="JAZZTEL">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Jazztel</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

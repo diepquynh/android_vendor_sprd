@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sprd.cellbroadcastreceiver.ui.ChannelItemView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="3dip"
+        android:layout_marginBottom="3dip"
+        android:layout_gravity="center_vertical"/>
+
+    <!-- for bug533475 -->
+    <TextView
+        android:id="@+id/channel_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:singleLine="true"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="3dip"
+        android:layout_marginBottom="3dip"
+        android:layout_gravity="center_vertical"
+        android:ellipsize="end"/>
+    <!-- for bug533475 -->
+    <TextView
+        android:id="@+id/channel_id"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:singleLine="true"
+        android:layout_marginTop="3dip"
+        android:layout_marginBottom="3dip"
+        android:layout_marginEnd="10dp"
+        android:gravity="right"
+        android:layout_gravity="center_vertical"
+        android:ellipsize="end"/>
+
+
+</com.sprd.cellbroadcastreceiver.ui.ChannelItemView>

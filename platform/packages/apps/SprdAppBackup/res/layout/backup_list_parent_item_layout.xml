@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="56dp"
+    android:paddingRight="20dp"
+    android:descendantFocusability="afterDescendants"
+    android:orientation="horizontal" >
+
+    <!--SPRD: for bug440427 modify the layout @{-->
+    <TextView
+        android:id="@+id/txt_backup_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:singleLine="true"
+        android:paddingLeft="50dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+    <!-- @} -->
+
+    <!--SPRD: for bug440427 modify the layout -->
+    <CheckBox
+        android:id="@+id/chkbx_select_all_childitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="false"
+        android:focusable="false" />
+    <!-- @} -->
+</RelativeLayout>

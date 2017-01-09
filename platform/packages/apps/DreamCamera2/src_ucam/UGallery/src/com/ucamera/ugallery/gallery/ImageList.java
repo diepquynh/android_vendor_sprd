@@ -1,0 +1,183 @@
+/*
+ * Copyright (C) 2011,2012 Thundersoft Corporation
+ * All rights Reserved
+ *
+ * Copyright (C) 2009 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.ucamera.ugallery.gallery;
+
+import android.content.ContentResolver;
+import android.database.Cursor;
+import android.net.Uri;
+import android.provider.MediaStore.Images.Media;
+
+import com.ucamera.ugallery.util.Compatible;
+import com.ucamera.ugallery.util.ImageManager;
+
+import java.util.HashMap;
+
+/**
+ * Represents an ordered collection of Image objects. Provides an API to add and
+ * remove an image.
+ */
+public class ImageList extends BaseImageList implements IImageList {
+
+    @SuppressWarnings("unused")
+    private static final String TAG = "ImageList";
+
+    private static final String[] ACCEPTABLE_IMAGE_TYPES = new String[] {
+        "image/jpeg", "image/jpg", "image/png", "image/x-ms-bmp", "image/gif", "image/raw", "image/vnd.wap.wbmp", "image/webp", "image/x-canon-cr2", "image/x-adobe-dng", "image/x-nikon-nef",
+        "image/x-olympus-orf", "image/x-pentax-pef", "image/x-fuji-raf", "image/x-panasonic-rw2", "image/x-samsung-srw"
+    };
+
+    private HashMap<String, String> uriHm;
+    /*
+     * BUG FIX: 2017
+     * FIX COMMENT: Null Point Exception
+     * DATE: 2012-11-28
+     */
+    public HashMap<String, String> getBucketIds() {
+        if (mBaseUri == null) return null;
+
+        Uri uri = mBaseUri.buildUpon().appendQueryParameter("distinct", "true").build();
+        Cursor cursor = Media.query(mContentResolver, uri, new String[] {
+                Media.BUCKET_DISPLAY_NAME, Media.BUCKET_ID, Media.DATA
+        }, whereClause(), whereClauseArgs(), null);
+
+        if (cursor == null) return null;
+        try {
+            HashMap<String, String> hash = new HashMap<String, String>();
+            uriHm = new HashMap<String, String>();
+            /**
+             * FIX BUG: 5499
+             * BUG CAUSE: get all the picture information
+             * FIX COMMENT: just get the picture can be displayed in the gallery on the M9 platform
+             * Date: 2012-01-13
+             */
+/*            if(Compatible.instance().mIsMeizuManufacturer) {
+                while (cursor.moveToNext()) {
+                    String imageData = cursor.getString(2).toLowerCase();
+                    if(imageData.startsWith(ImageManager.IMAGE_BUCKET_NAME_PHOTO_MEIZU.toLowerCase())
+                       || imageData.startsWith(ImageManager.IMAGE_BUCKET_NAME_CAMERA_MEIZU.toLowerCase())) {
+                        hash.put(cursor.getString(1), cursor.getString(0));
+                    }
+                }
+            } else {*/
+            while (cursor.moveToNext()) {
+                hash.put(cursor.getString(1), cursor.getString(0));
+                uriHm.put(cursor.getString(1), mBaseUri.toString());
+            }
+//            }
+            return hash;
+        } finally {
+            cursor.close();
+        }
+    }
+    public HashMap<String, String> getBaseUri() {
+        return uriHm;
+    }
+    /**
+     * ImageList constructor.
+     */
+    public ImageList(ContentResolver resolver, Uri imageUri, int sort, String bucketId) {
+        super(resolver, imageUri, sort, bucketId);
+    }
+
+    private static final String WHERE_CLAUSE = "(" + Media.MIME_TYPE + " in (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?))";
+
+    private static final String WHERE_CLAUSE_WITH_BUCKET_ID = WHERE_CLAUSE + " AND "
+            + Media.BUCKET_ID + " = ?";
+
+    protected String whereClause() {
+        return mBucketId == null ? WHERE_CLAUSE : WHERE_CLAUSE_WITH_BUCKET_ID;
+    }
+
+    protected String[] whereClauseArgs() {
+        // Since mBucketId won't change, we should keep the array.
+        if (mBucketId != null) {
+            int count = ACCEPTABLE_IMAGE_TYPES.length;
+            String[] result = new String[count + 1];
+            System.arraycopy(ACCEPTABLE_IMAGE_TYPES, 0, result, 0, count);
+            result[count] = mBucketId;
+            return result;
+        }
+        return ACCEPTABLE_IMAGE_TYPES;
+    }
+
+    @Override
+    protected Cursor createCursor() {
+        Cursor c = Media.query(mContentResolver, mBaseUri, IMAGE_PROJECTION, whereClause(),
+                whereClauseArgs(), sortOrder());
+        return c;
+    }
+
+    static final String[] IMAGE_PROJECTION = new String[] {
+            Media._ID, Media.DATA, Media.DATE_TAKEN, Media.MINI_THUMB_MAGIC, Media.ORIENTATION,
+            Media.TITLE, Media.MIME_TYPE, Media.DATE_MODIFIED
+    };
+
+    private static final int INDEX_ID = 0;
+
+    private static final int INDEX_DATA_PATH = 1;
+
+    private static final int INDEX_DATE_TAKEN = 2;
+
+    private static final int INDEX_MINI_THUMB_MAGIC = 3;
+
+    private static final int INDEX_ORIENTATION = 4;
+
+    private static final int INDEX_TITLE = 5;
+
+    private static final int INDEX_MIME_TYPE = 6;
+
+    private static final int INDEX_DATE_MODIFIED = 7;
+
+
+    @Override
+    protected long getImageId(Cursor cursor) {
+        return cursor.getLong(INDEX_ID);
+    }
+
+    @Override
+    protected BaseImage loadImageFromCursor(Cursor cursor) {
+        long id = cursor.getLong(INDEX_ID);
+        String dataPath = cursor.getString(INDEX_DATA_PATH);
+        /*
+         * FIX BUG: 5053
+         * FIX COMMENT: change the date taken to the date modified;
+         * DATE: 2013-11-07
+         */
+        long dateTaken = cursor.getLong(INDEX_DATE_MODIFIED) * 1000;
+        if (dateTaken == 0) {
+            dateTaken = cursor.getLong(INDEX_DATE_TAKEN);
+        }
+        // CID 109029 : DLS: Dead local store (FB.DLS_DEAD_LOCAL_STORE)
+        // long miniThumbMagic = cursor.getLong(INDEX_MINI_THUMB_MAGIC);
+        int orientation = cursor.getInt(INDEX_ORIENTATION);
+        String title = cursor.getString(INDEX_TITLE);
+        String mimeType = cursor.getString(INDEX_MIME_TYPE);
+        /*
+         * FIX BUG: 5682 5683
+         * FIX COMMENT: get correct title from file path
+         * DATE: 2013-12-20
+         */
+        if ((title == null || title.length() == 0) && dataPath != null) {
+            title = dataPath.substring(dataPath.lastIndexOf("/") + 1);
+        }
+        return new Image(this, mContentResolver, id, cursor.getPosition(), contentUri(id),
+                dataPath, mimeType, dateTaken, title, orientation, mBucketId);
+    }
+}

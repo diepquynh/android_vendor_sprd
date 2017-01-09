@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD: add for bug474356 filter calllog @{ -->
+    <string name="call_log_outgoing_title">Outgoing</string>
+    <string name="call_log_incoming_title">Incoming</string>
+    <string name="call_log_outgoing_empty">You have no outgoing calls.</string>
+    <string name="call_log_incoming_empty">You have no incoming calls.</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_SIM_CARD_IDENTIFICATION_IN_CALLLOG -->
+    <string name="sim">SIM</string>
+    <!-- SPRD: FEATURE_MATCH_COUNTRY_CODE_IN_DIALPAD @{ -->
+    <string-array name="country_code_with_plus">
+        <item>+7</item>
+        <item>+44</item>
+    </string-array>
+    <string-array name="country_code_no_plus">
+        <item>8</item>
+    </string-array>
+    <!-- @} -->
+    <!-- SPRD: FILTER CALL LOGS BY SIM FEATURE. -->
+    <string name="view_setting">View</string>
+    <string name="item_all_calls">All call logs</string>
+    <string name="item_sim_calls">SIM%d call logs</string>
+    <!-- @} -->
+    <!-- SPRD: FAST DIAL FEATURE @{ -->
+    <string name="fast_dial_title">Fast Dial</string>
+    <string name="no_fast_dial_number">Fast dial number not set.</string>
+    <string name="fast_dial_in_guest_mode">Can not use fast dial not in owner mode</string>
+    <!-- @} -->
+    <!-- SPRD: VIBRATION FEEDBACK FUNCTION & Modified for Bug608351 @{ -->
+    <string name="vibration_feedback_for_call_connection_setting_title">Prompts for call connection</string>
+    <string name="vibration_feedback_for_call_connection_title">Vibration feedback for outgoing call connection</string>
+    <string name="vibration_feedback_for_call_disconnection_title">Vibration feedback for call disconnection</string>
+    <!-- @} -->
+    <!-- SPRD: CLEAR CALL LOG FEATURE. @{ -->
+    <string name="unselect_all">Unselect All</string>
+    <string name="select_all_sprd">Select all</string>
+    <string name="doneButton">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_selected_calls">Are you sure to delete the selected records?</string>
+    <string name="clearCallLogProgress_title">Clearing call log\u2026</string>
+    <string name="delete_success">Deleted successfully</string>
+    <string name="clear_all_call_log">Clear all the call log</string>
+    <string name="clear_selected_call_log">Clear selected call log</string>
+    <string name="select_all">Select all</string>
+    <string name="unselect_all">Deselect all</string>
+    <string name="delete_all_calls_confirm">Do you want to delete the records of all yours?</string>
+    <string name="do_not_select">You did not choose record to delete</string>
+    <string name="delete_calls">Delete</string>
+    <!-- @} -->
+
+    <!-- SPRD: bug#474283, IP DIAL FEATURE. @{ -->
+    <string name="ip_dialing_list_title">IP Dial Setting</string>
+    <string name="ip_dial_menu">IP Dial</string>
+    <string name="ip_dialing_title">IP dialing</string>
+    <string name="dialog_phone_permission_deny">To use IP dial,\n turn on the Phone permission.</string>
+    <!-- @} -->
+    <!-- SPRD: add for search call log in google search box feature -->
+    <string name="search_description">Search callLog</string>
+    <!-- SPRD: Add for bug587904 -->
+    <string name="fast_dial_in_guest_mode">Can not use fast dial not in owner mode</string>
+    <!-- SPRD: Add for bug588583 -->
+    <string name="error_permissions">The app does not have critical permissions needed to run. Please check your permissions settings.</string>
+    <!-- SPRD: add for bug591174 -->
+    <string name="list_delimeter">" "</string>
+    <!-- SPRD: add for bug595799 -->
+    <string name="number_anr_isnull">The contact number is empty</string>
+    <!-- SPRD: add for bug597967 -->
+    <string name="voice_mail_guest_mode">Only owner mode can use voice mail</string>
+    <!-- SPRD: add for bug597518 -->
+    <string name="no_available_number">No available number</string>
+    <!-- SPRD: add for bug598787 -->
+    <string name="no_available_sim">Please insert or enable sim card</string>
+    <!-- SPRD: add for bug 601793 -->
+    <string name="permission_no_contacts">To see your contacts, turn on the Phone and Contacts permission.</string>
+    <!-- SPRD: add for bug 604233 @{ -->
+    <string name="migrate_blocked_numbers_dialog_message">To better protect you, Phone needs to change how blocking works. Your blocked numbers will now stop both calls and messages and may be shared with other apps.</string>
+    <string name="block_number_confirmation_message_new_filtering">You will no longer receive calls or messages from this number.</string>
+    <!-- @} -->
+    <!-- SPRD: add for bug611098 -->
+    <string name="no_permission_for_voicemail">To use your voicemail, please turn on the Phone permission.</string>
+    <!-- SPRD: add for bug611786 -->
+    <string name="dialog_make_call_airplane_mode_message">To make a call, first turn off Airplane mode.</string>
+    <!-- SPRD: add for bug610233 -->
+    <string name="number_not_in_black_list">"the number is not in blacklist。"</string>
+    <!-- SPRD: Add for bug613018 -->
+    <string name="ip_dial_in_guest_mode">Can not use ip dial not in owner mode</string>
+</resources>

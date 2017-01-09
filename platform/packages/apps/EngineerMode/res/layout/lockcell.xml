@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lfc1"
+        android:textSize="20sp" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="4"
+            android:inputType="number"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:singleLine="true" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="4"
+            android:inputType="number"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:singleLine="true" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="4"
+            android:inputType="number"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:singleLine="true" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="4"
+            android:inputType="number"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:singleLine="true" >
+        </EditText>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lfc2"
+        android:textSize="20sp" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_weight="1"
+            android:ems="4"
+            android:inputType="number"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:singleLine="true" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="4"
+            android:inputType="number"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:singleLine="true" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="4"
+            android:inputType="number"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:singleLine="true" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="4"
+            android:inputType="number"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:singleLine="true" >
+        </EditText>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lfc3"
+        android:textSize="20sp" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="4"
+            android:inputType="number"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:singleLine="true" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="4"
+            android:inputType="number"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:singleLine="true" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="4"
+            android:inputType="number"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:singleLine="true" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="4"
+            android:inputType="number"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:singleLine="true" >
+        </EditText>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lfc4"
+        android:textSize="20sp" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="4"
+            android:inputType="number"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:singleLine="true" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="4"
+            android:inputType="number"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:singleLine="true" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="4"
+            android:inputType="number"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:singleLine="true" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="4"
+            android:inputType="number"
+            android:maxLength="6"
+            android:numeric="integer"
+            android:singleLine="true" >
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Button_get"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </Button>
+
+</LinearLayout>

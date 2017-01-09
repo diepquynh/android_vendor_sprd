@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_add"
+        android:showAsAction="always"
+        android:title="@string/action_add"/>
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/ic_save"
+        android:showAsAction="always"
+        android:title="@string/action_save"/>
+    <item
+        android:id="@+id/del_all"
+        android:showAsAction="never"
+        android:title="@string/menu_delete_channel"/>
+
+</menu>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2010,2011 Thundersoft Corporation
+  All rights Reserved
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gallery_background_color">
+
+    <RelativeLayout
+        android:id="@+id/nav_to_album_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_topbar"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop = "true" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="8dip">
+            <TextView
+                android:id="@+id/nav_to_select_photos"
+                style="@style/UCamGalleryTopbarStyle"
+                android:paddingLeft="@dimen/gallery_top_nav_edge_path_padding_left"
+                android:text="@string/text_select_item"
+                android:textColor="@android:color/white"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/nav_to_album"
+                style="@style/UCamGalleryTopbarStyle"
+                android:drawableLeft="@drawable/gallery_bar_image_ablum"
+                android:paddingLeft="@dimen/gallery_top_nav_edge_path_padding_left"
+                android:text="@string/text_nav_to_album"
+                android:textColor="@android:color/white"
+                android:visibility="visible"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/settings_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dip"
+            android:layout_centerVertical="true"
+            android:background="@drawable/gallery_settings_status"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:layout_toLeftOf="@id/settings_more"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/photo_collection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dip"
+                android:background="@drawable/btn_photo_collection"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/net_print"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dip"
+                android:background="@drawable/net_print_status"
+                android:gravity="center"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dip"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/gallery_take_photoes"
+                    android:layout_width="37dip"
+                    android:layout_height="27dip"
+                    android:background="@drawable/gallery_left_press_status"
+                    android:src="@drawable/photos_icon_camera_a"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/gallery_cloud_line"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/photos_btn_line"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/gallery_cloud_sync"
+                    android:layout_width="37dip"
+                    android:layout_height="27dip"
+                    android:background="@drawable/gallery_right_press_status"
+                    android:src="@drawable/photos_icon_update_a"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <com.ucamera.ugallery.MyGridView
+        android:id="@+id/albums"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/nav_to_album_layout"
+        android:background="#00ffffff"
+        android:listSelector="@android:color/transparent"
+        android:columnWidth="142dip"
+        android:verticalSpacing="12dip"
+        android:drawSelectorOnTop="false"
+        android:numColumns="auto_fit"
+        android:paddingTop="22dip"
+        android:stretchMode="spacingWidthUniform" />
+
+    <RelativeLayout
+        android:id="@+id/layout_bottom_normal_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <include layout="@layout/gallery_bottom_normal_control" />
+    </RelativeLayout>
+
+    <ViewStub
+        android:id="@+id/secret_ablum_hint_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/secret_ablum_hint" />
+</RelativeLayout>

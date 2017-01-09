@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- language list key  start -->
+    <string-array name="support_languages_key">
+        <item name="zh-cn">zh-cn</item>
+        <item name="en-us">en-us</item>
+    </string-array>
+    <!-- language list key  end -->
+    <!-- language list value start -->
+    <string-array name="support_languages_value">
+        <item name="zh-cn">中文</item>
+        <item name="en-us">English ( America )</item>
+    </string-array>
+    <!-- language list value end -->
+    <!-- the wakeup words of different language start -->
+    <!-- NOTICE: should corresponding with support_languages_key one by one -->
+    <string-array name="wakeup_words_string_array">
+        <item name="zh-cn">\"芝麻开门\"</item>
+        <item name="en-us">\"hello blue genie\"</item>
+    </string-array>
+    <!-- the wakeup words of different language end -->
+    <string-array name="searchArray">
+        <item>Sensitivity: Reject Most</item>
+        <item>Sensitivity: Reject Many</item>
+        <item>Sensitivity: Reject More</item>
+        <item>Sensitivity: Normal</item>
+        <item>Sensitivity: Accept More</item>
+        <item>Sensitivity: Accept Many</item>
+        <item>Sensitivity: Accept Most</item>
+    </string-array>
+    <string-array name="triggerArray">
+        <item>Trigger: Hello Blue Genie</item>
+    </string-array>
+</resources>

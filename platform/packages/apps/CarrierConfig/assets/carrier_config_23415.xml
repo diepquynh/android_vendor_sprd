@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <carrier_config>
+        <int name="smsToMmsTextThreshold" value="10"/>
+    </carrier_config>
+    <carrier_config>
+        <string name="vmnumber">121</string>
+        <string name="roamingvm">+447836121121</string>
+    </carrier_config>
+    <carrier_config spn="Sainsbury's">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Sainsbury's</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="vmnumber">121</string>
+    </carrier_config>
+    <carrier_config spn="Lebara">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Lebara</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="vmnumber">121</string>
+    </carrier_config>
+    <carrier_config spn="OVIVO">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">OVIVO</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="TalkTalk">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">TalkTalk</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="Talkmobile">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Talkmobile</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="vmnumber">121</string>
+    </carrier_config>
+    <carrier_config spn="ASDA Mobile">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">ASDA Mobile</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="BT">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">BT Mobile</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config imsi="23415xxx89xxxxx">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Vodafone Pre Pay</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

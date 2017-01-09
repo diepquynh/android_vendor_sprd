@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:paddingBottom="2dip"
+        android:paddingStart="8dip"
+        android:paddingTop="2dip" >
+
+        <TextView
+            android:id="@+id/phone_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingBottom="6dip"
+            android:paddingStart="5dip"
+            android:paddingTop="6dip"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/call_fire_wall_phone_name_text_color"
+            android:textSize="@dimen/call_fire_wall_phone_name_text_size" />
+
+        <TextView
+            android:id="@+id/phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingBottom="6dip"
+            android:paddingStart="5dip"
+            android:singleLine="true"
+            android:textColor="@color/call_fire_wall_phone_number_text_color"
+            android:textSize="@dimen/call_fire_wall_phone_number_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1" >
+
+        <RelativeLayout
+            android:id="@+id/ListView_customize"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/image_block_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:paddingEnd="8dip" >
+            </ImageView>
+
+            <View
+                android:id="@+id/divider02"
+                android:layout_width="1px"
+                android:layout_height="@dimen/black_list_item_type_size"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="4dip"
+                android:layout_marginEnd="4dip"
+                android:layout_toStartOf="@id/image_block_call"
+                android:background="#646464" />
+
+            <ImageView
+                android:id="@+id/image_block_sms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@id/divider02" >
+            </ImageView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="10dip" >
+    </CheckBox>
+
+</LinearLayout>

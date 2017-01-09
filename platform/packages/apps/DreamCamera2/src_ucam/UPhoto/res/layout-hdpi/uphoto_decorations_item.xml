@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2010,2012 Thundersoft Corporation
+  All rights Reserved
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center" >
+
+    <ImageView
+        android:id="@+id/iv_decorations_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:padding="@dimen/decor_padding"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_decorations_free"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/bt_bg_download_free"
+        android:gravity="center"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:text="@string/decorations_free"
+        android:textColor="@android:color/white"
+        android:textSize="10dip"
+        android:visibility="gone" />
+
+</RelativeLayout>

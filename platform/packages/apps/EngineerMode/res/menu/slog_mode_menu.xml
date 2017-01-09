@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/slog_add_mode"
+        android:orderInCategory="0"
+        android:title="@string/mode_dialog_save_title"/>
+
+    <item android:id="@+id/slog_select"
+        android:orderInCategory="1"
+        android:title="@string/mode_dialog_select_title"/>
+
+    <item android:id="@+id/slog_delete"
+        android:orderInCategory="2"
+        android:title="@string/mode_dialog_delete_title"/>
+        
+    <item android:id="@+id/slog_update"
+        android:orderInCategory="3"
+        android:title="@string/mode_dialog_update_title"/>
+
+</menu>

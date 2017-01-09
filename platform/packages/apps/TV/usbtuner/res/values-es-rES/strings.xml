@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="ut_app_name">"Entrada de TV del sintonizador USB"</string>
+<string name="ut_setup_on">"ENCENDIDO"</string>
+<string name="ut_setup_off">"Apagado"</string>
+<string name="ut_setup_cancel">"Por favor, espere a finalizar el proceso"</string>
+<string name="ut_select_channel_map">"Seleccione su fuente de canal"</string>
+<string name="ut_no_signal">"No hay señal."</string>
+<string name="ut_fail_to_tune">"No se ha podido sintonizar a <xliff:g id="channel_name">%s</xliff:g>"</string>
+<string name="ut_fail_to_tune_to_unknown_channel">"No se ha podido sintonizar"</string>
+<string name="ut_rescan_needed">""El software del sintonizador USB ha sido actualizado recientemente. Vuelva a escanear los canales"."</string>
+<string name="ut_ac3_passthrough_unavailable">"El audio AC3 no está disponible"</string>
+<string name="ut_setup_breadcrumb">"Configuración del sintonizador de canales"</string>
+<string name="ut_setup_new_title">"Configuración del sintonizador del canal USB"</string>
+<string name="ut_setup_new_description">"Compruebe que el sintonizador USB esté enchufado y conectado a una fuente de señal de TV.\n\nlf utiliza una antena aérea, es posible que deba ajustar su ubicación o dirección para recibir la mayoría de los canales. Para obtener los mejores resultados, colóquelo alto y cerca de una ventana."</string>
+<string-array name="ut_setup_new_choices">
+<item>"Continuar"</item>
+<item>"Ahora no"</item>
+</string-array>
+<string name="ut_setup_again_title">"¿Volver a ejecutar la configuración del canal?"</string>
+<string name="ut_setup_again_description">"Esto eliminará los canales encontrados en el sintonizador USB y buscará nuevamente nuevos canales.\n\nCompruebe que el sintonizador USB esté enchufado y conectado a una fuente de señal de TV.\n\nlf utiliza una antena aérea, es posible que deba ajustar su ubicación o dirección para recibir la mayoría de los canales. Para obtener los mejores resultados, colóquelo alto y cerca de una ventana."</string>
+<string-array name="ut_setup_again_choices">
+<item>"Continuar"</item>
+<item>"Cancelar"</item>
+</string-array>
+<string name="ut_connection_title">"Seleccionar el tipo de conexión"</string>
+<string name="ut_connection_description">"Elija Antena si hay una antena externa conectada al sintonizador. Elija Cable si sus canales provienen de un proveedor de servicios de cable. Si no está seguro, ambos tipos serán escaneados, pero esto puede tomar más tiempo."</string>
+<string-array name="ut_connection_choices">
+<item>"Antena"</item>
+<item>"Cable"</item>
+<item>"No está seguro"</item>
+</string-array>
+<string name="ut_channel_scan">"Configuración del sintonizador de canal USB"</string>
+<string name="ut_channel_scan_time">"Esto puede tomar varios minutos"</string>
+<plurals name="ut_channel_scan_message"></plurals>
+<string name="ut_stop_channel_scan">"DETENER ESCANÉO DE CANAL"</string>
+<plurals name="ut_result_found_title"></plurals>
+<string-array name="ut_result_found_choices">
+<item>"Hecho"</item>
+<item>"Escanear otra vez"</item>
+</string-array>
+<string name="ut_result_not_found_title">"No se han encontrado canales"</string>
+<string name="ut_result_not_found_description">"El escaneo no encontró ningún canal. Compruebe que el sintonizador USB esté enchufado y conectado a una fuente de señal de TV.\n\nlf utiliza una antena aérea, es posible que deba ajustar su ubicación o dirección para recibir la mayoría de los canales. Para obtener los mejores resultados, colóquelo alto y cerca de una ventana y escanée de nuevo."</string>
+<string-array name="ut_result_not_found_choices">
+<item>"Escanear otra vez"</item>
+<item>"Hecho"</item>
+</string-array>
+<string name="ut_setup_recommendation_card_focused_title">"Escanear canales de TV"</string>
+<string name="ut_setup_recommendation_card_title">"Configuración del sintonizador de canal USB"</string>
+</resources>

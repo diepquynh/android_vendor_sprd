@@ -1,0 +1,49 @@
+From a411b5d7cb347b411fa8583cf380cdfce85b38d4 Mon Sep 17 00:00:00 2001
+From: "lifei.cui" <lifei.cui@spreadtrum.com>
+Date: Wed, 30 Dec 2015 20:23:22 +0800
+Subject: =?UTF-8?q?Bug=20#519745=20-=20[android6.0=5Fga1][sw0]=E9=BB=98=E8=AE?=
+ =?UTF-8?q?=A4=E4=B8=8D=E5=85=B7=E5=A4=87=E8=BF=9B=E7=A8=8Bnative=20crash=E7?=
+ =?UTF-8?q?=9A=84coredump=E5=8A=9F=E8=83=BD?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+[root cause  ] AOSP默认关闭进程的core dump功能,　需要手动打开
+[changes     ] 1. 修改tombstone文件 merge 5.1改动 2. 修改art,
+使java进程有core dump功能 3. 更新sepolicy
+[side effects] None
+[self test   ] 手动测试+monkey测试, pass
+[reviewers   ]
+[change_type ] AOB --> google_original
+[tag_product ] common
+
+Change-Id: Icb482b219f594e948c0554bae9edb2425f1f6ed3
+---
+ runtime/native/dalvik_system_ZygoteHooks.cc |    4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/runtime/native/dalvik_system_ZygoteHooks.cc b/runtime/native/dalvik_system_ZygoteHooks.cc
+index 1d06706..df988a6 100644
+--- a/runtime/native/dalvik_system_ZygoteHooks.cc
++++ b/runtime/native/dalvik_system_ZygoteHooks.cc
+@@ -47,6 +47,9 @@ static void EnableDebugger() {
+     PLOG(ERROR) << "prctl(PR_SET_DUMPABLE) failed for pid " << getpid();
+   }
+ #endif
++
++  /* SPRD: enable core dump */
++#if 0
+   // We don't want core dumps, though, so set the core dump size to 0.
+   rlimit rl;
+   rl.rlim_cur = 0;
+@@ -54,6 +57,7 @@ static void EnableDebugger() {
+   if (setrlimit(RLIMIT_CORE, &rl) == -1) {
+     PLOG(ERROR) << "setrlimit(RLIMIT_CORE) failed for pid " << getpid();
+   }
++#endif
+ }
+ 
+ static void EnableDebugFeatures(uint32_t debug_flags) {
+-- 
+1.7.9.5
+

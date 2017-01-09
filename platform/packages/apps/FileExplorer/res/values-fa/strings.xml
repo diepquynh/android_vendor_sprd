@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"جستجوگر فایل"</string>
+<string name="action_settings">تنظیمات</string>
+<string name="title_section_overview">"مشاهده سریع"</string>
+<string name="title_section_external">"حافظه خارجی"</string>
+<string name="title_section_internal">"حافظه داخلی"</string>
+<string-array name="select_dest">
+    <item name="title_phone">"حافظه داخلی"</item>
+    <item name="title_sdcard">"حافظه خارجی"</item>
+</string-array>
+<string name="title_section_all">همه</string>
+<string name="descrip_actionbar_logo">"سطح بالاتر"</string>
+<string name="descrip_actionbar_search">جستجو</string>
+<string name="descrip_actionbar_overflow">منو</string>
+<string name="quickscan_audio">صوتی</string>
+<string name="quickscan_image">تصاویر</string>
+<string name="quickscan_record">"ضبط شده ها"</string>
+<string name="quickscan_video">ویدیو</string>
+<string name="quickscan_doc">"مستندات"</string>
+<string name="quickscan_apk">برنامه های کاربردی</string>
+<string name="file_list_flodermsg">"تاریخ %1$s"</string>
+<string name="file_list_filemsg">"تاریخ:%1$s\t اندازه تی :%2$s       "</string>
+<string name="dialog_hint_title">بارگیری</string>
+<string name="dialog_hint_msg">بارگذاری...</string>
+<string name="menu_search">جستجو</string>
+<string name="menu_back_home">"بازگشت به خانه"</string>
+<string name="menu_mkdir">پوشه جدید</string>
+<string name="menu_newfile">"فایل جدید"</string>
+<string name="menu_mkdir_succeed">"موفق در ایجاد پوشه  %1$s"</string>
+<string name="menu_mkdir_failed">"نا موفق در ایجاد پوشه  %1$s"</string>
+<string name="menu_newfile_succeed">"موفقیت در ایجاد فایل  %1$s"</string>
+<string name="menu_newfile_failed">"ناموفق در ایجاد فایل  %1$s"</string>
+<string name="menu_select_more">"بیشتر انتخاب کنید"</string>
+<string name="menu_copy">کپی</string>
+<string name="menu_cut">برش</string>
+<string name="menu_sort_type">مرتب سازی بر اساس</string>
+<string name="menu_storage_status">ذخیره سازی</string>
+<string name="operate_delete">حذف</string>
+<string name="operate_clear">واضح</string>
+<string name="operate_delete_file_ask">"آیا مطمئنید می خواهید  %1$s را پاک کنید؟"</string>
+<string name="operate_delete_file_succeed">"موفقیت در پاک کردن فایل  %1$s"</string>
+<string name="operate_delete_file_failed">"ناموفق در پاک کردن فایل  %1$s"</string>
+<string name="operate_viewdetails">"خصوصیات"</string>
+<string name="operate_viewdetails_date">"تاریخ：%1$s"</string>
+<string name="operate_viewdetails_size">"اندازه：%1$s"</string>
+<string name="operate_viewdetails_type_folder">"نوع: پوشه"</string>
+<string name="operate_viewdetails_type_file">"نوع: فایل"</string>
+<!-- SPRD 431662 -->
+<string name="operate_folder_attribute">"شامل: فایل های %1$d، پوشه های %2$d \nاندازه ان: %3$s"</string>
+<string name="operate_rename">تغییر نام</string>
+<string name="operate_rename_hint">"لطفا اسم پوشه جدیدی وارد کنید"</string>
+<string name="operate_rename_succeed">"موفقیت در نام گذاری"</string>
+<string name="operate_rename_failed">"نا موفق در نام گذاری فایل  %1$s"</string>
+<string name="operate_share">اشتراک گذاری</string>
+<string name="msg_file_input_empty">"اسم فایل خالی است"</string>
+<string name="msg_file_input_repeat">"اسم   %1$s وجود دارد، لطفا اسم دیگری وارد کنید."</string>
+<string name="msg_folder_empty">"پوشه خالی است"</string>
+<string name="msg_invalid_intent">"سیستم این نوع فایل را پشتیبانی نمی کند"</string>
+<string name="msg_issure_clear">"پوشه موجود را پاک می کنید؟"</string>
+<string name="bluetooth">بلوتوث</string>
+<string name="copying">"در حال کپی کردن، "</string>
+<string name="clipboard_empty">"تخته رسم خالی است"</string>
+<string name="text_exit_file_explore_title">خروج</string>
+<string name="text_exit_file_explore_prompt">"آیا مطمئنید می خواهید خارج شوید؟"</string>
+<string name="common_text_ok">قبول</string>
+<string name="common_text_cancel">لغو</string>
+<string name="common_text_paste">جای گذاری</string>
+<string name="file_option">"گزینه های فایل"</string>
+<string name="folder_option">"گزینه های پوشه"</string>
+<string name="file_detail">جزئیات</string>
+<string name="caculating">"اندازه: در حال محاسبه..."</string>
+<string name="copy_finish">"عملیات کامل شد"</string>
+<string name="now_copying">"در حال کپی کردن، لطفا صبر کنید..."</string>
+<string name="delete_finish">"پایان پاک کردن"</string>
+<string name="delete_fail">"ناموفق در پاک کردن فایل<xliff:g id="NAME">%s</xliff:g>"</string>
+<string name="now_deleting">"در حال حذف، لطفا صبر کنید..."</string>
+<string name="cancel_copy">"عملیات لغو شد"</string>
+<string name="exist">"فایل وجود دارد"</string>
+<string name="select_destination">"محل ذخیره سازی را انتخاب نمایید"</string>
+<string name="empty_view_prompt">"پوشه خالی، شما می توانید مستندات بیشتری را از PC یا اینترنت بدست آورید"</string>
+<string name="fragment_search_key_hint">"کلمه کلیدی که می خواهید جستجو کنید را تایپ کنید"</string>
+<string name="fragment_search_location">"مکان جستجو:"</string>
+<string name="fragment_search_location_ex">"جستجوی محل"</string>
+<string name="fragment_search_type">"نوع فایل"</string>
+<string name="fragment_search_result">"نتیجه جستجو"</string>
+<string name="fragment_search_searching">"در حال جستجو..."</string>
+<string name="fragment_search_noresult">"چیزی یافت نشد"</string>
+<string name="common_text_other">ديگر</string>
+<string name="common_text_search">جستجو</string>
+<string name="fragment_search_invalid_result">"فایل منقضی شده است، لطفا چک کنید"</string>
+<string name="overview_menu_multiselect">"بیشتر انتخاب کنید"</string>
+<string name="overview_menu_sort">مرتب کردن</string>
+<string name="overview_menu_install_all">"نصب همه"</string>
+<string name="overview_menu_install">نصب</string>
+<string name="overview_menu_delete">پاک کردن</string>
+<string name="sort_by_name">بر اساس نام</string>
+<string name="sort_by_type">"بر اساس نوع"</string>
+<string name="sort_by_time_desc">"بر اساس زمان (desc)"</string>
+<string name="sort_by_time_asc">"بر اساس زمان (صعودی)"</string>
+<string name="sort_by_size_desc">"(desc)بر اساس نام"</string>
+<string name="sort_by_size_asc">"(asc)بر اساس نام"</string>
+<string name="sort_by_asc">"ترتیب صعودی"</string>
+<string name="sort_by_desc">"ترتیب نزولی"</string>
+<string name="display_setting">تنظیمات نمایش</string>
+<string name="hide_file_display">"نمایش فایل های مخفی"</string>
+<string name="display_hide_file">"نمایش فایل های مخفی"</string>
+<string name="operate_viewdetails_path">"مسیر فایل :%1$s"</string>
+<string name="operate_viewdetails_canread">"می توان خواند: بله"</string>
+<string name="operate_viewdetails_can_not_read">"می توان خواند: خیر"</string>
+<string name="operate_viewdetails_can_not_write">"می توان ثبت کرد: خیر"</string>
+<string name="operate_viewdetails_can_write">"می توان ثبت کرد: بله"</string>
+<string name="operate_viewdetails_hide">"فایل مخفی: بله"</string>
+<string name="operate_viewdetails_not_hide">"فایل مخفی: خیر"</string>
+<string name="select_text">"انتخاب فابل"</string>
+<string name="select_all">انتخاب همه</string>
+<string name="unselect_all">انتخاب هیچ کدام</string>
+<string name="length_limited">"نام بیشترین طول خود را دارد"</string>
+<string name="cannot_copy_to_itself">"خطا در کپی کردن دایرکتوری در خودش یا در زیر شاخه هایش"</string>
+<string name="confirm_delete">"آیا مطمئنید می خواهید پاک کنید؟"</string>
+<string name="search_empty">"هیچ متنی در این صفحه نیست. لطفا تایپ کردن خود را بررسی کنید."</string>
+<string name="dialog_back">برگشت</string>
+<string name="set_as">تنظیم بعنوان</string>
+<string name="invalid_char">"نام فایل دارای کاراکترهای نا معتبر مثل %s می باشد"</string>
+<string name="no_enough_sapce">"فضای کافی وجود ندارد"</string>
+<string name="file_type_wrong">"نوع فایل اشتباه است"</string>
+<string name="failed_set_wallpaper">"خطا در تنظیم کاغذ دیواری"</string>
+<string name="unsupport_type">"صدای زنگ پشتیبانی نشده"</string>
+<string name="now_moving">"در حال جا به جایی، لطفا صبر کنید..."</string>
+<string name="badname_as_point">"نباید به عنوان /,\\,. یا... نام گذاری شود که ممکن است با سیستم فایل اشتباه شود"</string>
+<string name="cut_filename_duplicate">"مسیر فعلی فایل یا فولدر دارای یک اسم است، لطفاً این مسیر را دوباره انتخاب کنید!"</string>
+<string name="share_file_limited">"حدود فایل اشتراکی %1$d است. "</string>
+<string name="install_apk_limited">"حدود نصب apk %1$d است."</string>
+    <string-array name="copyfileWarning">
+        <item>جایگزینی</item>
+        <item>"ذخیره هر دو"</item>
+    </string-array>
+     <string-array name="copydirWarning">
+        <item>پیوستن</item>
+        <item>جایگزینی</item>
+        <item>"ذخیره هر دو"</item>
+    </string-array>
+     <string-array name="sort_type">
+        <item>بر اساس نام</item>
+        <item>"بر اساس نوع"</item>
+        <item>"بر اساس تاریخ"</item>
+        <item>بر اساس اندازه</item>
+    </string-array>
+    <string name="invalid_char_of_filename">"<xliff:g id="SECTION">%s</xliff:g> فایل سیستم\'s نام فایل شامل کاراکترهای ناموجودی مثل <xliff:g id="INVALIDCHAR">%s</xliff:g>"</string>
+     <string name="now_calculate">" در حال محاسبه، لطفا صبر کنید..."</string>
+     <string name="now_cleared">"در حال تمییز کردن، لطفاً صبر کنید..."</string>
+     <string name="not_replace">" به دلیل وجود داشتن نام مشابه در پوشه بالا نمی تواند جایگزین شود"</string>
+     <string name="sdcard_had_unmounted">" فایل عملیاتی موجود نمی باشد"</string>
+     <string name="common_text_ignore">"نادیده گرفتن"</string>
+     <string name="cannot_copyfolder_itself">"نمی توانید فولدر را در داخل خودش کپی کنید"</string>
+     <string name="cannot_cutfolder_itself">"نمی توانید فولدر را به داخل خودش حرکت دهید"</string>
+     <string name="cannot_paste_reason">" پوشه مقصد داخل پوشه مبدا می باشد %s"</string>
+
+    <string name="badname_endwith_point">"انتهای نام پوشه نمی تواند تمام شود با ."</string>
+     <string name="failed_option">"انتخاب ناموفق بود"</string>
+    <string name="failed_query">"پایگاه داده نمی تواند در مورد این فایل جستجو کند"</string>
+    <string name="drm_consume_title">"از حقوق Drm استفاده کنید"</string>
+    <string name="drm_consume_hint">"عملیات شما از حقوق Drm استفاده خواهد کرد"</string>
+    <string name="drm_info">"اطلاعات حفاظت"</string>
+    <string name="drm_file_name">"نام فایل: %1$s"</string>
+    <string name="drm_rights_validity">"اعتبار حقوق: معتبر"</string>
+    <string name="drm_rights_invalidity">"اعتبار حقوق: نامعتبر"</string>
+    <string name="drm_rights_status_transfer">"وضعیت حقوق: قابل انتقال"</string>
+    <string name="drm_rights_status_untransfer">"وضعیت حقوق: غیرقابل انتقال"</string>
+    <string name="drm_start_time">"زمان شروع: %1$s"</string>
+    <string name="drm_end_time">"زمان پایان: %1$s"</string>
+    <string name="drm_expiration_time">"زمان انقضا: %1$s"</string>
+    <string name="drm_remain_times">"زمان باقیمانده: %1$s"</string>
+    <string name="drm_invalid_rights">"این فایل دارای مجوز معتبر نیست"</string>
+    <string name="drm_invalid_select">"فایل های محدود را انتخاب نکنید، لطفاً فایل های دیگر را انتخاب کنید"</string>
+    <string name="drm_invalid_copy">"فایل های محدود کپی نمی شوند"</string>
+    <string name="drm_invalid_folder_copy">"پوشه دارای فایل محدود کپی نمی شود"</string>
+    <string name="drm_invalid_share">"فایل محدود به اشتراک گذاشته نمی شود"</string>
+    <string name="drm_unlimited_rights">"نامحدود"</string>
+    <string name="drm_inactive_rights">"حقوق غیرفعال شد"</string>
+    <string name="drm_unknow_rights">"ناشناس"</string>
+    <string name="drm_time_unit">"ث"</string>
+    <string name="drm_protect_viewdetails">"اطلاعات حفاظت"</string>
+    <string name="drm_no_application_open">"فایل باز نمی شود"</string>
+    <string name="msg_folder_input_empty">نام پوشه خالی است</string>
+     <string name="search_type_empty">"لطفاً نام فایل را انتخاب کنید."</string>
+     <string name="invalid_char_of_foldername">"<xliff:g id="SECTION">%s</xliff:g> نام پوشه سیستم فایل حاوی برگشت نامعتبر نظیر <xliff:g id="INVALIDCHAR">%s</xliff:g> می باشد"</string>
+     <string name="failed_select_event">"تنها 500 مورد در این عملیات انتخاب شود"</string>
+     <string name="error_permissions">"برنامه مجوزهای مهم مورد نیاز برای اجرا شدن را ندارد. لطفاً تنظیمات مجوزهایتان را بررسی کنید."</string>
+     <string name="dialog_dismiss">"رد کردن"</string>
+     <string name="toast_fileexplorer_internal_error">"در یافتن فایل یک خطای درونی رخ داد!"</string>
+
+    <string name="title_section_usbdisk">"دیسک USB"</string>
+     <string name="error_choose_drm_for_gallery">"فایل DRM نمی‌تواند به اسلاید موسیقی تنظیم شود، لطفاً یکی دیگر انتخاب کنید"</string>
+</resources>

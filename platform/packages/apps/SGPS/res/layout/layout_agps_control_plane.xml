@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_agps_control_plane"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/agps_control_plane_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dip"
+        android:layout_marginRight="6dip"
+        android:text="@string/agps_control_plane_title_text"
+        android:textSize="20dip" />
+
+    <LinearLayout
+        android:id="@+id/layout_control_plane_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/agps_control_plane_title"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/agps_molr_position_method_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="80dip"
+            android:padding="5dip"
+            android:text="@string/agps_molr_position_method_title_text" />
+
+        <RadioGroup
+            android:id="@+id/rg_molr_position_method"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/radio_location_estimate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_location_estimate_text" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/radio_assistance_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_assistance_data_text" >
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_agps_plane_external_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_control_plane_settings"
+        android:layout_marginLeft="6dip"
+        android:layout_marginRight="6dip"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/cb_external_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cb_external_address_text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/et_external_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:digits="0123456789*#+"
+                android:hint="0123456789*#+"
+                android:singleLine="true" >
+            </EditText>
+
+            <Button
+                android:id="@+id/bt_external_address_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_agps_save_text" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_agps_plane_mlc_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_agps_plane_external_address"
+        android:layout_marginLeft="6dip"
+        android:layout_marginRight="6dip"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/cb_mlc_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cb_mlc_number_text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/et_mlc_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:digits="0123456789*#+"
+                android:hint="0123456789*#+" />
+
+            <Button
+                android:id="@+id/bt_mlc_number_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_agps_save_text" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/auto_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_agps_plane_mlc_number"
+        android:layout_marginLeft="6dip"
+        android:text="@string/auto_reset_text" />
+
+    <LinearLayout
+        android:id="@+id/layout_agps_plane_sim_selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/auto_reset"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="90dip"
+            android:padding="12dip"
+            android:text="@string/agps_sim_selection_text" />
+
+        <RadioGroup
+            android:id="@+id/rg_sim_selection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/radio_sim1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_sim1_text" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/radio_sim2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_sim2_text" >
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_agps_plane_sim_selection"
+        android:orientation="horizontal" >
+
+        <Switch
+            android:id="@+id/mola_trigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dip"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:text="@string/mola_trigger_text" />
+    </LinearLayout>
+
+</RelativeLayout>

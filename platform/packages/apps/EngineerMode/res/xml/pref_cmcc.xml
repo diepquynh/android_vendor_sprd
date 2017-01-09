@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- <Preference android:title="MTBF" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.debuglog.MTBFActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference> -->
+    <Preference android:title="TTCN" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.debuglog.TTCNActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <Preference android:title="RRM" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.debuglog.RRMActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <Preference android:title="RF" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.debuglog.RFActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <Preference android:title="Wifi Test" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.debuglog.WifiTestActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <Preference android:title="Bluetooth" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.debuglog.BluetoothActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+
+</PreferenceScreen>

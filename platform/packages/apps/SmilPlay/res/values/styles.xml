@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">#FFFF9200</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">#5C5CFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextAppearance.SearchResult">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+    </style>
+
+    <style name="TextAppearance.SearchResult.Title">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.SearchResult.Subtitle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">?android:textColorSecondaryInverse</item>
+    </style>
+
+    <style name="MmsHoloTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+    </style>
+
+    <style name="WidgetTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#333333</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="NotificationSubjectText">
+        <item name="android:textColor">#999999</item>
+    </style>
+    <style name="FullyTranslucent" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- SPRD: add theme for UUI. @{ -->
+
+    <style name="MmsHoloThemeNewuiWithSpecailActionMode" parent="@style/MmsHoloThemeNewui">
+        <item name="android:actionModeBackground">@*android:drawable/ab_solid_light_holo</item>
+    </style>
+
+
+    <style name="MmsHoloThemeNewui" parent="@android:style/Theme.Material.Light.DarkActionBar">
+       <item name="android:actionMenuTextAppearance">@style/MMSTextAppearance.Holo.Widget.ActionBar.Menu</item>
+       <item name="android:spinnerDropDownItemStyle">@style/CustomDropDownItemStyle</item>
+       <item name="android:colorPrimaryDark">#0277bd</item>
+       <item name="android:actionModeBackground">@color/action_mode_background</item>
+       <item name="android:actionBarWidgetTheme">@style/MyActionBarWidgetTheme</item>
+       <item name="android:actionBarStyle">@style/MyActionBar</item>
+       <item name="android:actionBarSize">52dip</item>
+       <item name="android:colorPrimary">#0288d1</item>
+    </style>
+
+    <style name="MyActionBarWidgetTheme" parent="@android:style/Theme.Material.Light">
+        <item name="*android:searchResultListItemHeight">61dp</item>
+    </style>
+
+    <style name="ComposeMessageTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+       <item name="android:actionMenuTextAppearance">@style/MMSTextAppearance.Holo.Widget.ActionBar.Menu</item>
+       <item name="android:spinnerDropDownItemStyle">@style/CustomDropDownItemStyle</item>
+       <item name="android:colorPrimaryDark">#0277bd</item>
+       <item name="android:actionModeBackground">@color/action_mode_background</item>
+       <item name="android:actionBarStyle">@style/MyActionBarCM</item>
+       <item name="android:actionBarSize">52dip</item>
+       <item name="android:colorPrimary">#0288d1</item>
+       <item name="*android:lightY">150dp</item>
+     </style>
+  <style name="MMSTextAppearance.Holo.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">normal</item>
+  </style>
+
+    <style name="TextShadowLight">
+        <item name="android:textColor">@color/solid_white</item>
+        <item name="android:shadowColor">@color/text_shadow_color_light</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="BannerTitleText" parent="TextShadowLight">
+        <item name="android:textSize">18sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BannerContentText" parent="TextShadowLight">
+        <item name="android:textSize">14sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+  <style name="MMSSimChooseTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+  </style>
+
+  <style name="CustomDropDownItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textAppearance">@style/CustomDropDownItemTextStyle</item>
+  </style>
+
+  <style name="CustomDropDownItemTextStyle" >
+        <item name="android:textSize">18dip</item>
+  </style>
+  <style name="MyActionBar" parent="@android:style/Widget.Material.Light.ActionBar">
+        <item name="android:background">#0288d1</item>
+         <item name="android:titleTextStyle">@style/ActionBarTitleTextStyleNewUI</item>
+         <item name="android:subtitleTextStyle">@style/ActionBarSubTitleTextStyleNewUI</item>
+    </style>
+    <style name="MyActionBarCM" parent="@android:style/Widget.Material.Light.ActionBar">
+        <item name="android:background">#0288d1</item>
+        <item name="android:titleTextStyle">@style/ComposeMessageActionBarTitleTextStyleNewUI</item>
+        <item name="android:subtitleTextStyle">@style/ActionBarSubTitleTextStyleNewUI</item>
+        <item name="android:elevation">10dp</item>
+    </style>
+    <style name="ActionBarTitleTextStyleNewUI" parent="android:TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="ComposeMessageActionBarTitleTextStyleNewUI" parent="android:TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+        <style name="ActionBarSubTitleTextStyleNewUI" parent="android:TextAppearance.Material.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="FullyTranslucentNewui" parent="MmsHoloThemeNewui">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+  <!-- @} -->
+</resources>

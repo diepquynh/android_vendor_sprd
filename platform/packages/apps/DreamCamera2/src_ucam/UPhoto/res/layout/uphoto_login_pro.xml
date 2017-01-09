@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010,2011 Thundersoft Corporation
+    All rights Reserved
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/btn_editor_entry"
+            style="@style/uphoto_login_anim_style"
+            android:drawableTop="@drawable/ic_edit"
+            android:text="@string/text_edit_editor" />
+
+        <LinearLayout
+            android:id="@+id/uphoto_editor_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/btn_camera_capture"
+                style="@style/uphoto_login_item_style"
+                android:drawableLeft="@drawable/ic_edit_camera"
+                android:text="@string/text_edit_from_camera" />
+
+            <TextView
+                android:id="@+id/btn_choose_photo"
+                style="@style/uphoto_login_item_style"
+                android:drawableLeft="@drawable/ic_edit_gallery"
+                android:text="@string/text_edit_from_gallery" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/btn_makeup_entry"
+            style="@style/uphoto_login_anim_style"
+            android:drawableTop="@drawable/ic_module_makeup"
+            android:text="@string/text_edit_makeup" />
+
+        <LinearLayout
+            android:id="@+id/uphoto_makeup_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/btn_makeup_capture"
+                style="@style/uphoto_login_item_style"
+                android:drawableLeft="@drawable/ic_edit_camera"
+                android:text="@string/text_edit_from_camera" />
+
+            <TextView
+                android:id="@+id/btn_makeup_photo"
+                style="@style/uphoto_login_item_style"
+                android:drawableLeft="@drawable/ic_edit_gallery"
+                android:text="@string/text_edit_from_gallery" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/btn_collage_entry"
+            style="@style/uphoto_login_style"
+            android:drawableTop="@drawable/ic_module_collage"
+            android:text="@string/text_edit_collage" />
+
+        <TextView
+            android:id="@+id/btn_uphoto_graffiti"
+            style="@style/uphoto_login_style"
+            android:drawableTop="@drawable/ic_module_graffiti"
+            android:text="@string/text_edit_graffiti" />
+    </LinearLayout>
+
+</LinearLayout>

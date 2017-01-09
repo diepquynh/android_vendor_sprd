@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010,2011 Thundersoft Corporation
+    All rights Reserved
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.android.camera2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <!-- xmlns:custom ="http://schemas.android.com/apk/res/com.ucamera.ucam" -->
+
+    <com.ucamera.uphoto.BalloonView
+        android:id="@+id/edit_balloon_style_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        custom:balloonHeight="44dip"
+        custom:balloonSize="4dip"
+        custom:balloonWidth="100dip"
+        custom:viewHeight="44dip"
+        custom:viewWidth="134dip" />
+
+</RelativeLayout>

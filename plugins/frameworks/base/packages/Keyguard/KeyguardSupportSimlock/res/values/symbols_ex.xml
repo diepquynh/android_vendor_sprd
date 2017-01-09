@@ -1,0 +1,18 @@
+<resources>
+  <!-- We don't want to publish private symbols in android.R as part of the
+       SDK.  Instead, put them here. -->
+  <private-symbols package="com.android.plugin.keyguard" />
+  <!-- SPRD: add for simlock @{ -->
+  <java-symbol type="string" name="simlock_pn_locked" />
+  <java-symbol type="string" name="simlock_pu_locked" />
+  <java-symbol type="string" name="simlock_pp_locked" />
+  <java-symbol type="string" name="simlock_pc_locked" />
+  <java-symbol type="string" name="simlock_ps_locked" />
+  <java-symbol type="string" name="simlock_pn_puk_locked" />
+  <java-symbol type="string" name="simlock_pu_puk_locked" />
+  <java-symbol type="string" name="simlock_pp_puk_locked" />
+  <java-symbol type="string" name="simlock_pc_puk_locked" />
+  <java-symbol type="string" name="simlock_ps_puk_locked" />
+  <java-symbol type="string" name="simlock_forever_locked" />
+  <!-- @} -->
+</resources>

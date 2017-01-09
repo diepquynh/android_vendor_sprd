@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"Suara Trigger"</string>
+<string name="audio_voicetrigger_words">"Wake up word"</string>
+<string name="audio_voicetrigger_sensibility">"Pengenalan sensitivitas"</string>
+<string name="audio_voicetrigger_support_fun">"Mendukung fungsi diskripsi"</string>
+<string name="audio_voicetrigger_connect_headset">"Menghubungkan headset untuk menggunakan"</string>
+<string name="audio_voicetrigger_language_choose">"Pilih bahasa perintah suara"</string>
+<string name="audio_voicetrigger_help">"Bantuan"</string>
+<string name="audio_voicetrigger_subtitle_wakeup_default">"Konteks dari Wake Words"</string>
+<string name="audio_voicetrigger_subtitle_wakeup_userdefine">"Pengguna ditetapkan"</string>
+<string name="audio_voicetrigger_subtitle_language_choose">"Mengatur bahasa perintah suara"</string>
+<string name="audio_voicetrigger_subtitle_help">"Kostum Audisi wake-up word"</string>
+<string name="voicetrigger_connect_headset_content">"Ketika terhubung ke kabel headset atau headsetBluetooth, \ Itu masih dapat untuk membangunkan telepon dan digunakan normal. \ tetapi Suara anda dikumpulkan melalui mikrofon telepon, \ dan mikrofon dari headset tidak dapat membangunkan telepon"</string>
+<string name="voicetrigger_wakeup_title">"Mendaftar wake-up word"</string>
+<string name="voicetrigger_input_title">"Merekam wake-up word"</string>
+<string name="voicetrigger_describe">"Ketika telepon tidak dekat tubuh atau terganggu untuk menanganinya,\seperti menelepon, dengan mendengarkan musik, etc. anda dapat menggunakan wakeup words untuk membangunkan perangkat anda dan melakukan sesuatu dengan suara anda."</string>
+<string name="change_language_progress_dialog_message">"Mengganti bahasa, Silahkan menunggu..."</string>
+<string name="info_press_to_start">"Tombol klik untuk merekam suara"</string>
+<string name="info_default">"Silahkan bicara di tempat sepi"</string>
+<string name="info_recording">"Merekam..."</string>
+<string name="info_please_wait">"Silahkan tunggu..."</string>
+<string name="info_talk_louder">"Keraskan bicara"</string>
+<string name="info_pause_before">"Tunda "1-2 detik sebelum berbicara""</string>
+<string name="info_too_noisy">"Terlalu berisik. Pindah ke tempat yang lebih tenang"</string>
+<string name="info_talk_softer">"Lembutkan Bicara"</string>
+<string name="info_bad_recording">"Buruk merekam"</string>
+<string name="info_talk_slower">"Pelankan Bicara"</string>
+<string name="info_too_many_sound">"Terlalu banyak pengulangan suara"</string>
+<string name="info_check_rec">"Melakukan generate trigger. Silahkan tunggu..."</string>
+<string name="info_problems_in_rec">"Masalah dalam satu atau lebih perekaman, anda harus merekam lagi"</string>
+<string name="generate_voicetrigger_words_success">"Generate suara pemicu berhasil"</string>
+<string name="voicetrigger_wakeup_item_1">"%1$s (default)"</string>
+<string name="voicetrigger_wakeup_item_2">"menetapkan pengguna"</string>
+<string name="prompting_user_defined_text">"Konten dari kostum wake up words"</string>
+<string name="prompting_text_default">"Silahkan berkata ：%1$s"</string>
+<string name="prompting_text_1">"Silahkan berkata ：%1$s lagi"</string>
+<string name="prompting_text_2">"Selesai"</string>
+<string name="error_app_internal">"Kesalahan aplikasi internal."</string>
+<string name="dialog_dismiss">"Abaikan"</string>
+<string name="error_permissions">"Aplikasi ini tidak memiliki izin kritis yang diperlukan untuk berjalan. Periksa setelan izin."</string>
+<string name="dialog_title">Peringatan...</string>
+<string name="dialog_firstuse_info">"Anda adalah yang pertama menggunakan fitur ini, anda harus mengatur default suara untuk wakeup perangkat ini"</string>
+<string name="no_wakeup_words_recoded">"Anda atidak dapat merekam pengguna menetap wakeup words"</string>
+<string name="dialog_title_notice">"Beritahu"</string>
+<string name="dialog_change_language_first">"Diperiksa anda tidak dapat merekam suara kata membuat bangun bahasa saat ini,\anda harus merekam suara baru untuk perangkat membuat bangun, apakah anda melanjutkan ?"</string>
+<string name="same_application_running">"Perangkat rekaman telah digunakan oleh program lain, silahkan tutup program ini!"</string>
+<string name="is_not_systemuser">"Saat ini tidak ada pengguna sistem, tidak dapat menggunakan wake up suara."</string>
+<string-array name="hello_trigger_text_title_array">
+<item>"Halo, boleh saya bantu anda?</item>
+<item>"Silahkan pergi, saya mendengarkan..."</item>
+<item>"Anda dapat menanyakan saya seperti ini:"</item>
+</string-array>
+<string name="support_find_phone">"Temukan telepon"</string>
+<string name="support_find_phone_summary">"Berteriak keras：\' [kata membuat bangun] + Dimana anda?\', telepon akan menanggapi untuk anda dengan memainkan kostum nada dering."</string>
+<string name="support_call_phone">"Membuat panggilan telepon"</string>
+<string name="support_call_phone_summary">"Mengatakan ke telepon：\' [kata membuat bangun] + Panggil Xiao Wang\'，itu akan memanggil seseorang."</string>
+<string name="support_send_mms">"Kirim pesan"</string>
+<string name="support_send_mms_summary">"Mengatakan ke telepon：\' [kata membuat bangun] + Kirim pesan teks untuk Xiao Wang\'，itu akan membuka aplikasi pesan untuk mengirim pesan."</string>
+<string name="support_camera">"Mengambil gambar"</string>
+<string name="support_camera_summary">"Mengatakan ke telepon：\' [kata membuat bangun] + Ambil gambar untuk saya\'，itu akan membuka kamera dan mengambil gambar langsung."</string>
+<string name="support_open_music">"Memainkan musik"</string>
+<string name="support_open_music_summary">"Mengatakan ke telepon:\' [kata membuat bangun] + Mainkan Wang Fei\'s \"Hong Dou\"\'，Itu akan membuka perangkat musik dan memainkan lagu."</string>
+<string name="support_open_app">"Jalankan aplikasi"</string>
+<string name="support_open_app_summary">"Mengatakan ke telepon：\' [kata membuat bangun] + Buka WeChat\'，telepon akan jalankan aplikasi."</string>
+<string name="find_phone_content">"Anda dapat menanyakan saya：\n\n Dimana anda\n Apakah anda dengar saya\n berikan saya tanggapan"</string>
+<string name="call_phone_content">"Anda dapat menanyakan saya：\n\n Panggil Xiao Wang\n Panggil Xiaomin kembali\n Panggil layanan kostumer dari China Mobile\n Panggil 114"</string>
+<string name="send_mms_content">"Anda dapat mengatakan saya：\n\n Kirim Xiao Wang pesan teks\n Kirim pesan teks ke Xiaomin\n Membalas pesan teks ke ibu\n Mengirim waktu meeting ke Xiaoming dari SMS"</string>
+<string name="open_camera_content">"Anda dapat menanyakan saya：\n\n Ambil gambar untuk saya\n Ambil gambar dari pemandangan\n Ambil gambar dari signpost."</string>
+<string name="open_music_content">"Anda dapat menanyakan saya：\n\n Mainkan Wang Fei\'s \"Hong Dou\"\n Mainkan musik sembarangan \n saya ingin mendengarkan ke "Pao Mo"\n Mainkan musik dari Zhang Xueyou"</string>
+<string name="open_app_content">"Anda dapan mengatakan say：\n\n Buka WeChat\n Mengunduh aplikasi "kompas" \n Jalankan notepad"</string>
+<string name="default_trigger">"Trigger: Hallo Blue Genie v17 (Inggris US)"</string>
+<string name="default_command">"Perintah: Fitness v2.2 (Inggris US)"</string>
+<string name="default_command_sen">"Sensitivitas: Normal"</string>
+<string name="trigger_prompt">"Mengatakan Halo Blue Genie"</string>
+<string name="command_prompt1">"Sekarang mengatakan satu dari\nmengikuti..."</string>
+<string name="command_prompt2">""Sekarang katakan perintah"</string>
+<string name="cmd_step_count">"Langkah Hitung"</string>
+<string name="cmd_calories">"Kalori"</string>
+<string name="cmd_floors">"Lantai"</string>
+<string name="cmd_distance">"jarak"</string>
+<string name="cmd_active_minutes">"Menit Aktif"</string>
+<string name="cmd_sleep_pattern">"Pola TIdur"</string>
+<string name="cmd_outside_temperature">"Suhu di luar"</string>
+<string name="cmd_outside_humidity">"Kelembapan di luar"</string>
+<string name="cmd_what_time_is_it">"Jam berapa sekarang?"</string>
+<string name="cmd_heart_rate">"Laju hati"</string>
+<string name="resp_step_count">"Langkah Hitung = 4306"</string>
+<string name="resp_calories">"Hari ini kalori terbakar = 1445"</string>
+<string name="resp_floors">"Hari ini lantai yang dinaiki = 8"</string>
+<string name="resp_distance">"Hari ini jarak = 2.52 mil"</string>
+<string name="resp_active_minutes">"Hari ini meti aktif = 17"</string>
+<string name="resp_sleep_pattern">"Hari ini tidur nyenyak = 3jam 25menit"</string>
+<string name="resp_outside_temperature">"Suhu di luar = 74 F"</string>
+<string name="resp_outside_humidity">"Kelembapan di luar = 41 %"</string>
+<string name="resp_what_time_is_it">"Waktu Saat ini ="</string>
+<string name="resp_heart_rate">"Laju hati = 74 bpm"</string>
+<string name="time_left">"Waktu berlalu: X s" </string>
+<string name="language_changed_success">"bahasa diganti berhasil"</string>
+<string name="save_file_to_device_error">"Mengganti wake up word switch gagal,silahkan ulangi lagi nanti!"</string>
+<string name="language_changed_failed">"Mengubah bahasa gagal, silahkan ulangi lagi nanti"</string>
+<string name="language_change_has_canceled">"Telah dibatalkan, anda dapat juga menggunakan bahasa yang lama"</string>
+<string name="finished">"Selesai"</string>
+<string name="sensibility_text">"Mengatur sensitivitas dari wake up word dalam pengenalan \n \ Ketika sensitivitas diatur tinggi, Laju tinggu dari wake up\n \ Ketika sensitivitas diatur rendah, laju rendah dari wake up"</string>
+<string name="update_phrass_success">"Memperbaharui frase berhasil"</string>
+</resources>

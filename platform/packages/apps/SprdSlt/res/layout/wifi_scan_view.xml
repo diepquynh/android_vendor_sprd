@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/wifi_addr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/wifi_addr"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/wifi_addr_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/wifi_state"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wifi_state"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/wifi_state_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/wifi_device"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="@string/wifi_device"
+        android:textSize="17sp" >
+    </TextView>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/tv_wifi_device_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp" />
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/favorite_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/layout_batch_operation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/fm_station_rds_margin_top_start"
+            android:paddingRight="@dimen/fm_station_rds_margin_top_start"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tv_station_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.54"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:text="@string/app_name"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/fm_primary_text_size" />
+
+            <LinearLayout
+                android:id="@+id/ck_selectAll_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end|center_vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.54"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:text="@string/select_all"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/fm_primary_text_size" />
+
+                <CheckBox
+                    android:id="@+id/ck_selectAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/checkbox_hint_color"
+                    android:checked="false"
+                    android:clickable="false"
+                    android:focusable="false" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/station_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/empty_tips"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/empty_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_station_null" />
+
+        <TextView
+            android:id="@+id/empty_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fm_empty_text_margin_top"
+            android:alpha="0.87"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/station_empty_text"
+            android:textSize="@dimen/fm_station_searching_tips_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_tips"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="@dimen/fm_list_progress_width"
+            android:layout_height="wrap_content"
+            android:alpha="0.87"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/station_searching_tips"
+            android:textSize="@dimen/fm_station_searching_tips_size" />
+
+        <ProgressBar
+            android:id="@+id/search_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="@dimen/fm_list_progress_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fm_search_progress_margin_top" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<com.android.camera.ui.PhotoVoiceRecordProgress xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/photo_voice_record_progress"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/camera_record_voice_tip"
+        android:textSize="13dp"
+        android:textColor="#FFFFFFFF"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:visibility="invisible">
+
+
+        <TextView
+            android:id="@+id/time_voices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_recording_indicator"
+            android:textSize="13dp"
+            android:padding="5dp"
+            android:gravity="center_horizontal"
+            android:textColor="#FFFFFFFF"
+        />
+    </LinearLayout>
+
+</com.android.camera.ui.PhotoVoiceRecordProgress>

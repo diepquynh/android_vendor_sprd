@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_label">"Namahala sa download"</string>
+<string name="permlab_downloadManager">"Access ang namahala sa download."</string>
+<string name="permdesc_downloadManager">"Nagtugot sa app sa pagakses sa tigdumala sa pag-download ug gamiton ni sa pagdownload sa mga payl. Malisyoso nga mga app mahimong mugamit ani para sa pagdaot sa pag-download ug akses sa pribado nga mga impormasyon."</string>
+<string name="permlab_downloadManagerAdvanced">"Naguna nga mga kalihokan sa tigdumala sa pag-download."</string>
+<string name="permdesc_downloadManagerAdvanced">"Nagtugot sa app sa pagakses sa tigdumala sa pag-download nga mga nagunsa nga kalihokan. Malisyoso nga mga app mahimong maggamit ani sa pagdaot sa pag-download ug akses sa pribado nga impormasyon."</string>
+<string name="permlab_downloadCompletedIntent">"Pagpadala ug pagpahibalo sa pagdownload."</string>
+<string name="permdesc_downloadCompletedIntent">"Nagtugot sa app sa pagpadala ug mga pagpahibalo mahitungod sa mga nakumpleto nga mga pagdownload. Malisyoso nga mga app mahimong mugamit ani sa pagpalibog sa ubang app nga magdownload ug mga payl."</string>
+<string name="permlab_seeAllExternal" product="nosdcard">"Tanawon tanan mga download sa imbakan sa USB"</string>
+<string name="permlab_seeAllExternal" product="default">"Tanawa tanan mga download ngadto sa SD card"</string>
+<string name="permdesc_seeAllExternal">"Nagtakda sa app sa pagkita sa tanan gidownload sa SD kard, bisan pa ug unsa nga app ang nagdownload nila."</string>
+<string name="permlab_downloadCacheNonPurgeable">"Nagreserba sa espasyo sa pagdownload nga cache"</string>
+<string name="permdesc_downloadCacheNonPurgeable">"Nagtugot sa app sa pagdownload sa mga payl sa download nga cache, nga dili awtomatiko nga mapanas kon ang tigdumala sa pagdownload kinahanglan ug dagahan nga espasyo."</string>
+<string name="permlab_downloadWithoutNotification">"download ug mga payl bisag walay pagpahibalo"</string>
+<string name="permdesc_downloadWithoutNotification">"Nagtugot sa app sa pagdownload sa mga payl pinaagi sa tigdumala sa pagdownload bisag walay pagpahibalo nga gipakita sa tiggamit."</string>
+<string name="permlab_accessAllDownloads">"I-akses tanan sistema nga pagdownload"</string>
+<string name="permdesc_accessAllDownloads">"Nagtugot sa app sa pagtanaw ug pagbag-o sa tanan pagdownload nga gisugdan sa bisag unsa nga app sa sistema."</string>
+<string name="download_unknown_title">"Walay titulo"</string>
+<string name="notification_download_complete">"Download kumpleto."</string>
+<string name="notification_download_failed">"Download dili malampuson"</string>
+<string name="notification_need_wifi_for_size">"Sukod sa Download nanginahanglan ug Wi-Fi"</string>
+<string name="notification_paused_in_background">"Nahunong sa likod."</string>
+<string name="wifi_required_title">"Download dako ra kayo para sa operasyon sa network"</string>
+<string name="wifi_required_body">"Ikaw kinahanglan mugamit sa Wi-Fi sa pagkumpleto ani <xliff:g id="size" example="12.3KB">%s </xliff:g> nga pagdownload. \n\nHikapa <xliff:g id="queue_text" example="Queue">%s </xliff:g> para sa pagsugod sa pagdownload sa sunod nga ikaw konektado na sa Wi-Fi nga network."</string>
+<string name="wifi_recommended_title">"Isunod para sa download unya?"</string>
+<string name="wifi_recommended_body">"Pagsugod ani <xliff:g id="size" example="12.3KB">%s </xliff:g> pagdownload karon mahimong makamubo sa imong bateri nga kinabuhi ug/o muresulta sa palabi nga paggamit sa imong mobayl nga datus nga koneksyon, nga makagiya sa bayad sa imong mobayl nga tigopera depende sa imo datus nga plan.\n\n Hikapa <xliff:g id="queue_text" example="Queue">%s</xliff:g> para sa pagsugod sa pagdownload sa sunid nga ikaw konektado na sa Wi-Fi nga network."</string>
+<string name="button_queue_for_wifi">"Isunod"</string>
+<string name="button_cancel_download">"Kansela"</string>
+<string name="button_start_now">"Sugod karon"</string>
+<plurals name="notif_summary_active">
+<item quantity="one">"1 ka payl ang nagakarga"</item>
+<item quantity="other">"<xliff:g id="number">%d</xliff:g> ka mga payl ang nagakarga"</item>
+</plurals>
+<plurals name="notif_summary_waiting">
+<item quantity="one">"1 payl ang naghuwat"</item>
+<item quantity="other">"<xliff:g id="number">%d</xliff:g> ka mga payl ang naghuwat"</item>
+</plurals>
+<string name="download_remaining">"<xliff:g id="duration" example="3 minutes">%s</xliff:g> nahabilin"</string>
+<string name="download_no_application_title">"Dili ma-abli ang payl"</string>
+<string name="root_downloads">"Mga download"</string>
+<string name="download_queued">"Nasunod-sunod"</string>
+<string name="download_running">"Nagprogress pa"</string>
+<string name="download_error">"Dili malampuson"</string>
+<string name="download_running_percent">"Nagpadayon, <xliff:g id="percentage" example="50%">%s</xliff:g>"</string>
+</resources>

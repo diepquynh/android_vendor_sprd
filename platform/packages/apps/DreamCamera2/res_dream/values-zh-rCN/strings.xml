@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="camera_mode">相机模式</string>
+    <string name="camera_mode_auto_photo">自动</string>
+    <string name="camera_mode_manual">手动</string>
+    <string name="camera_mode_scenery">相框</string>
+    <string name="camera_mode_scene">场景选择</string>
+    <string name="camera_mode_pip">画中画</string>
+    <string name="camera_mode_gcam">全景</string>
+    <string name="camera_mode_gif">动画</string>
+    <string name="camera_mode_interval">间隔拍摄</string>
+    <string name="camera_mode_viv">画中画</string>
+    <string name="camera_mode_audio_picture">有声照片</string>
+    <string name="camera_mode_vgesture">V手势自拍</string>
+    <string name="camera_mode_qrcode">二维码</string>
+    <string name="mode_timelapse">快录（延时）</string>
+    <string name="camera_mode_slowmotion">慢录</string>
+    <string name="slide_panel_capture">取景</string>
+    <string name="slide_panel_mode">模式</string>
+    <string name="slide_panel_filter">滤镜</string>
+    <string name="extend_panel_exposure">曝光</string>
+    <string name="extend_panel_iso">ISO</string>
+    <string name="extend_panel_wb">白平衡</string>
+    <string name="extend_panel_style">色彩风格</string>
+    <string name="extend_panel_style_default">默认</string>
+    <string name="extend_panel_style_customize">自定义</string>
+    <string name="zoom_scale">变焦范围</string>
+    <string name="make_up_effect">美颜效果</string>
+    <string name="min_make_up_level">1</string>
+    <string name="max_make_up_level">5</string>
+    <string name="dream_freeze_frame_confirm_delete_text">将放弃所有照片?</string>
+    <string name="dream_setting_back_camera_photo">照片大小(后置相机)</string>
+    <string name="dream_setting_back_camera_video">视频大小(后置相机)</string>
+    <string name="dream_setting_front_camera_photo">照片大小(前置相机)</string>
+    <string name="dream_setting_front_camera_video">视频大小(前置相机)</string>
+    <string name="dream_pref_restore_detail">还原相机默认设置</string>
+    <string name="dream_restore_message">要恢复相机默认设置吗?</string>
+    <string name="dream_scenery_module_warning">相框模式会使部分设置项失效</string>
+    <string name="dream_continuephotomodule_module_warning">长按快门连拍，直至松开快门或达到连拍上限</string>
+    <string name="dream_slowmotion_module_warning">可在设置菜单中改变慢录倍率</string>
+    <string name="dream_timelapse_module_warning">可在设置菜单中改变延时间隔</string>
+
+    <!-- SPRD: fix bug 474665 @{ -->
+    <string name="pref_shutter_sound_title">相机声音</string>
+
+    <string name="dialog_freeze_frame_confirm_delete_text">确认放弃此图片?</string>
+
+    <string name="color_effect_mutex">开启色彩效果后一些设置项已恢复默认值</string>
+
+    <string name="welcome_right">右滑可切换相机模式.</string>
+    <string name="welcome_left">左滑可打开相机滤镜.</string>
+    <string name="welcome_confirm">开始拍照</string>
+
+    <!-- fix bug 578797 New feature:QR code @{ -->
+    <string name="pref_key_qrcode_function">二维码</string>
+    <string name="scan_qrcode">扫描二维码</string>
+    <string name="back_qrcode_scan">返回</string>
+    <string name="qrcode_scan">二维码扫描</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="rescan_label">重新扫描</string>
+    <string name="access_link_label">访问链接</string>
+    <string name="scan_result">扫描结果</string>
+    <string name="qrcode">Url:</string>
+    <string name="qrcode_result">未读取到任何数据，请重新扫描</string>
+    <string name="qrcode_can_not_resolve">无法打开链接</string>
+    <!-- }@ -->
+
+    <!-- fix bug fix Bug 616294 add warn location express when enter into Camera @{ -->
+    <string name="warn_location_title">警示</string>
+    <string name="warn_location_message">是否允许开启定位服务？</string>
+    <!-- }@ -->
+</resources>

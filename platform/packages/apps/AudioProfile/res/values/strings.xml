@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="audio_profiles">Audio Profiles</string>
+	<!-- SPRD 433622 -->
+	<string name="predefined_audio_profiles">Predefined audio profiles</string>
+	<string name="user_defined_audio_profiles">User defined audio profiles</string>
+	<string-array name="profile_display_name" translatable="true">
+		<item>General</item>
+		<item>Silent</item>
+		<item>Vibration</item>
+		<item>Outdoor</item>
+	</string-array>
+	<string name="standard_string">General</string>
+	<string name="silent_string">Silent</string>
+	<string name="vibrate_string">Vibration</string>
+	<string name="outdoor_string">Outdoor</string>
+	<string name="outdoor_summary">Max Volume and Vibrate</string>
+	<string name="add_profile">Add</string>
+	<string name="use_profile">Use</string>
+	<string name="edit_profile">Edit</string>
+	<string name="rename_profile">Rename</string>
+	<string name="reset_profile">Reset</string>
+	<string name="delete_profile">Delete</string>
+
+	<string name="empty_name_dialog">Name can not be empty</string>
+	<string name="duplicate_display_name_dialog">Name already exists</string>
+	<string name="add_profile_msg">Please input the new profile name</string>
+	<string name="rename_profile_msg">Please input the new profile name</string>
+	<string name="delete_profile_msg">Do you want to delete Profile <xliff:g id="name">%s</xliff:g>?</string>
+	<string name="reset_profile_msg">All the audio profile settings will be reset to default</string>
+
+	<string name="incoming_call_volume_title">Ringtone &amp; notifications</string>
+	<string name="alarm_volume_title">Alarm</string>
+
+	<string name="dlg_ok">OK</string>
+	<string name="dlg_cancel">Cancel</string>
+
+	<string name="sound_settings">Sound settings</string>
+	<string name="vibrate_title">Call</string>
+	<string name="vibrate_summary">Vibration feedback for calls</string>
+	<string name="sound_category_calls_and_notification_title">Ringtone</string>
+	<string name="ringtone_title">Call ringtone</string>
+	<string name="ringtone_summary">""</string>
+	<string name="sound_category_notification_title">Notifications</string>
+	<string name="notification_sound_title">Default notification</string>
+	<string name="notification_sound_summary">""</string>
+	<string name="all_volume_title">Volume</string>
+	<string name="notification_sound_dialog_title">Choose notification ringtone</string>
+	<string name="sound_category_feedback_title">System</string>
+	<string name="ring_volume_summary">""</string>
+    <string name="dial_pad_tones_title">Dial pad tones</string>
+    <string name="screen_locking_sounds_title">Screen locking sounds</string>
+    <!-- <string name="charging_sounds_title">Charging sounds</string> -->
+	<string name="sound_effects_enable_title">Touch sounds</string>
+    <string name="haptic_feedback_enable_title">Vibrate on touch</string>
+
+
+    <string name="revert_ring_vol">The volume of ring should not be zero in this profile,it will be reverted.</string>
+    <string name="input_limit">Reached input limit</string>
+    <string name="ringtone_default_message">"Sorry, the ringtone file does not play, have set the default sound file as a ringtone"</string>
+    <string name="sim_ringtone_title">"SIM<xliff:g id="SIM_LOCK_STRING">%1$s</xliff:g> <xliff:g id="TYPE">%2$s</xliff:g> Call ringtone"</string>
+    <string name="ringtone_not_exist_message">"Sorry, the ringtone file does not exist"</string>
+    <string name="media_volume_titles">"Music,Video,Games,Other Media"</string>
+    <string name="ring_volume_title">"Ringtone"</string>
+    <string name="notification_volume_title">"Notifications"</string>
+
+  <string name="sound_improvement">"Sound improvement"</string>
+  <string name="sound_improvement_select">"BseAudioEnh"</string>
+  <string name="sound_improvement_summary">"Sound improvement for earphone"</string>
+    <string name="messagetone_summary"></string>
+    <string name="sim_messagetone_title">"SIM<xliff:g id="SIM_LOCK_STRING">%1$s</xliff:g> <xliff:g id="TYPE">%2$s</xliff:g> Message ringtone"</string>
+    <string name="messagetone_title">"Message Ringtone"</string>
+    <string name="vibrate_category_feedback_title">"Vibrate"</string>
+    <string name="vibrate_msg_title">"Message"</string>
+    <string name="vibrate_msg_summary">"Vibration feedback for messages"</string>
+</resources>

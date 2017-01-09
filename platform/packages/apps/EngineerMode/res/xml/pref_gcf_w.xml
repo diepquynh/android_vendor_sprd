@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="GCF_W" >
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/supplementary_service_query_entries"
+        android:entryValues="@array/supplementary_service_query_values"
+        android:key="supplementary_service_query"
+        android:title="@string/supplementary_service_query" />
+
+    <Preference
+        android:key="gprsservice"
+        android:title="@string/gprsservice" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.debuglog.GPRSAttachServiceActivity"
+            android:targetPackage="com.sprd.engineermode" >
+        </intent>
+    </Preference>
+    <Preference
+        android:key="network_mode"
+        android:title="@string/network_mode" >
+    </Preference>
+<!--2014.5.21  delete automatic_startup_power -->
+    <!-- <SwitchPreference
+        android:enabled="false"
+        android:key="automatic_startup_power"
+        android:title="@string/automatic_startup_power" >
+    </SwitchPreference> -->
+
+</PreferenceScreen>

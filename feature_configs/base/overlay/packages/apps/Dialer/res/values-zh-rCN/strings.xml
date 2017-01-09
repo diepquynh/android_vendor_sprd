@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD: add for bug474356 filter calllog @{ -->
+    <string name="call_log_outgoing_title">"已拨电话"</string>
+    <string name="call_log_incoming_title">"已接电话"</string>
+    <string name="call_log_outgoing_empty">"您没有任何已拨电话。"</string>
+    <string name="call_log_incoming_empty">"您没有任何已接来电。"</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_SIM_CARD_IDENTIFICATION_IN_CALLLOG -->
+    <string name="sim">"SIM"</string>
+    <!-- SPRD: FILTER CALL LOGS BY SIM FEATURE. @{ -->
+    <string name="view_setting">"查看"</string>
+    <string name="item_all_calls">"所有通话记录"</string>
+    <string name="item_sim_calls">"SIM%d 通话记录"</string>
+    <!-- @} -->
+    <!-- SPRD: FAST DIAL FEATURE -->
+    <string name="fast_dial_title">"快速拨号设置"</string>
+    <string name="no_fast_dial_number">"当前按键未设置快速拨号号码。"</string>
+    <string name="fast_dial_in_guest_mode">"非机主模式下无法使用快速拨号功能"</string>
+    <!-- @} -->
+    <!-- SPRD: VIBRATION FEEDBACK FUNCTION & Modified for Bug608351 @{ -->
+    <string name="vibration_feedback_for_call_connection_setting_title">"通话连接提示"</string>
+    <string name="vibration_feedback_for_call_connection_title">"去电连接后发出振动反馈"</string>
+    <string name="vibration_feedback_for_call_disconnection_title">"通话结束后发出振动反馈"</string>
+    <!-- SPRD: CLEAR CALL LOG FEATURE. @{ -->
+    <string name="unselect_all">"全部不选中"</string>
+    <string name="select_all_sprd">"全部选中"</string>
+    <string name="doneButton">"完成"</string>
+    <string name="cancel">"取消"</string>
+    <string name="delete_selected_calls">"您确定要删除全部选中的记录吗？"</string>
+    <string name="clearCallLogProgress_title">"删除所有通话记录\u2026"</string>
+    <string name="delete_success">"删除成功"</string>
+    <string name="clear_all_call_log">"删除所有通话记录"</string>
+    <string name="clear_selected_call_log">"删除全部选中的通话记录"</string>
+    <string name="select_all">"全选"</string>
+    <string name="unselect_all">"取消全选"</string>
+    <string name="delete_all_calls_confirm">"您确定要删除全部选中的记录吗？"</string>
+    <string name="do_not_select">您没有选择要删除的记录</string>
+    <string name="delete_calls">"删除"</string>
+    <!-- @} -->
+    <!-- SPRD: bug#474283, IP DIAL FEATURE. @{ -->
+    <string name="ip_dialing_list_title">"IP 拨号设置"</string>
+    <string name="ip_dial_menu">"IP 拨号"</string>
+    <string name="ip_dialing_title">"IP 拨号"</string>
+    <string name="dialog_phone_permission_deny">要使用IP拨号设置，请开启“电话”权限</string>
+    <!-- @} -->
+    <!-- SPRD: add for search call log in google search box feature -->
+    <string name="search_description">"搜索通话记录"</string>
+    <!-- SPRD: Add for bug587904 -->
+    <string name="fast_dial_in_guest_mode">"非机主模式下无法使用快速拨号功能"</string>
+    <!-- SPRD: Add for bug588583 -->
+    <string name="error_permissions">"此应用缺少运行所需的必要权限。请检查您的权限设置。"</string>
+    <!-- SPRD: add for bug591174 -->
+    <string name="list_delimeter">" "</string>
+    <string name="search_shortcut_send_sms_message" msgid="2569304043345025525">"发送信息"</string>
+    <string name="call_log_action_send_message" msgid="5679719296905285131">"发送信息"</string>
+    <!-- SPRD: add for bug595799 -->
+    <string name="number_anr_isnull">"联系人号码为空"</string>
+    <!-- SPRD: add for bug597995  -->
+    <string name="notification_missedCall_message" msgid="3042123733754151052">"发信息"</string>
+    <!-- SPRD: add for bug597967 -->
+    <string name="voice_mail_guest_mode">"非机主模式下无法使用语音信箱功能"</string>
+    <!-- SPRD: add for bug597518 -->
+    <string name="no_available_number">"无可用号码"</string>
+    <!-- SPRD: add for bug598787 -->
+    <string name="no_available_sim">"请确认是否禁用或者插入了sim卡"</string>
+    <!-- SPRD: add for bug602916 -->
+    <string name="speed_dial_empty" msgid="8838921693673366129">"尚未给任何联系人设定快速拨号。"</string>
+    <!-- SPRD: add for bug 601793 -->
+    <string name="permission_no_contacts">"要查看您的联系人，请开启“电话”和“通讯录”权限。"</string>
+    <!-- SPRD: add for bug 604233 @{ -->
+    <string name="migrate_blocked_numbers_dialog_message" msgid="5598530398682662860">"为了向您提供更好的安全保护，“电话”应用需要升级屏蔽方式。您将不会再收到已屏蔽号码的来电和信息，而且系统还可能会将屏蔽号码列表共享给其他应用。"</string>
+    <string name="block_number_confirmation_message_new_filtering" msgid="4524854769790960179">"您将不会再收到此号码的来电或信息。"</string>
+    <!-- @} -->
+    <!-- SPRD: add for bug611098 -->
+    <string name="no_permission_for_voicemail">"要使用语音信箱功能，请开启“电话”权限"</string>
+    <!-- SPRD: add for bug611786 -->
+    <string name="dialog_make_call_airplane_mode_message">"如要拨打电话，请先关闭飞行模式。"</string>
+    <!-- SPRD: add for bug610233 -->
+    <string name="number_not_in_black_list">"号码不在黑名单中。"</string>
+    <!-- SPRD: Add for bug613018 -->
+    <string name="ip_dial_in_guest_mode">"非机主模式下无法使用IP拨号功能"</string>
+</resources>

@@ -1,0 +1,35 @@
+#ifndef SPRD_SERVERS_CAMERA_CAMERA2PARAMETERS_EX_H
+#define SPRD_SERVERS_CAMERA_CAMERA2PARAMETERS_EX_H
+
+#ifdef SPRD_FEATURE_BRIGHTNESS
+int brightness;
+#endif /* SPRD_FEATURE_BRIGHTNESS */
+#ifdef SPRD_FEATURE_3GVT
+int sensorRot;
+int sensorOrient;
+#endif // #ifdef SPRD_FEATURE_3GVT
+
+#ifdef SPRD_FEATURE_ISO
+int iso;
+#endif /* SPRD_FEATURE_ISO */
+
+#ifdef SPRD_FEATURE_CONTRAST
+int contrast;
+#endif /* SPRD_FEATURE_CONTRAST */
+
+#ifdef SPRD_FEATURE_SATURATION
+int saturation;
+#endif /* SPRD_FEATURE_SATURATION */
+
+#ifdef SPRD_FEATURE_METERING_MODE
+int meteringmode;
+#endif /* SPRD_FEATURE_METERING_MODE */
+
+#ifdef SPRD_FEATURE_SLOW_MOTION
+int slowmotion;
+#endif /* SPRD_FEATURE_SLOW_MOTION */
+
+#ifdef SPRD_FEATURE_BEAUTY
+int perfectSkinlevel;
+#endif // #ifdef SPRD_FEATURE_BEAUTY
+#endif /* SPRD_SERVERS_CAMERA_CAMERA2PARAMETERS_EX_H */

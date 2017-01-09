@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_number">"In:"</string>
+<string name="toast_copy_to_sim_success">"trasferito sulla SIM"</string>
+<string name="toast_copy_to_sim_failure">"copia su SIM fallita"</string>
+<string name="toast_sim_memory_full">"memoria SIM piena"</string>
+<string name="toast_copy_to_multi_sim_success">"trasferita sulla SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_multi_sim_failure">"Copia sulla SIM non riuscita<xliff:g id="COUNT">%1$s<xl></xl></xliff:g>""</string>
+<string name="toast_multi_sim_memory_full">"SIM <xliff:g id="COUNT">%1$S</xliff:g> memoria piena"</string>
+<string name="Conversation_check_type_selected_all">"Seleziona tutti"</string>
+<string name="menu_msg_folder">"Mostra cartella"</string>
+<string name="menu_msg_list">"Mostra messaggio"</string>
+<string name="folder_inbox">"Posta in arrivo"</string>
+<string name="folder_outbox">"Posta in uscita"</string>
+<string name="folder_sent">"Inviati"</string>
+<string name="folder_drafts">"Bozze"</string>
+<string name="folder_empty">"Nessun messaggio in questa cartella"</string>
+<string name="folder_display_all">"Mostrare tutti i messaggi"</string>
+<string name="folder_delete_messages">"Cancella messaggi"</string>
+<string name="folder_loading">"Carica in corso..."</string>
+<string name="folder_reply">"Rispondi"</string>
+<string name="folder_forward">"Inoltra"</string>
+<string name="no_msg_del">"Nessun messaggio eliminato"</string>
+<string name="exceed_slides_number_limitation">"si è raggiunto il numero massimo di slide possibili"</string>
+<string name="has_vcard_or_vcalendar_attachment">"Ha già <xliff:g id="TYPE">%1$s</xliff:g>, impossibile aggiungerne degli altri""</string>
+<string name="folder_sortby">"Ordina per"</string>
+<string name="OTAConfig_title">"impostazioni configurazione OTA"</string>
+<string name="OTAConfig_Message">"sei sicuro di voler salvare la configurazione OTA?"</string>
+<string name="OTAConfiy_Success">"impostazione messaggio OTA riuscita."</string>
+<string name="OTAConfiy_Error">"Configurazione OTA fallita"</string>
+<string name="ota_pin_error">"Sicurezza OTA fallita"</string>
+<string name="ota_retry">"Errore di password"</string>
+<string name="ota_pin_exception">"Configurazione OTA fallita: programma errato."</string>
+<string name="ota_mime_error">"Configurazione OTA fallita: messaggio di errore dei dati."</string>
+<string name="ota_support_not">"Configurazione OTA fallita<xliff:g id="OTATYPE">%1$s</xliff:g> tipologia non supporta."</string>
+<string name="pref_reply_path_title">"Ripeti impostazioni di percorso"</string>
+<string name="pref_title_reply_path">"Percorso di risposta"</string>
+<string name="pref_summary_reply_path">"Rispondi tramite il solito centro"</string>
+<string name="cannot_add_picture_and_vcard">"impossibile aggiungere vcard e foto ad una slide."</string>
+<string name="mms_setting">"impostazioni MMS"</string>
+<string name="pref_title_font_size">"impostazioni dimensioni font"</string>
+<string name="font_size_setting">"impostazioni dimensioni font"</string>
+<string name="font_size">"la dimensione del font è: <xliff:g id="font_size_id">%1$s</xliff:g>"</string>
+<string name="menu_copy_to_sim_memory">"copia messaggio sulla SIM"</string>
+<string name="menu_add_recipient_to_contacts">"aggiungi <xliff:g id="name">%s</xliff:g>ai contatti"</string>
+<string name="action_done">"Eseguito"</string>
+<string name="message_signature_setting">"impostazioni firma"</string>
+<string name="pref_signature_enable_title">"firma opzionale"</string>
+<string name="pref_signature_enabl_summary">"apporre firma automatica su tutti i messaggi inviati"</string>
+<string name="pref_signature_input_title">"Modifica firma"</string>
+<string name="pref_signature_input_summary">"inserisci qui la tua firma"</string>
+<string name="pref_signature_input_limited">"La firma ha raggiunto il suo limite"</string>
+<string name="pref_hint_signature_edittext">"Per favore, inserisci la tua firma"</string>
+<string name="toast_append_signature_failed">"tentativo di apporre la firma fallito, le dimensioni delle slide sono già al limite"</string>
+<string name="pageIndex">"Pagina %s"</string>
+<string name="remove_subject">"rimuovi soggetto"</string>
+<string name="toast_message_when_memory_full">"Memoria piena, eliminare alcuni file e riavviare"</string>
+<string name="toast_save_classzero_message_failed">"spazio esaurito, salvataggio del messaggio non riuscito."</string>
+<string name="toast_shared_file_failed">"file media non supportato, condivisione non riuscita"</string>
+<string name="message_too_many_recipients_picked">"Siamo spiacenti, non è possibile aggiungere più di <xliff:g id="COUNT">%1$s</xliff:g> contatti a volta"""</string>
+<string name="pref_title_manage_sim_smsc">"Centro Servizi SMS"</string>
+<string name="invalid_recipient">"Destinatario non valido"</string>
+<string name="max_recipients_count">"Limite dei destinatati <xliff:g id="MAXCOUNT">%1$s</xliff:g>.""</string>
+<string name="no_media_selected">"Nessun media selezionato"</string>
+<string name="search_max_length">"Ricerca della frase troppo lunga, limite definito a 512"</string>
+<string name="too_many_contacts">"Limite dei destinatari <xliff:g id="MAXLIMIT">%1$s</xliff:g>, saranno aggiunti i primi <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> destinatari saranno aggiunti.""</string>
+<string name="contacts_count_excceeds">"Si è già aggiunto <xliff:g id="MAXLIMIT">%1$s</xliff:g> destinatari,non è possibile aggiungerne altri.""</string>
+<string name="copy">"Copia"</string>
+<string name="received_new_wap_vcalendar">"Messaggio SMS Vcakebdar ricevuto"</string>
+<string name="replce_slideshow_dilaog_dismiss">"La sostituzione della presentazione cancellerà l\'allegato attuale, continuare?""</string>
+<string name="smsc_list">"lista del centro SMS"</string>
+<string name="smsc_list_empty">"nessun numero del centro messaggi"</string>
+<string name="smsc_list_loading">"Caricamento in corso"</string>
+<string name="smsc_list_menu_edit">"Modifica"</string>
+<string name="smsc_list_menu_activate">"Attivare"</string>
+<string name="smsc_list_not_allow_to_clear">"rimozione numeri non permessa"</string>
+<string name="smsc_list_empty_number">"Cliccare per aggiungere un nuovo numero"</string>
+<string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g> allegato salvato to<xliff:g id="path">%2$s</xliff:g>,<xliff id="fail">%3$d</xliff> salvataggio file non riuscito ""</string>
+<string name="box_msg_list_menu_addtocontacts">"Aggiungere a contatti"</string>
+<string name="box_msg_list_menu_call">"Chiamata"</string>
+<string name="box_msg_list_menu_editbeforecall">"Modificare prima di chiamare"</string>
+<string name="box_msg_list_menu_videocall">"Video chiamata"</string>
+<string name="soundrecorder_fail_msg">"Impossibile avviare RegistrazioneSuoni"</string>
+<string name="camera_fail_msg">"Impossibile avviare la fotocamera."</string>
+<string name="video_fail_msg">"Impossibile avviare il video"</string>
+<string name="pref_encode_type_setting_title">"impostazioni del tipo di codifica"</string>
+<string name="pref_encode_type_title">"tipo di codifica"</string>
+  <plurals name="conversation_num">
+<item quantity="one">"Hai una conversazione"</item>
+<item quantity="other">"Hai <xliff:g id="number">%1$s</xliff:g> conversazioni.""</item>
+  </plurals>
+  <string-array name="sort_type">
+    <item>"Per cronologia"</item>
+    <item>"Per indirizzo"</item>
+  </string-array>
+    <string name="cancel_call">"Cancella"</string>
+    <string name="delivery_toast_body_fail">"Messaggio non ricevuto da %s."</string>
+    <string name="read_report_toast_body">"Messaggio letto da %s."</string>
+    <string name="read_report_toast_body_fail">"Messaggio non letto da%s."</string>
+    <string name="delivery_toast_body_fail_rejected">"Messaggio rifiutato da %s."</string>
+    <string name="user_not_exist">"l\'utente non esiste."</string>
+    <string name="menu_resend">"Rinviare"</string>
+    <string name="low_storage_toast">"Memoria insufficiente! Eliminare alcuni file per liberare spazio."</string>
+    <string name="failed_to_download_mms">"Scaricamento MMS non riuscito, provare ancora più tardi"</string>
+    <string name="failed_to_send_mms">"Invio MMS non riuscito, provare ancora più tardi"</string>
+    <string name="success_to_send_mms">"Invio MMS riuscito"</string>
+    <string name="sim_x">"SIM%s"</string>
+    <string name="sim_card_not_ready">"la scheda SIM non è pronta"</string>
+    <string name="sim_is_invalid">"la scheda SIM non è pronta"</string>
+    <string name="on_progress">"Elaborazione in corso, attendere prego..."</string>
+    <string name="pref_internal_memory_usage_title">"MMS/Disponibile/Totale"</string>
+    <string name="pref_internal_memory_usage_progress_summary">"Calcolo dello spazio di memoria..."</string>
+    <string name="please_wait_title">"Si prega di attendere..."</string>
+    <string name="sim_card_setting">"Impostazioni scheda SIM"</string>
+    <string name="multi_sim_manage_messages_title">"Messaggi sulla SIM<xliff:g id="COUNT">%1$S</xliff:g>""</string>
+    <string name="pref_title_manage_sim_setting">"Gestione impostazioni SIM"</string>
+    <string name="pref_summary_manage_sim_setting">"gestisci messaggi memorizzati sulla SIM, rapporti di invio, tempi di giacenza, impostazioni Centro Servizi "</string>
+    <string name="pref_summary_notification_ringtone">"Suoneria predefinita"</string>
+    <string name="pref_summary_notification_ringtone_silent">"Silenzioso"</string>
+    <string name="menu_sim_capacity">"Capacità della SIM"</string>
+    <string name="pref_title_manage_multi_sim_messages">"Gestione messaggi sulla SIM<xliff:g id="COUNT">%1$s</xliff:g>""</string>
+    <string name="pref_summary_manage_multi_sim_messages">"Gestione messaggi memorizzati sulla SIM<xliff:g id="COUNT">%1$s</xliff:g>""</string>
+    <string name="count_of_new_mms">"%s nuovi messaggi"</string>
+    <string name="pref_summary_store_sms_on_sim">"Quando arriva un nuovo SMS, salvarlo sulla SIM oppure no"</string>
+    <string name="pref_title_store_sms_on_sim">"salva SMS sulla SIM"</string>
+    <string name="pref_title_sms_validity">"Validità SMS"</string>
+    <string name="done_slide_show">"Eseguito"</string>
+    <string name="smsc_check_fdn_failure">"il numero del centro messaggi non appartiene alla lista FDN."</string>
+    <string name="muti_select_all">"Seleziona tutti"</string>
+    <string name="menu_select_none">"Deseleziona Tutti"</string>
+    <string name="smsc_set_fails">"impostazione numero Centro Servizi fallita"</string>
+    <string name="smsc_set_success">"Impostato riuscito con successo"</string>
+    <string name="smsc_change_success">"Cambiamento riuscito con successo"</string>
+    <string name="smsc_add_success">"Aggiunto con successo"</string>
+    <string name="received_new_wap_contact">"SMS Vcard ricevuto"</string>
+    <string name="save_new_wap_contact">"Salva"</string>
+    <string name="cancle_new_wap_contact">"Cancella"</string>
+    <string name="menu_sim_message">"messaggi nella SIM"</string>
+    <string name="folder_display_option">"mostra opzioni"</string>
+    <string name="confirm_open_browser_dialog_title">"Messaggio"</string>
+    <string name="confirm_open_browser_dialog_message">"Il browser si aprirà,continuare?"</string>
+  <plurals name="delete_confirm">
+    <item quantity="one">"Scegliere 1 oggetto"</item>
+    <item quantity="other">"Scegliere <xliff:g id="del_count">%1$s</xliff:g> oggetti""</item>
+  </plurals>
+    <string name="select_sim_card">"per favore seleziona scheda SIM"</string>
+    <string name="menu_video_call_back">"Video chiamata <xliff:g id="name">%s</xliff:g>""</string>
+    <string name="menu_edit_before_call_back">"Modificare prima della chiamata <xliff:g id="name">%s</xliff:g>""</string>
+    <string name="min_zoom">"Minimo raggiunto"</string>
+    <string name="max_zoom">"limite massimo già raggiunto"</string>
+    <string name="sms_merge_forward">"Unisci e inoltra"</string>
+    <string name="sms_merge_dialog_title">"Evidenziare"</string>
+    <string name="sms_merge_dialog_content">"Possibile unire dai 2 ai 30 messaggi SMS. Si prega di controllare"</string>
+    <string name="sms_merge_forward_empty">"non ci sono messaggi da unificare e inviare."</string>
+    <string name="sms_forwarding_number">"impostazioni inoltro SMS"</string>
+    <string name="pref_sms_forwarding_number_title">"Numero di inoltrazione SMS"</string>
+    <string name="pref_sms_forwarding_number_summary">"Inoltro SMS con numero del destinatario"</string>
+    <string name="sim_list_title">"per favore seleziona scheda SIM"</string>
+    <string name="type_vcard">"Contatto"</string>
+    <string name="type_vcalendar">"Calendario"</string>
+    <string name="attach_vcard">"Contatto"</string>
+    <string name="attach_vcalendar">"Calendario"</string>
+    <string name="add_slide_before">"Aggiungere slide (prima)"</string>
+    <string name="add_slide_after">"aggiungi slide (più tardi)"</string>
+    <string name="re_take_picture">"Salvataggio della foto non riuscito, tentare di nuovo a catturare l\'immagine"</string>
+    <string name="exceed_text_length_limitation">"Limite della lunghezza del testo raggiunta"</string>
+    <string name="move_message_to_phone_memory">"Copia del messaggio nella memoria del telefono riuscita"</string>
+    <string name="can_not_copy_the_message">"Impossibile copiare il messaggio"</string>
+    <string name="confirm_import_vcard">"Importare questa VCard?"</string>
+    <string name="pref_title_manage_simx_smsc">"SIM<xliff:g id="COUNT">%1$s</xliff:g> Centro servizi SMS""</string>
+    <string name="simx_settings_title">"SIM<xliff:g id="COUNT">%1$s</xliff:g> Centro servizi SMS""</string>
+    <string name="pref_summary_sms_validity">"validità messaggi"</string>
+  <string-array name="prefEntries_mms_validity">
+    <item>"1 ora"</item>
+    <item>"12 ore"</item>
+    <item>"24 ore"</item>
+    <item>"2 giorni"</item>
+    <item>"Massimo"</item>
+  </string-array>
+  <string-array name="prefEntries_mms_priority">
+    <item>"Alto"</item>
+    <item>"Normale"</item>
+    <item>"Basso"</item>
+  </string-array>
+    <string name="pref_title_mms_validity">"Validità di messaggio multimediale"</string>
+    <string name="pref_summary_mms_validity">"Validità di messaggio multimediale"</string>
+    <string name="pref_title_mms_priority">"priorità"</string>
+    <string name="pref_summary_mms_priority">"Impostazione priorità"</string>
+    <string name="sim_settings_title">"Impostazioni scheda SIM"</string>
+    <string name="toast_copy_to_simx_success">"Copia riuscita in <xliff:g id="COUNT">%1$s</xliff:g>""</string>
+    <string name="toast_copy_to_simx_failure">"copia su <xliff:g id="COUNT">%1$s</xliff:g> non riuscita"</string>
+    <string name="toast_simx_memory_full">"<xliff:g id="COUNT">%1$s</xliff:g> è piena"</string>
+    <string name="pref_title_manage_sim_x_setting">"Gestione SIM<xliff:g id="COUNT">%1$s</xliff:g> Impostazioni""</string>
+    <string name="pref_title_mms_creation_mode">"creazione modalità"</string>
+  <string-array name="mms_creation_mode_entries">
+    <item>"Soggetto a restrizioni"</item>
+    <item>"Attenzione"</item>
+    <item>"Libero"</item>
+  </string-array>
+    <string name="exceed_resolution_limit">"la risoluzione supera i limiti"</string>
+    <string name="want_to_add_media">"Vuoi aggiungere questo <xliff:g id="NAME">%1$s</xliff:g> al tuo messaggio?"</string>
+    <string name="mms_can_not_add_vcard">"Eliminare gli accessori esistenti per aggiungere contatti"</string>
+    <string name="mms_can_not_add_vcalendar">"Eliminare allegati esistenti per aggiungere slide"</string>
+    <string name="converting_to_text_message">"Conversione in corso del messaggio di testo\u2026"</string>
+    <string name="select_calendar">"Selezionare agenda"</string>
+    <string name="no_calendar">"Nessuna agenda"</string>
+    <string name="exceed_slides_number_message">"Selezionato <xliff:g id="NUMBER">%1$s</xliff:g> agenda massima è <xliff:g id="NUMBER">%2$s</xliff:g> agenda""</string>
+    <string name="add_to_blacklist">"Aggiungere alla lista nera"</string>
+    <string name="failed_addToBlacklist">"Aggiunta alla lista nera non riuscita"</string>
+    <string name="creating_slideshow_title">"Creazione Slideshow in corso"</string>
+    <string name="attachment_vcalendar">"Vcalendar"</string>
+    <string name="attachment_vcard">"vcard"</string>
+    <string name="text_limited_warning">"Limitazione inserimento dati"</string>
+    <string name="subject_text_length_limitation">"Ha raggiunto il limite per quanto riguarda la lunghezza del soggetto"</string>
+    <string name="attach_commonPhrases">"Frasi comuni"</string>
+    <string name="commonphrase_empty">"Nessuna frase comune"</string>
+    <string name="quick_reply">"Qick Reply"</string>
+    <string name="common_messages">"frase comune"</string>
+    <string name="common_add_text">"Nuovo"</string>
+    <string name="common_delete_text">"Cancella"</string>
+    <string name="common_delete_message">"Confermare eliminazione?"</string>
+    <string name="common_delete">"Cancella"</string>
+    <string name="common_phrase_contextmenu_title">"Menu operazioni"</string>
+    <string name="common_edit">"Modifica"</string>
+    <string name="commonphrase_delete_empty">"non è possibile eliminare frase"</string>
+    <string name="common_phrase_edit_dialog_title">"Opzioni"</string>
+    <string name="common_phrase_edit_dialog_inform">"Salvale le modifiche?"</string>
+    <string name="common_phrase_edit_max_length">"Limite inserimento raggiunto "</string>
+    <string name="common_messages_edit">"modifica frase comune"</string>
+    <string name="common_save">"Salva"</string>
+    <string name="common_cancel">"Cancella"</string>
+    <string name="add_empty_common_messages">"Digitare dei caratteri?"</string>
+    <string name="pref_other_settings_title">"Altro"</string>
+    <string name="pre_key_title_common_messages">"frase comune"</string>
+    <string name="common_phrase_selection">"Selezionare frasi comuni"</string>
+    <string name="wap_push_message_dialog_title">"messaggio Wap push"</string>
+    <string name="open_website">"Aprire sito web"</string>
+    <string name="activity_not_found">"Non è stata provata un\'applicazione adatta"</string>
+    <string name="add_contact">"Inserire contatti"</string>
+    <string name="receive_from">"ricevi da %s"</string>
+    <string name="send_from">"Inviare da %s"</string>
+    <string name="dl_expired_wap_push">"Ci sono <xliff:g id="COUNT">%1$s</xliff:g> messaggio wap scaduto sarà eliminato.""</string>
+    <string name="sim_capacity_used">"Utilizzato:"</string>
+    <string name="sim_capacity_total">"Totale:"</string>
+    <string name="delivery_toast_body_expired">"Messaggio scaduto %s."</string>
+    <string name="discard_dialog">"Si è sicuri di voler eliminare questa informazioni?"</string>
+    <string name="remove_vcalendar_first">"Per modificarlo eliminare prima il vcalendar allegato "</string>
+    <string name="remove_vcard_first">"Eliminare vcard prima di modificare questo"</string>
+    <string name="import_vcalendar">"Importare VCalendar"</string>
+    <string name="no_vcalendar">"Nessun Vcalendario trovato"</string>
+    <string name="import_vcalendar_fail">"Impossibile importare Vcalendar."</string>
+    <string name="unable_to_add_all">"Limite dimensione messaggio raggiunte, alcune parti non sono state aggiunte."</string>
+    <string name="pref_title_sms_retry_times">"Abilita nuovo tentativo SMS"</string>
+  <string-array name="prefEntries_sms_validity">
+    <item>"1 ora"</item>
+    <item>"6 ore"</item>
+    <item>"24 ore"</item>
+    <item>"2 giorni"</item>
+    <item>"1 settimana"</item>
+    <item>"Massimo"</item>
+    <item>Massimo</item>
+  </string-array>
+    <string name="confirm_convert_to_mms">"I destinatari contengono email, questo messaggio sarà inviato come MMS"</string>
+    <string name="send_as_mms">Invia MMS</string>
+    <string name="send_as_sms">"Inviare soltanto SMS"</string>
+    <string name="protected_file">"File protetto non può essere aggiunto"</string>
+    <string name="success_to_send_sms">"Messaggio di testo inviato con successo"</string>
+    <string name="confirm_ota_message">"Confermare impostazioni OTA?"</string>
+    <string name="confirm_ota">"OK"</string>
+    <string name="cancel_ota">"Annulla"</string>
+    <string name="ota_cancelled">"Impostazioni OTA cancellate"</string>
+    <string name="message_too_big_for_audio">Il messaggio è troppo grande per allegarci un audio.</string>
+    <string name="contacts_count_can_send">"Gentile cliente, i riceventi hanno superato i limiti del sistema, si prega di inviare in batch"</string>
+    <string name="attach_common_messages">frase comune</string>
+    <string name="attach_subject">"Oggetto"</string>
+    <string name="add_contacts_dialog_title">"Aggiungi contatti "</string>
+    <string name="add_contact_as_text">"Messaggio di testo"</string>
+    <string name="action_next">"Successivo"</string>
+     <string name="sms_forward">Inoltra</string>
+     <string name="valid_sub">Scheda SIM non valida</string>
+     <string name="confirm_import_vcalendar">Imposta questo Vcalendar?</string>
+     <string name="confirm_save_otherfiles">Salva questo allegato?</string>
+     <string name="pref_notification_settings_title_sim1">"Notifiche SIM1"</string>
+     <string name="pref_notification_settings_title_sim2">"Notifiche SIM2"</string>
+     <string name="pref_notification_settings_title_sim">"Notifiche Sim"</string>
+     <string name="dlg_media_removed">"Media senza percorso corretto nell’allegato è stato rimosso, continuare a inviarlo?"</string>
+     <string name="toast_media_removed">"Media senza corretto percorso nell’allegato è stato rimosso, per favore controllare!"</string>
+     <string name="dl_failure_roaming">"Status Roaming, impossibile scaricare messaggio!"</string>
+     <string name="recipient_invalid">"<xliff:g id="invalid_number" example="1">%1$s</xliff:g> Destinatario (i) Invalido"</string>
+     <string name="recipient_invalid_detail">"Invalido(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+     <string name="recipient_changed_detail">"Cambiato(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+</resources>

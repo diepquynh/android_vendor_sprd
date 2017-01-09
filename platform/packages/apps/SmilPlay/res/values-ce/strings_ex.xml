@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_number">"Padulong"</string>
+<string name="cancel_call">"Kansela"</string>
+<string name="delivery_toast_body_fail">"Ang mensahe kay wala nadawat sa %s."</string>
+<string name="read_report_toast_body">"Ang mensahe kay nabasa sa %s."</string>
+<string name="read_report_toast_body_fail">"Ang mensahe kay wala nabasa sa %s."</string>
+<string name="delivery_toast_body_fail_rejected">"Ang mensahe kay gisalikway sa %s."</string>
+<string name="user_not_exist">"Ang tiggamit kay wala anaa."</string>
+<string name="menu_resend">"Pagpadala balik"</string>
+<string name="low_storage_toast">"Gamay ug espasyo!Panason ang ubang payl para mapagawas ang espasyo."</string>
+<string name="failed_to_download_mms">"Napakyas pagkarga, sulayi pagusab unya"</string>
+<string name="failed_to_send_mms">"Napakyas sa pagpadala sa mms, Sulayi usab unya"</string>
+<string name="success_to_send_mms">"Malampuson sa pagpadala sa mms"</string>
+<string name="sim_x">"SIM%s"</string>
+<string name="sim_card_not_ready">"Ang Sim kard dili pa andam"</string>
+<string name="sim_is_invalid">"Ang Sim kard dili pa andam"</string>
+<string name="on_progress">"Nagaproseso, Palighug paghuwat..."</string>
+<string name="pref_internal_memory_usage_title">"MMS/Magamit/Tibuok"</string>
+<string name="pref_internal_memory_usage_progress_summary">"Nagihap sa espasyo sa memorya..."</string>
+<string name="please_wait_title">"Palihug paghinuwat..."</string>
+<string name="sim_card_setting">"Mga gitakda sa SIM Card"</string>
+<string name="multi_sim_manage_messages_title">"Mga mensahe sa SIM<xliff:g id="COUNT">%1$S</xliff:g>"</string>
+<string name="pref_title_manage_sim_setting">"Pagdumala sa mga gitakda sa SIM"</string>
+<string name="pref_summary_manage_sim_setting">"Pagdumala sa mga mensahe nga nasulod sa SIM, Pagpadala sa mga taho, Oras nga matapos, Mga gitakda sa Smsc uban pa."</string>
+<string name="pref_summary_notification_ringtone">"Anaa na daan nga tono"</string>
+<string name="pref_summary_notification_ringtone_silent">"Hilom"</string>
+<string name="menu_sim_capacity">"Kapasidad sa SIM"</string>
+<string name="pref_title_manage_multi_sim_messages">"Magdumala sa mga mensahe sa SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="pref_summary_manage_multi_sim_messages">"Magdumala sa mga mensahe nga nasulod sa SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_sim_success">"Mulampos sa SIM"</string>
+<string name="toast_copy_to_sim_failure">"Napakyas sa pagkopya sa SIM"</string>
+<string name="toast_sim_memory_full">"Ang Sim nga memorya kay puno"</string>
+<string name="toast_copy_to_multi_sim_success">"Mulampos sa SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_multi_sim_failure">"Napakyas pagkopya sa SIM<xliff:g id="COUNT">%1$s<xl></xl></xliff:g>"</string>
+<string name="toast_multi_sim_memory_full">"SIM <xliff:g id="COUNT">%1$S</xliff:g> nga memorya kay puno"</string>
+<plurals name="conversation_num">
+<item quantity="one">"Anaa kay 1 ka pagkigistorya."</item>
+<item quantity="other">"Anaa kay <xliff:g id="number">%1$s</xliff:g> nga mga pakigistorya."</item>
+</plurals>
+<string name="count_of_new_mms">"%s bag-o nga mga mensahe"</string>
+<string name="pref_summary_store_sms_on_sim">"Kung anaay bag-o nga sms ang muabot, itigum ni sa SIM o dili"</string>
+<string name="pref_title_store_sms_on_sim">"Itigum ang SMS sa SIM"</string>
+<string name="pref_title_sms_validity">"Kabalido sa SMS"</string>
+<string name="done_slide_show">"Human"</string>
+<string name="smsc_check_fdn_failure">"Ang sentro nga numero sa imong mensahe kay wala  nagsakop sa fdn nga lista."</string>
+<string name="muti_select_all">"Pilia tanan"</string>
+<string name="menu_select_none">"Ayaw pilia tanan"</string>
+<string name="Conversation_check_type_selected_all">"Pilia tanan"</string>
+<string name="menu_msg_folder">"Polder nga pagtanaw"</string>
+<string name="menu_msg_list">"Pagtanaw sa mensahe"</string>
+<string name="folder_inbox">"Inbox"</string>
+<string name="folder_outbox">"Outbox"</string>
+<string name="folder_sent">"Gipadala"</string>
+<string name="folder_drafts">"Mga gipadala"</string>
+<string name="folder_empty">"Walay mga mensahe  sa kani nga polder."</string>
+<string name="folder_display_all">"Ipakita tanan mga mensahe"</string>
+<string name="folder_delete_messages">"Panason ang mga mensahe"</string>
+<string name="folder_loading">"Nagakarga.."</string>
+<string name="folder_reply">"Tubag"</string>
+<string name="folder_forward">"Padulong"</string>
+<string name="no_msg_del">"Walay mga mensahe ang napanas"</string>
+<string name="exceed_slides_number_limitation">"Naabot ang limitasyon sa numero sa eslayd"</string>
+<string name="has_vcard_or_vcalendar_attachment">"Anaa nay <xliff:g id="TYPE">%1$s</xliff:g>, dili na makadungan ug daghan pa"</string>
+<string name="folder_sortby">"Ayosa "</string>
+<string-array name="sort_type">
+<item>"Sa  Oras"</item>
+<item>"Sa adres"</item>
+</string-array>
+<string name="OTAConfig_title">"Mga gitakda sa OTAConfig"</string>
+<string name="OTAConfig_Message">"Sigurado ka nga itigum ang mga gitakda sa OTA?"</string>
+<string name="OTAConfiy_Success">"Malampuson ang pagtakda sa OTA nga mensahe"</string>
+<string name="OTAConfiy_Error">"Napakyas pagtakda sa OTA""</string>
+<string name="ota_pin_error">"Napakyas ang seguridad sa OTA"</string>
+<string name="ota_retry">"sayop sa pasword"</string>
+<string name="ota_pin_exception">"Napakyas ang pagtakda sa OTA：sayop sa programa."</string>
+<string name="ota_mime_error">"Napakyas ang pagtakda sa OTA：sayop sa datus sa mensahe."</string>
+<string name="ota_support_not">"Napakyas ang pagtakda sa OTA：<xliff:g id="OTATYPE">%1$s</xliff:g> dili suportado nga matang."</string>
+<string name="pref_reply_path_title">"Mga gitakda sa agianan sa pagtubag"</string>
+<string name="pref_title_reply_path">"Agianan sa pagtubag"</string>
+<string name="pref_summary_reply_path">"Tubag pinaagi sa pareho nga sentro"</string>
+<string name="cannot_add_picture_and_vcard">"Dili makadugang ug vcard ug hulagway sa usa ka eslayd."</string>
+<string name="mms_setting">"Mga gitakda sa Mms"</string>
+<string name="pref_title_font_size">"Mga gitakda sa kadakon sa letra"</string>
+<string name="font_size_setting">"Mga gitakda sa kadakon sa letra"</string>
+<string name="font_size">"Ang kadakon sa letra kay: <xliff:g id="font_size_id">%1$s</xliff:g>"</string>
+<string name="menu_copy_to_sim_memory">"Ikopya ang mensahe sa SIM"</string>
+<string name="menu_add_recipient_to_contacts">"Idugang <xliff:g id="name">%s</xliff:g> sa mga kontak"</string>
+<string name="action_done">"Human"</string>
+<string name="message_signature_setting">"Mga gitakda sa pirma"</string>
+<string name="pref_signature_enable_title">"Mapili nga pirma"</string>
+<string name="pref_signature_enabl_summary">"Awtomatikong pagsumpay sa pirma ngadto sa kada Mms nga mensahe nga imong ipadala"</string>
+<string name="pref_signature_input_title">"Pagusab sa pirma"</string>
+<string name="pref_signature_input_summary">"Sulod dinhi para sa pagtakda sa imong pirma"</string>
+<string name="pref_signature_input_limited">"Ang pirma kay nakaabot na sa iya limita"</string>
+<string name="pref_hint_signature_edittext">"Palihug pagsulod sa imong pirma"</string>
+<string name="toast_append_signature_failed">"Isumpay ang pirma sa Mms nga napakyas, Ang kadakon sa mga eslayd kay naabot na"</string>
+<string name="pageIndex">"Pahina %s"</string>
+<string name="remove_subject">"Tangtang sa gihilisgotan"</string>
+<string name="toast_message_when_memory_full">"Puno ang memorya, Palihug pagpagawas sa uban ug ipagana pagbalik"</string>
+<string name="toast_save_classzero_message_failed">"Walay espasyo nga nahabilin, ang pagtigum sa mensahe kay napakyas"</string>
+<string name="toast_shared_file_failed">"Dili suportado nga payl sa mga paagi, ang pagbahin kay napakyas."</string>
+<string name="message_too_many_recipients_picked">"Pasensya, Dili ka makadugang ug daghan pa sa <xliff:g id="COUNT">%1$s</xliff:g> mga kontak sa kada panahon""</string>
+<string name="pref_title_manage_sim_smsc">"Sentro sa serbis sa SMS"</string>
+<string name="smsc_set_fails">"Napakyas ang takda sa Smsc"</string>
+<string name="smsc_set_success">"Malapuson nga natakda."</string>
+<string name="smsc_change_success">"Malampuson nga nausab."</string>
+<string name="smsc_add_success">"Malampuson nga nadugang"</string>
+<string name="received_new_wap_contact">"Nakadawat ug usa ka SMS Vcard nga mensahe"</string>
+<string name="save_new_wap_contact">"Itigum"</string>
+<string name="cancle_new_wap_contact">"Kansela"</string>
+<string name="menu_sim_message">"Mga mensahe sa SIM"</string>
+<string name="folder_display_option">"Mga kapilian sa pagpakita"</string>
+<string name="confirm_open_browser_dialog_title">"Mensahe"</string>
+<string name="confirm_open_browser_dialog_message">"Kani muabli sa imo browser, magpadayon?"</string>
+<plurals name="delete_confirm">
+<item quantity="one">"Pili ug 1 ka butang"</item>
+<item quantity="other">"Pili ug <xliff:g id="del_count">%1$s</xliff:g> ka mga butang"</item>
+</plurals>
+<string name="select_sim_card">"Palihug pagpili sa SIM kard"</string>
+<string name="menu_video_call_back">"Bidyo nga pagtawag <xliff:g id="name">%s</xliff:g>"</string>
+<string name="menu_edit_before_call_back">"Usbon usa mutawag <xliff:g id="name">%s</xliff:g>"</string>
+<string name="min_zoom">"naabot ang pinakaubos"</string>
+<string name="max_zoom">"naabot ang pinakataas"</string>
+<string name="sms_merge_forward">"Isumpay ug Iporward"</string>
+<string name="sms_merge_dialog_title">"Dikta"</string>
+<string name="sms_merge_dialog_content">"Ikaw mahimo lang magsumpay sa tali 2 ug 30 SMS nga mga mensahe. Palihug pagsusi niini."</string>
+<string name="sms_merge_forward_empty">"Walay sms nga mensahe nga masumpay ug maporward."</string>
+<string name="sms_forwarding_number">"Mga gitakda sa SMS nga nagaporward"</string>
+<string name="pref_sms_forwarding_number_title">"Numero sa SMS nga pagporward"</string>
+<string name="pref_sms_forwarding_number_summary">"Nagaporward sa SMS nga anaay numero sa mga tagadawat"</string>
+<string name="sim_list_title">"Palihug pagpili sa SIM kard"</string>
+<string name="type_vcard">"kontak"</string>
+<string name="type_vcalendar">"kalendaryo"</string>
+<string name="attach_vcard">"Kontak"</string>
+<string name="attach_vcalendar">"Kalendaryo"</string>
+<string name="add_slide_before">"Dugang ug eslayd(usa)"</string>
+<string name="add_slide_after">"Dugang ug eslayd(human)"</string>
+<string name="re_take_picture">"Napakyas ang pagtigum sa hulagway,palihug pagkuha usab sa hulagway."</string>
+<string name="exceed_text_length_limitation">"Nisobra sa kataas sa teksto nga limita."</string>
+<string name="move_message_to_phone_memory">"Ang pagkopya sa mensahe sa memorya sa telepono kay malampuson"</string>
+<string name="can_not_copy_the_message">"Dili mahimo sa pagkopya sa mensahe"</string>
+<string name="confirm_import_vcard">"Iimportar kini nga VCard？"</string>
+<string name="pref_title_manage_simx_smsc">"SIM<xliff:g id="COUNT">%1$s</xliff:g> Sentro sa Serbis sa SMS"</string>
+<string name="simx_settings_title">"SIM<xliff:g id="COUNT">%1$s</xliff:g> Mga gitakda"</string>
+<string name="pref_summary_sms_validity">"Kabalido sa mubo nga mensahe"</string>
+<string-array name="prefEntries_mms_validity">
+<item>"1 ka oras"</item>
+<item>"12 ka mga oras"</item>
+<item>"24 ka mga oras"</item>
+<item>"2 ka adlaw"</item>
+<item>"Kinatas-an"</item>
+</string-array>
+<string-array name="prefEntries_mms_priority">
+<item>"Taas"</item>
+<item>"Kasagaran"</item>
+<item>"Ubos"</item>
+</string-array>
+<string name="pref_title_mms_validity">"Kabalido sa Mensahe sa Multimedia"</string>
+<string name="pref_summary_mms_validity">"Kabalido sa Mensahe sa Multimedia"</string>
+<string name="pref_title_mms_priority">"Prayoridad"</string>
+<string name="pref_summary_mms_priority">"Mga gitakda sa Prayoridad"</string>
+<string name="sim_settings_title">"Mga gitakda sa SIM Card"</string>
+<string name="toast_copy_to_simx_success">"Malampuson sa pagkopya sa <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_simx_failure">"Napakyas pagkopya sa <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_simx_memory_full">"<xliff:g id="COUNT">%1$s</xliff:g>kay puno"</string>
+<string name="pref_title_manage_sim_x_setting">"Magdumala sa SIM<xliff:g id="COUNT">%1$s</xliff:g> mga gitakda"</string>
+<string name="pref_title_mms_creation_mode">"Moda sa Paghimo"</string>
+<string-array name="mms_creation_mode_entries">
+<item>"Ginadili"</item>
+<item>"Gina-abiso"</item>
+<item>"Libre"</item>
+</string-array>
+<string name="exceed_resolution_limit">"Ang limita sa resolusyon kay nisobra"</string>
+<string name="want_to_add_media">"Ganahan ba ka sa pagdugang ani <xliff:g id="NAME">%1$s</xliff:g> sa imong mensahe?"</string>
+<string name="mms_can_not_add_vcard">"Papa-a ang attachment aron magdugang og mga kontak"</string>
+<string name="mms_can_not_add_vcalendar">"Panason ang kasamtangan nga gilakip sa pagdugang ug eslayd"</string>
+<string name="converting_to_text_message">"Pagbalhin sa teksto nga mensahe\u2026"</string>
+<string name="select_calendar">"Pagpili ug imong gustong talakayon"</string>
+<string name="no_calendar">"Walay talakayon"</string>
+<string name="exceed_slides_number_message">"Gipili ang <xliff:g id="NUMBER">%1$s</xliff:g> adyenda，Kinatasan kay <xliff:g id="NUMBER">%2$s</xliff:g> adyenda"</string>
+<string name="add_to_blacklist">"Idugang sa Itum nga listahan"</string>
+<string name="failed_addToBlacklist">"Napakyas sa pagdugang sa itum nga lista."</string>
+<string name="creating_slideshow_title">"Naghimo ug Eslaydshow"</string>
+<string name="attachment_vcalendar">"Vkalendaryo"</string>
+<string name="attachment_vcard">"Vkard"</string>
+<string name="text_limited_warning">"Ang hingpit sa pasulod"</string>
+<string name="subject_text_length_limitation">"Kay naabot na sa gidili nga kataas sa hilisgotan."</string>
+<string name="attach_commonPhrases">"Mga karaniwan ng linya"</string>
+<string name="commonphrase_empty">"Walay sagad nga mga pulongan"</string>
+<string name="quick_reply">"Pinadali nga pag tubag"</string>
+<string name="common_messages">"Sagad nga pulongan"</string>
+<string name="common_add_text">"Bag-o"</string>
+<string name="common_delete_text">"Panas"</string>
+<string name="common_delete_message">"Ipamatuod ang pagpanas?"</string>
+<string name="common_delete">"Panas"</string>
+<string name="common_phrase_contextmenu_title">"Kapilian sa oerasyon"</string>
+<string name="common_edit">"Usob"</string>
+<string name="commonphrase_delete_empty">"Walay pulongan nga mahimong panason"</string>
+<string name="common_phrase_edit_dialog_title">"Mga kapilian"</string>
+<string name="common_phrase_edit_dialog_inform">"Itigum ang imong giusab ?"</string>
+<string name="common_phrase_edit_max_length">"Naka abot na sa higpit pasulod!"</string>
+<string name="common_messages_edit">"Usaba ang sagad nga pulongan"</string>
+<string name="common_save">"Itigum"</string>
+<string name="common_cancel">"Kansela"</string>
+<string name="add_empty_common_messages">"Ibutang ang bisag unsa nga karakter"</string>
+<string name="pref_other_settings_title">"Uban"</string>
+<string name="pre_key_title_common_messages">"Sagad nga pulongan"</string>
+<string name="common_phrase_selection">"Pili ug sagad nga mga pulongan"</string>
+<string name="wap_push_message_dialog_title">""mensahe nga Tulod sa Wap "</string>
+<string name="open_website">"Abli nga websayt"</string>
+<string name="activity_not_found">"Wala nakakita ug igong aplikasyon"</string>
+<string name="add_contact">"Pagsuksok ug mga kontak"</string>
+<string name="receive_from">"Nadawat gikan sa %s"</string>
+<string name="send_from">"Padala gikan sa %s"</string>
+<string name="dl_expired_wap_push">"Anaay mga <xliff:g id="COUNT">%1$s</xliff:g> wap nga mensahe nga natapos, kani kay panason."</string>
+<string name="invalid_recipient">"imbalido nga modawat"</string>
+<string name="max_recipients_count">"Limitasyon sa tagadawat kay <xliff:g id="MAXCOUNT">%1$s</xliff:g>."</string>
+<string name="no_media_selected">"Walay pamaagi nga napili!"</string>
+<string name="search_max_length">"Ang pagpangita nga pahayag kay taas ra, mu limitar sa 512."</string>
+<string name="sim_capacity_used">"Nagamit:"</string>
+<string name="sim_capacity_total">"Tibuok:"</string>
+<string name="too_many_contacts">"Ang limitasyon sa mga tagadawat kay <xliff:g id="MAXLIMIT">%1$s</xliff:g>, kay mahimong magdugang sa mga <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> mga tagadawat kay madugang."</string>
+<string name="delivery_toast_body_expired">"Nilampas na sa petsa ang mensahe %s."</string>
+<string name="discard_dialog">"Ganahan gyud ka sa pagbuhi ani nga mga impormasyon?"</string>
+<string name="contacts_count_excceeds">"Anaa na kay gidugang nga <xliff:g id="MAXLIMIT">%1$s</xliff:g> nga mga tagadawat, dili na gitugotan sa pagdugang ug daghan."</string>
+<string name="copy">"kopya"</string>
+<string name="received_new_wap_vcalendar">"Nakadawat ug usa ka mensahe sa SMS Vkalendaryo"</string>
+<string name="remove_vcalendar_first">"Papa-a sa ang kalendaryo usa nimo ni usabon."</string>
+<string name="remove_vcard_first">"Panason ang vkard nga gilakip paguna usa ang pagusab niini."</string>
+<string name="import_vcalendar">"Isulod ang Vkalendaryo"</string>
+<string name="no_vcalendar">"Walay Vkalendaryo pangita"</string>
+<string name="import_vcalendar_fail">"Dili ma sulod ang Vkalendaryo"</string>
+<string name="unable_to_add_all">"Mensahe nakaabot na sa gin-gidakon, ang bang parte sa mensahe wala ma dungag."</string>
+<string name="replce_slideshow_dilaog_dismiss">"Ang pagpuli sa eslaydshow kay makapanas sa kasamtangan nga gilakip, ganahan ka sa pagpadayon?"</string>
+<string name="pref_title_sms_retry_times">"Enable SMS Retry"</string>
+<string name="smsc_list">"Lista sa SMS nga sentro"</string>
+<string name="smsc_list_empty">"Walay mga numero sa SMS nga sentro"</string>
+<string name="smsc_list_loading">"Nagakarga"</string>
+<string name="smsc_list_menu_edit">"Usob"</string>
+<string name="smsc_list_menu_activate">"Pagpagana"</string>
+<string name="smsc_list_not_allow_to_clear">"Dili gitugotan ang paglimpyo sa numero"</string>
+<string name="smsc_list_empty_number">"Iklik sa pagdugang ug bag-o nga numero"</string>
+<string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g> ang gilakip natigum sa<xliff:g id="path">%2$s</xliff:g>,<xliff id="fail">%3$d</xliff> napakyas pagtigum sa gilakip"</string>
+<string name="box_msg_list_menu_addtocontacts">"Idugang sa mga kontak"</string>
+<string name="box_msg_list_menu_call">"Tawag"</string>
+<string name="box_msg_list_menu_editbeforecall">"Usbon usa ang tawag"</string>
+<string name="box_msg_list_menu_videocall">"Bidyo nga tawag"</string>
+<string name="soundrecorder_fail_msg">"Dili makasugod sa tigrekord sa tingog."</string>
+<string name="camera_fail_msg">"Dili makasugod sa kamera."</string>
+<string name="video_fail_msg">"Dili makasugod sa bidyo."</string>
+<string name="pref_encode_type_setting_title">"Mga gitakda sa matang sa pagsulod"</string>
+<string name="pref_encode_type_title">"Encode nga matang"</string>
+  <string-array name="prefEntries_sms_validity">
+    <item>"1 ka oras"</item>
+    <item>"6 ka mga oras"</item>
+    <item>"24 ka mga oras"</item>
+    <item>"2 ka adlaw"</item>
+    <item>"1 ka semana"</item>
+    <item>"Kinatas-an"</item>
+    <item>"Kinatas-an"</item>
+  </string-array>
+    <string name="confirm_convert_to_mms">"Ang mga tigdawat nagsulod ug email, ang mensahe ipadala isip mms"</string>
+    <string name="send_as_mms">"Magpadala ug MMS"</string>
+    <string name="send_as_sms">"Sms lang ang ipadala"</string>
+    <string name="protected_file">"Ang protektado nga payl kay dili madugang"</string>
+    <string name="success_to_send_sms">"Pagpadala sa sms kay malampuson"</string>
+    <string name="confirm_ota_message">"Ipamatuod ang OTA nga mga gitakda?"</string>
+    <string name="confirm_ota">Kansela</string>
+    <string name="cancel_ota">Balihon</string>
+    <string name="ota_cancelled">"OTA nga mga gitakda kay ikanselar."</string>
+    <string name="message_too_big_for_audio">Ang mensahe kay dako ra kaayo para mag-uban ug audio.</string>
+
+    <string name="contacts_count_can_send">"Minahal nga mga suki, mga tigdawat kay nalapaw sa utlanan sa sistema, nagtugot lang sa pagpadala sa <xliff:g id="MAXLIMIT">%1$s</xliff:g> , palihug pagpadala nga grupo grupo."</string>
+    <string name="attach_common_messages">Kasagaran nga mga Parirala</string>
+    <string name="attach_subject">Paksa</string>
+    <string name="add_contacts_dialog_title">"Dugang ug mga kontak"</string>
+    <string name="add_contact_as_text">Teksto nga mensahe</string>
+</resources>

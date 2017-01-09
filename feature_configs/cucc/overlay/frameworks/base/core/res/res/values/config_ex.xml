@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD Add For Feature Bug 474988:
+         CUCC customized LTE RSRP signal level threshold. -->
+    <add-resource name="config_LTE_RSRP_threshold_overlay" type="array"/>
+    <integer-array translatable="false" name="config_LTE_RSRP_threshold_overlay">
+        <item>-140</item>
+        <item>-120</item>
+        <item>-113</item>
+        <item>-105</item>
+        <item>-97</item>
+        <item>-44</item>
+    </integer-array>
+    <!-- SPRD: Bug#474458 Add network management for cucc feature BEG -->
+    <string name="config_wifi_operator" translatable="false">cucc</string>
+    <!-- Add network management for cucc feature END -->
+    <!-- SPRD: Add for bug601753 @{ -->
+    <bool name="config_showEmergencyCallOnly">false</bool>
+    <!-- @} -->
+    <!-- SPRD: Add for bug603038 @{ -->
+    <string-array name="usim_notify_packages" translatable="false">
+        <item>com.neusoft.td.android.wo116114</item>
+        <item>com.infinit.wostore.ui</item>
+        <item>com.asiainfo.android</item>
+        <item>com.sinovatech.unicom.ui</item>
+        <item>cn.com.wo</item>
+    </string-array>
+    <!-- @} -->
+</resources>

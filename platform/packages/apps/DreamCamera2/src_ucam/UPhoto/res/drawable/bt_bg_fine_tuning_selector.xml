@@ -1,0 +1,15 @@
+<!--
+    Copyright (C) 2010,2011 Thundersoft Corporation
+    All rights Reserved
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"   android:state_enabled="true"
+          android:drawable="@drawable/bt_bg_fine_tuning_pressed" /> <!-- pressed -->
+    <item android:state_focused="true"   android:state_enabled="true"
+          android:drawable="@drawable/bt_bg_fine_tuning_pressed" /> <!-- focused -->
+    <item android:state_pressed="false"   android:state_enabled="true"
+          android:drawable="@drawable/bt_bg_fine_tuning" />
+    <item android:state_focused="false"   android:state_enabled="true"
+          android:drawable="@drawable/bt_bg_fine_tuning" />
+    <item android:drawable="@drawable/bt_bg_fine_tuning_pressed" /> <!-- default -->
+</selector>

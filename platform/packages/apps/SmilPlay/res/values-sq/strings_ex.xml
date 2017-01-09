@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_number">"Për:"</string>
+<string name="cancel_call">"Anulo"</string>
+<string name="delivery_toast_body_fail">"Mesazhi nuk është marrë nga %s."</string>
+<string name="read_report_toast_body">"Mesazhi është lexuar nga %s."</string>
+<string name="read_report_toast_body_fail">"Mesazhi nuk është lexuar nga %s."</string>
+<string name="delivery_toast_body_fail_rejected">"Mesazhi është refuzuar nga %s."</string>
+<string name="user_not_exist">"Përdoruesi nuk ekziston."</string>
+<string name="menu_resend">"Ridërgo"</string>
+<string name="low_storage_toast">"Hapësirë e vogël! Fshini disa skeda për të liruar hapësirën."</string>
+<string name="failed_to_download_mms">"Shkarkimi i MMS dështoi, provoni përsëri më vonë"</string>
+<string name="failed_to_send_mms">"Dërgimi i MMS dështoi, provoni përsëri më vonë"</string>
+<string name="success_to_send_mms">"Dërgimi i MMS me sukses"</string>
+<string name="sim_card_not_ready">"Karta SIM nuk është gati"</string>
+<string name="sim_is_invalid">"Karta SIM nuk është gati"</string>
+<string name="on_progress">"Duke përpunuar, ju lutem prisni..."</string>
+<string name="pref_internal_memory_usage_title">"MMS/Dispozicion/Total"</string>
+<string name="pref_internal_memory_usage_progress_summary">"Duke llogaritur hapësirën e memories..."</string>
+<string name="please_wait_title">"Ju lutem prisni..."</string>
+<string name="sim_card_setting">"Konfigurimi i kartës SIM"</string>
+<string name="multi_sim_manage_messages_title">"Mesazhe në SIM<xliff:g id="COUNT">%1$S</xliff:g>"</string>
+<string name="pref_title_manage_sim_setting">"Menaxho parametrat e SIM"</string>
+<string name="pref_summary_manage_sim_setting">"Menaxho mesazhet e ruajtura në SIM, Raportet e Dërgimit, Koha e Skadimit, Parametrat e SMS, etj."</string>
+<string name="pref_summary_notification_ringtone">"Ringtoni standard"</string>
+<string name="pref_summary_notification_ringtone_silent">"Heshtje"</string>
+<string name="menu_sim_capacity">"Kapaciteti i SIM"</string>
+<string name="pref_title_manage_multi_sim_messages">"Menaxho mesazhet në SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="pref_summary_manage_multi_sim_messages">"Menaxho mesazhet e ruajtura në SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_sim_success">"Kaluar në SIM"</string>
+<string name="toast_copy_to_sim_failure">"Dështoi të kopjohet në SIM"</string>
+<string name="toast_sim_memory_full">"Memoria SIM është plot"</string>
+<string name="toast_copy_to_multi_sim_success">"Kaluar në SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_multi_sim_failure">"Dështoi të kopjohet në SIM<xliff:g id="COUNT">%1$s<xl></xl></xliff:g>"</string>
+<string name="toast_multi_sim_memory_full">"Memoria <xliff:g id="COUNT">%1$S</xliff:g> SIM është plot"</string>
+<plurals name="conversation_num">
+<item quantity="one">"Ju keni 1 bisedë."</item>
+<item quantity="other">"Ju keni <xliff:g id="number">%1$s</xliff:g> biseda."</item>
+</plurals>
+<string name="count_of_new_mms">"%s mesazhe të reja"</string>
+<string name="pref_summary_store_sms_on_sim">"Kur vjen SMS i ri, ruajeni në SIM ose jo"</string>
+<string name="pref_title_store_sms_on_sim">"Ruaj SMS në SIM"</string>
+<string name="pref_title_sms_validity">"Vlefshmëria e SMS"</string>
+<string-array name="prefEntries_sms_validity">
+<item>"Nuk është vendosur"</item>
+<item>"1 orë"</item>
+<item>"6 orë"</item>
+<item>"24 orë"</item>
+<item>"2 ditë"</item>
+<item>"1 javë"</item>
+<item>"Maksimum"</item>
+</string-array>
+<string name="done_slide_show">"U krye"</string>
+<string name="smsc_check_fdn_failure">"Numri i qendrës të mesazheve nuk i përket listës fdn."</string>
+<string name="muti_select_all">"Zgjidh të gjitha"</string>
+<string name="menu_select_none">"Çzgjidh të gjitha"</string>
+<string name="Conversation_check_type_selected_all">"Zgjidh të gjitha"</string>
+<string name="menu_msg_folder">"Pamja e folderit"</string>
+<string name="menu_msg_list">"Pamja e mesazhit"</string>
+<string name="folder_inbox">"Kutia hyrëse"</string>
+<string name="folder_outbox">"Kutia dalëse"</string>
+<string name="folder_sent">"Të dërguara"</string>
+<string name="folder_drafts">"Skica"</string>
+<string name="folder_empty">"Nuk ka mesazhe në këtë folder."</string>
+<string name="folder_display_all">"Trego të gjitha mesazhet"</string>
+<string name="folder_delete_messages">"Fshi mesazhet"</string>
+<string name="folder_loading">"Duke ngarkuar..."</string>
+<string name="folder_reply">"Përgjigju"</string>
+<string name="folder_forward">"Përpara"</string>
+<string name="no_msg_del">"Nuk janë fshirë mesazhe"</string>
+<string name="exceed_slides_number_limitation">"Është arritur limiti i numrit të pamjeve"</string>
+<string name="has_vcard_or_vcalendar_attachment">"Tashmë ka <xliff:g id="TYPE">%1$s</xliff:g>, nuk mund të shtohen të tjerë"</string>
+<string name="folder_sortby">"Rendit sipas"</string>
+<string-array name="sort_type">
+<item>"Sipas kohës"</item>
+<item>"Sipas adresës"</item>
+</string-array>
+<string name="OTAConfig_title">"Parametrat OTAConfig"</string>
+<string name="OTAConfig_Message">"Jeni të sigurt që doni të ruani konfigurimin OTA?"</string>
+<string name="OTAConfiy_Success">"Konfigurimi i mesazhit OTA me sukses"</string>
+<string name="OTAConfiy_Error">"konfigurimi OTA dështoi"</string>
+<string name="ota_pin_error">"siguria OTA dështoi"</string>
+<string name="ota_retry">"gabim fjalëkalimi"</string>
+<string name="ota_pin_exception">"dështim i konfigurimit OTA : gabim programi."</string>
+<string name="ota_mime_error">"dështim i konfigurimit OTA : gabim i të dhënave të mesazhit"</string>
+<string name="ota_support_not">"dështim i konfigurimit OTA：<xliff:g id="OTATYPE">%1$s</xliff:g> lloj i pasuportuar."</string>
+<string name="pref_reply_path_title">"Parametrat e shtegut të përgjigjes"</string>
+<string name="pref_title_reply_path">"Shtegu i përgjigjes"</string>
+<string name="pref_summary_reply_path">"Përgjigju përmes të njëjtës qendër"</string>
+<string name="cannot_add_picture_and_vcard">"Nuk mund të shtojë vCard dhe figurë në një pamje."</string>
+<string name="mms_setting">"Konfigurimi i MMS"</string>
+<string name="pref_title_font_size">"Konfigurimi i madhësisë të shkrimit"</string>
+<string name="font_size_setting">"Konfigurimi i madhësisë të shkrimit"</string>
+<string name="font_size">"Madhësia e shkrimit është: <xliff:g id="font_size_id">%1$s</xliff:g>""</string>
+<string name="menu_copy_to_sim_memory">"Kopjo mesazhin në SIM"</string>
+<string name="menu_add_recipient_to_contacts">"Shto <xliff:g id="name">%s</xliff:g>në kontaktet"</string>
+<string name="action_done">"U krye"</string>
+<string name="message_signature_setting">"Vendosja e firmës"</string>
+<string name="pref_signature_enable_title">"Firmë opsionale"</string>
+<string name="pref_signature_enabl_summary">"Vendos automatikisht firmën në çdo mesazh MMS që dërgoni"</string>
+<string name="pref_signature_input_title">"Ndrysho firmën"</string>
+<string name="pref_signature_input_summary">"Hyni këtu për të vendosur firmën tuaj"</string>
+<string name="pref_signature_input_limited">"Firma është arritur limitin e saj"</string>
+<string name="pref_hint_signature_edittext">"Ju lutem formoni firmën tuaj"</string>
+<string name="toast_append_signature_failed">"Vendosja e firmës në MMS dështoi, Madhësia e pamjeve është arritur"</string>
+<string name="pageIndex">"Faqja %s"</string>
+<string name="remove_subject">"Hiq subjektin"</string>
+<string name="toast_message_when_memory_full">"Memoria është plot, ju lutem hiqni disa dhe ristartoni"</string>
+<string name="toast_save_classzero_message_failed">"Nuk ka hapësirë të mbetur, ruajtja e mesazhit dështoi"</string>
+<string name="toast_shared_file_failed">"Skedë media e pasuportuar, ndarja dështoi."</string>
+<string name="message_too_many_recipients_picked">"Na vjen keq, nuk mund të shtoni më shumë se <xliff:g id="COUNT">%1$s</xliff:g> kontakte për radhë""</string>
+<string name="pref_title_manage_sim_smsc">"Qendra e shërbimit SMS"</string>
+<string name="smsc_set_fails">"Vendosja e Smsc dështon"</string>
+<string name="smsc_set_success">"U vendos me sukses."</string>
+<string name="smsc_change_success">"U ndryshua me sukses."</string>
+<string name="smsc_add_success">"U shtua me sukses"</string>
+<string name="received_new_wap_contact">"Është marrë një mesazh vCard SMS"</string>
+<string name="save_new_wap_contact">"Ruaj"</string>
+<string name="cancle_new_wap_contact">"Anulo"</string>
+<string name="menu_sim_message">"Mesazhet në SIM"</string>
+<string name="folder_display_option">"Opsioni i shfaqjes"</string>
+<string name="confirm_open_browser_dialog_title">"Mesazhi"</string>
+<string name="confirm_open_browser_dialog_message">"Do të hapë shfletuesin, vazhdo?"</string>
+<plurals name="delete_confirm">
+<item quantity="one">"Zgjidh 1 artikull"</item>
+<item quantity="other">"Zgjidhni <xliff:g id="del_count">%1$s</xliff:g> artikuj"</item>
+</plurals>
+<string name="select_sim_card">"Ju lutem zgjidhni kartën SIM"</string>
+<string name="menu_video_call_back">"Telefonatë video <xliff:g id="name">%s</xliff:g>"</string>
+<string name="menu_edit_before_call_back">"Modifiko para telefonatës <xliff:g id="name">%s</xliff:g>"</string>
+<string name="min_zoom">"është arritur minimumi"</string>
+<string name="max_zoom">"është arritur maksimumi"</string>
+<string name="sms_merge_forward">"Bashko dhe përcill"</string>
+<string name="sms_merge_dialog_title">"Kërkesë"</string>
+<string name="sms_merge_dialog_content">"Mund të bashkoni vetëm midis 2 dhe 30 mesazhe SMS. Ju lutem kontrollojeni."</string>
+<string name="sms_merge_forward_empty">"Nuk ka mesazh SMS për të bashkuar dhe përcjellë."</string>
+<string name="sms_forwarding_number">"Konfigurimi i përcjelljes të SMS"</string>
+<string name="pref_sms_forwarding_number_title">"Numri i përcjelljes të SMS"</string>
+<string name="pref_sms_forwarding_number_summary">"Përcjellje e SMS me numrin e marrësit"</string>
+<string name="sim_list_title">"Ju lutem zgjidhni kartën SIM"</string>
+<string name="type_vcard">"Kontakt"</string>
+<string name="type_vcalendar">"Kalendari"</string>
+<string name="attach_vcard">"Kontakt"</string>
+<string name="attach_vcalendar">"Kalendari"</string>
+<string name="add_slide_before">"Shto pamje (para)"</string>
+<string name="add_slide_after">"Shto pamje (pas)"</string>
+<string name="re_take_picture">"Ruajtja e figurës dështoi, ju lutem kapeni figurën përsëri."</string>
+<string name="exceed_text_length_limitation">"Është tejkaluar limiti i gjatësisë të tekstit."</string>
+<string name="move_message_to_phone_memory">"Kopjimi i mesazhit në memorien e telefonit me sukses"</string>
+<string name="can_not_copy_the_message">"E pamundur të kopjohet mesazhi"</string>
+<string name="confirm_import_vcard">"Importo këtë kartë vCard?"</string>
+<string name="pref_title_manage_simx_smsc">"SIM<xliff:g id="COUNT">%1$s</xliff:g> Qendra e Shërbimit SMS"</string>
+<string name="simx_settings_title">"SIM<xliff:g id="COUNT">%1$s</xliff:g> Konfigurimi"</string>
+<string name="pref_summary_sms_validity">"Vlefshmëria e mesazhit të shkurtër"</string>
+<string-array name="prefEntries_mms_validity">
+<item>"1 orë"</item>
+<item>"12 orë"</item>
+<item>"24 orë"</item>
+<item>"2 ditë"</item>
+<item>"Maksimum"</item>
+</string-array>
+<string-array name="prefEntries_mms_priority">
+<item>"I lartë"</item>
+<item>"Normal"</item>
+<item>"I ulët"</item>
+</string-array>
+<string name="pref_title_mms_validity">"Vlefshmëria e mesazhit multimedia"</string>
+<string name="pref_summary_mms_validity">"Vlefshmëria e mesazhit multimedia"</string>
+<string name="pref_title_mms_priority">"Prioriteti"</string>
+<string name="pref_summary_mms_priority">"Konfigurimi i prioritetit"</string>
+<string name="sim_settings_title">"Konfigurimi i kartës SIM"</string>
+<string name="toast_copy_to_simx_success">"U kopjua me sukses në <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_simx_failure">"Dështoi të kopjohet në<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_simx_memory_full">"<xliff:g id="COUNT">%1$s</xliff:g>është plot"</string>
+<string name="pref_title_manage_sim_x_setting">"Menaxho SIM<xliff:g id="COUNT">%1$s</xliff:g> Parametrat"</string>
+<string name="pref_title_mms_creation_mode">"Metoda e krijimit"</string>
+<string-array name="mms_creation_mode_entries">
+<item>"Ndaluar"</item>
+<item>"Paralajmërim"</item>
+<item>"E lirë"</item>
+</string-array>
+<string name="exceed_resolution_limit">"Rezolucioni tejakalon limitin"</string>
+<string name="want_to_add_media">"Doni ta shtoni këtë <xliff:g id="NAME">%1$s</xliff:g> në mesazhin tuaj?"</string>
+<string name="mms_can_not_add_vcard">"Fshi bashkëngjitjen ekzistuese për ta shtuar në kontaktet"</string>
+<string name="mms_can_not_add_vcalendar">"Fshi bashkëngjitjen ekzistuese për të shtuar pamje"</string>
+<string name="converting_to_text_message">"Duke konvertuar mesazhin tekst..."</string>
+<string name="select_calendar">"Zgjidh Axhendën"</string>
+<string name="no_calendar">"Nuk ka Axhendë"</string>
+<string name="exceed_slides_number_message">"Zgjedhur <xliff:g id="NUMBER">%1$s</xliff:g> axhendë, Maks është <xliff:g id="NUMBER">%2$s</xliff:g> axhenda"</string>
+<string name="add_to_blacklist">"SHTO NË LISTËN E ZEZË"</string>
+<string name="failed_addToBlacklist">"Shtimi në listën e zezë dështoi."</string>
+<string name="creating_slideshow_title">"Duke krijuar pamjen"</string>
+<string name="attachment_vcalendar">"Vkalendar"</string>
+<string name="attachment_vcard">"vcard"</string>
+<string name="text_limited_warning">"Kufizimi në hyrje"</string>
+<string name="subject_text_length_limitation">"Është arritur kufizimi për gjatësinë e subjektit."</string>
+<string name="attach_commonPhrases">"Frazat e zakonshme"</string>
+<string name="commonphrase_empty">"Nuk ka fraza të zakonshme"</string>
+<string name="quick_reply">"Përgjigjet e shpejta"</string>
+<string name="common_messages">"Frazë e zakonshme"</string>
+<string name="common_add_text">"E re"</string>
+<string name="common_delete_text">"Fshi"</string>
+<string name="common_delete_message">"Konfirmo fshirjen?"</string>
+<string name="common_delete">"Fshi"</string>
+<string name="common_phrase_contextmenu_title">"Menu operimi"</string>
+<string name="common_edit">"Ndrysho"</string>
+<string name="commonphrase_delete_empty">"Nuk mund të fshihen fraza"</string>
+<string name="common_phrase_edit_dialog_title">"Opsionet"</string>
+<string name="common_phrase_edit_dialog_inform">"Ruani të modifikuarën tuaj?"</string>
+<string name="common_phrase_edit_max_length">"Është arritur kufizimi për hyrje!"</string>
+<string name="common_messages_edit">"Modifiko frazën e zakonshme"</string>
+<string name="common_save">"Ruaj"</string>
+<string name="common_cancel">"Anulo"</string>
+<string name="add_empty_common_messages">"Vendos çdo karakter"</string>
+<string name="pref_other_settings_title">"Tjetër"</string>
+<string name="pre_key_title_common_messages">"Frazë e zakonshme"</string>
+<string name="common_phrase_selection">"Zgjidh frazat e zakonshme"</string>
+<string name="wap_push_message_dialog_title">"Mesazh Wap Push"</string>
+<string name="open_website">"Hap faqen e internetit"</string>
+<string name="activity_not_found">"Nuk është gjetur një aplikacion i përshtatshëm"</string>
+<string name="add_contact">"Vendos kontaktet"</string>
+<string name="receive_from">"Merr nga %s"</string>
+<string name="send_from">"Dërgo nga %s"</string>
+<string name="dl_expired_wap_push">"Janë <xliff:g id="COUNT">%1$s</xliff:g> mesazhe wap të skaduara, do të fshihen."</string>
+<string name="invalid_recipient">"Marrës i pavlefshëm"</string>
+<string name="max_recipients_count">"Kufizimi i marrësve është <xliff:g id="MAXCOUNT">%1$s</xliff:g>."</string>
+<string name="no_media_selected">"Nuk është zgjedhur media!"</string>
+<string name="search_max_length">"Fjalia e kërkimit është shumë e gjatë, do të kufizohet në 512."</string>
+<string name="sim_capacity_used">"Përdorur:"</string>
+<string name="sim_capacity_total">"Total:"</string>
+<string name="too_many_contacts">"Kufizimi i marrësve është <xliff:g id="MAXLIMIT">%1$s</xliff:g>, do të shtohen <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> marrës do të shtohen."</string>
+<string name="delivery_toast_body_expired">"Mesazhi ka skaduar %s."</string>
+<string name="discard_dialog">"Vërtet doni të jepni këtë informacion?"</string>
+<string name="contacts_count_excceeds">"Ju keni shtuar tashmë <xliff:g id="MAXLIMIT">%1$s</xliff:g> marrës, nuk lejohet të shtohen më tepër."</string>
+<string name="copy">"Kopjo"</string>
+<string name="received_new_wap_vcalendar">"Është marrë një mesazh SMS vKalendar"</string>
+<string name="remove_vcalendar_first">"Më parë fshi vkalendarin të bashkëngjitur për të modifikuar këtë."</string>
+<string name="remove_vcard_first">"Fshi vCard të bashkëngjitur për të modifikuar këtë."</string>
+<string name="import_vcalendar">"Importo vKalendar"</string>
+<string name="no_vcalendar">"Nuk është gjetur vKalendar"</string>
+<string name="import_vcalendar_fail">"Nuk mundi të importojë vKalendar."</string>
+<string name="unable_to_add_all">"Është arritur limiti i madhësisë të mesazhit, disa pjesë nuk shtohen."</string>
+<string name="replce_slideshow_dilaog_dismiss">"Zëvendësimi i pamjes do të fshijë bashkëngjijen aktuale, do të provoni të vazhdoni?"</string>
+<string name="pref_title_sms_retry_times">"Aktivizo riprovën SMS"</string>
+<string name="smsc_list">"Lista e qendrës SMS"</string>
+<string name="smsc_list_empty">"Nuk ka numra qendre SMS"</string>
+<string name="smsc_list_loading">"Duke ngarkuar"</string>
+<string name="smsc_list_menu_edit">"Ndrysho"</string>
+<string name="smsc_list_menu_activate">"Aktivizo"</string>
+<string name="smsc_list_not_allow_to_clear">"Nuk lejohet të pastrohet numri"</string>
+<string name="smsc_list_empty_number">"Kliko për të shtuar numër të ri"</string>
+<string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g> bashkëngjitja u ruajt në<xliff:g id="path">%2$s</xliff:g>,<xliff id="fail">%3$d</xliff> bashkëngjitja dështoi të ruhet"</string>
+<string name="box_msg_list_menu_addtocontacts">"Shto në kontaktet"</string>
+<string name="box_msg_list_menu_call">"Telefono"</string>
+<string name="box_msg_list_menu_editbeforecall">"Modifiko para telefonatës"</string>
+<string name="box_msg_list_menu_videocall">"Telefonatë video"</string>
+<string name="soundrecorder_fail_msg">"Nuk mundi të fillojë regjistratorin"</string>
+<string name="camera_fail_msg">"Nuk mundi të fillojë kamerën"</string>
+<string name="video_fail_msg">"Nuk mundi të fillojë videon"</string>
+<string name="pref_encode_type_setting_title">"Konfigurimi i llojit të enkodimit"</string>
+<string name="pref_encode_type_title">"Lloji i enkodimit"</string>
+<string name="confirm_convert_to_mms">"Marrësit përmbajnë email, mesazhi do të dërgohet si MMS"</string>
+<string name="send_as_mms">"Dërgo MMS"</string>
+<string name="send_as_sms">"Dërgo vetëm SMS"</string>
+<string name="protected_file">"Skeda e mbrojtur nuk mund të shtohet"</string>
+<string name="success_to_send_sms">"Dërgimi i SMS me sukses"</string>
+<string name="confirm_ota_message">"Konfirmo Parametrat OTA"</string>
+<string name="confirm_ota">"OK"</string>
+<string name="cancel_ota">"Anulo"</string>
+<string name="ota_cancelled">"Parametrat OTA u anuluan."</string>
+<string name="message_too_big_for_audio">"Mesazhi është shumë i madh për të bashkëngjitur një audio."</string>
+<string name="contacts_count_can_send">"I nderuar klient, marrësit tejkaluan limitin e sistemit, lejohet të dërgohet vetëm <xliff:g id="MAXLIMIT">%1$s</xliff:g> , ju lutem dërgojeni në grupe."</string>
+<string name="attach_common_messages">"Frazat e zakonshme"</string>
+<string name="attach_subject">"Subjekti"</string>
+<string name="add_contacts_dialog_title">"Shto kontakte"</string>
+<string name="add_contact_as_text">"Shkruaji mesazh"</string>
+</resources>

@@ -1,0 +1,41 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+    package="com.spread.cachefdn"
+    android:sharedUserId="android.uid.phone"
+    coreApp="true"
+    >
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.BIND_CARRIER_SERVICES" />
+    <!-- BIND_CARRIER_MESSAGING_SERVICE has been deprecated in favor of BIND_CARRIER_SERVICES. -->
+    <uses-permission android:name="android.permission.BIND_CARRIER_MESSAGING_SERVICE"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHO"/>
+
+    <application
+        android:label="FDNService"
+        android:usesCleartextTraffic="true"
+        android:process="com.android.phone"
+       >
+
+       <service android:name="com.spread.cachefdn.SprdFdnService"
+                 android:enabled="true"
+                 android:process="system"
+                 android:exported="true">
+           <intent-filter>
+                <action android:name="com.spread.cachefdn.SprdFdnService"></action>
+           </intent-filter>
+       </service>
+       <activity
+           android:name="com.spread.cachefdn.StopSmscActivity"
+           android:exported="true"
+           android:theme="@style/BugleTheme">
+       </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2010,2013 Thundersoft Corporation
+  All rights Reserved
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:textSize="24dip"
+        android:textColor = "#AAAAAA"
+        android:text="@string/download_text_download_center"
+        android:background="@drawable/download_topbar_bg"/>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:textSize="13dip"
+        android:textColor = "#AAAAAA"
+        android:text="@string/download_text_category_capture"
+        android:background="@drawable/bg_preference_category_title"/>
+    <RelativeLayout android:id="@+id/scenery_background_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_preference_item">
+        <ImageView android:id="@+id/scenery_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:src="@drawable/download_ic_bg_normal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/scenery_icon"
+            android:layout_centerVertical="true"
+            android:padding="5dip"
+            android:textSize="16dip"
+            android:textColor = "#AAAAAA"
+            android:text="@string/download_text_scenery_background"/>
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="5dip"
+            android:src="@drawable/download_arrow"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/manga_background_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_preference_item"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/scenery_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:src="@drawable/download_ic_manga_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/scenery_icon"
+            android:padding="5dip"
+            android:text="@string/download_manga"
+            android:textColor="#AAAAAA"
+            android:textSize="16dip" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="5dip"
+            android:src="@drawable/download_arrow" />
+    </RelativeLayout>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:textSize="13dip"
+        android:textColor = "#AAAAAA"
+        android:text="@string/download_text_puzzle"
+        android:background="@drawable/bg_preference_category_title"/>
+    <RelativeLayout android:id="@+id/collage_background_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_preference_item">
+        <ImageView android:id="@+id/scenery_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:src="@drawable/download_ic_bg_normal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/scenery_icon"
+            android:layout_centerVertical="true"
+            android:padding="5dip"
+            android:textSize="16dip"
+            android:textColor = "#AAAAAA"
+            android:text="@string/download_camera_mode_scenery"/>
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="5dip"
+            android:src="@drawable/download_arrow"/>
+    </RelativeLayout>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:textSize="13dip"
+        android:textColor = "#AAAAAA"
+        android:text="@string/download_text_category_uphoto"
+        android:background="@drawable/bg_preference_category_title"/>
+    <RelativeLayout android:id="@+id/frame_background_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_preference_item">
+        <ImageView android:id="@+id/scenery_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:src="@drawable/download_ic_photoframe_normal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/scenery_icon"
+            android:layout_centerVertical="true"
+            android:padding="5dip"
+            android:textSize="16dip"
+            android:textColor = "#AAAAAA"
+            android:text="@string/download_text_edit_photoframe"/>
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="5dip"
+            android:src="@drawable/download_arrow"/>
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/texture_background_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_preference_item">
+        <ImageView android:id="@+id/scenery_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:src="@drawable/download_ic_texture_normal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/scenery_icon"
+            android:layout_centerVertical="true"
+            android:padding="5dip"
+            android:textSize="16dip"
+            android:textColor = "#AAAAAA"
+            android:text="@string/download_text_edit_texture"/>
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="5dip"
+            android:src="@drawable/download_arrow"/>
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/decoration_background_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_preference_item">
+        <ImageView android:id="@+id/scenery_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:src="@drawable/download_ic_decor_normal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/scenery_icon"
+            android:layout_centerVertical="true"
+            android:padding="5dip"
+            android:textSize="16dip"
+            android:textColor = "#AAAAAA"
+            android:text="@string/download_text_edit_decoration"/>
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="5dip"
+            android:src="@drawable/download_arrow"/>
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/font_background_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_preference_item">
+        <ImageView android:id="@+id/scenery_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:src="@drawable/download_ic_font_normal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/scenery_icon"
+            android:layout_centerVertical="true"
+            android:padding="5dip"
+            android:textSize="16dip"
+            android:textColor = "#AAAAAA"
+            android:text="@string/download_font"/>
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="5dip"
+            android:src="@drawable/download_arrow"/>
+    </RelativeLayout>
+</LinearLayout>

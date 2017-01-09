@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2010,2013 Thundersoft Corporation
+  All rights Reserved
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center" >
+
+    <ImageView
+        android:id="@+id/iv_ugif_edit_item_bk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:padding="4dip"
+        android:scaleType="fitXY" />
+    <TextView
+        android:id="@+id/ugif_decorations_free"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/bt_bg_download_free"
+        android:gravity="center"
+        android:textSize="10dip"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:textColor="@color/white"
+        android:text="@string/decorations_free"
+        android:visibility="gone" />
+
+</RelativeLayout>

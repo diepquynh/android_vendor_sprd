@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name" msgid="1935869255545976415">ব্রাউজার</string>
+    <string name="choose_upload" msgid="3649366287575002063">আপলোড করার জন্য ফাইল চয়ন করুন</string>
+    <string name="uploads_disabled" msgid="463761197575372994">ফাইল আপলোড নিষ্ক্রিয় আছে.</string>
+    <string name="new_tab" msgid="7971857320679510529">নতুন ট্যাব</string>
+    <string name="new_incognito_tab" msgid="3606197964239039478">নতুন ছদ্মবেশী ট্যাব</string>
+    <string name="tab_bookmarks" msgid="2305793036003473653">বুকমার্কস</string>
+    <string name="tab_most_visited" msgid="1077402532455000703">সর্বাধিক দেখা</string>
+    <string name="tab_history" msgid="1979267558744613746">ইতিহাস</string>
+    <string name="tab_snapshots" msgid="1449241204980265186">সংরক্ষিত পৃষ্ঠাগুলি</string>
+    <string name="added_to_bookmarks" msgid="4028710765672851635">বুকমার্ক যোগ যাও.</string>
+    <string name="removed_from_bookmarks" msgid="546648923924996722">বুকমার্ক থেকে সরানো হয়েছে.</string>
+    <string name="sign_in_to" msgid="5939425800148759165">সাইন ইন<xliff:g id="HOSTNAME">%s1</xliff:g> \"<xliff:g id="REALM">%s2</xliff:g>\""</string>
+    <string name="username" msgid="5057566336518215922">নাম</string>
+    <string name="password" msgid="1177138552305184404">পাসওয়ার্ড</string>
+    <string name="action" msgid="183105774472071343">সাইন ইন</string>
+    <!-- no translation found for bookmarks_add_page (3093456701072617702) -->
+    <skip />
+    <string name="bookmarks_search" msgid="5229596268214362873">ব্রাউজার</string>
+    <string name="cancel" msgid="3017274947407233702">বাতিল</string>
+    <string name="ok" msgid="1509280796718850364">ঠিক আছে</string>
+    <string name="title_bar_loading" msgid="7438217780834640678">লোড হচ্ছে\u2026</string>
+    <string name="page_info" msgid="4048529256302257195">পাতা তথ্য</string>
+    <string name="page_info_view" msgid="5303490449842635158">পাতা তথ্য দেখুন</string>
+    <string name="page_info_address" msgid="2222306609532903254">ডাক ঠিকানা</string>
+    <string name="ssl_warnings_header" msgid="79744901983636370">এই সাইটের জন্য নিরাপত্তা শংসাপত্রের সঙ্গে সমস্যা আছে.</string>
+    <string name="ssl_continue" msgid="8031515015829358457">অবিরত</string>
+    <string name="security_warning" msgid="6607795404322797541">নিরাপত্তা সতর্কবাণী</string>
+    <string name="view_certificate" msgid="1472768887529093862">সার্টিফিকেট দেখুন</string>
+    <string name="ssl_go_back" msgid="4598951822061593819">প্রত্যাবর্তন করা</string>
+    <string name="ssl_untrusted" msgid="7754507359360636447">এই শংসাপত্রটি বিশ্বাসযোগ্য কর্তৃপক্ষ থেকে নয়.</string>
+    <string name="ssl_mismatch" msgid="3809794439740523641">সাইটের নাম সার্টিফিকেটে নামের সাথে মেলে না.</string>
+    <string name="ssl_expired" msgid="5739349389499575559">এই শংসাপত্রের মেয়াদ শেষ হয়েছে.</string>
+    <string name="ssl_not_yet_valid" msgid="8193083327719048247">এই শংসাপত্র এখনও বৈধ নয়.</string>
+    <string name="ssl_date_invalid" msgid="3705563379257285534">এই সার্টিফিকেটটি একটি অবৈধ তারিখ আছে.</string>
+    <string name="ssl_invalid" msgid="9041704741505449967">এই শংসাপত্র অকার্যকর.</string>
+    <string name="ssl_unknown" msgid="5679243486524754571">অজানা শংসাপত্র ত্রুটি.</string>
+    <string name="stopping" msgid="4839698519340302982">বন্ধ\u2026</string>
+    <string name="stop" msgid="5687251076030630074">থামুন</string>
+    <string name="reload" msgid="8585220783228408062">সতেজ করা</string>
+    <string name="back" msgid="8414603107175713668">পিছনে</string>
+    <string name="forward" msgid="4288210890526641577">অগ্রবর্তী</string>
+    <string name="save" msgid="5922311934992468496">ঠিক আছে</string>
+    <string name="do_not_save" msgid="6777633870113477714">বাতিল</string>
+    <string name="location" msgid="3411848697912600125">ঠিকানা</string>
+    <string name="account" msgid="5179824606448077042">হিসাব</string>
+    <string name="containing_folder" msgid="6771180232953030479">যুক্ত করুন</string>
+    <string name="new_folder" msgid="7743540149088867917">নতুন ফোল্ডার</string>
+    <string name="edit_folder" msgid="621817453133656156">ফোল্ডার সম্পাদনা করুন</string>
+    <string name="delete_folder" msgid="2046483129024501116">ফোল্ডারটি মুছে দিন</string>
+    <string name="no_subfolders" msgid="3303645239686962674">কোন সাবফোল্ডার নেই.</string>
+    <string name="add_to_bookmarks_menu_option" msgid="4449323955122214389">বুকমার্কস</string>
+    <string name="add_to_homescreen_menu_option" msgid="1461447829242963790">হোম পর্দা</string>
+    <string name="add_to_other_folder_menu_option" msgid="5947586525822134105">অন্য ফোল্ডার</string>
+    <string name="name" msgid="5462672162695365387">লেবেল</string>
+    <string name="http" msgid="2163722670597250102">http://</string>
+    <string name="save_to_bookmarks" msgid="1679286010089780932">বুকমার্ক সংরক্ষণ করুন</string>
+    <string name="bookmark_this_page" msgid="7530739804320811054">এই পৃষ্ঠাটি বুকমার্ক করুন</string>
+    <string name="remove" msgid="7820112494467011374">অপসারণ</string>
+    <string name="edit_bookmark" msgid="5024089053490231905">বুকমার্ক সম্পাদনা করুন</string>
+    <string name="create_shortcut_bookmark" msgid="1995095662095484289">বাড়ির শর্টকাট যুক্ত করুন</string>
+    <string name="open_bookmark" msgid="8473581305759935790">খোলা</string>
+    <string name="remove_bookmark" msgid="8407495852801410891">বুকমার্ক মুছে দিন</string>
+    <string name="remove_from_bookmarks" msgid="4374080666576982775">বুকমার্ক থেকে মুছে ফেলুন</string>
+    <string name="remove_history_item" msgid="5021424935726728618">ইতিহাস থেকে মুছে ফেলুন</string>
+    <string name="set_as_homepage" msgid="4752937379414905560">হোমপেজ হিসাবে সেট করুন</string>
+    <string name="bookmark_saved" msgid="2766434679871317557">সংরক্ষিত বুকমার্ক.</string>
+    <string name="bookmark_not_saved" msgid="1077732557310662080">বুকমার্ক সংরক্ষণ করা যায়নি.</string>
+    <string name="homepage_set" msgid="8768087280310966395">হোমপেজ সেট.</string>
+    <string name="bookmark_needs_title" msgid="6245900436119218187">বুকমার্ক আছে একটি নাম আবশ্যক.</string>
+    <string name="bookmark_needs_url" msgid="7809876865972755158">বুকমার্ক আছে একটি অবস্থান আবশ্যক.</string>
+    <string name="bookmark_url_not_valid" msgid="4917440933384496211">এই URL টি বৈধ নয়.</string>
+    <string name="bookmark_cannot_save_url" msgid="7836064647943671126">এই URL-ভুক্ত হতে পারে না.</string>
+    <string name="bookmark_page" msgid="6845189305130307274">শেষ দেখা বুকমার্ক পাতা</string>
+    <string name="bookmark_thumbnail_view" msgid="3164068314718522138">থাম্বনেল</string>
+    <string name="bookmark_list_view" msgid="7848510619500937839">তালিকা</string>
+    <string name="current_page" msgid="7510129573681663135">থেকে:\u0020</string>
+    <string name="delete_bookmark_warning" msgid="7825328496411904321">বুকমার্ক মুছে দিন \"<xliff:g id="BOOKMARK">%s</xliff:g>\"?</string>
+    <string name="open_all_in_new_window" msgid="455786763426575293">নতুন ট্যাবে খুলুন সব</string>
+    <string name="goto_dot" msgid="3895839050522602723">গমন</string>
+    <string name="select_dot" msgid="6299170761900561967">টেক্সট নির্বাচন করুন</string>
+    <!-- no translation found for close_other_tabs (7693157495148282778) -->
+    <skip />
+    <string name="bookmarks" msgid="1961279134885867815">বুকমার্কস</string>
+    <string name="shortcut_bookmark" msgid="3974876480401135895">পুস্তক - নিশানা</string>
+    <string name="shortcut_bookmark_title" msgid="7570786275916681296">একটি বুকমার্ক চয়ন করুন</string>
+    <string name="history" msgid="2451240511251410032">ইতিহাস</string>
+    <string name="menu_view_download" msgid="2124570321712995120">ডাউনলোডসমূহ</string>
+    <string name="copy_page_url" msgid="1188679152608889555">পৃষ্ঠা URL অনুলিপি করুন</string>
+    <string name="share_page" msgid="593756995297268343">সেয়ার পাতা</string>
+    <string name="menu_save_snapshot" msgid="6935080344031126139">অফলাইনে পড়ার জন্য সংরক্ষণ করুন</string>
+    <!-- no translation found for saving_snapshot (1693789062351182809) -->
+    <skip />
+    <string name="snapshot_failed" msgid="4584580873565876033">অফলাইনে পড়ার জন্য সংরক্ষণ করা যায়নি.</string>
+    <string name="contextheader_folder_bookmarkcount" msgid="353987136645619089"><xliff:g id="BOOKMARK_COUNT">%d</xliff:g> বুকমার্ক</string>
+    <string name="contextheader_folder_empty" msgid="974171637803391651">খালি ফোল্ডার</string>
+    <string name="contextmenu_openlink" msgid="7237961252214188935">খোলা</string>
+    <string name="contextmenu_openlink_newwindow" msgid="1205313604181761403">নতুন ট্যাবে খুলুন</string>
+    <string name="contextmenu_openlink_newwindow_background" msgid="4690381019116746687">পটভূমি নতুন ট্যাবে খুলুন</string>
+    <string name="contextmenu_savelink" msgid="5508554930832538184">লিংক সংরক্ষণ করুন</string>
+    <string name="contextmenu_sharelink" msgid="5392275392280130331">সেয়ার লিঙ্ক</string>
+    <string name="contextmenu_copy" msgid="398860586635404030">কপি</string>
+    <string name="contextmenu_copylink" msgid="5153657160294534270">লিঙ্ক URL অনুলিপি করুন</string>
+    <string name="contextmenu_download_image" msgid="4243829645180686912">ইমেজ সংরক্ষণ করুন</string>
+    <string name="contextmenu_view_image" msgid="3870625602053600905">ছবিটি দেখুন</string>
+    <string name="contextmenu_set_wallpaper" msgid="3691902960115350686">ওয়ালপেপার হিসাবে সেট করুন</string>
+    <string name="contextmenu_dial_dot" msgid="5856550683415933806">ডায়াল\u2026</string>
+    <string name="contextmenu_add_contact" msgid="3183511922223645716">পরিচিতি যোগ করুন</string>
+    <string name="contextmenu_send_mail" msgid="1014513374828775660">ইমেল পাঠান</string>
+    <string name="contextmenu_map" msgid="7471390435434034912">মানচিত্র</string>
+    <string name="choosertitle_sharevia" msgid="4600490613341909086">মাধ্যমে শেয়ার</string>
+    <string name="clear" msgid="7070043081700011461">সাফ করুন</string>
+    <string name="replace" msgid="4843033491070384047">প্রতিস্থাপন করা</string>
+    <string name="browser_bookmarks_page_bookmarks_text" msgid="6787605028726162673">বুকমার্কস</string>
+    <string name="menu_preferences" msgid="6709237687234102240">সেটিংস</string>
+    <string name="pref_content_title" msgid="3834107397725342174">পাতা কন্টেন্ট</string>
+    <!-- no translation found for pref_allow_apptabs (1325989799080202871) -->
+    <skip />
+    <string name="pref_content_load_images" msgid="2125616852957377561">লোড চিত্র</string>
+    <string name="pref_content_load_images_summary" msgid="5055874125248398584">ওয়েব পেজের ছবিগুলি দেখাচ্ছে</string>
+    <string name="pref_content_block_popups" msgid="4158524847764470895">পপ আপ ব্লক করুন</string>
+    <string name="pref_content_javascript" msgid="4570972030299516843">জাভা স্ক্রিপ্ট  সক্ষম করুন</string>
+    <string name="pref_content_open_in_background" msgid="824123779725118663">পটভূমি খুলুন</string>
+    <string name="pref_content_plugins" msgid="7231944644794301582">প্লাগইন সক্রিয়</string>
+  <string-array name="pref_content_plugins_choices">
+    <item msgid="6745108155096660725">"সর্বদা"</item>
+    <item msgid="2484126708670016519">"দাবিমাত্র"</item>
+    <item msgid="8547442717307793863">"বন্ধ"</item>
+  </string-array>
+    <string name="pref_content_open_in_background_summary" msgid="955411158407739504">বর্তমান ট্যাব খুলুন পিছনে নতুন ট্যাব</string>
+    <string name="pref_content_homepage" msgid="3324574611613105696">হোমপেজে সেট করুন</string>
+    <string name="pref_content_search_engine" msgid="1620101310821644144">সার্চ ইঞ্জিন সেট করুন</string>
+    <string name="pref_content_search_engine_summary" msgid="304003941861818133">একটি সার্চ ইঞ্জিন চয়ন করুন</string>
+    <string name="pref_set_homepage_to" msgid="7838684355145561242">সেট করা</string>
+    <string name="pref_content_autofit" msgid="8260474534053660809">অটো সুস্থ পৃষ্ঠাগুলি</string>
+    <string name="pref_content_autofit_summary" msgid="324810555822572112">ফরমেট করে ওয়েব পেজ পর্দা মাপসই করা</string>
+    <string name="pref_general_title" msgid="1946872771219249323">সাধারণ</string>
+    <string name="pref_general_sync_title" msgid="3138637035975860324">সিঙ্ক করুন</string>
+    <string name="pref_general_autofill_title" msgid="547881256865816858">স্বতঃপূর্ণ</string>
+    <string name="pref_autofill_enabled" msgid="1015751713312396713">স্বয়ং ফরম পূরণ</string>
+    <string name="pref_autofill_enabled_summary" msgid="7659954073892471496">একটি একক স্পর্শ সঙ্গে ওয়েব ফর্মগুলি পূরণ করুন</string>
+    <string name="pref_autofill_profile_editor" msgid="8934844472922113166">অটো ভরাট পাঠ্য</string>
+    <string name="pref_autofill_profile_editor_summary" msgid="4864447251676856190">সেট আপ টেক্সট ওয়েব ফর্ম স্বয়ং ভরাট</string>
+    <string name="pref_autologin_title" msgid="4421187193809267096">স্বয়ংক্রিয় গুগুল সাইন ইন</string>
+    <string name="pref_autologin_progress" msgid="8333244467048833461">গুগুল ব্যবহার করে সাইট সাইন ইন<xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="autologin_bar_text" msgid="3684581827167173371">"হিসাবে সাইন ইন করুন"</string>
+    <string name="autologin_bar_login_text" msgid="3336615320510851879">সাইন ইন</string>
+    <string name="autologin_bar_hide_text" msgid="3629355974385859580">লুকান</string>
+    <string name="autologin_bar_error" msgid="7470001207395920811">সাইন ইন গেল না</string>
+    <string name="autofill_profile_editor_heading" msgid="4798644544927738078">টেকস্টটি আপনি ওয়েব ফর্ম স্বয়ং পূরণ করতে চান তা টাইপ করুন.</string>
+    <string name="autofill_profile_editor_name" msgid="8566130291459685955">সম্পূর্ণ নাম:</string>
+    <string name="autofill_profile_editor_email_address" msgid="7967585896612797173">ইমেইল</string>
+    <string name="autofill_profile_editor_company_name" msgid="2813443159949210417">কোম্পানির নাম:</string>
+    <string name="autofill_profile_editor_address_line_1" msgid="836433242509243081">লাইন 1 ঠিকানা:</string>
+    <string name="autofill_profile_editor_address_line_1_hint" msgid="5965659598509327172">রাস্তার ঠিকানা, পি.ও. বক্স, c/o</string>
+    <string name="autofill_profile_editor_address_line_2" msgid="8194745202893822479">লাইন 2 ঠিকানা:</string>
+    <string name="autofill_profile_editor_address_line_2_hint" msgid="8529642768127569254">অ্যাপার্টমেন্ট, স্যুট, ইউনিট, বিল্ডিং, তল, ইত্যাদি</string>
+    <string name="autofill_profile_editor_city" msgid="7306716145784997135">শহর/টাউন:</string>
+    <string name="autofill_profile_editor_state" msgid="2150403366835080407">রাজ্য/প্রদেশ/অঞ্চল:</string>
+    <string name="autofill_profile_editor_zip_code" msgid="283668573295656671">জিপ কোড</string>
+    <string name="autofill_profile_editor_country" msgid="7234470301239156656">দেশ</string>
+    <string name="autofill_profile_editor_phone_number" msgid="4938852821413729276">ফোন</string>
+    <string name="autofill_profile_editor_phone_number_invalid" msgid="6795411298467068957">অবৈধ ফোন নম্বর.</string>
+    <string name="autofill_profile_editor_save_profile" msgid="3230301454458581157">রক্ষা</string>
+    <string name="autofill_profile_successful_save" msgid="5691459703493331983">অটো টেক্সট ভরাট সংরক্ষিত.</string>
+    <string name="autofill_profile_successful_delete" msgid="1790262652460723127">অটো পূরণ টেক্সট মোছা.</string>
+    <string name="autofill_profile_editor_delete_profile" msgid="3098369314558164153">মুছে ফেলা</string>
+    <string name="autofill_setup_dialog_message" msgid="7123905786076456503">ব্রাউজার স্বয়ংক্রিয়ভাবে এই মত ওয়েব ফর্মগুলি পূরণ করতে পারেন. আপনার স্বয়ং ভরাট টেক্সট সেট আপ করতে চান?</string>
+    <string name="autofill_setup_dialog_negative_toast" msgid="3288881675232206984">আপনি সবসময় সেট ব্রাউজার&gt; সেটিংস&gt; সাধারণ স্ক্রিন থেকে আপনি স্বয়ং ভরাট টেক্সট আপ করতে পারেন.</string>
+    <string name="disable_autofill" msgid="8305901059849400354">স্বয়ং ভরাট অক্ষম করুন</string>
+    <string name="pref_privacy_security_title" msgid="3480313968942160914">গোপনীয়তা &amp;  সুরক্ষা</string>
+    <string name="pref_privacy_clear_cache" msgid="3380316479925886998">সাফ ক্যাশে</string>
+    <string name="pref_privacy_clear_cache_summary" msgid="2216463577207991454">স্থানীয়ভাবে ক্যাশে কন্টেন্ট এবং উপাত্ত সাফ করুন</string>
+    <string name="pref_privacy_clear_cache_dlg" msgid="4344512581716422465">স্থানীয়ভাবে ক্যাশে কন্টেন্ট এবং উপাত্ত মুছবেন?</string>
+    <string name="pref_privacy_cookies_title" msgid="6763274282214830526">বিস্কুট</string>
+    <string name="pref_privacy_clear_cookies" msgid="3095583579133780331">সকল কুকি ডেটা সাফ করুন</string>
+    <string name="pref_privacy_clear_cookies_summary" msgid="6962742063990677520">সমস্ত কুকিজ সাফ করুন ব্রাউজার</string>
+    <string name="pref_privacy_clear_cookies_dlg" msgid="1493252163164621278">সমস্ত কুকিজ মুছুন?</string>
+    <string name="pref_privacy_clear_history" msgid="8723795508825198477">ইতিহাস সাফ করুন</string>
+    <string name="pref_privacy_clear_history_summary" msgid="6868501330708940734">ইতিহাস সাফ করুন ব্রাউজার গৌণ</string>
+    <string name="pref_privacy_clear_history_dlg" msgid="6934317391642846227">ব্রাউজার গৌণ ইতিহাস মুছে দিন?</string>
+    <string name="pref_privacy_formdata_title" msgid="6549813837982050424">ফরম তথ্য</string>
+    <string name="pref_privacy_clear_form_data" msgid="4232668196344383987">সাফ ফর্ম তথ্য</string>
+    <string name="pref_privacy_clear_form_data_summary" msgid="7702091143640546200">সমস্ত সংরক্ষিত ফর্ম ডেটা সাফ করুন</string>
+    <string name="pref_privacy_clear_form_data_dlg" msgid="8205626042241338983">সমস্ত সংরক্ষিত ফর্ম ডেটা মুছে দিন?</string>
+    <string name="pref_privacy_clear_passwords" msgid="4750234112289277480">পাসওয়ার্ডগুলি সাফ করুন</string>
+    <string name="pref_privacy_clear_passwords_summary" msgid="8856782718942903335">সমস্ত সংরক্ষিত পাসওয়ার্ডগুলি সাফ করুন</string>
+    <string name="pref_privacy_clear_passwords_dlg" msgid="5836576259947160045">সমস্ত সংরক্ষিত পাসওয়ার্ডগুলি মুছবেন?</string>
+    <string name="pref_privacy_location_title" msgid="7458378016606081067">অবস্থান</string>
+    <string name="pref_privacy_enable_geolocation" msgid="1395040170290765686">অবস্থান সক্ষম করুন</string>
+    <string name="pref_privacy_enable_geolocation_summary" msgid="8437020934664306205">সাইটে আপনার অবস্থান অ্যাক্সেসের অনুরোধ করার অনুমতি দিন</string>
+    <string name="pref_privacy_clear_geolocation_access" msgid="6649680770030042980">সাফ অবস্থান এক্সেস</string>
+    <string name="pref_privacy_clear_geolocation_access_summary" msgid="7750143359497314679">সাফ সকল ওয়েবসাইটের জন্য অবস্থান এক্সেস</string>
+    <string name="pref_privacy_clear_geolocation_access_dlg" msgid="3190928760598034346">সাফ ওয়েবসাইট অবস্থান এক্সেস?</string>
+    <string name="pref_security_passwords_title" msgid="5734190542383756711">পাসওয়ার্ড</string>
+    <string name="pref_security_remember_passwords" msgid="6492957683454529549">পাসওয়ার্ড মনে রেখো</string>
+    <string name="pref_security_remember_passwords_summary" msgid="256388703356349137">ওয়েবসাইটের জন্য ব্যবহারকারীর নাম ও পাসওয়ার্ড সংরক্ষণ করুন</string>
+    <string name="pref_security_save_form_data" msgid="1213669802810198893">ফর্ম তথ্য আমাকে মনে রেখো</string>
+    <string name="pref_security_save_form_data_summary" msgid="4994074685153708026">ব্যবহার করার জন্য তথ্য  ফর্ম টাইপ মনে রাখুন</string>
+    <string name="pref_security_show_security_warning" msgid="8901135676266754559">নিরাপত্তা সাবধানবাণী দেখান</string>
+    <string name="pref_security_show_security_warning_summary" msgid="5260098316025397525">সতর্কবাণী যদি একটি সাইট এর নিরাপত্তা সঙ্গে একটা সমস্যা আছে দেখান</string>
+    <string name="pref_security_accept_cookies" msgid="3201367661925047989">কুকিজ স্বীকার</string>
+    <string name="pref_security_accept_cookies_summary" msgid="1907951236154433751">সাইটগুলি এবং সংরক্ষণ করতে কুকি তথ্য পড়া মঞ্জুরি দিন</string>
+  <string-array name="pref_text_size_choices">
+    <item msgid="4952686548944739548">"অতি ক্ষুদ্র"</item>
+    <item msgid="1950030433642671460">"ছোট"</item>
+    <item msgid="4338347520133294584">"স্বাভাবিক"</item>
+    <item msgid="5043128215356351184">"বৃহৎ"</item>
+    <item msgid="7201512237890458902">"সর্বদা"</item>
+  </string-array>
+    <string name="pref_min_font_size" msgid="8811125835817449131">"নূন্যতম ফন্টের আকার"</string>
+    <string name="pref_min_font_size_value" msgid="2924708480509060209">"<xliff:g id="FONT_SIZE">%d</xliff:g> p"</string>
+    <string name="pref_text_zoom" msgid="5171056101805125497">শিরোনাম আরোহী</string>
+    <string name="pref_zoom_on_double_tap" msgid="902786475250741795">ডবল টোকা উপর জুম</string>
+    <string name="pref_force_userscalable" msgid="5641500562399892621">জুম সক্ষম বাধ্যতামূলকভাবে</string>
+    <string name="pref_force_userscalable_summary" msgid="3613242300617172230">জুম ব্যবহার নিয়ন্ত্রণ করা একটি ওয়েবসাইট এর অনুরোধ অগ্রাহ্য করা</string>
+    <string name="pref_inverted_category" msgid="1280639705117152207">উল্টানো পর্দার রেন্ডারিং</string>
+    <string name="pref_inverted" msgid="7613556986776824112">ইনভার্টেড রেন্ডারিং</string>
+    <string name="pref_inverted_summary" msgid="7357225897413923085">সাদা কালো হয়ে যায় এবং তদ্বিপরীত</string>
+    <string name="pref_inverted_contrast" msgid="8527441236225288169">প্রতিতুলনা করা</string>
+    <string name="pref_default_zoom" msgid="8076142259097187395">ডিফল্ট জুম</string>
+  <string-array name="pref_default_zoom_choices">
+    <item msgid="549583171195154919">"দূরবর্তী"</item>
+    <item msgid="5619034257768161024">"মাঝারি"</item>
+    <item msgid="3840999588443167001">"বন্ধ করা"</item>
+  </string-array>
+    <string name="pref_default_zoom_dialogtitle" msgid="6095974367125109021">ডিফল্ট জুম</string>
+    <string name="pref_content_load_page" msgid="2219810141690955452">ওভারভিউ খোলা পৃষ্ঠাগুলি</string>
+    <string name="pref_content_load_page_summary" msgid="9168803276420332955">সদ্য খোলা পৃষ্ঠাগুলি দেখান ওভারভিউ</string>
+    <string name="pref_extras_title" msgid="7075456173747370647">নিশুতি</string>
+    <string name="pref_extras_website_settings" msgid="67866640052455549">ওয়েবসাইট সেটিংস</string>
+    <string name="pref_extras_website_settings_summary" msgid="1656771443223494406">ব্যক্তিগত ওয়েবসাইটের জন্য উন্নত সেটিংস</string>
+    <string name="pref_extras_reset_default_title" msgid="3579760449455761762">ডিফল্টে রিসেট করুন</string>
+    <string name="pref_extras_reset_default" msgid="8904000515846202110">ডিফল্টে রিসেট করুন</string>
+    <string name="pref_extras_reset_default_summary" msgid="4247870778270414501">ডিফল্ট সেটিংস পুনরুদ্ধার</string>
+    <string name="pref_extras_reset_default_dlg" msgid="7922814420184322450">ডিফল্ট মান সেটিংস প্রত্যাবর্তন?</string>
+    <string name="pref_development_title" msgid="3263854204533056480">ডেবাগ্ করা</string>
+    <string name="pref_default_text_encoding" msgid="5742965543955558478">টেক্সট এনকোডিং</string>
+  <string-array name="pref_default_text_encoding_choices">
+    <item msgid="7275223955790513818">"ল্যাটিন-1 (ISO-8859-1)"</item>
+    <item msgid="2456597866837587140">"ইউনিকোড(UTF-8)"</item>
+    <item msgid="6122474363777211732">"চীনা(GBK)"</item>
+    <item msgid="373372275931607040">"চীনা(বৃহৎ5)"</item>
+    <item msgid="891615911084608570">"জাপানি(ISO-2022-JP)"</item>
+    <item msgid="5589150448475151241">"জাপানি (SHIFT_JIS)"</item>
+    <item msgid="7356792686950371843">"জাপানি(EUC-JP)"</item>
+    <item msgid="2193955365569270096">"কোরিয়ান(EUC-KR)"</item>
+  </string-array>
+    <string name="pref_default_text_encoding_dialogtitle" msgid="5508255018084978547">টেক্সট এনকোডিং</string>
+    <string name="pref_accessibility_title" msgid="5127836981587423215">অভিগম্যতা</string>
+    <string name="pref_font_size_category" msgid="6683754355084218254">লেখার আকার</string>
+    <string name="pref_lab_title" msgid="5571091610359629423">ল্যাবস</string>
+    <string name="pref_lab_quick_controls" msgid="3267606522082281367">দ্রুত নিয়ন্ত্রণ</string>
+    <string name="pref_lab_quick_controls_summary" msgid="3149664132600968775">বাম বা ডান প্রান্ত থেকে থাম্ব দ্রুত নিয়ন্ত্রণ এবং অ্যাপ্লিকেশন এবং URL বার খুলুন স্লাইড করে.</string>
+    <string name="pref_use_instant_search" msgid="1119176077760723740">গুগল ঝটপট</string>
+    <string name="pref_use_instant_search_summary" msgid="839320474961917522">গুগল ইন্সটেন্ট আপনি যখন গুগল খোঁজো ব্যবহার করতে, আপনাকে হিসাবে ফলাফল দেখানটাইপ (এই তথ্য ব্যবহার বাড়াতে পারেন).</string>
+    <string name="pref_lab_fullscreen" msgid="8173609016657987973">পর্দা জুড়ে প্রদর্শন</string>
+    <string name="pref_lab_fullscreen_summary" msgid="7694738112219376740">পূর্ণস্ক্রিন মোড অবস্থা এস্টাস বার  লুকান হোক</string>
+    <string name="pref_data_title" msgid="7255058703417796578">ব্যান্ডউইর্দ ব্যবস্থাপনা</string>
+    <string name="pref_data_preload_title" msgid="4479320472980292873">অনুসন্ধান ফলাফল পুনরায় লোডিং</string>
+  <string-array name="pref_data_preload_choices">
+    <item msgid="5180466923190095508">না</item>
+    <item msgid="1791664748778640002">শুধু Wi-Fi</item>
+    <item msgid="3944061253437827617">সর্বদা</item>
+  </string-array>
+    <string name="pref_data_preload_summary" msgid="3809168910751382727">ব্রাউজার পটভূমিতে উচ্চ আস্থা অনুসন্ধান ফলাফল রিলোড মঞ্জুরি দিন</string>
+    <string name="pref_data_preload_dialogtitle" msgid="8421297746110796536">অনুসন্ধান ফলাফল পুনরায় লোডিং</string>
+    <!-- no translation found for pref_link_prefetch_title (4123685219009241072) -->
+    <skip />
+    <!-- no translation found for pref_link_prefetch_choices:0 (4889781230398008031) -->
+    <!-- no translation found for pref_link_prefetch_choices:1 (1908465963242077428) -->
+    <!-- no translation found for pref_link_prefetch_choices:2 (7647277566998527142) -->
+    <!-- no translation found for pref_link_prefetch_summary (6558181497993206817) -->
+    <skip />
+    <!-- no translation found for pref_link_prefetch_dialogtitle (3804646141622839765) -->
+    <skip />
+    <string name="browserFrameNetworkErrorLabel" msgid="8102515020625680714">সংযোগ সমস্যা</string>
+    <string name="browserFrameFileErrorLabel" msgid="4703792279852977350">ফাইল সমস্যা</string>
+    <string name="browserFrameFormResubmitLabel" msgid="2385512101948178841"></string>
+    <string name="browserFrameFormResubmitMessage" msgid="5244059279866705254">"আপনি যে পৃষ্ঠার ডেটা দেখতে চেষ্টা করছেন তা ইতিমধ্যে (\"POSTDATA\") জমা দেওয়া হয়েছে। যদি আপনি ডেটা আবার পাঠাতে চান, তাহলে পৃষ্ঠার কোন রকমের কাজ (যেমন অনুসন্ধান অথবা অনলাইন ক্রয়) পুনরাবৃত্তি করা হবে।"</string>
+    <string name="loadSuspendedTitle" msgid="6453376579109644551">কোনো সংযোগ নেই</string>
+    <string name="loadSuspended" msgid="3843343290039218668">ব্রাউজার এই পাতা কারণসেখানে গুলি লোড করতে পারবেন না ইন্টারনেট সংযোগ. </string>
+    <string name="clear_history" msgid="5998307092715979619">ইতিহাস সাফ করুন</string>
+    <string name="browser_history" msgid="2979476257919939232">সম্প্রতি-পরিদর্শিত পেজ</string>
+    <string name="empty_history" msgid="7013369425484218985">কোন ব্রাউজার ইতিহাসে নেই.</string>
+    <string name="go_home" msgid="109129207276086793">হোম পেজ</string>
+    <string name="add_new_bookmark" msgid="3158497555612337238">বুকমার্ক যোগ করুন</string>
+    <string name="add_bookmark_short" msgid="3783984330998103735">যোগ করা</string>
+    <string name="search_hint" msgid="4647356319916631820">খোঁজো বা টাইপ করা URL</string>
+    <string name="search_button_text" msgid="5235226933877634410">গমন</string>
+    <string name="search_settings_description" msgid="1422401062529014107">বুকমার্কস এবং ওয়েব ইতিহাস</string>
+    <string name="popup_window_attempt" msgid="31565781154067629">এই সাইট খোলার অনুমতি দিন একটি
+       পপ আপ উইন্ডোতে?</string>
+    <string name="allow" msgid="1157313689171991335">অনুমতি দেওয়া</string>
+    <string name="block" msgid="9172175889884707800">ব্লক করা</string>
+    <string name="too_many_windows_dialog_title" msgid="5709782301477380438">ট্যাব সীমায় পৌঁছেছে</string>
+    <string name="too_many_windows_dialog_message" msgid="3644234634638290304">একটি নতুন ট্যাব নির্বাচন করতে একাধিক খোলা বন্ধ করতে পারে না.</string>
+    <string name="too_many_subwindows_dialog_title" msgid="3805453941587725944">পপ আপ ইতিমধ্যে খুলুন</string>
+    <string name="too_many_subwindows_dialog_message" msgid="2164725447981195556">কেবলমাত্র একটি পপ আপ একটি সময়ে ওপেন করতে পারি.</string>
+    <string name="download_no_sdcard_dlg_title" product="nosdcard" msgid="56777245081568508">USB সঞ্চয় অনুপলব্ধ</string>
+    <string name="download_no_sdcard_dlg_title" product="default" msgid="605904452159416792">কোন এসডি কার্ড</string>
+    <string name="download_no_sdcard_dlg_msg" product="nosdcard" msgid="3144652102051031721">"USB স্টোরেজ থেকে ডাউনলোড করা প্রয়োজন <xliff:g id="FILENAME">%s</xliff:g>."</string>
+    <string name="download_no_sdcard_dlg_msg" product="default" msgid="2616399456116301518">"একটি এসডি কার্ড ডাউনলোড করা প্রয়োজন <xliff:g id="FILENAME">%s</xliff:g>."</string>
+    <string name="download_sdcard_busy_dlg_title" product="nosdcard" msgid="8081445664689818973">USB সঞ্চয় অনুপলব্ধ</string>
+    <string name="download_sdcard_busy_dlg_title" product="default" msgid="6877712666046917741">এসডি কার্ড অনুপলব্ধ</string>
+    <string name="download_sdcard_busy_dlg_msg" product="nosdcard" msgid="8412543086906716875">USB সঞ্চয় ব্যস্ত. ডাউনলোডগুলির অনুমতি দিতে, প্রজ্ঞাপনে চালু USB সংগ্রহস্থল অফ স্পর্শ.</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default" msgid="2629425950473358591">এসডি কার্ড ব্যস্ত. ডাউনলোডগুলির অনুমতি দিতে, প্রজ্ঞাপনে চালু USB সংগ্রহস্থল অফ স্পর্শ.</string>
+    <string name="cannot_download" msgid="8150552478556798780">শুধুমাত্র ডাউনলোড করতে পারেন \"http\" অথবা\"https\" URLs.</string>
+    <string name="download_pending" msgid="2599683668575349559">ডাউনলোড শুরু  করুন\u2026</string>
+    <string name="search_the_web" msgid="6046130189241962337">ওয়েব অনুসন্ধান</string>
+    <string name="webstorage_outofspace_notification_title" msgid="1160474608059771788">সম্পূর্ণ ব্রাউজার স্টোরেজ</string>
+    <string name="webstorage_outofspace_notification_text" msgid="47273584426988640">যাও স্থান মুক্ত স্পর্শ করুন.</string>
+    <string name="webstorage_clear_data_title" msgid="689484577124333977">সঞ্চিত ডেটা সাফ করুন</string>
+    <string name="webstorage_clear_data_dialog_message" msgid="6200681632891775881">এই সব ওয়েবসাইট দ্বারা সংরক্ষিত তথ্য মুছে দিন?</string>
+    <string name="webstorage_clear_data_dialog_ok_button" msgid="6682570951259237542">ঠিক আছে</string>
+    <string name="webstorage_clear_data_dialog_cancel_button" msgid="2028867751958942762">বাতিল</string>
+    <string name="webstorage_origin_summary_mb_stored" msgid="1985885826292236210">আপনার ফোনে সঞ্চিত মেগাবাইট</string>
+    <string name="loading_video" msgid="7886324933131962321">লোড হচ্ছে ভিডিও\u2026</string>
+    <!-- no translation found for permissions_prompt_message (4061614352929148904) -->
+    <skip />
+    <!-- no translation found for permissions_prompt_allow (7826482218781108525) -->
+    <skip />
+    <!-- no translation found for permissions_prompt_deny (1036811343275340593) -->
+    <skip />
+    <!-- no translation found for permissions_prompt_remember (126175387645941449) -->
+    <skip />
+    <!-- no translation found for resource_protected_media_id (7963751671593892247) -->
+    <skip />
+    <!-- no translation found for resource_video_capture (5290734653269134167) -->
+    <skip />
+    <!-- no translation found for resource_audio_capture (7598142903570606603) -->
+    <skip />
+    <string name="geolocation_permissions_prompt_message" msgid="356796102004052471">"<xliff:g id="WEBSITE_ORIGIN">%s</xliff:g> আপনার অবস্থান জানতে চায়"</string>
+    <string name="geolocation_permissions_prompt_share" msgid="9084486342048347976">সেয়ার অবস্থান</string>
+    <string name="geolocation_permissions_prompt_dont_share" msgid="6303025160237860300">অস্বীকার</string>
+    <string name="geolocation_permissions_prompt_remember" msgid="3118526300707348308">পক্ষপাত মনে রাখুন</string>
+    <string name="geolocation_permissions_prompt_toast_allowed" msgid="7201417941112726112">এই সাইটটি আপনার অবস্থান অ্যাক্সেস করতে পারেন. সেটিংস&gt;অ্যাডভান্সড&gt; ওয়েবসাইট পর্দায় এই পরিবর্তন.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed" msgid="156443445797377409">এই সাইটটি আপনার অবস্থান ব্যবহার করতে সক্ষম নয়. সেটিংস&gt;অ্যাডভান্সড&gt;ওয়েবসাইট পর্দায় এই পরিবর্তন.</string>
+    <string name="geolocation_settings_page_title" msgid="1745477985097536528">সাফ অবস্থান এক্সেস</string>
+    <string name="geolocation_settings_page_summary_allowed" msgid="9180251524290811398">এই সাইটটি বর্তমানে আপনার অবস্থান অ্যাক্সেস করতে পারেন</string>
+    <string name="geolocation_settings_page_summary_not_allowed" msgid="7941769772784366199">এই সাইটটি বর্তমানে আপনার অবস্থান অ্যাক্সেস করতে পারছি না</string>
+    <string name="geolocation_settings_page_dialog_message" msgid="8772923416296868537">সাফ করুন এই ওয়েব সাইটের জন্য অবস্থান এক্সেস?</string>
+    <string name="geolocation_settings_page_dialog_ok_button" msgid="2113465477131017852">ঠিক আছে</string>
+    <string name="geolocation_settings_page_dialog_cancel_button" msgid="7941036504673409747">বাতিল</string>
+    <string name="website_settings_clear_all" msgid="8739804325997655980">সমস্ত সাফ করুন</string>
+    <string name="website_settings_clear_all_dialog_message" msgid="1551164275687475061">সব ওয়েবসাইটের তথ্য এবং অবস্থান অনুমতি মুছবেন?</string>
+    <string name="website_settings_clear_all_dialog_ok_button" msgid="7858504776529106243">ঠিক আছে</string>
+    <string name="website_settings_clear_all_dialog_cancel_button" msgid="1896757051856611674">বাতিল</string>
+    <string name="progress_dialog_setting_wallpaper" msgid="2031391201442335889">ওয়ালপেপার সেট\u2026</string>
+    <string name="defaultBookmarksUpButton" msgid="2303951020715704735">বুকমার্কস</string>
+    <string name="empty_bookmarks_folder" msgid="6239830231917618556">কোন বুকমার্ক আর নেই.</string>
+    <!-- no translation found for other_bookmarks (8021889794475657319) -->
+    <skip />
+    <string name="rlz_access_point" msgid="7165847807377650632">"Y1"</string>
+    <string name="account_chooser_dialog_title" msgid="3314204833188808194">একাউন্ট বেছে নিন</string>
+    <string name="import_bookmarks_dialog_title" msgid="3325557652271172128">গুগল অ্যাকাউন্টের সাথে সিঙ্ক করুন</string>
+    <string name="import_bookmarks_dialog_description" msgid="2362897194870789609">এখনো এই ডিভাইসে বুকমার্ক যুক্ত হয় একটি গুগল অ্যাকাউন্ট না. একটি অ্যাকাউন্ট পরিতিচিতে এইসব বুকমার্ক সংরক্ষণ করুন. এইসব বুকমার্ক আপনি যদি তাদের সিঙ্ক করতে না চান তাহলে মুছে দিন.</string>
+    <string name="import_bookmarks_dialog_select_add_account" msgid="7643058662272484895">বর্তমানে এই ডিভাইসে বুকমার্ক যুক্ত করুন গুগল অ্যাকাউন্টের সাথে সিঙ্ক করা শুরু</string>
+    <string name="import_bookmarks_dialog_delete_select_account" msgid="4333848003180415516">বর্তমানে এই ডিভাইস এবং বুকমার্ক মুছে দিন গুগল অ্যাকাউন্টের সাথে সিঙ্ক করা শুরু</string>
+    <string name="import_bookmarks_dialog_confirm_delete" msgid="2204771572755630570">বর্তমানে এই ডিভাইস এবং বুকমার্ক মুছে দিন সঙ্গে বুকমার্কগুলিকে সিঙ্ক করা শুরু<xliff:g id="GOOGLE_ACCOUNT">%s</xliff:g>?</string>
+    <string name="import_bookmarks_dialog_confirm_add" msgid="8942794112340838111">বর্তমানে এই ডিভাইসের সাথে যুক্ত এবং বুকমার্ক বুকমার্ক সিঙ্ক করা শুরু <xliff:g id="GOOGLE_ACCOUNT">%s</xliff:g>?</string>
+    <string name="import_bookmarks_dialog_remove" msgid="5984607822851800902">বুকমার্ক মুছে দিন</string>
+    <string name="import_bookmarks_wizard_next" msgid="7578143961884352676">পরবর্তী</string>
+    <string name="import_bookmarks_wizard_previous" msgid="8551440353688257031">প্রাকদর্শন</string>
+    <string name="import_bookmarks_wizard_cancel" msgid="4936061122806506634">বাতিল</string>
+    <string name="import_bookmarks_wizard_done" msgid="1446247092194489191">কৃত</string>
+    <string name="import_bookmarks_dialog_add" msgid="1743359725294101189">গুগল অ্যাকাউন্টে বুকমার্ক যোগ করুন</string>
+    <string name="import_bookmarks_dialog_import" msgid="6933613853573899218">বুকমার্ক জন্য আপনার অ্যানড্রইড বুকমার্ক যোগ করুন <xliff:g id="GOOGLE_ACCOUNT">%s</xliff:g>"</string>
+    <string name="menu_share_url" msgid="5851814357333739700">ভাগ</string>
+    <string name="max_tabs_warning" msgid="4122034303809457570">কোনো ট্যাব উপলব্ধ নেই</string>
+    <string name="instant_search_label" msgid="8769284297650716935">গুগল ঝটপট সঙ্গে (ল্যাবস)</string>
+    <string name="preview" msgid="6450823514561689038">প্রাকদর্শন</string>
+    <string name="local_bookmarks" msgid="533816851415228520">স্থানীয়</string>
+    <string name="ua_switcher_desktop" msgid="220097077327558435">ডেস্কটপ সাইট অনুরোধ</string>
+    <string name="permission_preload_label" msgid="4856971662337877316">পুনরায় লোড করুন ফলাফল</string>
+    <string name="empty_snapshots_folder" msgid="7675378008107026013">কোনো পৃষ্ঠা সংরক্ষিত নেই.</string>
+    <string name="remove_snapshot" msgid="1624447424544976849">সঞ্চিত পাতা মুছে দিন</string>
+    <string name="snapshot_go_live" msgid="1209542802541168497">বাস যান</string>
+    <string name="accessibility_button_back" msgid="6194680634245279407">প্রত্যাবর্তন করা</string>
+    <string name="accessibility_button_forward" msgid="1236827218480658168">এগন</string>
+    <string name="accessibility_button_refresh" msgid="1023441396241841313">সুদ্ধ করুন পাতা</string>
+    <string name="accessibility_button_stop" msgid="6793644120043222148">পৃষ্ঠা লোড করা বন্ধ করুন</string>
+    <string name="accessibility_button_addbookmark" msgid="4787844912630006181">পৃষ্ঠাটি বুকমার্ক করুন</string>
+    <string name="accessibility_button_search" msgid="5357014102136055376">অনুসন্ধান</string>
+    <string name="accessibility_button_voice" msgid="152016375096083337">ভয়েস অনুসন্ধান শুরু...</string>
+    <string name="accessibility_button_bookmarks" msgid="7435055677299151649">বুকমার্কস</string>
+    <string name="accessibility_button_closetab" msgid="6954807842756927737">ট্যাব বন্ধ করুন</string>
+    <string name="accessibility_button_newtab" msgid="4116986240706315748">নতুন ট্যাবে খুলুন</string>
+    <string name="accessibility_button_newincognitotab" msgid="5254901889040012964">নতুন ছদ্মবেশী ট্যাব খুলুন</string>
+    <string name="accessibility_button_clear" msgid="6943152307986161598">সাফ ইনপুট</string>
+    <string name="accessibility_button_uaswitch" msgid="6286804719724282339">ইউজার এজেন্ট স্যুইচ করুন</string>
+    <string name="accessibility_button_go" msgid="1182818872083055958">গমন</string>
+    <string name="accessibility_button_navscreen" msgid="9142904748728713075">পাতা পরিচালক</string>
+    <string name="accessibility_button_more" msgid="3054251446394224216">আরো বিকল্প</string>
+    <string name="accessibility_state_incognito" msgid="5786038488425202355">ছদ্মবেশী পাতা</string>
+    <string name="accessibility_state_frozen" msgid="8041539250447035570">সংরক্ষিত পাতা</string>
+    <string name="accessibility_transition_navscreen" msgid="2734915619351519547">ট্যাব ব্যবস্থাপনা</string>
+    <!-- no translation found for accessibility_button_bookmarks_folder_up (9179389954714270505) -->
+    <skip />
+    <string name="bookmarks_add_page">"বুকমার্ক সংরক্ষণ করুন"</string>
+     <string name="empty_bookmark_folder">খালি বুকমার্ক ফোল্ডার</string>
+     <string name="close_other_tabs">অন্যন্য ট্যাবগুলো বন্ধ করুন</string>
+     <string name="saving_snapshot">সংরক্ষণ\u2026</string>
+     <string name="pref_allow_apptabs">"প্রতি অ্যাপে বিবিধ ট্যাবের অনুমতি দিন"      </string>
+     <string name="pref_link_prefetch_title">ওয়েব পেজ প্রাক লোড হচ্ছে</string>
+     <string name="pref_link_prefetch_summary">"ব্যাকগ্রাউণ্ডে ব্রাউজারকে সংযুক্ত ওয়েব পেজে প্রলোড করতে দিন"      </string>
+     <string name="pref_link_prefetch_dialogtitle">ওয়েব পেজ প্রাক লোড হচ্ছে</string>
+     <string name="other_bookmarks">"অন্যান্য বুকমার্কস"      </string>
+     <string name="accessibility_button_bookmarks_folder_up">পূর্ববর্তী ফোল্ডার</string>
+     <string name="horizontal_screen_check">"আনুভূমিক স্ক্রিন"</string>
+     <string name="horizontal_screen_summary">"আনুভূমিক স্ক্রিন থেকে ওয়েবপেজ ব্রাউজিং"</string>
+     <string name="browser">"ব্রাউজ করুন"</string>
+     <string name="cancel_download">বাতিল</string>
+     <string name="ok_filename">"ডাউনলোড"</string>
+     <string name="select_storage_back">পিছনে</string>
+     <string name="select_storage_internal">"অভ্যন্তরীণ সঞ্চয়স্থান"</string>
+     <string name="select_storage_sdcard">"SD কার্ড"</string>
+     <string name="download_complete">"ডাউনলোড সম্পূর্ণ। পাথ সংরক্ষণ করুন:"</string>
+     <string name="download_failure">"ডাউনলোড করতে ব্যর্থ"</string>
+     <string name="download_path_null">ডাউনলোড পথ ফাঁকা থাকার কারণে ডাউনলোড করা যাবে না।</string>
+     <string name="fetching_content_length">বিষয়বস্তু দ্বারা আনা হচ্ছে.</string>
+     <string name="select_storage_title">"অনুগ্রহ করে ডাউনলোড স্টোরেজ বেছে নিন"</string>
+     <string name="download_storage_busy">"স্টোরেজ উপলব্ধ নেই।"      </string>
+     <string name="menu_path_save">"পাথ সংরক্ষণ"</string>
+     <string name="menu_path_cancel">বাতিল</string>
+     <string name="select_open_download">"নির্বাচিত"</string>
+     <string name="open_download">"এই প্রকারের ফাইল খোলা যাবে, বেছে নিন খুলুন বা ডাউনলোড"</string>
+     <string name="mopen">"খুলুন"</string>
+     <string name="mdownload">"ডাউনলোড"</string>
+     <string name="type_no_support">"এই প্রকার সিস্টেম সমর্থন করে না"</string>
+     <string name="type_message">"সিস্টেম এই প্রকারের ফাইল খুলতে পারছে না, অনুগ্রহ করে এগিয়ে চলুন বা ডাউনলোড বাতিল করুন বেছে নিন!"</string>
+     <string name="unknown_file_size">আকার অজানা</string>
+     <string name="file_size">ফাইল আকার: <xliff:g id="size">%s</xliff:g></string>
+     <string name="pref_extras_saveasto_settings">"অবস্থান সংরক্ষণ করুন"</string>
+     <string name="file_check">ফাইল চেক্ করা</string>
+     <string name="processing_please_wait">প্রক্রিয়াকরণ চলছে, দয়া করে অপেক্ষা করুন।</string>
+     <string name="file_exists_msg">"এই ফাইলটির ইতিমধ্যেই অস্তিত্ব রয়েছে, প্রতিবেদন বাছাই করুন বা বাতিল করুন"      </string>
+     <string name="file_exists">"ফাইলগুলিকে পুনরায় লিখুন"      </string>
+     <string name="file_coverage">"প্রতিবেদন"      </string>
+     <string name="file_delete">ফাইল মুছে ফেলা</string>
+     <string name="file_cancel_download">বাতিল</string>
+     <string name="oma_dd_description_size_zero">"অবৈধ ডেসক্রিপ্টর।"</string>
+     <string name="oma_download_error">"OMA ডাউনলোড ত্রুটি"</string>
+     <string name="oma_download_descriptor">"OMA ডাউনলোড ডেসক্রিপ্টর"</string>
+     <string name="oma_audio_title">"অডিও"</string>
+     <string name="oma_image_title">চিত্র</string>
+     <string name="menu_view_oma_download">"OMA ডাউনলোড"</string>
+     <string name="oma_download_title">"OMA ডাউনলোড ইতিহাস"</string>
+     <string name="no_oma_downloads">"OMA ডাউনলোড ইতিহাস ফাঁকা আছে"</string>
+     <string name="oma_dd_description_error">"অবৈধ ডেসক্রিপ্টর"</string>
+     <string name="oma_download_file_not_found">"ফাইল পাওয়া যায় নি"</string>
+     <string name="oma_download_success">"900 সফল"</string>
+     <string name="oma_download_Insufficient_memory">"901 অপর্যাপ্ত মেমরি"</string>
+     <string name="oma_download_File_toobig">"413 ফাইল অতি বৃহৎ"</string>
+     <string name="oma_download_user_cancelled">"902 ব্যবহারকারী বাতিল"</string>
+     <string name="oma_download_loss_service">"903 পরিসেবার ক্ষতি"</string>
+     <string name="oma_download_attribute_mismatch">"905 অ্যাট্রিবিউট না মেলা"</string>
+     <string name="oma_download_invalid_descripter">"906 অবৈধ ডেসক্রিপ্টর।"</string>
+     <string name="oma_download_invalid_ddversion">"951 অবৈধ DD সংস্করণ"</string>
+     <string name="oma_download_device_aborted">"952 ডিভাইস পরিত্যক্ত"</string>
+     <string name="oma_download_non_acceptablecontent">"অগ্রহণযোগ্য বিষয়বস্তু"</string>
+     <string name="oma_download_default_error">"954 লোডার ত্রুটি"</string>
+     <string name="oma_name">নাম:</string>
+     <string name="oma_type">"প্রকার:"</string>
+     <string name="oma_size"> "আকার :"</string>
+     <string name="oma_vendor">"ভেন্ডর:"</string>
+     <string name="oma_description">"বর্ণনাঃ"      </string>
+     <string name="oma_drm_view_not_exist">"DRM প্রদর্শন বিদ্যমান নেই!"</string>
+     <string name="download_no_application_title">"ফাইল খোলা যাচ্ছে না"</string>
+     <string name="download">"ডাউনলোড"</string>
+     <string name="free_space">"অপর্যাপ্ত মেমরি! অনুগ্রহ করে কিছু বিদ্যমান ফািল মুছুন এবং আবার চেষ্টা করুন।"</string>
+     <string name="file_toolong">"টার্গেট ফাইল অতি বৃহৎ, সার্ভার প্রসেসিংয়ের আকার অতিক্রান্ত।"</string>
+     <string name="download_fail">"ডাউনলোড ব্যর্থ"</string>
+     <string name="oma_warning">"সতর্কবার্তা:"</string>
+     <string name="tabs">"ট্যাবগুলি"</string>
+     <string name="bookmark_add_folder">" ফোল্ডার যোগ করুন" </string>
+     <string name="bookmark_add">"বুকমার্কে সংযুক্তকরন"</string>
+     <string name="override_bookmark">"ঠিকানা বা নাম সহ একটি বুকমার্ক আগে থেকেই বিদ্যমান, ওভাররাইট করা হবে?"</string>
+     <string name="edit_folder_exist">"একই ফোল্ডার আগে থেকেই বিদ্যমান"</string>
+     <string name="failed_edit_bookmark">"একই নাম বা অবস্থান সহ একটি বুকমার্ক বিদ্যমান। অনুগ্রহ করে একটি আলাদা ব্যবহার করুন।"</string>
+     <string name="failed_edit_bookmark_catalog">"একই ক্যাটালগ বিদ্যমান। অনুগ্রহ করে একটি আলাদা ব্যবহার করুন।"</string>
+     <string name="failed_edit_bookmark_title">"কার্যক্রম ব্যর্থ"</string>
+     <string name="save_folder_success">"সফলভাবে সংরক্ষণ করা হয়েছে"</string>
+     <string name="save_folder_fail">"সংরক্ষণ ব্যর্থ।"</string>
+     <string name="update_bookmark_success">বুকমার্কের আপডেট সাফল্যের সাথে করা হয়েছে</string>
+     <string name="update_bookmark_fail">বুকমার্কের আপডেট করা ব্যর্থ</string>
+     <string name="folder_needs_title">"ফোল্ডারের অবশ্যই একটা নাম থাকতে হবে"      </string>
+     <string name="delete_folder_warning">ফোল্ডার মুছে দিন \"<xliff:g id="bookmark">%s</xliff:g>\"?</string>
+
+    <string-array name="pref_link_prefetch_choices">
+        <item>না</item>
+        <item>শুধু Wi-Fi</item>
+        <item>সর্বদা</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>"চলতি পাতা"</item>
+        <item>"ফাঁকা পৃষ্ঠা"</item>
+        <item>"ডিফল্ট পাতা"</item>
+        <item>"সর্বাধিক সাইট পরিদর্শন"</item>
+        <item>"অন্যান্য"</item>
+    </string-array>
+     <string name="open_all_in_new_window_background">"নতুন পশ্চাদপটের ট্যাবে সবগুলিকে খুলুন"</string>
+     <string name="permissions_prompt_message">"<xliff:g id="website origin" example="maps.google.com">%s</xliff:g> ব্যবহার করতে চায় আপনার <xliff:g id="resources" example="camera, microphone">%s</xliff:g>."</string>
+     <string name="permissions_prompt_allow">"অনুমতি দিন"</string>
+     <string name="permissions_prompt_deny">"আস্বীকার করুন"</string>
+     <string name="permissions_prompt_remember">"পক্ষপাত মনে রাখুন"</string>
+     <string name="resource_protected_media_id">"সুরক্ষিত মিডিয়া ID"</string>
+     <string name="resource_video_capture">"ক্যামেরা"</string>
+     <string name="resource_audio_capture">মাইক্রোফোন</string>
+     <string name="file_exists_ignore">"উপেক্ষা করুন"</string>
+     <string name="pref_text_format">"টেক্সট ফরম্যাট"</string>
+     <string name="pref_text_format_dialogtitle">"টেক্সট ফরম্যাট"</string>
+     <string name="tab_site_navigation">"পাতা ন্যাভিগেশন"</string>
+     <string name="edit">সম্পাদন</string>
+     <string name="delete">মুছে দিন</string>
+     <string name="add_favorite">প্রিয় যোগ করুন</string>
+     <string name="edit_favorite">প্রিয় সম্পাদনা করুন</string>
+     <string name="favorite_needs_title">প্রিয় একটি নাম থাকতে হবে.</string>
+     <string name="favorite_needs_url">"প্রিয় একটি স্থান উপস্থিত থাকা আবশ্যক."</string>
+     <string name="favorite_cannot_save_url">এই URL-টি প্রিয় হতে পারে না.</string>
+     <string name="mkdirs_error">"dir.টি করতে পারে না।"      </string>
+     <string name="delete_snapshot_warning">"স্ন্যাপশট মুছুন \"<xliff:g id="snapshot">%s</xliff:g>\"?"</string>
+     <string name="click_saved_webpage_has_deleted">"ফাইলটির অস্তিত্ব নেই, অনুগ্রহ করে স্ন্যাপশটটি মুছুন"      </string>
+     <string name="save_webpage_no_storage">"কোনও স্টোরেজ উপলদ্ধ নয়, ওয়াব পৃষ্ঠা সেভ করতে পারল না"</string>
+     <string name="exit_dot">"প্রস্থান"</string>
+     <string name="clear_today_history">"আজকের ইতিহাস মুছে ফেলুন"</string>
+     <string name="pref_privacy_clear_today_history_dlg">ব্রাউজার আজকের গৌণ ইতিহাস মুছে দিতে চান?</string>
+     <string name="contextmenu_bookmark_thislink">"বুকমার্ক লিঙ্ক"</string>
+     <string name="bookmark_history">বুকমার্কস এবং ইতিহাস</string>
+     <string name="homepage_snapshot">"হোমপেজ হিসাবে সেট করতে পারল না!"</string>
+     <string name="download_usb_busy_dlg_title">USB লংরক্ষণ অনুপলভ্য</string>
+
+    <string name="no_storage">"কোনো স্টোরেজ লভ্য নয়"</string>
+     <string name="add">"যোগ করুন"</string>
+     <string name="duplicate_site_navigation_title">"এই লেবেলটি আগে থেকেই আছে।"</string>
+     <string name="duplicate_site_navigation_url">"এই URL-টি আগে থেকেই আছে।"</string>
+     <string name="sitenavigation_add">"ওয়েবসাইট যোগ করুন"</string>
+     <string name="delete_site_navigation_msg">"এই বিষয়টি মুছে ফেলবেন?"</string>
+     <string name="input_too_long">"ইনপুটটি সর্বোচ্চ সীমায় পৌঁছে গেছে"</string>
+     <string name="can_not_share_link">"এই লিঙ্কটি শেয়ার করতে পারে না, এটি খুব বেশী বড়!"</string>
+     <string name="can_not_view_image">"এই প্রতিকৃতিটি দেখতে পারে না, প্রতিকৃতিটি খুব বেশী বড়!"</string>
+     <string name="shortcut_installed"> "শর্টকাট \"<xliff:g id="name" example="Browser">%s</xliff:g>\"তৈরী হয়েছে."</string>
+
+</resources>

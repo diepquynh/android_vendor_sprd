@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPRD: add for wifi new features -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Broadcom, WAPI BGN-->
+    <!-- Label for the password type of the network -->
+    <string name="wifi_wapi_psk_type">Password type</string>
+    <!-- Do not translate.  Concise terminology for wifi with WAPI_PSK -->
+    <string name="wifi_security_wapi_psk">WAPI PSK</string>
+    <!-- Do not translate.  Concise terminology for wifi with WAPI_CERT -->
+    <string name="wifi_security_wapi_cert">WAPI CERT</string>
+    <!-- Do not translate.  Concise terminology for wifi with WAPI PSK ASCII security -->
+    <string name="wifi_security_wapi_psk_ascii">WAPI PSK ASCII</string>
+    <!-- Do not translate.  Concise terminology for wifi with WAPI PSK hexadecimal security -->
+    <string name="wifi_security_wapi_psk_hexadecimal">WAPI PSK hexadecimal</string>
+    <!-- Label for the WAPI AS certificate of the network -->
+    <string name="wifi_wapi_as_certificate">AS certificate</string>
+    <!-- Label for the WAPI user certificate of the network -->
+    <string name="wifi_wapi_user_certificate">User certificate</string>
+    <!-- Toast message when WAPI cannot initialize certificate -->
+    <string name="wifi_wapi_fail_to_init">Unable to read WAPI certificates\nCredential storage might not enable</string>
+    <!-- Toast message when WAPI cannot pass authentication -->
+    <string name="wifi_wapi_fail_to_auth">WAPI authentication failed\nPlease check password or certificates</string>
+    <string name="wifi_wapi_cert_lost">Could not find certification for current connecting AP</string>
+    <!-- Broadcom, WAPI END-->
+
+    <!-- SPRD: EAP SIM/AKA slot BGN-->
+    <string name="wifi_eap_sim_slots">SIM slot</string>
+    <string name="wifi_eap_sim_slot1">SIM slot 1</string>
+    <string name="wifi_eap_sim_slot2">SIM slot 2</string>
+    <!-- SPRD: EAP SIM/AKA slot END -->
+
+    <!-- SPRD: cmcc wifi features BGN -->
+    <string name="cmcc_wifi_features">"CMCC Custom Functions"</string>
+    <string name="trust_accesspoints_list">"Trusted AccessPoints"</string>
+    <string name="unkown_accesspoints_list">"Unkown AccessPoints"</string>
+
+    <string name="wifi_disconnect">Disconnect</string>
+    <string name="wifi_netmask">Netmask</string>
+    <string name="wifi_secured_first_item">Secured with <xliff:g>%1$s</xliff:g></string>
+    <string name="wifi_secured_second_item">, secured with <xliff:g>%1$s</xliff:g></string>
+
+    <string name="mobile_to_wlan_policy_category">Choose Network Dialog</string>
+    <string name="mobile_to_wlan_policy_title">Cellular network->Wi-Fi network</string>
+    <string name="mobile_to_wlan_policy_auto">Auto Connect</string>
+    <string name="mobile_to_wlan_policy_manual">Manual Connect</string>
+    <string name="mobile_to_wlan_policy_ask">Always Ask</string>
+
+    <string name="show_dialog_connect_to_cmcc_title">Connected prompt</string>
+    <string name="show_dialog_connect_to_cmcc_summary">Display connected to the CMCC prompt</string>
+    <string name="reset_wifi_policy_dialog_flag_title">Recovery prompt</string>
+    <string name="reset_wifi_policy_dialog_flag_toast_message">Has been restored</string>
+
+    <string name="wifi_alarm_category_title">Wi-Fi alarm setting</string>
+    <string name="wifi_connect_alarm_title">Automatically connect Wi-Fi</string>
+    <string name="wifi_disconnect_alarm_title">Automatically disconnect Wi-Fi</string>
+    <string name="wifi_alarm_time_title">Set Time</string>
+    <!-- SPRD: cmcc wifi features END -->
+
+    <!-- SPRD: cucc wifi features BGN -->
+    <string name="network_preference_settings">Network management</string>
+    <string name="network_type_choosen">Choose a network to connect prior</string>
+    <!-- SPRD: cucc wifi features END -->
+
+    <!-- SPRD: add for BUG487742 -->
+    <string name="network_id_illegal_character">Please type a valid network id</string>
+
+    <!-- SPRD: add for wep BGN -->
+    <string name="key_index">"Key Index"</string>
+    <string name="wep_password_tip_text">Please input 5, 13, 16 ASCII characters or 10, 26, 32 HEX characters for WEP auth.</string>
+    <!-- SPRD: add for wep END -->
+
+    <!-- SPRD: add for auto roam function -->
+    <string name="wifi_auto_roam">Auto roam</string>
+
+    <!-- SPRD: add for 11r support BGN -->
+    <string name="wifi_security_ft_psk">FT PSK</string>
+    <string name="wifi_security_ft_eap">FT EAP</string>
+    <!-- SPRD: add for 11r support END -->
+
+    <!-- SPRD: add for 11w support BGN -->
+    <string name="wifi_security_psk_sha256">PSK-SHA256</string>
+    <string name="wifi_security_eap_sha256">EAP-SHA256</string>
+    <!-- SPRD: add for 11w support END -->
+
+    <!-- SPRD: Add for extends hotspot BGN -->
+    <string name="hotspot">Wi-Fi hotspot</string>
+    <string name="hotspot_settings">Set up Wi-Fi hotspot</string>
+    <string name="hotspot_preference_title">Wi-Fi hotspot settings and user management</string>
+    <string name="hotspot_connected_stations">Connected Users</string>
+    <string name="hotspot_no_connected_station">0 connected user</string>
+    <string name="hotspot_blocked_stations">Blocked Users</string>
+    <string name="hotspot_no_blocked_station">0 blocked user</string>
+    <string name="block">Block</string>
+    <string name="unblock">Unblock</string>
+    <string name="softap_need_mobile_data_enabled">"Portable Wi-Fi hotspot needs mobile data connect,may produce additional costs."</string>
+    <string name="wifi_max_connect">Max Connections</string>
+    <string name="wifi_channel">Wi-Fi Channel</string>
+    <string name="wifi_tether_connect_title"> Connected Users</string>
+    <string name="wifi_tether_block_title"> Blocked Users</string>
+    <string name="hotspot_add_blockedstations_limit">Blocked Stations has reached the maximum limit, can not to add more.</string>
+    <string name="hotspot_mode">Hotspot Control Mode</string>
+    <string name="hotspot_whitelist_stations">WhiteList Device List</string>
+    <string name="hotspot_no_whitelist_station">+ Manually Add WhiteList Device</string>
+    <string name="hotspot_whitelist">Management device</string>
+    <string name="hotspot_whitelist_add">Add WhiteList</string>
+    <string name="hotspot_whitelist_cancel">Cancel</string>
+    <string name="hotspot_offwhite">Remove</string>
+    <string name="hotspot_name_txt">Device Name</string>
+    <string name="hotspot_mac_txt">Device Mac</string>
+    <string name="wifi_add_whitelist_error">Failed to add, please enter the correct mac address.</string>
+    <string name="wifi_add_whitelist_limit">Failed to add, it only support 8 devices at most.</string>
+    <string name="hotspot_wps_connect">WPS Connect</string>
+    <string name="hotspot_select_wps">Select wps mode</string>
+    <string name="hotspot_wps_mode">WPS Mode</string>
+    <string name="hotspot_connect">Connect</string>
+    <string name="hotspot_wps_pin">Please enter the PIN</string>
+    <string name="hotspot_pin_error">Unable to connect, enter the correct PIN format</string>
+    <string name="hotspot_pin_success">Please press the connect button</string>
+    <!-- add for keep Wi-Fi hotspot on -->
+    <string name="soft_ap_sleep_policy_title">Keep Wi-Fi hotspot on</string>
+    <string name="hotspot_hidden_ssid_title">Hidden SSID</string>
+    <string name="hotspot_hidden_ssid_summary">TO hidden ssid </string>
+    <string name="hotspot_hidden_ssid_and_disable_wps_summary">Hidden ssid, and disable wps</string>
+    <!-- SPRD: Add for extends hotspot END -->
+
+    <!-- SPRD: passpoint BGN -->
+    <string name="passpoint">Passpoint</string>
+    <string name="wifi_passpoint_settings_title">Passpoint</string>
+    <string name="passpoint_show_title">Passpoint_show_title</string>
+    <string name="passpoint_titlebar">Passpoint AP List</string>
+    <string name="wifi_saved_passpoint_titlebar">PassPoint Saved Config</string>
+    <string name="passpoint_realm_hint">Realm</string>
+    <string name="passpoint_priority_hint">Priority</string>
+    <string name="passpoint_domain_hint">FQDN</string>
+    <string name="passpoint_roam_hint">Roam</string>
+    <string name="passpoint_username_hint">Username</string>
+    <string name="passpoint_password_hint">Password</string>
+    <string name="passpoint_eap_security">EAP Method</string>
+    <string name="eap_tls_ca_certificate">CA Certificate</string>
+    <string name="eap_tls_user_certificate">User Certificate</string>
+    <string name="eap_ttls_sec_auth">2 Step Auth</string>
+    <string name="eap_ttls_ca_certificate">CA Certificate</string>
+    <string name="eap_sim_selection">SIM Select</string>
+    <string name="passpoint_config_forget">Forget</string>
+    <string name="passpoint_config_cancel">Cancle</string>
+    <string name="passpoint_on">Passpoint on</string>
+    <string name="passpoint_off">Passpoint off</string>
+    <string name="passpoint_add_config">Add New Config</string>
+    <string name="passpoint_saved_config">Saved Config</string>
+    <string name="open_wifi_first">Open Wi-Fi First</string>
+    <string name="wifi_saved_passpoint_config">Passpoint Config</string>
+    <string name="passpoint_empty_list_wifi_on">Searching for Passpoint networks\u2026</string>
+    <string name="passpoint_empty_list_user_restricted">You don\u2019t have permission to change the Passpoint network.</string>
+    <!-- SPRD: passpoint END -->
+    <string name="wifi_off_generic">OFF</string>
+
+</resources>

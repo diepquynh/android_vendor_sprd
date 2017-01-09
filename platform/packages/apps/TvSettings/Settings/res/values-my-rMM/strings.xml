@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="settings_app_name">"ဆက္တင္မ်ား"</string>
+<string name="launcher_settings_app_name">"ဆက္တင္မ်ား"</string>
+<string name="launcher_network_app_name">"ကြန္ယက္"</string>
+<string name="launcher_restricted_profile_app_name">ကန္ ့သတ္ထားေသာပရိုဖိုင္း</string>
+<string name="header_category_device">"စက္"</string>
+<string name="header_category_preferences">"ဦးစားေပးမႈမ်ား"</string>
+<string name="header_category_accessories">"ရီမုတ္ &amp; ဆက္စပ္ပစၥည္း"</string>
+<string name="header_category_personal">"ကိုယ္ပိုင္"</string>
+<string name="accounts_category_title">"အေကာင့္"</string>
+<string name="add_account">"အေကာင့္ ထည့္ပါ"</string>
+<string name="account_header_remove_account">အေကာင့္ကိုဖယ္ရွားပါ</string>
+<string name="account_sync">"ပူးတြဲထားေသာ အက္ပ္ကုိ ေရြးခ်ယ္ပါ"</string>
+<string name="sync_now">"ယခုတစ္ျပိဳင္နက္ျဖစ္ေပၚေစရန္ျပဳလုပ္ပါ"</string>
+<string name="sync_in_progress">"ဆင့္ခ္လုပ္ေနသည္\u2026"</string>
+<string name="last_synced">"ေနာက္ဆံုး ဆင့္ခ္လုပ္ခဲ့ေသာ <xliff:g id="time">%1s</xliff:g>"</string>
+<string name="sync_disabled">ပိတ္ထားျပီး</string>
+<string name="account_remove">အေကာင့္ကိုဖယ္ရွားပါ</string>
+<string name="account_remove_failed">"အေကာင့္ကုိ ဖယ္ရွား၍ မရႏုိင္ပါ။"</string>
+<string name="sync_failed">"ပူးေပါင္းေဆာင္ရြက္ျခင္းက်ရွံးသည္"</string>
+<string name="sync_active">"ပူးေပါင္းေဆာင္ရြက္ျခင္း အသက္ဝင္ေနသည္"</string>
+<string name="connectivity_network">"ကြန္ယက္"</string>
+<string name="connectivity_wifi">"Wi-Fi"</string>
+<string name="connectivity_ethernet">"အီသာနက္"</string>
+<string name="wifi_setting_always_scan">"အျမဲ စကင္ဖတ္ေန"</string>
+<string name="wifi_setting_always_scan_context">" google ၏ တည္ေနရာ ၀န္ေဆာင္မႈ ခြင့္ျပဳ, Wi-Fi ပိတ္ထား ေသာ္လည္း"</string>
+<string name="wifi_setting_enable_wifi">"Wi-Fi"</string>
+<string name="device_daydream">"ဖန္သားျပင္ သိမ္းသူ"</string>
+<string name="device_display">"ျပသပါ"</string>
+<string name="device_sound">"အသံ"</string>
+<string name="device_surround_sound">"ပတ္လည္အသံ"</string>
+<string name="device_sound_effects">"စနစ္ပုိင္း အသံ"</string>
+<string name="device_apps">"အပလီေကးရွင္းမ်ား"</string>
+<string name="device_storage_reset">"သိုေလွာင္ေနရာ &amp; ဆက္တင္ျပန္လုပ္"</string>
+<string name="device_backup_restore">"ဘက္ခ္အပ္ &amp; ျပန္သိမ္း"</string>
+<string name="device_reset">"မူလေဒတာ ျပန္သတ္မွတ္"</string>
+<string name="device_calibration">"စံကုိက္ခ်ိန္ညႇိ"</string>
+<string name="device_storage_clear_cache_title">"၀ွက္ထားသည့္ ေဒတာကို ရွင္းမွာလား?"</string>
+<string name="device_storage_clear_cache_message">"ေအပီပီအားလံုးအတြက္ဖမ္းသိမ္းထားသည့္ အခ်က္အလက္ ကိုပယ္ဖ်က္လိမ့္မည္"</string>
+<string name="apps_downloaded">"ေဒါင္းလုဒ္ထားေသာ ေအပီပီမ်ား"</string>
+<string name="apps_system">"စနစ္ပုိင္း အက္ပ္မ်ား"</string>
+<string name="apps_running">"အလုပ္လုပ္ေနေသာ အက္ပ္မ်ား"</string>
+<string name="accessories_add">"တြဲဖက္သံုးပစၥည္း ထည့္ပါ"</string>
+<string name="accessory_state_pairing">"ယွဥ္တြဲေန &amp;#8230;"</string>
+<string name="accessory_state_connecting">"ခ်ိတ္ဆက္ေန &amp;#8230;"</string>
+<string name="accessory_state_error">"တြဲ၍မရႏုိင္ပါ။"</string>
+<string name="accessory_state_canceled">"ပယ္ဖ်က္ၿပီးပါၿပီ"</string>
+<string name="accessory_state_paired">"တြဲထားၿပီး"</string>
+<string name="accessory_options">"တြဲဖက္သံုး ပစၥည္း"</string>
+<string name="accessory_unpair">"မတြဲပါ"</string>
+<string name="accessory_battery">"ဘက္ထရီ<xliff:g id="percentage">%1$d</xliff:g>%%"</string>
+<string name="accessory_unpairing">"စက္ မယွဥ္တြဲေန &amp;#8230;"</string>
+<string name="accessory_connected">"ခ်ိတ္ဆက္ျပီး"</string>
+<string name="accessories_add_title">"ဆက္စပ္ပစၥည္းမ်ား ရွာေဖြေန &amp;#8230;"</string>
+<string name="accessories_add_bluetooth_inst">"သင့္ဘလူးတုသ္စက္မ်ားကုိ မတြဲမီ ၎တုိ႕သည္ တြဲရမည့္မုဒ္တြင္ ရွိေနေၾကာင္း ေသခ်ာပါေစ"</string>
+<string name="accessories_autopair_msg">"စက္ကုိ ေတြ႕ၿပီး <xliff:g id="countdown">%1$s</xliff:g> စကၠန္႔အတြင္း အလုိအေလ်ာက္ တြဲပါလိမ့္မည္"</string>
+<string name="error_action_not_supported">"ဤလုပ္ေဆာင္ခ်က္ကုိ မပံ့ပိုးထားပါ"</string>
+<string name="bluetooth_pairing_request">"ဘလူးတုသ္တြဲျခင္းေတာင္းဆိုမႈ"</string>
+<string name="bluetooth_confirm_passkey_msg">"ယွဥ္တြဲရန္ နွင့္: <b><xliff:g id="device_name">%1$s</xliff:g></b>, ဤလွိဳ ့၀ွက္ကီး ျပတာေသခ်ာလား: <b><xliff:g id="passkey">%2$s</xliff:g></b>"</string>
+<string name="bluetooth_incoming_pairing_msg">"မွ: <b><xliff:g id="device_name">%1$s</xliff:g></b><br>စက္ နွင့္ ယွဥ္တြဲပါ?"</string>
+<string name="bluetooth_display_passkey_pin_msg">"ယွဥ္တြဲရန္ နွင့္: <b><xliff:g id="device_name">%1$s</xliff:g></b><br>စာရိုက္ပါ: <b><xliff:g id="passkey">%2$s</xliff:g></b>, ထို ့ေနာက္ Return (သို ့) Enter ဖိပါ."</string>
+<string name="bluetooth_enter_pin_msg">"ယွဥ္တြဲရန္ နွင့္: <b><xliff:g id="device_name">%1$s</xliff:g></b>, <br>စက္၏ PIN ကို ရိုက္ပါ:"</string>
+<string name="bluetooth_enter_passkey_msg">"ယွဥ္တြဲရန္ နွင့္: <b><xliff:g id="device_name">%1$s</xliff:g></b>, <br>စက္၏ လွိဳ ့၀ွက္ကီး ရိုက္ပါ:"</string>
+<string name="bluetooth_pin_values_hint">"အျမဲလိုလို 0000 သို႔မဟုတ္ 1234"</string>
+<string name="bluetooth_pair">"တြဲပါ"</string>
+<string name="bluetooth_cancel">"မလုပ္ပါ"</string>
+<string name="system_date_time">"ေန ့ &amp; အခ်ိန္"</string>
+<string name="system_language">"  ဘာသာစကား"</string>
+<string name="system_keyboard">"ကီးဘုတ္"</string>
+<string name="system_home">"မူလ ဖူသားျပင္"</string>
+<string name="system_search">ရွာေဖြျခင္း</string>
+<string name="system_security">"လံုျခံဳမွဳ &amp; ကန္႔သက္ခ်က္မ်ား"</string>
+<string name="system_speech">"စကား"</string>
+<string name="system_inputs">"ထည့္သြင္းမႈမ်ား"</string>
+<string name="system_accessibility">"ဝင္ေရာက္ျခင္း"</string>
+<string name="system_developer_options">"ဖြံ႕ျဖိဳးရန္ေရြးပိုင္ခြင့္မ်ား"</string>
+<string name="accessibility_none">တေယာက္မွ်</string>
+<string name="system_diagnostic">"သံုးစြဲရန္ &amp; စစ္ေဆးရန္"</string>
+<string name="about_system_update">"စနစ္ပုိင္း အပ္ဒိတ္"</string>
+<string name="about_preference">"အေၾကာင္း"</string>
+<string name="device_name">"ကိရိယာအမည္"</string>
+<string name="restart_button_label">"ျပန္လည္စတင္မည္"</string>
+<string name="about_legal_info">"တရားဝင္သတင္းအခ်က္အလက္"</string>
+<string name="about_legal_license">အခမဲ့ ရင္းျမစ္လိုင္စင္မ်ား</string>
+<string name="about_terms_of_service">"Google ၏ ဥပေဒေရးရာ"</string>
+<string name="about_license_activity_unavailable">"လိုင္စင္ေဒတာကုိ မရရွိနုိင္ပါ"</string>
+<string name="about_model">"ေမာ္ဒယ္"</string>
+<string name="about_version">ဗားရွင္း</string>
+<string name="about_serial">"စီရီရယ္ နံပါတ္"</string>
+<string name="about_build">"တည္ေဆာက္မႈ"</string>
+<plurals name="show_dev_countdown" formatted="false" msgid="5361765297521871966">
+<item quantity="one">"ဖြံ႕ျဖိဳးတုိးတက္ေအာင္ေဆာင္ရြက္သူျဖစ္ရန္ အဆင့္ <xliff:g id="step_count">%1$d</xliff:g> ဆင့္သာ က်န္ပါေတာ့သည္"</item>
+<item quantity="other">"ဖြံ႕ျဖိဳးတုိးတက္ေအာင္ေဆာင္ရြက္သူျဖစ္ရန္ အဆင့္ <xliff:g id="step_count">%1$d</xliff:g> ဆင့္သာ က်န္ပါေတာ့သည္"</item>
+</plurals>
+<string name="about_ads">"ေၾကာ္ျငာမ်ား"</string>
+<string name="show_dev_on">"သင္သည္ ေဆာင္ရြက္သူ ျဖစ္ေနၿပီး!"</string>
+<string name="show_dev_already">"မလုိပါဘူး၊ သင္သည္ ဖြံ႕ျဖိဳးတုိးတက္ေအာင္ ေဆာင္ရြက္သူ ျဖစ္ၿပီးျဖစ္သည္"</string>
+<string name="device_info_default">"မသိ"</string>
+<string name="selinux_status">"SELinux အေျခအေန"</string>
+<string name="selinux_status_disabled">ပိတ္ထားျပီး</string>
+<string name="selinux_status_permissive">"လြတ္လပ္စြာ"</string>
+<string name="selinux_status_enforcing">"အတည္ျပဳျခင္း"</string>
+<string name="additional_system_update_settings_list_item_title">"ျဖည့္စြက္စနစ္အပ္ဒိပ္မ်ား"</string>
+<string name="device_status">"အေျခအေန"</string>
+<string name="device_status_summary">"ကြန္ရက္,စီရီရယ္ နံပါတ္မ်ား နွင့္ တျခား သတင္းအခ်က္အလက္"</string>
+<string name="manual">"ကိုပိုင္ထားရွိခ်က္"</string>
+<string name="regulatory_information">"အျမဲတမ္းသတင္း"</string>
+<string name="device_feedback">"ဤစက္အေၾကာင္း တုန္႕ျပန္အၾကံျပဳခ်က္ကုိ ပုိ႕ပါ"</string>
+<string name="fcc_equipment_id">"အိုင္ဒီကိရိယာ"</string>
+<string name="baseband_version">"Basebandဗားရွင္း"</string>
+<string name="kernel_version">"အႏွစ္ခ်ပ္ ဗားရွင္း"</string>
+<string name="status_unavailable">"မရႏိုင္ပါ"</string>
+<string name="device_status_title">"အေျခအေန"</string>
+<string name="battery_status_title">"ဘက္ထရီအေျခအေန"</string>
+<string name="battery_level_title">"ဘက္ထရီပမာဏ"</string>
+<string name="sim_status_title">"SIMအေျခအေန"</string>
+<string name="imei_information_title">"IMEI သတင္းအခ်က္"</string>
+<string name="status_bt_address">"ဘလူးတုသ္လိပ္စာ"</string>
+<string name="status_up_time">"လုပ္ေဆာင္သည့္အခ်ိန္"</string>
+<string name="status_wimax_mac_address">"4G MAC လိပ္စာ"</string>
+<string name="legal_information">"တရားဝင္သတင္းအခ်က္အလက္"</string>
+<string name="copyright_title">"မူပိုင္ခြင့္"</string>
+<string name="license_title">"လိုင္စင္"</string>
+<string name="terms_title">"စည္းကမ္းသတ္မွတ္ခ်က္မ်ားႏွင့္ အေျခအေနမ်ား"</string>
+<string name="webview_license_title">"စနစ္ Web ျမင္ကြင္း လိုင္စင္"</string>
+<string name="wallpaper_attributions">"ပိုစတာမ်ား"</string>
+<string name="wallpaper_attributions_values">"ျဂိဳလ္တု ရုပ္ပံု ပံ့ပုိးေပးသူမ်ား-\n©2014 CNES / Astrium, DigitalGlobe, Bluesky"</string>
+<string-array name="wifi_signal_strength">
+<item>"မေကာင္းပါ"</item>
+<item>"မွ်တသည္"</item>
+<item>"ေကာင္း"</item>
+<item>"အထူးေကာင္းမြန္"</item>
+</string-array>
+<string name="title_mac_address">"MAC လိပ္စာ"</string>
+<string name="title_signal_strength">"လိုင္းၾကံခိုင္မႈ"</string>
+<string name="title_ip_address">လိပ္စာ</string>
+<string name="title_ssid">"Wi-Fi ကြန္ရက္အမည္ကုိ ထည့္ပါ"</string>
+<string name="title_internet_connection">"အင္တာနက္ခ်ိတ္ဆက္မႈ"</string>
+<string name="connected">"ခ်ိတ္ဆက္ျပီး"</string>
+<string name="not_connected">"မခ်ိတ္ဆက္ထားပါ"</string>
+<string name="wifi_setting_header_other_options">"အျခား ေရြးခ်ယ္စရာမ်ား"</string>
+<string name="wifi_setting_see_all">"အားလံုးၾကည့္ပါ..."</string>
+<string name="wifi_setting_see_fewer">"အနည္းစု ျကည့္ပါ"</string>
+<string name="wifi_setting_available_networks">"ရႏိုင္ေသာ ကြန္ယက္မ်ား"</string>
+<string name="wifi_setting_other_options_wps">"WPS မွတဆင့္ ခ်ိတ္ဆက္ပါ"</string>
+<string name="wifi_setting_other_options_add_network">"ကြန္ရက္သစ္ ထည့္ပါ"</string>
+<string name="security_type">"လံုျခံဳေရးအမ်ိဳးအစား"</string>
+<string name="wps_network">"WPS မွတဆင့္ ခ်ိတ္ဆက္ပါ"</string>
+<string name="other_network">"တျခား ကြန္ရက္ &amp;#8230;"</string>
+<string name="skip_network">"ေက်ာ္သြားမည္"</string>
+<string name="wifi_security_type_none">တေယာက္မွ်</string>
+<string name="title_wifi_no_networks_available">"စကင္ဖတ္ေန &amp;#8230;"</string>
+<string name="title_wifi_could_not_save">"<xliff:g id="ssid">%1$s</xliff:g>အတြက္ ဖြဲ႕စည္းစီစဥ္ပံုကုိ သိမ္းဆည္း၍ မရႏုိင္ပါ"</string>
+<string name="title_wifi_could_not_connect">"<xliff:g id="ssid">%1$s</xliff:g> ထံ ခ်ိတ္ဆက္၍ မရႏုိင္ပါ။"</string>
+<string name="title_wifi_could_not_connect_timeout">"<xliff:g id="ssid">%1$s</xliff:g> ကုိရွာေဖြ၍ မရႏုိင္ပါ။"</string>
+<string name="title_wifi_could_not_connect_authentication_failure">"Wi-Fi စကားဝွက္ မွားေနသည္"</string>
+<string name="title_wifi_could_not_connect_ap_reject">"Wi-Fi ကြန္ရက္သည္ ခိ်တ္ဆက္မႈကုိ လက္မခံပါ"</string>
+<string name="title_wifi_advanced_options">"<xliff:g id="ssid">%1$s</xliff:g> ပေရာက္စီႏွင့္ IP ဆက္တင္မ်ားကုိ ဖြဲ႕စည္းစီစဥ္မလား?"</string>
+<string name="title_wifi_proxy_settings">"ၾကားခံအျပင္အဆင္မ်ား"</string>
+<string name="title_wifi_proxy_hostname">"ပေရာက္စီ လက္ခံလႊင့္တင္အမည္-"</string>
+<string name="title_wifi_proxy_port">"ပေရာက္စီ အေပါက္-"</string>
+<string name="title_wifi_proxy_bypass">"ေဖာ္ျပပါအတြက္ ေက်ာ္သြားရန္ ပေရာက္စီ-"</string>
+<string name="title_wifi_ip_settings">"IP အျပင္အဆင္မ်ား"</string>
+<string name="title_wifi_ip_address">"IP လိပ္စာ-"</string>
+<string name="title_wifi_gateway">"ဂိတ္ေဝး-"</string>
+<string name="title_wifi_network_prefix_length">"ကြန္ရက္ ေရွ႕ဆက္အရွည္-"</string>
+<string name="title_wifi_proxy_settings_invalid">"ပေရာက္စီ ဆက္တင္မ်ား မမွန္ကန္ပါ"</string>
+<string name="title_wifi_ip_settings_invalid">"IP ဆက္တင္မ်ား မမွန္ကန္ပါ"</string>
+<string name="title_wifi_known_network">"<xliff:g id="ssid">%1$s</xliff:g> သည္ သိမ္းဆည္းထားသည့္ ကြန္ရက္ျဖစ္သည္။"</string>
+<string name="wifi_action_try_again">"ျပန္ၾကိဳးစားပါ"</string>
+<string name="wifi_action_view_available_networks">"ရွိေနသည့္ ကြန္ရက္မ်ားကုိ ၾကည့္ပါ"</string>
+<string name="wifi_connecting">"<xliff:g id="ssid">%1$s</xliff:g>ထံ ခိ်တ္ဆက္ေနသည္"</string>
+<string name="wifi_saving">"<xliff:g id="ssid">%1$s</xliff:g> အတြက္ သိမ္းထားေသာ ဖြဲ႕စည္းတည္ေဆာက္ပံု"</string>
+<string name="wifi_connect">"ခ်ိတ္ဆက္ပါ"</string>
+<string name="wifi_forget_network">"ကြန္ယက္ကို ေမ့လိုက္ပါ"</string>
+<string name="wifi_forget_network_description">"သိမ္းထားေသာ စကားဝွက္အပါအဝင္ ဤကြန္ရက္ထံ ခ်ိတ္ဆက္ရာ၌ အသံုးျပဳေသာ အခ်က္အလက္မ်ားကုိ ဤလုပ္ေဆာင္ခ်က္က ရွင္းပစ္သည္"</string>
+<string name="wifi_action_ok">"အိုေက"</string>
+<string name="wifi_action_change_network">"ေျပာင္းပါ"</string>
+<string name="wifi_action_dont_change_network">"မေျပာင္းပါႏွင့္"</string>
+<string name="wifi_action_advanced_yes">"အိုေက"</string>
+<string name="wifi_action_advanced_no">"မဟုတ္ပါ (အၾကံျပဳပါသည္)"</string>
+<string name="wifi_action_proxy_none">တေယာက္မွ်</string>
+<string name="wifi_action_proxy_manual">"ကိုပိုင္ထားရွိခ်က္"</string>
+<string name="wifi_action_static">"တည္ျငိမ္ပံုစံ"</string>
+<string name="wifi_action_status_info">"အေျခအေန အခ်က္အလက္"</string>
+<string name="wifi_action_advanced_options_title">"အထူးေရြးခ်ယ္စရာမ်ား"</string>
+<string name="wifi_ip_settings_invalid_ip_address">"မွန္ကန္ေသာ IP လိပ္စာကုိ ထည့္ပါ"</string>
+<string name="wifi_ip_settings_invalid_gateway">"မွန္ကန္ေသာ ဂိတ္ေဝး လိပ္စာကုိ ထည့္ပါ"</string>
+<string name="wifi_ip_settings_invalid_dns">"မွန္ကန္ေသာ DNS လိပ္စာကုိ ထည့္ပါ"</string>
+<string name="wifi_ip_settings_invalid_network_prefix_length">"0 ႏွင့္ 32 ၾကားရွိ ကြန္ရက္ ေရွ႕ဆက္ အလ်ားကုိ ထည့္ပါ"</string>
+<string name="wifi_ip_address_description">"တရား၀င္ IP လိပ္စာ (သို ့) ထြက္ ဗလာ ထည့္ပါ.\n ဥပမာ: <xliff:g>192.168.1.128</xliff:g>"</string>
+<string name="wifi_dns1_description">"တရား၀င္ IP လိပ္စာ (သို ့) ထြက္ ဗလာ ထည့္ပါ.\n ဥပမာ: <xliff:g>8.8.8.8</xliff:g>"</string>
+<string name="wifi_dns2_description">"တရား၀င္ IP လိပ္စာ (သို ့) ထြက္ ဗလာ ထည့္ပါ.\n ဥပမာ: <xliff:g>8.8.4.4</xliff:g>"</string>
+<string name="wifi_gateway_description">"တရား၀င္ IP လိပ္စာ (သို ့) ထြက္ ဗလာ ထည့္ပါ.\n ဥပမာ: <xliff:g>192.168.1.1</xliff:g>"</string>
+<string name="wifi_network_prefix_length_description">"တရား၀င္ ကြန္ရက္ အစ အရွည္.\n ဥပမာ: <xliff:g>24</xliff:g>"</string>
+<string name="proxy_error_invalid_host">"လက္ခံလႊင့္တင္အမည္ မွားေနသည္"</string>
+<string name="proxy_error_invalid_exclusion_list">"ဤဖယ္ထုတ္ထားသည့္ စာရင္းသည္ အက်ံဳးမဝင္ပါ။ ဖယ္ထုတ္ထားသည့္ ဒိုမိန္းမ်ား၏ ေကာ္မာျခားထားေသာ စာရင္းကုိ ထည့္သြင္းပါ။"</string>
+<string name="proxy_error_empty_port">"အေပါက္အကြက္ကုိ အလြတ္ထား၍ မရႏုိင္ပါ"</string>
+<string name="proxy_error_empty_host_set_port">"လက္ခံလႊင့္တင္အကြက္သည္ ဗလာျဖစ္ေနလွ်င္ အေပါက္အကြက္ကုိ ကြက္လပ္ထားခဲ့ပါ"</string>
+<string name="proxy_error_invalid_port">"အေပါက္ မွားေနသည္"</string>
+<string name="proxy_warning_limited_support">"HTTP ပေရာက္စီကုိ ဘေရာက္စာမွ အသံုးျပဳသည္၊ သုိ႕ေသာ္အျခားအက္ပ္မွ အသံုးျပဳ၍ မရႏုိင္ပါ"</string>
+<string name="proxy_port_description">"တရား၀င္ အေပါက္ ထည့္ပါ .\n ဥပမာ: <xliff:g>8080</xliff:g>"</string>
+<string name="proxy_exclusionlist_description">"ဒိုမိန္းပါ၀င္ (သို ့) ထြက္ ဗလာ ကြန္မာ-ခြဲျခား စာရင္း ထည့္ပါ.\n ဥပမာ: <xliff:g>example.com,mycomp.test.com,localhost</xliff:g>"</string>
+<string name="proxy_hostname_description">"တရား၀င္ ပိုင္ရွင္အမည္ထည့္ပါ.\nဥပမာ: <xliff:g>proxy.example.com</xliff:g>"</string>
+<string name="wifi_summary_title_connected">"ကြန္ရက္ ခ်ိတ္ဆက္ထားသည္"</string>
+<string name="wifi_summary_title_not_connected">"ကြန္ရက္ကုိ မခ်ိတ္ဆက္ထားပါ"</string>
+<string name="wifi_summary_description_connected_to_wifi_network">"<xliff:g id="ssid">%1$s</xliff:g>ထံ ခ်ိတ္ဆက္ၿပီး ျဖစ္သည္။ အျခားမတူညီသည့္ ကြန္ရက္ထံ ခ်ိတ္ဆက္မလား?"</string>
+<string name="wifi_summary_unknown_network">"အမည္မသိေသာ ကြန္ရက္"</string>
+<string name="title_ok">"အိုေက"</string>
+<string name="title_cancel">"မလုပ္ပါ"</string>
+<string name="storage_title">"သိုေလွာင္မႈ"</string>
+<string name="storage_available">"ရႏိုင္သည္"</string>
+<string name="storage_size">"စုစုေပါင္း ေနရာလြတ္­ <xliff:g id="total_space">%1$s</xliff:g>"</string>
+<string name="storage_calculating_size">"တြက္ခ်က္ေနသည္\u2026"</string>
+<string name="storage_apps_usage">"အပလီေကးရွင္းမ်ား"</string>
+<string name="storage_downloads_usage">"ေဒါင္းလုဒ္မ်ား"</string>
+<string name="storage_dcim_usage">"ဓါတ္ပံုမ်ား &amp; ဗြီဒီယိုမ်ား"</string>
+<string name="storage_music_usage">"အသံ"</string>
+<string name="storage_media_misc_usage">"ေတးဂီတ"</string>
+<string name="storage_media_cache_usage">"၀ွက္ထားသည့္ ေဒတာ"</string>
+<string name="storage_eject">"ပယ္ပါ"</string>
+<string name="storage_format">"ဖ်က္ပါ &amp; ေဖာမက္"</string>
+<string name="storage_format_as_private">"ဖ်က္ပါ &amp; စက္ သိုေလွာင္ေနရာအတြက္ ေဖာမက္"</string>
+<string name="storage_format_as_public">"ဖ်က္ပါ &amp; ဖယ္ရွားနိုင္ သိုေလွာင္ေနရာအတြက္ ေဖာမက္"</string>
+<string name="storage_format_for_private">"စက္ သိုေလွာင္ခန္း ေဖာမက္"</string>
+<string name="storage_not_connected">"မခ်ိတ္ဆက္ထားပါ"</string>
+<string name="storage_migrate">"ဤ သိုေလွာင္ေနရာသို ့ ေဒတာ ေရွြ ့ေျပာင္းပါ"</string>
+<string name="storage_migrate_away">"တျခား သိုေလွာင္ေနရာသို ့ ေဒတာ ေရွြ ့ေျပာင္းပါ"</string>
+<string name="storage_no_apps">"ဘက္ခ္အပ္ရန္ ေအပီပီမရွိ"</string>
+<string name="storage_forget">"စက္ သိုေလွာင္ေနရာ ေမ့"</string>
+<string name="storage_forget_wall_of_text">" စက္ရွိ ေအပီပီမ်ား (သို ့) ေဒတာ သံုးရန္ , ျကိုးျပန္တပ္ပါ. တနည္းအားျဖင့္, ဒရိုက္ မေထာက္ပ့ံလွ်င္ ဤ သိုေလွာင္ခန္း ကို ေမ့ရန္ ေရြးခ်ယ္နိုင္ .\n\nေမ့ရန္ ေရြးခ်ယ္လွ်င္, "စက္တြင္ သိမ္းထားသည့္ သင့္ေဒတာအားလံုး အျမဲ ဆံုးရွံဳးခံရလိမ့္မည္.\n\n ေနာက္မွ ေအပီပီမ်ား ျပန္သြင္းနိုင္, သို ့ေသာ္ ဤစက္တြင္သိမ္းထားသည့္ ေဒတာ ဆံုးရွံဳးခံရလိမ့္မည္."</string>
+<string name="storage_device_storage_section">"စက္ သိုေလွာင္ခန္း"</string>
+<string name="storage_removable_storage_section">"ဖယ္႐ွားႏိုင္ေသာ သိုေလွာင္ခန္း"</string>
+<string name="storage_reset_section">"ျပန္သတ္မွတ္ပါ"</string>
+<string name="storage_mount_success">"<xliff:g id="name" example="SD card">%1$s</xliff:g> ေမာင့္လုပ္ျပီး"</string>
+<string name="storage_mount_failure">"ေမာင့္မရနိုင္ <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_mount_adopted">"USB သိုေလွာင္ေနရာ ျပန္ခ်ိတ္ဆက္ထား"</string>
+<string name="storage_unmount_success">"<xliff:g id="name" example="SD card">%1$s</xliff:g> လံုျခံဳစြာ ဖယ္ျပီး"</string>
+<string name="storage_unmount_failure">"လံုျခံဳစြာ ဖယ္မရနိုင္ <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_unmount_failure_cant_find">"ဒရိုက္ ဖယ္ရန္ ရွာမေတြ ့"</string>
+<string name="storage_format_success">"<xliff:g id="name" example="SD card">%1$s</xliff:g> ေဖာမက္လုပ္ျပီး"</string>
+<string name="storage_format_failure">"ေဖာမက္ မရနိုင္ <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_format_as_private_title">"စက္ သိုေလွာင္ခန္း ေဖာမက္"</string>
+<string name="storage_wizard_format_as_private_description">လံုျခံဳစြာ ေဖာမက္လုပ္ျပီးလွ်င္, ဤဒရိုက္သည္ ဤစက္တြင္ သာ အလုပ္လုပ္မည္. စက္တြင္ သိမ္းထားသည့္ သင့္ေဒတာအားလံုး ေဖာမက္လုပ္ျပီး ဖ်က္မည္. ေဒတာ ေပ်ာက္ဆံုးျခင္း ကာကြယ္ရန္, ဘက္ခ္အပ္လုပ္ရန္ စဥ္းစားပါ."</string>
+<string name="storage_wizard_format_as_public_title">"ဖ်က္ပါ &amp; ေဖာမက္"</string>
+<string name="storage_wizard_format_as_public_description">"ေဖါမက္လုပ္ ျပီး,တျခားစက္မ်ားတြင္ ၄င္း USB ကို သံုးနိုင္.ေဒတာအားလံုး ဖ်က္ခံရမည္. တျခားစက္ သိုေလွာင္ေနရာသို ့ ေအပီပီမ်ားေရွြ ့ျပီး ဦးဆံုး ဘက္ခ္အပ္လုပ္ရန္ စဥ္းစားပါ."</string>
+<string name="storage_wizard_format_progress_title">"USB ဒရြိဳက္ ေဖာမက္လုပ္ေန &amp;#8230;"</string>
+<string name="storage_wizard_format_progress_description">အခ်ိန္အနည္းငယ္ျကာမည္. ေက်းဇူးျပဳ၍ စက္ကို မဖယ္ပါနွင့္ .\n ေရႊ ့ခ်ိန္တြင္ ေအပီပီတစ္ခ်ိဳ ့ အလုပ္မွန္မွန္ မလုပ္ပါ.</string>
+<string name="storage_wizard_migrate_choose_title">"သို ့ေဒတာ ေရွြ ့ရန္ သိုေလွာင္ေနရာ ေရြးခ်ယ္ပါ"</string>
+<string name="storage_wizard_migrate_confirm_title">"သို ့ေဒတာ ေရွြ ့ပါ <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_migrate_confirm_description">" ဓါတ္ပံုမ်ား, ဖိုင္မ်ား နွင့္ ေအပီပီ ေဒတာ ေရႊ ့ပါ သို ့ <xliff:g id="name" example="SD card">%1$s</xliff:g>. မိနစ္အနည္းငယ္ျကာမည္. ေရႊ ့ခ်ိန္တြင္ ေအပီပီတစ္ခ်ိဳ ့ အလုပ္မွန္မွန္ မလုပ္ပါ."</string>
+<string name="storage_wizard_migrate_confirm_action_move_now">"ယခု ေရႊ ့ပါ"</string>
+<string name="storage_wizard_migrate_confirm_action_move_later">"ေနာက္မွ ေရႊ ့ပါ"</string>
+<string name="storage_wizard_migrate_toast_success">"ေဒတာ ေျပာင္း သို ့ <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_migrate_toast_failure">"ေဒတာ ေျပာင္း မရနိုင္ သို ့ <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_migrate_progress_title">"ေဒတာ ေရွြ ့ သို ့<xliff:g id="name" example="SD card">%1$s</xliff:g>&amp;#8230;"</string>
+<string name="storage_wizard_migrate_progress_description">"အခ်ိန္အနည္းငယ္ျကာမည္. ေက်းဇူးျပဳ၍ စက္ကို မဖယ္ပါနွင့္ .\n ေရႊ ့ခ်ိန္တြင္ ေအပီပီတစ္ခ်ိဳ ့ အလုပ္မွန္မွန္ မလုပ္ပါ."</string>
+<string name="storage_wizard_format_slow_title">"စက္ ထုတ္လႊင့္မႈ ေနွး."</string>
+<string name="storage_wizard_format_slow_summary">"ဆက္လုပ္နိုင္ , သို ့ေသာ္ ဤတည္ေနရာ သို ့ေရႊ ့ထားသည့္ ေအပီပီမ်ား ပိတ္ျပီး ေဒတာ ေရႊ ့ေျပာင္းရန္ အခ်ိန္ျကာလိမ့္မည္. လုပ္ငန္းပိုေကာင္းေစရန္ ပိုျမန္ေသာ စက္ကို သံုးရန္ စဥ္းစားပါ."</string>
+<string name="storage_wizard_format_action">"ေဖာမက္ခ်ပါ"</string>
+<string name="storage_wizard_backup_apps_action">"ေအပီပီမ်ား ဘက္ခ္အပ္"</string>
+<string name="storage_wizard_back_up_apps_title">"ေအပီပီမ်ား သိမ္းျပီး <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_back_up_apps_and_data_title">"ေအပီပီမ်ား နွင့္ ေဒတာ သိမ္းျပီး <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_back_up_apps_space_available">"<xliff:g id="size" example="1.23GB">%1$s</xliff:g> ေထာက္ပံ့"</string>
+<string name="storage_wizard_eject_private_title">"စက္ သိုေလွာင္ေနရာ ျငင္းပယ္"</string>
+<string name="storage_wizard_eject_private_description">"စက္တြင္ သိမ္းထားသည့္ ေအပီပီမ်ား ဖ်က္ျပီးလွ်င္ ၄င္းတို ့ အလုပ္မလုပ္ေတာ့ပါ. ဤ USB စက္အား ဤစက္အတြက္သာ ေဖာမက္ လုပ္မည္. တျခားတြင္ အလုပ္မလုပ္ပါ."</string>
+<string name="storage_wizard_eject_progress_title">"ျငင္းပယ္ေန <xliff:g id="name" example="SD Card">%1$s</xliff:g>&amp;#8230;"</string>
+<string name="storage_wizard_move_app_title">"သံုးထားသည့္ သိုေလွာင္ခန္း"</string>
+<string name="storage_wizard_move_app_progress_title">"ေရွြ ့ေန<xliff:g id="name" example="YouTube">%1$s</xliff:g>&amp;#8230;"</string>
+<string name="storage_wizard_move_app_progress_description">"ေရႊ ့ခ်ိန္အတြင္း စက္ မေရႊ ့ေျပာင္းရ.\n၄င္း <xliff:g id="appname" example="YouTube">%1$s</xliff:g> ေရႊ ့မျပီးမခ်င္း စက္ရွိ ေအပီပီ မေထာက္ပံ့."</string>
+<string name="storage_wizard_forget_confirm_title">"စက္ သိုေလွာင္ေနရာ ေမ့မလား?"</string>
+<string name="storage_wizard_forget_confirm_description">"စက္တြင္ သိမ္းထားသည့္ သင့္ေဒတာအားလံုး အျမဲ ဆံုးရွံဳးခံရလိမ့္မည္  \'ေမ့ပါ\'. ဆက္လုပ္မွာလား?"</string>
+<string name="storage_wizard_forget_action">"ေမ့လုိက္ပါ"</string>
+<string name="storage_new_title">"USB စက္ ခ်ိတ္ဆက္ထား"</string>
+<string name="storage_new_action_browse">"ဘေရာက္"</string>
+<string name="storage_new_action_adopt">"စက္ သိုေလွာင္ေနရာ ဆက္တင္လုပ္"</string>
+<string name="storage_new_action_format_public">"ဖယ္႐ွားႏိုင္ေသာ သိုေလွာင္ခန္း ဆက္တင္"</string>
+<string name="storage_new_action_eject">"ပယ္ပါ"</string>
+<string name="storage_missing_title">"<xliff:g id="name" example="SD Card">%1$s</xliff:g> ဖယ္ရွားျပီး"</string>
+<string name="storage_missing_description">"စက္ ျပန္ မခ်ိတ္ဆက္လွ်င္ ေအပီပီတစ္ခ်ိဳ ့လုပ္ငန္းမမွန္ (သို ့) မေထာက္ပံ့ပါ."</string>
+<string name="insufficient_storage">"သိုေလွာင္မႈ ေနရာမလံုေလာက္ပါ"</string>
+<string name="does_not_exist">"ေအပီပီ မရွိပါ."</string>
+<string name="app_forward_locked">"ေအပီပီသည္ ကူးယူျခင္းကာကြယ္ထားသည္"</string>
+<string name="invalid_location">"တည္ေနရာ သြင္းျခင္း တရားမ၀င္."</string>
+<string name="system_package">"ျပင္ပ မီဒီယာ တြင္ စနစ္ အပ္ဒိတ္မ်ား သြင္းမရနိုင္."</string>
+<string name="move_error_device_admin">"ျပင္ပ မီဒီယာတြင္ စက္ ထိန္းခ်ဳပ္သူ မသြင္းနိုင္."</string>
+<string name="learn_more_action">"ထပ္မံ၍ေလ့လာပါ"</string>
+<string name="wifi_wps_retry_scan">"ျပန္ႀကိဳးစားပါ"</string>
+<string name="wifi_wps_title">"WPS ေရာက္တာကုိ ရွာေဖြေနသည္\u2026"</string>
+<string name="wifi_wps_instructions">"သင့္ေရာက္တာရွိ Wi-Fi ကာကြယ္ထားေသာ တည္ေဆာက္မႈခလုတ္ကုိ ႏွိပ္ပါ။\n၎ကုိ \"WPS\" ဟုေခၚဆုိႏုိင္သည္ (သုိ႕) ဘယ္ဖက္တြင္ သေကၤတပါႏုိင္သည္။"</string>
+<string name="wifi_wps_onstart_pin">"သင့္ Wi-Fi ေရာက္တာတြင္ PIN <xliff:g id="number">%1$s</xliff:g> ကုိ ထည့္ပါ"</string>
+<string name="wifi_wps_onstart_pin_description">"PIN ကုိထည့္ၿပီးေနာက္ တည္ေဆာက္မႈ ၿပီးေျမာက္ရန္ 2 မိနစ္အထိ ၾကာႏုိင္သည္"</string>
+<string name="wifi_wps_failed_generic">"Wi-Fi ေရာက္တာကုိ ရွာေဖြ၍ မရႏုိင္ပါ။"</string>
+<string name="wifi_wps_failed_wep">"Wi-Fi ေရာက္တာ လံုျခံဳေရးဆက္တင္ (WEP) ကုိ မပံ့ပုိးေပးထားပါ"</string>
+<string name="wifi_wps_failed_tkip">"Wi-Fi ေရာက္တာ လံုျခံဳေရးဆက္တင္ (TKIP) ကုိ မပံ့ပုိးေပးထားပါ"</string>
+<string name="wifi_wps_failed_overlap">"အျခား WPS က႑ကုိ လုပ္ေဆာင္ေနဆဲျဖစ္သည္။ မိနစ္အနည္းငယ္အတြင္း ျပန္လည္ႀကိဳးစားပါ။"</string>
+<string name="system_date">"ရက္စြဲ"</string>
+<string name="system_time">အခ်ိန္</string>
+<string name="system_set_date">"ရက္စြဲတပ္ဆင္ပါ"</string>
+<string name="system_set_time">အခ်ိန္ကို သတ္မွတ္ပါ</string>
+<string name="system_set_time_zone">အခ်ိန္ဇံုကို သတ္မွတ္ပါ</string>
+<string name="desc_set_time_zone">"<xliff:g id="offset" example="GMT-08:00">%1$s</xliff:g>, <xliff:g id="name" example="Pacific Standard Time">%2$s</xliff:g>"</string>
+<string name="system_set_time_format">"24နာရီပံုစံသံုးမည္"</string>
+<string name="desc_set_time_format">"<xliff:g id="state" example="Off">%1$s</xliff:g> (<xliff:g id="sample" example="3:14 PM">%2$s</xliff:g>)"</string>
+<string name="system_auto_date_time">"ေအာ္တို ရက္စြဲ &amp;အခ်ိန္"</string>
+<string-array name="auto_date_time_entries">
+<item>"ကြန္ရက္ အေထာက္အပံ့ တန္ဖိုးမ်ား ကို သံုးပါ"</item>
+<item>ပိတ္သည္</item>
+</string-array>
+<string-array name="auto_date_time_ts_entries">
+<item>"ကြန္ရက္ အေထာက္အပံ့ တန္ဖိုးမ်ား ကို သံုးပါ"</item>
+<item>"ပို ့ေဆာင္ လမ္းေျကာင္း-ေထာက္ပံ့သည့္ အခ်ိန္"</item>
+<item>ပိတ္သည္</item>
+</string-array>
+<string name="system_location">"တည္ေနရာ"</string>
+<string name="system_desc_location">"ေအပီပီမ်ားကို သင့္တည္ေနရာသတင္းအခ်က္အလက္ သံုးရန္ခြင့္ျပဳခ်က္ကိုေမးေစပါ"</string>
+<string name="system_network_location_confirm">"တည္ေနရာ သေဘာတူညီခ်က္"</string>
+<string name="location_mode_title">"မုတ္"</string>
+<string name="location_category_recent_location_requests">"မၾကာမွီက တည္ေနရာ ေတာင္းဆိုမႈမ်ား"</string>
+<string name="location_no_recent_apps">"မၾကာမွီက ကတည္ေနရာေတာင္းဆိုမႈေအပီပီမရွိပါ"</string>
+<string name="location_high_battery_use">"ဘက္ထရီသံုးစြဲမွုျမင့္"</string>
+<string name="location_low_battery_use">"ဘက္ထရီသံုးစြဲမႈ နိမ့္"</string>
+<string name="location_mode_wifi_description">"တည္ေနရာကုိ ခန္႕မွန္းရန္ Wi\u2011Fi အသံုးျပဳပါ"</string>
+<string name="location_status">"တည္ေနရာ အေျခအေနမ်ား"</string>
+<string name="location_services">"တည္ေနရာ ဝန္ေဆာင္မႈမ်ား"</string>
+<string name="on">"ဖြင့္"</string>
+<string name="off">ပိတ္သည္</string>
+<string name="google_location_services_title">"Google တည္ေနရာ ဝန္ေဆာင္မႈမ်ား"</string>
+<string name="third_party_location_services_title">"တတိယပါတီ တည္ေနရာ ဝန္ေဆာင္မႈမ်ား"</string>
+<string name="location_reporting">"တည္ေနရာ အစီရင္ခံျခင္း"</string>
+<string name="location_history">"တည္ေနရာ မွတ္တမ္း"</string>
+<string name="location_reporting_desc">"Google သည္ Google Now ႏွင့္ Google Maps ကဲ့သုိ႕ ထုတ္ကုန္မ်ားတြင္ ဤအဂၤါရပ္ကုိ အသံုးျပဳသည္။ တည္ေနရာ အစီရင္ခံျခင္းကုိ ဖြင့္ျခင္းျဖင့္ ဤအဂၤါရပ္ကုိ အသံုးျပဳေသာ Google ထုတ္ကုန္မ်ားအားလံုးသည္ သင့္ Google အေကာင့္ျဖင့္ ခ်ိတ္ဆက္ၿပီး သင့္စက္၏ လတ္တေလာအျဖစ္ဆံုး တည္ေနရာေဒတာကုိ သိမ္းဆည္းၿပီး အသံုးျပဳရန္ ခြင့္ျပဳေပးသည္။"</string>
+<string name="location_history_desc">"ဤအေကာင့္အတြက္ တည္ေနရာ မွတ္တမ္းကုိ ဖြင့္ထားသည့္အခါ Google သည္ သင့္စက္၏ တည္ေနရာေဒတာကုိ သင့္အက္ပ္မွ အသံုးျပဳရန္အတြက္ သုိေလွာင္ပါလိမ့္မည္။\n\nဥပမာ- Google Maps သည္ သင့္အား လမ္းညႊန္ခ်က္မ်ားေပးႏုိင္ၿပီး Google Now သည္ သင့္အား သြားလာမႈယာဥ္ေၾကာအေျခအေနကုိ အေၾကာင္းၾကားေပးႏုိင္သည္။\n\nတည္ေနရာမွတ္တမ္းကုိ မည္သည့္အခိ်န္တြင္မဆုိ ပိတ္ထားႏိုင္သည္။ သုိ႕ေသာ္ ထုိသုိ႕လုပ္ျခင္းက ၎ကုိ ဖ်က္ပစ္လိမ့္မည္မဟုတ္ပါ။ သင့္တည္ေနရာမွတ္တမ္းကုိ ၾကည့္ရႈ စီမံရန္ maps.google.com/locationhistory သုိ႕သြားေရာက္ၾကည့္ရႈပါ။"</string>
+<string name="delete_location_history_title">"တည္ေနရာမွတ္တမ္းကုိ ဖ်က္ပါ"</string>
+<string name="delete_location_history_desc">"ဤ Google အေကာင့္အတြက္ ဤစက္မွ သုိေလွာင္ထားေသာ တည္ေနရာ မွတ္တမ္းအားလံုးကုိ ဖ်က္ပစ္လိမ့္မည္။ ဤဖ်က္ပစ္မႈကုိ ေနာက္ျပန္ဆုတ္၍ မရပါ။ Google Now အပါအဝင္ အခ်ိဳ႕အက္ပ္မ်ားသည္ အလုပ္လုပ္ျခင္း ရပ္သြားပါမည္။"</string>
+<string name="system_services">"ဝန္ေဆာင္မႈမ်ား"</string>
+<string name="accessibility_service_settings">"ဝန္ေဆာင္မႈ ဆက္တငမ်ား"</string>
+<string name="accessibility_toggle_high_text_contrast_preference_title">"ျခားနားခ်က္ စာသားကို ျမွင့္တင္ပါ"</string>
+<string name="accessibility_captions">"စာတန္းမ်ား"</string>
+<string name="accessibility_captions_description">"ဗီဒီယုိေပၚတြင္ ထပ္တင္ထားေသာ အပိတ္စာတန္းထုိး စာသားအတြက္ ဆက္တင္မ်ား"</string>
+<string name="captions_display">"ျပသပါ"</string>
+<string name="captions_display_on">"ဖြင့္"</string>
+<string name="captions_display_off">ပိတ္သည္</string>
+<string name="display_options">"ေရြးစရာမ်ားကိုေဖၚျပပါ၏"</string>
+<string name="captions_configure">"စီစဥ္မည္"</string>
+<string name="captions_language">"  ဘာသာစကား"</string>
+<string name="captions_textsize">"စာသားအ႐ြယ္အစာ"</string>
+<string name="captions_captionstyle">"ေခါင္းစည္း စတိုင္"</string>
+<string name="captions_customoptions">"စိတ္ျကိုက္ ေရြးခ်ယ္စရာမ်ား"</string>
+<string name="captions_fontfamily">"ေဖာင့္ အစု"</string>
+<string name="captions_textcolor">"စာသားအေရာင္"</string>
+<string name="captions_edgetype">"ေဒါင့္ပံုစံ"</string>
+<string name="captions_edgecolor">"ေဒါင့္အေရာင္"</string>
+<string name="captions_backgroundshow">"ေနာက္ခံ ေဖၚျပပါ"</string>
+<string name="captions_backgroundcolor">"ေနာက္ခံ အေရာင္"</string>
+<string name="captions_backgroundopacity">"ေနာက္ခံ မွုန္၀ါး၀ါး"</string>
+<string name="captioning_preview_text">"စာသားမ်ားသည္ဤကဲ့သို႔တူေနသည္"</string>
+<string name="captions_textopacity">"စာသား အလင္းမေဖာက္သည့္ပံုစံ"</string>
+<string name="captions_windowshow">"၀င္းဒိုး ေဖၚျပပါ"</string>
+<string name="captions_windowcolor">"ဝင္းဒုိး အေရာင္"</string>
+<string name="captions_windowopacity">"ဝင္းဒုိး အလင္းေဖာက္မႈ"</string>
+<string name="captions_style_0">အနက္ေပၚအျဖဴ</string>
+<string name="captions_style_1">"အျဖဴေပၚအနက္္"</string>
+<string name="captions_style_2">အနက္ေပၚအဝါ</string>
+<string name="captions_style_3">အျပာေပၚအဝါ</string>
+<string name="captions_style_custom">"စိတ္ႀကိဳက္"</string>
+<string name="color_white">"အျဖူ"</string>
+<string name="color_black">"အနက္"</string>
+<string name="color_red">"အနီ"</string>
+<string name="color_green">"အစိမ္း"</string>
+<string name="color_blue">"အျပာေရာင္"</string>
+<string name="color_cyan">"အေဖ်ာ့"</string>
+<string name="color_yellow">"အ၀ါ"</string>
+<string name="color_magenta">"ပန္းခရမ္းေရာင္"</string>
+<string name="system_accessibility_status">ဖြင့္ရန္</string>
+<string name="system_accessibility_config">"ဖြဲ႕စည္းစီစဥ္ပံု"</string>
+<string name="system_accessibility_service_on_confirm_title">"<xliff:g id="service" example="TalkBack">%1$s</xliff:g> ကုိ သံုးမလား?"</string>
+<string name="system_accessibility_service_on_confirm_desc">"<xliff:g id="service" example="TalkBack">%1$s</xliff:g> သည္ စကားဝွက္မ်ားမွလြဲ၍ သင္ရုိက္လုိက္သည့္ စာသားအားလံုးကုိ စုစည္းထားႏုိင္သည္။ ခရက္ဒစ္ကတ္ နံပါတ္မ်ားကဲ့သုိ႕ေသာ ကုိယ္ေရးကုိယ္တာေဒတာမ်း ပါဝင္ပါသည္။"</string>
+<string name="system_accessibility_service_off_confirm_title">" <xliff:g example="TalkBack" id="service">%1$s</xliff:g>ပိတ္ပါ?"</string>
+<string name="system_accessibility_service_off_confirm_desc">"အုိေကကုိ ေရြးခ်ယ္ျခင္းျဖင့္ <xliff:g id="service" example="TalkBack">%1$s</xliff:g> ကုိရပ္ပစ္လိမ့္မည္။"</string>
+<string name="system_accessibility_tts_output">"စာလံုးကုိ စကားသံေျပာင္းရန္"</string>
+<string name="system_accessibility_tts_engine_config">"အင္ဂ်င္ ဖြဲ့စည္းအစိတ္အပိုင္း"</string>
+<string name="system_speak_passwords">"စကားဝွက္ ေျပာပါ"</string>
+<string name="system_preferred_engine">"ႏွစ္သက္ရာအင္ဂ်င္"</string>
+<string name="system_speech_rate">"စကားေျပာသည့္ႏႈန္း"</string>
+<string name="system_play_sample">"နမူနာဖြင့္ပါ"</string>
+<string name="system_install_voice_data">"အသံေဒတာထည့္သြင္းပါ"</string>
+<string name="system_general">ေယဘုယ်</string>
+<string name="system_debugging">"အျပစ္ကိုရွာေဖြဖယ္ရွားေနသည္"</string>
+<string name="system_input">"အင္ပြတ္"</string>
+<string name="system_drawing">"ဆြဲရန္"</string>
+<string name="system_monitoring">"ေစာင့္ၾကည့္စစ္ေဆးေနသည္"</string>
+<string name="system_apps">"အပလီေကးရွင္းမ်ား"</string>
+<string name="system_stay_awake">"ႏိုးထေနပါ"</string>
+<string name="system_hdcp_checking">"HDCP စစ္ေဆးျခင္း"</string>
+<string name="system_hdmi_optimization">"HDMI ပုိေကာင္းေအာင္လုပ္ေဆာင္ခ်က္"</string>
+<string name="system_reboot_confirm">"ယခု ျပန္စတင္မလား?"</string>
+<string name="system_desc_reboot_confirm">"ဤဆက္တင္ကုိ အပ္ဒိတ္လုပ္ရန္ သင့္စက္အား ျပန္စတင္ရန္ လုိအပ္သည္"</string>
+<string name="system_never_check">"ဘယ္ေသာအခါမွ မစစ္ေဆးပါႏွင့္"</string>
+<string name="system_check_for_drm_content_only">"DRM ပါဝင္မႈကိုသာ စစ္ေဆးပါ"</string>
+<string name="system_always_check">"အျမဲစစ္ေဆးပါ"</string>
+<string name="system_bt_hci_log">"ဘလူးတုသ္ HCI ေလာ့ဂ္ဝင္ေရာက္မႈ"</string>
+<string name="system_email_address">အီးေမးလ္လိပ္စာ</string>
+<string name="system_usb_debugging">USBခ်ိဳ ႔ယြင္းခ်က္ဖယ္ရွား</string>
+<string name="system_allow_mock_locations">"တည္ေနရာအတူမ်ားကိုခြင့္ျပဳပါ"</string>
+<string name="system_select_debug_app">"ဒီဘတ္ခ္လုပ္လိုသည့္္ ေအပီပီကို ေရြးခ်ယ္ပါ"</string>
+<string name="system_wait_for_debugger">"ဖယ္ရွားရန္ ေစာင့္ပါ"</string>
+<string name="system_verify_apps_over_usb">"USB ကိုေက်ာ္၍ အပလီေကးရွင္းမ်ားကို အတည္ျပဳရန္စစ္ေဆးပါ"</string>
+<string name="system_desc_verify_apps_over_usb">"ADB/ADT အႏၱရာယ္ က်ႏိုင္သည့္အေျခအေန မွတဆင့္ သြင္းသည့္ ေအပီပီမ်ား ကို စစ္ေဆးပါ"</string>
+<string name="system_wifi_verbose_logging">"Wi-Fi Verbose ေလာ့ဂ္အင္ဝင္ေရာက္မႈ"</string>
+<string name="system_desc_wifi_verbose_logging">"Wi-Fi အေသးစိတ္ ေန ့စဥ္ မွတ္တမ္း တင္ျခင္း ဖြင့္ပါ"</string>
+<string name="system_show_touches">"ထိထားသမွ်ကိုျပပါ"</string>
+<string name="system_pointer_location">"ျမားတံတည္ေနရာ"</string>
+<string name="system_show_layout_bounds">"လိုက္ကာေဘာင္မ်ား ေဖာ္ျပပါ"</string>
+<string name="system_show_gpu_view_updates">"GPU ျမင္ကြင္း အပ္ဒိတ္မ်ား ေဖၚျပပါ"</string>
+<string name="system_show_hardware_layer">"ဟတ္ဝဲလ္အလႊာမ်ားကို ေဖၚျပပါ"</string>
+<string name="system_show_gpu_overdraw">"CPU ပုိအသံုးျပဳမႈကုိ ျပပါ"</string>
+<string name="system_show_surface_updates">"မ်က္ႏွာျပင္အပ္ဒိတ္မ်ားျပပါ"</string>
+<string name="system_window_animation_scale">"ဝင္းဒိုးအန္နီေမးရွင္းစေကး"</string>
+<string name="system_transition_animation_scale">"အန္နီေမးရွင္း စေကး ေျပာင္းလဲခ်က္မ်ား"</string>
+<string name="system_animator_duration_scale">"အန္နီေမးရွင္း ကာလ စေကး"</string>
+<string name="system_strict_mode_enabled">"ရုတ္တရက္ မွားသြားပါက ျပန္ျပင္ႏိုင္ရန္မုတ္ ဖြင့္ျပီး"</string>
+<string name="system_show_cpu_usage">"CPU အသံုးခ်မႈပမာဏ ကို ျပပါ"</string>
+<string name="system_profile_gpu_rendering">"GPU ပရိုဖိုင္အား စီစစ္ေနသည္"</string>
+<string name="system_enable_traces">"သဲလြန္စမ်ားကုိ ဖြင့္ပါ"</string>
+<string name="system_dont_keep_activities">"လုပ္ေဆာင္ခ်က္မ်ားကို သိမ္းမထားပါႏွင့္"</string>
+<string name="system_background_process_limit">"ေနာက္ခံ ပေရာစက္ ကန္႕သတ္ခ်က္"</string>
+<string name="system_show_all_anrs">"ANRs အားလံုးကို ေဖၚျပပါ"</string>
+<string name="system_desc_stay_awake">"အိပ္ျခင္းကုိ ပိတ္ပါ"</string>
+<string name="system_desc_hdcp_checking">"DRM အေၾကာင္းအရာ သီးသန္႕အတြက္ အသံုးျပဳပါ"</string>
+<string name="system_desc_hdmi_optimization">"အမ်ားဆံုး ၾကည္လင္ျပတ္သားမႈ အရည္အေသြး (သုိ႕) အမ်ားဆံုး ဖလင္ျပကြက္ႏႈန္းအတြက္ ျပသခ်က္ကုိ ပုိမုိေကာင္းမြန္ေအာင္လုပ္ပါ ဤအခ်က္သည္ Ultra HD ျပသခ်က္မ်ားအေပၚ သက္ေရာက္ပါလိမ့္မည္။ ဤဆက္တင္ကုိေျပာင္းျခင္းျဖင့္ သင့္စက္ကုိ ျပန္လည္စတင္လိမ့္မည္။"</string>
+<string name="system_desc_bt_hci_log">"ဘလူးတုသ္ HCI အဝင္အထြက္ကုိ ၾကည့္ျခင္းကုိ ဖြင့္ပါ"</string>
+<string name="system_desc_usb_debugging">"USB ကုိခ်ိတ္ဆက္ထားသည့္အခါ အမွားရွာေဖြမုဒ္"</string>
+<string name="system_desc_wait_for_debugger">"ဖယ္ရွား ေအပီပီသည္ မဖယ္ရွားမွီ အမွားရွာေဖြကိရိယာ ကို တြဲရန္ ေစာင့္သည္"</string>
+<string name="system_desc_show_layout_bounds">"ျဖတ္၊ညွပ္၊ကတ္ ကလစ္ ကို ေဖာ္ျပပါ"</string>
+<string name="system_desc_show_gpu_view_updates">"ဝင္ဒိုးရွိ ဖရက္ရွ္ ျမင္ကြင္းမ်ား ဆြဲရန္ GPU ကို သံုးပါ"</string>
+<string name="system_desc_show_hardware_layer">"ဟတ္ဝဲလ္အလႊာမ်ား အစိမ္းကို သူတို႕ အပ္ဒိတ္လုပ္ခ်ိန္တြင္ ဖလက္ရွ္လုပ္ပါ"</string>
+<string name="system_desc_show_gpu_overdraw">"အေကာင္းဆံုးမွ အဆုိးဆံုးထိ- အျပာ၊ အစိမ္း၊ အနီေဖ်ာ့၊ အနီ"</string>
+<string name="system_desc_show_surface_updates">"အပ္ဒိတ္လုပ္သည့္အခါ မ်က္ႏွာျပင္ အားလံုး ရီဖရက္ရွ္ လုပ္ပါ"</string>
+<string name="system_desc_strict_mode_enabled">"ပင္မမက္ေဆ့ခ်္အတြဲမ်ား၌ ေအပီပီမ်ားလုပ္ေဆာင္ခ်က္ၾကာလွ်င္ ဖန္သားျပင္ကို ဖရက္ရွ္လုပ္ပါ"</string>
+<string name="system_desc_show_cpu_usage">"လက္ရွိ CPU အသံုးခ်မႈ ပမာဏအား ျပသည့္မ်က္ႏွာျပင္အလႊာမ်ား"</string>
+<string name="system_desc_profile_gpu_rendering">"adb shell dumpsys gfxinfo ရွိ လုပ္ေဆာင္ခ်က္ၾကာခ်ိန္ကုိ တုိင္းတာပါ"</string>
+<string name="action_on_title">"ဖြင့္"</string>
+<string name="action_off_title">ပိတ္သည္</string>
+<string name="action_on_description">"ဖြင့္"</string>
+<string name="action_off_description">ပိတ္သည္</string>
+<string name="agree">"သေဘာတူသည္"</string>
+<string name="disagree">"သေဘာမတူပါ"</string>
+<string name="security_unknown_sources_title">"အမည္မသိ ရင္းျမစ္မ်ား"</string>
+<string name="security_unknown_sources_desc">"Play Store ထက္ ရင္းျမစ္မ်ားမွ အက္ပ္မ်ား ထည့္သြင္းျခင္းကုိ ခြင့္ျပဳပါ"</string>
+<string name="security_unknown_sources_confirm_title">"မသိသည့္ ရင္းျမစ္မ်ား ခြင့္ျပဳပါ"</string>
+<string name="security_unknown_sources_confirm_desc">"သင့္စက္ႏွင့္ ကုိယ္ေရးကုိယ္တာ အခ်က္အလက္မ်ားသည္ မသိေသာ ရင္းျမစ္မ်ားမွ အက္ပ္မ်ားက တုိက္ခုိက္ျခင္းကုိ ခံရႏုိင္သည္။ ဤအက္ပ္မ်ားကုိသံုးျခင္းျဖင့္ ျဖစ္ေပၚလာေသာ ေဒတာဆံုးရံႈးမႈ (သုိ႕) သင့္စက္ပ်က္စီးမႈတုိ႕အတြက္ သင္သည္ အျပည့္အဝ တာဝန္ယူေၾကာင္း သေဘာတူသည္။"</string>
+<string name="security_verify_apps_title">"ေအပီပီမ်ားကို အတည္ျပဳရန္စစ္ေဆးပါ"</string>
+<string name="security_verify_apps_desc">"အႏၱရာယ္ ျဖစ္ေစႏိုင္သည့္ ေအပီပီမ်ား သြင္းျခင္းကို ခြင့္မျပဳပါ၊ (သို႕) မသြင္းမွီ သတိေပးပါ"</string>
+<string name="system_hdcp_checking_never">"ဘယ္ေတာ့မွ်"</string>
+<string name="system_hdcp_checking_drm">"DRM အေၾကာင္းအရာအတြက္"</string>
+<string name="system_hdcp_checking_always">"အျမဲတမ္း"</string>
+<string name="system_hdmi_optimization_best_resolution">"အေကာင္းဆံုး ရုပ္သံၾကည္လင္ျပတ္သားမႈ"</string>
+<string name="system_hdmi_optimization_best_framerate">"အေကာင္းဆံုး ဖလင္ကြက္ျပႏႈန္း"</string>
+<string name="system_hw_overdraw_off">ပိတ္သည္</string>
+<string name="system_hw_overdraw_areas">ပံုၾကီးခ်ဲ ့ေနရာေဖာ္ျပပါ</string>
+<string name="system_hw_overdraw_counter">"ပံုျကီးခ်ဲ႕ဆိုဒ္ကို ေဖၚျပပါ"</string>
+<string name="no_application">"ဘာမွ"</string>
+<string name="enable_opengl_traces_none">တေယာက္မွ်</string>
+<string-array name="animation_scale_entries">
+<item>"အန္နီေမးရွင္းပိတ္ပါ"</item>
+<item>"အန္နီေမး႐ွင္းစေကး .5x"</item>
+<item>"အန္နီေမး႐ွင္းစေကး 1x"</item>
+<item>"အန္နီေမး႐ွင္းစေကး 1.5x"</item>
+<item>"အန္နီေမး႐ွင္းစေကး 2x"</item>
+<item>"အန္နီေမး႐ွင္းစေကး 5x"</item>
+<item>"အန္နီေမး႐ွင္းစေကး 10x"</item>
+</string-array>
+<string name="track_frame_time_off">ပိတ္သည္</string>
+<string name="track_frame_time_bars">"ဖန္သားျပင္တြင္ရွိဘားမ်ား"</string>
+<string name="app_process_limit_standard">"ပံုမွန္ကန္႔သတ္ခ်က္"</string>
+<string name="app_process_limit_zero">"ေနာက္ခံ လုပ္ငန္းစဥ္မ်ား မရွိ"</string>
+<string name="app_process_limit_one">"အမ်ားဆံုးလုပ္ငန္းစဥ္ 1 ခု"</string>
+<string name="app_process_limit_two">"အမ်ားဆံုးလုပ္ငန္းစဥ္ 2 ခု"</string>
+<string name="app_process_limit_three">"အမ်ားဆံုးလုပ္ငန္းစဥ္ 3 ခု"</string>
+<string name="app_process_limit_four">"အမ်ားဆံုးလုပ္ငန္းစဥ္ 4 ခု"</string>
+<string name="tts_rate_very_slow">"အလြန္ ေနွး"</string>
+<string name="tts_rate_slow">"အေနွး"</string>
+<string name="tts_rate_normal">ပံုမွန္</string>
+<string name="tts_rate_fast">"အျမန္"</string>
+<string name="tts_rate_very_fast">"အလြန္ျမန္"</string>
+<string name="title_current_keyboard">"လက္ရွိ ကီးဘုတ္"</string>
+<string name="title_configure">"စီစဥ္မည္"</string>
+<string name="desc_configure_keyboard">"ကီးဘုတ္ ေရြးပိုင္ခြင့္"</string>
+<string name="computing_size">"တြက္ခ်က္ေနသည္\u2026"</string>
+<string name="title_select_wifi_network">"သင့္ Wi-Fi ကြန္ရက္ကုိ ေရြးခ်ယ္ပါ"</string>
+<string name="accessories_wifi_display_rename_device">"နာမည္အသစ္ေပး"</string>
+<string name="accessories_wifi_display_enable">"Wi-Fi ျပသခ်က္"</string>
+<string name="accessories_wifi_display_pin_required">"PIN လုိအပ္သည"</string>
+<string name="whichApplication">"အား အသံုးျပဳ၍ လုပ္ေဆာင္ခ်က္ ကို အျပီးသတ္ပါ"</string>
+<string name="alwaysUseQuestion">"ဤလုပ္ေဆာင္ခ်က္အတြက္ ဤေရြးခ်ယ္စရာကုိ အျမဲခြင့္ျပဳမလား?"</string>
+<string name="alwaysUseOption">"အၿမဲ အသံုးျပဳပါ"</string>
+<string name="justOnceOption">"တစ္ၾကိမ္တည္း"</string>
+<string name="noApplications">"မည္သည့္ေအပီပီမွ် ဤလုပ္ေဆာင္ခ်က္ကို မလုပ္ေဆာင္ႏုိင္ပါ။"</string>
+<string name="noAppsGoBack">"ေနာက္သို ့"</string>
+<string name="inputs_inputs">"ထည့္သြင္းမႈမ်ား"</string>
+<string name="inputs_header_cec">"စားသံုးသူ လွ်ပ္စစ္ပစၥည္းဆုိင္ရာ ထိန္းခ်ဳပ္မႈ (CEC)"</string>
+<string name="inputs_cec_settings">"စက္ထိန္းခ်ဳပ္မႈ ဆက္တင္မ်ား"</string>
+<string name="inputs_blu_ray">"ဘလူး-ေရး"</string>
+<string name="inputs_cable">"ႀကိဳး"</string>
+<string name="inputs_game">"ဂိမ္းကစားသည့္ ခလုတ္ခံု"</string>
+<string name="inputs_aux">"အကူ"</string>
+<string name="inputs_custom_name">"စိတ္ႀကိဳက္ အမည္"</string>
+<string name="inputs_custom_name_description_fmt">"အတြက္ အမည္ထည့္ပါ <xliff:g id="input" example="HDMI">%1$s</xliff:g> အင္ပြတ္."</string>
+<string name="inputs_hide">"ဝွက္ထားေသာ"</string>
+<string name="inputs_show">"အင္ပြတ္ ေဖၚျပပါ"</string>
+<string name="input_header_names">"အမည္"</string>
+<string name="inputs_hdmi_control">"HDMI ထိန္းခ်ဳပ္မႈ"</string>
+<string name="inputs_hdmi_control_desc">"HDMI စက္မ်ားကုိ ထိန္းခ်ဳပ္ရန္ TV ကုိ ခြင့္ျပဳပါ"</string>
+<string name="inputs_device_auto_off">"စက္ေအာ္တုိပါဝါပိတ္"</string>
+<string name="inputs_device_auto_off_desc">"HDMI စက္မ်ားကုိ TV ျဖင့္ ပါဝါပိတ္ပါ"</string>
+<string name="inputs_tv_auto_on">"TV ေအာ္တုိပါဝါ ပြင့္"</string>
+<string name="inputs_tv_auto_on_desc">"TV ကုိ HDMI စက္ျဖင့္ ပါဝါဖြင့္ပါ"</string>
+<plurals name="inputs_header_connected_input" formatted="false" msgid="3158173055262045630">
+<item quantity="one">"ခိ်တ္ဆက္ထားေသာ ထည့္သြင္းမႈ"</item>
+<item quantity="other">"ခိ်တ္ဆက္ထားေသာ ထည့္သြင္းမႈမ်ား"</item>
+</plurals>
+<plurals name="inputs_header_standby_input" formatted="false" msgid="8614849472167217134">
+<item quantity="one">"အဆင္သည့္ ထည့္သြင္းမႈ"</item>
+<item quantity="other">"အဆင္သည့္ ထည့္သြင္းမႈမ်ား"</item>
+</plurals>
+<plurals name="inputs_header_disconnected_input" formatted="false" msgid="1092697966171944243">
+<item quantity="one">"ခိ်တ္ဆက္ထားေသာ ထည့္သြင္းမႈမဟုတ္ပါ"</item>
+<item quantity="other">"ခိ်တ္ဆက္ထားေသာ ထည့္သြင္းမႈမ်ားမဟုတ္ပါ"</item>
+</plurals>
+<string name="user_add_profile_item_summary">"သင့္အေကာင့္ထဲရွိ အက္ပ္မ်ားႏွင့္ အျခားအေၾကာင္းအရာကုိ ရယူသံုးစြဲရန္ ကန္႕သတ္ပါ"</string>
+<string name="user_new_profile_name">ကန္ ့သတ္ထားေသာပရိုဖိုင္း</string>
+<string name="user_restrictions_controlled_by">"အားျဖင့္ထိန္းခ်ုပ္ <xliff:g id="app">%1$s</xliff:g>"</string>
+<string name="app_not_supported_in_limited">"ဤအပလီေကးရွင္းမွ တားျမစ္သည့္ပရိုဖိုင္းမ်ားကို မေထာက္ပံ့ပါ"</string>
+<string name="app_sees_restricted_accounts">"ဤအပလီေကးရွင္းမွသင့္အေကာင့္ကို၀င္ေရာက္နိုင္သည္"</string>
+<string name="restriction_location_enable_title">"တည္ေနရာ"</string>
+<string name="restriction_location_enable_summary">"သင့္တည္ေနရာသတင္းအခ်က္ အတြက္ ေအပီပီမ်ားသံုးပါ"</string>
+<string name="restricted_profile_switch_to">"ကန္႕သတ္ထားေသာ ပရုိဖုိင္းကုိ ထည့္သြင္းပါ"</string>
+<string name="restricted_profile_switch_out">"ကန္႕သတ္ထားေသာ ပရုိဖုိင္းမွ ထြက္ပါ"</string>
+<string name="restricted_profile_delete_title">"ကန္႕သတ္ထားေသာ ပရုိဖုိင္းကုိ ဖ်က္ပါ"</string>
+<string name="restricted_profile_create_title">"ကန္ ့သတ္ ပရိုဖိုင္း ဖန္တီးပါ"</string>
+<string name="restricted_profile_configure_title">"ဆက္တင္မ်ား"</string>
+<string name="restricted_profile_configure_apps_title">"ခြင့္ျပဳထားေသာ အက္ပ္မ်ား"</string>
+<plurals name="restricted_profile_configure_apps_description" formatted="false" msgid="1138147479259808487">
+<item quantity="one">"1 အက္ပ္ကုိ ခြင့္ျပဳထားသည္"</item>
+<item quantity="other">"%d အက္ပ္မ်ားကုိ ခြင့္ျပဳထားသည္"</item>
+</plurals>
+<string name="restricted_profile_allowed">"ခြင့္ျပဳျပီး"</string>
+<string name="restricted_profile_not_allowed">"ခြင့္မျပဳပါ"</string>
+<string name="restricted_profile_customize_restrictions">"ကန္႕သတ္ခ်က္မ်ားကုိ စိတ္ႀကိဳက္သတ္မွတ္ပါ"</string>
+<string name="restricted_profile_configure_apps_description_loading">"ခဏေစာင့္ပါ \u2026"</string>
+<string name="restricted_profile_change_password_title">"pin ေျပာင္းပါ"</string>
+<string name="app_sees_restricted_accounts_and_controlled_by">"သင့္အေကာင့္ကို ဤေအပီပီ လက္ခံနိုင္ . ထိန္းခ်ဳပ္သည့္ ျဖင့္ <xliff:g id="app">%1$s</xliff:g>"</string>
+<string name="pin_enter_unlock_channel">"ဤခ်န္နယ္ကုိၾကည့္ရန္ PIN ကုိ ထည့္သြင္းပါ"</string>
+<string name="pin_enter_unlock_program">"ဤပရုိဂရမ္ကုိၾကည့္ရန္ PIN ကုိ ထည့္သြင္းပါ"</string>
+<string name="pin_enter_pin">"PIN ကို ထည့္ပါ"</string>
+<string name="pin_enter_new_pin">"PIN အသစ္ကုိ သတ္မွတ္ပါ"</string>
+<string name="pin_enter_again">"PIN အသစ္ကုိ ျပန္ထည့္သြင္းပါ"</string>
+<string name="pin_enter_old_pin">"PIN အေဟာင္းကုိ ထည့္ပါ"</string>
+<string name="pin_enter_wrong_seconds">"PIN အမွား 5 ျကိမ္ ထည့္ျပီး.\nထပ္ျကိုးစားပါ <xliff:g id="relative_time_span" example="60">%1$d</xliff:g> စကၠန္ ့."</string>
+<string name="pin_toast_wrong">"PIN မွားေနသည္၊ ထပ္ႀကိဳးစားပါ"</string>
+<string name="pin_toast_not_match">"ထပ္ႀကိဳးစားပါ။ PIN မကုိက္ညီပါ"</string>
+<string name="wifi_setup_input_password">"စကား၀ွက္ထည့္ပါ သာလွ်င္ <xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="wifi_setup_connection_success">"ေအာင္ျမင္စြာ ခ်ိတ္ဆက္ထား"</string>
+<string name="wifi_setup_save_success">"ေအာင္ျမင္စြာ သိမ္းျပီး "</string>
+<string name="device_apps_app_management_version">"ဗားရွင္း <xliff:g id="app_version">%1$s</xliff:g>"</string>
+<string name="device_apps_app_management_open">"ဖြင့္ပါ"</string>
+<string name="device_apps_app_management_force_stop">"အတင္း အၾကပ္ရပ္ေစသည္"</string>
+<string name="device_apps_app_management_force_stop_desc">"သင္သည္ ေအပီပီကိုရပ္ရန္တြန္းအားေပးပါက , ၎သည္အမွားအယြင္းမ်ားျပဳမူလိမ့္မည္"</string>
+<string name="device_apps_app_management_uninstall">ပယ္ဖ်က္မည္</string>
+<string name="device_apps_app_management_uninstall_desc">"သင္ဤေအပီပီ ျဖဳတ္ခ်င္ပါသလား?"</string>
+<string name="device_apps_app_management_uninstall_updates">"ပယ္ဖ်က္ျခင္း အပ္ဒိပ္"</string>
+<string name="device_apps_app_management_uninstall_updates_desc">"ဤ Android စနစ္ပ႐ိုဂရမ္သို႔ အဆင့္ျမွင့္တင္ျခင္းအားလံုးကို ျဖဳတ္မလား?"</string>
+<string name="device_apps_app_management_disable">"မလုပ္ေဆာင္ႏိုင္ပါ"</string>
+<string name="device_apps_app_management_disable_desc">"ေအပီပီ ပိတ္မွာလား?"</string>
+<string name="device_apps_app_management_enable">ဖြင့္ရန္</string>
+<string name="device_apps_app_management_enable_desc">"ေအပီပီ ဖြင့္မွာလား?"</string>
+<string name="device_apps_app_management_storage_used">"သံုးထားသည့္ သိုေလွာင္ခန္း"</string>
+<string name="device_apps_app_management_storage_used_desc">"<xliff:g id="size" example="30.2MB">%1$s</xliff:g> သံုးျပီး <xliff:g id="volume" example="internal storage">%2$s</xliff:g>"</string>
+<string name="device_apps_app_management_clear_data">"ေဒတာကို ရွင္းလင္းပါ"</string>
+<string name="device_apps_app_management_clear_data_desc">"ေအပီပီေဒတာအားလံုး အျမဲ ပယ္ဖ်က္ လိမ့္မည္. ဖိုင္မ်ား, ဆက္တင္မ်ား, အေကာင့္မ်ား, ေဒတာမ်ား ,စသည္ျဖင့္ ,အားလံုး ပါသည္."</string>
+<string name="device_apps_app_management_clear_default">"ဒီေဖါ့မ်ားကိုရွင္းလင္းပါ"</string>
+<string name="device_apps_app_management_clear_default_set">"အက္ရွင္ တစ္ခ်ိဳ ့သာလွ်င္ ဤေအပီပီ စတင္ရန္ ဆက္တင္ "</string>
+<string name="device_apps_app_management_clear_default_none">"ဒီေဖါ့မ်ား ဆက္တင္ မရွိ"</string>
+<string name="device_apps_app_management_clear_cache">"ေနရာဝွက္မ်ားကို ရွင္းလင္းပါ"</string>
+<string name="device_apps_app_management_notifications">သတိေပးခ်က္မ်ား</string>
+<string name="device_apps_app_management_permissions">"ခြင့္ျပဳခ်က္မ်ား"</string>
+<string name="settings_ok">"အိုေက"</string>
+<string name="settings_cancel">"မလုပ္ပါ"</string>
+<string name="settings_on">"ဖြင့္"</string>
+<string name="settings_off">ပိတ္သည္</string>
+<string name="device_daydreams_none">"ဖန္သားျပင္ ပိတ္ပါ"</string>
+<string name="device_daydreams_select">"ဖန္သားျပင္ သိမ္းသူ"</string>
+<string name="device_daydreams_test">"ယခုစတင္ပါ"</string>
+<string name="device_daydreams_sleep">"စတင္ပါ"</string>
+<string name="device_daydreams_sleep_description">"အသက္မ၀င္လွ်င္ ဖန္သားျပင္ သိမ္းသူ စတင္. ဖန္သားျပင္သိမ္းသူ မေရြးခ်ယ္ထားလွ်င္, ေဖၚျပ ပိတ္ပါ."</string>
+<string name="device_daydreams_sleep_summary">"ျပီးေနာက္ <xliff:g id="sleep_description" example="3 minutes">%1$s</xliff:g> အသက္မ၀င္"</string>
+<string name="device_daydreams_screen_off">"စက္ ခဏနားရန္ ထားပါ"</string>
+<string name="device_daydreams_screen_off_description">"အသက္မ၀င္ေတာ့လွ်င္ ဖန္သားျပင္ ပိတ္မည္."</string>
+<string name="backup_configure_account_default_summary">"လက္႐ွိအရံေဒတာမ်ား သိမ္းဆည္းထားေသာ အေကာင့္မ႐ွိပါ"</string>
+<string name="backup_erase_dialog_message">"သင့္ Wi-Fi စကား၀ွက္မ်ား, ဘုတ္မက္ခ္မ်ား, တျခားဆက္တင္မ်ား, နွင့္ ေအပီပီေဒတာ ဘက္ခ္အပ္ ရပ္ျပီး,  Google ဆာဗမ်ား မွ ေကာ္ပီအားလံုးကို ဖ်က္မွာလား?"</string>
+<string name="privacy_backup_data">"ကၽြႏ္ုပ္ ေဒတာကို ဘက္ခ္အပ္ လုပ္ပါ"</string>
+<string name="privacy_backup_account">"အေကာင့္အရန္ထားရွိခ်က္"</string>
+<string name="privacy_automatic_restore">"အလိုအေလ်ာက္ ျပန္သိမ္း"</string>
+<string name="factory_reset_device">"စက္ကုိ ျပန္သတ္မွတ္ပါ"</string>
+<string name="factory_reset_description">"သင့္စက္အတြင္းသိုေလွာင္ခန္းမွ ေဒတာအားလံုး ဖ်က္လိမ့္မည္, အပါအ၀င္ :သင့္ Google အေကာင့္, စနစ္ နွင့္ ေအပီပီေဒတာ နွင့္ ဆက္တင္မ်ား, ေဒါင္းလုပ္ ေအပီပီမ်ား "</string>
+<string name="confirm_factory_reset_description">"သင့္ကိုယ္ေရးအခ်က္အလက္မ်ားႏွင့္ ေဒါင္းလုဒ္လုပ္ထားေသာ ေအပီပီမ်ားကို ဖ်က္မလား? ၄င္းလုပ္ေဆာင္ခ်က္ကို ျပန္ျပင္၍ မရႏိုင္ပါ!"</string>
+<string name="confirm_factory_reset_device">"အားလံုးကိုဖ်က္မည္"</string>
+<string name="select_device_name_title">"သင့္အတြက္ နံပါတ္ ေရြးခ်ယ္ပါ <xliff:g id="devicemodel" example="Nexus Player">%1$s</xliff:g>"</string>
+<string name="select_device_name_description">"အမည္က သင့္ကို သတ္မွတ္ရန္ ကူညီလိမ့္မည္ <xliff:g id="devicemodel" example="Nexus Player">%1$s</xliff:g> သင့္ဖုန္း, တက္ပလက္, (သို ့) ကြန္ျပဴတာကဲ့သို ့ တျခားစက္မ်ား လက္ခံေနခ်ိန္တြင္."</string>
+<string-array name="rooms">
+<item>"ဧည့္ခန္း"</item>
+<item>"မီဒီယာခန္း"</item>
+<item>"မိသားစုခန္း"</item>
+<item>"ထမင္းစားခန္း"</item>
+<item>"စာျကည့္ခန္း"</item>
+<item>"အိပ္ခန္း"</item>
+<item>"မီးဖိုခန္း"</item>
+</string-array>
+<string name="custom_room">"စိတ္ျကိဳက္ အမည္ ထည့္ပါ &amp;#8230;"</string>
+<string name="device_rename_title">"၄င္းကို အမည္ ျပန္ေပးပါ <xliff:g id="devicemodel" example="Nexus Player">%1$s</xliff:g>"</string>
+<string name="device_rename_description">"၄င္း <xliff:g id="devicemodel" example="Nexus Player">%1$s</xliff:g> လက္ရွိ အမည္ေပးထား \"<xliff:g id="devicename" example="Living Room Player">%2$s</xliff:g>\""</string>
+<string name="change_setting">"ေျပာင္းပါ"</string>
+<string name="keep_settings">"မေျပာင္းပါႏွင့္"</string>
+<string name="apps_permissions">"ခြင့္ျပဳခ်က္မ်ား"</string>
+<string name="device_apps_permissions">"ေအပီပီ ခြင့္ျပဳခ်က္မ်ား"</string>
+<string name="app_permissions_group_summary">"<xliff:g id="count" example="10">%d</xliff:g> ၏ <xliff:g id="count" example="10">%d</xliff:g> ေအပီပီမ်ား ဖြင့္ျပီး"</string>
+<string name="bluetooth_permission_request">"ဘလူးတုသ္ခြင့္ျပဳခ်က္ေတာင္းဆိုမႈ"</string>
+<string name="security_patch">"အန္းဒရိုက္ လံုျခံဳေရး လမ္းေျကာင္း အဆင့္"</string>
+<string name="choose_application">"ေအပီပီ ေရြးခ်ယ္ပါ"</string>
+<string name="experimental_preference">"(စမ္းသပ္)"</string>
+<string name="reboot_safemode_action">"လံုျခံဳသည့္ ပံုစံ မွ ျပန္ဘုတ္လုပ္ပါ"</string>
+<string name="reboot_safemode_confirm">"ရီဘုတ္ကို လံုျခံဳမုတ္လုပ္မွာလား?"</string>
+<string name="reboot_safemode_desc">"၄င္းကို တတိယပါတီေအပီပီမွ ဖြင့္မရ.  ရီဘုတ္ျပန္လုပ္လွ်င္ ၄င္းတို့ကို ျပန္သိမ္းလိမ့္မည္."</string>
+</resources>

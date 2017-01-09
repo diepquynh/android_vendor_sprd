@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2012,2013 Thundersoft Corporation
+    All rights Reserved
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/preview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!--您们用于显示预览数据的SurfaceView。
+        PreviewSurfaceView具体请自己实现，一般继承SurfaceView-->
+        <com.thundersoft.advancedfilter.PreviewSurfaceView
+            android:id="@+id/preview_surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <!--用于显示预览实时滤镜的GLSurfaceView。
+         TsAdvancedFilterGLView会显示在PreviewSurfaceView上层，遮挡住PreviewSurfaceView-->
+        <com.thundersoft.advancedfilter.TsAdvancedFilterGLView
+            android:id="@+id/advanced_filter_glview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <include layout="@layout/ucam_cpu_small_effects_layout"/>
+    </FrameLayout>
+
+</RelativeLayout>

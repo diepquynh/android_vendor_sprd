@@ -1,0 +1,69 @@
+.\" Process this file with
+.\" groff -man -Tascii omxregister-bellagio.1
+.\"
+.TH OMXREGISTER-BELLAGIO 1 "Sept 2009" Bellagio "OpenMAX Bellagio"
+.SH NAME
+omxregister-bellagio \- register
+.SM OpenMAX/Bellagio
+components
+.SH SYNOPSIS
+.B omxregister-bellagio [-v] [-h] [
+.I componentspath
+.B ]...
+.SH DESCRIPTION
+Before using any
+.SM OpenMAX
+component, they
+.B must
+be registered with the
+.B omxregister-bellagio
+command\.
+
+By default, this will create a file named
+.I ".omxregister"
+under the home
+.B XDG
+data directory with all the components found in
+.I @plugindir@\.
+.SH OPTIONS
+.IP -v
+Display a verbose output, listing all the components registered.
+.IP -h
+Display help.
+.IP componentspath
+Location of the
+.SM OpenMAX/Bellagio
+components (by default
+.I @plugindir@)\. 
+.SM Multiple locations should be separated by colons
+.SH FILES
+.I $XDG_DATA_HOME/@PACKAGE@/registry
+or
+.I $OMX_BELLAGIO_REGISTRY.
+.RS
+The
+.SM OpenMAX/Bellagio
+component registry file.
+.RE
+.SH ENVIRONMENT
+.IP BELLAGIO_SEARCH_PATH
+.SM This variable can be set to indicate the location(s) of the components
+.IP OMX_BELLAGIO_REGISTRY
+.RS
+Location of the registry.
+.RE
+.IP XDG_DATA_HOME
+.RS
+Location of the home data directory where registry is saved (if
+.I $OMX_BELLAGIO_REGISTRY
+is unset).
+.RE
+.SH AUTHORS
+Bhattacharyya Sourya,
+Melpignano Diego,
+Niemimuukko Ukri,
+Sen Pankaj,
+Siorpaes David
+and Urlini Giulio.
+
+Man page written by Marc-Andre Lureau.

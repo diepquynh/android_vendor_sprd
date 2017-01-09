@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+        <LinearLayout   android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginTop="7dip"
+                        android:layout_marginLeft="20dip"
+                        android:layout_marginRight="20dip">
+
+             <TextView  android:id="@+id/title"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <ImageView  android:id="@+id/titleDivider"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginTop="10dip"
+                    android:visibility="visible"
+                    android:scaleType="fitXY"
+                    android:gravity="fill_horizontal"
+                    android:src="@android:drawable/divider_horizontal_dark" />
+
+        <LinearLayout   android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="20dip"
+                        android:layout_marginRight="20dip">
+
+            <TextView   android:id="@+id/text_freq"
+                        android:text="@string/station_freq"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+            <EditText   android:id="@+id/edit_freq"
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        android:scrollHorizontally="true"
+                        android:inputType="numberDecimal"
+                        android:autoText="false"
+                        android:capitalize="none"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="phoneAppLabel" product="tablet">"Selyular nga datus"</string>
+<string name="phoneAppLabel" product="default">"Serbisyo sa Telepono"</string>
+<string name="emergencyDialerIconLabel">"Emerhensiya nga tig-dayal"</string>
+<string name="phoneIconLabel">telepono</string>
+<string name="fdnListLabel">"Lista sa FDN"</string>
+<string name="unknown">Wala mailhan</string>
+<string name="private_num">"Pribado nga numero"</string>
+<string name="payphone">"May bayad nga telepono"</string>
+<string name="onHold">"Gihuptan"</string>
+<string name="mmiStarted">"Gisugdan ang MMI nga kowd"</string>
+<string name="ussdRunning">"Nagdagan ang USSD nga kowd\u2026"</string>
+<string name="mmiCancelled">"Ikanselar ang MMI nga kowd"</string>
+<string name="enter_input">"Ang USSD nga mensahe kinahanglan nga naa sulod sa <xliff:g id="min_len" >%d</xliff:g> ug<xliff:g id="max_len" >%d</xliff:g> ka mga karakter. Palihug ug sulay balik."</string>
+<string name="manageConferenceLabel">"Magdumala sa komperensya nga tawag"</string>
+<string name="ok">"OK"</string>
+<string name="audio_mode_speaker">"Espeker"</string>
+<string name="audio_mode_earpiece">"Telepono para sa dunggan"</string>
+<string name="audio_mode_wired_headset">"Naay kable nga telepono sa ulo"</string>
+<string name="audio_mode_bluetooth">"Blutot"</string>
+<string name="wait_prompt_str">"Ipadala ang mga nagsunod nga tono?\n"</string>
+<string name="pause_prompt_str">"Nagpadala sa mga tono\n"</string>
+<string name="send_button">"Padala"</string>
+<string name="pause_prompt_yes">Shagit</string>
+<string name="pause_prompt_no">Dili</string>
+<string name="wild_prompt_str">"Ilisdi ang ilahis nga karakter ug"</string>
+<string name="no_vm_number">"Nawala nga numero sa voicemail"</string>
+<string name="no_vm_number_msg">"Walay voicemail nga numero nga natigum sa kani nga SIM kard."</string>
+<string name="add_vm_number_str">"Idugang ang numero"</string>
+<string name="puk_unlocked">"Ang imong SIM kard kay naablihan. Ang imong telepono kay naga-abli\u2026"</string>
+<string name="label_ndp">"Ang PIN sa pagabli sa SIM network"</string>
+<string name="sim_ndp_unlock_text">I-unlcok</string>
+<string name="sim_ndp_dismiss_text">"Buhii"</string>
+<string name="requesting_unlock">"Naghangyo pagabli sa network\u2026"</string>
+<string name="unlock_failed">"Dili malampuson ang hangyo sa pagabli sa network."</string>
+<string name="unlock_success">"Malampuson ang pagabli sa network."</string>
+<string name="mobile_network_settings_not_available">"Selyular nga network nga mga gitakda kay dili maggamit sa kani nga tiggamit"</string>
+<string name="labelGSMMore">"Mga gitakda sa GSM nga tawag"</string>
+<string name="labelGsmMore_with_label">"Mga seting sa GSM nga tawag (<xliff:g id="subscriptionlabel" example="T-Mobile">%s</xliff:g>)"</string>
+<string name="labelCDMAMore">"Mga gitakda sa CDMA nga tawag"</string>
+<string name="labelCdmaMore_with_label">"Mga seting sa CDMA nga tawag (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)"</string>
+<string name="apn_settings">"Mga ngalan sa mga punto sa pagakses"</string>
+<string name="settings_label">"Mga gitakda sa network"</string>
+<string name="phone_accounts">"Telepono nga akawnt nga mga gitakda"</string>
+<string name="phone_accounts_make_calls_with">"Himo og tawag uban"</string>
+<string name="phone_accounts_make_sip_calls_with">"Himo og SIP nga tawag uban"</string>
+<string name="phone_accounts_ask_every_time">"Pangutana una"</string>
+<string name="phone_accounts_default_account_label">"Walay network makuha"</string>
+<string name="phone_accounts_settings_header">Mga setting</string>
+<string name="phone_accounts_choose_accounts">"Pagpili og mga akawnt"</string>
+<string name="phone_accounts_selection_header">"Mga akawnt sa telepono"</string>
+<string name="phone_accounts_add_sip_account">"Idugang ang SIP akawnt"</string>
+<string name="phone_accounts_configure_account_settings">"Mga seting sa kompigyur akawnt"</string>
+<string name="phone_accounts_all_calling_accounts">"Tanang mga akawnt sa tawag"</string>
+<string name="phone_accounts_all_calling_accounts_summary">"Pilia kon hain nga mga akawnt ang makahimo sa pagtawag"</string>
+<string name="wifi_calling">"Wi-Fi nga pagtawag"</string>
+<string name="connection_service_default_label">"Anaa na daan nga koneksyon nga serbisyo"</string>
+<string name="voicemail">Voicemail</string>
+<string name="voicemail_settings_with_label">"Voicemail (<xliff:g id="subscriptionlabel" example="Mock Carrier">%s</xliff:g>)"</string>
+<string name="voicemail_abbreviated">"VM:"</string>
+<string name="networks">"Mga nag-opera sa network"</string>
+<string name="cell_broadcast_settings">"Emerhinsiya nga mga pagsibya"</string>
+<string name="call_settings">Mga setting sa tawag</string>
+<string name="additional_gsm_call_settings">"Mga dugang nga gitakda"</string>
+<string name="additional_gsm_call_settings_with_label">"Dugang nga mga seting (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)"</string>
+<string name="sum_gsm_call_settings">"Dugang nga gitakda sa GSM lang nga tawag"</string>
+<string name="additional_cdma_call_settings">"Dugang nga gitakda sa CDMA nga tawag"</string>
+<string name="sum_cdma_call_settings">"Dugang nga gitakda sa CDMA lang nga tawag"</string>
+<string name="labelNwService">"Mga gitakda sa serbis sa network"</string>
+<string name="labelCallerId">"ID sa mitawag"</string>
+<string name="sum_loading_settings">"Nagkarga sa gitakda\u2026"</string>
+<string name="sum_hide_caller_id">"Gitago ang numero para sa papagawas nga mga tawag"</string>
+<string name="sum_show_caller_id">"Ipakita ang numero para sa papagawas nga mga tawag"</string>
+<string name="sum_default_caller_id">"Gamita ang anaa na daan nga gitakda sa operetor para sa pagpakita sa ako numero sa papagawas nga mga tawag"</string>
+<string name="labelCW">"Tawag naghuwat"</string>
+<string name="sum_cw_enabled">"Samtang anaa sa tawag, pahibaloa ko sa papasulod nga mga tawag"</string>
+<string name="sum_cw_disabled">"Samtang anaa sa tawag, pahibaloa ko sa papasulod nga mga tawag"</string>
+<string name="call_forwarding_settings">"Mga gitakda sa pagporward sa mga tawag"</string>
+<string name="call_forwarding_settings_with_label">"Seting para sa mga tawag nga gipasa (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)"</string>
+<string name="labelCFU">"Kanunay iporward"</string>
+<string name="messageCFU">"Kanunaya paggamit ni nga numero"</string>
+<string name="sum_cfu_enabled">"Nagaporward tanan nga mga tawag ngadto sa <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g>"</string>
+<string name="sum_cfu_enabled_no_number">"Ang numero kay dili maggamit"</string>
+<string name="sum_cfu_disabled">"Pawng"</string>
+<string name="labelCFB">"Kon nagkapuliki"</string>
+<string name="messageCFB">"Numero kung bisi"</string>
+<string name="sum_cfb_enabled">"Nagaporward sa <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g>"</string>
+<string name="sum_cfb_disabled">"Pawng"</string>
+<string name="disable_cfb_forbidden">"Ang imong operetor kay wala nagsuporta sa pagpawng sa pagporward ug tawag kung ang imong telepono kay bisi."</string>
+<string name="labelCFNRy">"Kon dili tubagon"</string>
+<string name="messageCFNRy">"Numero kung wala natubag"</string>
+<string name="sum_cfnry_enabled">"Nagaporward sa <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g>"</string>
+<string name="sum_cfnry_disabled">"Pawng"</string>
+<string name="disable_cfnry_forbidden">"Ang imong operetor kay wala nagsuporta sa pagpawng sa pagporward sa tawag kung ang imong telepono kay wala gitubag."</string>
+<string name="labelCFNRc">"Kon dili maabot"</string>
+<string name="messageCFNRc">"Numero kung dili maabot"</string>
+<string name="sum_cfnrc_enabled">"Nagaporward sa <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g>"</string>
+<string name="sum_cfnrc_disabled">"Gipawng"</string>
+<string name="disable_cfnrc_forbidden">"Ang imong tagdumala wala nagsuporta sa pagpawng sa pagporward ug tawag kung ang imong telepono dili maabot."</string>
+<string name="updating_title">Mga setting sa tawag</string>
+<string name="call_settings_admin_user_only">"Ang mga seting sa tawag mailisan lamang sa admin nga tiggamit."</string>
+<string name="call_settings_with_label">"Mga seting (<xliff:g id="subscriptionlabel" example="Mock Carrier">%s</xliff:g>)"</string>
+<string name="error_updating_title">"Sayop sa mga gitakda sa tawag"</string>
+<string name="reading_settings">"Nagbasa sa mga gitakda\u2026"</string>
+<string name="updating_settings">"Nagbago sa mga gitakda\u2026"</string>
+<string name="reverting_settings">"Ibalik ang mga gitakda\u2026"</string>
+<string name="response_error">"Wala damha nga tubag gikan sa  network."</string>
+<string name="exception_error">"Network o SIM kard nga sayop."</string>
+<string name="stk_cc_ss_to_dial_error">"SS nga hangyo gibag-o ngadto sa DIAL nga hangyo."</string>
+<string name="stk_cc_ss_to_ussd_error">"SS nga hangyo gibag-o ngadto sa USSD nga hangyo."</string>
+<string name="stk_cc_ss_to_ss_error">"SS nga hangyo gibag-o ngadto sa bag-ong SS nga hangyo."</string>
+<string name="fdn_check_failure">"Ang imong app sa telepono nga anaay gitakda sa Pirmi Nagdayal nga Numero kay gipagana. Ang resulta, ang uban nga tampok nga anaay relasyon sa pagtawag kay dili mugana."</string>
+<string name="radio_off_error">"Ipagana ang radyo usa mutanaw sa mga gitakda niini."</string>
+<string name="close_dialog">"OK"</string>
+<string name="enable">"I-on"</string>
+<string name="disable">"i-OFF"</string>
+<string name="change_num">"I-update"</string>
+<string-array name="clir_display_values">
+<item>"Naa na daan nga network"</item>
+<item>"Itago ang mga numero"</item>
+<item>"Ipakita ang mga numero"</item>
+</string-array>
+<string name="vm_changed">"Nagilis ug numero sa voicemail."</string>
+<string name="vm_change_failed">"Dili mabag-o ang numero sa voicemail.\nTawagi ang imong tagdumala kung anaa pa ni nga problema."</string>
+<string name="fw_change_failed">"Dili mabag-o ang numero sa pagporward ug tawag.\nTawagi ang imong tagdumala kung anaa pa ni nga problema."</string>
+<string name="fw_get_in_vm_failed">"Dili makuha ug matigom ang kasamtangan nga gitakda nga numero sa pagporward.\nMagilis gihapon sa bag-o nga tighatag?"</string>
+<string name="no_change">"Walay pagbag-o nga nahimo."</string>
+<string name="sum_voicemail_choose_provider">"Pagpili ug serbis sa voicemail"</string>
+<string name="voicemail_default">"imo tigdala"</string>
+<string name="mobile_networks">"Selyular nga network nga mga gitakda"</string>
+<string name="label_available">"Mahimong gamiton nga mga network"</string>
+<string name="load_networks_progress">Nagpangita...</string>
+<string name="empty_networks_list">"Walay mga network nga nakitan."</string>
+<string name="search_networks">"Pangita ug mga network"</string>
+<string name="network_query_error">"Sayop samtang nangita ug mga network."</string>
+<string name="register_on_network">"Nagrehistro sa <xliff:g id="network">%s</xliff:g>\u2026"</string>
+<string name="not_allowed">"Ang imong SIM kard wala nagtugot sa pagkonek sa kani nga network."</string>
+<string name="connect_later">"Dili ka konek sa kani nga network sa pagkakaron. Sulayi pagusab unya."</string>
+<string name="registration_done">"Narehistro na sa network."</string>
+<string name="sum_carrier_select">"Pili ug network nga tig-opera"</string>
+<string name="sum_search_networks">"Mangita sa tanan nga mahimong gamiton nga network"</string>
+<string name="select_automatically">"Awtomatiko nga magpili"</string>
+<string name="sum_select_automatically">"Awtomatiko nga magpili sa ganahan nga network"</string>
+<string name="register_automatically">"Awtomatiko nga pagrehistro\u2026"</string>
+<string name="preferred_network_mode_title">"Ganahan nga matang sa network"</string>
+<string name="preferred_network_mode_summary">"Usbon ang nagopera sa moda sa network"</string>
+<string name="preferred_network_mode_dialogtitle">"Ganahan nga matang sa network"</string>
+<string name="preferred_network_mode_wcdma_perf_summary">"Moda sa ganahan nga network: WCDMA ang ganahan"</string>
+<string name="preferred_network_mode_gsm_only_summary">"Moda sa ganahan nga network: GSM lang"</string>
+<string name="preferred_network_mode_wcdma_only_summary">"Moda sa ganahan nga network: WCDMA lang"</string>
+<string name="preferred_network_mode_gsm_wcdma_summary">Gusto nga paagi sa network: GSM / WCDMA</string>
+<string name="preferred_network_mode_cdma_summary">"Gipalabi nga network nga moda: CDMA"</string>
+<string name="preferred_network_mode_cdma_evdo_summary">Gusto nga paagi sa network: CDMA / EvDo</string>
+<string name="preferred_network_mode_cdma_only_summary">"Moda sa ganahan nga network: CDMA lang"</string>
+<string name="preferred_network_mode_evdo_only_summary">"Moda sa ganahan nga network: EvDo lang"</string>
+<string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">"Gipalabi nga network nga moda: CDMA/EvDo/GSM/WCDMA"</string>
+<string name="preferred_network_mode_lte_summary">"Gipalabi nga network nga moda: LTE"</string>
+<string name="preferred_network_mode_lte_gsm_wcdma_summary">"Gipalabi nga network nga moda: GSM/WCDMA/LTE"</string>
+<string name="preferred_network_mode_lte_cdma_evdo_summary">"Gipalabi nga network nga moda: CDMA+LTE/EVDO"</string>
+<string name="preferred_network_mode_global_summary">"Moda sa ganahan nga network: Kalibotanhon"</string>
+<string name="preferred_network_mode_lte_wcdma_summary">"Gipalabi nga network nga moda: LTE / WCDMA"</string>
+<string name="preferred_network_mode_lte_gsm_umts_summary">"Modo sa pinalabi nga network: LTE / GSM / UMTS"</string>
+<string name="preferred_network_mode_lte_cdma_summary">Gusto nga paagi sa network: LTE / CDMA</string>
+<string name="preferred_network_mode_tdscdma_summary">"Gipalabi nga network modo: TDSCDMA"</string>
+<string-array name="preferred_network_mode_choices">
+<item>"LTE / WCDMA"</item>
+<item>"LTE"</item>
+<item>"Kalibotanhon"</item>
+<item>"GSM/WCDMA/LTE"</item>
+<item>"CDMA + LTE/EvDo"</item>
+<item>"CDMA/EvDo/GSM/WCDMA"</item>
+<item>"EvDo lang"</item>
+<item>"CDMA nga walay EvDo"</item>
+<item>"CDMA/EvDo awto"</item>
+<item>"GSM/WCDMA awto"</item>
+<item>WCDMA ra</item>
+<item>GSM ra</item>
+<item>"GSM/WCDMA ang ganahan"</item>
+</string-array>
+<string name="enhanced_4g_lte_mode_title">"Gipanindot nga 4G LTE nga moda"</string>
+<string name="enhanced_4g_lte_mode_summary">"Gamit og serbisyo sa LTE aron mapalambo ang tingog ug ubang mga komunikasyon (rekomendado)"</string>
+<string name="data_enabled">"Gipagana and datus"</string>
+<string name="data_enable_summary">"Tugoti ang paggamit og mga datus"</string>
+<string name="dialog_alert_title">"Atensiyon"</string>
+<string name="roaming">"Data nga nagsuroy"</string>
+<string name="roaming_enable">"Konek ngadto sa serbisyo sa data kung roaming"</string>
+<string name="roaming_disable">"Konek ngadto sa serbisyo sa data kung roaming"</string>
+<string name="roaming_reenable_message">"Nawala ang imong koneksyon sa datus kay nihawa ka sa imong network sa balay nga wala gipawng ang naglaag nga datus."</string>
+<string name="roaming_warning">"Aduna kay mga mahinungdanong bayronon."</string>
+<string name="roaming_alert_title">"Tugoti ang datus sa pagsuroysuroy?"</string>
+<string name="gsm_umts_options">"GSM/UMTS nga mga kapilian"</string>
+<string name="cdma_options">"CDMA nga mga kapilian"</string>
+<string name="throttle_data_usage">"Paggamit sa data"</string>
+<string name="throttle_current_usage">"Datus nga naggamit sa kasamtangan panahon"</string>
+<string name="throttle_time_frame">"Panahon nga naggamit ug datus"</string>
+<string name="throttle_rate">"Polisiya sa reyt sa datus"</string>
+<string name="throttle_help">"Magkat-on pa ug daghan"</string>
+<string name="throttle_status_subtext">"<xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) sa <xliff:g id="used">%3$s</xliff:g> kinatasan nga panahon\nSunod nga panahon kay magsugod sa <xliff:g id="used">%4$d</xliff:g> ka mga adlaw (<xliff:g id="used">%5$s</xliff:g>)"</string>
+<string name="throttle_data_usage_subtext">"<xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) sa <xliff:g id="used">%3$s</xliff:g> panahon nga pinakataas"</string>
+<string name="throttle_data_rate_reduced_subtext">"<xliff:g id="used">%1$s</xliff:g> nagsobra na sa pinakataas\nAng reyt sa datus kay gipaubos sa <xliff:g id="used">%2$d</xliff:g> Kb/s"</string>
+<string name="throttle_time_frame_subtext">"<xliff:g id="used">%1$d</xliff:g>\u066Ang usa ka sikulo nga nahuman\nSunod nga panahon magsugod sa <xliff:g id="used">%2$d</xliff:g> ka mga adlaw (<xliff:g id="used">%3$s</xliff:g>)"</string>
+<string name="throttle_rate_subtext">"Ang reyt sa datus gipaubos sa <xliff:g id="used">%1$d</xliff:g> Kb/s kung ang paggamit sa datus kay milapas na sa pinakataas"</string>
+<string name="throttle_help_subtext">"Daghan nga impormasyon mahitungod sa imong tigdala nga selyular nga network nga datus sa paggamit nga palisiya"</string>
+<string name="cell_broadcast_sms">"Selyula nga Pagsibya sa SMS"</string>
+<string name="enable_disable_cell_bc_sms">"Selyula nga Pagsibya sa SMS"</string>
+<string name="cell_bc_sms_enable">"Gipagana ang Selyula nga Pagsibya sa SMS"</string>
+<string name="cell_bc_sms_disable">"Gipawng ang Selyula nga Pagsibya sa SMS"</string>
+<string name="cb_sms_settings">"Mga gitakda sa Selyula nga Pagsibya sa SMS"</string>
+<string name="enable_disable_emergency_broadcast">"Emerhensiya nga Pagsibya"</string>
+<string name="emergency_broadcast_enable">"Gipagana ang emerhensiya nga pagsibya"</string>
+<string name="emergency_broadcast_disable">"Gipawng ang emerhensiya nga pagsibya"</string>
+<string name="enable_disable_administrative">"Administratibo"</string>
+<string name="administrative_enable">"Gipagana ang Administratibo"</string>
+<string name="administrative_disable">"Gipawng ang Administratibo"</string>
+<string name="enable_disable_maintenance">"Pagalima"</string>
+<string name="maintenance_enable">"Gipagana ang pagalima"</string>
+<string name="maintenance_disable">"Gipawng ang pagalima"</string>
+<string name="general_news_settings">"Tinanan nga balita"</string>
+<string name="bf_news_settings">"Balita sa Negosyo ug Pinansyal"</string>
+<string name="sports_news_settings">"Balita sa Duwa"</string>
+<string name="entertainment_news_settings">"Balita sa Kalingawan"</string>
+<string name="enable_disable_local">"Lokal"</string>
+<string name="local_enable">"Gipagana ang lokal nga balita"</string>
+<string name="local_disable">"Gipawng ang lokal nga balita"</string>
+<string name="enable_disable_regional">"Rehiyonal"</string>
+<string name="regional_enable">"Gipagana ang rehiyonal nga balita"</string>
+<string name="regional_disable">"Gipawng ang rehiyonal nga balita"</string>
+<string name="enable_disable_national">"Nasodnon"</string>
+<string name="national_enable">"Gipagana ang nasodnon nga balita"</string>
+<string name="national_disable">"Gipawng ang nasodnon nga balita"</string>
+<string name="enable_disable_international">"Internasyonal"</string>
+<string name="international_enable">"Gipagana ang internasyonal nga balita"</string>
+<string name="international_disable">"Gipawng ang internasyonal nga balita"</string>
+<string name="list_language_title">Setting sa lingguwahe</string>
+<string name="list_language_summary">"Pagpili ug bag-o nga pinulongan"</string>
+<string-array name="list_language_entries">
+<item>"Ingles"</item>
+<item>"Prances"</item>
+<item>"Espanyol"</item>
+<item>"Hinapon"</item>
+<item>"Koryano"</item>
+<item>"Tsino"</item>
+<item>"Hebreyo"</item>
+</string-array>
+<string name="list_language_dtitle">"Pinulongan"</string>
+<string name="enable_disable_local_weather">"Lokal nga Panahon"</string>
+<string name="local_weather_enable">"Gipagana ang Lokal nga Panahon"</string>
+<string name="local_weather_disable">"Gipawng ang Lokal nga Panahon"</string>
+<string name="enable_disable_atr">"Taho sa Trapik sa Lugar"</string>
+<string name="atr_enable">"Gipagana ang Taho sa Trapik sa Lugar"</string>
+<string name="atr_disable">"Gipawng ang Taho sa Trapik sa Lugar"</string>
+<string name="enable_disable_lafs">"Lokal nga Talamdan sa mga Paglupad sa Tugpahanan"</string>
+<string name="lafs_enable">"Gipagana ang Lokal nga Talamdan sa mga Paglupad sa Tugpahanan"</string>
+<string name="lafs_disable">"Gipawng ang Lokal nga Talamdan sa mga Paglupad sa Tugpahanan"</string>
+<string name="enable_disable_restaurants">"Kan-anan"</string>
+<string name="restaurants_enable">"Gipagana ang Kan-anan"</string>
+<string name="restaurants_disable">"Gipawng ang Kan-anan"</string>
+<string name="enable_disable_lodgings">"Sak-anan"</string>
+<string name="lodgings_enable">"Gipagana ang Sak-anan"</string>
+<string name="lodgings_disable">"Gipawng ang Sak-anan"</string>
+<string name="enable_disable_retail_directory">"Direktori sa Menudo"</string>
+<string name="retail_directory_enable">"Gipagana ang Direktori sa Menudo"</string>
+<string name="retail_directory_disable">"Gipawng ang Direktori sa Menudo"</string>
+<string name="enable_disable_advertisements">"Pahinumdom"</string>
+<string name="advertisements_enable">"Gipagana ang Pahinumdom"</string>
+<string name="advertisements_disable">"Gipawng ang Pahinumdom"</string>
+<string name="enable_disable_stock_quotes">"Kowt sa Estaks"</string>
+<string name="stock_quotes_enable">"Gipagana ang Kowt sa Estaks"</string>
+<string name="stock_quotes_disable">"Gipawng ang Kowt sa Estaks"</string>
+<string name="enable_disable_eo">"Kahigayonan sa Panarbaho"</string>
+<string name="eo_enable">"Gipagana ang Kahigayonan sa Panarbaho"</string>
+<string name="eo_disable">"Gipawng ang Kahigayonan sa Panarbaho"</string>
+<string name="enable_disable_mhh">"Medikal, Pang-lawas, ug Ospital"</string>
+<string name="mhh_enable">"Gipagana ang Medikal, Pang-lawas, ug Ospital"</string>
+<string name="mhh_disable">"Gipawng ang Medikal, Pang-lawas, ug Ospital"</string>
+<string name="enable_disable_technology_news">"Balita sa Teknolohiya"</string>
+<string name="technology_news_enable">"Gipagana ang Balita sa Teknolohiya"</string>
+<string name="technology_news_disable">"Gipawng ang Balita sa Teknolohiya"</string>
+<string name="enable_disable_multi_category">"Daghan nga kategorya"</string>
+<string name="multi_category_enable">"Gipagana ang Daghan nga kategorya"</string>
+<string name="multi_category_disable">"Gipawng ang Daghan nga kategorya"</string>
+<string name="network_lte">"LTE (gisugyot)"</string>
+<string name="network_4G">"4G (girekomenda)"</string>
+<string name="network_global">"Kalibotanhon"</string>
+<string name="cdma_system_select_title">"Pagpili ug Sistema"</string>
+<string name="cdma_system_select_summary">"Ilisdi ang moda sa naglaag nga CDMA"</string>
+<string name="cdma_system_select_dialogtitle">"Pagpili ug Sistema"</string>
+<string-array name="cdma_system_select_choices">
+<item>"Balay lang"</item>
+<item>Awtomatik</item>
+</string-array>
+<string name="cdma_subscription_title">"Subskripsiyon sa CDMA"</string>
+<string name="cdma_subscription_summary">"Ilisdi tali sa RUIM/SIM ug NV"</string>
+<string name="cdma_subscription_dialogtitle">"subskripsiyon"</string>
+<string name="cdma_activate_device">"Pagganahon ang debays"</string>
+<string name="cdma_lte_data_service">"Itakda ang serbis sa datus"</string>
+<string name="carrier_settings_title">"Mga gitakda sa tigdumala"</string>
+<string name="fdn">"Nakapirmi nga Numero sa Pagdayal"</string>
+<string name="fdn_with_label">"Mga numero nga Piks-dayal (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)"</string>
+<string name="manage_fdn_list">"Lista sa FDN"</string>
+<string name="fdn_list_with_label">"Lista sa FDN (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)"</string>
+<string name="fdn_activation">"Pagpagana sa FDN"</string>
+<string name="fdn_enabled">"Gipagana ang Nakapirmi nga Numero sa Pagdayal"</string>
+<string name="fdn_disabled">"Gipawng ang Nakapirmi nga Numero sa Pagdayal"</string>
+<string name="enable_fdn">"Gipagana ang FDN"</string>
+<string name="disable_fdn">"Gipawng ang FDN"</string>
+<string name="change_pin2">"Ilisdi ang PIN2"</string>
+<string name="enable_fdn_ok">"Gipawng ang FDN"</string>
+<string name="disable_fdn_ok">"Gipagana ang FDN"</string>
+<string name="sum_fdn">"Magdumala sa Nakapirmi nga Numero sa Pagdayal"</string>
+<string name="sum_fdn_change_pin">"Ilisdi and PIN para sa pagakses sa FDN"</string>
+<string name="sum_fdn_manage_list">"Magdumala sa lista sa mga numero sa telepono"</string>
+<string name="voice_privacy">"Pagpribado sa Tingog"</string>
+<string name="voice_privacy_summary">"Gipagana ang pagpausbaw sa pribado nga moda"</string>
+<string name="tty_mode_option_title">"TTY nga moda"</string>
+<string name="tty_mode_option_summary">"Itakda ang TTY nga moda"</string>
+<string name="auto_retry_mode_title">"Awto nga pagsulay"</string>
+<string name="auto_retry_mode_summary">"Gipagana ang moda sa awto nga pagsulay"</string>
+<string name="tty_mode_not_allowed_video_call">"TTY Modo pag-ilis dili itugot sa panahon sa tawag sa bidyo"</string>
+<string name="menu_add">Dugang kontak</string>
+<string name="menu_edit">Usbon ang kontak</string>
+<string name="menu_delete">"Ipanas ang kontak"</string>
+<string name="get_pin2">"Ibutang ang PIN2"</string>
+<string name="name">"Pangalan"</string>
+<string name="number">"Numero"</string>
+<string name="save">Luwas</string>
+<string name="add_fdn_contact">"Pagdugang ug nakapirmi nga numero sa pagdayal"</string>
+<string name="adding_fdn_contact">"Nagdugang ug nakapirmi nga numero sa pagdayal\u2026"</string>
+<string name="fdn_contact_added">"Nadugang ang nakapirmi nga numero sa pagdayal."</string>
+<string name="edit_fdn_contact">"Pagbago sa nakapirmi nga numero sa pagdayal"</string>
+<string name="updating_fdn_contact">"Pagilis sa nakapirmi nga numero sa pagdayal\u2026"</string>
+<string name="fdn_contact_updated">"Nailisan ang nakapirmi nga numero sa pagdayal."</string>
+<string name="delete_fdn_contact">"Panason ang nakapirmi nga numero sa pagdayal"</string>
+<string name="deleting_fdn_contact">"Nagpanas sa nakapirmi nga numero sa pagdayal\u2026"</string>
+<string name="fdn_contact_deleted">"Napanas ang nakapirmi nga numero sa pagdayal."</string>
+<string name="pin2_invalid">"Ang FDN kay wala nailisan kay ang imong gibutang nga PIN kay sayop."</string>
+<string name="fdn_invalid_number">"Ang FDN kay wala nailisan kay ang numero dili mulapas sa 20 ka dihito."</string>
+<string name="pin2_or_fdn_invalid">"Ang FDN wala nailisan. Ang PIN2 kay sayop, o ang numero sa telepono kay gisalikway."</string>
+<string name="fdn_failed">"Napakyas ang operasyon sa FDN."</string>
+<string name="simContacts_emptyLoading">"Nagbasa gikan sa SIM kard\u2026"</string>
+<string name="simContacts_empty">"Walay kontaks sa imong SIM kard."</string>
+<string name="simContacts_title">"Pili ug kontaks nga iimportar"</string>
+<string name="simContacts_airplaneMode">"I-OFF ang airplane modo aron maka-import og mga kontak gikan sa SIM kard."</string>
+<string name="enable_pin">"Ipagana/Pawnga ang SIM PIN"</string>
+<string name="change_pin">"Alisdan ang PIN sa SIM"</string>
+<string name="enter_pin_text">"SIM PIN:"</string>
+<string name="oldPinLabel">"Daan nga PIN"</string>
+<string name="newPinLabel">"Bago nga PIN"</string>
+<string name="confirmPinLabel">"Pamatud-an ang bago nga PIN"</string>
+<string name="badPin">"Ang daan nga PIN nga imong gibutang kay sayop. Sulayi pagbalik."</string>
+<string name="mismatchPin">"Ang mga PIN nga imung gibutang kay wala nagpares. Sulayi pagbalik."</string>
+<string name="invalidPin">"I-type ang PIN nga 4 hangtod sa 8 kabuok numero."</string>
+<string name="disable_sim_pin">"Hawani ang SIM PIN"</string>
+<string name="enable_sim_pin">"Itakda ang SIM PIN"</string>
+<string name="enable_in_progress">"Nagtakda sa PIN\u2026"</string>
+<string name="enable_pin_ok">"PIN gitakda"</string>
+<string name="disable_pin_ok">"PIN gilimpyo"</string>
+<string name="pin_failed">"PIN sayop"</string>
+<string name="pin_changed">"PIN gi-apdeyt"</string>
+<string name="puk_requested">"Password sayop. PIN karon na-block. PUK gihangyo."</string>
+<string name="enter_pin2_text">"PIN2"</string>
+<string name="oldPin2Label">"Daan nga PIN2"</string>
+<string name="newPin2Label">Bago nga PIN2</string>
+<string name="confirmPin2Label">"Ipamatuod ang bag-o nga PIN2"</string>
+<string name="badPuk2">"PUK2 sayop. Sulayi pag-usab."</string>
+<string name="badPin2">"Daan nga PIN2 sayop. Sulayi pag-usab"</string>
+<string name="mismatchPin2">"PIN2s wala motukma. Sulayi pag-usab."</string>
+<string name="invalidPin2">"I-entra ang PIN2 nga numero gikan sa 4 ngadto sa 8."</string>
+<string name="invalidPuk2">""I-entra ang PIN2 nga 8 ka numero."</string>
+<string name="pin2_changed">"PIN2 na-apdeyt na"</string>
+<string name="label_puk2_code">""I-entra ang PIN2 nga kodego"</string>
+<string name="fdn_enable_puk2_requested">"Password sayop. PIN2 karon na-block. Sulayi pag-usab, ilisi ang PIN 2."</string>
+<string name="puk2_requested">"Password sayop. SIM karon na-block. I-entra ang PUK2."</string>
+<string name="puk2_blocked">"PUK2 kay permanente nga naalihan."</string>
+<string name="pin2_attempts">"\nAduna kay <xliff:g id="number">%d</xliff:g> nahibilin nga mga pagsulay."</string>
+<string name="pin2_unblocked">"PIN2 wala na ma-block"</string>
+<string name="pin2_error_exception">"Network o SIM kard error"</string>
+<string name="voicemail_settings_number_label">"Numero sa Voicemail"</string>
+<string name="card_title_dialing">"Dayaling"</string>
+<string name="card_title_redialing">"Nagdayal og usab"</string>
+<string name="card_title_conf_call">"Komperinsiya nga tawag"</string>
+<string name="card_title_incoming_call">"Sumusulod nga tawag"</string>
+<string name="card_title_call_ended">"Human na ang tawag"</string>
+<string name="card_title_on_hold">"Gihuptan"</string>
+<string name="card_title_hanging_up">"Nagbitay sa"</string>
+<string name="card_title_in_call">"Naay  tawag"</string>
+<string name="notification_voicemail_title">"Bag-o nga voicemail"</string>
+<string name="notification_voicemail_title_count">"Bag-o nga voicemail (<xliff:g id="count">%d</xliff:g>)"</string>
+<string name="notification_voicemail_text_format">"Dayal <xliff:g id="voicemail_number">%s</xliff:g>"</string>
+<string name="notification_voicemail_no_vm_number">"Wala mailhi nga numero sa voicemail"</string>
+<string name="notification_network_selection_title">"Walay serbisyo"</string>
+<string name="notification_network_selection_text">"Ang gipili nga network (<xliff:g id="operator_name">%s</xliff:g>) kay dili magamit"</string>
+<string name="incall_error_power_off">"I-OFF ang airplane nga modo aron makahimo og tawag."</string>
+<string name="incall_error_power_off_wfc">"I-OFF ang airplane nga modo  o ikonekta sa wireless nga network aron makahimo og tawag."</string>
+<string name="incall_error_ecm_emergency_only">"Gawas sa emerhensya tawag-balik nga modo aron mohimo og di-emerhensya nga tawag."</string>
+<string name="incall_error_emergency_only">"Dili rehistrado sa network."</string>
+<string name="incall_error_out_of_service">"Selyular nga network dili maggamit."</string>
+<string name="incall_error_out_of_service_wfc">"Selyular nga network dili makuha. Ikonekta sa wireless nga network aron makahimo og tawag."</string>
+<string name="incall_error_no_phone_number_supplied">"Aron mohimo og tawag, i-entra ang balido nga numero."</string>
+<string name="incall_error_call_failed">"Ang Tawag pakyas."</string>
+<string name="incall_status_dialed_mmi">"Pagsugod sa MMI nga sekwins\u2026"</string>
+<string name="incall_error_supp_service_unknown">"Serbisyo dili suportado"</string>
+<string name="incall_error_supp_service_switch">"Dili makabalhin og tawag."</string>
+<string name="incall_error_supp_service_separate">"Dili makabuwag sa tawag."</string>
+<string name="incall_error_supp_service_transfer">"Dili makabalhin."</string>
+<string name="incall_error_supp_service_conference">"Dili mahimo nga magkoperinsya sa mga tawag."</string>
+<string name="incall_error_supp_service_reject">"Dil makabalibad sa tawag."</string>
+<string name="incall_error_supp_service_hangup">"Dili makatangtang sa (mga) tawag."</string>
+<string name="incall_error_supp_service_hold">"Dili makapa-hold og tawag."</string>
+<string name="incall_error_wfc_only_no_wireless_network">"Ikonekta sa wireless nga network aron makahimo og tawag."</string>
+<string name="emergency_enable_radio_dialog_title">"Kagipit nga tawag"</string>
+<string name="emergency_enable_radio_dialog_message">"Ipagana ang radyo\u2026"</string>
+<string name="emergency_enable_radio_dialog_retry">"Walay serbisyo. Misulay pag-usab\u2026"</string>
+<string name="radio_off_during_emergency_call">"Dili maka-entra og modo nga pang-eruplano samtang nagatawag og emerhensya."</string>
+<string name="dial_emergency_error">"Dili makatawag <xliff:g id="non_emergency_number">%s</xliff:g> dili numero sa emerhensya."</string>
+<string name="dial_emergency_empty_error">"Dili makatawag. I-dayal ang numero sa emerhensya."</string>
+<string name="dialerKeyboardHintText">"Gamita ang keyboard sa pagdayal"</string>
+<string name="onscreenHoldText">"Kuptan"</string>
+<string name="onscreenEndCallText">"Human"</string>
+<string name="onscreenShowDialpadText">"Dayalpad"</string>
+<string name="onscreenMuteText">"Amang"</string>
+<string name="onscreenAddCallText">"Pagdugang ug tawag"</string>
+<string name="onscreenMergeCallsText">"Isumpay ang mga tawag"</string>
+<string name="onscreenSwapCallsText">"Baylo"</string>
+<string name="onscreenManageCallsText">"Magduma sa mga tawag"</string>
+<string name="onscreenManageConferenceText">"Magduma sa komperensiya"</string>
+<string name="onscreenAudioText">Audio</string>
+<string name="onscreenVideoCallText">Video tawag</string>
+<string name="importSimEntry">"I-import"</string>
+<string name="importAllSimEntries">"Importar tananl"</string>
+<string name="importingSimContacts">"Iimportar ang SIM nga mga kontak"</string>
+<string name="importToFDNfromContacts">"Importar gikan sa mga kontak"</string>
+<string name="singleContactImportedMsg">"Giangkat nga mga kontak"</string>
+<string name="failedToImportSingleContactMsg">"Pakyas sa pag-angkat og kontak"</string>
+<string name="hac_mode_title">"Tabang sa pandungog"</string>
+<string name="hac_mode_summary">"Ipagana ang pareson sa tabang sa pandungog"</string>
+<string-array name="tty_mode_entries">
+<item>TTY pawng</item>
+<item>TTY puno</item>
+<item>"TTY HCO"</item>
+<item>"TTY VCO"</item>
+</string-array>
+<string name="dtmf_tones_title">"DTMF nga mga tono"</string>
+<string name="dtmf_tones_summary">"Itakda ang kataas sa DTMF nga mga tono"</string>
+<string-array name="dtmf_tone_entries">
+<item>"Kasagaran"</item>
+<item>"Taas"</item>
+</string-array>
+<string name="network_info_message">"Mensahe sa network"</string>
+<string name="network_error_message">"Sayop nga mensahe"</string>
+<string name="ota_title_activate">"Paganaha ang imong telepono"</string>
+<string name="ota_touch_activate">"Ang espesyal nga tawag nanginahanglan sa paghimo para mugana ang imong serbis sa telepono.\n\nPagkahuman pislit \u201CIpagana\u201D, paminaw sa mga gitudlo nga gihatag para mugana ang imong telepono."</string>
+<string name="ota_hfa_activation_title">"Nagpagana..."</string>
+<string name="ota_hfa_activation_dialog_message">"Ang telepono kay nagpagana sa serbis sa mobayl nga datus.\n\nKani muabot ug hangtod 5 ka mga minuto."</string>
+<string name="ota_skip_activation_dialog_title">"Lat-angan ang pagpagana\?"</string>
+<string name="ota_skip_activation_dialog_message">"Kung lat-angan nimo ang pagpagana, dili ka makahimo ug tawag o konek sa mobayl nga datus sa network (bisan makakonek ka sa Wi-Fi nga mga network). Hangtod imo ipagana ang imo telepono, ikaw kay gihangyo nga ipagana kini sa kada abli nimo."</string>
+<string name="ota_skip_activation_dialog_skip_label">"Labyan"</string>
+<string name="ota_activate">"Pagpagana"</string>
+<string name="ota_title_activate_success">"Kung lat-angan nimo ang pagpagana, dili ka makahimo ug tawag o konek sa mobayl nga datus sa network (bisan makakonek ka sa Wi-Fi nga mga network). Hangtod imo ipagana ang imo telepono, ikaw kay gihangyo nga ipagana kini sa kada abli nimo."</string>
+<string name="ota_title_problem_with_activation">"Problema sa pagpagana"</string>
+<string name="ota_listen">"Sunda ang gisulti nga gitudlo hangtod makabati ka nga kumpleto na ang pagpagana."</string>
+<string name="ota_speaker">"Espeker"</string>
+<string name="ota_progress">"Naga-program sa imong telepono\u2026"</string>
+<string name="ota_failure">"Dili maka-program sa imong telepono"</string>
+<string name="ota_successful">"Ang imong telepono kay napagana na.  Mahimong muabot ug 15 ka mga minuto para sa serbis nga magsugod."</string>
+<string name="ota_unsuccessful">"Ang imong telepono wala napagana. \nIkaw kay nanginahanglan nga mangita ug lugar nga anaay maayo nga  senyas (duol sa bintana , o sa gawas). \n\nSulayi usab o tawag sa serbis sa mga kustomer para sa daghan nga pilianan."</string>
+<string name="ota_spc_failure">"Sobra nga sayop sa SPC"</string>
+<string name="ota_call_end">balik</string>
+<string name="ota_try_again">"Suway balik"</string>
+<string name="ota_next">"Sunod"</string>
+<string name="phone_entered_ecm_text">"Gisulod ang emerhensiya nga pagtawag balik nga moda"</string>
+<string name="phone_in_ecm_notification_title">"Emerhensiya sa pagtawag balik nga moda"</string>
+<string name="phone_in_ecm_call_notification_text">"Gipawng ang koneksyon sa datus"</string>
+<plurals name="phone_in_ecm_notification_time">
+<item quantity="one">"Walay koneksyon sa datus sulod sa <xliff:g id="count">%s</xliff:g> ka minuto"</item>
+<item quantity="other">"Walay koneksyon sa datus sulod sa <xliff:g id="count">%s</xliff:g> ka mga minuto"</item>
+</plurals>
+<plurals name="alert_dialog_exit_ecm">
+<item quantity="one">"Ang telepono kay mahimong anaa sa emerhensiya nga pagtawag balik nga moda sulod sa <xliff:g id="count">%s</xliff:g> ka minuto. Samtang anaa ani mga moda walay apps nga naggamit ug koneksyon sa datus ang maggamit. Ganahan ka mugawas na karon?"</item>
+<item quantity="other">"Ang telepono kay mahimong anaa sa emerhensiya nga pagtawag balik nga moda sulod sa <xliff:g id="count">%s</xliff:g> ka mga minuto. Samtang anaa ani mga moda walay aplikasyon nga naggamit ug koneksyon sa datus ang maggamit. Ganahan ka mugawas na karon?"</item>
+</plurals>
+<plurals name="alert_dialog_not_avaialble_in_ecm">
+<item quantity="one">"Ang gipili nga aksyon kay dili magamit samtang anaa sa emerhensiya nga pagtawag balik nga moda. Ang telepono kay anaa ani nga moda sa sulod sa <xliff:g id="count">%s</xliff:g> ka minuto. Ganhan ka mugawas na karon?"</item>
+<item quantity="other">"Ang gipili nga aksyon kay dili magamit samtang anaa sa emerhensiya nga pagtawag balik nga moda. Ang telepono kay anaa ani nga moda sa sulod sa <xliff:g id="count">%s</xliff:g> ka mga minuto. Ganhan ka mugawas na karon?"</item>
+</plurals>
+<string name="alert_dialog_in_ecm_call">"Ang gipili nga aksyon kay dili magamit samtang anaa sa emerhensiya nga tawag."</string>
+<string name="progress_dialog_exiting_ecm">"Mugawas sa emerhensiya nga pagtawag balik nga moda"</string>
+<string name="alert_dialog_yes">Shagit</string>
+<string name="alert_dialog_no">Dili</string>
+<string name="alert_dialog_dismiss">"Buhii"</string>
+<string name="voicemail_provider">"Serbis"</string>
+<string name="voicemail_settings">"Itakda"</string>
+<string name="voicemail_number_not_set">"&lt; Wala natakda &gt;"</string>
+<string name="other_settings">"Uban nga gitakda sa tawag"</string>
+<string name="calling_via_template">"Nagtawag pinaagi sa <xliff:g id="provider_name">%s</xliff:g>"</string>
+<string name="contactPhoto">Kontak nga larawan</string>
+<string name="goPrivate">"ngadto sa pribado"</string>
+<string name="selectContact">"pili ug kontak"</string>
+<string name="not_voice_capable">"Ang tawag sa tingog kay wala gisuportahan"</string>
+<string name="description_dial_button">"dayal"</string>
+<string name="voicemail_notification_vibrate_when_title">Mangurog</string>
+<string name="voicemail_notification_vibarte_when_dialog_title">Mangurog</string>
+<string name="voicemail_visual_voicemail_switch_title">"Makita nga voicemail"</string>
+<string name="voicemail_notification_ringtone_title">"Tingog"</string>
+<string name="preference_category_ringtone">"Tingog &amp; Uy-og"</string>
+<string name="pstn_connection_service_label">"Anaa na daan nga mga SIM kard"</string>
+<string name="enable_video_calling_title">"Ipagana ang bidyo nga pagtawag"</string>
+<string name="enable_video_calling_dialog_msg">"Aron i-ON ang tawag sa bidyo, kinahanglan imong i-enable ang Pinalambong 4G LTE nga Modo sa network nga seting. "</string>
+<string name="enable_video_calling_dialog_settings">"Mga gitakda sa network"</string>
+<string name="enable_video_calling_dialog_close">"Sirado"</string>
+<string name="sim_label_emergency_calls">"mga emergency nga tawag"</string>
+<string name="sim_description_emergency_calls">"Pantawag sa mga emerhensya lamang"</string>
+<string name="sim_description_default">"SIM kard, paslakanan: <xliff:g id="slot_id">%s</xliff:g>"</string>
+<string name="accessibility_settings_activity_title">"Pagkaaccess"</string>
+<string name="status_hint_label_incoming_wifi_call">"Pasulod nga tawag sa Wi-Fi"</string>
+<string name="status_hint_label_wifi_call">"Wi-Fi Tawag"</string>
+<string name="emergency_action_launch_hint">"Hikapa pag-usab aron ablihon"</string>
+<string name="message_decode_error">"Naay mali samtang nag-decode sa mensahe."</string>
+<string name="callFailed_cdma_activation">"Dunay SIM kard nga aktibado sa imong serbisyo ug gibag-o sa kapabilidad nga roaming sa imong telepono. "</string>
+<string name="callFailed_cdma_call_limit">" Adunay daghan kaayong aktibong mga tawag. Palihug putla o itipon ang anaa na nga mga tawag usa maghimo og laing tawag."</string>
+<string name="uplmn_setting_title">"Mga ganahan"</string>
+<string name="call_end_try_again">"Palihug sulayi pag-usab human ang tawag matapos"</string>
+<string name="labelCF">"Pagpaabante sa tawag"</string>
+<string name="sum_cfu_enabled_indicator">"Iporward tanan nga mga tawag"</string>
+<string name="ActiveUnconCf">"Dili kinundisyon nga naabante nga tawag"</string>
+<string name="ActiveConCf">"Kinundisyon nga naabante nga tawag"</string>
+<string name="CallForwarded">"Tawag naabante"</string>
+<string name="CallWaiting">"Tawag naghuwat"</string>
+<string name="OutCallBarred">"Nabarado ang outgoing nga tawag"</string>
+<string name="InCallBarred">"Ang papasulod na tawag kay gidid-an"</string>
+<string name="ForwardedCall">"Gipaabante nga tawag"</string>
+<string name="CallHold">"Tawag kay ghunong"</string>
+<string name="CallRetrieved">"tawag nabalik"</string>
+<string name="IncomingCallForwarded">"Dugang nga incoming tawag paabante"</string>
+<string name="network_not_on">"Ang network wala mogana. Gusto mo ba nga i-set ang estado sa network?"</string>
+<string name="network_unknown">Wala mailhan</string>
+<string name="network_inhibit">"Wala Tugti"</string>
+<string name="ip_dialing_title">"Pagdayal sa IP"</string>
+<string name="ip_dialing_list_title">"Lista sa dayal sa IP"</string>
+<string name="ip_no_number">"Kuwangan ug unlapi sa IP"</string>
+<string name="ip_no_number_msg">"Unlapi sa IP kay wala na-imbak ngadto sa phone."</string>
+<string name="ip_number_empty_loading">"Ang lista sa IP nga dayal kay walay sulod."</string>
+<string name="remove">"Tangtang"</string>
+<string name="ip_number_is_too_long">"IP dayal nga mga numero kay dili dapat dako pa sa 20."</string>
+<string name="add_ip_number_str">"Bag-o"</string>
+<string name="ip_dialing_num_error">"Mahimo lang sa pagtigum ug 10 ka numero sa IP"</string>
+<string name="ip_dialing_num_repeat">Usaba ang numero , pag dungag dili malampuson </string>
+<string name="menu_selected_all">Pili tanan</string>
+<string name="menu_select_none">Dili pili-on tanan</string>
+<string name="doneButton">"Human"</string>
+<string name="cancel">"Kansela"</string>
+<string name="lnd_list">"Lista sa LND"</string>
+<string name="sdn_list">"Lista sa SDN"</string>
+<string name="network_wcdma_only">WCDMA ra</string>
+<string name="network_3g_2g">"3G/2G lamang nga moda"</string>
+<string name="network_gsm_only">GSM ra</string>
+<string name="network_2g_only">"2G lamang nga Modo"</string>
+<string name="network_lte_pref">"4G/3G/2G Daghan nga Moda"</string>
+<string name="network_lte_only">"LTE lamang"</string>
+<string-array name="enabled_networks_except_lte_choices">
+<item>GSM ra</item>
+<item>WCDMA ra</item>
+<item>"WCDMA/GSM"</item>
+</string-array>
+<string-array name="lte_preferred_networks_choices_for_common">
+<item>"4G/3G/2G Daghan nga Moda"</item>
+<item>"3G/2G lamang nga moda"</item>
+<item>"2G lamang nga Modo"</item>
+</string-array>
+<string name="network_registration_fail_title">"Rehistrasyon sa network pakyas"</string>
+<string name="network_registration_fail">"Rehistrasyon sa network pakyas, kon ablihon ba ang punsyon nga awtomatikong seleksyon?"</string>
+</resources>

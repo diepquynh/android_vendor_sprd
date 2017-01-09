@@ -1,0 +1,43 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    xmlns:preference="http://schemas.android.com/apk/res/com.sprd.systemupdate"
+    android:title="@string/app_name" >
+
+    <PreferenceCategory android:title="@string/timer_setting" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="timer_setting"
+            android:title="@string/timer_enabled" />
+
+        <com.sprd.systemupdate.RadioPreference
+            android:key="one_month"
+            android:title="@string/one_month"
+            preference:time="720" />
+        <com.sprd.systemupdate.RadioPreference
+            android:key="two_month"
+            android:title="@string/two_month"
+            preference:time="1440" />
+        <com.sprd.systemupdate.RadioPreference
+            android:key="three_month"
+            android:title="@string/three_month"
+            preference:time="2160" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="enable_special_check"
+            android:title="@string/enable_special_check" />
+        <!-- BEGIN BUG565617 zhijie.yang 2016/05/30 -->
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="enable_daily_check"
+            android:title="@string/enable_daily_check" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="enable_auto_push_check"
+            android:title="@string/enable_auto_push_check" 
+            android:summaryOn="@string/enable_auto_push_check_summary" />
+        <!-- END BUG565617 zhijie.yang 2016/05/30 -->
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

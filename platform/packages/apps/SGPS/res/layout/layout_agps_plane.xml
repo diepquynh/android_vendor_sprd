@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_agps_plane"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_agps_control_and_user_plane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/layout_agps_control_plane" />
+
+        <include layout="@layout/layout_agps_user_plane" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_common"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_agps_control_and_user_plane"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dip"
+            android:paddingTop="3dip"
+            android:text="@string/feature_enable_title"
+            android:textSize="20dip" />
+
+        <CheckBox
+            android:id="@+id/allow_network_initiated_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/allow_network_initiated_request_text" />
+
+        <CheckBox
+            android:id="@+id/allow_em_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/allow_em_notification_text" />
+
+        <CheckBox
+            android:id="@+id/allow_roaming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/allow_roaming_text" />
+
+        <CheckBox
+            android:id="@+id/log_supl_to_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/log_supl_to_file_text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dip"
+            android:paddingTop="3dip"
+            android:text="@string/ni_dialog_customization_title"
+            android:textSize="20dip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dip"
+                android:text="@string/notification_timeout_text"
+                android:textSize="16dip" />
+
+            <Spinner
+                android:id="@+id/notification_timeout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dip"
+                android:text="@string/verification_timeout_text"
+                android:textSize="16dip" />
+
+            <Spinner
+                android:id="@+id/verification_timeout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dip"
+            android:paddingTop="3dip"
+            android:text="@string/reset_to_default_title"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/bt_reset_to_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset_to_default_title_bt_text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dip"
+            android:paddingTop="3dip"
+            android:text="@string/ni_dialog_test_title"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/bt_ni_dialog_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ni_dialog_test_bt_text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/gray" />
+    </LinearLayout>
+
+</RelativeLayout>

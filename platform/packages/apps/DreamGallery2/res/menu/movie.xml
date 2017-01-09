@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 Google Inc.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--SPRD:add for feature bug568552 trim video@{-->
+    <item
+        android:id="@+id/trim_action"
+        android:enabled="true"
+        android:showAsAction="never"
+        android:visible="false"
+        android:title="@string/trim_action"/>
+    <item android:id="@+id/action_share"
+            android:icon="@drawable/share"
+            android:title="@string/share"
+            android:enabled="true"
+            android:showAsAction="always" />
+    <!-- SPRD:Bug474632 bookmark setting  @{ -->
+    <item
+        android:id="@+id/action_vedio_save_bookmark"
+        android:icon="@drawable/ic_save_bookmark"
+        android:title="@string/video_save_to_bookmark"/>
+    <item
+        android:id="@+id/action_vedio_view_bookmarks"
+        android:icon="@drawable/ic_view_bookmark"
+        android:title="@string/video_view_bookmarks"/>
+    <!-- SPRD: Bug 474610 imput url for go-to research @{ -->
+    <item
+        android:id="@+id/action_vedio_goto"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="@string/movie_view_goto"
+        android:visible="false"/>
+        <!-- Bug568552 end @} -->
+    <!-- @} -->
+    <!-- SPRD: Bug 474621 screen size setting @{ -->
+    <!-- SPRD:comment for new feature 568552 click to adjust video size @{
+    <item
+        android:id="@+id/action_vedio_original_size"
+        android:icon="@drawable/ic_menu_movie_original"
+        android:title="@string/movie_view_original_size"/>
+         -->
+         <!-- @} -->
+    <!-- @} -->
+    <!-- SPRD: bug 474643 add http set @{ -->
+    <item
+        android:id="@+id/action_vedio_parameter"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/movie_view_parameter_set"/>
+    <!-- @} -->
+    <!-- SPRD: Bug474615 Play loop mode @{ -->
+    <item
+        android:id="@+id/action_vedio_playback"
+        android:icon="@drawable/ic_playback_setting"
+        android:title="@string/playback_setting"/>
+    <!-- @} -->
+    <!-- SPRD: Bug474618 Channel volume settings @{ -->
+    <item
+        android:id="@+id/action_vedio_channel_setting"
+        android:icon="@drawable/ic_menu_stereo"
+        android:title="@string/channel_setting"/>
+    <!-- @} -->
+    <!-- SPRD:Bug474630 switching voice devices  @{ -->
+    <item
+        android:id="@+id/action_vedio_headset"
+        android:icon="@drawable/ic_menu_headset"
+        android:title="@string/headset"/>
+    <!-- @} -->
+</menu>

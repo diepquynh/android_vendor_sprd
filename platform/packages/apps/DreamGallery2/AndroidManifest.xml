@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.gallery3d"
+    android:versionCode="40030"
+    android:versionName="1.1.40030" >
+
+    <original-package android:name="com.android.gallery3d" />
+
+    <uses-sdk android:minSdkVersion="23" />
+
+    <permission
+        android:name="com.android.gallery3d.permission.GALLERY_PROVIDER"
+        android:protectionLevel="signatureOrSystem" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <!-- SPRD:For bug587087, need MODIFY_AUDIO_SETTINGS permission to AudioSystem.setForceUse -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- @} -->_
+    <uses-permission android:name="com.android.gallery3d.permission.GALLERY_PROVIDER" />
+    <!-- SPRD: Add for bug506731, Gallery2 need WRITE_MEDIA_STORAGE permission -->
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <!-- @} -->
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <!-- SPRD: Bug474614 Gallery2 need read messaging @{ -->
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <!-- SPRD:Bug 474639 add phone call reaction @} @} -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- @} -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false" />
+
+    <!-- SPRD:Bug474614  add @{ -->
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <!-- @} -->
+    <application
+        android:name="com.android.gallery3d.app.GalleryAppImpl"
+        usesCleartextHttp="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher_gallery"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:restoreAnyVersion="true"
+        android:supportsRtl="true"
+        android:resizeableActivity="false"
+        android:theme="@style/Theme.Gallery" >
+        <uses-library
+            android:name="com.google.android.media.effects"
+            android:required="false" />
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+        <!-- SPRD:Bug494047 the video icon error ,Modify by old Bug 380934 @{ -->
+
+        <provider
+            android:name="com.sprd.gallery3d.app.VideoBookmarkProvider"
+            android:authorities="com.sprd.gallery3d.app.VideoBookmarkProvider" >
+        </provider>
+
+        <activity
+            android:name="com.android.gallery3d.app.MovieActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:icon="@drawable/icon_video"
+            android:label="@string/movie_view_label"
+            android:taskAffinity="com.android.gallery3d.app.MovieActivity">
+            <!-- @} -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="rtsp" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:scheme="" />
+                <data android:mimeType="video/mpeg4" />
+                <data android:mimeType="video/mp4" />
+                <data android:mimeType="video/3gp" />
+                <data android:mimeType="video/3gpp" />
+                <data android:mimeType="video/3gpp2" />
+                <data android:mimeType="video/webm" />
+                <data android:mimeType="video/avi" />
+                <data android:mimeType="application/sdp" />
+                <!-- SPRD:Bug 473309 add new video format @{ -->
+                <data android:mimeType="video/x-msvideo" />
+                <data android:mimeType="video/mpeg" />
+                <data android:mimeType="video/x-matroska" />
+                <data android:mimeType="video/x-ms-wmv" />
+                <data android:mimeType="video/k3g" />
+                <data android:mimeType="video/3g2" />
+                <data android:mimeType="video/amc" />
+                <data android:mimeType="video/flv" />
+                <data android:mimeType="video/mp2ts" />
+                <data android:mimeType="video/f4v" />
+                <data android:mimeType="video/x-f4v" />
+                <data android:mimeType="video/m4v" />
+                <data android:mimeType="video/quicktime" />
+                <data android:mimeType="video/mp2p" />
+                <!-- @} -->
+                <!-- SPRD:Bug 505098 modify by old bug 487587 add new video format @{ -->
+                <data android:mimeType="video/x-flv" />
+                <!-- @} -->
+            </intent-filter>
+            <intent-filter>
+
+                <!-- HTTP live support -->
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:mimeType="audio/x-mpegurl" />
+                <data android:mimeType="audio/mpegurl" />
+                <data android:mimeType="application/vnd.apple.mpegurl" />
+                <data android:mimeType="application/x-mpegurl" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:resizeableActivity="false"
+            android:name="com.android.gallery3d.app.GalleryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.APP_GALLERY" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+
+                <data android:mimeType="vnd.android.cursor.dir/image" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <!--
+                 We do NOT support the PICK intent, we add these intent-filter for
+                 backward compatibility. Handle it as GET_CONTENT.
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/image" />
+                <data android:mimeType="vnd.android.cursor.dir/video" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/image" />
+                <data android:mimeType="vnd.android.cursor.dir/video" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="com.android.camera.action.REVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="image/bmp" />
+                <data android:mimeType="image/jpeg" />
+                <data android:mimeType="image/gif" />
+                <data android:mimeType="image/png" />
+                <data android:mimeType="image/webp" />
+                <data android:mimeType="image/x-ms-bmp" />
+                <data android:mimeType="image/vnd.wap.wbmp" />
+                <data android:mimeType="application/vnd.google.panorama360+jpg" />
+                <data android:mimeType="image/x-canon-cr2" />
+                <data android:mimeType="image/x-adobe-dng" />
+                <data android:mimeType="image/x-nikon-nef" />
+                <data android:mimeType="image/x-olympus-orf" />
+                <data android:mimeType="image/x-pentax-pef" />
+                <data android:mimeType="image/x-fuji-raf" />
+                <data android:mimeType="image/x-panasonic-rw2" />
+                <data android:mimeType="image/x-samsung-srw" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.camera.action.REVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="video/mpeg4" />
+                <data android:mimeType="video/mp4" />
+                <data android:mimeType="video/3gp" />
+                <data android:mimeType="video/3gpp" />
+                <data android:mimeType="video/3gpp2" />
+                <data android:mimeType="application/sdp" />
+            </intent-filter>
+        </activity>
+
+        <!--
+             This activity acts as a trampoline to the new Gallery activity,
+             so that existing shortcuts are preserved.
+        -->
+        <activity
+            android:name="com.android.gallery3d.app.Gallery"
+            android:theme="@style/android:Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- we add this activity-alias for shortcut backward compatibility -->
+        <!-- Note: The alias must put after the target activity -->
+        <activity-alias
+            android:name="com.cooliris.media.Gallery"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:targetActivity="com.android.gallery3d.app.GalleryActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity-alias>
+
+        <!--
+             This activity acts as a trampoline to the new Camera activity
+             in com.android.camera2 package, so that existing shortcuts
+             are preserved.
+        -->
+        <activity
+            android:name="com.android.camera.CameraActivity"
+            android:icon="@mipmap/ic_launcher_camera"
+            android:label="@string/camera_label"
+            android:taskAffinity="com.android.camera.CameraActivity"
+            android:theme="@style/android:Theme.NoDisplay" />
+
+        <activity-alias
+            android:name="com.android.camera.CameraLauncher"
+            android:label="@string/camera_label"
+            android:targetActivity="com.android.camera.CameraActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+
+        <!--
+         This activity receives USB_DEVICE_ATTACHED intents and allows importing
+         media from attached MTP devices, like cameras and camera phones
+        -->
+        <activity
+            android:name="com.android.gallery3d.ingest.IngestActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+        </activity>
+
+        <service android:name="com.android.gallery3d.ingest.IngestService" />
+
+        <activity
+            android:name="com.android.gallery3d.app.Wallpaper"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/android:Theme.Translucent.NoTitleBar" >
+            <intent-filter android:label="@string/camera_setas_wallpaper" >
+                <action android:name="android.intent.action.ATTACH_DATA" />
+
+                <data android:mimeType="image/*" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:label="@string/app_name" >
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.wallpaper.preview"
+                android:resource="@xml/wallpaper_picker_preview" />
+        </activity>
+        <activity
+            android:name="com.android.gallery3d.app.TrimVideo"
+            android:label="@string/trim_label" >
+            <intent-filter android:label="@string/crop_label" >
+                <action android:name="com.android.camera.action.TRIM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+        </activity>
+
+        <permission
+            android:name="com.android.gallery3d.filtershow.permission.READ"
+            android:protectionLevel="signature" />
+        <permission
+            android:name="com.android.gallery3d.filtershow.permission.WRITE"
+            android:protectionLevel="signature" />
+
+        <provider
+            android:name="com.android.gallery3d.filtershow.provider.SharedImageProvider"
+            android:authorities="com.android.gallery3d.filtershow.provider.SharedImageProvider"
+            android:grantUriPermissions="true"
+            android:readPermission="com.android.gallery3d.filtershow.permission.READ"
+            android:writePermission="com.android.gallery3d.filtershow.permission.WRITE" />
+
+        <service
+            android:name=".filtershow.pipeline.ProcessingService"
+            android:exported="false" />
+
+        <activity
+            android:name="com.android.gallery3d.filtershow.FilterShowActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_filter_show"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.FilterShow" >
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="action_nextgen_edit" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.gallery3d.filtershow.crop.CropActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/crop"
+            android:theme="@style/Theme.Crop" >
+            <intent-filter android:label="@string/crop_label" >
+                <action android:name="com.android.camera.action.CROP" />
+
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="image/*" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.ALTERNATIVE" />
+                <category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="com.google.android.media.effects"
+            android:required="false" />
+
+        <activity
+            android:name="com.android.gallery3d.settings.GallerySettings"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.Gallery" />
+
+        <provider
+            android:name="com.android.gallery3d.provider.GalleryProvider"
+            android:authorities="com.android.gallery3d.provider"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:permission="com.android.gallery3d.permission.GALLERY_PROVIDER"
+            android:syncable="false" />
+        <provider
+            android:name="com.android.photos.data.PhotoProvider"
+            android:authorities="com.android.gallery3d.photoprovider"
+            android:exported="false"
+            android:syncable="false" />
+        <!-- Modify for bug505102 Avoid flash when click gallery widget Start -->
+        <activity
+            android:name="com.android.gallery3d.gadget.WidgetClickHandler"
+            android:theme="@style/android:Theme.NoDisplay" />
+        <!-- Modify for bug505102 Avoid flash when click gallery widget End -->
+        <activity
+            android:name="com.android.gallery3d.app.DialogPicker"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/DialogPickerTheme" />
+        <activity
+            android:name="com.android.gallery3d.app.AlbumPicker"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/DialogPickerTheme" />
+        <activity
+            android:name="com.android.gallery3d.gadget.WidgetTypeChooser"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/Theme.Gallery.Dialog" />
+
+        <receiver
+            android:name="com.android.gallery3d.gadget.PhotoAppWidgetProvider"
+            android:label="@string/appwidget_title" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+        <receiver android:name="com.android.gallery3d.app.PackagesMonitor" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.android.gallery3d.app.PackagesMonitor$AsyncService" />
+        <service
+            android:name="com.android.gallery3d.gadget.WidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <activity
+            android:name="com.android.gallery3d.gadget.WidgetConfigure"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/android:Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.android.gallery3d.app.BatchService" />
+
+        <receiver android:name="com.android.camera.DisableCameraReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.android.camera.MediaSaveService" />
+        <!-- SPRD:Bug474632 bookmark setting  @{ -->
+        <activity
+            android:name="com.sprd.gallery3d.app.MovieBookmarks"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:icon="@drawable/icon_video"
+            android:label="@string/video_bookmarks"
+            android:theme="@android:style/Theme.Material.Light" >
+        </activity>
+        <activity
+            android:name="com.sprd.gallery3d.app.EditBookmark"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:icon="@drawable/icon_video"
+            android:label="@string/video_edit_bookmark"
+            android:theme="@android:style/Theme.Material.Light.Dialog" >
+        </activity>
+
+        <provider
+            android:name="com.sprd.gallery3d.app.MovieViewContentProvider"
+            android:authorities="com.sprd.gallery3d"
+            android:exported="false" >
+        </provider>
+        <!-- SPRD:Add for new feature 568552  New entrance for video player@{ -->
+        <activity
+            android:name="com.sprd.gallery3d.app.NewVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:icon="@drawable/icon_video"
+            android:label="@string/movie_view_label"
+            android:stateNotNeeded="true"
+            android:taskAffinity="com.sprd.gallery3d.app.NewVideoActivity"
+            android:theme="@style/NewVideoStyle" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!--SPRD:Add for bug602058 Can't choose video attachment in videoplayer @{
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="video/*" />
+            </intent-filter>-->
+            <!--Bug602508 end @}-->
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/video" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.camera.action.REVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="video/mpeg4" />
+                <data android:mimeType="video/mp4" />
+                <data android:mimeType="video/3gp" />
+                <data android:mimeType="video/3gpp" />
+                <data android:mimeType="video/3gpp2" />
+                <data android:mimeType="application/sdp" />
+                <data android:mimeType="video/mpeg" />
+            </intent-filter>
+            <!--
+                 We do NOT support the PICK intent, we add these intent-filter for
+                 backward compatibility. Handle it as GET_CONTENT.
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/video" />
+            </intent-filter>
+        </activity>
+        <!-- New feature 568552 End@} -->
+        <!-- SPRD: bug 473267 add video entrance -delete the label or when you enter the app it will flash the app name@{ -->
+        <activity
+            android:name="com.sprd.gallery3d.app.VideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:icon="@drawable/icon_video"
+            android:label="@string/movie_view_label"
+            android:stateNotNeeded="true"
+            android:taskAffinity="com.sprd.gallery3d.app.VideoActivity" >
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/video" />
+            </intent-filter>
+            <!--SPRD:Add for bug598118 There are two options when open videos from Camaera51 @{-->
+            <!--<intent-filter>
+                <action android:name="com.android.camera.action.REVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="video/mpeg4" />
+                <data android:mimeType="video/mp4" />
+                <data android:mimeType="video/3gp" />
+                <data android:mimeType="video/3gpp" />
+                <data android:mimeType="video/3gpp2" />
+                <data android:mimeType="application/sdp" />
+                <data android:mimeType="video/mpeg" />
+            </intent-filter>-->
+            <!--Bug598118 end @}-->
+            <!--
+                 We do NOT support the PICK intent, we add these intent-filter for
+                 backward compatibility. Handle it as GET_CONTENT.
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/video" />
+            </intent-filter>
+        </activity>
+        <!-- @} -->
+
+        <!-- SPRD: bug 582222 PermissionActivity Startup mode change to singleTop -->
+        <activity android:name="com.sprd.gallery3d.app.NewVideoPermissionsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:taskAffinity="com.sprd.gallery3d.app.NewVideoActivity"
+            />
+
+        <activity android:name="com.sprd.gallery3d.app.PickVideosPermissionsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"/>
+
+        <activity android:name="com.sprd.gallery3d.app.GalleryPermissionsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            />
+
+        <activity android:name="com.sprd.gallery3d.app.PickPhotosPermissionsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"/>
+
+        <activity android:name="com.sprd.gallery3d.app.CropPermissionsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:taskAffinity="com.sprd.gallery3d.app.CropPermissionsActivity"
+            android:launchMode="singleTask" />
+
+        <activity android:name="com.sprd.gallery3d.app.MoviePermissionsActivity"
+            android:taskAffinity="com.android.gallery3d.app.MovieActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <!-- @} -->
+
+        <!-- SPRD:bug 474614: porting float play @} -->
+        <service android:name="com.android.gallery3d.app.FloatPlayerService" />
+        <!--
+             This activity acts as a trampoline to the new Movie activity,
+             so that existing shortcuts are preserved.
+        -->
+        <activity
+            android:name="com.sprd.gallery3d.app.Video"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.sprd.gallery3d.app.NewVideoActivity"
+            android:theme="@style/android:Theme.NoDisplay" >
+        </activity>
+        <!-- @} -->
+
+
+        <!-- SPRD: add for mutex for float window and camera -->
+        <service android:name="com.sprd.gallery3d.app.FloatWindowAIDLService" >
+            <intent-filter>
+                <action android:name="android.intent.action.FloatWindowAIDLService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <!-- @} -->
+
+
+        <!-- SPRD:Bug 474643 add stream's video proxy settings @{ -->
+        <activity
+            android:name="com.sprd.gallery3d.app.MovieViewProxySet"
+            android:icon="@drawable/icon_video"
+            android:label="@string/movie_view_parameter_set"
+            android:theme="@android:style/Theme.Material.Light" >
+        </activity>
+        <!-- @} -->
+        <!-- SPRD: AppBackup Feature start {@ -->
+        <meta-data
+            android:name="service_name"
+            android:value="com.sprd.gallery3d.appbackup.GalleryBackupService" />
+        <meta-data
+            android:name="agent_name"
+            android:value="Gallery" />
+
+        <service
+            android:name="com.sprd.gallery3d.appbackup.GalleryBackupService"
+            android:exported="true" />
+        <!-- SPRD: AppBackup Feature end @} -->
+    </application>
+</manifest>

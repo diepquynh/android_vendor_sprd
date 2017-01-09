@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">Explorador de arquivo</string>
+<string name="action_settings">Axustes</string>
+<string name="title_section_overview">Vista rápida</string>
+<string name="title_section_external">Memoria externa</string>
+<string name="title_section_internal">Memoria interna</string>
+<string name="title_section_all">Todo</string>
+<string name="descrip_actionbar_logo">Subir nivel</string>
+<string name="descrip_actionbar_search">Busca</string>
+<string name="descrip_actionbar_overflow">Menú</string>
+<string name="quickscan_audio">Audio</string>
+<string name="quickscan_image">Imaxes</string>
+<string name="quickscan_record">Rexistros</string>
+<string name="quickscan_video">Vídeo</string>
+<string name="quickscan_doc">Documentos</string>
+<string name="quickscan_apk">Aplicacións</string>
+<string name="file_list_flodermsg">Dato:%1$s</string>
+<string name="file_list_filemsg">Data:%1$s\tTamaño:%2$s</string>
+<string name="dialog_hint_title">Cargando</string>
+<string name="dialog_hint_msg">Cargando...</string>
+<string name="menu_search">Busca</string>
+<string name="menu_back_home">Volver ó inicio</string>
+<string name="menu_mkdir">Nova carpeta</string>
+<string name="menu_newfile">Novo arquivo</string>
+<string name="menu_mkdir_succeed">Nova carpeta %1$s Creada con éxito</string>
+<string name="menu_mkdir_failed">Erro ó crear a carpeta %1$s</string>
+<string name="menu_newfile_succeed">Nova carpeta %1$s creada con éxito</string>
+<string name="menu_newfile_failed">Erro no arquivo creado %1$s</string>
+<string name="menu_select_more">Seleccionar máis</string>
+<string name="menu_copy">Copia</string>
+<string name="menu_cut">Cortar</string>
+<string name="menu_sort_type">Clasificar por</string>
+<string name="menu_storage_status">Almacenamento</string>
+<string name="operate_delete">Borrar</string>
+<string name="operate_clear">Claro</string>
+<string name="operate_delete_file_ask">"¿Está seguro de que desexa borrar  "%1$s"？"</string>
+<string name="operate_delete_file_succeed">Borrar arquivo  %1$s con éxito</string>
+<string name="operate_delete_file_failed">Erro ó borrar o arquivo %1$s</string>
+<string name="operate_viewdetails">Propiedades</string>
+<string name="operate_viewdetails_date">Dato: %1$s</string>
+<string name="operate_viewdetails_size">Tamaño：%1$s</string>
+<string name="operate_viewdetails_type_folder">Tipo：Carpeta</string>
+<string name="operate_viewdetails_type_file">Tipo：Arquivo</string>
+<string name="operate_folder_attribute">Incluír：%1$d Arquivos，%2$d Carpetas\nTamaño：%3$s</string>
+<string name="operate_rename">Renomear</string>
+<string name="operate_rename_hint">Introduza o nome da nova carpeta</string>
+<string name="operate_rename_succeed">Renomeado con éxito</string>
+<string name="operate_rename_failed">Erro ó renomear o arquivo %1$s</string>
+<string name="operate_share">Compartir</string>
+<string name="msg_file_input_empty">O nome de arquivo está baleiro</string>
+<string name="msg_file_input_repeat">O nome %1$s xa existe, introduza un novo.</string>
+<string name="msg_folder_input_empty">O nome de carpeta está baleiro</string>
+<string name="msg_folder_empty">A carpeta está baleira</string>
+<string name="msg_invalid_intent">No sistema non soporta este tipo de arquivo</string>
+<string name="msg_issure_clear">¿Borrar a carpeta actual?</string>
+<string name="bluetooth">Bluetooth</string>
+<string name="copying">Copiando, espere</string>
+<string name="clipboard_empty">O portapapeis está baleiro.</string>
+<string name="text_exit_file_explore_title">Saír</string>
+<string name="text_exit_file_explore_prompt">¿Está seguro de que desexa borrar saír?</string>
+<string name="common_text_ok">OK</string>
+<string name="common_text_cancel">cancelar</string>
+<string name="common_text_paste">Pasta</string>
+<string-array name="copyfileWarning">
+<item>Cambiar</item>
+<item>Gardar ambas</item>
+</string-array>
+<string-array name="copydirWarning">
+<item>Unir</item>
+<item>Cambiar</item>
+<item>Gardar ambas</item>
+</string-array>
+<string name="file_option">Opcións do arquivo</string>
+<string name="folder_option">Opcións da carpeta</string>
+<string name="file_detail">Detalles</string>
+<string name="caculating">Tamaño：Calculando…</string>
+<string name="copy_finish">Copia completada</string>
+<string name="now_copying">Copiando, espere...</string>
+<string name="delete_finish">A operación está completada</string>
+<string name="delete_fail">Erro ó borrar o arquivo <xliff:g id="NAME">%s</xliff:g></string>
+<string name="now_deleting">Eliminando, espere...</string>
+<string name="cancel_copy">Cancelouse a operación</string>
+<string name="exist">O arquivo xa existe</string>
+<string name="select_destination">Seleccionar dende</string>
+<string name="empty_view_prompt">Carpeta baleira, pode adquirir máis documentos a través do PC ou da Internet.</string>
+<string name="fragment_search_key_hint">Teclear a palabra clave que quere buscar</string>
+<string name="fragment_search_location">Buscar localización:</string>
+<string name="fragment_search_location_ex">Buscar localización</string>
+<string name="fragment_search_type">Tipo de arquivo</string>
+<string name="fragment_search_result">Buscar resultado</string>
+<string name="fragment_search_searching">Buscando...</string>
+<string name="fragment_search_noresult">Non encontrar nada</string>
+<string name="common_text_other">Outro</string>
+<string name="common_text_search">Busca</string>
+<string name="fragment_search_invalid_result">O arquivo está fóra de data, comprobar.</string>
+<string name="overview_menu_multiselect">Seleccionar máis</string>
+<string name="overview_menu_install_all">Instalar todo</string>
+<string name="overview_menu_install">Instalar</string>
+<string name="overview_menu_delete">Borrar</string>
+<string name="sort_by_name">Por nome</string>
+<string name="sort_by_type">Por tipo</string>
+<string name="sort_by_time_desc">Por tempo (desc.)</string>
+<string name="sort_by_time_asc">Por tempo (asc.)</string>
+<string name="sort_by_size_desc">Por nome (desc.)</string>
+<string name="sort_by_size_asc">Por nome (asc.)</string>
+<string-array name="sort_type">
+<item>Nome</item>
+<item>Teclear</item>
+<item>Dato</item>
+<item>Tamaño</item>
+</string-array>
+<string name="sort_by_asc">Ascendente</string>
+<string name="sort_by_desc">Descendendo</string>
+<string name="display_setting">Mostrar axustes</string>
+<string name="hide_file_display">Mostrar os arquivos ocultos</string>
+<string name="display_hide_file">Mostrar os arquivos ocultos</string>
+<string name="operate_viewdetails_path">Ruta do arquivo:%1$s</string>
+<string name="operate_viewdetails_canread">Pode ler：Sí</string>
+<string name="operate_viewdetails_can_not_read">Pode ler: Non</string>
+<string name="operate_viewdetails_can_not_write">Pode escribir：Non</string>
+<string name="operate_viewdetails_can_write">Pode escribir：Si</string>
+<string name="operate_viewdetails_hide">É un arquivo oculto：Sí</string>
+<string name="operate_viewdetails_not_hide">É un arquivo oculto：Non</string>
+<string name="select_text">Seleccionar arquivo</string>
+<string name="select_all">Seleccionar todo</string>
+<string name="unselect_all">Cancelar todo</string>
+<string name="length_limited">O nome ata a lonxitude máx</string>
+<string name="cannot_copy_to_itself">Deshabilitar a copia do directorio en se mesmo o nun subdirectorio</string>
+<string name="confirm_delete">¿Confirmar borrado?</string>
+<string name="search_empty">Introducir elemento de busca.</string>
+<string name="search_type_empty">Seleccione o tipo de arquivo.</string>
+<string name="dialog_back">Volver</string>
+<string name="set_as">Axustar como</string>
+<string name="invalid_char">Nome de arquivo contén un cadro inválido como %s</string>
+<string name="invalid_char_of_filename"><xliff:g id="SECTION">%s</xliff:g> o nome de arquivo do sistema conten caracteres inválidos como  <xliff:g id="INVALIDCHAR">%s</xliff:g></string>
+<string name="invalid_char_of_foldername">"<xliff:g id="SECTION">%s</xliff:g> o nome do sistema de arquivos conten caracteres inválidos como <xliff:g id="INVALIDCHAR">%s</xliff:g>"</string>
+<string name="no_enough_sapce">Sen espazo suficiente</string>
+<string name="file_type_wrong">O tipo de arquivo é incorrecto</string>
+<string name="failed_set_wallpaper">Erro ó axustar o muro</string>
+<string name="unsupport_type">Tipo de ton non soportado</string>
+<string name="now_moving">Movendo, espere...</string>
+<string name="now_calculate">Calculando, espere...</string>
+<string name="badname_as_point">Non se nomeará como /,\\,. ou .., podería confundirse con sistema de arquivos</string>
+<string name="cut_filename_duplicate">¡O recorrido actual do arquivo ou da carpeta teñen o mesmo, reseleccione o directorio!</string>
+<string name="share_file_limited">O límite de arquivos compartido é %1$d</string>
+<string name="install_apk_limited">O límite de instalación apk é %1$d</string>
+<string name="now_cleared">Borrando，espere...</string>
+<string name="not_replace">Non pode cambiarse porque o mesmo nome de carpeta superordenada.</string>
+<string name="sdcard_had_unmounted">O arquivo de operación é inválido</string>
+<string name="common_text_ignore">Ignorar</string>
+<string name="cannot_copyfolder_itself">Non pode copiar a carpeta dentro da sí mesma</string>
+<string name="cannot_cutfolder_itself">Non pode mover a carpeta dentro da sí mesma</string>
+<string name="cannot_paste_reason">A carpeta de destino está dentro da carpeta fonte %s</string>
+<string name="badname_endwith_point">O final do nome da carpeta non pode estar con.</string>
+<string name="failed_option">Opción errada</string>
+<string name="failed_query">Base de datos non pode solicitar este arquivo</string>
+<string name="failed_select_event">Escolla só 500 elementos nesta operación.</string>
+<string name="error_permissions">"A aplicación non ten permisos esenciais que se necesitan para a súa execución. Comproba a configuración dos permisos."</string>
+<string name="dialog_dismiss">Descartar</string>
+<string name="toast_fileexplorer_internal_error">"¡Un erro interno ocorrido no explorador de arquivos!"</string>
+    <string name="title_section_usbdisk">"Disco USB"</string>
+     <string name="error_choose_drm_for_gallery">"Arquivo DRM non pode axustarse para seleccionar a música, seleccione outro"</string>
+
+</resources>

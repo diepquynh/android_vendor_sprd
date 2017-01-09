@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- sprd add -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/selection_toolbar_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:elevation="@dimen/tab_elevation"
+    android:layout_height="wrap_content" >
+
+    <FrameLayout
+        android:id="@+id/toolbar_frame"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/actionbar_background_color" >
+
+        <Toolbar
+            android:id="@+id/selection_toolbar"
+            style="@style/ContactsToolbarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/actionbar_background_color" />
+
+    </FrameLayout>
+
+    <com.android.contacts.common.list.ViewPagerTabs
+        android:id="@+id/selection_lists_pager_header"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:textAllCaps="true"
+        android:orientation="horizontal"
+        android:layout_gravity="top"
+        android:layout_weight="0"
+        android:layout_below="@id/selection_toolbar"
+        style="@style/ContactsActionBarTabTextStyle" />
+
+</LinearLayout>

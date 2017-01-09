@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="keyguard_password_enter_pin_code">"Escribir código PIN"</string>
+<string name="keyguard_password_enter_puk_code">"Escriba PUK SIM y nuevo código PIN"</string>
+<string name="keyguard_password_enter_puk_prompt">"Código PUK SIM"</string>
+<string name="keyguard_password_enter_pin_prompt">"Nuevo código PIN SIM"</string>
+<string name="keyguard_password_entry_touch_hint">"<font size="17">Tocar para escribir la contraseña</font>"</string>
+<string name="keyguard_password_enter_password_code">"Escriba la contraseña para desbloquear"</string>
+<string name="keyguard_password_enter_pin_password_code">"Escriba el PIN para desbloquear"</string>
+<string name="keyguard_password_wrong_pin_code">"Código PIN incorrecto."</string>
+<string name="keyguard_charged">"Cargado"</string>
+<string name="keyguard_plugged_in">"Cargando"</string>
+<string name="keyguard_plugged_in_charging_fast">"Carga rápida"</string>
+<string name="keyguard_plugged_in_charging_slowly">"Cargando lentamente"</string>
+<string name="keyguard_low_battery">"Conecte su cargador."</string>
+<string name="keyguard_instructions_when_pattern_disabled">"Pulse Menú para desbloquear."</string>
+<string name="keyguard_network_locked_message">"Red bloqueada"</string>
+<string name="keyguard_missing_sim_message_short">"No hay tarjeta SIM"</string>
+<string name="keyguard_missing_sim_message" product="tablet">"No hay tarjeta SIM en la tablet."</string>
+<string name="keyguard_missing_sim_message" product="default">"No hay tarjeta SIM en el teléfono."</string>
+<string name="keyguard_missing_sim_instructions">"Inserte una tarjeta SIM."</string>
+<string name="keyguard_missing_sim_instructions_long">"La tarjeta SIM no está presente o no se puede leer. Inserte una tarjeta SIM."</string>
+<string name="keyguard_permanent_disabled_sim_message_short">"Tarjeta SIM inutilizable."</string>
+<string name="keyguard_permanent_disabled_sim_instructions">"Su tarjeta SIM se ha desactivado de forma permanente.\nComuníquese con su proveedor de servicios inalámbricos para otra tarjeta SIM."</string>
+<string name="keyguard_sim_locked_message">"Tarjeta SIM está bloqueada."</string>
+<string name="keyguard_sim_puk_locked_message">"Tarjeta SIM está bloqueada con PUK."</string>
+<string name="keyguard_sim_unlock_progress_dialog_message">"Desbloquear la tarjeta SIM\u2026"</string>
+<string name="keyguard_accessibility_pattern_unlock">"Patrón desbloqueado"</string>
+<string name="keyguard_accessibility_pin_unlock">"PIN desbloquear."</string>
+<string name="keyguard_accessibility_password_unlock">"Contraseña desbloqueada"</string>
+<string name="keyguard_accessibility_pattern_area">"Área del Patrón"</string>
+<string name="keyguard_accessibility_slide_area">"Área de Diapositiva"</string>
+<string name="keyguard_accessibility_pin_area">"Área PIN"</string>
+<string name="keyguard_accessibility_sim_pin_area">"Área PIN SIM"</string>
+<string name="keyguard_accessibility_sim_puk_area">"Área PUK SIM"</string>
+<string name="keyguard_accessibility_next_alarm">"Próxima alarma configurada para <xliff:g id="alarm" example="Fri 8:30 AM">%1$s</xliff:g>"</string>
+<string name="kg_forgot_pattern_button_text">"Patrón Olvidado"</string>
+<string name="kg_wrong_pattern">"Patrón Erróneo"</string>
+<string name="kg_wrong_password">"Contraseña Errónea"</string>
+<string name="kg_wrong_pin">"PIN Erróneo"</string>
+<string name="kg_too_many_failed_attempts_countdown">"Inténtelo de nuevo en <xliff:g id="number">%d</xliff:g> segundos."</string>
+<string name="kg_pattern_instructions">"Dibuje su patrón"</string>
+<string name="kg_sim_pin_instructions">"Ingresar SIM PIN"</string>
+<string name="kg_sim_pin_instructions_multi">"Ingrese SIM PIN para \"<xliff:g id="carrier" example="CARD 1">%1$s</xliff:g>\""</string>
+<string name="kg_pin_instructions">"Ingresar PIN"</string>
+<string name="kg_password_instructions">"Ingresar Contraseña"</string>
+<string name="kg_puk_enter_puk_hint">"SIM está desactivado. Introduzca el código PUK para continuar. Contacte al suplidor para más detalles."</string>
+<string name="kg_puk_enter_puk_hint_multi">"SIM \"<xliff:g id="carrier" example="CARD 1">%1$s</xliff:g>\" está ahora deshabilitado. Introduzca el código PUK para continuar. Póngase en contacto con el proveedor para obtener más información."</string>
+<string name="kg_puk_enter_pin_hint">"Ingresar el código PIN deseado"</string>
+<string name="kg_enter_confirm_pin_hint">"Confirmar el código PIN deseado"</string>
+<string name="kg_sim_unlock_progress_dialog_message">"Desbloquear la tarjeta SIM\u2026"</string>
+<string name="kg_invalid_sim_pin_hint">"Escriba un PIN que sea de 4 a 8 números."</string>
+<string name="kg_invalid_sim_puk_hint">"Código PUK debe ser de 8 números o más."</string>
+<string name="kg_invalid_puk">"Vuelva a introducir el código PUK correcto. Tentativas repetidas desactivan permanentemente el SIM."</string>
+<string name="kg_invalid_confirm_pin_hint" product="default">"Códigos PIN no coinciden"</string>
+<string name="kg_login_too_many_attempts">"Demasiados intentos de patrón"</string>
+<string name="kg_too_many_failed_pin_attempts_dialog_message">" Ha escrito incorrectamente su PIN <xliff:g id="number">%1$d</xliff:g> veces. \n\nTrate de nuevo en <xliff:g id="number">%2$d</xliff:g> segundos. "</string>
+<string name="kg_too_many_failed_password_attempts_dialog_message">" Ha escrito incorrectamente su contraseña <xliff:g id="number">%1$d</xliff:g> veces. \n\nTrate de nuevo en <xliff:g id="number">%2$d</xliff:g> segundos. "</string>
+<string name="kg_too_many_failed_pattern_attempts_dialog_message">"Ha dibujado incorrectamente su patrón de desbloqueo <xliff:g id="number">%1$d</xliff:g> veces. \n\nTrate de nuevo en <xliff:g id="number">%2$d</xliff:g> segundos. "</string>
+<string name="kg_failed_attempts_almost_at_wipe" product="tablet">" Ha intentado desbloquear la tablet incorrectamente <xliff:g id="number">%1$d</xliff:g> veces. Después <xliff:g id="number">%2$d</xliff:g> más intentos fallidos, esta tablet se reiniciará, lo que borrará todos sus datos. "</string>
+<string name="kg_failed_attempts_almost_at_wipe" product="default">" Ha intentado desbloquear el teléfono incorrectamente <xliff:g id="number">%1$d</xliff:g> veces. Después <xliff:g id="number">%2$d</xliff:g> más intentos fallidos, este teléfono se reiniciará, lo que eliminará todos sus datos. "</string>
+<string name="kg_failed_attempts_now_wiping" product="tablet">"Ha intentado de forma incorrecta desbloquear la tablet <xliff:g id="number">%d</xliff:g> veces. Este tablet se reiniciará, y se borrarán todos sus datos. "</string>
+<string name="kg_failed_attempts_now_wiping" product="default">"Ha intentado de forma incorrecta desbloquear el teléfono <xliff:g id="number">%d</xliff:g> veces. Este teléfono se reiniciará, y se borrarán todos sus datos. "</string>
+<string name="kg_failed_attempts_almost_at_erase_user" product="tablet">" Ha intentado desbloquear su tablet incorrectamente <xliff:g id="number">%1$d</xliff:g> veces. Después <xliff:g id="number">%2$d</xliff:g> más intentos fallidos, este usuario se eliminará, lo que eliminará todos los datos del usuario. "</string>
+<string name="kg_failed_attempts_almost_at_erase_user" product="default">" Ha intentado desbloquear su teléfono incorrectamente <xliff:g id="number">%1$d</xliff:g> veces. Después <xliff:g id="number">%2$d</xliff:g> más intentos fallidos, este usuario se eliminará, lo que eliminará todos los datos del usuario. "</string>
+<string name="kg_failed_attempts_now_erasing_user" product="tablet">"Ha intentado de forma incorrecta desbloquear el tablet <xliff:g id="number">%d</xliff:g> veces. Este usuario será eliminado, lo que eliminará todos los datos del usuario. "</string>
+<string name="kg_failed_attempts_now_erasing_user" product="default">"Ha intentado de forma incorrecta desbloquear el teléfono <xliff:g id="number">%d</xliff:g> veces. Este usuario será eliminado, lo que eliminará todos los datos del usuario. "</string>
+<string name="kg_failed_attempts_almost_at_erase_profile" product="tablet">" Ha intentado desbloquear su tablet incorrectamente <xliff:g id="number">%1$d</xliff:g> veces. Después <xliff:g id="number">%2$d</xliff:g> más intentos fallidos, el perfil de trabajo se eliminará, lo que borrará todos los datos del perfil. "</string>
+<string name="kg_failed_attempts_almost_at_erase_profile" product="default">" Ha intentado desbloquear su teléfono incorrectamente <xliff:g id="number">%1$d</xliff:g> veces. Después <xliff:g id="number">%2$d</xliff:g> más intentos fallidos, el perfil de trabajo se eliminará, lo que borrará todos los datos del perfil. "</string>
+<string name="kg_failed_attempts_now_erasing_profile" product="tablet">"Ha intentado de forma incorrecta desbloquear la tablet <xliff:g id="number">%d</xliff:g> veces. El perfil de trabajo será eliminado, lo que eliminará todos los datos del perfil. "</string>
+<string name="kg_failed_attempts_now_erasing_profile" product="default">"Ha intentado de forma incorrecta desbloquear el teléfono <xliff:g id="number">%d</xliff:g> veces. El perfil de trabajo será eliminado, lo que eliminará todos los datos del perfil. "</string>
+<string name="kg_failed_attempts_almost_at_login" product="tablet">" Ha dibujado incorrectamente su patrón de desbloqueo <xliff:g id="number">%1$d</xliff:g> veces. Después <xliff:g id="number">%2$d</xliff:g> más intentos fallidos, se le pedirá que desbloquee su tablet usando una cuenta de correo electrónico.\n\n Trate de nuevo en <xliff:g id="number">%3$d</xliff:g> segundos. "</string>
+<string name="kg_failed_attempts_almost_at_login" product="default">" Ha dibujado incorrectamente su patrón de desbloqueo <xliff:g id="number">%1$d</xliff:g> veces. Después <xliff:g id="number">%2$d</xliff:g> más intentos fallidos, se le pedirá que desbloquee su teléfono usando una cuenta de correo electrónico.\n\n Trate de nuevo en <xliff:g id="number">%3$d</xliff:g> segundos. "</string>
+<string name="kg_password_wrong_pin_code_pukked">"Código PIN SIM incorrecto, debe ponerse en contacto con su operador para desbloquear el dispositivo."</string>
+<plurals name="kg_password_wrong_pin_code">
+<item quantity="one">"Código PIN SIM no es correcto, usted tiene <xliff:g id="number">%d</xliff:g> intentos restantes antes de que deba ponerse en contacto con su operador para desbloquear el dispositivo."</item>
+<item quantity="other">"Código PIN SIM no es correcto, usted tiene <xliff:g id="number">%d</xliff:g> intentos restantes."</item>
+</plurals>
+<string name="kg_password_wrong_puk_code_dead">"SIM es inutilizable. Póngase en contacto con su operador."</string>
+<plurals name="kg_password_wrong_puk_code">
+<item quantity="one">"Código PUK SIM incorrecto, usted tiene <xliff:g id="number">%d</xliff:g> intentos restantes antes de que SIM quede definitivamente fuera de uso."</item>
+<item quantity="other">"Código PUK SIM incorrecto, usted tiene <xliff:g id="number">%d</xliff:g> intentos restantes antes de que SIM quede permanentemente fuera de uso."</item>
+</plurals>
+<string name="kg_password_pin_failed">"¡Operación PIN SIM fallida!"</string>
+<string name="kg_password_puk_failed">"¡Operación PUK SIM fallida!"</string>
+<string name="kg_pin_accepted">"¡Código Aceptado!"</string>
+<string name="keyguard_carrier_default">"Sin servicio."</string>
+<string name="accessibility_ime_switch_button">"Cambiar método de introducción"</string>
+<string name="airplane_mode">"Modo avión"</string>
+<string name="kg_prompt_reason_restart_pattern">"Patrón requerido después de reiniciar el dispositivo"</string>
+<string name="kg_prompt_reason_restart_pin">"PIN requerido después de reiniciar el dispositivo"</string>
+<string name="kg_prompt_reason_restart_password">"Contraseña requerida después de reiniciar el dispositivo"</string>
+<string name="kg_prompt_reason_timeout_pattern">"Patrón requerido para seguridad adicional"</string>
+<string name="kg_prompt_reason_timeout_pin">"PIN requerido para seguridad adicional"</string>
+<string name="kg_prompt_reason_timeout_password">"Contraseña requerida para seguridad adicional"</string>
+<string name="kg_prompt_reason_switch_profiles_pattern">"Patrón necesario al cambiar de perfil"</string>
+<string name="kg_prompt_reason_switch_profiles_pin">"PIN necesario al cambiar de perfil"</string>
+<string name="kg_prompt_reason_switch_profiles_password">"Contraseña necesaria al cambiar de perfil"</string>
+<string name="kg_prompt_reason_device_admin">"Dispositivo bloqueado por el administrador del dispositivo"</string>
+<string name="kg_prompt_reason_user_request">"El dispositivo se ha bloqueado manualmente"</string>
+<plurals name="kg_prompt_reason_time_pattern">
+<item quantity="one">"El dispositivo no ha sido desbloqueado para <xliff:g id="number">%d</xliff:g> hora. Confirmar patrón."</item>
+<item quantity="other">"El dispositivo no ha sido desbloqueado para <xliff:g id="number">%d</xliff:g> horas. Confirmar patrón."</item>
+</plurals>
+<plurals name="kg_prompt_reason_time_pin">
+<item quantity="one">"El dispositivo no ha sido desbloqueado para <xliff:g id="number">%d</xliff:g> hora. Confirmar PIN."</item>
+<item quantity="other">"El dispositivo no ha sido desbloqueado para <xliff:g id="number">%d</xliff:g> horas. Confirmar PIN."</item>
+</plurals>
+<plurals name="kg_prompt_reason_time_password">
+<item quantity="one">"El dispositivo no ha sido desbloqueado para <xliff:g id="number">%d</xliff:g> hora. Confirmar contraseña."</item>
+<item quantity="other">"El dispositivo no ha sido desbloqueado para <xliff:g id="number">%d</xliff:g> horas. Confirmar contraseña."</item>
+</plurals>
+<string name="fingerprint_not_recognized">"No reconocido"</string>
+<string name="kg_sim_pin_verify_success">"PIN verificado con éxito"</string>
+</resources>

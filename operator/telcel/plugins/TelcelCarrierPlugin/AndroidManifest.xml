@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sprd.telcel.plugins"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <application>
+        <meta-data
+            android:name="isFeatureAddon"
+            android:value="true" />
+
+        <meta-data
+            android:name="targetPackages_StkTelcelOperator"
+            android:value="com.android.stk;com.android.phone" />
+        <meta-data
+            android:name="targetPackages_TelcelVoicemail"
+            android:value="com.android.dialer" />
+
+        <meta-data
+            android:name="featureClassNames_StkTelcelOperator"
+            android:value="plugin.sprd.stktelceloperator.StkTelcelOperator" />
+        <meta-data
+            android:name="featureClassNames_TelcelVoicemail"
+            android:value="com.sprd.telephonyPlugin.CallSettingsForOperatorPlugin" />
+        <meta-data
+            android:name="featureClassNames_InCallUITelcelPlugin"
+            android:value="com.sprd.incallui.inCallUITelcelPlugin.InCallUITelcelPlugin" />
+        <meta-data
+            android:name="featureClassNames_DialerTelcelPlugin"
+            android:value="com.sprd.dialer.DialerTelcelPlugin" />
+        <meta-data
+            android:name="featureClassNames_TelcelDataConnection"
+            android:value="plugin.sprd.dataconnection.DataConnectionPlugin" />
+        <meta-data
+            android:name="featureClassNames_TelcelTelephonyPlugin"
+            android:value="plugin.sprd.operatorfeatures.TelephonySupportTelcel" />
+        <meta-data
+            android:name="featureClassNames_CallWaitingTonePlugin"
+            android:value="plugin.sprd.callwaitingtone.CallWaitingTonePlugin" />
+        <meta-data
+            android:name="featureClassNames_DTMFToneSupport"
+            android:value="plugin.sprd.dtmftoneSupport.DTMFToneSupportPlugin"/>
+    </application>
+
+</manifest>

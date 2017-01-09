@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright © 2016 Spreadtrum Communications Inc.
+*/
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- SPRD: Bug#474460 Add for SPRD USB Feature BEG @{ -->
+    <string name="usb_pc_internet_share">USB—網際網路PC</string>
+    <string name="usb_pc_internet_share_available_subtext">USB 已連接，選中以啟用USB—網際網路PC</string>
+    <string name="usb_pc_internet_share_active_subtext">"USB訪問PC網際網路功能已開啟"</string>
+    <string name="usb_pc_internet_share_errored_subtext">"USB-PC 共享網路出錯"</string>
+    <string name="usb_pc_internet_share_storage_active_subtext">使用 USB 存儲設備時無法共享網路</string>
+    <string name="usb_pc_choose_os">選擇電腦系統版本</string>
+    <string name="usb_pc_cancel">取消</string>
+    <string name="usb_pc_ok">完成</string>
+    <string name="usb_pc_next">下一步</string>
+    <string name="usb_pc_back">上一步</string>
+    <string name="usb_pc_guide">1.打開 Windows PC 網路.\n\n2.在想要分享的網路上點擊右鍵，選擇屬性.\n\n3.點擊進階選項,選擇\'允許其他網路用戶共享此計算機的Internet 來連接\'(如果出現家庭網路選項,請選擇新增的USB網路連接).</string>
+    <!-- Add for SPRD USB Feature END -->
+
+    <!-- SPRD: Bug #474425 Add for SoftAP/BT coexist feature -->
+    <string name="softap_need_mobile_data_enabled">"可攜式 Wi-Fi 無線基地台需開啟移動數據連接，可能會產生額外費用。"</string>
+    <string name="softap_bt_cannot_coexist">"藍牙開啟時可攜式 Wi-Fi 無線基地台不可用，如果您想使用可攜式 Wi-Fi 無線基地台請關閉藍牙。"</string>
+    <string name="bt_softap_cannot_coexist">"可攜式 Wi-Fi 無線基地台開啟時藍牙不可用，如果您想使用藍牙請關閉可攜式 Wi-Fi 無線基地台。"</string>
+    <!-- Add for SoftAP/BT coexist Feature END -->
+
+    <!-- SPRD: Bug#474381 support GPS automatic update time BEG -->
+    <string name="gps_time_sync_attention_gps_on">最多需要 1 分鐘才能取得 GPS 定位。此外，GPS 可能會因為環境訊號微弱而無法提供時間。\n\n是否確定使用 GPS 提供的時間?</string>
+    <string name="gps_time_sync_attention_gps_off">若要使用 GPS 提供的時間，必須先啟用 GPS 。此外，GPS 可能會因為環境訊號微弱而無法提供時間。\n\n是否立即啟用 GPS 並等待 GPS 提供時間?</string>
+    <!-- support GPS automatic update time END -->
+
+    <!-- SPRD: Bug#412262 Add for SPRD USB Feature BEG @{ -->
+    <string name="usb_charge_only">僅充電</string>
+    <string name="usb_charge_only_summary">當USB連接時，僅使用充電功能</string>
+    <string name="usb_virtual_drive">"USB 虛擬光驅"</string>
+    <string name="usb_virtual_drive_summary">"啟用USB虛擬光驅"</string>
+    <string name="usb_storage">USB 儲存 </string>
+    <string name="usb_storage_summary">啟用USB大容量儲存 </string>
+    <!-- Add for SPRD USB Feature END -->
+    <!-- SPRD: Bug#474680 support AGPS settings BEG -->
+    <string name="location_gps_config">AGPS 開啟選項</string>
+    <string name="location_gps_config_summary">設定在不同網路環境中是否使用 AGPS</string>
+    <string name="agps_enable_option_tailebar">AGPS 開啟選項</string>
+    <string name="agps_enable_option_registered">在註冊網路中使用AGPS</string>
+    <string name="agps_enable_option_all">在所有網路中使用AGPS</string>
+    <string name="agps_enable_option_none">不使用AGPS</string>
+    <string name="agps_enable_default_set_text">點擊恢復預設值按鈕，將恢復AGPS 的默認參數設定。</string>
+    <string name="agps_enable_default_set_button">恢復預設值</string>
+    <string name="agps_config_help_tailebar">AGPS 幫助</string>
+    <string name="agps_config_help_text">如果設定了在所有網路中使用 AGPS，在國際漫遊網路中，AGPS 將因數據連線產生國際漫遊資費。</string>
+    <string name="settings_other">其他</string>
+    <!-- support AGPS settings END -->
+    <string name="calls_title" msgid="3544471959217176768">"通話"</string>
+</resources>

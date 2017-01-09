@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- create by spreadst -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string-array name="wifi_ap_channel">
+     <item>1</item>
+     <item>2</item>
+     <item>3</item>
+     <item>4</item>
+     <item>5</item>
+     <item>6</item>
+     <item>7</item>
+     <item>8</item>
+     <item>9</item>
+     <item>10</item>
+     <item>11</item>
+  </string-array>
+  <string-array name="wifi_ap_max_connect">
+     <item>1</item>
+     <item>2</item>
+     <item>3</item>
+     <item>4</item>
+     <item>5</item>
+     <item>6</item>
+     <item>7</item>
+     <item>8</item>
+   </string-array>
+
+   <string-array name="hotspot_mode">
+     <item>正常模式</item>
+     <item>白名单模式</item>
+   </string-array>
+   <!-- add for keep Wi-Fi hotspot on entries-->
+   <string-array name="soft_ap_sleep_policy_entries">
+     <item>总是</item>
+     <item>空闲5分钟后关闭</item>
+     <item>空闲10分钟后关闭</item>
+   </string-array>
+   <!-- @} -->
+   <!-- SPRD: Bug#505201 Add for softap support wps connect mode and hidden ssid Feature BEG -->
+   <string-array name="hotspot_wps_mode">
+     <item>WPS 按钮</item>
+     <item>WPS PIN码</item>
+   </string-array>
+   <!-- Add for softap support wps connect mode and hidden ssid Feature END -->
+
+</resources>

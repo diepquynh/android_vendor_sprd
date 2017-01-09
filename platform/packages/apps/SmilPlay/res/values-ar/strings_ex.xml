@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_number">"إلى:"</string>
+<string name="toast_copy_to_sim_failure">"فشل في النسخ إلى SIM"</string>
+<string name="toast_sim_memory_full">"ذاكرة SIM ممتلئة"</string>
+<string name="toast_copy_to_multi_sim_success">"نجح النقل إلى SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_multi_sim_failure">"فشل في النسخ إلى SIM<xliff:g id="COUNT">%1$s<xl></xl></xliff:g>"</string>
+<string name="toast_multi_sim_memory_full">"SIM <xliff:g id="COUNT">%1$S</xliff:g>الذاكرة ممتلئة"</string>
+<string name="folder_inbox">"الوارد"</string>
+<string name="folder_outbox">"الصادر"</string>
+<string name="folder_sent">"المرسلة"</string>
+<string name="folder_drafts">"المسودة"</string>
+<string name="folder_display_all">"إستعراض جميع الرسائل"</string>
+<string name="folder_delete_messages">"حذف الرسائل"</string>
+<string name="folder_loading">"جاري التحميل.."</string>
+<string name="folder_reply">"رد"</string>
+<string name="folder_forward">"إلى الأمام"</string>
+<string name="no_msg_del">"لم يتم حذف رسائل"</string>
+<string name="exceed_slides_number_limitation">"وصول عدد الشرائح إلى حدودها المعينة"</string>
+<string name="has_vcard_or_vcalendar_attachment">"لديها الآن <xliff:g id="TYPE">%1$s</xliff:g>,لا يمكن إضافة المزيد"</string>
+<string name="folder_sortby">"الترتيب حسب"</string>
+<string name="OTAConfig_title">"إعدادات التهيئة OTA"</string>
+<string name="OTAConfig_Message">"هل أنت متأكد أنك تريد حفظ تهية OTA؟"</string>
+<string name="OTAConfiy_Success">"نجاح ضبط رسالة OTA"</string>
+<string name="OTAConfiy_Error">"فشل تهية OTA"</string>
+<string name="ota_pin_error">"فشل حماية OTA"</string>
+<string name="ota_retry">"خطأ بكلمة المرور"</string>
+<string name="ota_pin_exception">"فشل تهيئة OTA: خطأ برمجي."</string>
+<string name="ota_mime_error">"فشل تهيئة OTA: خطأ ببيانات الرسالة."</string>
+<string name="ota_support_not">"فشل تهيئة OTA:  <xliff:g id="OTATYPE">%1$s</xliff:g> ليس نوع مدعوم."</string>
+<string name="pref_reply_path_title">"إعدادات مسار الإجابة"</string>
+<string name="pref_title_reply_path">"مسار الإجابة"</string>
+<string name="pref_summary_reply_path">"الإجابة بواسطة نفس المركز"</string>
+<string name="mms_setting">"ضبط Mms"</string>
+<string name="pref_title_font_size">"ضبط حجم الخط"</string>
+<string name="font_size_setting">"ضبط حجم الخط"</string>
+<string name="font_size">"حجم الخط هو: <xliff:g id="font_size_id">%1$s</xliff:g>"</string>
+<string name="menu_copy_to_sim_memory">"نسخ الرسالة إلى SIM"</string>
+<string name="menu_add_recipient_to_contacts">"إضافة <xliff:g id="name">%s</xliff:g>إلى جهات الإتصال"</string>
+<string name="action_done">"تم"</string>
+<string name="message_signature_setting">"ضبط التوقيع"</string>
+<string name="pref_signature_enable_title">"توقيع إختياري"</string>
+<string name="pref_signature_enabl_summary">"إلحاق توقيع تلقائيا لكل رسالة mms تقم بإرسالها"</string>
+<string name="pref_signature_input_title">"تحرير توقيع"</string>
+<string name="pref_signature_input_summary">"قم بالإدخال هنا لضبط توقيعك"</string>
+<string name="invalid_recipient">"المستلم غير صحيح"</string>
+<string name="max_recipients_count">"الحد الأقصى للمستقبلين هو  <xliff:g id="MAXCOUNT">%1$s</xliff:g>."</string>
+<string name="contacts_count_excceeds">"لقد قمت بإضافة  <xliff:g id="MAXLIMIT">%1$s</xliff:g> مستقبلين ، لا يمكن إضافة المزيد."</string>
+<string name="copy">"نسخ"</string>
+<string name="received_new_wap_vcalendar">"تم إستقبال رسالة تقويم v SMS"</string>
+<string name="smsc_list">"قائمة مركز SMS"</string>
+<string name="smsc_list_empty">"لا توجد أرقام مركز SMS"</string>
+<string name="smsc_list_loading">"جار التحميل"</string>
+<string name="smsc_list_menu_edit">"تعديل"</string>
+<string name="smsc_list_menu_activate">"تنشيط"</string>
+<string name="smsc_list_not_allow_to_clear">"عدم السماح بمسح الرقم"</string>
+<string name="smsc_list_empty_number">"إنقر لإضافة رقم جديد"</string>
+<string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g> تم حفظ المرفقات إلى <xliff:g id="path">%2$s</xliff:g>,<xliff id="fail">%3$d</xliff> فشل حفظ المرفقات"</string>
+<string name="box_msg_list_menu_addtocontacts">"إضافة إلى جهات الإتصال"</string>
+<string name="box_msg_list_menu_call">"إتصال"</string>
+<string name="box_msg_list_menu_editbeforecall">"تحرير قبل إجراء إتصال"</string>
+<string name="box_msg_list_menu_videocall">"مكالمة فيديو"</string>
+<string name="soundrecorder_fail_msg">"لا يمكن بدء مسجل الأصوات."</string>
+<string name="camera_fail_msg">"لا يمكن بدء تشغيل الكاميرا."</string>
+<string name="video_fail_msg">"لا يمكن بدء تشغيل الفيديو."</string>
+<string name="pref_encode_type_setting_title">"ضبط ترميز النوع"</string>
+<string name="pref_encode_type_title">"ترميز النوع"</string>
+<string name="mms_can_not_add_vcard">"ﻖﻣ ﺐﺣﺬﻓ ﺎﻠﻣﺮﻔﻗﺎﺗ ﺎﻠﻣﻮﺟﻭﺩﺓ ﻺﺿﺎﻓﺓ ﺞﻫﺎﺗ ﺎﺘﺻﺎﻟ"</string>
+<string name="mms_can_not_add_vcalendar">"ﺡﺬﻓ ﺎﻠﻣﺮﻔﻗﺎﺗ ﺎﻠﻤﺘﻀﻤﻧﺓ ﻺﺿﺎﻓﺓ ﺵﺮﻴﺣﺓ"</string>
+  <plurals name="conversation_num">
+<item quantity="one">"معك 1 محادثة."</item>
+<item quantity="other">"لديك <xliff:g id="number">%1$s</xliff:g> محادثات."</item>
+  </plurals>
+  <string-array name="sort_type">
+    <item>"حسب الوقت"</item>
+    <item>"بواسطة العنوان"</item>
+  </string-array>
+    <string name="cancel_call">"إلغاء"</string>
+    <string name="delivery_toast_body_fail">"لم يتم إستقبال الإتصال بـ %s."</string>
+    <string name="read_report_toast_body">"تم قراءة حوالي %s من الرسالة."</string>
+    <string name="read_report_toast_body_fail">"حوالي %s من الرسالة غير مقروءة."</string>
+    <string name="delivery_toast_body_fail_rejected">"تم رفض الرسالة بـ %s."</string>
+    <string name="user_not_exist">"لا يوجد هذا المستخدم."</string>
+    <string name="menu_resend">"إعادة إرسال"</string>
+    <string name="low_storage_toast">"مساحة الذاكرة منخفضة! قم بحذف بعض الملفات لتحرير مساحة."</string>
+    <string name="failed_to_download_mms">"فشل عملية تنزيل mms، حاول مرة أخرى فيما بعد"</string>
+    <string name="failed_to_send_mms">"فشل عملية إرسال mms، حاول مرة أخرى فيما بعد"</string>
+    <string name="success_to_send_mms">"تم إرسال mms بنجاح"</string>
+    <string name="sim_x">"SIM%s"</string>
+    <string name="sim_card_not_ready">"بطاقة Sim غير جاهزة"</string>
+    <string name="sim_is_invalid">"بطاقة Sim غير جاهزة"</string>
+    <string name="on_progress">"جاري المعالجة، من فضلك الإنتظار ..."</string>
+    <string name="pref_internal_memory_usage_title">"MMS\المتوفرة\الإجمالي"</string>
+    <string name="pref_internal_memory_usage_progress_summary">"جاري حساب مساحة الذاكرة..."</string>
+    <string name="please_wait_title">"من فضلك الإنتظار ..."</string>
+    <string name="sim_card_setting">"ضبط بطاقة SIM"</string>
+    <string name="multi_sim_manage_messages_title">"الرسائل التي في البطاقة SIM<xliff:g id="COUNT">%1$S</xliff:g>"</string>
+    <string name="pref_title_manage_sim_setting">"إدارة إعدادات SIM"</string>
+    <string name="pref_summary_manage_sim_setting">"إدارة الرسائل المخزنة في SIM ، تقارير التسليم، وقت إنتهاء الصلاحية، ضبط SMS ،،إلخ."</string>
+    <string name="pref_summary_notification_ringtone">"النغمة الإفتراضية"</string>
+    <string name="pref_summary_notification_ringtone_silent">"إصمات"</string>
+    <string name="menu_sim_capacity">"سعة SIM"</string>
+    <string name="pref_title_manage_multi_sim_messages">"إدارة الرسائل التي في البطاقة SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+    <string name="pref_summary_manage_multi_sim_messages">"إدارة الرسائل المخزنة في البطاقة SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+    <string name="toast_copy_to_sim_success">"نجح النقل إلى SIM"</string>
+    <string name="count_of_new_mms">"%s رسائل جديدة"</string>
+    <string name="pref_summary_store_sms_on_sim">"عندما تصل sms جديدة، إحفظها إلى SIM أولا تحفظها هناك"</string>
+    <string name="pref_title_store_sms_on_sim">"حفظ SMS في SIM"</string>
+    <string name="pref_title_sms_validity">"صحة SMS"</string>
+    <string name="done_slide_show">"تم"</string>
+    <string name="smsc_check_fdn_failure">"رقم المركز الذي تريد إرسال رساله له لا ينتمي لقائمة fdn."</string>
+    <string name="muti_select_all">"حدد الكل"</string>
+    <string name="menu_select_none">"الغاء تحديد الكل"</string>
+    <string name="Conversation_check_type_selected_all">"حدد الكل"</string>
+    <string name="menu_msg_folder">"إستعراض المجلد"</string>
+    <string name="menu_msg_list">"إستعراض الرسالة"</string>
+    <string name="folder_empty">"لا توجد رسائل في هذا المجلد."</string>
+    <string name="cannot_add_picture_and_vcard">"لا يمكن إضافة بطاقة V و الصورة إلى شريحة واحدة."</string>
+    <string name="pref_signature_input_limited">"وصل التوقيع إلى حدوده الأقصى"</string>
+    <string name="pref_hint_signature_edittext">"من فضلك قم بإدخال توقيعك"</string>
+    <string name="toast_append_signature_failed">"فشل إلحاق توقيع برسائل mms ، قد وصل عدد الشرائح إلى الحد الأقصى"</string>
+    <string name="pageIndex">"الصفحة %s"</string>
+    <string name="remove_subject">"إزالة الموضوع"</string>
+    <string name="toast_message_when_memory_full">"الذاكرة ممتلئة، من فضلك قم بتحرير بعض الذاكرة ثم أعد التشغيل"</string>
+    <string name="toast_save_classzero_message_failed">"لا توجد مساحة، فشلت عملية حفظ الرسالة"</string>
+    <string name="toast_shared_file_failed">"ملف وسائط غير مدعوم، فشلت عملية المشاركة."</string>
+    <string name="message_too_many_recipients_picked">"عذرا، لا يمكنك إضافة أكثر من  <xliff:g id="COUNT">%1$s</xliff:g> جهات إتصال في كل مرة""</string>
+    <string name="pref_title_manage_sim_smsc">"مركز خدمات SMS"</string>
+    <string name="smsc_set_fails">"فشل ضبط Smsc"</string>
+    <string name="smsc_set_success">"تم الضبط بنجاح."</string>
+    <string name="smsc_change_success">"تم التغيير بنجاح."</string>
+    <string name="smsc_add_success">"تمت الإضافة بنجاح"</string>
+    <string name="received_new_wap_contact">"تم إستقبال رسالة بطاقة V SMS"</string>
+    <string name="save_new_wap_contact">"حفظ"</string>
+    <string name="cancle_new_wap_contact">"إلغاء"</string>
+    <string name="menu_sim_message">"الرسائل في SIM"</string>
+    <string name="folder_display_option">"خيار الإستعراض"</string>
+    <string name="confirm_open_browser_dialog_title">"رسالة"</string>
+    <string name="confirm_open_browser_dialog_message">"سوف يفتح المتصفح, إستمرار؟"</string>
+  <plurals name="delete_confirm">
+<item quantity="one">"إختيار عنصر 1"</item>
+<item quantity="other">"إختيار <xliff:g id="del_count">%1$s</xliff:g> عناصر"</item>
+  </plurals>
+    <string name="select_sim_card">"من فضلك إختر بطاقة SIM"</string>
+    <string name="menu_video_call_back">"إتصال فيديو <xliff:g id="name">%s</xliff:g>"</string>
+    <string name="menu_edit_before_call_back">"تعديل قبل إجراء الإتصال  <xliff:g id="name">%s</xliff:g>"</string>
+    <string name="min_zoom">"وصل إلى الحد الأدنى"</string>
+    <string name="max_zoom">"وصل إلى الحد الأقصى"</string>
+    <string name="sms_merge_forward">"دمج و تقديم إلى الأمام"</string>
+    <string name="sms_merge_dialog_title">"عاجل"</string>
+    <string name="sms_merge_dialog_content">"يمكنك الدمج بين 2 و 30 رسالة فقط. من فضلك قم بمراجعتها."</string>
+    <string name="sms_merge_forward_empty">"لا توجد رسالة sms لدمجها و تقديمها إلى الأمام."</string>
+    <string name="sms_forwarding_number">"ضبط تقديم SMS"</string>
+    <string name="pref_sms_forwarding_number_title">"رقم تقديم SMS"</string>
+    <string name="pref_sms_forwarding_number_summary">"إعادة توجيه sms مع رقم المستقبلين"</string>
+    <string name="sim_list_title">"من فضلك إختر بطاقة SIM"</string>
+    <string name="type_vcard">"جهة الإتصال"</string>
+    <string name="type_vcalendar">"تقويم"</string>
+    <string name="attach_vcard">"جهة الإتصال"</string>
+    <string name="attach_vcalendar">"تقويم"</string>
+    <string name="add_slide_before">"إضافة شريحة (قبل)"</string>
+    <string name="add_slide_after">"إضافة شريحة (بعد)"</string>
+    <string name="re_take_picture">"فشل حفظ الصورة، من فضلك قم باخذ صورة مرة أخرى."</string>
+    <string name="exceed_text_length_limitation">"تجاوز طول النص المطلوب."</string>
+    <string name="move_message_to_phone_memory">"نسخ الرسالة إلى ذاكرة الهاتف بنجاح"</string>
+    <string name="can_not_copy_the_message">"غير قادر على نسخ الرسالة"</string>
+    <string name="confirm_import_vcard">"إستيراد من بطاقة V؟"</string>
+    <string name="pref_title_manage_simx_smsc">"SIM<xliff:g id="COUNT">%1$s</xliff:g> مركز خدمة SMS"</string>
+    <string name="simx_settings_title">"SIM<xliff:g id="COUNT">%1$s</xliff:g> ظبط"</string>
+    <string name="pref_summary_sms_validity">"سريان مفعول رسالة قصيرة"</string>
+  <string-array name="prefEntries_mms_validity">
+    <item>"1 ساعة"</item>
+    <item>"12 ساعة"</item>
+    <item>"24 ساعة"</item>
+    <item>"2 أيام"</item>
+    <item>"القصوى"</item>
+  </string-array>
+  <string-array name="prefEntries_mms_priority">
+    <item>"مرتفع"</item>
+    <item>"طبيعي"</item>
+    <item>"منخفض"</item>
+  </string-array>
+    <string name="pref_title_mms_validity">"سريان مفعول رسالة وسائط"</string>
+    <string name="pref_summary_mms_validity">"سريان مفعول رسالة وسائط"</string>
+    <string name="pref_title_mms_priority">"الأولوية"</string>
+    <string name="pref_summary_mms_priority">"ضبط الأولوية"</string>
+    <string name="sim_settings_title">"ضبط بطاقة SIM"</string>
+    <string name="toast_copy_to_simx_success">"نجح النسخ إلى  <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+    <string name="toast_copy_to_simx_failure">"فشل النسخ إلى <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+    <string name="toast_simx_memory_full">"<xliff:g id="COUNT">%1$s</xliff:g>ممتلئ"</string>
+    <string name="pref_title_manage_sim_x_setting">"إدارة SIM<xliff:g id="COUNT">%1$s</xliff:g>الإعدادات"</string>
+    <string name="pref_title_mms_creation_mode">"وضعية الإنشاء"</string>
+  <string-array name="mms_creation_mode_entries">
+    <item>"مقيدة"</item>
+    <item>"تحذير"</item>
+    <item>"مجانا"</item>
+  </string-array>
+    <string name="exceed_resolution_limit">"حجم الصورة تجاوز الحد المسموح"</string>
+    <string name="want_to_add_media">"هل تريد إضافة هذا  <xliff:g id="NAME">%1$s</xliff:g> إلى رسالتك؟"</string>
+    <string name="converting_to_text_message">"جاري التحويل الى رسائل نصية..."</string>
+    <string name="select_calendar">"اختيار التقويم"</string>
+    <string name="no_calendar">"لا أجندة"</string>
+    <string name="exceed_slides_number_message">"المختارة <xliff:g id="NUMBER">%1$s</xliff:g> أجندة，الأقصى هو  <xliff:g id="NUMBER">%2$s</xliff:g> أجندة"</string>
+    <string name="add_to_blacklist">"إضافة إلى القائمة السوداء"</string>
+    <string name="failed_addToBlacklist">"فشل الإضافة إلى القائمة السوداء."</string>
+    <string name="creating_slideshow_title">"جاري إنشاء عرض الشرائح"</string>
+    <string name="attachment_vcalendar">"تقويم v"</string>
+    <string name="attachment_vcard">"vcard"</string>
+    <string name="text_limited_warning">"الحد الأقصى من الإدخال"</string>
+    <string name="subject_text_length_limitation">" لقد تم الوصول للحد الأقصى في طول الموضوع."</string>
+    <string name="attach_commonPhrases">"عبارات شائعة"</string>
+    <string name="commonphrase_empty">"لا توجد عبارات شائعة"</string>
+    <string name="quick_reply">"رد سريع"</string>
+    <string name="common_messages">"عبارة شائعة"</string>
+    <string name="common_add_text">"جديد"</string>
+    <string name="common_delete_text">"حذف"</string>
+    <string name="common_delete_message">"تأكيد الحذف؟"</string>
+    <string name="common_delete">"حذف"</string>
+    <string name="common_phrase_contextmenu_title">"قائمة التشغيل"</string>
+    <string name="common_edit">"تعديل"</string>
+    <string name="commonphrase_delete_empty">"لا توجد عبارة يمكن حذفها"</string>
+    <string name="common_phrase_edit_dialog_title">"خيارات"</string>
+    <string name="common_phrase_edit_dialog_inform">"حفظ ما قمت أنت بتحريره؟"</string>
+    <string name="common_phrase_edit_max_length">"وصل إلى الحد الأعلى من الإدخال!"</string>
+    <string name="common_messages_edit">"تحرير العبارات الشائعة"</string>
+    <string name="common_save">"حفظ"</string>
+    <string name="common_cancel">"إلغاء"</string>
+    <string name="add_empty_common_messages">"إدخال أي حرف"</string>
+    <string name="pref_other_settings_title">"أخرى"</string>
+    <string name="pre_key_title_common_messages">"عبارة شائعة"</string>
+    <string name="common_phrase_selection">"إختيار عبارات شائعة"</string>
+    <string name="wap_push_message_dialog_title">"رسالة Wap Push"</string>
+    <string name="open_website">"فتح موقع إلكتروني"</string>
+    <string name="activity_not_found">"لم يتم إيجاد تطبيق مناسب"</string>
+    <string name="add_contact">"إدخال جهات إتصال"</string>
+    <string name="receive_from">"إستقبال من %s"</string>
+    <string name="send_from">"إرسال من %s"</string>
+    <string name="dl_expired_wap_push">""هناك  <xliff:g id="COUNT">%1$s</xliff:g> رسائل wap منتهية الصلاحية , و سيتم حذفها."</string>
+    <string name="no_media_selected">"لم يتم إختيار وسائط!"</string>
+    <string name="search_max_length">"جملة البحث طويلة جدا، سوف يكون الحد الأقصى 512."</string>
+    <string name="sim_capacity_used">"ما تم استخدامه:"</string>
+    <string name="sim_capacity_total">"الإجمالي:"</string>
+    <string name="too_many_contacts">"الحد الأقصى للمستقبلين هو  <xliff:g id="MAXLIMIT">%1$s</xliff:g>, سوف يضيف المقدمة <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> سوف يتم إضافة المستقبلين."</string>
+    <string name="delivery_toast_body_expired">"الرسالة  %s منتهية"</string>
+    <string name="discard_dialog">"هل تريد حقيقة أن تتخلص من هذه المعلومة؟"</string>
+    <string name="remove_vcalendar_first">"احذف التقويمv المرفق ثم قم بتعديل هذا."</string>
+    <string name="remove_vcard_first">"إحذف بطاقة V المرفقة أولا لتحرير هذا."</string>
+    <string name="import_vcalendar">"إستيراد تقويم v"</string>
+    <string name="no_vcalendar">"لم يتم العثور على تقويمv"</string>
+    <string name="import_vcalendar_fail">"لا يستطيع استيراد تقويمv"</string>
+    <string name="unable_to_add_all">"وصل الحد الأقصى لحجم الرسالة، بعض الأجزاء لم تضاف."</string>
+    <string name="replce_slideshow_dilaog_dismiss">"إستبدال عرض الشرائح سوف يحذف المرفق الحالي ، هل تريد محاولة الإستمرار؟"</string>
+    <string name="pref_title_sms_retry_times">"تفعيل إعادة محاولة SMS"</string>
+  <string-array name="prefEntries_sms_validity">
+    <item>"1 ساعة"</item>
+    <item>"6 ساعات"</item>
+    <item>"24 ساعة"</item>
+    <item>"2 أيام"</item>
+    <item>"1 إسبوع"</item>
+    <item>"القصوى"</item>
+    <item>"الأطول"</item>
+  </string-array>
+    <string name="confirm_convert_to_mms">"لدى المستلمين بريد الكتروني، سيتم الإرسال كرسالة mms"</string>
+    <string name="send_as_mms">"إرسال رسالة وسائط متعددة"</string>
+    <string name="send_as_sms">"إرسال sms فقط"</string>
+    <string name="protected_file">"لا يمكن إضافة ملف محمي"</string>
+    <string name="success_to_send_sms">"تم إرسال sms بنحاح"</string>
+    <string name="confirm_ota_message">"تأكيد إعدادات OTA؟"</string>
+    <string name="confirm_ota">"إعادة تسمية"</string>
+    <string name="cancel_ota">"الغاء"</string>
+    <string name="ota_cancelled">"تم إلغاء إعدادات OTA"</string>
+    <string name="message_too_big_for_audio">"الرسالة كبير جدا لإرفاق الصوت."</string>
+    <string name="contacts_count_can_send">"عزيزي العميل، لقد تعدى المستفيدين حدود النظام، من المسموح فقط بالإرسال <xliff:g id="MAXLIMIT">%1$s</xliff:g> , من فضلك قم بالإرسال في دفعات."</string>
+    <string name="attach_common_messages">"الجمل المشتركة"</string>
+    <string name="attach_subject">"الموضوع"</string>
+    <string name="add_contacts_dialog_title">"إضافة جهات اتصال"</string>
+    <string name="add_contact_as_text">"رسالة نصية"</string>
+    <string name="add_contact_as_vcard">"فكارت"</string>
+    <string name="action_next">التالي</string>
+     <string name="sms_forward">"إلى الأمام"</string>
+     <string name="valid_sub">"بطاقة SIM غير صحيحة"</string>
+     <string name="confirm_import_vcalendar">"استيراد هذا التقويم؟</string>
+     <string name="confirm_save_otherfiles">"حفظ هذا المرفق؟"</string>
+     <string name="pref_notification_settings_title_sim1">"إشعارات بطاقة sim1"</string>
+     <string name="pref_notification_settings_title_sim2">"إشعارات بطاقة sim2"</string>
+     <string name="pref_notification_settings_title_sim">"إشعارات بطاقة sim"</string>
+     <string name="dlg_media_removed">"تم حذف الوسائط دون مسار صحيح في المرفقات، مواصلة الإرسال؟"</string>
+     <string name="toast_media_removed">"تم حذف الوسائط دون مسار صحيح في المرفقات، يرجى التحقق!"</string>
+     <string name="dl_failure_roaming">"وضعية التجوال، لا يمكن تنزيل الرسالة!"</string>
+     <string name="recipient_invalid">"<xliff:g id="invalid_number" example="1">%1$s</xliff:g> مستلم غير صالح"</string>
+     <string name="recipient_invalid_detail">"(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>)غير صالح:"</string>
+     <string name="recipient_changed_detail">"(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>)متغير:"</string>
+
+</resources>

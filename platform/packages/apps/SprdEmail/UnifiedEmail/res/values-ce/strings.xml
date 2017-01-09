@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="from">"Gikan"</string>
+<string name="to">"Para"</string>
+<string name="cc">"Cc"</string>
+<string name="bcc">"Bcc"</string>
+<string name="subject_hint">"Paksa"</string>
+<string name="body_hint">"Magsuwat ug email"</string>
+<string name="add_file_attachment">"I-uban ang file"</string>
+<string name="add_photo_attachment">"Gilakip ang hulagway"</string>
+<string name="save_draft">"Itigum ang krukis"</string>
+<string name="discard">Ilabay</string>
+<string name="compose">"Maghimo"</string>
+<string name="compose_title">"Maghimo"</string>
+<string-array name="compose_modes">
+<item>"Tubag"</item>
+<item>"Tubag sa tanan"</item>
+<item>"Padulong"</item>
+</string-array>
+<string name="reply_attribution">"Sa <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> nagsuwat:"</string>
+<string name="forward_attribution">"---------- Gipasa nga mensahe ----------&lt;br&gt;Gikan: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;Petsa: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;Sabjek: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;Para: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;"</string>
+<string name="forward_attribution_no_headers">"---------- gipasa nga mensahe ----------"</string>
+<string name="cc_attribution">"Cc: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;"</string>
+<string name="select_attachment_type">"Pili ug matang sa gilakip"</string>
+<string name="too_large_to_attach_single">"Dili makalakip sa payl sobra <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+<string name="too_large_to_attach_multiple">"Ang usa o daghan nga mga payl kat wala nalakip. Limita <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+<string name="too_large_to_attach_additional">"Ang payl wala nalakip. <xliff:g id="maxSize">%1$s</xliff:g> naabot ang limita."</string>
+<string name="generic_attachment_problem">"Dili malakip ang payl."</string>
+<string name="attachment_permission_denied">"Pagtugot gilimod para sa gipakabit."</string>
+<string name="recipient_needed">"Pagdugang ug bisag usa ka tagadawat."</string>
+<string name="confirm_send_message_with_no_subject">"Walay teskto sa hisgutan sa mensahe."</string>
+<string name="confirm_send_message_with_no_body">"Walay teskto sa lawas sa mensahe."</string>
+<string name="confirm_send_message">"Ipadali ni nga mensahe?"</string>
+<string name="message_discarded">"Gilabog ang mensahe."</string>
+<string name="signature">"\n\n<xliff:g id="signature">%s</xliff:g>"</string>
+<string name="custom_from_account_label">"Ipadala ang mensahe isip:"</string>
+<string name="send">"Padala"</string>
+<string name="mark_read">"Markahan isip nabasa"</string>
+<string name="mark_unread">"Markahan isip wala pa nabasa"</string>
+<string name="toggle_read_unread">"Ang toggle mibasa og unread"</string>
+<string name="mute">"Amang"</string>
+<string name="add_star">"Magdugang ug bituon"</string>
+<string name="remove_star">"Magtangtang ug bituon"</string>
+<string name="remove_folder">"Tangtangon gikan sa <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<string name="archive">"Arkibo"</string>
+<string name="report_spam">"Ibalita nga ispam"</string>
+<string name="mark_not_spam">"Ibalita nga dili ispam"</string>
+<string name="report_phishing">"Ibalita nga nangilad"</string>
+<string name="delete">"Panas"</string>
+<string name="discard_drafts">"Ilabog ang krukis"</string>
+<string name="discard_failed">"Napakyas pagtangtang"</string>
+<string name="refresh">"Palab-ason"</string>
+<string name="reply">"Tubag"</string>
+<string name="reply_all">"Tubag sa tanan"</string>
+<string name="resume_draft">"Usob"</string>
+<string name="forward">"Padulong"</string>
+<string name="menu_compose">"Maghimo"</string>
+<string name="menu_change_folders">"Ilis ug mga polder"</string>
+<string name="menu_move_to">"Balhin ngadto"</string>
+<string name="menu_move_to_inbox">"Balhin ngadto sa Inbox"</string>
+<string name="menu_manage_folders">"Mga gitakda sa polder"</string>
+<string name="menu_show_original">"Pagbalik sa awto nga pagpadako"</string>
+<string name="menu_settings">Mga setting</string>
+<string name="menu_search">Pangita</string>
+<string name="menu_toggle_drawer">"Toggle drower"</string>
+<string name="drawer_title">Nabigasyon</string>
+<string name="mark_important">"Markahan isip importante"</string>
+<string name="mark_not_important">"Markahan isip dili importante"</string>
+<string name="add_cc_label">"Magdungang ug Cc/Bcc"</string>
+<string name="add_bcc_label">"Magdungang Bcc"</string>
+<string name="quoted_text">"Iapil ang gikutlo nga teksto"</string>
+<string name="quoted_text_label">"Gikutlo nga teksto"</string>
+<string name="respond_inline">"Tubag sa linya"</string>
+<string name="bytes">"<xliff:g id="count">%s</xliff:g>&#160;B"</string>
+<string name="kilobytes">"<xliff:g id="count">%s</xliff:g>&#160;KB"</string>
+<string name="megabytes">"<xliff:g id="count">%s</xliff:g>&#160;MB"</string>
+<string name="attachment_image">"Hulagway"</string>
+<string name="attachment_video">"video"</string>
+<string name="attachment_audio">Audio</string>
+<string name="attachment_text">"Text"</string>
+<string name="attachment_application_msword">"Dokumento"</string>
+<string name="attachment_application_vnd_ms_powerpoint">"Presentasyon"</string>
+<string name="attachment_application_vnd_ms_excel">"Programa sa pagdumala sa nga datus"</string>
+<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> Payl"</string>
+<string name="preview_attachment">"Preview"</string>
+<string name="save_attachment">Luwas</string>
+<string name="download_again">"Pagkarga usab"</string>
+<string name="remove_attachment_desc">"Kuhaa ang gipakabit <xliff:g id="attachmentName">%s</xliff:g>"</string>
+<string name="more_info_attachment">"Impormasyon"</string>
+<string name="no_application_found">"Walay app nga makaabli sa kani nga gilakip para sa pagtanaw."</string>
+<string name="fetching_attachment">"Nagkuha sa gilakip"</string>
+<string name="please_wait">Palihug paghuwat\u2026</string>
+<string name="saved">"Luwas,&#160;<xliff:g id="size">%s</xliff:g>"</string>
+<string name="download_failed">"Dili makarga. Hikapa para magusab."</string>
+<string name="menu_photo_save_all">"Tiguma tanan"</string>
+<string name="menu_photo_share">bahagi</string>
+<string name="menu_photo_share_all">"Ibahin tanan"</string>
+<string name="menu_photo_print">"Printa"</string>
+<string name="saving">"Nagtigum&#8230;"</string>
+<string name="choosertitle_sharevia">"Bahagi pinaagi sa"</string>
+<string name="contextmenu_openlink">"Iabli sa Browser"</string>
+<string name="contextmenu_copy">"kopya"</string>
+<string name="contextmenu_copylink">"Kopya ug link sa URL"</string>
+<string name="contextmenu_view_image">"Tanaw ug imahe"</string>
+<string name="contextmenu_dial_dot">"Dial"</string>
+<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+<string name="contextmenu_add_contact">Dugang kontak</string>
+<string name="contextmenu_send_mail">"Padala ang email"</string>
+<string name="contextmenu_map">"Mapa"</string>
+<string name="contextmenu_sharelink">"Bahagi ug link"</string>
+<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> mahitungod sa <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> sa <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> mahitungod sa <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> sa <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_with_folders">"<xliff:g id="ngadto sa Ulohan">%1$s</xliff:g><xliff:g id="participante">%2$s</xliff:g> mahitungod<xliff:g id="hilisgotan">%3$s</xliff:g>, <xliff:g id="snipet">%4$s</xliff:g> sa <xliff:g id="petsa">%5$s</xliff:g>, <xliff:g id="basahonon">%6$s</xliff:g>, mga label: <xliff:g id="mga polder">%7$s</xliff:g>"</string>
+<string name="content_description_today_with_folders">"<xliff:g id="ngadto sa Ulohan">%1$s</xliff:g><xliff:g id="participante">%2$s</xliff:g> mahitungod <xliff:g id="hilisgotan">%3$s</xliff:g>, <xliff:g id="snipet">%4$s</xliff:g> sa <xliff:g id="oras">%5$s</xliff:g>, <xliff:g id="basahonon">%6$s</xliff:g>, mga label: <xliff:g id="mga polder">%7$s</xliff:g>"</string>
+<string name="read_string">"nabasa ang pakigistorya"</string>
+<string name="unread_string">"wala nabasa ang pakigistorya"</string>
+<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="badge_and_subject">"<xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g>"</string>
+<plurals name="draft">
+<item quantity="one">Plano</item>
+<item quantity="other">"Mga gipadala"</item>
+</plurals>
+<string name="sending">"Nagpadala\u2026"</string>
+<string name="message_retrying">"Sulayan balik\u2026"</string>
+<string name="message_failed">Dili malampuson</string>
+<string name="send_failed">"Ang mensahe kay wala napadala."</string>
+<string name="me_object_pronoun">Ako</string>
+<string name="me_subject_pronoun">Ako</string>
+<plurals name="confirm_delete_conversation">
+<item quantity="one">"Panason ni nga pakigistorya?"</item>
+<item quantity="other">"Panason ni <xliff:g id="count">%1$d</xliff:g> nga mga pakigistorya?"</item>
+</plurals>
+<plurals name="confirm_archive_conversation">
+<item quantity="one">"Iarkibo ni nga pakigistorya?"</item>
+<item quantity="other">"Iarkibo ni <xliff:g id="count">%1$d</xliff:g>  nga mga pakigistorya?"</item>
+</plurals>
+<plurals name="confirm_discard_drafts_conversation">
+<item quantity="one">"Ilabog ni mga mensahe?"</item>
+<item quantity="other">"Tangtangon ni <xliff:g id="count">%1$d</xliff:g> nga mga mensahe?"</item>
+</plurals>
+<string name="confirm_discard_text">"Ilabog ni mga mensahe?"</string>
+<string name="loading_conversations">Nagload\u2026</string>
+<string name="empty_inbox">"Human naka tanan! Palihug paglipay sa imong adlaw."</string>
+<string name="empty_search">"Oooy! Wala mi nakitan bisag unsa sa \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+<string name="empty_spam_folder">"Hooray, walay no spam drri!"</string>
+<string name="empty_trash_folder">"Walay basura diri. Salamat sa pagresiklo!"</string>
+<string name="empty_folder">"Walay sulat diri."</string>
+<string name="getting_messages">"Nagkuha sa imong mga mensahe"</string>
+<string name="undo">"IBALIK"</string>
+<plurals name="conversation_unstarred">
+<item quantity="one">"Gikuha ang mga star <xliff:g id="count">%1$d</xliff:g> konbersasyon"</item>
+<item quantity="other">"Gikuha ang mga star <xliff:g id="count">%1$d</xliff:g> konbersasyon"</item>
+</plurals>
+<plurals name="conversation_muted">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; gipa-amang"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; gipa-amang"</item>
+</plurals>
+<plurals name="conversation_spammed">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; gitaho nga spam"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; gitaho nga spam"</item>
+</plurals>
+<plurals name="conversation_not_spam">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; gitaho nga dili spam"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; gitaho nga dili spam"</item>
+</plurals>
+<plurals name="conversation_not_important">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; gimarkahan nga dili importante"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; gimarkahan nga dili importante"</item>
+</plurals>
+<plurals name="conversation_phished">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; gitaho nga phishing"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; gitaho nga phishing"</item>
+</plurals>
+<plurals name="conversation_archived">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; gi-arkibo"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; gi-arkibo"</item>
+</plurals>
+<plurals name="conversation_deleted">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; gipapas"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; gipapas"</item>
+</plurals>
+<string name="deleted">"nadelete"</string>
+<string name="archived">"Giarkibo"</string>
+<string name="folder_removed">"Gitangtang gikan sa <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<plurals name="conversation_folder_changed">
+<item quantity="one">"Nag-ilis og polder"</item>
+<item quantity="other">"Nag-ilis og mga polder"</item>
+</plurals>
+<string name="conversation_folder_moved">"Gibalhin ngadto sa <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<string name="search_results_header">"Mga resulta"</string>
+<string name="search_unsupported">"Ang pagpangita wala gisuportahan ani nga akawnt."</string>
+<string name="search_suggestion_desc">"Sugyot: <xliff:g id="suggestion">%s</xliff:g>"</string>
+<string name="add_label">"Dugang ug polder"</string>
+<plurals name="new_incoming_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> bag-o nga mensahe"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> bag-o nga mga mensahe"</item>
+</plurals>
+<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> <a href='http://www.example.com\'>Tanawa ang mga detalye</a>"</string>
+<string name="hide_details">"Itago ang mga detalye"</string>
+<string name="to_message_header">"ngadto <xliff:g id="recipients">%1$s</xliff:g>"</string>
+<string name="bcc_header_for_recipient_summary">Bcc:\u0020</string>
+<string name="contact_info_string">"Ipakita ang impormasyon sa kontak para sa <xliff:g id="name">%1$s</xliff:g>"</string>
+<string name="contact_info_string_default">"Ipakita ang impormasyon sa kontak"</string>
+<plurals name="show_messages_read">
+<item quantity="other">"Gipalapad <xliff:g id="count" example="4">%1$d</xliff:g> mga daan nga mga mensahe"</item>
+</plurals>
+<plurals name="super_collapsed_block_accessibility_announcement">
+<item quantity="other">"Gipalapad <xliff:g id="count" example="4">%1$d</xliff:g> daan nga mga mensahe"</item>
+</plurals>
+<string name="from_heading">From:</string>
+<string name="replyto_heading">"Tubag-ngadto:"</string>
+<string name="to_heading">Para:\u0020</string>
+<string name="to_heading_no_space">"Padulong"</string>
+<string name="cc_heading">"Cc"</string>
+<string name="bcc_heading">"Bcc"</string>
+<string name="date_heading">"petsa:"</string>
+<string name="show_images">"Ipakita ang mga hulagway"</string>
+<string name="always_show_images">"Ipakita kanunay ang mga hulagway gikan sa kani nga tigpadala"</string>
+<string name="always_show_images_toast">"Ang mga hulagway gikan ani nga tigpadala kay awtomatik nga ipakita."</string>
+<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> pinaagi <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+<string name="message_saved">"Mensahe nasave nga plano."</string>
+<string name="sending_message">"Nagpadala ug mensahe\u2026"</string>
+<string name="invalid_recipient">"Ang adres <xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> kay imbalido."</string>
+<string name="show_elided">"Ipakita ang naay quota nga teksto"</string>
+<string name="hide_elided">"\u25BC Itago ang nakutlo nga teksto"</string>
+<string name="message_invite_title">"Imbita sa kalendaryo"</string>
+<string name="message_invite_calendar_view">"Tanawon sa kalendaryo"</string>
+<string name="message_invite_label_attending">"Mungadto?"</string>
+<string name="message_invite_accept">Shagit</string>
+<string name="message_invite_tentative">"Tingali"</string>
+<string name="message_invite_decline">Dili</string>
+<string name="enumeration_comma">",\u0020"</string>
+<string name="send_anyway">"Ipadala gihapon"</string>
+<string name="ok">"OK"</string>
+<string name="done">"Human"</string>
+<string name="cancel">"Kansela"</string>
+<string name="clear">Limas</string>
+<string name="next">"Sunod"</string>
+<string name="previous">"Nilabay"</string>
+<string-array name="sync_status">
+<item>"Malampuson"</item>
+<item>"Walay koneksyon"</item>
+<item>"Dili maka sign in"</item>
+<item>"Sayop nga seguridad"</item>
+<item>"Dili maka sync"</item>
+<item>"Sayop sa sulod"</item>
+<item>"Mali sa Server"</item>
+</string-array>
+<string name="tap_to_configure">"Hikapa sa para sa pagtakda"</string>
+<string name="non_synced_folder_description">"Para mutanaw sa mga pakigistorya, isync ni nga polder."</string>
+<string name="tap_to_configure_folder_sync">"Isync ang polder"</string>
+<string name="large_unseen_count">"<xliff:g id="count" example="99">%d</xliff:g>+ bag-o"</string>
+<string name="unseen_count">"<xliff:g id="count" example="4">%d</xliff:g> bag-o"</string>
+<plurals name="actionbar_unread_messages">
+<item quantity="other">"<xliff:g id="count" example="4">%1$d</xliff:g> wala nabasa"</item>
+</plurals>
+<string name="view_more_conversations">Tanaw ug daghan nga mga pag-istorya</string>
+<string name="loading_conversation">Nagload\u2026</string>
+<string name="activity_mailbox_selection">"Pili ug account"</string>
+<string name="activity_folder_selection">"Pili ug polder"</string>
+<string name="folder_shortcut_widget_label">"Iemail ang polder"</string>
+<string name="change_folders_selection_dialog_title">"Ilis ug mga polder"</string>
+<string name="move_to_selection_dialog_title">"Balhin ngadto"</string>
+<string name="search_hint">Pangita</string>
+<string name="voice_search_not_supported">"Pagpangita sa tingog dili suportado niini nga himan."</string>
+<string name="search_back_desc">"Isarado ang pagpangita"</string>
+<string name="search_voice_desc">"Sugdan ang pagpangita sa voice"</string>
+<string name="search_clear_desc">"Limpyohi ang teksto sa pagpangita"</string>
+<string name="network_error">"Walay koneksyon"</string>
+<string name="retry">Suway balik</string>
+<string name="load_more">"Pagkarga ug dugang"</string>
+<string name="shortcut_name_title">"Nganlan ang lat-ang sa polder"</string>
+<string name="wait_for_sync_title">"Naghuwat para sa sync"</string>
+<string name="not_synced_title">"Ang akawnt kay wala na sync"</string>
+<string name="wait_for_manual_sync_body">"Kani nga akawnt kay wala natakda nga awtomatiko nga ma sync.\nHikapa ang&lt;b&gt;Sync karon&lt;/b&gt; para masync ang mensahe kausa, o &lt;b&gt;Ilisi ang mga gitakda sa Sync&lt;/b&gt; para sa pagtakda sa kani nga akawnt sa awtomatiko nga pagsyc sa mensahe."</string>
+<string name="manual_sync">"Sync karon"</string>
+<string name="change_sync_settings">"Ilisi ang mmga gitakda sa sync"</string>
+<string name="photo_load_failed">"Dili makabutang sa hulagway"</string>
+<string name="cant_move_or_change_labels">"Dili makabalhin kay ang gipili anaay daghan nga mga akawnt."</string>
+<string name="multiple_new_message_notification_item">&lt;b&gt;<xliff:g id="sender">%1$s</xliff:g>&lt;/b&gt;\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g></string>
+<string name="ignore_spam_warning">"Pasagdi, Nagsalig ko ani nga mensahe"</string>
+<string name="via_domain">"pinaagi sa <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+<string name="signin">"Magsign-in"</string>
+<string name="info">"Impormasyon"</string>
+<string name="report">Ulat</string>
+<string name="show">"Ipakita"</string>
+<string name="sync_error">"Dili masync."</string>
+<string name="sync_error_message">"Ang imong debays kay wala igo nga sudlanan para sa pagsyc."</string>
+<string name="storage">"Imbakan"</string>
+<string name="senders_split_token">",\u00A0"</string>
+<string name="draft_count_format">"\u00A0(<xliff:g id="count">%1$s</xliff:g>)"</string>
+<string name="all_folders_heading">"Tanan nga mga polder"</string>
+<string name="recent_folders_heading">"Bag-ohay nga mga polder"</string>
+<string name="message_details_title">"Mga detalye sa mensahe"</string>
+<string name="preference_advance_to_title">"Awto-adbans"</string>
+<string-array name="prefEntries_autoAdvance">
+<item>"Mas bago"</item>
+<item>Mas daan</item>
+<item>"Lista sa pakigistorya"</item>
+</string-array>
+<string-array name="prefSummaries_autoAdvance">
+<item>"Ipakita ang mas bag-o nga pakigistorya pagkahuman nimu ug panas"</item>
+<item>"Ipakita ang mas daan nga pakigistorya pagkahuman nimu ug panas"</item>
+<item>"Ipakita ang lista sa pakigistorya pagkahuman nimu ug panas"</item>
+</string-array>
+<string name="prefDialogTitle_autoAdvance">"Abante ngadto"</string>
+<string name="clear_display_images_whitelist_title">"Limpyuhi ang mga pagtugot sa hulagway"</string>
+<string name="clear_display_images_whitelist_dialog_title">"Limpyuhi ang mga pagtugot sa hulagway?"</string>
+<string name="clear_display_images_whitelist_dialog_message">"Undangi pagpakita sa linya sa mga hulagway gikan sa nagpadala sa imo sa niaagi nga imong gitugutan."</string>
+<string name="sender_whitelist_cleared">"Ang mga hulagway kay dili ipakita awtomitiko."</string>
+<string name="preferences_signature_title">"Pirma"</string>
+<string name="preferences_signature_dialog_title">"Pirma"</string>
+<string name="preferences_signature_summary_not_set">"wala gitakda"</string>
+<string name="notification_action_reply">"Tubag"</string>
+<string name="notification_action_reply_all">"Tubag sa tanan"</string>
+<string name="notification_action_archive">"Arkibo"</string>
+<string name="notification_action_remove_label">"Tangtangon ang ngalan"</string>
+<string name="notification_action_delete">"Panas"</string>
+<string name="notification_action_undo_archive">"Giarkibo"</string>
+<string name="notification_action_undo_remove_label">"Natangtang ang ngalan"</string>
+<string name="notification_action_undo_delete">"nadelete"</string>
+<string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+<plurals name="new_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> bag-o nga mensahe"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> bag-o nga mga mensahe"</item>
+</plurals>
+<string name="single_new_message_notification_title">"<xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="silent_ringtone">Hilomon</string>
+<string name="preference_removal_action_title">"Default nga aksyon"</string>
+<string-array name="prefEntries_removal_action">
+<item>"Arkibo"</item>
+<item>"Panas"</item>
+</string-array>
+<string-array name="prefSummaries_removal_action_summary">
+<item>"Arkibo"</item>
+<item>"Panas"</item>
+</string-array>
+<string name="prefDialogTitle_removal_action">"Default nga aksyon"</string>
+<string name="preferences_default_reply_all_title">"Tubag sa tanan"</string>
+<string name="preferences_default_reply_all_summary_impl">"Gamita ang anaa na daan para sa pagtubag sa mga mensahe"</string>
+<string name="preference_swipe_title">"Kahiga ang mga aksyon"</string>
+<string name="preference_swipe_description">"Naa sa lista sa pakigistorya"</string>
+<string name="preference_sender_image_title">"Hulagway sa nagpadala"</string>
+<string name="preference_sender_image_description">"Ipakita tapad sa ngalan ang lista sa pakigistorya"</string>
+<string name="empty_trash">"Limasun ang Basura"</string>
+<string name="empty_spam">"Limasun ang Ispam"</string>
+<string name="empty_trash_dialog_title">"Kuhaan ug sulod ang basurahan?"</string>
+<string name="empty_spam_dialog_title">"Kuhaan ug sulod ang spam?"</string>
+<plurals name="empty_folder_dialog_message">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ang mensahe kay permanente nga mapanas."</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ang mga mensahe kay permanente nga mapanas."</item>
+</plurals>
+<string name="drawer_open">"Ablihan ang drower sa nabigasyon"</string>
+<string name="drawer_close">"Isirado ang drower sa nabigasyon"</string>
+<string name="conversation_photo_welcome_text">"Hikapa ang hulagway sa tigpadala para mapili ang pakigistorya."</string>
+<string name="long_press_to_select_tip">"Hikapa &amp; guniti para mupili ug usa ka pakigistorya, then hikapa para makapili ug daghan."</string>
+<string name="folder_icon_desc">"Imahe sa polder"</string>
+<string name="add_account">Dugang ug account</string>
+<string name="dismiss_tip_hover_text">"Itaktak ang kasayoran"</string>
+<string name="auto_sync_off">"Ang auto-sync naka-OFF. Hikapa aron ma-ON."</string>
+<string name="account_sync_off">"Ang akawnt sync naka-OFF. I-ON na <a href='http://www.example.com\'>Akawnt\u00A0Mga seting.</a>"</string>
+<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g>wala gipadala sa <xliff:g id="outbox">%2$s</xliff:g>"</string>
+<string name="turn_auto_sync_on_dialog_title">"Ipagana ang awto-sync?"</string>
+<string name="turn_auto_sync_on_dialog_body">"Ang mga giusab nimo sa tanan nga mga app ug mga akawnt, dili lang Gmail, kay mahimong magdungan tali sa web, ug imong mga debays, ug imong <xliff:g id="phone_or_tablet">%1$s</xliff:g>."</string>
+<string name="phone">telepono</string>
+<string name="tablet">"Tablet"</string>
+<string name="turn_auto_sync_on_dialog_confirm_btn">"I-on"</string>
+<string name="show_n_more_folders">"Ipakita <xliff:g id="number">%1$s</xliff:g> mga polder"</string>
+<string name="hide_folders">"Itago ang mga polder"</string>
+<string name="print">"Printa"</string>
+<string name="print_all">"I-print tanan"</string>
+<plurals name="num_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> mensahe"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> mga mensahe"</item>
+</plurals>
+<string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> at <xliff:g id="time">%2$s</xliff:g>"</string>
+<string name="draft_to_heading">"Gihimo pa para:"</string>
+<string name="draft_heading">Plano</string>
+<string name="quoted_text_hidden_print">"Naay quota nga teksto kay gitago"</string>
+<plurals name="num_attachments">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> padapat"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> mga padapat"</item>
+</plurals>
+<string name="no_subject">"(Walay paksa)"</string>
+<string name="vacation_responder">"Bakasyon nga tigresponda"</string>
+<string name="preferences_vacation_responder_title">"Bakasyon nga tigresponda"</string>
+<string name="vacation_responder_body_hint_text">Mensahe</string>
+<string name="send_to_contacts_text">"Ipadala lamang sa ako mga Kontak"</string>
+<string name="send_to_domain_text">"Ipadala lamang sa <xliff:g id="domain">%1$s</xliff:g>"</string>
+<string name="pick_start_date_title">"Sugod"</string>
+<string name="pick_end_date_title">"Human (Opsyonal)"</string>
+<string name="date_not_set">"wala gitakda"</string>
+<string name="set_end_date_dialog_title">"Human nga petsa (opsyonal)"</string>
+<string name="custom_date">Usbon</string>
+<string name="date_none">"Wala"</string>
+<string name="discard_changes">"Tangtangon ang mga gibag-o?"</string>
+<string name="vacation_responder_changes_saved">"Bakasyon nga tigresponda nga kabag-ohan kay nasalba"</string>
+<string name="vacation_responder_changes_discarded">"Bakasyon nga tigresponda nga kabag-ohan kay gitangtang"</string>
+<string name="vacation_responder_off">"Pawng"</string>
+<string name="vacation_responder_on">"Pagana, gikan <xliff:g id="date">%1$s</xliff:g>"</string>
+<string name="vacation_responder_on_with_end_date">"Pagana, gikan <xliff:g id="start-date">%1$s</xliff:g> ngadto <xliff:g id="end-date">%2$s</xliff:g>"</string>
+<string name="vacation_responder_empty_subject_and_body_warning">"Dugang ug sabjek o mensahe"</string>
+<string name="view_entire_message">"Tanawa tanan nga mensahe"</string>
+<string name="eml_loader_error_toast">"Dili makaabli sa kani nga payl"</string>
+<string name="help_and_info">Tabang</string>
+<string name="help_and_feedback">"Tabang &amp; reaksyon"</string>
+<string name="feedback">"Magpadala sa pidbak"</string>
+<string name="copyright">"&#169;<xliff:g id="year" example="2010">%1$d</xliff:g> Google Inc."</string>
+<string name="version">"<xliff:g id="app_name" example="Email">%1$s</xliff:g> version <xliff:g id="version" example="2.2.1">%2$s</xliff:g>"</string>
+<string name="print_dialog">"I-printa\u2026"</string>
+<string name="copyright_information">"Kopya nga katungod nga impormasyon"</string>
+<string name="privacy_policy">"Pribado nga palisiya"</string>
+<string name="open_source_licenses">"Ablihan ang gikanan sa mga lisensya"</string>
+<string name="reply_choice_yes">Shagit</string>
+<string name="reply_choice_no">Dili</string>
+<string name="reply_choice_ok">"OK"</string>
+<string name="reply_choice_hehe">"Hehe"</string>
+<string name="reply_choice_thanks">"Salamat"</string>
+<string name="reply_choice_i_agree">"Ako mi-uyon"</string>
+<string name="reply_choice_nice">"Nindot"</string>
+<string name="reply_on_my_way">"Padung nako"</string>
+<string name="reply_choice_later">"OK, mubalik ko nimo"</string>
+<string name="preference_header_action_confirmations">"Lihok nga mga Pagpamatuod"</string>
+<string name="preference_confirm_before_delete_title">"Ipamatuod usa panason"</string>
+<string name="preference_confirm_before_archive_title">"Pagpamatuod busa mag-archive"</string>
+<string name="preference_confirm_before_send_title">"Ipamatuod usa ipadala"</string>
+<string name="preferences_conversation_mode_title">"Awto pagpaigo sa mga mensahe"</string>
+<string name="preferences_conversation_mode_summary">"Pagamyon ang mga mensahe para makaigo sa iskrin"</string>
+<string name="preferences_disable_snap_headers_title">"Mensahe nga mga lihok"</string>
+<string-array name="prefSummaries_snapHeader">
+<item>"Kanunay ipakita ang mensahe nga mga lihok sa taas sa iskrin"</item>
+<item>"Ipakita lamang ang mensahe nga mga lihok sa taas sa iskrin kon ituyok sa hulagway"</item>
+<item>"Ayaw ipakita ang mga mensahe nga lihok gawas sa mensahe nga ulo"</item>
+</string-array>
+<string-array name="prefEntries_snapHeader">
+<item>"Pirmi pakita"</item>
+<item>"Ipakita lamang sa hulagway"</item>
+<item>"Ayaw ipakita"</item>
+</string-array>
+<string name="clear_history_title">"Limason ang kasaysayan sa pagpangita"</string>
+<string name="search_history_cleared">"Kasaysayan sa pagpangita nalimas."</string>
+<string name="clear_history_dialog_title">"Limpyohi ang pagpangita nga kaagi?"</string>
+<string name="clear_history_dialog_message">"Tanan mga pagpangita nga imong gihimo sauna kay matangtang."</string>
+<string name="manage_accounts_menu_item">"Mamahala ug mga account"</string>
+<string name="general_preferences_title">"Kadaghanan sa mga gitakda"</string>
+<string name="activity_preferences">Mga setting</string>
+<string name="overflow_description">Daghang mga opsyon</string>
+<string name="security_hold_required_text">"Siguridad nga pag-apdeyt gikinahanglan sa <xliff:g id="email_address">%1$s</xliff:g>"</string>
+<string name="update_security_text">"i-apdeyt karon"</string>
+<string name="forms_are_disabled">"Ang mga Porma dili mogana sa Gmail"</string>
+<string name="add_contacts_too_much">"Ang pinakataas nga numero sa tagadawat kay 50."</string>
+<string name="account_delete_dlg_title">"Tanggala ang account"</string>
+<string name="account_delete_waiting">"Gina tanggal, paki hulat..."</string>
+<string name="filter_all">Tanan</string>
+<string name="filter_receiver">"Tigdawat"</string>
+<string name="filter_sender">"Nagpadala"</string>
+<string name="filter_subject">"Paksa"</string>
+<string name="filter_content">Sulod</string>
+<string name="search_on_server">"Pangitaa ang Server"</string>
+<string name="download_confirm_msg">"Ang network dili WLAN, ug ang pasukip dako, palihug konpirmaha kon unsaa ipadayon"</string>
+<string name="download_deny_malware">"Tingali malware. Dili makakarga."</string>
+<string name="download_deny_wifionly">"Makarga lang kon mag- WLAN."</string>
+<string name="download_deny_nointent">"Walay app nga makaabli niini. Dili makakarga."</string>
+<string name="download_deny_nosideload">"Sulayi\'g usab human motugot ang instalasyon nga wala mailhi ang sinugdanan sa app."</string>
+<string name="download_deny_apkinstall">"Dili maka taud og bisan unsang apk. Dili makakarga."</string>
+<string name="download_deny_policy">"Dili makakarga sa palisiya sa account."</string>
+<string name="download_att_external">"Ikarga ngadto sa Eksternal"</string>
+<string name="save_to_where">"Ang pasukip naluwas nga malampuson"</string>
+<string name="mailbox_name_display_unread_u">Wa pa Mabasa</string>
+    <string name="missing_required_permission">"Wala nimo mapagana ang gikinahanglan nga pagtugot."</string>
+     <string name="permission_change">"Tungod kay ang mga permiso nag-ilis, palihug pilia pag-usab ang payl."</string>
+     <string name="permission_change_redo">"Tungod kay ang mga permiso nag-ilis, palihug usba pagbuhat."</string>
+     <string name="preference_default_signature_title">"Pirma"</string>
+     <string name="signature_default">"Gipadala gikan sa akong telepono"</string>
+     <string name="set_priority_high">"ipahigayon ang taas nga prayoridad"</string>
+     <string name="set_priority_normal">"ipahigayon ang normal nga prayoridad"</string>
+     <string name="set_priority_low">"ipahigayon ang ubos nga prayoridad"</string>
+
+</resources>

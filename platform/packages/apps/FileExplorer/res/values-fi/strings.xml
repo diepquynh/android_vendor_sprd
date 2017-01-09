@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"Tiedoston hakija"</string>
+<string name="action_settings">"Asetukset"</string>
+<string name="title_section_overview">"Pikakuva"</string>
+<string name="title_section_external">"Ulkoinen tallennustila"</string>
+<string name="title_section_internal">"Sisäinen tallennustila"</string>
+<string name="title_section_all">"Kaikki"</string>
+<string name="descrip_actionbar_logo">"Ylöstaso"</string>
+<string name="descrip_actionbar_search">"Haku"</string>
+<string name="descrip_actionbar_overflow">"Valikko"</string>
+<string name="quickscan_audio">"Ääni"</string>
+<string name="quickscan_image">"Kuvat"</string>
+<string name="quickscan_record">"Tallennukset"</string>
+<string name="quickscan_video">"Video"</string>
+<string name="quickscan_doc">"Dokumentit"</string>
+<string name="quickscan_apk">"Sovellukset"</string>
+<string name="file_list_flodermsg">"Päiväys:%1$s"</string>
+<string name="file_list_filemsg">"Päiväys:%1$s\tKoko:%2$s"</string>
+<string name="dialog_hint_title">"Lataus"</string>
+<string name="dialog_hint_msg">"Lataus..."</string>
+<string name="menu_search">"Haku"</string>
+<string name="menu_back_home">"Takaisin kotiin"</string>
+<string name="menu_mkdir">"Uusi kansio"</string>
+<string name="menu_newfile">"Uusi Tiedosto"</string>
+<!-- SPRD 431547 change %1$n to %1$s -->
+<string name="menu_mkdir_succeed">"Uusi kansio luotu %1$s menestyksellä"</string>
+<string name="menu_mkdir_failed">"Kansion luonti epäonnistui %1$sti"</string>
+<!-- SPRD 431547 change %1$n to %1$s -->
+<string name="menu_newfile_succeed">"Uusi tiedosto luotu %1$s menestyksellä"</string>
+<string name="menu_newfile_failed">"Tiedoston luonti epäonnistui %1$s"</string>
+<string name="menu_select_more">"Valitse enemmän"</string>
+<string name="menu_copy">"Kopioi"</string>
+<string name="menu_cut">"Leikkaa"</string>
+<string name="menu_sort_type">"Lajitteluperuste"</string>
+<string name="menu_storage_status">"Tallentaminen"</string>
+<string name="operate_delete">"Poista"</string>
+<string name="operate_clear">"Tyhjennä"</string>
+<string name="operate_delete_file_ask">"Haluatko varmasti pyyhkiä %1$s？"</string>
+<string name="operate_delete_file_succeed">"Pyyhi tiedosto %1$s menestyksellä"</string>
+<string name="operate_delete_file_failed">"Tiedoston pyyhkiminen epäonnistui %1$s"</string>
+<string name="operate_viewdetails">"Ominaisuudet"</string>
+<string name="operate_viewdetails_date">"Päiväys：%1$s"</string>
+<string name="operate_viewdetails_size">"Koko：%1$s"</string>
+<string name="operate_viewdetails_type_folder">"Tyyppi：Kansio"</string>
+<string name="operate_viewdetails_type_file">"Tyyppi：Tiedosto"</string>
+<string name="operate_folder_attribute">"Mukana：%1$d Tiedostoa，%2$d Kansiota\nKoko：%3$s"</string>
+<string name="operate_rename">"Nimeä uudelleen"</string>
+<string name="operate_rename_hint">"Kirjoita uusi kansion nimi"</string>
+<string name="operate_rename_succeed">"Uudelleennimeäminen epäonnistui"</string>
+<string name="operate_rename_failed">"Tiedoston uudelleennimeäminen epäonnistui %1$s""</string>
+<string name="operate_share">"Jaa"</string>
+<string name="msg_file_input_empty">"Tiedoston nimi on tyhjä"</string>
+<string name="msg_file_input_repeat">"Nimi %1$s on jo olemassa, kirjoita toinen."</string>
+<string name="msg_folder_empty">"Kansio on tyhjä"</string>
+<string name="msg_invalid_intent">"Järjestelmä ei tue tämän tyyppistä tiedostoa "</string>
+<string name="msg_issure_clear">"Tyhjennätkö tämän kansion?"</string>
+<string name="bluetooth">"Bluetooth"</string>
+<string name="copying">"Kopioi, ole hyvä ja odota"</string>
+<string name="clipboard_empty">"Leiketaulu on tyhjä"</string>
+<string name="text_exit_file_explore_title">"Sulje"</string>
+<string name="text_exit_file_explore_prompt">"Haluatko varmasti poistua?"</string>
+<string name="common_text_ok">"OK"</string>
+<string name="common_text_cancel">"Peruuta"</string>
+<string name="common_text_paste">"Liitä"</string>
+<string-array name="copyfileWarning">
+<item>"Vaihda"</item>
+<item>"Tallenna molemmat"</item>
+</string-array>
+<string-array name="copydirWarning">
+<item>"Yhdistä"</item>
+<item>"Vaihda"</item>
+<item>"Tallenna molemmat"</item>
+</string-array>
+<string name="file_option">"Tiedosto-optiot"</string>
+<string name="folder_option">"Kansion optiot"</string>
+<string name="file_detail">"Tiedot"</string>
+<string name="caculating">"Koko：Laskee…"</string>
+<string name="copy_finish">"Kopiointi valmis"</string>
+<string name="now_copying">"Kopiointi, ole hyvä ja odota..."</string>
+<string name="delete_finish">"Toiminta valmis"</string>
+<string name="delete_fail">"Tiedoston pyyhkiminen ei onnistunut <xliff:g id="NAME">%s</xliff:g>"</string>
+<string name="now_deleting">"Poistaa, ole hyvä ja odota..."</string>
+<string name="cancel_copy">"Toiminta peruutettiin"</string>
+<string name="exist">"Tiedosto on olemassa"</string>
+<string name="select_destination">"Valitse kohdasta"</string>
+<string name="empty_view_prompt">"Tyhjä kansio, voit hankkia lisää dokumentteja tietokoneen tai verkoston kautta."</string>
+<string name="fragment_search_key_hint">"Paina näppäintä, jota haluat etsiä "</string>
+<string name="fragment_search_location">"Hakupaikka:"</string>
+<string name="fragment_search_location_ex">"Hakupaikka"</string>
+<string name="fragment_search_type">"Tiedostotyyppi"</string>
+<string name="fragment_search_result">"Haun tulos"</string>
+<string name="fragment_search_searching">"Hakee…"</string>
+<string name="fragment_search_noresult">"Ei löydä mitään"</string>
+<string name="common_text_other">"Muu"</string>
+<string name="common_text_search">"Haku"</string>
+<string name="fragment_search_invalid_result">"Tiedosto on mennyt umpeen, tarkista."</string>
+<string name="overview_menu_multiselect">"Valitse enemmän"</string>
+<string name="overview_menu_install_all">"Asenna kaikki"</string>
+<string name="overview_menu_install">"Asenna"</string>
+<string name="overview_menu_delete">"Poista"</string>
+<string name="sort_by_name">"Nimen mukaan"</string>
+<string name="sort_by_type">"Tyypin mukaan"</string>
+<string name="sort_by_time_desc">"Ajan mukaan (desc)"</string>
+<string name="sort_by_time_asc">"Ajan mukaan(asc)"</string>
+<string name="sort_by_size_desc">"Nimen mukaan(desc)"</string>
+<string name="sort_by_size_asc">"Nimen mukaan(asc)"</string>
+<string-array name="sort_type">
+<item>"Nimi"</item>
+<item>"Tyyppi"</item>
+<item>"Päivämäärä"</item>
+<item>"Koko"</item>
+</string-array>
+<string name="sort_by_asc">"Nouseva"</string>
+<string name="sort_by_desc">"Laskeutuva"</string>
+<string name="display_setting">"Näyttöasetukset"</string>
+<string name="hide_file_display">"Näytä piilotetut tiedostot"</string>
+<string name="display_hide_file">"Näytä piilotetut tiedostot"</string>
+<string name="operate_viewdetails_path">"Tiedoston polku：%1$s"</string>
+<string name="operate_viewdetails_canread">"Voi lukea：Kyllä"</string>
+<string name="operate_viewdetails_can_not_read">"Voi lukea：Ei"</string>
+<string name="operate_viewdetails_can_not_write">"voi kirjoittaa：ei"</string>
+<string name="operate_viewdetails_can_write">"voi kirjoittaa：Kyllä"</string>
+<string name="operate_viewdetails_hide">"Tiedosto piilotettu：Kyllä"</string>
+<string name="operate_viewdetails_not_hide">"Tiedosto piilotettu：Ei"</string>
+<string name="select_text">"Valitse tiedostoa"</string>
+<string name="select_all">"Valitse kaikki"</string>
+<string name="unselect_all">"Pyyhi kaikki"</string>
+<string name="length_limited">"Nimellä on maksimi pituus"</string>
+<string name="cannot_copy_to_itself">"Ei pysty kopioimaan hakemistoa itselleen tai alihakemistoon"</string>
+<string name="confirm_delete">"Vahvistatko pyyhkimisen?"</string>
+<string name="search_empty">"Tällä sivulla ei ole tekstiä . Tarkista kirjoituksesi."</string>
+<string name="dialog_back">"Takaisin"</string>
+<string name="set_as">"Aseta"</string>
+<string name="invalid_char">"Tiedoston nimi sisältää pätemättömiä kar kuten %s"</string>
+<string name="invalid_char_of_filename">"<xliff:g id="SECTION">%s</xliff:g> tiedostojärjestelmän tiedostonimi sisältää pätemättömiä kar kuten <xliff:g id="INVALIDCHAR">%s</xliff:g>"</string>
+<string name="no_enough_sapce">"Ei tarpeeksi tilaa"</string>
+<string name="file_type_wrong">"Tiedostotyyppi on väärä"</string>
+<string name="failed_set_wallpaper">"Seinäpaperin asettaminen epäonnistui "</string>
+<string name="unsupport_type">"Ei tue soittoäänityyppiä"</string>
+<string name="now_moving">"Liikkuu, ole hyvä odota..."</string>
+<string name="now_calculate">"Laskee, ole hyvä odota..."</string>
+<string name="badname_as_point">"Ei saisi nimetä /,\\,. tai .., se voi sekoittua tiedostojärjestelmäsi kanssa "</string>
+<string name="cut_filename_duplicate">"Tiedoston tai kansion tämänhetkisellä polulla on sama nimi, valitse hakemisto uudelleen!"</string>
+<string name="share_file_limited">"Jaetun tiedoston raja on %1$d"</string>
+<string name="install_apk_limited">"Asennussovell. Raja on %1$d"</string>
+<string name="now_cleared">"Tyhjennetään, ole hyvä odota..."</string>
+<string name="not_replace">"Ei voida vaihtaa, koska kantakansiolla on sama nimi "</string>
+<string name="sdcard_had_unmounted">"Toimintatiedosto ei ole voimassa"</string>
+<string name="common_text_ignore">"Evää"</string>
+<string name="cannot_copyfolder_itself">"Et voi kopioida kansiota itseensä "</string>
+<string name="cannot_cutfolder_itself">"Et pysty siirtämään kansiota itseensä "</string>
+<string name="cannot_paste_reason">"Määränpääkansio on lähdekansion sisällä %s"</string>
+<string name="badname_endwith_point">"Kansion nimen loppu ei saa olla yhdessä ."</string>
+<string name="failed_option">"Vaihtoehto ei onnistunut"</string>
+<string name="failed_query">"Tietokanta ei pysty tiedustelemaan tästä tiedostosta"</string>
+    <string name="msg_folder_input_empty">Tiedostolla ei ole nimeä</string>
+     <string name="search_type_empty">"Valitse tiedoston tyyppi."</string>
+     <string name="invalid_char_of_foldername">"<xliff:g id="SECTION">%s</xliff:g> tiedostojärjestelmän kansionimi sisältää väärän merkin kuten <xliff:g id="INVALIDCHAR">%s</xliff:g>"</string>
+     <string name="failed_select_event">"Valitse vain 500 kohdetta tähän toimintoon."</string>
+     <string name="error_permissions">"Sovelluksella ei ole sen suorittamiseen tarvittavia oikeuksia. Tarkista käyttöoikeusasetuksesi."</string>
+     <string name="dialog_dismiss">"Hylkää"</string>
+     <string name="toast_fileexplorer_internal_error">"Sisäinen virhe tiedostonetsijässä!"</string>
+
+    <string name="title_section_usbdisk">"USB-levy"</string>
+     <string name="error_choose_drm_for_gallery">"DRM-tiedostoa ei voi käyttää musiikkiin, valitse toinen"</string>
+</resources>

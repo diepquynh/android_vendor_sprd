@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/tv_plmn"
+        android:layout_alignParentLeft="true"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@android:drawable/ic_menu_delete"
+        android:id="@+id/imaBtn_delete"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/imaBtn_delete"
+        android:background="@android:drawable/ic_menu_edit"
+        android:layout_marginRight="10dip"
+        android:id="@+id/imaBtn_edit"
+        />
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- Layout showing the type of account filter
+     (e.g. All contacts filter, custom filter, etc.),
+     which is the header of all contact lists. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+   <ListView
+       android:id="@android:id/list"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:fastScrollEnabled="true"
+       android:layout_above="@+id/mainframe">
+   </ListView>
+
+   <FrameLayout
+       android:id="@+id/mainframe"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true" >
+
+        <LinearLayout
+            android:id="@+id/layoutedit"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/delete"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="2dip" />
+
+            <Button
+                android:id="@+id/insert"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/insert"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="2dip" />
+
+            <Button
+                android:id="@+id/close"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/close"
+                android:layout_weight="1"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="15dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutdelete"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/startdelete"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/delete"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="2dip" />
+
+            <Button
+                android:id="@+id/selectAll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selectAll"
+                android:layout_weight="1"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="15dip" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

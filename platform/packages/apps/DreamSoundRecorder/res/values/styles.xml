@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Theme.SoundRecorder" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:statusBarColor">@color/status_bar_color_orange</item>
+        <item name="android:actionModeStyle">@style/Holo.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Holo.ActionBar</item>
+        <item name="android:actionBarSize">56dip</item>
+        <item name="android:actionMenuTextAppearance">@style/MenuTextStyle</item>
+    </style>
+    <style name="Theme.SoundRecorderUUI" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/status_bar_color_orange</item>
+    </style>
+    <style name="MediaButton" parent="@android:style/MediaButton">
+        <item name="android:background">@android:drawable/btn_default</item>
+    </style>
+    <style name="Theme.RecordingFileList" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:actionModeCloseDrawable">@drawable/ic_ab_back_holo_dark</item>
+        <item name="android:actionModeStyle">@style/Holo.ActionMode</item>
+        <item name="android:actionBarStyle">@style/Holo.ActionBar</item>
+        <item name="android:actionBarSize">56dip</item>
+        <item name="android:actionMenuTextAppearance">@style/MenuTextStyle</item>
+        <item name="android:statusBarColor">@color/status_bar_color_orange</item>
+    </style>
+    <style name="Theme.SoundPicker" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:actionModeCloseDrawable">@drawable/ic_ab_back_holo_dark</item>
+        <item name="android:actionBarStyle">@style/Holo.ActionBar</item>
+        <item name="android:actionBarSize">56dip</item>
+        <item name="android:actionMenuTextAppearance">@style/MenuTextStyle</item>
+        <item name="android:statusBarColor">@color/status_bar_color_orange</item>
+    </style>
+    <style name="Theme_RecordingFileList_Footer_Style">
+        <item name="android:windowEnterAnimation">@anim/location_pop_up_anim</item>
+        <item name="android:windowExitAnimation">@anim/location_pop_down_anim</item>
+    </style>
+    <style name="Holo.ActionBar" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">@color/menu_color_orang</item>
+        <item name="android:titleTextStyle">@style/AcBar_titleStyle</item>
+    </style>
+    <style name="AcBar_titleStyle">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="Theme.PathSelect" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/Holo.ActionBar</item>
+        <item name="android:actionBarSize">56dip</item>
+        <item name="android:statusBarColor">@color/status_bar_color_orange</item>
+    </style>
+    <style name="MenuTextStyle">
+        <item name="android:textColor">?android:attr/actionMenuTextColor</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="Holo.ActionMode" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">@color/menu_color_gray</item>
+        <item name="android:titleTextStyle">@style/AcBar_titleStyle</item>
+    </style>
+</resources>

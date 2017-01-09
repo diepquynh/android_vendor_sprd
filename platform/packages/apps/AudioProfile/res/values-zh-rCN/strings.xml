@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="audio_profiles">情景模式</string>
+  <string name="predefined_audio_profiles">预设模式</string>
+  <string name="user_defined_audio_profiles">自定义模式</string>
+  <string name="standard_string">标准</string>
+  <string name="silent_string">静音</string>
+  <string name="vibrate_string">振动</string>
+  <string name="outdoor_string">户外</string>
+  <string name="outdoor_summary">铃声最大并振动</string>
+  <string name="add_profile">添加</string>
+  <string name="use_profile">启用</string>
+  <string name="edit_profile">编辑</string>
+  <string name="rename_profile">重命名</string>
+  <string name="reset_profile">重置</string>
+  <string name="delete_profile">删除</string>
+  <string name="empty_name_dialog">名称不能为空</string>
+  <string name="duplicate_display_name_dialog">名称已存在</string>
+  <string name="add_profile_msg">请输入情景模式名称</string>
+  <string name="rename_profile_msg">请输入情景模式名称</string>
+  <string name="delete_profile_msg">确认要删除情景模式<xliff:g id="name">%s</xliff:g>吗？</string>
+  <string name="reset_profile_msg">所有情景模式将被恢复为默认值</string>
+  <string name="incoming_call_volume_title">"铃声和通知"</string>
+  <string name="alarm_volume_title">"闹钟"</string>
+  <string name="dlg_ok">"确定"</string>
+  <string name="dlg_cancel">"取消"</string>
+  <string name="sound_settings">"声音设置"</string>
+  <string name="vibrate_title">"通话"</string>
+  <string name="vibrate_summary">"在接到电话时发出振动反馈"</string>
+  <string name="ringtone_title">"来电铃声"</string>
+  <string name="ringtone_summary"></string>
+  <string name="sound_category_calls_and_notification_title">"铃声"</string>
+  <string name="sound_category_notification_title">"通知"</string>
+  <string name="notification_sound_title">"默认通知"</string>
+  <string name="notification_sound_summary"></string>
+  <string name="all_volume_title">"音量"</string>
+  <string name="notification_sound_dialog_title">"选择通知铃声"</string>
+  <string name="sound_category_feedback_title">"系统"</string>
+  <string name="ring_volume_summary"></string>
+  <string name="dial_pad_tones_title">"拨号键盘提示音"</string>
+  <string name="screen_locking_sounds_title">"屏幕锁定提示音"</string>
+  <string name="sound_effects_enable_title">"触摸提示音"</string>
+  <!-- <string name="charging_sounds_title">"充电提示音"</string> -->
+  <string name="haptic_feedback_enable_title">"触摸时振动"</string>
+  <string name="revert_ring_vol">该模式下手机铃声音量不能是零，将被变更成默认音量。</string>
+  <string name="input_limit">已达输入上限</string>
+  <string name="ringtone_default_message">"对不起，该铃声文件无法播放，已将默认铃声文件设为铃声"</string>
+  <string name="sim_ringtone_title">"SIM<xliff:g id="SIM_LOCK_STRING">%1$s</xliff:g> <xliff:g id="TYPE">%2$s</xliff:g> 来电铃声"</string>
+  <string name="ringtone_not_exist_message">"对不起，该铃声文件不存在"</string>
+  <string-array name="profile_display_name" translatable="true">
+		<item>标准</item>
+		<item>静音</item>
+		<item>振动</item>
+		<item>户外</item>
+	</string-array>
+   <string name="media_volume_titles">"音乐,视频,游戏,其他媒体"</string>
+   <string name="ring_volume_title">"铃声"</string>
+   <string name="notification_volume_title">"通知"</string>
+
+  <string name="sound_improvement">"音效增强"</string>
+  <string name="sound_improvement_select">"魔力低音增强"</string>
+  <string name="sound_improvement_summary">"针对耳机的音效提升"</string>
+
+  <string name="messagetone_summary"></string>
+  <string name="messagetone_title">"信息铃声"</string>
+  <string name="sim_messagetone_title">"SIM<xliff:g id="SIM_LOCK_STRING">%1$s</xliff:g> <xliff:g id="TYPE">%2$s</xliff:g> 信息铃声"</string>
+  <string name="vibrate_category_feedback_title">"振动"</string>
+  <string name="vibrate_msg_title">"信息"</string>
+  <string name="vibrate_msg_summary">"在来新消息时发出振动反馈"</string>
+</resources>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2010,2011 Thundersoft Corporation
+  All rights Reserved
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <RadioGroup
+        android:id="@+id/btn_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <!-- background -->
+        <RelativeLayout
+            android:id="@+id/layout_edit_background"
+            android:layout_width="58dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageButton android:id="@+id/btn_edit_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/func_background_selector"/>
+            <TextView android:id="@+id/tv_edit_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/edit_menu_item_color"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="11dip"
+                android:text="@string/text_edit_background"
+                android:singleLine="true"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="2dip"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"/>
+            </RelativeLayout>
+
+        <!-- editor -->
+        <RelativeLayout
+            android:id="@+id/layout_edit_editor"
+            android:layout_width="58dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageButton android:id="@+id/btn_edit_editor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/func_edit_selector"/>
+            <TextView android:id="@+id/tv_edit_editor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/edit_menu_item_color"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="11dip"
+                android:text="@string/text_edit_editor"
+                android:singleLine="true"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="2dip"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"/>
+        </RelativeLayout>
+
+        <!-- tone -->
+        <RelativeLayout
+            android:id="@+id/layout_edit_color"
+            android:layout_width="58dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageButton android:id="@+id/btn_edit_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/func_color_selector"/>
+            <TextView android:id="@+id/tv_edit_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/edit_menu_item_color"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="11dip"
+                android:text="@string/text_edit_tone"
+                android:singleLine="true"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="2dip"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"/>
+        </RelativeLayout>
+
+        <!-- effect -->
+        <RelativeLayout android:id="@+id/tab_effect_layout"
+            android:layout_width="58dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageButton android:id="@+id/btn_edit_effect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:background="@drawable/func_effect_selector"/>
+            <TextView android:id="@+id/tv_edit_effect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/edit_menu_item_color"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="11dip"
+                android:text="@string/text_edit_effect"
+                android:singleLine="true"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="2dip"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"/>
+        </RelativeLayout>
+
+        <!-- makeup -->
+        <RelativeLayout
+            android:id="@+id/edit_makeup_layout"
+            android:layout_width="58dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageButton android:id="@+id/btn_edit_makeup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/func_makeup_selector"/>
+            <TextView android:id="@+id/tv_edit_makeup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/edit_menu_item_color"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="11dip"
+                android:text="@string/text_edit_makeup"
+                android:singleLine="true"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="2dip"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"/>
+        </RelativeLayout>
+
+        <!-- mosaic -->
+        <RelativeLayout
+            android:id="@+id/layout_edit_mosaic"
+            android:layout_width="58dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageButton android:id="@+id/btn_edit_mosaic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/func_mosaic_selector"/>
+            <TextView android:id="@+id/tv_edit_mosaic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/edit_menu_item_color"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="11dip"
+                android:text="@string/text_edit_mosaic"
+                android:singleLine="true"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="2dip"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"/>
+            <ImageView android:id="@+id/mosaic_new_mark_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/btn_edit_mosaic"
+                android:layout_alignRight="@id/btn_edit_mosaic"
+                android:background="@drawable/uphoto_new_func"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <!-- photoframe -->
+        <RelativeLayout
+            android:id="@+id/layout_edit_photoframe"
+            android:layout_width="58dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageButton android:id="@+id/btn_edit_photoframe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/func_photo_frame_selector"/>
+            <TextView android:id="@+id/tv_edit_photoframe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/edit_menu_item_color"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="11dip"
+                android:text="@string/text_edit_photoframe"
+                android:singleLine="true"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="2dip"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"/>
+        </RelativeLayout>
+
+        <!-- label -->
+        <RelativeLayout
+            android:id="@+id/layout_edit_label"
+            android:layout_width="58dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageButton android:id="@+id/btn_edit_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/func_label_selector"/>
+            <TextView android:id="@+id/tv_edit_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/edit_menu_item_color"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="11dip"
+                android:text="@string/text_edit_label"
+                android:singleLine="true"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="2dip"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"/>
+        </RelativeLayout>
+
+        <!-- decoration -->
+        <RelativeLayout
+            android:id="@+id/layout_edit_decoration"
+            android:layout_width="58dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageButton android:id="@+id/btn_edit_decoration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/func_decorations_selector"/>
+            <TextView android:id="@+id/tv_edit_decoration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/edit_menu_item_color"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="11dip"
+                android:text="@string/text_edit_decoration"
+                android:singleLine="true"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="2dip"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"/>
+        </RelativeLayout>
+
+        <!-- texture -->
+        <RelativeLayout
+            android:id="@+id/layout_edit_texture"
+            android:layout_width="58dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageButton android:id="@+id/btn_edit_texture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/func_texture_selector"/>
+            <TextView android:id="@+id/tv_edit_texture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/edit_menu_item_color"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="11dip"
+                android:text="@string/text_edit_texture"
+                android:singleLine="true"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="2dip"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"/>
+        </RelativeLayout>
+
+        <!-- graffiti -->
+        <RelativeLayout
+            android:id="@+id/layout_edit_graffiti"
+            android:layout_width="58dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageButton android:id="@+id/btn_edit_graffiti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/func_graffiti_selector"/>
+            <TextView android:id="@+id/tv_edit_graffiti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/edit_menu_item_color"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="11dip"
+                android:text="@string/text_edit_graffiti"
+                android:singleLine="true"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="2dip"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"/>
+        </RelativeLayout>
+
+        <!-- text -->
+        <RelativeLayout
+            android:id="@+id/layout_edit_text"
+            android:layout_width="58dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageButton android:id="@+id/btn_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/func_text_selector"/>
+            <TextView android:id="@+id/tv_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/edit_menu_item_color"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="11dip"
+                android:text="@string/text_edit_labeltab_title"
+                android:singleLine="true"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="2dip"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"/>
+        </RelativeLayout>
+
+        <!-- balloon -->
+        <RelativeLayout
+            android:id="@+id/layout_edit_balloon"
+            android:layout_width="58dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageButton android:id="@+id/btn_edit_balloon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/func_text_bubble_selector"/>
+            <TextView android:id="@+id/tv_edit_balloon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/edit_menu_item_color"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="11dip"
+                android:text="@string/text_edit_labeltab_balloon"
+                android:singleLine="true"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="2dip"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"/>
+        </RelativeLayout>
+
+
+                <!-- IDPhoto_type -->
+        <RelativeLayout
+            android:id="@+id/layout_edit_photo_type"
+            android:layout_width="58dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:orientation="vertical">
+            <ImageButton android:id="@+id/btn_edit_photo_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/func_documenttype_selector"/>
+            <TextView android:id="@+id/tv_edit_photo_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/edit_menu_item_color"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="11dip"
+                android:text="@string/text_edit_document_type"
+                android:singleLine="true"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="2dip"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"/>
+        </RelativeLayout>
+    </RadioGroup>
+</LinearLayout>

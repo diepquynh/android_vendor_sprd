@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"חיפוש קבצים"</string>
+<string name="action_settings">הגדרות</string>
+<string name="title_section_overview">תצוגה מהירה</string>
+<string name="title_section_external">"אחסון חיצוני"</string>
+<string name="title_section_internal">אחסון פנימי</string>
+<string-array name="select_dest">
+    <item name="title_phone">אחסון פנימי</item>
+    <item name="title_sdcard">"אחסון חיצוני"</item>
+</string-array>
+<string name="title_section_all">הכל</string>
+<string name="descrip_actionbar_logo">לרמה הבאה</string>
+<string name="descrip_actionbar_search">חיפוש</string>
+<string name="descrip_actionbar_overflow">תפריט</string>
+<string name="quickscan_audio">אודיו</string>
+<string name="quickscan_image">תמונה</string>
+<string name="quickscan_record">רשומות</string>
+<string name="quickscan_video">וידיאו</string>
+<string name="quickscan_doc">מסמכים</string>
+<string name="quickscan_apk">יישומים</string>
+<string name="file_list_flodermsg">תאריך:  %1$s</string>
+<string name="file_list_filemsg">תאריך:  %1$s\tSize:%2$s </string>
+<string name="dialog_hint_title">"טוען"</string>
+<string name="dialog_hint_msg">"טוען..."</string>
+<string name="menu_search">חיפוש</string>
+<string name="menu_back_home">"חזור לעמוד הבית"</string>
+<string name="menu_mkdir">תיקייה חדשה</string>
+<string name="menu_newfile">קובץ חדש</string>
+<string name="menu_mkdir_succeed">"תיקייה חדשה נוצרה %1$s בהצלחה"</string>
+<string name="menu_mkdir_failed">יצירת התיקייה %1$s נכשלה</string>
+<string name="menu_newfile_succeed">"קובץ חדש נוצר %1$s בהצלחה"</string>
+<string name="menu_newfile_failed">יצירת הקובץ %1$s נכשלה</string>
+<string name="menu_select_more">בחר עוד</string>
+<string name="menu_copy">העתק</string>
+<string name="menu_cut">חתוך</string>
+<string name="menu_sort_type">מיון לפי</string>
+<string name="menu_storage_status">אחסון</string>
+<string name="operate_delete">מחק</string>
+<string name="operate_clear">נקה</string>
+<string name="operate_delete_file_ask">האם אתה בטוח שברצונך למחוק את %1$s?</string>
+<string name="operate_delete_file_succeed">הקובץ %1$s נמחק בהצלחה</string>
+<string name="operate_delete_file_failed">מחיקת הקובץ %1$s נכשלה</string>
+<string name="operate_viewdetails">מאפיינים</string>
+<string name="operate_viewdetails_date">תאריך: %1$s</string>
+<string name="operate_viewdetails_size">גודל:%1$s</string>
+<string name="operate_viewdetails_type_folder">סוג: תיקייה</string>
+<string name="operate_viewdetails_type_file">סוג: קובץ</string>
+<string name="operate_folder_attribute">כולל : %1$dקבצים, %2$d תיקיות n\גודל: %3$s </string>
+<string name="operate_rename">שנה שם</string>
+<string name="operate_rename_hint">נא להזין שם התיקייה החדש</string>
+<string name="operate_rename_succeed">"שינוי השם הסתיים בהצלחה"</string>
+<string name="operate_rename_failed">לא ניתן לשנות את שם הקובץ %1$s</string>
+<string name="operate_share">שתף</string>
+<string name="msg_file_input_empty">שם קובץ ריק</string>
+<string name="msg_file_input_repeat">השם %1$s כבר קיים ,אנא הכנס אחד אחר.</string>
+<string name="msg_folder_empty">התיקייה ריקה</string>
+<string name="msg_invalid_intent">המערכת אינה תומכת בקובץ מסוג זה</string>
+<string name="msg_issure_clear">לנקות את התיקייה הנוכחית?</string>
+<string name="bluetooth">Bluetooth</string>
+<string name="copying">העתקה, אנא המתן ...</string>
+<string name="clipboard_empty">הלוח ריק</string>
+<string name="text_exit_file_explore_title">יציאה</string>
+<string name="text_exit_file_explore_prompt">האם אתה בטוח שברצונך לצאת ?</string>
+<string name="common_text_ok">אישור</string>
+<string name="common_text_cancel">ביטול</string>
+<string name="common_text_paste">הדבק</string>
+<string-array name="copyfileWarning">
+<item>החלף</item>
+<item>לשמור את שניהם</item>
+</string-array>
+<string-array name="copydirWarning">
+<item>צרף</item>
+<item>החלף</item>
+<item>לשמור את שניהם</item>
+</string-array>
+<string name="file_option">אפשרויות קבצים</string>
+<string name="folder_option">אפשרויות תיקייה</string>
+<string name="file_detail">פרטים</string>
+<string name="caculating">גודל: חישוב ...</string>
+<string name="copy_finish">"ההעתקה הושלמה"</string>
+<string name="now_copying">העתקה, אנא המתן ...</string>
+<string name="delete_finish">הפעולה הושלמה</string>
+<string name="delete_fail">"לא ניתן היה למחוק את הקובץ <xliff:g id="NAME">%s</xliff:g>"</string>
+<string name="now_deleting">הסרה, אנא המתן ...</string>
+<string name="cancel_copy">"הפעולה בוטלה"</string>
+<string name="exist">הקובץ קיים</string>
+<string name="select_destination">"בחר מתוך"</string>
+<string name="empty_view_prompt">"תיקייה ריקה, אתם יכולים להעביר עוד מסמכים דרך מחשב או דרך האינטרנט."</string>
+<string name="fragment_search_key_hint">הקלד את המפתח שברצונך לחפש</string>
+<string name="fragment_search_location">חפש מיקום:</string>
+<string name="fragment_search_location_ex">חפש מיקום</string>
+<string name="fragment_search_type">סוג קובץ</string>
+<string name="fragment_search_result">תוצאת חיפוש</string>
+<string name="fragment_search_searching">מחפש...</string>
+<string name="fragment_search_noresult">לא נמצא שום דבר</string>
+<string name="common_text_other">אחר</string>
+<string name="common_text_search">חיפוש</string>
+<string name="fragment_search_invalid_result">הקובץ אינו מעודכן, אנא בדוק.</string>
+<string name="overview_menu_multiselect">בחר עוד</string>
+<string name="overview_menu_install_all">התקן את כל</string>
+<string name="overview_menu_install">התקן</string>
+<string name="overview_menu_delete">מחק</string>
+<string name="sort_by_name">לפי שם</string>
+<string name="sort_by_type">לפי סוג</string>
+<string name="sort_by_time_desc">לפי שעה (desc)</string>
+<string name="sort_by_time_asc">לפי שעה (asc)</string>
+<string name="sort_by_size_desc">לפי שם(desc)</string>
+<string name="sort_by_size_asc">לפי שם(asc)</string>
+<string-array name="sort_type">
+<item>שם</item>
+<item>הקלידו</item>
+<item>תאריך</item>
+<item>"גודל"</item>
+</string-array>
+<string name="sort_by_asc">"סדר עולה"</string>
+<string name="sort_by_desc">"סדר יורד"</string>
+<string name="display_setting">הגדרות תצוגה</string>
+<string name="hide_file_display">הצג קבצים חבויים</string>
+<string name="display_hide_file">הצג קבצים חבויים</string>
+<string name="operate_viewdetails_path">נתיב הקובץ:  %1$s</string>
+<string name="operate_viewdetails_canread">יכול לקרוא: כן</string>
+<string name="operate_viewdetails_can_not_read">יכול לקרוא: לא</string>
+<string name="operate_viewdetails_can_not_write">יכול לכתוב: לא</string>
+<string name="operate_viewdetails_can_write">יכול לכתוב: כן</string>
+<string name="operate_viewdetails_hide">להסתיר קובץ: כן</string>
+<string name="operate_viewdetails_not_hide">להסתיר קובץ: לא</string>
+<string name="select_text">בחירת קובץ</string>
+<string name="select_all">בחר הכול</string>
+<string name="unselect_all">בטל הכל</string>
+<string name="length_limited">השם הגיע עד האורך המקסימלי</string>
+<string name="cannot_copy_to_itself">אי אפשר להעתיק את הספרייה לתוך עצמה או לספריית משנה שלה</string>
+<string name="confirm_delete">"לאשר מחיקה?"</string>
+<string name="search_empty">אין טקסט בדף זה. אנא בדוק את ההקלדה שלך.</string>
+<string name="dialog_back">"חזור"</string>
+<string name="set_as">הגדר כ</string>
+<string name="invalid_char">שם הקובץ מכיל סמלים לא חוקים כמו  %s</string>
+<string name="invalid_char_of_filename">"שם הקובץ של קובץ המערכת <xliff:g id="SECTION">%s</xliff:g> מכיל תווים לא חוקיים כמו <xliff:g id="INVALIDCHAR">%s</xliff:g>"</string>
+<string name="no_enough_sapce">"אין מספיק מקום"</string>
+<string name="file_type_wrong">סוג הקובץ שגוי</string>
+<string name="failed_set_wallpaper">הגדרת טפט נכשלה</string>
+<string name="unsupport_type">סוג צלצול לא נתמך</string>
+<string name="now_moving">העברה, אנא המתן ...</string>
+<string name="now_calculate">"מחשב, אנא המתינו..."</string>
+<string name="badname_as_point">"אסור שהשם יכיל תווים כמו /,\\,. או .., שכן הדבר עשוי ליצור בלבול עם קבצי המערכת שלכם"</string>
+<string name="cut_filename_duplicate"> "לנתיב הנוכחי של הקובץ או תיקייה יש אותו שם, בבקשה תבחרו ספרייה מחדש!" </string>
+<string name="share_file_limited">"ההגבלה של הקובץ המשותף היא  %1$d"</string>
+<string name="install_apk_limited">"ההגבלה של התקנת חבילת יישומי אנדרואיד (APK) היא  %1$d"</string>
+<string name="now_cleared">"מפנה, בבקשה המתינו..."</string>
+<string name="not_replace">"לא ניתן להחליף מאחר שזהו אותו שם כמו התיקייה המכילה"</string>
+<string name="sdcard_had_unmounted">"קובץ ההפעלה אינו חוקי"</string>
+<string name="common_text_ignore">התעלם</string>
+<string name="cannot_copyfolder_itself">"אינכם יכולים להעתיק תיקייה לתוך עצמה"</string>
+<string name="cannot_cutfolder_itself">"אינכם יכולים להזיז תיקייה לתוך עצמה"</string>
+<string name="cannot_paste_reason">"תיקיית היעד נמצאת בתוך תיקיית המקור %s"</string>
+<string name="badname_endwith_point">"סוף שם התיקייה לא יכול להכיל נקודה (.)"</string>
+<string name="failed_option">"האפשרות נכשלה"</string>
+<string name="failed_query">"מאגר הנתונים לא יכול לזמן קובץ זה"</string>
+<string name="drm_consume_title">"צריכת זכויות DRM"</string>
+<string name="drm_consume_hint">"הפעולה שלכם תצרוך זכויות DRM"</string>
+<string name="drm_info">"נתוני הגנה"</string>
+<string name="drm_file_name">"שם הקובץ:  %1$s"</string>
+<string name="drm_rights_validity">"תוקף זכויות: תקף"</string>
+<string name="drm_rights_invalidity">"תוקף זכויות: לא תקף"</string>
+<string name="drm_rights_status_transfer">"מצב זכויות: מורשה להעברה"</string>
+<string name="drm_rights_status_untransfer">"מצב זכויות: לא מורשה להעברה"</string>
+<string name="drm_start_time">"זמן התחלה: %1$s"</string>
+<string name="drm_end_time">"זמן סיום: %1$s"</string>
+<string name="drm_expiration_time">"מועד פקיעת תוקף: %1$s"</string>
+<string name="drm_remain_times">"הפעמים הנותרות: %1$s"</string>
+<string name="drm_invalid_rights">"לקובץ זה אין רשיון תקף"</string>
+<string name="drm_invalid_select">"לא נבחר קובץ מוגבל, בבקשה בחרו בסוג קובץ אחר"</string>
+<string name="drm_invalid_copy">"קובץ מוגבל אינו מועתק"</string>
+<string name="drm_invalid_folder_copy">"התיקייה מכילה קבצים המוגבלים מפני העתקה"</string>
+<string name="drm_invalid_share">"קובץ מוגבל אינו משותף"</string>
+<string name="drm_unlimited_rights">"בלתי מוגבל"</string>
+<string name="drm_inactive_rights">"הזכויות מנוטרלות"</string>
+<string name="drm_unknow_rights">"לא ידוע"</string>
+<string name="drm_time_unit">"שנ\'"</string>
+<string name="drm_protect_viewdetails">"מידע אודות הגנה"</string>
+<string name="drm_no_application_open">"לא ניתן לפתוח את הקובץ"</string>
+    <string name="msg_folder_input_empty">שם התיקייה נותר ריק</string>
+     <string name="search_type_empty">"בבקשה בחרו את סוג הקובץ."</string>
+     <string name="invalid_char_of_foldername">"<xliff:g id="SECTION">%s</xliff:g> שם תיקיית קבצי המערכת מכיל תו לא חוקי דוגמת <xliff:g id="INVALIDCHAR">%s</xliff:g>"</string>
+     <string name="failed_select_event">בחרו רק 500 פריטים בפעולה זו.</string>
+     <string name="error_permissions">"האפליקציה זקוקה להרשאות קריטיות בשביל לפעול. בדוק את הגדרת ההרשאות."</string>
+     <string name="dialog_dismiss">"בטל"</string>
+     <string name="toast_fileexplorer_internal_error">"שגיאה פנימית אירעה בדפדפן הקבצים!"</string>
+
+    <string name="title_section_usbdisk">"דיסק USB"</string>
+     <string name="error_choose_drm_for_gallery">"לא ניתן להגדיר קובץ DRM להחליק מוסיקה, נא לבחור קובץ אחר"</string>
+</resources>

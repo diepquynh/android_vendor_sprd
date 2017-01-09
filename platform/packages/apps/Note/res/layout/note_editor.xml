@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/remain_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18sp"
+                android:singleLine="true"
+                android:textColor="@color/edit_time_color"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_note_date_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="18dp"
+                android:singleLine="true"
+                android:textColor="@color/edit_time_color"
+                android:textSize="14sp"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="8dp" >
+
+            <view
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/et_content"
+            style="?android:attr/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.sprd.note.NoteEditor$LinedEditText"
+            android:background="#00000000"
+            android:capitalize="sentences"
+            android:paddingLeft="18dp"
+            android:cursorVisible="true"
+            android:editable="true"
+            android:fadingEdge="vertical"
+            android:gravity="top|left"
+            android:imeOptions="actionDone"
+            android:scrollbars="vertical"
+            android:textColor="@color/black_in_note"
+            android:textCursorDrawable="@drawable/text_cursor"
+            android:textSize="18sp" />
+        </LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

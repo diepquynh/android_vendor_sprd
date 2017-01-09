@@ -1,0 +1,309 @@
+OS="LINUX"
+TMP_ROOT="/tmp"
+TXT_READER=more
+CAT_LOG=no
+
+HWPERF_FW_FILTER=""
+HWPERF_HOST_FILTER=""
+
+if [ x"$PVRHWPERF_TMP" != x ]; then
+  if [ -d "$PVRHWPERF_TMP" ]; then
+    TMP_ROOT="$PVRHWPERF_TMP"
+  fi
+fi
+
+if [ -x "/system/bin/logcat" ]; then
+  OS="ANDROID"
+  BIN_DIR=/system/vendor/bin
+  TMP_ROOT="/data/local/tmp"
+  TXT_READER=cat
+fi
+
+TLD_RET=
+EXEC_LINE=""
+H2J_NAME="hwperfbin2jsont"
+JSM_NAME="hwperfjsonmerge.py"
+
+if [ x"$OS" = xLINUX ]; then
+    PYTHON_BIN="`which \"python\"`"
+fi
+
+# FUNCTIONS FOR SAVING AND RESTORING STATE
+preserve_state() {
+  PVR_DBG_LEVEL_OLD="$PVRDebugLevel"
+
+  if [ x"$HWPERF_FW_FILTER" != x ] && [ -f $HWPERF_FW_FILTER_FILE ]; then
+    HWPERF_FW_FILTER_OLD=$(cat $HWPERF_FW_FILTER_FILE)
+  fi
+
+  if [ x"$HWPERF_HOST_FILTER" != x ] && [ -f $HWPERF_HOST_FILTER_FILE ]; then
+    HWPERF_HOST_FILTER_OLD=$(cat $HWPERF_HOST_FILTER_FILE)
+  fi
+}
+
+restore_state() {
+  export PVRDebugLevel=$PVR_DBG_LEVEL_OLD
+
+  if [ x"$HWPERF_FW_FILTER_OLD" != x ]; then
+    echo $HWPERF_FW_FILTER_OLD > $HWPERF_FW_FILTER_FILE
+  fi
+
+  if [ x"$HWPERF_HOST_FILTER_OLD" != x ]; then
+    echo $HWPERF_HOST_FILTER_OLD > $HWPERF_HOST_FILTER_FILE
+  fi
+}
+
+# PARAMETERS PARSING
+args="$@ dummy"
+next=
+skip_next="true"
+for argument in $args
+do
+  curr=$next
+  next=$argument
+
+  if [ "$skip_next" = "true" ]; then
+    skip_next="false"
+    continue
+  fi
+
+  case "$curr" in
+    -t)  EXEC_LINE=$H2J_NAME
+         OUT1_JSON_FILE_TMP="hwperf.json"
+         OUT1_JSON_FILE="./hwperf.json"
+         OUT2_JSON_FILE_TMP="hwperf_host.json"
+         OUT2_JSON_FILE="./hwperf_host.json"
+        ;;
+    -rt) EXEC_LINE="$H2J_NAME $ -raw"
+         OUT1_JSON_FILE_TMP="hwperf.raw.json"
+         OUT1_JSON_FILE="./hwperf.raw.json"
+         OUT2_JSON_FILE_TMP="hwperf_host.raw.json"
+         OUT2_JSON_FILE="./hwperf_host.raw.json"
+        ;;
+    -m) OUT_JSON_MERGE_FILE_TMP="hwperf_merge.json"
+        OUT_JSON_MERGE_FILE="./hwperf_merge.json"
+        ;;
+    -c)  CAT_LOG=yes ;;
+    -h)  echo "+-----------------------------------------------------------------------------+"
+         echo "| pvrhwperf : run pvrtld (Transport Layer Daemon) for gathering HWPerf data"
+         echo "+-----------------------------------------------------------------------------+"
+         echo "| Usage:"
+         echo "|     -t  : Call hwperfbin2jsont (if present), to process the generated "
+         echo "|           *.bin output files, after pvrtld end."
+         echo "|     -rt : Call hwperfbin2jsont, adding the -raw parameter, to process the "
+         echo "|           generated *.bin output files, after pvrtld end."
+         if [ x"$PYTHON_BIN" != x ]; then
+            echo "|     -m  : Call hwperfjsonmerge.py (if present), to merge generated *.json"
+            echo "|           files."
+         fi
+         echo "|     -c  : Prints the log file to the std output just after pvrtld execution."
+         echo "|     -h  : Print this message."
+         echo "|     -fw FILTER   : Allows to set FW filter value (original value is restored"
+         echo "|                    on script finish)."
+         echo "|     -host FILTER : Allows to set Host filter value (original value is"
+         echo "|                    restored on script finish)."
+         echo "+-----------------------------------------------------------------------------+"
+         exit 0
+        ;;
+    -fw) HWPERF_FW_FILTER=$next
+         skip_next="true"
+        ;;
+    -host) HWPERF_HOST_FILTER=$next
+         skip_next="true"
+        ;;
+    *)  echo "[Error] Argument '$curr' not recognized."
+        echo "        Run '$0 -h' for more information."; exit 1 ;;
+  esac
+done
+
+
+# ENVIRONMENT CHECK
+if [ x"$OS" = xANDROID ]; then
+  TLD_BIN="$BIN_DIR/pvrtld"
+  H2J_BIN="$BIN_DIR/$H2J_NAME"
+else
+  TLD_BIN="`which \"pvrtld\"`"
+  H2J_BIN="`which \"$H2J_NAME\"`"
+  JSM_BIN="`which \"$JSM_NAME\"`"
+fi
+
+if [ ! -f "$TLD_BIN" ]; then
+  echo "[Error] pvrtld not found"
+  exit 1
+fi
+
+if [ x"$EXEC_LINE" != x ]; then
+  if [ ! -f "$H2J_BIN" ]; then
+    echo "[Error] hwperfbin2jsont not found"
+    exit 1
+  fi
+fi
+
+# ENVIRONMENT VARIABLES
+WORK_DIR="$TMP_ROOT/hwperf/`date +%s`"
+OUT1_JSON_FILE_TMP="$WORK_DIR/$OUT1_JSON_FILE_TMP"
+OUT2_JSON_FILE_TMP="$WORK_DIR/$OUT2_JSON_FILE_TMP"
+OUT_JSON_MERGE_FILE_TMP="$WORK_DIR/$OUT_JSON_MERGE_FILE_TMP"
+CFG_FILE=$WORK_DIR/"tld.conf"
+LOG_FILE=$WORK_DIR/"tld.log"
+OUT1_FILE_TMP=$WORK_DIR/"hwperf.bin"
+OUT2_FILE_TMP=$WORK_DIR/"hwperf_host.bin"
+OUT1_FILE="./hwperf.bin"
+OUT2_FILE="./hwperf_host.bin"
+HWPERF_FW_FILTER_FILE="/sys/kernel/debug/pvr/apphint/HWPerfFWFilter"
+HWPERF_HOST_FILTER_FILE="/sys/kernel/debug/pvr/apphint/HWPerfHostFilter"
+
+preserve_state
+
+export PVRDebugLevel=0x00
+
+if [ x"$HWPERF_FW_FILTER" != x ] || [ x"$HWPERF_HOST_FILTER" != x ]; then
+  if [ x"$OS" = xANDROID ]; then
+    USERID=$USER_ID
+  else
+    USERID=`id -u`
+  fi
+
+  # root privileges are needed to set filters - return error if executed
+  # as regular user
+  if [ "$USERID" != "0" ]; then
+    echo "[Error] This script needs to be executed with root privileges"
+    restore_state
+    exit 1
+  fi
+
+  if [ x"$HWPERF_FW_FILTER" != x ]; then
+    if [ ! -f $HWPERF_FW_FILTER_FILE ]; then
+      echo "[Error] Could not set HW performance events filter"
+      restore_state
+      exit 1
+    fi
+
+    echo $HWPERF_FW_FILTER > $HWPERF_FW_FILTER_FILE 2>/dev/null
+    if [ $? != 0 ]; then
+      echo "[Error] Failed to set HW performance filter"
+      echo "        Check if the parameteres passed to the script are valid"
+      restore_state
+      exit 1
+    fi
+  fi
+  if [ x"$HWPERF_HOST_FILTER" != x ]; then
+    if [ ! -f $HWPERF_HOST_FILTER_FILE ]; then
+      echo "[Error] Could not set host events filter"
+      restore_state
+      exit 1
+    fi
+
+    echo $HWPERF_HOST_FILTER > $HWPERF_HOST_FILTER_FILE
+    if [ $? != 0 ]; then
+      echo "[Error] Failed to set host events filter"
+      echo "        Check if the parameteres passed to the script are valid"
+      restore_state
+      exit 1
+    fi
+  fi
+fi
+
+# ENVIRONMENT SETUP
+# - Create working directory
+mkdir -p $WORK_DIR
+
+# - Create configuration file
+echo "
+[pvrtld]
+output_folder_name=$WORK_DIR
+omit_header=yes
+output_file_save_previous=yes
+
+[hwperf]
+enabled=yes
+wait_for_stream=yes" > $CFG_FILE
+
+# - Add the post processing command if the tool exists
+if [ x"$H2J_BIN" = x ] || [ x"$EXEC_LINE" = x ]; then
+echo "" >> $CFG_FILE
+else
+echo "exec=\"$EXEC_LINE\"" >> $CFG_FILE
+fi
+
+echo "
+[hwperf_host]
+enabled=yes
+wait_for_stream=yes" >> $CFG_FILE
+
+# - Add the post processing command if the tool exists
+if [ x"$H2J_BIN" = x ] || [ x"$EXEC_LINE" = x ]; then
+echo "" >> $CFG_FILE
+else
+echo "exec=\"$EXEC_LINE\"" >> $CFG_FILE
+fi
+
+# EXECUTION
+echo "+-----------------------------------------------------------------------------+"
+echo "| Starting capture of HWPerf data..."
+echo "+-----------------------------------------------------------------------------+"
+echo "| Using these temporary files:"
+echo "| - TLDaemon configuration file:     $CFG_FILE"
+echo "| - TLDaemon log file:               $LOG_FILE"
+echo "| - HWPerf binary file:              $OUT1_FILE_TMP"
+echo "| - HWPerfHost binary file:          $OUT2_FILE_TMP"
+if [ x"$H2J_BIN" = x ] || [ x"$EXEC_LINE" = x ]; then
+  echo "| - No JSON output selected"
+else
+  echo "| - HWPerf raw json file:            $OUT1_JSON_FILE_TMP"
+  echo "| - HWPerfHost raw json file:        $OUT2_JSON_FILE_TMP"
+  if [ x"$JSM_BIN" != x ] && [ x"$PYTHON_BIN" != x ] && [ x"$OUT_JSON_MERGE_FILE" != x ]; then
+    echo "| - HWPerf merged json file:         $OUT_JSON_MERGE_FILE_TMP"
+  fi
+  echo "| - JSON conversion log file:        $LOG_FILE"
+fi
+echo "+-----------------------------------------------------------------------------+"
+
+$TLD_BIN -f=$CFG_FILE -q -s 2> $LOG_FILE
+TLD_RET=$?
+
+# LAST MESSAGES
+if [ "$TLD_RET" -ne "0" ]; then
+  echo "+-----------------------------------------------------------------------------+"
+  echo "| Capture process exited with error code $TLD_RET"
+elif [ -f $OUT1_FILE_TMP ] || [ -f $OUT2_FILE_TMP ]; then
+  if [ x"$JSM_BIN" != x ] && [ x"$PYTHON_BIN" != x ] && [ x"$OUT_JSON_MERGE_FILE" != x ]; then
+    echo "+-----------------------------------------------------------------------------+"
+    echo "| Merging JSON files..."
+    echo "+-----------------------------------------------------------------------------+"
+    $PYTHON_BIN $JSM_BIN -d $WORK_DIR -o $OUT_JSON_MERGE_FILE_TMP
+  fi
+  echo "+-----------------------------------------------------------------------------+"
+  echo "| Data captured, files moved to CWD."
+  if [ -f $OUT1_FILE_TMP ]; then
+    mv $OUT1_FILE_TMP $OUT1_FILE
+    if [ -f $OUT1_JSON_FILE_TMP ]; then
+      mv $OUT1_JSON_FILE_TMP $OUT1_JSON_FILE
+    fi
+  fi
+  if [ -f $OUT2_FILE_TMP ]; then
+    mv $OUT2_FILE_TMP $OUT2_FILE
+    if [ -f $OUT2_JSON_FILE_TMP ]; then
+      mv $OUT2_JSON_FILE_TMP $OUT2_JSON_FILE
+    fi
+  fi
+  if [ -f $OUT_JSON_MERGE_FILE_TMP ]; then
+    mv $OUT_JSON_MERGE_FILE_TMP $OUT_JSON_MERGE_FILE
+  fi
+else
+  echo "+-----------------------------------------------------------------------------+"
+  echo "| No data captured, binary files do not exist."
+fi
+
+# Give time for the Log file to be flushed to disk
+sync
+if [ "$CAT_LOG" = "yes" ]; then
+  echo "+-----------------------------------------------------------------------------+"
+  echo "| TLDaemon debug log file..."
+  echo "| $TXT_READER $LOG_FILE"
+  echo "+-----------------------------------------------------------------------------+"
+  $TXT_READER $LOG_FILE
+fi
+echo "+-----------------------------------------------------------------------------+"
+
+restore_state

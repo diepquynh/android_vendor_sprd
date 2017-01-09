@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <carrier_config>
+        <int name="maxImageHeight" value="1944"/>
+        <int name="maxMessageSize" value="614400"/>
+        <int name="maxImageWidth" value="2592"/>
+    </carrier_config>
+    <carrier_config>
+        <string name="vmnumber">133</string>
+        <string name="roamingvm">+46706133133</string>
+    </carrier_config>
+    <carrier_config spn="halebop">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Halebop</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

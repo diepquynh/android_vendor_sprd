@@ -1,0 +1,1524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="fileSizeSuffix">"<xliff:g id="number" example="123">%1$s</xliff:g> <xliff:g id="unit" example="KB">%2$s</xliff:g>"</string>
+<string name="durationDays">"<xliff:g id="days">%1$d</xliff:g> ရက္"</string>
+<string name="durationDayHours">"<xliff:g id="days">%1$d</xliff:g> ရက္<xliff:g id="hours">%2$d</xliff:g> နာရီမ်ား"</string>
+<string name="durationDayHour">"<xliff:g id="days">%1$d</xliff:g> ရက္<xliff:g id="hours">%2$d</xliff:g> နာရီ"</string>
+<string name="durationHours">"<xliff:g id="hours">%1$d</xliff:g> နာရီ"</string>
+<string name="durationHourMinutes">"<xliff:g id="hours">%1$d</xliff:g> နာရီ<xliff:g id="minutes">%2$d</xliff:g> မိနစ္"</string>
+<string name="durationHourMinute">"<xliff:g id="hours">%1$d</xliff:g> နာရီ<xliff:g id="minutes">%2$d</xliff:g> မိနစ္"</string>
+<string name="durationMinutes">"<xliff:g id="minutes">%1$d</xliff:g> မိနစ္"</string>
+<string name="durationMinute">"<xliff:g id="minutes">%1$d</xliff:g> မိနစ္"</string>
+<string name="durationMinuteSeconds">"<xliff:g id="minutes">%1$d</xliff:g> မိနစ္<xliff:g id="seconds">%2$d</xliff:g> စကၠန္႕"</string>
+<string name="durationMinuteSecond">"<xliff:g id="minutes">%1$d</xliff:g> မိနစ္<xliff:g id="seconds">%2$d</xliff:g> စကၠန္႕"</string>
+<string name="durationSeconds">"<xliff:g id="seconds">%1$d</xliff:g> စကၠန္႕မ်ား"</string>
+<string name="durationSecond">"<xliff:g id="seconds">%1$d</xliff:g> စကၠန္႕"</string>
+<string name="untitled">"&lt;ခါင္းစဥ္မရွိ&gt;"</string>
+<string name="emptyPhoneNumber">"(ဖုန္းနံပါတ္မပါ)"</string>
+<string name="unknownName">"မသိ"</string>
+<string name="defaultVoiceMailAlphaTag">"အသံေမးလ္"</string>
+<string name="mmiError">"ခ်ိတ္ဆက္မႈျပႆနာ သို႔မဟုတ္ အသံုးမ႐ွိေသာ MMI ကုဒ္။"</string>
+<string name="mmiFdnError">"လုပ္ေဆာင္ခ်က္အား ပံုေသေခၚဆိုမႈနံပါတ္မ်ားသာ ကန္႔သတ္ထားသည္"</string>
+<string name="serviceEnabled">"ဝန္ေဆာင္မႈအား ဖြင့္ထားျပီး။"</string>
+<string name="serviceEnabledFor">"ဝန္ေဆာင္မႈအား ဖြင့္ထားသည္မွာ:"</string>
+<string name="serviceDisabled">"ဝန္ေဆာင္မႈအား ပိတ္ထားျပီး။"</string>
+<string name="serviceRegistered">"မွတ္ပံုတင္ျခင္းေအာင္ျမင္။"</string>
+<string name="serviceErased">"ဖ်က္ျခင္းေအာင္ျမင္"</string>
+<string name="passwordIncorrect">"စကားဝွက္ မမွန္ကန္ပါ"</string>
+<string name="mmiComplete">"MMI ျပီးဆံုး။"</string>
+<string name="badPin">"သင္႐ိုက္ထားသည့္ PIN အေဟာင္းမွာ မမွန္ကန္ပါ။"</string>
+<string name="badPuk">"သင္႐ိုက္ထားသည့္ PUK မွာ မမွန္ကန္ပါ။"</string>
+<string name="mismatchPin">"သင္ေရးသြင္းသည့္ PIN မွာ မကိုက္ညီပါ။"</string>
+<string name="invalidPin">"ဂဏန္း 4လံုး မွ 8လံုး ထိရွိေသာ PIN ကို႐ိုက္ပါ"</string>
+<string name="invalidPuk">"ဂဏန္း 8 လံုး သို႔မဟုတ္ ယင္းႏွင့္အထက္ PUK ကို ႐ိုက္ပါ။"</string>
+<string name="needPuk">"သင့္ SIM ကဒ္မွာ PUK ေသာ့ခတ္ထားသည္။ ေသာ့ဖြင့္ရန္ PUK ကုဒ္ကို ႐ိုက္ပါ။"</string>
+<string name="needPuk2">"SIM ကဒ္ မကန္ ့သတ္ရန္ PUK2 ရိုက္ပါ ."</string>
+<string name="enablePin">"မေအာင္ျမင္,SIM/RUIM ေလာ့ခ္ဖြင့္ပါ."</string>
+<plurals name="pinpuk_attempts">
+<item quantity="one">" <xliff:g id="number">%d</xliff:g>ၾကိမ္ ၾကိဳးစားအားထုတ္ႏိုင္ေသးသည္ ."</item>
+<item quantity="other">"SIM ေလာ့ခ္ မက်ခင္ <xliff:g id="number">%d</xliff:g>ၾကိမ္ ၾကိဳးစားအားထုတ္ႏိုင္ေသးသည္ ."</item>
+</plurals>
+<string name="ClipMmi">"အဝင္ဖုန္းေခၚဆိုသူ ID"</string>
+<string name="ClirMmi">"အထြက္ဖုန္းေခၚဆိုသူ ID"</string>
+<string name="ColpMmi">"ခ်ိတ္ဆက္ထားေသာ လုိင္း ID"</string>
+<string name="ColrMmi">"ခ်ိတ္ဆက္ထားေသာ လုိင္း ID ကန္႕သတ္ခ်က္"</string>
+<string name="CfMmi">"လိုင္းလႊဲေနသည္"</string>
+<string name="CwMmi">"ေခၚဆိုမႈေစာင့္ဆိုင္းေနသည္"</string>
+<string name="BaMmi">"ေခၚဆိုမႈတားျမစ္ထားျခင္း"</string>
+<string name="PwdMmi">"စကားဝွက္ေျပာင္းျခင္း"</string>
+<string name="PinMmi">"PIN ေျပာင္းလဲပါ"</string>
+<string name="CnipMmi">"လက္ရွိ ေခၚဆုိမႈနံပါတ္"</string>
+<string name="CnirMmi">"ေခၚဆိုမႈနံပါတ္ကန္႔သတ္ထား"</string>
+<string name="ThreeWCMmi">"လူသံုးဦးတစ္ျပိဳင္နက္ဖုန္းေခၚဆိုျခင္း"</string>
+<string name="RuacMmi">"မလိုလားေသာ စိတ္အေႏွာက္အယွက္ျဖစ္ဖြယ္ ဖုန္းေခၚဆိုမႈမ်ားကို ပယ္ခ်ျခင္း"</string>
+<string name="CndMmi">"နံပါတ္ေခၚဆိုျပီးေၾကာင္း သတင္းေပးပို႔ခ်က္"</string>
+<string name="DndMmi">"မေႏွာက္ယွက္ပါႏွင့္"</string>
+<string name="CLIRDefaultOnNextCallOn">"ေခၚဆိုသူ ID မူရင္းပံုစံမ်ားအား ကန္႔သတ္ထားသည္။ ေနာက္ထပ္ဖုန္းေခၚဆိုမႈ: ကန္႔သတ္ထားသည္"</string>
+<string name="CLIRDefaultOnNextCallOff">"ေခၚဆိုသူ ID မူရင္းပံုစံမ်ားအား ကန္႔သတ္ထားသည္။ ေနာက္ထပ္ဖုန္းေခၚဆိုမႈ: မကန္႔သတ္ထားပါ"</string>
+<string name="CLIRDefaultOffNextCallOn">"ေခၚဆိုသူ ID မူရင္းပံုစံမ်ားအား မကန္႔သတ္ထားပါ။ ေနာက္ထပ္ဖုန္းေခၚဆိုမႈ: ကန္႔သတ္ထားသည္"</string>
+<string name="CLIRDefaultOffNextCallOff">"ေခၚဆိုသူ ID မူရင္းပံုစံမ်ားအား မကန္႔သတ္ထားပါ။ ေနာက္ထပ္ဖုန္းေခၚဆိုမႈ: မကန္႔သတ္ထားပါ"</string>
+<string name="serviceNotProvisioned">"ဝန္ေဆာင္မႈအား အေထာက္အပံ့မေပးပါ။"</string>
+<string name="CLIRPermanent">"ေခၚဆိုသူ ID ဆက္တင္အား ေျပာင္းလဲ၍မရပါ။"</string>
+<string name="RestrictedOnData">"ေဒတာဝန္ေဆာင္မႈကို ပိတ္ဆို႔ထားသည္။"</string>
+<string name="RestrictedOnEmergency">"အေရးေပၚဝန္ေဆာင္မႈအား ပိတ္ဆို႔ထားျပီးျဖစ္သည္။"</string>
+<string name="RestrictedOnNormal">"အသံဝန္ေဆာင္မႈအား ပိတ္ဆို႔ထားျပီး။"</string>
+<string name="RestrictedOnAllVoice">"အသံဝန္ေဆာင္မႈအားလံုးအား ပိတ္ဆို႔ျပီးျဖစ္သည္။"</string>
+<string name="RestrictedOnSms">"SMS ဝန္ေဆာင္မႈအား ပိတ္ဆို႔ထားသည္။"</string>
+<string name="RestrictedOnVoiceData">"အသံ/ေဒတာဝန္ေဆာင္မႈမ်ားအား ပိတ္ဆို႔ထားျပီး။"</string>
+<string name="RestrictedOnVoiceSms">"အသံ/SMS ဝန္ေဆာင္မႈမ်ားအား ပိတ္ဆို႔ထားျပီး။"</string>
+<string name="RestrictedOnAll">"အသံ/ေဒတာ/SMS ဝန္ေဆာင္မႈအားလံုးကို ပိတ္ဆို႔ျပီးျဖစ္သည္။"</string>
+<string name="peerTtyModeFull">"ပံုစံတူ ေတာင္းဆိုျပီး TTY မုတ္ FULL"</string>
+<string name="peerTtyModeHco">"ပံုစံတူ ေတာင္းဆိုျပီး TTY မုတ္ HCO"</string>
+<string name="peerTtyModeVco">"ပံုစံတူ ေတာင္းဆိုျပီး TTY မုတ္ VCO"</string>
+<string name="peerTtyModeOff">"ပံုစံတူ ေတာင္းဆိုျပီး TTY မုတ္ OFF"</string>
+<string name="serviceClassVoice">"အသံ"</string>
+<string name="serviceClassData">"ေဒတာ"</string>
+<string name="serviceClassFAX">"ဖက္စ္"</string>
+<string name="serviceClassSMS">"SMS"</string>
+<string name="serviceClassDataAsync">"Async"</string>
+<string name="serviceClassDataSync">"ကို sync လုပ္ပါ"</string>
+<string name="serviceClassPacket">"ပက္ေက့ခ်္အစု"</string>
+<string name="roamingText0">"ျပင္ပကြန္ယက္သို႔ဝင္ေရာက္ျခင္းအခ်က္ျပခ်က္ ဖြင့္ပါ"</string>
+<string name="roamingText1">"ျပင္ပကြန္ယက္သို႔ဝင္ေရာက္ျခင္းအခ်က္ျပခ်က္ ပိတ္ပါ"</string>
+<string name="roamingText2">"ျပင္ပကြန္ယက္သို႔ဝင္ေရာက္ျခင္းအခ်က္ျပခ်က္ လက္ေနသည္"</string>
+<string name="roamingText3">"အနီးအနား ျပင္ပ"</string>
+<string name="roamingText4">"အေဆာက္အအံုျပင္ပ"</string>
+<string name="roamingText5">"ျပင္ပကြန္ယက္သို႔ဝင္ေရာက္ျခင္း - ႏွစ္သက္ရာစနစ္"</string>
+<string name="roamingText6">"ျပင္ပကြန္ယက္သို႔ဝင္ေရာက္ျခင္း - ရႏိုင္ေသာစနစ္"</string>
+<string name="roamingText7">"ျပင္ပကြန္ယက္သို႔ဝင္ေရာက္ျခင္း - မိတ္ဖက္ပါတနာ"</string>
+<string name="roamingText8">"ျပင္ပကြန္ယက္သို႔ဝင္ေရာက္ျခင္း - ပရီမီယမ္ပါတနာ"</string>
+<string name="roamingText9">"ျပင္ပကြန္ယက္သို႔ဝင္ေရာက္ျခင္း - ဝန္ေဆာင္မႈအျပည့္အဝစြမ္းေဆာင္ခ်က္"</string>
+<string name="roamingText10">"ျပင္ပကြန္ယက္သို႔ဝင္ေရာက္ျခင္း - ဝန္ေဆာင္မႈတစ္စိတ္တစ္ေဒသစြမ္းေဆာင္ခ်က္"</string>
+<string name="roamingText11">"ျပင္ပကြန္ယက္သို႔ဝင္ေရာက္ျခင္း ေခါင္းစီးစာတန္း ဖြင့္ပါ"</string>
+<string name="roamingText12">"ျပင္ပကြန္ယက္သို႔ဝင္ေရာက္ျခင္း ေခါင္းစီးစာတန္း ပိတ္ပါ"</string>
+<string name="roamingTextSearching">"ဝန္ေဆာင္မႈ႐ွာေနဆဲ"</string>
+<string name="wfcRegErrorTitle">"Wi-Fi ဖုန္းေခၚရန္"</string>
+<string-array name="wfcOperatorErrorAlertMessages">
+<item>"Wi-Fi မွ ဖုန္း နွင့္ မက္ေဆ့ခ်္မ်ား ပို ့ပါ, ဤ၀န္ေဆာင္မွဳကို ဆက္တင္လုပ္ရန္ ဦးဆံုး ကယ္ရီယာကို ေမးပါ. ထို ့ေနာက္ ဆက္တင္မ်ားမွ Wi-Fi ဖြင့္ျပီး ထပ္ေခၚပါ."</item>
+</string-array>
+<string-array name="wfcOperatorErrorNotificationMessages">
+<item>"ကယ္ရီယာနွင့္ မွတ္ပံုတင္ပါ"</item>
+</string-array>
+<string-array name="wfcSpnFormats">
+<item>"%s"</item>
+<item>"%s Wi-Fi ဖုန္းေခၚဆိုမွဳ"</item>
+</string-array>
+<string name="wifi_calling_off_summary">ပိတ္သည္</string>
+<string name="wfc_mode_wifi_preferred_summary">"Wi-Fi ဦးစားေပး"</string>
+<string name="wfc_mode_cellular_preferred_summary">"ဆဲလ္ ဦးစားေပး"</string>
+<string name="wfc_mode_wifi_only_summary">"Wi-Fi သာလွ်င္"</string>
+<string name="cfTemplateNotForwarded">"<xliff:g id="bearer_service_code">{0}</xliff:g>: လက္ဆင့္မကမ္းရေသး။"</string>
+<string name="cfTemplateForwarded">"<xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g>"</string>
+<string name="cfTemplateForwardedTime">"<xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g> ျပီးေနာက္ <xliff:g id="time_delay">{2}</xliff:g> စကၠန္႔"</string>
+<string name="cfTemplateRegistered">"<xliff:g id="bearer_service_code">{0}</xliff:g>: လက္ဆင့္မကမ္းရေသး။"</string>
+<string name="cfTemplateRegisteredTime">"<xliff:g id="bearer_service_code">{0}</xliff:g>: လက္ဆင့္မကမ္းရေသး။"</string>
+<string name="fcComplete">"အဆင္အျပင္ကုဒ္ျပည့္စံုေအာင္။"</string>
+<string name="fcError">"ခ်ိတ္ဆက္မႈျပႆနာ သို႔မဟုတ္ အသံုးမ႐ွိေသာ အဆင္အျပင္ကုဒ္။"</string>
+<string name="httpErrorOk">"အိုေက"</string>
+<string name="httpError">"ကြန္ယက္အမွားျဖစ္ေပၚသြားသည္။"</string>
+<string name="httpErrorLookup">"URL႐ွာမေတြ႔ပါ။"</string>
+<string name="httpErrorUnsupportedAuthScheme">"ဆိုဒ္စစ္မွန္ေၾကာင္းတရားဝင္အေထာက္အထားျပခ်က္အစီအစဥ္အား အေထာက္အပံ့မေပးပါ။"</string>
+<string name="httpErrorAuth">"တရားဝင္အေထာက္အထားသက္ေသျပဳခ်က္မွာ မေအာင္ျမင္ပါ။"</string>
+<string name="httpErrorProxyAuth">"ပေရာက္ဆီ ဆာဗာမွတစ္ဆင့္ တရားဝင္အေထာက္အထားသက္ေသျပဳခ်က္မွာ မေအာင္ျမင္ပါ၊"</string>
+<string name="httpErrorConnect">"ဆာဗာသို႔ခ်ိတ္ဆက္၍မရပါ။"</string>
+<string name="httpErrorIO">"ဆာဗာသို႔ ဆက္သြယ္၍မရပါ။ ေနာက္မွတစ္ဖန္ျပန္ၾကိဳးစားၾကည့္ပါ။"</string>
+<string name="httpErrorTimeout">"ဆာဗာသို႔ခ်ိတ္ဆက္သည့္အခ်ိန္ျပည့္သြားျပီျဖစ္သည္။"</string>
+<string name="httpErrorRedirectLoop">"စာမ်က္ႏွာတြင္ ဆာဗာျပန္လည္ညႊန္းဆိုခ်က္အမ်ားအျပားပါဝင္ေနသည္။"</string>
+<string name="httpErrorUnsupportedScheme">"ပ႐ိုတုိေကာလ္အား အေထာက္အပံ့မေပးပါ။"</string>
+<string name="httpErrorFailedSslHandshake">"လံုျခံဳစိတ္ခ်ရေသာ ခ်ိတ္ဆက္မႈအား အေကာင္အထည္မေဖာ္ႏိုင္ပါ။"</string>
+<string name="httpErrorBadUrl">"ဝက္ဘ္ဆိုဒ္ URL က်ိဳးေၾကာင္းညီညြတ္မႈမ႐ွိသျဖင့္ စာမ်က္ႏွာအား ဖြင့္၍မရပါ။"</string>
+<string name="httpErrorFile">"ဖိုင္သုိ႔ ဝင္ေရာက္၍မရပါ။"</string>
+<string name="httpErrorFileNotFound">"ေတာင္းဆိုထားေသာဖိုင္အား ႐ွာမေတြ႔ပါ။"</string>
+<string name="httpErrorTooManyRequests">"ေတာင္းဆိုခ်က္အေျမာက္အျမားကို လုပ္ေဆာင္ေနဆဲျဖစ္သည္။ ေနာက္မွတစ္ဖန္ ၾကိဳးစားၾကည့္ပါ။"</string>
+<string name="notification_title">"<xliff:g id="account" example="foo@gmail.com">%1$s</xliff:g>အတြက္ ဆုိင္းအင္ဝင္ေရာက္မႈ အမွား"</string>
+<string name="contentServiceSync">"ကို sync လုပ္ပါ"</string>
+<string name="contentServiceSyncNotificationTitle">"ကို sync လုပ္ပါ"</string>
+<string name="contentServiceTooManyDeletesNotificationDesc">"<xliff:g id="content_type">%s</xliff:g> ဖ်က္ထားခ်က္မ်ား မ်ားလြန္းေနသည္။"</string>
+<string name="low_memory" product="tablet">"တက္ဘလက္သိုေလွာင္မႈျပည့္ေနျပီ! ေနရာလြတ္ျပဳလုပ္ရန္ အခ်ိဳ႕ဖုိင္မ်ားကို ဖ်က္ပါ။"</string>
+<string name="low_memory" product="watch">"နာရီ သုိေလွာင္ခန္း ျပည့္ေနပါၿပီ။ ေနရာလြတ္ရရန္ ဖုိင္အခ်ိဳ႕ကုိ ဖ်က္ပစ္ပါ။"</string>
+<string name="low_memory" product="tv">"TV သိုေလွာင္ခန္းျပည့္ျပီ. ေနရာလပ္အတြက္ တစ္ခ်ိဳ ့ဖိုင္မ်ား ပယ္ဖ်က္ပါ."</string>
+<string name="low_memory" product="default">"ဖုန္းသိုေလွာင္မႈျပည့္ေနျပီ! ေနရာလြတ္ျပဳလုပ္ရန္ အခ်ိဳ႕ဖိုင္မ်ားကို ဖ်က္ပါ။"</string>
+<plurals name="ssl_ca_cert_warning">
+<item quantity="one">"ေထာက္ခံခ်က္ လုပ္ပိုင္ခြင့္ သြင္းထား"</item>
+<item quantity="other">"ေထာက္ခံခ်က္ လုပ္ပိုင္ခြင့္မ်ား သြင္းထား"</item>
+</plurals>
+<string name="ssl_ca_cert_noti_by_unknown">"မသိသည့္တတိယပါတီမွ"</string>
+<string name="ssl_ca_cert_noti_by_administrator">"သင့္ လုပ္ငန္း ပရိုဖိုင္း ထိန္းခ်ဳပ္သူ ျဖင့္"</string>
+<string name="ssl_ca_cert_noti_managed">" <xliff:g id="managing_domain">%s</xliff:g>ဖင့္"</string>
+<string name="work_profile_deleted">"လုပ္ငန္း ပရိုဖိုင္း ပယ္ဖ်က္ျပီး"</string>
+<string name="work_profile_deleted_description">"လုပ္ငန္း ပရိုဖိုင္း ပယ္ဖ်က္ျပီး စီမံ ေအပီပီ ေပ်ာက္ဆံုး ေသာေျကာင့္."</string>
+<string name="work_profile_deleted_details">"လုပ္ငန္း ပရိုဖိုင္း ထိန္းခ်ဳပ္ ေအပီပီ ေပ်ာက္ဆံုးေန (သို ့) ထပ္ေန. ရလဒ္အရ, သင့္ လုပ္ငန္း ပရီုဖိုင္း နွင့္ သက္ဆိုင္ရာေဒတာတို ့ပယ္ဖ်က္ျပီး. အကူအတြက္ သင့္ ထိန္းခ်ဳပ္သူ ဆက္သြယ္ပါ."</string>
+<string name="work_profile_deleted_description_dpm_wipe">"ဤ စက္တြင္ လုပ္ငန္း ပရိုဖိုင္း အခ်ိန္ျကာျကာ မေထာက္ပံ့."</string>
+<string name="factory_reset_warning">"သင့္ စက္ ဖ်က္လိမ့္မည္"</string>
+<string name="factory_reset_message">ထိန္းခ်ဳပ္ ေအပီပီ ေပ်ာက္ဆံုးေန (သို ့) ထပ္ေန, သံုးမရနိုင္. သင့္ စက္ ယခု ဖ်က္ျပီး. အကူအတြက္ သင့္ ထိန္းခ်ဳပ္သူ ဆက္သြယ္ပါ."</string>
+<string name="me">"ကၽြႏု္ပ္"</string>
+<string name="power_dialog" product="tablet">"တက္ဘလက္ေ႐ြးခ်ယ္စရာမ်ား"</string>
+<string name="power_dialog" product="tv">"TV ေရြးခ်ယ္စရာမ်ား"</string>
+<string name="power_dialog" product="default">"ဖုန္း ေ႐ြးခ်ယ္စရာမ်ား"</string>
+<string name="silent_mode">"အသံေဖ်ာက္ထားသည့္ပံုစံ"</string>
+<string name="turn_on_radio">"ၾကိဳးမဲကြန္ယက္ဖြင့္ပါ"</string>
+<string name="turn_off_radio">"ၾကိဳးမဲ့ကြန္ယက္ပိတ္ပါ"</string>
+<string name="screen_lock">"ဖန္သားျပင္ေသာ့"</string>
+<string name="power_off">ပါဝါပိတ္ပါ</string>
+<string name="silent_mode_silent">"ဖုန္းျမည္သံ ပိတ္သည္"</string>
+<string name="silent_mode_vibrate">"တုန္ခါဖုန္းျမည္သံ"</string>
+<string name="silent_mode_ring">"ဖုန္းျမည္သံ ဖြင့္သည္"</string>
+<string name="reboot_to_update_title">"အန္းဒရိုက္ စနစ္ အပ္ဒိတ္"</string>
+<string name="reboot_to_update_prepare">"အပ္ဒိတ္ရန္ ျပင္ဆင္ေန\u2026"</string>
+<string name="reboot_to_update_package">"အပ္ဒိတ္ ပက္ေက့ခ်္ ပေရာစက္လုပ္ေန\u2026"</string>
+<string name="reboot_to_update_reboot">"ျပန္စတင္ေန\u2026"</string>
+<string name="reboot_to_reset_title">"မူလေဒတာ ျပန္သတ္မွတ္"</string>
+<string name="reboot_to_reset_message">"ျပန္စတင္ေန\u2026"</string>
+<string name="shutdown_progress">"ပိတ္ေနသည္\u2026"</string>
+<string name="shutdown_confirm" product="tablet">"သင့္တက္ဘလက္ပိတ္သြားလိမ့္မည္ျဖစ္သည္။"</string>
+<string name="shutdown_confirm" product="tv">"သင့္ TV ပိတ္လိမ့္မည္."</string>
+<string name="shutdown_confirm" product="watch">"သင့္ နာရီ ပိတ္က်သြားလိမ့္မည္။"</string>
+<string name="shutdown_confirm" product="default">"သင့္ဖုန္းပိတ္သြားလိမ့္မည္ျဖစ္သည္"</string>
+<string name="shutdown_confirm_question">"သင္ပိတ္လုိပါသလား?"</string>
+<string name="reboot_safemode_title">"လံုျခံဳသည့္ ပံုစံ မွ ျပန္ဘုတ္လုပ္ပါ"</string>
+<string name="reboot_safemode_confirm">"လံုျခံဳသည့္မုတ္မွ ျပန္ဘုတ္လုပ္မွာလား? သင္ သြင္းထားသည့္ ေအပီပီ၏ တတိယပါတီမွ ပိတ္လိမ့္မည္. သင္ျပန္ဘုတ္ လုပ္ခ်ိန္တြင္ သူတို့သည္ နဂိုအတိုင္း ျပန္ျဖစ္လာလိမ့္မည္."</string>
+<string name="recent_tasks_title">"မၾကာေသးမိက"</string>
+<string name="no_recent_tasks">"မၾကာေသးမီက ေအပီပီမ်ားမ႐ွိပါ။"</string>
+<string name="global_actions" product="tablet">"တက္ဘလက္ေ႐ြးခ်ယ္စရာမ်ား"</string>
+<string name="global_actions" product="tv">"TV ေရြးခ်ယ္စရာမ်ား"</string>
+<string name="global_actions" product="default">"ဖုန္း ေ႐ြးခ်ယ္စရာမ်ား"</string>
+<string name="global_action_lock">"ဖန္သားျပင္ေသာ့"</string>
+<string name="global_action_power_off">ပါဝါပိတ္ပါ</string>
+<string name="global_action_bug_report">"တျခားအစီရင္ခံစာ"</string>
+<string name="bugreport_title">"တျခားအစီရင္ခံစာယူပါ"</string>
+<string name="bugreport_message">"ဤအရာသည္ လက္ရွိသင့္ ကိရိယာအေျခအေန, အီးေမးလ္ မက္ေဆ့ခ်္ပို႔ရန္ အခ်က္အလက္မ်ားကိုစုေဆာင္းလိမ့္မည္။ ပို႔ရန္ အဆင္သင့္ျဖစ္ခိ်န္ထိ တျခားအစီရင္ခံစာစရန္ အခ်ိန္အနည္းငယ္လိုမည္, ေက်းဇူးျပဳ၍ စိတ္ရွည္ပါ။"</string>
+<string name="bugreport_option_interactive_title">"အျပန္အလွန္ အစီရင္ခံစာ"</string>
+<string name="bugreport_option_interactive_summary">"အေျခအေနအမ်ားစုတြင္ ၄င္းကို သံုးပါ.တိုးတက္မွဳကို အစီရင္ခံလိမ့္မည္, ျပသနာအေသးစိတ္ကို ထည့္ျပီး, ဖန္သားျပင္ဓါတ္ပံုရိုက္ထားပါ. အသံုး-နည္း အပိုင္းမ်ား ကို ဖယ္ ရန္ အခ်ိန္ အနည္းငယ္ျကာမည္."</string>
+<string name="bugreport_option_full_title">"အစီရင္ခံစာ အျပည့္အစံု"</string>
+<string name="bugreport_option_full_summary">"စက္ အလုပ္မလုပ္,အလြန္ေနွး (သို ့) အပိုင္းမ်ား အစီရင္ခံစာလိုလွ်င္္ အေနွာင့္အယွက္နည္းေစရန္ ဤေရြးခ်ယ္စရာကိုသံုးပါ. ေနာက္ထပ္အေသးစိတ္ (သို ့) ဖန္သားျပင္ဓါတ္ပံုမ်ား ထည့္ရန္ ဤေရါးခ်ယ္စရာမွ ခြင့္မျပဳပါ."</string>
+<plurals name="bugreport_countdown">
+<item quantity="one">"ပိုးေကာင္ အစီရင္ခံစာအတြက္ မ်က္နွာျပင္ဓါတ္ပံု ယူေန တြင္ <xliff:g id="number">%d</xliff:g> စကၠန္ ့."</item>
+<item quantity="other">"ပိုးေကာင္ အစီရင္ခံစာအတြက္ မ်က္နွာျပင္ဓါတ္ပံု ယူေန တြင္ <xliff:g id="number">%d</xliff:g> စကၠန္ ့မ်ား."</item>
+</plurals>
+<string name="global_action_toggle_silent_mode">"အသံေဖ်ာက္ထားသည့္ပံုစံ"</string>
+<string name="global_action_silent_mode_on_status">"အသံပိတ္ထား"</string>
+<string name="global_action_silent_mode_off_status">"အသံဖြင့္ထား"</string>
+<string name="global_actions_toggle_airplane_mode">"ေလယာဥ္ပ်ံသန္းစဥ္ပံုစံ"</string>
+<string name="global_actions_airplane_mode_on_status">"ေလယာဥ္ပ်ံသန္းစဥ္ပံုစံအား ဖြင့္ျပီး"</string>
+<string name="global_actions_airplane_mode_off_status">"ေလယာဥ္ပ်ံသန္းစဥ္ပံုစံအား ပိတ္ျပီး"</string>
+<string name="global_action_settings">"ဆက္တင္မ်ား"</string>
+<string name="global_action_assist">"အကူ"</string>
+<string name="global_action_voice_assist">"အသံ အကူ"</string>
+<string name="global_action_lockdown">"ယခုပင္ ေသာ့ခတ္ပါ"</string>
+<string name="notification_hidden_text">"အေၾကာင္းအရာမ်ားကုိ ဝွက္ထားသည္"</string>
+<string name="notification_hidden_by_policy_text">"မူ၀ါဒအရ ၀ွက္ထားသည့္ အေျကာင္းအရာ "</string>
+<string name="safeMode">"လံုျခံဳစိတ္ခ်ရေသာ ပံုစံ"</string>
+<string name="android_system_label">"အဲန္းဒရိုက္ စနစ္္"</string>
+<string name="user_owner_label">"ကိုယ္ေရးကိုယ္တာ ပြတ္ဆြဲပါ"</string>
+<string name="managed_profile_label">"အလုပ္ ပြတ္ဆြဲပါ"</string>
+<string name="permgrouplab_contacts">"ဆက္သြယ္သူမ်ား"</string>
+<string name="permgroupdesc_contacts">"သင့္ ဆက္သြယ္သူမ်ား ဖြင့္ပါ "</string>
+<string name="permgrouplab_location">"တည္ေနရာ"</string>
+<string name="permgroupdesc_location">"ဤစက္တည္ေနရာ ဖြင့္ပါ "</string>
+<string name="permgrouplab_calendar">"ျပကၡဒိန္"</string>
+<string name="permgroupdesc_calendar">"သင့္ ျပကၡဒိန္ ဖြင့္ပါ "</string>
+<string name="permgrouplab_sms">"SMS"</string>
+<string name="permgroupdesc_sms">"ပို ့ရန္ နွင့္ ျကည့္ရွဳရန္ SMS မက္ေဆ့ခ်္မ်ား "</string>
+<string name="permgrouplab_storage">"သိုေလွာင္မႈ"</string>
+<string name="permgroupdesc_storage">"သင့္စက္တြင္ ဓါတ္ပံုမ်ား, မီဒီယာမ်ား, နွင့္ဖိုင္မ်ား ဖြင့္ပါ"</string>
+<string name="permgrouplab_microphone">"မိုက္ခ္ခရိုဖုန္း"</string>
+<string name="permgroupdesc_microphone">"အသံသြင္းပါ"</string>
+<string name="permgrouplab_camera">"ကင္မရာ"</string>
+<string name="permgroupdesc_camera">" ဓါတ္ပံုမ်ား ရိုက္ပါ နွင့္ ဗီဒီယို ရီေကာဒင္းလုပ္ပါ"</string>
+<string name="permgrouplab_phone">ဖုန္း</string>
+<string name="permgroupdesc_phone">" ဖုန္းေခၚဆိုမႈမ်ား ျပဳလုပ္ျပီး စီမံပါ"</string>
+<string name="permgrouplab_sensors">"ခႏၶာကိုယ္ အာရံုခံမ်ား"</string>
+<string name="permgroupdesc_sensors">"သင့္ အျမင္ပံုစံအတြက္ အာရံုခံ ေဒတာလက္ခံပါ"</string>
+<string name="capability_title_canRetrieveWindowContent">"၀င္းဒိုးမာတိကာကိုျပန္နွိဳးပါ"</string>
+<string name="capability_desc_canRetrieveWindowContent">"သင္အျပန္အလွန္ရွာေနသည့္၀င္းဒိုးမာတိကာကိုစစ္ေဆးပါ."</string>
+<string name="capability_title_canRequestTouchExploration">"ထိျခင္းျဖင့္ရွာရန္ဖြင့္ပါ"</string>
+<string name="capability_desc_canRequestTouchExploration">"နွိပ္ထားသည့္ အိုင္တမ္မ်ား အသံက်ယ္ျဖင့္ေျပာျပီး တစ္ခ်ိန္တည္းမွာ ဖန္သားျပင္တြင္ လက္ေရးဟန္ သံုးနိုင္."</string>
+<string name="capability_title_canRequestEnhancedWebAccessibility">"ကြန္၀င္ခြင့္တိုးျမွင့္ရန္ဖြင့္ပါ"</string>
+<string name="capability_desc_canRequestEnhancedWebAccessibility">"ေအပီပီအေၾကာင္းအရာပိုမို၀င္ေရာက္ျခင္းလုပ္ေဆာင္ႏိုင္ရန္ ၾကားခံမ်ားကို ထည့္သြင့္လိမ့္မည္ "</string>
+<string name="capability_title_canRequestFilterKeyEvents">"သင္ရိုက္သည့္စာသားကိုရွာပါ"</string>
+<string name="capability_desc_canRequestFilterKeyEvents">"အေျကြးကဒ္နံပါတ္နွင့္ စကား၀ွက္ ကဲ့သို႔ ကိုယ္ေရးမွတ္တမ္းပါ၀င္သည္."</string>
+<string name="capability_title_canControlMagnification">"အက်ယ္ခ်ဲ ့ ေဖၚျပခ်က္ ထိန္းခ်ဳပ္"</string>
+<string name="capability_desc_canControlMagnification">"ခ်ံဳ ့ခ်ဲ ့ နွင့္ တည္ေနရာ ေဖၚျပခ်က္ ထိန္းခ်ဳပ္."</string>
+<string name="capability_title_canPerformGestures">"လက္ေရး ဟန္ လုပ္ပါ"</string>
+<string name="capability_desc_canPerformGestures">"နွိပ္, ပြတ္ဆြဲ, အတူဆြဲ, နွင့္ တျခားဟန္ပန္ လုပ္ေဆာင္ နိုင္."</string>
+<string name="permlab_statusBar">"အေျခအေနျပဘားတန္းကို ပိတ္ပါ သို႔မဟုတ္ အဆင့္ျမွင့္ပါ"</string>
+<string name="permdesc_statusBar">"ေအပီပီ အား အေျခအေနျပဘားတန္းကို ျဖဳတ္ရန္ သို႔မဟုတ္ စစ္စတမ္ အိုင္ကြန္မ်ားကို ထည့္ရန္ႏွင့္ ဖယ္႐ွားရန္ ခြင့္ျပဳပါ။"</string>
+<string name="permlab_statusBarService">"အေျခအေနျပဘားရွိ"</string>
+<string name="permdesc_statusBarService">"ေအပီပီ အား အေျခအေနျပဘားတန္းအျဖစ္ထား႐ွိရန္ခြင့္ျပဳပါ။"</string>
+<string name="permlab_expandStatusBar">"အေျခအေနျပဘားတန္းကို ခ်ဲ႕ပါ/ခ်ံဳ႕ပါ"</string>
+<string name="permdesc_expandStatusBar">"ေအပီပီ အား အေျခအေနျပဘားတန္းကို ခ်ဲ႕ရန္ႏွင့္ ခ်ံဳ႕ရန္ ခြင့္ျပဳပါ။"</string>
+<string name="permlab_install_shortcut">"ေရွာ့ကတ္မ်ား သြင္းပါ"</string>
+<string name="permdesc_install_shortcut">"သံုးစြဲသူၾကား၀င္ျခင္းမရွိဘဲ မူလဖန္သားျပင္ ေရွာ့ကတ္မ်ား ထည့္ရန္ ေအပီပီကို ခြင့္ျပဳပါ."</string>
+<string name="permlab_uninstall_shortcut">"ေရွာ႔ကတ္ သြင္းထားျခင္းျဖဳတ္မည္"</string>
+<string name="permdesc_uninstall_shortcut">"သံုးစြဲသူၾကား၀င္ျခင္းမရွိဘဲ မူလဖန္သားျပင္ ေရွာ့ကတ္မ်ား ဖယ္ရန္ ေအပီပီကို ခြင့္ျပဳပါ."</string>
+<string name="permlab_processOutgoingCalls">"အထြက္ဖုန္းေခၚဆိုမႈမ်ားကို ၾကားျဖတ္ပါ"</string>
+<string name="permdesc_processOutgoingCalls">"အထြက္ေခၚဆုိမႈတြင္ ဖုန္းႏွိပ္လုိက္သည့္အခါ ထုိေခၚဆုိမႈကုိ အျခားနံပါတ္တစ္ခုထံ ျပန္လမ္းညႊန္ရန္ (သုိ႕) ေခၚဆုိမႈအားလံုးကုိ ဖ်က္သိမ္းရန္ ေရြးခ်ယ္စရာႏွင့္အတူ နံပါတ္ကုိ ျမင္ေတြ႕ရန္ အက္ပ္ကုိ ခြင့္ျပဳသည္။"</string>
+<string name="permlab_receiveSms">"စာသားမက္ေဆ့ခ်္လက္ခံရရွိသည္ (SMS)"</string>
+<string name="permdesc_receiveSms">"ေအပီပီ အား SMS မက္ေဆ့ခ်္မ်ားကို ရယူရန္ႏွင့္ လုပ္ေဆာင္ရန္ ခြင့္ျပဳပါ။ အႏၲရာယ္႐ွိေသာ ေအပီပီ မ်ားက သင့္မက္ေဆ့ခ်္မ်ားကို ေစာင့္ၾကပ္ၾကည့္႐ႈႏိုင္သည္ သို႔မဟုတ္ သင့္ကို ျပသျခင္းမ႐ွိဘဲ ဖ်က္ႏိုင္သည္။"</string>
+<string name="permlab_receiveMms">"စာသားမက္ေဆ့ခ်္လက္ခံရရွိသည္ (MMS)"</string>
+<string name="permdesc_receiveMms">"ေအပီပီ အား MMS မက္ေဆ့ခ်္မ်ားကို ရယူရန္ႏွင့္ လုပ္ေဆာင္ရန္ ခြင့္ျပဳပါ။ အႏၲရာယ္႐ွိေသာ ေအပီပီ မ်ားက သင့္မက္ေဆ့ခ်္မ်ားကို ေစာင့္ၾကပ္ၾကည့္႐ႈႏိုင္သည္ သို႔မဟုတ္ သင့္ကို ျပသျခင္းမ႐ွိဘဲ ဖ်က္ႏိုင္သည္။"</string>
+<string name="permlab_readCellBroadcasts">"ဆဲလ္သတင္းမက္ေဆ့ခ်္မ်ားကို ဖတ္ပါ"</string>
+<string name="permdesc_readCellBroadcasts">"ဆဲလ္သတင္းမက္ေဆ့ခ်္ကို လက္ခံရန္ေအပီပီကို ဖြင့္ပါ. ဆဲလ္သတင္းမက္ေဆ့ခ်္ ႏိႈးစက္မွ တျခားေဒသ၏ အေရးေပၚ သတင္းမ်ားကိုပို႔ေပးမည္. အေရးေပၚ သတင္းကို စက္မွလက္ခံရခ်ိန္တြင္ တျခားေအပီပီမွ စက္၏ ေအာ္ပေရးရွင္း (သို႕) လုပ္ေဆာင္ခ်က္မ်ား ကို ေႏွာင့္ယွက္လိမ့္မည္ ."</string>
+<string name="permlab_subscribedFeedsRead">"မွာယူထားေသာ သတင္းမ်ားကို ဖတ္ပါ"</string>
+<string name="permdesc_subscribedFeedsRead">"လက္႐ွိ sync လုပ္ထားျခင္း သတင္းမ်ားႏွင့္ပတ္သက္၍ အေသးစိတ္ကို ရယူရန္ ေအပီပီ္အား ခြင့္ျပဳပါ။"</string>
+<string name="permlab_sendSms">"ပို ့ရန္ နွင့္ ျကည့္ရွဳရန္ SMS မက္ေဆ့ခ်္မ်ား "</string>
+<string name="permdesc_sendSms">"SMS မက္ေဆ့ခ်္မ်ား ေပးပို႔ရန္ ေအပီပီအား ခြင့္ျပဳပါ။ အႏၲရာယ္႐ွိေသာ ပ႐ိုဂရမ္မ်ားက သင့္အတည္ျပဳခ်က္မယူဘဲ မက္ေဆ့ခ်္မ်ားေပးပို႔ျခင္းျဖင့္ သင့္အား ေငြေၾကးကုန္က်ေစလိမ့္မည္။"</string>
+<string name="permlab_readSms">"သင့္စာသားမက္ေဆ့ခ်္ကိုဖတ္ပါ (SMS သို႕MMS)"</string>
+<string name="permdesc_readSms" product="tablet">"ေအပီပီ အား သင့္တက္ဘလက္ သို႔မဟုတ္ SIM ကဒ္တြင္ သိမ္းထားေသာ SMS မက္ေဆ့ခ်္မ်ားကို ဖတ္႐ႈရန္ ခြင့္ျပဳပါ။ င္းသည္ သက္ဆိုင္ျခင္းမရွိေသာ အေၾကာင္းအရာမ်ားႏွင့္ ယံုၾကည္စိတ္ခ်ရေသာ မက္ေဆ့ခ်္မ်ားအားလံုးကို ဖတ္ရန္ခြင့္ျပဳသည္။"</string>
+<string name="permdesc_readSms" product="tv">"သင့္ TV (သို ့) SIM ကဒ္ တြင္ သိမ္းထားသည့္ SMS မက္ဆ့ခ်္မ်ား ဖတ္ရန္ ခြင့္ျပဳပါ. အေျကာင္းအရာ (သို ့) အတြင္းေရး မွလြဲ၍, SMS မက္ဆ့ခ်္မ်ား အားလံုးဖတ္ရန္ ေအပီပီကို ၄င္းက ဖြင့္မည္."</string>
+<string name="permdesc_readSms" product="default">"ေအပီပီ အား သင့္ဖုန္း သို႔မဟုတ္ SIM ကဒ္တြင္ သိမ္းထားေသာ SMS မက္ေဆ့ခ်္မ်ားကို ဖတ္႐ႈရန္ ခြင့္ျပဳပါ။ ၎သည္ သက္ဆိုင္ျခင္းမရွိေသာ အေၾကာင္းအရာမ်ားႏွင့္ ယံုၾကည္စိတ္ခ်ရေသာ မက္ေဆ့ခ်္မ်ားအားလံုးကို ဖတ္ရန္ခြင့္ျပဳသည္။"</string>
+<string name="permlab_receiveWapPush">"စာသားမက္ေဆ့ခ်္လက္ခံရရွိသည္ (WAP)"</string>
+<string name="permdesc_receiveWapPush">"ေအပီပီ အား WAP မက္ေဆ့ခ်္မ်ားကို ရယူရန္ႏွင့္ လုပ္ေဆာင္ရန္ ခြင့္ျပဳပါ။ အႏၲရာယ္႐ွိေသာ ေအပီပီ မ်ားက သင့္မက္ေဆ့ခ်္မ်ားကို ေစာင့္ၾကပ္ၾကည့္႐ႈႏိုင္သည္ သို႔မဟုတ္ သင့္ကို ျပသျခင္းမ႐ွိဘဲ ဖ်က္ႏိုင္သည္။"</string>
+<string name="permlab_getTasks">"အသံုးျပဳေနေသာ ေအပီပီ မ်ားကို ျပန္ရယူပါ"</string>
+<string name="permdesc_getTasks">"လက္႐ွိႏွင့္ မၾကာေသးမီက ဖြင့္ထားေသာ အလုပ္တာဝန္မ်ားကို ျပန္လည္ရယူရန္ ေအပီပီ အား ခြင့္ျပဳပါ။ ယင္းက အႏၲရာယ္႐ွိေသာ ေအပီပီ မ်ားအား အျခားအပလီေကးရွင္းမ်ားႏွင့္ပတ္သက္၍ ကိုယ္ေရးအခ်က္အလက္မ်ားကို ႐ွာေဖြခြင့္ျပဳလိမ့္မည္။"</string>
+<string name="permlab_manageProfileAndDeviceOwners">"ပရိုဖိုင္း နွင့္ စက္ ပိုင္ရွင္မ်ား စီမံပါ"</string>
+<string name="permdesc_manageProfileAndDeviceOwners">"ပရိုဖိုင္းပိုင္ရွင္ နွင့္ စက္ပိုင္ရွင္ ဆက္တင္လုပ္ရန္ ေအပီပီ ဖြင့္ပါ."</string>
+<string name="permlab_reorderTasks">"အသံုးျပဳေနေသာ ပ႐ိုဂရမ္မ်ားကို ျပန္စီစဥ္ပါ"</string>
+<string name="permdesc_reorderTasks">"လုပ္ငန္းတာဝန္မ်ားအား ေ႐ွ႕ႏွင့္ေနာက္ခံသို႔ ေ႐ႊ႕ရန္ ေအပီပီ အား ခြင့္ျပဳပါ။ အႏၲရာယ္႐ွိေသာ ေအပီပီ မ်ားက သင့္ထိန္းခ်ဳပ္မႈမပါဘဲ ယင္းတို႔အား ေ႐ွ႕သို႔အတင္းထား႐ွိႏိုင္သည္။"</string>
+<string name="permlab_enableCarMode">"ကားေမာင္းစဥ္ ပံုစံဖြင့္ပါ"</string>
+<string name="permdesc_enableCarMode">"ပ႐ိုဂရမ္အား ကားေမာင္းစဥ္ပံုစံ ဖြင့္ရန္ ခြင့္ျပဳပါ။"</string>
+<string name="permlab_killBackgroundProcesses">"အျခား ေအပီပီမ်ားကို ရပ္ဆိုင္းပါ"</string>
+<string name="permdesc_killBackgroundProcesses">"အျခားေအပီပီမ်ား၏ ေနာက္ခံလုပ္ငန္းစဥ္မ်ားအား ပိတ္ရန္ ေအပီပီ အား ခြင့္ျပဳပါ။ ဤအရာသည္ အျခားေအပီပီမ်ား လုပ္ေဆာင္ေနမႈကို ရပ္တန္႔ႏိုင္သည္။"</string>
+<string name="permlab_systemAlertWindow">"စစ္စတမ္ အဆင့္သတိေပးခ်က္မ်ားကို ျပသပါ"</string>
+<string name="permdesc_systemAlertWindow">"ပ႐ိုဂရမ္အား စနစ္သတိေပးခ်က္ဝင္းဒိုးမ်ားျပသရန္ ခြင့္ျပဳပါ။ အႏၲရာယ္႐ွိေသာ ေအပီပီ္မ်ားက စကရင္တစ္ခုလံုးကို ေနရာယူႏိုင္သည္။"</string>
+<string name="permlab_persistentActivity">"ေအပီပီအား အျမဲပြင့္ေစရန္ ျပဳလုပ္ပါ"</string>
+<string name="permdesc_persistentActivity" product="tablet">"မွတ္ဥာဏ္တြင္ ေအပီပီ၏ ေအာ္တိုအခ်က္တစ္ခ်ိဳ႕ကို သိမ္းထားရန္ ေအပီပီအား ခြင့္ျပဳပါ. ဤအရာသည္ တျခားေအပီပီမ်ား မွ တက္ပလက္ဖုန္းလိုင္းဆြဲအား ေနွးသြားမွုကို တားဆီးေပးနိုင္သည္."</string>
+<string name="permdesc_persistentActivity" product="tv">"သိုေလွာင္ခန္းတြင္ ရွိသည့္ အေရးျကီးမ်ား အတြက္ ေအပီပီ ဖြင့္ပါ. ၄င္းသည္ တျခားေအပီပီမ်ား ေနွးေစျပီး TV အတြက္ သိုေလွာင္ခန္း ေနရာ ကန္ ့သတ္နိုင္."</string>
+<string name="permdesc_persistentActivity" product="default">"မွတ္ဥာဏ္တြင္ ေအပီပီ၏ ေအာ္တိုအခ်က္တစ္ခ်ိဳ႕ ကို သိမ္းထားရန္ ေအပီပီအား ခြင့္ျပဳပါ. ဤအရာသည္ တျခားေအပီပီမ်ား မွ ဖုန္းလိုင္းဆြဲအား ေနွးသြားမွုကို တားဆီးေပးနိုင္သည္."</string>
+<string name="permlab_getPackageSize">"ေအပီပီသိုေလွာင္မႈေနရာ တိုင္းတာပါ"</string>
+<string name="permdesc_getPackageSize">"ကုဒ္နံပါတ္၊ေဒတာအခ်က္အလက္ႏွင့္ ကက္႐ွ္သိမ္းဆည္းမႈအ႐ြယ္အစားမ်ားကို ျပန္လည္သိမ္းယူရန္ ေအပီပီအား ခြင့္ျပဳပါ"</string>
+<string name="permlab_writeSettings">"ကမာၻလံုးဆိုင္ရာစနစ္ဆက္တင္မ်ားကိုျပန္လည္မြမ္းမံပါ"</string>
+<string name="permdesc_writeSettings">"စနစ္၏အဆင္အျပင္ေဒတာမ်ားကို အဆင့္ျမွင့္ရန္ ေအပီပီအား ခြင့္ျပဳပါ။ အႏၲရာယ္႐ွိေသာ ေအပီပီမ်ားက သင့္စစ္စတမ္ အစီအစဥ္ကို ေႏွာက္ယွက္ႏိုင္သည္။"</string>
+<string name="permlab_receiveBootCompleted">"စက္ဖြင့္ခ်ိန္တြင္ စတင္ပါ"</string>
+<string name="permdesc_receiveBootCompleted" product="tablet">"စစ္စတမ္ ဖြင့္ျခင္းျပီးဆံုးလွ်င္ ျပီးဆံုးခ်င္း ကိုယ္တိုင္စတင္ရန္ ေအပီပီအားခြင့္ျပဳပါ။ ယင္းက တက္ဘလက္စတင္ရန္ အခ်ိန္ၾကာေစျပီး ေအပီပီအား တက္ဘလက္တစ္ခုလံုးကို အျမဲတမ္းဖြင့္ျခင္းျဖင့္ ေႏွးသြားေစလိမ့္မည္။"</string>
+<string name="permdesc_receiveBootCompleted" product="tv">"ဘုတ္လုပ္ျပီးခ်င္း ၄င္းကိုယ္တိုင္ စတင္နိုင္ရန္ ေအပီပီ ဖြင့္ပါ. ၄င္းသည္ TV စတင္ရန္ အခ်ိန္ယူလိမ့္မည္ ထို ့ေနာက္ တက္ပလက္ ၏ အျမဲလုပ္ေနသည့္ အားလံုးကို ေနွးေစရန္ ေအပီပီ ဖြင့္မည္."  </string>
+<string name="permdesc_receiveBootCompleted" product="default">"စစ္စတမ္ ဖြင့္ျခင္းျပီးဆံုးလွ်င္ ျပီးဆံုးခ်င္း ကိုယ္တိုင္စတင္ရန္ေအပီပီအားခြင့္ျပဳပါ။ ယင္းက ဖုန္းစတင္ရန္ အခ်ိန္ၾကာေစျပီး ေအပီပီအား ဖုန္းတစ္ခုလံုးကို အျမဲတမ္းဖြင့္ျခင္းျဖင့္ ေႏွးသြားေစလိမ့္မည္။"</string>
+<string name="permlab_broadcastSticky">"တြဲလွ်က္ပါေသာထုတ္လႊင့္ခ်က္ပို႕ပါ"</string>
+<string name="permdesc_broadcastSticky" product="tablet">"မက္ေဆ့ခ်္ေပးပို႔ခ်က္ျပီးဆံုးပါက က်န္႐ွိေနသည့္ တြဲလ်က္ပါေသာ ထုတ္လြင့္ခ်က္မ်ား ေပးပို႔မႈမ်ားကို ေပးပို႔ရန္ ေအပီပီအား ခြင့္ျပဳပါ။ အႏၲရာယ္႐ွိေသာ ေအပီပီမ်ားက သိုေလွာင္မွတ္ဥာဏ္အေျမာက္အျမားအသံုးျပဳျခင္းျဖင့္ တက္ဘလက္အား ေႏွးသြားေစျခင္း သို႔မဟုတ္ မတည္ျငိမ္ျခင္းတို႔ ျဖစ္ေစႏိုင္သည္။"</string>
+<string name="permdesc_broadcastSticky" product="tv">"တြဲလွ်က္ပါေသာထုတ္လႊင့္ခ်က္ ပို ့ရန္ ေအပီပီဖြင့္ပါ, ထုတ္လႊင့္ျပီးေနာက္ ဆက္ရွိမည္. အမ်ားအျပားသံုးလွ်င္ TV ေနွးမည္ (သို ့) ၄င္း သံုးစြဲသည့္ သိုေလွာင္ခန္းေနရာ အလြန္မ်ားေသာေျကာင့္ TV မတည္ျငိမ္ပါ. "</string>
+<string name="permdesc_broadcastSticky" product="default">"မက္ေဆ့ခ်္ေပးပို႔ခ်က္ျပီးဆံုးပါက က်န္႐ွိေနသည့္ တြဲလ်က္ပါေသာ ထုတ္လြင့္ခ်က္မ်ား ေပးပို႔မႈမ်ားကို ေပးပို႔ရန္ ေအပီပီအား ခြင့္ျပဳပါ။ အႏၲရာယ္႐ွိေသာ ေအပီပီမ်ားက သိုေလွာင္မွတ္ဥာဏ္အေျမာက္အျမားအသံုးျပဳျခင္းျဖင့္ ဖုန္း အား ေႏွးသြားေစျခင္း သို႔မဟုတ္ မတည္ျငိမ္ျခင္းတို႔ ျဖစ္ေစႏိုင္သည္။"</string>
+<string name="permlab_readContacts">"သင့္ဆက္သြယ္သူမ်ား ကို ဖတ္ပါ"</string>
+<string name="permdesc_readContacts" product="tablet">"သင့္တက္ဘလက္တြင္ သိမ္းဆည္းထားေသာ အားလံုးေသာဆက္သြယ္ရန္လိပ္စာ(လိပ္စာ)ေဒတာမ်ားကို ဖတ္ရန္ ေအပီပီအား ခြင့္ျပဳပါ။ ဤခြင့္ျပဳခ်က္သည္ သင့္ေအပီပီကို သင့္ဆက္သြယ္သူလိပ္စာေဒတာကိုသိမ္းရန္ ခြင့္ျပဳ ျပီး အႏၲရာယ္႐ွိေသာ ေအပီပီမ်ားက သင့္အဆက္အသြယ္ေဒတာမ်ားကို သင္သိရွိမႈမရွိဘဲ ရွယ္ယာ လုပ္လိမ့္မည္။"</string>
+<string name="permdesc_readContacts" product="tv">"TVတြင္သိမ္းထားသည့္ ဆက္သြယ္သူမ်ား ၏ ေဒတာ ဖတ္ရန္ ေအပီပီ ဖြင့္ပါ, ေခၚထားသည့္ဖုန္း, အီးေမးလ္, (သို ့) သီးသန္ ့တစ္ဦးခ်င္းထံ ဆက္သြယ္ထားမႈ တို ့၏ အျကိမ္နွဳန္း အပါအ၀င္. ဤခြင့္ျပဳခ်က္သည္ သင့္ ဆက္သြယ္သူ ေဒတာ သိမ္းရန္ ခြင့္ျပဳမည္ , သင္မသိဘဲနွင့္ ဆက္သြယ္သည့္ ေဒတာကို တျခားေအပီပီမ်ားက ရွယ္ယာလိမ့္မည္."</string>
+<string name="permdesc_readContacts" product="default">"သင့္ဖုန္းတြင္ သိမ္းဆည္းထားေသာ အားလံုးေသာဆက္သြယ္ရန္လိပ္စာ(လိပ္စာ)ေဒတာမ်ားကို ဖတ္ရန္ ေအပီပီအား ခြင့္ျပဳပါ။ ဤခြင့္ျပဳခ်က္သည္ သင့္ေအပီပီကို သင့္ဆက္သြယ္သူလိပ္စာေဒတာကိုသိမ္းရန္ ခြင့္ျပဳ ျပီး အႏၲရာယ္႐ွိေသာ ေအပီပီမ်ားက သင့္အဆက္အသြယ္ေဒတာမ်ားကို သင္သိရွိမႈမရွိဘဲ ရွယ္ယာ လုပ္လိမ့္မည္။"</string>
+<string name="permlab_writeContacts">"သင့္အဆက္အသြယ္မ်ားကို အဆင့္ျမင့္ပါ"</string>
+<string name="permdesc_writeContacts" product="tablet">"သင့္တက္ဘလက္တြင္ သိမ္းဆည္းထားေသာ အားလံုးေသာဆက္သြယ္ရန္လိပ္စာ(လိပ္စာ)ေဒတာမ်ားကို ဖတ္ရန္ ေအပီပီအား ခြင့္ျပဳပါ။ ဤခြင့္ျပဳခ်က္သည္ သင့္ အဆက္အသြယ္ေဒတာမ်ားကိုဖ်က္ရန္ ေအပီပီအား ခြင့္ျပဳသည္။"</string>
+<string name="permdesc_writeContacts" product="tv">"TVတြင္သိမ္းထားသည့္ ဆက္သြယ္သူမ်ား ၏ ေဒတာ မြမ္းမံရန္ ေအပီပီ ဖြင့္ပါ, ေခၚထားသည့္ဖုန္း, အီးေမးလ္, (သို ့) သီးသန္ ့တစ္ဦးခ်င္းထံ ဆက္သြယ္ထားမႈ တို ့၏ အျကိမ္နွဳန္း အပါအ၀င္. ၄င္းသည္ သင့္ ဆက္သြယ္သူ ေဒတာ သိမ္းရန္ ခြင့္ျပဳမည္ , ဤခြင့္ျပဳခ်က္သည္ ဆက္သြယ္သည့္ ေဒတာ ပယ္ဖ်က္ရန္ ေအပီပီကို ဖြင့္မည္."</string>
+<string name="permdesc_writeContacts" product="default">"သင့္ဖုန္းတြင္ သိမ္းဆည္းထားေသာ အားလံုးေသာဆက္သြယ္ရန္လိပ္စာ(လိပ္စာ)ေဒတာမ်ားကို ဖတ္ရန္ ေအပီပီအား ခြင့္ျပဳပါ။ ဤခြင့္ျပဳခ်က္သည္ သင့္ အဆက္အသြယ္ေဒတာမ်ားကိုဖ်က္ရန္ ေအပီပီအား ခြင့္ျပဳသည္။"</string>
+<string name="permlab_readCallLog">"ဖုန္းေခၚဆိုမႈစာရင္းကိုဖတ္ပါ"</string>
+<string name="permdesc_readCallLog" product="tablet">"သင့္တက္ပလက္၏ ေခၚဆိုမႈအ၀င္အထြက္ေဒတာကို ဖတ္ရန္ ေအပီပီကို ခြင့္ျပဳပါ. ဤေအပီပီမွသင္၏ ဖုန္းေခၚဆိုမႈေဒတာကို သိမ္းရန္ ခြင့္ျပဳလိမ့္မည္. သင္၏သိရွိွုမႈပါဘဲ ဆက္သြယ္သူ ေဒတာကို တျခား ေအပီပီ မွ ရွယ္ယာ လုပ္လိမ့္မည္."</string>
+<string name="permdesc_readCallLog" product="tv">"သင့္ TV ၏ ဖုန္းေလာ့ ကို ဖတ္ရန္ ေအပီပီဖြင့္ပါ , အ၀င္ဖုန္းနွင့္ အထြက္ဖုန္းမ်ား ၏ ေဒတာ အပါအ၀င္. ဤခြင့္ျပဳခ်က္သည္ သင့္ ဖုန္းေလာ့ေဒတာ သိမ္းရန္ ခြင့္ျပဳမည္ , သင္မသိဘဲနွင့္ ဆက္သြယ္သည့္ ေဒတာကို တျခားေအပီပီမ်ားက ရွယ္ယာလိမ့္မည္."</string>
+<string name="permdesc_readCallLog" product="default">"သင့္ဖုန္း ေခၚဆိုမႈအ၀င္အထြက္ေဒတာကို ဖတ္ရန္ ေအပီပီကို ခြင့္ျပဳပါ. ဤေအပီပီမွသင္၏ ဖုန္းေခၚဆိုမႈေဒတာကို သိမ္းရန္ ခြင့္ျပဳလိမ့္မည္. သင္၏သိရွိွုမႈပါဘဲ ဆက္သြယ္သူ ေဒတာကို တျခား ေအပီပီ မွ ရွယ္ယာ လုပ္လိမ့္မည္."</string>
+<string name="permlab_writeCallLog">"ဖုန္းေခၚဆိုမႈစာရင္း ကို ေရးပါ"</string>
+<string name="permdesc_writeCallLog" product="tablet">"သင့္တက္ပလက္ ေခၚဆိုမႈ အ၀င္အထြက္ေဒတာကို ျပဳျပင္ဖန္တီးရန္ ေအပီပီကို ဖြင့္ပါ. ဤေအပီပီမွသင္၏ ဖုန္းေခၚဆိုမႈေဒတာကို သိမ္းရန္ ခြင့္ျပဳလိမ့္မည္. အႏၲရာယ္႐ွိေသာ ေအပီပီမ်ားက ၎ကိုသံုးျပီး သင့္ဖုန္းေခၚဆိုမႈမွတ္တမ္းကို ဖ်က္ျခင္း (သို႔) ျပဳျပင္ခ်င္း လုပ္လိမ့့္မည္။"</string>
+<string name="permdesc_writeCallLog" product="tv">"သင့္ TV ၏ ဖုန္းေလာ့ ကို မြမ္းမံရန္ ေအပီပီဖြင့္ပါ , အ၀င္ဖုန္းနွင့္ အထြက္ဖုန္းမ်ား ၏ ေဒတာ အပါအ၀င္.  ဖုန္းေလာ့ကို ဖ်က္ (သို ့) မြမ္းမံရန္ ၄င္းကို တျခားေအပီပီမွ သံုးလိမ့္မည္."</string>
+<string name="permdesc_writeCallLog" product="default">"သင့္ဖုန္း ေခၚဆိုမႈ အ၀င္အထြက္ေဒတာကို ျပဳျပင္ဖန္တီးရန္ ေအပီပီကို ဖြင့္ပါ. ဤေအပီပီမွသင္၏ ဖုန္းေခၚဆိုမႈေဒတာကို သိမ္းရန္ ခြင့္ျပဳလိမ့္မည္. အႏၲရာယ္႐ွိေသာ ေအပီပီမ်ားက ၎ကိုသံုးျပီး သင့္ဖုန္းေခၚဆိုမႈမွတ္တမ္းကို ဖ်က္ျခင္း (သို႔) ျပဳျပင္ခ်င္း လုပ္လိမ့့္မည္။"</string>
+<string name="permlab_bodySensors">"ခႏၶာကိုယ္ လက္ခံ အာရံုခံမ်ား  (နွလံုးခုန္နွဳန္းတိုင္း ကိရိယာ ကဲ့သို ့)"</string>
+<string name="permdesc_bodySensors" product="default">"သင့္ နွလံုးခုန္သံကဲ့သို ့ , သင့္ ရုပ္ပိုင္းဆိုင္ရာ က်န္းမာေရးအေျခအေန ကို ထိန္းခ်ဳပ္သည့္ အာရံုခံ မွ ေဒတာ လက္ခံရန္ ေအပီပီ ဖြင့္ပါ."</string>
+<string name="permlab_readCalendar">"ျပကၡဒိန္ အေၾကာင္းအရာမ်ား ႏွင့္ အတြင္းေရး အခ်က္အလက္မ်ား ကို ဖတ္ပါ"</string>
+<string name="permdesc_readCalendar" product="tablet">"သင့္တက္ဘလက္တြင္ သိမ္းဆည္းထားေသာ အားလံုးေသာျပကၡဒိန္အေၾကာင္းအရာမ်ားကို ဖတ္ရန္ ေအပီပီအား ခြင့္ျပဳပါ။ ယင္းခြင့္ျပဳခ်က္မ်ားက အႏၲရာယ္႐ွိေသာ ေအပီပီမ်ားက ျပကၡဒိန္မ်ားမွ ကိုယ္ေရးကိုယ္တာအခ်က္အလက္မ်ားကို အသံုးျပဳသူမသိဘဲ ထုတ္ယူႏိုင္သည္။"</string>
+<string name="permdesc_readCalendar" product="tv">"သင့္ TV တြင္သိမ္းထားသည့္ ျပကၡဒိန္ အျဖစ္အပ်က္ အားလံုး ဖတ္ရန္ ေအပီပီဖြင့္ပါ, သူငယ္ခ်င္း (သို ့) ပူးတြဲ-လုပ္ကိုင္သူမ်ား အပါအ၀င္. ၄င္းသည္ အတြင္းေရး (သို ့) အာရံုခံ မပါသည့္ သင့္ ျပကၡဒိန္ ေဒတာ သိမ္းရန္ (သို ့) ရွယ္ယာရန္ ေအပီပီကို ဖြင့္လိမ့္မည္."</string>
+<string name="permdesc_readCalendar" product="default">"သင့္ဖုန္းတြင္ သိမ္းဆည္းထားေသာ အားလံုးေသာျပကၡဒိန္အေၾကာင္းအရာမ်ားကို ဖတ္ရန္ေအပီပီအား ခြင့္ျပဳပါ။ ယင္းခြင့္ျပဳခ်က္မ်ားက အႏၲရာယ္႐ွိေသာ ေအပီပီမ်ားက ျပကၡဒိန္မ်ားမွ ကိုယ္ေရးကိုယ္တာအခ်က္အလက္မ်ားကို အသံုးျပဳသူမသိဘဲ ထုတ္ယူႏိုင္သည္။"</string>
+<string name="permlab_writeCalendar">"ပိုင္႐ွင္အား အသိမေပးဘဲ ျပကၡဒိန္အေၾကာင္းအရာမ်ားကို ထည့္ပါ သို႔မဟုတ္ အဆင့္ျမွင့္ပါ။"</string>
+<string name="permdesc_writeCalendar" product="tablet">"သင့္တက္ဘလက္ တြင္ျပန္လည္မြမ္းမံထားသည့္အျဖစ္အပ်က္အေၾကာင္းအရာမ်ား မိတ္ေဆြ(သို႔) လုပ္ေဖၚကိုင္ ဖက္ ကိုထည့္ရန္, ပယ္ဖ်က္ရန္နွင့္ ေျပာင္းလဲရန္ ေအပီပီကို ခြင့္ျပဳပါ. သင္၏သိရွိမႈမပါဘဲ ျပကၡဒိန္ပိုင္ရွင္မ်ား, (သို႔) ျပန္လည္မြမ္းမံသည့္ အေၾကာင္းအရာမ်ားကို မက္ေဆ့ခ်္ပို႔ရန္ ဤေအပီပီမွ လုပ္ေဆာင္ လိမ့္မည္"</string>
+<string name="permdesc_writeCalendar" product="tv">"အျဖစ္အပ်က္မ်ား ထည့္, ဖယ္, ေျပာင္း ရန္ ေအပီပီ ဖြင့္ျပီး သင့္ TVတြင္ မြမ္းမံနိုင္, သူငယ္ခ်င္း (သို ့) ပူးတြဲ-လုပ္ကိုင္သူမ်ား အပါအ၀င.  ျပကၡဒိန္ ပိုင္ရွင္မ်ားမွ , (သို ့)  ပိုင္ရွငိမသိဘဲ မြမ္းမံသည့္ အျဖစ္အပ်က္မ်ား  မွ လာသည့္ မက္ေဆ့ခ်္မ်ား ပို ့ရန္ ခြင့္ျပဳလိမ့္မည္."</string>
+<string name="permdesc_writeCalendar" product="default">"သင့္ဖုန္းတြင္ျပန္လည္မြမ္းမံထားသည့္အျဖစ္အပ်က္အေၾကာင္းအရာမ်ား မိတ္ေဆြ(သို႔) လုပ္ေဖၚကိုင္ ဖက္ ကိုထည့္ရန္, ပယ္ဖ်က္ရန္နွင့္ ေျပာင္းလဲရန္ ေအပီပီကို ခြင့္ျပဳပါ. သင္၏သိရွိမႈမပါဘဲ ျပကၡဒိန္ပိုင္ရွင္မ်ား, (သို႔) ျပန္လည္မြမ္းမံသည့္ အေၾကာင္းအရာမ်ားကို မက္ေဆ့ခ်္ပို႔ရန္ ဤေအပီပီမွ လုပ္ေဆာင္ လိမ့္မည္"</string>
+<string name="permlab_accessLocationExtraCommands">"အပိုတည္ေနရာအေထာက္အပံ့ညႊန္ၾကားခ်က္သို႔ ဝင္ေရာက္ပါ"</string>
+<string name="permdesc_accessLocationExtraCommands">"အပုိ တည္ေနရာပံ့ပုိးေပးသူ အမိန္႕ေပးမႈမ်ားကုိ ရယူသံုးစြဲရန္ အက္ပ္ကုိ ခြင့္ျပဳသည္။ ဤလုပ္ေဆာင္ခ်က္က GPS (သုိ႔႕) အျခားတည္ေနရာ ရင္းျမစ္မ်ားကုိ လုပ္ေဆာင္ခ်က္ႏွင့္အတူ ၾကားခံဆက္သြယ္ေပးသည္။"</string>
+<string name="permlab_accessFineLocation">"တိက် တည္ေနရာ လက္ခံ (GPS နွင့္ ကြန္ရက္-အေျခခံ)"</string>
+<string name="permdesc_accessFineLocation">"GPS (သုိ႕) ဆဲလ္တာဝါတုိင္မ်ားႏွင့္ Wi-Fi ကဲ့သုိ႔ေသာ ကြန္ရက္တည္ေနရာ ရင္းျမစ္မ်ားကုိ အသံုးျပဳၿပီး သင္၏ တိက်ေသာ တည္ေနရာကုိ ရရွိရန္ အက္ပ္ကုိ ခြင့္ျပဳသည္။ ဤတည္ေနရာ ဝန္ေဆာင္မႈမ်ားကုိ ဖြင့္ထားရမည္ျဖစ္ၿပီး အက္ပ္အေနျဖင့္ ၎တုိ႔ကုိ အသံုးျပဳရန္အတြက္ သင့္စက္အတြက္ ရွိေနရမည္။သင္ရွိသည့္ေနရာကုိ ဆံုးျဖတ္ရန္ အက္ပ္မ်ားသည္ ဤအရာကုိ အသံုးျပဳႏုိင္ၿပီး ထပ္ေဆာင္းဘက္ထရီ ပါဝါကုိ အသံုးျပဳႏုိင္သည္။"</string>
+<string name="permlab_accessCoarseLocation">"ခန္ ့မွန္း တည္ေနရာ လက္ခံ (ကြန္ရက္-အေျခခံ)"</string>
+<string name="permdesc_accessCoarseLocation">"သင္၏ အနီးစပ္ဆံုး တည္ေနရာကုိ ရယူရန္ အက္ပ္ကုိ ခြင့္ျပဳသည္။ ဤတည္ေနရာသည္ ဆဲလ္တာဝါတုိင္မ်ားႏွင့္ Wi-Fi ကဲ့သုိ႔ ကြန္ရက္တည္ေနရာ ရင္းျမစ္မ်ားကို အသံုးျပဳၿပီး တည္ေနရာ ဝန္ေဆာင္မႈမ်ားမွ ရရွိေသာ တည္ေနရာျဖစ္သည္။ ဤတည္ေနရာ ဝန္ေဆာင္မႈမ်ားကုိ ဖြင့္ထားရမည္ျဖစ္ၿပီး အက္ပ္အေနျဖင့္ ၎တုိ႔ကုိ အသံုးျပဳရန္အတြက္ သင့္စက္အတြက္ ရွိေနရမည္။ အက္ပ္မ်ားက သင္ရွိသည့္ေနရာကုိ အနီးစပ္ဆံုး ဆံုးျဖတ္ရန္ ဤအရာကုိအသံုးျပဳႏုိင္သည္။"</string>
+<string name="permlab_modifyAudioSettings">"သင့္အသံဆက္တင္မ်ား ကို ေျပာင္းပါ"</string>
+<string name="permdesc_modifyAudioSettings">"အသံႏွင့္ ေဒတာအစုအား လိုရင္းေနရာသို႔ ေ႐ႊ႕ျခင္းကဲ့သုိ႔ေသာ ဂလိုဘယ္အသံအဆင္အျပင္မ်ားကို အဆင့္ျမွင့္ရန္ ေအပီပီကို ခြင့္ျပဳပါ။"</string>
+<string name="permlab_recordAudio">"အသံသြင္းပါ"</string>
+<string name="permdesc_recordAudio">"အသံဖမ္းယူျခင္းလမ္းေၾကာင္းသို႔ ဝင္ေရာက္ရန္ ေအပီပီအား ခြင့္ျပဳပါ။"</string>
+<string name="permlab_sim_communication">"SIM သို ့ကြန္မက္မ်ား ပို ့ပါ "</string>
+<string name="permdesc_sim_communication">"အမိန္႕မ်ားကုိ SIM ထံ ေပးပုိ႕ရန္ အက္ပ္ကုိ ခြင့္ျပဳသည္။ ဤသုိ႕လုပ္ေဆာင္ျခင္းသည္ အလြန္အေရးႀကီးသည္။"</string>
+<string name="permlab_camera">"ဓာတ္ပံုႏွင့္ဗီဒီယို႐ုိက္ပါ"</string>
+<string name="permdesc_camera">"ကင္မရာႏွင့္ ႐ုပ္ပံုမ်ားႏွင့္ ဗီဒီယိုမ်ား႐ုိက္ရန္ ေအပီပီအားခြင့္ျပဳပါ ။ ယင္းက ေအပီပီအား ကင္မရာမွ မည္သည့္႐ုပ္ပံုမဆို အခ်ိန္မေ႐ြးစုစည္းရန္ ခြင့္ျပဳမည္"</string>
+<string name="permlab_vibrate">"တုန္ခါျခင္းကိုထိန္းခ်ဳပ္ပါ"</string>
+<string name="permdesc_vibrate">"တုန္ခါစက္ကို ထိန္းခ်ဳပ္ရန္ ေအပီပီကို ခြင့္ျပဳပါ။"</string>
+<string name="permlab_callPhone">"ဖုန္းနံပါတ္မ်ား ကို တိုက္ရိုက္ေခၚပါ"</string>
+<string name="permdesc_callPhone">"သင္ၾကားဝင္ရန္မလိုဘဲ ဖုန္းနံပါတ္မ်ားကို ေခၚဆိုရန္ ေအပီပီကို ခြင့္ျပဳပါ။ အႏၲရာယ္႐ွိေသာ ေအပီပီမ်ားက သင့္ဖုန္းဘီလ္တြင္ မထင္မွတ္ထားေသာ ဖုန္းေခၚဆိုမႈမ်ားကို ျဖစ္ေစလိမ့္မည္။ ယင္းက ပ႐ိုဂရမ္အား အေရးေပၚနံပါတ္မ်ားကို ေခၚဆုိရန္ ခြင့္ျပဳမည္မဟုတ္ေၾကာင္း သတိျပဳပါ။"</string>
+<string name="permlab_accessImsCallService">"IMS ဖုန္း ၀န္ေဆာင္မႈ ဖြင့္ပါ "</string>
+<string name="permdesc_accessImsCallService">"သင့္ ေနွာင့္ယွက္မႈမပါဘဲ ဖုန္းေခၚရန္ IMS ၀န္ေဆာင္မႈ သံုးရန္ ေအပီပီဖြင့္ပါ."</string>
+<string name="permlab_readPhoneState">"ဖုန္းအေျခအေန ႏွင့္ လကၡဏာ ကို ဖတ္ပါ"</string>
+<string name="permdesc_readPhoneState">"ဖုန္း၏ ကိရိယာ အဆင္အျပင္မ်ားသို႔ဝင္ေရာက္ရန္ ေအပီပီကို ခြင့္ျပဳပါ။ ဤေအပီပီ ခြင့္ျပဳခ်က္သည္ ဖုန္းေျပာေနစဥ္ ဤဖုန္း၏ ဖုန္းနံပါတ္ႏွင့္ နံပါတ္စဥ္၊ ေခၚဆိုထားေသာ နံပါတ္ စသျဖင့္ သတ္မွတ္ႏိုင္သည္။"</string>
+<string name="permlab_wakeLock" product="tablet">"တက္ဘလက္အား အိပ္သြားျခင္းမွ ကာကြယ္ပါ"</string>
+<string name="permlab_wakeLock" product="tv">"TV အိပ္ျခင္း မွ တားျမစ္ပါ"</string>
+<string name="permlab_wakeLock" product="default">"ဖုန္းအားအိပ္သြားျခင္းမွကာကြယ္ပါ"</string>
+<string name="permdesc_wakeLock" product="tablet">"တက္ဘလက္ကို အိပ္သြားျခင္းမွ ကာကြယ္ရန္ ေအပီပီအား ခြင့္ျပဳပါ။"</string>
+<string name="permdesc_wakeLock" product="tv">"TV အိပ္ရန္ တားျမစ္သည့္ ေအပီပီ ဖြင့္ပါ."</string>
+<string name="permdesc_wakeLock" product="default">"ဖုန္းကို အိပ္သြားျခင္းမွ ကာကြယ္ရန္ ေအပီပီအား ခြင့္ျပဳပါ။"</string>
+<string name="permlab_transmitIr">"အနီေအာက္ေရာင္ျခည္ ထုတ္လႊင့္"</string>
+<string name="permdesc_transmitIr" product="tablet">"တက္ပလက္ဖုန္း၏အနီေအာက္ေရာင္ျခည္ ထုတ္လွြင့္စက္သံုးရန္ ေအပီပီကိုဖြင့္ပါ."</string>
+<string name="permdesc_transmitIr" product="tv">" TV ၏ အနီေအာက္ေရာင္ျခည္ ေျပာင္းျခင္းကို သံုးရန္ ေအပီပီ ဖြင့္ပါ."</string>
+<string name="permdesc_transmitIr" product="default">"ဖုန္း၏အနီေအာက္ေရာင္ျခည္ ထုတ္လွြင့္စက္သံုးရန္ ေအပီပီကိုဖြင့္ပါ."</string>
+<string name="permlab_setWallpaper">ေနာက္ခံပံုရိပ္ထားရွိပါ</string>
+<string name="permdesc_setWallpaper">"စစ္စတမ္ ပိုစတာ ထား႐ွိရန္ ေအပီပီအား ခြင့္ျပဳပါ။"</string>
+<string name="permlab_setWallpaperHints">"ပိုစတာ အ႐ြယ္အစားအရိပ္အျမြက္ထား႐ွိပါ"</string>
+<string name="permdesc_setWallpaperHints">"စစ္စတမ္ ပိုစတာ အ႐ြယ္အစားႏွင့္ပတ္သက္၍ အရိပ္အျမြက္မ်ား ထား႐ွိရန္ ေအပီပီကိုခြင့္ျပဳပါ။"</string>
+<string name="permlab_setTimeZone">အခ်ိန္ဇံုကို သတ္မွတ္ပါ</string>
+<string name="permdesc_setTimeZone" product="tablet">"တက္ဘလက္၏ ေဒသစံေတာ္ခ်ိန္ကို ေျပာင္းရန္ ေအပီပီကို ခြင့္ျပဳပါ။"</string>
+<string name="permdesc_setTimeZone" product="tv">" တီဗြီ ၏ အခ်ိန္ဇုန္ သို ့ေျပာင္းရန္ ေအပီပီဖြင့္ပါ."</string>
+<string name="permdesc_setTimeZone" product="default">"ဖုန္း၏ ေဒသစံေတာ္ခ်ိန္ေျပာင္းရန္ ေအပီပီကို ခြင့္ျပဳပါ။"</string>
+<string name="permlab_getAccounts">"အေကာင့္မ်ား ကို ဤစက္တြင္ ရွာေဖြပါ"</string>
+<string name="permdesc_getAccounts" product="tablet">"တက္ဘလက္ ကသိေသာ အေကာင့္မ်ား၏စရင္းကို ရယူရန္ ေအပီပီကိုခြင့္ျပဳပါ။ ဤအရာတြင္ သင့္ဖုန္းတြင္ထည့္သြင္းထားေသာ အပီလီေကးရွင္းမ်ားမွဖန္တီးထားေသာ အေကာင့္မ်ားအားလံုးပါ၀င္သည္။"</string>
+<string name="permdesc_getAccounts" product="tv">"TV ျဖင့္ အေကာင့္စာရင္း ရယူရန္ ေအပီပီ ဖြင့္ပါ. သင္သြင္းသည့္ ေအပီပီမ်ားမွ ဖန္တီးသည့္ မည္သည့္အေကာင့္မဆို ပါလိမ့္မည္."</string>
+<string name="permdesc_getAccounts" product="default">"ဖုန္းကသိေသာ အေကာင့္မ်ား၏စရင္းကို ရယူရန္ ေအပီပီကိုခြင့္ျပဳပါ။ ဤအရာတြင္ သင့္ဖုန္းတြင္ထည့္သြင္းထားေသာ အပီလီေကးရွင္းမ်ားမွဖန္တီးထားေသာ အေကာင့္မ်ားအားလံုးပါ၀င္သည္။"</string>
+<string name="permlab_accessNetworkState">"ကြန္ယက္အေျခအေနၾကည့္႐ႈပါ"</string>
+<string name="permdesc_accessNetworkState">"မည္သည့္ကြန္ယက္ တည္ရိွေၾကာင္းႏွင့္ ခိ်တ္ဆက္ျပီးေၾကာင္း ကဲသို႔ေသာ ကြန္ယက္ခ်ိတ္ဆက္ျခင္းအခ်က္အလက္ကိုၾကည့္ရန္ ေအပီပီကို ခြင့္ျပဳပါ။"</string>
+<string name="permlab_createNetworkSockets">"ကြန္ရက္ လက္ခံ အျပည့္ရွိ "</string>
+<string name="permdesc_createNetworkSockets">"ကြန္ယက္ ေဆာ့ကဒ္မ်ားႏွင့္ ကာစတမ္ ကြန္ယက္ ပရိုတိုကိုးမ်ား ကိုဖန္တီးရန္ ေအပီပီကိုခြင့္ျပဳပါ။ ဘေရာက္ဆာ ႏွင့္ အျခားေသာ အပလီေကးရွင္း ေထာက္ပံသူ သည္ အင္တာနက္သို႔ ေဒတာမ်ားပို႔မည္ဟုဆိုလိုသည္။ ထို႔ေၾကာင့္ အင္တာနက္သို႔ ေဒတာပို႔ျခင္းသည္ ဤခြင့္ျပဳခ်က္မလုိအပ္ပါ။"</string>
+<string name="permlab_changeNetworkState">"ကြန္ယက္ခ်ိတ္ဆက္မႈေျပာင္းပါ"</string>
+<string name="permdesc_changeNetworkState">"ကြန္ယက္ခ်ိတ္ဆက္မႈအေျခအေနေျပာင္းရန္ ေအပီပီအား ခြင့္ျပဳပါ။"</string>
+<string name="permlab_changeTetherState">"မိုဘိုင္းအသံုးျပဳ၍ ကြန္ယက္ခ်ိတ္ဆက္မႈအား ေျပာင္းပါ"</string>
+<string name="permdesc_changeTetherState">"မိုဘိုင္းျဖင့္ ကြန္ယက္ခ်ိတ္ဆက္မႈအေျခအေန ေျပာင္းရန္ ေအပီပီအား ခြင့္ျပဳပါ။"</string>
+<string name="permlab_accessWifiState">"Wi-Fi ခိ်တ္ဆက္မႈမ်ားမွ ၾကည့္ပါ"</string>
+<string name="permdesc_accessWifiState">"Wi-Fi ကုိဖြင့္ထားျခင္း ရွိမရွိႏွင့္ ခ်ိတ္ဆက္ထားေသာ Wi-Fi စက္မ်ား၏ အမည္ကဲ့သုိ႕ Wi-Fi ကြန္ရက္ခ်ိတ္ဆက္မႈအေၾကာင္း အခ်က္အလက္မ်ားကုိ ၾကည့္ရန္ အက္ပ္ကုိ ခြင့္ျပဳသည္။"</string>
+<string name="permlab_changeWifiState">"Wi-Fi သုိ႔ခိ်တ္ဆက္ၿပီး ျပန္ျဖဳတ္ပါ"</string>
+<string name="permdesc_changeWifiState">"Wi-Fi ဝင္ေရာက္သံုးစြဲမည့္ ေနရာမ်ားႏွင့္ ခ်ိတ္ဆက္ရန္ႏွင့္ ခ်ိတ္ဆက္မႈျဖဳတ္ရန္၊ Wi-Fi ကြန္ရက္မ်ားအတြက္ စက္ပုိင္းဆုိင္ရာ ဖြဲ႕စည္းတည္ေဆာက္မႈပုိင္းတြင္ ေျပာင္းလဲမႈမ်ား ျပဳလုပ္ရန္ အက္ပ္ကုိ ခြင့္ျပဳသည္။"</string>
+<string name="permlab_changeWifiMulticastState">"Wi-Fi အမ်ားႏွင့္ခ်ိတ္ဆက္ျခင္းကုိ ခြင့္ျပဳပါ"</string>
+<string name="permdesc_changeWifiMulticastState" product="tablet">"သင့္တက္ဘက္တင္မက အမ်ားႏွင့္ခ်ိတ္ဆက္ေသာ လိပ္စာမ်ားကုိအသံုးျပဳၿပီး Wi-Fi ကြန္ရက္မွ စက္အားလံုးထံ ေပးပုိ႕သည့္ ပက္ကတ္မ်ားကုိ လက္ခံရန္ အက္ပ္ကုိ ခြင့္ျပဳသည္။ ၎သည္ အမ်ားႏွင့္မခ်ိတ္ဆက္ေသာ မုဒ္ထက္ ပါဝါအသံုးျပဳမႈ ပုိမ်ားသည္။"</string>
+<string name="permdesc_changeWifiMulticastState" product="tv">"သင့္ TV သာမက, မာတီလမ္းေျကာင္း လိပ္စာမ်ား သံုးျပီး Wi-Fi ကြန္ရက္ မွ စက္အားလံုးသို ့ လက္ခံ ပက္ေက့ခ်္မ်ား ပို ့ရန္ ေအပီပီ ဖြင့္ပါ . ၄င္းသည္ မ-မာတီလမ္းေျကာင္း မုတ္ ထက္ ပါ၀ါမီးအား ပိုသံုးမည္."</string>
+<string name="permdesc_changeWifiMulticastState" product="default">"သင့္ဖုန္းတင္မက အမ်ားႏွင့္ခ်ိတ္ဆက္ေသာ လိပ္စာမ်ားကုိအသံုးျပဳၿပီး Wi-Fi ကြန္ရက္မွ စက္အားလံုးထံ ေပးပုိ႕သည့္ ပက္ကတ္မ်ားကုိ လက္ခံရန္ အက္ပ္ကုိ ခြင့္ျပဳသည္။ ၎သည္ အမ်ားႏွင့္မခ်ိတ္ဆက္ေသာ မုဒ္ထက္ ပါဝါအသံုးျပဳမႈ ပုိမ်ားသည္။"</string>
+<string name="permlab_bluetoothAdmin">"ဘလူးတုသ္ ၀င္ေရာက္ျခင္း အျပင္အဆင္မ်ား"</string>
+<string name="permdesc_bluetoothAdmin" product="tablet">"အနီးအနား႐ွိ ဘလူးတုသ္တက္ဘလက္ကို စီစဥ္မႈျပဳလုပ္ရန္ႏွင့္ အေဝး႐ွိ ပစၥည္းမ်ားႏွင့္ တြဲရန္ ေအပီပီကို ခြင့္ျပဳပါ။"</string>
+<string name="permdesc_bluetoothAdmin" product="tv">"ေဒသ ဘလူးတူသ္ TV နွင့္ ခ်ိတ္ဆက္ရန္ , ရီမုတ္ စက္မ်ား နွင့္ ရွာေဖြရန္ နွင့္ ယွဥ္တြဲရန္ ေအပီပီဖြင့္ပါ."</string>
+<string name="permdesc_bluetoothAdmin" product="default">"အနီးအနား႐ွိ ဘလူးတုသ္ဖုန္းကို စီစဥ္မႈျပဳလုပ္ရန္ႏွင့္ အေဝး႐ွိ ပစၥည္းမ်ားႏွင့္ တြဲရန္ ေအပီပီကိုခြင့္ျပဳပါ။"</string>
+<string name="permlab_accessWimaxState">"WiMAX သုိ႔ ခ်ိတ္ဆက္ျခင္း ႏွင့္ မခ်ိတ္ဆက္ျခင္း"</string>
+<string name="permdesc_accessWimaxState">"ပ႐ိုဂရမ္အား WiMAX အေျခအေနႏွင့္ပတ္သက္သည့္ အခ်က္အလက္မ်ားၾကည့္႐ႈရန္ ေအပီပီအား ခြင့္ျပဳပါ။"</string>
+<string name="permlab_changeWimaxState">"WiMAX အေျခအေနေျပာင္းပါ"</string>
+<string name="permdesc_changeWimaxState" product="tablet">"WiMAX ကြန္ရက္နွင့္ တက္ပလက္ဖုန္းတို့ ကြန္ရက္ ခ်ိတ္ဆက္ျခင္း ျဖတ္ေတာက္ျခင္းကိုလုပ္ေဆာင္ရန္ ေအပီပီကို ခြင့္ျပဳပါ."</string>
+<string name="permdesc_changeWimaxState" product="tv">"TVသို ့ ဆက္သြယ္ရန္ နွင့္  WiMAX ကြန္ရက္မ်ားမွ TV မခ်ိတ္ဆက္ရန္ ေအပီပီ ဖြင့္ပါ."</string>
+<string name="permdesc_changeWimaxState" product="default">"WiMAX ကြန္ရက္နွင့္္ဖုန္းတို႔ကြန္ရက္ ခ်ိတ္ဆက္ျခင္း ျဖတ္ေတာက္ျခင္းကိုလုပ္ေဆာင္ရန္ ေအပီပီကို ခြင့္ျပဳပါ."</string>
+<string name="permlab_bluetooth">"ဘလူးတုသ္ကိရိယာမ်ားႏွင့္ ယွဥ္တြဲပါ"</string>
+<string name="permdesc_bluetooth" product="tablet">"အနီးအနား႐ွိ ဘလူးတုသ္တက္ဘလက္စီစဥ္မႈအား ၾကည့္႐ႈရန္၊ တြဲဖက္ထားေသာ ခ်ိတ္ဆက္မႈမ်ား ျပဳလုပ္ရန္ႏွင့္ လက္ခံရန္ ေအပီပီအား ခြင့္ျပဳပါ။"</string>
+<string name="permdesc_bluetooth" product="tv">"TV တြင္ ဘလူးတူသ္၏ အတြင္းေရးကို ျကည့္ရန္ ေအပီပီ ဖြင့္ပါ, ထို ့ေနာက္ ယွဥ္တြဲထားသည့္ စက္မ်ားနွင့္ ခ်ိတ္ဆက္ရန္ လက္ခံရန္ ေဆာင္ရြက္ပါ."</string>
+<string name="permdesc_bluetooth" product="default">"အနီးအနား႐ွိ ဘလူးတုသ္ဖုန္းစီစဥ္မႈအား ၾကည့္႐ႈရန္၊ တြဲဖက္ထားေသာ ခ်ိတ္ဆက္မႈမ်ား ျပဳလုပ္ရန္ႏွင့္ လက္ခံရန္ ေအပီပီအား ခြင့္ျပဳပါ။"</string>
+<string name="permlab_nfc">"အကြာအေဝးတုိၾကိမ္ႏႈန္းျမင့္ ၾကိဳးမဲ့ဆက္သြယ္ေရးစနစ္"</string>
+<string name="permdesc_nfc">"အကြာအေဝးတုိၾကိမ္ႏႈန္းျမင့္ၾကိဳးမဲ့ခ်ိတ္ဆက္မႈစနစ္(NFC) အမွတ္အသားမ်ား၊ ကဒ္မ်ား၊ ဖတ္သည့္စက္မ်ားႏွင့္ ဆက္သြယ္ရန္ ေအပီပီအားခြင့္ျပဳပါ။"</string>
+<string name="permlab_disableKeyguard">"ဖန္သားျပင္ ေသာ့ခတ္ထားျခင္းကိုျဖဳတ္ပါ"</string>
+<string name="permdesc_disableKeyguard">"ေသာ့ခတ္ျခင္းႏွင့္ မည္သည့္ဆက္စပ္မႈ႐ွိသည့္ စကားဝွက္လံုျခံဳေရးမဆိုအား ျဖဳတ္ရန္ ေအပီပီကို ခြင့္ျပဳပါ။ ္ဥပမာ ဖုန္းဝင္လာစဥ္ ေသာ့ဖြင့္ျပီး ဖုန္းခ်သည့္အခါ ေသာ့ခတ္သည့္ ဖုန္းျဖစ္သည္။"</string>
+<string name="permlab_manageFingerprint">"လက္ေခ်ာင္းစာ ဟတ္၀ဲလ္ စီမံပါ"</string>
+<string name="permdesc_manageFingerprint">" သံုးရန္ ဘုတ္မ်ားလက္ေခ်ာင္းစာ ဘုတ္မ်ား ပယ္ဖ်က္ နွင့္ ထည့္ရန္  နည္းလမ္းမ်ား ေဖၚျပရန္ ေအပီပီဖြင့္ပါ."</string>
+<string name="permlab_useFingerprint">"လက္ေခ်ာင္းစာ ဟတ္၀ဲလ္ သံုးပါ"</string>
+<string name="permdesc_useFingerprint">" အတည္ျပဳရန္အတြက္ လက္ေခ်ာင္းစာ ဟတ္၀ဲလ္ သံုးရန္ ေအပီပီ ဖြင့္ပါ.""</string>
+<string name="fingerprint_acquired_partial">"တစ္စိတ္တစ္ပိုင္း လက္ေခ်ာင္းစာ ေတြ ့ထား. ေက်းဇူးျပဳ၍ ထပ္ျကိုးစားပါ."</string>
+<string name="fingerprint_acquired_insufficient">"လက္ေခ်ာင္းစာ ပေရာစက္ မရနိုင္. ေက်းဇူးျပဳ၍ ထပ္ျကိုးစားပါ."</string>
+<string name="fingerprint_acquired_imager_dirty">"လက္ေခ်ာင္းစာ အာရံုခံ ညစ္ပတ္ေန. ေက်းဇူးျပဳ၍ ရွင္းျပီး ထပ္ျကိုးစားပါ."</string>
+<string name="fingerprint_acquired_too_fast">"လက္ေခ်ာင္း ေရႊ ့ အလြန္ျမန္. ေက်းဇူးျပဳ၍ ထပ္ျကိုးစားပါ."</string>
+<string name="fingerprint_acquired_too_slow">"လက္ေခ်ာင္း ေရႊ ့ အလြန္ျမန္. ေက်းဇူးျပဳ၍ ထပ္ျကိုးစားပါ."</string>
+<string name="fingerprint_error_hw_not_available">"လက္ေခ်ာင္းစာ ဟတ္၀ဲလ္ မေထာက္ပံ့."</string>
+<string name="fingerprint_error_no_space">"လက္ေခ်ာင္းစာ သိမ္းမရ. ေက်းဇူးျပဳ၍ လက္ရွိ လက္ေခ်ာင္းစာ ဖယ္ပါ."</string>
+<string name="fingerprint_error_timeout">"လက္ေခ်ာင္းစာ အခ်ိန္ျပည့္ျပီ. ထပ္ျကိုးစားပါ."</string>
+<string name="fingerprint_error_canceled">"လက္ေခ်ာင္းစာ ေအာ္ပေရးရွင္း ပယ္ဖ်က္ျပီး."</string>
+<string name="fingerprint_error_lockout">"ျကိုးစားမႈ အလြန္မ်ား. ေနာက္မွ ထပ္ျကိုးစားပါ."</string>
+<string name="fingerprint_error_unable_to_process">"ေနာက္တစ္ခါၾကိဳးစားၾကည့္ပါ."</string>
+<string name="fingerprint_name_template">"လက္ေခ်ာင္း <xliff:g id="fingerId" example="1">%d</xliff:g>"</string>
+<string name="fingerprint_icon_content_description">"လက္ေခ်ာင္းစာ အိုင္ကြန္"</string>
+<string name="permlab_readSyncSettings">"sync ဆက္တင္မ်ား ကို ဖတ္ပါ"</string>
+<string name="permdesc_readSyncSettings">"လိပ္စာမ်ားအတြက္ sync ျပဳလုပ္ျခင္း ရမရ အစ႐ွိသျဖင့္ အေကာင့္အတြက္ sync အျပင္အဆင္မ်ားကို ဖတ္ရန္ ေအပီပီကို ခြင့္ျပဳပါ။"</string>
+<string name="permlab_writeSyncSettings">"sync ေတာ္ဂဲလ္ အဖြင့္အပိတ္"</string>
+<string name="permdesc_writeSyncSettings">"လိပ္စာမ်ားအတြက္ sync ျပဳလုပ္ျခင္းရႏိုင္မရႏိုင္ကဲ့သို႔ေသာ အေကာင့္အတြက္ sync ျပဳလုပ္ျခင္းဆိုင္ရာ အျပင္အဆင္မ်ားကို အဆင့္ျမွင့္ရန္ ေအပီပီကို ခြင့္ျပဳပါ။"</string>
+<string name="permlab_readSyncStats">"sync စာရင္းအင္းမ်ားကို ဖတ္ပါ"</string>
+<string name="permdesc_readSyncStats">"အေကာင့္အတြက္ sync အေျခအေနမ်ားကို ဖတ္ရန္ ေအပီပီ္အား ခြင့္ျပဳပါ။ ဥပမာ ျဖစ္ေပၚထားသည့္ တစ္ျပိဳင္နက္ျဖစ္ေပၚေစရန္ ျပဳလုပ္ခ်က္မ်ားမွတ္တမ္း။"</string>
+<string name="permlab_sdcardRead" product="nosdcard">"သင့္ USB မွတ္ဥာဏ္မွအခ်က္အလက္မ်ားဖတ္ပါ"</string>
+<string name="permlab_sdcardRead" product="default">"သင့္ SD ကဒ္ရွိ အေျကာင္းအရာမ်ား ကို ဖတ္ပါ"</string>
+<string name="permdesc_sdcardRead" product="nosdcard">"သင့္ USB သိုေလွာင္မွတ္ဥာဏ္ အခ်က္အလက္မ်ားဖတ္ရန္ ေအပီပီကိုဖြင့္ပါ"</string>
+<string name="permdesc_sdcardRead" product="default">"သင့္ SD ကဒ္ မာတိကာမ်ားဖတ္ရန္ ေအပီပီကိုဖြင့္ပါ."</string>
+<string name="permlab_sdcardWrite" product="nosdcard">"USB သိမ္းဆည္းမႈအေၾကာင္းအရာမ်ားကို အဆင့္ျမွင့္မည္/ဖ်က္မည္"</string>
+<string name="permlab_sdcardWrite" product="default">"SD ကဒ္အေၾကာင္းအရာမ်ား ကို အသစ္ျပဳျပင္ပါ / ဖ်က္ပါ"</string>
+<string name="permdesc_sdcardWrite" product="nosdcard">"USB သိမ္းဆည္းမႈပစၥည္းသို႔ ေရးရန္ ေအပီပီ္အား ခြင့္ျပဳမည္"</string>
+<string name="permdesc_sdcardWrite" product="default">"SD ကဒ္သို႔ ေရးသားရန္ ေအပီပီ္အားခြင့္ျပဳပါ။"</string>
+<string name="permlab_use_sip">"SIP ေခၚဆုိမႈမ်ား လုပ္ပါ/လက္ခံပါ"</string>
+<string name="permdesc_use_sip">"SIP ေခၚဆုိမႈမ်ား ျပဳလုပ္ရန္/လက္ခံရန္ အက္ပ္ကုိ ခြင့္ျပဳသည္။"</string>
+<string name="permlab_register_sim_subscription">"တယ္လီကြန္ အသစ္ SIM ခ်ိတ္ဆက္မႈမ်ား စာရင္းသြင္း"</string>
+<string name="permdesc_register_sim_subscription">"တယ္လီကြန္ အသစ္ SIM ခ်ိတ္ဆက္မႈမ်ား စာရင္းသြင္းရန္ ေအပီပီဖြင့္ပါ."</string>
+<string name="permlab_register_call_provider">"တယ္လီကြန္ အသစ္ ခ်ိတ္ဆက္မႈမ်ား စာရင္းသြင္း"</string>
+<string name="permdesc_register_call_provider">"တယ္လီကြန္ အသစ္ ခ်ိတ္ဆက္မႈမ်ား စာရင္းသြင္းရန္ ေအပီပီဖြင့္ပါ."</string>
+<string name="permlab_connection_manager">"တယ္လီကြန္ ခ်ိတ္ဆက္မႈမ်ား စီမံပါ"</string>
+<string name="permdesc_connection_manager">"တယ္လီကြန္ ခ်ိတ္ဆက္မႈမ်ား စီမံရန္ ေအပီပီ ဖြင့္ပါ."</string>
+<string name="permlab_bind_incall_service">"ဖုန္းအ1င္ဖန္သားျပင္ တုန္႔ျပန္မႈ"</string>
+<string name="permdesc_bind_incall_service">"သံုးစြဲသူမွ ဖုန္းအ1င္ဖန္သားျပင္ ဘယ္အခ်ိန္နွင့္ဘယ္လို ျကည့္ရန္ ထိန္းခ်ဳပ္မည့္ ေအပီပီကို ဖြင့္ပါ."</string>
+<string name="permlab_bind_connection_service">"ဆက္သြယ္ေရး ဝန္ေဆာင္မႈမ်ားျဖင့္ အျပန္အလွန္တုန္႕ျပန္ေဆာင္ရြက္ပါ"</string>
+<string name="permdesc_bind_connection_service">"ဖုန္းေခၚဆုိရန္/ေခၚဆုိမႈကုိ လက္ခံရန္ အသံထုတ္လႊင့္မႈ ဝန္ေဆာင္မႈမ်ားျဖင့္အတူ တုန္႔ျပန္ေဆာင္ရြက္ရန္ အက္ပ္ကုိခြင့္ျပဳသည္။"</string>
+<string name="permlab_control_incall_experience">"အဝင္ေခၚဆုိသည့္ အသံုးျပဳသူ အေတြ႕အၾကံဳကုိ ပံ့ပုိးေပးသည္"</string>
+<string name="permdesc_control_incall_experience">"အဝင္ေခၚဆုိမင အသံုးျပဳသူ အေတြ႕အၾကံဳကုိ ပံ့ပုိးေပးရန္ အက္ပ္ကုိ ခြင့္ျပဳသည္။"</string>
+<string name="permlab_readNetworkUsageHistory">"သမိုင္းႏွင့္ပတ္သက္သည့္ ကြန္ယက္အသံုးျပဳမႈပမာဏကို ဖတ္ပါ"</string>
+<string name="permdesc_readNetworkUsageHistory">"သတ္မွတ္ထားေသာ ကြန္ယက္မ်ားႏွင့္ ေအပီပီမ်ား၏ ကြန္ယက္အသံုးခ်မႈဆိုင္ရာ မွတ္တမ္းကို ဖတ္ရန္ ေအပီပီ္အားခြင့္ျပဳပါ။"</string>
+<string name="permlab_manageNetworkPolicy">"ကြန္ယက္ မူဝါဒကို စီစဥ္ပါ"</string>
+<string name="permdesc_manageNetworkPolicy">"ကြန္ယက္မူမ်ားကို စီစဥ္ရန္ႏွင့္ တိက်သည့္ ေအပီပီ နည္းလမ္းမ်ားကို သတ္မွတ္ရန္ ေအပီပီ္အား ခြင့္ျပဳပါ။"</string>
+<string name="permlab_modifyNetworkAccounting">"ကြန္ယက္အသံုးခ်မႈပမာဏတြက္ခ်က္ျခင္းကို အသစ္ျပဳျပင္ပါ"</string>
+<string name="permdesc_modifyNetworkAccounting">"ေအပီပီ္မ်ားႏွင့္ပတ္သက္၍ ကြန္ယက္အသံုးခ်မႈအား ေရတြက္ပံုဆိုင္ရာ အဆင့္ျမွင့္ရန္ ေအပီပီ္အား ခြင့္ျပဳပါ။ ပံုမွန္ေအပီပီ္မ်ားက အသံုးျပဳရန္ မဟုတ္ပါ။"</string>
+<string name="permlab_accessNotifications">"သတိေပးခ်က္ လက္ခံပါ"</string>
+<string name="permdesc_accessNotifications">"တျခားေအပီပီမ်ားမွ တင္ထားသည့္ သတိေပးခ်က္မ်ားကို ျပန္နွိုးရန္,စစ္ေဆးရန္ နွင့္ ပယ္ရန္ ေအပီပီကိုဖြင့္ပါ."</string>
+<string name="permlab_bindNotificationListenerService">"သတိေပးခ်က္ နားေသာတရွင္ ၀န္ေဆာင္မွုသို့ ဘိုင္းလုပ္ပါ"</string>
+<string name="permdesc_bindNotificationListenerService">"သတိေပးခ်က္ နားေသာတရွင္ ၀န္ေဆာင္မွုကို မ်က္နွာျပင္ ထိပ္ျကားခံတြင္ ဗိုင္း လုပ္နိင္ရန္ ဟိုဒါကို ဖြင့္ပါ. ပံုမွန္တြင္ သံုးစရာမလိုပါ."</string>
+<string name="permlab_bindConditionProviderService">"အေျခအေနပံ့ပုိးေပးသည့္ဝန္ေဆာင္မႈထံ ခ်ိတ္ဆက္ပါ"</string>
+<string name="permdesc_bindConditionProviderService">"အေျခအေနကုိ ပံ့ပုိးေပးသူ ဝန္ေဆာင္မႈ၏ ထိပ္ဆံုးအဆင့္ ၾကားခံစနစ္ႏွင့္ ခ်ိတ္ဆက္ရန္ ကုိင္ေဆာင္သူကုိ ခြင့္ျပဳသည္။ သာမန္အက္ပ္မ်ားအတြက္ မည္သည့္အခါမွ မလုိအပ္သင့္ေပ။"</string>
+<string name="permlab_bindDreamService">"အိမ္မက္ဝန္ေဆာင္မႈထံ ခ်ိတ္ဆက္ပါ"</string>
+<string name="permdesc_bindDreamService">"အိမ္မက္ ဝန္ေဆာင္မႈ၏ ထိပ္ဆံုးအဆင့္ ၾကားခံစနစ္ႏွင့္ ခ်ိတ္ဆက္ရန္ ကုိင္ေဆာင္သူကုိ ခြင့္ျပဳသည္။ သာမန္အက္ပ္မ်ားအတြက္ မည္သည့္အခါမွ မလုိအပ္သင့္ေပ။"</string>
+<string name="permlab_invokeCarrierSetup">"ကယ္ရီယာ-ေထာက္ပံ့သည့္ ေထာက္ခံေပးသည့္အခ်က္ ေအပီပီ ကိုေရြးသံုးပါ"</string>
+<string name="permdesc_invokeCarrierSetup">"ကယ္ရီယာ-ေထာက္ပံ့သည့္ ေထာက္ခံေပးသည့္အခ်က္ ေအပီပီ ကိုေရြးသံုးရန္ ဟိုဒါကို ဖြင့္ပါ. ပံုမွန္တြင္ သံုးစရာမလိုပါ."</string>
+<string name="permlab_accessNetworkConditions">"ကြန္ရက္အေျခအေနမ်ားမွ ေလ့လာစူးစမ္းရန္တြက္နားေထာင္ပါ "</string>
+<string name="permdesc_accessNetworkConditions">"ကြန္ရက္အေျခအေနမ်ားမွ ေလ့လာစူးစမ္းရန္တြက္နားေထာင္ရန္ ေအပီပီကို ဖြင့္ပါ. ပံုမွန္တြင္ သံုးစရာမလိုပါ."</string>
+<string name="permlab_setInputCalibration">"ထည့္သြင္းစက္ စံကုိက္ခ်ိန္ညွိမႈကုိ ေျပာင္းပါ"</string>
+<string name="permdesc_setInputCalibration">"ထိေတြ႕ဖန္သားျပင္၏ စံကုိက္ခ်ိန္ညႇိ ပါရာမီတာမ်ားကုိ ျပဳျပင္ထိန္းသိမ္းရန္ အက္ပ္ကုိ ခြင့္ျပဳသည္။ သာမန္အက္ပ္မ်ားအတြက္ မည္သည့္အခါမွ မလုိအပ္သင့္ေပ။"</string>
+<string name="permlab_accessDrmCertificates">"DRM အသိအမွတ္ျပဳလက္မွတ္မ်ားကုိ ရယူသံုးစြဲပါ"</string>
+<string name="permdesc_accessDrmCertificates">"ခြင့္ျပဳခ်က္ေပးၿပီး DRM အသိအမွတ္ျပဳလက္မွတ္မ်ားကုိ အသံုးျပဳရန္ အပလီေကးရွင္းကုိ ခြင့္ျပဳမည္။ သာမန္အက္ပ္မ်ားအတြက္ မည္သည့္အခါမွ မလုိအပ္သင့္ေပ။"</string>
+<string name="permlab_handoverStatus">"Android Beam လႊဲေျပာင္းမႈ အေျခအေနကုိ လက္ခံပါ"</string>
+<string name="permdesc_handoverStatus">"လက္ရွိ Android Beam လႊဲေျပာင္းမႈမ်ားအေၾကာင္းအ ခ်က္အလက္မ်ား လကခံရန္ ဤအပလီေကးရွင္းကုိ ခြင့္ျပဳသည္။"</string>
+<string name="permlab_removeDrmCertificates">"DRM အသိအမွတ္ျပဳလက္မွတ္မ်ားကုိ ဖယ္ရွားပါ"</string>
+<string name="permdesc_removeDrmCertificates">"အပလီေကးရွင္းကုိ DRM အသိအမွတ္ျပဳလက္မွတ္မ်ားကုိ ဖယ္ရွားခြင့္ျပဳမည္။ သာမန္အက္ပ္မ်ားအတြက္ မည္သည့္အခါမွ မလုိအပ္သင့္ေပ။"</string>
+<string name="permlab_bindCarrierMessagingService">"ကယ္လီရာ မက္ေဆ့ခ်္ပို ့ရန္ ၀န္ေဆာင္မႈ တစ္ခု ဘိုင္းလုပ္ပါ"</string>
+<string name="permdesc_bindCarrierMessagingService">"ကယ္လီရာ မက္ေဆ့ခ်္ပို ့ရန္ ၀န္ေဆာင္မႈ၏ အထက္-အဆင့္ အျပန္အလွန္ သို ့ ဘိုင္းလုပ္ရန္ ဆုတ္ကိုင္ပါ. ဘယ္ေတာ့မွ ပံုမွန္ ေအပီပီမ်ား မလိုအပ္ပါ."</string>
+<string name="permlab_bindCarrierServices">"ကယ္ရီယာ ၀န္ေဆာင္မႈမ်ား ဘိုင္းလုပ္ပါ"</string>
+<string name="permdesc_bindCarrierServices">"ကယ္ရီယာ ၀န္ေဆာင္မႈမ်ား ဘိုင္းလုပ္ရန္ ဆုတ္ကိုင္ပါ. ဘယ္ေတာ့မွ ပံုမွန္ ေအပီပီမ်ား မလိုအပ္ပါ."</string>
+<string name="permlab_access_notification_policy">"မေနွာင့္ယွက္ရ ဖြင့္ပါ "</string>
+<string name="permdesc_access_notification_policy">"ခ်ိတ္ဆက္ျခင္း  မေနွာင့္ယွက္ရ  ေရးရန္ နွင့္ ဖတ္ရန္ ေအပီပီ ခြင့္ျပဳပါ."</string>
+<string name="policylab_limitPassword">"စကားဝွက္စည္းကမ္းခ်က္မ်ားထား႐ွိပါ"</string>
+<string name="policydesc_limitPassword">"ဖန္သားျပင္ ေသာ့ စကား၀ွက္ နွင့္ PINs တြင္ သံုးမည့္ အလ်ားနွင့္ စာလံုးေရ ထိန္းခ်ဳပ္ပါ."</string>
+<string name="policylab_watchLogin">"ဖန္သားျပင္ေသာ့ဖြင့္ျခင္း ၾကိဳးစားၾကိမ္ေပါင္းကို ေစာင့္ၾကပ္ၾကည့္႐ႈပါ"</string>
+<string name="policydesc_watchLogin" product="tablet">"ဖန္သားျပင္ေသာ့ဖြင့္စဥ္ စကားဝွက္မ်ား မွားသြင္းမိသည့္ အေရအတြက္ကို ေစာင့္ၾကပ္ၾကည့္႐ႈျပီး တက္ဘလက္ကို ေသာ့ခတ္ပါ သို႔မဟုတ္ စကားဝွက္အမွားမ်ား ၾကိမ္ဖန္မ်ားစြာ ထည့္သြင္းပါက တက္ဘလက္ေဒတာမ်ားအားလံုးကို ဖ်က္ပစ္ပါ။"</string>
+<string name="policydesc_watchLogin" product="TV">"ဖန္သားျပင္ အန္ေလာ့ခ္ရန္ ရိုက္သည့္ မမွန္သည့္ စကား၀ွက္ နံပါတ္ကို စစ္ ေဆးပါ နွင့္  ေသာ့ TV (သို ့)  မမွန္သည့္ စကား၀ွက္ ေျမာက္မ်ားစြာ ရိုက္ထားလွ်င္ TV ေဒတာအားလံုး ဖ်က္ပါ ."</string>
+<string name="policydesc_watchLogin" product="default">"ဖန္သားျပင္ေသာ့ဖြင့္စဥ္ စကားဝွက္မ်ား မွားသြင္းမိသည့္ အေရအတြက္ကို ေစာင့္ၾကပ္ၾကည့္႐ႈျပီး ဖုန္းကို ေသာ့ခတ္ပါ သို႔မဟုတ္ စကားဝွက္အမွားမ်ား ၾကိမ္ဖန္မ်ားစြာ ထည့္သြင္းပါက ဖုန္းေဒတာမ်ားအားလံုးကို ဖ်က္ပစ္ပါ။"</string>
+<string name="policydesc_watchLogin_secondaryUser" product="tablet">"ဖန္သားျပင္ အန္ေလာ့ခ္ရန္ ရိုက္သည့္ မမွန္သည့္ စကား၀ွက္ နံပါတ္ကို စစ္ ေဆးပါ နွင့္  ေသာ့ တက္ပလက္ဖုန္း (သို ့)  မမွန္သည့္ စကား၀ွက္ ေျမာက္မ်ားစြာ ရိုက္ထားလွ်င္ ဤသံုးစြဲသူ၏ ေဒတာအားလံုး ဖ်က္ပါ ."</string>
+<string name="policydesc_watchLogin_secondaryUser" product="TV">"ဖန္သားျပင္ အန္ေလာ့ခ္ရန္ ရိုက္သည့္ မမွန္သည့္ စကား၀ွက္ နံပါတ္ကို စစ္ ေဆးပါ နွင့္  ေသာ့ TV (သို ့)  မမွန္သည့္ စကား၀ွက္ ေျမာက္မ်ားစြာ ရိုက္ထားလွ်င္ ဤသံုးစြဲသူ၏ ေဒတာအားလံုး ဖ်က္ပါ ."</string>
+<string name="policydesc_watchLogin_secondaryUser" product="default">"ဖန္သားျပင္ အန္ေလာ့ခ္ရန္ ရိုက္သည့္ မမွန္သည့္ စကား၀ွက္ နံပါတ္ကို စစ္ ေဆးပါ နွင့္  ေသာ့ ဖုန္း (သို ့)  မမွန္သည့္ စကား၀ွက္ ေျမာက္မ်ားစြာ ရိုက္ထားလွ်င္ ဤသံုးစြဲသူ၏ ေဒတာအားလံုး ဖ်က္ပါ ."</string>
+<string name="policylab_resetPassword">"ဖန္သားျပင္ေသာ့ ေျပာင္းပါ"</string>
+<string name="policydesc_resetPassword">"ဖန္သားျပင္ေသာ့ ေျပာင္းပါ."</string>
+<string name="policylab_forceLock">"ဖန္သားျပင္ေသာ့ခတ္ပါ"</string>
+<string name="policydesc_forceLock">"ဖန္သားျပင္ေသာ့ခတ္ပံုႏွင့္ ေသာ့ခတ္ခ်ိန္ကို ထိန္းခ်ဳပ္ပါ"</string>
+<string name="policylab_wipeData">"ေဒတာအားလံုးကို ဖ်က္ပါ"</string>
+<string name="policydesc_wipeData" product="tablet">"မူလဝယ္ယူစဥ္ပံုစံေဒတာအတိုင္း ျပန္လည္ထား႐ွိျခင္းျဖင့္ သတိမေပးဘဲ တက္ဘလက္ေဒတာကို ဖ်က္ပါ"</string>
+<string name="policydesc_wipeData" product="tv">"စက္ရံုေဒတာ ျပန္တပ္ဆင္ ရန္ သတိေပးခ်က္ မပါဘဲနွင့္ တီဗြီ ၏ ေဒတာ ဖ်က္ပါ."</string>
+<string name="policydesc_wipeData" product="default">"မူလဝယ္ယူစဥ္ပံုစံေဒတာအတိုင္း ျပန္လည္ထား႐ွိျခင္းျဖင့္ သတိမေပးဘဲ ဖုန္းေဒတာကို ဖ်က္ပါ"</string>
+<string name="policylab_wipeData_secondaryUser">"သံုးစြဲသူ ေဒတာ ဖ်က္ပါ"</string>
+<string name="policydesc_wipeData_secondaryUser" product="tablet">"သတိေပးခ်က္ မပါဘဲနွင့္ ဤတက္ပလက္ဖုန္းရွိ သံုးစြဲသူ ေဒတာ ဖ်က္ပါ."</string>
+<string name="policydesc_wipeData_secondaryUser" product="tv">"သတိေပးခ်က္ မပါဘဲနွင့္ ဤ TV ရွိ သံုးစြဲသူ ေဒတာ ဖ်က္ပါ."</string>
+<string name="policydesc_wipeData_secondaryUser" product="default">"သတိေပးခ်က္ မပါဘဲနွင့္ ဤဖုန္းရွိ သံုးစြဲသူ ေဒတာ ဖ်က္ပါ."</string>
+<string name="policylab_setGlobalProxy">"ကိရိယာ၏ကမၻာလံုးဆိုင္ရာၾကားခံ ထား႐ွိပါ"</string>
+<string name="policydesc_setGlobalProxy">"ေပၚလစီဖြင့္ထားလွ်င္ သံုးရန္ စက္ global ပေရာက္စီ ဆက္တင္. စက္ပိုင္ရွင္ အတြက္သာ global ပေရာစီ ဆက္တင္လုပ္နိုင္."</string>
+<string name="policylab_expirePassword">"ဖန္သားျပင္ေသာ့ စကား၀ွက္၏ သက္တမ္း ဆက္တင္"</string>
+<string name="policydesc_expirePassword">"ဖန္သားျပင္ေသာ့ စကား၀ွက္, PIN, (သို ့) ပံုစံ ဘယ္လို မျကာခဏ ေျပာင္းရန္ ေျပာင္းပါ."</string>
+<string name="policylab_encryptedStorage">"သိုေလွာင္မႈကုဒ္ျဖင့္ေဖာ္ျပခ်က္ ကိုတပ္ဆငင္ပါ"</string>
+<string name="policydesc_encryptedStorage">"သိုေလွာင္ထားေသာ ေအပီပီေဒတာအား ကုဒ္ျဖင့္ေဖာ္ျပရန္ လိုအပ္သည္"</string>
+<string name="policylab_disableCamera">"ကင္မရာမ်ားကို ပိတ္ပါ"</string>
+<string name="policydesc_disableCamera">"ကင္မရာ၏ကိရိယာအားလံုးကို အသံုးျပဳျခင္းမွ ကာကြယ္ပါ"</string>
+<string name="policylab_disableKeyguardFeatures">"တစ္ခ်ိဳ ့ ဖန္သားျပင္ ေသာ့ လကၡဏာမ်ား ပိတ္ပါ"</string>
+<string name="policydesc_disableKeyguardFeatures">"တစ္ခ်ိဳ ့ ဖန္သားျပင္ ေသာ့ လကၡဏာမ်ား သံုးရန္ တားျမစ္ပါ"</string>
+<string-array name="phoneTypes">
+<item>"အိမ္"</item>
+<item>"မိုဘိုင္း"</item>
+<item>"အလုပ္"</item>
+<item>"အလုပ္ ဖက္စ္"</item>
+<item>"အိမ္ ဖက္စ္"</item>
+<item>"ေပဂ်ာ"</item>
+<item>"အျခား"</item>
+<item>"စိတ္ႀကိဳက္"</item>
+</string-array>
+<string-array name="emailAddressTypes">
+<item>"အိမ္"</item>
+<item>"အလုပ္"</item>
+<item>"အျခား"</item>
+<item>"စိတ္ႀကိဳက္"</item>
+</string-array>
+<string-array name="postalAddressTypes">
+<item>"အိမ္"</item>
+<item>"အလုပ္"</item>
+<item>"အျခား"</item>
+<item>"စိတ္ႀကိဳက္"</item>
+</string-array>
+<string-array name="imAddressTypes">
+<item>"အိမ္"</item>
+<item>"အလုပ္"</item>
+<item>"အျခား"</item>
+<item>"စိတ္ႀကိဳက္"</item>
+</string-array>
+<string-array name="organizationTypes">
+<item>"အလုပ္"</item>
+<item>"အျခား"</item>
+<item>"စိတ္ႀကိဳက္"</item>
+</string-array>
+<string-array name="imProtocols">
+<item>"AIM"</item>
+<item>"Windows Live"</item>
+<item>"Yahoo"</item>
+<item>"Skype"</item>
+<item>"QQ"</item>
+<item>"Google Talk"</item>
+<item>"ICQ"</item>
+<item>"Jabber"</item>
+</string-array>
+<string name="phoneTypeCustom">"စိတ္ႀကိဳက္"</string>
+<string name="phoneTypeHome">"အိမ္"</string>
+<string name="phoneTypeMobile">"မိုဘိုင္း"</string>
+<string name="phoneTypeWork">"အလုပ္"</string>
+<string name="phoneTypeFaxWork">"အလုပ္ ဖက္စ္"</string>
+<string name="phoneTypeFaxHome">"အိမ္ ဖက္စ္"</string>
+<string name="phoneTypePager">"ေပဂ်ာ"</string>
+<string name="phoneTypeOther">"အျခား"</string>
+<string name="phoneTypeCallback">"ဖုန္းျပန္ေခၚ"</string>
+<string name="phoneTypeCar">"ကား"</string>
+<string name="phoneTypeCompanyMain">"ပင္မကုမၸဏီ"</string>
+<string name="phoneTypeMain">"ပင္မ"</string>
+<string name="phoneTypeOtherFax">"အျခားဖက္စ္"</string>
+<string name="phoneTypeRadio">"ေရဒီယို"</string>
+<string name="phoneTypeTelex">"Telex"</string>
+<string name="phoneTypeWorkMobile">"အလုပ္ မိုဘိုင္း"</string>
+<string name="phoneTypeWorkPager">"အလုပ္ ေပဂ်ာ"</string>
+<string name="phoneTypeAssistant">"အကူအညီ"</string>
+<string name="phoneTypeMms">"MMS"</string>
+<string name="eventTypeCustom">"စိတ္ႀကိဳက္"</string>
+<string name="eventTypeBirthday">"ေမြးေန႔"</string>
+<string name="eventTypeAnniversary">"ႏွစ္ပတ္လည္"</string>
+<string name="eventTypeOther">"အျခား"</string>
+<string name="emailTypeCustom">"စိတ္ႀကိဳက္"</string>
+<string name="emailTypeHome">"အိမ္"</string>
+<string name="emailTypeWork">"အလုပ္"</string>
+<string name="emailTypeOther">"အျခား"</string>
+<string name="emailTypeMobile">"မိုဘိုင္း"</string>
+<string name="postalTypeCustom">"စိတ္ႀကိဳက္"</string>
+<string name="postalTypeHome">"အိမ္"</string>
+<string name="postalTypeWork">"အလုပ္"</string>
+<string name="postalTypeOther">"အျခား"</string>
+<string name="imTypeCustom">"စိတ္ႀကိဳက္"</string>
+<string name="imTypeHome">"အိမ္"</string>
+<string name="imTypeWork">"အလုပ္"</string>
+<string name="imTypeOther">"အျခား"</string>
+<string name="imProtocolCustom">"စိတ္ႀကိဳက္"</string>
+<string name="imProtocolYahoo">"Yahoo"</string>
+<string name="imProtocolGoogleTalk">"Hangouts"</string>
+<string name="orgTypeWork">"အလုပ္"</string>
+<string name="orgTypeOther">"အျခား"</string>
+<string name="orgTypeCustom">"စိတ္ႀကိဳက္"</string>
+<string name="relationTypeCustom">"စိတ္ႀကိဳက္"</string>
+<string name="relationTypeAssistant">"အကူအညီ"</string>
+<string name="relationTypeBrother">"ညီအစ္ကို"</string>
+<string name="relationTypeChild">"ကေလး"</string>
+<string name="relationTypeDomesticPartner">"အိမ္တြင္းပါတနာ"</string>
+<string name="relationTypeFather">"ဖခင္"</string>
+<string name="relationTypeFriend">"သူငယ္ခ်င္း"</string>
+<string name="relationTypeManager">"စီစဥ္သူမန္ေနဂ်ာ"</string>
+<string name="relationTypeMother">"မိခင္"</string>
+<string name="relationTypeParent">"မိဘ"</string>
+<string name="relationTypePartner">"တြဲဖက္ပါတနာ:"</string>
+<string name="relationTypeReferredBy">"ျဖင့္ ညႊန္းဆိုပါ"</string>
+<string name="relationTypeRelative">"ေဆြမ်ိဳး"</string>
+<string name="relationTypeSister">"ညီအစ္မ"</string>
+<string name="relationTypeSpouse">"အိမ္ေထာင္ဖက္"</string>
+<string name="sipAddressTypeCustom">"စိတ္ႀကိဳက္"</string>
+<string name="sipAddressTypeHome">"အိမ္"</string>
+<string name="sipAddressTypeWork">"အလုပ္"</string>
+<string name="sipAddressTypeOther">"အျခား"</string>
+<string name="quick_contacts_not_available">"ဤအဆက္အသြယ္ကုိၾကည့္ရန္ အပလီေကးရွင္းကုိ မေတြ႕ပါ။"</string>
+<string name="keyguard_password_enter_pin_code">"PIN ကုဒ္ထည့္ပါ"</string>
+<string name="keyguard_password_enter_puk_code">"PUK ႏွင့္ PIN ကုဒ္အသစ္ထည့္ပါ"</string>
+<string name="keyguard_password_enter_puk_prompt">"PUK ကုဒ္"</string>
+<string name="keyguard_password_enter_pin_prompt">"Pin ကုဒ္အသစ္"</string>
+<string name="keyguard_password_entry_touch_hint">"<font size="17">စကား၀ွက္ ရိုက္ရန္ နွိပ္ပါ</font>"</string>
+<string name="keyguard_password_enter_password_code">"ေသာ့ဖြင့္ရန္ စကားဝွက္ထည့္ပါ"</string>
+<string name="keyguard_password_enter_pin_password_code">"ေသာ့ဖြင့္ရန္ PIN ထည့္ပါ"</string>
+<string name="keyguard_password_wrong_pin_code">"PIN ကုဒ္မမွန္ကန္ပါ!"</string>
+<string name="keyguard_label_text">"ေသာ့ဖြင့္ရန္ မာတိကာကိုႏွိပ္ ျပီးေနာက္ 0 ကို ႏွိပ္ပါ။"</string>
+<string name="emergency_call_dialog_number_for_display">"အေရးေပၚနံပါတ္"</string>
+<string name="lockscreen_carrier_default">"၀န္ေဆာင္မႈ မရွိ"</string>
+<string name="lockscreen_screen_locked">"ဖန္သားျပင္ေသာ့ခတ္ျပီး။"</string>
+<string name="lockscreen_instructions_when_pattern_enabled">"ေသာ့ဖြင့္ရန္ သို႔မဟုတ္ အေရးေပၚဖုန္းေခၚဆိုမႈထား႐ွိရန္ မီႏူး ကို ႏွိပ္ပါ။"</string>
+<string name="lockscreen_instructions_when_pattern_disabled">"ေသာ့ဖြင့္ရန္ မာတိကာကို ႏွိပ္ပါ။"</string>
+<string name="lockscreen_pattern_instructions">"ေသာ့ဖြင့္ရန္ ပံုစံေရးဆြဲပါ"</string>
+<string name="lockscreen_emergency_call">"အေရးေပၚ"</string>
+<string name="lockscreen_return_to_call">"ဖုန္းေခၚဆိုမႈသို႔ ျပန္သြားပါ"</string>
+<string name="lockscreen_pattern_correct">"မွန္သည္!"</string>
+<string name="lockscreen_pattern_wrong">"ျပန္ၾကိဳးစားပါ"</string>
+<string name="lockscreen_password_wrong">"ျပန္ၾကိဳးစားပါ"</string>
+<string name="faceunlock_multiple_failures">"ေလာ့ခ္လုပ္ပိုလြန္စြာလုပ္သည့္အမ်ားဆံုးမ်က္ႏွာျပင္"</string>
+<string name="lockscreen_missing_sim_message_short">"SIM ကဒ္မရွိပါ။"</string>
+<string name="lockscreen_missing_sim_message" product="tablet">"တက္ဘလက္တြင္ SIM ကဒ္မ႐ွိပါ။"</string>
+<string name="lockscreen_missing_sim_message" product="tv">"TV တြင္ SIM ကဒ္ မရွိ."</string>
+<string name="lockscreen_missing_sim_message" product="default">"ဖုန္းတြင္ SIM ကဒ္မ႐ွိပါ။"</string>
+<string name="lockscreen_missing_sim_instructions">"SIM ကဒ္ထည့္သြင္းပါ။"</string>
+<string name="lockscreen_missing_sim_instructions_long">"SIM ကဒ္မ႐ွိပါ သို႔မဟုတ္ မဖတ္ႏိုင္ပါ။ SIM ကဒ္ထည့္သြင္းပါ။"</string>
+<string name="lockscreen_permanent_disabled_sim_message_short">"SIM ကဒ္ သံုး၍မရပါ."</string>
+<string name="lockscreen_permanent_disabled_sim_instructions">"ွသင့္ SIM ကဒ္ကို အျပီးအပိုင္ျဖဳတ္ထားျပီးျဖစ္သည္။ \nအျခား SIM ကဒ္ရယူရန္ သင့္ၾကိဳးမဲ့ဝန္ေဆာင္မႈအေထာက္အပံ့ေပးသူႏွင့္ဆက္သြယ္ပါ။"</string>
+<string name="lockscreen_transport_prev_description">"ယခင္သီခ်င္း"</string>
+<string name="lockscreen_transport_next_description">"ေနာက္ထပ္ သီခ်င္း"</string>
+<string name="lockscreen_transport_pause_description">"ခဏရပ္"</string>
+<string name="lockscreen_transport_play_description">"ဖြင့္ပါ"</string>
+<string name="lockscreen_transport_stop_description">"ရပ္"</string>
+<string name="lockscreen_transport_rew_description">"ျပန္ရစ္ပါ"</string>
+<string name="lockscreen_transport_ffw_description">"အျမန္ ထပ္ဆင့္ပုိ႕"</string>
+<string name="emergency_calls_only">"အေရးေပၚဖုန္းေခၚဆိုမႈမ်ားသာ"</string>
+<string name="lockscreen_network_locked_message">"ကြန္ယက္ေသာ့ခတ္ျပီး"</string>
+<string name="lockscreen_sim_puk_locked_message">"SIM ကတ္ကုိ PUK-ေသာ့ခတ္ထားသည္"</string>
+<string name="lockscreen_sim_puk_locked_instructions">"အသံုးျပဳသူလမ္းညႊန္ကိုၾကည့္ပါ သို႔မဟုတ္ ဧည့္သည္ဝန္ေဆာင္မႈေရးရာသို႔ ဆက္သြယ္ပါ။"</string>
+<string name="lockscreen_sim_locked_message">"SIM ကဒ္အား ေသာ့ခတ္ထား။"</string>
+<string name="lockscreen_sim_unlock_progress_dialog_message">"SIM ကဒ္အား ေသာ့ဖြင့္ေနဆဲ\u2026"</string>
+<string name="lockscreen_too_many_failed_attempts_dialog_message">"အန္ေလာခ့္ပံုစံ ဆြဲရန္မမွန္ <xliff:g id="number">%1$d</xliff:g> အျကိမ္မ်ား. \n\n ထပ္ျကိုးစားပါ <xliff:g id="number">%2$d</xliff:g> စကၠန္ ့မ်ား. "</string>
+<string name="lockscreen_too_many_failed_password_attempts_dialog_message">" စကား၀ွက္ ရိုက္ မမွန္ <xliff:g id="number">%1$d</xliff:g> အျကိမ္မ်ား. \n\n ထပ္ျကိုးစားပါ <xliff:g id="number">%2$d</xliff:g> စကၠန္ ့့မ်ား. "</string>
+<string name="lockscreen_too_many_failed_pin_attempts_dialog_message">" PIN ရိုက္ မမွန္ <xliff:g id="number">%1$d</xliff:g> အျကိမ္မ်ား. \n\n ထပ္ျကိုးစားပါ <xliff:g id="number">%2$d</xliff:g> စကၠန္ ့မ်ား. "</string>
+<string name="lockscreen_failed_attempts_almost_glogin" product="tablet">" အန္ေလာခ့္ ပံုစံ ဆြဲတာမမွန္ <xliff:g id="number">%1$d</xliff:g> ျကိမ္မ်ား. ျပီးေနာက္ <xliff:g id="number">%2$d</xliff:g> အားထုတ္မွဳမ်ား မေအာင္ျမင္,Googleသို ့၀င္ျပီး  တက္ပလက္ အန္ေလာ့ခ္ရန္ ေမးမည္.\n\n ထပ္ျကိဳးစားပါ <xliff:g id="number">%3$d</xliff:g> စကၠန္ ့ ့မ်ား. "</string>
+<string name="lockscreen_failed_attempts_almost_glogin" product="tv">" အန္ေလာခ့္ ပံုစံ ဆြဲတာမမွန္ <xliff:g id="number">%1$d</xliff:g> ျကိမ္မ်ား. ျပီးေနာက္ <xliff:g id="number">%2$d</xliff:g> အားထုတ္မွဳမ်ား မေအာင္ျမင္,Googleသို ့၀င္ျပီး  TV အန္ေလာ့ခ္ရန္ ေမးမည္.\n\n ထပ္ျကိဳးစားပါ <xliff:g id="number">%3$d</xliff:g> စကၠန္ ့ ့မ်ား. "</string>
+<string name="lockscreen_failed_attempts_almost_glogin" product="default">" အန္ေလာခ့္ ပံုစံ ဆြဲတာမမွန္ <xliff:g id="number">%1$d</xliff:g> ျကိမ္မ်ား. ျပီးေနာက္ <xliff:g id="number">%2$d</xliff:g> အားထုတ္မွဳမ်ား မေအာင္ျမင္,Googleသို ့၀င္ျပီး  ဖုန္း အန္ေလာ့ခ္ရန္ ေမးမည္.\n\n ထပ္ျကိဳးစားပါ <xliff:g id="number">%3$d</xliff:g> စကၠန္ ့ ့မ်ား. "</string>
+<string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet">" တက္ပလက္ အန္ေလာခ့္ ျကိဳးစားမွဳမမွန္ <xliff:g id="number">%1$d</xliff:g> ျကိမ္မ်ား. ျပီးေနာက္ <xliff:g id="number">%2$d</xliff:g> အားထုတ္မွဳမ်ား မေအာင္ျမင္,တက္ပလက္ စက္ရံုဒီေဖါ့ဆက္တင္ျပန္စမည္ သံုးစြဲသူ ေဒတာ ေပ်ာက္လိမ့္မည္. "</string>
+<string name="lockscreen_failed_attempts_almost_at_wipe" product="tv">" TV အန္ေလာခ့္ ျကိဳးစားမွဳမမွန္ <xliff:g id="number">%1$d</xliff:g> ျကိမ္မ်ား. ျပီးေနာက္ <xliff:g id="number">%2$d</xliff:g> အားထုတ္မွဳမ်ား မေအာင္ျမင္,တက္ပလက္ စက္ရံုဒီေဖါ့ဆက္တင္ျပန္စမည္ သံုးစြဲသူ ေဒတာ ေပ်ာက္လိမ့္မည္. "</string>
+<string name="lockscreen_failed_attempts_almost_at_wipe" product="default">" ဖုန္း အန္ေလာခ့္ ျကိဳးစားမွဳမမွန္ <xliff:g id="number">%1$d</xliff:g> ျကိမ္မ်ား. ျပီးေနာက္ <xliff:g id="number">%2$d</xliff:g> အားထုတ္မွဳမ်ား မေအာင္ျမင္,တက္ပလက္ စက္ရံုဒီေဖါ့ဆက္တင္ျပန္စမည္ သံုးစြဲသူ ေဒတာ ေပ်ာက္လိမ့္မည္. "</string>
+<string name="lockscreen_failed_attempts_now_wiping" product="tablet">"တက္ဘလက္အား <xliff:g id="number">%d</xliff:g> ၾကိမ္ မွားယြင္းစြာ ေသာ့ဖြင့္ထားသည္။  တက္ဘလက္အား မူလဝယ္ယူစဥ္ပံုစံသို႔ ယခုျပန္လည္ထား႐ွိမည္။"</string>
+<string name="lockscreen_failed_attempts_now_wiping" product="tv">"TV အန္ေလာ့ခ္ရန္ အားထုတ္မႈ မမွန္ <xliff:g id="number">%d</xliff:g> ျကိမ္မ်ား. TV အား ယခု စက္ရံု ဒီေဖါ့  ျပန္တပ္ဆင္လိမ့္မည္   . "</string>
+<string name="lockscreen_failed_attempts_now_wiping" product="default">"ဖုန္းအား <xliff:g id="number">%d</xliff:g> ၾကိမ္ မွားယြင္းစြာ ေသာ့ဖြင့္ထားသည္။ဖုန္းအား မူလဝယ္ယူစဥ္ပံုစံသို႔ ယခုျပန္လည္ထား႐ွိမည္။"</string>
+<string name="lockscreen_too_many_failed_attempts_countdown">"<xliff:g id="number">%d</xliff:g> စကၠန္႔အတြင္း ျပန္ၾကိဳးစားၾကည့္ပါ။"</string>
+<string name="lockscreen_forgot_pattern_button_text">"pattern ကိုေမ့သြားသည္"</string>
+<string name="lockscreen_glogin_forgot_pattern">"အေကာင့္အားေသာ့ဖြင့္ျခင္း"</string>
+<string name="lockscreen_glogin_too_many_attempts">"ၾကိဳးပမ္းမႈပံုစံမ်ားလြန္းေနသည္!"</string>
+<string name="lockscreen_glogin_instructions">"အန္ေလာ့ခ္လုပ္ရင္ သင့္ Google အေကာင့္ႏွင့္ ဝင္ပါ"</string>
+<string name="lockscreen_glogin_username_hint">"အသံုးျပဳသူအမည္ (အီးေမးလ္)"</string>
+<string name="lockscreen_glogin_password_hint">"စကား၀ွက္"</string>
+<string name="lockscreen_glogin_submit_button">"ဝင္ေရာက္မည္"</string>
+<string name="lockscreen_glogin_invalid_input">"အသံုးျပဳသူအမည္ႏွင့္စကား၀ွက္ တရားမ1င္ပါ"</string>
+<string name="lockscreen_glogin_account_recovery_hint">"သင့္အသံုးျပဳသူအမည္ သို႔မဟုတ္ စကားဝွက္ကို ေမ့သြားျပီလား?\n <b>google.com/accounts/recovery</b>သို႔ သြားပါ"</string>
+<string name="lockscreen_glogin_checking_password">"စစ္ေဆးေနသည္\u2026"</string>
+<string name="lockscreen_unlock_label">"ေသာ့ဖွင့်ြခင်း"</string>
+<string name="lockscreen_sound_on_label">"အသံဖြင့္သည္"</string>
+<string name="lockscreen_sound_off_label">"အသံပိတ္ပါ"</string>
+<string name="lockscreen_access_pattern_start">"ပံုစံစတင္ျပီး"</string>
+<string name="lockscreen_access_pattern_cleared">"ပံုစံ႐ွင္းလင္းျပီး"</string>
+<string name="lockscreen_access_pattern_cell_added">"ေခၚဆိုမႈ တပ္ေပါင္းပါ"</string>
+<string name="lockscreen_access_pattern_cell_added_verbose">"ဆဲလ္ <xliff:g id="cell_index" example="3">%1$s</xliff:g> ထည့္ျပီး"</string>
+<string name="lockscreen_access_pattern_detected">"ပံုစံ ျပီးဆံုးျပီ"</string>
+<string name="lockscreen_access_pattern_area">"ပံုစံ ဧရိယာ."</string>
+<string name="keyguard_accessibility_widget_changed">"%1$s. ၀ွစ္ဂ်စ္ %2$d ၏ %3$d."</string>
+<string name="keyguard_accessibility_add_widget">"လိုက္ကာငယ္ထည့္သည္."</string>
+<string name="keyguard_accessibility_widget_empty_slot">"ဗလာ"</string>
+<string name="keyguard_accessibility_unlock_area_expanded">"အန္ေလာ့ခ္ဧရိယာကို ခ်ဲ႕သည္"</string>
+<string name="keyguard_accessibility_unlock_area_collapsed">"အန္ေလာ့ခ္ဧရိယာကို ပ်က္ျပယ္သည္"</string>
+<string name="keyguard_accessibility_widget">"<xliff:g id="widget_index">%1$s</xliff:g> ဝွစ္ဂ်စ္."</string>
+<string name="keyguard_accessibility_user_selector">"သံုးစြဲသူေရြးခ်ယ္သူ"</string>
+<string name="keyguard_accessibility_status">"အေျခအေန"</string>
+<string name="keyguard_accessibility_camera">"ကင္မရာ"</string>
+<string name="keygaurd_accessibility_media_controls">"မီဒီယာ ကြန္ထရိုးမ်ား"</string>
+<string name="keyguard_accessibility_widget_reorder_start">"ဝွစ္ဂ်စ္္ ျပန္ေနရာခ်ထားျခင္းစတင္ သည္"</string>
+<string name="keyguard_accessibility_widget_reorder_end">"ဝွစ္ဂ်စ္္ ျပန္ေနရာခ်ထားျခင္းလုပ္ငန္း အဆံုးသတ္သည္"</string>
+<string name="keyguard_accessibility_widget_deleted">"ဝွစ္ဂ်စ္<xliff:g id="widget_index">%1$s</xliff:g> ပယ္ဖ်က္သည္."</string>
+<string name="keyguard_accessibility_expand_lock_area">"အန္ေလာ့ခ္ဧရိယာကိုခ်ဲ႕ပါ."</string>
+<string name="keyguard_accessibility_slide_unlock">"ဆလိုက္ အန္ေလာ့ခ္."</string>
+<string name="keyguard_accessibility_pattern_unlock">"ပံုစံ အန္ေလာ့ခ္."</string>
+<string name="keyguard_accessibility_face_unlock">"မ်က္ႏွာျဖင့္ေသာ့ဖြင့္ျခင္း"</string>
+<string name="keyguard_accessibility_pin_unlock">"ပင္ အန္ေလာ့ခ္."</string>
+<string name="keyguard_accessibility_password_unlock">"စကား၀ွက္ အန္ေလာ့ခ္. "</string>
+<string name="keyguard_accessibility_pattern_area">"ပံုစံ ဧရိယာ."</string>
+<string name="keyguard_accessibility_slide_area">"ဆလိုက္ ဧရိယာ."</string>
+<string name="password_keyboard_label_symbol_key">"?123"</string>
+<string name="granularity_label_character">"အကၡရာ"</string>
+<string name="granularity_label_word">"စာလံုး"</string>
+<string name="granularity_label_link">"ခ်ိတ္ဆက္မႈ"</string>
+<string name="granularity_label_line">"လိုင္း"</string>
+<string name="factorytest_failed">"မူလဝယ္ယူစဥ္ပံုစံအစမ္းလုပ္ေဆာင္ခ်က္မေအာင္ျမင္"</string>
+<string name="factorytest_not_system">"ကိရိယာ ၏ မူလဝယ္ယူစဥ္ပံုစံစမ္းသပ္မႈလုပ္ေဆာင္ခ်က္အား /စစ္စတမ္ /ေအပီပီမ်ားတြင္ သြင္းထားေသာ ပက္ေက့ခ်္မ်ားအတြက္သာ အေထာက္အပံ့ေပးသည္။"</string>
+<string name="factorytest_no_action">"မူလဝယ္ယူစဥ္ပံုစံအစမ္းလုပ္ေဆာင္ခ်က္ကို အေထာက္အပံ့ေပးေသာ ပက္ေက့ခ်္႐ွာမေတြ႔ပါ။"</string>
+<string name="factorytest_reboot">"ျပန္စပါ"</string>
+<string name="js_dialog_title">"\'<xliff:g id="title">%s</xliff:g>\' ႐ွိ စာမ်က္ႏွာမွ ေျပာၾကားခ်က္ :"</string>
+<string name="js_dialog_before_unload_title">"နာဗီေဂးရွင္း အတည္ျပုပါ"</string>
+<string name="js_dialog_before_unload_positive_button">"ဤစာမ်က္နွာမွ ထြက္ပါ"</string>
+<string name="js_dialog_before_unload_negative_button">"ဤစာမ်က္နွာမွာ ေနပါ"</string>
+<string name="js_dialog_before_unload">"\n\n<xliff:g id="message">%s</xliff:g>\n\nဤစာမ်က္ႏွာႏွင့္ ေဝးရာသို႔ ညႊန္မလား?"</string>
+<string name="save_password_label">"အတည္ျပဳပါ"</string>
+<string name="double_tap_toast">"အၾကံေပးခ်က္: ခ်ဲ႕ရန္ႏွင့္ခ်ံဳ႕ရန္ ႏွစ္ခ်က္ေခါက္ပါ။"</string>
+<string name="autofill_this_form">"အလိုအေလ်ာက္ျဖည့္ျခင္း"</string>
+<string name="setup_autofill">"အလိုအေလ်ာက္ျဖည့္ျခင္း တပ္ဆင္ပါ"</string>
+<string name="autofill_address_name_separator">"\u0020"</string>
+<string name="autofill_address_summary_separator">",\u0020"</string>
+<string name="autofill_province">"နယ္ပယ္ေဒသ"</string>
+<string name="autofill_postal_code">"စာပို႔ကုဒ္နံပါတ္"</string>
+<string name="autofill_state">"ျပည္နယ္"</string>
+<string name="autofill_zip_code">"ZIP ကုဒ္"</string>
+<string name="autofill_county">"ေကာင္တီ"</string>
+<string name="autofill_island">"ကၽြန္း"</string>
+<string name="autofill_district">"ေဒသ"</string>
+<string name="autofill_department">"ဌာန"</string>
+<string name="autofill_prefecture">"ခ႐ိုင္"</string>
+<string name="autofill_parish">"နယ္ပယ္အစု"</string>
+<string name="autofill_area">"ဧရိယာ"</string>
+<string name="autofill_emirate">"အီမီရိတ္"</string>
+<string name="permlab_readHistoryBookmarks">"ဘေရာက္ဆာမွတ္တမ္းႏွင့္ စာညႇပ္ မ်ားကို ဖတ္ပါ"</string>
+<string name="permdesc_readHistoryBookmarks">"ဘေရာက္ဆာမွ သြားေရာက္ထားသည့္ ဝက္ဘ္ဆိုဒ္လိပ္စာမ်ားအားလံုးႏွင့္ ဘေရာက္ဆာ စာညႇပ္ မ်ားအားလံုးကို ဖတ္႐ႈရန္ ေအပီပီအား ခြင့္ျပဳပါ။"</string>
+<string name="permlab_writeHistoryBookmarks">"ဘေရာက္ဆာမွတ္တမ္းႏွင့္ စာညႇပ္ မ်ားကိုေရးပါ"</string>
+<string name="permdesc_writeHistoryBookmarks" product="tablet">"သင့္တက္ဘလက္တြင္ သိမ္းဆည္းထားေသာ ဘေရာက္ဆာမွတ္တမ္း သို႔မဟုတ္ စာညႇပ္ မ်ားကို အဆင့္ျမွင့္ရန္ ေအပီပီအား ခြင့္ျပဳပါ။ အႏၲရာယ္႐ွိေသာ ေအပီပီမ်ားက သင့္ဘေရာက္ဆာေဒတာအား ဖ်က္ရန္ သို႔မဟုတ္ အဆင့္ျမွင့္ရန္ ယင္းအား အသံုးျပဳလိမ့္မည္။ မွတ္ခ်က္ - ယခုခြင့္ျပဳခ်က္သည္ တတိယပါတီ ဘေရာက္ဆာမ်ား သို႔မဟုတ္ ၀က္ဘ္ သို႔ဝင္ေရာက္ရွာေဖြျခင္းကဲ့သို႔လုပ္ေဆာင္ခ်က္မ်ားပါဝင္ေသာ အပလီေကးရွင္းမ်ား မွ အတည္ျပဳေစမည္မဟုတ္ပါ။"</string>
+<string name="permdesc_writeHistoryBookmarks" product="tv">"သင့္ TVတြင္ သိမ္းသည့္ ဘုတ္မက္ခ္မ်ား (သို ့) ဘေရာက္စာ မွတ္တမ္း မြမ္းမံရန္ ေအပီပီ ဖြင့္ပါ. ၄င္းသည္ ေအပီပီကို ဖ်က္ရန္ (သို ့) ဘေရာက္စာ ေဒတာ မြမ္းမံ ရန္ ခြင့္ျပဳမည္. မွတ္ခ်က္: တတိယ-အဖြဲ ့ ဘေရာက္စာမ်ား (သို ့) တျခားေအပီပီမ်ား နွင့္ web ဘေရာက္စာလုပ္နိုင္စြမ္းရည္  ျဖင့္ တြန္းအားေပးခံရမည္ ."</string>
+<string name="permdesc_writeHistoryBookmarks" product="default">"သင့္ဖုန္းတြင္ သိမ္းဆည္းထားေသာ ဘေရာက္ဆာမွတ္တမ္း သို႔မဟုတ္ စာညႇပ္ မ်ားကို အဆင့္ျမွင့္ရန္ ခြင့္ျပဳပါ။ အႏၲရာယ္႐ွိေသာ ေအပီပီမ်ားက သင့္ဘေရာက္ဆာေဒတာအား ဖ်က္ရန္ သို႔မဟုတ္ အဆင့္ျမွင့္ရန္ ယင္းအား အသံုးျပဳလိမ့္မည္။ မွတ္ခ်က္ - ယခုခြင့္ျပဳခ်က္သည္ တတိယပါတီ ဘေရာက္ဆာမ်ား သို႔မဟုတ္ ၀က္ဘ္ သို႔ဝင္ေရာက္ရွာေဖြျခင္းကဲ့သို႔လုပ္ေဆာင္ခ်က္မ်ားပါဝင္ေသာ အပလီေကးရွင္းမ်ား မွ အတည္ျပဳေစမည္မဟုတ္ပါ။"</string>
+<string name="permlab_setAlarm">"ႏိႈးစက္ တပ္ဆင္ပါ"</string>
+<string name="permdesc_setAlarm">"ထည့္သြင္းထားေသာ ႏိႈးစက္ေအပီပီတြင္ ႏိႈးစက္ထား႐ွိရန္ ေအပီပီအား ခြင့္ျပဳပါ။ ႏိႈးေအပီပီ အခ်ိဳ႕က ဤအဆင္အျပင္အား အေကာင္အထည္ေဖာ္မည္မဟုတ္ပါ။"</string>
+<string name="permlab_addVoicemail">"အသံေမးလ္ထည့္ပါ"</string>
+<string name="permdesc_addVoicemail">"သင့္အသံေမးလ္စာဝင္ပံုးသို႔ မက္ေဆ့ခ်္မ်ားထည့္ရန္ ေအပီပီအား ခြင့္ျပဳပါ။"</string>
+<string name="permlab_writeGeolocationPermissions">"ဘေရာက္ဆာ၏ တည္ေနရာသတ္မွတ္ျခင္းခြင့္ျပဳခ်က္မ်ားကို အသစ္ျပဳျပင္ပါ"</string>
+<string name="permdesc_writeGeolocationPermissions">"ဘေရာက္ဆာ၏ တည္ေနရာဆိုင္ရာ ခြင့္ျပဳခ်က္မ်ား အဆင့္ျမွင့္ရန္ ေအပီပီအား ခြင့္ျပဳပါ။ အႏၲရာယ္႐ွိေသာ ေအပီပီမ်ားက ေတြ႔ျမင္ရာ ဝက္ဘ္ဆိုဒ္မ်ားသို႔ တည္ေနရာအခ်က္အလက္မ်ားကို ေပးပို႔ခြင့္ျပဳရန္ ယင္းအား အသံုးျပဳလိမ့္မည္။"</string>
+<string name="save_password_message">"ဤစကားဝွက္ ဘေရာက္ဆာတြင္ မွတ္ထားေစလိုပါသလား?"</string>
+<string name="save_password_notnow">"ယခုမဟုတ္ပါ"</string>
+<string name="save_password_remember">"သတိရေစပါ"</string>
+<string name="save_password_never">"ဘယ္ေတာ့မွ်"</string>
+<string name="open_permission_deny">"ဤစာမ်က္ႏွာကို ဖြင့္ရန္ သင့္တြင္ ခြင့္ျပဳခ်က္မ႐ွိ။"</string>
+<string name="text_copied">"ကလစ္ဘုတ္သို႔ စာသားကူးယူျပီး။"</string>
+<string name="more_item_label">"ထပ္မံ၍"</string>
+<string name="menu_space_shortcut_label">"ေနရာလြတ္"</string>
+<string name="menu_enter_shortcut_label">"ဝင္ေရာက္ပါ"</string>
+<string name="menu_delete_shortcut_label">ပယ္ဖ်က္သည္</string>
+<string name="search_go">ရွာေဖြျခင္း</string>
+<string name="search_hint">"ရွာေဖြပါ…"</string>
+<string name="searchview_description_search">ရွာေဖြျခင္း</string>
+<string name="searchview_description_query">"ေမးခြန္း႐ွာပါ"</string>
+<string name="searchview_description_clear">"ေမးခြန္းမ်ား ႐ွင္းလင္းပါ"</string>
+<string name="searchview_description_submit">"စံုစမ္းရန္ အဆိုျပဳပါ"</string>
+<string name="searchview_description_voice">အသံျဖင့္ရွာေဖြမႈ</string>
+<string name="enable_explore_by_touch_warning_title">"ထိျခင္း ျဖင့္ ရွာရန္ဖြင့္မွာလား?"</string>
+<string name="enable_explore_by_touch_warning_message" product="tablet">"<xliff:g id="accessibility_service_name">%1$s</xliff:g> ထိျခင္းျဖင့္ ရွာလိုပါသလား? ထိျခင္းျဖင့္ ရွာေဖြလွ်င္၊ တက္ပလက္တြင္သင့္လက္ေခ်ာင္း (သို႔) လက္ေရးစာမွ ေဖၚျပခ်က္မ်ား ကို ၾကားနိုင္(သို႔) ျမင္နိုင္သည္."</string>
+<string name="enable_explore_by_touch_warning_message" product="default">" <xliff:g id="accessibility_service_name">%1$s</xliff:g> ရွာေဖြသူကို ဖြင့္ရန္ ထိပါ. ရွာေဖြသူ ဖြင့္ခ်ိန္တြင္, ဖုန္းနွင့္ သင့္ လက္ညွိဳး (သို ့) လက္ေရးစာ မ်ားေဖၚျပခ်က္ ကို ျကားနိုင္ (သို ့) ျမင္နိုင္သည္."</string>
+<string name="oneMonthDurationPast">"လြန္ခဲ့ေသာ 1 လအၾကာက"</string>
+<string name="beforeOneMonthDurationPast">"လြန္ခဲ့ေသာ 1 လမတိုင္မီက"</string>
+<plurals name="last_num_days">
+<item quantity="one">"လြန္ခဲ့ေသာ <xliff:g id="count">%d</xliff:g> ရက္"</item>
+<item quantity="other">"ေနာက္ဆံုး <xliff:g id="count">%d</xliff:g> ရက္"</item>
+</plurals>
+<string name="last_month">"ယခင္လ"</string>
+<string name="older">"ပိုေဟာင္းေသာ"</string>
+<string name="preposition_for_date">"<xliff:g example="May 29" id="date">%s</xliff:g> တြင္"</string>
+<string name="preposition_for_time">"<xliff:g example="2:33 am" id="time">%s</xliff:g>လွ်င္"</string>
+<string name="preposition_for_year">"<xliff:g example="2003" id="year">%s</xliff:g> တြင္"</string>
+<string name="day">"ရက္"</string>
+<string name="days">"ေန ့"</string>
+<string name="hour">"နာရီ"</string>
+<string name="hours">"နာရီ"</string>
+<string name="minute">"မိနစ္"</string>
+<string name="minutes">"မိနစ္"</string>
+<string name="second">"စကၠန္႔"</string>
+<string name="seconds">"စကၠန္႔"</string>
+<string name="week">ရက္သတၱပါတ္</string>
+<string name="weeks">"အပတ္"</string>
+<string name="year">"ခုနွစ္"</string>
+<string name="years">"ႏွစ္စဥ္"</string>
+<plurals name="duration_seconds">
+<item quantity="one">"1 စကၠန္႔"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> စကၠန္႕"</item>
+</plurals>
+<plurals name="duration_minutes">
+<item quantity="one">"1 မိနစ္"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> မိနစ္"</item>
+</plurals>
+<plurals name="duration_hours">
+<item quantity="one">"1 နာရီ"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> နာရီ"</item>
+</plurals>
+<string name="now_string_shortest">"ယခု"</string>
+<plurals name="duration_minutes_shortest">
+<item quantity="one">"<xliff:g example="1" id="count">%d</xliff:g>မိနစ္"</item>
+<item quantity="other">"<xliff:g example="2" id="count">%d</xliff:g>မိနစ္"</item>
+</plurals>
+<plurals name="duration_hours_shortest">
+<item quantity="one">"<xliff:g example="1" id="count">%d</xliff:g>နာရီ"</item>
+<item quantity="other">"<xliff:g example="2" id="count">%d</xliff:g>နာရီ"</item>
+</plurals>
+<plurals name="duration_days_shortest">
+<item quantity="one">"<xliff:g example="1" id="count">%d</xliff:g>ရက္"</item>
+<item quantity="other">"<xliff:g example="2" id="count">%d</xliff:g>ေန့"</item>
+</plurals>
+<plurals name="duration_years_shortest">
+<item quantity="one">"<xliff:g example="1" id="count">%d</xliff:g>နွစ္"</item>
+<item quantity="other">"<xliff:g example="2" id="count">%d</xliff:g>နွစ္"</item>
+</plurals>
+<plurals name="duration_minutes_shortest_future">
+<item quantity="one">"တြင္ <xliff:g example="1" id="count">%d</xliff:g>မိနစ္"</item>
+<item quantity="other">"တြင္ <xliff:g example="2" id="count">%d</xliff:g>မိနစ္"</item>
+</plurals>
+<plurals name="duration_hours_shortest_future">
+<item quantity="one">"တြင္ <xliff:g example="1" id="count">%d</xliff:g>နာရီ"</item>
+<item quantity="other">"တြင္ <xliff:g example="2" id="count">%d</xliff:g>နာရီ"</item>
+</plurals>
+<plurals name="duration_days_shortest_future">
+<item quantity="one">"တြင္ <xliff:g example="1" id="count">%d</xliff:g>ေန့"</item>
+<item quantity="other">"တြင္ <xliff:g example="2" id="count">%d</xliff:g>ေန့"</item>
+</plurals>
+<plurals name="duration_years_shortest_future">
+<item quantity="one">"တြင္ <xliff:g example="1" id="count">%d</xliff:g>နွစ္"</item>
+<item quantity="other">"တြင္ <xliff:g example="2" id="count">%d</xliff:g>နွစ္"</item>
+</plurals>
+<plurals name="duration_minutes_relative">
+<item quantity="one">"<xliff:g example="1" id="count">%d</xliff:g> အလြန္က မိနစ္"</item>
+<item quantity="other">"<xliff:g example="2" id="count">%d</xliff:g> အလြန္က မိနစ္မ်ား"</item>
+</plurals>
+<plurals name="duration_hours_relative">
+<item quantity="one">"<xliff:g example="1" id="count">%d</xliff:g> အလြန္က နာရီ"</item>
+<item quantity="other">"<xliff:g example="2" id="count">%d</xliff:g> အလြန္က နာရီမ်ား"</item>
+</plurals>
+<plurals name="duration_days_relative">
+<item quantity="one">"<xliff:g example="1" id="count">%d</xliff:g> အလြန္က ေန့"</item>
+<item quantity="other">"<xliff:g example="2" id="count">%d</xliff:g> အလြန္က ေန ့မ်ား"</item>
+</plurals>
+<plurals name="duration_years_relative">
+<item quantity="one">"<xliff:g example="1" id="count">%d</xliff:g> အလြန္က နွစ္"</item>
+<item quantity="other">"<xliff:g example="2" id="count">%d</xliff:g> အလြန္က နွစ္မ်ား"</item>
+</plurals>
+<plurals name="duration_minutes_relative_future">
+<item quantity="one">"တြင္ <xliff:g example="1" id="count">%d</xliff:g> မိနစ္"</item>
+<item quantity="other">"တြင္ <xliff:g example="2" id="count">%d</xliff:g> မိနစ္မ်ား"</item>
+</plurals>
+<plurals name="duration_hours_relative_future">
+<item quantity="one">"တြင္ <xliff:g example="1" id="count">%d</xliff:g> နာရီ"</item>
+<item quantity="other">"တြင္ <xliff:g example="2" id="count">%d</xliff:g> နာရီမ်ား"</item>
+</plurals>
+<plurals name="duration_days_relative_future">
+<item quantity="one">"တြင္ <xliff:g example="1" id="count">%d</xliff:g> နွစ္"</item>
+<item quantity="other">"တြင္ <xliff:g example="2" id="count">%d</xliff:g> ေန့မ်ား"</item>
+</plurals>
+<plurals name="duration_years_relative_future">
+<item quantity="one">"တြင္ <xliff:g example="1" id="count">%d</xliff:g> နွစ္"</item>
+<item quantity="other">"တြင္ <xliff:g example="2" id="count">%d</xliff:g> နွစ္မ်ား"</item>
+</plurals>
+<string name="VideoView_error_title">"ဗီဒီယိုျပႆနာ"</string>
+<string name="VideoView_error_text_invalid_progressive_playback">"ယင္းဗီဒီယိုမွာ ဤပစၥည္းသို႔ တုိက္႐ိုက္ၾကည့္႐ႈမႈအား ခြင့္မျပဳပါ။"</string>
+<string name="VideoView_error_text_unknown">"ယင္းဗီဒီယိုအား ဖြင့္၍မရပါ။"</string>
+<string name="VideoView_error_button">"အိုေက"</string>
+<string name="relative_time">"<xliff:g example="4 နာရီအၾကာက" id="date">%1$s</xliff:g>, <xliff:g example="11:00 am" id="အခ်ိန္">%2$s</xliff:g>"</string>
+<string name="noon">"ေန႔လည္"</string>
+<string name="Noon">"ေန႔လည္"</string>
+<string name="midnight">"ညသန္းေခါင္"</string>
+<string name="Midnight">"ညသန္းေခါင္"</string>
+<string name="elapsed_time_short_format_mm_ss">"<xliff:g example="1" id="မိနစ္">%1$02d</xliff:g>:<xliff:g example="23" id="စကၠန္႔">%2$02d</xliff:g>"</string>
+<string name="elapsed_time_short_format_h_mm_ss">"<xliff:g example="1" id="hours">%1$d</xliff:g>:<xliff:g example="43" id="minutes">%2$02d</xliff:g>:<xliff:g example="33" id="seconds">%3$02d</xliff:g>"</string>
+<string name="selectAll">"အားလံုးကို ေရြးခ်ယ္ပါ"</string>
+<string name="cut">"ျဖတ္ေတာက္ပါ"</string>
+<string name="copy">"ကူးယူပါ"</string>
+<string name="paste">"ကူးယူထားခ်က္ကို ေပ့စ္လုပ္ပါ"</string>
+<string name="paste_as_plain_text">"စာသားဗလာ "</string>
+<string name="replace">"အစားထုိးပါ\u2026"</string>
+<string name="delete">ပယ္ဖ်က္သည္</string>
+<string name="copyUrl">"URLကူးယူခ်က္"</string>
+<string name="selectTextMode">"စာသားေ႐ြးခ်ယ္ပါ"</string>
+<string name="undo">"အန္ဒို"</string>
+<string name="redo">"ျပန္လုပ္မည္"</string>
+<string name="textSelectionCABTitle">"စာသားေ႐ြးခ်ယ္ခ်က္"</string>
+<string name="addToDictionary">"အဘိဓာန္သို႔ထည့္မည္"</string>
+<string name="deleteText">ပယ္ဖ်က္သည္</string>
+<string name="inputMethod">"အသြင္းနည္းလမ္း"</string>
+<string name="editTextMenuTitle">"မက္ေဆ့ခ်္ေရးသားခ်က္လုပ္ေဆာင္ခ်က္မ်ား"</string>
+<string name="low_internal_storage_view_title">"သိုေလွာင္မႈေနရာ မရွိေတာ့ပါ"</string>
+<string name="low_internal_storage_view_text">"တစ္ခ်ိဳ႕စနစ္လုပ္ငန္းမ်ား အလုပ္မလုပ္ပါ"</string>
+<string name="low_internal_storage_view_text_no_boot">"စနစ္ပုိင္းအတြက္ လံုေလာက္ေသာ သုိေလွာင္ခန္းမရွိပါ။ သင့္တြင္ ေနရာလြတ္ 250MB ရွိေၾကာင္းေသခ်ာပါေစ၊ စက္ကုိ ျပန္စတင္ပါ။"</string>
+<string name="app_running_notification_title">"<xliff:g id="app_name">%1$s</xliff:g>အသံုးျပဳေနသည္"</string>
+<string name="app_running_notification_text">"ေအပီပီ ရပ္ရန္ ေနာက္ထပ္ သတင္းအခ်က္အလက္ အတြက္ နွိပ္ပါ."</string>
+<string name="ok">"အိုေက"</string>
+<string name="cancel">"မလုပ္ပါ"</string>
+<string name="yes">"အိုေက"</string>
+<string name="no">"မလုပ္ပါ"</string>
+<string name="dialog_alert_title">"သတိထားရန္"</string>
+<string name="loading">လုပ္ေဆာင္ေနသည္</string>
+<string name="capital_on">"ဖြင့္"</string>
+<string name="capital_off">ပိတ္သည္</string>
+<string name="whichApplication">"အား အသံုးျပဳ၍ လုပ္ေဆာင္ခ်က္ ကို အျပီးသတ္ပါ"</string>
+<string name="whichApplicationNamed">"%1$s ကုိသံုးၿပီး လုပ္ေဆာင္ခ်က္ ၿပီးေျမာက္ေအာင္လုပ္ပါ"</string>
+<string name="whichApplicationLabel">"အက္ရွင္ ျပည္စံုျပီး"</string>
+<string name="whichViewApplication">"ျဖင့္ ဖြင့္ပါ"</string>
+<string name="whichViewApplicationNamed">"%1$sျဖင့္ ဖြင့္ပါ"</string>
+<string name="whichViewApplicationLabel">"ဖြင့္ပါ"</string>
+<string name="whichEditApplication">"ျဖင့္ ျပဳျပင္ပါ"</string>
+<string name="whichEditApplicationNamed">"%1$sျဖင့္ ျပဳျပင္ပါ"</string>
+<string name="whichEditApplicationLabel">တည္းျဖတ္သည္</string>
+<string name="whichSendApplication">"ႏွင့္ေဝမွ်ပါ"</string>
+<string name="whichSendApplicationNamed">"%1$sႏွင့္အတူ မွ်ေဝပါ"</string>
+<string name="whichSendApplicationLabel">"ေဝမွ်ပါ"</string>
+<string name="whichSendToApplication">"သံုးစြဲရန္ပို ့ပါ"</string>
+<string name="whichSendToApplicationNamed">"သံုးစြဲရန္ပို ့ပါ %1$s"</string>
+<string name="whichSendToApplicationLabel">"ပို ့"</string>
+<string name="whichHomeApplication">"မူလဖန္သားျပင္ အက္ပ္ကုိ ေရြးခ်ယ္ပါ"</string>
+<string name="whichHomeApplicationNamed">"%1$s ကုိ မူလေနရာအျဖစ္ အသံုးျပဳပါ"</string>
+<string name="whichHomeApplicationLabel">"ပံုရိပ္ တည္းျဖတ္ပါ"</string>
+<string name="whichImageCaptureApplication">"နွင့္ ပံုရိပ္ တည္းျဖတ္ပါ"</string>
+<string name="whichImageCaptureApplicationNamed">"နွင့္ ပံုရိပ္ တည္းျဖတ္ပါ %1$s"</string>
+<string name="whichImageCaptureApplicationLabel">"ပံုရိပ္ တည္းျဖတ္ပါ"</string>
+<string name="alwaysUse">"ဤလုပ္ေဆာင္ခ်က္အတြက္ မူလပံုစံကို အသံုးျပဳပါ"</string>
+<string name="use_a_different_app">"မတူညီသည့္ အက္ပ္ကုိ အသံုးျပဳပါ"</string>
+<string name="clearDefaultHintMsg">"စနစ္ ဆက္တင္မ်ားမွ ဒီေဖါ့ ရွင္းလင္းပါ &amp;gt; Apps &amp;gt; ေဒါင္းလုပ္ျပီး."</string>
+<string name="chooseActivity">"လုပ္ေဆာင္ခ်က္ေ႐ြးပါ"</string>
+<string name="chooseUsbActivity">"USB ပစၥည္းအတြက္ ေအပီပီေ႐ြးခ်ယ္ပါ"</string>
+<string name="noApplications">"မည္သည့္ေအပီပီမွ် ဤလုပ္ေဆာင္ခ်က္ကို မလုပ္ေဆာင္ႏုိင္ပါ။"</string>
+<string name="aerr_application">"<xliff:g id="application">%1$s</xliff:g> ပိတ္ျပီး"</string>
+<string name="aerr_process">"<xliff:g id="process">%1$s</xliff:g> ပိတ္ျပီး"</string>
+<string name="aerr_application_repeated">"<xliff:g id="application">%1$s</xliff:g> ပိတ္ေန"</string>
+<string name="aerr_process_repeated">"<xliff:g id="process">%1$s</xliff:g> ပိတ္ေန"</string>
+<string name="aerr_restart">"ေအပီပီ ထပ္ဖြင့္ပါ"</string>
+<string name="aerr_report">"တံု႔ျပန္မွု ပို႔ပါ"</string>
+<string name="aerr_close">"ပိတ္ပါ"</string>
+<string name="aerr_mute">"စက္ ျပန္စဖြင့္ခ်ိန္ထိ အသံတိတ္ထားပါ"</string>
+<string name="aerr_wait">"ေစာင့္ဆိုင္းပါ"</string>
+<string name="aerr_close_app">"ေအပီပီ ပိတ္ပါ"</string>
+<string name="anr_activity_application">"<xliff:g id="application">%2$s</xliff:g> မတုန္ ့ျပန္ပါ"</string>
+<string name="anr_activity_process">"<xliff:g id="activity">%1$s</xliff:g> မတုန္ ့ျပန္ပါ"</string>
+<string name="anr_application_process">"<xliff:g id="application">%1$s</xliff:g> မတုန္ ့ျပန္ပါ"</string>
+<string name="anr_process">"ပေရာစက္လုပ္ <xliff:g id="process">%1$s</xliff:g> မတုန္ ့ျပန္ပါ"</string>
+<string name="force_close">"အိုေက"</string>
+<string name="report">သတင္းေပးပို ့ပါ</string>
+<string name="wait">"ေစာင့္ဆိုင္းပါ"</string>
+<string name="webpage_unresponsive">"စာမ်က္ႏွာ မတံု႕ျပန္ပါ.\n\n သင္ပိတ္လို ပါသလား?"</string>
+<string name="launch_warning_title">"ေအပီပီစာျပန္ညႊန္းျပီး"</string>
+<string name="launch_warning_replace">"<xliff:g id="app_name">%1$s</xliff:g> ယခုအသံုးျပဳေနသည္"</string>
+<string name="launch_warning_original">"<xliff:g id="app_name">%1$s</xliff:g> မူလကတည္းက ေဆာင္ရြက္ထားျပီျဖစ္သည္။"</string>
+<string name="screen_compat_mode_scale">"စေကး"</string>
+<string name="screen_compat_mode_show">"အျမဲတမ္း ျပပါ"</string>
+<string name="screen_compat_mode_hint">"ျပန္-ဖြင့္ပါ စနစ္ ဆက္တင္မ်ား &amp;gt; ေအပီပီမ်ား &amp;gt; ေဒါင္းလုပ္ျပီး."</string>
+<string name="unsupported_display_size_message">"<xliff:g id="app_name">%1$s</xliff:g> လက္ရွိ ေဖၚျပသည့္ဆိုဒ္ ဆက္တင္ကို မေထာက္ပံ့ မေမွ်ာ္လင့္ထားသည့္ အေျခအေနျဖစ္ေန."</string>
+<string name="unsupported_display_size_show">"အျမဲတမ္း ျပပါ"</string>
+<string name="smv_application">"ပ႐ိုဂရမ္ <xliff:g id="application">%1$s</xliff:g>(ျဖစ္စဥ္ <xliff:g id="process">%2$s</xliff:g>) မွ ကိုယ္ပိုင္သတ္မွတ္ထားသည့္ ႐ုတ္တရက္မွားသြားပါက ျပန္ျပင္ႏိုင္ရန္ သတိေပးသည့္ ပံုစံမူအား ခ်ိဳးေဖာက္ထားသည္။"</string>
+<string name="smv_process">"လုပ္ေဆာင္ခ်က္<xliff:g id="process">%1$s</xliff:g>မွာ StrictMode ၏ ကိုယ္ပုိင္ျပ႒ာန္းခ်က္ဥပေဒအား ခ်ိဳးေဖာက္သည္"</string>
+<string name="android_upgrading_title">"အန္းဒရြိဳက္ အပ္ဒိတ္လုပ္ေန\u2026"</string>
+<string name="android_start_title">"အန္းဒရြိဳက္ စတင္ေန \u2026"</string>
+<string name="android_upgrading_fstrim">"အေကာင္းဆံုး သိုေလွာင္ခန္း."</string>
+<string name="android_upgrading_notification_title">"အန္းဒရိြဳက္ အပ္ဒိတ္လုပ္ေန"</string>
+<string name="android_upgrading_notification_body">"အပ္ဒိတ္မျပီးခင္ထိ ေအပီပီတစ္ခ်ိဳ ့ အလုပ္ေကာင္းစြာ မလုပ္နိုင္"</string>
+<string name="android_upgrading_apk">"ေအပီပီ<xliff:g example="123" id="number">%1$d</xliff:g> ႐ွိ<xliff:g example="123" id="number">%2$d</xliff:g>အား သင့္ေလ်ာ္ေအာင္ေဆာင္႐ြက္ျခင္း။"</string>
+<string name="android_preparing_apk">"ျပင္ဆင္ေန<xliff:g id="appname">%1$s</xliff:g>."</string>
+<string name="android_upgrading_starting_apps">"ပ႐ိုဂရမ္မ်ားစတင္ေနသည္။"</string>
+<string name="android_upgrading_complete">"စတင္ျခင္း ျပီးဆံုးေတာ့မည္။"</string>
+<string name="heavy_weight_notification">"<xliff:g id="app">%1$s</xliff:g> အသံုးျပဳေနသည္"</string>
+<string name="heavy_weight_notification_detail">"ေအပီပီ သို ့ လွည့္ရန္ နွိပ္ပါ"</string>
+<string name="heavy_weight_switcher_title">"ေအပီပီ ေျပာင္းမလား?"</string>
+<string name="heavy_weight_switcher_text">"အျခားေအပီပီ ဖြင့္ထားျပီးျဖစ္၍ အသစ္တစ္ခု မစတင္မီ ယင္းအား အရင္ရပ္ဆိုင္းပစ္ရမည္။"</string>
+<string name="old_app_action">"<xliff:g id="old_app">%1$s</xliff:g>သို႔ ျပန္သြားပါ"</string>
+<string name="old_app_description">"ေအပီပိ အသစ္ကို မစပါႏွင့္။"</string>
+<string name="new_app_action">"<xliff:g id="old_app">%1$s</xliff:g> စတင္ပါ"</string>
+<string name="new_app_description">"ေအပီပီအေဟာင္းအား မသိမ္းဆည္းဘဲ ရပ္ဆိုင္းမည္"</string>
+<string name="dump_heap_notification">"<xliff:g id="proc">%1$s</xliff:g> သတ္မွတ္ သိုေလွာင္မႈ ထက္ေက်ာ္ေနျပီ"</string>
+<string name="dump_heap_notification_detail">"အမွိဳက္ပံုသိမ္းျပီး;ရွယ္ယာရန္ နွိပ္ပါ"</string>
+<string name="dump_heap_title">"အေရးေပၚေျပာင္းသိမ္း ရွယ္ယာမလား?"</string>
+<string name="dump_heap_text">"ပေရာစက္ <xliff:g id="proc">%1$s</xliff:g> ပေရာစက္ သိုေလွာင္ခန္း သတ္မွတ္ ထက္ေက်ာ္ေနျပီ ၏ <xliff:g id="size">%2$s</xliff:g>. ဖြံ ့ျဖိဳးသူနွင့္ ရွယ္ယာရန္ သာလွ်င္ အေရးေပၚ ေျပာင္းသိမ္းရမည္. သတိျပဳပါ: ဤအေရးေပၚေျပာင္းသိမ္းသည္ အပီီပီဖြင့္ရန္ သင့္ကိုယ္ပိုင္ သတင္းအခ်က္ ပါႏိုင္သည္ ."</string>
+<string name="sendText">"စာသားအတြက္ လုပ္ေဆာင္ခ်က္ ေ႐ြးပါ"</string>
+<string name="volume_ringtone">"ဖုန္းျမည္သံအတိုးအက်ယ္"</string>
+<string name="volume_music">"မီဒီယာအသံအတိုးအက်ယ္"</string>
+<string name="volume_music_hint_playing_through_bluetooth">"ဘလူးတုသ္မွတစ္ဆင့္ ဖြင့္ေနသည္"</string>
+<string name="volume_music_hint_silent_ringtone_selected">"ဖုန္းတီးလံုးအသံတိတ္ျခင္း တပ္ဆင္ျပီး"</string>
+<string name="volume_call">"ဖုန္းေျပာစဥ္ အသံအတိုးအက်ယ္"</string>
+<string name="volume_bluetooth_call">"ဘလူးတုသ္ေခၚဆိုစဥ္အသံအတိုးအက်ယ္"</string>
+<string name="volume_alarm">"ႏိႈးစက္အသံအတိုးအက်ယ္"</string>
+<string name="volume_notification">"အသံ သတိေပးခ်က္"</string>
+<string name="volume_unknown">"အသံအတိုးအက်ယ္"</string>
+<string name="volume_icon_description_bluetooth">"ဘလူးတုသ္အသံအတိုးအက်ယ္"</string>
+<string name="volume_icon_description_ringer">"ဖုန္းတီးလံုးအသံအတိုးအက်ယ္"</string>
+<string name="volume_icon_description_incall">"ဖုန္းေခၚဆိုမႈအသံအတိုးအက်ယ္"</string>
+<string name="volume_icon_description_media">"မီဒီယာအသံအတိုးအက်ယ္"</string>
+<string name="volume_icon_description_notification">"အသံ သတိေပးခ်က္"</string>
+<string name="ringtone_default">"မူလ ဖုန္းျမည္သံ"</string>
+<string name="ringtone_default_with_actual">"မူလဖုန္းေခၚဆိုမႈတီးလံုး (<xliff:g id="actual_ringtone">%1$s</xliff:g>)"</string>
+<string name="ringtone_silent">တေယာက္မွ်</string>
+<string name="ringtone_picker_title">"ဖုန္းတီးလံုးမ်ား"</string>
+<string name="ringtone_unknown">"အမည္မသိဖုန္းတီးလံုး"</string>
+<plurals name="wifi_available">
+<item quantity="one">"WLAN ကြန္ယက္ရ႐ွိႏိုင္"</item>
+<item quantity="other">"WLAN ကြန္ယက္မ်ားရ႐ွိႏိုင္"</item>
+</plurals>
+<plurals name="wifi_available_detailed">
+<item quantity="one">"ရ႐ွိႏိုင္သည့္ WLAN ကြန္ယက္ဖြင့္ပါ"</item>
+<item quantity="other">"ရ႐ွိႏိုင္သည့္ WLAN ကြန္ယက္မ်ားဖြင့္ပါ"</item>
+</plurals>
+<string name="wifi_available_sign_in">"Wi-Fi ကြန္ရက္ သို ့ ၀င္ပါ"</string>
+<string name="network_available_sign_in">"ကြန္ရက္ သို ့ ၀င္ပါ"</string>
+<string name="wifi_no_internet">"Wi-Fi အင္တာနက္ လက္ခံ မရွိပါ"</string>
+<string name="wifi_no_internet_detailed">"ေရြးခ်ယ္စရာမ်ားအတြက္ နွိပ္ပါ"</string>
+<string name="wifi_watchdog_network_disabled">"WLAN သို႔ မခ်ိတ္ဆက္ႏိုင္ပါ"</string>
+<string name="wifi_watchdog_network_disabled_detailed">"\u0020အင္တာနက္ခ်ိတ္ဆက္မႈ အားမေကာင္းပါ။"</string>
+<string name="wifi_connect_alert_title">"ခ်ိတ္ဆက္မွာလား?"</string>
+<string name="wifi_connect_alert_message">"ေအပီပီ %1$s Wifi ကြန္ရက္ ခ်ိတ္ဆက္မွာလား %2$s"</string>
+<string name="wifi_connect_default_application">"ေအပီပီ"</string>
+<string name="wifi_p2p_dialog_title">"Wi-Fi တိုက္ရိုက္"</string>
+<string name="wifi_p2p_turnon_message">"Wi-Fi တုိက္ရုိက္ကုိ စတင္ပါ။ ဤလုပ္ေဆာင္ခ်က္က Wi-Fi လႊင့္စက္/ေဟာ့စေပါ့တုိ႕ကုိ ပိတ္ပစ္လိမ့္မည္။"</string>
+<string name="wifi_p2p_failed_message">"Wi-Fi ကုိတုိက္ရုိက္ စတင္၍ မရႏုိင္ပါ။"</string>
+<string name="wifi_p2p_enabled_notification_title">"Wi-Fi တုိက္ရုိက္ကုိ ဖြင့္ထားသည္"</string>
+<string name="wifi_p2p_enabled_notification_message">"ဆက္တင္မ်ားအတြက္ နွိပ္ပါ"</string>
+<string name="accept">"လက္ခံ"</string>
+<string name="decline">"ျငင္းပယ္ပါ"</string>
+<string name="wifi_p2p_invitation_sent_title">"ဖိတ္ေခၚျခင္းကို ပို႕ပါ"</string>
+<string name="wifi_p2p_invitation_to_connect_title">"ဆက္သြယ္ရန္ ဖိတ္ေခၚပါ"</string>
+<string name="wifi_p2p_from_message">"မွ"</string>
+<string name="wifi_p2p_to_message">"သို႔"</string>
+<string name="wifi_p2p_enter_pin_message">"လိုအပ္သည့္ PINကိုရိုက္ပါ:"</string>
+<string name="wifi_p2p_show_pin_message">"PIN"</string>
+<string name="wifi_p2p_frequency_conflict_message" product="tablet">"တက္ဘလက္သည္ <xliff:g id="device_name">%1$s</xliff:g> ထံခ်ိတ္ဆက္ေနစဥ္ Wi-Fi မွ ယာယီ ခိ်တ္ဆက္မႈ ျဖဳတ္လိမ့္မည္"</string>
+<string name="wifi_p2p_frequency_conflict_message" product="tv">"Wi-Fi ခ်ိတ္ဆက္ထားခ်ိန္တြင္ TV မွ ယာယီ ပိတ္လိမ့္မည္ သို ့ <xliff:g id="device_name">%1$s</xliff:g>"</string>
+<string name="wifi_p2p_frequency_conflict_message" product="default">"ဖုန္းသည္ <xliff:g id="device_name">%1$s</xliff:g> ထံခ်ိတ္ဆက္ေနစဥ္ Wi-Fi မွ ယာယီ ခိ်တ္ဆက္မႈ ျဖဳတ္လိမ့္မည္"</string>
+<string name="select_character">"စကားလံုးမ်ားထည့္သြင္းပါ"</string>
+<string name="sms_control_title">"SMS မက္ေဆ့ခ်္မ်ား ပို ့ေန"</string>
+<string name="sms_control_message">"<b><xliff:g id="app_name">%1$s</xliff:g></b> SMS ဆိုဒ္ျကီး မက္ေဆ့ခ်္မ်ား ပို့ေန. မက္ေဆ့ခ်္မ်ား ဆက္ပို့ရန္ ဤေအပီပီကို ခြင့္ျပဳမွာလား?"</string>
+<string name="sms_control_yes">"ခြင့္ျပဳ"</string>
+<string name="sms_control_no">မလုပ္ပါ</string>
+<string name="sms_short_code_confirm_message">"<b><xliff:g id="app_name">%1$s</xliff:g></b> မက္ေဆ့ခ်္တစ္ခု ပို့မွာလား <b><xliff:g id="dest_address">%2$s</xliff:g></b>."</string>
+<string name="sms_short_code_details">"ဤလုပ္ေဆာင္ခ်က္က သင့္မုိဘုိင္းအေကာင့္အား <b>ကုန္က်စရိတ္မ်ား </b>ဖစ္ေပၚေစပါမည္။"</string>
+<string name="sms_premium_short_code_details">"<b>ဤလုပ္ေဆာင္ခ်က္က သင့္မုိဘုိင္းအေကာင့္အား ကုန္က်စရိတ္မ်ား ျဖစ္ေပၚေစပါမည္။</b>"</string>
+<string name="sms_short_code_confirm_allow">"ပို ့"</string>
+<string name="sms_short_code_confirm_deny">"မလုပ္ပါ"</string>
+<string name="sms_short_code_remember_choice">"ကၽြႏု္ပ္၏ေ႐ြးခ်ယ္မႈကို မွတ္မိေစမည္"</string>
+<string name="sms_short_code_remember_undo_instruction">"ျပင္ဆင္ခ်က္မ်ားမွ ေနာက္တြင္ ဤက႑ကိုေျပာင္းနိုင္သည္ \u00A0&amp;gt;\u00A0Apps""</string>
+<string name="sms_short_code_confirm_always_allow">"အျမဲ ခြင့္ျပဳသည္"</string>
+<string name="sms_short_code_confirm_never_allow">"ဘယ္ေတာ့မွ ခြင့္မျပဳပါ"</string>
+<string name="sim_removed_title">"SIM ကဒ္ဖယ္႐ွားျပီး"</string>
+<string name="sim_removed_message">"အက်ံဳးဝင္ေသာ ထည့္ထားသည့္ SIM ကတ္ကုိ သင္ျပန္စတင္သည္အထိ ဆယ္လူလာကြန္ရက္သည္ ရွိလိမ့္မည္မဟုတ္ပါ။"</string>
+<string name="sim_done_button">"ျပီးပါျပီ"</string>
+<string name="sim_added_title">"SIM ကဒ္ထည့္ျပီး"</string>
+<string name="sim_added_message">"ဆယ္လူလာကြန္ရက္ကုိ ရယူသံုးစြဲရန္ သင့္စက္ကုိ ျပန္စတင္ပါ။"</string>
+<string name="sim_restart_button">"ျပန္လည္စတင္မည္"</string>
+<string name="carrier_app_dialog_message">"SIM အသစ္ အလုပ္ပံုမွန္ လုပ္ရန္, ကယ္ရီယာမွ ေအပီပီ သြင္းျပီး ဖြင့္ရန္လို."</string>
+<string name="carrier_app_dialog_button">"ေအပီပီ ရယူပါ"</string>
+<string name="carrier_app_dialog_not_now">"ယခုမဟုတ္ပါ"</string>
+<string name="carrier_app_notification_title">"SIM အသစ္ ထည့္ထား"</string>
+<string name="carrier_app_notification_text">"ဆက္တင္လုပ္ရန္ နွိပ္ပါ"</string>
+<string name="time_picker_dialog_title">အခ်ိန္ကို သတ္မွတ္ပါ</string>
+<string name="date_picker_dialog_title">"ရက္စြဲတပ္ဆင္ပါ"</string>
+<string name="date_time_set">"တပ္ဆင္"</string>
+<string name="date_time_done">"ျပီးပါျပီ"</string>
+<string name="perms_new_perm_prefix">"<font size="12" fgcolor="#ff33b5e5">အသစ္: </font>"</string>
+<string name="perms_description_app">"ေဖၚျပခံရသည္ <xliff:g id="app_name">%1$s</xliff:g>."</string>
+<string name="no_permissions">"ခြင့္ျပဳခ်က္မ်ားမလိုပါ"</string>
+<string name="perm_costs_money">"ဤကိစၥသည္သင့္ထံေငြေတာင္းခံလိမ့္မည္"</string>
+<string name="dlg_ok">"အိုေက"</string>
+<string name="usb_charging_notification_title">"USB ျဖင့္ စက္ပါ၀ါအားသြင္း"</string>
+<string name="usb_supplying_notification_title">"USB ဆက္ထားသည့္စက္ကို ပါ၀ါအားေထာက္ပံ့"</string>
+<string name="usb_mtp_notification_title">"ဖိုင္လႊဲေျပာင္းရန္ အတြက္ USB "</string>
+<string name="usb_ptp_notification_title">"ဓါတ္ပံုလႊဲေျပာင္းရန္ အတြက္ USB "</string>
+<string name="usb_midi_notification_title">"MIDI အတြက္ USB "</string>
+<string name="usb_accessory_notification_title">"USB အပိုပစၥည္းသို႔ ခ်ိတ္ဆက္ျပီး"</string>
+<string name="usb_notification_message">"ေနာက္ထပ္ ေရြးခ်ယ္စရာမ်ားအတြက္ နွိပ္ပါ"</string>
+<string name="adb_active_notification_title">"USB ခ်ိဳ႕ယြင္းခ်က္ဖယ္႐ွားျခင္းအား ခ်ိတ္ဆက္ျပီး"</string>
+<string name="adb_active_notification_message">"USB ဖယ္ရွားေန ရပ္ရန္ နွိပ္ပါ."</string>
+<string name="taking_remote_bugreport_notification_title">"ပိုးေကာင္ အစီရင္ခံစာ ယူေန..."</string>
+<string name="share_remote_bugreport_notification_title">"ပိုးေကာင္ အစီရင္ခံစာ ရွယ္ယာမွာလား?"</string>
+<string name="sharing_remote_bugreport_notification_title">"ပိုးေကာင္ အစီရင္ခံစာ ရွယ္ယာလုပ္ေန..."</string>
+<string name="share_remote_bugreport_notification_message_finished">"IT ထိန္းခ်ဳပ္သူသည္ ျပသနာရွင္းေပးသူကို ကူညီရန္ ပိုးေကာင္ အစီရင္ခံစာကို ေတာင္းခံထား. ေအပီပီမ်ား နွင့္ ေဒတာ ရွယ္ယာမည္."</string>
+<string name="share_remote_bugreport_action">"ေဝမွ်ပါ"</string>
+<string name="decline_remote_bugreport_action">"ျငင္းပယ္ပါ"</string>
+<string name="select_input_method">"ကီးဘုတ္ေျပင္းပါ"</string>
+<string name="show_ime">"ရုပ္ပိုင္း ကီးဘုတ္ အသက္၀င္ခ်ိန္ ၄င္းကို ဖန္သားျပင္တြင္ ထားပါ"</string>
+<string name="hardware">"ကီးဘုတ္အတု ေဖၚျပပါ"</string>
+<string name="select_keyboard_layout_notification_title">"ရုပ္ပိုင္း ကီးဘုတ္ ဖြဲ့စည္းပံု"</string>
+<string name="select_keyboard_layout_notification_message">"ဘာသာစကားနွင့္ အဆင္အျပင္ ေရြးခ်ယ္ရန္နွိပ္ပါ"</string>
+<string name="fast_scroll_alphabet">"\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+<string name="fast_scroll_numeric_alphabet">"\u00200123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+<string name="candidates_style">"<u>ကိုယ္စားလွယ္ေလာင္း</u>"</string>
+<string name="ext_media_checking_notification_title">"ျပင္ဆင္ေန <xliff:g id="name" example="SD card">%s</xliff:g>"</string>
+<string name="ext_media_checking_notification_message">"အမွားမ်ား အတြက္ စစ္ေဆးေန"</string>
+<string name="ext_media_new_notification_message">"အသစ္ <xliff:g id="name" example="SD card">%s</xliff:g> ေတြ ့ျပီး"</string>
+<string name="ext_media_ready_notification_message">"ဓါတ္ပံုမ်ား နွင့္ မီဒီယာ လႊဲေျပာင္းျခင္း အတြက္"</string>
+<string name="ext_media_unmountable_notification_title">" ရွဳပ္ေထြးသည့္ <xliff:g id="name" example="SD card">%s</xliff:g>"</string>
+<string name="ext_media_unmountable_notification_message">"<xliff:g id="name" example="SD card">%s</xliff:g> ရွဳပ္ေထြးေန. သတ္မွတ္ရန္ နွိပ္ပါ."</string>
+<string name="ext_media_unsupported_notification_title">"မေထာက္ပံ့သည့္ <xliff:g id="name" example="SD card">%s</xliff:g>"</string>
+<string name="ext_media_unsupported_notification_message">"ဤစက္ ၄င္းကို မေထာကပံ့ <xliff:g id="name" example="SD card">%s</xliff:g>.ေထာက္ပံ့သည့္ ေဖာမက္ ဆက္တင္လုပ္ရန္ နွိပ္ပါ."</string>
+<string name="ext_media_badremoval_notification_title">"<xliff:g id="name" example="SD card">%s</xliff:g> မထင္မွတ္ဘဲ ဖယ္ရွားျပီး"</string>
+<string name="ext_media_badremoval_notification_message">"အန္ေမာင့္ <xliff:g id="name" example="SD card">%s</xliff:g> ေဒတာ မေပ်ာက္ရန္ မဖယ္မွီ"</string>
+<string name="ext_media_nomedia_notification_title">"ဖယ္ျပီး <xliff:g id="name" example="SD card">%s</xliff:g>"</string>
+<string name="ext_media_nomedia_notification_message">"<xliff:g id="name" example="SD card">%s</xliff:g> ဖယ္ရွားျပီး; အသစ္တစ္ခု ထည့္ပါ"</string>
+<string name="ext_media_unmounting_notification_title">"ပယ္ေနတုန္း <xliff:g id="name" example="SD card">%s</xliff:g>\u2026"</string>
+<string name="ext_media_unmounting_notification_message">"ဖယ္ မရ"</string>
+<string name="ext_media_init_action">"တပ္ဆင္ျခင္း"</string>
+<string name="ext_media_unmount_action">"ပယ္ပါ"</string>
+<string name="ext_media_browse_action">"ရွာေဖြ"</string>
+<string name="ext_media_missing_title">"<xliff:g id="name" example="SD card">%s</xliff:g> ေပ်ာက္ေန"</string>
+<string name="ext_media_missing_message">"ဤစက္ ျပန္ထည့္ပါ"</string>
+<string name="ext_media_move_specific_title">"ေရႊ ့ေန <xliff:g id="name" example="Calculator">%s</xliff:g>"</string>
+<string name="ext_media_move_title">"ေဒတာ ေရႊ ့ေန"</string>
+<string name="ext_media_move_success_title">"ေရႊ ့ျပီးျပီ"</string>
+<string name="ext_media_move_success_message">"သို ့ ေဒတာေရႊ ့ျပီး <xliff:g id="name" example="SD card">%s</xliff:g>"</string>
+<string name="ext_media_move_failure_title">"ေဒတာ ေရႊ ့မရနိုင္ပါ"</string>
+<string name="ext_media_move_failure_message">"မူလ တည္ေနရာတြင္ ေဒတာ က်န္ရွိ"</string>
+<string name="ext_media_status_removed">"ဖယ္ရွားျပီး"</string>
+<string name="ext_media_status_unmounted">"ဖယ္ျပီး"</string>
+<string name="ext_media_status_checking">"စစ္ေဆးေနသည္\u2026"</string>
+<string name="ext_media_status_mounted">"အဆင္သင့္"</string>
+<string name="ext_media_status_mounted_ro">"ဖတ္ရန္-အတြက္သာ"</string>
+<string name="ext_media_status_bad_removal">"မလံုျခံဳစြာ ဖယ္ရွားျပီး"</string>
+<string name="ext_media_status_unmountable">"ထပ္ေန"</string>
+<string name="ext_media_status_unsupported">"မေထာက္ပံ့သည့္"</string>
+<string name="ext_media_status_ejecting">"ပယ္ရန္\u2026"</string>
+<string name="ext_media_status_formatting">"ေဖာမက္လုပ္ရန္\u2026"</string>
+<string name="ext_media_status_missing">"မထည့္ထား"</string>
+<string name="activity_list_empty">"လုိက္ဖက္သည့္လုပ္ေဆာင္ခ်က္မ်ား ႐ွာမေတြ႔ပါ"</string>
+<string name="permlab_route_media_output">"မီဒီယာပို႕ရန္အထြက္"</string>
+<string name="permdesc_route_media_output">"မီဒီယာပို႕ရန္ ေအာက္ပြတ္လမ္းေၾကာင္းမွ တျခားျပင္ပ ကိရိယာမ်ားသို႕ ပို႕ရန္ေအပီပီကို ဖြင့္ပါ."</string>
+<string name="permlab_readInstallSessions">"ထည့္သြင္းမႈ အပုိင္းက႑ကုိ ဖတ္ပါ"</string>
+<string name="permdesc_readInstallSessions">"ထည့္ထားေသာ အပုိင္းမ်ားကုိ ဖတ္ရန္ အပလီေကးရွင္းကုိ ခြင့္ျပဳမည္။ ဤလုပ္ေဆာင္ခ်က္က သက္ဝင္ေနေသာ ပက္ေက့ခ်္ ထည့္သြင္းမႈမ်ားအေၾကာင္း အေသးစိတ္ကုိ ျမင္ခြင့္ေပးသည္။"</string>
+<string name="permlab_requestInstallPackages">"ပက္ေက့ခ်္မ်ား သြင္းရန္ ေတာင္းဆိုပါ"</string>
+<string name="permdesc_requestInstallPackages">"ပက္ေက့ခ်္မ်ား သြင္းရန္ ေတာင္းဆိုမည့္ ေအပီပီကို ခြင့္ျပဳပါ."</string>
+<string name="tutorial_double_tap_to_zoom_message_short">"ခ်ဲ ့ ထိန္းခ်ဳပ္အတြက္ နွိပ္ျကိမ္ နွိပ္ပါ"</string>
+<string name="gadget_host_error_inflating">"ဝွဂ်စ္ ္ခ်ဲ႕စဥ္ အမွားေပၚသည္"</string>
+<string name="ime_action_go">"သြားမည္"</string>
+<string name="ime_action_search">ရွာေဖြျခင္း</string>
+<string name="ime_action_send">"ပို ့"</string>
+<string name="ime_action_next">ေနာက္ထပ္</string>
+<string name="ime_action_done">"ျပီးပါျပီ"</string>
+<string name="ime_action_previous">"ေနာက္သို႔"</string>
+<string name="ime_action_default">"စတင္လုပ္ေဆာင္ပါ"</string>
+<string name="dial_number_using">"<xliff:g example="555" id="number">%s</xliff:g> အသံုးျပဳ၍ \n နံပါတ္ကို ေခၚဆိုမည္"</string>
+<string name="create_contact_using">"<xliff:g example="555" id="number">%s</xliff:g> အသံုးျပဳ၍ \n အဆင္အသြယ္ကို ဖန္တီးပါ။"</string>
+<string name="grant_credentials_permission_message_header">"ယခု သို႔မဟုတ္ ေနာင္တြင္ သင့္အေကာင့္သို႔ ဝင္ေရာက္ရန္ ေအာက္ပါတစ္ခုသို႔မဟုတ္ တစ္ခုထက္ပိုေသာ ေအပီပီ မ်ားက ခြင့္ျပဳခ်က္ ေတာင္းဆိုေနသည္။"</string>
+<string name="grant_credentials_permission_message_footer">"ဤေတာင္းဆိုခ်က္ကို ခြင့္ျပဳမလား?"</string>
+<string name="grant_permissions_header_text">"ေတာင္းဆိုခ်က္သို႔ ဝင္ေရာက္ပါ"</string>
+<string name="allow">"ခြင့္ျပဳ"</string>
+<string name="deny">မလုပ္ပါ</string>
+<string name="permission_request_notification_title">"ခြင့္ျပဳခ်က္ေတာင္းဆိုျပီး"</string>
+<string name="permission_request_notification_with_subtitle">"\nအေကာင့္ <xliff:g example="foo@gmail.com" id="account">%s</xliff:g> အတြက္ ခြင့္ျပဳခ်က္ေတာင္းခံျပီး"</string>
+<string name="forward_intent_to_owner">"ဤအက္ပ္ကုိ သင့္အလုပ္ပရုိဖုိင္း ျပင္ပတြင္ အသံုးျပဳေနသည္။"</string>
+<string name="forward_intent_to_work">"ဤအက္ပ္ကုိ သင့္အလုပ္ပရုိဖုိင္းတြင္ အသံုးျပဳေနသည္။"</string>
+<string name="input_method_binding_label">"အသြင္းနည္းလမ္း"</string>
+<string name="sync_binding_label">"ကို sync လုပ္ပါ"</string>
+<string name="accessibility_binding_label">"ဝင္ေရာက္ျခင္း"</string>
+<string name="wallpaper_binding_label">"ပိုစတာမ်ား"</string>
+<string name="chooser_wallpaper">"ပိုစတာ ေျပာင္းမည္"</string>
+<string name="notification_listener_binding_label">"သတိေပးခ်က္ နားေသာတရွင္"</string>
+<string name="vr_listener_binding_label">"VR နားေထာင္သူ"</string>
+<string name="condition_provider_service_binding_label">"အေျခအေန ပံ့ပုိးေပးသူ"</string>
+<string name="notification_ranker_binding_label">"အဆင္ျမွင့္ ၀န္ေဆာင္မွဳ သတိေပးခ်က္"</string>
+<string name="vpn_title">"VPN အတည္ျပဳျပီး။"</string>
+<string name="vpn_title_long">"<xliff:g example="FooVPN client" id="app">%s</xliff:g> ျဖင့္ VPN အားစတင္ျပီး"</string>
+<string name="vpn_text">"ကြန္ရက္ စီမံရန္ နွိပ္ပါ."</string>
+<string name="vpn_text_long">"သို ့ ခ်ိတ္ဆက္ထား <xliff:g id="session" example="office">%s</xliff:g>. ကြန္ရက္ စီမံရန္ နွိပ္ပါ."</string>
+<string name="vpn_lockdown_connecting">"VPN ခ်ိတ္ဆက္ေနမႈကို အျမဲဖြင့္ထားပါ…..."</string>
+<string name="vpn_lockdown_connected">"VPN ခ်ိတ္ဆက္မႈကို အျမဲဖြင့္ထားပါ"</string>
+<string name="vpn_lockdown_error">"VPN အမွားကို အျမဲ ဖြင့္ထားပါ"</string>
+<string name="vpn_lockdown_config">"ဖြဲ့စည္းရန္ နွိပ္ပါ"</string>
+<string name="upload_file">"ဖိုင္ေ႐ြးပါ"</string>
+<string name="no_file_chosen">"မည္သည့္ဖုိင္မွ်ေ႐ြးမထားပါ"</string>
+<string name="reset">"ျပန္သတ္မွတ္ပါ"</string>
+<string name="submit">"ေပးပို႔မည္"</string>
+<string name="car_mode_disable_notification_title">"ကားေမာင္းစဥ္ပံုစံအားဖြင့္ျပီး"</string>
+<string name="car_mode_disable_notification_message">"ကားမုတ္ ထြက္ရန္ နွိပ္ပါ"."</string>
+<string name="tethered_notification_title">"ဖုန္းျဖင့္အင္တာနက္ခ်ိတ္ဆက္ျခင္း သို႔မဟုတ္ ေဟာ့စေပါ့ အသက္ဝင္ျခင္း"</string>
+<string name="tethered_notification_message">"ဆက္တင္လုပ္ရန္ နွိပ္ပါ."</string>
+<string name="back_button_label">"ေနာက္သို ့"</string>
+<string name="next_button_label">ေနာက္ထပ္</string>
+<string name="skip_button_label">"ေက်ာ္သြားမည္"</string>
+<string name="find_on_page">"စာမ်က္ႏွာတြင္ ႐ွာပါ"</string>
+<plurals name="matches_found">
+<item quantity="one">"1/1"</item>
+<item quantity="other">"<xliff:g id="index" example="2">%d</xliff:g>/<xliff:g id="total" example="137">%d</xliff:g>"</item>
+</plurals>
+<string name="action_mode_done">"ျပီးပါျပီ"</string>
+<string name="progress_erasing" product="nosdcard">"USB သိုေလွာင္မႈကို ဖ်က္ေနသည္..."</string>
+<string name="progress_erasing" product="default">"SD ကဒ္ကို ဖ်က္ေနသည္..."</string>
+<string name="share">"ေဝမွ်ပါ"</string>
+<string name="find">"႐ွာပါ"</string>
+<string name="websearch">"ဝက္ဘ္ျဖင့္႐ွာေဖြျခင္း"</string>
+<string name="find_next">"ေနာက္ထပ္ ရွာပါ"</string>
+<string name="find_previous">"ယခင္ကို ရွာပါ"</string>
+<string name="gpsNotifTicker">"<xliff:g id="name">%s</xliff:g>မွ တည္ေနရာေတာင္းဆိုခ်က္"</string>
+<string name="gpsNotifTitle">"တည္ေနရာေတာင္းဆိုခ်က္"</string>
+<string name="gpsNotifMessage">"<xliff:g id="name">%1$s</xliff:g> (<xliff:g example="SUPL-service" id="service">%2$s</xliff:g>) မွ ေတာင္းဆိုထားသည္"</string>
+<string name="gpsVerifYes">"မွန္သည္"</string>
+<string name="gpsVerifNo">မဟုတ္ပါ</string>
+<string name="sync_too_many_deletes">"ကန္႔သတ္ခ်က္ထက္ ေက်ာ္လြန္ပါက ဖ်က္ပါ"</string>
+<string name="sync_too_many_deletes_desc">"<xliff:g id="type_of_sync">%2$s</xliff:g>, အေကာင့္ <xliff:g id="account_name">%3$s</xliff:g>တြင္ ဖ်က္ျပီးပစၥည္း<xliff:g id="number_of_deleted_items">%1$d</xliff:g>ခု ႐ွိသည္။ သင္မည္သို႔ဆက္လုပ္ခ်င္ပါသနည္း?"</string>
+<string name="sync_really_delete">"အေၾကာင္းအရာမ်ားကို ဖ်က္ပါ။"</string>
+<string name="sync_undo_deletes">"ဖ်က္ပစ္ထားသည္မ်ားကို ျပန္ေျဖပါ။"</string>
+<string name="sync_do_nothing">"ယခုဘာမွမလုပ္ပါႏွင့္။"</string>
+<string name="choose_account_label">"အေကာင့္တစ္ခုကို ေရြးခ်ယ္ပါ"</string>
+<string name="add_account_label">"အေကာင့္တစ္ခုထည့္ပါ"</string>
+<string name="add_account_button_label">"အေကာင့္ ထည့္ပါ"</string>
+<string name="number_picker_increment_button">"တိုးပြား"</string>
+<string name="number_picker_decrement_button">"ေလ်ာ့ျခင္း"</string>
+<string name="number_picker_increment_scroll_mode">"<xliff:g id="value" example="3">%s</xliff:g> ထိပါ &amp;ကိုင္ပါ."</string>
+<string name="number_picker_increment_scroll_action">"ေလွ်ာ့ ရန္ အေပၚသို႔ ေ႐ႊႊ႕ျပီး ေလွ်ာ့ရန္ ေအာက္သုိ႔ ေ႐ႊႊ႕ပါ"</string>
+<string name="time_picker_increment_minute_button">"မိနစ္တိုးပါ"</string>
+<string name="time_picker_decrement_minute_button">"မိနစ္ေလွ်ာ႔ပါ"</string>
+<string name="time_picker_increment_hour_button">"နာရီတိုးပါ"</string>
+<string name="time_picker_decrement_hour_button">"နာရီေလွ်ာ႔ပါ"</string>
+<string name="time_picker_increment_set_pm_button">"PM ထား႐ွိပါ"</string>
+<string name="time_picker_decrement_set_am_button">"AM ထား႐ွိပါ"</string>
+<string name="date_picker_increment_month_button">"လတိုးပါ"</string>
+<string name="date_picker_decrement_month_button">"လေလွ်ာ႔ပါ"</string>
+<string name="date_picker_increment_day_button">"ရက္တိုးပါ"</string>
+<string name="date_picker_decrement_day_button">"ရက္ေလွ်ာ႔ပါ"</string>
+<string name="date_picker_increment_year_button">"ႏွစ္တိုးပါ"</string>
+<string name="date_picker_decrement_year_button">"ႏွစ္ေလွ်ာ႔ပါ"</string>
+<string name="date_picker_prev_month_button">"ယခင္ လ"</string>
+<string name="date_picker_next_month_button">"လာမည့္ လ"</string>
+<string name="keyboardview_keycode_cancel">"မလုပ္ပါ"</string>
+<string name="keyboardview_keycode_done">"ျပီးပါျပီ"</string>
+<string name="keyboardview_keycode_mode_change">"ပံုစံေျပာင္းလဲျခင္း"</string>
+<string name="activitychooserview_choose_application">"ေအပီပီ ေရြးခ်ယ္ပါ"</string>
+<string name="activitychooserview_choose_application_error">"စတင္ေဆာင္ရြက္မရ <xliff:g id="application_name" example="Acme">%s</xliff:g>"</string>
+<string name="shareactionprovider_share_with">"ႏွင့္ေဝမွ်ပါ"</string>
+<string name="shareactionprovider_share_with_application">"<xliff:g example="Bluetooth" id="application_name">%s</xliff:g> ႏွင့္ေဝမွ်ပါ"</string>
+<string name="content_description_sliding_handle">"လက္ျဖင့္ ဆလိုက္လုပ္. ထိပါ &amp;ကိုင္ပါ."</string>
+<string name="description_target_unlock_tablet">"ေသာ့ဖြင့္ရန္ ပြတ္ဆြဲပါ။"</string>
+<string name="keyboard_headset_required_to_hear_password">"စကားဝွက္ခလုတ္မ်ားအသံထြက္ေျပာဆိုမႈကို နားဆင္ရန္ နားၾကပ္ၾကိဳးတပ္ပါ။"</string>
+<string name="keyboard_password_character_no_headset">"အစက္သေကၤတ"</string>
+<string name="action_bar_home_description">"အိမ္သို႔ လမ္းေၾကာင္းညႊန္ျပပါ"</string>
+<string name="action_bar_up_description">"အထက္သို႔လမ္းေၾကာင္းညႊန္ျပခ်က္"</string>
+<string name="action_menu_overflow_description">"ေနာက္ထပ္ ေရြးခ်ယ္စရာမ်ား"</string>
+<string name="action_bar_home_description_format">"%1$s, %2$s"</string>
+<string name="action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+<string name="storage_internal">"အတြင္း ရွယ္ယာ သိုေလွာင္"</string>
+<string name="storage_sd_card">"SD ကဒ္"</string>
+<string name="storage_sd_card_label">"<xliff:g id="manufacturer" example="SanDisk">%s</xliff:g> SD ကဒ္"</string>
+<string name="storage_usb_drive">"USB ဒရိုက္"</string>
+<string name="storage_usb_drive_label">"<xliff:g id="manufacturer" example="Seagate">%s</xliff:g> USB ဒရိုက္"</string>
+<string name="storage_usb">"USB သိုေလွာင္မႈ"</string>
+<string name="extract_edit_menu_button">တည္းျဖတ္သည္</string>
+<string name="data_usage_warning_title">"ေဒတာအသံုးခ်မႈပမာဏသတိေပးခ်က္"</string>
+<string name="data_usage_warning_body">"သံုးစြဲမွဳ နွင့္ ဆက္တင္မ်ား ျကည့္ရန္ နွိပ္ပါ."</string>
+<string name="data_usage_3g_limit_title">"2G-3G ေဒတာကန္႕သတ္သုိ႕ ေရာက္ပါၿပီ"</string>
+<string name="data_usage_4g_limit_title">"4G ေဒတာကန္႕သတ္သုိ႕ ေရာက္ပါၿပီ"</string>
+<string name="data_usage_mobile_limit_title">"ဆယ္လူလာေဒတာ ကန္႕သတ္ခ်က္ကုိ ေရာက္ေနပါၿပီ"</string>
+<string name="data_usage_wifi_limit_title">"Wi-Fi ေဒတာ ကန္႕သတ္ခ်က္ကုိ ေရာက္ရွိေနပါသည္"</string>
+<string name="data_usage_limit_body">"က်န္သည့္ လုပ္ငန္းစဥ္အတြက္ ေဒတာ ေခတၱရပ္သြားသည္"</string>
+<string name="data_usage_3g_limit_snoozed_title">"2G-3G ေဒတာကန္႔သတ္ခ်က္ေက်ာ္လြန္"</string>
+<string name="data_usage_4g_limit_snoozed_title">"4G ေဒတာကန္႔သတ္ခ်က္ေက်ာ္လြန္"</string>
+<string name="data_usage_mobile_limit_snoozed_title">"ဆယ္လူလာေဒတာ ကန္႕သတ္ခ်က္ကုိ ေက်ာ္သြားပါၿပီ"</string>
+<string name="data_usage_wifi_limit_snoozed_title">"Wi-Fi ေဒတာ ကန္႕သတ္ခ်က္ကုိ ေက်ာ္သြားပါၿပီ"</string>
+<string name="data_usage_limit_snoozed_body">"သတ္မွတ္ကန္႔သတ္ခ်က္အထက္ <xliff:g example="3.8GB" id="size">%s</xliff:g>"</string>
+<string name="data_usage_restricted_title">"ေနာက္ခံေဒတာကန္႔သတ္ျပီး"</string>
+<string name="data_usage_restricted_body">"ကန္ ့သတ္ခ်က္မ်ား ဖယ္ရွားရန္ နွိပ္ပါ."</string>
+<string name="ssl_certificate">"လံုျခံဳေရးတရားဝင္အေထာက္အထား"</string>
+<string name="ssl_certificate_is_valid">"ဤတရားဝင္အေထာက္အထားမွာ အသံုး႐ွိသည္။"</string>
+<string name="issued_to">"ထုတ္ျပန္ထားသည္မွာ:"</string>
+<string name="common_name">"သာမန္အမည္:"</string>
+<string name="org_name">"စီစဥ္စုစည္းခ်က္"</string>
+<string name="org_unit">"စီစဥ္မႈယူစံႏႈန္း:"</string>
+<string name="issued_by">": မွ ထုတ္ျပန္ထားသည္"</string>
+<string name="validity_period">"သက္တမ္းကာလ:"</string>
+<string name="issued_on">": တြင္ ထုတ္ျပန္ထားသည္"</string>
+<string name="expires_on">": ေန႔တြင္ သက္တမ္းကုန္မည္"</string>
+<string name="serial_number">"စီရီရယ္ နံပါတ္"</string>
+<string name="fingerprints">"လက္ေဗြရာမ်ား:"</string>
+<string name="sha256_fingerprint">"SHA-256 လက္ေဗြ:"</string>
+<string name="sha1_fingerprint">"SHA-1 လက္ေဗြ:"</string>
+<string name="activity_chooser_view_see_all">"အားလံုးၾကည့္ပါ..."</string>
+<string name="activity_chooser_view_dialog_title_default">"လုပ္ေဆာင္ခ်က္ေ႐ြးပါ"</string>
+<string name="share_action_provider_share_with">"ႏွင့္ေဝမွ်ပါ"</string>
+<string name="sending">ပို ့ေနဆဲ</string>
+<string name="launchBrowserDefault">"ဘေရာက္ဆာကို စပါ"</string>
+<string name="SetupCallDefault">"ဖုန္းေခၚဆိုမႈလက္ခံမလား?"</string>
+<string name="activity_resolver_use_always">"အျမဲတမ္း"</string>
+<string name="activity_resolver_use_once">"တစ္ၾကိမ္တည္း"</string>
+<string name="activity_resolver_work_profiles_support">"%1$s သည္ အလုပ္ပရုိဖုိင္းကုိ မေထာက္ပံ့ေပးပါ"</string>
+<string name="default_audio_route_name" product="tablet">"တက္ဘလက္"</string>
+<string name="default_audio_route_name" product="tv">"TV"</string>
+<string name="default_audio_route_name" product="default">ဖုန္း</string>
+<string name="default_audio_route_name_headphones">"မိုက္ခြက္ပါနားၾကပ္"</string>
+<string name="default_audio_route_name_dock_speakers">"ေဒါ့စပီကာမ်ား"</string>
+<string name="default_audio_route_category_name">"စစ္စတမ္"</string>
+<string name="bluetooth_a2dp_audio_route_name">"ဘလူးတူသ္ အသံ"</string>
+<string name="wireless_display_route_description">"ၾကိဳးမဲ့ ေဖၚျပသည္ "</string>
+<string name="media_route_button_content_description">"ပံုသြင္းပါ"</string>
+<string name="media_route_chooser_title">"စက္သို့ခ်ိတ္ဆက္ပါ"</string>
+<string name="media_route_chooser_title_for_remote_display">"စက္သို႔ဖန္သားျပင္ပံုရိပ္ထင္"</string>
+<string name="media_route_chooser_searching">"စက္မ်ားကို ရွာေဖြေန\u2026"</string>
+<string name="media_route_chooser_extended_settings">"ဆက္တင္မ်ား"</string>
+<string name="media_route_controller_disconnect">"ဆက္သြယ္မႈျပတ္ေတာက္"</string>
+<string name="media_route_status_scanning">"စကင္ဖတ္ေနသည္။္…"</string>
+<string name="media_route_status_connecting">"ဆက္သြယ္ေနသည္"</string>
+<string name="media_route_status_available">"ရႏိုင္သည္"</string>
+<string name="media_route_status_not_available">"မရ႐ွိႏိုင္ပါ"</string>
+<string name="media_route_status_in_use">"အသံုးျပဳေနသည္"</string>
+<string name="display_manager_built_in_display_name">"Built-in ဖန္သားျပင္"</string>
+<string name="display_manager_hdmi_display_name">"HDMI ဖန္သားျပင္"</string>
+<string name="display_manager_overlay_display_name">"ထပ္ဆင့္ထားသည္၊ #<xliff:g id="id">%1$d</xliff:g>"</string>
+<string name="display_manager_overlay_display_title">"<xliff:g id="name">%1$s</xliff:g>: <xliff:g id="width">%2$d</xliff:g>x<xliff:g id="height">%3$d</xliff:g>, <xliff:g id="dpi">%4$d</xliff:g> dpi"</string>
+<string name="display_manager_overlay_display_secure_suffix">", လံုျခံု"</string>
+<string name="kg_forgot_pattern_button_text">"pattern ကိုေမ့သြားသည္"</string>
+<string name="kg_wrong_pattern">"Pattern မွားယြင္းသည္"</string>
+<string name="kg_wrong_password">"မွားယြင္းေသာ စကားဝွက္"</string>
+<string name="kg_wrong_pin">"PIN အမွား"</string>
+<string name="kg_too_many_failed_attempts_countdown">"<xliff:g id="number">%1$d</xliff:g> စကၠန္႔အၾကာတြင္ ျပန္ၾကိဳးစားပါ."</string>
+<string name="kg_pattern_instructions">"သင္၏ pattern ကို ေရးဆြဲပါ"</string>
+<string name="kg_sim_pin_instructions">"SIM PIN ကို ထည့္ပါ"</string>
+<string name="kg_pin_instructions">"PIN ကို ထည့္ပါ"</string>
+<string name="kg_password_instructions">"စကား၀ွက္ထည့္ပါ"</string>
+<string name="kg_puk_enter_puk_hint">"SIM ကိုယခုပိတ္ထားသည္ ဆက္လုပ္ရန္ PUK ကုတ္ကို 2င္ပါ. အေသးစိတ္အတြက္ ကယ္ရီယာကို ဆက္သြယ္ပါ."</string>
+<string name="kg_puk_enter_pin_hint">"လိုခ်င္သည့္ PIN ကုတ္ကို ထည့္ပါ"</string>
+<string name="kg_enter_confirm_pin_hint">"လိုခ်င္သည့္ PIN ကုတ္ကို အတည္ျပဳပါ"</string>
+<string name="kg_sim_unlock_progress_dialog_message">"SIM ကဒ္အား ေသာ့ဖြင့္ေနဆဲ\u2026"</string>
+<string name="kg_password_wrong_pin_code">"PIN ကုဒ္မမွန္ကန္ပါ!"</string>
+<string name="kg_invalid_sim_pin_hint">"ဂဏန္း 4လံုး မွ 8လံုး ထိရွိေသာ PIN ကို႐ိုက္ပါ"</string>
+<string name="kg_invalid_sim_puk_hint">"PUK ကုဒ္သည္ နံပါတ္ ၈ လံုးျဖစ္ရမည္။"</string>
+<string name="kg_invalid_puk">"PUK ကုတ္ အမွန္ကို ျပန္ထည့္ပါ ၾကံစည္မႈမ်ား ထပ္ခါထပ္ခါ ျဖစ္လွ်င္၊ SIM ကို အျမဲပိတ္လိမ့္မည္."</string>
+<string name="kg_invalid_confirm_pin_hint" product="default">" PIN ကုတ္ လိုက္ဖက္မညီပါ"</string>
+<string name="kg_login_too_many_attempts">"ၾကိဳးပမ္းမႈပံုစံမ်ားလြန္းေနသည္!"</string>
+<string name="kg_login_instructions">"အန္ေလာ့ခ္လုပ္ရင္ သင့္ Google အေကာင့္ႏွင့္ ဝင္ပါ"</string>
+<string name="kg_login_username_hint">"အသံုးျပဳသူအမည္ (အီးေမးလ္)"</string>
+<string name="kg_login_password_hint">"စကား၀ွက္"</string>
+<string name="kg_login_submit_button">"ဝင္ေရာက္မည္"</string>
+<string name="kg_login_invalid_input">"အသံုးျပဳသူအမည္ႏွင့္စကား၀ွက္ တရားမ1င္ပါ"</string>
+<string name="kg_login_account_recovery_hint">"သင့္အသံုးျပဳသူအမည္ သို႔မဟုတ္ စကားဝွက္ကို ေမ့သြားျပီလား?\n <b>google.com/accounts/recovery</b>သို႔ သြားပါ"</string>
+<string name="kg_login_checking_password">"အေကာင့္ကိုစစ္ေဆးေနသည္…"</string>
+<string name="kg_too_many_failed_pin_attempts_dialog_message">" PIN ရိုက္ မမွန္ <xliff:g id="number">%1$d</xliff:g> အျကိမ္မ်ား. \n\n ထပ္ျကိုးစားပါ <xliff:g id="number">%2$d</xliff:g> စကၠန္ ့မ်ား. "</string>
+<string name="kg_too_many_failed_password_attempts_dialog_message">" စကား၀ွက္ ရိုက္ မမွန္ <xliff:g id="number">%1$d</xliff:g> အျကိမ္မ်ား. \n\n ထပ္ျကိုးစားပါ <xliff:g id="number">%2$d</xliff:g> စကၠန္ ့့မ်ား. "</string>
+<string name="kg_too_many_failed_pattern_attempts_dialog_message">"အန္ေလာခ့္ပံုစံ ဆြဲရန္မမွန္ <xliff:g id="number">%1$d</xliff:g> အျကိမ္မ်ား. \n\n ထပ္ျကိုးစားပါ <xliff:g id="number">%2$d</xliff:g> စကၠန္ ့မ်ား. "</string>
+<string name="kg_failed_attempts_almost_at_wipe" product="tablet">" တက္ပလက္ အန္ေလာခ့္ ျကိဳးစားမွဳမမွန္ <xliff:g id="number">%1$d</xliff:g> ျကိမ္မ်ား. ျပီးေနာက္ <xliff:g id="number">%2$d</xliff:g> အားထုတ္မွဳမ်ား မေအာင္ျမင္,တက္ပလက္ စက္ရံုဒီေဖါ့ဆက္တင္ျပန္စမည္ သံုးစြဲသူ ေဒတာ ေပ်ာက္လိမ့္မည္. "</string>
+<string name="kg_failed_attempts_almost_at_wipe" product="tv">" TV အန္ေလာခ့္ ျကိဳးစားမွဳမမွန္ <xliff:g id="number">%1$d</xliff:g> ျကိမ္မ်ား. ျပီးေနာက္ <xliff:g id="number">%2$d</xliff:g> အားထုတ္မွဳမ်ား မေအာင္ျမင္,တက္ပလက္ စက္ရံုဒီေဖါ့ဆက္တင္ျပန္စမည္ သံုးစြဲသူ ေဒတာ ေပ်ာက္လိမ့္မည္. "</string>
+<string name="kg_failed_attempts_almost_at_wipe" product="default">" ဖုန္း အန္ေလာခ့္ ျကိဳးစားမွဳမမွန္ <xliff:g id="number">%1$d</xliff:g> ျကိမ္မ်ား. ျပီးေနာက္ <xliff:g id="number">%2$d</xliff:g> အားထုတ္မွဳမ်ား မေအာင္ျမင္,တက္ပလက္ စက္ရံုဒီေဖါ့ဆက္တင္ျပန္စမည္ သံုးစြဲသူ ေဒတာ ေပ်ာက္လိမ့္မည္. "</string>
+<string name="kg_failed_attempts_now_wiping" product="tablet">"တက္ဘလက္အား <xliff:g id="number">%d</xliff:g> ၾကိမ္ မွားယြင္းစြာ ေသာ့ဖြင့္ထားသည္။  တက္ဘလက္အား မူလဝယ္ယူစဥ္ပံုစံသို႔ ယခုျပန္လည္ထား႐ွိမည္။"</string>
+<string name="kg_failed_attempts_now_wiping" product="tv">"TV အန္ေလာ့ခ္ရန္ အားထုတ္မႈ မမွန္ <xliff:g id="number">%d</xliff:g> ျကိမ္မ်ား. TV အား ယခု စက္ရံု ဒီေဖါ့  ျပန္တပ္ဆင္လိမ့္မည္   . "</string>
+<string name="kg_failed_attempts_now_wiping" product="default">"ဖုန္းအား <xliff:g id="number">%d</xliff:g> ၾကိမ္ မွားယြင္းစြာ ေသာ့ဖြင့္ထားသည္။ဖုန္းအား မူလဝယ္ယူစဥ္ပံုစံသို႔ ယခုျပန္လည္ထား႐ွိမည္။"</string>
+<string name="kg_failed_attempts_almost_at_login" product="tablet">"" အန္ေလာ့ခ္ပံုစံ ဆြဲရန္မမွန္ <xliff:g id="number">%1$d</xliff:g> အျကိမ္မ်ား. ျပီးေနာက္ <xliff:g id="number">%2$d</xliff:g> မေအာင္ျမင္သည့္ အားထုတ္မွဳမ်ား,အီးေမးလ္သံုးသည့္ တက္ပလက္ အန္ေလာ့ခ္ရန္ ေမးမည္္, \n\nထပ္ျကိဳးစားပါ <xliff:g id="number">%3$d</xliff:g> စကၠန္ ့မ်ား."</string>
+<string name="kg_failed_attempts_almost_at_login" product="tv">"" အန္ေလာ့ခ္ပံုစံ ဆြဲရန္မမွန္ <xliff:g id="number">%1$d</xliff:g> အျကိမ္မ်ား. ျပီးေနာက္ <xliff:g id="number">%2$d</xliff:g> မေအာင္ျမင္သည့္ အားထုတ္မွဳမ်ား,အီးေမးလ္သံုးသည့္ TV အန္ေလာ့ခ္ရန္ ေမးမည္္, \n\nထပ္ျကိဳးစားပါ <xliff:g id="number">%3$d</xliff:g> စကၠန္ ့မ်ား."</string>
+<string name="kg_failed_attempts_almost_at_login" product="default">"" အန္ေလာ့ခ္ပံုစံ ဆြဲရန္မမွန္ <xliff:g id="number">%1$d</xliff:g> အျကိမ္မ်ား. ျပီးေနာက္ <xliff:g id="number">%2$d</xliff:g> မေအာင္ျမင္သည့္ အားထုတ္မွဳမ်ား,အီးေမးလ္သံုးသည့္ ဖုန္း အန္ေလာ့ခ္ရန္ ေမးမည္္, \n\nထပ္ျကိဳးစားပါ <xliff:g id="number">%3$d</xliff:g> စကၠန္ ့မ်ား."</string>
+<string name="kg_text_message_separator" product="default">" \u2014 "</string>
+<string name="kg_reordering_delete_drop_target_text">ဖယ္ရွား</string>
+<string name="safe_media_volume_warning" product="default">"အၾကံျပဳထားသည့္ အဆင့္ထက္ ေက်ာ္လြန္ၿပီး အသံခ်ဲ႕မည္လား?\n\nအခ်ိန္ၾကာျမင့္စြာ အသံက်ယ္က်ယ္နားေထာင္ျခင္းသည္ သင့္အၾကားအာရံုကုိ ပ်က္စီးေစႏုိင္သည္။"</string>
+<string name="continue_to_enable_accessibility">"၀င္ေရာက္သံုးစြဲခြင့္အတြက္ စတင္လုပ္ေဆာင္ႏုိင္ရန္ လက္ေခ်ာင္းႏွစ္ေခ်ာင္းျဖင့္ ထိန္းခ်ဳပ္၍ ထိန္းသိမ္းထားပါ"</string>
+<string name="accessibility_enabled">"၀င္ေရာက္သံုးစြဲခြင့့္ကို စတင္လုပ္ေဆာင္သည္"</string>
+<string name="enable_accessibility_canceled">"၀င္ေရာက္သံုးစြဲခြင့့္ကို ပယ္ဖ်က္္သည္"</string>
+<string name="user_switched">"လက္တေလာ အသံုးျပဳသူ <xliff:g id="name" example="Bob">%1$s</xliff:g>."</string>
+<string name="user_switching_message">"<xliff:g id="name" example="Bob">%1$s</xliff:g>\u2026 ထံ ဖလွယ္ေနသည္"</string>
+<string name="user_logging_out_message">"ေလာ့ခ္ေအာက္ေန <xliff:g id="name" example="Bob">%1$s</xliff:g>..."</string>
+<string name="owner_name">"ပိုင္ရွင္"</string>
+<string name="error_message_title">"အမွား"</string>
+<string name="error_message_change_not_allowed">"သင့္စီမံခန္႕ခြဲသူမွ ဤေျပာင္းလဲမႈကုိ ခြင့္မျပဳပါ"</string>
+<string name="app_not_found">"ဤလုပ္ေဆာင္ခ်က္ကို ျပဳလုပ္ရန္ မည္သည့္ပ႐ိုဂရမ္မွ မေတြ႔႐ွိပ္"</string>
+<string name="revoke">"ပယ္ဖ်က္"</string>
+<string name="mediasize_chinese_om_pa_kai">"Pa Kai"</string>
+<string name="mediasize_chinese_om_dai_pa_kai">"Dai Pa Kai"</string>
+<string name="mediasize_chinese_om_jurro_ku_kai">"ဆယ့္ေျခာက္ျကိုး"</string>
+<string name="mediasize_unknown_portrait">"မသိသည့္ ပံုတူ"</string>
+<string name="mediasize_unknown_landscape">"မသိသည့္ ရွုခင္းပံု"</string>
+<string name="write_fail_reason_cancelled">"ပယ္ျပီး"</string>
+<string name="write_fail_reason_cannot_write">"အေျကာင္းအရာေရးစဥ္အမွား"</string>
+<string name="reason_unknown">"မသိ"</string>
+<string name="reason_service_unavailable">"ပရင့္၀န္ေဆာင္မႈ ဖြင့္မရပါ"</string>
+<string name="print_service_installed_title">"<xliff:g id="name" example="Cloud Print">%s</xliff:g> ၀န္ေဆာင္မႈထည့္သြင္းျပီး"</string>
+<string name="print_service_installed_message">"ဖြင့္ရန္ ေခါက္ပါ"</string>
+<string name="restr_pin_enter_admin_pin">"စီမံဌာန PIN ရိုက္ထည့္ပါ"</string>
+<string name="restr_pin_enter_pin">"PIN ကို ထည့္ပါ"</string>
+<string name="restr_pin_incorrect">"အမွား"</string>
+<string name="restr_pin_enter_old_pin">"လက္ရွိ PIN"</string>
+<string name="restr_pin_enter_new_pin">"PIN အသစ္"</string>
+<string name="restr_pin_confirm_pin">"PINအသစ္ကို အတည္ျပဳပါ"</string>
+<string name="restr_pin_create_pin">"ကန္႔သတ္ခ်က္မ်ား ျပုျပင္မြမ္းမံရန္ PIN တစ္ခုဖန္တီးပါ "</string>
+<string name="restr_pin_error_doesnt_match">"PINs ခ်ိတ္ဆက္၍မရပါ. ထပ္ျကိုးစားပါ."</string>
+<string name="restr_pin_error_too_short">"PIN အလြန္တို. အနည္းဆံုးဂဏန္း4လံုးရွိရမည္."</string>
+<plurals name="restr_pin_countdown">
+<item quantity="one">"ေနာက္ 1 စကၠန္႔တြင္ ထပ္မံၾကိဳးစားပါ"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> စကၠန္႔ၾကာလွ်င္ျပန္ၾကိဳးစားပါ"</item>
+</plurals>
+<string name="restr_pin_try_later">"ေနာက္မွ ထပ္ၾကိဳးစားပါ"</string>
+<string name="immersive_cling_title">"ဖန္သားျပင္အျပည့္ ျဖင့္ ျကည့္ရွဳေန"</string>
+<string name="immersive_cling_description">"ထြက္ရန္, အေပၚမွ ေအာက္သို ့ ပြတ္ဆြဲပါ."</string>
+<string name="immersive_cling_positive">"ရပါၿပီ"</string>
+<string name="done_label">"ျပီးပါျပီ"</string>
+<string name="hour_picker_description">"နာရီလက္တံဒိုင္ခြက္"</string>
+<string name="minute_picker_description">"မိနစ္လက္တံဒိုင္ခြက္"</string>
+<string name="select_hours">"နာရီခ်ိန္ေရြးပါ"</string>
+<string name="select_minutes">"မိနစ္ခ်ိန္ေရြးပါ"</string>
+<string name="select_day">"လနွင့္ရက္ေရြးခ်ယ္ပါ"</string>
+<string name="select_year">"ခုနွစ္ေရြးခ်ယ္ပါ"</string>
+<string name="deleted_key">"<xliff:g id="key" example="4">%1$s</xliff:g> ပယ္ဖ်က္ျပီး"</string>
+<string name="managed_profile_label_badge">"အလုပ္ <xliff:g id="label" example="Email">%1$s</xliff:g>"</string>
+<string name="lock_to_app_toast">"ဖန္သားျပင္ မတြယ္ကပ္ရန္, ထိပါ &amp; ေနာက္သို ဆုတ္ကိုင္ပါ."</string>
+<string name="lock_to_app_toast_locked">"ေအပီပီ ခ်ိတ္ျပီး: ဤစက္တြင္ မခ်ိတ္ရန္ ခြင့္မျပဳ."</string>
+<string name="lock_to_app_start">"ဖန္သားျပင္ကုိ တြဲၿပီးပါၿပီ"</string>
+<string name="lock_to_app_exit">"ဖန္သားျပင္ကုိ တြဲျခင္းမွ ျပန္ျဖဳတ္ထားသည္"</string>
+<string name="lock_to_app_unlock_pin">"တြဲထားသည္ကုိ မျဖဳတ္မီ PIN ကုိေမးပါ"</string>
+<string name="lock_to_app_unlock_pattern">"တြဲထားသည္ကုိ မျဖဳတ္မီ ေသာ့ဖြင့္ပံုစံကုိ ေမးပါ"</string>
+<string name="lock_to_app_unlock_password">"တြဲထားသည္ကုိ မျဖဳတ္မီ စကားဝွက္ကုိေမးပါ"</string>
+<string name="package_installed_device_owner">"သင့္ ထိန္းခ်ဳပ္သူ ျဖင့္ သြင္းျပီး"</string>
+<string name="package_updated_device_owner">"သင့္ ထိန္းခ်ဳပ္သူ ျဖင့္ အပ္ဒိတ္ျပီး"</string>
+<string name="package_deleted_device_owner">"သင့္ ထိန္းခ်ဳပ္သူ ျဖင့္ ပယ္ဖ်က္ျပီး"</string>
+<string name="battery_saver_description">"ဘက္ထရီသက္တမ္း တိုးျမွင့္ရန္, ဘက္ထရီ ေခၽြတာမွ သင့္စက္၏ လုပ္ငန္း ေလ်ာ့ခ်ျပီး တုန္ခါမႈ,တည္ေနရာ ၀န္ေဆာင္မႈမ်ား,နွင့္ ေနာက္ခံေဒတာ အမ်ားစုကို သတ္မွတ္မည္. အီးေမးလ္, မက္ေဆ့ခ်္ပို ့ရန္, နွင့္ sync အပ္ဒိတ္မရွိသည့္ တျခားေအပီပီ ကို အေျကာင္းျပန္မည္.\n\nစက္ ပါ၀ါအား သြင္းေနလွ်င္ ဘက္ထရီေခၽြတာ ေအာ္တို ပိတ္မည္."</string>
+<string name="data_saver_description">"ေဒတာသံုးစြဲမွဳ ေလ်ာ့ခ်ရန္, ေဒတာေခ်ြတာသူသည္ ေနာက္ခံမွ ပို ့ရန္ (သို ့) လက္ခံရန္ ေဒတာ မွ ေအပီပီတစ္ခ်ိဳ့ကို တားျမစ္မည္. ယခုသံုးသည့္ ေအပီပီသည္ ေဒတာ လက္ခံ နိုင္, နွဳန္းေနွးမည္. ဆိုလိုသည္မွာ, ဥပမာ, ဓါတ္ပံုမ်ားကို မနွိပ္မျခင္း  မေဖၚျပပါ."</string>
+<string name="data_saver_enable_title">"ေဒတာသိမ္းသူ ဖြင့္မလား?"</string>
+<string name="data_saver_enable_button">"ဖြင့္ပါ"</string>
+<plurals name="zen_mode_duration_minutes_summary">
+<item quantity="one">"တစ္မိနစ္အတြက္ (တိုင္ေအာင္ <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)"</item>
+<item quantity="other">"အတြက္ %1$d မိနစ္မ်ား (တိုင္ေအာင္ <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)"</item>
+</plurals>
+<plurals name="zen_mode_duration_minutes_summary_short">
+<item quantity="one">"1 မိနစ္ အတြက္ (တိုင္ေအာင္ <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)"</item>
+<item quantity="other">"အတြက္ %1$d မိနစ္ (တိုင္ေအာင္ <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)"</item>
+</plurals>
+<plurals name="zen_mode_duration_hours_summary">
+<item quantity="one">"တစ္နာရီ အတြက္ (တိုင္ေအာင္ <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)"</item>
+<item quantity="other">"အတြက္ %1$d နာရီမ်ား (တိုင္ေအာင္ <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)"</item>
+</plurals>
+<plurals name="zen_mode_duration_hours_summary_short">
+<item quantity="one">"1 နာရီ အတြက္(တိုင္ေအာင္ <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)"</item>
+<item quantity="other">"အတြက္ %1$d နာရီ (တိုင္ေအာင္ <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)"</item>
+</plurals>
+<plurals name="zen_mode_duration_minutes">
+<item quantity="one">"တစ္မိနစ္ၾကာ"</item>
+<item quantity="other">"%d မိနစ္ၾကာ"</item>
+</plurals>
+<plurals name="zen_mode_duration_minutes_short">
+<item quantity="one">"1 မိနစ္ အတြက္"</item>
+<item quantity="other">"အတြက္ %d မိနစ္"</item>
+</plurals>
+<plurals name="zen_mode_duration_hours">
+<item quantity="one">"တစ္နာရီၾကာ"</item>
+<item quantity="other">"%d နာရီၾကာ"</item>
+</plurals>
+<plurals name="zen_mode_duration_hours_short">
+<item quantity="one">"1 နာရီ အတြက္"</item>
+<item quantity="other">"အတြက္ %d နာရီ"</item>
+</plurals>
+<string name="zen_mode_until">"တိုင္ေအာင္<xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g>"</string>
+<string name="zen_mode_alarm">"တိုင္ေအာင္ <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g> (ေနာက္ထပ္အလန္း )"</string>
+<string name="zen_mode_forever">"ဤအရာကုိ သင္ပိတ္သည္အထိ"</string>
+<string name="zen_mode_forever_dnd">"ပိတ္ ခ်ိန္တိုင္ေအာင္ မေနွာင့္ယွက္ရ "</string>
+<string name="zen_mode_rule_name_combination">"<xliff:g id="first" example="Weeknights">%1$s</xliff:g> / <xliff:g id="rest" example="Meetings">%2$s</xliff:g>"</string>
+<string name="toolbar_collapse_description">"လက္ခံ"</string>
+<string name="zen_mode_feature_name">"မေႏွာက္ယွက္ပါႏွင့္"</string>
+<string name="zen_mode_downtime_feature_name">"ဖုန္းပိတ္ခ်ိန္"</string>
+<string name="zen_mode_default_weeknights_name">"အပတ္စဥ္ည"</string>
+<string name="zen_mode_default_weekends_name">"အားလပ္ရက္"</string>
+<string name="zen_mode_default_events_name">"အေရးျကီးသည့္ ျဖစ္ရပ္။"</string>
+<string name="muted_by">"<xliff:g id="third_party">%1$s</xliff:g> မွအသံပိတ္ထားသည္"</string>
+<string name="system_error_wipe_data">"သင့္စက္တြင္ အတြင္းျပႆနာရွိ, စက္ရံုေဒတာ ဆက္တင္ျပန္မလုပ္လွ်င္ မတည္ျငိမ္ပါ."</string>
+<string name="system_error_manufacturer">"သင့္စက္တြင္ အတြင္းျပႆနာရွိ. အေသးစိတ္အတြက္ သင့္ ထုတ္လုပ္သူထံ ဆက္သြယ္ပါ."</string>
+<string name="stk_cc_ussd_to_dial">"DIAL ေတာင္းဆိုရန္သို ့USSD ေတာင္းဆို မြမ္းမံျပီး."</string>
+<string name="stk_cc_ussd_to_ss">"SS ေတာင္းဆိုရန္ USSD ေတာင္းဆို မြမ္းမံျပီး."</string>
+<string name="stk_cc_ussd_to_ussd">"USSD အသစ္ ေတာင္းဆိုရန္ USSD ေတာင္းဆို မြမ္းမံျပီး."</string>
+<string name="stk_cc_ss_to_dial">"DIAL ေတာင္းဆိုရန္ SS ေတာင္းဆို မြမ္းမံျပီး."</string>
+<string name="stk_cc_ss_to_ussd">"USSD ေတာင္းဆိုရန္ SS ေတာင္းဆို မြမ္းမံျပီး."</string>
+<string name="stk_cc_ss_to_ss">"SS အသစ္ ေတာင္းဆိုရန္ SS ေတာင္းဆို မြမ္းမံျပီး."</string>
+<string name="notification_work_profile_content_description">"အလုပ္ ပရုိဖုိင္း"</string>
+<string name="expand_button_content_description">"ခ်ဲ ့ ခလုတ္"</string>
+<string name="expand_action_accessibility">"ခ်ံဲ ့ခ်ဲ ့ ခ်ဲ ့"</string>
+<string name="usb_midi_peripheral_name">"အန္းဒရြိဳက္ USB အရန္ အေပါက္"</string>
+<string name="usb_midi_peripheral_product_name">"USB အရန္ အေပါက္"</string>
+<string name="floating_toolbar_open_overflow_description">"ေနာက္ထပ္ ေရြးခ်ယ္စရာမ်ား"</string>
+<string name="floating_toolbar_close_overflow_description">"ကုန္လွ်င္ ပိတ္ပါ"</string>
+<string name="maximize_button_text">"အျကီးဆံုး"</string>
+<string name="close_button_text">"ပိတ္ပါ"</string>
+<string name="notification_messaging_title_template">"<xliff:g id="conversation_title" example="Tasty Treat Team">%1$s</xliff:g>: <xliff:g id="sender_name" example="Adrian Baker">%2$s</xliff:g>"</string>
+<plurals name="selected_count">
+<item quantity="one">"<xliff:g id="count" example="1">%1$d</xliff:g> ေရြးခ်ယ္ျပီး"</item>
+<item quantity="other">"<xliff:g id="count" example="3">%1$d</xliff:g> ေရြးခ်ယ္ျပီး"</item>
+</plurals>
+<string name="importance_from_user">"ဤသတိေပးခ်က္မ်ား၏ အေရးျကီးမွဳ ဆက္တင္လုပ္."</string>
+<string name="importance_from_person">"လူထုပါ၀င္ေသာေျကာင့္ ၄င္းသည္ အေရးျကီး."</string>
+<string name="user_creation_account_exists">"ခြင့္ျပဳ <xliff:g id="app" example="Gmail">%1$s</xliff:g> သံုးစြဲသူအသစ္ ဖန္တီးရန္ နွင့္ <xliff:g id="account" example="foobar@gmail.com">%2$s</xliff:g> ?"</string>
+<string name="user_creation_adding">"ခြင့္ျပဳ <xliff:g id="app" example="Gmail">%1$s</xliff:g> သံုးစြဲသူအသစ္ ဖန္တီးရန္ နွင့္ <xliff:g id="account" example="foobar">%2$s</xliff:g> (သံုးစြဲသူ ဤအေကာင့္ရွိေန) ?"</string>
+<string name="language_selection_title">"ဘာသာစကား တစ္ခု ထည့္ပါ"</string>
+<string name="country_selection_title">"ေဒသက္ နွစ္သက္"</string>
+<string name="search_language_hint">"ဘာသာစကား အမည္ ရိုက္ပါ"</string>
+<string name="language_picker_section_suggested">"ေထာက္ခံထား"</string>
+<string name="language_picker_section_all">"ဘာသာစကားမ်ား အားလံုး"</string>
+<string name="locale_search_menu">ရွာေဖြျခင္း</string>
+<string name="work_mode_off_title">"အလုပ္ မုတ္ OFF"</string>
+<string name="work_mode_off_message">"ေအပီပီမ်ား,ေနာက္ခံ ဆင္း,နွင့္ သက္ဆိုင္ရာ လကၡဏာမ်ားအပါအ၀င္ လုပ္ငန္း အတြက္ အလုပ္ ပရိုဖိုင္း ခြင့္ျပဳပါ."</string>
+<string name="work_mode_turn_on">"ဖြင့္ပါ"</string>
+<string name="new_sms_notification_title">"အသစ္ မက္ေဆ့ခ်္မ်ားရွိ"</string>
+<string name="new_sms_notification_content">"ျကည့္ရန္ SMS ေအပီပီ ဖြင့္ပါ"</string>
+<string name="user_encrypted_title">"လုပ္ငန္းတစ္ခ်ိဳ ့ကန္ ့သတ္ခံရ"</string>
+<string name="user_encrypted_message">"ကန္ ့မသတ္ရန္ နွိပ္ပါ"</string>
+<string name="user_encrypted_detail">"သံုးဆြဲသူ ေဒတာ ကန္ ့သတ္ထား""</string>
+<string name="profile_encrypted_detail">"အလုပ္ပရိုဖိုင္း ကန္ ့သတ္ထား"</string>
+<string name="profile_encrypted_message">"အလုပ္ ပရိုဖိုင္းအန္ေလာ့ခ္ရန္ နွိပ္ပါ"</string>
+<string name="usb_mtp_launch_notification_title">"သို ့ ခ်ိတ္ဆက္ထား <xliff:g id="product_name">%1$s</xliff:g>"</string>
+<string name="usb_mtp_launch_notification_description">"ဖိုင္မ်ား ျကည့္ရန္ နွိပ္ပါ"</string>
+<string name="pin_target">"PIN"</string>
+<string name="unpin_target">"ထိုးသြင္းမရ"</string>
+<string name="app_info">"အက္ပ္အခ်က္အလက္"</string>
+<string name="negative_duration">"\u2212<xliff:g id="time" example="1:14">%1$s</xliff:g>"</string>
+<string name="audit_safemode_notification">"ကန္ ့သတ္ခ်က္မ်ား မပါဘဲနွင့္ စက္သံုးရန္ စက္ရံု ဆက္တင္ျပန္လုပ္"</string>
+<string name="audit_safemode_notification_details">"ပိုနားလည္ရန္ ထိပါ."</string>
+<string name="suspended_widget_accessibility">"ပိတ္ထား <xliff:g id="label" example="Calendar">%1$s</xliff:g>"</string>
+<string name="network_unknown">"(အမည္မသိ)"</string>
+<string name="network_inhibit">"(တားျမစ္ထား)"</string>
+<string name="disable_touch_mode_title">"အိတ္ကပ္ ထိပါ-ပိတ္ပါ"</string>
+<string name="disable_touch_mode_hint">"ဖုန္း အေပၚ မဖံုးနိုင္"</string>
+<string name="exit_disable_touch_mode_hint">"ဤ မုတ္ ပိတ္ရန္ ခလုတ္မ်ား အသံျမွင့္ရန္ နွင့္ ပါ၀ါအား အတြက္ ဖိနိုင္"</string>
+</resources>

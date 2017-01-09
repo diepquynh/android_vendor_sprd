@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/path_bar"
+        android:layout_width="match_parent"
+        android:layout_height="24dip"
+        android:background="@drawable/folder_path_background"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:paddingLeft="55dip"
+        android:paddingRight="5dip"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/folder_path_text_color" />
+
+    <LinearLayout
+        android:id="@+id/file_explore_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableTop="@drawable/file_empty"
+            android:gravity="center"
+            android:paddingLeft="28dip"
+            android:paddingRight="28dip"
+            android:text="@string/empty_view_prompt"
+            android:textSize = "16sp"
+            android:textColor="@color/file_explore_empty_view_text_color"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/file_explore_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <!-- TODO:Future versions, under construction -->
+
+        <LinearLayout
+            android:id="@+id/parent_folder_view_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:background="@android:color/darker_gray"
+            android:visibility="gone" >
+
+            <ListView
+                android:id="@+id/parent_folder_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/file_list_view_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3" >
+
+            <ListView
+                android:id="@+id/detailed_file_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" 
+                android:divider="@drawable/listview_divider_sprd" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/file_explore_sorting_standby_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

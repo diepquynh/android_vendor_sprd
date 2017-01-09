@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1" >
+
+            <!-- pattern -->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bt_tx_pattern"
+                    android:textSize="18dip" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/bt_tx_pattern"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip" >
+                </Spinner>
+            </TableRow>
+
+            <!-- Channel -->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bt_tx_channel"
+                    android:textSize="18dip" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/bt_tx_channel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:digits="1234567890"
+                    android:hint="255 or 0~78"
+                    android:maxLength="3"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+
+            <!-- pac_type -->
+
+            <TableRow android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bt_tx_pac_type"
+                    android:textSize="18dip" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/bt_tx_pac_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip" >
+                </Spinner>
+            </TableRow>
+
+            <!-- pac_len -->
+
+            <TableRow android:layout_marginTop="10dip" >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bt_tx_pac_len"
+                    android:textSize="18dip" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_tx_pac_len_summary"
+                    android:textSize="10dip" >                   
+                </TextView>
+           </LinearLayout>
+                <EditText
+                    android:id="@+id/bt_tx_pac_len"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:digits="1234567890"
+                    android:maxLength="4"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+
+            <!-- power_type -->
+
+            <TableRow android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bt_tx_power_type"
+                    android:textSize="18dip" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/bt_tx_power_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip" >
+                </Spinner>
+            </TableRow>
+
+            <!-- power_value -->
+
+            <TableRow android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bt_tx_power_value"
+                    android:textSize="18dip" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/bt_tx_power_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:digits="1234567890"
+                    android:hint="0~33"
+                    android:maxLength="2"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+
+            <!-- pac_cnt -->
+
+            <TableRow android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bt_tx_pac_cnt"
+                    android:textSize="18dip" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/bt_tx_pac_cnt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:digits="1234567890"
+                    android:hint="0~65535"
+                    android:maxLength="5"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/bt_tx_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/bt_start"
+                android:textSize="18dip" >
+            </Button>
+
+            <Button
+                android:id="@+id/bt_tx_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/bt_stop"
+                android:textSize="18dip" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

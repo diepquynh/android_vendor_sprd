@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Wifi" >
+
+    <Preference
+        android:key="wifi_tx"
+        android:title="TX" >
+    </Preference>
+    <Preference
+        android:key="wifi_rx"
+        android:title="RX" >
+    </Preference>
+    <Preference
+        android:key="wifi_reg_wr"
+        android:title="REG_WR" >
+    </Preference>
+    
+   <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="true"
+        android:key="wifi_power_save_mode"
+        android:summaryOff="power save mode enabled"
+        android:summaryOn="power save mode disabled"
+        android:title="Disabled Power Save Mode" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+</PreferenceScreen>

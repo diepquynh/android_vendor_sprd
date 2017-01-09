@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/turn_channel_title"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@drawable/turn_textview_background"
+        android:text="@string/turn_textview"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/turn_channnel_edittext"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/turn_channel_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/turn_channel_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/turn_channnel_edittext"
+        android:layout_toRightOf="@id/turn_channnel_edittext"
+        android:text="@string/turn_channel_unit"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/turn_channel_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/turn_channel_title"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/turn_channel_unit"
+        android:text="@string/start" />
+
+    <TextView
+        android:id="@+id/nOperInd_textview"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/turn_channnel_edittext"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/nStereoInd_textview"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/turn_channel_button"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/nOperInd_textview" />
+
+    <TextView
+        android:id="@+id/nRssi_textview"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@id/nOperInd_textview"
+        android:layout_below="@id/nOperInd_textview"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/nFreqValue_textview"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@id/nStereoInd_textview"
+        android:layout_below="@id/nStereoInd_textview"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/nPwrIndicator_textview"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@id/nRssi_textview"
+        android:layout_below="@id/nRssi_textview"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/nFreqOffset_textview"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@id/nFreqValue_textview"
+        android:layout_below="@id/nFreqValue_textview"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/nPilotDet_textview"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@id/nPwrIndicator_textview"
+        android:layout_below="@id/nPwrIndicator_textview"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/nNoDacLpf_textview"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@id/nFreqOffset_textview"
+        android:layout_below="@id/nFreqOffset_textview"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/seek_all_channel_rssi_textview"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_below="@id/nNoDacLpf_textview"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/turn_textview_background"
+        android:text="@string/seek_all_channel_rssi"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/seek_all_channel_rssi_edittext"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/seek_all_channel_rssi_textview"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/seek_all_channel_rssi"
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/seek_all_channel_rssi_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/seek_all_channel_rssi_textview"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/seek_all_channel_rssi_edittext"
+        android:text="@string/start" />
+
+    <LinearLayout
+        android:id="@+id/seek_all_channel_rssi_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/seek_all_channel_rssi_button"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/seek_all_channel_list_background"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/seek_all_channel_rssi_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/seek_all_channel_list_divider"
+            android:dividerHeight="1px" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2010,2011 Thundersoft Corporation
+  All rights Reserved
+-->
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gallery_background_color"
+    >
+
+    <RelativeLayout
+        android:id="@+id/layout_top_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_topbar"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop = "true" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dip">
+            <TextView
+                android:id="@+id/nav_to_select_photos"
+                style="@style/UCamGalleryTopbarStyle"
+                android:paddingLeft="@dimen/gallery_top_nav_edge_path_padding_left"
+                android:text="@string/text_select_item"
+                android:textColor="@android:color/white"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/nav_to_album"
+                style="@style/UCamGalleryTopbarStyle"
+                android:drawableLeft="@drawable/gallery_bar_image_ablum"
+                android:paddingLeft="@dimen/gallery_top_nav_edge_path_padding_left"
+                android:textColor="@android:color/white"
+                android:text="@string/text_nav_to_album" />
+<!--                 android:maxWidth="@dimen/gallery_top_nav_album_path_max_width"
+                android:minWidth="@dimen/gallery_top_nav_album_path_min_width" -->
+            <ImageView
+                android:id="@+id/nav_to_gallery_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/photos_icon_arrow" />
+            <TextView
+                android:id="@+id/nav_to_gallery"
+                style="@style/UCamGalleryTopbarStyle"
+                android:drawableLeft="@drawable/gallery_ic_gallery"
+                android:paddingLeft="@dimen/gallery_top_nav_path_padding_left"
+                android:textColor="@android:color/white"
+                android:text="@string/text_nav_to_gallery" />
+<!--                 android:maxWidth="@dimen/gallery_top_nav_album_path_max_width"
+                android:minWidth="@dimen/gallery_top_nav_album_path_min_width" -->
+        </LinearLayout>
+        <RadioGroup
+            android:id="@+id/layout_gallery_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id = "@+id/gallery_gridview"
+                android:checked = "true"
+                style = "@style/UCam.RadioButton.GridView" />
+            <RadioButton
+                android:paddingRight = "5dip"
+                android:id="@+id/gallery_timeview"
+                style = "@style/UCam.RadioButton.TimeView"
+                />
+        </RadioGroup>
+    </RelativeLayout>
+    <view
+        android:id="@+id/grid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="5dip"
+        android:layout_below = "@id/layout_top_title"
+        android:layout_above = "@+id/layout_bottom_action_root"
+        class="com.ucamera.ugallery.GridViewSpecial"
+        android:focusable="true"
+         />
+
+    <RelativeLayout
+        android:id="@id/layout_bottom_action_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <include layout="@layout/bottom_control" />
+
+        <include layout="@layout/gallery_bottom_normal_control" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/no_images"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@+id/no_pictures_image"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@drawable/gallery_content_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_below="@id/no_pictures_image"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="5dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/text_image_empty"
+            android:textColor="@android:color/white"
+            android:textSize="18dip"
+            />
+    </RelativeLayout>
+</RelativeLayout>
+

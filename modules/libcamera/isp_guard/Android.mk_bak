@@ -1,0 +1,13 @@
+# [Vendor_18/40] 
+LOCAL_PATH:= $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES:= set_proc_priority.c
+LOCAL_MODULE := ispguard
+#LOCAL_SHARED_LIBRARIES:= libcutils libutils libtinyalsa
+LOCAL_SHARED_LIBRARIES := \
+	liblog
+LOCAL_MODULE_TAGS := optional
+
+include $(BUILD_EXECUTABLE)
+

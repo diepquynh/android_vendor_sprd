@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="96dip"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="96dip"
+        android:layout_height="96dip"
+        android:layout_gravity="center"
+        android:background="#d1d1d1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/fastdial_grid_background_ex" >
+    </ImageView>
+
+    <ImageView
+        android:layout_width="96dip"
+        android:layout_height="96dip"
+        android:layout_gravity="center"
+        android:alpha="0"
+        android:background="@drawable/fastdial_grid_item_bg_ex" />
+
+    <ImageView
+        android:id="@+id/img_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dip" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/img_lmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/contacts_cell_name"
+        android:layout_width="96dip"
+        android:layout_height="28dip"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/fastdial_name_background_ex"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+</FrameLayout>

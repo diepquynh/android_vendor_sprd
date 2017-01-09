@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingBottom="2dip"
+            android:paddingStart="8dip"
+            android:paddingTop="2dip" >
+
+            <TextView
+                android:id="@+id/Sms_log_phone_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingBottom="6dip"
+                android:paddingStart="5dip"
+                android:paddingTop="6dip"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/call_fire_wall_phone_name_text_color"
+                android:textSize="@dimen/call_fire_wall_phone_name_text_size" />
+
+            <TextView
+                android:id="@+id/Sms_log_contacts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingBottom="6dip"
+                android:paddingStart="5dip"
+                android:singleLine="true"
+                android:textColor="@color/call_fire_wall_date_text_color"
+                android:textSize="@dimen/call_fire_wall_date_text_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:paddingBottom="2dip"
+            android:paddingTop="2dip"
+            android:paddingEnd="8dip" >
+
+            <TextView
+                android:id="@+id/Sms_log_phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingBottom="6dip"
+                android:paddingEnd="5dip"
+                android:paddingTop="6dip"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/call_fire_wall_phone_name_text_color"
+                android:textSize="@dimen/call_fire_wall_phone_name_text_size" />
+
+            <TextView
+                android:id="@+id/Sms_log_date_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="6dip"
+                android:paddingEnd="5dip"
+                android:singleLine="true"
+                android:textColor="@color/call_fire_wall_date_text_color"
+                android:textSize="@dimen/call_fire_wall_date_text_color" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/Sms_log_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="10dip" >
+        </CheckBox>
+
+</LinearLayout>

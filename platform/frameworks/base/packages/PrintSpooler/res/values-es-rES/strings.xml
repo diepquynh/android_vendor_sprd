@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_label">"Cola de Impresión"</string>
+<string name="more_options_button">"Más opciones"</string>
+<string name="label_destination">"Destino"</string>
+<string name="label_copies">"Copias"</string>
+<string name="label_copies_summary">"Copias:"</string>
+<string name="label_paper_size">"Tamaño del papel"</string>
+<string name="label_paper_size_summary">"Tamaño del papel."</string>
+<string name="label_color">"Color"</string>
+<string name="label_duplex">"Dos caras"</string>
+<string name="label_orientation">"Orientación"</string>
+<string name="label_pages">"Páginas"</string>
+<string name="destination_default_text">"Seleccione una impresora"</string>
+<string name="template_all_pages">"Todo <xliff:g id="page_count" example="100">%1$s</xliff:g>"</string>
+<string name="template_page_range">"Rango de <xliff:g id="page_count" example="100">%1$s</xliff:g>"</string>
+<string name="pages_range_example">"Por ejemplo1&amp;#8212;5,8,11&amp;#8212;13"</string>
+<string name="print_preview">"Vista previa de impresión"</string>
+<string name="install_for_print_preview">"Instalar visor de PDF para la vista previa"</string>
+<string name="printing_app_crashed">"Aplicación de impresión dañada"</string>
+<string name="generating_print_job">"Generando trabajo de impresión"</string>
+<string name="save_as_pdf">"Guardar como PDF"</string>
+<string name="all_printers">"Todas las impresoras&amp;#8230;"</string>
+<string name="print_dialog">"Diálogo Imprimir"</string>
+<string name="current_page_template">"<xliff:g id="current_page">%1$d</xliff:g>/<xliff:g id="page_count">%2$d</xliff:g>"</string>
+<string name="page_description_template">"Página <xliff:g id="current_page" example="1">%1$d</xliff:g> de <xliff:g id="page_count" example="100">%2$d</xliff:g>"</string>
+<string name="summary_template">"Resumen, copias <xliff:g id="copies" example="1">%1$s</xliff:g>,paper size <xliff:g id="paper_size" example="A4">%2$s</xliff:g>"</string>
+<string name="expand_handle">"Controlador para expandir"</string>
+<string name="collapse_handle">"Controlador para contraer"</string>
+<string name="print_button">"Imprimir"</string>
+<string name="savetopdf_button">"Guardar como PDF"</string>
+<string name="print_options_expanded">"Opciones de impresión expandidas"</string>
+<string name="print_options_collapsed">"Opciones de impresión contraídas"</string>
+<string name="search">"Buscar"</string>
+<string name="all_printers_label">"Todas las impresoras"</string>
+<string name="add_print_service_label">"Agregar servicio"</string>
+<string name="print_search_box_shown_utterance">"Cuadro de búsqueda visible"</string>
+<string name="print_search_box_hidden_utterance">"Cuadro de búsqueda oculto"</string>
+<string name="print_add_printer">"Agregar impresora"</string>
+<string name="print_select_printer">"Seleccionar impresora"</string>
+<string name="print_forget_printer">"No recordar impresora"</string>
+<plurals name="print_search_result_count_utterance"></plurals>
+<string name="printer_extended_description_template">"<xliff:g id="print_service_label" example="Canon Print Service">%1$s</xliff:g> - <xliff:g id="printer_description" example="Printer under the stairs">%2$s</xliff:g>"</string>
+<string name="printer_info_desc">"Más información sobre esta impresora"</string>
+<string name="could_not_create_file">"No se pudo crear el archivo"</string>
+<string name="print_services_disabled_toast">"Algunos servicios de impresión están deshabilitados"</string>
+<string name="print_searching_for_printers">"Buscando impresoras"</string>
+<string name="print_no_print_services">"No hay servicios de impresión habilitados"</string>
+<string name="print_no_printers">"No se encontraron impresoras"</string>
+<string name="cannot_add_printer">"No se pueden agregar impresoras"</string>
+<string name="select_to_add_printers">"Seleccionar para agregar impresora"</string>
+<string name="enable_print_service">"Seleccionar para habilitar"</string>
+<string name="enabled_services_title">"Servicios habilitados"</string>
+<string name="recommended_services_title">"Servicios recomendados"</string>
+<string name="disabled_services_title">"Servicios deshabilitados"</string>
+<string name="all_services_title">"Todos los servicios"</string>
+<plurals name="print_services_recommendation_subtitle"></plurals>
+<string name="printing_notification_title_template">"Imprimiendo <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g>"</string>
+<string name="cancelling_notification_title_template">"Cancelando <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g>"</string>
+<string name="failed_notification_title_template">"Error de Impresora <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g>"</string>
+<string name="blocked_notification_title_template">"Impresora bloqueada <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g>"</string>
+<string name="cancel">"Cancelar"</string>
+<string name="restart">"Reiniciar"</string>
+<string name="no_connection_to_printer">"No hay conexión con la impresora."</string>
+<string name="reason_unknown">"Desconocido"</string>
+<string name="print_service_security_warning_title">"Utilizar <xliff:g id="service" example="My Print Service">%1$s</xliff:g>?"</string>
+<string name="print_service_security_warning_summary">"Su documento puede pasar a través de uno o más servidores en su camino a la impresora."</string>
+<string-array name="color_mode_labels">
+<item>"Negro &amp; Blanco"</item>
+<item>"Color"</item>
+</string-array>
+<string-array name="duplex_mode_labels">
+<item>"Ninguno"</item>
+<item>"Borde largo"</item>
+<item>"Borde corto"</item>
+</string-array>
+<string-array name="orientation_labels">
+<item>"Vertical"</item>
+<item>"Horizontal"</item>
+</string-array>
+<string name="print_write_error_message">"No se pudo escribir en el archivo."</string>
+<string name="print_error_default_message">"No funcionó. Vuelva a intentarlo."</string>
+<string name="print_error_retry">"Volver a procesar"</string>
+<string name="print_error_printer_unavailable">"Esta impresora no está disponible en este momento."</string>
+<string name="print_cannot_load_page">"No se puede mostrar la vista previa"</string>
+<string name="print_preparing_preview">"Preparando vista previa\u2026"</string>
+</resources>

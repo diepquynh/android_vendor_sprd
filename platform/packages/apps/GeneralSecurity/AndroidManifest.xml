@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sprd.generalsecurity"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:sharedUserId="android.uid.system"
+    coreApp="true"
+    android:installLocation="internalOnly" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Material.Settings"
+        android:resizeableActivity="false"
+        >
+        <activity
+            android:name="com.sprd.generalsecurity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor"
+            android:resizeableActivity="false"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.sprd.generalsecurity.network.DataFlowManagement"
+            android:label="@string/network_control"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="com.sprd.generalsecurity.network.dataflowmanagement" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.sprd.generalsecurity.network.DataFlowMainEntry"
+            android:label="@string/data_flow_management"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="com.sprd.generalsecurity.network.dataflowmainentry" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.sprd.generalsecurity.network.NetworkRankActivity"
+            android:label="@string/data_flow_rank"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="com.sprd.generalsecurity.network.networkrank" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.sprd.generalsecurity.network.LockPeriodFlowActivity"
+
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="com.sprd.generalsecurity.network.lockflow" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.sprd.generalsecurity.network.DataFlowSetting"
+            android:label="@string/data_flow_management"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="com.sprd.generalsecurity.network.dataflowsetting" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.sprd.generalsecurity.network.AlertActivity"
+            android:label="@string/data_flow_management"
+            android:screenOrientation="nosensor"
+            android:theme="@*android:style/Theme.Material.Settings.Dialog.BaseAlert">
+            <intent-filter>
+                <action android:name="com.sprd.generalsecurity.network.alert" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.sprd.generalsecurity.network.DataSettingDualSimActivity"
+            android:label="@string/data_flow_cycle"
+            android:screenOrientation="nosensor"
+            >
+            <intent-filter>
+                <action android:name="com.sprd.generalsecurity.network.datarestrictdualsim" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <provider android:authorities="com.sprd.generalsecurity.blockstateprovider"
+            android:name=".data.BlockStateProvider"
+            android:exported="true"/>
+    
+        <receiver android:name="com.sprd.generalsecurity.network.NetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.sprd.generalsecurity.network.DataFlowManagement$AppPackageListener">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".network.DataFlowService">
+            <intent-filter>
+                <action android:name="com.sprd.generalsecurity.dataflowservice"/>
+            </intent-filter>
+        </service>
+
+        <service android:name = "com.sprd.generalsecurity.network.ScreenStateService">
+            <intent-filter>
+                <action android:name="com.sprd.generalsecurity.network.screenService"/>
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.sprd.generalsecurity.memory.MemoryManagement"
+            android:label="@string/memory"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.sprd.generalsecurity.memory.MemoryManagement" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.sprd.generalsecurity.battery.BatteryManagement"
+            android:label="@string/battery"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.sprd.generalsecurity.battery.BatteryManagement" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sprd.generalsecurity.battery.PowerUsageDetail"
+            android:label="@string/battery"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.sprd.generalsecurity.battery.PowerUsageDetail" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sprd.generalsecurity.storage.StorageManagement"
+            android:label="@string/storage"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.sprd.generalsecurity.storage.StorageManagement" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.sprd.generalsecurity.storage.StorageDetailList"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.sprd.generalsecurity.storage.StorageDetailList" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".network.SimStateReceiver">
+        <intent-filter>
+        <action android:name="android.intent.action.SIM_STATE_CHANGED"></action>
+        </intent-filter>
+        </receiver>
+
+        <receiver android:name=".network.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- SPRD:Created for interval freeze frame display @{ -->
+<com.dream.camera.modules.intervalphoto.DreamFreezeFrameDisplayView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/preview_camera_freeze_frame_display"
+    android:clickable="true"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_gravity="center" android:background="#55ffffff"
+    android:visibility="gone"
+    android:orientation="vertical">
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dream_background_transluent">
+        <GridLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:rowCount="2"
+            android:columnCount="2" android:id="@+id/displayFrame"
+            android:layout_centerInParent="true">
+
+            <include layout="@layout/interval_freeze_imageview"
+                android:id="@+id/interval_freeze_image1"
+                android:visibility="invisible" />
+            <include layout="@layout/interval_freeze_imageview"
+                android:id="@+id/interval_freeze_image2"
+                android:visibility="invisible" />
+            <include layout="@layout/interval_freeze_imageview"
+                android:id="@+id/interval_freeze_image3"
+                android:visibility="invisible"/>
+            <include layout="@layout/interval_freeze_imageview"
+                android:id="@+id/interval_freeze_image4"
+                android:visibility="invisible" />
+
+        </GridLayout>
+
+        <LinearLayout android:id="@+id/control_freeze_frame_display"
+            android:layout_below="@id/displayFrame"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.android.camera.ui.RotateImageView
+                android:id="@+id/btn_feeze_frame_cancel"
+                android:layout_width="50dp" android:layout_height="75dp"
+                android:clickable="true" android:layout_marginBottom="10dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/ic_menu_cancel_holo_light" />
+
+            <LinearLayout android:layout_width="0dp"
+                android:layout_height="75dp" android:layout_weight="1" />
+
+            <com.android.camera.ui.RotateImageView
+                android:id="@+id/btn_freeze_frame_done"
+                android:layout_width="50dp" android:layout_height="75dp"
+                android:clickable="true" android:layout_marginBottom="10dp"
+                android:layout_marginRight="50dp"
+                android:src="@drawable/ic_menu_done_holo_light" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.dream.camera.modules.intervalphoto.DreamFreezeFrameDisplayView>

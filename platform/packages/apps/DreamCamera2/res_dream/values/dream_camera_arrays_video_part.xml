@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- switch item: 0: item type. switch/list : int 1: key. : string 2: 
+        store position : int 4: default value : boolean list item: 0: item type. 
+        switch/list : int 1: key. : string 2: store position : int 4: default value 
+        position : int 5: selected list array : string array 6: value array to show 
+        : string array 7: value array to set to camera : string array -->
+    <!-- ******************** start preference *** part setting ************************ -->
+    <!-- ===============================preference entry/entryValues -->
+    <!-- SPRD Bug:474696 Feature:Slow-Motion. -->
+    <string-array name="pref_video_slow_motion_without_close_entries" translatable="false">
+    </string-array>
+    <string-array name="pref_video_slow_motion_without_close_entry_values" translatable="false">
+    </string-array>
+
+    <!-- Time Lapse -->
+    <string-array name="pref_video_timelapse_without_close_entries" translatable="false">
+        <item>@string/pref_timelapse_entry_4</item>
+        <item>@string/pref_timelapse_entry_10</item>
+        <item>@string/pref_timelapse_entry_30</item>
+        <item>@string/pref_timelapse_entry_60</item>
+        <item>@string/pref_timelapse_entry_90</item>
+        <item>@string/pref_timelapse_entry_150</item>
+        <item>@string/pref_timelapse_entry_300</item>
+        <item>@string/pref_timelapse_entry_450</item>
+        <item>@string/pref_timelapse_entry_900</item>
+        <item>@string/pref_timelapse_entry_1800</item>
+    </string-array>
+
+    <string name="default_timelapse_without_close">120</string>
+
+    <string-array name="pref_video_timelapse_without_close_entry_values" translatable="false">
+        <item>120</item>
+        <item>333</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+    </string-array>
+    <string-array name="pref_video_encode_type_entry_values_only_h265">
+        <item>@string/pref_video_encode_type_entry_value_h265</item>
+    </string-array>
+    <string-array name="pref_video_encode_type_entries_only_h265" translatable="false">
+        <item>@string/pref_video_encode_type_entry_h265</item>
+    </string-array>
+    <!-- ===============================preference configuration item array -->
+    <!-- BACK camera VIDEO resolution -->
+    <integer-array name="pref_video_quality_back_key_array">
+        <item>@string/pref_video_quality_back_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/pref_video_quality_large</item>
+        <item>@array/pref_video_quality_entryvalues</item>
+        <item>@array/pref_video_quality_entries</item>
+    </integer-array>
+    <!-- FRONT camera VIDEO resolution -->
+    <integer-array name="pref_video_quality_front_key_array">
+        <item>@string/pref_video_quality_front_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/pref_video_quality_large</item>
+        <item>@array/pref_video_quality_entryvalues</item>
+        <item>@array/pref_video_quality_entries</item>
+    </integer-array>
+    <!-- video encode type -->
+    <integer-array name="pref_video_encode_type_array">
+        <item>@string/pref_video_encode_type</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/pref_video_encode_type_entry_value_h264</item>
+        <item>@array/pref_video_encode_type_entry_values</item>
+        <item>@array/pref_video_encode_type_entries</item>
+    </integer-array>
+    <integer-array name="pref_video_encode_h265_type_array">
+        <item>@string/pref_video_encode_type</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/pref_video_encode_type_entry_value_h265</item>
+        <item>@array/pref_video_encode_type_entry_values_only_h265</item>
+        <item>@array/pref_video_encode_type_entries_only_h265</item>
+    </integer-array>
+    <!-- video Composition lines -->
+    <integer-array name="pref_video_composition_line_key_array">
+        <item>@string/pref_video_composition_line_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/pref_camera_composition_line_key_entry_values_close</item>
+        <item>@array/pref_camera_composition_line_key_entry_values</item>
+        <item>@array/pref_camera_composition_line_key_entry</item>
+    </integer-array>
+    <integer-array name="pref_video_composition_line_without_box_key_array">
+        <item>@string/pref_video_composition_line_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/pref_camera_composition_line_key_entry_values_close</item>
+        <item>@array/pref_camera_composition_line_without_box_key_entry_values</item>
+        <item>@array/pref_camera_composition_line_without_box_key_entry</item>
+    </integer-array>
+    <!-- white balance -->
+    <integer-array name="pref_video_whitebalance_key_array">
+        <item>@string/pref_video_whitebalance_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/pref_camera_whitebalance_default</item>
+        <item>@array/pref_camera_whitebalance_entryvalues</item>
+        <item>@array/pref_camera_whitebalance_entries</item>
+    </integer-array>
+    <!-- antibanding dv -->
+    <integer-array name="pref_video_antibanding_key_array">
+        <item>@string/pref_video_antibanding_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/pref_camera_antibanding_entryvalue_50</item>
+        <item>@array/pref_camera_antibanding_entryvalues</item>
+        <item>@array/pref_camera_antibanding_entries</item>
+    </integer-array>
+    <!-- SPRD: Add color effect Bug 474727 -->
+    <integer-array name="pref_video_color_effect_key_array">
+        <item>@string/pref_video_color_effect_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/pref_camera_color_effect_entry_value_none</item>
+        <item>@array/pref_camera_color_effect_entryvalues</item>
+        <item>@array/pref_camera_color_effect_entries</item>
+    </integer-array>
+    <!-- video eois -->
+    <integer-array name="pref_eois_dv_back_key_array">
+        <item>@string/pref_eois_dv_back_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/preference_switch_item_default_value_false</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+    <!-- video eois -->
+    <integer-array name="pref_eois_dv_front_key_array">
+        <item>@string/pref_eois_dv_front_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/preference_switch_item_default_value_false</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+    <!-- time lapse -->
+    <integer-array name="pref_video_time_lapse_frame_interval_key_array">
+        <item>@string/pref_video_time_lapse_frame_interval_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/pref_timelapse_entry_value_default</item>
+        <item>@array/pref_video_timelapse_entry_values</item>
+        <item>@array/pref_video_timelapse_entries</item>
+    </integer-array>
+    <integer-array name="pref_video_time_lapse_frame_interval_with_close_key_array">
+        <item>@string/pref_video_time_lapse_frame_interval_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/default_timelapse_without_close</item>
+        <item>@array/pref_video_timelapse_without_close_entry_values</item>
+        <item>@array/pref_video_timelapse_without_close_entries</item>
+    </integer-array>
+    <!-- slow motion -->
+    <integer-array name="pref_video_slow_motion_key_array">
+        <item>@string/pref_video_slow_motion_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/pref_entry_value_one</item>
+        <item>@array/pref_video_slow_motion_entry_values</item>
+        <item>@array/pref_video_slow_motion_entries</item>
+    </integer-array>
+    <integer-array name="pref_video_slow_motion_without_close_key_array">
+        <item>@string/pref_video_slow_motion_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/pref_entry_value_two</item>
+        <item>@array/pref_video_slow_motion_without_close_entry_values</item>
+        <item>@array/pref_video_slow_motion_without_close_entries</item>
+    </integer-array>
+    <!-- gif -->
+    <integer-array name="pref_gif_mode_pic_size_key_array">
+        <item>@string/pref_gif_mode_pic_size_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/pref_gif_mode_pic_size_default</item>
+        <item>@array/pref_gif_mode_pic_size_entryvalues</item>
+        <item>@array/pref_gif_mode_pic_size_entries</item>
+    </integer-array>
+    <integer-array name="pref_gif_mode_pic_number_key_array">
+        <item>@string/pref_gif_mode_pic_number_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/pref_gif_mode_pic_num_default</item>
+        <item>@array/pref_gif_mode_pic_number_entryvalues</item>
+        <item>@array/pref_gif_mode_pic_number_entries</item>
+    </integer-array>
+    <!-- microphone switch -->
+    <integer-array name="pref_video_microphone_switch_key_array">
+        <item>@string/pref_camera_microphone_switch_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/preference_switch_item_default_value_true</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+    <!-- flash -->
+    <integer-array name="pref_video_flashmode_key_array">
+        <item>@string/pref_video_flashmode_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/pref_camera_video_flashmode_default</item>
+        <item>@array/pref_video_flashmode_entryvalues</item>
+        <item>@array/video_flash_descriptions</item>
+    </integer-array>
+    <!-- zoom -->
+    <integer-array name="pref_camera_zoom_enable_false_key_array">
+        <item>@string/pref_camera_zoom_enable_key</item>
+        <item>@integer/storage_position__category_bf_mode</item>
+        <item>@string/preference_switch_item_default_value_false</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+    <integer-array name="pref_camera_zoom_enable_true_key_array">
+        <item>@string/pref_camera_zoom_enable_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/preference_switch_item_default_value_true</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+    <!-- beauty entered -->
+    <integer-array name="pref_video_beauty_entered_key_array">
+        <item>@string/pref_video_beauty_entered_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/preference_switch_item_default_value_true</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+    <!-- ===============================preference configuration array -->
+    <!-- UI display config -->
+    <integer-array name="video_public_setting_display">
+        <item>@string/pref_video_quality_front_key</item>
+        <item>@string/pref_video_encode_type</item>
+        <item>@string/pref_video_composition_line_key</item>
+        <item>@string/pref_video_whitebalance_key</item>
+        <item>@string/pref_video_antibanding_key</item>
+        <item>@string/pref_video_color_effect_key</item>
+        <item>@string/pref_video_slow_motion_key</item>
+        <item>@string/pref_video_time_lapse_frame_interval_key</item>
+        <item>@string/pref_camera_microphone_switch_key</item>
+        <item>@string/pref_video_flashmode_key</item>
+    </integer-array>
+    <!-- back mode -->
+    <integer-array name="video_back_mode_auto_setting_display">
+        <item>@string/pref_video_quality_back_key</item>
+        <item>@string/pref_video_encode_type</item>
+        <item>@string/pref_video_composition_line_key</item>
+        <item>@string/pref_video_whitebalance_key</item>
+        <item>@string/pref_video_antibanding_key</item>
+        <item>@string/pref_video_color_effect_key</item>
+        <item>@string/pref_camera_microphone_switch_key</item>
+        <item>@string/pref_video_flashmode_key</item>
+        <item>@string/pref_eois_dv_back_key</item>
+    </integer-array>
+    <integer-array name="video_back_mode_time_lapse_setting_display">
+        <item>@string/pref_video_quality_back_key</item>
+        <item>@string/pref_video_encode_type</item>
+        <item>@string/pref_video_composition_line_key</item>
+        <item>@string/pref_video_whitebalance_key</item>
+        <item>@string/pref_video_antibanding_key</item>
+        <item>@string/pref_video_color_effect_key</item>
+        <item>@string/pref_video_time_lapse_frame_interval_key</item>
+        <item>@string/pref_video_flashmode_key</item>
+    </integer-array>
+    <integer-array name="video_back_mode_slow_motion_setting_display">
+        <item>@string/pref_video_quality_back_key</item>
+        <item>@string/pref_video_encode_type</item>
+        <item>@string/pref_video_composition_line_key</item>
+        <item>@string/pref_video_whitebalance_key</item>
+        <item>@string/pref_video_antibanding_key</item>
+        <item>@string/pref_video_color_effect_key</item>
+        <item>@string/pref_video_slow_motion_key</item>
+        <item>@string/pref_video_flashmode_key</item>
+    </integer-array>
+    <integer-array name="video_back_mode_piv_viv_setting_display">
+        <item>@string/pref_video_quality_back_key</item>
+    </integer-array>
+    <integer-array name="video_back_mode_gif_setting_display">
+        <item>@string/pref_gif_mode_pic_size_key</item>
+        <item>@string/pref_gif_mode_pic_number_key</item>
+        <item>@string/pref_video_flashmode_key</item>
+    </integer-array>
+    <!-- front mode -->
+    <integer-array name="video_front_mode_auto_setting_display">
+        <item>@string/pref_video_quality_front_key</item>
+        <item>@string/pref_video_encode_type</item>
+        <item>@string/pref_video_composition_line_key</item>
+        <item>@string/pref_video_whitebalance_key</item>
+        <item>@string/pref_video_antibanding_key</item>
+        <item>@string/pref_video_color_effect_key</item>
+        <item>@string/pref_camera_microphone_switch_key</item>
+        <item>@string/pref_eois_dv_front_key</item>
+    </integer-array>
+    <integer-array name="video_front_mode_pip_viv_setting_display">
+        <item>@string/pref_video_quality_back_key</item>
+    </integer-array>
+    <integer-array name="video_front_mode_gif_setting_display">
+        <item>@string/pref_gif_mode_pic_size_key</item>
+        <item>@string/pref_gif_mode_pic_number_key</item>
+    </integer-array>
+
+    <!-- data config -->
+     <integer-array name="video_back_mode_auto_setting">
+        <item>@array/pref_video_quality_back_key_array</item>
+        <item>@array/pref_video_encode_type_array</item>
+        <item>@array/pref_video_composition_line_without_box_key_array</item>
+        <item>@array/pref_video_whitebalance_key_array</item>
+        <item>@array/pref_video_antibanding_key_array</item>
+        <item>@array/pref_video_color_effect_key_array</item>
+        <item>@array/pref_video_microphone_switch_key_array</item>
+        <item>@array/pref_video_flashmode_key_array</item>
+        <item>@array/pref_eois_dv_back_key_array</item>
+        <item>@array/pref_camera_zoom_enable_true_key_array</item>
+    </integer-array>
+    <integer-array name="video_back_mode_time_lapse_setting">
+        <item>@array/pref_video_quality_back_key_array</item>
+        <item>@array/pref_video_encode_type_array</item>
+        <item>@array/pref_video_composition_line_key_array</item>
+        <item>@array/pref_video_whitebalance_key_array</item>
+        <item>@array/pref_video_antibanding_key_array</item>
+        <item>@array/pref_video_color_effect_key_array</item>
+        <item>@array/pref_video_time_lapse_frame_interval_with_close_key_array</item>
+        <item>@array/pref_video_flashmode_key_array</item>
+        <item>@array/pref_camera_zoom_enable_true_key_array</item>
+    </integer-array>
+    <integer-array name="video_back_mode_slowmotion_setting">
+        <item>@array/pref_video_quality_back_key_array</item>
+        <item>@array/pref_video_encode_type_array</item>
+        <item>@array/pref_video_composition_line_key_array</item>
+        <item>@array/pref_video_whitebalance_key_array</item>
+        <item>@array/pref_video_antibanding_key_array</item>
+        <item>@array/pref_video_color_effect_key_array</item>
+        <item>@array/pref_video_slow_motion_without_close_key_array</item>
+        <item>@array/pref_video_flashmode_key_array</item>
+        <item>@array/pref_camera_zoom_enable_false_key_array</item>
+    </integer-array>
+    <integer-array name="video_back_mode_gif_setting">
+        <item>@array/pref_gif_mode_pic_size_key_array</item>
+        <item>@array/pref_gif_mode_pic_number_key_array</item>
+        <item>@array/pref_video_flashmode_key_array</item>
+        <item>@array/pref_camera_zoom_enable_true_key_array</item>
+    </integer-array>
+    <integer-array name="video_front_mode_auto_setting">
+        <item>@array/pref_video_quality_front_key_array</item>
+        <item>@array/pref_video_encode_type_array</item>
+        <item>@array/pref_video_composition_line_without_box_key_array</item>
+        <item>@array/pref_video_whitebalance_key_array</item>
+        <item>@array/pref_video_antibanding_key_array</item>
+        <item>@array/pref_video_microphone_switch_key_array</item>
+        <item>@array/pref_video_color_effect_key_array</item>
+        <item>@array/pref_eois_dv_front_key_array</item>
+        <item>@array/pref_camera_zoom_enable_true_key_array</item>
+    </integer-array>
+    <integer-array name="video_front_mode_gif_setting">
+        <item>@array/pref_gif_mode_pic_size_key_array</item>
+        <item>@array/pref_gif_mode_pic_number_key_array</item>
+        <item>@array/pref_camera_zoom_enable_true_key_array</item>
+    </integer-array>
+
+    <integer-array name="video_back_mode_public_setting">
+        <item>@array/pref_video_quality_back_key_array</item>
+        <item>@array/pref_video_quality_front_key_array</item>
+        <item>@array/pref_video_encode_type_array</item>
+        <item>@array/pref_video_composition_line_key_array</item>
+        <item>@array/pref_video_whitebalance_key_array</item>
+        <item>@array/pref_video_antibanding_key_array</item>
+        <item>@array/pref_video_color_effect_key_array</item>
+        <item>@array/pref_video_time_lapse_frame_interval_key_array</item>
+        <item>@array/pref_video_slow_motion_key_array</item>
+        <item>@array/pref_gif_mode_pic_size_key_array</item>
+        <item>@array/pref_gif_mode_pic_number_key_array</item>
+        <item>@array/pref_video_microphone_switch_key_array</item>
+        <item>@array/pref_video_flashmode_key_array</item>
+        <item>@array/pref_eois_dv_back_key_array</item>
+    </integer-array>
+
+    <integer-array name="video_back_other_mutex_setting">
+        <item>@array/pref_eois_dv_back_key_array</item>
+        <item>@array/pref_video_beauty_entered_key_array</item>
+        <item>@array/pref_video_quality_back_key_array</item>
+    </integer-array>
+    <integer-array name="video_front_other_mutex_setting">
+    </integer-array>
+    <!-- ******************** end preference *** part setting ************************ -->
+
+</resources>

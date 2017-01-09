@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Perakam Bunyi"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Rakam mesej anda"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Mesej telah dirakam"</string>
+    <string name="review_message" msgid="201616012287839474">"Semak mesej"</string>
+    <string name="recording" msgid="4426791467211376099">"Merakam"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Rakaman dihentikan"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"Storan penuh"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"Panjang maksimum telah dicapai"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Lekap storan USB"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Masukkan kad SD"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> min tersedia"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> tersedia"</string>
+    <string name="accept" msgid="1888285552128743656">"Selesai"</string>
+    <string name="discard" msgid="761613433029406319">"Buang"</string>
+    <string name="button_ok" msgid="3004911343723076226">"OK"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Rakaman anda"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Rakaman audio"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Rakaman saya"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"Tidak dapat mengakses storan USB."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"Tidak dapat mengakses kad SD."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Ralat aplikasi dalaman."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"Tidak dapat menyimpan rakaman audio"</string>
+    <string name="recording_save">"Rakaman telah disimpan"</string>
+     <string name="recording_nosave">"Rakaman tidak disimpan"</string>
+     <string name="phone_message">"Tidak boleh hidupkan Perakam Bunyi semasa memanggil."</string>
+     <string name="min_and_time_available">"Kira-kira <xliff:g id="minutes">%d</xliff:g> min dan <xliff:g id="seconds">%d</xliff:g> saat tersedia"</string>
+     <string name="press_record">"Tekan rekod"</string>
+     <string name="save">Simpan</string>
+     <string name="select_file_type">"Pilih jenis fail rakaman"</string>
+     <string name="record_amr">"jenis amr(kualiti-rendah)"</string>
+     <string name="record_3gpp">"jenis 3gpp(kualiti-tinggi)"</string>
+     <string name="button_cancel">Batal</string>
+     <string name="path_save">"Laluan lalai disimpan"</string>
+     <string name="path_nosave">"Laluan lalai tidak disimpan"</string>
+     <string name="path_default">"Laluan semasa tidak tertulis atau tidak sah, ia adalah laluan untuk laluan storan dalaman"</string>
+     <string name="menu_set_save_path">"Set laluan simpan"</string>
+     <string name="back">"Kembali.."</string>
+     <string name="path_label">"Sila pilih laluan simpan"</string>
+     <string name="pause">Jeda</string>
+     <string name="storage_is_not_enough">"Simpanan tidak mencukupi"</string>
+     <string name="menu_recording_file_list">"Senarai fail rakaman"</string>
+     <string name="recording_list_empty">Senarai kosong</string>
+     <string name="menu_recording_list_select_all">Pilih Semua</string>
+     <string name="menu_recording_list_delete">Hapus</string>
+     <string name="menu_recording_list_deselect_all">"Nyahpilih"</string>
+     <string name="recording_file_delete_success">"Rakaman Dipadamkan"</string>
+     <string name="recording_file_database_failed">"Gagal untuk memadamkan fail pangkalan data"</string>
+     <string name="recording_file_delete_failed">"Gagal untuk memadamkan fail rakaman"</string>
+     <string name="confirm_del">"Adakah anda pasti untuk memadam fail ini?"</string>
+     <string name="button_delete">Hapus</string>
+     <string name="recording_file_delete_alert_title">Hapus</string>
+     <string name="recording_file_delete_alert_message">"Pasti untuk memadam %1$s ?"</string>
+     <string name="recording_file_list">"Senarai fail rakaman"</string>
+     <string name="less_than_one_second">"1 saat"</string>
+     <string name="is_scanning">"Pengimbas Media kini mengimbas, sila tunggu..."</string>
+     <string name="emptylist">senarai kosong</string>
+     <string name="choose_file">"Sila pilih rakaman yang anda mahu hapuskan!"</string>
+     <string name="error_path">"Laluan yang anda pilih tidak wujud, sila set semula!"</string>
+     <string name="path_miss">"Laluan yang disimpan tidak wujud atau tidak boleh diakses!"</string>
+     <string name="low_memory">"Memori telefon tidak mencukupi, Rakaman akan berhenti!"</string>
+     <string name="record_error">"Pengecualian rakaman berlaku!"</string>
+     <string name="play_error">"Pemain Muzik telah dinyahdaya, tidak dapat membuka！"</string>
+     <string name="dialog_title">"Sila pilih"</string>
+     <string name="dialog_message">"Simpan rakaman?"</string>
+     <string name="same_application_running">"Peranti rakaman digunakan oleh program lain, sila tutup program ini!"</string>
+     <string name="recording_time_short">Masa rakaman kurang daripada 1 saat, tidak disimpan</string>
+     <string name="file_path_button">"Laluan fail"</string>
+     <string name="file_name">"Nama fail："</string>
+     <string name="file_path">"Laluan fail："</string>
+     <string name="rename">Namakan semula</string>
+     <string name="rename_save">"Nama semula berjaya"</string>
+     <string name="rename_nosave">menamakan semula gagal</string>
+     <string name="filename_is_not_modified">"Nama fail tidak diubahsuai"</string>
+     <string name="duplicate_name">"nama fail pendua"</string>
+     <string name="soundpicker_label">Sila pilih fail rakaman</string>
+     <string name="error_sdcard_path">"kadsd tidak wujud. Penyimpanan laluan lalai ditukar kepada storan dalaman."</string>
+     <string name="input_length_overstep">"Input mencapai panjang max"</string>
+     <string name="filename_empty_error">"Nama fail tidak boleh kosong, menyimpan nama asal"</string>
+     <string name="please_choose_files">"sila pilih fail"</string>
+     <string name="selected_files_count">"telah dipilih secara<xliff:g id="COUNTS">%d</xliff:g>"</string>
+     <string name="use_default_path">"Laluan yang disimpan tidak wujud, gunakan laluan lalai"</string>
+     <string name="stroage_not_mounted">"Simpanan tidak Terpasang"</string>
+     <string name="special_char_exist">"Aksara Khas <xliff:g id="COUNTS">%s</xliff:g> tidak disokong"</string>
+     <string name="menu_select_more">Pilih Lagi</string>
+     <string name="menu_select_type">"Tetapkan jenis fail"</string>
+     <string name="path_miss_nosave">"Laluan yang disimpan tidak wujud, Rakaman tidak disimpan！"</string>
+     <string name="dialog_dismiss">"Ketepikan"</string>
+     <string name="error_permissions">"Apl ini tiada kebenaran kritikal yang diperlukan untuk berfungsi. Sila semak tetapan kebenaran anda."</string>
+
+    <string name="internal_sdcard">"Kad sd dalaman"</string>
+     <string name="external_sdcard">"Kad sd luaran"</string>
+    <string name="internal_storage">"Storan dalaman"</string>
+     <string name="external_storage">Storan luaran</string>
+     <string name="set_as_ring">"Tetapkan sebagai nada dering"</string>
+     <string name="read_file_path">"Semak laluan fail"</string>
+     <string name="operate_share">kongsi</string>
+     <string name="ringtone_title_sim1">"Nada dering Telefon SIM1"</string>
+     <string name="ringtone_title_sim2">"Nada dering Telefon SIM2""</string>
+     <string name="ringtone_menu_short">"Gunakan sebagai nada dering"</string>
+     <string name="please_insert_sim_card">"Sila masukkan sekurang-kurangnya kad SIM"</string>
+     <string name="ring_set_silent_vibrate">"Nada dering khusus tidak disokong dalam mod semasa"</string>
+     <string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" set sebagai nada dering telefon SIM1."</string>
+     <string name="ringtone_set_sim2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" set sebagai nada dering Telefon SIM2."</string>
+     <string name="ringtone_set">"\"<xliff:g id="NAME">%s</xliff:g>\" ditetapkan sebagai nada dering telefon."</string>
+     <string name="ring_set_fail">Maaf, lagu tidak boleh dimainkan. Sila pilih lagu lain sebagai nada dering</string>
+     <string name="tag_limit">"Jumlah tag telah mencecah maksimum"</string>
+     <string name="no_allow_play_calling">"Tidak dibenarkan untuk memainkan muzik semasa panggilan (radio/video)."</string>
+     <string name="playback_failed">"Pemain tidak menyokong fail audio jenis ini."</string>
+     <string name="tag">"Teg"</string>
+     <string name="previous_tag">"Tag terakhir"</string>
+     <string name="next_tag">"Tag seterusnya"</string>
+     <string name="recording_play">"Main rakaman"</string>
+     <string name="clip_duration_tip">"Edit kepanjangan"</string>
+     <string name="record_setting">"Tetapan Rakaman"</string>
+     <string name="file_type">Jenis Fail</string>
+     <string name="type_amr">"jenis amr"</string>
+     <string name="type_3gpp">"Jenis 3gpp"</string>
+     <string name="save_path">"Laluan disimpan"</string>
+     <string name="set_timer_recording">"Tetapkan pemasa rakaman"</string>
+     <string name="timer_recording_detail">"Mulakan rakaman di <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> untuk <xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">"Lihat butiran"</string>
+     <string name="file_size">"Saiz fail："</string>
+     <string name="file_date">"Tarikh fail："</string>
+     <string name="recording_start_time">"Masa rakaman bermula"</string>
+     <string name="recording_duration">"Tempoh jam rakaman"</string>
+     <string name="tuned_timer_recording">"Pemasa rakaman dihidupkan"</string>
+     <string name="miss_timer_recording">"Pemasa rakaman terlepas"</string>
+     <string name="miss_timer_time">"Masa: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>"jam"</item>
+        <item>"jam"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"Pemasa rakaman ditetapkan sebagai untuk kurang daripada 1 minit dari sekarang."</item>
+        <item>"Pemasa rakaman ditetapkan untuk <xliff:g id="HOURS">%1$s</xliff:g> dari sekarang."</item>
+        <item>"Pemasa rakaman ditetapkan untuk <xliff:g id="MINUTES">%2$s</xliff:g> dari sekarang."</item>
+        <item>"Pemasa rakaman ditetapkan untuk <xliff:g id="HOURS">%1$s</xliff:g> dan <xliff:g id="MINUTES">%2$s</xliff:g> dari sekarang."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">"1 jam"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> jam"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"1 minit"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> minit"</item>
+    </plurals>
+     <string name="start_record">"mulakan rakaman"</string>
+     <string name="resume_record">"teruskan rakaman"</string>
+     <string name="start_play">"mulakan bermain"</string>
+     <string name="resume_play">"teruskan bermain"</string>
+     <string name="reset_timer_recording">"Peranti rakaman sedang digunakan oleh program lain,sila tetapkan semula pemasa rakaman!"</string>
+     <string name="storage_not_enough">"Storan tidak mencukupi,gagal untuk memulakan pemasa rakaman!"</string>
+     <string name="phone_storage_not_enough">"Storan telefon tidak mencukupi!"</string>
+</resources>

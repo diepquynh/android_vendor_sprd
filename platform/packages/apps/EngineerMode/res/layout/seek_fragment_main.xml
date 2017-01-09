@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/seek_channel_textview"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@drawable/turn_textview_background"
+        android:text="@string/seek"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/min_channel"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seek_channel_textview"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/min_channel_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seek_channel_textview"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/min_channel"
+        android:text="@string/turn_channel_unit" />
+
+    <EditText
+        android:id="@+id/max_channel"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seek_channel_textview"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/min_channel"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/max_channel_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seek_channel_textview"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/max_channel"
+        android:text="@string/turn_channel_unit" />
+
+    <Button
+        android:id="@+id/seek"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seek_channel_textview"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/max_channel"
+        android:text="@string/start" />
+
+    <LinearLayout
+        android:id="@+id/seek_channel_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/min_channel"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/seek_all_channel_list_background"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/seek_channel_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/seek_all_channel_list_divider"
+            android:dividerHeight="1px" >
+        </ListView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/seek_all_channel_frequency_title"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_below="@id/seek_channel_linearlayout"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/turn_textview_background"
+        android:text="@string/seel_all_channel_frequency_title"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/seek_all_channel_frequency_edittext"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/seek_button"
+        android:layout_alignBottom="@+id/seek_button"
+        android:layout_marginLeft="10dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/seek_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seek_all_channel_frequency_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/seek_all_channel_frequency_edittext"
+        android:text="@string/start" />
+
+    <LinearLayout
+        android:id="@+id/seek_all_channel_frequency_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/seek_button"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/seek_all_channel_list_background"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/seek_all_channel_frequency_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/seek_all_channel_list_divider"
+            android:dividerHeight="1px" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

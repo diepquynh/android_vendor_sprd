@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true"
+          style="?android:attr/starStyle"
+    />
+    <item android:state_checked="false"
+          style="?android:attr/starStyle"
+          android:color="@color/dream_main_color"
+    />
+</selector>

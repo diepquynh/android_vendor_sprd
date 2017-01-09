@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"Faili Eksploorer"</string>
+<string name="action_settings">"Seaded"</string>
+<string name="title_section_overview">"Kiirvaade"</string>
+<string name="title_section_external">"Väline mäluruum"</string>
+<string name="title_section_internal">"Sisemälu"</string>
+<string-array name="select_dest">
+    <item name="title_phone">"Sisemälu"</item>
+    <item name="title_sdcard">"Väline mäluruum"</item>
+</string-array>
+<string name="title_section_all">"Kõik"</string>
+<string name="descrip_actionbar_logo">"ÜlaLevel"</string>
+<string name="descrip_actionbar_search">"Otsing"</string>
+<string name="descrip_actionbar_overflow">"Menüü"</string>
+<string name="quickscan_audio">"Heli"</string>
+<string name="quickscan_image">"Pildid"</string>
+<string name="quickscan_record">"Salvestused"</string>
+<string name="quickscan_video">"Video"</string>
+<string name="quickscan_doc">"Allalaadimised"</string>
+<string name="quickscan_apk">"Rakendused"</string>
+<string name="file_list_flodermsg">"Kuupäev:%1$s"</string>
+<string name="file_list_filemsg">"Kuupäev:%1$s\tSuurus:%2$s"</string>
+<string name="dialog_hint_title">"Laadin"</string>
+<string name="dialog_hint_msg">"Laen..."</string>
+<string name="menu_search">"Otsing"</string>
+<string name="menu_back_home">"Tagasi Koju"</string>
+<string name="menu_mkdir">"Uus kaust"</string>
+<string name="menu_newfile">"Uus fail"</string>
+<string name="menu_mkdir_succeed">"Kausta loomine %1$s õnnestus"</string>
+<string name="menu_mkdir_failed">"Kausta loomine nurjus %1$s"</string>
+<string name="menu_newfile_succeed">"Faili loomine %1$s õnnestus"</string>
+<string name="menu_newfile_failed">"Faili loomine nurjus %1$s"</string>
+<string name="menu_select_more">"Vali Rohkem"</string>
+<string name="menu_copy">"Kopeeri"</string>
+<string name="menu_cut">"Lõika"</string>
+<string name="menu_sort_type">"Sorteerimisalus"</string>
+<string name="menu_storage_status">"Mäluruum"</string>
+<string name="operate_delete">"Kustuta"</string>
+<string name="operate_clear">"Kustuta otseteed"</string>
+<string name="operate_delete_file_ask">"Kas oled kindel, et soovid kustutada %1$s？"</string>
+<string name="operate_delete_file_succeed">"Faili %1$s kustutamine õnnestus "</string>
+<string name="operate_delete_file_failed">"Faili %1$s kustutamine nurjus"</string>
+<string name="operate_viewdetails">"Omadused"</string>
+<string name="operate_viewdetails_date">"Kuupäev：%1$s"</string>
+<string name="operate_viewdetails_size">"Suurus：%1$s"</string>
+<string name="operate_viewdetails_type_folder">"Tüüp：Kaust"</string>
+<string name="operate_viewdetails_type_file">"Tüüp：Fail"</string>
+<string name="operate_folder_attribute">"Kaasa：%1$d Failid，%2$d Kaustad\nSuurus：%3$s"</string>
+<!-- SPRD 431903 update operate_rename -->
+<string name="operate_rename">"Nimeta ümber"</string>
+<string name="operate_rename_hint">"Palun sisesta uus kausta nimi"</string>
+<string name="operate_rename_succeed">"Ümbernimetamine õnnestus"</string>
+<string name="operate_rename_failed">"Faili %1$s ümbernimetamine nurjus"</string>
+<string name="operate_share">"Jaga"</string>
+<string name="msg_file_input_empty">"Faili nimi on tühi"</string>
+<string name="msg_file_input_repeat">"Nimi %1$s on juba olemas, palun sisesta teine nimi."</string>
+<string name="msg_folder_empty">"Kaust on tühi"</string>
+<string name="msg_invalid_intent">"Süsteem ei toeta seda failitüüpi"</string>
+<string name="msg_issure_clear">"Tühjenda see kaust?"</string>
+<string name="bluetooth">"Bluetooth"</string>
+<string name="copying">"Kopeerin,palun oota"</string>
+<string name="clipboard_empty">"Lõikelaud on tühi"</string>
+<string name="text_exit_file_explore_title">"Väljumine"</string>
+<string name="text_exit_file_explore_prompt">"Oled kindel, et soovid lahkuda?"</string>
+<string name="common_text_ok">"OK"</string>
+<string name="common_text_cancel">"Tühista"</string>
+<string name="common_text_paste">"Kleebi"</string>
+<string-array name="copyfileWarning">
+<item>"Asenda"</item>
+<item>"Salvesta mõlemad"</item>
+</string-array>
+<string-array name="copydirWarning">
+<item>"Liitumine"</item>
+<item>"Asenda"</item>
+<item>"Salvesta mõlemad"</item>
+</string-array>
+<string name="file_option">"Faili Valikud"</string>
+<string name="folder_option">"Kausta Valikud"</string>
+<string name="file_detail">"Üksikasjad"</string>
+<string name="caculating">"Suurus：Arvutan…"</string>
+<string name="copy_finish">"Kopeerimine lõpetatud"</string>
+<string name="now_copying">"Kopeerin , palun oota..."</string>
+<string name="delete_finish">"Toiming lõpetatud"</string>
+<string name="delete_fail">"Faili <xliff:g id="NAME">%s</xliff:g> kustutamine nurjus"</string>
+<string name="now_deleting">"Eemaldan, palun oota..."</string>
+<string name="cancel_copy">"Operatsioon katkestati"</string>
+<string name="exist">"Fail on olemas"</string>
+<string name="select_destination">"Vali asukohast"</string>
+<string name="empty_view_prompt">"Tühi kaust, võid hankida rohkem dokumente PC-st või internetist"</string>
+<string name="fragment_search_key_hint">"Sisesta võtmesõna mida soovid otsida"</string>
+<string name="fragment_search_location">"Otsi Asukohast:"</string>
+<string name="fragment_search_location_ex">"Otsi Asukohta"</string>
+<string name="fragment_search_type">"Faili Tüüp"</string>
+<string name="fragment_search_result">"Otsi tulemust"</string>
+<string name="fragment_search_searching">"Otsin…"</string>
+<string name="fragment_search_noresult">"Ei leidnud midagi"</string>
+<string name="common_text_other">"Muu"</string>
+<string name="common_text_search">"Otsing"</string>
+<string name="fragment_search_invalid_result">"Fail on aegunud, palun kontrolli."</string>
+<string name="overview_menu_multiselect">"Vali Rohkem"</string>
+<string name="overview_menu_install_all">"Installeeri kõik"</string>
+<string name="overview_menu_install">"Installi"</string>
+<string name="overview_menu_delete">"Kustuta"</string>
+<string name="sort_by_name">"Nime järgi"</string>
+<string name="sort_by_type">"Tüübi järgi"</string>
+<string name="sort_by_time_desc">"Aja jägi(kahanev)"</string>
+<string name="sort_by_time_asc">"Aja järgi(kasvav)"</string>
+<string name="sort_by_size_desc">"Nime järgi(kahanev)"</string>
+<string name="sort_by_size_asc">"Nime järgi(kasvav)"</string>
+<string-array name="sort_type">
+<item>"Nimi"</item>
+<item>"Tüüp"</item>
+<item>"Kuupäev"</item>
+<item>"Suurus"</item>
+</string-array>
+<string name="sort_by_asc">"Kasvav"</string>
+<string name="sort_by_desc">"Kahanev"</string>
+<string name="display_setting">"Kuvaseaded"</string>
+<string name="hide_file_display">"Näita peidetud faile"</string>
+<string name="display_hide_file">"Näita peidetud faile"</string>
+<string name="operate_viewdetails_path">"Faili teekond：%1$s"</string>
+<string name="operate_viewdetails_canread">"Saab lugeda：Jah"</string>
+<string name="operate_viewdetails_can_not_read">"Saab lugeda：Ei"</string>
+<string name="operate_viewdetails_can_not_write">"saab kirjutada: Ei"</string>
+<string name="operate_viewdetails_can_write">"Saab kirjutada：Jah"</string>
+<string name="operate_viewdetails_hide">"Peidetud fail：Jah"</string>
+<string name="operate_viewdetails_not_hide">"Peidetud fail：Ei"</string>
+<string name="select_text">"Vali fail"</string>
+<string name="select_all">"Vali kõik"</string>
+<string name="unselect_all">"Tühista kõik"</string>
+<string name="length_limited">"Nimi maksimaalse pikkusega"</string>
+<string name="cannot_copy_to_itself">"Ei saa kataloogi tema enda või selle alamkataloogi alla salvestada"</string>
+<string name="confirm_delete">"Oled kindel, et soovid kustutada?"</string>
+<string name="search_empty">"Sellel leheküljel puudub tekst . Palun kontrolli oma sisestust."</string>
+<string name="dialog_back">"Tagasi"</string>
+<string name="set_as">"Seadista kui"</string>
+<string name="invalid_char">"Faili nimi sisaldab mittelubatud tähemärke nagu %s"</string>
+<string name="invalid_char_of_filename">"<xliff:g id="SECTION">%s</xliff:g> failisüsteemi faili  nimi sisaldab mittelubatud tähemärki nagu <xliff:g id="INVALIDCHAR">%s</xliff:g>"</string>
+<string name="no_enough_sapce">"Pole piisavalt ruumi"</string>
+<string name="file_type_wrong">"Faili tüüp on vale"</string>
+<string name="failed_set_wallpaper">"Taustapildi määramine nurjus"</string>
+<string name="unsupport_type">"Ei toeta helina tüüpi"</string>
+<string name="now_moving">"Liigutan, palun oota..."</string>
+<string name="now_calculate">"Arvutan, palun oota..."</string>
+<string name="badname_as_point">"Nimeks ei tohiks olla  . või .., see võib segadusse minna sinu failisüsteemiga"</string>
+<string name="cut_filename_duplicate">"Faili või kausta praegusel asukohal on sama nimi, palun vali asukoht uuesti!"</string>
+<string name="share_file_limited">"Jagatud faili limiit on %1$d"</string>
+<string name="install_apk_limited">"apk installeerimise limiit on %1$d"</string>
+<string name="now_cleared">"Tühjendan，palun oota..."</string>
+<string name="not_replace">"Ei saa asendada sama kausta ülemkausta nime tõttu"</string>
+<string name="sdcard_had_unmounted">"Töösolev fail on ebasobiv"</string>
+<string name="common_text_ignore">"Ignoreeri"</string>
+<string name="cannot_copyfolder_itself">"Sa ei saa kausta iseenda alla salvestada"</string>
+<string name="cannot_cutfolder_itself">"Sa ei saa kausta iseenda alla liigutada"</string>
+<string name="cannot_paste_reason">"Sihtkaust on lähtekausta sees %s"</string>
+    <string name="badname_endwith_point">"Kausta nime lõpp ei saa olla koos ."</string>
+     <string name="failed_option">"Valik nurjus"</string>
+
+    <string name="failed_query">"Andmebaas ei saa saata päringut selle faili kohta"</string>
+    <string name="drm_consume_title">"Tarbi Drm Õigused"</string>
+    <string name="drm_consume_hint">"Sinu operatsioon tarbib Drm õigusi"</string>
+    <string name="drm_info">"Kaitse Informatsioon"</string>
+    <string name="drm_file_name">"Faili Nimi：%1$s"</string>
+    <string name="drm_rights_validity">"Õiguste kehtivus：kehtivad"</string>
+    <string name="drm_rights_invalidity">"Õiguste kehtivus：kehtetu"</string>
+    <string name="drm_rights_status_transfer">"Õiguste Staatus：lubatud transfeerimiseks"</string>
+    <string name="drm_rights_status_untransfer">"Õiguste Staatus：transfeer pole lubatud"</string>
+    <string name="drm_start_time">"Alguse Aeg：%1$s"</string>
+    <string name="drm_end_time">"Lõpu Aeg：%1$s"</string>
+    <string name="drm_expiration_time">"Aegumise Aeg：%1$s"</string>
+    <string name="drm_remain_times">"Allesjäänud Ajad：%1$s"</string>
+    <string name="drm_invalid_rights">"Sellel failil ei ole kehtivat litsentsi"</string>
+    <string name="drm_invalid_select">"Piirangutega faili ei valitud, palun vali teist tüüpi fail"</string>
+    <string name="drm_invalid_copy">"Piirangutega faili ei kopeeritud"</string>
+    <string name="drm_invalid_folder_copy">"Kaustad sisaldavad piirangutega faile, ei saa kustutada"</string>
+    <string name="drm_invalid_share">"Piirangutega faili ei jagatud"</string>
+    <string name="drm_unlimited_rights">"Piiranguteta"</string>
+    <string name="drm_inactive_rights">"Õigused inaktiivsed"</string>
+    <string name="drm_unknow_rights">"Teadmata"</string>
+    <string name="drm_time_unit">"s"</string>
+    <string name="drm_protect_viewdetails">"Kaitse informatsioon"</string>
+    <string name="drm_no_application_open">"Ei saa faili avada"</string>
+</resources>

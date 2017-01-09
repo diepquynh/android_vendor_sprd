@@ -1,0 +1,13 @@
+-keep class *
+
+#avoid resource shrink so that plugin can use them by R.XXX
+-keep class test.sprd.helloworld.R$*
+-keepclassmembers class **.R$* {
+        public static <fields>;
+}
+
+#avoid Constant and function shrink so that plugin can use the by import the class
+-keepclassmembers class test.sprd.helloworld.HelloWorldActivity$TestInterface {
+    public static <fields>;
+    public void testInterface();
+}

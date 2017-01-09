@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:phone="http://schemas.android.com/apk/res/com.android.phone"
+     android:title="@string/labelGSMMore">
+
+    <PreferenceScreen
+        android:key="sdn_list_key"
+        android:title="@string/sdn_list"
+        android:persistent="false">
+
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.callsettings"
+            android:targetClass="com.android.callsettings.lndsdn.LndOrSdnListActivity"/>
+
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="lnd_list_key"
+        android:title="@string/lnd_list"
+        android:persistent="false">
+
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.callsettings"
+            android:targetClass="com.android.callsettings.lndsdn.LndOrSdnListActivity"/>
+    </PreferenceScreen>
+</PreferenceScreen>

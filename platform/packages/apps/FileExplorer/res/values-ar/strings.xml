@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">"إدارة الملفات"</string>
+  <string name="action_settings">الإعدادات</string>
+  <string name="title_section_overview">"عرض سريع"</string>
+  <string name="title_section_external">"التخزين الخارجية"</string>
+  <string name="title_section_internal">"وحدة التخزين الداخلية"</string>
+  <string-array name="select_dest">
+      <item name="title_phone">"وحدة التخزين الداخلية"</item>
+      <item name="title_sdcard">"التخزين الخارجية"</item>
+  </string-array>
+  <string name="title_section_all">الكل</string>
+  <string name="descrip_actionbar_logo">"المستوى الأعلى"</string>
+  <string name="descrip_actionbar_search">بحث</string>
+  <string name="descrip_actionbar_overflow">القائمة</string>
+  <string name="quickscan_audio">صوتي</string>
+  <string name="quickscan_image">الصور</string>
+  <string name="quickscan_record">"تسجيلات"</string>
+  <string name="quickscan_video">فيديو</string>
+  <string name="quickscan_doc">"وثائق"</string>
+  <string name="quickscan_apk">التطبيقات</string>
+  <string name="file_list_flodermsg">"التاريخ:%1$s"</string>
+  <string name="file_list_filemsg">"التاريخ:%1$s\t الحجم:%2$s"</string>
+  <string name="dialog_hint_title">تحميل</string>
+  <string name="dialog_hint_msg">تحميل ...</string>
+  <string name="menu_search">بحث</string>
+  <string name="menu_back_home">"الرجوع للصفحة الرئيسية"</string>
+  <string name="menu_mkdir">مجلد جديد</string>
+  <string name="menu_newfile">"ملف جديد"</string>
+  <string name="menu_mkdir_succeed">"نجاح إنشاء المجلد  %1$s"</string>
+  <string name="menu_mkdir_failed">"فشل إنشاء المجلد%1$s"</string>
+  <string name="menu_newfile_succeed">"نجاح إنشاء الملف  %1$s"</string>
+  <string name="menu_newfile_failed">"فشل إنشاء الملف  %1$s"</string>
+  <string name="menu_select_more">"اختيار الوضع"</string>
+  <string name="menu_copy">نسخ</string>
+  <string name="menu_cut">قص</string>
+  <string name="menu_sort_type">فرز حسب</string>
+  <string name="menu_storage_status">التخزين</string>
+  <string name="operate_delete">حذف</string>
+  <string name="operate_clear">محو</string>
+  <string name="operate_delete_file_ask">"هل أنت متأكد من حذف %1$s؟"</string>
+  <string name="operate_delete_file_succeed">"تم حذف الملف %1$s بنجاح"</string>
+  <string name="operate_delete_file_failed">"فشل في حذف الملف٪ %1$s"</string>
+  <string name="operate_viewdetails">"الخصائص"</string>
+  <string name="operate_viewdetails_date">"التاريخ:%1$s"</string>
+  <string name="operate_viewdetails_size">"الحجم:%1$s"</string>
+  <string name="operate_viewdetails_type_folder">"النوع: مجلد"</string>
+  <string name="operate_viewdetails_type_file">"النوع: ملف"</string>
+  <string name="operate_folder_attribute">"يتضمن:ملفات %1$d، مجلدات %2$d \n حجم: %3$s"</string>
+  <string name="operate_rename">اعادة تسميه</string>
+  <string name="operate_rename_hint">"يرجى إدخال اسم جديد للمجلد"</string>
+  <string name="operate_rename_succeed">"تم التغيير بنجاح"</string>
+  <string name="operate_rename_failed">"فشل تغيير اسم الملف %1$s"</string>
+  <string name="msg_file_input_empty">"اسم الملف فارغ"</string>
+  <string name="msg_file_input_repeat">"الاسم %1$s موجود مسبقاً، يرجى إدخال اسم آخر."</string>
+  <string name="msg_folder_empty">"المجلد فارغ"</string>
+  <string name="msg_invalid_intent">"النظام لا يدعم هذا النوع من الملفات"</string>
+  <string name="msg_issure_clear">"مسح هذا المجلد الحالي؟"</string>
+  <string name="bluetooth">بلوتوث</string>
+  <string name="copying">"يتم النسخ، يرجى الانتظار..."</string>
+  <string name="clipboard_empty">"المذكرة فارغة"</string>
+  <string name="text_exit_file_explore_title">خروج</string>
+  <string name="text_exit_file_explore_prompt">"هل أنت متأكد أنك تريد الخروج؟"</string>
+  <string name="common_text_ok">موافق</string>
+  <string name="common_text_cancel">إلغاء</string>
+  <string name="common_text_paste">لصق</string>
+  <string name="file_option">"خيارات الملف"</string>
+  <string name="folder_option">"خيارات المجلد"</string>
+  <string name="file_detail">التفاصيل</string>
+  <string name="caculating">"الحجم: حساب..."</string>
+  <string name="copy_finish">"تم الانتهاء من العملية"</string>
+  <string name="now_copying">"يتم النسخ، يرجى الانتظار..."</string>
+  <string name="delete_finish">"تم الحذف"</string>
+  <string name="delete_fail">"فشل حذف الملف <xliff:g id="NAME">%s</xliff:g>"</string>
+  <string name="now_deleting">"يتم الحذف، يرجى الانتظار..."</string>
+  <string name="cancel_copy">"تم إلغاء العملية"</string>
+  <string name="exist">"تم خروج الملف"</string>
+  <string name="select_destination">"قم باختيار الموقع للخزن"</string>
+  <string name="empty_view_prompt">"مجلد فارغ، يمكنك الحصول على ملفات أكثر من خلال الكمبيوتر أو الانترنت"</string>
+  <string name="fragment_search_key_hint">"اطبع المفتاح الذي تريد بحثه"</string>
+  <string name="fragment_search_location">"موقع البحث"</string>
+  <string name="fragment_search_location_ex">"موقع البحث"</string>
+  <string name="fragment_search_type">"نوع الملف"</string>
+  <string name="fragment_search_result">"نتائج البحث"</string>
+  <string name="fragment_search_searching">"بحث"</string>
+  <string name="fragment_search_noresult">"لم يتم العثور على شيء"</string>
+  <string name="common_text_other">آخر</string>
+  <string name="common_text_search">بحث</string>
+  <string name="fragment_search_invalid_result">"هذا الملف قديم، يرجى التحقق."</string>
+  <string name="overview_menu_multiselect">"اختيار الوضع"</string>
+  <string name="overview_menu_sort">فرز</string>
+  <string name="overview_menu_install_all">"تثبيت الكل"</string>
+  <string name="overview_menu_install">تثبيت</string>
+  <string name="overview_menu_delete">حذف</string>
+  <string name="sort_by_name">حسب الاسم</string>
+  <string name="sort_by_type">"حسب نوع"</string>
+  <string name="sort_by_time_desc">"بواسطة الوقت (desc)"</string>
+  <string name="sort_by_time_asc">"بواسطة الوقت (ASC)"</string>
+  <string name="sort_by_size_desc">"بالاسم(desc)"</string>
+  <string name="sort_by_size_asc">"بالاسم(asc)"</string>
+  <string name="sort_by_asc">"ترتيب تصاعدي"</string>
+  <string name="sort_by_desc">"ترتيب تنازلي"</string>
+  <string name="display_setting">عرض الإعدادات</string>
+  <string name="hide_file_display">"إظهار الملفات المخفية"</string>
+  <string name="display_hide_file">"إظهار الملفات المخفية"</string>
+  <string name="operate_viewdetails_path">"مسار الملف: %1$s"</string>
+  <string name="operate_viewdetails_canread">"يمكن القراءة: نعم"</string>
+  <string name="operate_viewdetails_can_not_read">"يمكن القراءة: لا"</string>
+  <string name="operate_viewdetails_can_not_write">"يمكن الكتابة: لا"</string>
+  <string name="operate_viewdetails_can_write">"يمكن الكتابة: نعم"</string>
+  <string name="operate_viewdetails_hide">"هل هو ملف مخفي: نعم"</string>
+  <string name="operate_viewdetails_not_hide">"هل هو ملف مخفي: لا"</string>
+  <string name="select_text">"تحديد ملف"</string>
+  <string name="select_all">تحديد الكل</string>
+  <string name="unselect_all">إلغاء الكل</string>
+  <string name="length_limited">"وصل الاسم إلى أكبر طول"</string>
+  <string name="cannot_copy_to_itself">"غير قادر على نسخ الدليل إلى نفسه أو إلى دليله الفرعي"</string>
+  <string name="confirm_delete">"هل أنت متأكد من الحذف؟"</string>
+  <string name="search_empty">"ليس هناك نص في هذه الصفحة، يرجى التأكد من كتابتك."</string>
+  <string name="dialog_back">رجوع</string>
+  <string name="set_as">تعيين كـ</string>
+  <string name="invalid_char">"يحتوي اسم الملف على حرف غير صالح مثل %s"</string>
+  <string name="no_enough_sapce">"لا توجد مساحة كافية"</string>
+  <string name="file_type_wrong">"نوع الملف خاطئ"</string>
+  <string name="failed_set_wallpaper">"فشل تعيين الجدار الورقي"</string>
+  <string name="unsupport_type">"نوع نغمة غير مدعوم"</string>
+  <string name="now_moving">"يتم النقل، يرجى الانتظار..."</string>
+  <string name="badname_as_point">"لا ينبغي التسمية كا /,\\,. أو ..، والتي قد تربك ملف النظام الخاص بك"</string>
+  <string name="cut_filename_duplicate">"المسار الحالي للملف أو المجلد له نفس الاسم، يرجى إعادة تحديد الدليل!"</string>
+  <string name="share_file_limited">"أقصى حد للملف المشارك هو %1$d"</string>
+  <string name="install_apk_limited">"أقصى للتطبيقات الممكن تثبيتها هو %1$d"</string>
+    <string-array name="copyfileWarning">
+            <item>استبدال</item>
+            <item>محجوزة</item>
+    </string-array>
+    <string-array name="copydirWarning">
+        <item>"استبدال"</item>
+        <item>استبدل</item>
+        <item>"حفظ الكل"</item>
+    </string-array>
+     <string-array name="sort_type">
+        <item>"حسب الاسم"</item>
+        <item>حسب نوع الملف</item>
+        <item>"التاريخ  "</item>
+        <item>"الحجم"</item>
+    </string-array>
+     <string name="operate_share">"مشاركة"</string>
+     <string name="invalid_char_of_filename">"<xliff:g id="SECTION">%s</xliff:g> إسم الملف \ ملف النظام يحتوي على رمز مثل<xliff:g id="INVALIDCHAR">%s</xliff:g>"</string>
+     <string name="now_calculate">"جاري الحساب، من فضلك الإنتظار ..."</string>
+     <string name="now_cleared">"جاري المسح، من فضلك الإنتظار ..."</string>
+     <string name="not_replace">"لا يمكن إستبداله بسبب أنه بنفس الإسم أو من مجلد الأصلي"</string>
+     <string name="sdcard_had_unmounted">"الملف الذي بطور التشغيل غير صالح"</string>
+     <string name="common_text_ignore">"تجاهل"</string>
+     <string name="cannot_copyfolder_itself">"لا يمكنك أن تنسخ مجلد إلى نفسه"</string>
+     <string name="cannot_cutfolder_itself">"لا يمكنك أن تنقل مجلد إلى نفسه"</string>
+     <string name="cannot_paste_reason">"المجلد الذي في مكان الوصول هو بداخل مجلد المصدر %s"</string>
+
+    <string name="badname_endwith_point">"لا يمكن أن تكون نهاية المجلد مصحوبة مع."</string>
+     <string name="failed_option">"فشل الخيار"</string>
+
+    <string name="failed_query">"لا يمكن لقاعدة البيانات استعلام هذا الملف"</string>
+    <string name="drm_consume_title">"استهلاك حقوق Drm"</string>
+    <string name="drm_consume_hint">"إن عمليتك ستستهلك حقوق Drm"</string>
+    <string name="drm_info">"معلومات الحماية"</string>
+    <string name="drm_file_name">"اسم الملف: %1$s"</string>
+    <string name="drm_rights_validity">"التحقق من الحقوق: صالح"</string>
+    <string name="drm_rights_invalidity">"التحقق من الحقوق: غير صالح"</string>
+    <string name="drm_rights_status_transfer">"حالة الحقوق: السماح بالنقل"</string>
+    <string name="drm_rights_status_untransfer">"حالة الحقوق: غير مسموح بالنقل"</string>
+    <string name="drm_start_time">" وقت البداية:%1$s"</string>
+    <string name="drm_end_time">" وقت النهاية:%1$s"</string>
+    <string name="drm_expiration_time">" وقت انتهاء الصلاحية:%1$s"</string>
+    <string name="drm_remain_times">" الوقت المتبقي:%1$s"</string>
+    <string name="drm_invalid_rights">"ليس لدى هذا الملف صلاحية سارية المفعول"</string>
+    <string name="drm_invalid_select">"لا يمكن اختيار ملف مقيد، يرجى اختيار نوع آخر من الملفات"</string>
+    <string name="drm_invalid_copy">"لم يتم نسخ الملف المقيد"</string>
+    <string name="drm_invalid_folder_copy">"لا يمكن نسخ المجلدات التي تحوي على ملفات مقيدة"</string>
+    <string name="drm_invalid_share">"لا يتم مشاركة الملف المقيد"</string>
+    <string name="drm_unlimited_rights">"غير محدود"</string>
+    <string name="drm_inactive_rights">"الحقوق غير نشطة"</string>
+    <string name="drm_unknow_rights">"غير معروف"</string>
+    <string name="drm_time_unit">"ث"</string>
+    <string name="drm_protect_viewdetails">"معلومات الحماية"</string>
+    <string name="drm_no_application_open">"لا يمكن فتح الملف"</string>
+    <string name="msg_folder_input_empty">اسم المجلد فارغ</string>
+     <string name="search_type_empty">"يرجى تحديد نوع الملف."</string>
+     <string name="invalid_char_of_foldername">"اسم مجلد نظام ملفات "<xliff:g id="SECTION">%s</xliff:g> يحتوي على حروف غير صالحة مثل <xliff:g id="INVALIDCHAR">%s</xliff:g>""</string>
+     <string name="failed_select_event">"اختيار 500 عنصر فقط في هذه العملية."</string>
+     <string name="error_permissions">"لا يحتاج التطبيق إلى أذونات خطيرة لتشغيله، يرجى التحقق من إعدادات الأذونات."</string>
+     <string name="dialog_dismiss">"إزالة"</string>
+     <string name="toast_fileexplorer_internal_error">"حدث خطأ داخلي في مستكشف الملفات!"</string>
+    <string name="title_section_usbdisk">"قرص USB"</string>
+     <string name="error_choose_drm_for_gallery">"لا يمكن تعيين DRM لتشغيل الموسيقى، يرجى اختيار واحدا آخر"</string>
+
+</resources>

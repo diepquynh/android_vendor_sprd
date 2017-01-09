@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2013 Thundersoft Corporation
+    All rights Reserved
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/makeup_deblemish_hint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CC000000"
+    android:gravity="center_horizontal" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/makeup_deblemish_hint" />
+
+    <TextView
+        android:id="@+id/makeup_deblemish_hint_title"
+        android:layout_width="320dip"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/makeup_deblemish_hint_msg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dip"
+        android:gravity="center"
+        android:text="@string/makeup_deblemish_hint_title"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@id/makeup_deblemish_hint_msg"
+        android:layout_width="320dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="102dip"
+        android:gravity="center"
+        android:text="@string/makeup_deblemish_hint_msg"
+        android:textColor="#1d6699"
+        android:textSize="14sp" />
+
+</RelativeLayout>

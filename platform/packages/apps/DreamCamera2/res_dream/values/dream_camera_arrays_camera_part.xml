@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- switch item: 0: item type. switch/list : int 1: key. : string 2:
+        store position : int 4: default value : boolean list item: 0: item type.
+        switch/list : int 1: key. : string 2: store position : int 4: default value
+        position : int 5: selected list array : string array 6: value array to show
+        : string array 7: value array to set to camera : string array -->
+    <!-- ******************** start preference *** part setting ************************ -->
+    <!-- preference entry/entryValues -->
+    <!-- preference configuration item array -->
+    <!-- preference configuration array -->
+    <!-- ******************** end preference *** part setting ************************ -->
+
+
+    <!-- ******************** start preference camera part setting ************************ -->
+    <!-- ================================preference entry/entryValues -->
+    <!-- SPRD: volume function -->
+    <string-array name="pref_camera_volume_key_function_entries">
+        <item>@string/pref_camera_volume_key_function_entries_shutter
+        </item>
+        <item>@string/pref_camera_volume_key_function_entries_zoom
+        </item>
+        <item>@string/pref_camera_volume_key_function_entries_volume
+        </item>
+    </string-array>
+    <string-array name="pref_camera_volume_key_function_entryvalues">
+        <item>@string/pref_camera_volume_key_function_entries_value_shutter
+        </item>
+        <item>@string/pref_camera_volume_key_function_entries_value_zoom
+        </item>
+        <item>@string/pref_camera_volume_key_function_entries_value_volume
+        </item>
+    </string-array>
+    <string-array name="preference_camera_switch_entryvalues">
+        <item>@string/preference_switch_item_default_value_false</item>
+        <item>@string/preference_switch_item_default_value_true</item>
+    </string-array>
+    <string-array name="pref_camera_id_key_value_entryvalues">
+        <item>@string/pref_camera_id_key_value_back_0</item>
+        <item>@string/pref_camera_id_key_value_front_0</item>
+    </string-array>
+
+    <!-- ============================preference configuration item array -->
+    <integer-array name="pref_camera_storage_path_array">
+        <item>@string/pref_camera_storage_path</item>
+        <item>@integer/storage_position_camera</item>
+        <item>@string/storage_path_external_default</item>
+        <item>@array/pref_camera_storage_path_entryvalues</item>
+        <item>@array/pref_camera_storage_path_entries</item>
+    </integer-array>
+    <integer-array name="pref_camera_volume_key_function_array">
+        <item>@string/pref_camera_volume_key_function</item>
+        <item>@integer/storage_position_camera</item>
+        <item>@string/pref_camera_volume_key_function_entries_value_shutter
+        </item>
+        <item>@array/pref_camera_volume_key_function_entryvalues</item>
+        <item>@array/pref_camera_volume_key_function_entries</item>
+    </integer-array>
+    <integer-array name="pref_shutter_sound_key_array">
+        <item>@string/pref_shutter_sound_key</item>
+        <item>@integer/storage_position_camera</item>
+        <item>@string/preference_switch_item_default_value_true</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+    <integer-array name="pref_camera_recordlocation_key_array">
+        <item>@string/pref_camera_recordlocation_key</item>
+        <item>@integer/storage_position_camera</item>
+        <item>@string/preference_switch_item_default_value_true</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+    <integer-array name="pref_camera_id_key_array">
+        <item>@string/pref_camera_id_key</item>
+        <item>@integer/storage_position_camera</item>
+        <item>@string/pref_camera_id_key_value_back_0</item>
+        <item>@array/pref_camera_id_key_value_entryvalues</item>
+        <item>@array/pref_camera_id_key_value_entryvalues</item>
+    </integer-array>
+
+    <!-- quick capture -->
+    <integer-array name="pref_camera_quick_capture_key_array">
+        <item>@string/pref_camera_quick_capture_key</item>
+        <item>@integer/storage_position_camera</item>
+        <item>@string/pref_camera_quick_capture_entry_value_capture_with_back_camera</item>
+        <item>@array/pref_camera_quick_capture_entry_values</item>
+        <item>@array/pref_camera_quick_capture_entries</item>
+    </integer-array>
+
+    <!-- auto focus -->
+    <integer-array name="pref_camera_focusmode_key_array">
+        <item>@string/pref_camera_focusmode_key</item>
+        <item>@integer/storage_position_category_bf</item>
+        <item>@string/pref_camera_focusmode_default</item>
+        <item>@array/pref_camera_focusmode_entryvalues</item>
+        <item>@array/pref_camera_focusmode_entryvalues</item>
+    </integer-array>
+
+    <integer-array name="pref_camera_welcome_array">
+        <item>@string/pref_camera_welcome</item>
+        <item>@integer/storage_position_camera</item>
+        <item>@string/preference_switch_item_default_value_true</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+
+    <integer-array name="pref_camera_burst_hint_array">
+        <item>@string/pref_camera_burst_hint</item>
+        <item>@integer/storage_position_camera</item>
+        <item>@string/preference_switch_item_default_value_true</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+
+    <integer-array name="pref_camera_video_hint_array">
+        <item>@string/pref_camera_video_hint</item>
+        <item>@integer/storage_position_camera</item>
+        <item>@string/preference_switch_item_default_value_true</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+
+    <integer-array name="pref_camera_record_voice_hin_array">
+        <item>@string/pref_camera_record_voice_hint</item>
+        <item>@integer/storage_position_camera</item>
+        <item>@string/preference_switch_item_default_value_true</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+
+    <integer-array name="pref_camera_slowmotion_hint_array">
+        <item>@string/pref_camera_slowmotion_hint</item>
+        <item>@integer/storage_position_camera</item>
+        <item>@string/preference_switch_item_default_value_true</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+
+    <integer-array name="pref_camera_timelapse_hint_array">
+        <item>@string/pref_camera_timelapse_hint</item>
+        <item>@integer/storage_position_camera</item>
+        <item>@string/preference_switch_item_default_value_true</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+        <item>@array/preference_camera_switch_entryvalues</item>
+    </integer-array>
+
+    <!-- UI display config -->
+    <integer-array name="camera_public_setting_display">
+        <item>@string/pref_camera_storage_path</item>
+        <item>@string/pref_camera_volume_key_function</item>
+        <item>@string/pref_shutter_sound_key</item>
+        <item>@string/pref_camera_recordlocation_key</item>
+        <item>@string/pref_camera_quick_capture_key</item>
+    </integer-array>
+    <!-- data config -->
+
+    <!-- ============================preference configuration array -->
+    <integer-array name="camera_public_setting">
+        <item>@array/pref_camera_storage_path_array</item>
+        <item>@array/pref_camera_volume_key_function_array</item>
+        <item>@array/pref_shutter_sound_key_array</item>
+        <item>@array/pref_camera_recordlocation_key_array</item>
+        <item>@array/pref_camera_quick_capture_key_array</item>
+        <item>@array/pref_camera_id_key_array</item>
+        <item>@array/pref_camera_welcome_array</item>
+        <item>@array/pref_camera_burst_hint_array</item>
+        <item>@array/pref_camera_record_voice_hin_array</item>
+        <item>@array/pref_camera_slowmotion_hint_array</item>
+        <item>@array/pref_camera_timelapse_hint_array</item>
+        <item>@array/pref_camera_focusmode_key_array</item>
+        <item>@array/pref_camera_video_hint_array</item>
+    </integer-array>
+
+    <!-- ******************** end preference camera part setting ************************ -->
+
+</resources>

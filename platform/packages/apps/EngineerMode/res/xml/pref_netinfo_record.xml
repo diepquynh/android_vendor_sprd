@@ -1,0 +1,37 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Net Info Record" >
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="key_netinfostatistics_record"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="Netinfostatistics Record" />
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="key_server_cell_record"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="Server Cell Record" />
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="key_neighbour_cell_record"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="Neighbour Cell Record" />
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="key_adjacent_cell_record"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="Adjacent Cell Record" />
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="key_outfield_record"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="Outfield Record" />
+    <Preference
+        android:key="query_time"
+        android:title="Query Time Set">
+    </Preference>
+</PreferenceScreen>

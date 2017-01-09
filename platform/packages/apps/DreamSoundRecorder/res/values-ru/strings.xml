@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Диктофон"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Запишите сообщение"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Сообщение записано"</string>
+    <string name="review_message" msgid="201616012287839474">"Просмотреть сообщение"</string>
+    <string name="recording" msgid="4426791467211376099">"Запись"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Запись остановлена"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"Память заполнена"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"Достигнута максимальная длина"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Подключите USB-накопитель"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Вставьте SD-карту"</string>
+    <string name="min_available" msgid="5493947690062988925">"Осталось <xliff:g id="MINUTES">%d</xliff:g> мин."</string>
+    <string name="sec_available" msgid="2297020788861694399">"Осталось <xliff:g id="SECONDS">%d</xliff:g> сек."</string>
+    <string name="accept" msgid="1888285552128743656">"Готово"</string>
+    <string name="discard" msgid="761613433029406319">"Отменить"</string>
+    <string name="button_ok" msgid="3004911343723076226">"ОК"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Ваши записи"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Аудиозаписи"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Мои записи"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"Нет доступа к USB-накопителю."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"Нет доступа к SD-карте."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Внутренняя ошибка приложения."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"Не удалось сохранить аудиозапись."</string>
+    <string name="recording_save">"Запись сохранена"</string>
+     <string name="recording_nosave">"Запись не была сохранена"</string>
+     <string name="phone_message">"Невозможно активировать режим звукозаписи во время вызова"</string>
+     <string name="min_and_time_available">" через <xliff:g id="minutes">%d</xliff:g> min and <xliff:g id="seconds">%d</xliff:g> секунд будет доступно"</string>
+     <string name="press_record">"Нажмите "запись"</string>
+     <string name="save">"Сохранить"</string>
+     <string name="select_file_type">"Выберите тип записываемого файла"</string>
+     <string name="record_amr">""Тип AMR (низкое качество")"</string>
+     <string name="record_3gpp">""Тип 3GPP (высокое качество")"</string>
+     <string name="button_cancel">Отмена</string>
+     <string name="path_save">"Маршрут по умолчнию сохранен"</string>
+     <string name="path_nosave">"маршрут по умолчанию не сохранен"</string>
+     <string name="path_default">"маршрут не доступный для записи или недействителен и ведет к архиву встроенной памяти. </string>
+     <string name="menu_set_save_path">"Задайте путь сохранения"</string>
+     <string name="back">"Назад.."</string>
+     <string name="path_label">"Пожалуйста, выберите путь сохранения"</string>
+     <string name="pause">Пауза</string>
+     <string name="storage_is_not_enough">"На запоминающем устройстве недостаточно места"</string>
+     <string name="menu_recording_file_list">"Список аудио-файлов"</string>
+     <string name="recording_list_empty">"Пустой список"</string>
+     <string name="menu_recording_list_select_all">"Выбрать все"</string>
+     <string name="menu_recording_list_delete">"удалить"</string>
+     <string name="menu_recording_list_deselect_all">"Снять выбор"</string>
+     <string name="recording_file_delete_success">"Запись удалена"</string>
+     <string name="recording_file_database_failed">"Не удалось удалить файл базы данных"</string>
+     <string name="recording_file_delete_failed">"Не удалось удалить записываемый файла"</string>
+     <string name="confirm_del">"Уверены, что хотите удалить данные файлы?"</string>
+     <string name="button_delete">"удалить"</string>
+     <string name="recording_file_delete_alert_title">"удалить"</string>
+     <string name="recording_file_delete_alert_message">"Уверены, что хотите удалить %1$s ?"</string>
+     <string name="recording_file_list">"Список аудио-файлов"</string>
+     <string name="less_than_one_second">"1 секунда"</string>
+     <string name="is_scanning">"идет процесс сканирования. Пожалуйста, подождите"</string>
+     <string name="emptylist">"Список пуст"</string>
+     <string name="choose_file">"Пожалуйста, выберите запись, которую вы хотите удалить!"</string>
+     <string name="error_path">"Выбранный вами путь не существует, пожалуйста, задайте другой путь!"</string>
+     <string name="path_miss">"путь не существует или недоступен"</string>
+     <string name="low_memory">"Недостаточно памяти на телефоне. Запись будет прекращена"</string>
+     <string name="record_error">"Произошла ошибка записи!"</string>
+     <string name="play_error">"невозможно запустить плеер. Файл  поврежден"</string>
+     <string name="dialog_title">Пожалуйста, выберите</string>
+     <string name="dialog_message">"Сохранить запись?"</string>
+     <string name="same_application_running">"Записывающее устройство используется другой программой, пожалуйста, закройте эту программу!"</string>
+     <string name="recording_time_short">Время записи менее 1 секунды, не сохранено</string>
+     <string name="file_path_button">"Путь файла"</string>
+     <string name="file_name">"Имя файла："</string>
+     <string name="file_path">"Путь файла："</string>
+     <string name="rename">"Переименовать"</string>
+     <string name="rename_save">"Переименовано"</string>
+     <string name="rename_nosave">Не удалось переименовать</string>
+     <string name="filename_is_not_modified">"Имя файла не было изменено"</string>
+     <string name="duplicate_name">"Данное имя файла уже существует"</string>
+     <string name="soundpicker_label">Пожалуйста, выберите файл записи</string>
+     <string name="error_sdcard_path">"SD-карта не существует. По умолчанию путь сохранения будет изменен на внутреннее запоминающее устройство"</string>
+     <string name="input_length_overstep">"Достигнут максимальный предел ввода данных"</string>
+     <string name="filename_empty_error">"Имя файла не может быть пустым , сохраните исходное наименование"</string>
+     <string name="please_choose_files">"Пожалуйста, выберите файлы"</string>
+     <string name="selected_files_count">"выбрано<xliff:g id="COUNTS">%d</xliff:g>"</string>
+     <string name="use_default_path">"Сохраненный маршрут не существует, используйте маршрут по умолчанию"</string>
+     <string name="stroage_not_mounted">"Запоминающее устройство не установлено"</string>
+     <string name="special_char_exist">"специальные символы<xliff:g id="COUNTS">%s</xliff:g>не поддерживаются"  </string>
+     <string name="menu_select_more">Выбрать еще</string>
+     <string name="menu_select_type">"Выбрать тип файла"</string>
+     <string name="path_miss_nosave">"указанный путь не существует, запись не была сохранена"</string>
+     <string name="dialog_dismiss">"Выключить"</string>
+     <string name="error_permissions">"Для запуска приложения требуются определенные разрешения. Предоставьте их в настройках."</string>
+
+    <string name="internal_sdcard">"Внутренняя SD-карта"</string>
+     <string name="external_sdcard">"Внешняя SD-карта"</string>
+    <string name="internal_storage">"Внутренняя память"</string>
+     <string name="external_storage">внешнее хранилище</string>
+     <string name="set_as_ring">"Установить в качестве мелодии звонка"</string>
+     <string name="read_file_path">"Проверить путь файла"</string>
+     <string name="operate_share">"Отправить"</string>
+     <string name="ringtone_title_sim1">"Мелодия вызова для карты SIM1"</string>
+     <string name="ringtone_title_sim2">"Мелодия звонка SIM2" "</string>
+     <string name="ringtone_menu_short">"Поставить на звонок"</string>
+     <string name="please_insert_sim_card">"Пожалуйста, установите SIM-карту"</string>
+     <string name="ring_set_silent_vibrate">"Стандартные рингтоны не поддерживаются в текущем режиме."</string>
+     <string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" установить в качестве мелодии вызова для карты SIM1"</string>
+     <string name="ringtone_set_sim2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" установить в качестве мелодии вызова для карты SIM2"</string>
+     <string name="ringtone_set">"Трек \"<xliff:g id="NAME">%s</xliff:g>\" поставлен на звонок."</string>
+     <string name="ring_set_fail">К сожалению, песня не может быть воспроизведена. Пожалуйста, выберите другую песню в качестве рингтона</string>
+     <string name="tag_limit">"Количество закладок достигло максимума"</string>
+     <string name="no_allow_play_calling">"Нельзя проигрывать музыку во время звонка (радио/видео)."</string>
+     <string name="playback_failed">"Плеер не поддерживает этот тип звукового файла."</string>
+     <string name="tag">"Тег"</string>
+     <string name="previous_tag">"Последняя закладка"</string>
+     <string name="next_tag">"Следующая закладка"</string>
+     <string name="recording_play">"Воспроизведение записи"</string>
+     <string name="clip_duration_tip">"Изменить продолжительность"</string>
+     <string name="record_setting">"Настройки записи"</string>
+     <string name="file_type">Тип файла</string>
+     <string name="type_amr">"тип amr"</string>
+     <string name="type_3gpp">"тип 3gpp"</string>
+     <string name="save_path">"Сохраненный путь"</string>
+     <string name="set_timer_recording">"Установить таймер записи"</string>
+     <string name="timer_recording_detail">"Начать запись в <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> для <xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">"Подробности"</string>
+     <string name="file_size">"Размер файла:"</string>
+     <string name="file_date">"Дата файла:"</string>
+     <string name="recording_start_time">"Время начала записи"</string>
+     <string name="recording_duration">"Длительность записи по времени"</string>
+     <string name="tuned_timer_recording">"Запись по таймеру включена"</string>
+     <string name="miss_timer_recording">"Пропущенная по таймеру запись"</string>
+     <string name="miss_timer_time">"Время: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>"Час"</item>
+        <item>"Часов"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"Начало записи по таймеру менее чем за 1 минуту с этого момента."</item>
+        <item>"Запись по таймеру установлена на <xliff:g id="HOURS">%1$s</xliff:g> с этого момента."</item>
+        <item>"Запись по таймеру установлена на <xliff:g id="MINUTES">%2$s</xliff:g> с этого момента."</item>
+        <item>"Запись по таймеру установлена на <xliff:g id="HOURS">%1$s</xliff:g> для <xliff:g id="MINUTES">%2$s</xliff:g> с этого момента."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">"1 час"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> часов"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"1 мин"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> минут"</item>
+    </plurals>
+     <string name="start_record">"начать запись"</string>
+     <string name="resume_record">"возобновить запись"</string>
+     <string name="start_play">"начать воспроизведение"</string>
+     <string name="resume_play">"возобновить воспроизведение"</string>
+     <string name="reset_timer_recording">"Записывающее устройство используется другой программой, пожалуйста, установите таймер записи заново!"</string>
+     <string name="storage_not_enough">"Недостаточно памяти, не удалось запустить запись по таймеру!"</string>
+     <string name="phone_storage_not_enough">"Недостаточно памяти на телефоне!"</string>
+</resources>

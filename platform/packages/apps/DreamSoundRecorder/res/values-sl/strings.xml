@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Snemalnik zvoka"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Snemanje sporočila"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Sporočilo je bilo posneto"</string>
+    <string name="review_message" msgid="201616012287839474">"Mnenje o sporočilu"</string>
+    <string name="recording" msgid="4426791467211376099">"Snemanje"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Snemanje prekinjeno"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"Shramba je polna"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"Dosežena je največja dolžina"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Vpnite pomnilnik USB"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Vstavite kartico SD"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> min na voljo"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> s na voljo"</string>
+    <string name="accept" msgid="1888285552128743656">"Končano"</string>
+    <string name="discard" msgid="761613433029406319">"Zavrzi"</string>
+    <string name="button_ok" msgid="3004911343723076226">"V redu"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Vaši posnetki"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Zvočni posnetki"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Moji posnetki"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"Ni dostopa do pomnilnika USB."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"Ni dostopa do kartice SD."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Notranja napaka v aplikaciji."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"Posnetega zvoka ni mogoče shraniti."</string>
+    <string name="recording_save">"Posnetek je bil shranjen"</string>
+     <string name="recording_nosave">"Posnetek ni bil shranjen"</string>
+     <string name="phone_message">"Med klicanjem snemalnika zvoka ni možno vklopiti."</string>
+     <string name="min_and_time_available">"O <xliff:g id="minutes">%d</xliff:g> najmanjše in <xliff:g id="seconds">%d</xliff:g> razpoložljive sekunde"</string>
+     <string name="press_record">"Pritisnite snemanje"</string>
+     <string name="save">Shrani </string>
+     <string name="select_file_type">"Izberite tip snemalne datoteke"</string>
+     <string name="record_amr">"vrsta amr (nizka kakovost)"</string>
+     <string name="record_3gpp">"vrsta 3gpp (visoka kakovost)"</string>
+     <string name="button_cancel">Prekini</string>
+     <string name="path_save">"Privzeta pot shranjena"</string>
+     <string name="path_nosave">"Privzeta pot ni shranjena"</string>
+     <string name="path_default">"Trenutna pot ni zapisljiva ali je neveljavna, je pot za notranji pomnilnik"</string>
+     <string name="menu_set_save_path">"Nastavi pot za shranjevanje"</string>
+     <string name="back">"Nazaj..."</string>
+     <string name="path_label">"Izberite pot za shranjevanje"</string>
+     <string name="pause">"Premor"</string>
+     <string name="storage_is_not_enough">"Pomnilnik je premajhen"</string>
+     <string name="menu_recording_file_list">"Seznam posnetkov"</string>
+     <string name="recording_list_empty">"Počisti seznam"</string>
+     <string name="menu_recording_list_select_all">Izberi vse</string>
+     <string name="menu_recording_list_delete">Zbriši</string>
+     <string name="menu_recording_list_deselect_all">"Razveljavi izbiro"</string>
+     <string name="recording_file_delete_success">"Posnetek zbrisan"</string>
+     <string name="recording_file_database_failed">"Podatkovna datoteka ni bila zbrisana"</string>
+     <string name="recording_file_delete_failed">"Posnetka ni bilo mogoče zbrisati"</string>
+     <string name="confirm_del">"Ali ste prepričani, da želite brisati datoteke?"</string>
+     <string name="button_delete">Zbriši</string>
+     <string name="recording_file_delete_alert_title">Zbriši</string>
+     <string name="recording_file_delete_alert_message">"Ste prepričani, da hočete zbrisati %1$s ?"</string>
+     <string name="recording_file_list">"Seznam posnetkov"</string>
+     <string name="less_than_one_second">"1 sekunda"</string>
+     <string name="is_scanning">"MediaScanner skenira, prosimo, počakajte..."</string>
+     <string name="emptylist">"Seznam je prazen"</string>
+     <string name="choose_file">"Izberite posnetek, ki ga želite zbrisati!"</string>
+     <string name="error_path">"Izbrana pot ne obstaja, prosim, nastavite jo ponovno!"</string>
+     <string name="path_miss">"Shranjena pot ne obstaja ali ni dostopna!"</string>
+     <string name="low_memory">"Pomnilnik telefona ni dovolj velik, snemanje bo prekinjeno!"</string>
+     <string name="record_error">"Pojavila se je napaka pri snemanju!"</string>
+     <string name="play_error">"Predvajalnik glasbe je bil onemogočen, ni možno odpreti！"</string>
+     <string name="dialog_title">"Izberite"</string>
+     <string name="dialog_message">"Shranim posnetek?"</string>
+     <string name="same_application_running">"Snemalno napravo uporablja drug program, prosim zaprite ta program!"</string>
+     <string name="recording_time_short">"Čas snemanja manj kot 1 sekunda, ni shranjeno"</string>
+     <string name="file_path_button">"Pot datoteke"</string>
+     <string name="file_name">"Ime datoteke:"</string>
+     <string name="file_path">"Pot datoteke:"</string>
+     <string name="rename">Preimenuj</string>
+     <string name="rename_save">"Uspešno preimenovano"</string>
+     <string name="rename_nosave">"Napaka pri preimenovanju"</string>
+     <string name="filename_is_not_modified">"Ime datoteke ni spremenjeno"</string>
+     <string name="duplicate_name">"podvojeno ime datoteke"</string>
+     <string name="soundpicker_label">"Izberite posnetek"</string>
+     <string name="error_sdcard_path">"sd kartica ne obstaja. Privzeta pot za shranjevanje je bila spremenjena na notranji pomnilnik."</string>
+     <string name="input_length_overstep">"Vnos je dosegel največjo dolžino"</string>
+     <string name="filename_empty_error">"Ime datoteke ne sme biti prazno, shranite s prvotnim imenom"</string>
+     <string name="please_choose_files">"Izberite datoteke, prosim"</string>
+     <string name="selected_files_count">"je izbral<xliff:g id="COUNTS">%d</xliff:g>"</string>
+     <string name="use_default_path">"Shranjena pot ne obstaja, uporabite privzeto pot"</string>
+     <string name="stroage_not_mounted">"Pomnilnik ni naložen"</string>
+     <string name="special_char_exist">"Posebni znaki <xliff:g id="COUNTS">%s</xliff:g> niso podprti"</string>
+     <string name="menu_select_more">"Izberite več"</string>
+     <string name="menu_select_type">"Nastavite vrsto datoteke"</string>
+     <string name="path_miss_nosave">"Shranjena pot ne obstaja, posnetek ni bil shranjen!"</string>
+     <string name="dialog_dismiss">"Opusti"</string>
+     <string name="error_permissions">"Aplikacija nima nujnih dovoljenj, potrebnih za izvajanje. Preverite nastavitve dovoljenj."</string>
+
+    <string name="internal_sdcard">"Naj odloči sistem"</string>
+     <string name="external_sdcard">"Zunanja kartica sd"</string>
+    <string name="internal_storage">"Notranji pomnilnik"</string>
+     <string name="external_storage">"Zunanja shramba"</string>
+     <string name="set_as_ring">"Nastavi kot ton zvonjenja"</string>
+     <string name="read_file_path">"Preveri pot datoteke"</string>
+     <string name="operate_share">"Deli"</string>
+     <string name="ringtone_title_sim1">"SIM1 Phone ringtone"</string>
+     <string name="ringtone_title_sim2">"ton zvonjenja telefona SIM2""</string>
+     <string name="ringtone_menu_short">"Uporabi kot melodijo zvonjenja"</string>
+     <string name="please_insert_sim_card">"Vstavite vsaj SIM kartico"</string>
+     <string name="ring_set_silent_vibrate">"Melodije po meri v trenutnem načino niso podprte"</string>
+     <string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" nastavi kot privzeto zvonenje za SIM1."</string>
+     <string name="ringtone_set_sim2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" nastavi kot privzeto zvonenje za SIM2."</string>
+     <string name="ringtone_set">"»<xliff:g id="NAME">%s</xliff:g>« je nastavljen kot melodija zvonjenja telefona."</string>
+     <string name="ring_set_fail">"Te pesmi ni mogoče predvajati. Izberite drugo pesem za zvonenje"</string>
+     <string name="tag_limit">"Doseženo je maksimalno število oznak"</string>
+     <string name="no_allow_play_calling">"Med klicaem (radio/video) predvajanje glasbe ni dovoljeno."</string>
+     <string name="playback_failed">"Predvajalnik ne podpira tega tipa zvočne datoteke."</string>
+     <string name="tag">"Oznaka"</string>
+     <string name="previous_tag">"Zadnja oznaka"</string>
+     <string name="next_tag">"Naslednja oznaka"</string>
+     <string name="recording_play">"Predvajanje posnetka"</string>
+     <string name="clip_duration_tip">"Uredi dolžino"</string>
+     <string name="record_setting">"Nastavitev posnetka"</string>
+     <string name="file_type">"Vrsta datoteke"</string>
+     <string name="type_amr">"amr tip"</string>
+     <string name="type_3gpp">"3gpp tip"</string>
+     <string name="save_path">"Shranjena pot"</string>
+     <string name="set_timer_recording">"Nastavi časovnik snemanja"</string>
+     <string name="timer_recording_detail">"Začni snemanje na <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> za <xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">"Prikaži podrobnosti"</string>
+     <string name="file_size">"Velikost datoteke："</string>
+     <string name="file_date">"Datum datoteke："</string>
+     <string name="recording_start_time">"Čas začetka snemanja"</string>
+     <string name="recording_duration">"Trajanje snemanja"</string>
+     <string name="tuned_timer_recording">"Časovnik snemanja vklopljen"</string>
+     <string name="miss_timer_recording">"Časovnik snemanja zamujen"</string>
+     <string name="miss_timer_time">"Čas: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>" ura"</item>
+        <item>" ur"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"Časovnik snemanja nastavljen na manj kot minuto od tega trenutka."</item>
+        <item>"Časovnik snemanja nastavljen na <xliff:g id="HOURS">%1$s</xliff:g> od zdaj."</item>
+        <item>"Časovnik snemanja nastavljen na <xliff:g id="MINUTES">%2$s</xliff:g> od zdaj."</item>
+        <item>"Časovnik snemanja nastavljen na <xliff:g id="HOURS">%1$s</xliff:g> za <xliff:g id="MINUTES">%2$s</xliff:g>  od zdaj."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">"1 ura"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g>  ur"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"1 minuta"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g>  minut"</item>
+    </plurals>
+     <string name="start_record">"začni s snemanjem"</string>
+     <string name="resume_record">"nadaljuj s snemanjem"</string>
+     <string name="start_play">"začni s predvajanjem"</string>
+     <string name="resume_play">"nadaljuje s predvajanjem"</string>
+     <string name="reset_timer_recording">"Snemalno napravo uporablja drug program, ponovno nastavite časovnik snemanja!"</string>
+     <string name="storage_not_enough">"Premalo pomnilnika, časovnika snemanja ni bilo mogoče zagnati!"</string>
+     <string name="phone_storage_not_enough">"Pomnilnik telefona je premajhen!"</string>
+</resources>

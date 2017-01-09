@@ -1,0 +1,43 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	               xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" 
+	               xmlns:preference="http://schemas.android.com/apk/res/com.sprd.systemupdate" 
+		          android:title="@string/app_name">
+       <PreferenceCategory
+            android:title="@string/is_upgrade">
+
+       <com.sprd.systemupdate.RadioPreference  
+        android:key="right_now"  
+        android:title="@string/right_now"
+        
+        />    
+        <com.sprd.systemupdate.RadioPreference  
+        android:key="one_hour"  
+        android:title="@string/one_hour"
+        android:persistent="false"
+        preference:time="1"
+        />    
+        <com.sprd.systemupdate.RadioPreference  
+        android:key="two_hour"  
+        android:title="@string/two_hour"
+        android:persistent="false"
+        preference:time="2"
+        />    
+         <com.sprd.systemupdate.RadioPreference  
+        android:key="four_hour"  
+        android:title="@string/four_hour"
+        android:persistent="false"
+        preference:time="4"
+        />    
+        <com.sprd.systemupdate.RadioPreference  
+        android:key="twenty_four_hour"  
+        android:title="@string/twenty_four_hour"
+        android:persistent="false"
+        preference:time="24"
+        />    
+        <com.sprd.systemupdate.RadioPreference  
+        android:key="never"  
+        android:title="@string/never"
+        android:persistent="false"
+        />    
+        </PreferenceCategory>
+</PreferenceScreen>

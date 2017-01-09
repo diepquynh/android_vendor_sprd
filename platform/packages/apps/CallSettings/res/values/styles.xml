@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- SPRD: function call barring support. BEGIN -->
+    <style name="EditPassWordPreference">
+        <item name="aenableButtonText">@string/enable</item>
+        <item name="adisableButtonText">@string/disable</item>
+        <item name="acancelButtonText">@string/cancel</item>
+        <item name="aconfirmMode">activation</item>
+    </style>
+    <!-- SPRD: function call barring support. END-->
+
+    <!-- SPRD: FEATURE_FDN.@{ -->
+    <style name="FdnListDialerSettingsLight" parent="SettingsLight">
+        <item name="android:colorAccent">@color/dialer_theme_color</item>
+        <item name="android:dialogTheme">@style/DialerAlertDialogTheme</item>
+        <item name="android:windowBackground">@color/phone_settings_background_color</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
+        <item name="android:actionMenuTextColor">@color/phone_settings_actionbar_text_color</item>
+        <item name="android:actionOverflowButtonStyle">@style/DialtactsActionBarOverflow</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:colorPrimaryDark">@color/actionbar_background_color_dark</item>
+    </style>
+    <!-- @} -->
+</resources>

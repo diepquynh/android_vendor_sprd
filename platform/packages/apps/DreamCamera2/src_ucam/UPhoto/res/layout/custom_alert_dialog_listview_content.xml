@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010,2011 Thundersoft Corporation
+    All rights Reserved
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width = "fill_parent"
+    android:layout_height = "wrap_content"
+    android:gravity = "center"
+    >
+    <ListView
+        android:id = "@+id/preference_settings_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background = "#00FFFFFF"
+        android:scrollingCache = "false"
+        android:fadingEdge = "none"
+        android:dividerHeight = "2dip"
+        android:divider ="@drawable/transverse_line"
+        android:overScrollMode = "never"
+        />
+</LinearLayout>

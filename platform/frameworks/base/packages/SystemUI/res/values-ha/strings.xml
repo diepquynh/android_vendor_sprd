@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_label">"UI din na\'ura"</string>
+<string name="status_bar_clear_all_button">"Share yanke yanke"</string>
+<string name="status_bar_recent_remove_item_title">"Cire daga jeri"</string>
+<string name="status_bar_recent_inspect_item_title">"Bayanan manhaja"</string>
+<string name="status_bar_no_recent_apps">"Fuskar na bayan nan na nan"</string>
+<string name="status_bar_accessibility_dismiss_recents">"Zubar da shirye shiryen kwanan nan"</string>
+<plurals name="status_bar_accessibility_recent_apps">
+<item quantity="one">"Fuska 1 a takaitaccen gani"</item>
+<item quantity="other">"%d fuska a takaitaccen gani"</item>
+</plurals>
+<string name="status_bar_no_notifications_title">"Babu ankararwa"</string>
+<string name="status_bar_ongoing_events_title">"Mai gudana"</string>
+<string name="status_bar_latest_events_title">"Ankararwa"</string>
+<string name="battery_low_title">"Baturi ya yi kasa"</string>
+<string name="battery_low_percent_format">"<xliff:g id="percentage">%s</xliff:g> ragowa"</string>
+<string name="battery_low_percent_format_saver_started">"<xliff:g id="percentage">%s</xliff:g> ragowa. An kunna ma\'adanar batiri."</string>
+<string name="invalid_charger">"Cajin USB bai dace ba. \nYi amfani kadai da cajar kamfani."</string>
+<string name="invalid_charger_title">"Cajin USB bai yi."</string>
+<string name="invalid_charger_text">"Ka yi amfani da cajan da aka bayar kawai."</string>
+<string name="battery_low_why">"Saituna"</string>
+<string name="battery_saver_confirmation_title">"Kunna mai taskace baturin?"</string>
+<string name="battery_saver_confirmation_ok">"Kunna "</string>
+<string name="battery_saver_start_action">"Kunna mai taskace baturin"</string>
+<string name="status_bar_settings_settings_button">"Saituna"</string>
+<string name="status_bar_settings_wifi_button">"Wi-Fi"</string>
+<string name="status_bar_settings_auto_rotation">"Allon na\'ura mai zagaye da kansa"</string>
+<string name="status_bar_settings_mute_label">"Shiru"</string>
+<string name="status_bar_settings_auto_brightness_label">"Automatik"</string>
+<string name="status_bar_settings_notifications">"Ankararwa"</string>
+<string name="bluetooth_tethered">"An daure bluetooth"</string>
+<string name="status_bar_input_method_settings_configure_input_methods">"Kafa hanyar shigar da bayanai"</string>
+<string name="status_bar_use_physical_keyboard">"Allon tafireta na na\'ura"</string>
+<string name="usb_device_permission_prompt">"A bada dama ga shiri <xliff:g id="application">%1$s</xliff:g> don ya bude na\'urar USB?"</string>
+<string name="usb_accessory_permission_prompt">" A Bada dama ga shiri <xliff:g id="application">%1$s</xliff:g>  don ya bude kayan hadin USB?"</string>
+<string name="usb_device_confirm_prompt">"A bude <xliff:g id="activity">%1$s</xliff:g> yayin da aka hada wannan mahadin USB?"</string>
+<string name="usb_accessory_confirm_prompt">"A bude <xliff:g id="activity">%1$s</xliff:g> yayin da aka hada wannan mahadin USB?"</string>
+<string name="usb_accessory_uri_prompt">"Babu wasu shirye shiryen da ke aiki da wannan mahadin USB. Kara sani game da wannan mahadin a <xliff:g id="url">%1$s</xliff:g>"</string>
+<string name="title_usb_accessory">"Mahadin USB"</string>
+<string name="label_view">"Gani"</string>
+<string name="always_use_device">"Yi amfani da ta dindindin don wannan na\'ura ta USB"</string>
+<string name="always_use_accessory">"Yi amfani da ta dindindin don wannan mahadi na USB"</string>
+<string name="usb_debugging_title">"Ana bada damar kankarewar USB?"</string>
+<string name="usb_debugging_message">"Maballin RSA na zanen hannun kwamfutar shi ne:\n<xliff:g id="fingerprint">%1$s</xliff:g>"</string>
+<string name="usb_debugging_always">"Koyaushe kyale daga wannan kwamfutar"</string>
+<string name="usb_debugging_secondary_user_title">"Ba a bada damar cire kaskar na\'ura na USB ba"</string>
+<string name="usb_debugging_secondary_user_message">"Mai amfanin da yake cikin wannan na\'ura a yanzu ba zai iya amfani da USB debugging ba. Don a yi amfani da wannan aiki a koma ga mai amfani mai lura."</string>
+<string name="compat_mode_on">"Jawo ciki don cika allon na\'ura"</string>
+<string name="compat_mode_off">"Tabe don ya cika allon na\'ura"</string>
+<string name="screenshot_saving_ticker">"Ana ajiye hoton allon na\'ura\u2026"</string>
+<string name="screenshot_saving_title">"Ana ajiye hoton allon na\'ura\u2026"</string>
+<string name="screenshot_saving_text">"Ana kan ajiye hoton allon na;ura"</string>
+<string name="screenshot_saved_title">"An dauki hoton allon na\'ura."</string>
+<string name="screenshot_saved_text">"Danna ka ga hoton allonka"</string>
+<string name="screenshot_failed_title">"An kasa daukar hoton shafi."</string>
+<string name="screenshot_failed_to_save_unknown_text">"An samu matsala yayin adana hoton alon"</string>
+<string name="screenshot_failed_to_save_text">"Ba za a iya adana hoton allo ba saboda karancin wurin ajiya"</string>
+<string name="screenshot_failed_to_capture_text">"Manhaja ko ma\'aikatarku ba su ba da damar daukar hoton allo ba"</string>
+<string name="usb_preference_title">"Zabukan tiransifar fayil na USB"</string>
+<string name="use_mtp_button_title">"Kafa a matsayin mediya fileya (MTP)"</string>
+<string name="use_ptp_button_title">"Kafa a matsayin kyamara (PTP)"</string>
+<string name="installer_cd_button_title">"Sanya shirin Tiransifar Fayil na Android don Mac"</string>
+<string name="accessibility_back">"Baya"</string>
+<string name="accessibility_home">"Shafin farko"</string>
+<string name="accessibility_menu">"Jadalin shirye shirye"</string>
+<string name="accessibility_recent">"Takaitaccen gani"</string>
+<string name="accessibility_search_light">"Bincika"</string>
+<string name="accessibility_camera_button">"Kamara"</string>
+<string name="accessibility_phone_button">"Waya"</string>
+<string name="accessibility_voice_assist_button">"Tallafin Murya"</string>
+<string name="accessibility_unlock_button">"Bude"</string>
+<string name="accessibility_unlock_button_fingerprint">"Bude madanni, ana jiran hoton yatsa"</string>
+<string name="accessibility_unlock_without_fingerprint">"Bude ba tare da amfani da hoton yatsanka ba"</string>
+<string name="unlock_label">"Bude"</string>
+<string name="phone_label">"bude wayar"</string>
+<string name="voice_assist_label">"bude tallafin murya"</string>
+<string name="camera_label">"Bude kamara"</string>
+<string name="recents_caption_resize">"Zabi shimfidar sabon aiki"</string>
+<string name="cancel">"Soke"</string>
+<string name="accessibility_compatibility_zoom_button">"Madannin jawowar daidaitawa"</string>
+<string name="accessibility_compatibility_zoom_example">"Jawo mafi kankanta zuwa babban allon na\'ura."</string>
+<string name="accessibility_bluetooth_connected">"An hada Bluetooth."</string>
+<string name="accessibility_bluetooth_disconnected">"An katse hadin bluetooth."</string>
+<string name="accessibility_no_battery">"Babu batiri."</string>
+<string name="accessibility_battery_one_bar">"Batiri saura sanda daya."</string>
+<string name="accessibility_battery_two_bars">"Batiri saura sanda biyu."</string>
+<string name="accessibility_battery_three_bars">"Batiri saura sanda uku."</string>
+<string name="accessibility_battery_full">"Batiri ya cika."</string>
+<string name="accessibility_no_phone">"Babu waya"</string>
+<string name="accessibility_phone_one_bar">"Waya sanda daya."</string>
+<string name="accessibility_phone_two_bars">"Waya sanda biyu."</string>
+<string name="accessibility_phone_three_bars">"Waya sanda uku."</string>
+<string name="accessibility_phone_signal_full">"Siginar waya ta cika."</string>
+<string name="accessibility_no_data">"Babu bayanai"</string>
+<string name="accessibility_data_one_bar">"Bayanai sanda daya."</string>
+<string name="accessibility_data_two_bars">"Bayanai sanda biyu."</string>
+<string name="accessibility_data_three_bars">"Bayanai sanda uku."</string>
+<string name="accessibility_data_signal_full">"Siginar bayanai ta cika."</string>
+<string name="accessibility_wifi_name">"An hada da <xliff:g id="wifi" example="Home Network">%s</xliff:g>."</string>
+<string name="accessibility_bluetooth_name">"An hada da <xliff:g id="bluetooth" example="Car Audio">%s</xliff:g>."</string>
+<string name="accessibility_cast_name">"An hada da <xliff:g id="cast" example="TV">%s</xliff:g>."</string>
+<string name="accessibility_no_wimax">"Babu WIMAX."</string>
+<string name="accessibility_wimax_one_bar">"WiMAX sanda daya."</string>
+<string name="accessibility_wimax_two_bars">"WiMAX sanda biyu."</string>
+<string name="accessibility_wimax_three_bars">"WiMAX sanda uku."</string>
+<string name="accessibility_wimax_signal_full">"Siginar WiMAX ta cika."</string>
+<string name="accessibility_ethernet_disconnected">"An cire jonin ethernet."</string>
+<string name="accessibility_ethernet_connected">"An jona ethernet."</string>
+<string name="accessibility_no_signal">"Babu Sigina."</string>
+<string name="accessibility_not_connected">"Ba a hada ba."</string>
+<string name="accessibility_zero_bars">"Babu sanduna."</string>
+<string name="accessibility_one_bar">"Sanda guda."</string>
+<string name="accessibility_two_bars">"Sanduna biyu."</string>
+<string name="accessibility_three_bars">"Sanduna uku."</string>
+<string name="accessibility_signal_full">"Sigina a cike."</string>
+<string name="accessibility_desc_on">"A kunne."</string>
+<string name="accessibility_desc_off">"A kashe."</string>
+<string name="accessibility_desc_connected">"A hade."</string>
+<string name="accessibility_desc_connecting">"Hadawa."</string>
+<string name="accessibility_data_connection_roaming">"Kiran yawo"</string>
+<string name="accessibility_data_connection_wifi">"Wi-Fi"</string>
+<string name="accessibility_no_sim">"Babu SIM."</string>
+<string name="accessibility_cell_data">"Datar Salula"</string>
+<string name="accessibility_cell_data_on">"An kunna datar salula"</string>
+<string name="accessibility_cell_data_off">"An kashe datar salula"</string>
+<string name="accessibility_bluetooth_tether">"Daure Bluetooth."</string>
+<string name="accessibility_airplane_mode">"Yanayin cikin jirgi"</string>
+<string name="accessibility_no_sims">"Babu katin SIM."</string>
+<string name="accessibility_carrier_network_change_mode">"Canjin hanyar sadarwar kamfanin sadarwa."</string>
+<string name="accessibility_battery_details">"A bude bayanan batiri"</string>
+<string name="accessibility_battery_level">"Batir <xliff:g id="number">%d</xliff:g> cikin dari."</string>
+<string name="accessibility_battery_level_charging">"Cajin batir, <xliff:g id="battery_percentage">%d</xliff:g>  cikin dari."</string>
+<string name="accessibility_settings_button">"Saituna"</string>
+<string name="accessibility_notifications_button">"Ankararwa"</string>
+<string name="accessibility_remove_notification">"Goge ankararwa."</string>
+<string name="accessibility_gps_enabled">"An bude GPS."</string>
+<string name="accessibility_gps_acquiring">"samun GPS."</string>
+<string name="accessibility_tty_enabled">"An bude Tele Typwriter."</string>
+<string name="accessibility_ringer_vibrate">"Jijjigar Karar kira"</string>
+<string name="accessibility_ringer_silent">"Shirun karar kira."</string>
+<string name="accessibility_work_mode">"Yanayin aiki"</string>
+<string name="accessibility_recents_item_will_be_dismissed">"Kori <xliff:g id="app" example="Calendar">%s</xliff:g>."</string>
+<string name="accessibility_recents_item_dismissed">"<xliff:g id="app" example="Calendar">%s</xliff:g> an soke"</string>
+<string name="accessibility_recents_all_items_dismissed">"An soke duk manhajojin kwanan nan."</string>
+<string name="accessibility_recents_item_open_app_info">"A bude <xliff:g id="app" example="Calendar">%s</xliff:g> Bayanin manhaja."</string>
+<string name="accessibility_recents_item_launched">"Fara <xliff:g id="app" example="Calendar">%s</xliff:g>."</string>
+<string name="accessibility_recents_task_header">"<xliff:g id="app" example="Chrome">%1$s</xliff:g> <xliff:g id="activity_label" example="www.google.com">%2$s</xliff:g>"</string>
+<string name="accessibility_notification_dismissed">"An dakatar da tuni."</string>
+<string name="accessibility_desc_notification_shade">"Yanayin Tunin."</string>
+<string name="accessibility_desc_quick_settings">"Saitocin gaggawa."</string>
+<string name="accessibility_desc_lock_screen">"Kulle fuskar waya."</string>
+<string name="accessibility_desc_settings">"Saituna"</string>
+<string name="accessibility_desc_recent_apps">"Takaitaccen gani."</string>
+<string name="accessibility_desc_close">"Rufe"</string>
+<string name="accessibility_quick_settings_user">"Mai amfani da <xliff:g id="user" example="John Doe">%s</xliff:g>."</string>
+<string name="accessibility_quick_settings_wifi">"<xliff:g id="signal" example="Three bars">%1$s</xliff:g>."</string>
+<string name="accessibility_quick_settings_wifi_changed_off">"Wifi an kashe."</string>
+<string name="accessibility_quick_settings_wifi_changed_on">"Wifi an kunna."</string>
+<string name="accessibility_quick_settings_mobile">"Wayar Mobayil <xliff:g id="signal" example="Three bars">%1$s</xliff:g>. <xliff:g id="type" example="4G">%2$s</xliff:g>. <xliff:g id="network" example="T-Mobile">%3$s</xliff:g>."</string>
+<string name="accessibility_quick_settings_battery">"Batur <xliff:g id="state" example="50% charging">%s</xliff:g>."</string>
+<string name="accessibility_quick_settings_airplane_off">"Yanayin jirgin sama a kashe."</string>
+<string name="accessibility_quick_settings_airplane_on">"Yanayin jirgin sama a kunne."</string>
+<string name="accessibility_quick_settings_airplane_changed_off">"Yanayin jirgin sama an kashe."</string>
+<string name="accessibility_quick_settings_airplane_changed_on">"Yanayin jirgin sama an kunna."</string>
+<string name="accessibility_quick_settings_dnd_priority_on">"An kunna kada a a taba, mafi muhimmanci kadai."</string>
+<string name="accessibility_quick_settings_dnd_none_on">"An kunna kada a taba, cikakken shiru."</string>
+<string name="accessibility_quick_settings_dnd_alarms_on">"An kunna kada a a taba, kararrawa kadai."</string>
+<string name="accessibility_quick_settings_dnd">"Kar ka dame ni"</string>
+<string name="accessibility_quick_settings_dnd_off">"Kada a taba a kashe."</string>
+<string name="accessibility_quick_settings_dnd_changed_off">"An kashe kada a taba."</string>
+<string name="accessibility_quick_settings_dnd_changed_on">"An kunna kada a taba."</string>
+<string name="accessibility_quick_settings_bluetooth">"Bulutut"</string>
+<string name="accessibility_quick_settings_bluetooth_off">"Bluetooth a kashe."</string>
+<string name="accessibility_quick_settings_bluetooth_on">"Bluetooth a kunne."</string>
+<string name="accessibility_quick_settings_bluetooth_connecting">"Bluetooth na haduwa."</string>
+<string name="accessibility_quick_settings_bluetooth_connected">"An hada Bluetooth."</string>
+<string name="accessibility_quick_settings_bluetooth_changed_off">"Bluetooth an kashe."</string>
+<string name="accessibility_quick_settings_bluetooth_changed_on">"Bluetooth an kunna."</string>
+<string name="accessibility_quick_settings_location_off">"Rahoton wuri a kashe."</string>
+<string name="accessibility_quick_settings_location_on">"Rahoton wuri a kunne."</string>
+<string name="accessibility_quick_settings_location_changed_off">"Rahoton wuri an kashe."</string>
+<string name="accessibility_quick_settings_location_changed_on">"Rahoton wuri an kunna."</string>
+<string name="accessibility_quick_settings_alarm">"An aje kararrawa don <xliff:g id="time" example="Wed 3:30 PM">%s</xliff:g>."</string>
+<string name="accessibility_quick_settings_close">"Rufe allon bayanai."</string>
+<string name="accessibility_quick_settings_more_time">"Karin lokaci."</string>
+<string name="accessibility_quick_settings_less_time">"Ragin lokaci."</string>
+<string name="accessibility_quick_settings_flashlight_off">"Hasken Fila a kashe."</string>
+<string name="accessibility_quick_settings_flashlight_unavailable">"Babu fitila"</string>
+<string name="accessibility_quick_settings_flashlight_on">"Hasken Filash a kunne."</string>
+<string name="accessibility_quick_settings_flashlight_changed_off">"Hasken Filash an kashe."</string>
+<string name="accessibility_quick_settings_flashlight_changed_on">"Hasken Filash an kunna."</string>
+<string name="accessibility_quick_settings_color_inversion_changed_off">"Juya kala an kashe."</string>
+<string name="accessibility_quick_settings_color_inversion_changed_on">"Juya kala an kunna."</string>
+<string name="accessibility_quick_settings_hotspot_changed_off">"Gurabun mobayil an kashe."</string>
+<string name="accessibility_quick_settings_hotspot_changed_on">"Gurabun mobayil an kunna."</string>
+<string name="accessibility_casting_turned_off">"Zabin fuskar ya tsaya."</string>
+<string name="accessibility_quick_settings_work_mode_off">"An kashe yanayin aiki"</string>
+<string name="accessibility_quick_settings_work_mode_on">"An kunna yanayin aiki"</string>
+<string name="accessibility_quick_settings_work_mode_changed_off">"An kashe yanayin aiki"</string>
+<string name="accessibility_quick_settings_work_mode_changed_on">"An kunna yanayin aiki"</string>
+<string name="accessibility_quick_settings_data_saver_changed_off">""An kashe aikin data"</string>
+<string name="accessibility_quick_settings_data_saver_changed_on">"An kunna aikin data"</string>
+<string name="accessibility_brightness">"Nuna haske"</string>
+<string name="data_usage_disabled_dialog_3g_title">"An tsayar da datar 2G-3G"</string>
+<string name="data_usage_disabled_dialog_4g_title">"An tsayar da datar 4G"</string>
+<string name="data_usage_disabled_dialog_mobile_title">"An tsayar da datar salula"</string>
+<string name="data_usage_disabled_dialog_title">"An tsayar da datar"</string>
+<string name="data_usage_disabled_dialog">"Saboda an kai makurar datar da ka saita, na\'urar ta tsayar da amfani da datar na ragowar wannan zagayen. \n\nCigaba zai iya jawo kamfanin sadarwarka ya caje ka."</string>
+<string name="data_usage_disabled_dialog_enable">"Cigaba"</string>
+<string name="status_bar_settings_signal_meter_disconnected">" Babu mahadin intanet "</string>
+<string name="status_bar_settings_signal_meter_wifi_nossid">"An hada Wi-Fi"</string>
+<string name="gps_notification_searching_text">"Ana binciken GPS"</string>
+<string name="gps_notification_found_text">"Wurin da GPS ya saita"</string>
+<string name="accessibility_location_active">"Neman wuri na aiki"</string>
+<string name="accessibility_clear_all">"Goge duk ankararwa."</string>
+<string name="notification_group_overflow_indicator">"+ <xliff:g id="number" example="3">%s</xliff:g>"</string>
+<plurals name="notification_group_overflow_description">
+<item quantity="one">"<xliff:g id="number" example="1">%s</xliff:g> akwia karin sanarwa a ciki."</item>
+<item quantity="other">"<xliff:g id="number" example="3">%s</xliff:g> akwia karin sanarwa a ciki."</item>
+</plurals>
+<string name="status_bar_notification_inspect_item_title">"Tsarin ankararwa"</string>
+<string name="status_bar_notification_app_settings_title">"<xliff:g id="app_name" example="Calendar">%s</xliff:g>  saitoci"</string>
+<string name="accessibility_rotation_lock_off">Fuskar waya za ta juya da kanta.</string>
+<string name="accessibility_rotation_lock_on_landscape">Fuskar waya a kulle take ta tsaye.</string>
+<string name="accessibility_rotation_lock_on_portrait">Fuskar waya a kulle take ta kwance.</string>
+<string name="accessibility_rotation_lock_off_changed">"Fuskar yanzu za ta juya automatikiyyan."</string>
+<string name="accessibility_rotation_lock_on_landscape_changed">"Fuskar yanzu a rufe yake kan tsarin shimfida."</string>
+<string name="accessibility_rotation_lock_on_portrait_changed">"Fuskar yanzu yana rufe ne kan tsarin tsayuwa."</string>
+<string name="dessert_case">"Manyan bakake"</string>
+<string name="start_dreams">"Adana allo"</string>
+<string name="ethernet_label">"Ethernet"</string>
+<string name="quick_settings_dnd_label">"Kar a tada hankali"</string>
+<string name="quick_settings_dnd_priority_label">"Muhimmantarwa kawai"</string>
+<string name="quick_settings_dnd_alarms_label">"Kararrawa kadai"</string>
+<string name="quick_settings_dnd_none_label">"Cikakken shiru"</string>
+<string name="quick_settings_bluetooth_label">"Bluetooth"</string>
+<string name="quick_settings_bluetooth_multiple_devices_label">"Bulutus (<xliff:g id="number">%d</xliff:g> Na\'urori)"</string>
+<string name="quick_settings_bluetooth_off_label">"Bulutus a kashe"</string>
+<string name="quick_settings_bluetooth_detail_empty_text">"Ba wasu na\'urori da suka daidaita"</string>
+<string name="quick_settings_brightness_label">"Haske"</string>
+<string name="quick_settings_rotation_unlocked_label">"Juya-automatik"</string>
+<string name="accessibility_quick_settings_rotation">"Allon na\'ura mai zagaye da kansa"</string>
+<string name="accessibility_quick_settings_rotation_value">"A saita zuwa <xliff:g name="rotation" example="Portrait">%s</xliff:g>"</string>
+<string name="quick_settings_rotation_locked_label">"Juyawa a rufe"</string>
+<string name="quick_settings_rotation_locked_portrait_label">"Hoto"</string>
+<string name="quick_settings_rotation_locked_landscape_label">"Shimfida"</string>
+<string name="quick_settings_ime_label">"Hanyar shigar da bayanai"</string>
+<string name="quick_settings_location_label">"Wuri"</string>
+<string name="quick_settings_location_off_label">"Gano wuri a rufe"</string>
+<string name="quick_settings_media_device_label">"Sautin Na\'ura"</string>
+<string name="quick_settings_rssi_emergency_only">"Kiran gaggawa kadai"</string>
+<string name="quick_settings_settings_label">"Saituna"</string>
+<string name="quick_settings_time_label">"Lokaci"</string>
+<string name="quick_settings_user_label">"Ni"</string>
+<string name="quick_settings_user_title">"Mai amfani"</string>
+<string name="quick_settings_user_new_user">"Sabon mai amfani da"</string>
+<string name="quick_settings_wifi_label">"Wi-Fi"</string>
+<string name="quick_settings_wifi_not_connected">"Ba a hada ba"</string>
+<string name="quick_settings_wifi_no_network">"Ba Sabis"</string>
+<string name="quick_settings_wifi_off_label">"Wi-Fi a kashe"</string>
+<string name="quick_settings_wifi_on_label">"An kunna Wi-Fi"</string>
+<string name="quick_settings_wifi_detail_empty_text">"Babu hanyoyin sadarwa na Wi-Fi"</string>
+<string name="quick_settings_cast_title">"Jefa"</string>
+<string name="quick_settings_casting">"Zabi"</string>
+<string name="quick_settings_cast_device_default_name">"Na\'urar da ba suna"</string>
+<string name="quick_settings_cast_device_default_description">"An shirya zabi"</string>
+<string name="quick_settings_cast_detail_empty_text">"Ba na\'urorin da ke akwai"</string>
+<string name="quick_settings_brightness_dialog_title">"Haske"</string>
+<string name="quick_settings_brightness_dialog_auto_brightness_label">"Automatik"</string>
+<string name="quick_settings_inversion_label">"Juya kaloli"</string>
+<string name="quick_settings_color_space_label">"Yanayin gyara kala"</string>
+<string name="quick_settings_more_settings">Karin wasu saitocin</string>
+<string name="quick_settings_done">"An yi"</string>
+<string name="quick_settings_connected">"An hada"</string>
+<string name="quick_settings_connecting">"Ana hadawa..."</string>
+<string name="quick_settings_tethering_label">"A na daurewa"</string>
+<string name="quick_settings_hotspot_label">"Gurabu"</string>
+<string name="quick_settings_notifications_label">"Ankararwa"</string>
+<string name="quick_settings_flashlight_label">"Curin haske"</string>
+<string name="quick_settings_cellular_detail_title">"Datar Salula"</string>
+<string name="quick_settings_cellular_detail_data_usage">"Amfani da bayani"</string>
+<string name="quick_settings_cellular_detail_remaining_data">"Ragowar data"</string>
+<string name="quick_settings_cellular_detail_over_limit">"Sama da iyaka"</string>
+<string name="quick_settings_cellular_detail_data_used">"<xliff:g id="data_used" example="2.0 GB">%s</xliff:g> amfana"</string>
+<string name="quick_settings_cellular_detail_data_limit">"<xliff:g id="data_limit" example="2.0 GB">%s</xliff:g>  iyaka"</string>
+<string name="quick_settings_cellular_detail_data_warning">"<xliff:g id="data_limit" example="2.0 GB">%s</xliff:g> gargadi"</string>
+<string name="quick_settings_work_mode_label">"Yanayin aiki"</string>
+<string name="recents_empty_message">"Babu abubuwa na kusa"</string>
+<string name="recents_empty_message_dismissed_all">"Ka goge komai"</string>
+<string name="recents_app_info_button_label">"Bayanin shiri"</string>
+<string name="recents_lock_to_app_button_label">"Tsaida fuskar na\'ura"</string>
+<string name="recents_search_bar_label">"Bincika"</string>
+<string name="recents_launch_error_message">"Ba zai iya ta da <xliff:g id="app" example="Calendar">%s</xliff:g>."</string>
+<string name="recents_launch_disabled_message">"<xliff:g id="app" example="Calendar">%s</xliff:g> an kashe ta a yanayin-aminci."</string>
+<string name="recents_stack_action_button_label">"Goge duka"</string>
+<string name="recents_incompatible_app_message">"Manhaja ba ta aiki da raba allo."</string>
+<string name="recents_drag_hint_message">"Jawo nan ka yi amfani da raba allo"</string>
+<string name="recents_multistack_add_stack_dialog_split_horizontal">"Raba A mike"</string>
+<string name="recents_multistack_add_stack_dialog_split_vertical">"Raba A tsaye"</string>
+<string name="recents_multistack_add_stack_dialog_split_custom">"Raba Dauwamarwa"</string>
+<string name="expanded_header_battery_charged">"An caja"</string>
+<string name="expanded_header_battery_charging">"Caji"</string>
+<string name="expanded_header_battery_charging_with_time">"<xliff:g id="charging_time" example="2 hrs 25 min">%s</xliff:g> har cika"</string>
+<string name="expanded_header_battery_not_charging">"Ba ya caji"</string>
+<string name="ssl_ca_cert_warning">"Ta yiwu sadarwa ana\nlura da shi"</string>
+<string name="description_target_search">"Bincika"</string>
+<string name="description_direction_up">"Tura sama don <xliff:g id="target_description" example="Unlock">%s</xliff:g>."</string>
+<string name="description_direction_left">""A tura hagu don <xliff:g id="target_description" example="Unlock">%s</xliff:g>."</string>
+<string name="zen_priority_introduction">"Sautuka da jijjiga ba za su dame ka ba, sai dai daga kararrawa, tunatarwa, sha\'anoni, da kuma masu kiran da ka fayyace."</string>
+<string name="zen_priority_customize_button">"Dauwamar"</string>
+<string name="zen_silence_introduction_voice">"Hakan zai toshe duk sautuka da jijjiga, da suka hada da daga kararrawa, kida, bidiyo, da wasannin na\'ura. Duk da haka za ka iya buga waya."</string>
+<string name="zen_silence_introduction">"Hakan zai toshe duk sautuka da jijjiga, da suka hada da i daga kararrawa, kida, bidiyo, da wasannin na\'ura."</string>
+<string name="keyguard_more_overflow_text">"+<xliff:g id="number_of_notifications" example="5">%d</xliff:g>"</string>
+<string name="speed_bump_explanation">"Wasu ankararwa marasa muhimmanci a kasa"</string>
+<string name="notification_tap_again">"sake dannanwa ka bude"</string>
+<string name="keyguard_unlock">"Ja sama don budewa"</string>
+<string name="phone_hint">"Shafa daga alama don waya"</string>
+<string name="voice_hint">"shafa daga alama don tallafin murya"</string>
+<string name="camera_hint">"Shafa da alama don kyamara"</string>
+<string name="interruption_level_none_with_warning">"Cikakken shiru. Haka kuma wannan zai kashe sautin masu karanta allon na\'ura."</string>
+<string name="interruption_level_none">"Cikakken shiru"</string>
+<string name="interruption_level_priority">"Muhimmantarwa kawai"</string>
+<string name="interruption_level_alarms">"Kararrawa kadai"</string>
+<string name="interruption_level_none_twoline">"Cikakken\nshiru"</string>
+<string name="interruption_level_priority_twoline">"Mai muhimmanci\nkadai"</string>
+<string name="interruption_level_alarms_twoline">"Kararrawa\nkadai"</string>
+<string name="keyguard_indication_charging_time">"Caji (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g>  har cika)"</string>
+<string name="keyguard_indication_charging_time_fast">"Caji da sauri (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> kafin ta cika)"</string>
+<string name="keyguard_indication_charging_time_slowly">"Caji a hankali (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> kafin ta cika)"</string>
+<string name="accessibility_multi_user_switch_switcher">"Canza mai amfani da"</string>
+<string name="accessibility_multi_user_switch_switcher_with_current">"Canza mai amfani da, mai amfani da a yanzu <xliff:g id="current_user_name" example="John Doe">%s</xliff:g>"</string>
+<string name="accessibility_multi_user_switch_inactive">"Mai amfani yanzu <xliff:g id="current_user_name" example="John Doe">%s</xliff:g>"</string>
+<string name="accessibility_multi_user_switch_quick_contact">"Nuna takaitaccen tarihi"</string>
+<string name="user_add_user">Kara mai amfani</string>
+<string name="user_new_user_name">"Sabon mai amfani da"</string>
+<string name="guest_nickname">"Bako"</string>
+<string name="guest_new_guest">"Kara bako"</string>
+<string name="guest_exit_guest">"Cire bako"</string>
+<string name="guest_exit_guest_dialog_title">"Cire bako?"</string>
+<string name="guest_exit_guest_dialog_message">"Duk masarrafai da data a wannan gamuwa za a share su."</string>
+<string name="guest_exit_guest_dialog_remove">"Cire"</string>
+<string name="guest_wipe_session_title">"Barka da dawowa, bako!"</string>
+<string name="guest_wipe_session_message">"Kana so ka ci gaba da wannan gamuwa?"</string>
+<string name="guest_wipe_session_wipe">"Sake daga farko"</string>
+<string name="guest_wipe_session_dontwipe">"Eh, ci gaba"</string>
+<string name="guest_notification_title">"Mai amfani na musamman"</string>
+<string name="guest_notification_text">"Don goge manhajoji da bayanai, cire mai amfani na musannan"</string>
+<string name="guest_notification_remove_action">"Cire bako"</string>
+<string name="user_logout_notification_title">"Fitar maiamfani""</string>
+<string name="user_logout_notification_text">"Fitar wanda yake amfani yanzu"</string>
+<string name="user_logout_notification_action">"Fitar maiamfani""</string>
+<string name="user_add_user_title">"Kara sabon mai amfani da?"</string>
+<string name="user_add_user_message_short">"In ka kara sabon mai amfani da, wannan mutum yana bukatar saita nasa wuri.\n\nKowane mai amfani da zai iya sabunta masarrafai don sauran masu amfani da."</string>
+<string name="user_remove_user_title">Cire mai amfani?</string>
+<string name="user_remove_user_message">"Za a goge dukanin manhajoji da bayanan wannan mai amfani."</string>
+<string name="user_remove_user_remove">"Cire"</string>
+<string name="battery_saver_notification_title">"Mai taskace Batur yana kunne"</string>
+<string name="battery_saver_notification_text">"Yana rage aiki da data na bayan fage"</string>
+<string name="battery_saver_notification_action_text">"kashe mai taskace batur"</string>
+<string name="media_projection_dialog_text">"<xliff:g id="app_seeking_permission" example="Hangouts">%s</xliff:g> zai soma daukar komai da aka nuna a fuskar wayarka."</string>
+<string name="media_projection_remember_text">"Kar ka nuna kuma"</string>
+<string name="clear_all_notifications_text">"Goge duka"</string>
+<string name="media_projection_action_text">"Kunna yanzu"</string>
+<string name="empty_shade_text">"Babu ankararwa"</string>
+<string name="device_owned_footer">"Ana lura da na\'urar"</string>
+<string name="profile_owned_footer">"Takaitaccen tarihi ana lura da shi"</string>
+<string name="vpn_footer">"Ana lura da yanayin sadarwar"</string>
+<string name="monitoring_title_device_owned">"Lura da na\'ura"</string>
+<string name="monitoring_title_profile_owned">"Lura da takaitaccen tarihi"</string>
+<string name="monitoring_title">"Kula da yanayin sadarwa"</string>
+<string name="disable_vpn">"kashe VPN"</string>
+<string name="disconnect_vpn">"Katse VPN"</string>
+<string name="monitoring_description_device_owned">"Wanda ke gudanar da na\'urarka <xliff:g id="organization">%1$s</xliff:g>.\n\nMai gudanarwarka zai iya lura da tare da gudanar da saituka, manhajojin damar hukuma, bayanan da ke damfare da na\'urarka, da kuma bayanin wurin na\'urarka. Don karin bayani, tuntubi mai gudanarwarka."</string>
+<string name="monitoring_description_vpn">"Ka baiwa wata manhaja izinin kafa jonin VPN. \n\nWannan manhajar za ta iya lura da na\'urarka da kuma hada hadar hanyar sadarwa, da suka hada da sakonnin imel, manhajoji, da shafukan yanar-gizo."</string>
+<string name="monitoring_description_vpn_device_owned">"Wanda ke gudanar da na\'urarka <xliff:g id="organization">%1$s</xliff:g>.\n\nMai gudanarwarka zai iya lura da tare da gudanar da saituka, manhajojin damar hukuma, bayanan da ke damfare da na\'urarka, da kuma bayanin wurin na\'urarka. \n\nAn jona ka da VPN wanda zai iya lura da hada hadar hanyar sadarwarka, da suka hada da sakonnin imel, manhajoji, da shafukan yanar-gizo. \n\nDon karin bayani, tuntubi mai gudanarwarka."</string>
+<string name="monitoring_description_vpn_profile_owned">"Wanda ke gudanar da bayanin aikinka <xliff:g id="organization">%1$s</xliff:g>.\n\nMai gudanarwarka daidai yake ya lura da hada hadar hanyar sadarwarka da suka hada da sakonnin imel, manhajoji, da shafukan yanar-gizo..\n\nDon karin bayani, tuntubi mai gudanarwarka.\n\nHaka kuma an jona ka da VPN, wanda zai iya lura da hada hadar hanyar sadarwarka."</string>
+<string name="monitoring_description_app">"An jona ka da <xliff:g id="application">%1$s</xliff:g>, wanda zai iya lura da hada hadar hanyar sadarwarka da suka hada da sakonnin imel, manhajoji da shafukan yanar-gizo."</string>
+<string name="monitoring_description_app_personal">"An jona ka da <xliff:g id="application">%1$s</xliff:g>, wanda zai iya lura da hada hadar hanyar sadarwarka da kanka da suka hada da sakonnin imel, manhajoji da shafukan yanar-gizo."</string>
+<string name="monitoring_description_app_work">"Wanda ke gudanar da bayanin aikinka <xliff:g id="organization">%1$s</xliff:g>. An jona shi da <xliff:g id="application">%2$s</xliff:g>, wanda zai iya lura da hada hadar sadarwar aikinka, da suka hada da sakonnin imel, manhajoji da shafukan yanar-gizo. \n\nDon karin bayani, tuntubi mai gudanarwarka."</string>
+<string name="monitoring_description_app_personal_work">"Wanda ke gudanar da bayanin aikinka <xliff:g id="organization">%1$s</xliff:g>. An jona shi da <xliff:g id="application">%2$s</xliff:g>, wanda zai iya lura da hada hadar sadarwar aikinka, da suka hada da sakonnin imel, manhajoji da shafukan yanar-gizo. \n\nHaka kuma an jona ka da <xliff:g id="application_personal">%3$s</xliff:g>, wanda zai iya lura da hada hadar hanyar sadarwarka da kanka."</string>
+<string name="monitoring_description_vpn_app_device_owned">"Wanda ke gudanar da na\'urarka <xliff:g id="organization">%1$s</xliff:g>.\n\nMai gudanarwarka zai iya lura da tare da gudanar da saituka, manhajojin damar hukuma, bayanan da ke damfare da na\'urarka, da kuma bayanin wurin na\'urarka. \n\nAn jona ka da <xliff:g id="application">%2$s</xliff:g>, wanda zai iya lura da hada hadar hanyar sadarwarka, da suka hada da sakonnin imel, manhajoji da shafukan yanar-gizo.\n\nDon karin bayani, tuntubi mai gudanarwarkar."</string>
+<string name="keyguard_indication_trust_disabled">"Na\'aurar za ta kasance a rufe har sai ka bude ta da hannu"</string>
+<string name="hidden_notifications_title">"Samu ankararwa mafi sauri"</string>
+<string name="hidden_notifications_text">"Duba su kafin ka bude"</string>
+<string name="hidden_notifications_cancel">"A\'a na gode"</string>
+<string name="hidden_notifications_setup">"Kafa"</string>
+<string name="zen_mode_and_condition">"<xliff:g id="zen_mode" example="Priority interruptions only">%1$s</xliff:g>. <xliff:g id="exit_condition" example="For one hour">%2$s</xliff:g>"</string>
+<string name="volume_zen_end_now">"Kare yanzu"</string>
+<string name="accessibility_volume_expand">"Fadada"</string>
+<string name="accessibility_volume_collapse">"Auka"</string>
+<string name="screen_pinning_title">"Shasa an danne"</string>
+<string name="screen_pinning_description">"wannna zai bar ta a makale har sai ka cire ta. Taba &amp;amp Ka danne baya har sai ya fita."</string>
+<string name="screen_pinning_positive">"AN SAMU"</string>
+<string name="screen_pinning_negative">"A\'a na gode"</string>
+<string name="quick_settings_reset_confirmation_title">"Boye <xliff:g id="tile_label" misali="Hotspot">%1$s</xliff:g>?"</string>
+<string name="quick_settings_reset_confirmation_message">"Za ta sake bayyana a duk lokacin da ka kunna ta a saitoci."</string>
+<string name="quick_settings_reset_confirmation_button">"Boye"</string>
+<string name="volumeui_prompt_message">"<xliff:g id="app_name" example="Volume Prototype 1">%1$s</xliff:g> yana son zama tadin masarrafin sauti."</string>
+<string name="volumeui_prompt_allow">"A kyale"</string>
+<string name="volumeui_prompt_deny">"Hana"</string>
+<string name="volumeui_notification_title">"<xliff:g id="app_name" example="Volume Prototype 1">%1$s</xliff:g> shine tadin masarrafin sauti"</string>
+<string name="volumeui_notification_text">"Dannan ka dawo da na asali"</string>
+<string name="managed_profile_foreground_toast">"Kana amfani da bayanin aikinka"</string>
+<string name="volume_stream_content_description_unmute">"%1$s. A danna a kunna sauti."</string>
+<string name="volume_stream_content_description_vibrate">"%1$s. A danna a saita jijjiga. Ayyukan samun dama ma za su iya yin shiru."</string>
+<string name="volume_stream_content_description_mute">"%1$s. A danna a kashe sauti. Ayyukan samun dama ma za su iya yin shiru."</string>
+<string name="volume_dialog_accessibility_shown_message">"%s a nuna madannan sauti. Shara su sama su bata."</string>
+<string name="volume_dialog_accessibility_dismissed_message">"An boye madannan sarrfa sauti"</string>
+<string name="system_ui_tuner">"Mai kamo tashar Na\'ura ta UI"</string>
+<string name="show_battery_percentage">"Nuna adadin yawan batiri da ke ciki"</string>
+<string name="show_battery_percentage_summary">"Nuna adadin matsayin batiri a cikin alamar ragayar matsayi lokacin da ba a caji\'"</string>
+<string name="quick_settings">"Saituka na Sauri"</string>
+<string name="status_bar">"ragayar matsayi"</string>
+<string name="overview">"Takaitaccen gani"</string>
+<string name="demo_mode">"Yanayin nunin fasaltawa"</string>
+<string name="enable_demo_mode">"Bada damar yanayin nunin fasaltawa"</string>
+<string name="show_demo_mode">"Nuna yanayin nunin fasaltawa"</string>
+<string name="status_bar_ethernet">"Ethernet"</string>
+<string name="status_bar_alarm">Kararrawar tunasarwa</string>
+<string name="status_bar_work">"Takaitaccen tarihin aiki"</string>
+<string name="status_bar_airplane">"Irin na jirgin sama"</string>
+<string name="add_tile">"Kara tayil"</string>
+<string name="broadcast_tile">"Watsa bayanan tayil"</string>
+<string name="zen_alarm_warning_indef">"Ba za ka ji kararrawarka mai zuwa ba <xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g> sai dai in ka kashe wannan kafin lokacin"</string>
+<string name="zen_alarm_warning">"Ba za ka ji kararrawarka mai zuwa ba <xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g>"</string>
+<string name="alarm_template">"a <xliff:g id="when" example="7:00 AM">%1$s</xliff:g>"</string>
+<string name="alarm_template_far">"akan <xliff:g id="when" example="Fri 7:00 AM">%1$s</xliff:g>"</string>
+<string name="accessibility_quick_settings_detail">"Sairuka na Sauri, <xliff:g id="title" example="Wi-Fi">%s</xliff:g>."</string>
+<string name="accessibility_status_bar_hotspot">"Gurabu"</string>
+<string name="accessibility_managed_profile">"Takaitaccen tarihin aiki"</string>
+<string name="tuner_warning_title">"Abin nishadi ga wasu, amma ba ga kowa ba"</string>
+<string name="tuner_warning">"Mai kamo tashar Na\'ura ta UI za ta baka karin hanyoyin da za ka murdawa tare da dauwamar da macudanyar mai amfani ta Android. Wadannan siffofin gwajin kan iya canjawa, karyewa, ko su bace a zubin kira na nan gaba. Cigaba cikin lura."</string>
+<string name="tuner_persistent_warning">"Wadannan siffofin gwajin kan iya canjawa, karyewa, ko su bace a zubin kira na nan gaba. Cigaba cikin lura." "</string>
+<string name="got_it">"AN SAMU"</string>
+<string name="tuner_toast">"Muna taya ka murna! An kara Mai kamo tashar Na\'ura ta UI a Saituka."</string>
+<string name="remove_from_settings">"Cire daga Saituka"</string>
+<string name="remove_from_settings_prompt">"A cire Mai kamo tashar Na\'ura ta UI daga Saituka kuma a daina amfani da duk siffofinta?"</string>
+<string name="activity_not_found">"Ba a sanya manhaja a na\'urarka ba"</string>
+<string name="clock_seconds">"A nuna sakan din agogo"</string>
+<string name="clock_seconds_desc">"Nuna sakan din agogo a ramin matsayi, zai iya shafar batiri"</string>
+<string name="qs_rearrange">"A ske jera satin gaggawa"</string>
+<string name="show_brightness">"A nuna haske a saitin gaggawa"</string>
+<string name="overview_nav_bar_gesture">"A kunna Isharar sharawa sama ta raba allo"</string>
+<string name="overview_nav_bar_gesture_desc">"A kunna ishara don shiga raba allo ta sharawa sama daga kasa"</string>
+<string name="experimental">"Na gwaji"</string>
+<string name="enable_bluetooth_title">"A kunna Bulutut"</string>
+<string name="enable_bluetooth_message">"Don hada madannanka da wayarka, sai ka fara kunna Bulutut."</string>
+<string name="enable_bluetooth_confirmation_ok">"Kunna "</string>
+<string name="show_silently">"A nuna sanarwa ba tare da sauti ba"</string>
+<string name="block">"A toshe dukkanin sanarwa"</string>
+<string name="do_not_silence">"Kar a sa a shiru"</string>
+<string name="do_not_silence_block">"Kar a sa a shiru ko a toshe"</string>
+<string name="tuner_full_importance_settings">"Sarrafa sanarwar wuta"</string>
+<string name="tuner_full_importance_settings_on">"A kunne"</string>
+<string name="tuner_full_importance_settings_off">"A KASHE"</string>
+<string name="power_notification_controls_description">"Zaka iyasaita muhimmana matakan sanarwar manhajoji daga 0 zuwa 5 da madannin sarrafa sanarwar wuta. \n\n<b>mataki na 5</b> \n- A nuna a saman jerin sanarwa \n- A ba da cikakkiyar damar katse hanzarin allo \n- Ko da yaushe a kalla \n\n<b>mataki na 4</b> \n- A hana cikakkiyar damar katse hanzarin allo \n- koyaushe a kalla \n\n<b>mataki na 3</b> \n- A hana cikakkiyar damar katse hanzarin allo \n- Kar a kalla \n\n<b>mataki na 2</b> \n- A hana cikakkiyar damar katse hanzarin allo \n- Kar a kalla \n- Kar a yi wani sauti da jijjiga \n\n<b>mataki na 1</b> \n- A han cikakkiyar damar katse hanzarin allo \n- Kar a kalla \n- Kar a yi wani sauti ko jijjiga \n- A boye daga makullin alllo da ramin mataki \n- A nuna a akrshen jerin sanarwa \n\n<b>Mataki na 0</b> \n- A toshe dukkanin sanarwa daga manhaja "</string>
+<string name="user_unspecified_importance">"Muhimmanci: Kai tsaye"</string>
+<string name="blocked_importance">"Muhimmanci: Mataki na 0"</string>
+<string name="min_importance">"Muhimmanci: Mataki na 1"</string>
+<string name="low_importance">"Muhimmanci: Mataki na 2"</string>
+<string name="default_importance">"Muhimmanci: Mataki na 3"</string>
+<string name="high_importance">"Muhimmanci: Mataki na 4"</string>
+<string name="max_importance">"Muhimmanci: Mataki na 5"</string>
+<string name="notification_importance_user_unspecified">"Manhaja ya ta auna muhimmancin kowacce sanarwa"</string>
+<string name="notification_importance_blocked">"Ka a sake nuna sanarwa daga wannan manhajar"</string>
+<string name="notification_importance_min">"Babu katse hanzarin cikakken allo lo leke ko sauti ko jijjiga. A boye daga makullin allo da ramin matsayi."</string>
+<string name="notification_importance_low">"Babu katse hanzarin cikakken allo lo leke ko sauti ko jijjiga."</string>
+<string name="notification_importance_default">"Babu katse hanzarin cikakken allo ko leke"</string>
+<string name="notification_importance_high">"koyaushe peek babu kutsen cikakken allo."</string>
+<string name="notification_importance_max">"koyaushe peek da kuma kutsen cikakken allo."</string>
+<string name="notification_more_settings">Karin wasu saitocin</string>
+<string name="notification_done">"An yi"</string>
+<string name="notification_gear_accessibility">"<xliff:g id="app_name" example="YouTube">%1$s</xliff:g> madannan sanarwa"</string>
+<string name="color_and_appearance">"Launi da kuma yanayi"</string>
+<string name="night_mode">"Yanayin dare"</string>
+<string name="calibrate_display">"Iyakar nunawa"</string>
+<string name="night_mode_on">"A kunne"</string>
+<string name="night_mode_off">"A KASHE"</string>
+<string name="turn_on_automatically">"Kunnuwa automatikiyyan"</string>
+<string name="turn_on_auto_summary">"A juya zuwa yanayin dare kamar yadda zai dace da wuri da kuma lokaci"</string>
+<string name="when_night_mode_on">"Idan an kunna yanayin dare"</string>
+<string name="use_dark_theme">"A yi amfani da bakar riga ga Android""</string>
+<string name="adjust_tint">"A saita launi"</string>
+<string name="adjust_brightness">"A saita haske"</string>
+<string name="night_mode_disclaimer">"An sanya bakar riga a manayan wuraren Android, da ake nuna su da farar riga, kamar saiti"</string>
+<string name="color_apply">"Nemi"</string>
+<string name="color_revert_title">"A tabbatar da saiti"</string>
+<string name="color_revert_message">"Wasu saitin launin za su sa wannan na\'urar ta ki amfanuwa. Danna TO ka tabbatar da wadannan saitin launin, idan ba haka ba kuma za a sake saita wadannan saitunan nan da sakan 10"</string>
+<string name="battery_panel_title">"Amfani da batir"</string>
+<string name="battery_detail_charging_summary">"Babu sabar batir yayin da ake kan caji"</string>
+<string name="battery_detail_switch_title">"Tattalin baturi"</string>
+<string name="battery_detail_switch_summary">"Yana rage aiki da data na bayan fage"</string>
+<string name="keyboard_key_button_template">"kasa <xliff:g id="name">%1$s</xliff:g>"</string>
+<string name="keyboard_key_back">"Baya"</string>
+<string name="keyboard_key_dpad_up">"Sama"</string>
+<string name="keyboard_key_dpad_down">"Kasa"</string>
+<string name="keyboard_key_dpad_left">"Hagu"</string>
+<string name="keyboard_key_dpad_right">"Dama"</string>
+<string name="keyboard_key_dpad_center">"Tsakiya"</string>
+<string name="keyboard_key_space">"sarari"</string>
+<string name="keyboard_key_backspace">"filin baya"</string>
+<string name="keyboard_key_media_play_pause">""Kunnawa/Dakatawa"</string>
+<string name="keyboard_key_media_stop">"Dakata"</string>
+<string name="keyboard_key_media_next">"Na gaba"</string>
+<string name="keyboard_key_media_previous">"Leka ka gani"</string>
+<string name="keyboard_key_media_rewind">"Dawo baya"</string>
+<string name="keyboard_key_media_fast_forward">"Tura gaba"</string>
+<string name="keyboard_key_page_up">"Shafin sama""</string>
+<string name="keyboard_key_page_down">"Shafin kasa"</string>
+<string name="keyboard_key_forward_del">"Goge"</string>
+<string name="keyboard_key_numpad_template">"Numpad <xliff:g id="name">%1$s</xliff:g>"</string>
+<string name="keyboard_shortcut_group_system">Injin</string>
+<string name="keyboard_shortcut_group_system_home">"Shafin farko"</string>
+<string name="keyboard_shortcut_group_system_recents">"Na bayan nan"</string>
+<string name="keyboard_shortcut_group_system_back">"Baya"</string>
+<string name="keyboard_shortcut_group_system_notifications">"Ankararwa"</string>
+<string name="keyboard_shortcut_group_system_shortcuts_helper">"Ratsen madannai"</string>
+<string name="keyboard_shortcut_group_system_switch_input">Kunna tsarin saka bayanai</string>
+<string name="keyboard_shortcut_group_applications">"Shirye-shirye"</string>
+<string name="keyboard_shortcut_group_applications_assist">"Tallafa"</string>
+<string name="keyboard_shortcut_group_applications_browser">"Burauza"</string>
+<string name="keyboard_shortcut_group_applications_contacts">"Matuntuba"</string>
+<string name="keyboard_shortcut_group_applications_email">"Emel"</string>
+<string name="keyboard_shortcut_group_applications_im">"IM"</string>
+<string name="keyboard_shortcut_group_applications_music">"Waka"</string>
+<string name="keyboard_shortcut_group_applications_calendar">"kalanda"</string>
+<string name="tuner_full_zen_title">"A nuna tare da abin sarrafa sauti"</string>
+<string name="volume_and_do_not_disturb">"Kar a tada hankali"</string>
+<string name="volume_dnd_silent">""Ratsen madannin sauti"</string>
+<string name="volume_up_silent">"A fita daga kar ka dameni idan an kara sauti"</string>
+<string name="battery">"Baturi"</string>
+<string name="clock">"Agogo"</string>
+<string name="headset">"Abin jin magana na kunne"</string>
+<string name="accessibility_status_bar_headphones">"An hada hedfon"</string>
+<string name="accessibility_status_bar_headset">"An hada hedfon"</string>
+<string name="data_saver">"Aikin Data"</string>
+<string name="accessibility_data_saver_on">"an kunna aikin data"</string>
+<string name="accessibility_data_saver_off">""An kashe aikin data"</string>
+<string name="switch_bar_on">"A kunne"</string>
+<string name="switch_bar_off">"A KASHE"</string>
+<string name="nav_bar">"Sandar lalube"</string>
+<string name="start">"Fara"</string>
+<string name="center">"Tsakiya"</string>
+<string name="end">"Karshe"</string>
+<string name="space">"Mai samar da wuri"</string>
+<string name="menu_ime">"Menu / Mai kunna Madannai"</string>
+<string name="select_button">"A zabi madanni don a kara"</string>
+<string name="add_button">"A kara madanni"</string>
+<string name="save">"Adana"</string>
+<string name="reset">"sake saiti"</string>
+<string name="no_home_title">"Ba a samu madannin gida ba"</string>
+<string name="no_home_message">"Ana bukatar madannin gidan don a samu damar kewaye a wannan na\'urra. A kara madannin gida kafin adanawa."</string>
+<string name="adjust_button_width">"A saita fadin madannin"</string>
+<string name="clipboard">"Allon like"</string>
+<string name="clipboard_description">"Allon rikewa yana ba da damar a jawo abubuwa zuwa gare shi kai tsaye. Za kuma a iya janye abu waje kai tsaye daga allon rikewa idan akwai."</string>
+<string name="accessibility_key">"A tsara madannin kewaye"</string>
+<string name="keycode">"Keycode"</string>
+<string name="keycode_description">"Madannin \'keycode\' yana ba da damar kara madannanai a ramin kewaye. Idan aka danna suna kwaikwayar madannin. Da farko sai an fara zabar madanni sannan a nuna wani hoto a kan madannin."</string>
+<string name="select_keycode">"A zabi madanni"</string>
+<string name="preview">"Leka ka gani"</string>
+<string name="drag_to_add_tiles">"Jawo ka kara tile"</string>
+<string name="drag_to_remove_tiles">"Jawo shi nan ka cire"</string>
+<string name="qs_edit">"Gyara"</string>
+<string name="tuner_time">"Lokaci"</string>
+<string-array name="clock_options">
+<item>"A nuna awanni da mintina da sakanni"</item>
+<item>"A nuna awanni da mintina (Na asali)"</item>
+<item>"Kar a nuna wannan alamar"</item>
+</string-array>
+<string-array name="battery_options">
+<item>"koyaushe a nuna kaso cikin dari"</item>
+<item>"A nuna adadin caji yayin da ake cajin (na asali)"</item>
+<item>"Kar a nuna wannan alamar"</item>
+</string-array>
+<string name="other">"Wasu"</string>
+<string name="accessibility_divider">"Mai raba allo"</string>
+<string name="accessibility_action_divider_left_full">"Saura cikakken allo"</string>
+<string name="accessibility_action_divider_left_70">"Saura 70%"</string>
+<string name="accessibility_action_divider_left_50">"Saura 50%"</string>
+<string name="accessibility_action_divider_left_30">"Saura 30%"</string>
+<string name="accessibility_action_divider_right_full">"Right full screen"</string>
+<string name="accessibility_action_divider_top_full">"Sama cikakken allo"</string>
+<string name="accessibility_action_divider_top_70">"Sama 70%"</string>
+<string name="accessibility_action_divider_top_50">"Sama 50%"</string>
+<string name="accessibility_action_divider_top_30">"Sama 30%"</string>
+<string name="accessibility_action_divider_bottom_full">"kasan cikakken allo"</string>
+<string name="accessibility_qs_edit_tile_label">"Wuri  <xliff:g id="position" example="2">%1$d</xliff:g>, <xliff:g id="tile_name" example="Wi-Fi">%2$s</xliff:g>.  A danna sau biyu a gyara."</string>
+<string name="accessibility_qs_edit_add_tile_label">"<xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g>. A danna sau biyu a kara."</string>
+<string name="accessibility_qs_edit_position_label">"Wuri <xliff:g id="position" example="2">%1$d</xliff:g>. A danna sau biyu a zaba."</string>
+<string name="accessibility_qs_edit_move_tile">"A matsar <xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g>"</string>
+<string name="accessibility_qs_edit_remove_tile">"A cire <xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g>"</string>
+<string name="accessibility_qs_edit_tile_added">"<xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g> an kara shi a bugiren <xliff:g id="position" example="5">%2$d</xliff:g>"</string>
+<string name="accessibility_qs_edit_tile_removed">"<xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g> an cire shi"</string>
+<string name="accessibility_qs_edit_tile_moved">"<xliff:g id="tile_name" example="Wi-Fi">%1$s</xliff:g> an matsar da shi zuwa bugiren <xliff:g id="position" example="5">%2$d</xliff:g>"</string>
+<string name="accessibility_desc_quick_settings_edit">"Mai gyara saitin gaggawa"</string>
+<string name="accessibility_desc_notification_icon">"<xliff:g name="app_name" example="Gmail">%1$s</xliff:g> sanarwa: <xliff:g name="notification_text" example="5 new messages">%2$s</xliff:g>"</string>
+<string name="dock_forced_resizable">"Watakila manhajar ba za ta yi aiki da raba allo ba."</string>
+<string name="dock_non_resizeble_failed_to_dock_text">"Manhaja ba ta aiki da raba allo."</string>
+<string name="accessibility_quick_settings_settings">"A bude saituna"</string>
+<string name="accessibility_quick_settings_expand">"A bude saitin gaggawa"</string>
+<string name="accessibility_quick_settings_collapse">"A rufe saitin gaggawa"</string>
+<string name="accessibility_quick_settings_alarm_set">"Saita alam."</string>
+<string name="accessibility_quick_settings_no_internet">"BA intanet""</string>
+<string name="accessibility_quick_settings_open_details">"A bude bayanai"</string>
+<string name="accessibility_quick_settings_open_settings">"A bude <xliff:g name="page" example="Bluetooth">%s</xliff:g> saituna."</string>
+<string name="accessibility_quick_settings_edit">""A gyara jerin saituna"</string>
+<string name="accessibility_quick_settings_page">"Shafi <xliff:g name="current_page" example="1">%1$d</xliff:g> na <xliff:g name="num_pages" example="2">%2$d</xliff:g>"</string>
+<string name="quick_settings_volume_label">"Bayanan sauti"</string>
+<string name="battery_level_template">"<xliff:g id="level" example="45">%d</xliff:g>%%"</string>
+<string name="battery_overtage_title">"Gargadin tsaro"</string>
+<string name="battery_overtage_content">"Wutar da ake caji ta yi yawa!"</string>
+<string name="battery_overtage_back">"Baya"</string>
+<string name="assistant_key_home">"Shafin farko"</string>
+<string name="assistant_key_search">"Bincika"</string>
+<string name="assistant_key_menu">"Jadalin shirye shirye"</string>
+<string name="assistant_key_back">"Baya"</string>
+<string name="vibrate_hint">"Ja dama don gunji"</string>
+</resources>

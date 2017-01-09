@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright © 2016 Spreadtrum Communications Inc.
+*/
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- SPRD: Bug#474460 Add for SPRD USB Feature BEG @{ -->
+    <string name="usb_pc_internet_share">USB-PC internet share</string>
+    <string name="usb_pc_internet_share_available_subtext">USB connected, check to share USB-PC internet</string>
+    <string name="usb_pc_internet_share_active_subtext">"USB PC Internet access function is turned on"</string>
+    <string name="usb_pc_internet_share_errored_subtext">"USB-PC internet share error"</string>
+    <string name="usb_pc_internet_share_storage_active_subtext">Can\'t share internet when USB storage is in use</string>
+    <string name="usb_pc_choose_os">Please choose Operating System</string>
+    <string name="usb_pc_cancel">Cancel</string>
+    <string name="usb_pc_ok">OK</string>
+    <string name="usb_pc_next">Next</string>
+    <string name="usb_pc_back">Back</string>
+    <string name="usb_pc_guide">1.Open the Windows PC network.\n\n2.On the network you want to share right click and select Properties.\n\n3.Click Advanced Options, select \'Allow other network users to share Internet this computer to connect to \' (If your home network option appears, select the new USB network connection).</string>
+    <!-- Add for SPRD USB Feature END -->
+    <!-- SPRD: add for WIFI/BT function @{ -->
+    <string name="softap_bt_cannot_coexist">"When bluetooth is enabled or is turning on, the softap can not work, if you want to use the softap, please make sure that the bluetooth is disabled."</string>
+    <!-- @} -->
+
+    <!-- SPRD: Bug #474425 Add for SoftAP/BT coexist feature -->
+    <string name="softap_need_mobile_data_enabled">"Portable Wi-Fi hotspot needs mobile data connect, may produce additional costs."</string>
+    <string name="bt_softap_cannot_coexist">"When softap is enabled or turning on, the bluetooth cannot work, if you want to use the bluetooth, please make sure that the softap is disabled."</string>
+    <!-- Add for SoftAP/BT coexist Feature END -->
+
+    <!-- SPRD: Bug#474381 support GPS automatic update time BEG -->
+    <string name="gps_time_sync_attention_gps_on">It will take at most 1 minute to obtain GPS fix. Besides, GPS may fail to provide time due to weak environmental signal.\n\nAre you sure to use GPS provided time?</string>
+    <string name="gps_time_sync_attention_gps_off">To use GPS provided time, you must enable GPS first. It then take at most 1 minute to obtain GPS fix. Besides, GPS may fail to provide time due to weak environmental signal. \n\nAre you sure to enable GPS now and wait for GPS provided time?</string>
+    <!-- support GPS automatic update time END -->
+
+    <!-- SPRD: Bug#412262 Add for SPRD USB Feature BEG @{ -->
+    <string name="usb_charge_only">Charge only</string>
+    <string name="usb_charge_only_summary">Use charge only mode when USB connected</string>
+    <string name="usb_virtual_drive">"USB virtual drive"</string>
+    <string name="usb_virtual_drive_summary">"Enable USB virtual drive"</string>
+    <string name="usb_storage">USB storage </string>
+    <string name="usb_storage_summary">Enable USB mass storage </string>
+    <!-- Add for SPRD USB Feature END -->
+
+ <!-- SPRD:  Bug#474680 support AGPS settings BEG -->
+    <string name="location_gps_config">AGPS enable option</string>
+    <string name="location_gps_config_summary">Whether to enable agps in different network environment.</string>
+    <string name="agps_enable_option_tailebar">AGPS enable option</string>
+    <string name="agps_enable_option_registered">Registered network</string>
+    <string name="agps_enable_option_all">All networks</string>
+    <string name="agps_enable_option_none">Do not use AGPS</string>
+    <string name="agps_enable_default_set_text">Clicking for restore the default settings.</string>
+    <string name="agps_enable_default_set_button">Default settings</string>
+    <string name="agps_config_help_tailebar">AGPS help</string>
+    <string name="agps_config_help_text">Using AGPS will generate international roaming fees if you selected All networks in AGPS enable option, when your phone is international roaming.</string>
+    <string name="settings_other">Other</string>
+    <!-- support AGPS settings END -->
+
+</resources>

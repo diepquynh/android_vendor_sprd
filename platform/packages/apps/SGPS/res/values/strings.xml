@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SGPS</string>
+    <string name="empty"></string>
+    <string name="menu_copyright">Copyright</string>
+    <string name="menu_ublox">Initialize GPS Chip</string>
+    <string name="menu_settings">Ublox Settings</string>
+    <string name="menu_showloc">Show Location</string>
+    <string name="menu_hideloc">Hide Location</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_satellite">Satellite</string>
+    <string name="menu_gps_cfg">AGPS Setting</string>
+    <string name="menu_agps_log">AGPS log</string>
+    <string name="title_time">Time:</string>
+    <string name="time"></string>
+    <string name="title_lat">Latitude:</string>
+    <string name="title_lat_option">Latitude:(option)</string>
+    <string name="latitude"></string>
+    <string name="title_lon">Longitude:</string>
+    <string name="title_lon_option">Longitude:(option)</string>
+    <string name="first_latitude_text">First Latitude:</string>
+    <string name="first_longtitude_text">First Longitude:</string>
+    <string name="longitude"></string>
+    <string name="title_alt">Altitude:</string>
+    <string name="altitude"></string>
+    <string name="title_acc">Accuracy:</string>
+    <string name="accuracy"></string>
+    <string name="title_bear">Heading:</string>
+    <string name="bearing"></string>
+    <string name="title_speed">Speed:</string>
+    <string name="speed"></string>
+    <string name="nema"></string>
+    <string name="debug"></string>
+    <string name="title_ttff">TTFF:</string>
+    <string name="title_fix">Fix:</string>
+    <string name="ttff"></string>
+    <string name="fix"></string>
+    <string name="title_provider">Provider:</string>
+    <string name="title_status">Status:</string>
+    <string name="provider"></string>
+    <string name="status"></string>
+    <string name="title_distance">Distance:</string>
+    <string name="distance"></string>
+    <string name="title_date">Date:</string>
+    <string name="date"></string>
+    <string name="title_gps_version">GPS version:</string>
+    <string name="chipversion">UNKNOWN</string>
+    <string name="title_sgps_version">SGPS version:</string>
+    <string name="mnlversion">NMEA5.0</string>
+    <string name="hot">Hot</string>
+    <string name="warm">Warm</string>
+    <string name="cold">Cold</string>
+    <string name="full">Factory</string>
+    <string name="start">Restart</string>
+    <string name="restart">AGPS restart</string>
+    <string name="satellites">Satellites</string>
+    <string name="information">Information</string>
+    <string name="gps_test">GPS Test</string>
+    <string name="nmea_log">NMEA Log</string>
+    <string name="nmea_start">start</string>
+    <string name="nmea_stop">stop</string>
+    <string name="nmea_clear">clear</string>
+    <string name="nmea_save">save</string>
+    <string name="nmea_hint">The NMEA log below is being saved:</string>
+    <string name="gps_test_start">Start</string>
+    <string name="gps_test_times">Times 0 – 999:</string>
+    <string name="gps_test_interval">Interval 0 – 999(s):</string>
+    <string name="no_sdcard">Please check the SD card.</string>
+    <string name="gps_test_current_times">Current Times:</string>
+    <string name="need_3d_fix">Need 3D Fix</string>
+    <string name="last_ttff">Last TTFF:</string>
+    <string name="reconnect_countdown">Count down:</string>
+    <string name="restart_mode">Restart Mode:</string>
+    <string name="gps_test_stop">Stop</string>
+    <string name="gps_test_mean_ttff">Avarage TTFF:</string>
+    <string name="nmea_dbg_dbg">Undried</string>
+    <string name="nmea_dbg_nmea">Undried</string>
+    <string name="nmea_dbg_dbg_file">Undried</string>
+    <string name="nmea_dbg_nmea_file">Undried</string>
+    <string name="hot_still">Undried</string>
+    <string name="gps_hw_test">Undried</string>
+    <string name="gps_jamming_scan">JAM scan</string>
+    <string name="jamming_scan_times">20</string>
+    <string name="toast_input_times">Please input test times</string>
+    <string name="toast_input_range">Please input a number between 0 and 999</string>
+    <string name="toast_input_interval">Please input interval</string>
+    <string name="toast_gps_input_range">Please input a number between -360 and 360 or left empty</string>
+    <string name="btn_name_dbg2socket_enable">Enable dbg2socket [Need Restart]</string>
+    <string name="btn_name_dbg2socket_disable">Disable dbg2socket [Need Restart]</string>
+    <string name="btn_name_nmea2socket_enable">Enable nmea2socket [Need Restart]</string>
+    <string name="btn_name_nmea2socket_disable">Disable nmea2socket [Need Restart]</string>
+    <string name="btn_name_dbg2file_enable">Enable dbg2file [Need Restart]</string>
+    <string name="btn_name_dbg2file_disable">Disable dbg2file [Need Restart]</string>
+    <string name="btn_name_dbg2ddms_disable">Disable dbg2ddms [Need Restart]</string>
+    <string name="btn_name_dbg2ddms_enable">Enable dbg2ddms [Need Restart]</string>
+    <string name="btn_name_hotstill_disable">Disable Hotstill [Need Restart]</string>
+    <string name="btn_name_hotstill_enable">Enable Hotstill [Need Restart]</string>
+    <string name="btn_name_dbg2gpsdoctor_enable">Enable dbg2GPSDoctor [Need Restart]</string>
+    <string name="btn_name_dbg2gpsdoctor_disable">Disable dbg2GPSDoctor [Need Restart]</string>
+    <string name="toast_save_log_succeed_to">Save NmeaLog to %1$s Succeed!</string>
+    <string name="toast_save_log_succeed">Save NmeaLog failed</string>
+    <string name="toast_save_log_failed">Save NmeaLog failed</string>
+    <string name="toast_create_file_failed">Create new file failed</string>
+    <string name="toast_nmealog_save_at">NMEA log saved at %1$s</string>
+    <string name="toast_autotestlog_save_at">AutoTest log saved at %1$s</string>
+    <string name="toast_no_log">There is no log to save!</string>
+    <string name="toast_exceed_time">Exceed %1$s seconds</string>
+    <string name="toast_test_interrupted">GPS auto test interrupted</string>
+    <string name="toast_jamming_succeed">Jamming scan setting success</string>
+    <string name="toast_jamming_failed">Jamming scan setting fail</string>
+    <string name="toast_first_fix">GPS Fix after %1$d %2$s</string>
+    <string name="menu_run_bg_disable">Disable Run in BG. [Need Restart.]</string>
+    <string name="menu_run_bg_enable">Enable Run in BG. [Need Restart.]</string>
+    <string name="provider_status_enabled">%1$s enabled</string>
+    <string name="provider_status_disabled">%1$s disabled</string>
+    <string name="gps_status_started">STARTED</string>
+    <string name="gps_status_stopped">STOPPED</string>
+    <string name="gps_status_first_fix">FIRST_FIX</string>
+    <string name="gps_status_unavailable">UNAVAILABLE</string>
+    <string name="gps_status_available">AVAILABLE</string>
+    <string name="gps_status_unknown">Spreadtrum.Inc</string>
+    <string name="time_unit_ms">&#160;ms</string>
+    <string name="dialog_title_stop">Stopping</string>
+    <string name="dialog_message_stop">Please wait …</string>
+    <string name="dialog_title_error">Error</string>
+    <string name="dialog_message_error">Error dialog ID</string>
+    <string name="command_error">Command error</string>
+    <string name="gps_test_running_warn">Please stop GPS test</string>
+    <string name="supl_log">unDired</string>
+    <string name="btn_name_supllog_disable">Disable GPS.LOG</string>
+    <string name="btn_name_supllog_enable">Enable GPS.LOG</string>
+    <string name="uart_log_switch">Save in BG</string>
+
+	<!-- SPRD:AGPS tab -->
+    <string name="agps_title">AGPS</string>
+    <string name="agps_plane_switch_text">CP and UP switching</string>
+    <string name="radio_control_text">Control Plane</string>
+    <string name="radio_user_text">User Plane</string>
+    <string name="agps_control_plane_title_text">Control Plane Settings</string>
+    <string name="agps_molr_position_method_title_text">MOLR Position Method</string>
+    <string name="radio_location_estimate_text">Location Estimate</string>
+    <string name="radio_assistance_data_text">Assistance Data</string>
+    <string name="cb_external_address_text">External Address</string>
+    <string name="cb_mlc_number_text">MLC Number</string>
+    <string name="bt_agps_save_text">Save</string>
+    <string name="auto_reset_text">CP Auto Reset</string>
+    <string name="agps_sim_selection_text">SIM Selection</string>
+    <string name="radio_sim1_text">SIM1 Preferred</string>
+    <string name="radio_sim2_text">SIM2 Preferred</string>
+    <string name="ttff_calculating">Calculating</string>
+
+    <!-- SPRD:SGPS switch -->
+    <string name="sgps_swtich_text">SGPS Switch</string>
+    <string name="sgps_start">开始</string>
+    <string name="sgps_stop">结束</string>
+    <string name="agps_mode_title">A-GPS Mode</string>
+    <string name="radio_agps_mode_standalone_text">standalone</string>
+    <string name="radio_agps_mode_msb_text">MSB</string>
+    <string name="radio_agps_mode_msa_text">MSA</string>
+    <string name="user_plane_settings_title">User Plane Settings</string>
+    <string name="slp_template_text">SLP Template</string>
+    <string name="slp_test_text">SLP Test</string>
+    <string name="slp_address_title">SLP Address</string>
+    <string name="slp_port_title">SLP Port</string>
+    <string name="edit">Edit</string>
+    <string name="tls_checkbox_text">TLS Enable</string>
+    <string name="set_id_text">Set ID</string>
+    <string name="radio_ipv4_text">Ipv4</string>
+    <string name="radio_imsi_text">IMSI</string>
+    <string name="accuracy_unit_text">Accuracy unit</string>
+    <string name="radio_k_value_text">K-Value</string>
+    <string name="radio_meter_text">Meter</string>
+    <string name="horizontal_accuracy_title">Horizontal Accuracy</string>
+    <string name="vertical_accuracy_title">Vertical Accuracy</string>
+    <string name="location_age_title">Location Age</string>
+    <string name="delay_title">Delay</string>
+    <string name="certificate_verification_checkbox_text">Certificate Verification</string>
+    <string name="enable_lab_iot_test_checkbox_text">Enable Lab IOT Test</string>
+    <string name="enable_ecid_checkbox_text">Enable eCID</string>
+    <string name="supl2_title">SUPL 2.0</string>
+    <string name="supl2_enable_checkbox_text">Enable SUPL 2.0</string>
+    <string name="silr_text">SILR</string>
+    <string name="msisdn_title">MSISDN</string>
+    <string name="enable_3rd_msisdn_checkbox_text">Enable 3rd MSISDN</string>
+    <string name="trigger_settings_title">Trigger Settings</string>
+    <string name="start_text">Start</string>
+    <string name="abort_text">Abort</string>
+    <string name="trigger_type_text">Trigger Type</string>
+    <string name="radio_periodic_text">Periodic</string>
+    <string name="radio_area_text">Area</string>
+    <string name="posmethod_title">PosMethod</string>
+    <string name="area_settings_title">Area Settings</string>
+    <string name="perodic_settings_title">Perodic Settings</string>
+    <string name="area_type_title">Area Type</string>
+    <string name="area_type_text">Area Type</string>
+    <string name="min_interval_title">Min Interval</string>
+    <string name="max_num_title">Max Num</string>
+    <string name="start_time_title">Start Time</string>
+    <string name="stop_time_title">Stop Time</string>
+    <string name="geographic_title">Geographic</string>
+    <string name="georadius_title">GeoRadius</string>
+    <string name="latitude_title">Latitude</string>
+    <string name="longitude_title">Longitude</string>
+    <string name="sign_title">Sign</string>
+    <string name="radio_north_text">North</string>
+    <string name="radio_south_text">South</string>
+    <string name="feature_enable_title">Feature Enabler</string>
+    <string name="allow_network_initiated_request_text">Allow Network Initiated Request</string>
+    <string name="allow_em_notification_text">Allow EM Notification</string>
+    <string name="allow_roaming_text">Allow Roaming</string>
+    <string name="log_supl_to_file_text">Log SUPL To File</string>
+    <string name="ni_dialog_customization_title">NI Dialog Customization</string>
+    <string name="notification_timeout_text">Notification Timeout</string>
+    <string name="verification_timeout_text">Verification Timeout</string>
+    <string name="reset_to_default_title">Reset To Default</string>
+    <string name="reset_to_default_title_bt_text">Reset To Default</string>
+    <string name="ni_dialog_test_title">NI Dialog Test</string>
+    <string name="ni_dialog_test_bt_text">NI Tests</string>
+    <string name="dlg_ok">ok</string>
+    <string name="dlg_cancel">cancel</string>
+    <string name="mola_trigger_text">MOLA Trigger</string>
+
+    <string-array name="slp_array">
+        <item>www.spirent-lcs.com:7275:Lab Spirent</item>
+        <item>slp.rs.de:7275:Lab Rns</item>
+        <item>218.206.176.50:7275:Lab Cmcc</item>
+        <item>slp1acva.andrew.com:7275:Lab Andrew</item>
+        <item>172.22.1.100:7275:Lab Ericsson</item>
+        <item>mvtvltegmpc.naladmz.ericsson.ca:7275:Lab Ericsson FQDN</item>
+        <item>supl.monternet.com:7275:CMCC</item>
+        <item>agps.supl.telstra.com:7275:Telstra</item>
+    </string-array>
+    <string-array name="posmethod_array">
+        <item>Set Assist</item>
+        <item>Set Base</item>
+        <item>Set Assist Pref</item>
+        <item>Set Base Pref</item>
+        <item>Auto</item>
+        <item>Ecid</item>
+        <item>No Position</item>
+        <item>Session info</item>
+    </string-array>
+    <string-array name="posmethod_array_values">
+        <item>ASSIST</item>
+        <item>BASE</item>
+        <item>ASSIST PREF</item>
+        <item>BASE PREF</item>
+        <item>AUTO</item>
+        <item>ECID</item>
+        <item>NO POSITION</item>
+        <item>SESSION INFO</item>
+    </string-array>
+    <string-array name="area_type_array">
+        <item>Entering Area</item>
+        <item>Inside Area</item>
+        <item>Outside Area</item>
+        <item>Leaving Area</item>
+    </string-array>
+    <string-array name="area_type_array_values">
+        <item>ENTERING</item>
+        <item>INSIDE</item>
+        <item>OUTSIDE</item>
+        <item>LEAVING</item>
+    </string-array>
+    <string-array name="notification_timeout_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="verification_timeout_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="ni_dialog_test_array">
+        <item>NOTIFY-Notification Only</item>
+        <item>NOTIFY-Allow no answer</item>
+        <item>NOTIFY-Deny no answer</item>
+    </string-array>
+    <string-array name="ni_dialog_test_array_values">
+        <item>NOTIFIONLY</item>
+        <item>ALLOW</item>
+        <item>DENY</item>
+    </string-array>
+
+    <string name="default_mpm" translatable="false">LOCATION</string>
+    <string name="default_external_address" translatable="false">123456</string>
+    <string name="default_mlc_number" translatable="false">123456</string>
+    <bool name="default_external_address_checkbox_checked" translatable="false">false</bool>
+    <bool name="default_mlc_number_checkbox_checked" translatable="false">false</bool>
+
+    <bool name="default_cp_autoreset" translatable="false">true</bool>
+
+    <string name="default_sim_prefer" translatable="false">SIM1</string>
+    <string name="default_supl_mode" translatable="false">msb</string>
+    <string name="default_server_address" translatable="false"></string>
+    <string name="default_server_port" translatable="false">7275</string>
+    <string name="default_supl_version" translatable="false">v1.0.0</string>
+
+    <bool name="default_tls_enable" translatable="false">true</bool>
+
+    <string name="default_set_id" translatable="false">IMSI</string>
+    <string name="default_accuracy_unit" translatable="false">METER</string>
+    <string name="default_horizon_accuracy" translatable="false">25</string>
+    <string name="default_vertical_accuracy" translatable="false">10</string>
+    <string name="default_loc_age" translatable="false">0</string>
+    <string name="default_delay" translatable="false">0</string>
+
+    <bool name="default_cer_verify" translatable="false">false</bool>
+
+    <string name="default_supl_cer" translatable="false">/data/cg/supl/spirentroot.cer</string>
+
+    <bool name="default_lab_iot" translatable="false">false</bool>
+    <bool name="default_enable_ecid" translatable="false">false</bool>
+
+    <string name="default_local_msisdn" translatable="false">0</string>
+    <string name="default_3rd_msisdn" translatable="false">0</string>
+    <string name="default_trigger_type" translatable="false">AREA</string>
+    <string name="default_periodic_posmethod" translatable="false">BASE</string>
+    <string name="default_area_posmethod" translatable="false">BASE</string>
+    <string name="default_area_type" translatable="false">INSIDE</string>
+    <string name="default_periodic_min_interval" translatable="false">60</string>
+    <string name="default_periodic_start_time" translatable="false">30</string>
+    <string name="default_periodic_stop_time" translatable="false">240</string>
+    <string name="default_area_min_interval" translatable="false">60</string>
+    <string name="default_max_num" translatable="false">5</string>
+    <string name="default_area_start_time" translatable="false">30</string>
+    <string name="default_area_stop_time" translatable="false">240</string>
+    <string name="default_geographic" translatable="false">CIRCULAR</string>
+    <string name="default_georadius" translatable="false">1000</string>
+    <string name="default_geo_lat" translatable="false">31.6658</string>
+    <string name="default_geo_lon" translatable="false">121.4564</string>
+    <string name="default_sign" translatable="false">NORTH</string>
+
+    <bool name="default_ni_enable" translatable="false">true</bool>
+    <bool name="default_em_notify" translatable="false">false</bool>
+    <bool name="default_roaming_enable" translatable="false">true</bool>
+    <bool name="default_supllog_save" translatable="false">false</bool>
+
+    <string name="default_notify_timeout" translatable="false">8</string>
+    <string name="default_verify_timeout" translatable="false">8</string>
+    <string name="default_ni_test" translatable="false">NOTIFIONLY</string>
+    <string name="single_satellite_text" >Single satellite Switch</string>
+    <!-- SPRD:add for GE2 b -->
+    <string name="spreadorbit_swtich_text">SpreadOrbit Switch</string>
+    <string name="real_eph_switch_text">Real-EPH Switch</string>
+    <string name="gnss_log_switch_text">GNSS Log Switch</string>
+    <string name="switch_on">On</string>
+    <string name="switch_off">Off</string>
+    <string name="GpsOnly">GPS Only</string>
+    <string name="GlonassOnly">GLONASS Only</string>
+    <string name="BDSOnly">BDS Only</string>
+    <string name="GlonassGps">GLONASS+GPS</string>
+    <string name="GpsBDS">GPS+BDS</string>
+    <string name="gps_circle_test">GPS Circle Test</string>
+    <string name="gps_test_transfer_interval">transfer_Interval 0 \u2013 999(s):</string>
+    <string name="gps_test_default_interval">10</string>
+    <string name="gps_test_default_switch_interval">5</string>
+    <string name="gps_test_save">save</string>
+    <string name="gps_ttff_timeout">ttff timeout</string>
+    <string name="toast_input_ttff_timeout_value">Please input ttff timeout value</string>
+    <string name="title_average_cn0">AverageCN0:</string>
+    <string name="average_cn0"></string>
+    <string name="save_latitude_longitude">Save the latitude and longitude successful!</string>
+    <!-- SPRD:add for GE2 e -->
+    <string name="agps_network_swtich_text">AGPS Network</string>
+    <string name="agps_2g_network" translatable="false">2G</string>
+    <string name="agps_4g_network" translatable="false">3G/4G</string>
+
+    <string name="start_gps_dialog_title" >GPS Setting</string>
+    <string name="start_gps_dialog_message_need_restart" >GPS is not open, please open the GPS before test.Need to restart SGPS</string>
+    <string name="start_gps_dialog_message" >GPS is not open, please open the GPS before test.</string>
+    <string name="restart_gps_dialog_message" >please restart the GPS before test.</string>
+    <string name="geofence_info_title" >Geofence info</string>
+    <string name="not_support_visitor_or_user_mode">Visitor or user mode does not support this feature.</string>
+    <string name="btn_assert_text">Trigger assert</string>
+    <string name="feature_not_support">Unsupport GE</string>
+    <string name="gps_img_mode">GPS IMG MODE</string>
+    <string name="gps_beidou">GPS BEIDOU</string>
+    <string name="gps_glonass">GPS GLONASS</string>
+
+</resources>

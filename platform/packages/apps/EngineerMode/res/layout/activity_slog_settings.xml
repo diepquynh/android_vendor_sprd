@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/slogui_ab_background_overlay"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/slogui_settings_icon"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/slogui_settings_title"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutOverall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/settings_device_log_setting"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#FF85D9FF"
+                android:gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <View style="@style/SlogUICheckDivider" />
+
+            <CheckBox
+                android:id="@+id/settings_collector_general"
+                style="@style/SlogUISettingCollectorStyle"
+                android:text="@string/collector_genral" />
+
+            <View style="@style/SlogUICheckDivider" />
+
+            <LinearLayout
+                android:id="@+id/settings_collection_general_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <CheckBox
+                    android:id="@+id/settings_collection_general_show_notification"
+                    style="@style/SlogUISettingCheckBoxStyle"
+                    android:text="@string/collection_general_show_notification" />
+
+                <View style="@style/SlogUICheckDivider" />
+
+                <CheckBox
+                    android:id="@+id/settings_collection_general_snap_service"
+                    style="@style/SlogUISettingCheckBoxStyle"
+                    android:text="@string/collection_general_screen_service" />
+
+                <View style="@style/SlogUICheckDivider" />
+
+                <CheckBox
+                    android:id="@+id/settings_collection_general_save_all"
+                    style="@style/SlogUISettingCheckBoxStyle"
+                    android:visibility="gone"
+                    android:text="@string/collection_general_save_all" />
+
+               <!--  <View style="@style/SlogUICheckDivider"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/collection_general_prompt_logpath"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/settings_collection_general_storage_data"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@drawable/slogui_radio"
+                        android:text="@string/collection_general_logpath_data" />
+
+                    <RadioButton
+                        android:id="@+id/settings_collection_general_storage_external"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@drawable/slogui_radio"
+                        android:text="@string/collection_general_logpath_external" />
+                </RadioGroup> 
+
+                <View style="@style/SlogUICheckDivider" />-->
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/settings_collector_android"
+                style="@style/SlogUISettingCollectorStyle"
+                android:text="@string/ap_log_settings" />
+
+            <View style="@style/SlogUICheckDivider" />
+
+            <LinearLayout
+                android:id="@+id/settings_collection_android_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <CheckBox
+                    android:id="@+id/settings_collection_cap"
+                    style="@style/SlogUISettingCheckBoxStyle"
+                    android:text="@string/switch_cap" />
+
+                <CheckBox
+                    android:id="@+id/settings_collection_bluetooth"
+                    style="@style/SlogUISettingCheckBoxStyle"
+                    android:text="@string/switch_bluetooth" />
+
+                <CheckBox
+                    android:id="@+id/settings_collection_android_branch"
+                    style="@style/SlogUISettingCheckBoxStyle"
+                    android:text="@string/switch_android" />
+
+                <View style="@style/SlogUICheckDivider" />
+
+                <TextView
+                    android:id="@+id/settings_android_branch_prompt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/prompt_branches"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <CheckBox
+                    android:id="@+id/settings_collection_android_system"
+                    style="@style/SlogUISettingCheckBoxStyle"
+                    android:text="@string/switch_system" />
+
+                <CheckBox
+                    android:id="@+id/settings_collection_android_main"
+                    style="@style/SlogUISettingCheckBoxStyle"
+                    android:text="@string/switch_main" />
+
+                <CheckBox
+                    android:id="@+id/settings_collection_android_kernel"
+                    style="@style/SlogUISettingCheckBoxStyle"
+                    android:text="@string/switch_kernel" />
+
+                <CheckBox
+                    android:id="@+id/settings_collection_android_radio"
+                    style="@style/SlogUISettingCheckBoxStyle"
+                    android:text="@string/switch_radio" />
+
+                <CheckBox
+                    android:id="@+id/settings_collection_android_events"
+                    style="@style/SlogUISettingCheckBoxStyle"
+                    android:text="@string/switch_events" />
+
+                <View style="@style/SlogUICheckDivider" />
+
+                <TextView
+                    android:id="@+id/ap_log_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/collector_loglevel"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/settings_collection_loglevel_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/slogui_radio"
+                        android:text="@string/collector_loglevel2" />
+
+                    <RadioButton
+                        android:id="@+id/settings_collection_loglevel_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/slogui_radio"
+                        android:text="@string/collector_loglevel3" />
+
+                    <RadioButton
+                        android:id="@+id/settings_collection_loglevel_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/slogui_radio"
+                        android:text="@string/collector_loglevel5" />
+                </RadioGroup>
+
+                <View style="@style/SlogUICheckDivider" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:text="@string/collection_others_log_control_prompt"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <Button
+                    android:id="@+id/settings_collection_other_clear"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="@string/collection_others_clear_logs" />
+                <Button
+                    android:id="@+id/settings_collection_other_dump"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="@string/collection_others_dump_log" />
+
+                <View style="@style/SlogUICheckDivider" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/settings_collector_cp"
+                style="@style/SlogUISettingCollectorStyle"
+                android:text="@string/collector_cp_settings" />
+
+            <View style="@style/SlogUICheckDivider" />
+ 
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

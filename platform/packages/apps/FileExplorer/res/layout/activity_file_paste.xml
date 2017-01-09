@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/path_bar_file_explore_activity"
+        android:layout_width="match_parent"
+        android:layout_height="24dip"
+        android:background="@drawable/folder_path_background"
+        android:ellipsize="middle"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:singleLine="true"
+        android:textColor="@color/folder_path_text_color"
+        android:textIsSelectable="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <ListView
+            android:id="@+id/list_paste"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/emptyView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/empty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/file_empty"
+                android:gravity="center"
+                android:paddingLeft="28dip"
+                android:paddingRight="28dip"
+                android:text="@string/empty_view_prompt"
+                android:textSize="16sp"
+                android:textColor="@color/file_explore_empty_view_text_color" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/standby"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

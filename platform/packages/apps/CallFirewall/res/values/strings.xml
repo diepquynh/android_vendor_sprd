@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">CallFireWall</string>
+
+    <!-- BlackCallsListAddActivity add phonenumber. -->
+    <string name="blackcalls_add_phone_tip_error">Please input correct mobile phone number</string>
+    <string name="blackcalls_add_type_tip_error">Please select type</string>
+    <string name="blackcalls_add_phone_tip_error_existed_phone">This number already exists, can not be repeated to add</string>
+    <string name="blackcalls_add_phone_tip_success">Blacklist number has been added successfully</string>
+    <string name="blackcalls_edit_phone_tip_success">Blacklist number has been edited successfully</string>
+    <string name="blackcalls_add_phone_import_type">0123456789</string>
+
+    <!-- BlackCallsListAddActivity delete phonenumber. -->
+    <string name="blackcalls_delete_phone_tip_error_not_select">Please select the phone number you want to delete</string>
+
+    <!-- Fixed bug 4379 by phone_07. 2011.10.20 -->
+    <string name="blackcalls_delete_not_select">Please select delete items</string>
+
+    <!-- The The description text for the black call add text -->
+    <string name="black_calls_add_number_label">Phone number</string>
+    <string name="black_calls_add_type_label">Intercept content </string>
+    <string name="black_calls_add_name_label"> Name </string>
+    <!-- The The description text for the black call add radiobutton text shi hao jie -->
+    <string name="blacklist_radioButtonCall">Call </string>
+    <string name="blacklist_radioButtonVideoCall">"Video Call" </string>
+    <string name="blacklist_radioButtonSms">Message </string>
+    <string name="blacklist_radioButtonAll">All Call And Message</string>
+
+    <!-- The The description text for the black call list text shi hao jie -->
+    <string name="blackcalls_list_phone_number_text">Intercepted number: </string>
+    <string name="blackcalls_list_Intercept_type_text">Intercepted type: </string>
+    <string name="blackcalls_add_phone_tip_error_input">"Please enter the correct number" </string>
+
+    <!-- The description text for the black call tab.shi hao jie -->
+    <string name="blackCallsIconLabel">BlackList</string>
+    <string name="blackCallsLogIconLabel">Call</string>
+    <string name="blackSmsLigIconLabel">"Message records"</string>
+
+    <!-- Text displayed when the black call logs is empty shi hao jie -->
+    <string name="blackCallslog_empty">Call record is empty.</string>
+
+    <!-- Text displayed when the black call is empty shi hao jie -->
+    <string name="blackCalls_empty">Black list is empty.</string>
+
+    <!-- Text displayed when the black call is menu add shi hao jie -->
+    <string name="blackCalls_menu_add">Add</string>
+    <string name="blackCalls_menu_delete">Delete parts</string>
+    <string name="blackCalls_add_button_save">Save</string>
+    <string name="blackCalls_add_button_Cancel">Cancel</string>
+    <string name="blackCalls_del_button_ok">OK</string>
+    <string name="blackCalls_del_button_Cancel">Cancel</string>
+    <string name="blackCalls_all_button_Selected">Select all</string>
+    <string name="blackCalls_all_button_UnSelected">Clear selected</string>
+    <string name="blackCalls_logs_del_button_ok">OK</string>
+    <string name="blackCalls_logs_del_button_Cancel">Cancel</string>
+    <string name="blackCalls_logs_all_button_Selected">All </string>
+    <string name="blackCalls_logs_all_button_UnSelected">Clear </string>
+    <string name="blackCalls_blacklist_detail">"Name:%1$s\r\nNumber:%2$s"</string>
+    <string name="blackCalls_calllog_detail">"Name:%1$s\r\nNumber:%2$s\r\nTime:%3$s"</string>
+    <string name="blackCalls_smslog_content">"Name:%1$s\r\nNumber:%2$s\r\nContent:%3$s\r\nTime:%4$s"</string>
+
+    <!--
+          Title for the activity that dials the phone.  This is the name
+         used in the Launcher icon.
+    -->
+    <string name="launcherDialer">BlackList</string>
+
+    <!-- The description text for the sms call log tab.shi hao jie -->
+    <string name="SmsCallsLogIconLabel">Message</string>
+    <string name="Sms_all_button_Selected">Select all</string>
+    <string name="Sms_log_empty">Message record is empty.</string>
+    <string name="BlaclList_Menu_Add">Add</string>
+    <string name="BlaclList_Menu_Delede_Some">Batch delete</string>
+    <string name="BlaclList_Menu_Confirm_delete">Confirm delete</string>
+    <string name="BlaclList_Menu_Cancel">Cancel</string>
+    <string name="BlaclList_conMenu_delete">Delete</string>
+    <string name="BlaclList_conMenu_edit">Edit</string>
+    <string name="BlackList_conMenu_detail">Detail</string>
+    <string name="BlaclList_conMenu_title">Please select</string>
+    <string name="SmsList_conMenu_delete"> Delete</string>
+    <string name="SmsList_conMenu_content"> content</string>
+    <string name="confirm_delete_number_title">To remove blacklist?</string>
+    <string name="confirm_delete_number">The number will be deleted.</string>
+    <string name="CallLog_confirm_delete_title">Delete?</string>
+    <string name="CallLog_confirm_delete">The record will be deleted.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="Add_Blacklist_title">"The blacklist is being imported."</string>
+    <string name="Delete_Blacklist_title">"The blacklist is being deleted."</string>
+    <string name="Delete_CallLog_title">"The call log is being deleted."</string>
+    <string name="Delete_SmsLog_title">"The sms log is being deleted."</string>
+
+    <string-array name="BlackList_list_stringArray">
+        <item>Message</item>
+        <item>Calls</item>
+        <item>Video calls</item>
+    </string-array>
+
+    <string name="selectContact">Select contact</string>
+    <string name="blackcalls_update_phone_tip_fail">"Blacklist number update failed "</string>
+    <string name="black_call_detail_time">Time</string>
+    <string name="black_sms_detail_contacts">Content</string>
+    <string name="sqlite_full">Blacklist database or disk is full</string>
+    <string name="no_subject">No subject</string>
+    <string name="intercept_mms">"MMS %1$s size:%2$s"</string>
+    <string name="add_contacts">Add contact</string>
+    <string name="blackCalls_all_button_Unselected">Unselect all</string>
+    <string name="done">Done</string>
+    <!-- SPRD: add for bug423428 @{ -->
+    <string name="BlackList_Menu_Add_Call_Some">"Interrupting call"</string>
+    <string name="BlackList_Menu_Add_Sms_Some">"Interrupting message"</string>
+    <string name="BlackList_Menu_Add_Call_With_Sms_Some">"Interrupting call &amp; message"</string>
+    <!-- } -->
+
+    <!-- SPRD: add for bug452789 @{ -->
+    <string name="Contact_error">"Contacts has been stopped"</string>
+    <!-- } -->
+
+    <!-- SPRD: add for bug459942 @{ -->
+    <string name="adding_blacklist_hold_on">"Being batch operation, please wait a moment ..."</string>
+    <!-- } -->
+    <!-- SPRD: add for bug501393. -->
+    <string name="refuse_in_guest">"The function is invalid without owner mode"</string>
+    <!-- SPRD: modify for bug599100 @{ -->
+    <string name="blocked_numbers_butter_bar_title">Blocking temporarily off</string>
+    <string name="blocked_numbers_butter_bar_body">After you dial or text an emergency number, blocking is turned off to ensure that emergency services can contact you. Blocking will automatic re-enable at %1$s .</string>
+    <string name="blocked_numbers_butter_bar_button">Re-enable now</string>
+    <!-- @} -->
+    <!-- SPRD: add for bug609167 -->
+    <string name="refuse_after_close_blocked_storage">"The CallFireWall can not use after stop the Blocked Number Storage"</string>
+</resources>

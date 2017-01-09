@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SPRD: FEATURE_SHOW_DATA/4G_TILE_IN_PANEL @{ -->
+    <bool name="config_show_lte_tile">true</bool>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_SHOW_NO_SIM_CARD_ACCORDING_PHONECOUNT @{ -->
+    <bool name="config_always_show_all_sim_signalbar">false</bool>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_SHOW_H/H+_EXCEPT_VODAFONE @{ -->
+    <bool name="config_hspa_data_distinguishable">true</bool>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_SHOW_MOBILE_CARD_ONLY_CUCC. -->
+    <bool name="config_show_stat_sys_card_id">false</bool>
+    <!-- SPRD: FEATURE_SET_STATUSBAR_ICON_TINT_EXCEPT_CUCC_NO_SIM_ICON. -->
+    <bool name="config_set_mobile_icon_tint">true</bool>
+    <!-- SPRD: FEATURE_ALWAYS_HIDE_VOLTE_ICON_ONLY_VODAFONE. -->
+    <bool name="config_show_volte_icon">true</bool>
+</resources>

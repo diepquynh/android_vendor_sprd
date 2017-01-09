@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <Preference
+        android:key="system_update"
+        android:title="@string/system_update" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.systemupdate.SystemUpdateActivity"
+            android:targetPackage="com.sprd.systemupdate" />
+    </Preference>
+    <PreferenceScreen
+        android:title="@string/other_test_tools"
+        android:key="others_test_tools">
+        <Preference
+            android:key="adc_test"
+            android:title="AdcTest" >
+        </Preference>
+        <Preference
+            android:key="sleep_test"
+            android:title="SleepState" >
+        </Preference>
+        <Preference
+            android:key="performance_test"
+            android:title="PerformanceTest" >
+        </Preference>
+        <Preference
+            android:key="work_test"
+            android:title="WorkState" >
+        </Preference>
+    </PreferenceScreen>
+
+    <PreferenceScreen android:title="@string/systeminfo" >
+        <PreferenceScreen android:title="@string/verinfo" >
+            <PreferenceCategory
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:title="hardware_info" >
+                <Preference android:key="hardware_version" >
+                </Preference>
+            </PreferenceCategory>
+            <PreferenceCategory
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:title="hardware_verison" >
+                <Preference android:key="hardware_version2" >
+                </Preference>
+            </PreferenceCategory>
+            <PreferenceCategory
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:title="ap_info" >
+                <Preference android:key="ap_version" >
+                </Preference>
+            </PreferenceCategory>
+            <PreferenceCategory
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:title="cp_info" >
+                <Preference
+                    android:key="modem_version"
+                    android:title="Modem Version" >
+                </Preference>
+                <Preference
+                    android:key="ps_version"
+                    android:title="PS Version" >
+                </Preference>
+                <Preference
+                    android:key="dsp_version"
+                    android:title="DSP Version" >
+                </Preference>
+            </PreferenceCategory>
+            <PreferenceCategory
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:title="connectivity_info" >
+                <Preference
+                    android:key="cp2_version"
+                    android:title="CP2 Version(Wifi/BT Version)" >
+                </Preference>
+                <Preference
+                    android:key="gps_version"
+                    android:title="GPS Version" >
+                </Preference>
+                <Preference
+                    android:key="tp_version"
+                    android:title="TP Version" >
+                </Preference>
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <!-- bebin bug600894 modify by bo.yan 20160923 -->
+        <PreferenceScreen android:title="@string/memory_info_and_usage"
+            android:enabled="false"
+            android:summary="the version not supported" >
+        <!-- end bug600894 modify by bo.yan 20160923 -->
+            <Preference
+                android:key="usage_top5_process"
+                android:title="@string/usage_top5_process" >
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetClass="com.sprd.engineermode.debuglog.UsageTop5ProcessActivity"
+                    android:targetPackage="com.sprd.engineermode" />
+            </Preference>
+        </PreferenceScreen>
+         <!-- begin bug600894 modify by bo.yan 20160923 -->
+        <PreferenceScreen android:title="@string/cpu_info_and_usage"
+            android:enabled="false"
+            android:summary="the version not supported" >
+         <!-- end bug600894 modify by bo.yan 20160923 -->
+            <Preference android:title="@string/cpu_usage" >
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetClass="com.sprd.engineermode.debuglog.CpuUsageActivity"
+                    android:targetPackage="com.sprd.engineermode" />
+            </Preference>
+        </PreferenceScreen>
+         <!-- begin bug600894 modify by bo.yan 20160923 -->
+        <PreferenceScreen android:title="@string/other_system_info_and_detail"
+            android:enabled="false"
+            android:summary="the version not supported" >
+         <!-- end bug600894 modify by bo.yan 20160923 -->
+            <Preference android:title="@string/thread_info" >
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetClass="com.sprd.engineermode.debuglog.ThreadInfoActivity"
+                    android:targetPackage="com.sprd.engineermode" />
+            </Preference>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/sprd_power_log" >
+            <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetClass="com.sprd.engineermode.debuglog.PowerLogActivity"
+                    android:targetPackage="com.sprd.engineermode" />
+        </PreferenceScreen>
+
+        <Preference
+            android:enabled="false"
+            android:title="@string/battery_log" >
+        </Preference>
+        <Preference
+            android:key="sprd_flashblockinfo"
+            android:title="@string/flash_block_info" >
+            <intent
+                android:action="android.intent.action.SIMPLECODE"
+                android:targetClass="com.sprd.engineermode.debuglog.FlashBlockInfoActivity"
+                android:targetPackage="com.sprd.engineermode" />
+        </Preference>
+    </PreferenceScreen>
+
+    <Preference android:title="@string/cftresult" >
+        <intent
+            android:action="android.intent.action.SAMPLECODE"
+            android:targetClass="com.sprd.engineermode.debuglog.CFTResultActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+<!--
+    <Preference android:title="Slog" >
+    <intent
+        android:action="android.intent.action.MAIN"
+        android:targetClass="com.sprd.engineermode.debuglog.slogui.SlogUICommonControl"
+        android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+-->
+   <Preference android:title="LogManager" 
+        >
+        <intent
+        android:action="android.intent.action.MAIN"
+        android:targetClass="com.sprd.engineermode.activity.slog.SlogActivity"
+        android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+
+    <!-- <PreferenceScreen android:title="@string/logsettings" >
+        <Preference
+            android:key="pclog"
+            android:title="@string/pclog" >
+        </Preference>
+        <Preference
+            android:key="slogui"
+            android:title="@string/slogui" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.sprd.engineermode.debuglog.slogui.SlogUICommonControl"
+                android:targetPackage="com.sprd.engineermode" />
+        </Preference>
+    </PreferenceScreen> -->
+    <PreferenceScreen android:title="Design For Test" >
+        <Preference
+            android:key="cmcc"
+            android:title="CMCC" >
+        </Preference>
+
+        <PreferenceScreen android:title="CTA" >
+            <com.sprd.engineermode.EMSwitchPreference
+                android:enabled="false"
+                android:title="@string/safemodeswitch" >
+            </com.sprd.engineermode.EMSwitchPreference>
+
+            <Preference android:title="@string/it3_title" >
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetClass="com.sprd.engineermode.debuglog.CTAActivity"
+                    android:targetPackage="com.sprd.engineermode" />
+            </Preference>
+            <Preference android:title="@string/iottest" >
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetClass="com.sprd.engineermode.debuglog.IOTActivity"
+                    android:targetPackage="com.sprd.engineermode" />
+            </Preference>
+        </PreferenceScreen>
+
+        <Preference
+            android:key="cucc"
+            android:title="CUCC" >
+        </Preference>
+
+        <PreferenceScreen android:title="GCF" >
+            <Preference android:title="GCF_G" >
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetClass="com.sprd.engineermode.debuglog.GCFGActivity"
+                    android:targetPackage="com.sprd.engineermode" />
+            </Preference>
+            <Preference android:title="GCF_W" >
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetClass="com.sprd.engineermode.debuglog.GCFWActivity"
+                    android:targetPackage="com.sprd.engineermode" />
+            </Preference>
+        </PreferenceScreen>
+
+        <Preference
+            android:key="factory_set"
+            android:title="@string/factoryset" >
+        </Preference>
+
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="mtbf_switch"
+            android:title="@string/mtbf_switch"
+            android:summary="@string/feature_not_support_by_debug_version"
+            android:enabled="false" >
+        </com.sprd.engineermode.EMSwitchPreference>
+
+    </PreferenceScreen>
+
+    <Preference android:title="Power Dissipation Setting" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.debuglog.PDSActivityForZero"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <Preference
+        android:key="gps_config"
+        android:title="@string/gps_configration" >
+    </Preference>
+    <Preference
+        android:key="agps_log"
+        android:title="@string/agps_log_show" >
+    </Preference>
+    <!-- BEGIN BUG547014 zhijie.yang 2016/05/09 SPRD:add mipi log function -->
+    <Preference android:title="@string/mipi_log" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.debuglog.MIPILogSettingActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <!-- END BUG547014 zhijie.yang 2016/05/09 SPRD:add mipi log function -->
+
+    <!-- SPRD: modify 20140609 Spreadtrum of 321078 porting slide settings feature -->
+    <Preference android:title="@string/android_utils" >
+        <intent
+            android:targetClass="com.sprd.engineermode.debuglog.AndroidUtilsActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <!-- SPRD:sprd_monitor.conf -->
+    <Preference
+        android:key="system_settings"
+        android:title="System Settings" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.debuglog.SystemSettingActivity"
+            android:targetPackage="com.sprd.engineermode" >
+        </intent>
+    </Preference>
+    <PreferenceScreen android:title="@string/browserdebug" >
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="log_enabled"
+            android:title="Log enabled" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="save_receive"
+            android:title="Save receive" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="dump_tree"
+            android:title="Dump tree" >
+        </com.sprd.engineermode.EMSwitchPreference>
+    </PreferenceScreen>
+
+    <PreferenceScreen android:title="Switch Machine Info" >
+        <Preference android:title="Power on info" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.sprd.engineermode.debuglog.PowerOnInfoActivity"
+                android:targetPackage="com.sprd.engineermode" />
+        </Preference>
+        <Preference android:title="Power off Info" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.sprd.engineermode.debuglog.PowerOffInfoActivity"
+                android:targetPackage="com.sprd.engineermode" />
+        </Preference>
+        <Preference android:title="Modem assert Info" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.sprd.engineermode.debuglog.ModemAssertInfoActivity"
+                android:targetPackage="com.sprd.engineermode" />
+        </Preference>
+        <Preference android:title="Battery life Info" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.sprd.engineermode.debuglog.BatteryLifeInfoActivity"
+                android:targetPackage="com.sprd.engineermode" />
+        </Preference>
+
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="auto_dump_modemassert"
+            android:title="Auto Dump ModemAssert" >
+        </com.sprd.engineermode.EMSwitchPreference>
+    </PreferenceScreen>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="avs_log"
+        android:title="AVS Log" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:enabled="false"
+        android:key="switch_user_mode"
+        android:title="User Mode" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:enabled="true"
+        android:key="switch_screen_off_never"
+        android:title="@string/screen_off_never_title" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <Preference
+        android:key="upload_aprfile"
+        android:summary="@string/click_to_upload_aprfile"
+        android:title="@string/upload_aprfile" >
+    </Preference>
+    <Preference
+        android:enabled="true"
+        android:key="apr_server"
+        android:title="@string/apr_server" >
+    </Preference>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:enabled="true"
+        android:key="auto_upload_apr"
+        android:title="@string/auto_upload_apr" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <Preference
+        android:enabled="true"
+        android:key="detect_time"
+        android:summary="@string/input_detect_time"
+        android:title="@string/detect_time" >
+    </Preference>
+    <Preference
+        android:enabled="true"
+        android:key="group"
+        android:summary="@string/input_group"
+        android:title="@string/group" >
+    </Preference>
+    <Preference
+        android:enabled="true"
+        android:key="check_apr_log"
+        android:summary="@string/check_apr_log_summary"
+        android:title="@string/check_apr_log" >
+    </Preference>
+
+</PreferenceScreen>

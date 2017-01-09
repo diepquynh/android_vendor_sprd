@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/select_notes_header"
+    android:layout_width="match_parent"
+    android:minHeight="@dimen/list_item_height"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    >
+
+    <TextView
+        android:id="@+id/select_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:text="@string/select_all"
+        android:textColor="@color/black_in_note"
+        android:textSize="18sp"
+         />
+
+    <CheckBox
+        android:id="@+id/select_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical" />
+
+</RelativeLayout>

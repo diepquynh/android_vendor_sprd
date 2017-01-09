@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ ** Copyright © 2016 Spreadtrum Communications Inc.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD add the reboot -->
+    <string name="reboot_device_title">重新启动</string>
+    <string name="global_action_restart">重新启动</string>
+    <string name="global_reboot_close_apps">关闭所有应用程序并重启手机</string>
+    <string name="reboot_device_confirm">您确定需要重新启动手机吗 ?</string>
+    <!-- } -->
+
+    <!-- SPRD add for UMS -->
+    <string name="ext_media_status_shared">UMS共享</string>
+    <!-- } -->
+
+    <!-- SPRD add for usim phone type display @{ -->
+    <string name="phoneFixedNumber">"固定号码"</string>
+    <!-- @} -->
+
+    <!-- SPRD: Bug#474381 support GPS automatic update time BEG -->
+    <string name="gps_time_sync_fail_str">获取GPS时间失败</string>
+    <!-- support GPS automatic update time END -->
+
+    <!-- SPRD: Bug#474460 Add for SPRD USB Feature BEG -->
+    <string name="tetheredPC_notification_title">"USB-互联网PC功能已启用"</string>
+    <!-- Add for SPRD USB Feature END -->
+
+    <!-- SPRD: Bug#412262 Add for SPRD USB Feature BEG -->
+    <string name="usb_cdrom_notification_title">"虚拟光驱已启用"</string>
+    <string name="usb_storage_stop_title" msgid="660129851708775853">"USB存储设备正在使用中"</string>
+    <string name="sim_card_activation_warning">"为防止手机出厂后被第三方恶意刷入程序，请插入SIM/USIM卡激活USB接口"</string>
+    <string name="sim_ready_title_for_usb">"警告"</string>
+    <string name="usb_ok">"确定"</string>
+    <!-- Add for SPRD USB Feature END -->
+
+    <string name="station_state_msg">%1$s个已连接, %2$s个已阻止</string>
+    <!-- SPRD: Add for sprd Stk feature begin -->
+    <string name="stk_refresh_sim_init_message">"SIM卡正在更新"</string>
+    <!-- SPRD: Add for sprd Stk feature end -->
+    <string name="wifidisplay_disconnected_cause_wifi_off">"网络异常，多屏互动已断开连接。"</string>
+</resources>
+

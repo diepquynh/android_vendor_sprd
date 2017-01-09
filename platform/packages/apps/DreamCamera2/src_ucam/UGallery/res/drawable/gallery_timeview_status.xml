@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2010,2011 Thundersoft Corporation
+  All rights Reserved
+-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:state_pressed="true"
+        android:drawable="@drawable/gallery_timeview_selected" />
+    <item android:state_checked="false" android:state_pressed="true"
+        android:drawable="@drawable/gallery_timeview_selected" />
+    <item android:state_checked="false" android:drawable="@drawable/gallery_timeview_default" />
+    <item android:state_checked="true" android:drawable="@drawable/gallery_timeview_selected" />
+</selector>
+

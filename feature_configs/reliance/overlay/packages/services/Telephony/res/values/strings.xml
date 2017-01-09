@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="enabled_networks_except_lte_choices">
+        <item>GSM only</item>
+        <item>WCDMA only</item>
+        <item>WCDMA/GSM</item>
+    </string-array>
+    <string-array name="enabled_networks_except_lte_values" translatable="false">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"0"</item>
+    </string-array>
+    <string-array name="lte_preferred_networks_choices_for_common">
+        <item>GSM only</item>
+        <item>WCDMA only</item>
+        <item>WCDMA/GSM</item>
+        <item>LTE only</item>
+        <item>LTE/WCDMA/GSM (Auto)</item>
+    </string-array>
+
+    <string-array name="lte_network_mode_choices_values_for_common" translatable="false">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"0"</item>
+        <item>"11"</item>
+        <item>"9"</item>
+    </string-array>
+    <string name="network_lte_pref">LTE/WCDMA/GSM (Auto)</string>
+</resources>

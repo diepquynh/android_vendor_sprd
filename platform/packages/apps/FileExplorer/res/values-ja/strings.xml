@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"ファイルエクスプローラー"</string>
+<string name="action_settings">"設定"</string>
+<string name="title_section_overview">"クイックビュー"</string>
+<string name="title_section_external">"外部メモリ"</string>
+<string name="title_section_internal">"内部メモリ"</string>
+<string-array name="select_dest">
+    <item name="title_phone">"内部メモリ"</item>
+    <item name="title_sdcard">"外部メモリ"</item>
+</string-array>
+<string name="title_section_all">"すべて"</string>
+<string name="descrip_actionbar_logo">"レベルアップ"</string>
+<string name="descrip_actionbar_search">"検索"</string>
+<string name="descrip_actionbar_overflow">"メニュー"</string>
+<string name="quickscan_audio">"オーディオ"</string>
+<string name="quickscan_image">イメージ</string>
+<string name="quickscan_record">"件"</string>
+<string name="quickscan_video">"動画"</string>
+<string name="quickscan_doc">"ドキュメント"</string>
+<string name="quickscan_apk">アプリケーション</string>
+<string name="file_list_flodermsg">"日付:%1$s"</string>
+<string name="file_list_filemsg">"日付:%1$s\t サイズ:%2$s"</string>
+<string name="dialog_hint_title">"読み込み中"</string>
+<string name="dialog_hint_msg">"ロード中です..."</string>
+<string name="menu_search">"検索"</string>
+<string name="menu_back_home">"ホームに戻る"</string>
+<string name="menu_mkdir">新しいフォルダアタラ</string>
+<string name="menu_newfile">"新しいファイル"</string>
+<string name="menu_mkdir_succeed">"新規フォルダ %1$sが作成されました"</string>
+<string name="menu_mkdir_failed">"新規フォルダ %1$sの作成に失敗しました"</string>
+<string name="menu_newfile_succeed">"新規ファイル %1$sが作成されました"</string>
+<string name="menu_newfile_failed">"新規ファイル%1$sの作成に失敗しました"</string>
+<string name="menu_select_more">"複数選択する"</string>
+<string name="menu_copy">"コピー"</string>
+<string name="menu_cut">"切り取り"</string>
+<string name="menu_sort_type">並び替え基準</string>
+<string name="menu_storage_status">"メモリ"</string>
+<string name="operate_delete">"削除"</string>
+<string name="operate_clear">"消去"</string>
+<string name="operate_delete_file_ask">"%1$sを削除しますか？"</string>
+<string name="operate_delete_file_succeed">"ファイル%1$sを削除しました"</string>
+<string name="operate_delete_file_failed">"ファイル%1$sの削除に失敗しました"</string>
+<string name="operate_viewdetails">"属性"</string>
+<string name="operate_viewdetails_date">"日付:%1$s"</string>
+<string name="operate_viewdetails_size">"サイズ：%1$s"</string>
+<string name="operate_viewdetails_type_folder">"種類：フォルダ"</string>
+<string name="operate_viewdetails_type_file">"種類：ファイル"</string>
+<string name="operate_folder_attribute">"内容：%1$d 件のファイル、%2$d 件のフォルダ\nサイズ：%3$s"</string>
+<string name="operate_rename">"名前を変更"</string>
+<string name="operate_rename_hint">"新しいフォルダ名を入力してください"</string>
+<string name="operate_rename_succeed">"名前が変更されました"</string>
+<string name="operate_rename_failed">"ファイル %1$sの名前の変更に失敗しました"</string>
+<string name="operate_share">"共有"</string>
+<string name="msg_file_input_empty">"ファイルに名前がありません"</string>
+<string name="msg_file_input_repeat">"名前%1$sは既に存在します、他の名前を入力してください"</string>
+<string name="msg_folder_empty">"フォルダが空です"</string>
+<string name="msg_invalid_intent">"システムは、このファイル種類をサポートしていません"</string>
+<string name="msg_issure_clear">"このフォルダーを空にしますか？"</string>
+<string name="bluetooth">"Bluetooth"</string>
+<string name="copying">"複製中です、しばらくお待ちください"</string>
+<string name="clipboard_empty">"クリップボードは空です"</string>
+<string name="text_exit_file_explore_title">戻るモﾄﾞ</string>
+<string name="text_exit_file_explore_prompt">"退出しますか？"</string>
+<string name="common_text_ok">"OK"</string>
+<string name="common_text_cancel">"キャンセル"</string>
+<string name="common_text_paste">"貼り付け"</string>
+<string-array name="copyfileWarning">
+<item>"変更"</item>
+<item>"すべて保存"</item>
+</string-array>
+<string-array name="copydirWarning">
+<item>"統合"</item>
+<item>"変更"</item>
+<item>"すべて保存"</item>
+</string-array>
+<string name="file_option">"ファイルオプション"</string>
+<string name="folder_option">"フォルダーオプション"</string>
+<string name="file_detail">"詳細情報"</string>
+<string name="caculating">"サイズ：計算中です…"</string>
+<string name="copy_finish">"操作が完了しました"</string>
+<string name="now_copying">"複製中です、しばらくお待ちください..."</string>
+<string name="delete_finish">"削除されました"</string>
+<string name="delete_fail">"ファイル<xliff:g id="NAME">%s</xliff:g>の削除に失敗しました"</string>
+<string name="now_deleting">"削除中です、しばらくお待ちください..."</string>
+<string name="cancel_copy">"操作がキャンセルされました"</string>
+<string name="exist">"ファイルが存在しています"</string>
+<string name="select_destination">"保存先を選択してください"</string>
+<string name="empty_view_prompt">"フォルダが空です。パソコンやインターネットから更に多くのドキュメントを取得できます"</string>
+<string name="fragment_search_key_hint">"検索キーワードを入力してください"</string>
+<string name="fragment_search_location">"検索範囲:"</string>
+<string name="fragment_search_location_ex">"検索範囲"</string>
+<string name="fragment_search_type">"ファイル種類"</string>
+<string name="fragment_search_result">"結果検索"</string>
+<string name="fragment_search_searching">"検索中です..."</string>
+<string name="fragment_search_noresult">"検索条件に一致する項目がありません"</string>
+<string name="common_text_other">"その他"</string>
+<string name="common_text_search">"検索"</string>
+<string name="fragment_search_invalid_result">"ファイルが期限切れです、チェックしてください"</string>
+<string name="overview_menu_multiselect">"複数選択する"</string>
+<string name="overview_menu_sort">区分クﾌﾞン</string>
+<string name="overview_menu_install_all">"すべてインストールする"</string>
+<string name="overview_menu_install">"インストール"</string>
+<string name="overview_menu_delete">"削除"</string>
+<string name="sort_by_name">名前によってナマエ</string>
+<string name="sort_by_type">"タイプによる"</string>
+<string name="sort_by_time_desc">"時間（desc）"</string>
+<string name="sort_by_time_asc">"時間（昇順）"</string>
+<string name="sort_by_size_desc">"名前（desc）"</string>
+<string name="sort_by_size_asc">"名前（昇順）"</string>
+<string-array name="sort_type">
+<item>名前によってナマエ</item>
+<item>"タイプによる"</item>
+<item>"日時"</item>
+<item>"サイズ別"</item>
+</string-array>
+<string name="sort_by_asc">"昇順"</string>
+<string name="sort_by_desc">"降順"</string>
+<string name="display_setting">"画面の設定"</string>
+<string name="hide_file_display">"隠れたファイルを表示"</string>
+<string name="display_hide_file">"隠れたファイルを表示"</string>
+<string name="operate_viewdetails_path">"ファイルのパス：%1$s"</string>
+<string name="operate_viewdetails_canread">"読み込みますか？：はい"</string>
+<string name="operate_viewdetails_can_not_read">"読み込みますか？：いいえ"</string>
+<string name="operate_viewdetails_can_not_write">"書き込みますか？：いいえ"</string>
+<string name="operate_viewdetails_can_write">"書き込みますか？：はい"</string>
+<string name="operate_viewdetails_hide">"隠しファイルにしますか？：はい"</string>
+<string name="operate_viewdetails_not_hide">"隠しファイルにしますか？：いいえ"</string>
+<string name="select_text">"ファイルを選択"</string>
+<string name="select_all">"すべて選択"</string>
+<string name="unselect_all">"選択されていません"</string>
+<string name="length_limited">"名前の長さが最大に達しました"</string>
+<string name="cannot_copy_to_itself">"ディレクトリーをそれ自身にまたはサブディレクトリーにコピーはできません"</string>
+<string name="confirm_delete">"削除しますか？"</string>
+<string name="search_empty">"このページ内にテキストがありません。入力内容をチェックしてください"</string>
+<string name="dialog_back">"戻る"</string>
+<string name="set_as">"登録"</string>
+<string name="invalid_char">"ファイル名に%sは使えません"</string>
+<string name="no_enough_sapce">"容量が足りません"</string>
+<string name="file_type_wrong">"ファイル種類が違います"</string>
+<string name="failed_set_wallpaper">"壁紙を設定できません"</string>
+<string name="unsupport_type">"サポートされていない着信音です"</string>
+<string name="now_moving">"移動中です、少々お待ちください..."</string>
+<string name="now_calculate">"ファイルサイズを計算しています、少々お待ちください..."</string>
+<string name="badname_as_point">"システムの混乱を招きますので、.または..で名前を付けることができません"</string>
+<string name="cut_filename_duplicate">"現在のファイルまたはフォルダのパスは同じ名前です、ディレクトリーを再度選択してください！"</string>
+<string name="share_file_limited">"ファイルは、%1$d件までシェアできます"</string>
+<string name="install_apk_limited">"アプリケーションは、%1$d個までインストールできます"</string>
+    <string name="invalid_char_of_filename">""<xliff:g id="SECTION">%s</xliff:g> ファイルシステムのファイルが <xliff:g id="INVALIDCHAR">%s</xliff:g>"をを含めることができない"</string>
+     <string name="now_cleared">"空に削除されて、ちょっと待って…"</string>
+     <string name="not_replace">"同じ名前の親フォルダで交換できない"</string>
+     <string name="sdcard_had_unmounted">"ファイル操作が無効です"</string>
+     <string name="common_text_ignore">"無視"</string>
+     <string name="cannot_copyfolder_itself">"「あなた自身」にフォルダをコピーできません"</string>
+     <string name="cannot_cutfolder_itself">"「あなた自身」にフォルダをコピーできません"</string>
+     <string name="cannot_paste_reason">"転送先のフォルダの中に、ソースフォルダ%sです"</string>
+     <string name="badname_endwith_point">"フォルダの名前が終わることはできない。"</string>
+
+    <string name="failed_option">"操作は失敗しました。"</string>
+    <string name="failed_query">"データベースにこのファイルはありません。"</string>
+    <string name="drm_consume_title">"DRM権限を消費する。"</string>
+    <string name="drm_consume_hint">"您的操作将会消费DRM权限"</string>
+    <string name="drm_info">"情報の保護"</string>
+    <string name="drm_file_name">"文件名 : %1$s"</string>
+    <string name="drm_rights_validity">"デジタル著作権：有効"</string>
+    <string name="drm_rights_invalidity">"デジタル著作権：無効"</string>
+    <string name="drm_rights_status_transfer">"保護ステータス：転送を許可します。"</string>
+    <string name="drm_rights_status_untransfer">"保護ステータス：転送を許可しません。"</string>
+    <string name="drm_start_time">"開始：%1$s"</string>
+    <string name="drm_end_time">"終了：%1$s"</string>
+    <string name="drm_expiration_time">"有効期限：%1$s"</string>
+    <string name="drm_remain_times">"残り使用回数：%1$s"</string>
+    <string name="drm_invalid_rights">"このファイルは利用可能な証明書がありません。"</string>
+    <string name="drm_invalid_select">"制限ファイルを選択することはできません。別のタイプのファイルを選択してください。"</string>
+    <string name="drm_invalid_copy">"制限されたファイルはコピーされません。"</string>
+    <string name="drm_invalid_folder_copy">"制限されたファイルが含まれいると、コピーすることができません。"</string>
+    <string name="drm_invalid_share">"制限されたファイルの共有はできません。"</string>
+    <string name="drm_unlimited_rights">"無制限"</string>
+    <string name="drm_inactive_rights">"著作権が有効になっていません。"</string>
+    <string name="drm_unknow_rights">"不明"</string>
+    <string name="drm_time_unit">"s"</string>
+    <string name="drm_protect_viewdetails">"情報の保護"</string>
+    <string name="drm_no_application_open">"ファイルを開くことができません。"</string>
+</resources>

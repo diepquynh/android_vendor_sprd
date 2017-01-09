@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="audio_profiles">Аудио профили</string>
+  <string name="predefined_audio_profiles">предопределенные профили аудио</string>
+  <string name="user_defined_audio_profiles">пользовательские профили аудио</string>
+  <string name="add_profile">"Добавить"</string>
+  <string name="use_profile">Использовать</string>
+  <string name="rename_profile">"Переименовать"</string>
+  <string name="reset_profile">Сброс</string>
+  <string name="delete_profile">"Удалить"</string>
+  <string name="empty_name_dialog">Имя не может быть пустым</string>
+  <string name="duplicate_display_name_dialog">Имя уже существует</string>
+  <string name="add_profile_msg">Пожалуйста, введите имя для нового профиля</string>
+  <string name="rename_profile_msg">Пожалуйста, введите имя для нового профиля</string>
+  <string name="delete_profile_msg">Профиль <xliff:g id="name">%s</xliff:g> будут удален</string>
+  <string name="reset_profile_msg">Все аудио-настройки профиля будут сброшены</string>
+  <string name="incoming_call_volume_title">"Рингтон и уведомления"</string>
+  <string name="alarm_volume_title">"Будильник"</string>
+  <string name="dlg_ok">"ОК"</string>
+  <string name="dlg_cancel">Отменить</string>
+  <string name="sound_settings">Настройки звука</string>
+  <string name="vibrate_title">"Вибросигнал"</string>
+  <string name="vibrate_summary">Вибрации обратной связи для вызовов и уведомлений</string>
+  <string name="sound_category_calls_and_notification_title">"Рингтон и уведомления"</string>
+  <string name="ringtone_title">Мелодия звонка</string>
+  <string name="sound_category_notification_title">"Оповещения"</string>
+  <string name="notification_sound_title">"Уведомление по умолчанию"</string>
+  <string name="all_volume_title">Звук</string>
+  <string name="notification_sound_dialog_title">"Выбрать мелодию уведомлений"</string>
+  <string name="sound_category_feedback_title">Система</string>
+  <string name="dtmf_tone_enable_title">"Звук клавиш"</string>
+  <string name="sound_effects_enable_title">"Звук нажатия на экран"</string>
+  <string name="lock_sounds_enable_title">"Звук блокировки экрана"</string>
+  <string name="haptic_feedback_enable_title">"Включить виброотклик"</string>
+  <string name="revert_ring_vol">Громкость мелодии не должна быть нулевой в данном профиле, иначе она будет отменена.</string>
+  <string name="input_limit">Достигнута граница ввода</string>
+  <string name="standard_string">Основной</string>
+  <string name="silent_string">Бесшумный</string>
+  <string name="vibrate_string">Вибрация</string>
+  <string name="outdoor_string">Внешний</string>
+  <string name="outdoor_summary">"Максимальная громкость и вибрация"</string>
+  <string name="edit_profile">Правка</string>
+  <string name="ringtone_default_message">"К сожалению, файл рингтона  не воспроизводится, в качестве рингтона установлен звуковой файл по умолчанию"</string>
+  <string name="sim_ringtone_title">"Рингтон телефона SIM<xliff:g id="SIM_LOCK_STRING">%1$s</xliff:g> <xliff:g id="TYPE">%2$s</xliff:g>"</string>
+    <string-array translatable="true" name="profile_display_name">
+		        <item>"Общие"</item>
+		        <item>"Без звука"</item>
+		        <item>Вибрация</item>
+		        <item>Внешний</item>
+	    </string-array>
+    <string name="ringtone_not_exist_message">"К сожалению, файла рингтона не существует"</string>
+    <string name="dial_pad_tones_title">"Звук при наборе номера"</string>
+     <string name="screen_locking_sounds_title">"Звук блокировки экрана"</string>
+     <string name="charging_sounds_title">"Сигналы состояния батареи"</string>
+     <string name="media_volume_titles">"Музыка, Видео, Игры, Другие Медиа"</string>
+     <string name="ring_volume_title">"Мелодия"</string>
+     <string name="notification_volume_title">"Уведомления"</string>
+     <string name="sound_improvement">"Улучшение звука"</string>
+     <string name="sound_improvement_select">"Функция усиления низких частот"</string>
+     <string name="sound_improvement_summary">"Улучшение звука для наушников"</string>
+    <string name="sim_messagetone_title">"SIM<xliff:g id="SIM_LOCK_STRING">%1$s</xliff:g> <xliff:g id="TYPE">%2$s</xliff:g> мелодия сообщения"</string>
+     <string name="messagetone_title">"Мелодия сообщения"</string>
+     <string name="vibrate_category_feedback_title">"Вибросигнал"</string>
+     <string name="vibrate_msg_title">"Сообщение"</string>
+     <string name="vibrate_msg_summary">"Вибрация при сообщениях"</string>
+</resources>

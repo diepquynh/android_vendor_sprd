@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants" >
+
+    <ImageView
+        android:id="@+id/file_item_list_img"
+        android:layout_width="45dip"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_alignParentLeft="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_toRightOf="@+id/file_item_list_img" >
+        <TextView
+            android:id="@+id/file_item_list_name"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:ellipsize="middle"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical|left"
+            android:singleLine="true"
+            android:textSize="20sp" />
+    </LinearLayout>
+</RelativeLayout>

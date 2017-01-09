@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="settings_app_name">Mga setting</string>
+<string name="launcher_settings_app_name">Mga setting</string>
+<string name="launcher_network_app_name">"Network sa SIM1"</string>
+<string name="launcher_restricted_profile_app_name">"Gipugngan nga propayl"</string>
+<string name="header_category_device">"DEVICE"</string>
+<string name="header_category_preferences">"Mga ganahan"</string>
+<string name="header_category_accessories">"Layo &amp; mga aksesorya"</string>
+<string name="header_category_personal">"Personal"</string>
+<string name="accounts_category_title">account</string>
+<string name="add_account">Dugang ug account</string>
+<string name="account_header_remove_account">"Tanggala ang account"</string>
+<string name="account_sync">"Pili ug na-sync nga mga app"</string>
+<string name="sync_now">"Sync karon"</string>
+<string name="sync_in_progress">"Nagsync\u2026"</string>
+<string name="last_synced">"Ulhi nga pagsync sa <xliff:g id="time">%1s</xliff:g>"</string>
+<string name="sync_disabled">"Gipawng"</string>
+<string name="account_remove">"Tanggala ang account"</string>
+<string name="account_remove_failed">"Dili makatangtang sa akawnt"</string>
+<string name="sync_failed">"Sync napakyas"</string>
+<string name="sync_active">"Sync aktibo"</string>
+<string name="connectivity_network">"Network sa SIM1"</string>
+<string name="connectivity_wifi">Wi-Fi</string>
+<string name="connectivity_ethernet">"Ethernet"</string>
+<string name="wifi_setting_always_scan">"Ang pagpangita kanunay magamit"</string>
+<string name="wifi_setting_always_scan_context">"Tugoti ang Google nga serbis sa lokasyon ug uban pa nga mga app ang mangita ug mga network, bisan pa ug gipawng ang Wi-Fi"</string>
+<string name="wifi_setting_enable_wifi">Wi-Fi</string>
+<string name="device_daydream">"Tigdaginot sa Eskren"</string>
+<string name="device_display">"Ipakita"</string>
+<string name="device_sound">"Tingog"</string>
+<string name="device_surround_sound">"Naa sa palibot nga tingog"</string>
+<string name="device_sound_effects">"Sistema nga mga tingog"</string>
+<string name="device_apps">Mga aplikasyon</string>
+<string name="device_storage_reset">"Imbakan &amp; pagtakda balik"</string>
+<string name="device_backup_restore">"Bak-up &amp; ipasig-uli"</string>
+<string name="device_reset">"Reset sa pabrika sa data"</string>
+<string name="device_calibration">"Kalibrasyon"</string>
+<string name="device_storage_clear_cache_title">"Limpyohun ang natigum nga datus?"</string>
+<string name="device_storage_clear_cache_message">"Kani maglimpyo sa tanan datus nga natigum sa tanan nga mga app."</string>
+<string name="apps_downloaded">"Na-download nga mga app"</string>
+<string name="apps_system">"Sistema nga mga app"</string>
+<string name="apps_running">"Nagdagan nga mga app"</string>
+<string name="accessories_add">"Dugang ug aksesorya"</string>
+<string name="accessory_state_pairing">"Nagpares&amp;#8230;"</string>
+<string name="accessory_state_connecting">"Nagsumpay&amp;#8230;"</string>
+<string name="accessory_state_error">"Dili mapares"</string>
+<string name="accessory_state_canceled">"Kanselado"</string>
+<string name="accessory_state_paired">"Nagpares"</string>
+<string name="accessory_options">"Lain nga gamit"</string>
+<string name="accessory_unpair">"Wala mapares"</string>
+<string name="accessory_battery">"Bateriya <xliff:g id="percentage">%1$d</xliff:g>%%"</string>
+<string name="accessory_unpairing">"Wala nagpares nga debays&amp;#8230;"</string>
+<string name="accessory_connected">"Konektado"</string>
+<string name="accessories_add_title">"Pagpangita sa mga akesesorya&amp;#8230;"</string>
+<string name="accessories_add_bluetooth_inst">"Busa ipares ang imong Bluetooth nga mga debays, siguraduha nga sila kay anna sa pagpares nga moda"</string>
+<string name="accessories_autopair_msg">"Usa ka debays nakita ug awtomatiko nga ipares sa <xliff:g id="countdown">%1$s</xliff:g> ka mga segundo"</string>
+<string name="error_action_not_supported">"Kani nga lihok dili suportado"</string>
+<string name="bluetooth_pairing_request">"Bluetooth paghangyo sa pagpares"</string>
+<string name="bluetooth_confirm_passkey_msg">"Para mapares sa: <b><xliff:g id="device_name">%1$s</xliff:g></b>, siguraduha nga nagpakita kini sa  passkey: <b><xliff:g id="passkey">%2$s</xliff:g></b>"</string>
+<string name="bluetooth_incoming_pairing_msg">"Gikan: <b><xliff:g id="device_name">%1$s</xliff:g></b><br>Magpares sa kani nga debyas?"</string>
+<string name="bluetooth_display_passkey_pin_msg">"Para magpares sa: <b><xliff:g id="device_name">%1$s</xliff:g></b><br>Ibutang ang: <b><xliff:g id="passkey">%2$s</xliff:g></b>, sunod pinduta ang Balik o Sulod."</string>
+<string name="bluetooth_enter_pin_msg">"Para magpares sa: <b><xliff:g id="device_name">%1$s</xliff:g></b>, <br>Ibutang ang sa debays nga gikinahanglan nga PIN:"</string>
+<string name="bluetooth_enter_passkey_msg">"Para magpares sa: <b><xliff:g id="device_name">%1$s</xliff:g></b>, <br>Ibutang ang sa debays nga gikinahanglan nga passkey:"</string>
+<string name="bluetooth_pin_values_hint">"Kasagatan 0000 o 1234"</string>
+<string name="bluetooth_pair">"Pares"</string>
+<string name="bluetooth_cancel">"Kansela"</string>
+<string name="system_date_time">"Petsa &amp; oras"</string>
+<string name="system_language">Setting sa lingguwahe</string>
+<string name="system_keyboard">"keyboard"</string>
+<string name="system_home">"Home eskren"</string>
+<string name="system_search">Pangita</string>
+<string name="system_security">"Seguridad &amp; Mga gidili"</string>
+<string name="system_speech">"Pagstorya"</string>
+<string name="system_inputs">"Mga Gipasulod"</string>
+<string name="system_accessibility">"Pagkaaccess"</string>
+<string name="system_developer_options">Pag-asenso</string>
+<string name="accessibility_none">Wala</string>
+<string name="system_diagnostic">"Eskan para sa mga tsanel sa TV"</string>
+<string name="about_system_update">"Update sa sistema"</string>
+<string name="about_preference">Bahin</string>
+<string name="device_name">"Pangan sa device"</string>
+<string name="restart_button_label">Restart</string>
+<string name="about_legal_info">"Legal nga impormasyon"</string>
+<string name="about_legal_license">"Ablihan ang gikanan sa mga lisensya"</string>
+<string name="about_terms_of_service">"Google legal"</string>
+<string name="about_license_activity_unavailable">"Lisensya sa datus kay dili magamit"</string>
+<string name="about_model">"Model"</string>
+<string name="about_version">"Bersiyon"</string>
+<string name="about_serial">"Seryal nga numero"</string>
+<string name="about_build">"Himo"</string>
+<plurals name="show_dev_countdown"></plurals>
+<string name="about_ads">"Ads"</string>
+<string name="show_dev_on">"Ikaw karon kay usa na ka debeloper!"</string>
+<string name="show_dev_already">"Dili na kinahanglan, ikaw kay usa na ka tigpalambo"</string>
+<string name="device_info_default">Wala mailhan</string>
+<string name="selinux_status">"Kahimtang sa SELinux"</string>
+<string name="selinux_status_disabled">"Gipawng"</string>
+<string name="selinux_status_permissive">"Matuguton"</string>
+<string name="selinux_status_enforcing">"Magpatuman"</string>
+<string name="additional_system_update_settings_list_item_title">"Dugang nga mga update sa sistema"</string>
+<string name="device_status">"Estado"</string>
+<string name="device_status_summary">"Network, seryal nga numero ug ubang mga impormasyon"</string>
+<string name="manual">"MANWAL"</string>
+<string name="regulatory_information">"Impormasyon sa pagregula"</string>
+<string name="device_feedback">"Pagpadala ug reaksyon mahitungod ani nga debays"</string>
+<string name="fcc_equipment_id">"Kagamitan nga ID"</string>
+<string name="baseband_version">"BaseBand nga bersyon"</string>
+<string name="kernel_version">"Bersyon sa Kernel"</string>
+<string name="status_unavailable">"Dili magamit"</string>
+<string name="device_status_title">"Estado"</string>
+<string name="battery_status_title">"Estado sa baterya"</string>
+<string name="battery_level_title">"Antas sa baterya"</string>
+<string name="sim_status_title">"Estado sa SIM"</string>
+<string name="imei_information_title">"IMEI impormasyon"</string>
+<string name="status_bt_address">"Address sa bluetooth"</string>
+<string name="status_up_time">"Ibabaw oras"</string>
+<string name="status_wimax_mac_address">"4G nga address sa MAC"</string>
+<string name="legal_information">"Legal nga impormasyon"</string>
+<string name="copyright_title">"Karapatan sa paglathala"</string>
+<string name="license_title">"Lisensya"</string>
+<string name="terms_title">"Mga tuntunin ug mga kundisyon"</string>
+<string name="webview_license_title">"Lisensya sa sistema nga WebView"</string>
+<string name="wallpaper_attributions">"Wolpayper"</string>
+<string name="wallpaper_attributions_values">"Satelayt nga mga imahe nga tighatag:\n©2014 CNES / Astrium, DigitalGlobe, Bluesky"</string>
+<string-array name="wifi_signal_strength">
+<item>"Pobre"</item>
+<item>"Panta"</item>
+<item>"Maayo"</item>
+<item>"Maayo"</item>
+</string-array>
+<string name="title_mac_address">"Addr sa MAC"</string>
+<string name="title_signal_strength">"Kakusgon sa signal"</string>
+<string name="title_ip_address">"Address sa IP"</string>
+<string name="title_ssid">"Ibutang ang ngalan sa Wi-Fi nga network"</string>
+<string name="title_internet_connection">"Koneksyon sa Internet"</string>
+<string name="connected">"Konektado"</string>
+<string name="not_connected">"Dili konektado"</string>
+<string name="wifi_setting_header_other_options">Lain nga mga opsyon</string>
+<string name="wifi_setting_see_all">"Tanawa tanan"</string>
+<string name="wifi_setting_see_fewer">"Tan-aw og dyutay lang"</string>
+<string name="wifi_setting_available_networks">"Mahimong gamiton nga mga network"</string>
+<string name="wifi_setting_other_options_wps">"Konek pinaagi sa WPS"</string>
+<string name="wifi_setting_other_options_add_network">"Dugang ug bag-o nga network"</string>
+<string name="security_type">"Klase sa seguridad"</string>
+<string name="wps_network">"Konek pinaagi sa WPS"</string>
+<string name="other_network">"Uban mga network&amp;#8230;"</string>
+<string name="skip_network">"Labyan"</string>
+<string name="wifi_security_type_none">Wala</string>
+<string name="title_wifi_no_networks_available">"Nag-iscan&amp;#8230;"</string>
+<string name="title_wifi_could_not_save">"Dili maka-salba sa kontorno sa <xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="title_wifi_could_not_connect">"Dili ka konek sa <xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="title_wifi_could_not_connect_timeout">"Dili kakita sa <xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="title_wifi_could_not_connect_authentication_failure">"Wi-Fi nga password kay dili balido"</string>
+<string name="title_wifi_could_not_connect_ap_reject">"Wi-Fi nga network wala midawat sa koneksyon"</string>
+<string name="title_wifi_advanced_options">"Kontorno <xliff:g id="ssid">%1$s</xliff:g> Proxy ug IP nga mga Gitakda?"</string>
+<string name="title_wifi_proxy_settings">"Mga setting sa proxy"</string>
+<string name="title_wifi_proxy_hostname">"Proxy hostname:"</string>
+<string name="title_wifi_proxy_port">"Proxy port:"</string>
+<string name="title_wifi_proxy_bypass">"Laktoran ang proxy para sa:"</string>
+<string name="title_wifi_ip_settings">"Address sa IP"</string>
+<string name="title_wifi_ip_address">"IP nga adres:"</string>
+<string name="title_wifi_gateway">"Agianan:"</string>
+<string name="title_wifi_network_prefix_length">"Network naa sa unahan nga katason:"</string>
+<string name="title_wifi_proxy_settings_invalid">"Proxy nga mga gitakda kay dili balido"</string>
+<string name="title_wifi_ip_settings_invalid">"IP nga mga gitakda kay dili balido"</string>
+<string name="title_wifi_known_network">"<xliff:g id="ssid">%1$s</xliff:g> kay usa ka nasalba nga network"</string>
+<string name="wifi_action_try_again">"Suway balik"</string>
+<string name="wifi_action_view_available_networks">"Ipakita ang mga magamit nga mga network"</string>
+<string name="wifi_connecting">"Magkonek sa <xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="wifi_saving">"Nagsalba sa kontorno sa <xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="wifi_connect">"Konek"</string>
+<string name="wifi_forget_network">"Limtan ang network"</string>
+<string name="wifi_forget_network_description">"Kani mulimpyo sa impormasyon nga gigamit sa pagkonek sa kani nga network, apil ang nasalba nga password"</string>
+<string name="wifi_action_ok">"OK"</string>
+<string name="wifi_action_change_network">"Usbon"</string>
+<string name="wifi_action_dont_change_network">"Ayaw pagusab"</string>
+<string name="wifi_action_advanced_yes">"OK"</string>
+<string name="wifi_action_advanced_no">"Dili (girekomendar)"</string>
+<string name="wifi_action_proxy_none">Wala</string>
+<string name="wifi_action_proxy_manual">"MANWAL"</string>
+<string name="wifi_action_static">"Statik"</string>
+<string name="wifi_action_status_info">"Estado nga info"</string>
+<string name="wifi_action_advanced_options_title">"Mga nagpasiuna nga kapilian"</string>
+<string name="wifi_ip_settings_invalid_ip_address">"Ibutang ang balido nga IP adres"</string>
+<string name="wifi_ip_settings_invalid_gateway">"Ibutang ang balido nga agianan adres"</string>
+<string name="wifi_ip_settings_invalid_dns">"Ibutang ang balido nga DNS adres"</string>
+<string name="wifi_ip_settings_invalid_network_prefix_length">"Ibutang ang network naguna nga katason sa tunga sa 0 ug 32"</string>
+<string name="wifi_ip_address_description">"I-entra ang balido nga IP adres. \nPananglitan: <xliff:g>192.168.1.128</xliff:g>"</string>
+<string name="wifi_dns1_description">"I-entra ang balido nga IP adres o biyai nga walay sulod. \nPananglitan: <xliff:g>8.8.8.8</xliff:g>"</string>
+<string name="wifi_dns2_description">"I-entra ang balido nga IP adres o biyai nga walay sulod. \nPananglitan: <xliff:g>8.8.4.4</xliff:g>"</string>
+<string name="wifi_gateway_description">"I-entra ang balido nga IP adres o biyai nga walay sulod. Pananglitan: <xliff:g>192.168.1.1</xliff:g>"</string>
+<string name="wifi_network_prefix_length_description">"I-entra ang balido nga network prepiks nga gitas-on. \nPananglitan: <xliff:g>24</xliff:g>"</string>
+<string name="proxy_error_invalid_host">"Hostname kay dili balido"</string>
+<string name="proxy_error_invalid_exclusion_list">"Kani nga pagkahilayo nga lista kay dili balido. Ibutang ug comma nga bulag nga lista sa walay apil nga mga domain."</string>
+<string name="proxy_error_empty_port">"Port nga butanganan kay dili pwede walay sulod"</string>
+<string name="proxy_error_empty_host_set_port">"Kung ang hostes nga butanganan kay walay sulod, ibilin ang port nga butanganan nga walay sulod"</string>
+<string name="proxy_error_invalid_port">"Port kay dili balido"</string>
+<string name="proxy_warning_limited_support">"HTTP proxy kay gigamit sa tigpangita pero mahimong dili magamit sa ubang mga app"</string>
+<string name="proxy_port_description">"I-entra ang balido nga port. \nPananglitan: <xliff:g>8080</xliff:g>"</string>
+<string name="proxy_exclusionlist_description">"I-entra ang gibuwag sa kudlit nga listahan sa mga wala masakop nga mga domain o biyai nga walay sulod. \nPananglitan: <xliff:g>example.com,mycomp.test.com,localhost</xliff:g>"</string>
+<string name="proxy_hostname_description">"I-entra ang balido nga hostname. \nPananglitan: <xliff:g>proxy.example.com</xliff:g>"</string>
+<string name="wifi_summary_title_connected">"Network kay konektado"</string>
+<string name="wifi_summary_title_not_connected">"Network kay dili konektado"</string>
+<string name="wifi_summary_description_connected_to_wifi_network">"Kay konektado na sa <xliff:g id="ssid">%1$s</xliff:g>. Konek sa lain nga network?"</string>
+<string name="wifi_summary_unknown_network">"usa ka wala ilhi nga network"</string>
+<string name="title_ok">"OK"</string>
+<string name="title_cancel">"Kansela"</string>
+<string name="storage_title">"Imbakan"</string>
+<string name="storage_available">Anaa </string>
+<string name="storage_size">"Katibuk-ang espasyo: <xliff:g id="total_space">%1$s</xliff:g>"</string>
+<string name="storage_calculating_size">"Nagkalkula\u2026"</string>
+<string name="storage_apps_usage">Mga aplikasyon</string>
+<string name="storage_downloads_usage">"Mga download"</string>
+<string name="storage_dcim_usage">"Mga hulagway &amp; mga bidyo"</string>
+<string name="storage_music_usage">Audio</string>
+<string name="storage_media_misc_usage">"Misc"</string>
+<string name="storage_media_cache_usage">"Natigum nga datus"</string>
+<string name="storage_eject">"Edyek"</string>
+<string name="storage_format">"Papasa ug ipormat"</string>
+<string name="storage_format_as_private">"Papasa &amp; i-pormat nga pundohanan sa aparato"</string>
+<string name="storage_format_as_public">"Papasa &amp; i-pormat nga makuha-kuha nga pundohanan"</string>
+<string name="storage_format_for_private">"I-pormat nga tipiganan sa kahimanan"</string>
+<string name="storage_not_connected">"Dili konektado"</string>
+<string name="storage_migrate">"Ilalin ang datos ngadto niini nga pundohanan"</string>
+<string name="storage_migrate_away">"Ilalin ang datos ngadto sa lain-laing pundohanan"</string>
+<string name="storage_no_apps">"Walay mga app nga i-bak-ap"</string>
+<string name="storage_forget">"Kalimti kini nga pundohanan sa aparato"</string>
+<string name="storage_forget_wall_of_text">"Aron sa paggamit sa mga app o data niini nga drive, isaksak pag-usab. Kapilian, mahimo nimong kalimtan kini nga tipiganan kon ang drive dili makuha.\n\nKon pilion nimo ang Paghikalimot, ang tanang data nga anaa dinhi sa drive mawala sa hangtud.\n\nMahimo nimo itaud pagbalik ang app unya, apan ang data nga natipigan niini nga drive mawala."</string>
+<string name="storage_device_storage_section">"Tipiganan sa kahimanan"</string>
+<string name="storage_removable_storage_section">"Makuha-kuha nga tipiganan"</string>
+<string name="storage_reset_section">"Pagusab"</string>
+<string name="storage_mount_success">"<xliff:g id="name" example="SD card">%1$s</xliff:g> ang gimuntar"</string>
+<string name="storage_mount_failure">"Dili makamuntar <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_mount_adopted">"Pundohanan sa USB gikonekta og balik"</string>
+<string name="storage_unmount_success">"<xliff:g id="name" example="SD card">%1$s</xliff:g> luwas nga nakuha"</string>
+<string name="storage_unmount_failure">"Dili luwas nga maka-edyek <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_unmount_failure_cant_find">"Dili\ makakita og drive aron maka-edyek"</string>
+<string name="storage_format_success">"<xliff:g id="name" example="SD card">%1$s</xliff:g> gipormat"</string>
+<string name="storage_format_failure">"Dili maka pormat <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_format_as_private_title">"I-pormat nga tipiganan sa kahimanan"</string>
+<string name="storage_wizard_format_as_private_description">"Kini nagkinahanglan sa USB drive aron mahimong segurado. Human nga seguradong napormat, kini nga drive motrabaho lamang niini nga kahimanan. Ang pagpormat mopapas sa tanang data nga kasamtangan gitipigan sa drive. Aron dili mawala ang data, labing maayo nga adunay bak-ap."</string>
+<string name="storage_wizard_format_as_public_title">"Papasa ug ipormat"</string>
+<string name="storage_wizard_format_as_public_description">"Human og pormat, magamit nimo kini nga USB drayb sa ubang mga aparato. Ang tanang mga datos mapapas. Hunahunaa ang pagbak-ap usa pinaagi sa pagsibog sa mga app ngadto sa ubang pundohanan sa aparato."</string>
+<string name="storage_wizard_format_progress_title">"Nagapormat sa USB Drive&amp;#8230;"</string>
+<string name="storage_wizard_format_progress_description">"Kini modangat pa og taudtaud. Palihug ayaw kuhaa ang drive."</string>
+<string name="storage_wizard_migrate_choose_title">"Pili og pundohanan aron ilalin ang datos ngadto sa"</string>
+<string name="storage_wizard_migrate_confirm_title">"Ibalhin ang data ngadto sa <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_migrate_confirm_description">"Ibalhin ang imong mga hulagway, mga payl ug app data ngadto sa <xliff:g id="name" example="SD card">%1$s</xliff:g>. Kini molungtad og pipila ka minutos. Ang ubang mga app dili motrabaho og husto sa panahon sa pagbalhin."</string>
+<string name="storage_wizard_migrate_confirm_action_move_now">"Ibalhin karon"</string>
+<string name="storage_wizard_migrate_confirm_action_move_later">"Ibalhin unya"</string>
+<string name="storage_wizard_migrate_toast_success">"Mibalhin sa mga data ngadto sa <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_migrate_toast_failure">"Dili makabalhin sa mga data ngadto sa <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_migrate_progress_title">"Nagbalhin sa data ngadto sa <xliff:g id="name" example="SD card">%1$s</xliff:g>&amp;#8230;"</string>
+<string name="storage_wizard_migrate_progress_description">"Kini modangat pa og taudtaud. Palihug ayaw kuhaa ang drive.\nAng ubang mga app dili motrabaho og husto sa panahon sa pagbalhin."</string>
+<string name="storage_wizard_format_slow_title">"Kini nga drive mora og hinay kaayo."</string>
+<string name="storage_wizard_format_slow_summary">"Mahimo ka nga mopadayon, apan ang app nga ibalhin niini nga lokasyon magbunga-bunga ug ang pagbalhin sa data molungtad og taas nga panahon. Labing maayo nga mogamit og kusgan nga drive alang sa mas maayo nga pagkahimo."</string>
+<string name="storage_wizard_format_action">"Format"</string>
+<string name="storage_wizard_backup_apps_action">"Mga bak-ap nga mga app"</string>
+<string name="storage_wizard_back_up_apps_title">"App nga gitipigan dinhi <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_back_up_apps_and_data_title">"Mga app ug data nga gitipigan dinhi <xliff:g id="name" example="SD card">%1$s</xliff:g>"</string>
+<string name="storage_wizard_back_up_apps_space_available">"<xliff:g id="size" example="1.23GB">%1$s</xliff:g> makuha"</string>
+<string name="storage_wizard_eject_private_title">"I-edyek ang pundohanan sa aparato"</string>
+<string name="storage_wizard_eject_private_description">"Ang mga app sa tipiganan niini nga kahimanan moundang sa pagtrabaho kon kini iyang i-edyek. kining USB drive gipormat aron motrabaho niini nga kahimanan lamang. Dili kini mogana sa uban."</string>
+<string name="storage_wizard_eject_progress_title">"Naga-edyek <xliff:g id="name" example="SD Card">%1$s</xliff:g>&amp;#8230;"</string>
+<string name="storage_wizard_move_app_title">"Tipiganan nga gigamit"</string>
+<string name="storage_wizard_move_app_progress_title">"Nagasibog <xliff:g id="name" example="YouTube">%1$s</xliff:g>&amp;#8230;"</string>
+<string name="storage_wizard_move_app_progress_description">"Ayaw kuhaa ang drive sa panahon sa pagsibog.\nAng <xliff:g id="appname" example="YouTube">%1$s</xliff:g> app niini nga kahimanan dili makuha hangtud nga ang pagsibog makompleto."</string>
+<string name="storage_wizard_forget_confirm_title">"Kalimtan ba ang pundohanan sa aparato?"</string>
+<string name="storage_wizard_forget_confirm_description">"Ang tanan nimong mga data nga gitipigan niini nga drive mawala sa hangtud uban sa \'Forget\'. Gusto ba nimo ipadayon?"</string>
+<string name="storage_wizard_forget_action">"Limot"</string>
+<string name="storage_new_title">"USB drive konektado"</string>
+<string name="storage_new_action_browse">"Pangita"</string>
+<string name="storage_new_action_adopt">"Itakda nga pundohanan sa aparato"</string>
+<string name="storage_new_action_format_public">"Itakda nga tipiganang makuha-kuha"</string>
+<string name="storage_new_action_eject">"Edyek"</string>
+<string name="storage_missing_title">"<xliff:g id="name" example="SD Card">%1$s</xliff:g> gikuha"</string>
+<string name="storage_missing_description">"Ang ubang mga app dili makuha  o wala nagtrabaho sa husto hangtud nga ang drive makonekta pag-usab."</string>
+<string name="insufficient_storage">"Wala nay husto nga imbakan ang nabilin."</string>
+<string name="does_not_exist">"Ang aplikasyon kay wala."</string>
+<string name="app_forward_locked">"Ang aplikasyon kay giproktehan sa pagkopya."</string>
+<string name="invalid_location">"Ang gipili nga loksayon sa install kay dili pwede."</string>
+<string name="system_package">"Mga update sa Sistema kay dili ma-install sa gawas nga media."</string>
+<string name="move_error_device_admin">"Administrador sa aparato dili makataod sa media nga eksternal."</string>
+<string name="learn_more_action">"Magkat-on pa ug daghan"</string>
+<string name="wifi_wps_retry_scan">Suway balik</string>
+<string name="wifi_wps_title">"Nangita sa WPS nga tig-route\u2026"</string>
+<string name="wifi_wps_instructions">"Pinduta ang Wi-Fi Protektado Nga Pagtakda ngabuton sa imong tig-route.\nKini gitawag usab nga \"WPS\" o naay simbolo sa iya wala."</string>
+<string name="wifi_wps_onstart_pin">"Ibutang ang PIN <xliff:g id="number">%1$s</xliff:g> sa imong Wi-Fi nga tig-route"</string>
+<string name="wifi_wps_onstart_pin_description">"Pagkahuman nimo pagbutang sa PIN, pagtakda kay mukuha ug hantod 2 ka mga minuto para mahuman"</string>
+<string name="wifi_wps_failed_generic">"Dili makakita ug Wi-Fi nga tig-route"</string>
+<string name="wifi_wps_failed_wep">"Wi-Fi nga tig-route nga seguridad nga mga gitakda (WEP) kay dili suportado"</string>
+<string name="wifi_wps_failed_tkip">"Wi-Fi nga tig-route nga seguridad nga mga gitakda (TKIP) kay dili suportado"</string>
+<string name="wifi_wps_failed_overlap">"Lain nga WPS sesyon kay anaay progreso. Sulayi usab sa pipila ka mga minuto."</string>
+<string name="system_date">Petsa</string>
+<string name="system_time">"Oras"</string>
+<string name="system_set_date">"Takda ug petsa"</string>
+<string name="system_set_time">"Takda ug oras"</string>
+<string name="system_set_time_zone">"takda ug sona sa oras"</string>
+<string name="desc_set_time_zone">"<xliff:g id="offset" example="GMT-08:00">%1$s</xliff:g>, <xliff:g id="name" example="Pacific Standard Time">%2$s</xliff:g>"</string>
+<string name="system_set_time_format">"Gamit ug 24-hour nga format"</string>
+<string name="desc_set_time_format">"<xliff:g id="state" example="Off">%1$s</xliff:g> (<xliff:g id="sample" example="3:14 PM">%2$s</xliff:g>)"</string>
+<string name="system_auto_date_time">"Awtomatik nga petsa &amp;  oras"</string>
+<string-array name="auto_date_time_entries">
+<item>"Gamit ug network-provided values"</item>
+<item>"Pawng"</item>
+</string-array>
+<string-array name="auto_date_time_ts_entries">
+<item>"Gamit ug network-provided values"</item>
+<item>"Gamit og transport stream-provided nga oras"</item>
+<item>"Pawng"</item>
+</string-array>
+<string name="system_location">"Lokasyon"</string>
+<string name="system_desc_location">"Tuguti ang mga app nga nangayo sa imong pagtugot sa paggamit sa akong lokasyon nga impormasyon"</string>
+<string name="system_network_location_confirm">"Lokasyon nga paguyon"</string>
+<string name="location_mode_title">"Moda"</string>
+<string name="location_category_recent_location_requests">"Naghangyo ug mga hanyo sa lokasyon"</string>
+<string name="location_no_recent_apps">"Walay mga app nga anaay hangyo sa lokasyon sa pagkakaron"</string>
+<string name="location_high_battery_use">"Taas nga paggamit sa bateri"</string>
+<string name="location_low_battery_use">"Ubos nga paggamit sa bateri"</string>
+<string name="location_mode_wifi_description">"Gamit Wi\u2011Fi sa pagbanabana sa lokasyon"</string>
+<string name="location_status">"Lokasyon nga estado"</string>
+<string name="location_services">"Mga serbis sa lokasyon"</string>
+<string name="on">"Pagana"</string>
+<string name="off">"Pawng"</string>
+<string name="google_location_services_title">"Google lokasyon nga mga serbisyo"</string>
+<string name="third_party_location_services_title">"3rd nga partido sa lokasyon nga serbisyo"</string>
+<string name="location_reporting">"Lokasyon nga pagbalita"</string>
+<string name="location_history">"Lokasyon nga kaagi"</string>
+<string name="location_reporting_desc">"Google nagamit ani nga tampok sa produkto pareho sa Google Now ug Google Maps. Pagpagana sa Lokasyon nga Pagbalita nagtugot sa bisan unsa nga Google nga produkto nga nagamit sa kani nga tampol sa pagimbak ug gamit sa imong debyas pinaka bag-o nga lokasyon nga datus nga konektado sa imong Google Akawnt."</string>
+<string name="location_history_desc">"Kon ang Lokasyon nga Kaagi kay gipagana para ani nga akawnt, Google mahimo sa pagimbal sa imong debays nga lokasyon nga datus para magamit sa ubang mga app.\n\nPananglitan, Google Maps makahatag nimo ug mga direksyon, ug Google Now makapahibaw nimo sa kasamtangan nga trapik.\n\nImo mapawng ang Lokasyon nga Kaaig sa kadaghan, pero ang paghimo ani wala nakapanas ani. Para makita ug magdumala sa imong lokasyon nga kaagi, bisitaha maps.google.com/locationhistory."</string>
+<string name="delete_location_history_title">"Panason ang loaksyon nga kaagi"</string>
+<string name="delete_location_history_desc">"Kani makapanas sa tanan Lokasyon nga Kaagi nga naimbak gikan sa kani nga debays para sa kani nga Google Akawnt. Ikaw dili makabalik sa kani nga pagpanas.  Ubang mga app, apil ang Google Now, kay mu-undang ug trabaho."</string>
+<string name="system_services">"Mga serbisyo"</string>
+<string name="accessibility_service_settings">"Mga gitakda sa Serbisyo"</string>
+<string name="accessibility_toggle_high_text_contrast_preference_title">"Taas nga kalainan sa teksto"</string>
+<string name="accessibility_captions">"Mga kapsiyon"</string>
+<string name="accessibility_captions_description">"Mga gitakda para sa sirado nga pagpangan sa teksto nga pagsapaw sa bidyo"</string>
+<string name="captions_display">"Ipakita"</string>
+<string name="captions_display_on">"Pagana"</string>
+<string name="captions_display_off">"Pawng"</string>
+<string name="display_options">Mga opsyon sa pagpakita</string>
+<string name="captions_configure">"I-configre"</string>
+<string name="captions_language">Setting sa lingguwahe</string>
+<string name="captions_textsize">"Sukod sa teksto"</string>
+<string name="captions_captionstyle">"Estilo sa kasyon"</string>
+<string name="captions_customoptions">"Kustombre nga kapilian"</string>
+<string name="captions_fontfamily">"Pamilya sa agi"</string>
+<string name="captions_textcolor">"Kolor sa teksto"</string>
+<string name="captions_edgetype">"Matang sa tumoy"</string>
+<string name="captions_edgecolor">"Kolor sa tumoy"</string>
+<string name="captions_backgroundshow">"Ipakita ang bakgrawnd"</string>
+<string name="captions_backgroundcolor">"Kolor sa bakgrawon"</string>
+<string name="captions_backgroundopacity">"Kalabuan sa bakgrawon"</string>
+<string name="captioning_preview_text">"Ang mga kapsyon makita pareho ani"</string>
+<string name="captions_textopacity">"Teksto nga kaklaro"</string>
+<string name="captions_windowshow">"Ipakita ang bintana"</string>
+<string name="captions_windowcolor">"Bintana nga kolor"</string>
+<string name="captions_windowopacity">"Bintana nga kaklaro"</string>
+<string name="captions_style_0">"Puti sa itum"</string>
+<string name="captions_style_1">"Itum sa puti"</string>
+<string name="captions_style_2">"Dalag sa itum"</string>
+<string name="captions_style_3">"Dalag sa asul"</string>
+<string name="captions_style_custom">Usbon</string>
+<string name="color_white">"Puti"</string>
+<string name="color_black">"Itum"</string>
+<string name="color_red">"Pula"</string>
+<string name="color_green">"Lunhaw"</string>
+<string name="color_blue">"Asul"</string>
+<string name="color_cyan">"Bughaw"</string>
+<string name="color_yellow">"Dayag"</string>
+<string name="color_magenta">"Pula"</string>
+<string name="system_accessibility_status">"Paganahon"</string>
+<string name="system_accessibility_config">"Kontorno"</string>
+<string name="system_accessibility_service_on_confirm_title">"Gamit <xliff:g id="service" example="TalkBack">%1$s</xliff:g>?"</string>
+<string name="system_accessibility_service_on_confirm_desc">"<xliff:g id="service" example="TalkBack">%1$s</xliff:g> kay makakolekta sa tanan teksto nga imong gibutang, way apil mga password. Kani nagapil sa personal nga datus pareho sa kredit kard nga mga numero."</string>
+<string name="system_accessibility_service_off_confirm_title">"Hunong <xliff:g id="service" example="TalkBack">%1$s</xliff:g>?"</string>
+<string name="system_accessibility_service_off_confirm_desc">"Papili ug OK kay muhunong sa <xliff:g id="service" example="TalkBack">%1$s</xliff:g>."</string>
+<string name="system_accessibility_tts_output">"Teksto ngadto sulti"</string>
+<string name="system_accessibility_tts_engine_config">"Kompigyurasyon sa makina"</string>
+<string name="system_speak_passwords">"Isulti ang mga pasword"</string>
+<string name="system_preferred_engine">"Nagustuhan nga engine"</string>
+<string name="system_speech_rate">"Sukot sa Speech"</string>
+<string name="system_play_sample">"Duwa nga panig-ingnan"</string>
+<string name="system_install_voice_data">"Install ug data sa tingog"</string>
+<string name="system_general">Pangtanan</string>
+<string name="system_debugging">"Pangita ug sayop"</string>
+<string name="system_input">Pagbutang</string>
+<string name="system_drawing">"Pagdibuho"</string>
+<string name="system_monitoring">"Pagbantay"</string>
+<string name="system_apps">Mga aplikasyon</string>
+<string name="system_stay_awake">"Mag-urong nga nagmata"</string>
+<string name="system_hdcp_checking">"HDCP nagsusi"</string>
+<string name="system_hdmi_optimization">"HDMI nga optimisasyon"</string>
+<string name="system_reboot_confirm">"Itakda bali karon?"</string>
+<string name="system_desc_reboot_confirm">"Para mabag-o ni nga mga gitakda, imong debays kinahanglan sa pagpagana balik"</string>
+<string name="system_never_check">"Dili magsusi"</string>
+<string name="system_check_for_drm_content_only">"Susihon para ra sa sulod DRM"</string>
+<string name="system_always_check">"Pirmi susihon"</string>
+<string name="system_bt_hci_log">"Bluetooth HCI nga paglista"</string>
+<string name="system_email_address">"Address sa email"</string>
+<string name="system_usb_debugging">"Pag-debug sa USB"</string>
+<string name="system_allow_mock_locations">"Tugtan manggagad nga mga lokasyon"</string>
+<string name="system_select_debug_app">"Pili ug pagpangita ug sayop nga app"</string>
+<string name="system_wait_for_debugger">"Huwat sa mga tigpangita ug sayop"</string>
+<string name="system_verify_apps_over_usb">"Ipamatuod ang mga app gamit ang USB"</string>
+<string name="system_desc_verify_apps_over_usb">"Susihon ang mga app nga nainstol pinaagi sa ADB/ADT para sa makadaot nga mga lihok"</string>
+<string name="system_wifi_verbose_logging">"Wi-Fi verbose nga paglista"</string>
+<string name="system_desc_wifi_verbose_logging">"Ipagana ang Wi-Fi verbose nga paglista"</string>
+<string name="system_show_touches">"Pakita ug mga hikap"</string>
+<string name="system_pointer_location">"Lokasyon sa Tigpunto"</string>
+<string name="system_show_layout_bounds">"Ipakita ang utlanan sa desinyo"</string>
+<string name="system_show_gpu_view_updates">"Ipakita ang GPU nga makita nga mga kabag-ohan"</string>
+<string name="system_show_hardware_layer">"Ipakita ang hardware nga lugar"</string>
+<string name="system_show_gpu_overdraw">"Ipakita ang GPU nga overdraw"</string>
+<string name="system_show_surface_updates">"Ipakita ang naa sa ibabaw nga mga kabag-ohan"</string>
+<string name="system_window_animation_scale">"Sukod sa animasyon sa Bintana"</string>
+<string name="system_transition_animation_scale">"Sukod sa animasyon sa transisyon"</string>
+<string name="system_animator_duration_scale">"Tiganima nga kadugayon nga scale"</string>
+<string name="system_strict_mode_enabled">"Strikto nga paagi gipagana"</string>
+<string name="system_show_cpu_usage">"Pakita ug paggamit sa CPU"</string>
+<string name="system_profile_gpu_rendering">"Propayl sa GPU pagpahamtang"</string>
+<string name="system_enable_traces">"Ipagana ang mga pagsubay"</string>
+<string name="system_dont_keep_activities">"Ayaw paghipos ug mga aktibidad"</string>
+<string name="system_background_process_limit">"Proseso sa limitasyon sa likod"</string>
+<string name="system_show_all_anrs">"Pakita tanan mga ANR"</string>
+<string name="system_desc_stay_awake">"Dili ipagana ang pagkatulog"</string>
+<string name="system_desc_hdcp_checking">"Gamita lang para sa DRM nga sulod lamang"</string>
+<string name="system_desc_hdmi_optimization">"I-optimisa ang pagpakita para sa pinakadako nga resulosyon o pinakadako nga framerate. Kani maka-apekto lamang sa Ultra HD nga mga pagpakita. Ang pagusab ani nga pagtakda makapagana balik sa imong debays."</string>
+<string name="system_desc_bt_hci_log">"Ipagana nag Bluetooth HCI snoop nga paglista"</string>
+<string name="system_desc_usb_debugging">"Pagpangita ug sayop nga moda kon ang USB kay konektado"</string>
+<string name="system_desc_wait_for_debugger">"Pagpangita ug sayop nga aplikasyon naghuwat sa tigpangita ug sayop sa pagdapat busa sa pagsugod"</string>
+<string name="system_desc_show_layout_bounds">"Ipakita ang utlanan sa clip, mga margin, etc."</string>
+<string name="system_desc_show_gpu_view_updates">"Ipakita ang mga nakita sulod sa mga bintana kung madala uban sa GPU"</string>
+<string name="system_desc_show_hardware_layer">"Ipakidlap ang sapaw sa hardwer ug berde kung kini ilisan"</string>
+<string name="system_desc_show_gpu_overdraw">"Gikan sa pinakanindot ngadto sa pinakadaotan: asul, berde, pula-pula, pula"</string>
+<string name="system_desc_show_surface_updates">"Ipakita ang tibuok bintana sa naa sa ibabaw kon sila nagbag-o"</string>
+<string name="system_desc_strict_mode_enabled">"Ipakita ang iskrin kon ang mga app maghimo ug dugay nga mga operasyon sa naguna nga proseso"</string>
+<string name="system_desc_show_cpu_usage">"Sapaw sa screen nagpakita sa karon nga paggamit sa CPU"</string>
+<string name="system_desc_profile_gpu_rendering">"Sukdon ang pagpahamtang nga oras sa adb shell dumpsys gfxinfo"</string>
+<string name="action_on_title">"Pagana"</string>
+<string name="action_off_title">"Pawng"</string>
+<string name="action_on_description">"Pagana"</string>
+<string name="action_off_description">"Pawng"</string>
+<string name="agree">"Mo-uyon"</string>
+<string name="disagree">"Dili Mo-uyon"</string>
+<string name="security_unknown_sources_title">"Wala mailhan nga gikanan"</string>
+<string name="security_unknown_sources_desc">"Nagtugot sa paginstol sa mga app gikan sa mga gigikanan nga lahi sa Play Store"</string>
+<string name="security_unknown_sources_confirm_title">"Tugotan ang wala mailhing mga tinubdan"</string>
+<string name="security_unknown_sources_confirm_desc">"Imong debays ug personal nga datus kay mas huyang sa mga atake sa mga app gikan sa wala ilhi nga mga gigikanan. Ikaw mi-uyon nga ikaw lamang ang responsable sa bisag unsa nga kadaot sa imong mga debays o pagkawala sa datus nga nagresulta sa paggamit ani nga mga app."</string>
+<string name="security_verify_apps_title">"Ipamatuod ang mga app"</string>
+<string name="security_verify_apps_desc">"Ayaw tugoti o alarmaha usa maginstol ug mga app nga makaingon ug kadaot"</string>
+<string name="system_hdcp_checking_never">Dili jud</string>
+<string name="system_hdcp_checking_drm">"Para sa DRM nga sulod"</string>
+<string name="system_hdcp_checking_always">Pirmi</string>
+<string name="system_hdmi_optimization_best_resolution">"Pinakanindot nga resolusyon"</string>
+<string name="system_hdmi_optimization_best_framerate">"Pinakanindot nga framerate"</string>
+<string name="system_hw_overdraw_off">"Pawng"</string>
+<string name="system_hw_overdraw_areas">"Ipakita ang nasobraan pagdrowing nga mga lugar"</string>
+<string name="system_hw_overdraw_counter">"Ipakita ang nasobraan pagdrowing nga tig-ihap"</string>
+<string name="no_application">Wala</string>
+<string name="enable_opengl_traces_none">Wala</string>
+<string-array name="animation_scale_entries">
+<item>Animasyon gipawng</item>
+<item>Sukod sa Animasyon kay .5x</item>
+<item>Sukod sa Animasyon kay1x</item>
+<item>Sukod sa Animasyon kay 1.5x</item>
+<item>Sukod sa Animasyon kay 2x</item>
+<item>Sukod sa Animasyon kay 5x</item>
+<item>Sukod sa Animasyon kay 10x</item>
+</string-array>
+<string name="track_frame_time_off">"Pawng"</string>
+<string name="track_frame_time_bars">"Sa iskrin isip mga bara"</string>
+<string name="app_process_limit_standard">"Standard nga limitasyon"</string>
+<string name="app_process_limit_zero">"Walay mga proseso sa likod"</string>
+<string name="app_process_limit_one">"1 ka proseso kinadaghanan"</string>
+<string name="app_process_limit_two">"2 ka proseso kinadaghanan"</string>
+<string name="app_process_limit_three">"3 ka proseso kinadaghanan"</string>
+<string name="app_process_limit_four">"4 ka proseso kinadaghanan"</string>
+<string name="tts_rate_very_slow">"Hinay kaayo"</string>
+<string name="tts_rate_slow">"Hinay"</string>
+<string name="tts_rate_normal">"Kasagaran"</string>
+<string name="tts_rate_fast">"Tulin"</string>
+<string name="tts_rate_very_fast">"Tulin kaayo"</string>
+<string name="title_current_keyboard">"Kasamtangan nga Keyboard"</string>
+<string name="title_configure">"I-configre"</string>
+<string name="desc_configure_keyboard">"Mga kapilian sa keyboard"</string>
+<string name="computing_size">"Nagcompute\u2026"</string>
+<string name="title_select_wifi_network">"Pili sa imong Wi-Fi nga network"</string>
+<string name="accessories_wifi_display_rename_device">"Panganlan balik"</string>
+<string name="accessories_wifi_display_enable">"Gipakita sa Wi-Fi"</string>
+<string name="accessories_wifi_display_pin_required">"PIN gikinahanglan"</string>
+<string name="whichApplication">"Kumpleto nga aksyon gamit ang"</string>
+<string name="alwaysUseQuestion">"Kanunay gamita ang kani nga kapilian sa kani nga lihok?"</string>
+<string name="alwaysUseOption">"Kanunay gamita"</string>
+<string name="justOnceOption">Kausa ra</string>
+<string name="noApplications">"Walay mga app ang makahimo ani nga lihok."</string>
+<string name="noAppsGoBack">balik</string>
+<string name="inputs_inputs">"Mga Gipasulod"</string>
+<string name="inputs_header_cec">"Consumer Electronic Control (CEC)"</string>
+<string name="inputs_cec_settings">"Debays kontrol nga mga gitakda"</string>
+<string name="inputs_blu_ray">"Blu-ray"</string>
+<string name="inputs_cable">"Kable"</string>
+<string name="inputs_game">"Duwaan nga console"</string>
+<string name="inputs_aux">"Aux"</string>
+<string name="inputs_custom_name">"Pinatuyo nga pangalan"</string>
+<string name="inputs_custom_name_description_fmt">"I-entra ang ngalan para sa <xliff:g id="input" example="HDMI">%1$s</xliff:g>pampaslak."</string>
+<string name="inputs_hide">"Nakatago"</string>
+<string name="inputs_show">"Ipakita kini nga input"</string>
+<string name="input_header_names">"Pangalan"</string>
+<string name="inputs_hdmi_control">"HDMI nga kontrol"</string>
+<string name="inputs_hdmi_control_desc">"Nagtugot sa TV sa pagkontrol sa HDMI nga mga debays"</string>
+<string name="inputs_device_auto_off">"Debays awto nga pagpawng"</string>
+<string name="inputs_device_auto_off_desc">"Pawngon ang HDMI nga mga debays gamit ang TV"</string>
+<string name="inputs_tv_auto_on">"TV awto nga pagpagana"</string>
+<string name="inputs_tv_auto_on_desc">"Paganahon ang TV gamit ang HDMI nga debays"</string>
+<plurals name="inputs_header_connected_input"></plurals>
+<plurals name="inputs_header_standby_input"></plurals>
+<plurals name="inputs_header_disconnected_input"></plurals>
+<string name="user_add_profile_item_summary">"Gidili ang pagakses sa mga app ug ubang sulod sa imong akawnt"</string>
+<string name="user_new_profile_name">"Gipugngan nga propayl"</string>
+<string name="user_restrictions_controlled_by">"Gikontrolar sa <xliff:g id="app">%1$s</xliff:g>"</string>
+<string name="app_not_supported_in_limited">"Kani nga app kay wala gisuportahan sa gidili nga mga propayl"</string>
+<string name="app_sees_restricted_accounts">"Kani nga app kay maka-akses sa imong mga akawnt"</string>
+<string name="restriction_location_enable_title">"Lokasyon"</string>
+<string name="restriction_location_enable_summary">"Mahimo sa app sa paggamit sa impormasyon sa lokasyon"</string>
+<string name="restricted_profile_switch_to">"Sulod sa ginadili nga propayl"</string>
+<string name="restricted_profile_switch_out">"Gawas sa ginadili nga propayl"</string>
+<string name="restricted_profile_delete_title">"Panason ang ginadili nga propayl"</string>
+<string name="restricted_profile_create_title">"Pagmugna og gidili nga propayl"</string>
+<string name="restricted_profile_configure_title">Mga setting</string>
+<string name="restricted_profile_configure_apps_title">"Natugtang nga mga app"</string>
+<plurals name="restricted_profile_configure_apps_description"></plurals>
+<string name="restricted_profile_allowed">"Natugutan"</string>
+<string name="restricted_profile_not_allowed">"Dili pwede"</string>
+<string name="restricted_profile_customize_restrictions">"Gipatuyo nga mga pagdili"</string>
+<string name="restricted_profile_configure_apps_description_loading">"Usa ka higayon\u2026"</string>
+<string name="restricted_profile_change_password_title">"Magilis ug PIN"</string>
+<string name="app_sees_restricted_accounts_and_controlled_by">"Kini nga app maka-akses sa imong mga akawnt. Nga gikontrola sa <xliff:g id="app">%1$s</xliff:g>"</string>
+<string name="pin_enter_unlock_channel">"Ibutang ang PIN para makatanaw ani nga tsanel"</string>
+<string name="pin_enter_unlock_program">"Ibutang ang PIN para makatanaw ani nga programa"</string>
+<string name="pin_enter_pin">"Isulod ang PIN"</string>
+<string name="pin_enter_new_pin">"Takda ug bag-o nga PIN"</string>
+<string name="pin_enter_again">"Ibutang balik ang bag-o nga PIN"</string>
+<string name="pin_enter_old_pin">"Ibutang ang daan nga PIN"</string>
+<string name="pin_enter_wrong_seconds">"Na-entra nimo ang sayop nga PIN 5 ka higayon.\nSulayi pag-usab sa <xliff:g id="relative_time_span" example="60">%1$d</xliff:g> ka mga gutling."</string>
+<string name="pin_toast_wrong">"Sayop nga PIN, sulayi usab"</string>
+<string name="pin_toast_not_match">"Sulayi usab, PIN wala nagpareho"</string>
+<string name="wifi_setup_input_password">"I-entra ang password para <xliff:g id="ssid">%1$s</xliff:g>"</string>
+<string name="wifi_setup_connection_success">"Malampusong nakonekta"</string>
+<string name="wifi_setup_save_success">"Pagluwas malampuson"</string>
+<string name="device_apps_app_management_version">"bersyon <xliff:g id="app_version">%1$s</xliff:g>"</string>
+<string name="device_apps_app_management_open">Abli</string>
+<string name="device_apps_app_management_force_stop">"Pugos nga paghunong"</string>
+<string name="device_apps_app_management_force_stop_desc">"Kini nga aplikasyun kay ma-restart dayun. Sigurado ka nga imu pugson ug hunong?"</string>
+<string name="device_apps_app_management_uninstall">I-uninstall</string>
+<string name="device_apps_app_management_uninstall_desc">"Ganahan ba ka sa paguninstol ani nga app?"</string>
+<string name="device_apps_app_management_uninstall_updates">"I-uninstall ang updates"</string>
+<string name="device_apps_app_management_uninstall_updates_desc">"Ganahan ka nga I-uninstall tanan mga update ani nga aplikasyon sa sistema sa Android?"</string>
+<string name="device_apps_app_management_disable">"Dili paganahon"</string>
+<string name="device_apps_app_management_disable_desc">"Gusto mo ba nga dili ipagana kini nga app?"</string>
+<string name="device_apps_app_management_enable">"Paganahon"</string>
+<string name="device_apps_app_management_enable_desc">"Gusto mo ba nga ipagana kini nga app?"</string>
+<string name="device_apps_app_management_storage_used">"Tipiganan nga gigamit"</string>
+<string name="device_apps_app_management_storage_used_desc">"<xliff:g id="size" example="30.2MB">%1$s</xliff:g> used in <xliff:g id="volume" example="internal storage">%2$s</xliff:g>"</string>
+<string name="device_apps_app_management_clear_data">"Limas ug data"</string>
+<string name="device_apps_app_management_clear_data_desc">"Ang tanang data niini nga app mapapas nga permanente.\nKini maglakip sa tanang mga payl, mga seting, mga account, mga database, ubp."</string>
+<string name="device_apps_app_management_clear_default">"Limason tanan default"</string>
+<string name="device_apps_app_management_clear_default_set">"Itakda aron ilunsad kini nga app para sa ubang mga aksyon"</string>
+<string name="device_apps_app_management_clear_default_none">"Walay mga default nga gitakda"</string>
+<string name="device_apps_app_management_clear_cache">"Limason ang cache"</string>
+<string name="device_apps_app_management_notifications">Mga Abiso</string>
+<string name="device_apps_app_management_permissions">"Mga permiso"</string>
+<string name="settings_ok">"OK"</string>
+<string name="settings_cancel">"Kansela"</string>
+<string name="settings_on">"Pagana"</string>
+<string name="settings_off">"Pawng"</string>
+<string name="device_daydreams_none">"I-OFF ang eskren"</string>
+<string name="device_daydreams_select">"Tigdaginot sa Eskren"</string>
+<string name="device_daydreams_test">"Sugod karon"</string>
+<string name="device_daydreams_sleep">"Kanus-a mosugod"</string>
+<string name="device_daydreams_sleep_description">"Ang tigdaginot sa eskren magsugod human kining panahon mga walay aktibidad. Kon walay tigdaginot sa eskren nga mapili, ang displey mapalong."</string>
+<string name="device_daydreams_sleep_summary">"Human <xliff:g id="sleep_description" example="3 minutes">%1$s</xliff:g> nga walay aktibidad"</string>
+<string name="device_daydreams_screen_off">"Ibutang ang aparato nga makatulog"</string>
+<string name="device_daydreams_screen_off_description">"Ang eskren mapalong human niini nga panahon sa walay aktibidad."</string>
+<string name="backup_configure_account_default_summary">"Walay account karon nga nag-imbak ug naback up nga data"</string>
+<string name="backup_erase_dialog_message">"Ihunong ang pagbak-ap sa imong password sa Wi-Fi, mga bookmark, ubang mga seting, ug app data, ug papasa tanang kopya sa mga server sa Google?"</string>
+<string name="privacy_backup_data">Suportahi ang akong date</string>
+<string name="privacy_backup_account">"I-backup ang account"</string>
+<string name="privacy_automatic_restore">"Awtomatik nga pagbalik"</string>
+<string name="factory_reset_device">"Pagtakda pagusab sa debays"</string>
+<string name="factory_reset_description">"Kini mopapas sa tanang data gikan sa imong tipiganang internal sa imong kahimanan, lakip sa : imong Google account, sistema ug app data ug mga seting, ug mga gikarga nga mga app"</string>
+<string name="confirm_factory_reset_description">"Pad-on tanan imu mga personal nga impormasyon ug bisag unsa nga nadownload nga mga aplikasyon? Imposible na baliktaron kani nga aksyon!"</string>
+<string name="confirm_factory_reset_device">"Pad-on tanan"</string>
+<string name="select_device_name_title">"Pili og ngalan sa imong <xliff:g id="devicemodel" example="Nexus Player">%1$s</xliff:g>"</string>
+<string name="select_device_name_description">"Ang ngalan motabang sa pag-ila sa imong <xliff:g id="devicemodel" example="Nexus Player">%1$s</xliff:g> kon mag-akses niini gikan sa ubang mga aparato sama sa imong telepono, tablet, o kompyuter."</string>
+<string-array name="rooms">
+<item>"Sala"</item>
+<item>"Lawak Media"</item>
+<item>"Lawak pamilya"</item>
+<item>"Lawak kan-anan"</item>
+<item>"Yungib"</item>
+<item>"Lawak katulganan"</item>
+<item>"Kusina"</item>
+</string-array>
+<string name="custom_room">"I-entra ang naandan naga pangalan&amp;#8230;"</string>
+<string name="device_rename_title">"Nganli kini pag-usab <xliff:g id="devicemodel" example="Nexus Player">%1$s</xliff:g>"</string>
+<string name="device_rename_description">"Kining <xliff:g id="devicemodel" example="Nexus Player">%1$s</xliff:g> nga kasamtangang gihinganlan \"<xliff:g id="devicename" example="Living Room Player">%2$s</xliff:g>\""</string>
+<string name="change_setting">"Usbon"</string>
+<string name="keep_settings">"Ayaw pagusab"</string>
+<string name="apps_permissions">"Mga permiso"</string>
+<string name="device_apps_permissions">"Mga permiso sa app"</string>
+<string name="app_permissions_group_summary">"<xliff:g id="count" example="10">%d</xliff:g> sa <xliff:g id="count" example="10">%d</xliff:g> mga app gitugot"</string>
+<string name="bluetooth_permission_request">"Hangyo ug permiso sa bluetooth"</string>
+<string name="security_patch">"Seguridad nga lebel sa Android patch"</string>
+<string name="choose_application">"Pili og aplikasyon"</string>
+<string name="experimental_preference">"(Eksperimento)"</string>
+<string name="reboot_safemode_action">I-reboot balik ngadto sa luwas nga paagi</string>
+<string name="reboot_safemode_confirm">"Gusto ba nimo mag-reboot ngadto sa luwas nga modo?"</string>
+<string name="reboot_safemode_desc">"Kini mopa-inutil sa tanang mga ikatulong partidong mga aplikasyon nga imong nataod. Kini mapabalik kon imo nga i-reboot pag-usab."</string>
+</resources>

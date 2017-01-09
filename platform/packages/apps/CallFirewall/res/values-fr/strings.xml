@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="hello">Bonjour à tous!</string>
+  <string name="app_name">Appeler le pare-feu</string>
+  <string name="blackcalls_add_phone_tip_error">Veuillez entrer un numéro de téléphone mobile correct</string>
+  <string name="blackcalls_add_phone_tip_error_existed_phone">Ce numéro existe déjà, l\'ajout ne peut pas être répété</string>
+  <string name="blackcalls_add_phone_tip_success">La liste noire des numéros a été ajouté avec succès</string>
+  <string name="blackcalls_edit_phone_tip_success">La liste noire des numéros a été modifié avec succès</string>
+  <string name="blackcalls_delete_phone_tip_error_not_select">Veuillez sélectionner le numéro de téléphone que vous souhaitez supprimer</string>
+  <string name="blackCallsLogIconLabel">Journal de la liste noire</string>
+  <string name="blackcalls_delete_not_select">Veuillez sélectionner les éléments à supprimer</string>
+  <string name="black_calls_add_number_label">Numéro de téléphone</string>
+  <string name="black_calls_add_type_label">Contenu intercepté</string>
+  <string name="blacklist_radioButtonCall">"Appeler"</string>
+  <string name="blacklist_radioButtonVideoCall">"Appel vidéo" </string>
+  <string name="blacklist_radioButtonSms">"SMS"</string>
+  <string name="blacklist_radioButtonAll">Tous les appels et SMS</string>
+  <string name="blackcalls_list_phone_number_text">Numéro intercepté:</string>
+  <string name="blackcalls_list_Intercept_type_text">Type intercepté:</string>
+  <string name="blackcalls_add_phone_tip_error_input">"S\'il vous plait entrez le numero correct"</string>
+  <string name="blackCallsIconLabel">Liste noire</string>
+  <string name="blackCallslog_empty">Le journal de la liste noir des appels est vide.</string>
+  <string name="blackCalls_empty">La liste noir des appels est vide.</string>
+  <string name="blackCalls_menu_add">"Ajouter"</string>
+  <string name="blackCalls_menu_delete">Supprimer une partie</string>
+  <string name="blackCalls_add_button_save">"Enregistrer"</string>
+  <string name="blackCalls_add_button_Cancel">"Annuler"</string>
+  <string name="blackCalls_del_button_ok">"OK"</string>
+  <string name="blackCalls_del_button_Cancel">"Annuler"</string>
+  <string name="blackCalls_all_button_Selected">Tout sélectionner</string>
+  <string name="blackCalls_all_button_UnSelected">Néttoyer les éléments sélectionnés</string>
+  <string name="blackCalls_logs_del_button_ok">"OK"</string>
+  <string name="blackCalls_logs_del_button_Cancel">"Annuler"</string>
+  <string name="blackCalls_logs_all_button_Selected">"Tous"</string>
+  <string name="blackCalls_logs_all_button_UnSelected">"Effacer"</string>
+  <!-- SPRD: motify for bug519684 @{ -->
+  <string name="blackCalls_smslog_content">Nom:%1$s\r\nNuméro:%2$s\r\nContenu:%3$s\r\nTemps:%4$s </string>
+  <!-- @} -->
+  <string name="launcherDialer">Liste noire</string>
+  <string name="SmsCallsLogIconLabel">Liste du journal des SMS</string>
+  <string name="Sms_all_button_Selected">Tout sélectionner</string>
+  <string name="Sms_log_empty">Le journal des SMS est vide.</string>
+  <string name="BlaclList_Menu_Add">"Ajouter"</string>
+  <string name="BlaclList_Menu_Delede_Some">Supprimer quelques un</string>
+  <string name="BlaclList_Menu_Confirm_delete">"Confirmer la suppression"</string>
+  <string name="BlaclList_Menu_Cancel">"Annuler"</string>
+  <string name="BlaclList_conMenu_edit">"Modifier"</string>
+  <string name="BlaclList_conMenu_title">Veuillez sélectionner</string>
+  <string name="confirm_delete_number">Le numéro sera supprimé.</string>
+  <string name="ok">"OK"</string>
+  <string name="cancel">"Annuler"</string>
+  <string name="blackcalls_add_type_tip_error">"séletionnez le type"</string>
+  <string name="black_calls_add_name_label">"Nom"</string>
+  <string name="blackSmsLigIconLabel">"Liste du journal des SMS"</string>
+  <string name="blackCalls_blacklist_detail">"Contenu:%1$s\r\nTemps:%2$s"</string>
+  <string name="blackCalls_calllog_detail">"Nom:%1$s\r\nNombre:%2$s\r\nDurée:%3$s"</string>
+  <string name="BlaclList_conMenu_delete">"Supprimer"</string>
+  <string name="BlackList_conMenu_detail">"Détail"</string>
+  <string name="SmsList_conMenu_delete">"Supprimer"</string>
+  <string name="SmsList_conMenu_content">"Contenu"</string>
+  <string name="confirm_delete_number_title">"Pour supprimer la liste noire ?"</string>
+  <string name="CallLog_confirm_delete_title">"Supprimer ?"</string>
+  <string name="CallLog_confirm_delete">"L\'enregistrement sera supprimé."</string>
+  <string name="selectContact">"sélectionner un contact"</string>
+  <string name="blackcalls_update_phone_tip_fail">"Echec de la mise à jour des numéros de la liste noire\'"</string>
+  <string name="black_call_detail_time">"Heure"</string>
+  <string name="black_sms_detail_contacts">"Contenu"</string>
+  <string name="sqlite_full">"Base de données Liste Noire ou disque est plein"</string>
+  <string name="no_subject">"Aucun objet"</string>
+  <string name="intercept_mms">"MMS %1$s taille:%2$s"</string>
+  <string name="add_contacts">"Ajouter un contact"</string>
+     <string name="blackCalls_all_button_Unselected">"Tout désélectionner"</string>
+     <string name="done">"OK"</string>
+
+    <string-array name="BlackList_list_stringArray">
+        <item>"SMS"</item>
+        <item>"Appels"</item>
+        <item>Tous les appels entrants et les SMS</item>
+    </string-array>
+     <string name="Add_Blacklist_title">"La liste noire est importée."</string>
+     <string name="Delete_Blacklist_title">La liste noire est en cours de suppression.</string>
+     <string name="Delete_CallLog_title">Le journal d\'appel est en cours de suppression.</string>
+     <string name="Delete_SmsLog_title">Le journal de SMS est en cours de suppression.</string>
+     <string name="BlackList_Menu_Add_Call_Some">Appel interrompu</string>
+     <string name="BlackList_Menu_Add_Sms_Some">SMS interrompu </string>
+     <string name="BlackList_Menu_Add_Call_With_Sms_Some">Appel et SMS interrompus</string>
+     <string name="Contact_error">"Les Contacts ont été stoppés"</string>
+     <string name="adding_blacklist_hold_on">"Opération de groupement, s\'il vous plaît, patienter un instant ..."</string>
+     <string name="refuse_in_guest">"Le pare-feu d\'appel n\'est pas pris en charge en mode invité"</string>
+    <string name="blocked_numbers_butter_bar_body">"Après avoir composé ou écrit un numéro d\'urgence, le blocage est désactivé pour vous assurer que les services d\'urgence peuvent fonctionner." Le blocage se réactivera automatiquement à %1$s ."</string>
+     <string name="refuse_after_close_blocked_storage">"Pare-feu d\'appel ne peut pas être utilisé après l\'arrêt du stockage de numéro bloqué"</string>
+
+</resources>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_number">"Do:"</string>
+<string name="cancel_call">"Zrušit"</string>
+<string name="delivery_toast_body_fail">"Zpráva neobdržena od %s."</string>
+<string name="read_report_toast_body">"Zpráva přečtena %s."</string>
+<string name="read_report_toast_body_fail">"Zpráva nepřečtena %s."</string>
+<string name="delivery_toast_body_fail_rejected">"Zpráva odmítnuta %s."</string>
+<string name="user_not_exist">"Uživatel neexistuje."</string>
+<string name="menu_resend">"Znovu odeslat"</string>
+<string name="low_storage_toast">"Málo prostoru!Vymažte některé soubory pro uvolnění prostoru."</string>
+<string name="failed_to_download_mms">"Stahování mms se nepovedlo, Zkuste opět později"</string>
+<string name="failed_to_send_mms">"Odesílání mms se nepovedlo, Zkuste opět později"</string>
+<string name="success_to_send_mms">"Odeslání mms úspěšné"</string>
+<string name="sim_x">"SIM%s"</string>
+<string name="sim_card_not_ready">"Sim karta není připravena"</string>
+<string name="sim_is_invalid">"Sim karta není připravena"</string>
+<string name="on_progress">"Probíhá spracování, čekejte, prosím..."</string>
+<string name="pref_internal_memory_usage_title">"MMS/Dostupní/Celkem"</string>
+<string name="pref_internal_memory_usage_progress_summary">"Počítání prostoru paměti..."</string>
+<string name="please_wait_title">"Prosím, čekejte..."</string>
+<string name="sim_card_setting">"Nastavení SIM Karty"</string>
+<string name="multi_sim_manage_messages_title">"Zprávy na SIM<xliff:g id="COUNT">%1$S</xliff:g>"</string>
+<string name="pref_title_manage_sim_setting">"Řídit nastavení SIM"</string>
+<string name="pref_summary_manage_sim_setting">"Řídit zprávy uloženy na SIM, Zprávy o dodání, Vypršený čas, Nastavení Smsc atd."</string>
+<string name="pref_summary_notification_ringtone">"Standardní vyzváněcí tón"</string>
+<string name="pref_summary_notification_ringtone_silent">"Ticho"</string>
+<string name="menu_sim_capacity">"Kapacita SIM"</string>
+<string name="pref_title_manage_multi_sim_messages">"Řídit zprávy na SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="pref_summary_manage_multi_sim_messages">"Řídit zprávy uloženy na SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_sim_success">"Úspěšně na SIM"</string>
+<string name="toast_copy_to_sim_failure">"nepovedlo se kopírovat na SIM"</string>
+<string name="toast_sim_memory_full">"Paměť SIM je plná"</string>
+<string name="toast_copy_to_multi_sim_success">"Úspěšně na SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_multi_sim_failure">"Nepovedlo se kopírovat na SIM<xliff:g id="COUNT">%1$s<xl></xl></xliff:g>"</string>
+<string name="toast_multi_sim_memory_full">"SIM <xliff:g id="COUNT">%1$S</xliff:g> paměť je plná"</string>
+<plurals name="conversation_num">
+<item quantity="one">"Máte 1 konverzaci."</item>
+<item quantity="other">"Máte <xliff:g id="number">%1$s</xliff:g> konverzací."</item>
+</plurals>
+<string name="count_of_new_mms">"%s nových zpráv"</string>
+<string name="pref_summary_store_sms_on_sim">"Když přijde nová sms, uložit ji na SIM anebo ne"</string>
+<string name="pref_title_store_sms_on_sim">"Uložit SMS na SIM"</string>
+<string name="pref_title_sms_validity">"Platnost SMS"</string>
+<string name="done_slide_show">"Hotovo"</string>
+<string name="smsc_check_fdn_failure">"Číslo centra Vašich zpráv nepatří k seznamu fdn."</string>
+<string name="muti_select_all">"Vybrat vše"</string>
+<string name="menu_select_none">"Zrušit výběr všech"</string>
+<string name="Conversation_check_type_selected_all">"Vybrat vše"</string>
+<string name="menu_msg_folder">"Náhled složky"</string>
+<string name="menu_msg_list">"Náhled na zprávu"</string>
+<string name="folder_inbox">"Doručená pošta"</string>
+<string name="folder_outbox">"Vnější Outbox"</string>
+<string name="folder_sent">"Odeslat"</string>
+<string name="folder_drafts">"Návrhy"</string>
+<string name="folder_empty">"Žádné zprávy v téhle složce."</string>
+<string name="folder_display_all">"Zobrazit všechny zprávy"</string>
+<string name="folder_delete_messages">"Smazat zprávy"</string>
+<string name="folder_loading">"Nahrávání.."</string>
+<string name="folder_reply">"Odpovědět"</string>
+<string name="folder_forward">"Dopředu"</string>
+<string name="no_msg_del">"Žádné zprávy nejsou vymazány"</string>
+<string name="exceed_slides_number_limitation">"Dosáhnout omezení počtu posunutí"</string>
+<string name="has_vcard_or_vcalendar_attachment">"Již má <xliff:g id="TYPE">%1$s</xliff:g>, není možné přidat další"</string>
+<string name="folder_sortby">"Třídit podle"</string>
+<string-array name="sort_type">
+<item>"Podle času"</item>
+<item>"Podle adresy"</item>
+</string-array>
+<string name="OTAConfig_title">"Nastavení OTAKonfig"</string>
+<string name="OTAConfig_Message">"Chcete skutečně uložit konfig OTA?"</string>
+<string name="OTAConfiy_Success">"Nastavení OTA zprávy úspěšné"</string>
+<string name="OTAConfiy_Error">"OTA konfig se nepovedla""</string>
+<string name="ota_pin_error">"OTA zabezpečení se nepovedlo"</string>
+<string name="ota_retry">"chyba hesla"</string>
+<string name="ota_pin_exception">"OTA konfig se nepovedla：chyba programu."</string>
+<string name="ota_mime_error">"OTA konfig se nepovedla：chyba dátové zprávy."</string>
+<string name="ota_support_not">"OTA konfig se nepovedla：<xliff:g id="OTATYPE">%1$s</xliff:g> nepodporovaný typ."</string>
+<string name="pref_reply_path_title">"Nastavení cesty odpovědě"</string>
+<string name="pref_title_reply_path">"Cesta odpovědě"</string>
+<string name="pref_summary_reply_path">"Odpovědět přes to samé centrum"</string>
+<string name="cannot_add_picture_and_vcard">"Je není možné přidat vkartu a obraz na jeden slide."</string>
+<string name="mms_setting">"Mms nastavení"</string>
+<string name="pref_title_font_size">"Nastavení velikosti písma"</string>
+<string name="font_size_setting">"Nastavení velikosti písma"</string>
+<string name="font_size">"Velikost písma je: <xliff:g id="font_size_id">%1$s</xliff:g>"</string>
+<string name="menu_copy_to_sim_memory">"Kopírovat zprávu na SIM"</string>
+<string name="menu_add_recipient_to_contacts">"Přidat <xliff:g id="name">%s</xliff:g>ke kontaktům"</string>
+<string name="action_done">"Hotovo"</string>
+<string name="message_signature_setting">"Nastavení podpisu"</string>
+<string name="pref_signature_enable_title">"Volitelný podpis"</string>
+<string name="pref_signature_enabl_summary">"Automaticky přidat podpis ke každé Mms zprávě, kterou odešlete"</string>
+<string name="pref_signature_input_title">"Editovat podpis"</string>
+<string name="pref_signature_input_summary">"Zadat tu pro nastavení Vašeho podpisu"</string>
+<string name="pref_signature_input_limited">"Podpis dosáhl svůj limit"</string>
+<string name="pref_hint_signature_edittext">"Prosím, zadejte svůj podpis"</string>
+<string name="toast_append_signature_failed">"Přidání podpisu k Mms se nepovedlo, Velikost slidů se dosáhla"</string>
+<string name="pageIndex">"Strana %s"</string>
+<string name="remove_subject">"Odstranit předmět"</string>
+<string name="toast_message_when_memory_full">"Paměť je plná, Prosím, nějaké uvolněte a restartujte"</string>
+<string name="toast_save_classzero_message_failed">"Nezbyl žádný prostor, ukládání zprávy se nepovedlo"</string>
+<string name="toast_shared_file_failed">"Nepodporovaný mediální soubor, sdílení se nepovedlo."</string>
+<string name="message_too_many_recipients_picked">"Litujeme, Nemůžete přidat více než <xliff:g id="COUNT">%1$s</xliff:g> kontaktů najednou"</string>
+<string name="pref_title_manage_sim_smsc">"Centrum služby SMS"</string>
+<string name="smsc_set_fails">"Nastavení Smsc se nepovedlo"</string>
+<string name="smsc_set_success">"Nastavení úspěšné."</string>
+<string name="smsc_change_success">"Změna úspěšná."</string>
+<string name="smsc_add_success">"Přidání úspěšné"</string>
+<string name="received_new_wap_contact">"Obdržena zpráva SMS Vkarty"</string>
+<string name="save_new_wap_contact">"Uložit"</string>
+<string name="cancle_new_wap_contact">"Zrušit"</string>
+<string name="menu_sim_message">"Zprávy na SIM"</string>
+<string name="folder_display_option">"Zobrazit možnost"</string>
+<string name="confirm_open_browser_dialog_title">"Zpráva"</string>
+<string name="confirm_open_browser_dialog_message">"Otevře se prohlížeč,pokračovat?"</string>
+<plurals name="delete_confirm">
+<item quantity="one">"Zvolit 1 položku"</item>
+<item quantity="other">"Zvolit <xliff:g id="del_count">%1$s</xliff:g> položky"</item>
+</plurals>
+<string name="select_sim_card">"Prosím, zvolte SIM kartu"</string>
+<string name="menu_video_call_back">"Videohovor <xliff:g id="name">%s</xliff:g>"</string>
+<string name="menu_edit_before_call_back">"Editovat před hovorem <xliff:g id="name">%s</xliff:g>"</string>
+<string name="min_zoom">"dosáhnuté minimum"</string>
+<string name="max_zoom">"dosáhnuté maximum"</string>
+<string name="sms_merge_forward">"Sloučit a postoupit"</string>
+<string name="sms_merge_dialog_title">"Připomínka"</string>
+<string name="sms_merge_dialog_content">"Můžete sloučit jen mezi 2 a 30 SMS zprávami. Prosím, zkontrolujte to."</string>
+<string name="sms_merge_forward_empty">"Žádná sms zpráva pro sloučení a postoupení."</string>
+<string name="sms_forwarding_number">"Nastavení postoupení SMS"</string>
+<string name="pref_sms_forwarding_number_title">"Číslo postoupení SMS"</string>
+<string name="pref_sms_forwarding_number_summary">"Postoupení SMS s číslem příjemnců"</string>
+<string name="sim_list_title">"Prosím, zvolte SIM kartu"</string>
+<string name="type_vcard">"kontakt"</string>
+<string name="type_vcalendar">"kalendár"</string>
+<string name="attach_vcard">"Kontakt"</string>
+<string name="attach_vcalendar">"Kalendár"</string>
+<string name="add_slide_before">"Přidat slide(předtím)"</string>
+<string name="add_slide_after">"Přidat slide(pak)"</string>
+<string name="re_take_picture">"Uložení obrázku se nepovedlo, prosím, zachyťte obrázek znovu."</string>
+<string name="exceed_text_length_limitation">"Omezení délky textu překročeno."</string>
+<string name="move_message_to_phone_memory">"Kopírovat zprávu do paměti telefonu úspěšné"</string>
+<string name="can_not_copy_the_message">"Není možné kopírovat zprávu"</string>
+<string name="confirm_import_vcard">"Importovat tuto VKartu？"</string>
+<string name="pref_title_manage_simx_smsc">"SIM<xliff:g id="COUNT">%1$s</xliff:g> Centrum služeb SMS"</string>
+<string name="simx_settings_title">"SIM<xliff:g id="COUNT">%1$s</xliff:g> Nastavení"</string>
+<string name="pref_summary_sms_validity">"Platnost krátké zprávy"</string>
+<string-array name="prefEntries_mms_validity">
+<item>"1 hodina"</item>
+<item>"12 hodin"</item>
+<item>"24 hodin"</item>
+<item>"2 dny"</item>
+<item>"Maximum"</item>
+</string-array>
+<string-array name="prefEntries_mms_priority">
+<item>"Vysoké"</item>
+<item>"Normální"</item>
+<item>"Nízké"</item>
+</string-array>
+<string name="pref_title_mms_validity">"Platnost multimediální zprávy"</string>
+<string name="pref_summary_mms_validity">"Platnost multimediální zprávy"</string>
+<string name="pref_title_mms_priority">"Priorita"</string>
+<string name="pref_summary_mms_priority">"Nastavení priority"</string>
+<string name="sim_settings_title">"Nastavení SIM Karty"</string>
+<string name="toast_copy_to_simx_success">"Úspěšné kopírování na <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_simx_failure">"Neúspěšné kopírování na<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_simx_memory_full">"<xliff:g id="COUNT">%1$s</xliff:g> je plná"</string>
+<string name="pref_title_manage_sim_x_setting">"Řídit SIM<xliff:g id="COUNT">%1$s</xliff:g> Nastavení"</string>
+<string name="pref_title_mms_creation_mode">"Režim vytvoření"</string>
+<string-array name="mms_creation_mode_entries">
+<item>"Omezený"</item>
+<item>"Varování"</item>
+<item>"Volná"</item>
+</string-array>
+<string name="exceed_resolution_limit">"Limit rozlíšení překročen"</string>
+<string name="want_to_add_media">"Chcete přidat tohle <xliff:g id="NAME">%1$s</xliff:g> k vaší zprávě?"</string>
+<string name="mms_can_not_add_vcard">"Vymažte existující přílohu k přidání kontaktů"</string>
+<string name="mms_can_not_add_vcalendar">"Vymazat existující přílohu pro přidání slidu"</string>
+<string name="converting_to_text_message">"Převod na textovou zprávu... "</string>
+<string name="select_calendar">"Zvolit Agendu"</string>
+<string name="no_calendar">"Žádná Agenda"</string>
+<string name="exceed_slides_number_message">"Zvolená <xliff:g id="NUMBER">%1$s</xliff:g> agenda，Max je <xliff:g id="NUMBER">%2$s</xliff:g> agenda"</string>
+<string name="add_to_blacklist">"Přidat k černé listině"</string>
+<string name="failed_addToBlacklist">"Přidání k černé listině se nepovedlo."</string>
+<string name="creating_slideshow_title">"Vytváření prezentace"</string>
+<string name="attachment_vcalendar">"Vkalendář"</string>
+<string name="attachment_vcard">"vcard"</string>
+<string name="text_limited_warning">"Omezení pro zadání"</string>
+<string name="subject_text_length_limitation">"Dosáhnuté omezení pro délu předmětu."</string>
+<string name="attach_commonPhrases">"Používané fráze"</string>
+<string name="commonphrase_empty">"Žádné běžné frázy"</string>
+<string name="quick_reply">"Quick Reply"</string>
+<string name="common_messages">"Běžná fráze"</string>
+<string name="common_add_text">"Nové"</string>
+<string name="common_delete_text">"Smazat"</string>
+<string name="common_delete_message">"Potvrdit vymazání?"</string>
+<string name="common_delete">"Smazat"</string>
+<string name="common_phrase_contextmenu_title">"Menu operací"</string>
+<string name="common_edit">"Editovat"</string>
+<string name="commonphrase_delete_empty">"Žádná fráze se nemůže vymazat"</string>
+<string name="common_phrase_edit_dialog_title">"Možnosti"</string>
+<string name="common_phrase_edit_dialog_inform">"Uložit vaše editování ?"</string>
+<string name="common_phrase_edit_max_length">"Dosáhl omezení pro zadání!"</string>
+<string name="common_messages_edit">"Editovat běžnou frázy"</string>
+<string name="common_save">"Uložit"</string>
+<string name="common_cancel">"Zrušit"</string>
+<string name="add_empty_common_messages">"Vložit jakýkoliv znak"</string>
+<string name="pref_other_settings_title">"Jiné"</string>
+<string name="pre_key_title_common_messages">"Běžná fráze"</string>
+<string name="common_phrase_selection">"Zvolit běžné frázy"</string>
+<string name="wap_push_message_dialog_title">""Zpráva posunutí Wap"</string>
+<string name="open_website">"Otevřít webovou stránku"</string>
+<string name="activity_not_found">"Nebyla nalezena vhodná aplikace"</string>
+<string name="add_contact">"Vložit kontakty"</string>
+<string name="receive_from">"Obdržet od %s"</string>
+<string name="send_from">"Odeslat od %s"</string>
+<string name="dl_expired_wap_push">"Jsou <xliff:g id="COUNT">%1$s</xliff:g> wap zprávy vypršeli, budou vymazány."</string>
+<string name="invalid_recipient">"neplatný příjemce"</string>
+<string name="max_recipients_count">"Omezení příjemců je <xliff:g id="MAXCOUNT">%1$s</xliff:g>."</string>
+<string name="no_media_selected">"Není zvolené žádné médium!"</string>
+<string name="search_max_length">"Vyhledávaná věta je příliš dlouhá, bude omezená na 512."</string>
+<string name="sim_capacity_used">"Použité:"</string>
+<string name="sim_capacity_total">"Celkem:"</string>
+<string name="too_many_contacts">"Omezení příjemců je <xliff:g id="MAXLIMIT">%1$s</xliff:g>, přidá vpředu <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> příjemci se přidají."</string>
+<string name="delivery_toast_body_expired">"Zpráva vypršela %s."</string>
+<string name="discard_dialog">"Chcete se skutečně vzdát této informace?"</string>
+<string name="contacts_count_excceeds">"Již jste přidali <xliff:g id="MAXLIMIT">%1$s</xliff:g> příjemců,není povoleno přidat více."</string>
+<string name="copy">"Kopírovat"</string>
+<string name="received_new_wap_vcalendar">"Obdržená zpráva SMS Vkalendáře"</string>
+<string name="remove_vcalendar_first">"Nejdřív vymazat připojený vkalendář, aby se tohle mohlo upravit."</string>
+<string name="remove_vcard_first">"Nejdřív vymazat připojenou vkartu pro editování tohoto."</string>
+<string name="import_vcalendar">"Importovat Vkalendář"</string>
+<string name="no_vcalendar">"Nenalezený žádný Vkalendář"</string>
+<string name="import_vcalendar_fail">"Nebylo možné importovat VKalendář."</string>
+<string name="unable_to_add_all">"Velikost zprávy dosáhnutý, nějeké části nejsou přidány"</string>
+<string name="replce_slideshow_dilaog_dismiss">"Výměna slideshow vymaže současnou přílohu,chcete zkusit pokračovat?"</string>
+<string name="pref_title_sms_retry_times">"Aktivovat obnovení SMS"</string>
+<string name="smsc_list">"seznam centra SMS"</string>
+<string name="smsc_list_empty">"Žádné čísla centra SMS"</string>
+<string name="smsc_list_loading">"Nahrávání"</string>
+<string name="smsc_list_menu_edit">"Editovat"</string>
+<string name="smsc_list_menu_activate">"Aktivovat"</string>
+<string name="smsc_list_not_allow_to_clear">"Není povoleno vymazat číslo"</string>
+<string name="smsc_list_empty_number">"Klikněte pro přidání nového čísla"</string>
+<string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g> příloha uložena do<xliff:g id="path">%2$s</xliff:g>,<xliff id="fail">%3$d</xliff> přílohu se nepovedlo uložit"</string>
+<string name="box_msg_list_menu_addtocontacts">"Přidat ke kontaktům"</string>
+<string name="box_msg_list_menu_call">"Hovor"</string>
+<string name="box_msg_list_menu_editbeforecall">"Editovat před hovorem"</string>
+<string name="box_msg_list_menu_videocall">"Videohovor"</string>
+<string name="soundrecorder_fail_msg">"Bylo nebylo možné spustit Nahrávač zvuku."</string>
+<string name="camera_fail_msg">"Bylo nebylo možné spustit fotoaparát."</string>
+<string name="video_fail_msg">"Bylo nebylo možné spustit video."</string>
+<string name="pref_encode_type_setting_title">"Nastavení typu kódování"</string>
+<string name="pref_encode_type_title">"Encode type"</string>
+  <string-array name="prefEntries_sms_validity">
+    <item>"1 hodina"</item>
+    <item>"6 hodin"</item>
+    <item>"24 hodin"</item>
+    <item>"2 dny"</item>
+    <item>"1 týden"</item>
+    <item>"Maximum"</item>
+    <item>"Maximum"</item>
+  </string-array>
+    <string name="confirm_convert_to_mms">"Příjemci obsahují email, zpráva se odešle jako mms"</string>
+    <string name="send_as_mms">"Odeslat MMS"</string>
+    <string name="send_as_sms">"odeslat jen sms"</string>
+    <string name="protected_file">"Chráněný soubor není možné přidat"</string>
+    <string name="success_to_send_sms">"Odesílání sms se povedlo"</string>
+    <string name="confirm_ota_message">"Potvrdit nastavení OTA?"</string>
+    <string name="confirm_ota">"Ok"</string>
+    <string name="cancel_ota">"Zrušit"</string>
+    <string name="ota_cancelled">"Nastavení OTA byly zrušeny."</string>
+    <string name="message_too_big_for_audio">Zpráva je pro připojení audia příliš velká.</string>
+
+    <string name="contacts_count_can_send">"Vážený zákazník, přijímatelé překročili limit systému, povoleno odeslat jen <xliff:g id="MAXLIMIT">%1$s</xliff:g> , prosím, odesílejte v dávkách."</string>
+    <string name="attach_common_messages">Používané fráze</string>
+    <string name="attach_subject">"Předmět"</string>
+    <string name="add_contacts_dialog_title">"Přidat kontakty"</string>
+    <string name="add_contact_as_text">"Textová zpráva"</string>
+    <string name="action_next">"Další"</string>
+     <string name="sms_forward">"Dopředu"</string>
+     <string name="valid_sub">"neplatná SIM karta"</string>
+     <string name="confirm_import_vcalendar">"Importovat tento Vkalendář?"</string>
+     <string name="confirm_save_otherfiles">"Uložit  tuto přílohu?"</string>
+     <string name="pref_notification_settings_title_sim1">"sim1 Notifikace"</string>
+     <string name="pref_notification_settings_title_sim2">"sim2 Notifikace"</string>
+     <string name="pref_notification_settings_title_sim">"sim Notifikace"</string>
+     <string name="dlg_media_removed">"Média bez správné cesty v příloze byly odstraněny, pokračovat v odesílání?"</string>
+     <string name="toast_media_removed">"Média bez správné cesty v příloze byly odstraněny, prosím, zkontrolujte!"</string>
+     <string name="dl_failure_roaming">"Stav roamingu, nebylo možné stáhnout zprávu!"</string>
+     <string name="recipient_invalid">"<xliff:g id="invalid_number" example="1">%1$s</xliff:g> Příjemce(i) Neplatné"</string>
+     <string name="recipient_invalid_detail">"Neplatné(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+     <string name="recipient_changed_detail">"Změněno(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+</resources>

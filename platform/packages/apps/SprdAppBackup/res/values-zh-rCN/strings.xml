@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_agent_name">日历</string>
+    <string name="gallery_agent_name">图库</string>
+    <string name="contacts_agent_name">联系人</string>
+    <string name="mms_agent_sms_name">短信</string>
+    <string name="mms_agent_mms_name">彩信</string>
+    <string name="mms_agent_name">信息</string>
+    <string name="app_name">备份与恢复</string>
+    <string name="backup">备份</string>
+    <string name="restore">恢复</string>
+    <string name="set_password">设置密码</string>
+    <string name="start_backup">开始备份</string>
+    <string name="data_backup">数据备份</string>
+    <string name="apk_backup">应用备份</string>
+    <string name="next_step">下一步</string>
+    <string name="data_restore">数据恢复</string>
+    <string name="apk_restore">应用恢复</string>
+    <string name="start_restore">开始恢复</string>
+    <string name="version_name">版本：</string>
+    <string name="please_holding">请稍候...</string>
+    <string name="backup_is_ongoing">正在备份</string>
+    <string name="restore_is_ongoing">正在恢复</string>
+    <string name="install_failed">安装失败</string>
+    <string name="old_version_alter">老版本不能覆盖新版本</string>
+    <string name="backup_complete">备份完成</string>
+    <string name="restore_complete">恢复完成</string>
+    <string name="select_all">全选</string>
+    <string name="exit_title">退出</string>
+    <string name="do_you_wanna_exit_really">真的要退出备份与恢复应用吗？</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="delete">删除</string>
+    <string name="confirm_delete">点击删除，会将该目录下的所有备份文件删除，请确认是否要删除？</string>
+    <string name="please_select_app_to_restore">请至少选择一个要恢复的应用</string>
+    <string name="please_select_dataitem_to_restore">请选择要恢复的数据内容</string>
+    <string name="no_app_backuped">没有可以恢复的应用</string>
+    <string name="hint">提示</string>
+    <string name="sdcard_is_unmounted">外部存储卡无法访问，无法进入应用备份</string>
+    <string name="backup_application">备份应用</string>
+    <string name="backup_fail">备份失败</string>
+    <string name="warning">警告！</string>
+    <string name="please_select_app_or_data">请至少选择一个应用或数据</string>
+    <string name="restore_fail">恢复失败</string>
+    <string name="restore_application">恢复应用</string>
+    <string name="application">应用</string>
+    <string name="sdcard_is_not_available">请插入 SD 卡</string>
+    <string name="backup_is_cancelled">备份已取消</string>
+    <string name="sim_1">SIM卡1</string>
+    <string name="sim_2">SIM卡2</string>
+    <string name="confirm_delete_apk">点击删除，将会删除选中的apk文件，请确认是否删除？</string>
+    <string name="lock_of_freespace">存储空间不足，请清理存储卡的数据后再进行操作</string>
+    <string name="internal_lock_of_freespace">存储空间不足，请清理内部存储空间的数据后再进行操作</string>
+    <string name="delete_all">删除所有</string>
+    <string name="delete_data_hint">删除数据</string>
+    <string name="data_cannot_recovery_after_delete">数据删除后将不可恢复，请确认要删除数据？</string>
+    <string name="deleting">正在删除</string>
+    <string name="delete_complete">删除完成</string>
+    <string name="delete_fail">删除失败</string>
+    <string name="data">数据</string>
+    <string name="backup_success">备份成功</string>
+    <string name="backup_all_result">备份结果</string>
+    <string name="category_mms">彩信</string>
+    <string name="category_sms">短信</string>
+    <string name="select_sim">选择SIM卡</string>
+    <string name="sim_x">SIM卡%s</string>
+    <string name="select_account">选择账户</string>
+    <string name="restore_is_cancelled">恢复已取消</string>
+    <string name="remove_duplication_hint">数据恢复完成，可能存在重复数据，是否删除重复数据？</string>
+    <string name="restore_success">恢复成功</string>
+    <string name="delete_redundancy">清理冗余</string>
+    <string name="clear_complete">清理完成</string>
+    <string name="confirm_delete_menu">确认删除</string>
+    <string name="no_data_to_backup">无可备份数据</string>
+    <string name="duplication_unsupport">此数据不支持清理重复数据</string>
+    <string name="title_select_storage">存储路径</string>
+   <string name="use_external_storage">内部存储空间过小，请使用外部存储</string>
+   <string name="internal_storage_not_available">内部存储空间不可用</string>
+   <string name="agent_service_disconnected"> 断开连接</string>
+   <!-- SPRD : fix bug256962 @{ -->
+   <string name="remind_data">数据</string>
+   <string name="remind_read_userdata_title">读取用户数据</string>
+   <string name="remind_write_userdata_title">更改用户数据</string>
+   <string name="remind_read_userdata_message">备份过程将会读取</string>
+   <string name="remind_write_userdata_message">恢复过程将会更改</string>
+   <!-- @} -->
+    <string-array name="storage_items">
+                <item>外部存储</item>
+                <item>内部存储</item>
+                <item>自定义存储路径</item>
+        </string-array>
+   <string name="go_back">返回</string>
+   <string name="cancle_select_all">"取消全选"</string>
+
+   <string name="please_select_storage_path">"请选择路径"</string>
+   <string name="scan_all_storage">"扫描全盘"</string>
+   <string name="scan_all_storage_complete">"扫描全盘完成"</string>
+   <string name="restore_select_storage_path">"从指定路径扫描"</string>
+   <string name="change_mobile_hint">"换机提示"</string>
+   <string name="never_hint">"不再提示"</string>
+   <string name="not_insert_SD_backup_hint">"本机未插入 SD 卡,如需在新机上恢复数据,可通过 SD 卡或者电脑将备份文件转移至新机进行恢复。"</string>
+   <string name="no_SD_backup_hint">"本机无 SD 卡,如需在新机上恢复数据,可通过电脑将备份文件转移至新机进行恢复。"</string>
+   <string name="read_detail">"查看详情"</string>
+   <string name="display_detail">"详情帮助"</string>
+   <string name="not_insert_SD_backup_detail">"通过 SD 卡换机:
+1、 将 SD 卡插入本机;
+2、 进行备份;
+3、 取出 SD 卡,将其插入新机中;
+4、 打开新机的备份恢复应用,在恢复功能中选择搜索到的备份文件进行恢复。
+通过电脑换机:
+1、 进行备份,并查看备份路径;
+2、 将本机连接至电脑并打开手机文件目录;
+3、 将备份路径下的备份文件拷贝至电脑;
+4、 将新手机连接至电脑并打开新手机文件目录;
+5、 将备份文件拷贝至新手机任意目录;
+6、 打开新机的备份恢复应用,在恢复功能中选择搜索到的备份文件进行恢复。
+"</string>
+   <string name="no_SD_backup_detail">"1、 将本机连接至电脑并打开手机文件目录;
+2、 将 /backup/ 路径下的备份文件拷贝至电脑;
+3、 将新手机连接至电脑并打开新手机文件目录;
+4、 将备份文件拷贝至新手机任意目录;
+5、 打开新手机的备份恢复应用,在恢复功能中选择搜索到的备份文件进行恢复。
+"</string>
+   <string name="first_entry_alert">"“备份与恢复”功能为中国移动定制机特有功能，可在所有品牌的中国移动定制机间互相使用。"</string>
+
+   <string name="scan_all_storage_please_holding">扫描全盘耗时较长，请稍候...</string>
+    <string-array name="select_path_items">
+                <item>外部存储</item>
+                <item>内部存储</item>
+        </string-array>
+     <!-- SPRD:476980 add for request storage permission @{ -->
+     <string name="permission_missed_hint">缺乏必要的权限，因此无法正常执行。请检查您的权限设定。</string>
+     <string name="dialog_dismiss">关闭</string>
+     <!-- @} -->
+     <string name="requires_permissions_message">"此应用没有权限访问外部存储，请选择内部存储。"</string>
+     <string name="requires_permissions_close_button">"确定"</string>
+</resources>

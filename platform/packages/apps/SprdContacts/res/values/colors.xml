@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <color name="quickcontact_name_detail_background">#66000000</color>
+    <color name="quickcontact_entry_sub_header_text_color">#737373</color>
+    <color name="quickcontact_entry_header_text_color">#202020</color>
+
+    <color name="background_social_updates">#ffeeeeee</color>
+
+    <!-- TODO: remove these colors once we delete the group code (b/16522929) -->
+    <color name="action_bar_background">#0288d1</color>
+    <color name="action_bar_background_highlight">#cecece</color>
+    <color name="action_bar_button_text_color">#FFFFFF</color>
+
+    <color name="actionbar_background_color">@color/primary_color</color>
+    <color name="actionbar_background_color_dark">@color/primary_color_dark</color>
+
+    <color name="contextual_selection_bar_color">#616161</color>
+    <!-- Color of the status bar above the contextual selection bar. -->
+    <color name="contextual_selection_bar_status_bar_color">#424242</color>
+
+    <color name="primary_color_dark">#0277bd</color>
+    <color name="primary_color">#0288d1</color>
+
+    <!-- Color of the selected tab underline -->
+    <color name="contacts_accent_color">#FFFFFF</color>
+
+    <color name="floating_action_button_icon_color">@color/contacts_accent_color</color>
+
+    <!-- Horizontal separator line should be 12% dark in the light theme. -->
+    <color name="divider_line_color_light">#e0e0e0</color>
+
+    <!-- Color of the text on an ExpandingEntryCard button -->
+    <color name="expanding_entry_card_button_text_color">@android:color/black</color>
+
+    <!-- Background color for an ExpandingEntryCard -->
+    <color name="expanding_entry_card_background_color">#ffffff</color>
+
+    <!-- Color of the margin for cards -->
+    <color name="card_margin_color">#f4f4f4</color>
+
+    <color name="call_arrow_green">#2aad6f</color>
+    <color name="call_arrow_red">#ff2e58</color>
+
+    <!-- Background color of pinned header items. -->
+    <color name="list_item_pinned_header_color">@color/background_primary</color>
+
+    <!-- Color of the mime-type icons inside the editor. 50% black. -->
+    <color name="editor_icon_color">#7f7f7f</color>
+
+    <!-- Color of disabled text and unfocused hint text inside the contact editor. 25% black. -->
+    <color name="editor_disabled_text_color">#40000000</color>
+
+    <!-- Color of button background in compact photo picker. -->
+    <color name="google_grey_600">#757575</color>
+    
+    <!-- Color of button text in compact photo picker, 85% white. -->
+    <color name="photo_action_button_color">#D9FFFFFF</color>
+
+    <!-- Color of text on disabled link contacts button, 25% black. -->
+    <color name="disabled_button_text">#40000000</color>
+    
+    <!-- Color of background of disabled link contacts button, 15% black. -->
+    <color name="disabled_button_background">#26000000</color>
+    
+    <!-- Add by sprd -->
+    <color name="quickcontact_list_divider">#ffcdcdcd</color>
+    <color name="quickcontact_list_background">#ffe2e2e2</color>
+    <color name="quickcontact_tab_indicator">#ffc6c6c6</color>
+    <color name="quickcontact_track_background">#fff5f5f5</color>
+    <color name="quickcontact_activity_background">#fff5f5f5</color>
+    <!-- Color of the background of the contact detail and editor pages -->
+    <color name="background_primary">#ffffff</color>
+    <!-- Color used for the letter in the A-Z section header -->
+    <color name="section_header_text_color">#888888</color>
+    <!-- Color of the text in the updates tab in the tab carousel on the contact detail page -->
+    <color name="detail_update_tab_text_color">#777777</color>
+    <!-- Color of the text of the tab carousel in the contact details -->
+    <color name="detail_tab_carousel_tab_label_color">#EEEEEE</color>
+    <!-- Color of the background of the action bar -->
+    <color name="action_bar_background">#e6e6e6</color>
+    <!-- Color of the background of the action bar -->
+    <color name="action_bar_background">#e6e6e6</color>
+
+    <!-- Color of the background of the action bar when highlighted (ie. pressed, focused) -->
+    <color name="action_bar_background_highlight">#cecece</color>
+
+    <!-- Color of the text for buttons in the action bar -->
+    <color name="action_bar_button_text_color">#FFFFFF</color>
+
+    <!-- Color of the vertical stripe that goes on the left of a block quote inside a stream item -->
+    <color name="stream_item_stripe_color">#CCCCCC</color>
+       <!-- Color of the background of the action bar -->
+    <color name="action_bar_background">#e6e6e6</color>
+
+    <!-- Color of the background of the action bar when highlighted (ie. pressed, focused) -->
+    <color name="action_bar_background_highlight">#cecece</color>
+
+    <!-- Color of the text for buttons in the action bar -->
+    <color name="action_bar_button_text_color">#FFFFFF</color>
+
+    <!-- Color of the vertical stripe that goes on the left of a block quote inside a stream item -->
+    <color name="stream_item_stripe_color">#CCCCCC</color>
+    <color name="people_app_theme_color_new_ui">#000000</color>
+    <color name="calldetail_background">#ebebeb</color>
+    <color name="call_log_voicemail_status_background_color">#262626</color>
+    <color name="call_log_voicemail_status_text_color">#888888</color>
+    <color name="call_log_voicemail_status_action_text_color">#33b5e5</color>
+    <color name="contact_count_text_color">#AAAAAA</color>
+
+    <!-- The following is UUI4 color definitions -->
+    <!-- user profile header color and count color -->
+    <color name="contact_list_count_text_color">#777777</color>
+    <color name="contact_editor_field_text_color">#000000</color>
+    <!-- actionbar tab text color for selected items -->
+    <color name="contact_actionbar_tab_highlight_text_color">#0096FF</color>
+    <color name="contact_actionbar_tab_text_color">#777777</color>
+    <color name="contact_editor_kind_title_text_color">#0096FF</color>
+    <color name="contact_list_user_profile_header_text_color">#777777</color>
+    <!-- text color for contact detail interface -->
+    <color name="contact_detail_item_title_text_color">#0096FF</color>
+    <!-- main color of contact interface -->
+    <color name="contact_main_text_color">#646464</color>
+    <color name="group_browser_list_account_header_type_text_color">#646464</color>
+    <!-- text color for contact search result's title -->
+    <color name="contact_search_result_title_text_color">#777777</color>
+
+    <!-- contact photo editor's color of corner view -->
+    <color name="contact_editor_photo_cornor_view_color">#7F000000</color>
+    <!-- contact photo editor's color of text view -->
+    <color name="contact_editor_photo_text_view_color">#FFFFFF</color>
+    <color name="contact_list_item_prefix_highlight_color_overlay">#0096FF</color>
+    <!-- text color for contact detail interface -->
+    <color name="quick_contact_list_data_text_color">#000000</color>
+    <!-- text color for contact detail interface -->
+    <color name="quick_contact_list_type_text_color">#0096FF</color>
+    <color name="group_editor_group_name_text_color">#000000</color>
+    <color name="group_editor_group_member_select_text_color">#000000</color>
+    <color name="contact_detail_list_item_primary_type_text_color">#0096FF</color>
+
+    <!-- Color of the background of the action bar -->
+    <color name="action_bar_background">#e6e6e6</color>
+    <!-- Color of the background of the action bar when highlighted (ie. pressed, focused) -->
+    <color name="action_bar_background_highlight">#cecece</color>
+    <!-- Color of the text for buttons in the action bar -->
+    <color name="action_bar_button_text_color">#FFFFFF</color>
+
+    <!-- Color of the vertical stripe that goes on the left of a block quote inside a stream item -->
+    <color name="stream_item_stripe_color">#CCCCCC</color>
+    <color name="people_app_theme_color_new_ui">#000000</color>
+    <color name="calldetail_background">#ebebeb</color>
+    <color name="call_log_voicemail_status_background_color">#262626</color>
+    <color name="call_log_voicemail_status_text_color">#888888</color>
+    <color name="call_log_voicemail_status_action_text_color">#33b5e5</color>
+    <color name="contact_count_text_color">#AAAAAA</color>
+
+    <!-- The following is UUI4 color definitions -->
+    <!-- user profile header color and count color -->
+    <color name="contact_list_count_text_color">#777777</color>
+    <color name="contact_editor_field_text_color">#000000</color>
+    <!-- actionbar tab text color for selected items -->
+    <color name="contact_actionbar_tab_highlight_text_color">#0096FF</color>
+    <color name="contact_actionbar_tab_text_color">#777777</color>
+    <color name="contact_editor_kind_title_text_color">#0096FF</color>
+    <color name="contact_list_user_profile_header_text_color">#777777</color>
+    <!-- text color for contact detail interface -->
+    <color name="contact_detail_item_title_text_color">#0096FF</color>
+    <!-- main color of contact interface -->
+    <color name="contact_main_text_color">#646464</color>
+    <color name="group_browser_list_account_header_type_text_color">#646464</color>
+    <!-- text color for contact search result's title -->
+    <color name="contact_search_result_title_text_color">#777777</color>
+
+    <!-- contact photo editor's color of corner view -->
+    <color name="contact_editor_photo_cornor_view_color">#7F000000</color>
+    <!-- contact photo editor's color of text view -->
+    <color name="contact_editor_photo_text_view_color">#FFFFFF</color>
+    <color name="contact_list_item_prefix_highlight_color_overlay">#0096FF</color>
+    <!-- text color for contact detail interface -->
+    <color name="quick_contact_list_data_text_color">#000000</color>
+    <!-- text color for contact detail interface -->
+    <color name="quick_contact_list_type_text_color">#0096FF</color>
+    <color name="group_editor_group_name_text_color">#000000</color>
+    <color name="group_editor_group_member_select_text_color">#000000</color>
+    <color name="contact_detail_list_item_primary_type_text_color">#0096FF</color>
+
+    <!-- text color for contact group editor interface -->
+    <color name="group_editor_account_type_text_color">#000000</color>
+    <color name="group_editor_account_name_text_color">#0096FF</color>
+    <color name="group_browser_list_account_header_name_text_color">#777777</color>
+    <color name="group_browser_list_item_label_text_color">#000000</color>
+    <color name="group_browser_list_item_count_text_color">#888888</color>
+    <color name="group_editor_member_item_name_text_color">#000000</color>
+    <color name="quick_contact_name_text_color">#FFFFFF</color>
+    <color name="contact_list_user_profile_title_text_color">#000000</color>
+    <!-- text color for contact detail sub title text color -->
+    <color name="contact_detail_list_item_primary_data_text_color">#000000</color>
+
+    <!-- text color for contact JoinAggregate text color -->
+    <color name="contact_join_list_aggregate_suggestion_text_color">#646464</color>
+    <color name="contact_join_list_aggregate_all_text_color">#646464</color>
+    <color name="action_bar_button_disable_text_color">#7FFFFFFF</color>
+    <color name="quick_contact_photo_text_bar">#3f000000</color>
+    <!-- SPRD -->
+    <color name="primary_text_default_material_light">#de000000</color>
+
+</resources>

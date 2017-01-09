@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"Okidač za glas"</string>
+<string name="audio_voicetrigger_words">"Riječ za buđenje"</string>
+<string name="audio_voicetrigger_sensibility">"Osjetljivost na prepoznavanje"</string>
+<string name="audio_voicetrigger_support_fun">"Opis značajki za podršku"</string>
+<string name="audio_voicetrigger_connect_headset">"Povezati slušalice za korištenje"</string>
+<string name="audio_voicetrigger_language_choose">"Odabrati jezik glasovne komande"</string>
+<string name="audio_voicetrigger_help">"Pomoć"</string>
+<string name="audio_voicetrigger_subtitle_wakeup_default">"Kontekst riječi za buđenje"</string>
+<string name="audio_voicetrigger_subtitle_wakeup_userdefine">"Korisnički definirano"</string>
+<string name="audio_voicetrigger_subtitle_language_choose">"Podesiti jezik glasovne komande"</string>
+<string name="audio_voicetrigger_subtitle_help">"Audicijski podešena riječ za buđenje"</string>
+<string name="voicetrigger_connect_headset_content">"Kada se koriste ožičene slušalice ili Bluetooth slušalice, \ telefon će se i dalje moći probuditi i koristiti normalno, \ ali vaš glas se sakuplja kroz mikrofon telefona, \ a mikrofon slušalica ne može probuditi telefon"</string>
+<string name="voicetrigger_wakeup_title">"Upisivanje riječi za buđenje"</string>
+<string name="voicetrigger_input_title">"Snimanje riječi za buđenje"</string>
+<string name="voicetrigger_describe">"Kada telefon nije blizu ili ga nije praktično držati,\poput poziva, slušanja glazbe itd., možete koristiti riječi za buđenje, kako biste probudili svoj uređaj i učinili nešto uz pomoć svog glasa."</string>
+<string name="change_language_progress_dialog_message">"Promjena jezika, molimo sačekajte…"</string>
+<string name="info_press_to_start">"Kliknite na gumb za snimanje glasa"</string>
+<string name="info_default">"Molimo govorite na tihom mjestu"</string>
+<string name="info_recording">"Snimanje..."</string>
+<string name="info_please_wait">"Molimo sačekajte..."</string>
+<string name="info_talk_louder">"Govorite glasnije"</string>
+<string name="info_pause_before">"Pauzirajte "1-2 sekunde prije govora""</string>
+<string name="info_too_noisy">"Previše je bučno. Premjestite se na tiše mjesto"</string>
+<string name="info_talk_softer">"Govorite mekše"</string>
+<string name="info_bad_recording">"Loše snimanje"</string>
+<string name="info_talk_slower">"Govorite sporije"</string>
+<string name="info_too_many_sound">"Previše ponavljanja glasa"</string>
+<string name="info_check_rec">"Generiram okidač. Molimo sačekajte..."</string>
+<string name="info_problems_in_rec">"Problemi u jednom ili više snimaka, morate ponovno snimiti"</string>
+<string name="generate_voicetrigger_words_success">"VoiceTrigger je generiran."</string>
+<string name="voicetrigger_wakeup_item_1">"%1$s (zadano)"</string>
+<string name="voicetrigger_wakeup_item_2">"korisnički definirano"</string>
+<string name="prompting_user_defined_text">"sadržaj podešenih riječi za buđenje"</string>
+<string name="prompting_text_default">"Molimo recite：%1$s"</string>
+<string name="prompting_text_1">"Molimo recite：%1$s ponovno"</string>
+<string name="prompting_text_2">"Dovršeno"</string>
+<string name="error_app_internal">"Interna pogreška aplikacije."</string>
+<string name="dialog_dismiss">"Odbaci"</string>
+<string name="error_permissions">"Aplikacija nema važna dopuštenja potrebna za pokretanje. Provjerite svoje postavke dopuštenja."</string>
+<string name="dialog_title">Upozorenje</string>
+<string name="dialog_firstuse_info">"Prvi koristite ovu značajku  ,  trebali biste podesiti zadani glas za buđenje ovog uređaja"</string>
+<string name="no_wakeup_words_recoded">"Niste snimili korisnički definirane riječi za buđenje"</string>
+<string name="dialog_title_notice">"Obavijest"</string>
+<string name="dialog_change_language_first">"Potvrdili smo da niste snimili glas riječi za buđenje na trenutačnom jeziku,\trebali biste snimiti novi glas za buđenje uređaja  ,  želite li nastaviti  ?"</string>
+<string name="same_application_running">"Uređaj za snimanje koristi se od strane drugog programa, molimo zatvorite taj program!"</string>
+<string name="is_not_systemuser">"Trenutačno nije korisnik sustava, nije moguće koristiti glas za buđenje."</string>
+<string-array name="hello_trigger_text_title_array">
+<item>"Zdravo, mogu li vam pomoći?"</item>
+<item>"Molim pomozite mi,  slušam vas..."</item>
+<item>"Možete me ovako pitati: "</item>
+</string-array>
+<string name="support_find_phone">Pronađi telefon"</string>
+<string name="support_find_phone_summary">"Viknite glasno：\' [Riječi za buđenje] + Gdje si?\', telefon će odgovoriti zvonjavom koja je trenutačno podešena."</string>
+<string name="support_call_phone">"Pozvati"</string>
+<string name="support_call_phone_summary">"Recite telefonu：\' [Riječi za buđenje] + Pozovi Xiao Wang\'，pozvat će nekoga."</string>
+<string name="support_send_mms">"Poslati poruke"</string>
+<string name="support_send_mms_summary">"Recite telefonu：\' [Riječi za buđenje] + Pošalji tekstnu poruku za Xiao Wang\'，otvorit će aplikacije za poruke kako bi poslao poruku."</string>
+<string name="support_camera">"Fotografiraj"</string>
+<string name="support_camera_summary">"Recite telefonu：\' [Riječi za buđenje] + Fotografiraj umjesto mene\'，otvorit će kameru i izravno fotografirati."</string>
+<string name="support_open_music">"Reproduciraj glazbu"</string>
+<string name="support_open_music_summary">"Recite telefonu:\' [Riječi za buđenje] + Pokreni Wang Fei\'s \"Hong Dou\"\'，otvorit će glazbeni plejer i pokrenuti pjesmu."</string>
+<string name="support_open_app">"Pokrenuti aplikacije"</string>
+<string name="support_open_app_summary">"Recite telefonu：\' [Riječi za buđenje] + Otvori WeChat\'，telefon će pokrenuti aplikaciju WeChat."</string>
+<string name="find_phone_content">"Možeš me pitati：\n\n Gdje si\n Čuješ li me\n Odgovori mi"</string>
+<string name="call_phone_content">"Možeš me pitati：\n\n Pozovi Xiao Wang\n Uputi povratni poziv za Xiaomin\n Pozovi službu za klijente tvrtke China Mobile\n Pozovi 114"</string>
+<string name="send_mms_content">"Možeš me pitati：\n\n Pošalji tekstnu poruku za Xiao Wang\n Pošalji tekstnu poruku za Xiaomin\n Odgovori na tekstnu poruku za mama\n Pošalji SMS porukom vrijeme sastanka za Xiaoming"</string>
+<string name="open_camera_content">"Možeš me pitati：\n\n Fotografiraj umjesto mene\n Fotografiraj scenu\n Fotografiraj putokaz."</string>
+<string name="open_music_content">"Možeš me pitati：\n\n Pokreni Wang Fei\'s \"Hong Dou\"\n Pokreni pjesmu po slučajnom izboru\n Želim slušati "Pao Mo"\n Pokreni pjesmu od Zhang Xueyou"</string>
+<string name="open_app_content">"Možeš me pitati：\n\n Otvori WeChat\n Preuzmi aplikaciju "kompas" \n Pokreni program notepad"</string>
+<string name="default_trigger">"Okidač: Hello Blue Genie v17 (Engleski SAD)"</string>
+<string name="default_command">"Naredba: Fitness v2.2 (Engleski SAD)"</string>
+<string name="default_command_sen">"Osjećajnost: Normalna"</string>
+<string name="trigger_prompt">"Recite Hello Blue Genie"</string>
+<string name="command_prompt1">""Sada recite nešto od \nslijedećeg…"</string>
+<string name="command_prompt2">""Sada recite naredbu"</string>
+<string name="cmd_step_count">"Brojanje koraka"</string>
+<string name="cmd_calories">"Kalorije"</string>
+<string name="cmd_floors">"Katovi"</string>
+<string name="cmd_distance">"Razdaljina"</string>
+<string name="cmd_active_minutes">"Aktivne minute"</string>
+<string name="cmd_sleep_pattern">"Uzorak spavanja"</string>
+<string name="cmd_outside_temperature">"Vanjska temperatura"</string>
+<string name="cmd_outside_humidity">"Vanjska vlažnost"</string>
+<string name="cmd_what_time_is_it">"Koliko je sati"</string>
+<string name="cmd_heart_rate">"Broj otkucaja srca"</string>
+<string name="resp_step_count">"Broj koraka = 4306"</string>
+<string name="resp_calories">"Broj danas sagorenih kalorija = 1445"</string>
+<string name="resp_floors">"Broj danas pređenih katova = 8"</string>
+<string name="resp_distance">"Današnja razdaljina = 4.05 km"</string>
+<string name="resp_active_minutes">"Minuta aktivnosti danas = 17"</string>
+<string name="resp_sleep_pattern">"Dubokog sna danas = 3h 25m"</string>
+<string name="resp_outside_temperature">"Vanjska temp. = 74 F"</string>
+<string name="resp_outside_humidity">"Vanjska vlažnost = 41 %"</string>
+<string name="resp_what_time_is_it">"Trenutačno vrijeme ="</string>
+<string name="resp_heart_rate">"Broj otkucaja srca = 74 bpm"</string>
+<string name="time_left">"Preostalo vrijeme: X s"</string>
+<string name="language_changed_success">"Jezik je uspješno promijenjen!"</string>
+<string name="save_file_to_device_error">"Promjena riječi za buđenje nije uspjela, molimo pokušajte ponovno kasnije!"</string>
+<string name="language_changed_failed">Promjena jezika nije uspjela, molimo pokušajte ponovno kasnije.</string>
+<string name="language_change_has_canceled">"Otkazano je, možete koristiti i stare jezike"</string>
+<string name="finished">"Završi"</string>
+<string name="sensibility_text">"Podesite osjetljivost riječi za buđenje u prepoznavanju \n \ Kada je osjetljivost podešena na više, veća je stopa buđenja\n \ Kada je osjetljivost podešena na niže, niža je stopa buđenja"</string>
+<string name="update_phrass_success">"Ažuriranje fraza je uspjelo"</string>
+</resources>

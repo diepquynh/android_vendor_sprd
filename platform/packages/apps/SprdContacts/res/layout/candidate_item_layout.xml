@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <com.sprd.contacts.common.widget.CircleImageView
+        android:id="@+id/candidate_photo"
+        android:layout_width="@dimen/call_log_list_contact_photo_size_new_ui"
+        android:layout_height="@dimen/call_log_list_contact_photo_size_new_ui"
+        android:layout_marginLeft="@dimen/call_log_outer_margin_new_ui"
+        android:layout_marginTop="5dip"
+        android:contentDescription="@string/description_contact_photo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dip"
+        android:layout_marginStart="14dip"
+        android:layout_marginTop="5dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/candidate_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/candidate_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:paddingTop="4dip"
+            android:singleLine="true"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

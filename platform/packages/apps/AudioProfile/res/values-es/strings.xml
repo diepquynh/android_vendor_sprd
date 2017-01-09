@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="audio_profiles">Perfiles Audio</string>
+  <string name="predefined_audio_profiles">perfiles audio predefinidos</string>
+  <string name="user_defined_audio_profiles">perfiles de audio definidos por el usuario</string>
+  <string name="add_profile">"Añadir"</string>
+  <string name="use_profile">Usar</string>
+  <string name="rename_profile">"Cambiar nombre"</string>
+  <string name="reset_profile">Reinicio</string>
+  <string name="delete_profile">"Eliminar"</string>
+  <string name="empty_name_dialog">El nombre no puede estar vacío</string>
+  <string name="duplicate_display_name_dialog">El nombre ya existe</string>
+  <string name="add_profile_msg">Por favor introducir el nombre del nuevo perfil</string>
+  <string name="rename_profile_msg">Por favor introducir el nombre del nuevo perfil</string>
+  <string name="delete_profile_msg">Perfil <xliff:g id="name">%s</xliff:g> será borrad</string>
+  <string name="reset_profile_msg">Toda la configuración de perfiles de Audio se reseteará a valores por defecto</string>
+  <string name="incoming_call_volume_title">"Tono y notificaciones"</string>
+  <string name="alarm_volume_title">"Alarma"</string>
+  <string name="dlg_ok">"Aceptar"</string>
+  <string name="dlg_cancel">"Cancelar"</string>
+  <string name="sound_settings">Configuración de Sonido</string>
+  <string name="vibrate_title">"Vibración"</string>
+  <string name="vibrate_summary">Aviso por vibración para llamadas y notificaciones</string>
+  <string name="sound_category_calls_and_notification_title">"Tono y notificaciones"</string>
+  <string name="ringtone_title">Tono de llamada del teléfono</string>
+  <string name="sound_category_notification_title">"Notificaciones"</string>
+  <string name="notification_sound_title">"Notificación predeterminada"</string>
+  <string name="all_volume_title">Volumen</string>
+  <string name="notification_sound_dialog_title">"Elegir tono de notificación"</string>
+  <string name="sound_category_feedback_title">"Sistema"</string>
+  <string name="dtmf_tone_enable_title">"Sonar al marcar número"</string>
+  <string name="sound_effects_enable_title">"Sonido al tocar"</string>
+  <string name="lock_sounds_enable_title">"Sonido pantalla bloqueo"</string>
+  <string name="haptic_feedback_enable_title">"Vibrar al pulsar"</string>
+  <string name="revert_ring_vol">El volumen de llamada no debería ser cero en este perfil, se volverá a poner como estaba.</string>
+  <string name="input_limit">Alcanzado el límite de entrada</string>
+  <string name="standard_string">General</string>
+  <string name="silent_string">silencio</string>
+  <string name="vibrate_string">Vibración</string>
+  <string name="outdoor_string">Enviados</string>
+  <string name="outdoor_summary">"Volumen máximo y vibración"</string>
+  <string name="edit_profile">Editar</string>
+  <string name="ringtone_default_message">"Lo sentimos, el archivo de tono de llamada no se puede reproducir, el sonido predeterminado se ha puesto como tono de llamada"</string>
+  <string name="sim_ringtone_title">"SIM<xliff:g id="SIM_LOCK_STRING">%1$s</xliff:g> <xliff:g id="TYPE">%2$s</xliff:g>timbre de telefono"</string>
+    <string-array translatable="true" name="profile_display_name">
+		        <item>"General"</item>
+		        <item>"Silencio"</item>
+		        <item>Vibración</item>
+		        <item>"Enviados"</item>
+	    </string-array>
+    <string name="ringtone_not_exist_message">"Lo siento, el archivo de timbre  no existe"</string>
+    <string name="dial_pad_tones_title">"Tonos del teclado"</string>
+     <string name="screen_locking_sounds_title">"Sonidos de bloqueo de pantalla"</string>
+     <string name="charging_sounds_title">"Sonidos de carga de batería"</string>
+     <string name="media_volume_titles">"Música, Vídeo, Juegos, Otros Medios"</string>
+     <string name="ring_volume_title">"Tono"</string>
+     <string name="notification_volume_title">"Notificaciones"</string>
+     <string name="sound_improvement">"Mejora de sonido"</string>
+     <string name="sound_improvement_select">"BseAudioEnh"</string>
+     <string name="sound_improvement_summary">"Mejora de sonido para auriculares"</string>
+</resources>

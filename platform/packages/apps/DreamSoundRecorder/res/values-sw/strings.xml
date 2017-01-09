@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Kinakili sauti"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Rekodi ujumbe wako"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Ujumbe umerekodiwa"</string>
+    <string name="review_message" msgid="201616012287839474">"Hakiki ujumbe"</string>
+    <string name="recording" msgid="4426791467211376099">"Inarekodi"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Umesitisha kurekodi"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"Hifadhi imejaa"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"Urefu wa juu umefikiwa"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Pachika hifadhi ya USB"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Ingiza kadi ya SD"</string>
+    <string name="min_available" msgid="5493947690062988925">"Dakika <xliff:g id="MINUTES">%d</xliff:g> inapatikana"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> zinapatikana"</string>
+    <string name="accept" msgid="1888285552128743656">"Imekamilika"</string>
+    <string name="discard" msgid="761613433029406319">"Tupa"</string>
+    <string name="button_ok" msgid="3004911343723076226">"Sawa"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Rekodi zako"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Kurekodi sauti"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Rekodi zangu"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"Haiwezi kufikia hifadhi ya USB."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"Haiwezi kufikia kadi ya SD."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Hitilafu ya ndani ya programu"</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"Haikuweza kuhifadhi sauti iliyo rekodiwa."</string>
+    <string name="recording_save">"Rekodi imehifadhiwa"</string>
+     <string name="recording_nosave">"Rekodi haikuifadhiwa"</string>
+     <string name="phone_message">"Huwezi washa rekodi ya sauti wakati unapiga simu."</string>
+     <string name="min_and_time_available">"Takriban sekunde <xliff:g id="minutes">%d</xliff:g> min and <xliff:g id="seconds">%d</xliff:g> zinapatikana"</string>
+     <string name="press_record">"Bonyeza kurekodi"</string>
+     <string name="save">"Hifadhi"</string>
+     <string name="select_file_type">"Chagua aina ya faili ya rekodi"</string>
+     <string name="record_amr">"aina ya amr  (Ubora wa chini)"</string>
+     <string name="record_3gpp">"Aina ys 3GPP (ubora wa juu)"</string>
+     <string name="button_cancel">"Ghairi"</string>
+     <string name="path_save">"Njia msingi imehifadhiwa"</string>
+     <string name="path_nosave">"Njia msingi haijahifadhiwa"</string>
+     <string name="path_default">"Nji ya sasa haiwezi kuandikika au ni batili, ni njia kwa njia ya uhifadhi ya ndani"</string>
+     <string name="menu_set_save_path">"Weka njia ya kuhifadhi"</string>
+     <string name="back">"Nyuma .."</string>
+     <string name="path_label">"Tafadhali chagua njia ya kuhifadhi"</string>
+     <string name="pause">"Pumzisha"</string>
+     <string name="storage_is_not_enough">"Hifadhi haitoshi"</string>
+     <string name="menu_recording_file_list">"Orodha ya faili ya Kurekodi"</string>
+     <string name="recording_list_empty">Orodha tupu</string>
+     <string name="menu_recording_list_select_all">Chagua Zote</string>
+     <string name="menu_recording_list_delete">"Futa"</string>
+     <string name="menu_recording_list_deselect_all">"Acha kuchagua"</string>
+     <string name="recording_file_delete_success">"Rekodi imefutwa"</string>
+     <string name="recording_file_database_failed">"Imefeli kufuta orodha ya faili"</string>
+     <string name="recording_file_delete_failed">"Imefeli kufuta faili ya rekodi"</string>
+     <string name="confirm_del">"Una uhakika kufuta hizi faili?"</string>
+     <string name="button_delete">"Futa"</string>
+     <string name="recording_file_delete_alert_title">"Futa"</string>
+     <string name="recording_file_delete_alert_message">"Una uhakika kufuta%1$s ?"</string>
+     <string name="recording_file_list">"Orodha ya faili ya Kurekodi"</string>
+     <string name="less_than_one_second">"Sekunde 1"</string>
+     <string name="is_scanning">"MediaScanner inatafuta sasa,tafadhali subiri..."</string>
+     <string name="emptylist">Orodha ni tupu</string>
+     <string name="choose_file">"Tafadhali chagua rekodi unayotaka kufuta faili!"</string>
+     <string name="error_path">"Njia iliyochaguliwa haipo,tafadhali chagua tena!"</string>
+     <string name="path_miss">"Njia iliyohifadhiwa haipo au haiwezi kufikiwa!"</string>
+     <string name="low_memory">"Kumbukumbu ya simu haitoshi,Kurekodi kutasimama!"</string>
+     <string name="record_error">"Kurekodi tofauti hufanyika!"</string>
+     <string name="play_error">"Kichezaji muziki kimelemazwa,haiwezi kufungua！"</string>
+     <string name="dialog_title">"Tafadhali chagua"</string>
+     <string name="dialog_message">"Hifadhi rekodi?"</string>
+     <string name="same_application_running">"Kifaa cha kurekodi kinatumiwa na  programu nyingine,tafadhali funga programu hii!"</string>
+     <string name="recording_time_short">Muda wa kurekodi ni chini ya sekunde 1, haijahifadhiwa</string>
+     <string name="file_path_button">"njia ya faili"</string>
+     <string name="file_name">"jina ya faili:"</string>
+     <string name="file_path">"njia ya faili:"</string>
+     <string name="rename">"Ipe jina jipya"</string>
+     <string name="rename_save">"Kubadilisha jina kumefaulu"</string>
+     <string name="rename_nosave">Ubadili jina umefeli</string>
+     <string name="filename_is_not_modified">"Jina la faili halijarekebishwa"</string>
+     <string name="duplicate_name">"Dabiri ya jina la faili"</string>
+     <string name="soundpicker_label">Tafadhali chagua faili ya kurekodi</string>
+     <string name="error_sdcard_path">"kadi ya sd haipo. Njia ya kuhifadhi asilia imebadilishwa hadi hifadhi ya ndani."</string>
+     <string name="input_length_overstep">"Ingizo limefikia urefu wa juu mno"</string>
+     <string name="filename_empty_error">"Jina la faili haliwezi kuwa tupu , hifadhi jina asilia"</string>
+     <string name="please_choose_files">"tafadhali chagua faili"</string>
+     <string name="selected_files_count">"umechagua<xliff:g id="COUNTS">%d</xliff:g>"</string>
+     <string name="use_default_path">"Njia iliyohifadhiwa haipo,tumia njia msingi"</string>
+     <string name="stroage_not_mounted">"Hifadhi haiko vyema"</string>
+     <string name="special_char_exist">"Herufi spesheli <xliff:g id="COUNTS">%s</xliff:g> hazihimiliwi"</string>
+     <string name="menu_select_more">Chagua zaidi</string>
+     <string name="menu_select_type">"Panga aina ya faili"</string>
+     <string name="path_miss_nosave">"Njia iliyohifadhiwa haipo,Rekodi haikuhifadhiwa！"</string>
+     <string name="dialog_dismiss">"Kataa"</string>
+     <string name="error_permissions">"Programu haina ruhusa muhimu zinazohitajika ili itumike. Tafadhali angalia mipangilio yako ya ruhusa."</string>
+
+    <string name="internal_sdcard">"Kadi ya SD ya ndani"</string>
+     <string name="external_sdcard">"Kadi ya SD ya nje"</string>
+    <string name="internal_storage">"Hifadhi ya Ndani"</string>
+     <string name="external_storage">Hifadhi ya nje</string>
+     <string name="set_as_ring">"Kuweka kama mdundo za simu"</string>
+     <string name="read_file_path">"Angalia mkondo wa faili"</string>
+     <string name="operate_share">"Shiriki"</string>
+     <string name="ringtone_title_sim1">"Mdundo ya SIM1"</string>
+     <string name="ringtone_title_sim2">"Mdundo ya SIM2""</string>
+     <string name="ringtone_menu_short">"Tumia kama mlio"</string>
+     <string name="please_insert_sim_card">"Tafadhali ingiza kadi ya SIM angalau"</string>
+     <string name="ring_set_silent_vibrate">"Toni binafsi za simu hazihimiliwi katika modi iliyoko sasa"</string>
+     <string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" weka kama mdundo ya SIM1 "</string>
+     <string name="ringtone_set_sim2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" weka kama mdundo ya SIM2 "</string>
+     <string name="ringtone_set">"\"<xliff:g id="NAME">%s</xliff:g>\" weka kama mlio wa simu."</string>
+     <string name="ring_set_fail">Samahani, wimbo haungechezwa. Tafadhali chagua wimbo mwingine kama toni</string>
+     <string name="tag_limit">"Idadi ya vitambulisho umefikia kiwango cha juu"</string>
+     <string name="no_allow_play_calling">"Hurusiwi kucheza muziki wakati unapopiga simu (redio / video)."</string>
+     <string name="playback_failed">"Kicheza sauti hakiwezi kucheza aina hii ya faili la sauti."</string>
+     <string name="tag">"Lebo"</string>
+     <string name="previous_tag">"Kitambulisho cha mwisho"</string>
+     <string name="next_tag">"Kitambulisho kinachofwata"</string>
+     <string name="recording_play">"Kurekodi kinachocheza"</string>
+     <string name="clip_duration_tip">"Hariri urefu"</string>
+     <string name="record_setting">"Rekodi ya mipangilio"</string>
+     <string name="file_type">Aina ya Faili</string>
+     <string name="type_amr">"Aina ya Amr"</string>
+     <string name="type_3gpp">"Aina ya 3GPP"</string>
+     <string name="save_path">"Mkondo wa kuhifadhi"</string>
+     <string name="set_timer_recording">"Kuweka kipima muda kurekodi"</string>
+     <string name="timer_recording_detail">"Anza kurekodi kwa <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> kwa <xliff:g id="COUNTS">%s</xliff:g>""</string>
+     <string name="view_file_details">"Muonekano wa maelezo"</string>
+     <string name="file_size">"Ukubwa wa faili:"</string>
+     <string name="file_date">"Tarehe ya faili:"</string>
+     <string name="recording_start_time">"Kurekodi muda wa kuanza"</string>
+     <string name="recording_duration">"Kurekodi muda wa saa"</string>
+     <string name="tuned_timer_recording">"Kurekodi kwa kipima muda imewezeshwa"</string>
+     <string name="miss_timer_recording">"Kukosa kurekodi kwa kipima muda"</string>
+     <string name="miss_timer_time">"Muda: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>"Saa"</item>
+        <item>"Masaa"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"Kurekodi kwa kipima muda kuweka chini ya dakika 1 kuanzia sasa."</item>
+        <item>"Kurekodi kwa kipima muda kuwekwa kwa <xliff:g id="HOURS">%1$s</xliff:g>  kutoka sasa."</item>
+        <item>"Kurekodi kwa kipima muda kuwekwa kwa <xliff:g id="MINUTES">%2$s</xliff:g>  kutoka sasa."</item>
+        <item>"Kurekodi kwa kipima muda kuwekwa kwa <xliff:g id="HOURS">%1$s</xliff:g> na <xliff:g id="MINUTES">%2$s</xliff:g> kutoka sasa."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">"Saa 1"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> masaa"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"Dakika 1"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> dakika"</item>
+    </plurals>
+     <string name="start_record">"Anza rekodi"</string>
+     <string name="resume_record">"Endelea na rekodi"</string>
+     <string name="start_play">"Anza kucheza"</string>
+     <string name="resume_play">"Endelea kucheza"</string>
+     <string name="reset_timer_recording">"Kifaa cha kurekodi kinatumika na programu nyigine, tafadhali anza upya kurekodi na kipima muda!"</string>
+     <string name="storage_not_enough">"Hifadhi haitoshi, imeshindwa kuanza kurekodi kwa kipima muda!"</string>
+     <string name="phone_storage_not_enough">"Hifadhi ya simu haitoshi!"</string>
+</resources>

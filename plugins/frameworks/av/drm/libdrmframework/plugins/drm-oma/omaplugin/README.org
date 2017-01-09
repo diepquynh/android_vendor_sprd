@@ -1,0 +1,208 @@
+#+TITLE: Drm OMAv1 Plugin: Java API
+#+AUTHOR: Wei Sun (孙伟)
+#+EMAIL: wei.sun@spreadtrum.com
+* Drm OMAv1 Plugin: Java API
+
+所有 java 应用只能通过 android 自带的 DrmManagerClient (以下简称
+client) 使用 Drm OMAv1 plugin (以下简称 drm), 因为 DrmManagerClient 是
+android 自带的 API, 所以有未说明的部分以 android developers 为准.
+
+** 安装 drm 文件
+
+通过网络或其他手段获得一个 drm 文件时, 需要先安装才能使用.
+
+*** canHandle
+首先, 需要通过
+
+#+BEGIN_SRC java
+bool client.canHandle(String fileName, String mimeType)
+#+END_SRC
+
+来判断该文件是否可以被 drm 处理. 两个参数可以都提供或只提供任一个. 目前
+drm 是通过文件扩展名和 mimetype 来判断的. 所以 fileName 最好是有 drm原
+来的扩展名, 例如 dcf, dm, dr, drc 等, 不要改名.
+
+上层应用必须通过该函数判断是否是 drm 文件, 而不能自己通过扩展名,
+mimetype 等来判断.
+
+*** getDrmObjectType
+通过 canHandle 确定某个文件是 drm 相关文件并且能被处理时, 下一步需要通
+过
+
+#+BEGIN_SRC java
+ int getDrmObjectType(String fileName, String mimeType)
+#+END_SRC
+
+来确认 drm 文件的类型, 因为不同类型的 drm 文件需要不同的处理. 目前会返
+回四种类型:
+
+- DrmStore.DrmObjectType.CONTENT
+
+  这种类型一般对应 .dcf 文件, 表示加密过的 drm 数据, 因为这种文件本身
+  就是加密的, 所以不需要安装. 直接放着应用自定义的位置即可
+
+- DrmStore.DrmObjectType.RIGHTS_OBJECT
+  对应 drm 权利文件, 需要调用 saveRights 方法安装权利文件
+
+- DrmStore.DrmObjectType.TRIGGER_OBJECT
+  这种文件同时包含权利文件和未加密的数据, 应用需要调用 processDrmInfo
+  方法安装权利文件并对数据进行加密
+
+- DrmStore.DrmObjectType.UNKNOWN
+  异常情况
+
+
+*** saveRights
+对于 drm object type 为 RIGHTS_OBJECT 的 drm 文件, 需要调用 saveRights
+来安装权利文件
+
+#+BEGIN_SRC java
+int saveRights(DrmRights drmRights, String rightsPath, String contentPath);
+#+END_SRC
+
+目前, drm 只使用了 drmRights 参数, 并且 DrmRights 类中的 accountId 和
+subscriptionId 也没有使用. 应用在构造 DrmRights 时可以使用以下构造函
+数:
+#+BEGIN_SRC java
+DrmRights(File rightsFile, String mimeType)
+DrmRights(String rightsFilePath, String mimeType)
+DrmRights(ProcessedData data, String mimeType)
+#+END_SRC
+*** processDrmInfo
+
+#+BEGIN_SRC java
+  final DrmManagerClient client =new DrmManagerClient(this);
+
+  client.setOnEventListener(new OnEventListener() {
+          // processDrmInfo 完成后, 该回调被执行
+          public void onEvent(DrmManagerClient client, DrmEvent event) {
+              // 此处根据 event 的 status 判断是否 process 成功
+              Log.e("sunway","onEvent");
+          }
+      });
+
+  // "application/vnd.oma.drm.message" 这里只是测试, 实际上应用应该从别
+  // 处获得该 mimeType (例如通过 http 头)
+
+  DrmInfoRequest request = new DrmInfoRequest(DrmInfoRequest.TYPE_REGISTRATION_INFO, "application/vnd.oma.drm.message");
+  // 此处的 file_in 表示 drm 文件, file_out 表示加密后的内容保存到哪里
+  // 由于 drm 需要读 file_in 和写 file_out, 请确定 drm 有相应的文件系统
+  // 权利. 例如使用 sdcard 或者提前 chmod 好
+  request.put("file_in","/data/test/test.dm");
+  request.put("file_out","/data/test/test.dcf");
+
+  DrmInfo info = client.acquireDrmInfo(request);
+  Log.e("sunway","info: type "+info.getInfoType()+" data:"+info.getData()+" mimetype:"+info.getMimeType());
+
+  client.processDrmInfo(info);
+
+#+END_SRC
+
+关于  OnEventListener, DrmInfoRequest, acquireDrmInfo 以及
+processDrmInfo, 请参考 developers
+
+** 使用 .dcf 文件
+获得一个 dcf 文件 (通过直接下载到一个 .dcf 文件或者通过
+processDrmInfo 生成) 后, 应用可以通过以下 api 使用 .dcf 文件
+
+*** canHandle 及 getDrmObjectType
+判断是否是 .dcf 文件
+
+*** getOriginalMimeType
+
+.dcf 文件代表的是加密过的视频或图片等文件, 如果一个文件是一个格式正确的
+.dcf 文件, 应用可以通过 getOriginalMimeType 获得加密之前的文件类型.
+例如, mediascanner 在扫描文件时需要使用这个接口确定 .dcf 是否是视频或
+图片, 以决定是否加入到 media provider 中
+
+*** checkRightsStatus
+
+对于一个 .dcf 文件, 检测是否有权利读取.
+#+BEGIN_SRC java
+int checkRightsStatus(String fileName, int action)
+int checkRightsStatus(String fileName)
+#+END_SRC
+
+drm 目前只支持 DrmStore.Action.DISPLAY, DrmStore.Action.PLAY,
+DrmStore.Action.TRANSFER 三种 action, 对其他 action 是未定义的.
+应用对视频文件应检查 PLAY 对应的权利, 对图片应检测 DISPLAY 对应的权利,
+当上层应用例如蓝牙, 彩信, 文件管理器要传输文件时, 应检查 TRANSFER 对应
+的权利.
+
+drm 对 DEFAULT action 的定义是 PLAY || DISPLAY
+
+该函数的返回值:
+- RIGHTS_EXPIRED 已过期
+- RIGHTS_INVALID 权利无效 (对应 drm 的异常情况)
+- RIGHTS_NOT_ACQUIRED 不存在权利文件
+- RIGHTS_VALID 权利有效
+
+*** getConstraints
+
+和 checkRightsStatus 类似, 但返回更详细的权利信息. 例如:
+1. 还可以播放多少次
+2. 还可以使用之久
+3. 哪个时间段内可以使用
+4. ...
+
+该函数函数值是 ContentValues, 可能存在的 key 由
+DrmStore.ConstraintsColumns 定义
+
+*** 打开 .dcf
+应用获得 .dcf 的 orig mimeType 后, 可以调用MediaPlayer 或
+BitmapFactory 来打开它了.
+
+- 视频
+
+  java 应用直接使用 MediaPlayer 一类接口打开 dcf 文件, 不需额外处理.
+
+- 图片
+
+  因为涉及到权利的消费, 第三方应用等其他情况, 目前做法是定义一
+  个新的 BitmapFactory 接口: decodeDrmStream, Java 应用需要使用这个接口
+  decode drm 图片. decodeDrmStream 这个函数需要用到新定义的函数:
+  DrmManagerClient.openDecryptSession
+
+*** 消费 drm 权利
+
+使用 MediaPlayer 的 app 不需要额外处理 drm 的消费, 底层 MediaPlayer 会
+通过 MediaPlayer 的 playback status 的变化如 PAUSE/RESUME/RESET 来判断
+当前如何计算 drm 的消费
+
+但对于图片, 需要应用自己通过新增的 DrmManagerClient.setPlaybackStatus 来控制
+
+*** metadata
+getMetadata 方法用来返回一些和 dcf 相关的元数据, 主要为了实现一些扩展性
+的功能. 目前 getMetadata 可能返回的元数据包括:
+
+1. contentName, contentDescription 等描述性信息
+2. rightsIssuer
+
+   该元数据通常是一个uri, 例如 http://wwww.xxx.com/uid/12345.ro, 对于 sd 类型的 dcf 文件, 上层应用需要通过这个元数据知道从哪里能获得
+   rights 文件
+3. extended_data
+
+   目前的实现中,使用这个字段来标记 dcf 是 sd, cd 或 fl. 由于这个元数据
+   与 OMA 过于耦合, 应尽量避免使用.
+** 附录
+*** Drm OMAv1 plugin 底层相关的改动
+1. frameworks/av/drm/libdrmframework/plugins/oma/
+   OMAv1 plugin 的主要实现代码
+2. frameworks/av/drm/drmserver/
+   修改了 drmserver, 加入一个 ntp 相关的类处理时钟同步的问题
+3. kernel/drivers/rtc/
+   修改了 alarm-dev, 使得当系统时间改变时通知 drm
+4. device/sprd/sp7710ga/init.rc
+   修改 drmserver 的启动设置, 使其可以读写 sdcard, 并初始化一个 socket
+   用来监听网络变化
+5. frameworks/base/
+   - 修改 ConnectivityManager, 使得网络变化时通知 drm
+   - 修改 MediaScanner, 使它能扫描 dcf 文件
+6. external/skia/
+   主要是加入一个 SkDrmStream, 使 skia 可以 decode drm 图片
+7. external/tinyxml/
+   修改了 tinyxml 的 mk 文件, 因为 drm 使用 tinyxml 来解析 xml
+8. build/core/
+   修改编译的配置, 去掉了原生的 libfwdlockengine, 加入了 libdrmomaplugin
+9. frameworks/av/media/libstagefright/
+   修改了 stagefright, 使它在扫描媒体时能识别 .dcf 后缀

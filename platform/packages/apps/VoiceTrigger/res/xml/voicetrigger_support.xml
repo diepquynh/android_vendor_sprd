@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/preferenceBackgroundColor"
+    android:key="voiceTrigger_support">
+
+    <!-- App notifications -->
+    <Preference
+        android:key="support_find_phone"
+        android:summary="@string/support_find_phone_summary"
+        android:title="@string/support_find_phone" />
+
+    <!-- Notification access -->
+    <Preference
+        android:key="support_call_phone"
+        android:summary="@string/support_call_phone_summary"
+        android:title="@string/support_call_phone" />
+    <!-- Notification access -->
+    <Preference
+        android:key="support_send_mms"
+        android:summary="@string/support_send_mms_summary"
+        android:title="@string/support_send_mms" />
+    <Preference
+        android:key="support_camera"
+        android:summary="@string/support_camera_summary"
+        android:title="@string/support_camera" />
+    <Preference
+        android:key="support_open_music"
+        android:summary="@string/support_open_music_summary"
+        android:title="@string/support_open_music" />
+    <Preference
+        android:key="support_open_app"
+        android:summary="@string/support_open_app_summary"
+        android:title="@string/support_open_app" />
+
+</PreferenceScreen>

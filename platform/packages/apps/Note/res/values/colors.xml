@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lightyellow">#ffffff</color>
+    <color name="black_in_note">#6c6c6c</color>
+    <color name="edit_time_color">#6c6c6c</color>
+    <color name="edit_text_color">#9a520a</color>
+    <color name="time_color">#b0b0b0</color>
+    <color name="title_color">#ffffff</color>
+    <color name="title_bar">#000000</color>
+    <color name="actionbar_background">#0277bd</color>
+
+    <style name="edit_clock_layout">
+        <item name="android:paddingLeft">6dip</item>
+        <item name="android:paddingRight">7dip</item>
+        <item name="android:paddingTop">8dip</item>
+    </style>
+
+    <style name="TextAppearance" parent="android:TextAppearance">
+    </style>
+
+    <style name="TextAppearance.EditEvent_Label">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">2dip</item>
+    </style>
+
+        <style name="TextAppearance.EditEvent_homeTime">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:paddingRight">2dip</item>
+    </style>
+
+</resources>

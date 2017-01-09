@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/contacts_count"
+        android:layout_width="match_parent"
+        android:layout_height="36dip"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="?attr/list_item_padding_left"
+        android:paddingTop="8dp"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:id="@+id/user_profile_header"
+        android:layout_width="match_parent"
+        android:layout_height="64dip"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingEnd="?attr/list_item_padding_right"
+        android:paddingLeft="?attr/list_item_padding_left"
+        android:paddingRight="?attr/list_item_padding_right"
+        android:paddingStart="?attr/list_item_padding_left"
+        android:paddingTop="4dp" >
+
+        <TextView
+            android:id="@+id/profile_title"
+            android:layout_width="@dimen/contact_list_section_header_width"
+            android:layout_height="?android:attr/listPreferredItemHeight"
+            android:ellipsize="end"
+            android:gravity="start|center_vertical"
+            android:singleLine="true"
+            android:text="@string/user_profile_contacts_list_header"
+            android:textAppearance="@style/SectionHeaderStyle"
+            android:textColor="#888888" />
+
+        <Button
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/user_profile_button"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight"
+            android:background="?android:attr/selectableItemBackground"
+            android:ellipsize="end"
+            android:gravity="start|center_vertical"
+            android:paddingEnd="?attr/list_item_padding_right"
+            android:paddingStart="?attr/list_item_padding_left"
+            android:singleLine="true"
+            android:text="@string/profile_display_name"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+</LinearLayout>

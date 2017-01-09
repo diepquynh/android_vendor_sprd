@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- SPRD: Add 20141203 of bug376705, add Account guide. -->
+<resources>
+    <string-array name="account_type_display_names" translatable="false">
+        <!-- TYPE_139 = 0 -->
+        <item>@string/account_type_display_139</item>
+        <!-- TYPE_163 = 1 -->
+        <item>@string/account_type_display_163</item>
+        <!-- TYPE_126 = 2 -->
+        <item>@string/account_type_display_126</item>
+        <!-- TYPE_SINA = 3 -->
+        <item>@string/account_type_display_sina</item>
+        <!-- TYPE_SOHU = 4 -->
+        <item>@string/account_type_display_sohu</item>
+        <!-- TYPE_QQ = 5 -->
+        <item>@string/account_type_display_qq</item>
+        <!-- TYPE_GMAIL = 6 -->
+        <item>@string/account_type_display_gmail</item>
+    </string-array>
+
+    <array name="account_type_display_icons" translatable="false">
+        <!-- 0 -->
+        <item>@drawable/ic_mail_type_139</item>
+        <!-- 1 -->
+        <item>@drawable/ic_mail_type_163</item>
+        <!-- 2 -->
+        <item>@drawable/ic_mail_type_126</item>
+        <!-- 3 -->
+        <item>@drawable/ic_mail_type_sina</item>
+        <!-- 4 -->
+        <item>@drawable/ic_mail_type_sohu</item>
+        <!-- 5 -->
+        <item>@drawable/ic_mail_type_qq</item>
+        <!-- 6 -->
+        <item>@drawable/ic_mail_type_gmail</item>
+    </array>
+
+    <string-array name="account_type_domain_names" translatable="false">
+        <!-- TYPE_139 = 0 -->
+        <item>"@139.com"</item>
+        <!-- TYPE_163 = 1 -->
+        <item>"@163.com"</item>
+        <!-- TYPE_126 = 2 -->
+        <item>"@126.com"</item>
+        <!-- TYPE_SINA = 3 -->
+        <item>"@sina.com"</item>
+        <!-- TYPE_SOHU = 4 -->
+        <item>"@sohu.com"</item>
+        <!-- TYPE_QQ = 5 -->
+        <item>"@qq.com"</item>
+        <!-- TYPE_GMAIL = 6 -->
+        <item>"@gmail.com"</item>
+    </string-array>
+</resources>

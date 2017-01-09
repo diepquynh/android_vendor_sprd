@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="App Settings" >
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="key_emergency_call_retry"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="Emergency Call Retry" />
+    <Preference
+        android:key="key_cbsmstest"
+        android:title="Cell Broadcast" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.CellBroadcastActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="modem_reset"
+        android:summaryOff="disable"
+        android:summaryOn="enable"
+        android:title="Modem Reset" />
+
+    <Preference
+        android:enabled="false"
+        android:key="apnfilter"
+        android:title="Apn Active pdp Filter Setting" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.APNPdpFilterActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <Preference
+        android:key="misc"
+        android:title="Misc" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.MiscPrefActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="true"
+        android:key="enable_vser_gser"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="Enable Vser Gser" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <Preference
+        android:key="ua_setting"
+        android:title="UA Setting" >
+    </Preference>
+
+    <!-- SPRD: Add for mtbf test -->
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="enable_mtbf_test"
+        android:title="Auto Start UsbSettings" />
+</PreferenceScreen>

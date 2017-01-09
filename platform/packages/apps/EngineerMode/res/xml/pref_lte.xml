@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:dialogTitle="SVLTE"
+        android:entries="@array/list_entries_svlte"
+        android:entryValues="@array/list_entries_value_svlte"
+        android:key="svlte_key"
+        android:summary=""
+        android:title="SVLTE" >
+    </ListPreference>
+
+    <ListPreference
+        android:dialogTitle="FDD CSFB"
+        android:entries="@array/list_entries_fdds_csfb"
+        android:entryValues="@array/list_entriesvalues_fdd_csfb"
+        android:key="fdd_csfb_key"
+        android:summary=""
+        android:title="FDD CSFB" >
+    </ListPreference>
+
+    <ListPreference
+        android:dialogTitle="TDD CSFB"
+        android:entries="@array/list_entries_tdd_csfb"
+        android:entryValues="@array/list_entriesvalues_tdd_csfb"
+        android:key="tdd_csfb_key"
+        android:summary=""
+        android:title="TDD CSFB" >
+    </ListPreference>
+
+    <ListPreference
+        android:dialogTitle="CSFB"
+        android:entries="@array/list_entries_csfb"
+        android:entryValues="@array/list_entriesvalues_csfb"
+        android:key="csfb_key"
+        android:summary=""
+        android:title="CSFB" >
+    </ListPreference>
+
+</PreferenceScreen>

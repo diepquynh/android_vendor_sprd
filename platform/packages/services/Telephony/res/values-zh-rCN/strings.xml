@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="labelCF">"来电转接"</string>
+    <string name="sum_cfu_enabled_indicator">"转接所有来电"</string>
+    <!-- SPRD: Add for dealing with SS notification @{ -->
+    <string name="ActiveUnconCf">"无条件呼叫转移启动"</string>
+    <string name="ActiveConCf">"有条件呼叫转移启动"</string>
+    <string name="IncomingCallForwarded">"另一通来电被转接"</string>
+    <string name="CallForwarded">"呼叫转接"</string>
+    <string name="ForwardedCall">"转移呼叫"</string>
+    <string name="CallWaiting">"呼叫等待中"</string>
+    <string name="OutCallBarred">"禁止呼出"</string>
+    <string name="InCallBarred">"禁止呼入"</string>
+    <string name="CallHold">"呼叫被保持"</string>
+    <string name="CallRetrieved">"呼叫被激活"</string>
+    <!-- SPRD: @} -->
+    <!-- Bug#474316, SPRD add for data connection dialog on volte product -->
+    <string name="network_not_on">"当前数据连接处于关闭状态，是否设置数据连接？"</string>
+    <!-- SPRD: fix bug 474249  -->
+    <string name="network_unknown">未知</string>
+    <!-- SPRD: fix bug 474249  -->
+    <string name="network_inhibit">禁用</string>
+    <!-- IP Dial Setting -->
+    <string name="ip_dial_menu">"IP 拨号"</string>
+    <string name="ip_dialing_title">"IP 拨号"</string>
+    <string name="ip_dialing_list_title">"IP 拨号列表"</string>
+    <string name="ip_no_number">"缺少IP前缀"</string>
+    <string name="ip_no_number_msg">"请设置IP号码"</string>
+    <string name="ip_add_number_str">"添加号码"</string>
+    <string name="ip_number_empty_loading">"IP 拨号列表为空。"</string>
+    <string name="remove">"删除"</string>
+    <string name="ip_number_is_too_long">"IP拨号号码不能大于20位。"</string>
+    <string name="add_ip_number_str">"新建"</string>
+    <string name="ip_dialing_num_error">"最多只能保存10个IP号码。"</string>
+    <string name="ip_dialing_num_repeat">"号码重复，添加失败。"</string>
+    <string name="menu_selected_all">"全选"</string>
+    <string name="menu_select_none">"取消全选"</string>
+    <string name="doneButton">"完成"</string>
+    <string name="cancel">"取消"</string>
+    <!-- @} -->
+    <!-- SPRD: 474686 Feature for Uplmn @{ -->
+    <string name="uplmn_setting_title">偏好设置</string>
+    <!-- @ -->
+    <!--SPRD: LND/SDN feature. @{ -->
+    <string name="lnd_list">LND 列表</string>
+    <string name="sdn_list">SDN 列表</string>
+    <!-- @} -->
+    <string-array name="enabled_networks_except_lte_choices">
+        <item>仅GSM</item>
+        <item>仅WCDMA</item>
+        <item>WCDMA/GSM</item>
+    </string-array>
+    <string-array name="lte_preferred_networks_choices_for_common">
+        <item>4G/3G/2G多模式</item>
+        <item>仅3G/2G模式</item>
+        <item>仅2G模式</item>
+    </string-array>
+    <string name="network_wcdma_only">仅WCDMA</string>
+    <string name="network_wcdma_pref">WCDMA/GSM</string>
+    <string name="network_3g_2g">仅3G/2G模式</string>
+    <string name="network_gsm_only">仅GSM</string>
+    <string name="network_2g_only">仅2G模式</string>
+    <string name="network_lte_pref">4G/3G/2G多模式</string>
+    <string name="network_lte_only">仅LTE</string>
+    <string name="network_registration_fail_title">注册网络失败</string>
+    <string name="network_registration_fail">注册网络失败，是否开启自动选择运营商功能？</string>
+    <!-- SPRD: add for bug 626360 phone crash in non-system-user mode after input PUK code -->
+    <string name="outgoing_call_not_allowed_user_restriction">"设备机主仅允许拨打紧急呼救电话。"</string>
+    <!-- @} -->
+</resources>

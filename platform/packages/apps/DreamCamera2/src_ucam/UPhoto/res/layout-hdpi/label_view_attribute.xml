@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010,2011 Thundersoft Corporation
+    All rights Reserved
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.android.camera2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- xmlns:custom="http://schemas.android.com/apk/res/com.ucamera.uphoto" -->
+
+    <RelativeLayout
+        android:id="@+id/edit_title_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="35dip"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/edit_label_topbar_bg" >
+
+        <LinearLayout
+            android:id="@+id/layout_view_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/edit_view_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_edit_view_status" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_title_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/edit_title_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_label_btn_ok_status" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/edit_preview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_title_top_bar"
+        android:gravity="center"
+        android:background="@drawable/bg_edit_label_preview" >
+
+        <com.ucamera.uphoto.TitleView
+            android:id="@+id/edit_preview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            custom:titleSize="42dip" />
+
+        <Gallery
+            android:id="@+id/edit_gallery_balloon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <com.ucamera.uphoto.LabelView
+            android:id="@+id/edit_preview_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:labelSize="16dip"
+            custom:rotate="90"/>
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/edit_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_preview_layout"
+        android:paddingTop="14dip"
+        android:paddingBottom="8dip"
+        android:background="@drawable/bg_edit_text_input">
+        <SeekBar
+            android:id="@+id/edit_balloon_size_seekbar"
+            style="@style/BalloonSeekbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="4dip"
+            android:minWidth="118dip"
+            android:max="18"
+            android:progress="7" />
+        <EditText
+            android:id="@+id/edit_preview_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/edit_balloon_size_seekbar"
+            android:layout_marginLeft="5dip"
+            android:hint="@string/text_edittext_hint_message"
+            android:textColorHint="@color/edit_label_color"
+            android:textSize="15dip"
+            android:textColor="@color/edit_label_color"
+            android:imeOptions="actionDone"
+            android:maxLength="60"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_input_layout"
+        android:layout_centerHorizontal="true" >
+
+        <RelativeLayout
+            android:id="@+id/edit_text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_rounded_above" >
+
+            <HorizontalScrollView
+                android:id="@+id/edit_font_scroller"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:fillViewport="true"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:id="@+id/edit_font_linear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:scrollbars="horizontal" >
+
+                    <GridView
+                        android:id="@+id/edit_font_gridview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:horizontalSpacing="5dip"
+                        android:scrollbars="horizontal"
+                        android:verticalSpacing="6dip" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/edit_text_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_text_color"
+            android:background="@drawable/bg_rounded_blow" >
+
+            <HorizontalScrollView
+                android:id="@+id/edit_color_scroller"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:fillViewport="true"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:id="@+id/edit_color_linear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:scrollbars="horizontal" >
+
+                    <GridView
+                        android:id="@+id/edit_color_gridview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:horizontalSpacing="5dip"
+                        android:scrollbars="horizontal"
+                        android:verticalSpacing="6dip" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/edit_label_histort_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_text_font"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_label_history">
+            <TextView android:id="@+id/edit_label_history_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="8dip"
+                android:layout_marginLeft="5dip"
+                android:gravity="left"
+                android:textColor="@color/edit_menu_item_color"
+                android:text="@string/text_edit_history"/>
+            <Gallery
+                android:id="@+id/edit_gallery_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spacing="4dip"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

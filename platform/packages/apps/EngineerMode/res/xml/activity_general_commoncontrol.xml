@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Added by Yuntao.xiao for SlogUI-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_general_scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearlayout_general_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chk_general_switch" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="3dip"
+            android:orientation="horizontal" >
+            
+            <RadioButton
+                android:id="@+id/rdo_general_on"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rdo_general_on" />
+
+            <RadioButton
+                android:id="@+id/rdo_general_off"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/rdo_general_off" />
+            <RadioButton
+                android:id="@+id/rdo_general_lowpower"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/rdo_general_lowpower" />
+
+        </RadioGroup>
+        
+        <CheckBox
+            android:id="@+id/chk_general_android_switch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:paddingTop="10dip"
+            android:text="@string/chk_general_android" />
+
+        <CheckBox
+            android:id="@+id/chk_general_modem_cp0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:visibility="visible"
+            android:text="@string/chk_general_cp0" />
+
+        <CheckBox
+            android:id="@+id/chk_general_modem_cp1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:paddingTop="10dip"
+            android:text="@string/chk_general_cp1" />
+
+        <CheckBox
+            android:id="@+id/chk_general_modem_cp2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:paddingTop="10dip"
+            android:text="@string/chk_general_cp2" />
+
+        <CheckBox
+            android:id="@+id/chk_general_modem_cp3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:paddingTop="10dip"
+            android:text="@string/chk_general_cp3" />
+
+        <CheckBox
+            android:id="@+id/chk_general_tcp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="@string/chk_modem_tcp" />
+
+        <CheckBox
+            android:id="@+id/chk_general_bluetooth"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="@string/chk_modem_bluetooth" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dip"
+            android:text="@string/txv_general_storagelocation" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dip" >
+
+            <RadioButton
+                android:id="@+id/rdo_general_sdcard"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rdo_general_sdcard" />
+
+            <RadioButton
+                android:id="@+id/rdo_general_nand"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/rdo_general_nand" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dip" >
+
+            <Button
+                android:id="@+id/btn_general_dump"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_general_dump" />
+
+            <Button
+                android:id="@+id/btn_general_clearall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_general_clearlog" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/chk_general_alwaysrun"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chk_general_alwaysrun" />
+
+        <CheckBox
+            android:id="@+id/chk_general_snapsvc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chk_general_snapsvc" />
+
+        <CheckBox
+            android:id="@+id/chk_general_autoclear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chk_general_autoclear" />
+
+        <!--
+    <CheckBox 
+        android:padding="30dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="start test"
+        android:id="@+id/chk_general_onstart"
+        
+        />
+        -->
+    </LinearLayout>
+
+</ScrollView>

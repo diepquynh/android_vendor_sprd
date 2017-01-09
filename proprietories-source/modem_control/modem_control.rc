@@ -1,0 +1,5 @@
+service modem_control  /system/bin/modem_control
+    class core
+    user system
+    group system radio shell
+    oneshot

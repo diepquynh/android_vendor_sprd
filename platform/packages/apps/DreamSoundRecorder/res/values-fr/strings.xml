@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Magnétophone"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Enregistrez votre message"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Message enregistré"</string>
+    <string name="review_message" msgid="201616012287839474">"Revoir le message"</string>
+    <string name="recording" msgid="4426791467211376099">"Enregistrement audio"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Enregistrement audio interrompu"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"La mémoire est pleine"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"Taille maximale atteinte"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Installer mémoire stockage USB"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Insérer une carte SD"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> min disponibles"</string>
+    <string name="sec_available" msgid="2297020788861694399">"Il reste <xliff:g id="SECONDS">%d</xliff:g> s"</string>
+    <string name="accept" msgid="1888285552128743656">"OK"</string>
+    <string name="discard" msgid="761613433029406319">"Supprimer"</string>
+    <string name="button_ok" msgid="3004911343723076226">"OK"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Vos enregistrements audio"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Enregistrements audio"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Mes enregistrements audio"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"Impossible d\'accéder à la mémoire de stockage USB."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"Impossible d\'accéder à la carte SD."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Erreur interne de l\'application."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"Impossible de sauvegarder le fichier audio enregistré."</string>
+    <string name="recording_save">"Enregistrement sauvegardé"</string>
+     <string name="recording_nosave">"Enregistrement non sauvegardé"</string>
+     <string name="phone_message">"L\'Enregistreur vocal ne peut pas être allumer pendant un appel."</string>
+     <string name="min_and_time_available">"Environ <xliff:g id="minutes">%d</xliff:g> min et <xliff:g id="secondes">%d</xliff:g> sec disponibles"</string>
+     <string name="press_record">"Appuyez sur enregistrer"</string>
+     <string name="save">"Sauvegarder"</string>
+     <string name="select_file_type">"Sélectionner le type  d\'enregistrement du fichier"</string>
+     <string name="record_amr">"Type amr (basse qualité)"</string>
+     <string name="record_3gpp">"Type 3gpp (haute qualité)"</string>
+     <string name="button_cancel">Annuler</string>
+     <string name="path_save">"Chemin par défaut est enregistré"</string>
+     <string name="path_nosave">"Chemin par défaut n\'est pas enregistré"</string>
+     <string name="path_default">"Le chemin courant n\'est pas accessible en écriture ou invalide, c\'est le chemin vers le chemin de mémoire interne"</string>
+     <string name="menu_set_save_path">"Définir le chemin de sauvegarde"</string>
+     <string name="back">"Retour."</string>
+     <string name="path_label">"Veuillez sélectionner le chemin de sauvegarde"</string>
+     <string name="pause">"Pause"</string>
+     <string name="storage_is_not_enough">" Stockage insuffisant"</string>
+     <string name="menu_recording_file_list">"Liste d\'enregistrement des fichiers "</string>
+     <string name="recording_list_empty">"Liste vide"</string>
+     <string name="menu_recording_list_select_all">Tout sélectionner</string>
+     <string name="menu_recording_list_delete">Supprimer</string>
+     <string name="menu_recording_list_deselect_all">"Désélect"</string>
+     <string name="recording_file_delete_success">"Supprimer l\'enregistrement"</string>
+     <string name="recording_file_database_failed">"Impossible de supprimer le fichier du base de données"</string>
+     <string name="recording_file_delete_failed">"Impossible de supprimer  l\'enregistrement des fichiers"</string>
+     <string name="confirm_del">"Etes-vous sûr de vouloir supprimer les fichiers?"</string>
+     <string name="button_delete">Supprimer</string>
+     <string name="recording_file_delete_alert_title">Supprimer</string>
+     <string name="recording_file_delete_alert_message">"Etes-vous sûr de vouloir supprimer %1$s?"</string>
+     <string name="recording_file_list">"Liste d\'enregistrement des fichiers "</string>
+     <string name="less_than_one_second">"1 seconde"</string>
+     <string name="is_scanning">"MediaScanner scanne maintenant, patientez SVP ..."</string>
+     <string name="emptylist">"La liste est vide"</string>
+     <string name="choose_file">"Veuillez sélectionner l\'enregistrement que vous souhaitez supprimer le fichiers!"</string>
+     <string name="error_path">"Le chemin que vous avez sélectionné n\'existe pas, s\'il vous plaît veuillez redéfinir!"</string>
+     <string name="path_miss">"Le chemin mémorisé n\'existe pas ou ne peut pas être accessible!"</string>
+     <string name="low_memory">"Mémoire du téléphone n\'est pas suffisante, l\'enregistrement va s\'arrêter!"</string>
+     <string name="record_error">"L\'Enregistrement d\'une exception se produit!"</string>
+     <string name="play_error">"Lecteur de musique a été désactivé, impossible de l\'ouvrir!"</string>
+     <string name="dialog_title">Veuillez sélectionner</string>
+     <string name="dialog_message">"Voulez-vous sauvegarder l\'enregistrement?"</string>
+     <string name="same_application_running">"Le dispositif d\'enregistrement est utilisé par un autre programme, s\'il vous plaît, veuillez fermer le programme!"</string>
+     <string name="recording_time_short">"La durée d\'enregistrement est inférieure à 1 seconde, elle n\'a pas été prise en compte"</string>
+     <string name="file_path_button">"Chemin du fichier"</string>
+     <string name="file_name">"Nom du fichier:"</string>
+     <string name="file_path">"Chemin du fichier:"</string>
+     <string name="rename">"Renommer"</string>
+     <string name="rename_save">"Dossier renommé avec succès"</string>
+     <string name="rename_nosave">"Échec du changement de nom"</string>
+     <string name="filename_is_not_modified">"Le nom de fichier n\'est pas modifié"</string>
+     <string name="duplicate_name">"nom de fichier dupliqué"</string>
+     <string name="soundpicker_label">"Veuillez sélectionner un fichier d\'enregistrement\'</string>
+     <string name="error_sdcard_path">"la carte SD n\'existe pas. Le chemin d\'enregistrement par défaut est modifié dans la mémoire interne."</string>
+     <string name="input_length_overstep">"Entrée atteint la longueur maximale"</string>
+     <string name="filename_empty_error">"Nom du fichier ne peut pas être vide, enregistrez le nom d\'origine"</string>
+     <string name="please_choose_files">"svp selectionnez les fichiers"</string>
+     <string name="selected_files_count">"a choisi<xliff:g id="COUNTS">%d</xliff:g>"</string>
+     <string name="use_default_path">"Le chemin stocké n\'existe pas, utiliser le chemin par défaut"</string>
+     <string name="stroage_not_mounted">"Le stockage n\'est pas monté"</string>
+     <string name="special_char_exist">"Les caractères spéciaux <xliff:g id="COUNTS">%s</xliff:g> ne sont pas pris en charge"</string>
+     <string name="menu_select_more">Sélectionner plus</string>
+     <string name="menu_select_type">"Définir le type de fichier"</string>
+     <string name="path_miss_nosave">"Le chemin mémorisé n\'existe pas, l\'enregistrement n\'a pas été sauvegardé!"</string>
+     <string name="dialog_dismiss">"Désactiver"</string>
+     <string name="error_permissions">"L\'application ne dispose pas de certaines autorisations nécessaires à son exécution. Veuillez vérifier vos paramètres relatifs aux autorisations."</string>
+
+    <string name="internal_sdcard">"Sdcard interne"</string>
+     <string name="external_sdcard">"Sdcard externe"</string>
+    <string name="set_as_ring">"Définir comme sonneries"</string>
+     <string name="read_file_path">"Vérifier chemin du fichier"</string>
+     <string name="ringtone_title_sim2">"Sonnerie portable SIM2 " "</string>
+     <string name="tag_limit">"Nombre de balise a atteint le maximum"</string>
+     <string name="previous_tag">"Dernière balise"</string>
+     <string name="next_tag">"Balise suivante"</string>
+     <string name="recording_play">"Lecture d\'enregistrement"</string>
+     <string name="clip_duration_tip">"Modifier longueur"</string>
+     <string name="record_setting">"Réglage d\'enregistrement"</string>
+     <string name="type_amr">"Type amr"</string>
+     <string name="type_3gpp">"Type 3gpp"</string>
+     <string name="save_path">"Chemin stocké "</string>
+     <string name="set_timer_recording">"Définir l\'enregistrement par minuterie"</string>
+     <string name="timer_recording_detail">"Commencer l\'enregistrement à <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> pour <xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="file_size">"Taille du fichier："</string>
+     <string name="file_date">"Date du fichier："</string>
+     <string name="recording_start_time">"Heure de début de l\'enregistrement"</string>
+     <string name="recording_duration">"Durée de l\'enregistrement"</string>
+     <string name="tuned_timer_recording">"Enregistrement par minuterie activé"</string>
+     <string name="miss_timer_recording">"Enregistrement par minuterie manqué"</string>
+     <string name="miss_timer_time">"Heure: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>" heure"</item>
+        <item>" heures"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"Enregistrement par minuterie est réglé pour moins de 1 minute à partir de maintenant."</item>
+        <item>"Enregistrement par minuterie est réglé pour <xliff:g id="HOURS">%1$s</xliff:g> à partir de maintenant."</item>
+        <item>"Enregistrement par minuterie est réglé pour <xliff:g id="MINUTES">%2$s</xliff:g> à partir de maintenant."</item>
+        <item>"Enregistrement par minuterie est réglé pour <xliff:g id="HOURS">%1$s</xliff:g> et <xliff:g id="MINUTES">%2$s</xliff:g> à partir de maintenant."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> heures"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> minutes"</item>
+    </plurals>
+     <string name="start_record">"Démarrer l\'enregistrement"</string>
+     <string name="resume_record">"Reprendre l\'enregistrement"</string>
+     <string name="start_play">"Démarrer la lecture"</string>
+     <string name="resume_play">"Reprendre la lecture"</string>
+     <string name="reset_timer_recording">"Le dispositif d\'enregistrement est utilisé par un autre programme, veuillez réinitialiser l\'enregistrement par minuterie!"</string>
+     <string name="storage_not_enough">"Stockage n\'est pas suffisant, impossible de démarrer l\'enregistrement par minuterie!"</string>
+     <string name="phone_storage_not_enough">"Stockage du portable ne suffit pas!"</string>
+</resources>

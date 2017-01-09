@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="#b7ceff">
+
+    <Button
+        android:id="@+id/btn_modem_assert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/slog_modem_assert" />
+    <Button
+        android:id="@+id/btn_dump_wcn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/btn_modem_assert"
+        android:layout_below="@+id/btn_modem_assert"
+        android:text="@string/slog_dump_wcn" />
+    <Button
+        android:id="@+id/btn_dump_marlin_mem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/btn_modem_assert"
+        android:layout_below="@+id/btn_dump_wcn"
+        android:text="@string/slog_dump_marlin_mem" />
+    <Button
+        android:id="@+id/btn_dump_art"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/btn_modem_assert"
+        android:layout_below="@+id/slog_dump_marlin_mem"
+        android:text="@string/slog_dump_art" />
+    <Button
+        android:id="@+id/btn_dump_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/btn_dump_wcn"
+        android:layout_below="@+id/btn_dump_art"
+        android:text="@string/slog_dump_gps" />
+    <Button
+        android:id="@+id/btn_save_sleeplog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/btn_dump_wcn"
+        android:layout_below="@+id/btn_dump_gps"
+        android:text="@string/slog_save_sleep_log" />
+    <Button
+        android:id="@+id/btn_save_logbuf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/btn_dump_wcn"
+        android:layout_below="@+id/btn_save_sleeplog"
+        android:text="@string/slog_save_log_buf" />
+    <Button
+        android:id="@+id/btn_general_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/btn_dump_wcn"
+        android:layout_below="@+id/btn_save_logbuf"
+        android:text="@string/slog_defined_general_1" />
+    <Button
+        android:id="@+id/btn_general_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/btn_dump_wcn"
+        android:layout_below="@+id/btn_general_1"
+        android:text="@string/slog_defined_general_2"
+        android:visibility="gone" />
+    <Button
+        android:id="@+id/btn_modem_to_pc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/btn_dump_wcn"
+        android:layout_below="@+id/btn_general_2"
+        android:text="@string/slog_modem_to_pc"  />
+    <!--BEGIN BUG540993 2016/05/11 sprd:EngineerMode add the parameter of CAP log packet length feature-->
+    <Button
+        android:id="@+id/btn_cap_log_packet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/btn_dump_wcn"
+        android:layout_below="@+id/btn_modem_to_pc"
+        android:text="@string/cap_log_packet" />
+    <!--END BUG540993 2016/05/11 sprd:EngineerMode add the parameter of CAP log packet length feature-->
+    <Button
+        android:id="@+id/btn_open_ylogd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/btn_cap_log_packet"
+        android:text="@string/logmanager_ylogd" />
+
+</LinearLayout>

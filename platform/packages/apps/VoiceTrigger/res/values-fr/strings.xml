@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"Commande vocale"</string>
+<string name="audio_voicetrigger_words">"Mot de commande"</string>
+<string name="audio_voicetrigger_sensibility">"Sensibilité de reconnaissance"</string>
+<string name="audio_voicetrigger_support_fun">"Description des fonctions de soutien"</string>
+<string name="audio_voicetrigger_connect_headset">"Connecter le casque à utiliser"</string>
+<string name="audio_voicetrigger_language_choose">"Choisir la voix langage de commande"</string>
+<string name="audio_voicetrigger_subtitle_wakeup_default">"Le Contexte des Mots de commande"</string>
+<string name="audio_voicetrigger_subtitle_wakeup_userdefine">"Défini par l\'utilisateur"</string>
+<string name="audio_voicetrigger_subtitle_language_choose">"Définir le langage de la commande vocale"</string>
+<string name="audio_voicetrigger_subtitle_help">"Auditionner un mot de commande personnalisé"</string>
+<string name="voicetrigger_connect_headset_content">"Lorsqu\'il est connecté à l\'oreillette filaire ou un casque Bluetooth, \ il peut toujours être en mesure de commander le téléphone et utiliser normalement, \ mais votre voix est recueillie par le microphone du téléphone, \ et le microphone du casque ne peut pas commander le téléphone"</string>
+<string name="voicetrigger_wakeup_title">"Inscription des Mots de Commande"</string>
+<string name="voicetrigger_input_title">"Enregistrement des Mots de Commande"</string>
+<string name="voicetrigger_describe">"Lorsque le téléphonique n’est pas près du corps ou il n’est pas pratique de le prendre, \ comme pendant l\'appel, en écoutant de la musique, etc., Vous pouvez utiliser des mots de Commande pour réactiver votre appareil et faire quelque chose avec votre voix."</string>
+<string name="change_language_progress_dialog_message">"Commutation de langage, veuillez patienter ..."</string>
+<string name="info_press_to_start">"Cliquez sur le bouton pour enregistrer la voix"</string>
+<string name="info_default">"Veuillez parler dans un endroit calme"</string>
+<string name="info_please_wait">"Veuillez attendre…"</string>
+<string name="info_talk_louder">"Parlez plus fort"</string>
+<string name="info_pause_before">"Pause 1-2 secondes avant de parler ""</string>
+<string name="info_too_noisy">"Trop bruyant. Déplacez-vous vers un endroit plus calme"</string>
+<string name="info_talk_softer">"Parlez plus doucement"</string>
+<string name="info_bad_recording">"Mauvais enregistrement"</string>
+<string name="info_talk_slower">"Parlez plus lentement"</string>
+<string name="info_too_many_sound">"Trop de répétitions sonores"</string>
+<string name="info_check_rec">"Génération de Commande. Veuillez patienter ..."</string>
+<string name="info_problems_in_rec">"Les problèmes dans un ou plusieurs enregistrements. Vous devez enregistrer à nouveau"</string>
+<string name="generate_voicetrigger_words_success">"Fin de génération de Commande."</string>
+<string name="voicetrigger_wakeup_item_1">"%1$s (par défaut)"</string>
+<string name="voicetrigger_wakeup_item_2">"défini par l\'utilisateur"</string>
+<string name="prompting_user_defined_text">"Le contenu des mots de commande personnalisés"</string>
+<string name="prompting_text_default">"Veuillez dire: %1$s "</string>
+<string name="prompting_text_1">"Veuillez de nouveau dire: %1$s"</string>
+<string name="prompting_text_2">"Terminé"</string>
+<string name="dialog_title">"Attention"</string>
+<string name="dialog_firstuse_info">"Vous êtes le premier utilisateur de cette fonction, vous devez définir la voix par défaut pour réactiver ce dispositif"</string>
+<string name="no_wakeup_words_recoded">"Vous n’ avez pas enregistré les mots d’activation définis par l’utilisateur"</string>
+<string name="dialog_change_language_first">"Vérifié que vous n\'avez pas enregistré les mots vocal d’activation de la langue actuelle,\ vous devez enregistrer une nouvelle voix pour réactiver le dispositif, continuer?"</string>
+<string name="same_application_running">"Le dispositif d\'enregistrement est utilisé par un autre programme, s\'il vous plaît, veuillez fermer le programme!"</string>
+<string name="is_not_systemuser">"Actuellement il n\'est pas un utilisateur sytéme , et ne peut pas utiliser la voix d’activation."</string>
+<string-array name="hello_trigger_text_title_array">
+<item>"Bonjour, Puis-je vous aider ?"</item>
+<item>"Veuillez parler, je vous\ écoute ..."</item>
+<item>"Vous pouvez me demander comme ceci:"</item>
+</string-array>
+<string name="support_find_phone">"Trouver le téléphone"</string>
+<string name="support_find_phone_summary">"Criez à haute voix: \ '[Les mots d’activation] + Où es-tu? \', Le téléphone vous répondra en jouant les sonneries personnalisées."</string>
+<string name="support_call_phone">"Faire des appels téléphoniques"</string>
+<string name="support_call_phone_summary">"Dites au téléphone: \ '[Les mots d’activation] + Appel Xiao Wang \', il va appeler quelqu'un."</string>
+<string name="support_send_mms">"Envoyer des messages"</string>
+<string name="support_send_mms_summary">"Dites au téléphone: \ '[Les mots d’activation] + Envoyer un message texte à Xiao Wang \', il va ouvrir les applications de messagerie pour envoyer un message."</string>
+<string name="support_camera">"Prendre des photos"</string>
+<string name="support_camera_summary">"Dites au téléphone: \ '[Les mots d’activation] + Prends une photo pour moi \', il va ouvrir l'appareil photo et prendre des photos directement."</string>
+<string name="support_open_music">"Jouer de la musique"</string>
+<string name="support_open_music_summary">"Dites au téléphone: \ '[Les mots d’activation] + Lire Wang Fei's\"Hong Dou \"\', il va ouvrir le lecteur de musique et jouer la chanson. "</string>
+<string name="support_open_app">"Lancer des applications"</string>
+<string name="support_open_app_summary">"Dites au téléphone: \ '[Les mots d’activation] + Ouvres WeChat \', les téléphones vont lancer l'application WeChat."</string>
+<string name="find_phone_content">"Vous pouvez me demander: \n\n Où es-tu\n M’entends-tu \n Donnes-moi une réponse"</string>
+<string name="call_phone_content">"Vous pouvez me demander: \n\n Appeler Xiao Wang \n rappeler Xiaomin \n Appelez le service à la clientèle de China Mobile \n Composer le 114"</string>
+<string name="send_mms_content">"Vous pouvez me demander: \n\ n Envoyer un message texte à Xiao Wang \n Envoyer un message texte à Xiaomin \n Répondre un message texte à maman \n Envoyer le temps de réunion à Xiaoming par SMS"</string>
+<string name="open_camera_content">"Vous pouvez me demander: \n\n Prends une photo pour moi \n Prends une photo du paysage \n Prends une photo du panneau."</string>
+<string name="open_music_content">"Vous pouvez me demander: \n\n Lire Wang Fei \'\ Hong Dou \"\n Lis une chanson en \n aléatoire je veux écouter "Pao Mo"\n Lis une chanson de Zhang Xueyou"</string>
+<string name="open_app_content">"Vous pouvez me demander: \n\n Ouvrez WeChat \n Télécharger une application boussole " \n Lances le bloc-notes"</string>
+<string name="default_trigger">"Commande : Bonjour Blue Genie v17 (Français)"</string>
+<string name="default_command">"Commande: Fitness v2.2 (Français)"</string>
+<string name="default_command_sen">"Sensibilité: Normal"</string>
+<string name="trigger_prompt">"Dis Bonjour Blue Genie"</string>
+<string name="command_prompt1">""Maintenant, dit l\'un des \n suivants... "</string>
+<string name="command_prompt2">""Maintenant dire une commande "</string>
+<string name="cmd_step_count">"Compter les pas"</string>
+<string name="cmd_calories">"Calories"</string>
+<string name="cmd_floors">"Planchers"</string>
+<string name="cmd_distance">"Distance"</string>
+<string name="cmd_active_minutes">"Minutes actives"</string>
+<string name="cmd_sleep_pattern">"Rythme de sommeil"</string>
+<string name="cmd_outside_temperature">"Température extérieure"</string>
+<string name="cmd_outside_humidity">"Humidité extérieure"</string>
+<string name="cmd_what_time_is_it">"Quelle heure est-il"</string>
+<string name="cmd_heart_rate">"Rythme cardiaque"</string>
+<string name="resp_step_count">"Compte de pas= 4306"</string>
+<string name="resp_calories">"Calories brûlées Aujourd\'hui = 1445"</string>
+<string name="resp_floors">"marches grimpées Aujourd\'hui = 8"</string>
+<string name="resp_distance">"Distance Aujourd\'hui = 2,52 miles"</string>
+<string name="resp_active_minutes">"Minutes actives Aujourd\'hui = 17"</string>
+<string name="resp_sleep_pattern">"Sommeil profond Aujourd\'hui = 3h 25m"</string>
+<string name="resp_outside_temperature">" Temp. Externe = 74 F"</string>
+<string name="resp_outside_humidity">"Humidité extérieure= 41%"</string>
+<string name="resp_what_time_is_it">"Heure actuelle ="</string>
+<string name="resp_heart_rate">"Pouls= 74 bpm"</string>
+<string name="time_left">"Temps restant: X s"</string>
+<string name="language_changed_success">"Langage changé avec succès!"</string>
+<string name="save_file_to_device_error">"Commutateur de mot de commande a échoué, veuillez réessayer plus tard!"</string>
+<string name="language_changed_failed">"Le changement de langue a échoué, veuillez essayer à nouveau plus tard"</string>
+<string name="language_change_has_canceled">"A annulé, vous pouvez également utiliser les anciennes langues"</string>
+<string name="sensibility_text">"Régler la sensibilité du mot de commande dans la reconnaissance \n\ Lorsque la sensibilité est élevée, le taux de commande \n\ Lorsque la sensibilité est réglée pour plus basse, il y a baisse du taux de commande"</string>
+<string name="update_phrass_success">"Succès de la Mise à Jour de la Phrase"</string>
+</resources>

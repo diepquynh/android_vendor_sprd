@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"Tallózó"</string>
+<string name="action_settings">"Beállítások"</string>
+<string name="title_section_overview">"Gyors nézet"</string>
+<string name="title_section_external">"KülsőTárhely"</string>
+<string name="title_section_internal">"BelsőTárhely"</string>
+<string-array name="select_dest">
+    <item name="title_phone">"BelsőTárhely"</item>
+    <item name="title_sdcard">"KülsőTárhely"</item>
+</string-array>
+<string name="title_section_all">"Összes"</string>
+<string name="descrip_actionbar_logo">"SzintFel"</string>
+<string name="descrip_actionbar_search">"keresés"</string>
+<string name="descrip_actionbar_overflow">"Menü"</string>
+<string name="quickscan_audio">"Hang"</string>
+<!-- SPRD 431905  -->
+<string name="quickscan_image">Kép</string>
+<string name="quickscan_record">"bejegyzés"</string>
+<string name="quickscan_video">"Videó"</string>
+<string name="quickscan_doc">"Dokumentumok"</string>
+<string name="quickscan_apk">"Alkalmazás"</string>
+<string name="file_list_flodermsg">"Dátum:%1$s"</string>
+<string name="file_list_filemsg">"Dátum:%1$s\tMéret:%2$s"</string>
+<string name="dialog_hint_title">"Betöltés"</string>
+<string name="dialog_hint_msg">"Betöltés..."</string>
+<string name="menu_search">"keresés"</string>
+<string name="menu_back_home">"Vissza a kezdőlapra"</string>
+<string name="menu_mkdir">Új mappa</string>
+<string name="menu_newfile">"Új fájl"</string>
+<string name="menu_mkdir_succeed">"%1$s mappa létrehozása sikeres"</string>
+<string name="menu_mkdir_failed">"%1$s mappa létrehozása sikertelen"</string>
+<string name="menu_newfile_succeed">"%1$s fájl létrehozása sikeres"</string>
+<string name="menu_newfile_failed">"%1$s fájl létrehozása sikertelen"</string>
+<string name="menu_select_more">"Több kiválasztása"</string>
+<string name="menu_copy">"Másolás"</string>
+<string name="menu_cut">"Kivágás"</string>
+<!-- SPRD 414973 update menu_sort_type,remove ":" -->
+<string name="menu_sort_type">Rendezés</string>
+<string name="menu_storage_status">"Tárhely"</string>
+<!-- SPRD 431904 update operate_delete -->
+<string name="operate_delete">"Törlés"</string>
+<string name="operate_clear">"Tiszta"</string>
+<string name="operate_delete_file_ask">"Biztos, hogy törli: %1$s?"</string>
+<string name="operate_delete_file_succeed">"%1$s fájl törlése sikeres"</string>
+<string name="operate_delete_file_failed">"%1$s fájl törlése sikertelen"</string>
+<string name="operate_viewdetails">"Tulajdonságok"</string>
+<string name="operate_viewdetails_date">"Dátum: %1$s"</string>
+<string name="operate_viewdetails_size">"Méret:%1$s"</string>
+<string name="operate_viewdetails_type_folder">"Típus: Mappa"</string>
+<string name="operate_viewdetails_type_file">"Típus: Fájl"</string>
+<string name="operate_folder_attribute">"Beleértve: %1$d fájl, %2$d mappa\nMéret: %3$s"</string>
+<string name="operate_rename">"Átnevezés"</string>
+<string name="operate_rename_hint">"Kérjük, adjon meg egy új mappanevet"</string>
+<string name="operate_rename_succeed">"Átnevezés sikeres"</string>
+<string name="operate_rename_failed">"%1$s fájl átnevezése sikertelen"</string>
+<string name="operate_share">"Megosztás"</string>
+<string name="msg_file_input_empty">"A fájlnév üres"</string>
+<string name="msg_file_input_repeat">"A(z) %1$s név már létezik, adjon meg egy másikat."</string>
+<string name="msg_folder_empty">"A mappa üres"</string>
+<string name="msg_invalid_intent">"A rendszer nem támogatja ezt a fájltípust"</string>
+<string name="msg_issure_clear">"Törli ezt a mappát?"</string>
+<string name="bluetooth">"Bluetooth"</string>
+<string name="copying">"Másolás, várjon"</string>
+<string name="clipboard_empty">"A vágólap üres"</string>
+<string name="text_exit_file_explore_title">Kilépés</string>
+<string name="text_exit_file_explore_prompt">"Biztos, hogy kilép?"</string>
+<string name="common_text_ok">"OK"</string>
+<string name="common_text_cancel">"Mégse"</string>
+<string name="common_text_paste">"Beillesztés"</string>
+<string-array name="copyfileWarning">
+<item>"Csere"</item>
+<item>"Mindkettő mentése"</item>
+</string-array>
+<string-array name="copydirWarning">
+<item>"Csere"</item>
+<item>"Összekapcsolás"</item>
+<item>"Mindkettő mentése"</item>
+</string-array>
+<string name="file_option">"Fájlopciók"</string>
+<string name="folder_option">"Mappaopciók"</string>
+<string name="file_detail">"Részletek"</string>
+<string name="caculating">"Méret: Számítás..."</string>
+<string name="copy_finish">"A művelet befejeződött"</string>
+<string name="now_copying">"Másolás. Kérjük, várjon..."</string>
+<string name="delete_finish">"Törlés befejeződött"</string>
+<string name="delete_fail">"A(z) <xliff:g id="NAME">%s</xliff:g> fájl törlése nem sikerült"</string>
+<string name="now_deleting">"Eltávolítás. Kérjük, várjon..."</string>
+<string name="cancel_copy">"A műveletet megszakították"</string>
+<string name="exist">"A fájl létezik"</string>
+<string name="select_destination">"Válassza ki a tárolás helyét"</string>
+<string name="empty_view_prompt">"Üres mappa, további dokumentumokat számítógépen vagy Interneten keresztül szerezhet be"</string>
+<string name="fragment_search_key_hint">"Írja be a keresni kívánt kulcsot"</string>
+<string name="fragment_search_location">"Hely keresése:"</string>
+<string name="fragment_search_location_ex">"Hely keresése"</string>
+<string name="fragment_search_type">"Fájltípus"</string>
+<string name="fragment_search_result">"Keresési eredmény"</string>
+<string name="fragment_search_searching">"Keresés..."</string>
+<string name="fragment_search_noresult">"Nincs találat"</string>
+<string name="common_text_other">"Egyéb"</string>
+<string name="common_text_search">"keresés"</string>
+<string name="fragment_search_invalid_result">"A fájl elavult. Kérjük, ellenőrizze."</string>
+<string name="overview_menu_multiselect">"Több kiválasztása"</string>
+<string name="overview_menu_sort">rendezés</string>
+<string name="overview_menu_install_all">"Összes telepítése"</string>
+<string name="overview_menu_install">"Telepítés"</string>
+<string name="overview_menu_delete">"törlés"</string>
+<string name="sort_by_name">Név szerint</string>
+<string name="sort_by_type">"Típus szerint"</string>
+<string name="sort_by_time_desc">"Idő szerint (desc)"</string>
+<string name="sort_by_time_asc">"Idő szerint (növ.)"</string>
+<string name="sort_by_size_desc">"Név szerint (desc)"</string>
+<string name="sort_by_size_asc">"Név szerint (növ.)"</string>
+<string-array name="sort_type">
+<item>Név szerint</item>
+<item>"Típus szerint"</item>
+<item>"Dátum szerint"</item>
+<item>"Méret szerint"</item>
+</string-array>
+<string name="sort_by_asc">"Növekvő sorrend"</string>
+<string name="sort_by_desc">"Csökkenő sorrend"</string>
+<string name="display_setting">"Megjelenítési beállítások"</string>
+<string name="hide_file_display">"Rejtett fájlok megmutatása"</string>
+<string name="display_hide_file">"Rejtett fájlok megmutatása"</string>
+<string name="operate_viewdetails_path">"Fájl elérési útvonala: %1$s""</string>
+<string name="operate_viewdetails_canread">"Olvasható: Igen"</string>
+<string name="operate_viewdetails_can_not_read">"Olvasható: Nem"</string>
+<string name="operate_viewdetails_can_not_write">"Írható: Nem"</string>
+<string name="operate_viewdetails_can_write">"Írható: Igen"</string>
+<string name="operate_viewdetails_hide">"Rejtett fájl: Igen"</string>
+<string name="operate_viewdetails_not_hide">"Rejtett fájl: Nem"</string>
+<string name="select_text">"Fájl kiválasztása"</string>
+<string name="select_all">"Összes kijelölése"</string>
+<string name="unselect_all">"Nincs kiválasztva"</string>
+<string name="length_limited">"A név elérte a maximális hosszt"</string>
+<string name="cannot_copy_to_itself">"A könyvtár nem másolható saját magába vagy saját alkönyvtárba"</string>
+<string name="confirm_delete">"Biztos, hogy törli?"</string>
+<string name="search_empty">"Ezen az oldalon nincs szöveg. Kérjük, ellenőrizze a gépelést."</string>
+<string name="dialog_back">"Vissza"</string>
+<!-- SPRD 431904 update set_as -->
+<string name="set_as">"Beállítás mint"</string>
+<string name="invalid_char">"A fájl érvénytelen karaktert tartalmaz, pl.: %s"</string>
+<string name="no_enough_sapce">"Nincs elég hely"</string>
+<string name="file_type_wrong">"A fájltípus rossz"</string>
+<string name="failed_set_wallpaper">"A háttérkép beállítása nem sikerült"</string>
+<string name="unsupport_type">"Nem támogatott csengőhang típus"</string>
+<string name="now_moving">"Áthelyezés. Kérjük, várjon..."</string>
+<string name="now_calculate">"Számítás. Kérjük, várjon..."</string>
+<string name="badname_as_point">"A név nem lehet /,\\, vagy .., mert összezavarhatja a fájlrendszert"</string>
+<string name="cut_filename_duplicate">"A fájl vagy mappa jelenlegi elérési útvonalának ugyanaz a neve, kérjük, válassza újra a könyvtárat!"</string>
+<string name="share_file_limited">"A megosztott fájl korlátja %1$d"</string>
+<string name="install_apk_limited">"A telepített alkalmazás korlátja %1$d"</string>
+    <string name="msg_folder_input_empty">A mappanév üres</string>
+     <string name="search_type_empty">"Válasszon fájltípust."</string>
+     <string name="invalid_char_of_filename">"<xliff:g id="SECTION">%s</xliff:g> a fájlrendszer fájlneve érvénytelen karaktert tartalmaz, mint például <xliff:g id="INVALIDCHAR">%s</xliff:g>"</string>
+     <string name="invalid_char_of_foldername">"<xliff:g id="SECTION">%s</xliff:g> a fájlrendszer fájlneve érvénytelen karaktert tartalmaz, mint például <xliff:g id="INVALIDCHAR">%s</xliff:g>"</string>
+     <string name="now_cleared">"Törlés，kérjük, várjon..."</string>
+     <string name="not_replace">"Nem helyettesíthető, mert a szülőmappa neve ugyanaz"</string>
+     <string name="sdcard_had_unmounted">"A működésben lévő fájl érvénytelen"</string>
+     <string name="common_text_ignore">Figyelmen kívül hagy</string>
+     <string name="cannot_copyfolder_itself">"Nem másolhat mappát saját magába"</string>
+     <string name="cannot_cutfolder_itself">"Nem helyezhet át mappát saját magába"</string>
+     <string name="cannot_paste_reason">"A célhely mappa a(z) %s forrásmappán belül van"</string>
+     <string name="badname_endwith_point">"A mappanév nem végződhet ponttal."</string>
+     <string name="failed_option">"Sikertelen opció"</string>
+     <string name="failed_query">"Az adatabázis nem kérelmezheti ezt a fájlt"</string>
+     <string name="failed_select_event">"Maximum 500 tételt válasszon ki a művelet során."</string>
+     <string name="error_permissions">"Az alkalmazás nem rendelkezik a futtatáshoz szükséges alapvető engedélyekkel. Ellenőrizze az engedélybeállításokat."</string>
+     <string name="dialog_dismiss">"Elvetés"</string>
+     <string name="toast_fileexplorer_internal_error">"Belső hiba történt a fájlkezelőben!"</string>
+
+    <string name="title_section_usbdisk">"USB tárhely"</string>
+     <string name="error_choose_drm_for_gallery">"A DRM fájl nem állítható be zenei diára, kérem, válasszon egy másikat"</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:key="wifi eut"
+        android:title="Wifi eut" >
+    </Preference>
+    <Preference
+        android:enabled="true"
+        android:key="bt"
+        android:title="BT" >
+    </Preference>
+
+    <Preference
+        android:key="fm"
+        android:title="@string/fm_preference_title" >
+    </Preference>
+
+    <Preference
+        android:enabled="true"
+        android:key="bt_settings"
+        android:title="BT Settings" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.sprd.engineermode.connectivity.btSettings.SettingsActivity"
+                android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+
+    <Preference android:title="Bluetooth" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.debuglog.BluetoothActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+
+</PreferenceScreen>

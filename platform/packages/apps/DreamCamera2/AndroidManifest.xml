@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.camera2">
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BIND_WALLPAPER" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_READ" />
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_WRITE" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <!-- SPRD: Fix bug 567394 when switch user the state of the quickcamera is wrong @{ -->
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="android.permission.MANAGE_USERS" />
+    <!-- @} -->
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <!-- READ_PHONE_STATE is required to determine when a phone call exists prior to M -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false" />
+
+    <application
+        android:name="com.android.camera.app.CameraApp"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/logo_camera_color_44in48dp"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:restoreAnyVersion="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Camera"
+        android:usesCleartextTraffic="false" >
+        <activity
+            android:name="com.android.camera.CameraActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.android.camera.CameraActivity"
+            android:theme="@style/Theme.Camera"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.android.keyguard.layout"
+                android:resource="@layout/keyguard_widget" />
+        </activity>
+
+        <activity
+            android:name="com.dream.camera.modules.qr.QrScanResultActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:theme="@style/Theme.Camera1"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name="com.android.camera.SecurityAccessLocation"
+                android:configChanges="orientation|screenSize|keyboardHidden"
+                android:label="@string/app_name"
+                android:excludeFromRecents="true"
+                android:parentActivityName="com.android.camera.CameraActivity" >
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.android.camera.CameraActivity" />
+        </activity>
+        <activity
+                android:name="com.android.camera.PermissionsActivity"
+                android:configChanges="orientation|screenSize|keyboardHidden"
+                android:label="@string/app_name"
+                android:excludeFromRecents="true"
+                android:parentActivityName="com.android.camera.CameraActivity" >
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.android.camera.CameraActivity" />
+        </activity>
+
+        <activity-alias
+            android:name="com.android.camera.CameraLauncher"
+            android:label="@string/app_name"
+            android:targetActivity="com.android.camera.CameraActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="com.android.camera.CaptureActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Camera"
+            android:configChanges="smallestScreenSize|screenLayout|orientation|screenSize|keyboardHidden|keyboard"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Video camera and capture use the Camcorder label and icon. -->
+        <activity-alias
+            android:name="com.android.camera.VideoCamera"
+            android:label="@string/video_camera_label"
+            android:targetActivity="com.android.camera.CaptureActivity">
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAMERA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAPTURE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="com.android.camera.SecureCameraActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:taskAffinity="com.android.camera.SecureCameraActivity"
+            android:theme="@style/Theme.SecureCamera"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA_SECURE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE_SECURE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.android.keyguard.layout"
+                android:resource="@layout/keyguard_widget" />
+        </activity>
+
+        <activity
+            android:name="com.android.camera.settings.CameraSettingsActivity"
+            android:label="@string/mode_settings"
+            android:theme="@style/Theme.CameraSettings"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
+
+        <receiver android:name="com.android.camera.DisableCameraReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- UCamera Configure Start -->
+       <activity
+            android:name="com.ucamera.uphoto.ImageEditControlActivity"
+            android:label="@string/text_uphoto_label"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.ucamera.ucam.UPhoto" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SPRD_EDITOR" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <!-- <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <data android:mimeType="image/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+                <data android:mimeType="image/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+            </intent-filter> -->
+            <intent-filter>
+                <action android:name="android.intent.action.UGALLERY_EDIT" />
+                <data android:mimeType="image/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.ucamera.ucomm.downloadcenter.DownloadCenterActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ucamera.ucomm.downloadcenter.DownloadTabActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ucamera.ucomm.puzzle.PuzzleActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ucamera.uphoto.exception.MailSenderActivity"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.EMBED" />
+            </intent-filter>
+        </activity>
+        <!-- UGallery -->
+        <activity android:name="com.ucamera.uphoto.CropImage" />
+        <!-- SPRD:fix bug533979 unmount SD card, imageGallery can not select photo -->
+        <activity
+            android:name="com.ucamera.ugallery.ImageGallery"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/text_ugallery_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <!-- <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+                <category android:name="android.intent.category.OPENABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="vnd.android.cursor.dir/image" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="vnd.android.cursor.dir/image" />
+            </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.ucamera.ugallery.BaseImagePicker"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ucamera.ugallery.ViewImage"
+            android:configChanges="orientation|keyboardHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.UGallery.ViewImage" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.ucamera.ugallery.DefaultImagePicker"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ucamera.ucomm.puzzle.PuzzleImagePicker"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.SPRD_PUZZLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.ucamera.ugallery.CollageSingleImagePicker"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ucamera.ugallery.CropImage"
+            android:configChanges="orientation|keyboardHidden"
+            android:process=":CropImage" >
+            <!-- fix bug462452 <intent-filter>
+                <action android:name="com.android.camera.action.CROP" />
+                <data android:mimeType="image/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.ALTERNATIVE" />
+                <category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
+            </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.ucamera.ugallery.preference.UGalleryPreferenceActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- SPRD: Fix bug 569408 -->
+        <activity android:name="com.ucamera.ugallery.CollageImagePickerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+
+        <activity android:name="com.ucamera.ugallery.panorama.UgalleryPanoramaActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.ucamera.ugallery.Wallpaper"
+            android:label="@string/ugallery_setas_wallpaper"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <!-- <intent-filter>
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.ATTACH_DATA" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter> -->
+        </activity>
+
+        <activity
+            android:name="com.ucamera.ugallery.video.MovieView"
+            android:configChanges="orientation|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+
+        <activity android:name = "com.ucamera.ugallery.MyFullDialogActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            />
+        <activity android:name = "com.ucamera.ugallery.GifPlayerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            />
+        <activity android:name="com.ucamera.ugallery.MailSenderActivity"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.EMBED" />
+            </intent-filter>
+        </activity>
+
+        <!-- fix bug527736 Some Activity about UCamera lacks method of checkpermission -->
+        <activity
+            android:name="com.ucamera.ucam.modules.ugif.GifBrowser"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ucamera.ucam.modules.ugif.GifPlayActivity"
+            android:label="@string/text_gif_play_label"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ucamera.ucam.modules.ugif.edit.GifEditActivity"
+            android:configChanges="locale|layoutDirection|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <provider
+            android:name="com.ucamera.ugallery.provider.UCamDataProvider"
+            android:authorities="com.ucamera.uphoto.provider"
+            android:grantUriPermissions="true" />
+        <!-- UGallery END -->
+
+    </application>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+<!-- UCamera Configure end -->
+
+</manifest>

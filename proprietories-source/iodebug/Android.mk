@@ -1,0 +1,27 @@
+LOCAL_PATH:= $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES := iodebug.c
+LOCAL_MODULE := iodebug
+LOCAL_STATIC_LIBRARIES := libcutils
+LOCAL_MODULE_TAGS := optional
+#LOCAL_LDLIBS += -lpthread
+LOCAL_SHARED_LIBRARIES := liblog libz
+
+ifeq ($(BOARD_IOSNOOP_DISABLE),true)
+LOCAL_CFLAGS += -DIOSNOOP_DISABLE
+endif
+
+include $(BUILD_EXECUTABLE)
+
+CUSTOM_MODULES += iodebug
+
+include $(CLEAR_VARS)
+
+LOCAL_MODULE := iosnoop.sh
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_PATH := $(PRODUCT_OUT)/system/bin
+LOCAL_MODULE_TAGS := eng debug
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+
+include $(BUILD_PREBUILT)

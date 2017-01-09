@@ -1,0 +1,155 @@
+<resources>
+    <string-array name="td_afband_entries" translatable="false">
+        <item>A频(0x2746~0x2789)</item>
+        <item>F频(0x24BC~ 0x257C)</item>
+    </string-array>
+    <string-array name="td_aband_entries" translatable="false">
+        <item>A频(0x2746~0x2789)</item>
+    </string-array>
+    <string-array name="td_fband_entries" translatable="false">
+        <item>F频(0x24BC~ 0x257C)</item>
+    </string-array>
+
+    <!-- LTE Mode Set -->
+    <string-array name="list_entries_svlte">
+        <item>SVLTE</item>
+        <item>GSM单模</item>
+        <item>TD单模</item>
+        <item>TG双模</item>
+    </string-array>
+    <string-array name="list_entries_fdds_csfb">
+        <item>LTE FDD/W/GSM CSFB多模单待</item>
+        <item>TD-LTE/W/GSM CSFB多模单待</item>
+        <item>TD-LTE单模</item>
+        <item>LTE FDD单模</item>
+        <item>TD-LTE/LTE FDD双模</item>
+        <item>TD-LTE/LTE FDD/W/GSM CSFB多模单待</item>
+        <item>GSM单模</item>
+        <item>W单模</item>
+        <item>WG双模</item>
+    </string-array>
+    <string-array name="list_entries_tdd_csfb">
+        <item>TD-LTE/TD/GSM CSFB多模单待</item>
+        <item>TD-LTE单模</item>
+        <item>LTE FDD单模</item>
+        <item>TD-LTE/LTE FDD双模</item>
+        <item>TD-LTE/LTE FDD/TD/GSM CSFB多模单待</item>
+        <item>GSM单模</item>
+        <item>TD单模</item>
+        <item>TG双模</item>
+    </string-array>
+     <string-array name="list_entries_tdd_csfb_change">
+        <item>TD-LTE/TD/GSM CSFB多模单待</item>
+        <item>TD-LTE单模</item>
+        <item>GSM单模</item>
+        <item>TD单模</item>
+        <item>TG双模</item>
+    </string-array>
+    <string-array name="list_entries_csfb">
+        <item>TD-LTE/LTE FDD/W/TD/GSM CSFB 多模单待</item>
+        <item>TD-LTE/LTE FDD/W/GSM CSFB多模单待</item>
+        <item>LTE FDD/W/GSM CSFB多模单待</item>
+        <item>TD-LTE/W/GSM CSFB多模单待</item>
+        <item>TD-LTE单模</item>
+        <item>LTE FDD单模</item>
+        <item>TD-LTE/LTE FDD双模</item>
+        <item>TD-LTE/TD/GSM CSFB多模单待</item>
+        <item>TD-LTE/LTE FDD/TD/GSM CSFB多模单待</item>
+        <item>GSM单模</item>
+        <item>W单模</item>
+        <item>WG双模</item>
+        <item>TD单模</item>
+        <item>TG双模</item>
+    </string-array>
+    <string-array name="operators_sering_name">
+        <item>PLMN</item>
+        <item>网络运营商</item>
+        <item>漫游</item>
+    </string-array>
+    <string-array name="Gsm_sering_name">
+        <item>CellID</item>
+        <item>频点</item>
+        <item>BSIC</item>
+        <item>干扰值</item>
+        <item>信号强度</item>
+    </string-array>
+    <string-array name="Tdscdma_sering_name">
+        <item>CellID</item>
+        <item>RNC ID</item>
+        <item>频点</item>
+        <item>扰码</item>
+        <item>C/I</item>
+        <item>信号强度</item>
+        <item>CQI_MIN</item>
+        <item>CQI_MAX</item>
+        <item>CQI_AVG</item>
+        <item>TB_SIZE</item>
+        <item>BLER</item>
+    </string-array>
+    <string-array name="Wcdma_sering_name">
+        <item>CellID</item>
+        <item>RNC ID</item>
+        <item>频点</item>
+        <item>扰码</item>
+        <item>ECNO</item>
+        <item>信号强度</item>
+        <item>CQI_MIN</item>
+        <item>CQI_MAX</item>
+        <item>CQI_AVG</item>
+        <item>TB_SIZE</item>
+        <item>BLER</item>
+        <item>DC-HSDPA</item>
+        <item>PCell Frequency</item>
+        <item>PCell cellid</item>
+        <item>PCell ecno</item>
+        <item>PCell rssi</item>
+        <item>SCell Frequency</item>
+        <item>SCell cellid</item>
+        <item>SCell ecno</item>
+        <item>SCell rssi</item>
+    </string-array>
+    <string-array name="Lte_sering_name">
+        <item>BAND</item>
+        <item>频点</item>
+        <item>PCI</item>
+        <item>RSRP</item>
+        <item>RSRQ</item>
+        <item>TS MODE</item>
+        <item>BAND WIDTH</item>
+        <item>SA</item>
+        <item>SSP</item>
+        <item>SINR</item>
+        <item>UL_MCS</item>
+        <item>DL_MCS</item>
+        <item>UL_BLER</item>
+        <item>DL_BLER</item>
+    </string-array>
+    <string-array name="mode_switch">
+      <item>3 模</item>
+      <item>4 模</item>
+      <item>5 模</item>
+    </string-array>
+    <string-array name="log_scenarios_entries">
+        <item>Debug</item>
+        <item>Full</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="log_scenarios_w_entries">
+        <item>Debug</item>
+        <item>Full</item>
+        <item>Special</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="log_output_settings_entries">
+        <item>PC抓取</item>
+        <item>SD抓取</item>
+    </string-array>
+    <string-array name="sd_log_set_entries">
+        <item>使用所有空闲空间</item>
+        <item>设置容量上限</item>
+    </string-array>
+    <string-array name="mini_dump_entries">
+        <item>外部存储</item>
+        <item>内部存储</item>
+    </string-array>
+</resources>

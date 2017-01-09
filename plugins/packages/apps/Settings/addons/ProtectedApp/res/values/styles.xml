@@ -1,0 +1,76 @@
+<resources>
+
+    <style name="Theme_Holo_Light_new_ui" parent="@*android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/OnlyTitleActionBar</item>
+    </style>
+
+    <style name="OnlyTitleActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:displayOptions">showTitle</item>
+    </style>
+
+    <style name="AppCloneTheme" parent="@*android:style/Theme.Material.Settings">
+        <item name="android:actionBarStyle">@style/AudioProfileActionBar</item>
+    </style>
+
+    <style name="AudioProfileActionBar" parent="@*android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:displayOptions"></item>
+        <item name="android:background">#ff263238</item>
+    </style>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="@style/AppActionbarTheme">
+        <item name="android:windowActionBar">false</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="security_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="AppActionbarTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+
+        <!-- colorPrimary is used for the default action bar background -->
+        <!--
+        <item name="colorPrimary">@color/actionbar_backgroud</item>
+
+        colorPrimaryDark is used for the status bar
+        <item name="colorPrimaryDark">@color/actionbar_backgroud_dark</item>
+        -->
+        <!-- theme UI controls like checkboxes and text fields -->
+        <!-- <item name="android:colorAccent">@color/actionbar_backgroud</item> -->
+        <item name="android:homeAsUpIndicator">@drawable/security_toggle_btn</item>
+        <item name="android:actionModeCloseDrawable">@drawable/arrow</item>
+    </style>
+
+    <style name="ThemeOverlay.SwitchBar" parent="@android:style/ThemeOverlay">
+
+        <!-- Used by controls, e.g. CheckBox, ProgressBar, etc. -->
+        <item name="android:colorAccent">@color/switch_accent_color</item>
+    </style>
+
+    <style name="widget_gender_switch">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textOff">""</item>
+        <item name="android:textOn">""</item>
+        <item name="android:thumbTextPadding">10dp</item>
+    </style>
+
+</resources>

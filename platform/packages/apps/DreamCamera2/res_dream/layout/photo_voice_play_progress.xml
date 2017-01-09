@@ -1,0 +1,40 @@
+<com.dream.camera.ui.PhotoVoicePlayProgress xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/photo_voice_play_progress"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr">
+
+    <LinearLayout
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingBottom="@dimen/voice_picture_bottom_control_spacing"
+        android:orientation="horizontal">
+
+
+         <TextView
+            android:id="@+id/play_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20dp"
+            android:text="@string/time"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:gravity="right"
+            />
+
+        <TextView
+            android:id="@+id/total_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20dp"
+            android:text="@string/time"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            />
+      </LinearLayout>
+
+</com.dream.camera.ui.PhotoVoicePlayProgress>

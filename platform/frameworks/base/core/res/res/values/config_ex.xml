@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ ** Copyright © 2016 Spreadtrum Communications Inc.
+ */
+-->
+
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds.  Do not translate. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--SPRD: 474587 Feature for PhoneBook @{ -->
+    <bool name="config_supportorangeCapable">false</bool>
+    <bool name="config_updateadnuidCapable">false</bool>
+    <string-array name="config_actions_to_hook" translatable="false">
+      <!-- <item>com.android.setupwizard.EXIT:com.example.app1</item> -->
+    </string-array>
+    <string-array name="config_components_to_hook" translatable="false">
+    </string-array>
+    <!-- SPRD Add For Feature Bug 474988:
+         Carrier Customized LTE RSRP Threshold.
+         Default is empty, so arrays in SignalStrength.java will be applied.
+         If carrier would like to customize, please using resource overlay. -->
+    <integer-array translatable="false" name="config_LTE_RSRP_threshold_overlay" />
+
+    <string-array name="usim_notify_packages" translatable="false">
+    </string-array>
+    <string name="addon_usim_notify" translatable="false">plugin.sprd.usim.UsimNotifierImpl</string>
+    <string name="feature_ecc_list_customized_by_operator" translatable="false">plugin.sprd.operatorfeatures.OperatorEccPlugin</string>
+    <!-- SPRD: Bug #474443 Porting cmcc wifi features to AndroidN -->
+    <string name="config_wifi_operator" translatable="false"></string>
+    <!-- Porting cmcc wifi features to AndroidN END -->
+    <!-- SPRD: Bug#474381 support GPS automatic update time BEG -->
+    <string name="config_location_support_operator" translatable="false"></string>
+    <!-- support GPS automatic update time END -->
+    <!-- SPRD: Add for bug601753 @{ -->
+    <bool name="config_showEmergencyCallOnly">true</bool>
+    <!-- @} -->
+    <!-- SPRD: Bug 565443 add broadcast to cts queue -->
+    <string-array name="special_broadcast_actions" translatable="false">
+       <item>com.android.providers.calendar.intent.CalendarProvider2</item>
+       <item>android.intent.action.EVENT_REMINDER</item>
+       <item>android.app.action.DEVICE_ADMIN_ENABLED</item>
+       <item>android.app.action.DEVICE_ADMIN_DISABLED</item>
+       <item>android.intent.action.USER_STOPPING</item>
+       <item>android.intent.action.ACTION_SHUTDOWN</item>
+       <item>android.app.action.NOTIFY_PENDING_SYSTEM_UPDATE</item>
+       <item>LocationManagerTest</item>
+    </string-array>
+    <!-- SPRD: Bug 569231 add broadcast to foreground queue -->
+    <string-array name="broadcast_put_foreground_actions" translatable="false">
+        <item>android.intent.action.DOWNLOAD_COMPLETED</item>
+    </string-array>
+    <string-array name="hide_packages" translatable="false">
+        <item>com.sprd.opm</item>
+    </string-array>
+</resources>

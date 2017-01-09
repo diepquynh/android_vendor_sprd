@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2010,2012 Thundersoft Corporation
+  All rights Reserved
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="tip_dlg_style" parent="android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+    </style>
+
+</resources>

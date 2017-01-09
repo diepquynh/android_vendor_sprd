@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2010,2013 Thundersoft Corporation
+  All rights Reserved
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center" >
+
+    <com.ucamera.ucomm.downloadcenter.ClickedImageView
+        android:id="@+id/effect_showed_effect_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+    />
+
+    <ImageView
+        android:id="@+id/effect_showed_state_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/effect_showed_effect_view"
+        android:layout_alignRight="@id/effect_showed_effect_view"
+        android:src="@drawable/effect_showed_item_state_selector"
+       />
+
+    <TextView
+        android:id="@+id/effect_showed_tip_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:gravity="center"
+        android:layout_alignLeft="@id/effect_showed_effect_view"
+        android:layout_alignRight="@id/effect_showed_effect_view"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="2dp"
+        android:layout_alignBottom="@id/effect_showed_effect_view"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+</RelativeLayout>

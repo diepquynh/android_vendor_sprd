@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/custom_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/custom_actionbar_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/custom_action_bar_height"
+            android:contentDescription="@string/descrip_actionbar_logo"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/custom_actionbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textIsSelectable="false" />
+
+        <ImageView
+            android:id="@+id/custom_actionbar_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/descrip_actionbar_search" />
+
+        <ImageView
+            android:id="@+id/custom_actionbar_overflow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/descrip_actionbar_overflow" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".FileExploreActivity" >
+            <!--  
+            <android.support.v4.view.PagerTabStrip
+                android:id="@+id/pager_title_strip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:background="#dcdcdc"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:textColor="#b4b4b4" >
+            android.support.v4.view.PagerTabStrip>
+            -->
+        </android.support.v4.view.ViewPager>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_button_bar"
+        style="@android:style/ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_button_bar_height"
+        android:layout_gravity="bottom"
+        android:background="@android:color/background_dark"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" /><!-- TODO:In Future versions, Here would be button bar -->
+    </LinearLayout>
+
+</LinearLayout>

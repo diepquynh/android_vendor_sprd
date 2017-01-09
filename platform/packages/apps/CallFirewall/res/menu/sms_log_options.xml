@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/sms_log_menu_delete"
+        android:showAsAction="withText"
+        android:title="@string/BlaclList_Menu_Delede_Some"/>
+    <item
+        android:id="@+id/sms_log_menu_cancel"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/cancel"/>
+    <item
+        android:id="@+id/sms_log_menu_delete_confirm"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/done"
+        android:enabled="false"/>
+
+</menu>

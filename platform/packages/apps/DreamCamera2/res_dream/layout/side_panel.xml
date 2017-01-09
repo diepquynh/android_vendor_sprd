@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/side_panel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="80dp"
+    android:layout_gravity="right"
+    android:orientation="vertical" >
+
+    <com.android.camera.ui.RotateImageView
+        android:id="@+id/sb_external_storage_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_external_storage_status_sprd" />
+
+    <com.android.camera.ui.RotateImageView
+        android:id="@+id/sb_internal_storage_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_internal_storage_status_sprd" />
+
+    <com.android.camera.ui.RotateImageView
+        android:id="@+id/sb_usb_storage_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_otg_storage_status_sprd" />
+
+    <com.android.camera.ui.RotateImageView
+        android:id="@+id/sb_face_detect_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_face_detect_status_sprd" />
+
+    <com.android.camera.ui.RotateImageView
+        android:id="@+id/sb_locate_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_locate_status_sprd" />
+
+    <com.android.camera.ui.RotateImageView
+        android:id="@+id/sb_touch_capture_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_touch_capture_status_sprd" />
+
+    <com.android.camera.ui.RotateImageView
+        android:id="@+id/sb_filter_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_filter_status_sprd" />
+
+    <com.android.camera.ui.RotateImageView
+        android:id="@+id/sb_opposite_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_opposite_status_sprd" />
+
+    <com.android.camera.ui.RotateImageView
+        android:id="@+id/sb_ca_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_antibanding_status_sprd" />
+
+    <com.android.camera.ui.RotateImageView
+        android:id="@+id/sb_va_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_antibanding_status_sprd" />
+
+</LinearLayout>

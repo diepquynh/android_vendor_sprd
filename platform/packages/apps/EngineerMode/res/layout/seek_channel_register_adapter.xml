@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView 
+        android:id="@+id/channel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp" />
+    
+    <TextView 
+        android:id="@+id/operind"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/channel" 
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp" />
+    
+    <TextView 
+        android:id="@+id/stereoind"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/operind"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignBottom="@+id/operind" />
+    
+    <TextView 
+        android:id="@+id/rssi" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/operind"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp" />
+    
+    <TextView 
+        android:id="@+id/freqvalus"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stereoind"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/rssi"
+        android:layout_marginLeft="5dp"
+        android:layout_alignLeft="@+id/stereoind" />
+    
+    <TextView 
+        android:id="@+id/pwrindicator" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rssi"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp" />
+    
+    <TextView 
+        android:id="@+id/freqoffset"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/freqvalus"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/pwrindicator"
+        android:layout_marginLeft="5dp"
+        android:layout_alignLeft="@+id/stereoind" />
+    
+    <TextView 
+        android:id="@+id/pilotdet" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pwrindicator"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp" />
+    
+    <TextView 
+        android:id="@+id/Nodaclpf"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/freqoffset"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/pilotdet"
+        android:layout_marginLeft="5dp"
+        android:layout_alignLeft="@+id/stereoind" />
+</RelativeLayout>

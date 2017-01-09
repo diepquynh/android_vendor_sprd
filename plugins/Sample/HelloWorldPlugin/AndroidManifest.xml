@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="plugin.sprd.helloworld"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+    />
+
+    <application>
+        <meta-data
+            android:name="isFeatureAddon"
+            android:value="true" />
+        <meta-data
+            android:name="targetPackages"
+            android:value="test.sprd.helloworld;com.android.contacts" />
+        <!-- TODO considered to use the resource to parse those metas -->
+        <meta-data
+            android:name="featureClassNames"
+            android:value="plugin.sprd.helloworld.AddonPromptUtils;plugin.sprd.helloworld.AddonLeavingUtils;plugin.sprd.helloworld.AddonTestInterfaceUtils" />
+    </application>
+
+</manifest>

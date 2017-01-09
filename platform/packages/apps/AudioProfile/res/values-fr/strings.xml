@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="audio_profiles">Profils Audio</string>
+  <string name="predefined_audio_profiles">profils audio prédéfinis </string>
+  <string name="user_defined_audio_profiles">profils audio définie par l\'utilisateur </string>
+  <string name="add_profile">"Ajouter"</string>
+  <string name="use_profile">Utiliser</string>
+  <string name="rename_profile">"Renommer"</string>
+  <string name="reset_profile">Réinitialisation</string>
+  <string name="delete_profile">"Supprimer"</string>
+  <string name="empty_name_dialog">Nom ne peut pas être vide</string>
+  <string name="duplicate_display_name_dialog">Ce nom existe déjà</string>
+  <string name="add_profile_msg">S\'il vous plaît entrer le nom du nouveau profil</string>
+  <string name="rename_profile_msg">S\'il vous plaît entrer le nom du nouveau profil</string>
+  <string name="delete_profile_msg">Le profil <xliff:g id="name">%s</xliff:g> sera supprimé</string>
+  <string name="reset_profile_msg">Tous les paramètres du profil audio seront remis à défaut</string>
+  <string name="incoming_call_volume_title">"Sonnerie et notifications"</string>
+  <string name="alarm_volume_title">"Alarme"</string>
+  <string name="dlg_ok">"OK"</string>
+  <string name="dlg_cancel">"Annuler"</string>
+  <string name="sound_settings">Réglage du son</string>
+  <string name="vibrate_title">"Vibreur"</string>
+  <string name="vibrate_summary">Retour de vibration pour les appels et les notifications</string>
+  <string name="sound_category_calls_and_notification_title">"Sonnerie et notifications"</string>
+  <string name="ringtone_title">Sonnerie du téléphone</string>
+  <string name="sound_category_notification_title">"Notifications"</string>
+  <string name="notification_sound_title">"Notification par défaut"</string>
+  <string name="all_volume_title">Volume</string>
+  <string name="notification_sound_dialog_title">"Sélectionner une sonnerie de notification"</string>
+  <string name="sound_category_feedback_title">Système</string>
+  <string name="dtmf_tone_enable_title">"Numérotation sonore"</string>
+  <string name="sound_effects_enable_title">"Sons des touches"</string>
+  <string name="lock_sounds_enable_title">"Son au verrouillage écran"</string>
+  <string name="haptic_feedback_enable_title">"Vibrer au toucher"</string>
+  <string name="revert_ring_vol">Le volume de la sonnerie ne doit pas être égale à zéro, il sera retourné.</string>
+  <string name="input_limit">Limite d\'entrée atteint</string>
+  <string name="standard_string">"Généralités"</string>
+  <string name="silent_string">"Silencieuse"</string>
+  <string name="vibrate_string">"Vibration"</string>
+  <string name="outdoor_string">"Extérieur"</string>
+  <string name="outdoor_summary">"Volume maximum et Vibrations"</string>
+  <string name="edit_profile">"Modifier"</string>
+  <string name="ringtone_default_message">"Désolé, la sonnerie ne peut pas être jouée car le fichier sonore par défaut a été configuré comme sonnerie."</string>
+  <string name="sim_ringtone_title">"SIM<xliff:g id="SIM_LOCK_STRING">%1$s</xliff:g> <xliff:g id="TYPE">%2$s</xliff:g> Sonnerie du téléphone"</string>
+    <string-array translatable="true" name="profile_display_name">
+		        <item>"Paramètres généraux"</item>
+		        <item>"Silencieuse"</item>
+		        <item>Vibration</item>
+		        <item>Extérieur</item>
+	    </string-array>
+    <string name="ringtone_not_exist_message">"Désolé, le fichier de sonnerie n\'existe pas"</string>
+    <string name="dial_pad_tones_title">"Tonalités du numéroteur"</string>
+     <string name="screen_locking_sounds_title">"Sons du verrouillage de l\'écran"</string>
+     <string name="charging_sounds_title">"Sons relatifs à la charge"</string>
+     <string name="media_volume_titles">"Musique,Vidéo,jeux,autres Media"</string>
+     <string name="ring_volume_title">"Sonnerie"</string>
+     <string name="notification_volume_title">"Notifications"</string>
+     <string name="sound_improvement">"Amélioration du Son"</string>
+     <string name="sound_improvement_select">"BseAudioEnh"</string>
+     <string name="sound_improvement_summary">"Amélioration du Son pour les écouteurs"</string>
+    <string name="sim_messagetone_title">"SIM<xliff:g id="SIM_LOCK_STRING">%1$s</xliff:g> <xliff:g id="TYPE">%2$s</xliff:g> sonnerie de message"</string>
+     <string name="messagetone_title">"Sonnerie de Message"</string>
+     <string name="vibrate_category_feedback_title">"Vibreur"</string>
+     <string name="vibrate_msg_title">Message</string>
+     <string name="vibrate_msg_summary">"Vibration de retour pour les messages"</string>
+</resources>

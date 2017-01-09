@@ -1,0 +1,9 @@
+#diasble the auto merge .cpp to LOCAL_SRC_FILES
+LOCAL_C_MERGE_SRC_DISABLED := true
+
+USE_EX_INSTALLD := true
+ifeq ($(USE_EX_INSTALLD), true)
+    INSTALLD_COMMON_CFLAGS = -DEX_INSTALLD
+endif
+
+LOCAL_CFLAGS += $(INSTALLD_COMMON_CFLAGS)

@@ -1,0 +1,1425 @@
+/*param0.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0064,
+	/*gain_thrs1*/
+	0x00C8,
+	/*nsr_thr_slope*/
+	0x0040,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0004,
+	/*bitshif0*/
+	0x0002,
+	/*lum_ratio*/
+	0x00000008,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x000004C8,
+			/*y*/
+			0x00000660,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x0016DC40,
+			/*y*/
+			0x0028A400,
+
+		},
+		/*r2_thr*/
+		0x0016DC40,
+		/*p1_param*/
+		0x00000FFF,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0C00,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0050,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param1.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param2.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param3.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param4.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param5.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param6.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param7.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param8.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param9.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param10.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param11.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param12.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param13.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param14.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param15.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param16.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param17.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param18.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param19.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param20.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param21.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param22.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param23.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,
+/*param24.*/
+/*sensor_pwd_level*/
+{
+	/*gain_thrs0*/
+	0x0000,
+	/*gain_thrs1*/
+	0x0000,
+	/*nsr_thr_slope*/
+	0x0000,
+	/*offset*/
+	0x0000,
+	/*bitshif1*/
+	0x0000,
+	/*bitshif0*/
+	0x0000,
+	/*lum_ratio*/
+	0x00000000,
+	/*radial_var*/
+	{
+		/*radial_bypass*/
+		0x00000000,
+		/*center_pos*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*center_square*/
+		{
+			/*x*/
+			0x00000000,
+			/*y*/
+			0x00000000,
+
+		},
+		/*r2_thr*/
+		0x00000000,
+		/*p1_param*/
+		0x00000000,
+		/*p2_param*/
+		0x00000000,
+		/*gain_max_thr*/
+		0x0000,
+		/*reserved0*/
+		0x0000,
+
+	},
+	/*addback*/
+	0x0000,
+	/*reserved1*/
+	0x0000,
+	/*bypass*/
+	0x00000000,
+}
+,

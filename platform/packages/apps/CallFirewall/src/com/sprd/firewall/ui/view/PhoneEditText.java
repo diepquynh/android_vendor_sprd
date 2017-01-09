@@ -1,0 +1,65 @@
+
+package com.sprd.firewall.ui.view;
+
+import com.sprd.firewall.PhoneUtils;
+
+import android.content.Context;
+import android.text.method.SingleLineTransformationMethod;
+import android.util.AttributeSet;
+import android.widget.EditText;
+
+public class PhoneEditText extends EditText {
+
+    public PhoneEditText(Context context, AttributeSet attrs, int defStyle) {
+        super(context, attrs, defStyle);
+    }
+
+    public PhoneEditText(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+    public PhoneEditText(Context context) {
+        super(context);
+    }
+
+    public void setPhoneNumber(CharSequence phoneNumber) {
+        if (phoneNumber != null) {
+            setText(PhoneUtils.filterNumbers(phoneNumber.toString()).trim());
+        }
+    }
+
+    public String getPhoneNumber() {
+        return PhoneUtils.filterNumbers(getText().toString().trim());
+    }
+
+    public void specialDisplayPWForPhoneEditText() {
+        setTransformationMethod(new specialReplacementTransformationMethod());
+    }
+
+    class specialReplacementTransformationMethod extends SingleLineTransformationMethod {
+
+        @Override
+        protected char[] getOriginal() {
+            char[] singleLineCharArray = super.getOriginal();
+            int singleLineLength = singleLineCharArray.length;
+            char[] retOriginalCharArray = new char[singleLineLength + 2];
+            System.arraycopy(singleLineCharArray, 0, retOriginalCharArray, 0, singleLineLength);
+            retOriginalCharArray[singleLineLength] = ',';
+            retOriginalCharArray[singleLineLength + 1] = ';';
+            return retOriginalCharArray;
+        }
+
+        @Override
+        protected char[] getReplacement() {
+            char[] singleLineReplaceCharArray = super.getOriginal();
+            int singleLineReplaceLength = singleLineReplaceCharArray.length;
+            char[] retOriginalReplaceCharArray = new char[singleLineReplaceLength + 2];
+            System.arraycopy(singleLineReplaceCharArray, 0, retOriginalReplaceCharArray, 0,
+                    singleLineReplaceLength);
+            retOriginalReplaceCharArray[singleLineReplaceLength] = 'P';
+            retOriginalReplaceCharArray[singleLineReplaceLength + 1] = 'W';
+            return retOriginalReplaceCharArray;
+        }
+
+    }
+}

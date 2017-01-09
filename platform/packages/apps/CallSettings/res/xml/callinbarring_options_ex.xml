@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Spreadst -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:phone="http://schemas.android.com/apk/res-auto"
+     android:title="@string/callin_barring_settings">
+
+
+    <!-- Note for all com.android.phone.EditPreference objects
+
+         The last several attributes are for use with the EditText field
+         in the dialog.  These attributes are forwarded to that field
+         when the edittext is created.  The attributes include:
+           1. android:singleLine
+           2. android:autoText
+           3. android:background -->
+
+    <!-- See note on com.android.phone.EditPreference above -->
+    <com.android.callsettings.callbarring.CallBarringEditPreference
+        android:key="button_ai_key"
+        android:title="@string/labelAI"
+        android:persistent="false"
+        android:summaryOn="@string/sum_ai_enabled"
+        android:summaryOff="@string/sum_ai_disabled"
+        android:dialogTitle="@string/labelAI"
+        android:dialogMessage="@string/messageAI"
+        phone:aconfirmMode="activation"
+        phone:aserviceClass="voice"
+        phone:areason="AI"
+        android:singleLine="true"
+        android:autoText="false"/>
+
+    <!-- See note on com.android.phone.EditPreference above -->
+    <com.android.callsettings.callbarring.CallBarringEditPreference
+        android:key="button_ir_key"
+        android:title="@string/labelIR"
+        android:persistent="false"
+        android:summaryOn="@string/sum_ir_enabled"
+        android:summaryOff="@string/sum_ir_disabled"
+        android:dialogTitle="@string/labelIR"
+        android:dialogMessage="@string/messageIR"
+        phone:aconfirmMode="activation"
+        phone:aserviceClass="voice"
+        phone:areason="IR"
+        android:singleLine="true"
+        android:autoText="false"/>
+
+</PreferenceScreen>
+

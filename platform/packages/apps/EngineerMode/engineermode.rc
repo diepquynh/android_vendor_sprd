@@ -1,0 +1,23 @@
+service wl_PM_0 /system/bin/wl PM 0
+    disabled
+    oneshot
+
+service wl_mpc_0 /system/bin/wl mpc 0
+    disabled
+    oneshot
+
+service wl_press_1 /system/bin/wl scansuppress 1
+    disabled
+    oneshot
+
+service wl_PM_2 /system/bin/wl PM 2
+    disabled
+    oneshot
+
+service wl_mpc_1 /system/bin/wl mpc 1
+    disabled
+    oneshot
+
+service wl_press_0 /system/bin/wl scansuppress 0
+    disabled
+    oneshot

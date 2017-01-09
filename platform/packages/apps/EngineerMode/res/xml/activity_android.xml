@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Added by Yuntao.xiao for SlogUI-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_android_scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearlayout_android_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/chk_android_general"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chk_android_switch" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dip"
+            android:text="@string/txv_android_branch" />
+
+        <CheckBox
+            android:id="@+id/chk_android_kernel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chk_android_kernel" />
+
+        <CheckBox
+            android:id="@+id/chk_android_system"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chk_android_system" />
+
+        <CheckBox
+            android:id="@+id/chk_android_radio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chk_android_radio" />
+
+        <CheckBox
+            android:id="@+id/chk_android_main"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chk_android_main" />
+
+        <CheckBox
+            android:id="@+id/chk_android_event"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chk_android_event" />
+
+    </LinearLayout>
+
+</ScrollView>

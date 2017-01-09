@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sprd.fileexploreraddon"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application>
+        <meta-data
+            android:name="isFeatureAddon"
+            android:value="true" />
+        <meta-data
+            android:name="targetPackages"
+            android:value="com.sprd.fileexplorer" />
+        <!-- TODO considered to use the resource to parse those metas -->
+        <meta-data
+            android:name="featureClassNames"
+            android:value="com.sprd.fileexploreraddon.FileExplorerAppUtilsAddon;
+                           com.sprd.fileexploreraddon.util.FileCopyTaskUtilsAddon;
+                           com.sprd.fileexploreraddon.util.FileUtilUtilsAddon;
+                           com.sprd.fileexploreraddon.adapters.FileListAdapterUtilsAddon;
+                           com.sprd.fileexploreraddon.adapters.MultiSelectFileAdapterUtilsAddon;
+                           com.sprd.fileexploreraddon.adapters.QuickScanCursorAdapterUtilsAddon;
+                           com.sprd.fileexploreraddon.adapters.SearchListAdapterUtilsAddon;
+                           com.sprd.fileexploreraddon.activities.FileSearchActivityUtilsAddon;
+                           com.sprd.fileexploreraddon.activities.FileSearchResultActivityUtilsAddon;
+                           com.sprd.fileexploreraddon.activities.MultiSelectActivityUtilsAddon;
+                           com.sprd.fileexploreraddon.activities.FilePickerActivityUtilsAddon;
+                           com.sprd.fileexploreraddon.fragments.DetailedListFragmentUtilsAddon;
+                           com.sprd.fileexploreraddon.activities.OverViewActivityUtilsAddon"
+                           />
+    </application>
+
+</manifest>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_label">"Documentos"</string>
+<string name="downloads_label">"Descargas"</string>
+<string name="title_open">"Abrir desde"</string>
+<string name="title_save">"Guardar a"</string>
+<string name="menu_create_dir">"Carpeta nueva"</string>
+<string name="menu_grid">"Ver cuadrícula"</string>
+<string name="menu_list">"Ver listado"</string>
+<string name="menu_sort">"Ordenar por"</string>
+<string name="menu_search">"Buscar"</string>
+<string name="menu_settings">"Configuración de almacenamiento"</string>
+<string name="menu_open">"Abrir"</string>
+<string name="menu_save">"Guardar"</string>
+<string name="menu_share">"Compartir"</string>
+<string name="menu_delete">"Eliminar"</string>
+<string name="menu_select_all">"Seleccionar todo"</string>
+<string name="menu_copy">"Copiar a\u2026"</string>
+<string name="menu_move">"Mover a…"</string>
+<string name="menu_new_window">"Nueva ventana"</string>
+<string name="menu_copy_to_clipboard">"Copiar"</string>
+<string name="menu_paste_from_clipboard">"Pegar"</string>
+<string name="menu_advanced_show">"Mostrar el almacenamiento interno"</string>
+<string name="menu_advanced_hide">"Ocultar almacenamiento interno"</string>
+<string name="menu_file_size_show">"Mostrar el tamaño del archivo"</string>
+<string name="menu_file_size_hide">"Ocultar el tamaño del archivo"</string>
+<string name="button_select">"Seleccionar"</string>
+<string name="button_copy">"Copiar"</string>
+<string name="button_move">"Mover"</string>
+<string name="button_dismiss">"Descartar"</string>
+<string name="button_retry">"Inténtelo de nuevo"</string>
+<string name="sort_name">"Por nombre"</string>
+<string name="sort_date">"Por fecha de modificación"</string>
+<string name="sort_size">"Por tamaño"</string>
+<string name="drawer_open">"Mostrar raíces"</string>
+<string name="drawer_close">"Ocultar raíces"</string>
+<string name="save_error">"No se pudo guardar el documento"</string>
+<string name="create_error">"No se pudo crear la carpeta"</string>
+<string name="query_error">"No se puede cargar el contenido en este momento"</string>
+<string name="root_recent">"Reciente"</string>
+<string name="root_available_bytes">"<xliff:g id="size" example="3GB">%1$s</xliff:g>  libre"</string>
+<string name="root_type_service">"Servicios de almacenamiento"</string>
+<string name="root_type_shortcut">"Accesos directos"</string>
+<string name="root_type_device">"Dispositivos"</string>
+<string name="root_type_apps">"Más aplicaciones"</string>
+<string name="empty">"No hay elementos"</string>
+<string name="no_results">"No hay coincidencias en %1$s"</string>
+<string name="toast_no_application">"No se puede abrir el archivo"</string>
+<string name="toast_failed_delete">"No se puede eliminar algunos documentos"</string>
+<string name="share_via">"Compartir vía"</string>
+<string name="copy_notification_title">"Copiando archivos"</string>
+<string name="move_notification_title">"Moviendo archivos"</string>
+<string name="delete_notification_title">"Eliminando archivos"</string>
+<string name="copy_remaining">"<xliff:g id="duration" example="3 minutes">%s</xliff:g> restante"</string>
+<plurals name="copy_begin">
+<item quantity="one">"Copiando <xliff:g id="count" example="1">%1$d</xliff:g> archivo."</item>
+<item quantity="other">"Copiando <xliff:g id="count" example="3">%1$d</xliff:g> archivos."</item>
+</plurals>
+<plurals name="move_begin">
+<item quantity="one">"Moviendo <xliff:g id="count" example="1">%1$d</xliff:g> archivo."</item>
+<item quantity="other">"Moviendo <xliff:g id="count" example="3">%1$d</xliff:g> archivos."</item>
+</plurals>
+<plurals name="deleting">
+<item quantity="one">"Eliminando <xliff:g id="count" example="1">%1$d</xliff:g> archivo."</item>
+<item quantity="other">"Eliminando <xliff:g id="count" example="3">%1$d</xliff:g> archivos."</item>
+</plurals>
+<string name="undo">"DESHACER"</string>
+<string name="copy_preparing">"Preparación para la copia\u2026"</string>
+<string name="move_preparing">"Preparándose para moverlo..."</string>
+<string name="delete_preparing">"Preparándose para eliminarlo..."</string>
+<plurals name="copy_error_notification_title">
+<item quantity="one">"No se pudo copiar <xliff:g id="count" example="1">%1$d</xliff:g> archivo"</item>
+<item quantity="other">"No se pudo copiar <xliff:g id="count" example="2">%1$d</xliff:g> archivos"</item>
+</plurals>
+<plurals name="move_error_notification_title">
+<item quantity="one">"No se pudo mover <xliff:g id="count" example="1">%1$d</xliff:g> archivo"</item>
+<item quantity="other">"No se pudo mover <xliff:g id="count" example="2">%1$d</xliff:g> archivos"</item>
+</plurals>
+<plurals name="delete_error_notification_title">
+<item quantity="one">"No se pudo eliminar <xliff:g id="count" example="1">%1$d</xliff:g> archivo"</item>
+<item quantity="other">"No se pudo eliminar <xliff:g id="count" example="2">%1$d</xliff:g> archivos"</item>
+</plurals>
+<string name="notification_touch_for_details">"Toque para ver detalles"</string>
+<string name="close">"Cerrar"</string>
+<string name="copy_failure_alert_content">"Estos archivos no se copiaron: <xliff:g id="list">%1$s</xliff:g>"</string>
+<string name="move_failure_alert_content">"Estos archivos no se movieron: <xliff:g id="list">%1$s</xliff:g>"</string>
+<string name="delete_failure_alert_content">"Estos archivos no se eliminaron: <xliff:g id="list">%1$s</xliff:g>"</string>
+<string name="copy_converted_warning_content">"Estos archivos se convirtieron a otro formato: <xliff:g id="list" example="Document.pdf, Photo.jpg, Song.ogg">%1$s</xliff:g>"</string>
+<plurals name="clipboard_files_clipped">
+<item quantity="one">"Copiado <xliff:g id="count" example="1">%1$d</xliff:g> archivo en el portapapeles."</item>
+<item quantity="other">"Copiado <xliff:g id="count" example="3">%1$d</xliff:g> archivos en el portapapeles."</item>
+</plurals>
+<string name="clipboard_files_cannot_paste">"No se pueden pegar los archivos seleccionados en esta ubicación."</string>
+<string name="menu_rename">"Renombrar"</string>
+<string name="rename_error">"No se pudo cambiar el nombre del documento"</string>
+<string name="notification_copy_files_converted_title">"Algunos archivos fueron convertidos"</string>
+<string name="open_external_dialog_request">"¿Conceder <xliff:g id="appName" example="System Settings"><b>^1</b></xliff:g> acceso a <xliff:g id="directory" example="Pictures"><i>^2</i></xliff:g> directorio en <xliff:g id="storage" example="SD Card"><i>^3</i></xliff:g>?"</string>
+<string name="open_external_dialog_request_primary_volume">"¿Conceder <xliff:g id="appName" example="System Settings"><b>^1</b></xliff:g>acceso a <xliff:g id="directory" example="Pictures"><i>^2</i></xliff:g> directorio?"</string>
+<string name="open_external_dialog_root_request">"¿Conceder  <xliff:g id="appName" example="System Settings"><b>^1</b></xliff:g> acceso a sus datos, incluyendo fotos y vídeos, <xliff:g id="storage" example="SD Card"><i>^2</i></xliff:g>?"</string>
+<string name="never_ask_again">"No solicitar de nuevo"</string>
+<string name="allow">"Permitir"</string>
+<string name="deny">"Denegar"</string>
+<plurals name="elements_selected">
+<item quantity="one">"<xliff:g id="count" example="1">%1$d</xliff:g> seleccionado"</item>
+<item quantity="other">"<xliff:g id="count" example="3">%1$d</xliff:g> seleccionado"</item>
+</plurals>
+<plurals name="elements_dragged">
+<item quantity="one">"<xliff:g id="count" example="1">%1$d</xliff:g> ítem"</item>
+<item quantity="other">"<xliff:g id="count" example="3">%1$d</xliff:g> ítems"</item>
+</plurals>
+<string name="delete_filename_confirmation_message">"¿Eliminar \"<xliff:g id="name" example="cat.jpg">%1$s</xliff:g>\"?"</string>
+<string name="delete_foldername_confirmation_message">"¿Eliminar carpeta \"<xliff:g id="name" example="Photos">%1$s</xliff:g>\" y su contenido?"</string>
+<plurals name="delete_files_confirmation_message">
+<item quantity="one">"¿Eliminar <xliff:g id="count" example="1">%1$d</xliff:g> archivo?"</item>
+<item quantity="other">"¿Eliminar <xliff:g id="count" example="3">%1$d</xliff:g> archivos?"</item>
+</plurals>
+<plurals name="delete_folders_confirmation_message">
+<item quantity="one">"¿Eliminar <xliff:g id="count" example="1">%1$d</xliff:g> carpeta y su contenido?"</item>
+<item quantity="other">"¿Eliminar <xliff:g id="count" example="3">%1$d</xliff:g> carpetas y sus contenidos?"</item>
+</plurals>
+<plurals name="delete_items_confirmation_message">
+<item quantity="one">"Eliminar <xliff:g id="count" example="1">%1$d</xliff:g> ítem?"</item>
+<item quantity="other">"Eliminar <xliff:g id="count" example="3">%1$d</xliff:g> ítems?"</item>
+</plurals>
+<string name="too_many_selected">"Lo siento, sólo puede seleccionar hasta 1000 elementos a la vez"</string>
+<string name="too_many_in_select_all">"Sólo podría seleccionar 1000 elementos"</string>
+</resources>

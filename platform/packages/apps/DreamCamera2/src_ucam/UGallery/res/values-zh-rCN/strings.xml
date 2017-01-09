@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name = "text_image_empty">找不到文件</string>
+    <string name = "text_del_image_empty">没有可显示的图片</string>
+    <string name = "text_image_details">详细信息</string>
+    <string name = "text_details_dimension_x">"<xliff:g id="WIDTH">%1$d</xliff:g> x <xliff:g id="HEIGHT">%2$d</xliff:g>"</string>
+    <string name = "text_details_file_size">文件大小：</string>
+    <string name = "text_details_image_resolution">分辨率：</string>
+    <string name = "text_details_image_make">制造商：</string>
+    <string name = "text_details_image_model">型号：</string>
+    <string name = "text_details_image_whitebalance">白平衡：</string>
+    <string name = "text_details_image_latitude">GPS 纬度：</string>
+    <string name = "text_details_image_longitude">GPS 经度：</string>
+    <string name = "text_details_image_location">地点：</string>
+    <string name = "text_details_duration">持续时间：</string>
+    <string name = "text_details_date_taken">时间：</string>
+    <string name = "text_details_frame_rate">帧频：</string>
+    <string name = "text_details_bit_rate">比特率：</string>
+    <string name = "text_details_aperture">光圈：</string>
+    <string name = "text_details_focal_length">焦距：</string>
+    <string name = "text_details_codec">编解码器：</string>
+    <string name = "text_details_format">格式：</string>
+    <string name = "text_waiting">"请稍候…"</string>
+    <string name = "text_gif_max_select_count">最多选择<xliff:g id="MAX_SELECT_COUNT">%s</xliff:g>张图片！</string>
+    <string name = "text_no_more_pictures_first">已经是第一张图片了</string>
+    <string name = "text_no_more_pictures_last">已经是最后一张图片了</string>
+
+    <string name = "text_no_sdcard">没有SD卡,请插入！</string>
+    <string name = "text_sdcar_no_space">"SD 卡已满。"</string>
+    <string name = "text_delete_image_title">删除图片</string>
+    <string name = "text_delete_multi_message">确认删除这些图片？</string>
+    <string name = "text_delete_single_message">确认删除这张图片？</string>
+    <string name = "text_delete_video_title">删除视频</string>
+    <string name = "text_delete_multi_video_message">确认删除这些视频？</string>
+    <string name = "text_delete_single_video_message">确认删除这个视频？</string>
+    <string name = "picture_delete_ok">确认</string>
+    <string name = "picture_delete_cancel">取消</string>
+    <string name="details_ok" msgid="6848594369924424312">"确定"</string>
+    <string name="camera_application_stopped">UGallery停止工作</string>
+    <string name="str_camera_crash">UGallery发生了问题，请点击此处。</string>
+    <string name="str_receive">UGallery应用发生了错误，请点击[确认]将错误报告发送给我们。</string>
+    <string name="sns_msg_network_unavailable">网络不可用，请稍后重试</string>
+    <string name = "text_no_network_available">网络不可用</string>
+    <string name = "text_service_starting_notification">正在下载，请稍后再试</string>
+    <string name="already_update">"已经是最新版本"</string>
+    <string name = "text_service_started_notification">开始后台下载</string>
+    <string name = "text_download_apk_success">下载完成</string>
+    <string name = "update_info">有新的版本更新</string>
+    <string name = "update_ok">立即更新</string>
+    <string name = "update_cancel">暂不更新</string>
+    <string name="market_software_missing">请先安装Android Market软件，再执行更新。</string>
+    <string name = "text_prompt_install_ucam_title">提示</string>
+    <string name = "text_function_sns_install_ucam">分享功能需要配合UCam全能相机使用，请下载UCam。</string>
+    <string name = "text_function_edit_install_ucam">编辑功能需要配合UCam全能相机使用，请下载UCam。</string>
+    <string name = "text_settings_title">设置</string>
+    <string name="text_feedback_title">用户反馈</string>
+    <string name = "menu_info_version">关于我们</string>
+    <string name="hint_feedback_topic">主题 (必填)</string>
+    <string name="hint_feedback_email">电子邮件 (选填)</string>
+    <string name="hint_feedback_description">详细信息 (必填)</string>
+    <string name = "text_feedback_send_action">发送</string>
+    <string name="message_feedback_send_success">发送成功</string>
+    <string name="message_feedback_send_fail">发送失败</string>
+    <string name = "menu_info_version_content_faq_url"><a href="http://www.u-camera.com/questions.php?lang=zh_CN">FAQ</a></string>
+    <string name = "menu_info_version_content_user_manual_url"><a href="http://forum.u-camera.com/index.php?topic=24.0">用户手册</a></string>
+    <string name = "text_cannot_play_gif">不能播放此动画文件！</string>
+    <string name="loading_video">"正在载入视频…"</string>
+    <string name="resume_playing_title">"继续播放视频"</string>
+    <string name="resume_playing_message">"从 <xliff:g id="DURATION">%s</xliff:g> 开始继续播放吗？"</string>
+    <string name="resume_playing_resume">"继续播放"</string>
+    <string name="resume_playing_restart">"重新开始"</string>
+    <string name="details_ms">"<xliff:g id="MINUTES">%1$02d</xliff:g>:<xliff:g id="SECONDS">%2$02d</xliff:g>"</string>
+    <string name="details_hms">"<xliff:g id="HOURS">%1$d</xliff:g>:<xliff:g id="MINUTES">%2$02d</xliff:g>:<xliff:g id="SECONDS">%3$02d</xliff:g>"</string>
+    <string name = "text_not_installed_market_app">没有安装电子市场，建议安装谷歌电子市场</string>
+    <string name="crop_save_text">"保存"</string>
+    <string name="crop_discard_text">"舍弃"</string>
+    <string name="runningFaceDetection">"请稍候…"</string>
+    <string name="wallpaper">"正在设置壁纸，请稍候…"</string>
+    <string name="savingImage">"正在保存照片…"</string>
+    <string name="multiface_crop_help">"轻点一张脸开始裁剪。"</string>
+    <string name = "text_activity_is_not_found">没有找到适当的应用</string>
+    <string name = "text_select_photos">选择照片</string>
+    <string name = "text_select_videos">选择视频</string>
+    <string name = "text_select_item">选择条目</string>
+
+    <string name = "text_select_albums">选择相册</string>
+    <string name = "text_collage_selected_pictures">已添加了%1$s张照片(最多9张)</string>
+    <string name = "text_collage_max_select_notice">最多选择九张图片</string>
+    <string name = "text_collage_min_select_notice">至少要两张图片</string>
+    <string name = "text_backhome">首页</string>
+    <string name = "text_back">返回</string>
+    <string name = "text_start_puzzle">开始拼图</string>
+
+    <string name="all_videos" msgid="3380966619230896013">"所有视频"</string>
+    <string name="setImage" msgid="7246975856983303047">"将照片设置为"</string>
+    <string name="sendVideo" msgid="3598567735831863073">"分享视频的方式"</string>
+    <string name="no_way_to_share_video" msgid="4506167265329982928">"没有任何可用于分享视频的应用。"</string>
+    <string name="video">视频</string>
+    <string name = "text_no_more_videos_first">已经是第一个视频了</string>
+    <string name = "text_no_more_videos_last">已经是最后一个视频了</string>
+    <string name="manual">手动</string>
+    <string name="auto">自动</string>
+    <string name="text_video_no_media_player">视频文件无法打开，请安装媒体播放器</string>
+    <string name="rotate" msgid="460017689320955494">"旋转"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"向左旋转"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"向右旋转"</string>
+    <string name="slide_show" msgid="1965192737233824143">"播放幻灯片"</string>
+    <string name="ugallery_setas_wallpaper" msgid="797463183863414289">"壁纸"</string>
+    <string name="crop_label" msgid="521114301871349328">"修剪照片"</string>
+    <string name = "text_popup_lock_photoes">隐藏相册</string>
+    <string name = "text_popup_unlock_photoes">显示隐藏的相册</string>
+    <string name = "text_lock_image_title">隐藏相册</string>
+    <string name = "text_unlock_image_title">取消隐藏相册</string>
+    <string name = "text_lock_image_message">该相册将被设为私密相册。通过在设置中取消“私密相册”可以重新显示。确定隐藏该相册？</string>
+    <string name = "text_unlock_image_message">该私密相册将被设为普通相册。确定修改？</string>
+    <string name="text_popup_settings">设置</string>
+    <string name="text_settings_password">私密相册</string>
+    <string name="text_settings_password_sub">没有相册被设为私密</string>
+    <string name="text_settings_show_hiden_files">显示隐藏文件</string>
+    <string name="text_settings_hide_hiden_files">不显示隐藏文件</string>
+    <string name="text_settings_pwdset">私密相册密码</string>
+    <string name="text_settings_use_pwd">开启密码保护</string>
+    <string name="text_settings_close_pwd">关闭密码保护</string>
+    <string name="text_settings_setpassword">请设置密码</string>
+    <string name="text_settings_intput_pwd">请输入密码</string>
+    <string name="text_settings_intput_pwd_again">请再次输入密码</string>
+    <string name = "text_settings_no_password">密码不能为空</string>
+    <string name = "text_settings_different_password">两次输入的密码不相同，请重新输入</string>
+    <string name = "text_settings_wrong_password">密码不正确</string>
+    <string name = "text_secret_ablum_hint_title">长按图标进行更多操作</string>
+    <string name = "text_secret_ablum_hint_msg">小贴士：点击任意位置回到操作界面</string>
+    <string name = "secret_ablum_setting_way">私密相册设置方法</string>
+    <string name = "secret_ablum_add">添加私密相册</string>
+    <string name="secret_ablum_remove">移除私密相册</string>
+    <string name="text_select_image">多选</string>
+    <string name="text_delete_image">删除</string>
+    <string name="text_collage_image">拼图</string>
+    <string name="text_all_select">全选</string>
+    <string name="text_all_cancel">取消</string>
+    <string name="text_share_action">分享</string>
+    <string name="text_edit_action">编辑</string>
+    <string name="text_more_action">更多</string>
+    <string name="picture_select_ok">确定</string>
+    <string name="picture_select_cancel">取消</string>
+    <string name="text_settings_setpassword_warning">如果忘记密码，无法再重新设定。</string>
+    <string name="text_image_rename">重命名</string>
+    <string name="text_image_rename_file_exist">文件名已存在</string>
+    <string name="text_image_rename_file_success">重命名成功</string>
+    <string name="text_image_rename_file_failed">重命名失败</string>
+    <string name="text_image_unlock_failed">解锁失败, 请插入外置SD卡之后再进行解锁</string>
+    <string name=" text_image_lock_failed">图片加密失败.</string>
+    <string name="text_image_damage">无法加载此图片</string>
+    <string name="text_backup_allimages_title">致使用私密相册的用户</string>
+    <string name="text_backup_allimages_msg">对于系统版本为4.0.3和4.0.4的手机，私密相册功能将被关闭，用户已经设置为私密相册的文件夹，将被恢复为正常文件夹。\n如果要使用此功能，请升级您的系统版本。关于升级系统的方法，您可以联系手机厂商。</string>
+    <string name="text_title_next">下一步</string>
+    <string name="text_title_back">返回</string>
+</resources>

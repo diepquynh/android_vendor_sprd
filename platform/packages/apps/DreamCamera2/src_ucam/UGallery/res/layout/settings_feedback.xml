@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2010,2013 Thundersoft Corporation
+  All rights Reserved
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/dialog_layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg_launcher">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="72dip"
+        android:gravity="center"
+        >
+        <TextView android:id="@+id/tv_dialog_title"
+            style="?android:attr/textAppearanceLarge"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:gravity = "center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor = "#babdbf"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip" >
+
+        <EditText
+            android:id="@+id/feedback_edit_topic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_feedback_topic"
+            android:inputType="textEmailSubject"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/feedback_edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_feedback_email"
+            android:inputType="textEmailAddress"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/feedback_edit_description"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:hint="@string/hint_feedback_description"
+            android:inputType="textMultiLine"
+            android:minHeight="160dip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop = "15dip"
+            android:paddingBottom = "15dip"
+            android:gravity = "center" >
+
+            <Button
+                android:id="@+id/feedback_btn_ok"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:text = "@string/text_feedback_send_action"
+                android:background = "@drawable/btn_feedback_action_status"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

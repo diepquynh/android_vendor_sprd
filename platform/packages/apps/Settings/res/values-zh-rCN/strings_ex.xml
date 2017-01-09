@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright © 2016 Spreadtrum Communications Inc.
+*/
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- SPRD: Bug#474460 Add for SPRD USB Feature BEG @{ -->
+    <string name="usb_pc_internet_share">USB—互联网PC</string>
+    <string name="usb_pc_internet_share_available_subtext">USB 已连接，选中以启用USB—互联网PC</string>
+    <string name="usb_pc_internet_share_active_subtext">"USB访问PC互联网功能已开启"</string>
+    <string name="usb_pc_internet_share_errored_subtext">"USB-PC 共享网络出错"</string>
+    <string name="usb_pc_internet_share_storage_active_subtext">使用 USB 存储设备时无法共享网络</string>
+    <string name="usb_pc_choose_os">选择电脑系统版本</string>
+    <string name="usb_pc_cancel">取消</string>
+    <string name="usb_pc_ok">完成</string>
+    <string name="usb_pc_next">下一步</string>
+    <string name="usb_pc_back">上一步</string>
+    <string name="usb_pc_guide">1.打开 Windows PC 网络.\n\n2.在想要分享的网络上点击右键，选择属性.\n\n3.点击高级选项,选择\'允许其他网络用户共享此计算机的 Internet 来连接\'(如果出现家庭网络选项,请选择新增的USB网络连接).</string>
+    <!-- Add for SPRD USB Feature END -->
+
+    <!-- SPRD:Bug #474425 Add for SoftAP/BT coexist feature -->
+    <string name="softap_need_mobile_data_enabled">"便携式WLAN热点需开启移动数据连接，可能会产生额外费用。"</string>
+    <string name="softap_bt_cannot_coexist">"蓝牙开启时便携式WLAN热点不可用，如果您想使用便携式WLAN热点请关闭蓝牙。"</string>
+    <string name="bt_softap_cannot_coexist">"便携式WLAN热点开启时蓝牙不可用，如果您想使用蓝牙请关闭便携式WLAN热点。"</string>
+    <!--Add for SoftAP/BT coexist Feature END -->
+
+    <!-- SPRD: Bug#474381 support GPS automatic update time BEG -->
+    <string name="gps_time_sync_attention_gps_on">使用 GPS 提供时间，必须要等待 GPS 定位成功。GPS 定位最多需要一分钟。\n\n确定要使用GPS 提供时间吗？</string>
+    <string name="gps_time_sync_attention_gps_off">使用 GPS 提供时间，必须要先启用 GPS，并等待 GPS 定位成功。GPS 定位最多需要一分钟。如果 GPS 信号弱，可能会定位失败。\n\n确定现在要启用 GPS 并使用 GPS 提供时间吗？</string>
+    <!-- support GPS automatic update time END -->
+
+    <!-- SPRD: Bug#412262 Add for SPRD USB Feature BEG @{ -->
+    <string name="usb_charge_only">仅充电</string>
+    <string name="usb_charge_only_summary">当USB连接时，仅使用充电功能</string>
+    <string name="usb_virtual_drive">"USB 虚拟光驱"</string>
+    <string name="usb_virtual_drive_summary">"启用USB虚拟光驱"</string>
+    <string name="usb_storage">USB 存储 </string>
+    <string name="usb_storage_summary">启用USB大容量存储 </string>
+    <!-- Add for SPRD USB Feature END -->
+
+    <!-- SPRD: Bug#474680 support AGPS settings BEG -->
+    <string name="location_gps_config">AGPS 开启选项</string>
+    <string name="location_gps_config_summary">设置在不同网络环境中是否使用 AGPS</string>
+    <string name="agps_enable_option_tailebar">AGPS 开启选项</string>
+    <string name="agps_enable_option_registered">在注册网络中使用AGPS</string>
+    <string name="agps_enable_option_all">在所有网络中使用AGPS</string>
+    <string name="agps_enable_option_none">不使用AGPS</string>
+    <string name="agps_enable_default_set_text">点击恢复默认值按钮，将恢复 AGPS 的默认参数设置。</string>
+    <string name="agps_enable_default_set_button">恢复默认值</string>
+    <string name="agps_config_help_tailebar">AGPS 帮助</string>
+    <string name="agps_config_help_text">如果设置了在所有网络中使用 AGPS，在国际漫游网络中，AGPS 将因数据连接产生国际漫游资费。</string>
+    <string name="settings_other">其他</string>
+    <!-- support AGPS settings END -->
+</resources>

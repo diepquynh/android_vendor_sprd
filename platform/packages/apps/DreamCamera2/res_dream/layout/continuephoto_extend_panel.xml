@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:camera="http://schemas.android.com/apk/res/com.android.camera2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/continuephoto_extend_panel"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:visibility="gone"
+    android:layout_marginBottom="32dp" >
+
+    <TextView
+        android:id="@+id/capture_already"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/capture_0"
+        style="@style/DreamText"
+        android:textSize="@dimen/zoom_value_text_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/capture_total"
+        android:textSize="25sp"
+        style="@style/DreamText"/>
+
+</LinearLayout>

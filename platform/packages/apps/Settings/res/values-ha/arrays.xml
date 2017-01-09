@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="timezone_filters">
+<item>"Amirka"</item>
+<item>"Turai"</item>
+<item>"Afirka"</item>
+<item>"Asiya"</item>
+<item>"Australia"</item>
+<item>"Tekun pacific"</item>
+<item>"Duk"</item>
+</string-array>
+<string-array name="screen_timeout_entries">
+<item>"Dakika 15"</item>
+<item>"Dakika 30"</item>
+<item>Minti 1</item>
+<item>"Minti 2"</item>
+<item>Minti 5</item>
+<item>Minti 10</item>
+<item>Minti 30</item>
+</string-array>
+<string-array name="dream_timeout_entries">
+<item>"Har abada"</item>
+<item>"Dakika 15"</item>
+<item>"Dakika 30"</item>
+<item>Minti 1</item>
+<item>"Minti 2"</item>
+<item>Minti 5</item>
+<item>Minti 10</item>
+<item>Minti 30</item>
+</string-array>
+<string-array name="lock_after_timeout_entries">
+<item>"Nan da nan"</item>
+<item>"Sakan 5"</item>
+<item>"Dakika 15"</item>
+<item>"Dakika 30"</item>
+<item>Minti 1</item>
+<item>"Minti 2"</item>
+<item>Minti 5</item>
+<item>Minti 10</item>
+<item>Minti 30</item>
+</string-array>
+<string-array name="entries_font_size">
+<item>"Karami"</item>
+<item>Na asali</item>
+<item>"Mai girma"</item>
+<item>"Mafi girma"</item>
+</string-array>
+<string-array name="wifi_status">
+<item></item>
+<item>"Ana tacewa\u2026"</item>
+<item>"Ana hadawa..."</item>
+<item>"Ana tantancewa\u2026"</item>
+<item>"Ana samun adireshin IP\u2026"</item>
+<item>"An hada"</item>
+<item>"An dakatar"</item>
+<item>"Ana cire hadi..."</item>
+<item>"An cire hadin"</item>
+<item>"Ba a yi nasarar ba"</item>
+<item>"An toshe"</item>
+<item>"Kaucewa haduwa mara kyau na wucin gadi"</item>
+</string-array>
+<string-array name="wifi_status_with_ssid">
+<item></item>
+<item>"Ana tacewa\u2026"</item>
+<item>"Ana hadawa da <xliff:g id="host">%s</xliff:g>"</item>
+<item>"Tabbatarwa tare da <xliff:g id="network_name">%1$s</xliff:g>\u2026"</item>
+<item>"Ana karbo adireshin IP daga <xliff:g id="network_name">%1$s</xliff:g>\u2026"</item>
+<item>"An hada da <xliff:g id="network_name">%1$s</xliff:g>"</item>
+<item>"An dakatar"</item>
+<item>"Ana cire hadi daga <xliff:g id="network_name">%1$s</xliff:g>\u2026"</item>
+<item>"An cire hadin"</item>
+<item>"Ba a yi nasarar ba"</item>
+<item>"An toshe"</item>
+<item>"Kaucewa haduwa mara kyau na wucin gadi"</item>
+</string-array>
+<string-array name="wifi_p2p_wps_setup">
+<item>"Madannin Tura"</item>
+<item>"PIN daga na\'urar kawance"</item>
+<item>"PIN daga wannan na\'ura"</item>
+</string-array>
+<string-array name="wifi_p2p_status">
+<item>"An hada"</item>
+<item>"Wanda aka gayyata"</item>
+<item>"Ba a yi nasarar ba"</item>
+<item>"Samamme"</item>
+<item>"Mai-wuce-iyaka"</item>
+</string-array>
+<string-array name="bluetooth_visibility_timeout_entries">
+<item>"Minti 2"</item>
+<item>Minti 5</item>
+<item>"1 awa"</item>
+<item>"Har abada"</item>
+</string-array>
+<string-array name="wifi_signal">
+<item>"Marar kyau"</item>
+<item>"Dan dama"</item>
+<item>"Da kyau"</item>
+<item>"Da kyau matuka"</item>
+</string-array>
+<string-array name="wifi_sleep_policy_entries">
+<item>"Koda yaushe"</item>
+<item>"Banda bayan an jona"</item>
+<item>"Har abada"</item>
+</string-array>
+<string-array name="wifi_sleep_policy_entries_wifi_only">
+<item>"Koda yaushe"</item>
+<item>"Banda bayan an jona"</item>
+<item>"Har abada"</item>
+</string-array>
+<string-array name="data_usage_data_range">
+<item>"Kwanaki 30 na karshe"</item>
+<item>"Saita da\'irar amfani da..."</item>
+</string-array>
+<string-array name="usage_stats_display_order_types">
+<item>"Lokacin Amfani"</item>
+<item>"Lokacin karshe da aka yi amfani da"</item>
+<item>"Sunan shirin"</item>
+</string-array>
+<string-array name="wifi_peap_phase2_entries">
+<item>Ba wanda</item>
+<item>"MSCHAPV2"</item>
+<item>"GTC"</item>
+</string-array>
+<string-array name="wifi_phase2_entries">
+<item>Ba wanda</item>
+<item>"PAP"</item>
+<item>"MSCHAP"</item>
+<item>"MSCHAPV2"</item>
+<item>"GTC"</item>
+</string-array>
+<string-array name="wifi_ip_settings">
+<item>"DHCP"</item>
+<item>"Sandararre"</item>
+</string-array>
+<string-array name="wifi_proxy_settings">
+<item>Ba wanda</item>
+<item>"NA HANNU"</item>
+<item>"Saita wakili automatikiyyan"</item>
+</string-array>
+<string-array name="apn_auth_entries">
+<item>Ba wanda</item>
+<item>"PAP"</item>
+<item>"CHAP"</item>
+<item>"PAP ko CHAP"</item>
+</string-array>
+<string-array name="bearer_entries">
+<item>"Wanda ba a fayyace ba"</item>
+<item>"LTE"</item>
+<item>"HSPAP"</item>
+<item>"HSPA"</item>
+<item>"HSUPA"</item>
+<item>"HSDPA"</item>
+<item>"UMTS"</item>
+<item>"EDGE"</item>
+<item>"GPRS"</item>
+<item>"eHRPD"</item>
+<item>"EVDO_B"</item>
+<item>"EVDO_A"</item>
+<item>"EVDO_0"</item>
+<item>"1xRTT"</item>
+<item>"IS95B"</item>
+<item>"IS95A"</item>
+</string-array>
+<string-array name="mvno_type_entries">
+<item>Ba wanda</item>
+<item>"SPN"</item>
+<item>"IMSI"</item>
+<item>"GID"</item>
+</string-array>
+<string-array name="app_install_location_entries">
+<item>"Ma\'adanar na\'ura ta ciki"</item>
+<item>"Katin SD da ake cirewa"</item>
+<item>"Bar na\'ra tayi nazari"</item>
+</string-array>
+<string-array name="app_ops_categories">
+<item>"Wuri"</item>
+<item>"NA MUTUM"</item>
+<item>"Sako"</item>
+<item>"Taskar nishadi"</item>
+<item>"Na\'ura"</item>
+</string-array>
+<string-array name="app_ops_summaries">
+<item>"Wurin tsauri"</item>
+<item>"kyakkyawan wuri"</item>
+<item>"GPS"</item>
+<item>"Jijjiga"</item>
+<item>"karanta lambobin kira"</item>
+<item>"sabunta lambobin kira"</item>
+<item>karanta jerin kiraye-kiraye</item>
+<item>"sabunta rajistar kira"</item>
+<item>"karanta kalanda"</item>
+<item>"sabunta kalanda"</item>
+<item>"tantance wi-fi"</item>
+<item>"Ankararwa"</item>
+<item>"tantance cell"</item>
+<item>"kiran waya"</item>
+<item>"karanta SMS"</item>
+<item>"rubuta SMS"</item>
+<item>"karbi SMS"</item>
+<item>"karbi SMS na gaggawa"</item>
+<item>"karbi MMS"</item>
+<item>"karbi WAP turi"</item>
+<item>"Aika SMS"</item>
+<item>"karanta ICC SMS"</item>
+<item>"rubuta ICC SMS"</item>
+<item>"sabunta saituna"</item>
+<item>"zana a sama"</item>
+<item>"isa ga tunatarwa"</item>
+<item>"Kamara"</item>
+<item>"Nadi sauti"</item>
+<item>"kunna sauti"</item>
+<item>"karanta allon samfoti"</item>
+<item>"sabunta allon samfoti"</item>
+<item>"madannan wurin sauti"</item>
+<item>"sauti fuskanta"</item>
+<item>"wurin karar sauti"</item>
+<item>"karar murya"</item>
+<item>"karar kararrawa"</item>
+<item>"Adadin taskar nishadi"</item>
+<item>"Karfin muryar kararawa"</item>
+<item>"Karfin sautin ankararwa"</item>
+<item>"Girman Bluetooth"</item>
+<item>"Bari a farke"</item>
+<item>"lura da wuri"</item>
+<item>"lura da wurin karfin wuta"</item>
+<item>"samo kididdigan amfani da"</item>
+<item>"shiru/cire shirun makirfon"</item>
+<item>"a nuna fatan alheri"</item>
+<item>"shirin manhajar sauti"</item>
+<item>"kunna VPN"</item>
+<item>"rubuta takardar bango"</item>
+<item>"tsarin taimako"</item>
+<item>"screenshot na taimako"</item>
+<item>"A karanta matsayin waya"</item>
+<item>"Kara sakon-murya"</item>
+<item>"A yi amfani sa sip"</item>
+<item>"Ana sarrafa kiran da zai fita"</item>
+<item>"Hoton yatsa"</item>
+<item>"Masu sunsunar Jiki"</item>
+<item>"A karanta yadawar waya"</item>
+<item>"Wurin na boge"</item>
+<item>"A karanta ma\'ajiya"</item>
+<item>"A rubuta ma\'ajiya"</item>
+<item>"A kunn allo"</item>
+<item>"Samu asusu"</item>
+<item>""Aiki a bayan fage"</item>
+</string-array>
+<string-array name="app_ops_labels">
+<item>"Wuri"</item>
+<item>"Wuri"</item>
+<item>"Wuri"</item>
+<item>"Jijjiga"</item>
+<item>"karanta lambobin kira"</item>
+<item>"sabunta lambobin kira"</item>
+<item>karanta jerin kiraye-kiraye</item>
+<item>"sabunta rajistar kira"</item>
+<item>"karanta kalanda"</item>
+<item>"sabunta kalanda"</item>
+<item>"Wuri"</item>
+<item>"Turo tuni"</item>
+<item>"Wuri"</item>
+<item>"kiran waya"</item>
+<item>"Karanta SMS/MMS"</item>
+<item>"Rubuta SMS/MMS"</item>
+<item>"Karbi SMS/MMS"</item>
+<item>"Karbi SMS/MMS"</item>
+<item>"Karbi SMS/MMS"</item>
+<item>"Karbi SMS/MMS"</item>
+<item>"Aika SMS/MMS"</item>
+<item>"Karanta SMS/MMS"</item>
+<item>"Rubuta SMS/MMS"</item>
+<item>"sabunta saituna"</item>
+<item>"zana a sama"</item>
+<item>"isa ga tunatarwa"</item>
+<item>"Kamara"</item>
+<item>"Nadi sauti"</item>
+<item>"kunna sauti"</item>
+<item>"karanta allon samfoti"</item>
+<item>"sabunta allon samfoti"</item>
+<item>"madannan wurin sauti"</item>
+<item>"sauti fuskanta"</item>
+<item>"wurin karar sauti"</item>
+<item>"karar murya"</item>
+<item>"karar kararrawa"</item>
+<item>"Adadin taskar nishadi"</item>
+<item>"Karfin muryar kararawa"</item>
+<item>"Karfin sautin ankararwa"</item>
+<item>"Girman Bluetooth"</item>
+<item>"Bari a farke"</item>
+<item>"Wuri"</item>
+<item>"Wuri"</item>
+<item>"samo kididdigan amfani da"</item>
+<item>"shiru/cire shirun makirfon"</item>
+<item>"a nuna fatan alheri"</item>
+<item>"shirin manhajar sauti"</item>
+<item>"kunna VPN"</item>
+<item>"rubuta takardar bango"</item>
+<item>"tsarin taimako"</item>
+<item>"screenshot na taimako"</item>
+<item>"A karanta matsayin waya"</item>
+<item>"Kara sakon-murya"</item>
+<item>"A yi amfani sa sip"</item>
+<item>"Ana sarrafa kiran da zai fita"</item>
+<item>"Hoton yatsa"</item>
+<item>"Masu sunsunar Jiki"</item>
+<item>"A karanta yadawar waya"</item>
+<item>"Wurin na boge"</item>
+<item>"A karanta ma\'ajiya"</item>
+<item>"A rubuta ma\'ajiya"</item>
+<item>"A kunn allo"</item>
+<item>"Samu asusu"</item>
+<item>""Aiki a bayan fage"</item>
+</string-array>
+<string-array name="long_press_timeout_selector_titles">
+<item>"Gajere"</item>
+<item>"Matsakaici"</item>
+<item>"Dogo"</item>
+</string-array>
+<string-array name="captioning_typeface_selector_titles">
+<item>Na asali</item>
+<item>"Sans-serif"</item>
+<item>"Sans-serif condensed"</item>
+<item>"Sans-serif monospace"</item>
+<item>"Serif"</item>
+<item>"Serif monospace"</item>
+<item>"Casual"</item>
+<item>"Cursive"</item>
+<item>"Small capitals"</item>
+</string-array>
+<string-array name="captioning_font_size_selector_titles">
+<item>"Dan kadan"</item>
+<item>"Karami"</item>
+<item>"Wanda aka saba"</item>
+<item>"Mai girma"</item>
+<item>"Babba sosai"</item>
+</string-array>
+<string-array name="captioning_edge_type_selector_titles">
+<item>Na asali</item>
+<item>Ba wanda</item>
+<item>"Bayyana"</item>
+<item>"Aje inuwa"</item>
+<item>"Dagagge"</item>
+<item>"Tawayar"</item>
+</string-array>
+<string-array name="captioning_preset_selector_titles">
+<item>"Amfani da masarrafin asali"</item>
+<item>"Fari kan baki"</item>
+<item>"Baki kan fari"</item>
+<item>"Yelo kan baki"</item>
+<item>"Yelo kan bulu"</item>
+<item>"Kwastan"</item>
+</string-array>
+<string-array name="vpn_types_long">
+<item>"PPTP VPN"</item>
+<item>"VPN na L2TP/IPSec tare da madannai da rarraba kyauta"</item>
+<item>"VPN na L2TP/IPSec tare da satifiket"</item>
+<item>"VPN na IPSec tare da madannan da aka rarraba da izinin xauth"</item>
+<item>"VPN na IPSec tare da satifiket da izinin xauth"</item>
+<item>"VPN na IPSec tare da satifiket da tataccen izini"</item>
+</string-array>
+<string-array name="vpn_states">
+<item>"An cire hadin"</item>
+<item>"Ana fararwa\u2026"</item>
+<item>"Ana hadawa..."</item>
+<item>"An hada"</item>
+<item>"Karewar lokaci"</item>
+<item>"Ba a yi nasarar ba"</item>
+</string-array>
+<string-array name="security_settings_premium_sms_values">
+<item>"Tambayi"</item>
+<item>"Kar a taba kyalewa"</item>
+<item>"Koyaushe kyale"</item>
+</string-array>
+<string-array name="ram_states">
+<item>"Wanda aka saba"</item>
+<item>"matsakaici"</item>
+<item>"Karanci"</item>
+<item>"muhimmi"</item>
+<item>"\?"</item>
+</string-array>
+<string-array name="proc_stats_memory_states">
+<item>"Wanda aka saba"</item>
+<item>"matsakaici"</item>
+<item>"Karanci"</item>
+<item>"muhimmi"</item>
+</string-array>
+<string-array name="proc_stats_process_states">
+<item>"Jajircewa"</item>
+<item>"Kolin ayyuka"</item>
+<item>"Muhimmin taga"</item>
+<item>"Muhimmin bayan fage"</item>
+<item>"Goyon baya"</item>
+<item>"Mai nauyin gaske"</item>
+<item>"Hidima (gudana)"</item>
+<item>"Hidima (sake kunnuwa)"</item>
+<item>"Makarbi"</item>
+<item>"Shafin farko"</item>
+<item>"Aikin karshe"</item>
+<item>"Wurin adana (ayyuka)"</item>
+<item>"Wurin adana (ayyukan mai shi)"</item>
+<item>"Wurin adana (ba komai)"</item>
+</string-array>
+<string-array name="color_picker">
+<item>"Shudi"</item>
+<item>"Shudi"</item>
+<item>"Ja"</item>
+<item>"shunayya"</item>
+<item>"Rawaya"</item>
+<item>"Ja"</item>
+</string-array>
+<string-array name="touch_light_timeout_entries">
+<item>"1.5 dakikoki"</item>
+<item>"Sakan 6"</item>
+<item>"Kodayaushe a kunna"</item>
+<item>"Koyaushe zabi"</item>
+</string-array>
+<string-array name="alarm_set">
+<item>"An saita wannan ga kasa da minti 1 daga yanzu."</item>
+<item>"An saita wannan ga <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> daga yanzu."</item>
+<item>"An saita wannan ga <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> daga yanzu."</item>
+<item>"An saita wannan ga <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> da <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> daga yanzu."</item>
+<item>"An saita wannan ga <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> daga yanzu."</item>
+<item>"An saita wannan ga  <xliff:g id="DAYS">%1$s</xliff:g> <xliff:g id="MINUTES">%3$s</xliff:g> daga yanzu."</item>
+<item>"An saita wannan ga <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> da <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> daga yanzu."</item>
+<item>"An saita wannan ga <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> da  <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>  daga yanzu."</item>
+</string-array>
+</resources>

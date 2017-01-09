@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPRD: Add for telcel operator -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/telcel_indicator_color" >
+
+    <Space android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/telcel_indicator_color" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/telcel_indicator_padding"
+        android:paddingEnd="@dimen/telcel_indicator_padding"
+        android:paddingTop="@dimen/telcel_indicator_top_padding"
+        android:paddingBottom="@dimen/telcel_indicator_top_padding"
+        android:background="@color/telcel_indicator_color" >
+
+        <TextView android:id="@+id/telcel_ind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/secondary_call_info_text_size"
+            android:text="@string/telcel_indicator"
+            android:importantForAccessibility="no" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:spreadst="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_horizontal"
+        android:paddingLeft="@dimen/describe_view_default_margin_or_padding"
+        android:paddingRight="@dimen/describe_view_default_margin_or_padding"
+        android:paddingTop="80dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_title"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="20dp"
+        android:padding="@dimen/describe_view_default_margin_or_padding"
+        android:textSize="@dimen/default_text_size" />
+
+    <com.sprd.voicetrigger.view.RippleView
+        android:id="@+id/hello_voice_trigger_rippleview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hello_voice_trigger_rippleview_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/describe_view_default_margin_or_padding" />
+
+</RelativeLayout>

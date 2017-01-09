@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/month_data_setting"
+        >
+        <com.sprd.generalsecurity.utils.CustomEditTextPreference
+            android:title="@string/month_data_setting"
+            android:summary="@string/data_unset"
+            android:key="key_edit_month_total"
+            android:numeric="decimal"
+            />
+        <com.sprd.generalsecurity.utils.CustomEditTextPreference
+            android:title="@string/month_data_used"
+            android:summary="@string/data_unset"
+            android:key="key_edit_month_used"
+            android:numeric="decimal"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/restrict_setting"
+        >
+
+
+        <SwitchPreference
+            android:title="@string/data_restrict_month"
+            android:key="key_restrict_month_reminder"
+            />
+
+        <com.sprd.generalsecurity.utils.SeekBarPreference
+            android:key="seek_bar_restrict"
+            android:title="@string/data"/>
+
+        <SwitchPreference
+            android:title="@string/data_restrict_day"
+            android:key="key_restrict_day_reminder"
+            />
+
+        <com.sprd.generalsecurity.utils.CustomEditTextPreference
+            android:title="@string/max_data_day"
+            android:key="key_day_flow_restrict"
+            android:numeric="decimal"
+            />
+
+    </PreferenceCategory>
+</PreferenceScreen>
+    <!-- END_INCLUDE(preferences) -->

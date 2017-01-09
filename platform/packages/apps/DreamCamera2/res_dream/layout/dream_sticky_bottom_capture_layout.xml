@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.StickyBottomCaptureLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sticky_bottom_capture_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include layout="@layout/dream_mode_options_overlay" />
+
+    <com.android.camera.ui.BottomBar
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        android:gravity="center" >
+
+        <include layout="@layout/dream_bottom_bar_contents" />
+    </com.android.camera.ui.BottomBar>
+
+</com.android.camera.ui.StickyBottomCaptureLayout>

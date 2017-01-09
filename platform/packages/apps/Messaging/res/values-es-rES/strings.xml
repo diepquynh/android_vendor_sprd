@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="share_intent_activity_label">"Seleccionar conversación"</string>
+<string name="action_settings">"Configuraciones"</string>
+<string name="sendButtonContentDescription">"Enviar mensaje"</string>
+<string name="attachMediaButtonContentDescription">"Agregar un archivo adjunto"</string>
+<string name="help_and_feedback_activity_label">"ayuda"</string>
+<string name="welcome">"Bienvenido"</string>
+<string name="skip">"Omitir"</string>
+<string name="next_with_arrow">"Próximo &gt;"</string>
+<string name="next">"Próximo"</string>
+<string name="exit">"Salir"</string>
+<string name="settings_with_arrow">"Configuraciones &gt;"</string>
+<string name="settings">"Configuraciones"</string>
+<string name="required_permissions_promo">"Centro de Mensajes necesita permiso para acceder a SMS, Teléfono y Contactos."</string>
+<string name="enable_permission_procedure">"Puede cambiar los permisos en Configuración &gt; Aplicaciones &gt; Centro de Mensajes &gt; Permisos."</string>
+<string name="enable_permission_procedure_description">"Puede cambiar los permisos en Configuración, Aplicaciones, Centro de Mensajes, Permisos."</string>
+<string name="contact_picker_frequents_tab_title">"Frecuentes"</string>
+<string name="contact_picker_all_contacts_tab_title">"Todos los contactos"</string>
+<string name="contact_list_send_to_text">"Enviar a <xliff:g id="destination">%s</xliff:g>"</string>
+<string name="mediapicker_cameraChooserDescription">"Capturar imágenes o video"</string>
+<string name="mediapicker_galleryChooserDescription">"Seleccionar imágenes de este dispositivo"</string>
+<string name="mediapicker_audioChooserDescription">"grabar audio"</string>
+<string name="mediapicker_gallery_title">"Elegir una foto"</string>
+<string name="mediapicker_gallery_item_selected_content_description">"El medio está seleccionado."</string>
+<string name="mediapicker_gallery_item_unselected_content_description">"El medio no está seleccionado."</string>
+<string name="mediapicker_gallery_title_selection">"<xliff:g id="count">%d</xliff:g>  seleccionada"</string>
+<string name="mediapicker_gallery_image_item_description">"imagen <xliff:g id="date">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g>"</string>
+<string name="mediapicker_gallery_image_item_description_no_date">"Imagen"</string>
+<string name="mediapicker_audio_title">"grabar audio"</string>
+<string name="action_share">"Compartir"</string>
+<string name="posted_just_now">"Recién"</string>
+<string name="posted_now">"Ahora"</string>
+<plurals name="num_minutes_ago">
+<item quantity="one">"<xliff:g id="count">%d</xliff:g> minuto"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> minutos"</item>
+</plurals>
+<plurals name="num_hours_ago">
+<item quantity="one">"<xliff:g id="count">%d</xliff:g> hora"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> horas"</item>
+</plurals>
+<plurals name="num_days_ago">
+<item quantity="one">"<xliff:g id="count">%d</xliff:g> día"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> días"</item>
+</plurals>
+<plurals name="week_count">
+<item quantity="one">"una semana"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> semanas"</item>
+</plurals>
+<plurals name="month_count">
+<item quantity="one">"un mes"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> meses"</item>
+</plurals>
+<plurals name="year_count">
+<item quantity="one">"un año"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> años"</item>
+</plurals>
+<string name="class_0_message_activity">"Mensaje clase 0"</string>
+<string name="save">"Guardar"</string>
+<string name="sms_storage_low_auto_delete_enabled_dialog_text">"El dispositivo tiene poco espacio. El Centro de Mensajes borrará automáticamente los mensajes antiguos para liberar espacio."</string>
+<string name="sms_storage_low_title">"El espacio de almacenamiento se está agotando"</string>
+<string name="sms_storage_low_text">"Es posible que Centro de Mensajes no envíe ni reciba mensajes hasta que se libere más espacio en el dispositivo."</string>
+<string name="sms_storage_low_notification_ticker">"Como queda poco espacio para SMS, tal vez deba eliminar mensajes."</string>
+<string name="enter_phone_number_title">"Confirmar su número de teléfono"</string>
+<string name="enter_phone_number_text">"Este paso, que se realiza por única vez, asegurará que Centro de Mensajes envíe los mensajes grupales de forma correcta."</string>
+<string name="enter_phone_number_hint">"Número telefónico"</string>
+<string name="delete_all_media">"Eliminar todos los mensajes con contenido multimedia"</string>
+<string name="delete_oldest_messages">"Eliminar mensajes de más de <xliff:g id="duration">%s</xliff:g>"</string>
+<string name="auto_delete_oldest_messages">"Eliminar automáticamente mensajes de más de <xliff:g id="duration">%s</xliff:g>"</string>
+<string name="ignore">"Ignorar"</string>
+<string name="delete_all_media_confirmation">"¿Eliminar todos los mensajes con contenido multimedia?"</string>
+<string name="delete_oldest_messages_confirmation">"¿Eliminar mensajes de más de <xliff:g id="duration">%s</xliff:g>?"</string>
+<string name="auto_delete_oldest_messages_confirmation">"¿Eliminar mensajes de más de <xliff:g id="duration">%s</xliff:g> y activar la eliminación automática?"</string>
+<string name="incoming_text_sender_content_description">"<xliff:g id="sender">%s</xliff:g> dicho"</string>
+<string name="outgoing_text_sender_content_description">"Usted dijo"</string>
+<string name="incoming_sender_content_description">"Mensaje de <xliff:g id="sender">%s</xliff:g>"</string>
+<string name="outgoing_sender_content_description">"Envió un mensaje"</string>
+<string name="message_status_sending">"Enviando&#8230;"</string>
+<string name="message_status_send_failed">"El mensaje no se envió. Toque para volver a intentarlo."</string>
+<string name="user_not_exist">"El usuario no existe."</string>
+<string name="message_status_send_retrying">"El mensaje no se envió. Reintentando&#8230;"</string>
+<string name="message_status_resend">"Volver a enviar o eliminar"</string>
+<string name="message_status_send_failed_emergency_number">"Realice una llamada de voz a los servicios de emergencia. No se pudo enviar el mensaje de texto esta vez."</string>
+<string name="message_status_failed">"Error"</string>
+<string name="message_title_manual_download">"Nuevo mensaje MMS para descargar"</string>
+<string name="message_title_downloading">"Nuevo mensaje MMS"</string>
+<string name="message_title_download_failed">"No se pudo descargar"</string>
+<string name="message_status_download_failed">"Toca para volver a intentarlo."</string>
+<string name="message_status_download">"Toca para descargar."</string>
+<string name="message_status_download_action">"Descargar o eliminar"</string>
+<string name="message_status_downloading">"Descargando&#8230;"</string>
+<string name="message_status_download_error">"El mensaje venció o no está disponible."</string>
+<string name="mms_info">"tamaño: <xliff:g id="messageSize">%1$s</xliff:g>, vencimiento: <xliff:g id="messageExpire">%2$s</xliff:g>"</string>
+<string name="invalid_destination">"No se puede enviar. Destinatario no es válido."</string>
+<string name="service_not_activated">"No se activó el servicio en la red."</string>
+<string name="service_network_problem">"No se pudo enviar debido a un problema de la red."</string>
+<string name="service_message_not_found">"El mensaje venció o no está disponible."</string>
+<string name="no_subject">"(Sin asunto)"</string>
+<string name="unknown_sender">"Remitente desconocido"</string>
+<string name="delivered_status_content_description">"Entregado"</string>
+<string name="dl_failure_notification">"No se pudo descargar el mensaje <xliff:g id="subject">%1$s</xliff:g> desde <xliff:g id="from">%2$s</xliff:g>."</string>
+<string name="low_memory">"No se pudo completar la operación de la base de datos por falta de memoria."</string>
+<string name="notification_send_failures_line1_singular">"Message not sent"</string>
+<string name="notification_send_failures_line1_plural">"No se pudieron enviar algunos mensajes en Centro de Mensajes"</string>
+<plurals name="notification_send_failures">
+<item quantity="one">"<xliff:g id="messages">%d</xliff:g> mensajes en una conversación"</item>
+<item quantity="other">"<xliff:g id="messages">%d</xliff:g> mensajes en <xliff:g id="conversations">%d</xliff:g> conversaciones"</item>
+</plurals>
+<string name="notification_download_failures_line1_singular">"Mensaje no descargado"</string>
+<string name="notification_download_failures_line1_plural">"No se pudieron descargar algunos mensajes en Centro de Mensajes"</string>
+<plurals name="notification_download_failures">
+<item quantity="one">"<xliff:g id="messages">%d</xliff:g> mensajes en una conversación"</item>
+<item quantity="other">"<xliff:g id="messages">%d</xliff:g> mensajes en <xliff:g id="conversations">%d</xliff:g> conversaciones"</item>
+</plurals>
+<string name="notification_emergency_send_failure_line1">"Mensaje a <xliff:g id="number">%1$s</xliff:g> no enviado"</string>
+<string name="notification_emergency_send_failure_line2">"Realice una llamada de voz a los servicios de emergencia. No se pudo enviar el mensaje de texto a <xliff:g id="number">%1$s</xliff:g> esta vez. "</string>
+<plurals name="notification_new_messages">
+<item quantity="one">"Mensaje nuevo"</item>
+<item quantity="other">"<xliff:g id="messages">%d</xliff:g> nuevos mensajes"</item>
+</plurals>
+<string name="start_conversation">"Iniciar"</string>
+<string name="camera_error_opening">"Cámara no disponible"</string>
+<string name="camera_error_unknown">"Cámara no disponible"</string>
+<string name="camera_error_video_init_fail">"Captura de video no disponible"</string>
+<string name="camera_error_storage_fail">"No se puede guardar el contenido multimedia."</string>
+<string name="camera_error_failure_taking_picture">"No se puede tomar la foto."</string>
+<string name="back">"Regresar"</string>
+<string name="action_menu_show_archived">"Archivado"</string>
+<string name="action_delete">"Eliminar"</string>
+<string name="action_archive">"Archivar"</string>
+<string name="action_unarchive">"Eliminar del archivo"</string>
+<string name="action_notification_off">"Desactivar notificaciones"</string>
+<string name="action_notification_on">"Activar notificaciones"</string>
+<string name="action_add_contact">"Añadir contacto"</string>
+<string name="action_download">"Descargar"</string>
+<string name="action_send">"Enviar"</string>
+<string name="action_delete_message">"Eliminar"</string>
+<string name="delete_message_confirmation_dialog_title">"¿Desea eliminar este mensaje?"</string>
+<string name="delete_message_confirmation_dialog_text">"Esta acción no se puede deshacer."</string>
+<string name="delete_message_confirmation_button">"Eliminar"</string>
+<plurals name="delete_conversations_confirmation_dialog_title">
+<item quantity="one">"¿Desea eliminar esta conversación?"</item>
+<item quantity="other">"¿Eliminar estas conversaciones?"</item>
+</plurals>
+<string name="delete_conversation_confirmation_button">"Eliminar"</string>
+<string name="delete_conversation_decline_button">"Cancelar"</string>
+<string name="recipient_hint">"Para"</string>
+<string name="action_multiselect">"Seleccionar varias imágenes"</string>
+<string name="action_confirm_multiselect">"Confirmar selección"</string>
+<string name="audio_recording_start_failed">"No se puede grabar audio. Compruebe los permisos y vuelva a intentarlo."</string>
+<string name="audio_recording_replay_failed">"No se puede reproducir el audio. Vuelva a intentarlo."</string>
+<string name="audio_recording_error">"No se pudo guardar el audio. Vuelva a intentarlo."</string>
+<string name="audio_picker_hint_text">"Mantener &amp; presionado"</string>
+<string name="enumeration_comma">",\u0020"</string>
+<string name="notification_separator">"\u0020\u0020"</string>
+<string name="notification_ticker_separator">":\u0020"</string>
+<string name="notification_space_separator">"\u0020\u0020"</string>
+<string name="notification_picture">"Imagen"</string>
+<string name="notification_audio">"Clip de audio"</string>
+<string name="notification_video">"Vídeo"</string>
+<string name="notification_vcard">"Tarjeta de contacto"</string>
+<string name="notification_download_mms">"Descargar"</string>
+<string name="notification_reply_via_sms">"Responder a través de SMS"</string>
+<string name="notification_reply_via_mms">"Responder a través de MMS"</string>
+<string name="notification_reply_prompt">"Responder"</string>
+<plurals name="wearable_participant_count">
+<item quantity="one">"<xliff:g id="count">%d</xliff:g> participante"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> participantes"</item>
+</plurals>
+<string name="unknown_self_participant">"Yo"</string>
+<string name="blocked_toast_message">"Contacto bloqueado &amp; archivado"</string>
+<string name="unblocked_toast_message">"Contacto desbloqueado &amp; sin archivar"</string>
+<string name="archived_toast_message">"<xliff:g id="count">%d</xliff:g> archivado"</string>
+<string name="unarchived_toast_message">"<xliff:g id="count">%d</xliff:g> sin archivar"</string>
+<string name="notification_off_toast_message">"Notificaciones desactivadas"</string>
+<string name="notification_on_toast_message">"Notificaciones activadas"</string>
+<string name="toast_after_setting_default_sms_app_for_message_send">"Todo configurado. Vuelva a tocar Enviar."</string>
+<string name="toast_after_setting_default_sms_app">"Se estableció de forma correcta Centro de Mensajes como tu aplicación de SMS predeterminada."</string>
+<plurals name="attachment_preview_close_content_description">
+<item quantity="one">"Descartar anexo"</item>
+<item quantity="other">"Descartar anexos"</item>
+</plurals>
+<string name="audio_attachment_content_description">"Archivo adjunto de audio"</string>
+<string name="audio_play_content_description">"Reproducir archivo adjunto de audio"</string>
+<string name="audio_pause_content_description">"Pausa"</string>
+<string name="incoming_message_announcement">"Mensaje de <xliff:g id="sender">%s</xliff:g>: <xliff:g id="message">%s</xliff:g>."</string>
+<string name="one_on_one_incoming_failed_message_prefix">"Error del mensaje de <xliff:g id="sender">%s</xliff:g>: <xliff:g id="message">%s</xliff:g>. Hora: <xliff:g id="time">%s</xliff:g>."</string>
+<string name="one_on_one_incoming_successful_message_prefix">"Mensaje de <xliff:g id="sender">%s</xliff:g>: <xliff:g id="message">%s</xliff:g>. Hora: <xliff:g id="time">%s</xliff:g>."</string>
+<string name="one_on_one_outgoing_draft_message_prefix">"Mensaje sin enviar a <xliff:g id="contact">%s</xliff:g>: <xliff:g id="message">%s</xliff:g>.Hora: <xliff:g id="time">%s</xliff:g>."</string>
+<string name="one_on_one_outgoing_sending_message_prefix">"Enviando mensaje a <xliff:g id="contact">%s</xliff:g>: <xliff:g id="message">%s</xliff:g>. Hora: <xliff:g id="time">%s</xliff:g>."</string>
+<string name="one_on_one_outgoing_failed_message_prefix">"Error del mensaje para <xliff:g id="contact">%s</xliff:g>: <xliff:g id="message">%s</xliff:g>. Hora: <xliff:g id="time">%s</xliff:g>."</string>
+<string name="one_on_one_outgoing_successful_message_prefix">"Mensaje a <xliff:g id="contact">%s</xliff:g>: <xliff:g id="message">%s</xliff:g>. Hora: <xliff:g id="time">%s</xliff:g>."</string>
+<string name="group_incoming_failed_message_prefix">"Error del mensaje de <xliff:g id="sender">%s</xliff:g>: <xliff:g id="message">%s</xliff:g>. Hora: <xliff:g id="time">%s</xliff:g>. <xliff:g id="groupInfo">%s</xliff:g>."</string>
+<string name="group_incoming_successful_message_prefix">"Mensaje de <xliff:g id="sender">%s</xliff:g>: <xliff:g id="message">%s</xliff:g>. Hora: <xliff:g id="time">%s</xliff:g>. <xliff:g id="groupInfo">%s</xliff:g>."</string>
+<string name="group_outgoing_draft_message_prefix">"Mensaje sin enviar a <xliff:g id="group">%s</xliff:g>: <xliff:g id="message">%s</xliff:g>. Hora: <xliff:g id="time">%s</xliff:g>."</string>
+<string name="group_outgoing_sending_message_prefix">"Enviando mensaje a <xliff:g id="group">%s</xliff:g>: <xliff:g id="message">%s</xliff:g>.Hora: <xliff:g id="time">%s</xliff:g>."</string>
+<string name="group_outgoing_failed_message_prefix">"Error del mensaje para <xliff:g id="group">%s</xliff:g>: <xliff:g id="message">%s</xliff:g>. Hora: <xliff:g id="time">%s</xliff:g>."</string>
+<string name="group_outgoing_successful_message_prefix">"Mensaje a <xliff:g id="group">%s</xliff:g>: <xliff:g id="message">%s</xliff:g>. Hora: <xliff:g id="time">%s</xliff:g>."</string>
+<string name="failed_message_content_description">"Se produjo un error en el mensaje. Toque para volver a intentarlo."</string>
+<string name="group_conversation_description">"Conversación con <xliff:g id="participants">%s</xliff:g>"</string>
+<string name="delete_subject_content_description">"Eliminar asunto"</string>
+<string name="camera_switch_to_video_mode">"Capturar video"</string>
+<string name="camera_switch_to_still_mode">"Capturar una imagen fija"</string>
+<string name="camera_take_picture">"Tomar fotografía"</string>
+<string name="camera_start_recording">"Iniciar grabación de vídeo"</string>
+<string name="camera_switch_full_screen">"Cambiar a cámara en pantalla completa"</string>
+<string name="camera_switch_camera_facing">"Alternar entre cámara frontal y posterior"</string>
+<string name="camera_stop_recording">"Detener la grabación y adjuntar vídeo"</string>
+<string name="camera_cancel_recording">"Detener la grabación de vídeo"</string>
+<string name="photo_view_activity_title">"Fotos de Centro de Mensajes"</string>
+<plurals name="photos_saved_to_album">
+<item quantity="one">"<xliff:g id="quantity">%d</xliff:g> foto guardada en \"<xliff:g id="albumName">%s</xliff:g>\" álbum"</item>
+<item quantity="other">"<xliff:g id="quantity">%d</xliff:g> fotos guardadas en \"<xliff:g id="albumName">%s</xliff:g>\" álbum"</item>
+</plurals>
+<plurals name="videos_saved_to_album">
+<item quantity="one">"<xliff:g id="quantity">%d</xliff:g> vídeo guardado en \"<xliff:g id="albumName">%s</xliff:g>\" álbum"</item>
+<item quantity="other">"<xliff:g id="quantity">%d</xliff:g> vídeos guardados en \"<xliff:g id="albumName">%s</xliff:g>\" álbum"</item>
+</plurals>
+<plurals name="attachments_saved_to_album">
+<item quantity="one">"<xliff:g id="quantity">%d</xliff:g> anexo guardado en \"<xliff:g id="albumName">%s</xliff:g>\" álbum"</item>
+<item quantity="other">"<xliff:g id="quantity">%d</xliff:g> anexos guardados en \"<xliff:g id="albumName">%s</xliff:g>\" álbum"</item>
+</plurals>
+<plurals name="attachments_saved_to_downloads">
+<item quantity="one">"<xliff:g id="quantity">%d</xliff:g> anexo guardado en \"Descargas\""</item>
+<item quantity="other">"<xliff:g id="quantity">%d</xliff:g> anexos guardados en \"Descargas\""</item>
+</plurals>
+<plurals name="attachments_saved">
+<item quantity="one">"<xliff:g id="quantity">%d</xliff:g> anexo guardado"</item>
+<item quantity="other">"<xliff:g id="quantity">%d</xliff:g> anexos guardados"</item>
+</plurals>
+<plurals name="attachment_save_error">
+<item quantity="one">"No se pudo guardar <xliff:g id="quantity">%d</xliff:g> anexo"</item>
+<item quantity="other">"No se pudo guardar <xliff:g id="quantity">%d</xliff:g> anexos"</item>
+</plurals>
+<string name="attachment_file_description">"Archivo adjunto de MMS guardado"</string>
+<string name="settings_activity_title">"Configuraciones"</string>
+<string name="archived_activity_title">"Archivado"</string>
+<string name="action_close">"Cerrar"</string>
+<string name="mms_messaging_category_pref_title">"MMS"</string>
+<string name="advanced_category_pref_title">"Avanzado"</string>
+<string name="debug_category_pref_title">"Depurar"</string>
+<string name="notifications_enabled_pref_title">"Notificaciones"</string>
+<string name="notification_sound_pref_title">"Sonido"</string>
+<string name="silent_ringtone">"Silencio"</string>
+<string name="notification_vibrate_pref_title">"Vibrar"</string>
+<string name="blocked_pref_title">"Bloqueado"</string>
+<string name="send_reports_pref_title">"Enviar informes SMS"</string>
+<string name="send_reports_pref_summary">"Solicitar un informe de envío para cada SMS que envíe"</string>
+<string name="delivery_reports_pref_title">"Informes de entrega de SMS"</string>
+<string name="delivery_reports_pref_summary">"Solicitar un informe de entrega para cada SMS que envió"</string>
+<string name="auto_retrieve_mms_pref_title">"Recuperación automática"</string>
+<string name="auto_retrieve_mms_pref_summary">"Recuperar mensajes MMS automáticamente"</string>
+<string name="auto_retrieve_mms_when_roaming_pref_title">"Recuperación automática en roaming"</string>
+<string name="auto_retrieve_mms_when_roaming_pref_summary">"Recuperar MMS automáticamente en roaming"</string>
+<string name="group_mms_pref_title">"Mensajes grupales"</string>
+<string name="group_mms_pref_summary">"Utilice MMS para enviar un mismo mensaje a varios destinatarios."</string>
+<string name="mms_phone_number_pref_title">"Su número de teléfono"</string>
+<string name="unknown_phone_number_pref_display_value">"Desconocido"</string>
+<string name="send_sound_pref_title">"Sonidos de mensaje saliente"</string>
+<string name="dump_sms_pref_title">"Volcar SMS"</string>
+<string name="dump_sms_pref_summary">"Volcar datos sin procesar de SMS recibidos en un archivo de almacenamiento externo"</string>
+<string name="dump_mms_pref_title">"Volcar MMS"</string>
+<string name="dump_mms_pref_summary">"Volcar datos sin procesar de MMS recibidos en un archivo de almacenamiento externo"</string>
+<string name="wireless_alerts_title">"Alertas inalámbricas"</string>
+<string name="message_context_menu_title">"Opciones de mensajes"</string>
+<string name="message_context_menu_copy_text">"Copiar texto"</string>
+<string name="message_context_menu_view_details">"Ver detalles"</string>
+<string name="message_context_menu_delete_message">"Eliminar"</string>
+<string name="message_context_menu_forward_message">"Atrás"</string>
+<string name="message_details_title">"Detalles del mensaje"</string>
+<string name="message_type_label">"Tipo \u0020"</string>
+<string name="text_message">"Mensaje de texto"</string>
+<string name="multimedia_message">"Mensaje multimedia"</string>
+<string name="from_label">"Desde:\u0020"</string>
+<string name="to_address_label">"Para:\u0020"</string>
+<string name="sent_label">"Enviados:\u0020"</string>
+<string name="received_label">"Recibido:\u0020"</string>
+<string name="subject_label">"Asunto:\u0020"</string>
+<string name="message_size_label">"Tamaño:\u0020"</string>
+<string name="priority_label">"Prioridad:\u0020"</string>
+<string name="sim_label">"SIM:\u0020"</string>
+<string name="priority_high">"Alta"</string>
+<string name="priority_normal">"Normal"</string>
+<string name="priority_low">"Baja"</string>
+<string name="sim_slot_identifier">"SIM <xliff:g id="sim_slot_number">%s</xliff:g>"</string>
+<string name="hidden_sender_address">"Dirección de remitente oculta"</string>
+<string name="cant_send_message_while_loading_attachments">"No se pueden enviar mensajes mientras se cargan adjuntos."</string>
+<string name="fail_to_load_attachment">"No se puede cargar el archivo adjunto. Vuelva a intentarlo."</string>
+<string name="cant_send_message_without_active_subscription">"La red no está lista. Vuelva a intentarlo."</string>
+<string name="chips_text_delete_button_content_description">"Suprimir texto"</string>
+<string name="numeric_text_keyboard_toggle_button_content_description">"Cambiar entre ingresar texto y números"</string>
+<string name="add_more_participants_button_content_description">"Agregar más participantes"</string>
+<string name="confrim_participants_button_content_description">"Confirmar participantes"</string>
+<string name="start_new_conversation">"Comenzar una nueva conversación"</string>
+<string name="gallery_checkbox_content_description">"Seleccionar este elemento"</string>
+<string name="video_thumbnail_view_play_button_content_description">"Reproducir vídeo"</string>
+<string name="action_people_and_options">"Personas &amp; opciones"</string>
+<string name="action_debug_options">"Depurar"</string>
+<string name="people_and_options_activity_title">"Personas &amp; opciones"</string>
+<string name="general_settings_title">"General"</string>
+<string name="participant_list_title">"Personas en esta conversación"</string>
+<string name="action_call">"Hacer una llamada"</string>
+<string name="compose_message_view_hint_text">"Enviar mensaje"</string>
+<string name="compose_message_view_hint_text_multi_sim">"Enviar mensaje<br/><small>de <xliff:g id="sim_name">%s</xliff:g></small>"</string>
+<plurals name="compose_message_view_hint_text_photo">
+<item quantity="one">"Enviar foto"</item>
+<item quantity="other">"Enviar fotos"</item>
+</plurals>
+<plurals name="compose_message_view_hint_text_audio">
+<item quantity="one">"Enviar audio"</item>
+<item quantity="other">"Enviar audios"</item>
+</plurals>
+<plurals name="compose_message_view_hint_text_video">
+<item quantity="one">"Enviar vídeo"</item>
+<item quantity="other">"Enviar vídeos</item>
+</plurals>
+<plurals name="compose_message_view_hint_text_vcard">
+<item quantity="one">"Enviar tarjeta de contacto"</item>
+<item quantity="other">"Enviar tarjetas de contacto"</item>
+</plurals>
+<plurals name="compose_message_view_hint_text_attachments">
+<item quantity="one">"Enviar anexo"</item>
+<item quantity="other">"Enviar anexos"</item>
+</plurals>
+<plurals name="attachment_changed_accessibility_announcement">
+<item quantity="zero">"No attachments selected"</item>
+<item quantity="one">"Un anexo está listo para enviar"</item>
+<item quantity="other">"<xliff:g id="attachment_count">%d</xliff:g> anexos listos para enviar"</item>
+</plurals>
+<string name="menu_send_feedback">"Enviar comentarios"</string>
+<string name="menu_view_in_store">"Ver en Google Play Store"</string>
+<string name="menu_version_info">"Información de la versión"</string>
+<string name="subtitle_format_for_version_number">"Versión %1$s"</string>
+<string name="menu_license">"Abrir licencias fuente"</string>
+<string name="notifications_enabled_conversation_pref_title">"Notificaciones"</string>
+<string name="mms_attachment_limit_reached">"Se alcanzó el límite de archivos adjuntos."</string>
+<string name="mms_attachment_load_failed">"Se produjo un error al cargar el archivo adjunto."</string>
+<string name="add_contact_confirmation_dialog_title">"¿Agregar a contactos?"</string>
+<string name="add_contact_confirmation">"Añadir contacto"</string>
+<string name="compose_message_view_subject_hint_text">"Asunto"</string>
+<string name="conversation_message_view_subject_text">"Asunto:\u0020"</string>
+<string name="loading_vcard">"Cargando tarjeta de contacto"</string>
+<string name="failed_loading_vcard">"No se pudo cargar la tarjeta de contacto."</string>
+<string name="vcard_tap_hint">"Ver tarjeta de contacto"</string>
+<plurals name="vcard_multiple_display_name">
+<item quantity="one">"<xliff:g id="count">%d</xliff:g> contacto"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> contactos"</item>
+</plurals>
+<string name="vcard_detail_activity_title">"Tarjetas de contactos"</string>
+<string name="vcard_detail_birthday_label">"Cumpleaños"</string>
+<string name="vcard_detail_notes_label">"Notas"</string>
+<string name="forward_message_activity_title">"Reenviar mensaje"</string>
+<string name="reply_activity_title">"Responder"</string>
+<string name="sms_disabled">"SMS inhabilitados"</string>
+<string name="requires_default_sms_app_to_send">"Establecer Centro de mensajes como la aplicación de SMS predeterminada para enviar mensajes"</string>
+<string name="requires_default_sms_app">"Establecer Centro de mensajes como la aplicación de SMS predeterminada"</string>
+<string name="requires_default_sms_change_button">"Cambiar"</string>
+<string name="recommend_set_default_sms_app">"Establecer Centro de mensajes como la aplicación de SMS predeterminada para recibir mensajes"</string>
+<string name="no_preferred_sim_selected">"No se seleccionó ninguna SIM preferida para el envío de mensajes SMS."</string>
+<string name="requires_sms_permissions_message">"El propietario del dispositivo no permite esta aplicación."</string>
+<string name="requires_sms_permissions_close_button">"OK"</string>
+<string name="too_many_participants">"Demasiados participantes en una conversación"</string>
+<plurals name="add_invalid_contact_error">
+<item quantity="one">"Contacto no válido"</item>
+<item quantity="other">"Contactos no válidos"</item>
+</plurals>
+<string name="camera_media_failure">"No se pudo cargar la imagen de la cámara."</string>
+<string name="conversation_list_item_view_sent_from_you_prefix">"Usted:\u0020"</string>
+<string name="conversation_list_item_view_sent_from_other_prefix">"<xliff:g id="firstNameOfSender">%s</xliff:g>:\u0020"</string>
+<string name="conversation_list_item_view_draft_message">"Borrador"</string>
+<string name="conversation_list_empty_text">"Cuando inicie una conversación nueva, aparecerá aquí."</string>
+<string name="archived_conversation_list_empty_text">"Las conversaciones archivadas aparecen aquí."</string>
+<string name="conversation_list_first_sync_text">"Cargando conversaciones&#8230;"</string>
+<string name="conversation_list_snippet_picture">"Imagen"</string>
+<string name="conversation_list_snippet_audio_clip">"Clip de audio"</string>
+<string name="conversation_list_snippet_video">"Vídeo"</string>
+<string name="conversation_list_snippet_vcard">"Tarjeta de contacto"</string>
+<string name="mms_text">"MMS"</string>
+<string name="snack_bar_undo">"DESHACER"</string>
+<string name="snack_bar_retry">"Volver a procesar"</string>
+<string name="contact_list_empty_text">"Ingrese un nombre de contacto o número de teléfono para crear un nuevo mensaje."</string>
+<string name="action_block">"Bloquear"</string>
+<string name="block_contact_title">"Bloquear <xliff:g id="destination">%s</xliff:g>"</string>
+<string name="unblock_contact_title">"Desbloquear <xliff:g id="destination">%s</xliff:g>"</string>
+<string name="block_confirmation_title">"¿Bloquear <xliff:g id="destination">%s</xliff:g>?"</string>
+<string name="block_confirmation_message">"Seguirá recibiendo mensajes de este número, pero no verá más las notificaciones. Esta conversación se archivará."</string>
+<string name="blocked_contacts_title">"Contactos bloqueados"</string>
+<string name="tap_to_unblock_message">"DESBLOQUEAR"</string>
+<string name="view_blocked_contacts_title">"Contactos bloqueados"</string>
+<string name="pick_image_from_document_library_content_description">"Seleccionar imagen de la librería de documentos"</string>
+<string name="sending_message">"Enviando el mensaje"</string>
+<string name="send_message_success">"Mensaje enviado."</string>
+<string name="send_message_failure_no_data">"Los datos móviles están desactivados. Compruebe su configuración."</string>
+<string name="send_message_failure_airplane_mode">"No se pueden enviar mensajes en modo Avión."</string>
+<string name="send_message_failure">"No se pudo enviar el mensaje."</string>
+<string name="download_message_success">"Mensaje descargado"</string>
+<string name="download_message_failure_no_data">"Los datos móviles están desactivados. Compruebe su configuración."</string>
+<string name="download_message_failure_airplane_mode">"No se puede descargar mensajes en modo avión"</string>
+<string name="download_message_failure">"El mensaje no se pudo descargar"</string>
+<string name="content_description_for_number_zero">"Cero"</string>
+<string name="content_description_for_number_one">"Uno"</string>
+<string name="content_description_for_number_two">"Dos"</string>
+<string name="content_description_for_number_three">"Tres"</string>
+<string name="content_description_for_number_four">"Cuatro"</string>
+<string name="content_description_for_number_five">"Cinco"</string>
+<string name="content_description_for_number_six">"Seis"</string>
+<string name="content_description_for_number_seven">"Siete"</string>
+<string name="content_description_for_number_eight">"Ocho"</string>
+<string name="content_description_for_number_nine">"Nueve"</string>
+<string name="carrier_send_error">"No se puede enviar mensaje con <xliff:g id="carrierName">%1$s</xliff:g>, error <xliff:g id="errorCode">%2$d</xliff:g>"</string>
+<string name="carrier_send_error_unknown_carrier">"Error, no se puede enviar el mensaje con un proveedor desconocido. <xliff:g id="errorCode">%1$d</xliff:g>"</string>
+<string name="message_fwd">"Remitir: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="mms_failure_outgoing_service">"Mensaje no enviado: el servicio no está activado en la red."</string>
+<string name="mms_failure_outgoing_address">"Mensaje no enviado: dirección de destino no válida"</string>
+<string name="mms_failure_outgoing_corrupt">"Mensaje no enviado: mensaje no válido"</string>
+<string name="mms_failure_outgoing_content">"Mensaje no enviado: contenido no admitido"</string>
+<string name="mms_failure_outgoing_unsupported">"Mensaje no enviado: mensaje no admitido"</string>
+<string name="mms_failure_outgoing_too_large">"Mensaje no enviado: demasiado largo"</string>
+<string name="in_conversation_notify_new_message_text">"Mensaje nuevo"</string>
+<string name="in_conversation_notify_new_message_action">"Ver"</string>
+<string name="message_image_content_description">"Imagen"</string>
+<string name="activity_not_found_message">"No se pudo encontrar una aplicación adecuada."</string>
+<string name="chips_delete_content_description">"Eliminar destinatario"</string>
+<string name="share_new_message">"Mensaje nuevo"</string>
+<string name="share_cancel">"Cancelar"</string>
+<string name="apn_edit">"Editar el punto de acceso"</string>
+<string name="apn_not_set">"Sin establecer"</string>
+<string name="apn_name">"Nombre"</string>
+<string name="apn_mms_proxy">"Proxy de MMS"</string>
+<string name="apn_mms_port">"Puerto MMS"</string>
+<string name="apn_type">"Tipo de APN"</string>
+<string name="menu_delete_apn">"Eliminar APN"</string>
+<string name="menu_new_apn">"APN nuevo"</string>
+<string name="menu_save_apn">"Guardar"</string>
+<string name="menu_discard_apn_change">"Descartar"</string>
+<string name="error_apn_name_empty">"El campo del Nombre no puede estar vacío."</string>
+<string name="error_apn_empty">"El APN no puede estar vacío."</string>
+<string name="error_mcc_not3">"El campo de MCC debe contener tres dígitos."</string>
+<string name="error_mnc_not23">"El campo MNC debe contener dos o tres dígitos."</string>
+<string name="restore_default_apn">"Restaurando la configuración APN predeterminada"</string>
+<string name="menu_restore_default_apn">"Restablecer a valores predeterminados"</string>
+<string name="restore_default_apn_completed">"Se restableció la configuración predeterminada de APN."</string>
+<string name="untitled_apn">"Sin título"</string>
+<string name="sms_apns_title">"Nombres de puntos de acceso"</string>
+<string name="apn_settings">"APNs"</string>
+<string name="menu_new">"APN nuevo"</string>
+<string name="apn_settings_not_available">"La configuración del nombre de punto de acceso no está disponible para este usuario."</string>
+<string name="copy_to_clipboard_dialog_title">"¿Copiar en el portapapeles?"</string>
+<string name="copy_to_clipboard">"Copiar"</string>
+<string name="incoming_sim_name_text">"para <xliff:g id="sim_name">%s</xliff:g>"</string>
+<string name="general_settings">"General"</string>
+<string name="advanced_settings">"Avanzado"</string>
+<string name="general_settings_activity_title">"Configuración general"</string>
+<string name="advanced_settings_activity_title">"Configuración avanzada"</string>
+<string name="sim_specific_settings">"\"<xliff:g id="sim_name">%s</xliff:g>\" SIM"</string>
+<string name="disable_group_mms">"Enviar mensajes de SMS individuales a todos los destinatarios (solo tú recibirás las respuestas)."</string>
+<string name="enable_group_mms">"Enviar un único MMS a todos los destinatarios"</string>
+<string name="sim_settings_unknown_number">"Número desconocido"</string>
+<string name="secondary_user_new_message_title">"Mensaje nuevo"</string>
+<string name="secondary_user_new_message_ticker">"Mensaje nuevo."</string>
+<string name="sim_selector_button_content_description">"Selector de SIM"</string>
+<string name="sim_selector_button_content_description_with_selection">"<xliff:g id="sim">%1$s</xliff:g> seleccionado, selector de SIM"</string>
+<string name="send_button_long_click_description_no_sim_selector">"Editar asunto"</string>
+<string name="send_button_long_click_description_with_sim_selector">"Seleccionar SIM o editar asunto"</string>
+<string name="audio_record_view_content_description">"Mantener presionado para grabar audio."</string>
+<string name="widget_new_conversation_content_description">"Comenzar una nueva conversación"</string>
+<string name="widget_conversation_list_name">"Lista de Centro de Mensajes"</string>
+<string name="widget_new_message_content_description">"Mensaje nuevo"</string>
+<string name="widget_conversation_list_content_description">"Lista de conversaciones"</string>
+<string name="loading_conversations">"Cargando conversaciones"</string>
+<string name="loading_messages">"Cargando mensajes"</string>
+<string name="view_more_conversations">"Ver más conversaciones"</string>
+<string name="view_more_messages">"Ver más mensajes"</string>
+<string name="conversation_deleted">"Se eliminó la conversación."</string>
+<string name="tap_to_configure">"Se borró la conversación. Toque para mostrar otra conversación de Centro de Mensajes"</string>
+<string name="update_destination_blocked">"Bloqueado"</string>
+<string name="update_destination_unblocked">"Desbloqueado"</string>
+<string name="db_full">"Hay poco espacio de almacenamiento. Podrían perderse algunos datos."</string>
+<string name="attachment_chooser_activity_title">"Seleccionar archivos adjuntos"</string>
+<string name="action_confirm_selection">"Confirmar selección"</string>
+<string name="attachment_chooser_selection">"<xliff:g id="count">%d</xliff:g>  seleccionada"</string>
+<string name="attachment_limit_reached_dialog_message_when_composing">"Por favor, elimine uno o más archivos adjuntos y vuelva a intentarlo."</string>
+<string name="attachment_limit_reached_dialog_message_when_sending">"Puede intentar enviar su mensaje, pero podría no enviarse a menos que elimine uno más archivos adjuntos."</string>
+<string name="video_attachment_limit_exceeded_when_sending">"Sólo puede enviar un video por mensaje. Por favor elimine los videos adicionales y vuelva a intentarlo."</string>
+<string name="attachment_load_failed_dialog_message">"Centro de Mensajes no pudo cargar el archivo adjunto."</string>
+<string name="attachment_limit_reached_send_anyway">"Enviar de todas formas"</string>
+<string name="conversation_creation_failure">"No se pudo iniciar la conversación."</string>
+<string name="selected_sim_content_message">"<xliff:g id="selected_sim">%s</xliff:g> seleccionada"</string>
+<string name="empty_msg">"Mensaje vacío"</string>
+<string name="send_empty_msg">"¿Está tratando de enviar un mensaje vacío?"</string>
+<string name="yes">"Sí"</string>
+<string name="no">"No"</string>
+</resources>

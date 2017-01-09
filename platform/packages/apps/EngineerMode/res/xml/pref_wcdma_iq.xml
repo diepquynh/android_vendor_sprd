@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="wiq_switch"
+        android:summaryOff="Disable"
+        android:summaryOn="Enable"
+        android:title="WIQ switch" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/function_item_entries"
+        android:entryValues="@array/function_item_values"
+        android:key="function_item"
+        android:title="Function Item" />
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/iq_sample_pos_entries"
+        android:entryValues="@array/iq_sample_pos_values"
+        android:key="iq_sample_pos"
+        android:title="IQ sample pos" />
+
+</PreferenceScreen>

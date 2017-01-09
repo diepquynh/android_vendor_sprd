@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Search</string>
+
+    <!-- Search widget -->
+    <string name="search_widget">Search</string>
+
+    <!-- Text in the dialog for confirming whether to remove an item from the search
+         history. [CHAR_LIMIT=NONE] -->
+    <string name="remove_from_history">Do you want to remove this item from the search history?</string>
+
+    <!-- Toast text shown when the app fails to remove an item from
+         the search history. [CHAR_LIMIT=60] -->
+    <string name="remove_from_history_failed">Couldn\'t remove item from history.</string>
+
+    <!-- Source selector -->
+    <string name="corpus_selection_heading">Search</string>
+    <string name="corpus_label_global">All</string>
+    <!-- Add 20131018 Spreadst of 228602 add hint for global search start -->
+    <!-- Search hint for global search shown in QSB -->
+    <string name="corpus_hint_global">Search all</string>
+    <!-- Add 20131018 Spreadst of 228602 add hint for global search end -->
+
+    <!-- Name of the combined Web source shown in QSB -->
+    <string name="corpus_label_web">Web</string>
+    <!-- Description of the combined Web source shown in QSB -->
+    <string name="corpus_description_web">Web search, bookmarks, and browser history</string>
+    <!-- Add 20131018 Spreadst of 228602 add hint for search Web source start -->
+    <!-- Search hint for the Web source shown in QSB -->
+    <string name="corpus_hint_web">Search web</string>
+    <!-- Add 20131018 Spreadst of 228602 add hint for search Web source end -->
+
+    <!-- Name of the Apps source shown in QSB -->
+    <string name="corpus_label_apps">Apps</string>
+    <!-- Settings description for the Apps source shown in QSB -->
+    <string name="corpus_description_apps">Names of installed applications</string>
+    <!-- Search hint for the Apps source shown in QSB -->
+    <string name="corpus_hint_apps">Search apps</string>
+
+    <!-- Search settings stuff -->
+
+    <!-- Search settings menu item -->
+    <string name="menu_settings">Search settings</string>
+
+    <!-- Search settings title -->
+    <string name="search_settings">Search settings</string>
+
+    <!-- Title for Google Account category of search settings.
+         [CHAR LIMIT=20] -->
+    <string name="google_settings_category_title">Google Search</string>
+
+    <!-- Title for 'device' category of search settings
+        [CHAR LIMIT=20] -->
+    <string name="device_settings_category_title">Clear Shortcuts</string>
+
+    <!-- Title for 'system search' category of search settings -->
+    <string name="system_search_category_title">Phone</string>
+
+    <!-- Title and summary for 'search sources' link for system search -->
+    <string name="search_sources">Searchable Items</string>
+    <string name="search_sources_summary">Choose what to search on the phone</string>
+
+    <!-- Title and summary used for the option to clear search shortcuts from the system
+         search history -->
+    <string name="clear_shortcuts">Clear Shortcuts</string>
+    <string name="clear_shortcuts_summary">Clear shortcuts to recently chosen search suggestions</string>
+
+    <!--[CHAR LIMIT=200] Title used in the dialog shown after choosing the 'clear search shortcuts' setting. -->
+    <string name="clear_shortcuts_prompt">"Do you want to clear all shortcuts to recently chosen search suggestions?"\n\n"To clear your Browser history, use the Browser\'s settings."</string>
+    <!--[CHAR LIMIT=30] Text used on the button to clear shortcuts in the dialog shown after choosing the 'clear search shortcuts' setting. -->
+    <string name="clear_shortcuts_agree">Clear</string>
+    <!--[CHAR LIMIT=30] Text used on the button to cancel in the dialog shown after choosing the 'clear search shortcuts' setting. -->
+    <string name="clear_shortcuts_disagree">"Cancel"</string>
+
+    <!-- Help menu item. Opens a web page with information about how to use Quick Search Box.
+         [CHAR LIMIT=20] -->
+    <string name="menu_help">Help</string>
+
+    <!-- Search source label for the Google search source. -->
+    <string name="google_search_label">Google</string>
+
+    <!-- The search activity label. -->
+    <string name="google_app_label">Google Search</string>
+
+    <!-- This is the hint text shown in the search widget, before text is entered. -->
+    <!-- This translation MUST MATCH the string "search_hint" which is found in
+         Home/res/values/strings.xml -->
+    <string name="google_search_hint">Google Search</string>
+
+    <!-- Search settings description for the Google search source. [CHAR LIMIT=50] -->
+    <string name="google_search_description">Google Search suggestions</string>
+
+    <!-- Title for Voice Search hints bubble -->
+    <string name="voice_search_hint_title">Try saying:</string>
+    <!-- Starting quotation marks of the voice search hint -->
+    <string name="voice_search_hint_quotation_start">\"</string>
+    <!-- Ending quotation marks of the voice search hint -->
+    <string name="voice_search_hint_quotation_end">\"</string>
+    <!-- add 20130409 Spreadst of 141871 no limite at the textView start -->
+    <string name="text_too_long">Text too long</string>
+    <!-- add 20130409 Spreadst of 141871 no limite at the textView end -->
+
+    <!-- Add 20130626 Spreadst of 181078 add searchEngine start -->
+    <string name="search_engine_site">Default Search Engine</string>
+    <string name="search_engine_choose">Choose your search engine</string>
+    <!-- Add 20130626 Spreadst of 181078 add searchEngine end -->
+    <string name="repeat_start_search">This application is opened, no need to reopen it. </string>
+
+
+   <string name="app_label" msgid="8842303127802367578">"Search Applications Provider"</string>
+   <string name="search_label" msgid="6182832093760999173">"Apps"</string>
+   <string name="application_desc" msgid="888412554142684749">"Application"</string>
+   <string name="settings_description" msgid="966629744054022387">"Names of installed applications"</string>
+   <string name="empty_suggestion">Empty application!</string>
+
+   <!-- SPRD:504763 add for request storage permission @{ -->
+   <string name="storage_permission_missed_hint">"Miss required storage permission. So can't perform normally. Please check your permission settings."</string>
+   <string name="dialog_dismiss">Dismiss</string>
+   <!-- SPRD:492414 search contacts show alertDialog @{ -->
+   <string name="check_contacts_dialog_title">Access to user data</string>
+   <string name="check_contacts_dialog_message">During a search for contact data will be accessed</string>
+   <!-- @} -->
+</resources>

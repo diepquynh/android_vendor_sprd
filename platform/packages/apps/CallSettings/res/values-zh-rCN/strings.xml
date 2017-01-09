@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- STRINGS Sprd Add -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD: function call barring support. BEGIN-->
+    <string name="labelAO">"所有呼出"</string>
+    <string name="messageAO">"输入呼叫限制密码。"</string>
+    <string name="sum_ao_enabled_indicator">转发所有通话</string>
+    <string name="sum_ao_enabled">"已启用"</string>
+    <string name="sum_ao_disabled">"已禁用"</string>
+    <string name="enable_ao_forbidden">"您的运营商不支持启用限制所有呼出功能。"</string>
+    <string name="disable_ao_forbidden">"您的运营商不支持禁用限制所有呼出功能。"</string>
+    <string name="labelOI">"国际长途呼出"</string>
+    <string name="messageOI">"输入呼叫限制密码。"</string>
+    <string name="sum_oi_enabled">"已启用"</string>
+    <string name="sum_oi_disabled">"已禁用"</string>
+    <string name="enable_oi_forbidden">"您的运营商不支持启用限制国际长途漫游呼出功能。"</string>
+    <string name="disable_oi_forbidden">"您的运营商不支持禁用限制国际长途漫游呼出功能。"</string>
+    <string name="labelOX">"国际长途漫游呼出"</string>
+    <string name="messageOX">"输入呼叫限制密码。"</string>
+    <string name="sum_ox_enabled">"已启用"</string>
+    <string name="sum_ox_disabled">"已禁用"</string>
+    <string name="enable_ox_forbidden">"您的运营商不支持启用限制国际长途漫游呼出功能。"</string>
+    <string name="disable_ox_forbidden">"您的运营商不支持禁用限制国际长途漫游呼出功能。"</string>
+    <string name="labelAI">"所有来电"</string>
+    <string name="messageAI">"输入呼叫限制密码。"</string>
+    <string name="sum_ai_enabled">"已启用"</string>
+    <string name="sum_ai_disabled">"已禁用"</string>
+    <string name="enable_ai_forbidden">"您的运营商不支持禁用限制所有来电功能。"</string>
+    <string name="disable_ai_forbidden">"您的运营商不支持禁用限制所有来电功能。"</string>
+    <string name="labelIR">"漫游时来电"</string>
+    <string name="messageIR">"输入呼叫限制密码。"</string>
+    <string name="sum_ir_enabled">"已启用"</string>
+    <string name="sum_ir_disabled">"已禁用"</string>
+    <string name="enable_ir_forbidden">"您的运营商不支持启用限制漫游时来电功能。"</string>
+    <string name="disable_ir_forbidden">"您的运营商不支持禁用限制漫游时来电功能。"</string>
+    <string name="labelAB">"全部取消"</string>
+    <string name="messageAB">"输入呼叫限制密码。"</string>
+    <string name="sum_ab_enabled">"已启用"</string>
+    <string name="sum_ab_disabled">"已禁用"</string>
+    <string name="enable_ab_forbidden">"您的运营商不支持全部取消呼叫限制功能。"</string>
+    <string name="disable_ab_forbidden">"您的运营商不支持全部启用呼叫限制功能。"</string>
+    <string name="labelChgPwd">修改密码</string>
+    <string name="DlgChgPwd_oldpwd">输入呼叫限制密码。</string>
+    <string name="DlgChgPwd_newpwd_first">输入新密码</string>
+    <string name="DlgChgPwd_newpwd_last">确认新密码</string>
+    <string name="cb_pw_no_match" msgid="">"密码不匹配"</string>
+    <string name="cb_pw_error" msgid="">"密码不正确"</string>
+    <string name="cb_pw_correct" msgid="">"密码修改成功"</string>
+    <string name="labelCB">呼叫限制</string>
+    <string name="call_barring_settings">呼叫限制设置</string>
+    <string name="callin_barring_settings">呼入限制设置</string>
+    <string name="callout_barring_settings">呼出限制设置</string>
+    <string name="labelCOUT">呼出限制</string>
+    <string name="labelCIN">呼入限制</string>
+    <string name="cb_error">呼叫限制被拒绝</string>
+    <!-- SPRD: function call barring support. END-->
+    <!-- SPRD: LND/SDN FEATURE -->
+    <string name="sdn_list">SDN 列表</string>
+    <string name="lnd_list">LND 列表</string>
+    <string name="sim_x">"SIM%s"</string>
+    <string name="wait_message">"请稍候..."</string>
+    <string name="menu_call">"呼叫联系人"</string>
+    <string name="lnd_no_contact_record">"SIM卡上无最后拨号记录。"</string>
+    <string name="sdn_no_contact_number">"此SIM卡不支持SDN号码。"</string>
+    <string name="remove">"移除"</string>
+    <string name="delete_selected_contents">"您确定要删除选中内容吗？"</string>
+    <string name="sim_notready_can_not_delete">"SIM卡未准备好，无法删除。"</string>
+    <string name="contact_del_failed">"删除失败"</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_VOLTE_LOCK @{ -->
+    <string name="volte_lock">"Volte锁"</string>
+    <string name="menu_new_plmn">"新建"</string>
+    <string name="enter_plmn_hint">"请输入plmn"</string>
+    <string name="plmn_enter_error">"无效plmn，请重试!"</string>
+    <string name="plmn_exist">"plmn已存在，请重新添加。"</string>
+    <string name="plmn_edit_tip">"编辑"</string>
+    <string name="plmn_new_tip">"新建"</string>
+    <!-- SPRD: Bug#474289 FAST DIAL FEATURE @{ -->
+    <string name="fast_dial_settings">快速拨号设置</string>
+    <string name="delete_fastdial">删除快速拨号</string>
+    <string name="update_fastdial">替换快速拨号</string>
+    <string name="no_sim_text">"请插入或启用SIM卡"</string>
+    <string name="sim_list_title">"请选择 SIM 卡"</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_FDN. @{ -->
+    <!-- SPRD: add for bug597909 -->
+    <string name="edit_and_save_fdn">"编辑固定拨号联系人"</string>
+    <string name="delete_and_save_fdn">"删除固定拨号联系人"</string>
+    <string name="call_fdn_number_by_sim">"呼叫"</string>
+    <string name="vt_call_fdn_numberr_by_sim">"视频电话"</string>
+    <string name="airplane_changed_on">"飞行模式已开启。"</string>
+
+    <string name="number_empty" msgid="">号码为空</string>
+    <string name="unblock_pin2">"解锁PIN2"</string>
+    <string name="sum_fdn_unblock_pin2">"输入PUK2来解锁您的SIM卡"</string>
+    <string name="oldPin2_Label">"旧 PIN2 (剩余次数 <xliff:g>%s</xliff:g>)"</string>
+    <string name="pin2_Label">"PIN2 (剩余次数 <xliff:g>%s</xliff:g>)"</string>
+    <string name="puk2_code_label">"输入 PUK2 码 (剩余次数 <xliff:g>%s</xliff:g>)"</string>
+
+    <string name="promptWordOne">"您还有&#160;"</string>
+    <string name="promptWordTwo">"&#160;次机会"</string>
+    <string name="adn_full">FDN列表已满</string>
+    <!-- @} -->
+    <string name="labelAudioCF">"语音来电转接"</string>
+    <string name="labelVideoCF">"视频来电转接"</string>
+    <string name="audio_call_forward_setting_category_header">"语音电话"</string>
+    <string name="video_call_forward_setting_category_header">"视频电话"</string>
+    <string name="labelCFT">固定时间段转接</string>
+    <string name="sum_cft_disabled">"未启用"</string>
+    <string name="start_time">开始时间</string>
+    <string name="stop_time">结束时间</string>
+    <string name="phonenumCFT_title">转接号码</string>
+    <string name="sum_cft_default_setting">未设置</string>
+    <string name="messageCFT">固定时间段的转接号码</string>
+    <string name="sum_vcfu_enabled_indicator">"转接所有视频来电"</string>
+    <!-- SPRD: add for bug598158 -->
+    <string name="fdn_invalid_name">"固定拨号未更新，因为名称不能超过 14 位。"</string>
+    <!-- SPRD: add for bug608713 -->
+    <string name="pin2_or_fdn_invalid">"固定拨号未更新。PIN2 码有误，或电话号码遭拒，或电话名称遭拒。"</string>
+    <!-- SPRD: Add disAllow plmn list as Plmn_Black_List. @{ -->
+    <string name="plmn_disallow_plmn_toast">"该PLMN暂不支持IMS业务。"</string>
+    <!-- @} -->
+    <!-- SPRD: add for bug637586 -->
+    <string name="add_and_save_fdn">添加联系人</string>
+</resources>

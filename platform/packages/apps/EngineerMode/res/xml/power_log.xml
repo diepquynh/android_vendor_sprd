@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+        <com.sprd.engineermode.EMSwitchPreference
+            android:enabled="true"
+            android:key="sprd_power_log_all"
+            android:title="@string/sprd_power_log_all" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:enabled="true"
+            android:key="sprd_battery_log"
+            android:title="@string/sprd_battery_log" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:enabled="true"
+            android:key="sprd_doze_log"
+            android:title="@string/sprd_doze_log" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:enabled="true"
+            android:key="sprd_key_led_backlight_log"
+            android:title="@string/sprd_key_led_backlight_log" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:enabled="true"
+            android:key="sprd_key_wakeup_log"
+            android:title="@string/sprd_key_wakeup_log" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:enabled="true"
+            android:key="sprd_lcd_backlight_log"
+            android:title="@string/sprd_lcd_backlight_log" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:enabled="true"
+            android:key="sprd_notify_light_log"
+            android:title="@string/sprd_notify_light_log" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:enabled="true"
+            android:key="sprd_power_guru_log"
+            android:title="@string/sprd_power_guru_log" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:enabled="true"
+            android:key="sprd_power_hint_log"
+            android:title="@string/sprd_power_hint_log" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:enabled="true"
+            android:key="sprd_wakelock_log"
+            android:title="@string/sprd_wakelock_log" >
+        </com.sprd.engineermode.EMSwitchPreference>
+</PreferenceScreen>

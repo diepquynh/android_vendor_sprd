@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD: add for bug474285 callbarring @{ -->
+    <string name="labelCB">Call barring</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_DATA_ALWAYS_ONLINE @{ -->
+    <string name="data_always_online">Mobile data always online</string>
+    <string name="data_always_online_summary">Uses more battery power on some mobile networks</string>
+    <string name="data_always_online_dialog">Disabling always online mobile data will cause connectivity problems in some applications. Please use the manual refresh feature in applications to update online data.</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_NATIONAL_DATA_ROAMING @{ -->
+    <string name="preferred_data_roaming_title">Data roaming</string>
+    <string name="preferred_data_roaming_summary">National roaming only</string>
+    <string name="preferred_data_roaming_dialogtitle">Data roaming</string>
+    <string name="preferred_data_roaming_disable">Disable</string>
+    <string name="preferred_data_roaming_national">National roaming only</string>
+    <string name="preferred_data_roaming_all_networks">All networks</string>
+
+    <string-array name="enabled_data_roaming_choices">
+        <item>@string/preferred_data_roaming_disable</item>
+        <item>@string/preferred_data_roaming_national</item>
+        <item>@string/preferred_data_roaming_all_networks</item>
+    </string-array>
+    <string-array name="enabled_data_roaming_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_MANUAL_SEARCH_NETWORK @{ -->
+    <string name="dialog_network_selection_title">Attention</string>
+    <string name="dialog_network_selection_message">The mobile phone will not select other operators for you in manual selection mode. Sometimes you have to do manual selection again or change back to automatic selection mode when you lost the service of the selected operator. We recommend that you use the "Select automatically". Do you want to select network manually?</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_POPUP_DATA_DIALOG_ON_IMS -->
+    <string name="network_not_on">Network is not on, Do you want to set network status?</string>
+    <!-- SPRD: add for bug589612 -->
+    <string name="no_available_phone_accounts">No available calling accounts</string>
+    <!-- SPRD: add for bug589602 -->
+    <string name="sim_label">"SIM%1$d "</string>
+    <!-- IP Dial Setting for bug474283 -->
+    <string name="ip_dialing_setting">IP Dial Setting</string>
+    <!-- SPRD: modify for bug 601486 & 603661@{ -->
+    <string name="fdn_name_maxlength">Enter the name can\'t exceed 14 digits</string>
+    <string name="fdn_number_maxlength">Enter the number can\'t exceed 20 digits</string>
+    <!-- @} -->
+    <!-- SPRD: add for bug579749 @{ -->
+    <string name="network_open">Data connection is opening.</string>
+    <!-- @} -->
+    <!-- SPRD: add for bug616257 @{ -->
+    <string name="airplane_on">Please close the airplane mode first.</string>
+    <!-- @} -->
+    <!-- SPRD: Bug 609872 Wrong prompt message when change network selection mode @{ -->
+    <string name="automatic_selection_done">Switched to automatic selection mode</string>
+    <!-- @} -->
+    <!-- SPRD: FEATURE_MOBILE_DATA_BUTTON @{ -->
+    <string name="mobile_data_network_button_title">Cellular data</string>
+    <!-- @} -->
+</resources>

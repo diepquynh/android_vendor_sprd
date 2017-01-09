@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="ut_app_name">"Entrada de TV de Sintonizador USB"</string>
+<string name="ut_setup_on">"Ativadas"</string>
+<string name="ut_setup_off">"Desativadas"</string>
+<string name="ut_setup_cancel">"Aguarde para terminar de processar"</string>
+<string name="ut_select_channel_map">"Selecione a sua fonte de canal"</string>
+<string name="ut_no_signal">"Sem sinal"</string>
+<string name="ut_fail_to_tune">"Falha ao sintonizar em <xliff:g id="channel_name">%s</xliff:g>"</string>
+<string name="ut_fail_to_tune_to_unknown_channel">"Falha ao sintonizar"</string>
+<string name="ut_rescan_needed">"Software de sintonizador USB foi atualizado recentemente. Volte a varrer os canais."</string>
+<string name="ut_ac3_passthrough_unavailable">"Áudio AC3 não disponível"</string>
+<string name="ut_setup_breadcrumb">"Definições do sintonizador de canal"</string>
+<string name="ut_setup_new_title">"Definições do sintonizador de canal USB"</string>
+<string name="ut_setup_new_description">"Verifique se o sintonizador USB está inserido e ligado a uma fonte de sinal de TV.\n\nSe estiver usando uma antena no ar, pode precisar de ajustar a colocação ou direção para receber a maioria dos canais. Para melhores resultados, coloque num local alto e perto de uma janela."</string>
+<string-array name="ut_setup_new_choices">
+<item>"Continuar"</item>
+<item>"Agora não"</item>
+</string-array>
+<string name="ut_setup_again_title">"Voltar a correr as definições do canal?"</string>
+<string name="ut_setup_again_description">"Isto vai remover os canais encontrados do sintonizador USB e varrer por canais novos novamente.\n\nVerifique se o sintonizador USB está inserido e ligado a uma fonte de sinal de TV.\n\nSe estiver usando uma antena no ar, pode precisar de ajustar a colocação ou direção para receber a maioria dos canais. Para melhores resultados, coloque num local alto e perto de uma janela."</string>
+<string-array name="ut_setup_again_choices">
+<item>"Continuar"</item>
+<item>"Cancelar"</item>
+</string-array>
+<string name="ut_connection_title">"Selecionar o tipo de ligação"</string>
+<string name="ut_connection_description">"Escolha Antena se existir uma antena externa ligada ao sintonizador. Escolha Cabo se os seus canais vierem de um provedor de serviço de cabo. Se não tiver a certeza, ambos os tipos serão varridos, mas poderá demorar mais tempo."</string>
+<string-array name="ut_connection_choices">
+<item>"Antena"</item>
+<item>"Cabo"</item>
+<item>"Não sei"</item>
+</string-array>
+<string name="ut_channel_scan">"Definições do sintonizador de canal USB"</string>
+<string name="ut_channel_scan_time">"Isto pode demorar vários minutos"</string>
+<plurals name="ut_channel_scan_message"></plurals>
+<string name="ut_stop_channel_scan">"PARAR VARREDURA DE CANAIS"</string>
+<plurals name="ut_result_found_title"></plurals>
+<string-array name="ut_result_found_choices">
+<item>"Concluído"</item>
+<item>"Varrer novamente"</item>
+</string-array>
+<string name="ut_result_not_found_title">"Nenhum Cana encontrado"</string>
+<string name="ut_result_not_found_description">"A varredura não encontrou nenhum canal. Verifique se o sintonizador USB está inserido e ligado a uma fonte de sinal de TV.\n\nSe estiver usando uma antena no ar; ajuste a colocação ou direção. Para melhores resultados, coloque num local alto e perto de uma janela e varra novamente."</string>
+<string-array name="ut_result_not_found_choices">
+<item>"Varrer novamente"</item>
+<item>"Concluído"</item>
+</string-array>
+<string name="ut_setup_recommendation_card_focused_title">"Pesquisar por canais TV"</string>
+<string name="ut_setup_recommendation_card_title">"Definições do sintonizador de canal USB"</string>
+</resources>

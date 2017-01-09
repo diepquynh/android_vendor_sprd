@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1" >
+
+            <!-- Band -->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:id="@+id/wifi_eut_bandTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wifi_eut_band"
+                    android:textSize="18dip" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/wifi_eut_band"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:enabled="false" >
+                </Spinner>
+            </TableRow>
+
+            <!-- Text rx num -->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wifi_eut_text_rx_num"
+                    android:textSize="18dip" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/wifi_eut_text_rx_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:digits="1234567890"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+
+            <!-- band_width -->
+
+            <TableRow android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:id="@+id/wifi_eut_bandWidthTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wifi_eut_band_width"
+                    android:textSize="18dip" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/wifi_eut_band_width"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip" >
+                </Spinner>
+            </TableRow>
+
+            <!-- channel -->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wifi_eut_channel"
+                    android:textSize="18dip" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/wifi_eut_channel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:enabled="false" >
+                </Spinner>
+            </TableRow>
+
+            <!-- display Rx ok -->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wifi_eut_rx_ok"
+                    android:textSize="18dip" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/wifi_eut_rx_ok_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:singleLine="true" >
+                </TextView>
+            </TableRow>
+
+            <!-- display PER -->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wifi_eut_per"
+                    android:textSize="18dip" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/wifi_eut_per_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip" >
+                </TextView>
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/wifi_rx_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/wifi_tx_go"
+                android:textSize="18dip" >
+            </Button>
+
+            <Button
+                android:id="@+id/wifi_rx_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/wifi_tx_stop"
+                android:textSize="18dip" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

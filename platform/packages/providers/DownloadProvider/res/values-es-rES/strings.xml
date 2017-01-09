@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_label">"Administrador de carga"</string>
+<string name="permlab_downloadManager">"Gestor de descargas de acceso."</string>
+<string name="permdesc_downloadManager">"Permite que la aplicación acceda al administrador de descargas y lo use para descargar archivos. Las aplicaciones maliciosas pueden usar este permiso para interrumpir descargas y acceder a información privada."</string>
+<string name="permlab_downloadManagerAdvanced">"Funciones avanzadas del administrador de descarga"</string>
+<string name="permdesc_downloadManagerAdvanced">"Permite que la aplicación acceda a las funciones avanzadas del administrador de descargas. Las aplicaciones maliciosas pueden usar este permiso para interrumpir descargas y acceder a información privada."</string>
+<string name="permlab_downloadCompletedIntent">"Enviar notificaciones de descarga."</string>
+<string name="permdesc_downloadCompletedIntent">"Permite que la aplicación envíe notificaciones acerca de descargas que se completaron. Las aplicaciones maliciosas pueden usar este permiso para confundir otras aplicaciones que descargan archivos."</string>
+<string name="permlab_seeAllExternal" product="nosdcard">"Ver todas las descargas de almacenamiento USB"</string>
+<string name="permlab_seeAllExternal" product="default">"Ver todas las descargas de tarjeta SD"</string>
+<string name="permdesc_seeAllExternal">"Permite que la aplicación vea todas las descargas de la tarjeta SD, sin importar que aplicación las realizó."</string>
+<string name="permlab_downloadCacheNonPurgeable">"Reservar espacio en el caché de descarga"</string>
+<string name="permdesc_downloadCacheNonPurgeable">"Permite que la aplicación descargue archivos en la caché de descargas. Estos no se eliminarán automáticamente cuando el administrador de descargas necesite más espacio."</string>
+<string name="permlab_downloadWithoutNotification">"descargar archivos sin notificación"</string>
+<string name="permdesc_downloadWithoutNotification">"Permite que la aplicación descargue archivos a través del administrador de descargas sin que el usuario reciba ninguna notificación."</string>
+<string name="permlab_accessAllDownloads">"Acceder a todas las descargas del sistema"</string>
+<string name="permdesc_accessAllDownloads">"Permite que la aplicación vea y modifique las descargas que inició cualquier aplicación del sistema."</string>
+<string name="download_unknown_title">"Sin título"</string>
+<string name="notification_download_complete">"Descarga completa."</string>
+<string name="notification_download_failed">"No se pudo completar la descarga."</string>
+<string name="notification_need_wifi_for_size">"El tamaño de la descarga requiere Wi-Fi."</string>
+<string name="notification_paused_in_background">"Aplicación de fondo en pausa"</string>
+<string name="wifi_required_title">"La descarga es demasiado grande la red del operador"</string>
+<string name="wifi_required_body">"Debe utilizar Wi-Fi para completar este <xliff:g id="size" example="12.3KB">%s </xliff:g> descarga. \n\nToque <xliff:g id="queue_text" example="Queue">%s </xliff:g> para iniciar la descarga la próxima vez que esté conectado a una red Wi-Fi."</string>
+<string name="wifi_recommended_title">"¿Agregar a la lista para descargar más tarde?"</string>
+<string name="wifi_recommended_body">"A partir de esta <xliff:g id="size" example="12.3KB">%s </xliff:g> descarga ahora puede acortar la duración de la batería y/o dar a lugar a un uso excesivo de la conexión de datos móvil, que puede llevar a cargos por su operador de telefonía móvil en función de su plan de datos.\n\n Touch <xliff:g id="queue_text" example="Queue">%s</xliff:g> para iniciar la descarga la próxima vez que esté conectado a una red Wi-Fi."</string>
+<string name="button_queue_for_wifi">"Cola"</string>
+<string name="button_cancel_download">"Cancelar"</string>
+<string name="button_start_now">"Comenzar ahora"</string>
+<plurals name="notif_summary_active">
+<item quantity="one">"Descargando 1 archivo"</item>
+<item quantity="other">"<xliff:g id="number">%d</xliff:g> archivos descargando"</item>
+</plurals>
+<plurals name="notif_summary_waiting">
+<item quantity="one">"1 archivo en espera"</item>
+<item quantity="other">"<xliff:g id="number">%d</xliff:g> archivos en espera"</item>
+</plurals>
+<string name="download_remaining">"<xliff:g id="duration" example="3 minutes">%s</xliff:g> restante"</string>
+<string name="download_no_application_title">"No se puede abrir el archivo"</string>
+<string name="root_downloads">"Descargas"</string>
+<string name="download_queued">"Pendiente"</string>
+<string name="download_running">"En curso"</string>
+<string name="download_error">"Infructuoso"</string>
+<string name="download_running_percent">"En curso, <xliff:g id="percentage" example="50%">%s</xliff:g>"</string>
+</resources>

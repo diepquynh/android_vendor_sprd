@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="@string/preference_key_screen_camera_root" >
+
+    <com.dream.camera.settings.DreamUISettingPartCamera
+        android:key="@string/preference_key_category_camera_root"
+        android:title="@string/preference_key_category_camera_root_title"
+        android:layout="@layout/dream_ui_preference_category_material" >
+
+        <!-- SPRD: storage path -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/storage_path_external_default"
+            android:entries="@array/pref_camera_storage_path_entries"
+            android:entryValues="@array/pref_camera_storage_path_entryvalues"
+            android:key="@string/pref_camera_storage_path"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_storage_path_title" />
+
+        <!-- SPRD: volume key function -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_camera_volume_key_function_entries_value_shutter"
+            android:entries="@array/pref_camera_volume_key_function_entries"
+            android:entryValues="@array/pref_camera_volume_key_function_entryvalues"
+            android:key="@string/pref_camera_volume_key_function"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_volume_key_function_title" />
+
+        <!-- SPRD: qucik capture -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_camera_quick_capture_entry_value_capture_with_back_camera"
+            android:entries="@array/pref_camera_quick_capture_entries"
+            android:entryValues="@array/pref_camera_quick_capture_entry_values"
+            android:key="@string/pref_camera_quick_capture_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_quick_capture_title_volkey" />
+
+        <!-- SPRD: fix bug 474665 Add for shutter sound @{ -->
+        <com.dream.camera.settings.DreamUIPreferenceItemSwitch
+            android:defaultValue="true"
+            android:key="@string/pref_shutter_sound_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_shutter_sound_title" />
+
+        <!-- Location -->
+        <com.dream.camera.settings.DreamUIPreferenceItemSwitch
+            android:defaultValue="false"
+            android:key="@string/pref_camera_recordlocation_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_save_location_title" />
+    </com.dream.camera.settings.DreamUISettingPartCamera>
+
+    <com.dream.camera.settings.DreamUISettingPartPhoto
+        android:key="@string/preference_key_category_photo_root"
+        android:title="@string/preference_key_category_photo_root_title"
+        android:layout="@layout/dream_ui_preference_category_material" >
+
+        <!-- BACK camera PHOTO resolution -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_camera_picturesize_default"
+            android:entries="@array/pref_camera_picturesize_entries"
+            android:entryValues="@array/pref_camera_picturesize_entryvalues"
+            android:key="@string/pref_camera_picturesize_back_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/dream_setting_back_camera_photo" />
+        <!-- FRONT camera PHOTO resolution -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_camera_picturesize_default"
+            android:entries="@array/pref_camera_picturesize_entries"
+            android:entryValues="@array/pref_camera_picturesize_entryvalues"
+            android:key="@string/pref_camera_picturesize_front_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/dream_setting_front_camera_photo" />
+        <!-- SPRD: Add View pref_camera_jpeg_quality_key -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_camera_jpegh_quality_entry_value_super_hight"
+            android:entries="@array/pref_camera_jpeg_quality_entries"
+            android:entryValues="@array/pref_camera_jpeg_quality_entry_values"
+            android:key="@string/pref_camera_jpeg_quality_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_jpeg_quality_title" />
+        <!-- SPRD: Composition lines -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_camera_composition_line_key_entry_values_close"
+            android:entries="@array/pref_camera_composition_line_key_entry"
+            android:entryValues="@array/pref_camera_composition_line_key_entry_values"
+            android:key="@string/pref_camera_composition_line_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_composition_line_key_title" />
+
+        <!-- SPRD: Add View pref_camera_ai_detect_key -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_ai_detect_entry_value_face"
+            android:entries="@array/pref_camera_ai_detect_entries"
+            android:entryValues="@array/pref_camera_ai_detect_entryvalues"
+            android:key="@string/pref_camera_ai_detect_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_ai_detect_title" />
+
+        <!-- SPRD:Add for antibanding -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_camera_antibanding_entryvalue_50"
+            android:entries="@array/pref_camera_antibanding_entries"
+            android:entryValues="@array/pref_camera_antibanding_entryvalues"
+            android:key="@string/pref_camera_antibanding_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_antibanding_title" />
+
+        <!-- SPRD: Add color effect Bug 474727 -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_camera_color_effect_entry_value_none"
+            android:entries="@array/pref_camera_color_effect_entries"
+            android:entryValues="@array/pref_camera_color_effect_entryvalues"
+            android:key="@string/pref_camera_color_effect_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_color_effect_title" />
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_gif_mode_pic_size_default"
+            android:entries="@array/pref_gif_mode_pic_size_entries"
+            android:entryValues="@array/pref_gif_mode_pic_size_entryvalues"
+            android:key="@string/pref_gif_mode_pic_size_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_gif_mode_pic_size_title" />
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_gif_mode_pic_num_default"
+            android:entries="@array/pref_gif_mode_pic_number_entries"
+            android:entryValues="@array/pref_gif_mode_pic_number_entryvalues"
+            android:key="@string/pref_gif_mode_pic_number_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_gif_mode_pic_num_title" />
+        <!-- SPRD: Add back photograph eois -->
+        <com.dream.camera.settings.DreamUIPreferenceItemSwitch
+            android:defaultValue="false"
+            android:key="@string/pref_eois_dc_back_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_photograph_eois_key_title" />
+        <!-- SPRD: Add front photograph eois -->
+        <com.dream.camera.settings.DreamUIPreferenceItemSwitch
+            android:defaultValue="false"
+            android:key="@string/pref_eois_dc_front_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_photograph_eois_key_title" />
+
+        <!-- SPRD: Add HDR save normal pic -->
+        <com.dream.camera.settings.DreamUIPreferenceItemSwitch
+            android:defaultValue="false"
+            android:key="@string/pref_camera_hdr_normal_pic_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_hdr_normal_pic_key_title" />
+
+        <!-- SPRD: Add gradienter -->
+        <com.dream.camera.settings.DreamUIPreferenceItemSwitch
+            android:defaultValue="false"
+            android:key="@string/pref_camera_gradienter_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_gradienter_key_title" />
+
+        <!-- SPRD: Add touching photograph -->
+        <com.dream.camera.settings.DreamUIPreferenceItemSwitch
+            android:defaultValue="false"
+            android:key="@string/pref_camera_touching_photograph_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_touching_photograph_key_title" />
+
+        <!-- SPRD: Add time stamp -->
+        <com.dream.camera.settings.DreamUIPreferenceItemSwitch
+            android:defaultValue="false"
+            android:key="@string/pref_camera_time_stamp_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_time_stamp_key_title" />
+
+        <!-- SPRD: FreezeView Display Preference -->
+        <com.dream.camera.settings.DreamUIPreferenceItemSwitch
+            android:defaultValue="false"
+            android:key="@string/pref_freeze_frame_display_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_freeze_frame_display_title" />
+
+        <!-- ZSL -->
+        <com.dream.camera.settings.DreamUIPreferenceItemSwitch
+            android:defaultValue="true"
+            android:key="@string/pref_camera_zsl_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_zsl_key_title" />
+
+        <!-- SPRD Add for highiso -->
+        <com.dream.camera.settings.DreamUIPreferenceItemSwitch
+            android:defaultValue="false"
+            android:key="@string/pref_high_iso_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_dream_high_iso_tilte" />
+
+        <!-- SPRD: Add front mirror -->
+        <com.dream.camera.settings.DreamUIPreferenceItemSwitch
+            android:defaultValue="false"
+            android:key="@string/pref_front_camera_mirror_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_mirror_title" />
+    </com.dream.camera.settings.DreamUISettingPartPhoto>
+
+    <com.dream.camera.settings.DreamUISettingPartVideo
+        android:key="@string/preference_key_category_video_root"
+        android:title="@string/preference_key_category_video_root_title"
+        android:layout="@layout/dream_ui_preference_category_material" >
+
+        <!-- BACK camera VIDEO resolution -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_video_quality_large"
+            android:entries="@array/pref_video_quality_entries"
+            android:entryValues="@array/pref_video_quality_entryvalues"
+            android:key="@string/pref_video_quality_back_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/dream_setting_back_camera_video" />
+        <!-- FRONT camera VIDEO resolution -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_video_quality_large"
+            android:entries="@array/pref_video_quality_entries"
+            android:entryValues="@array/pref_video_quality_entryvalues"
+            android:key="pref_video_quality_front_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/dream_setting_front_camera_video" />
+        <!-- Video encode type -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_video_encode_type_value_default"
+            android:entries="@array/pref_video_encode_type_entries"
+            android:entryValues="@array/pref_video_encode_type_entry_values"
+            android:key="@string/pref_video_encode_type"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_video_encode_type_title" />
+
+        <!-- SPRD: video Composition lines -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_camera_composition_line_key_entry_values_close"
+            android:entries="@array/pref_camera_composition_line_key_entry"
+            android:entryValues="@array/pref_camera_composition_line_key_entry_values"
+            android:key="@string/pref_video_composition_line_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_composition_line_key_title" />
+
+        <!-- video whitebalance -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_camera_whitebalance_default"
+            android:entries="@array/pref_camera_whitebalance_entries"
+            android:entryValues="@array/pref_camera_whitebalance_entryvalues"
+            android:key="@string/pref_video_whitebalance_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_whitebalance_title" />
+
+        <!-- SPRD Bug:495676 Add antibanding for DV -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_camera_antibanding_entryvalue_50"
+            android:entries="@array/pref_camera_antibanding_entries"
+            android:entryValues="@array/pref_camera_antibanding_entryvalues"
+            android:key="@string/pref_video_antibanding_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_antibanding_title" />
+
+        <!-- SPRD: Add color effect Bug 474727 -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_camera_color_effect_entry_value_none"
+            android:entries="@array/pref_camera_color_effect_entries"
+            android:entryValues="@array/pref_camera_color_effect_entryvalues"
+            android:key="@string/pref_video_color_effect_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_color_effect_title" />
+        <!-- SPRD: Bug:509708 Feature:Time Lapse. -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_timelapse_entry_value_default"
+            android:entries="@array/pref_video_timelapse_entries"
+            android:entryValues="@array/pref_video_timelapse_entry_values"
+            android:key="@string/pref_video_time_lapse_frame_interval_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_timelapse_title" />
+        <!-- SPRD Bug:474696 Feature:Slow-Motion. -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_entry_value_one"
+            android:entries="@array/pref_video_slow_motion_entries"
+            android:entryValues="@array/pref_video_slow_motion_entry_values"
+            android:key="@string/pref_video_slow_motion_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_video_slow_motion_title" />
+        <!-- gif -->
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_gif_mode_pic_size_default"
+            android:entries="@array/pref_gif_mode_pic_size_entries"
+            android:entryValues="@array/pref_gif_mode_pic_size_entryvalues"
+            android:key="@string/pref_gif_mode_pic_size_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_gif_mode_pic_size_title" />
+        <com.dream.camera.settings.DreamUIPreferenceItemList
+            android:defaultValue="@string/pref_gif_mode_pic_num_default"
+            android:entries="@array/pref_gif_mode_pic_number_entries"
+            android:entryValues="@array/pref_gif_mode_pic_number_entryvalues"
+            android:key="@string/pref_gif_mode_pic_number_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_gif_mode_pic_num_title" />
+        <!-- SPRD: Add video eios  -->
+        <com.dream.camera.settings.DreamUIPreferenceItemSwitch
+            android:defaultValue="false"
+            android:key="@string/pref_eois_dv_back_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_video_eois_key_title" />
+        <!-- SPRD: Add video eios  -->
+        <com.dream.camera.settings.DreamUIPreferenceItemSwitch
+            android:defaultValue="false"
+            android:key="@string/pref_eois_dv_front_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_video_eois_key_title" />
+        <!-- SPRD: Microphone switch -->
+        <com.dream.camera.settings.DreamUIPreferenceItemSwitch
+            android:defaultValue="false"
+            android:key="@string/pref_camera_microphone_switch_key"
+            android:layout="@layout/dream_ui_preference_custom"
+            android:title="@string/pref_camera_microphone_switch_key_title" />
+    </com.dream.camera.settings.DreamUISettingPartVideo>
+    <!-- SPRD: Reset -->
+    <com.dream.camera.settings.DreamUIPreferenceItemReset
+        android:defaultValue="hello"
+        android:key="@string/pref_dream_camera_reset_key"
+        android:layout="@layout/dream_ui_preference_custom_reset"
+        android:title="@string/pref_dream_camera_reset_key_title" />
+
+</PreferenceScreen>

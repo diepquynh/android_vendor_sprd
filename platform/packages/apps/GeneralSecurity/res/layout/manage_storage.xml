@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingEnd="10dp"
+    android:paddingStart="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/internal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center|top"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/internal_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/storage_background"
+                        android:gravity="center"
+                        android:text="@string/storage_size" />
+
+                    <TextView
+                        android:id="@+id/internal_background"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/scan_background2"
+                        android:gravity="center"
+                        android:visibility="gone" />
+                </FrameLayout>
+
+                <ListView
+                    android:id="@+id/internal_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="@dimen/storage_list_marginTop"
+                    android:gravity="top|center"/>
+
+                <Button
+                    android:id="@+id/internal_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:gravity="center"
+                    android:text="@string/start_scan_button" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/external"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center|top"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/external_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/storage_background"
+                        android:gravity="center"
+                        android:text="@string/storage_size" />
+
+                    <TextView
+                        android:id="@+id/external_background"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/scan_background2"
+                        android:gravity="center"
+                        android:visibility="gone" />
+                </FrameLayout>
+
+                <ListView
+                    android:id="@+id/external_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="@dimen/storage_list_marginTop"
+                    android:gravity="top|center" />
+
+                <Button
+                    android:id="@+id/external_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:gravity="center"
+                    android:text="@string/start_scan_button" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</TabHost>

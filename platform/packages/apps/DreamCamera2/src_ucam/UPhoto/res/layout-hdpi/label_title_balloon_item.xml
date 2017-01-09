@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010,2011 Thundersoft Corporation
+    All rights Reserved
+    -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.android.camera2"
+    android:layout_width="match_parent"
+    android:layout_height="60dip"
+    android:layout_gravity="center" >
+<!--     xmlns:custom="http://schemas.android.com/apk/res/com.ucamera.uphoto" -->
+
+    <TextView
+        android:id="@+id/edit_font_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/text_font_preview"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor = "@android:color/black"
+        android:textSize="28sp" />
+
+    <com.ucamera.uphoto.TitleView
+        android:id="@+id/edit_color_title_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <com.ucamera.uphoto.BalloonView
+        android:id="@+id/edit_color_balloon_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        custom:balloonHeight="30dip"
+        custom:balloonWidth="50dip"
+        android:gravity="center"
+        custom:viewHeight="36dip"
+        custom:viewWidth="60dip"
+        android:visibility="gone" />
+
+    <com.ucamera.uphoto.LabelView
+        android:id="@+id/edit_label_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/edit_download_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/download_normal"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/edit_font_free"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="6dip"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:background="@drawable/bt_bg_download_free"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:textSize="10dip"
+        android:textColor="@android:color/white"
+        android:text="@string/decorations_free"
+        android:visibility="gone" />
+
+</RelativeLayout>

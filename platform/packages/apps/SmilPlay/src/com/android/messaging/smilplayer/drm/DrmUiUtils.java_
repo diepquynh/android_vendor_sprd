@@ -1,0 +1,62 @@
+package com.sprd.mms.drm;
+
+import android.app.Activity;
+import android.app.AddonManager;
+import android.content.ContentUris;
+import android.content.Context;
+import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.net.Uri;
+import android.os.SystemProperties;
+import android.provider.Telephony.Mms;
+import android.view.Menu;
+
+import com.google.android.mms.pdu.PduBody;
+import com.google.android.mms.pdu.PduPart;
+
+import com.android.mms.R;
+import com.android.mms.model.SlideshowModel;
+import com.android.mms.model.AudioModel;
+import com.android.mms.model.VideoModel;
+import com.android.mms.ui.UriImage;
+import com.android.mms.util.ThumbnailManager;
+import com.android.mms.ui.MessageListItem;
+import com.android.mms.ui.MessageListItem.ImageLoadedCallback;
+
+public class DrmUiUtils {
+    static DrmUiUtils sInstance;
+    public static Context mContext;
+
+    public static DrmUiUtils getInstance(Context context) {
+        mContext = context;
+        if (sInstance != null)
+            return sInstance;
+        sInstance = (DrmUiUtils) AddonManager.getDefault().getAddon(
+                R.string.mms_ui, DrmUiUtils.class);
+        return sInstance;
+
+    }
+
+    public DrmUiUtils() {
+    }
+
+    public boolean setItemImage(ImageLoadedCallback callback, long messageId) {
+        return false;
+    }
+
+    public Bitmap createDrmBitmap(String name, Bitmap bitmap) {
+        return null;
+    }
+
+    public boolean isMmsWithDrmFile(long msgId) {
+        return false;
+    }
+
+    public boolean isDrmBody(PduBody body) {
+        return false;
+    }
+
+    public boolean isDrmPart(PduPart part) {
+        return false;
+    }
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Diversity" >
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/wdiversity_entries"
+        android:entryValues="@array/wdiversity_values"
+        android:key="w_Div"
+        android:title="@string/wdiversity" >
+    </ListPreference>
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/ltediversity_entries"
+        android:entryValues="@array/ltediversity_values"
+        android:key="lte_SCC_TX"
+        android:title="@string/ltediversityTX" >
+    </ListPreference>
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/ltediversity_entries"
+        android:entryValues="@array/ltediversity_values"
+        android:key="lte_Div_RX"
+        android:title="@string/ltediversityRX" >
+    </ListPreference>
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/ltediversity_entries"
+        android:entryValues="@array/ltediversity_values"
+        android:key="lte_Pri_TX"
+        android:title="@string/ltediversityPriTX" >
+    </ListPreference>
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/ltediversity_entries"
+        android:entryValues="@array/ltediversity_values"
+        android:key="lte_Pri_RX"
+        android:title="@string/ltediversityPriRX" >
+    </ListPreference>
+
+</PreferenceScreen>
+<!-- SPRD: add Diversity switch by alisa.li 20160517 -->

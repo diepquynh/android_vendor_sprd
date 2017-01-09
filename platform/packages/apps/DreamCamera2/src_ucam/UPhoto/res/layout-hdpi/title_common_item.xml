@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010,2011 Thundersoft Corporation
+    All rights Reserved
+    -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity = "center"
+    android:background = "@drawable/edit_placeholder"
+    android:orientation="vertical">
+
+    <RelativeLayout android:id="@+id/title_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="18dip"
+        android:paddingBottom="18dip"
+        android:paddingLeft="28dip"
+        android:paddingRight="28dip">
+        <ImageView
+            android:id="@+id/icon_selection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility = "invisible" />
+        <com.ucamera.uphoto.TitleView
+            android:id="@+id/edit_title_common_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop = "true"
+            android:layout_centerHorizontal = "true"
+            android:visibility="gone"
+             />
+        <TextView
+            android:id="@+id/text_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dip"
+            android:singleLine = "true"
+            android:ellipsize = "end"
+            android:gravity="center_horizontal|bottom"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="12dip"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/edit_title_common_item_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/title_layout"
+        android:layout_alignRight="@id/title_layout"
+        android:src="@drawable/edit_common_title_delete"
+        android:visibility="gone" />
+</RelativeLayout>

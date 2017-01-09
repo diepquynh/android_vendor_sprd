@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010,2011 Thundersoft Corporation
+    All rights Reserved
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "40dip"
+    android:gravity = "center"
+    >
+    <TextView
+        android:id = "@+id/tv_download_center_tab_name"
+        android:layout_width = "match_parent"
+        android:layout_height = "fill_parent"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity ="center"
+        android:textColor ="@drawable/download_tab_textview_color_selector"
+        android:textStyle ="bold"
+        />
+</RelativeLayout>

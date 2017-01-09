@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/power" >
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="real_network"
+            android:summaryOff="@string/simulate_net"
+            android:summaryOn="@string/real_net"
+            android:title="@string/real_network" 
+            android:enabled="false">
+        </com.sprd.engineermode.EMSwitchPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/iottest" >
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/supplementary_service_query_entries"
+            android:entryValues="@array/supplementary_service_query_values"
+            android:key="supplementary_service_query"
+            android:title="@string/supplementary_service_query" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/qpasetting" >
+        <Preference
+            android:defaultValue="false"
+            android:key="gprsservice"
+            android:title="@string/gprsservice" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.sprd.engineermode.debuglog.GPRSAttachServiceActivity"
+                android:targetPackage="com.sprd.engineermode" >
+            </intent>
+        </Preference>
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/supplementary_service_query_entries"
+            android:entryValues="@array/supplementary_service_query_values"
+            android:key="supplementary_service_query1"
+            android:title="@string/supplementary_service_query" />
+
+<!-- Bug 512270 delect apn setting item
+        <Preference
+            android:title="@string/apn_setting" 
+            android:key="apn_setting">
+        </Preference>
+ -->
+    </PreferenceCategory>
+
+</PreferenceScreen>

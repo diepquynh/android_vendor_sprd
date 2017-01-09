@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/misc" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="sms_fill_memory"
+        android:title="SMS Fill Memory" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="mms_fill_memory"
+        android:title="MMS Fill Memory" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="show_mms_reply_choice"
+        android:title="Show MMS Reply Choice" >
+    </CheckBoxPreference>
+
+</PreferenceScreen>

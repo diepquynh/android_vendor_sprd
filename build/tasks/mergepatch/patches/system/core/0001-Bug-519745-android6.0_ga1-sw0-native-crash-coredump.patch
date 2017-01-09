@@ -1,0 +1,300 @@
+From 0ecb4e22b2b583fbed18b9335c3b102c88016f23 Mon Sep 17 00:00:00 2001
+From: "lifei.cui" <lifei.cui@spreadtrum.com>
+Date: Wed, 30 Dec 2015 20:15:59 +0800
+Subject: =?UTF-8?q?Bug=20#519745=20-=20[android6.0=5Fga1][sw0]=E9=BB=98=E8=AE?=
+ =?UTF-8?q?=A4=E4=B8=8D=E5=85=B7=E5=A4=87=E8=BF=9B=E7=A8=8Bnative=20crash=E7?=
+ =?UTF-8?q?=9A=84coredump=E5=8A=9F=E8=83=BD?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+[root cause  ] AOSP默认关闭进程的core dump功能,　需要手动打开
+[changes     ] 1. 修改tombstone文件 merge 5.1改动 2. 修改art,
+使java进程有core dump功能 3. 更新sepolicy
+[side effects] None
+[self test   ] 手动测试+monkey测试, pass
+[reviewers   ]
+[change_type ] AOB --> google_original
+[tag_product ] common
+
+Change-Id: I15b312fca7159a764360da8db4951e1f08a7ccf0
+---
+ debuggerd/Android.mk    |    2 +
+ debuggerd/debuggerd.cpp |    7 +++
+ debuggerd/tombstone.cpp |  156 +++++++++++++++++++++++++++++++++++++++++++++++
+ libutils/Android.mk     |   14 +++++
+ 4 files changed, 179 insertions(+)
+
+diff --git a/debuggerd/Android.mk b/debuggerd/Android.mk
+index 6cfb541..0c7a818 100644
+--- a/debuggerd/Android.mk
++++ b/debuggerd/Android.mk
+@@ -37,6 +37,7 @@ LOCAL_SHARED_LIBRARIES := \
+     libcutils \
+     liblog \
+     libselinux \
++    libutils \
+ 
+ LOCAL_CLANG := true
+ 
+@@ -89,6 +90,7 @@ debuggerd_shared_libraries := \
+     libbacktrace \
+     libbase \
+     libcutils \
++    libutils \
+ 
+ debuggerd_c_includes := \
+     $(LOCAL_PATH)/test \
+diff --git a/debuggerd/debuggerd.cpp b/debuggerd/debuggerd.cpp
+index b84a4e5..95272bf 100644
+--- a/debuggerd/debuggerd.cpp
++++ b/debuggerd/debuggerd.cpp
+@@ -342,9 +342,16 @@ static void redirect_to_32(int fd, debugger_request_t* request) {
+ }
+ #endif
+ 
++extern int check_corefile_limit();
++
+ static void handle_request(int fd) {
+   ALOGV("handle_request(%d)\n", fd);
+ 
++  //The log "unexpected waitpid response" and "tid exited before attach completed"
++  //in function wait_for_sigstop cause the check_corefile_limit not to be invoked.
++  //So call it here to check corefile limitation and close the coredump if necessary.
++  check_corefile_limit();
++
+   debugger_request_t request;
+   memset(&request, 0, sizeof(request));
+   int status = read_request(fd, &request);
+diff --git a/debuggerd/tombstone.cpp b/debuggerd/tombstone.cpp
+index b0ad274..27a9bb8 100644
+--- a/debuggerd/tombstone.cpp
++++ b/debuggerd/tombstone.cpp
+@@ -53,15 +53,30 @@
+ #include "machine.h"
+ #include "tombstone.h"
+ 
++#include <utils/Timers.h>
++#ifdef HAVE_ANDROID_OS
++#include <linux/ioctl.h>
++#include <linux/rtc.h>
++#include <utils/Atomic.h>
++#include <linux/android_alarm.h>
++#endif
++
+ #define STACK_WORDS 16
+ 
+ #define MAX_TOMBSTONES  10
++#define MAX_COREDUMPS   4
+ #define TOMBSTONE_DIR   "/data/tombstones"
+ #define TOMBSTONE_TEMPLATE (TOMBSTONE_DIR"/tombstone_%02d")
+ 
++#define COREDUMP_DATA_DIR      "/data/corefile"
++#define COREDUMP_PATTERN_FILE  "/proc/sys/kernel/core_pattern"
++#define COREDUMP_NULL_PATTERN  "/dev/null"
++
+ // Must match the path defined in NativeCrashListener.java
+ #define NCRASH_SOCKET_PATH "/data/system/ndebugsocket"
+ 
++static char s_coredump_dir[64] = COREDUMP_DATA_DIR;
++
+ static bool signal_has_si_addr(int sig) {
+   switch (sig) {
+     case SIGBUS:
+@@ -634,6 +649,39 @@ static void dump_abort_message(Backtrace* backtrace, log_t* log, uintptr_t addre
+   _LOG(log, logtype::HEADER, "Abort message: '%s'\n", msg);
+ }
+ 
++static int64_t elapsedRealtime()
++{
++#ifdef HAVE_ANDROID_OS
++  static int s_fd = -1;
++
++  if (s_fd == -1) {
++      int fd = open("/dev/alarm", O_RDONLY);
++      if (android_atomic_cmpxchg(-1, fd, &s_fd)) {
++          close(fd);
++      }
++  }
++
++  struct timespec ts;
++  int result = ioctl(s_fd,
++          ANDROID_ALARM_GET_TIME(ANDROID_ALARM_ELAPSED_REALTIME), &ts);
++
++  if (result == 0) {
++      int64_t when = seconds_to_nanoseconds(ts.tv_sec) + ts.tv_nsec;
++      return (int64_t) nanoseconds_to_milliseconds(when);
++  } else {
++      // XXX: there was an error, probably because the driver didn't
++      // exist ... this should return
++      // a real error, like an exception!
++      int64_t when = systemTime(SYSTEM_TIME_MONOTONIC);
++      return (int64_t) nanoseconds_to_milliseconds(when);
++  }
++#else
++  int64_t when = systemTime(SYSTEM_TIME_MONOTONIC);
++  return (int64_t) nanoseconds_to_milliseconds(when);
++#endif
++}
++
++
+ // Dumps all information about the specified pid to the tombstone.
+ static bool dump_crash(log_t* log, pid_t pid, pid_t tid, int signal, int si_code,
+                        uintptr_t abort_msg_address, bool dump_sibling_threads,
+@@ -655,6 +703,11 @@ static bool dump_crash(log_t* log, pid_t pid, pid_t tid, int signal, int si_code
+ 
+   _LOG(log, logtype::HEADER,
+        "*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***\n");
++  _LOG(log, logtype::HEADER,
++       "Native Crash TIME: %lld\n", (long long)elapsedRealtime());
++  _LOG(log, logtype::HEADER,
++       "*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***\n");
++
+   dump_header_info(log);
+   dump_thread_info(log, pid, tid);
+ 
+@@ -780,6 +833,106 @@ static int activity_manager_connect() {
+   return amfd;
+ }
+ 
++int check_corefile_limit()
++{
++  DIR *d;
++  struct dirent *de;
++  int cur_core_count = 0;
++  FILE *fp = NULL;
++  char core_pattern[128] = {0};
++  char cmd[512] = {0};
++
++  fp = fopen(COREDUMP_PATTERN_FILE, "r");
++  if (NULL == fp)
++  {
++      ALOGE("open %s failed: %s\n", COREDUMP_PATTERN_FILE, strerror(errno));
++      return 1;
++  }
++
++  fgets(core_pattern, sizeof(core_pattern), fp);
++  fclose(fp);
++
++  /** core dump disabled */
++  if (0 == strncmp(COREDUMP_NULL_PATTERN, core_pattern, strlen(COREDUMP_NULL_PATTERN)))
++  {
++      return 1;
++  }
++
++   d = opendir(s_coredump_dir);
++   if (d == NULL)
++   {
++       return 1; //open dir filed ,so did not creat maps file.
++   }
++
++   while ((de = readdir(d)) != NULL)
++   {
++       /* Ignore "." and ".." */
++       if (!strcmp(de->d_name, ".") || !strcmp(de->d_name, ".."))
++        {
++            continue;
++        }
++
++       if( !strncmp(de->d_name, "core", 4))    //only match core-xx
++       {
++            cur_core_count++;
++       }
++   }
++   closedir(d);
++
++   //disable coredump
++   if(cur_core_count >= MAX_COREDUMPS)
++   {
++       //only set to /dev/null.user build did not open core .
++       snprintf(cmd, sizeof(cmd), "echo %s > %s", COREDUMP_NULL_PATTERN, COREDUMP_PATTERN_FILE);
++       system(cmd);
++       return 1;
++   }
++
++   return 0;
++}
++
++
++//add for dump map file
++void dump_crash_maps(unsigned pid)
++{
++    char data[1024] = {0};
++    char desfilename[128] = {0};
++    int  handler_des;
++    int  ret;
++    FILE *fp_maps = NULL;
++
++    if(1 == check_corefile_limit())
++    {
++        return ;
++    }
++
++    sprintf(data, "/proc/%d/maps", pid);
++    sprintf(desfilename,"%s/maps_%d", s_coredump_dir, pid);
++
++    //cp file to maps file.
++    fp_maps = fopen(data, "r");
++    if(fp_maps == NULL) {
++        return;
++    }
++
++    handler_des = open(desfilename, O_CREAT | O_EXCL | O_WRONLY, 0666);
++    if(handler_des < 0) {
++        fclose(fp_maps);
++        return;
++    }
++    fchown(handler_des, AID_SYSTEM, AID_SYSTEM);
++
++    while((ret = fread(data,1, 1024,fp_maps)) > 0)
++    {
++        write(handler_des, data, ret);
++    }
++
++    fclose(fp_maps);
++    close(handler_des);
++
++    return;
++}
++
+ char* engrave_tombstone(pid_t pid, pid_t tid, int signal, int original_si_code,
+                         uintptr_t abort_msg_address, bool dump_sibling_threads,
+                         bool* detach_failed, int* total_sleep_time_usec) {
+@@ -796,6 +949,9 @@ char* engrave_tombstone(pid_t pid, pid_t tid, int signal, int original_si_code,
+     _LOG(&log, logtype::ERROR, "failed to change ownership of %s: %s\n", TOMBSTONE_DIR, strerror(errno));
+   }
+ 
++  //dump maps & check corefile limit .
++  dump_crash_maps(pid);
++
+   int fd = -1;
+   char* path = NULL;
+   if (selinux_android_restorecon(TOMBSTONE_DIR, 0) == 0) {
+diff --git a/libutils/Android.mk b/libutils/Android.mk
+index d1ed997..e088f77 100644
+--- a/libutils/Android.mk
++++ b/libutils/Android.mk
+@@ -64,6 +64,20 @@ LOCAL_CFLAGS += $(host_commonCflags)
+ LOCAL_MULTILIB := both
+ include $(BUILD_HOST_STATIC_LIBRARY)
+ 
++include $(CLEAR_VARS)
++LOCAL_SRC_FILES:= $(commonSources)
++ifeq ($(HOST_OS), linux)
++LOCAL_SRC_FILES += Looper.cpp
++endif
++ifeq ($(HOST_OS),darwin)
++LOCAL_CFLAGS += -Wno-unused-parameter
++endif
++LOCAL_MODULE:= libutils
++LOCAL_SHARED_LIBRARIES := liblog
++LOCAL_CFLAGS += $(host_commonCflags)
++LOCAL_MULTILIB := both
++include $(BUILD_HOST_SHARED_LIBRARY)
++
+ 
+ # For the device, static
+ # =====================================================
+-- 
+1.7.9.5
+

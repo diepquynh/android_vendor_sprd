@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="GSM IQ" >
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="audio_iq"
+        android:title="Audio IQ" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:defaultValue="false"
+        android:key="communicate_iq"
+        android:title="Communicate IQ" >
+    </com.sprd.engineermode.EMSwitchPreference>
+</PreferenceScreen> 

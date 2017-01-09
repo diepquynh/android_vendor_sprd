@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open_aprserver"
+            android:textColor="#000000"
+            android:textSize="20sp" >
+        </TextView>
+
+        <Switch
+            android:id="@+id/open_aprserver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/apr_selected_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:clickable="false"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/apr_item_anr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="25dip"
+            android:text="@string/apr_select_anr"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/apr_item_nativecrash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="25dip"
+            android:text="@string/apr_select_nativecrash"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/apr_item_javacrash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="25dip"
+            android:text="@string/apr_select_javacrash"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/apr_item_modemassert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="25dip"
+            android:text="@string/apr_select_modemassert"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/apr_item_crashclass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="25dip"
+            android:text="@string/apr_select_crashclass"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"সাউন্ড রেকর্ডার"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"আপনার বার্তা রেকর্ড হচ্ছে"</string>
+    <string name="message_recorded" msgid="381539460921872233">"বার্তা রেকর্ড হয়েছে"</string>
+    <string name="review_message" msgid="201616012287839474">"বার্তা পর্যালোচনা করুন"</string>
+    <string name="recording" msgid="4426791467211376099">"রেকর্ড হচ্ছে"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"রেকর্ডিং বন্ধ হয়েছে"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"সঞ্চয়স্থান পূর্ণ"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"সর্বোচ্চ দৈর্ঘ্যসীমায় পৌঁচেছে"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"USB সঞ্চয়স্থান মাউন্ট করুন"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"একটা SD কার্ড ঢোকান"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> মিনিট উপলব্ধ"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> উপলব্ধ"</string>
+    <string name="accept" msgid="1888285552128743656">"সম্পন্ন"</string>
+    <string name="discard" msgid="761613433029406319">"খারিজ করুন"</string>
+    <string name="button_ok" msgid="3004911343723076226">"ঠিক আছে"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"আপনার রেকর্ডিংগুলি"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"অডিও রেকর্ডিংগুলি"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"আমার রেকর্ডিংগুলি"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"USB সঞ্চয়স্থান অ্যাক্সেস করা যাচ্ছে না।"</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"SD কার্ড অ্যাক্সেস করা যাচ্ছে না।"</string>
+    <string name="error_app_internal" msgid="312884382388702022">"অভ্যন্তরীণ অ্যাপ্লিকেশান ত্রুটি।"</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"রেকর্ড করা অডিও সংরক্ষণ করা যায়নি।"</string>
+    <string name="recording_save">"রেকর্ডিং সংরক্ষিত হয়েছে"</string>
+     <string name="recording_nosave">"রেকর্ডিং সংরক্ষণ করা হয় নি"</string>
+     <string name="phone_message">"কল করার সময়ে সাউন্ড রেকর্ডার চালু করা সম্ভব নয়।"</string>
+     <string name="min_and_time_available">"<xliff:g id="minutes">%d</xliff:g> এর বিষয়ে মিনিট এবং <xliff:g id="seconds">%d</xliff:g> সেক্ উপলব্ধ আছে"      </string>
+     <string name="press_record">"রেকর্ড টিপুন"</string>
+     <string name="save">রক্ষা</string>
+     <string name="select_file_type">"রেকর্ড ফাইল প্রকার বাছুন"</string>
+     <string name="record_amr">"amr প্রকার (নিম্ন-মান)"</string>
+     <string name="record_3gpp">"3gpp প্রকার (উচ্চ-মান)"</string>
+     <string name="button_cancel">বাতিল</string>
+     <string name="path_save">"ডিফল্ট পথ সেভ্ করা হয়েছে"      </string>
+     <string name="path_nosave">"ডিফল্ট পথ সেভ্ করা হয় নি"      </string>
+     <string name="path_default">"বর্তমান পথ লেখার যোগ্য নয় অথবা অবৈধ, এটি অভ্যন্তরীণ স্টোরেজ পথের উপায়"      </string>
+     <string name="menu_set_save_path">"সংরক্ষণের পাথ সেট করুন"</string>
+     <string name="back">"পিছনে.."</string>
+     <string name="path_label">"অনুগ্রহ করে বেছে নিন পাঠ সংরক্ষণ"</string>
+     <string name="pause">বিরতি</string>
+     <string name="storage_is_not_enough">"স্টোরেজ পর্যাপ্ত নয়"</string>
+     <string name="menu_recording_file_list">"রেকর্ডিং ফাইলের তালিকা"</string>
+     <string name="recording_list_empty"> খালি তালিকা</string>
+     <string name="menu_recording_list_select_all">সব নির্বাচন করুন</string>
+     <string name="menu_recording_list_delete">মুছে দিন</string>
+     <string name="menu_recording_list_deselect_all">"চয়নমুক্ত"</string>
+     <string name="recording_file_delete_success">"রেকর্ডিং মোছা হয়েছে"</string>
+     <string name="recording_file_database_failed">"ডাটাবেস ফাইল মুছতে ব্যর্থ"</string>
+     <string name="recording_file_delete_failed">"রেকর্ডিং ফাইল মুছতে ব্যর্থ"</string>
+     <string name="confirm_del">"এই ফাইলগুলি মুছতে আপনি কি নিশ্চিত?"</string>
+     <string name="button_delete">মুছে দিন</string>
+     <string name="recording_file_delete_alert_title">মুছে দিন</string>
+     <string name="recording_file_delete_alert_message">"%1$s মুছতে নিশ্চিত ?"</string>
+     <string name="recording_file_list">"রেকর্ডিং ফাইলের তালিকা"</string>
+     <string name="less_than_one_second">1 সেকেন্ড</string>
+     <string name="is_scanning">"মিডিয়া স্ক্যানার এখন স্ক্যান করছে, অনুগ্রহ করে অপেক্ষা করুন..."      </string>
+     <string name="emptylist">"তালিকা ফাঁকা আছে"</string>
+     <string name="choose_file">"অনুগ্রহ করে বেছে নিন সেউ রেকর্ডিং যাতে আপনি ফাইল মুছতে চান!"</string>
+     <string name="error_path">"আপনি যে পাঠ বেছেছেন তা বিদ্যমান নেই, অনুগ্রহ করে রিসেট করুন!"</string>
+     <string name="path_miss">"সঞ্চিত পথের কোন অস্তিত্ব নেই বা প্রবিষ্ট করা যাবে না!"      </string>
+     <string name="low_memory">"ফোনের মেমরি যথেষ্ট নয়, রেকর্ডিং থামবে!"      </string>
+     <string name="record_error">"রেকর্ডিংয়ে একটি ব্যতিক্রম হয়েছে!"</string>
+     <string name="play_error">"মিউজিক প্লেয়ার নিষ্ক্রিয় হয়ে গেছে, খুলতে অসমর্থ!"      </string>
+     <string name="dialog_title">নির্বাচন করুন</string>
+     <string name="dialog_message">"রেকর্ডিং সংরক্ষণ করবেন?"</string>
+     <string name="same_application_running">"রেকর্ডিং ডিভাইসটি অন্য একটি প্রোগ্রাম ব্যবহার করছে, অনুগ্রহ করে সেই প্রোগ্রাম বন্ধ করুন!"</string>
+     <string name="recording_time_short">রেকর্ডিং সময় 1 সেকেন্ডের কম, সেইভ হয়নি</string>
+     <string name="file_path_button">ফাইল পথ</string>
+     <string name="file_name">ফাইলের নাম:</string>
+     <string name="file_path">ফাইল পথ:</string>
+     <string name="rename">"পুনঃনামকরণ"</string>
+     <string name="rename_save">"সাফল্যের সাথে নতুন নামকরণ করুন"      </string>
+     <string name="rename_nosave">নামান্তর সফল হয়নি</string>
+     <string name="filename_is_not_modified"> ফাইলনাম পরিবর্তন করা হয়নি </string>
+     <string name="duplicate_name"> ফাইলের নাম প্রতিলিপি </string>
+     <string name="soundpicker_label">রেকর্ডিং ফাইল সিলেক্ট করুন</string>
+     <string name="error_sdcard_path"> “sdকার্ড বিদ্যমান নেই।ডিফল্ট সেইভ পাথ অভ্যন্তরীণ স্টোরেজে  পরিবর্তিত হয়েছে।”</string>
+     <string name="input_length_overstep">ইনপুটের সর্বোচ্চ দৈর্ঘ্যে পৌঁছেছেন  </string>
+     <string name="filename_empty_error"> ফাইলনাম , খালি হতে আসল নাম সংরক্ষণ করতে পারবেন না </string>
+     <string name="please_choose_files"> ফাইল চয়ন করুন </string>
+     <string name="selected_files_count">"<xliff:g id="COUNTS">%d</xliff:g>নির্বাচিত হয়েছে "</string>
+     <string name="use_default_path">"সঞ্চিত পাথটি বিদ্যমান নেই, ডিফল্ট পাথ ব্যবহার করুন"</string>
+     <string name="stroage_not_mounted">"স্টোরেজ মাউন্ট করা হয় নি"</string>
+     <string name="special_char_exist">"বিশেষ বর্ণগুলি <xliff:g id="COUNTS">%s</xliff:g> কাজে লাগছে না"      </string>
+     <string name="menu_select_more">আরও অধিক নির্বাচন করুন</string>
+     <string name="menu_select_type">"ফাইল টাইপ সেট্ করুন"      </string>
+     <string name="path_miss_nosave">"সঞ্চিত পথের কোন অস্তিত্ব নেই, রেকর্ডিং সেভ্ করা গেল না!"      </string>
+     <string name="dialog_dismiss">"বরখাস্ত করা"</string>
+     <string name="error_permissions">"অ্যাপ্লিকেশাটি চালানোর জন্য কোনো গুরুত্বপূর্ণ অনুমতির প্রয়োজন নেই৷ অনুগ্রহ করে আপনার অনুমতি সেটিংস পরীক্ষা করুন৷"</string>
+
+    <string name="internal_sdcard">"আভ্যন্তরীন sd কার্ড"</string>
+     <string name="external_sdcard">"বাইরের sd কার্ড"</string>
+    <string name="internal_storage">"অভ্যন্তরীণ সঞ্চয়স্থান"</string>
+     <string name="external_storage">"বাহ্যিক সঞ্চয়"</string>
+     <string name="set_as_ring">"রিংটোন হিসাবে সেট করুন"</string>
+     <string name="read_file_path">"ফাইল পাথ দেখে নিন"</string>
+     <string name="operate_share">ভাগ</string>
+     <string name="ringtone_title_sim1">"SIM1 ফোন রিংটোন"</string>
+     <string name="ringtone_title_sim2">"SIM2 ফোন রিংটোন""</string>
+     <string name="ringtone_menu_short">"রিংটোন হিসাবে ব্যবহার করুন"</string>
+     <string name="please_insert_sim_card">"অনুগ্রহ করে অন্তত একটি SIM কার্ড লাগান"</string>
+     <string name="ring_set_silent_vibrate">"বর্তমান মোডে পছন্দমত রিংটোন বাজানো যাচ্ছে না"      </string>
+     <string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" SIM1 ফোন রিংটোন হিসাবে সেট করুন।"</string>
+     <string name="ringtone_set_sim2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" SIM2 ফোন রিংটোন হিসাবে সেট করুন।"</string>
+     <string name="ringtone_set">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" ফোন রিংটোন হিসাবে সেট করুন।"</string>
+     <string name="ring_set_fail">দুঃখিত, গান প্লে করা যাবে না। রিংটোন হিসেবে অন্য একটি গান নির্বাচন করুন।</string>
+     <string name="tag_limit">"ট্যাগের সংখ্যা সর্বাধিক হয়ে গেছে"</string>
+     <string name="no_allow_play_calling">"একটি কলের সময় গান বাজাতে অনুমোদিত নয় (রেডিও/ভিডিও)।"</string>
+     <string name="playback_failed">প্লেয়ার সমর্থন করে না এই প্রকার অডিও ফািল</string>
+     <string name="tag">ট্যাগ</string>
+     <string name="previous_tag">"শেষ ট্যাগ"</string>
+     <string name="next_tag">"পরের ট্যাগ"</string>
+     <string name="recording_play">"রেকর্ডিং চালান"</string>
+     <string name="clip_duration_tip">"দৈর্ঘ্য সম্পাদনা করুন"</string>
+     <string name="record_setting">"রেকর্ড সেটিং"</string>
+     <string name="file_type">ফাইলের ধরণ</string>
+     <string name="type_amr">"amr টাইপ"</string>
+     <string name="type_3gpp">"3gpp টাইপ"</string>
+     <string name="save_path">"স্টোর করা পথ"</string>
+     <string name="set_timer_recording">"টাইমার রেকর্ডিং সেট করুন"</string>
+     <string name="timer_recording_detail">"রেকর্ড করা শুরু করুন <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> সময়ে <xliff:g id="COUNTS">%s</xliff:g> জন্য"</string>
+     <string name="view_file_details">বিস্তারিত দেখুন</string>
+     <string name="file_size">"ফাইলের আকার："</string>
+     <string name="file_date">"ফাইলের তারিখ："</string>
+     <string name="recording_start_time">"রেকর্ডিং শুরুর সময়"</string>
+     <string name="recording_duration">"ঘন্টায় রেকর্ডিং এর সময় মেয়াদ"</string>
+     <string name="tuned_timer_recording">"টাইমার রেকর্ডিং চালু করা হয়েছে"</string>
+     <string name="miss_timer_recording">"টাইমার রেকর্ডিং বাদ পড়ে গেছে"</string>
+     <string name="miss_timer_time">"সময়: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>"ঘন্টা"</item>
+        <item>"ঘন্টাগুলি"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"এখন থেকে এক মিনিটেরও কম সময় বাদে টাইমার রেকর্ডিং সেট করা হয়েছে"</item>
+        <item>"এখন থেকে টাইমার রেকর্ডিং সেট করা হয়েছে <xliff:g id="HOURS">%1$s</xliff:g> - র জন্য।"</item>
+        <item>"এখন থেকে টাইমার রেকর্ডিং সেট করা হয়েছে <xliff:g id="MINUTES">%2$s</xliff:g>  - র জন্য।"</item>
+        <item>"খন থেকে টাইমার রেকর্ডিং সেট করা হয়েছে <xliff:g id="HOURS">%1$s</xliff:g> এবং  <xliff:g id="MINUTES">%2$s</xliff:g> - র জন্য।"</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">১ ঘন্টা</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> ঘন্টা"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"1 মিনিট"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> মিনিট"</item>
+    </plurals>
+     <string name="start_record">"রেকর্ড শুরু করুন"</string>
+     <string name="resume_record">"রেকর্ড করা আবার শুরু করুন"</string>
+     <string name="start_play">"চালানো শুরু করুন"</string>
+     <string name="resume_play">"চালানো আবার শুরু করুন"</string>
+     <string name="reset_timer_recording">"রেকর্ডিং ডিভাইসটি অন্য প্রোগামে ব্যবহৃত হচ্ছে, অনুগ্রহ করে টাইমার রেকর্ডিং রিসেট করুন!"</string>
+     <string name="storage_not_enough">"স্টোরেজ পর্যাপ্ত নয়, টাইমার রেকর্ডিং শুরু করতে ব্যর্থ!"</string>
+     <string name="phone_storage_not_enough">"ফোন স্টোরেজ পর্যাপ্ত নয়!"</string>
+
+</resources>

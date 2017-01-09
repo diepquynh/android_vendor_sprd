@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_number">"Naar:"</string>
+<string name="toast_copy_to_sim_success">"Succesvol naar SIM"</string>
+<string name="toast_copy_to_sim_failure">"Gefaald te kopiëren naar SIM"</string>
+<string name="toast_sim_memory_full">"SIM geheugen is vol"</string>
+<string name="toast_copy_to_multi_sim_success">"Succesvol naar SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_multi_sim_failure">"Gefaald bij kopiëren naar SIM<xliff:g id="COUNT">%1$s<xl></xl></xliff:g>"</string>
+<string name="toast_multi_sim_memory_full">"SIM <xliff:g id="COUNT">%1$S</xliff:g> geheugen is vol"</string>
+<string name="Conversation_check_type_selected_all">"Kies alles"</string>
+<string name="menu_msg_folder">"Map overzicht"</string>
+<string name="menu_msg_list">"Boodschap overzicht"</string>
+<string name="folder_inbox">"Inbox"</string>
+<string name="folder_outbox">"Uitgaand"</string>
+<string name="folder_sent">"Verzonden"</string>
+<string name="folder_drafts">"Ontwerpen"</string>
+<string name="folder_empty">"Geen boodschap in deze map"</string>
+<string name="folder_display_all">"Geef alle boodschappen weer"</string>
+<string name="folder_delete_messages">"Verwijder boodschappen"</string>
+<string name="folder_loading">"Ladend.."</string>
+<string name="folder_reply">"Beantwoord"</string>
+<string name="folder_forward">"Doorsturen"</string>
+<string name="no_msg_del">"Geen boodschappen verwijderd"</string>
+<string name="exceed_slides_number_limitation">"Dia aantal limiet bereikt"</string>
+<string name="has_vcard_or_vcalendar_attachment">"Heeft al <xliff:g id="TYPE">%1$s</xliff:g>, kan niet meer toevoegen"</string>
+<string name="folder_sortby">"Sorteer op"</string>
+<string name="OTAConfig_title">"OTAConfig instellingen"</string>
+<string name="OTAConfig_Message">"Weet u zeker dat u wilt opslaan naar OTA configuratie?"</string>
+<string name="OTAConfiy_Success">"OTA boodschap instelling gelukt"</string>
+<string name="OTAConfiy_Error">"OTA configuratie fout""</string>
+<string name="ota_pin_error">"OTA beveiliging fout""</string>
+<string name="ota_retry">"wachtoord fout"</string>
+<string name="ota_pin_exception">"OTA configuratie fout：programma fout."</string>
+<string name="ota_mime_error">"OTA configuratie fout：boodschap gegevens fout."</string>
+<string name="ota_support_not">"OTA configuratie fout：<xliff:g id="OTATYPE">%1$s</xliff:g> niet ondersteund type."</string>
+<string name="pref_reply_path_title">"Antwoord pad instellingen"</string>
+<string name="pref_title_reply_path">"Antwoord pad"</string>
+<string name="pref_summary_reply_path">"Antwoord via hetzelfde centrum"</string>
+<string name="cannot_add_picture_and_vcard">"Kan geen vcard en afbeelding aan een dia toevoegen."</string>
+<string name="mms_setting">"Mms instelling"</string>
+<string name="pref_title_font_size">"Font grootte instelling"</string>
+<string name="font_size_setting">"Font grootte instelling"</string>
+<string name="font_size">"De font grootte is: <xliff:g id="font_size_id">%1$s</xliff:g>"</string>
+<string name="menu_copy_to_sim_memory">"Kopieer boodschap naar SIM"</string>
+<string name="menu_add_recipient_to_contacts">"Toevoegen <xliff:g id="name">%s</xliff:g>naar contacten"</string>
+<string name="action_done">"Gereed"</string>
+<string name="message_signature_setting">"Handtekening instelling"</string>
+<string name="pref_signature_enable_title">"Optionele handtekening"</string>
+<string name="pref_signature_enabl_summary">"Voeg automatisch handtekening toe aan iedere mms die u verstuurt"</string>
+<string name="pref_signature_input_title">"Bewerk handtekening"</string>
+<string name="pref_signature_input_summary">"Voer hier in om uw handtekening in te stellen"</string>
+<string name="pref_signature_input_limited">"De handtekening heeft zijn limiet bereikt"</string>
+<string name="pref_hint_signature_edittext">"Geef alstublieft uw handtekening op"</string>
+<string name="toast_append_signature_failed">"Toevoegen handtekening aan mms gefaald, dia grootte is bereikt"</string>
+<string name="pageIndex">"Pagina nr"</string>
+<string name="remove_subject">"Verwijder onderwerp"</string>
+<string name="toast_message_when_memory_full">"Geheugen is vol, verwijder alstublieft enkele en begin opnieuw"</string>
+<string name="toast_save_classzero_message_failed">"Geen ruimte over, opslaan boodschap gefaald"</string>
+<string name="toast_shared_file_failed">"Niet ondersteund media bestand, delen gefaald."</string>
+<string name="message_too_many_recipients_picked">"Sorry, u kunt niet meer toevoegen dan <xliff:g id="COUNT">%1$s</xliff:g> contacten per keer""</string>
+<string name="pref_title_manage_sim_smsc">"SMS diensten centrum"</string>
+<string name="smsc_set_fails">"Smsc instellen gefaald"</string>
+<string name="smsc_set_success">"Instellen succesvol"</string>
+<string name="smsc_change_success">"Veranderen succesvol."</string>
+<string name="smsc_add_success">"Toevoegen succesvol"</string>
+<string name="received_new_wap_contact">"Een SMS vcard boodschap ontvangen"</string>
+<string name="save_new_wap_contact">"Bewaar"</string>
+<string name="cancle_new_wap_contact">"Beëindig"</string>
+<string name="invalid_recipient">"ongeldige ontvanger"</string>
+<string name="max_recipients_count">"Ontvanger limiet is <xliff:g id="MAXCOUNT">%1$s</xliff:g>."</string>
+<string name="no_media_selected">"Geen media is gekozen!"</string>
+<string name="search_max_length">"Zoekzin is te lang,er is een limiet van 512."</string>
+<string name="too_many_contacts">"Ontvangers limiet is <xliff:g id="MAXLIMIT">%1$s</xliff:g>, zal toevoegen de voorste <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> ontvangers worden toegevoegd."</string>
+<string name="contacts_count_excceeds">"U heeft alreeds toegevoegd <xliff:g id="MAXLIMIT">%1$s</xliff:g> ontvangers,niet toegestaan om meer toe te voegen."</string>
+<string name="copy">"Kopieer"</string>
+<string name="received_new_wap_vcalendar">"Een SMS vcalendar boodschap ontvangen"</string>
+<string name="replce_slideshow_dilaog_dismiss">"Vervangen van diashow zal het huidige aanhangsel verwijderen, wilt u proberen verder te gaan?"</string>
+<string name="smsc_list">"SMS centrum lijst"</string>
+<string name="smsc_list_empty">"Geen SMS centrum nummers"</string>
+<string name="smsc_list_loading">"Laden"</string>
+<string name="smsc_list_menu_edit">"Bewerk"</string>
+<string name="smsc_list_menu_activate">"Activeer"</string>
+<string name="smsc_list_not_allow_to_clear">"Niet toegestaan om nummer te verwijderen"</string>
+<string name="smsc_list_empty_number">"Klik om een nieuw nummer toe te voegen"</string>
+<string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g> aanhangsel opgeslagen naar <xliff:g id="path">%2$s</xliff:g>,<xliff id="fail">%3$d</xliff> aanhangsel opslaan gefaald"</string>
+<string name="box_msg_list_menu_addtocontacts">"Toevoegen aan contacten"</string>
+<string name="box_msg_list_menu_call">"Oproep"</string>
+<string name="box_msg_list_menu_editbeforecall">"Bewerk voor oproep"</string>
+<string name="box_msg_list_menu_videocall">"Video oproep"</string>
+<string name="soundrecorder_fail_msg">"Kon geluidsrecorder niet starten"</string>
+<string name="camera_fail_msg">"Kon camera niet starten"</string>
+<string name="video_fail_msg">"Kon video niet starten"</string>
+<string name="pref_encode_type_setting_title">"Codeer type instelling"</string>
+<string name="pref_encode_type_title">"Codeer type"</string>
+  <plurals name="conversation_num">
+<item quantity="one">"U heeft 1 gesprek."</item>
+<item quantity="other">"U heeft <xliff:g id="number">%1$s</xliff:g> gesprekken."</item>
+  </plurals>
+  <string-array name="sort_type">
+    <item>"Volgens tijd"</item>
+    <item>"Via adres"</item>
+  </string-array>
+    <string name="cancel_call">"Beëindig"</string>
+    <string name="delivery_toast_body_fail">"Boodschap niet ontvangen door %s."</string>
+    <string name="read_report_toast_body">"Boodschap gelezen door %s."</string>
+    <string name="read_report_toast_body_fail">"Boodschap niet gelezen door %s."</string>
+    <string name="delivery_toast_body_fail_rejected">"Boodschap geweigerd door %s."</string>
+    <string name="user_not_exist">"De gebruiker bestaat niet."</string>
+    <string name="menu_resend">"Opnieuw zenden"</string>
+    <string name="low_storage_toast">"Te weinig ruimte! Verwijder enige bestanden om ruimte te maken."</string>
+    <string name="failed_to_download_mms">"Downloaden mms gefaald, probeer later opnieuw"</string>
+    <string name="failed_to_send_mms">"Zenden mms gefaald, probeer later opnieuw"</string>
+    <string name="success_to_send_mms">"Zenden mms succesvol"</string>
+    <string name="sim_x">"SIM%s"</string>
+    <string name="sim_card_not_ready">"Sim kaart is niet gereed."</string>
+    <string name="sim_is_invalid">"Sim kaart is niet gereed."</string>
+    <string name="on_progress">"Voortgang, wacht alstublieft..."</string>
+    <string name="pref_internal_memory_usage_title">"MMS/beschikbaar/totaal"</string>
+    <string name="pref_internal_memory_usage_progress_summary">"Berekenen geheugenruimte..."</string>
+    <string name="please_wait_title">"Wacht alstublieft..."</string>
+    <string name="sim_card_setting">"SIM kaart instelling"</string>
+    <string name="multi_sim_manage_messages_title">"Boodschappen op SIM<xliff:g id="COUNT">%1$S</xliff:g>"</string>
+    <string name="pref_title_manage_sim_setting">"Beheer SIM instellingen"</string>
+    <string name="pref_summary_manage_sim_setting">"Beheer boodschappen opgeslagen in SIM, bezorging rapporten, verstreken tijd, SMSC instelling enz."</string>
+    <string name="pref_summary_notification_ringtone">"Standaard beltoon"</string>
+    <string name="pref_summary_notification_ringtone_silent">"Stil"</string>
+    <string name="menu_sim_capacity">"SIM capaciteit"</string>
+    <string name="pref_title_manage_multi_sim_messages">"Beheer boodschappen op SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+    <string name="pref_summary_manage_multi_sim_messages">"Beheer boodschappen opgeslagen op SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+    <string name="count_of_new_mms">"Geen nieuwe boodschappen"</string>
+    <string name="pref_summary_store_sms_on_sim">"Wanneer nieuwe sms komt, opslaan op SIM of niet"</string>
+    <string name="pref_title_store_sms_on_sim">"Bewaar Sms op SIM"</string>
+    <string name="pref_title_sms_validity">"SIM geldigheid"</string>
+    <string name="done_slide_show">"Gereed"</string>
+    <string name="smsc_check_fdn_failure">"Uw boodschap centrum nummer behoort niet tot de fdn lijst."</string>
+    <string name="muti_select_all">"Kies alles"</string>
+    <string name="menu_select_none">"Alle selecties opheffen"</string>
+    <string name="menu_sim_message">"Boodschappen op SIM"</string>
+    <string name="folder_display_option">"Weergave optie"</string>
+    <string name="confirm_open_browser_dialog_title">"Boodschap"</string>
+    <string name="confirm_open_browser_dialog_message">"Het zal de browser openen, doorgaan?"</string>
+  <plurals name="delete_confirm">
+<item quantity="one">"Kies 1 item"</item>
+<item quantity="other">"Kies <xliff:g id="del_count">%1$s</xliff:g> eenheden"</item>
+  </plurals>
+    <string name="select_sim_card">"Kies a.u.b. SIM kaart"</string>
+    <string name="menu_video_call_back">"Video oproep <xliff:g id="name">%s</xliff:g>"</string>
+    <string name="menu_edit_before_call_back">"Bewerk voor oproep <xliff:g id="name">%s</xliff:g>"</string>
+    <string name="min_zoom">"minimum bereikt"</string>
+    <string name="max_zoom">"maximum bereikt"</string>
+    <string name="sms_merge_forward">"Invoegen en doorsturen"</string>
+    <string name="sms_merge_dialog_title">"Vraag"</string>
+    <string name="sms_merge_dialog_content">"U kunt maar tussen 2 en 30 SMS boodschappen invoegen. Controleer het alstublieft."</string>
+    <string name="sms_merge_forward_empty">"Geen sms boodschap "voor invoegen en doorsturen."</string>
+    <string name="sms_forwarding_number">"Sms doorsturen instelling"</string>
+    <string name="pref_sms_forwarding_number_title">"Sms doorsturen nummer"</string>
+    <string name="pref_sms_forwarding_number_summary">"Doorsturen SMS met het nummer van ontvanger"</string>
+    <string name="sim_list_title">"Kies a.u.b. SIM kaart"</string>
+    <string name="type_vcard">"contact"</string>
+    <string name="type_vcalendar">"kalender"</string>
+    <string name="attach_vcard">"Contact"</string>
+    <string name="attach_vcalendar">"Kalender"</string>
+    <string name="add_slide_before">"Toevoegen dia(voordat)"</string>
+    <string name="add_slide_after">"Toevoegen dia(na)"</string>
+    <string name="re_take_picture">"Opslaan van afbeelding gefaald, neem afbeelding opnieuw op."</string>
+    <string name="exceed_text_length_limitation">"Overschrijding tekst lengte limiet"</string>
+    <string name="move_message_to_phone_memory">"Kopiëren boodschap naar telefoon geheugen succesvol"</string>
+    <string name="can_not_copy_the_message">"Niet mogelijk om de boodschap te kopiëren"</string>
+    <string name="confirm_import_vcard">"Importeer deze VCard？"</string>
+    <string name="pref_title_manage_simx_smsc">"SIM<xliff:g id="COUNT">%1$s</xliff:g> SMS diensten centrum"</string>
+    <string name="simx_settings_title">"SIM<xliff:g id="COUNT">%1$s</xliff:g> instelling"</string>
+    <string name="pref_summary_sms_validity">"Korte boodschap geldigheid"</string>
+  <string-array name="prefEntries_mms_validity">
+    <item>"1 uur"</item>
+    <item>"12 uren"</item>
+    <item>"24 uren"</item>
+    <item>"2 dagen"</item>
+    <item>"Maximaal"</item>
+  </string-array>
+  <string-array name="prefEntries_mms_priority">
+    <item>"Hoog"</item>
+    <item>"Normaal"</item>
+    <item>"Laag"</item>
+  </string-array>
+    <string name="pref_title_mms_validity">"Multimedia boodschap geldigheid"</string>
+    <string name="pref_summary_mms_validity">"Multimedia boodschap geldigheid"</string>
+    <string name="pref_title_mms_priority">"Voorrang"</string>
+    <string name="pref_summary_mms_priority">"Prioriteit instelling"</string>
+    <string name="sim_settings_title">"SIM kaart instelling"</string>
+    <string name="toast_copy_to_simx_success">"Succesvol gekopieerd naar <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+    <string name="toast_copy_to_simx_failure">"Gefaald met kopieren naar <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+    <string name="toast_simx_memory_full">"<xliff:g id="COUNT">%1$s</xliff:g>is vol"</string>
+    <string name="pref_title_manage_sim_x_setting">"Beheer SIM<xliff:g id="COUNT">%1$s</xliff:g> instellingen"</string>
+    <string name="pref_title_mms_creation_mode">"Creatieve mode"</string>
+  <string-array name="mms_creation_mode_entries">
+    <item>"Beperkt"</item>
+    <item>"Waarschuwing"</item>
+    <item>"Vrij"</item>
+  </string-array>
+    <string name="exceed_resolution_limit">"Resolutie buiten limiet"</string>
+    <string name="want_to_add_media">"Wilt u dit toevoegen <xliff:g id="NAME">%1$s</xliff:g> aan uw boodschap?"</string>
+    <string name="mms_can_not_add_vcard">"Verwijder bestaande toevoeging om contacten toe te voegen"</string>
+    <string name="mms_can_not_add_vcalendar">"Verwijder bestaand aanhangsel om dia toe te voegen"</string>
+    <string name="converting_to_text_message">"Converteren naar tekst boodschap... "</string>
+    <string name="select_calendar">"Kies agenda"</string>
+    <string name="no_calendar">"Geen agenda"</string>
+    <string name="exceed_slides_number_message">"Gekozen <xliff:g id="NUMBER">%1$s</xliff:g> agend，max is <xliff:g id="NUMBER">%2$s</xliff:g> agenda"</string>
+    <string name="add_to_blacklist">"Toevoegen aan zwarte lijst"</string>
+    <string name="failed_addToBlacklist">"Toevoegen aan zwarte lijst gefaald."</string>
+    <string name="creating_slideshow_title">"Creëren diashow"</string>
+    <string name="attachment_vcalendar">"V kalender"</string>
+    <string name="attachment_vcard">"vcard"</string>
+    <string name="text_limited_warning">"De restrictie voor invoer"</string>
+    <string name="subject_text_length_limitation">"Heeft de restrictie voor onderwerp lengte bereikt."</string>
+    <string name="attach_commonPhrases">"Gewone woorden"</string>
+    <string name="commonphrase_empty">"Geen gewone uitdrukkingen"</string>
+    <string name="quick_reply">"Snel antwoorden"</string>
+    <string name="common_messages">"Gewone uitdrukkingen"</string>
+    <string name="common_add_text">"Nieuw"</string>
+    <string name="common_delete_text">"Verwijder"</string>
+    <string name="common_delete_message">"Bevestig verwijderen?"</string>
+    <string name="common_delete">"Verwijder"</string>
+    <string name="common_phrase_contextmenu_title">"Bewerking menu"</string>
+    <string name="common_edit">"Bewerk"</string>
+    <string name="commonphrase_delete_empty">"Geen uitdrukking kan worden verwijderd"</string>
+    <string name="common_phrase_edit_dialog_title">"Opties"</string>
+    <string name="common_phrase_edit_dialog_inform">"Bewaar uw bewerking ?"</string>
+    <string name="common_phrase_edit_max_length">"Heeft de restrictie voor invoer bereikt!"</string>
+    <string name="common_messages_edit">"Bewerk gewone uitdrukking"</string>
+    <string name="common_save">"Bewaar"</string>
+    <string name="common_cancel">"Beëindig"</string>
+    <string name="add_empty_common_messages">"Voer een karakter in"</string>
+    <string name="pref_other_settings_title">"Andere"</string>
+    <string name="pre_key_title_common_messages">"Gewone uitdrukkingen"</string>
+    <string name="common_phrase_selection">"Kies gewone uitdrukkingen"</string>
+    <string name="wap_push_message_dialog_title">"WAP push boodschap"</string>
+    <string name="open_website">"Open website"</string>
+    <string name="activity_not_found">"Geen geschikte applicatie gevonden"</string>
+    <string name="add_contact">"Plaats contacten"</string>
+    <string name="receive_from">"Ontvang van %s"</string>
+    <string name="send_from">"Verzenden van %s"</string>
+    <string name="dl_expired_wap_push">"Er zijn <xliff:g id="COUNT">%1$s</xliff:g> wap boodschappen verlopen, worden verwijderd."</string>
+    <string name="sim_capacity_used">"Gebruikt:"</string>
+    <string name="sim_capacity_total">"Totaal:"</string>
+    <string name="delivery_toast_body_expired">"Boodschap is verstreken %s."</string>
+    <string name="discard_dialog">"Wilt u echt deze informatie opgeven?"</string>
+    <string name="remove_vcalendar_first">"Verwijder v-kalender eerst toegevoegd voor bewerken."</string>
+    <string name="remove_vcard_first">"Verwijder eerst vcard aanhangsel om dit te bewerken."</string>
+    <string name="import_vcalendar">"Importeer V-kalender"</string>
+    <string name="no_vcalendar">"Geen V-kalender gevonden"</string>
+    <string name="import_vcalendar_fail">"Kon geen V-kalender importeren."</string>
+    <string name="unable_to_add_all">"Boodschap grootte limiet bereikt, sommige delen niet toegevoegd."</string>
+    <string name="pref_title_sms_retry_times">"Aanzetten SMS herhalen"</string>
+  <string-array name="prefEntries_sms_validity">
+    <item>"1 uur"</item>
+    <item>"6 uren"</item>
+    <item>"24 uren"</item>
+    <item>"2 dagen"</item>
+    <item>"1 week"</item>
+    <item>"Maximaal"</item>
+    <item>Maximaal</item>
+  </string-array>
+    <string name="confirm_convert_to_mms">"Ontvanger bevat email, de boodschap wordt verzonden als mms"</string>
+    <string name="send_as_mms">"MMS verzenden"</string>
+    <string name="send_as_sms">"Zendt alleen sms"</string>
+    <string name="protected_file">"Beschermd bestand kan niet toegevoegd worden"</string>
+    <string name="success_to_send_sms">"Zenden sms succesvol"</string>
+    <string name="confirm_ota_message">""Bevestig OTA instellingen?"</string>
+    <string name="confirm_ota">"OK"</string>
+    <string name="cancel_ota">"Annuleren"</string>
+    <string name="ota_cancelled">"OTA instellingen afgebroken."</string>
+    <string name="message_too_big_for_audio">Het bericht is te groot om een ​​audio aan te sluiten.</string>
+    <string name="contacts_count_can_send">"Geachte klant, ontvangers overschrijden de systeemlimiet, alleen toegestaan om te sturen <xliff:g id="MAXLIMIT">%1$s</xliff:g> , stuur dan in batches."</string>
+    <string name="attach_common_messages">Common Phrases</string>
+    <string name="attach_subject">"Onderwerp"</string>
+    <string name="add_contacts_dialog_title">"Voeg Contacten toe"</string>
+    <string name="add_contact_as_text">"Sms"</string>
+    <string name="action_next">"Volgende"</string>
+     <string name="sms_forward">"Doorsturen"</string>
+     <string name="valid_sub">"ongeldige SIM kaart"</string>
+     <string name="confirm_import_vcalendar">"Deze Vkalender importeren?"</string>
+     <string name="confirm_save_otherfiles">"Deze bijlage bewaren?"</string>
+     <string name="pref_notification_settings_title_sim1">"sim1 Meldingen"</string>
+     <string name="pref_notification_settings_title_sim2">"sim2 Meldingen"</string>
+     <string name="pref_notification_settings_title_sim">"sim Meldingen"</string>
+     <string name="dlg_media_removed">"Media zonder correct pad in bijlage werd verwijdert, doorgaan met verzenden?"</string>
+     <string name="toast_media_removed">"Media zonder correct pad in bijlage werd verwijdert, gelieve te controleren!"</string>
+     <string name="dl_failure_roaming">"Roaming status, kon bericht niet downloaden!"</string>
+     <string name="recipient_invalid">"<xliff:g id="invalid_number" example="1">%1$s</xliff:g> Ontvanger(s) Ongeldig"</string>
+     <string name="recipient_invalid_detail">"Ongeldig(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+     <string name="recipient_changed_detail">"Gewijzigt(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+</resources>

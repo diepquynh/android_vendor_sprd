@@ -1,0 +1,87 @@
+#!/system/bin/sh
+
+cmd=$1
+opt1=$2
+
+# change to lower
+typeset -l cmd
+typeset -l opt1
+
+function usage
+{
+  echo "Usage: apr_config anr [enable/disable]"
+  echo "       apr_config nativeCrash [enable/disable]"
+  echo "       apr_config javaCrash [enable/disable]"
+  echo "       apr_config modemAssert [enable/disable]"
+  echo "       apr_config crashClass [enable/disable]"
+}
+
+if [ $# -lt 2 ] ; then
+  #Incorrect format
+  usage
+  exit 1
+fi
+
+if [ $opt1 != "enable" -a $opt1 != "disable" ] ; then
+  #Incorrect format
+  usage
+  exit 1
+fi
+
+if [ $opt1 == "enable" ] ; then
+    opt1="yes"
+else
+    opt1="no"
+fi
+
+# parse arp.conf
+anr=$(grep -i "anr=yes" /data/apr.conf)
+nativecrash=$(grep -i "nativeCrash=yes" /data/apr.conf)
+javacrash=$(grep -i "javaCrash=yes" /data/apr.conf)
+assert=$(grep -i "modemAssert=yes" /data/apr.conf)
+crashclass=$(grep -i "crashClass=yes" /data/apr.conf)
+
+if [ -z $anr ] ; then
+    anr="anr=no"
+fi
+if [ -z $nativecrash ] ; then
+    nativecrash="nativeCrash=no"
+fi
+if [ -z $javacrash ] ; then
+    javacrash="javaCrash=no"
+fi
+if [ -z $assert ] ; then
+    assert="modemAssert=no"
+fi
+if [ -z $crashclass ] ; then
+    crashclass="crashClass=no"
+fi
+
+if [ "$cmd" = "anr" ] ; then
+    anr="anr=$opt1"
+
+elif [ "$cmd" = "nativecrash" ] ; then
+    nativecrash="nativeCrash=$opt1"
+
+elif [ "$cmd" = "javacrash" ] ; then
+    javacrash="javaCrash=$opt1"
+
+elif [ "$cmd" = "modemassert" ] ; then
+    assert="modemAssert=$opt1"
+
+elif [ "$cmd" = "crashclass" ] ; then
+    crashclass="crashClass=$opt1"
+
+else
+  echo "not support commond!"
+  usage
+  exit 1
+fi
+
+echo "[exceptions]" > /data/apr.conf
+echo $anr >> /data/apr.conf
+echo $nativecrash >> /data/apr.conf
+echo $javacrash >> /data/apr.conf
+echo $assert >> /data/apr.conf
+echo $crashclass >> /data/apr.conf
+

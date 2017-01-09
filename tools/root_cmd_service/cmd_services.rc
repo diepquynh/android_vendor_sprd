@@ -1,0 +1,14 @@
+on boot
+    setprop persist.sys.cmdservice.enable disable
+
+service cmd_services /system/bin/cmd_services
+    class main
+    user root
+    disabled
+    oneshot
+
+on property:persist.sys.cmdservice.enable=enable
+    start cmd_services
+
+on property:persist.sys.cmdservice.enable=disable
+    stop cmd_services

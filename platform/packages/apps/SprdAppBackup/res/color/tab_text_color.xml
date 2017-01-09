@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- SPRD: Bug 416716 Diffrerntiate the selected tab in SprdAppBackup @{ -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/actionbar_text_color" android:state_selected="true"/>
+    <item android:color="@color/actionbar_unselected_text_color" />
+</selector>
+<!--@} -->

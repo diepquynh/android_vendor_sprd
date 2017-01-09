@@ -1,0 +1,13 @@
+#wcnd service
+service wcnd /system/bin/connmgr
+    class core
+#   we will start as root and wcnd will switch to user system
+#   user system
+    group system readproc shell wifi inet net_bt_stack
+    oneshot
+#wcn eng
+service wcnd_eng /system/bin/connmgr -G
+     class core
+     group system shell wifi inet net_bt_stack
+     disabled
+     oneshot

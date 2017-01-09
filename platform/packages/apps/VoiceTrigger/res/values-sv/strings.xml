@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"Röstutlösare"</string>
+<string name="audio_voicetrigger_words">"Väckningsord"</string>
+<string name="audio_voicetrigger_sensibility">"Igenkänningssensor"</string>
+<string name="audio_voicetrigger_support_fun">"Beskrivning av supportfunktioner"</string>
+<string name="audio_voicetrigger_connect_headset">"Anslut headset för att använda det"</string>
+<string name="audio_voicetrigger_language_choose">"Välj språk för röstläge"</string>
+<string name="audio_voicetrigger_help">"Hjälp"</string>
+<string name="audio_voicetrigger_subtitle_wakeup_default">"Väckningsordens innehåll"</string>
+<string name="audio_voicetrigger_subtitle_wakeup_userdefine">"Användardefinierad"</string>
+<string name="audio_voicetrigger_subtitle_language_choose">"Ställ in språk för röstkommando"</string>
+<string name="audio_voicetrigger_subtitle_help">"Testa ett anpassat väckningsord"</string>
+<string name="voicetrigger_connect_headset_content">"När ett trådlöst headset eller ett Bluetooth-headset är anslutet \ är det fortfarande möjligt att väcka telefonen och använda den normalt, \ men din röst registreras genom mikrofonen, \ och headsetets mikrofon kan inte väcka telefonen"</string>
+<string name="voicetrigger_wakeup_title">"Registrera väckningsord"</string>
+<string name="voicetrigger_input_title">"Spela in väckningsord"</string>
+<string name="voicetrigger_describe">"När telefonen inte är nära kroppen eller om den är obekväm,\ undet ett samtal, när du lyssnar på musik etc. kan du använda väckningsord för att väcka enheten och göra något med din röst."</string>
+<string name="change_language_progress_dialog_message">"Ändrar språk, vänta…"</string>
+<string name="info_press_to_start">"Klicka på knappen för att spela in"</string>
+<string name="info_default">"Prata på en tyst plats"</string>
+<string name="info_recording">"Spelar in ..."</string>
+<string name="info_please_wait">"Vänta…"</string>
+<string name="info_talk_louder">"Prata högre"</string>
+<string name="info_pause_before">"Pausa "1-2 sekunder innan du pratar""</string>
+<string name="info_too_noisy">"För högljutt. Hitta en tystare plats"</string>
+<string name="info_talk_softer">"Prata mjukare"</string>
+<string name="info_bad_recording">"Dålig inspelning"</string>
+<string name="info_talk_slower">"Prata långsammare"</string>
+<string name="info_too_many_sound">"För många ljudupprepningar\'"</string>
+<string name="info_check_rec">"Genererar utlösare. Vänta…"</string>
+<string name="info_problems_in_rec">"Problem med en eller fler inspelningar. Du måste spela in igen"</string>
+<string name="generate_voicetrigger_words_success">"Röstutlösare har genererats."</string>
+<string name="voicetrigger_wakeup_item_1">"%1$s (standard)"</string>
+<string name="voicetrigger_wakeup_item_2">"användardefinierad"</string>
+<string name="prompting_user_defined_text">"innehållet av de anpassade väckningsorden"</string>
+<string name="prompting_text_default">"Säg：%1$s"</string>
+<string name="prompting_text_1">"Säg：%1$s igen"</string>
+<string name="prompting_text_2">"Slutfördes"</string>
+<string name="error_app_internal">"Internt programfel."</string>
+<string name="dialog_dismiss">"Ta bort permanent"</string>
+<string name="error_permissions">"Det saknas behörigheter som är avgörande för att appen ska fungera. Kontrollera behörighetsinställningarna."</string>
+<string name="dialog_title">Varning</string>
+<string name="dialog_firstuse_info">"Du använder de här funktionen för första gången, ställ in standardröst för att väcka enheten"</string>
+<string name="no_wakeup_words_recoded">"Du har inte spelat in användardefinierade väckningsord"</string>
+<string name="dialog_title_notice">"Meddelande"</string>
+<string name="dialog_change_language_first">"Kontrollera att du har spelat in väckningsordet på det aktuella språket,\spela in en ny röst för att väcka enheten, vill du fortsätta?"</string>
+<string name="same_application_running">"Inspelningsenheten används av ett annat program, stäng det här programmet!"</string>
+<string name="is_not_systemuser">"Är inte systemanvändare för tillället, kan inte använda röstväckning."</string>
+<string-array name="hello_trigger_text_title_array">
+<item>"Hej, hur kan jag hjälpa dig?"</item>
+<item>"Fortsätt, jag lyssnar… "</item>
+<item>"Du kan fråga mig så här: "</item>
+</string-array>
+<string name="support_find_phone">"Hitta telefonen"</string>
+<string name="support_find_phone_summary">"Skrik ut：\' [Väckningsorden] + Var är du?\', telefonen kommer att svara dig genom att spela anpassade ringtoner."</string>
+<string name="support_call_phone">"Ring telefonsamtal"</string>
+<string name="support_call_phone_summary">"Säg till telefonen：\' [Väckningsorden] + Ring till Xiao Wang\'，du kommer att ringa någon."</string>
+<string name="support_send_mms">"Skicka meddelanden"</string>
+<string name="support_send_mms_summary">"Säg till telefonen：\' [Väckningsorden] +Skicka ett meddelande till Xiao Wang\'，meddelandeappar kommer att öppnas och ett meddelande kommer att skickas."</string>
+<string name="support_camera">"Ta bilder"</string>
+<string name="support_camera_summary">"Säg till telefonen：\' [Väckningsorden] + Ta en bild åt mig\'，kameran kommer att öppnas och ta en bild på en gång."</string>
+<string name="support_open_music">"Spela musik"</string>
+<string name="support_open_music_summary">"Säg till telefonen:\' [Väckningsorden] + Spela Wang Feis \"Hong Dou\"\'，musikspelaren kommer att öppnas och spela låten."</string>
+<string name="support_open_app">"Starta applikationer"</string>
+<string name="support_open_app_summary">"Säg till telefonen：\' [Väckningsorden] + Öppna WeChat\'，telefonen kommer att öppna WeChat-appen."</string>
+<string name="find_phone_content">"Du kan fråga mig：\n\n Var är du\n Hör du mig\n Svara mig"</string>
+<string name="call_phone_content">"Du kan fråga mig：\n\n Ring till Xiao Wang\n Ring tillbaka till Xiaomin\n Ring till China Mobiles kundservice\n Ring till 114"</string>
+<string name="send_mms_content">"Du kan fråga mig：\n\n Skicka ett textmeddelande till Xiao Wang\n Skicka ett textmeddelande till Xiaomin\n Svara på ett textmeddelande till mamma\n Skicka en mötestid till Xiaoming via SMS"</string>
+<string name="open_camera_content">"Du kan fråga mig：\n\n Ta en bild åt mig\n Ta en bild av bakgrunden\n Ta en bild av vägskylten."</string>
+<string name="open_music_content">"Du kan fråga mig：\n\n Spela Wang Feis \"Hong Dou\"\n Spela en slumpmässig låt\n Jag vill lyssna på "Pao Mo"\n Spela en låt av Zhang Xueyou"</string>
+<string name="open_app_content">"Du kan fråga mig：\n\n Öppna WeChat\n Hämta en "kompass"-app\n Starta anteckningar"</string>
+<string name="default_trigger">"Utlösare: Hello Blue Genie v17 (Svenska)"</string>
+<string name="default_command">"Kommando: Fitness v2.2 (Svenska)"</string>
+<string name="default_command_sen">"Känslighet: Normal"</string>
+<string name="trigger_prompt">"Säg Hello Blue Genie"</string>
+<string name="command_prompt1">"Säg nu ett av följande…"</string>
+<string name="command_prompt2">""Säg nu ett kommando"</string>
+<string name="cmd_step_count">"Stegräkning"</string>
+<string name="cmd_calories">"Kalorier"</string>
+<string name="cmd_floors">"Våningar"</string>
+<string name="cmd_distance">"Distans"</string>
+<string name="cmd_active_minutes">"Aktiva minuter"</string>
+<string name="cmd_sleep_pattern">"Sömnmönster"</string>
+<string name="cmd_outside_temperature">"Utomhustemperatur"</string>
+<string name="cmd_outside_humidity">"Utomhusfuktighet"</string>
+<string name="cmd_what_time_is_it">"Hur mycket är klockan"</string>
+<string name="cmd_heart_rate">"Hjärtfrekvens"</string>
+<string name="resp_step_count">"Stegräkning = 4306"</string>
+<string name="resp_calories">"Brända kalorier i dag = 1445"</string>
+<string name="resp_floors">"Våningar som har bestigits i dag = 8"</string>
+<string name="resp_distance">"Distans i dag = 2.52 miles"</string>
+<string name="resp_active_minutes">"Aktiva minuter i dag = 17"</string>
+<string name="resp_sleep_pattern">"Djupsömn i dag = 3h 25m"</string>
+<string name="resp_outside_temperature">"Utomhustemp. = 74 F"</string>
+<string name="resp_outside_humidity">"Utomhusfuktighet = 41 %"</string>
+<string name="resp_what_time_is_it">"Aktuell tid ="</string>
+<string name="resp_heart_rate">"Hjärtfrekvens = 74 bpm"</string>
+<string name="time_left">"Återstående tid: X s"</string>
+<string name="language_changed_success">"Språk har ändrats!"</string>
+<string name="save_file_to_device_error">"Väckningsordet ändrades inte, försök igen senare!"</string>
+<string name="language_changed_failed">"Det gick inte att ändra språket, försök igen senare"</string>
+<string name="language_change_has_canceled">"Har avbrutits, du kan även välja de gamla språken"</string>
+<string name="finished">"Slutför"</string>
+<string name="sensibility_text">"Ställ in väckningsordets känslighet i igenkänning \n \ Om känslighet är högre är chansen större att den väcks \n \ Om känslighet är lägre är chansen mindre att den väcks"</string>
+<string name="update_phrass_success">"Frasen har uppdaterats"</string>
+</resources>

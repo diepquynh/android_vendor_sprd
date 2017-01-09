@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by SPreadst -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="call_number">"撥號："</string>
+    <string name="cancel_call">"取消"</string>
+    <string name="delivery_toast_body_fail">"訊息發送給%s失敗"</string>
+    <string name="read_report_toast_body">"訊息已被 %s閱讀."</string>
+    <string name="read_report_toast_body_fail">"訊息未被 %s閱讀."</string>
+    <string name="delivery_toast_body_fail_rejected">"訊息被 %s拒絕."</string>
+    <string name="user_not_exist">"用戶不存在!"</string>
+    <!-- Menu Resend -->
+    <string name="menu_resend">"重發"</string>
+    <string name="low_storage_toast">"低內存，請刪除文件釋放內存"</string>
+    <string name="failed_to_download_mms">"多媒體訊息下載失敗，稍候重試"</string>
+    <string name="failed_to_send_mms">"多媒體訊息發送失敗，稍候重試"</string>
+    <string name="success_to_send_mms">"多媒體訊息發送成功"</string>
+    <string name="sim_x">"SIM卡%s"</string>
+    <string name="sim_card_not_ready">"要發送訊息，請先關閉飛航模式或啟用SIM卡。"</string>
+    <string name="pref_title_sms_retry_times">開啟重試機制</string>
+    <string name="muti_select_all">"全選"</string>
+  <string name="Conversation_check_type_selected_all">"全選"</string>
+  <string name="menu_msg_folder">"文件夾視圖"</string>
+  <string name="menu_msg_list">"消息視圖"</string>
+  <string name="folder_inbox">"收件箱"</string>
+  <string name="folder_outbox">"發件箱"</string>
+  <string name="folder_sent">"已發送"</string>
+  <string name="folder_drafts">"草稿箱"</string>
+  <string name="folder_empty">"該文件夾無訊息。"</string>
+  <string name="folder_display_all">"顯示全部訊息"</string>
+  <string name="folder_delete_messages">"刪除訊息"</string>
+  <string name="folder_loading">"加載中..."</string>
+  <string name="folder_reply">"回複"</string>
+  <string name="folder_forward">"轉寄"</string>
+  <string name="no_msg_del">"沒有可刪除的訊息"</string>
+  <string name="exceed_slides_number_limitation">"已達到幻燈片上限"</string>
+  <string name="has_vcard_or_vcalendar_attachment">"已存在" <xliff:g id="TYPE">%1$s</xliff:g> "附件，無法追加"</string>
+  <!-- For OTA 2013-01-29 -->
+  <string name="OTAConfig_title">"OTA設置"</string>
+  <string name="OTAConfig_Message">"確定要保存OTA消息設置嗎？"</string>
+  <string name="OTAConfiy_Success">"OTA消息設置成功"</string>
+  <string name="OTAConfiy_Error">"OTA消息配置失敗"</string>
+  <string name="ota_pin_error">"您輸入的密碼錯誤。"</string>
+  <string name="ota_pin_exception">"OTA消息配置失敗：程序出現异常。"</string>
+  <string name="ota_mime_error">"OTA消息配置失敗：消息數據錯誤。"</string>
+  <string name="ota_support_not">"OTA消息配置失敗：不支持" <xliff:g id="OTATYPE">%1$s</xliff:g> "類型。"</string>
+  <string name="cannot_add_picture_and_vcard">"無法將名片和圖片添加到同一張幻燈片。"</string>
+  <string name="mms_setting">"多媒體訊息設置"</string>
+  <string name="pref_title_font_size">"字體設置"</string>
+  <string name="font_size_setting">"字體設置"</string>
+  <string name="font_size">"當前字體大小是:" <xliff:g id="font_size_id">%1$s</xliff:g></string>
+  <string name="pref_reply_path_title">"回複路經選項"</string>
+  <string name="pref_title_reply_path">"回複路經設定"</string>
+  <string name="pref_summary_reply_path">"經由相同簡訊中心回複"</string>
+  <!-- COPY TO SIM -->
+  <string name="menu_copy_to_sim_memory">"轉存訊息到SIM卡"</string>
+  <string name="toast_copy_to_sim_success">"成功轉存訊息到SIM"</string>
+  <string name="toast_copy_to_sim_failure">"轉存訊息到SIM失败"</string>
+  <string name="toast_sim_memory_full">"SIM卡已满"</string>
+  <string name="toast_copy_to_multi_sim_success">"成功轉存訊息到SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+  <string name="toast_copy_to_multi_sim_failure">"轉存訊息到SIM<xliff:g id="COUNT">%1$s</xliff:g>失败"</string>
+  <string name="toast_multi_sim_memory_full">"SIM卡<xliff:g id="COUNT">%1$s</xliff:g>已满"</string>
+  <string name="menu_add_recipient_to_contacts">"添加"<xliff:g id="name">%s</xliff:g>"到聯系人"</string>
+  <string name="action_next">"下一步"</string>
+  <!-- SIGNATURE FUNC -->
+  <string name="message_signature_setting">"簽章設置"</string>
+  <string name="pref_signature_enable_title">"附加簽章"</string>
+  <string name="pref_signature_enabl_summary">"在您傳送的每則多媒體訊息後附加簽章"</string>
+  <string name="pref_signature_input_title">"編輯簽章"</string>
+  <string name="pref_signature_input_summary">"您還沒有簽章，點擊設置"</string>
+  <string name="pref_signature_input_limited">"簽章已經達到上限"</string>
+  <string name="pref_hint_signature_edittext">"請輸入您的簽章"</string>
+  <string name="toast_append_signature_failed">"附加簽章到多媒體訊息失敗， 幻燈片數目已達到上限。"</string>
+  <string name="pageIndex">"第 %s 頁"</string>
+  <string name="remove_subject">"刪除主題"</string>
+  <string name="toast_message_when_memory_full">"內存已滿，請釋放內存後再啟動"</string>
+  <string name="toast_save_classzero_message_failed">"沒有存儲空間, 無法保存訊息"</string>
+  <string name="toast_shared_file_failed">"不支持的媒體文件,分享失敗"</string>
+  <string name="sms_merge_forward_empty">"沒有可合并轉寄的短消息"</string>
+  <string name="message_too_many_recipients_picked">"抱歉,每次添加數量不能超過<xliff:g id="COUNT">%1$s</xliff:g>個聯絡人"</string>
+  <string name="contacts_count_excceeds">"已添加<xliff:g id="MAXLIMIT">%1$s</xliff:g> 人，無法添加更多"</string>
+  <!-- SMSC -->
+  <string name="pref_title_manage_sim_smsc">"簡訊中心號碼"</string>
+  <string name="smsc_set_fails">"﻿簡訊中心號碼設置失敗"</string>
+  <string name="smsc_set_success">"設置成功."</string>
+  <string name="smsc_change_success">"修改成功"</string>
+  <string name="smsc_add_success">添加成功</string>
+  <string name="received_new_wap_contact">"收到一條聯絡人訊息"</string>
+  <string name="received_new_wap_vcalendar">"收到一條日程訊息"</string>
+  <string name="save_new_wap_contact">"保存"</string>
+  <string name="cancle_new_wap_contact">"取消"</string>
+  <string name="mms_can_not_add_vcard">"刪除現有附件後才能添加聯絡人"</string>
+  <string name="mms_can_not_add_vcalendar">"刪除現有附件後才能添加日程"</string>
+  <string name="folder_sortby">"排序"</string>
+  <string-array name="sort_type">
+        <item>按時間</item>
+        <item>按號碼</item>
+  </string-array>
+  <string name="no_media_selected">"沒有選擇任何多媒體附件!"</string>
+  <string name="search_max_length">"搜索文本過長，將截取前512個字符!"</string>
+  <string name="max_recipients_count">"收件人數的上限爲 <xliff:g id="MAXCOUNT">%1$s</xliff:g> 人。"</string>
+  <string name="creating_slideshow_title">"正在生成幻燈片"</string>
+  <string name="invalid_recipient">"無效收件者"</string>
+  <string name="replce_slideshow_dilaog_dismiss">﻿替換成幻燈片，將會刪除當前附件，確定繼續？</string>
+  <string name="copy">"複制"</string>
+    <!-- SPRD: Add for bug 266015 start -->
+  <string name="smsc_list">訊息中心號碼表</string>
+  <string name="smsc_list_empty">無訊息中心號碼</string>
+  <string name="smsc_list_loading">加載中</string>
+  <string name="smsc_list_menu_edit">編輯</string>
+  <string name="smsc_list_menu_activate">修改</string>
+  <string name="smsc_list_not_allow_to_clear">不允許清除</string>
+  <string name="smsc_list_empty_number">點擊添加新號碼</string>
+   <!-- SPRD: Add for bug 266015 end -->
+  <!-- SPRD: Add for folder view start -->
+  <string name="box_msg_list_menu_addtocontacts">添加到聯絡人</string>
+  <string name="box_msg_list_menu_call">呼叫</string>
+  <string name="box_msg_list_menu_editbeforecall">呼叫前編輯</string>
+  <string name="box_msg_list_menu_videocall">視頻呼叫</string>
+  <!-- SPRD: Add for folder view end -->
+  <string name="discard_dialog">"您真的要捨棄該訊息嗎？"</string>
+  <!-- SPRD: Add for bug 281864 start -->
+  <string name="pref_encode_type_setting_title">"編碼方式設置"</string>
+  <string name="pref_encode_type_title">"編碼方式"</string>
+  <!-- SPRD: Add for bug 281864 end -->
+    <plurals name="delete_confirm">
+        <!-- Case of 1 message. -->
+        <item quantity="one">選中 1 項</item>
+        <!-- Case of 0 or 2 or more messages. -->
+        <item quantity="other">選中 <xliff:g id="del_count">%1$s</xliff:g> 項</item>
+    </plurals>
+  <string name="confirm_convert_to_mms">收件人中包含郵箱，訊息將以多媒體訊息形式發送</string>
+  <string name="send_as_mms">發送彩信</string>
+  <string name="send_as_sms">只發送簡訊</string>
+  <string name="success_to_send_sms">"簡訊發送成功"</string>
+  <string name="confirm_ota_message">確認配置OTA嗎?</string>
+  <string name="confirm_ota">確定</string>
+  <string name="cancel_ota">取消</string>
+  <string name="ota_cancelled">OTA配置已取消。</string>
+  <string name="sim_settings_title">"SIM卡設定"</string>
+  <!-- Add for Bug 447934 begin -->
+  <string name="confirm_import_vcalendar">"是否導入此VCalendar？"</string>
+  <string name="confirm_save_otherfiles">"是否保存此附件？"</string>
+  <!-- Add for Bug 447934 end -->
+  <string name="can_not_send_mms_when_other_sim_calling">"其他的SIM卡正在通話中，本SIM卡不容許發送彩信"</string>
+  <!-- And by SPRD for Bug:467017  2015.09.02 Start -->
+  <string name="dlg_media_removed">"附件中路徑不存在的媒體已被移除，是否繼續發送？"</string>
+  <string name="toast_media_removed">"附件中路徑不存在的媒體已被移除，請檢查!"</string>
+  <!-- And by SPRD for Bug:467017  2015.09.02 End -->
+  <!--Add by SPRD for Bug:478009  2015.09.24 -->
+  <string name="deleting">正在删除</string>
+  <!-- Add by SPRD for Bug:451924  2015.08.26 Start -->
+  <string name="dl_failure_roaming">"漫游状态，不能下载彩信！"</string>
+  <!-- Add by SPRD for Bug:451924  2015.08.26 End -->
+    <string name="sim_is_invalid">"要觀看SIM卡訊息，請先關閉飛航模式或啟用SIM卡。"</string>
+     <string name="on_progress">"正在處理，請稍候..."</string>
+     <string name="pref_internal_memory_usage_title">"多媒體訊息大小/可用空間/記憶體總和"</string>
+     <string name="pref_internal_memory_usage_progress_summary">"正在計算空間大小..."</string>
+     <string name="please_wait_title">正在準備收件人，請稍侯...</string>
+     <string name="sim_card_setting">"SIM卡相關設定"</string>
+     <string name="multi_sim_manage_messages_title">"SIM<xliff:g id="COUNT">%1$S</xliff:g>上的訊息"</string>
+     <string name="pref_title_manage_sim_setting">"管理SIM卡設定"</string>
+     <string name="pref_summary_manage_sim_setting">"管理SIM卡上資訊、訊息中心號碼、送達報告、多媒體訊息自動下載等"</string>
+     <string name="pref_summary_notification_ringtone">"預設鈴聲"</string>
+     <string name="pref_summary_notification_ringtone_silent">"靜音"</string>
+     <string name="menu_sim_capacity">"SIM卡容量"</string>
+     <string name="pref_title_manage_multi_sim_messages">"管理 SIM<xliff:g id="COUNT">%1$s</xliff:g> 資訊"</string>
+     <string name="pref_summary_manage_multi_sim_messages">"管理儲存在 SIM<xliff:g id="COUNT">%1$s</xliff:g> 上的訊息"</string>
+     <plurals name="conversation_num">
+<item quantity="one">"您有1個會話"</item>
+<item quantity="other">"您有<xliff:g id="number">%1$s</xliff:g>個會話"</item>
+    </plurals>
+     <string name="count_of_new_mms">"%s條新資訊"</string>
+     <string name="pref_summary_store_sms_on_sim">"收到訊息時同時儲存到SIM卡"</string>
+     <string name="pref_title_store_sms_on_sim">"訊息儲存到SIM卡"</string>
+     <string name="pref_title_sms_validity">"訊息有效期"</string>
+     <string-array name="prefEntries_sms_validity">
+        <item>不設定</item>
+        <item>"1 小時"</item>
+        <item>"6 小時"</item>
+        <item>"24 小時"</item>
+        <item>"2 天"</item>
+        <item>"1 星期"</item>
+        <item>"最長"</item>
+    </string-array>
+     <string name="done_slide_show">"完成"</string>
+     <string name="smsc_check_fdn_failure">"FDN已開啟，訊息中心號碼不在FDN列表中,不能發送。"</string>
+     <string name="menu_select_none">"取消全部"</string>
+     <string name="ota_retry">"您輸入的密碼錯誤。"</string>
+     <string name="menu_sim_message">"SIM卡訊息"</string>
+     <string name="folder_display_option">"顯示選項"</string>
+     <string name="confirm_open_browser_dialog_title">"啟用瀏覽器"</string>
+     <string name="confirm_open_browser_dialog_message">"是否要打開瀏覽器？"</string>
+     <string name="select_sim_card">"請選擇SIM卡"</string>
+     <string name="menu_video_call_back">"視訊呼叫 <xliff:g id="NAME">%s</xliff:g>"</string>
+     <string name="menu_edit_before_call_back">"呼叫<xliff:g id="NAME">%s</xliff:g>前編輯"</string>
+     <string name="min_zoom">"已達到最小"</string>
+     <string name="max_zoom">"已達到最大"</string>
+     <string name="sms_forward">"訊息合併轉寄"</string>
+     <string name="sms_merge_forward">"訊息合併轉寄"</string>
+     <string name="sms_merge_dialog_title">"提示"</string>
+     <string name="sms_merge_dialog_content">"您只能選擇2～30條，請重新勾選！"</string>
+     <string name="sms_forwarding_number">"訊息轉寄設定"</string>
+     <string name="pref_sms_forwarding_number_title">"訊息轉寄號碼"</string>
+     <string name="pref_sms_forwarding_number_summary">"轉寄接收到的訊息時連同寄件者一起轉寄"</string>
+     <string name="sim_list_title">"請選擇SIM卡"</string>
+     <string name="type_vcard">名片</string>
+     <string name="type_vcalendar">"日程"</string>
+     <string name="attach_vcard">名片</string>
+     <string name="attach_vcalendar">"日程"</string>
+     <string name="add_slide_before">"新增幻燈片(之前)"</string>
+     <string name="add_slide_after">"新增幻燈片(之後)"</string>
+     <string name="re_take_picture">"儲存照片失敗，請重新拍攝照片"</string>
+     <string name="exceed_text_length_limitation">"已達到文本長度上限。"</string>
+     <string name="move_message_to_phone_memory">"複製到手機記憶體成功"</string>
+     <string name="can_not_copy_the_message">"無法複製此資訊"</string>
+     <string name="confirm_import_vcard">"是否匯入此VCard？"</string>
+     <string name="pref_title_manage_simx_smsc">"SIM<xliff:g id="COUNT">%1$s</xliff:g>訊息中心號碼"</string>
+     <string name="simx_settings_title">""SIM<xliff:g id="COUNT">%1$s</xliff:g>設定"</string>
+     <string name="pref_summary_sms_validity">"設定訊息有效期"</string>
+     <string-array name="prefEntries_mms_validity">
+        <item>"1 小時"</item>
+        <item>"12 小時"</item>
+        <item>"24 小時"</item>
+        <item>"2 天"</item>
+        <item>"最長"</item>
+    </string-array>
+     <string-array name="prefEntries_mms_priority">
+        <item>"高"</item>
+        <item>無轉場效果</item>
+        <item>"低"</item>
+    </string-array>
+     <string name="pref_title_mms_validity">"多媒體訊息有效期"</string>
+     <string name="pref_summary_mms_validity">"多媒體訊息有效期"</string>
+     <string name="pref_title_mms_priority">"優先順序"</string>
+     <string name="pref_summary_mms_priority">"設定優先次序別"</string>
+     <string name="toast_copy_to_simx_success">"成功複製短訊到 <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+     <string name="toast_copy_to_simx_failure">"複製訊息到<xliff:g id="COUNT">%1$s</xliff:g>失敗"</string>
+     <string name="toast_simx_memory_full">"<xliff:g id="COUNT">%1$s</xliff:g> 已滿"</string>
+     <string name="pref_title_manage_sim_x_setting">"管理SIM<xliff:g id="COUNT">%1$s</xliff:g>設定"</string>
+     <string name="pref_title_mms_creation_mode">"創建模式"</string>
+     <string-array name="mms_creation_mode_entries">
+        <item>"受限制"</item>
+        <item>"警告"</item>
+        <item>自由</item>
+    </string-array>
+     <string name="exceed_resolution_limit">"圖片尺寸超過限制"</string>
+     <string name="want_to_add_media">"是否要將此<xliff:g id="NAME">%1$s</xliff:g>加入到多媒體訊息中？"</string>
+     <string name="converting_to_text_message">"正在轉換為訊息…"</string>
+     <string name="select_calendar">"選擇日程"</string>
+     <string name="no_calendar">"沒有日程"</string>
+     <string name="exceed_slides_number_message">"目前已選取<xliff:g id="NUMBER">%1$s</xliff:g>個日程，最多能選取<xliff:g id="NUMBER">%2$s</xliff:g>個日程"</string>
+     <string name="add_to_blacklist">"新增至黑名單"</string>
+     <string name="failed_addToBlacklist">"加到黑名單失敗"</string>
+     <string name="attachment_vcalendar">"日程"</string>
+     <string name="attachment_vcard">"名片"</string>
+     <string name="text_limited_warning">"字符數超限提示"</string>
+     <string name="subject_text_length_limitation">"已經達到主題的字符數上限。"</string>
+     <string name="attach_commonPhrases">"插入常用短語"</string>
+     <string name="commonphrase_empty">"沒有常用短語"</string>
+     <string name="quick_reply">"快速回應"</string>
+     <string name="common_messages">"常用短語"</string>
+     <string name="common_add_text">"新增"</string>
+     <string name="common_delete_text">刪除</string>
+     <string name="common_delete_message">"確定刪除? "</string>
+     <string name="common_delete">刪除</string>
+     <string name="common_phrase_contextmenu_title">"操作選項"</string>
+     <string name="common_edit">"編輯"</string>
+     <string name="commonphrase_delete_empty">"沒有可刪除的常用短語"</string>
+     <string name="common_phrase_edit_dialog_title">"提示"</string>
+     <string name="common_phrase_edit_dialog_inform">"是否儲存您編輯的內容？"</string>
+     <string name="common_phrase_edit_max_length">"已到最大輸入限制！"</string>
+     <string name="common_messages_edit">"編輯常用短語"</string>
+     <string name="common_save">最愛</string>
+     <string name="common_cancel">取消</string>
+     <string name="add_empty_common_messages">"輸入內容留空"</string>
+     <string name="pref_other_settings_title">"其他"</string>
+     <string name="pre_key_title_common_messages">"常用短語"</string>
+     <string name="common_phrase_selection">"選擇常用短語"</string>
+     <string name="wap_push_message_dialog_title">""Wap Push 資訊"</string>
+     <string name="open_website">"打開網站"</string>
+     <string name="activity_not_found">"未發現相應處理的應用"</string>
+     <string name="add_contact">"插入聯絡人"</string>
+     <string name="receive_from">"接收自 %s"</string>
+     <string name="send_from">"發送自 %s"</string>
+     <string name="dl_expired_wap_push">"有"<xliff:g id="COUNT">%1$s</xliff:g>"條資訊已過期，已經被刪除。"</string>
+     <string name="sim_capacity_used">"已使用 ： "</string>
+     <string name="sim_capacity_total">"總容量 ： "</string>
+     <string name="too_many_contacts">"聯絡人上限為 <xliff:g id="MAXLIMIT">%1$s</xliff:g> 人，只新增了前 <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> 人。"</string>
+     <string name="delivery_toast_body_expired">"%s資訊已過期"</string>
+     <string name="remove_vcalendar_first">"刪除日程附件後才能編輯"</string>
+     <string name="remove_vcard_first">"刪除名片附件後才能編輯"</string>
+     <string name="import_vcalendar">"匯入日程"</string>
+     <string name="no_vcalendar">"沒有發現日程"</string>
+     <string name="import_vcalendar_fail">"匯入日程失敗"</string>
+     <string name="unable_to_add_all">"已達到資訊大小上限，部分附件無法新增。"</string>
+     <string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g>個附件儲存成功至<xliff:g id="path">%2$s</xliff:g>路徑,<xliff id="fail">%3$d</xliff>個附件儲存失敗"</string>
+     <string name="soundrecorder_fail_msg">"無法啟動錄音程式。"</string>
+     <string name="camera_fail_msg">"無法啟動照相機程式。"</string>
+     <string name="video_fail_msg">"無法啟動錄相機程式。"</string>
+     <string name="protected_file">"不能新增受保護的檔案"</string>
+     <string name="message_too_big_for_audio">"該資訊太大，無法附加音訊。"</string>
+     <string name="contacts_count_can_send">"尊敬的客戶，接收號碼數量超過系統限制<xliff:g id="MAXLIMIT">%1$s</xliff:g>個，請您分批發送。"</string>
+     <string name="attach_common_messages">"插入常用短語"</string>
+     <string name="attach_subject">"主旨"</string>
+     <string name="valid_sub">"無效的SIM卡"</string>
+     <string name="add_contacts_dialog_title">"新增名片"</string>
+     <string name="add_contact_as_text">文字資訊</string>
+     <string name="pref_notification_settings_title_sim1">"sim1 通知"</string>
+     <string name="pref_notification_settings_title_sim2">"sim2 通知"</string>
+     <string name="pref_notification_settings_title_sim">"sim 通知"</string>
+     <string name="recipient_invalid">"<xliff:g id="invalid_number" example="1">%1$s</xliff:g>個收件者無效"</string>
+     <string name="recipient_invalid_detail">"無效(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+     <string name="recipient_changed_detail">"已處理(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+
+</resources>

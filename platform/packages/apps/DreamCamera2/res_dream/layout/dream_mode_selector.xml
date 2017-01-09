@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.ModeSelectorItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mode_selector_item_height" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.android.camera.ui.ModeIconView
+            android:id="@+id/selector_icon"
+            android:layout_width="@dimen/mode_selector_icon_block_width"
+            android:layout_height="@dimen/mode_selector_icon_block_width"
+            android:layout_marginTop="@dimen/mode_selector_icon_drawable_margin_top"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/selector_text"
+            style="@style/DreamText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mode_selector_item_text_height"
+            android:layout_marginLeft="@dimen/mode_selector_item_text_margin_left"
+            android:layout_marginRight="@dimen/mode_selector_item_text_margin_left"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="@dimen/dream_mode_selector_text_size" />
+    </LinearLayout>
+
+</com.android.camera.ui.ModeSelectorItem>

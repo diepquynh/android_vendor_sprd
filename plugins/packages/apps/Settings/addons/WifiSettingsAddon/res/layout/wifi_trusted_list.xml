@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Spreadst -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+
+         <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/wifi_trusted_ap_category"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:textSize = "22dip"
+                android:padding = "8dip"/>
+
+         <ListView
+                android:id="@+id/trusted_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight ="1"
+                android:padding="4dip"/>
+
+         <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dip"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="bottom">
+
+                <Button android:id="@+id/save"
+                        android:layout_width="0dip"
+                        android:layout_weight ="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wifi_save_update"/>
+                <Button android:id="@+id/move_up"
+                        android:layout_width="0dip"
+                        android:layout_weight ="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wifi_move_ap_up"/>
+                <Button android:id="@+id/move_down"
+                        android:layout_width="0dip"
+                        android:layout_weight ="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wifi_move_ap_down"/>
+       </LinearLayout>
+</LinearLayout>

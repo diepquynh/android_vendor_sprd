@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ucam_makeup_controls"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/indicators_background_color"
+    android:clickable="true"
+    android:gravity="center"
+    android:paddingTop="15dp"
+    android:paddingBottom="137dp">
+
+    <com.android.camera.ui.RotateImageView
+        android:id="@+id/low_makeup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+
+        android:clickable="false"
+        android:layout_weight="1"
+        android:src="@drawable/low_makeup" />
+    <SeekBar
+        android:id="@+id/makeup_seekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="8"
+        android:background="@drawable/ucam_beauty_seekbar_bg"
+        android:max="99"
+        android:progress="44"
+        android:progressDrawable="@android:color/transparent"
+        android:thumb="@drawable/thumb" /> 
+    <com.android.camera.ui.RotateImageView
+        android:id="@+id/high_makeup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:clickable="false"
+        android:src="@drawable/high_makeup" />
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table_row_id"
+    android:layout_width="fill_parent"
+    android:layout_height="64px"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/id_text"
+        style="@style/TableTextStyle"
+        android:layout_width="0px"
+        android:layout_height="64px"
+        android:layout_column="0"
+        android:layout_weight="2"
+        android:gravity="center" />
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="32px"
+        android:layout_column="1"
+        android:background="@drawable/line_v" />
+
+    <TextView
+        android:id="@+id/test_case"
+        style="@style/TableTextStyle"
+        android:layout_width="0px"
+        android:layout_height="64px"
+        android:layout_column="2"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:text="@string/system_test_title" >
+    </TextView>
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="64px"
+        android:layout_column="3"
+        android:background="@drawable/line_v" />
+
+    <TextView
+        android:id="@+id/test_result"
+        style="@style/TableTextStyle"
+        android:layout_width="0px"
+        android:layout_height="64px"
+        android:layout_column="4"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="@string/display_test_title" >
+    </TextView>
+
+</LinearLayout>

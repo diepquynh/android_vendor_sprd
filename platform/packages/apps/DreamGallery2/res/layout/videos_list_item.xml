@@ -1,0 +1,92 @@
+<!-- Created By Spreadst -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    tools:context="com.example.demoformyproject.MainActivity$PlaceholderFragment" >
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="3dp"
+        android:background="@drawable/default_bg"
+        android:scaleType="centerCrop" />
+         <ImageView
+        android:id="@+id/drmlock"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginLeft="64dp"
+        android:visibility="gone"
+        android:src="@drawable/ic_drm_unlock"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginRight="5dp"
+        android:paddingLeft="8dp" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:textColor="#212121" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="middle"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/date_modified"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:singleLine="true"
+                android:textColor="#7d7d7d" />
+
+            <TextView
+                android:id="@+id/duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="0dp"
+                android:singleLine="true"
+                android:textColor="#7d7d7d" />
+
+            <TextView
+                android:id="@+id/size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/trim_label"
+                android:singleLine="true"
+                android:textColor="#7d7d7d" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:checked="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:visibility="gone" />
+
+</LinearLayout>

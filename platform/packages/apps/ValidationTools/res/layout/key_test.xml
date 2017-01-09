@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <ImageButton
+       android:id="@+id/volume_up_button"
+       android:layout_width="180dip"
+       android:layout_height="wrap_content"
+       android:clickable="false"
+       android:src="@drawable/voice_up" />
+
+   <ImageButton
+       android:id="@+id/volume_down_button"
+       android:layout_width="180dip"
+       android:layout_height="wrap_content"
+       android:clickable="false"
+       android:src="@drawable/voice_down"/>
+
+   <ImageButton
+       android:id="@+id/menu_button"
+       android:layout_width="180dip"
+       android:layout_height="wrap_content"
+       android:clickable="false"
+       android:gravity="center"
+       android:src="@drawable/menu" />
+   
+  <ImageButton
+       android:id="@+id/home_button"
+       android:layout_width="180dip"
+       android:layout_height="wrap_content"
+       android:clickable="false"
+       android:gravity="center"
+       android:src="@drawable/home" />   
+
+  <ImageButton
+       android:id="@+id/back_button"
+       android:layout_width="180dip"
+       android:layout_height="wrap_content"
+       android:clickable="false"
+       android:gravity="center"
+       android:src="@drawable/back" />
+
+   <ImageButton
+       android:id="@+id/camera_button"
+       android:layout_width="180dip"
+       android:layout_height="wrap_content"
+       android:clickable="false"
+       android:src="@drawable/camera" />  
+
+</LinearLayout>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_number">"Címzett:"</string>
+<string name="cancel_call">"Mégse"</string>
+<string name="delivery_toast_body_fail">%s nem kapta meg az üzenetet.</string>
+<string name="read_report_toast_body">%s elolvasta az üzenetet.</string>
+<string name="read_report_toast_body_fail">%s nem olvasta el az üzenetet.</string>
+<string name="delivery_toast_body_fail_rejected">%s elolvasta az üzenetet.</string>
+<string name="user_not_exist">A fejhasználó nem létezik.</string>
+<string name="menu_resend">Újraküldés</string>
+<string name="low_storage_toast">Kevés a lemezterület! A terület felszabadításához töröljön néhány fájlt.</string>
+<string name="failed_to_download_mms">MMS letöltése sikertelen, próbálja újra később.</string>
+<string name="failed_to_send_mms">MMS küldése sikertelen, próbálja újra később.</string>
+<string name="success_to_send_mms">MMS küldése sikeres</string>
+<string name="sim_card_not_ready">"A SIM kártya nincs kész"</string>
+<string name="sim_is_invalid">"A SIM kártya nincs kész"</string>
+<string name="on_progress">"Folyamatban, kérjük, várjon..."</string>
+<string name="pref_internal_memory_usage_title">"MMS/Szabad/Teljes"</string>
+<string name="pref_internal_memory_usage_progress_summary">"Memória kiszámítása..."</string>
+<string name="please_wait_title">"Kérjük, várjon..."</string>
+<string name="sim_card_setting">SIM kártya beállítás</string>
+<string name="multi_sim_manage_messages_title">"Üzenetek itt: SIM<xliff:g id="COUNT">%1$S</xliff:g>"</string>
+<string name="pref_title_manage_sim_setting">"SIM beállítások kezelése"</string>
+<string name="pref_summary_manage_sim_setting">A SIM-en tárolt üzenetek, kézbesítési jelentések, eltelt idő, SMSC beállítás, stb. kezelése</string>
+<string name="pref_summary_notification_ringtone">"Alapértelmezett csengőhang"</string>
+<string name="pref_summary_notification_ringtone_silent">"Csend"</string>
+<string name="menu_sim_capacity">SIM kapacitása</string>
+<string name="pref_title_manage_multi_sim_messages">"Üzenetek kezelése itt: SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="pref_summary_manage_multi_sim_messages">"Az itt tárolt üzenetek kezelése: SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_sim_success">Sikeresen a SIM-re</string>
+<string name="toast_copy_to_sim_failure">Másolás SIM-re sikertelen</string>
+<string name="toast_sim_memory_full">A SIM memória megtelt</string>
+<string name="toast_copy_to_multi_sim_success">Sikeresen SIM-re<xliff:g id="COUNT">%1$s</xliff:g></string>
+<string name="toast_copy_to_multi_sim_failure">"Sikertelen másolás ide: SIM<xliff:g id="COUNT">%1$s<xl></xl></xliff:g>"</string>
+<string name="toast_multi_sim_memory_full">A SIM <xliff:g id="COUNT">%1$S</xliff:g> memória megtelt</string>
+<plurals name="conversation_num">
+<item quantity="one">"Önnek 1 beszélgetése van."</item>
+<item quantity="other">"Önnek <xliff:g id="number">%1$s</xliff:g> beszélgetése van."</item>
+</plurals>
+<string name="count_of_new_mms">"%s új üzenet"</string>
+<string name="pref_summary_store_sms_on_sim">"Új SMS érkezésekor mentés SIM-re vagy sem"</string>
+<string name="pref_title_store_sms_on_sim">SMS mentése SIM-re</string>
+<string name="pref_title_sms_validity">"SMS érvényesség"</string>
+<string-array name="prefEntries_sms_validity">
+<item>"Nincs megadva"</item>
+<item>"1 óra"</item>
+<item>"6 óra"</item>
+<item>"24 óra"</item>
+<item>"2 nap"</item>
+<item>"1 hét"</item>
+<item>Maximum</item>
+</string-array>
+<string name="done_slide_show">"Kész"</string>
+<string name="smsc_check_fdn_failure">Az Ön üzenetközpont száma nem tartozik az FDN listához.</string>
+<string name="muti_select_all">"Összes kijelölése"</string>
+<string name="menu_select_none">Az összes kijelölésének törlése</string>
+<string name="Conversation_check_type_selected_all">"Összes kijelölése"</string>
+<string name="menu_msg_folder">Mappa nézet</string>
+<string name="menu_msg_list">Üzenet nézet</string>
+<string name="folder_inbox">"Beérkezett üzenetek"</string>
+<string name="folder_outbox">"Kimenő levelek"</string>
+<string name="folder_sent">"Elküldve"</string>
+<string name="folder_drafts">"Piszkozatok"</string>
+<string name="folder_empty">Ebben a mappában nincsenek üzenetek.</string>
+<string name="folder_display_all">"Összes üzenet megjelenítése"</string>
+<string name="folder_delete_messages">"Üzenetek törlése"</string>
+<string name="folder_loading">"Betöltés"</string>
+<string name="folder_reply">"Válasz"</string>
+<string name="folder_forward">"Továbbítás"</string>
+<string name="no_msg_del">"Nincs törölt üzenet"</string>
+<string name="exceed_slides_number_limitation">Elérte a diaszám korlátot</string>
+<string name="has_vcard_or_vcalendar_attachment">"Már van <xliff:g id="TYPE">%1$s</xliff:g>, nem adható hozzá több"</string>
+<string name="folder_sortby">Rendezés:</string>
+<string-array name="sort_type">
+<item>"Idő szerint"</item>
+<item>"Cím szerint"</item>
+</string-array>
+<string name="OTAConfig_title">OTA konfig beállítások</string>
+<string name="OTAConfig_Message">Biztosan menti az OTA konfigurációt?</string>
+<string name="OTAConfiy_Success">OTA üzenet küldése sikeres</string>
+<string name="OTAConfiy_Error">"OTA konfig. sikertelen""</string>
+<string name="ota_pin_error">"OTA biztonsági hiba"</string>
+<string name="ota_retry">"jelszóhiba"</string>
+<string name="ota_pin_exception">OTA konfig sikertelen: programhiba.</string>
+<string name="ota_mime_error">OTA konfig sikertelen: üzenetadat hiba.</string>
+<string name="ota_support_not">OTA konfig sikertelen: <xliff:g id="OTATYPE">%1$s</xliff:g> nem támogatott típus.</string>
+<string name="pref_reply_path_title">"Válaszútvonal beállítások"</string>
+<string name="pref_title_reply_path">"Válaszútvonal"</string>
+<string name="pref_summary_reply_path">"Válasz ugyanazon a központon keresztül"</string>
+<string name="cannot_add_picture_and_vcard">vCard és kép nem tehető egy diára.</string>
+<string name="mms_setting">MMS beállítás</string>
+<string name="pref_title_font_size">Betűméret beállítás</string>
+<string name="font_size_setting">Betűméret beállítás</string>
+<string name="font_size">a betűméret: <xliff:g id="font_size_id">%1$s</xliff:g></string>
+<string name="menu_copy_to_sim_memory">Üzenet másolása SIM-re</string>
+<string name="menu_add_recipient_to_contacts"><xliff:g id="name">%s</xliff:g>hozzáadása a kapcsolatokhoz</string>
+<string name="action_done">"Kész"</string>
+<string name="message_signature_setting">Aláírás beállítás</string>
+<string name="pref_signature_enable_title">"Választható aláírás"</string>
+<string name="pref_signature_enabl_summary">Aláírás automatikus csatolása minden küldött MMS-hez</string>
+<string name="pref_signature_input_title">Aláírás szerkesztése</string>
+<string name="pref_signature_input_summary">Lépjen ide az aláírás beállításához</string>
+<string name="pref_signature_input_limited">"Az aláírás elérte a korlátot"</string>
+<string name="pref_hint_signature_edittext">Kérem, adja meg aláírását</string>
+<string name="toast_append_signature_failed">Aláírás csatolása az MMS-hez sikertelen, elérte a dia megengedett méretét</string>
+<string name="pageIndex">%s. oldal</string>
+<string name="remove_subject">tárgy eltávolítása</string>
+<string name="toast_message_when_memory_full">A memória megtelt, szabadítson fel helyet és indítsa újra</string>
+<string name="toast_save_classzero_message_failed">Nincs hátralévő hely, az üzenet mentése sikertelen</string>
+<string name="toast_shared_file_failed">Nem támogatott médiafájl, megosztás sikertelen.</string>
+<string name="message_too_many_recipients_picked">"Sajnáljük, nem adhat hozzá több mint <xliff:g id="COUNT">%1$s</xliff:g> kapcsolatot egyszerre""</string>
+<string name="pref_title_manage_sim_smsc">SMS szolgáltatásközpont</string>
+<string name="smsc_set_fails">SMSC beállítás sikertelen</string>
+<string name="smsc_set_success">"Beállítás sikeres."</string>
+<string name="smsc_change_success">"Módosítás sikeres."</string>
+<string name="smsc_add_success">"Hozzáadás sikeres"</string>
+<string name="received_new_wap_contact">SMS vCard üzenet érkezett</string>
+<string name="save_new_wap_contact">"Mentés"</string>
+<string name="cancle_new_wap_contact">"Mégse"</string>
+<string name="menu_sim_message">Üzenetek a SIM-en</string>
+<string name="folder_display_option">Megjelenítési opció</string>
+<string name="confirm_open_browser_dialog_title">"Üzenet"</string>
+<string name="confirm_open_browser_dialog_message">Ezzel megnyitja a böngészőt. Folytatja?</string>
+<plurals name="delete_confirm">
+<item quantity="one">"Válasszon 1 tételt"</item>
+<item quantity="other">"Válasszon <xliff:g id="del_count">%1$s</xliff:g> tételt"</item>
+</plurals>
+<string name="select_sim_card">Válasszon egy SIM kártyát</string>
+<string name="menu_video_call_back">Videohívás<xliff:g id="name">%s</xliff:g></string>
+<string name="menu_edit_before_call_back">Szerkesztős  <xliff:g id="name">%s</xliff:g> hívása előtt</string>
+<string name="min_zoom">elérte a minimumot</string>
+<string name="max_zoom">elérte a maximumot</string>
+<string name="sms_merge_forward">Egyesítés és továbbítás</string>
+<string name="sms_merge_dialog_title">Figyelmeztetés</string>
+<string name="sms_merge_dialog_content">Csak 2-30 SMS üzenetet egyesíthet. Kérem, ellenőrizze.</string>
+<string name="sms_merge_forward_empty">Nincs egyesíthető és továbbítható SMS üzenet.</string>
+<string name="sms_forwarding_number">SMS továbbítási beállítás</string>
+<string name="pref_sms_forwarding_number_title">"SMS továbbítási szám"</string>
+<string name="pref_sms_forwarding_number_summary">"SMS továbbítása a címzett számával"</string>
+<string name="sim_list_title">Válasszon egy SIM kártyát</string>
+<string name="type_vcard">"Névjegy"</string>
+<string name="type_vcalendar">"Naptár"</string>
+<string name="attach_vcard">"Névjegy"</string>
+<string name="attach_vcalendar">"Naptár"</string>
+<string name="add_slide_before">Csúszka hozzáadása (előtte)</string>
+<string name="add_slide_after">Csúszka hozzáadása (utána)</string>
+<string name="re_take_picture">A kép mentése sikertelen, kérem, rögzítse újra a képet.</string>
+<string name="exceed_text_length_limitation">Túllépi a szöveghossz korlátot.</string>
+<string name="move_message_to_phone_memory">Üzenet másolása a telefon memóriájába sikeres</string>
+<string name="can_not_copy_the_message">Az üzenet másolása nem lehetséges</string>
+<string name="confirm_import_vcard">"VCard importálása？"</string>
+<string name="pref_title_manage_simx_smsc">"SIM<xliff:g id="COUNT">%1$s</xliff:g> SMS Szervizközpont"</string>
+<string name="simx_settings_title">"SIM<xliff:g id="COUNT">%1$s</xliff:g> Beállítás"</string>
+<string name="pref_summary_sms_validity">Rövid üzenet érvényessége</string>
+<string-array name="prefEntries_mms_validity">
+<item>"1 óra"</item>
+<item>"12 óra"</item>
+<item>"24 óra"</item>
+<item>"2 nap"</item>
+<item>Maximum</item>
+</string-array>
+<string-array name="prefEntries_mms_priority">
+<item>"Magas"</item>
+<item>"Normál"</item>
+<item>"Alacsony"</item>
+</string-array>
+<string name="pref_title_mms_validity">Multimédia üzenet érvényessége</string>
+<string name="pref_summary_mms_validity">Multimédia üzenet érvényessége</string>
+<string name="pref_title_mms_priority">Prioritás</string>
+<string name="pref_summary_mms_priority">"Prioritás beállítás"</string>
+<string name="sim_settings_title">SIM kártya beállítás</string>
+<string name="toast_copy_to_simx_success">"Sikeres másolás ide: <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_simx_failure">"Sikertelen másolás ide: <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_simx_memory_full">"A(z)<xliff:g id="COUNT">%1$s</xliff:g> megtelt"</string>
+<string name="pref_title_manage_sim_x_setting">"A következő beállításainak kezelése: SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="pref_title_mms_creation_mode">"Létrehozás módja"</string>
+<string-array name="mms_creation_mode_entries">
+<item>"Korlátozott"</item>
+<item>Figyelem</item>
+<item>Szabad</item>
+</string-array>
+<string name="exceed_resolution_limit">"Felbontáskorlát túllépve"</string>
+<string name="want_to_add_media">Szeretné hozzáadni ezt: <xliff:g id="NAME">%1$s</xliff:g> az üzenethez?</string>
+<string name="mms_can_not_add_vcard">"Törölje a meglévő mellékletet kapcsolatok hozzáadásához"</string>
+<string name="mms_can_not_add_vcalendar">"Törölje a meglévő mellékletet dia hozzáadásához"</string>
+<string name="converting_to_text_message">"Konvertálás szöveges üzenetté..."</string>
+<string name="select_calendar">"Napirend kiválasztása"</string>
+<string name="no_calendar">"Nincs napirend"</string>
+<string name="exceed_slides_number_message">"Kiválasztott <xliff:g id="NUMBER">%1$s</xliff:g> napirend，a max. szám <xliff:g id="NUMBER">%2$s</xliff:g> napirend"</string>
+<string name="add_to_blacklist">Hozzáadás feketelistához</string>
+<string name="failed_addToBlacklist">"Hozzáadás a feketelistára sikertelen."</string>
+<string name="creating_slideshow_title">"Diavetítés létrehozása"</string>
+<string name="attachment_vcalendar">vCalendar</string>
+<string name="attachment_vcard">vcard</string>
+<string name="text_limited_warning">"Beviteli korlát"</string>
+<string name="subject_text_length_limitation">"Elérte a tárgyhossz korlátot."</string>
+<string name="attach_commonPhrases">Közös kifejezés</string>
+<string name="commonphrase_empty">"Nincsenek közös kifejezések"</string>
+<string name="quick_reply">"Gyors válaszok"</string>
+<string name="common_messages">Közös kifejezés</string>
+<string name="common_add_text">"Új"</string>
+<string name="common_delete_text">"Törlés"</string>
+<string name="common_delete_message">"Törlés megerősítése?"</string>
+<string name="common_delete">"Törlés"</string>
+<string name="common_phrase_contextmenu_title">Művelet menü</string>
+<string name="common_edit">"Szerkesztés..."</string>
+<string name="commonphrase_delete_empty">Nem törölhető kifejezés</string>
+<string name="common_phrase_edit_dialog_title">"Opciók"</string>
+<string name="common_phrase_edit_dialog_inform">"Szerkesztett mentése?"</string>
+<string name="common_phrase_edit_max_length">"Elérte a beviteli korlátot!"</string>
+<string name="common_messages_edit">Közös kifejezés szerkesztése</string>
+<string name="common_save">"Mentés"</string>
+<string name="common_cancel">"Mégse"</string>
+<string name="add_empty_common_messages">"Bármilyen karakter beírása"</string>
+<string name="pref_other_settings_title">"Egyéb"</string>
+<string name="pre_key_title_common_messages">Közös kifejezés</string>
+<string name="common_phrase_selection">"Közös kifejezések kiválasztása"</string>
+<string name="wap_push_message_dialog_title">""Wap Push üzenet"</string>
+<string name="open_website">Weboldal megnyitása</string>
+<string name="activity_not_found">Nem található megfelelő alkalmazás</string>
+<string name="add_contact">"Kapcsolatok beszúrása"</string>
+<string name="receive_from">"Fogadás tőle: %s"</string>
+<string name="send_from">"Küldés innen: %s"</string>
+<string name="dl_expired_wap_push">"<xliff:g id="COUNT">%1$s</xliff:g> lejárt wap üzenet van, törlésre kerül."</string>
+<string name="invalid_recipient">"Érvénytelen címzett"</string>
+<string name="max_recipients_count">"A címzettkorlát <xliff:g id="MAXCOUNT">%1$s</xliff:g>."</string>
+<string name="no_media_selected">"Nincs kiválasztott média!"</string>
+<string name="search_max_length">"A keresett mondat túl hosszú. A korlát 512."</string>
+<string name="sim_capacity_used">"Használt:"</string>
+<string name="sim_capacity_total">"Összesen:"</string>
+<string name="too_many_contacts">"A címzett korlát <xliff:g id="MAXLIMIT">%1$s</xliff:g>, <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> címzett kerül hozzáadásra."</string>
+<string name="delivery_toast_body_expired">"Az üzenet lejárt: %s."</string>
+<string name="discard_dialog">"Tényleg elveti ezt az információt?"</string>
+<string name="contacts_count_excceeds">"Már <xliff:g id="MAXLIMIT">%1$s</xliff:g> címzettet adott hozzá, nem adhat hozzá többet."</string>
+<string name="copy">"Másolás"</string>
+<string name="received_new_wap_vcalendar">"Bejövő SMS Vcalendar üzenet"</string>
+<string name="remove_vcalendar_first">"A szerkesztéshez előbb törölje a csatolt vcalendar-t."</string>
+<string name="remove_vcard_first">"A szerkesztéshez előbb törölje a csatolt vcard-ot."</string>
+<string name="import_vcalendar">"VCalendar importálása"</string>
+<string name="no_vcalendar">"Nem található VCalendar"</string>
+<string name="import_vcalendar_fail">"A VCalendar importálása nem lehetséges."</string>
+<string name="unable_to_add_all">"Elérte az üzenetméret korlátot, egyes részek nem adhatók hozzá."</string>
+<string name="replce_slideshow_dilaog_dismiss">"A diabemutató cseréje törli a jelenlegi mellékletet. Folytatja?"</string>
+<string name="pref_title_sms_retry_times">"SMS újrapróbálkozás engedélyezése"</string>
+<string name="smsc_list">SMS-központ lista</string>
+<string name="smsc_list_empty">Nincsenek SMS-központ számok</string>
+<string name="smsc_list_loading">"Betöltés"</string>
+<string name="smsc_list_menu_edit">"Szerkesztés..."</string>
+<string name="smsc_list_menu_activate">"Aktiválás"</string>
+<string name="smsc_list_not_allow_to_clear">A számok törlése nem megengedett</string>
+<string name="smsc_list_empty_number">"Kattintson új szám hozzáadásához"</string>
+<string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g> melléklet elmentve ide: <xliff:g id="path">%2$s</xliff:g>,<xliff id="fail">%3$d</xliff> melléklet mentése sikertelen"</string>
+<string name="box_msg_list_menu_addtocontacts">"Hozzáadás a névjegyekhez"</string>
+<string name="box_msg_list_menu_call">"Hívás"</string>
+<string name="box_msg_list_menu_editbeforecall">"Szerkesztés hívás előtt"</string>
+<string name="box_msg_list_menu_videocall">Videohívás</string>
+<string name="soundrecorder_fail_msg">"A Hangfelvevő indítása nem lehetséges."</string>
+<string name="camera_fail_msg">"A Kamera indítása nem lehetséges."</string>
+<string name="video_fail_msg">"A Videó indítása nem lehetséges."</string>
+<string name="pref_encode_type_setting_title">"Kódolástípus beállítás"</string>
+<string name="pref_encode_type_title">"Kódolástípus"</string>
+<string name="confirm_convert_to_mms">"A címzett e-mail címet tartalmaz, az üzenet MMS-ként lesz elküldve"</string>
+<string name="send_as_mms">MMS küldése</string>
+<string name="send_as_sms">"Csak SMS küldése"</string>
+<string name="protected_file">"Védett fájl nem adható hozzá"</string>
+<string name="success_to_send_sms">"SMS küldése sikeres"</string>
+<string name="confirm_ota_message">"OTA beállítások megerősítése?"</string>
+<string name="confirm_ota">"OK"</string>
+<string name="cancel_ota">"Mégse"</string>
+<string name="ota_cancelled">"OTA beállítások törölve."</string>
+<string name="message_too_big_for_audio">"Az üzenet túl nagy hangfájl csatolásához."</string>
+<string name="contacts_count_can_send">"Tiszelt ügyfelünk! A címzettek száma meghaladta a rendszerkorlátot, csak <xliff:g id="MAXLIMIT">%1$s</xliff:g> küldhető. Kérjük, küldje el kötegelve."</string>
+<string name="attach_common_messages">Közös kifejezés</string>
+<string name="attach_subject">"Tárgy"</string>
+<string name="add_contacts_dialog_title">"Kapcsolatok hozzáadása"</string>
+<string name="add_contact_as_text">"Szöveges üzenet"</string>
+    <string name="action_next">"Tovább"</string>
+     <string name="sms_forward">"Továbbítás"</string>
+     <string name="valid_sub">"Érvénytelen SIM kártya"</string>
+     <string name="confirm_import_vcalendar">"Importálja ezt a Vcalendart?"</string>
+     <string name="confirm_save_otherfiles">"Menti a csatolt fájlt?"</string>
+     <string name="pref_notification_settings_title_sim1">"sim1 Értesítések"</string>
+     <string name="pref_notification_settings_title_sim2">"sim2 Értesítések"</string>
+     <string name="pref_notification_settings_title_sim">"SIM értesítések"</string>
+     <string name="dlg_media_removed">"A csatolmányban lévő médiafájl elérési útja hibás és eltávolításra került. Folytatja a küldést?"</string>
+     <string name="toast_media_removed">"A csatolmányban lévő médiafájl elérési útja hibás és eltávolításra került. Kérem, ellenőrizze!"</string>
+     <string name="dl_failure_roaming">"Roaming állapot, az üzenet nem tölthető le!"</string>
+     <string name="recipient_invalid">"<xliff:g id="invalid_number" example="1">%1$s</xliff:g> érvénytelen fogadó(k)"</string>
+     <string name="recipient_invalid_detail">"Érvénytelen(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+     <string name="recipient_changed_detail">"Megváltozott(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+
+</resources>

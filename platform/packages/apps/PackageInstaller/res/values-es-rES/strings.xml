@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"Paquete de instalación"</string>
+<string name="next">"Próximo"</string>
+<string name="install">"Instalar"</string>
+<string name="done">"Hecho"</string>
+<string name="security_settings_desc">"Permitir esta aplicación para:"</string>
+<string name="cancel">"Cancelar"</string>
+<string name="unknown">"Desconocido"</string>
+<string name="installing">"Instalando\u2026"</string>
+<string name="install_done">"Aplicación instalada."</string>
+<string name="install_confirm_question">"¿Desea instalar esta aplicación? Esta tendrá acceso a lo siguiente:"</string>
+<string name="install_confirm_question_no_perms">"¿Desea instalar esta aplicación? No requiere accesos especiales."</string>
+<string name="install_confirm_question_update">"¿Desea instalar una actualización para esta aplicación existente? Sus datos no se perderán. La aplicación actualizada tendrá acceso a lo siguiente:"</string>
+<string name="install_confirm_question_update_system">"¿Desea instalar una actualización para esta aplicación integrada? Sus datos no se perderán. La aplicación actualizada tendrá acceso a lo siguiente:"</string>
+<string name="install_confirm_question_update_no_perms">"¿Desea instalar una actualización de esta aplicación existente? Sus datos existentes no se perderán. No se requiere ningún acceso especial."</string>
+<string name="install_confirm_question_update_system_no_perms">"¿Desea instalar una actualización de esta aplicación integrada? Sus datos existentes no se perderán. No se requiere ningún acceso especial."</string>
+<string name="install_failed">"No se instaló la aplicación."</string>
+<string name="install_failed_blocked">"El paquete no se ha instalado porque fue bloqueado."</string>
+<string name="install_failed_conflict">"El paquete está en conflicto con un paquete existente con el mismo nombre."</string>
+<string name="install_failed_incompatible" product="tablet">"Esta aplicación no es compatible con la tablet."</string>
+<string name="install_failed_incompatible" product="tv">"Esta aplicación no es compatible con la TV."</string>
+<string name="install_failed_incompatible" product="default">"Esta aplicación no es compatible con la teléfono."</string>
+<string name="install_failed_invalid_apk">"Parece que el paquete está dañado."</string>
+<string name="install_failed_msg" product="tablet">"<xliff:g id="app_name">%1$s</xliff:g> no pudo ser instalado en su tablet."</string>
+<string name="install_failed_msg" product="tv">"<xliff:g id="app_name">%1$s</xliff:g> no pudo ser instalado en su TV."</string>
+<string name="install_failed_msg" product="default">"<xliff:g id="app_name">%1$s</xliff:g> no pudo ser instalado en su teléfono."</string>
+<string name="launch">"Abrir"</string>
+<string name="unknown_apps_dlg_text" product="tablet">"Por seguridad, su tablet se configuró para bloquear la instalación de aplicaciones de fuentes desconocidas."</string>
+<string name="unknown_apps_dlg_text" product="tv">"Por seguridad, su TV se configuró para bloquear instalación de aplicaciones de fuentes desconocidas."</string>
+<string name="unknown_apps_dlg_text" product="default">"Por seguridad, su teléfono se configuró para bloquear la instalación de aplicaciones de fuentes desconocidas."</string>
+<string name="unknown_apps_admin_dlg_text">"Su administrador no permite la instalación de aplicaciones que se obtuvieron de fuentes desconocidas."</string>
+<string name="ok">"OK"</string>
+<string name="settings">"Configuraciones"</string>
+<string name="manage_applications">"Administrar aplicaciones"</string>
+<string name="dlg_app_replacement_title">"¿Desea reemplazar la aplicación?"</string>
+<string name="dlg_app_replacement_statement">"La aplicación que está instalando reemplazará a otra aplicación.\n\nSe guardarán todos sus datos de usuario anteriores."</string>
+<string name="dlg_sys_app_replacement_statement">"Esta es una aplicación del sistema.\n\nSe guardarán todos tus datos de usuario anteriores."</string>
+<string name="out_of_space_dlg_title">"Sin espacio"</string>
+<string name="out_of_space_dlg_text">"<xliff:g id="app_name">%1$s</xliff:g> no se pudo instalar. Libere espacio y vuelva a intentarlo."</string>
+<string name="dlg_ok">"OK"</string>
+<string name="app_not_found_dlg_title">"No se encontró la aplicación."</string>
+<string name="app_not_found_dlg_text">"La aplicación no está en la lista de aplicaciones instaladas."</string>
+<string name="uninstall_application_title">"Desinstalar la aplicación"</string>
+<string name="uninstall_update_title">"Desinstalar la actualización"</string>
+<string name="uninstall_activity_text">"<xliff:g id="activity_name">%1$s</xliff:g> es parte de la siguiente aplicación:"</string>
+<string name="uninstall_application_text">"¿Desea desinstalar esta aplicación?"</string>
+<string name="uninstall_application_text_all_users">"¿Desea desinstalar esta aplicación para <b>all</b>usuarios? La aplicación y sus datos se eliminarán de <b>all</b> los usuarios del dispositivo."</string>
+<string name="uninstall_application_text_user">"¿Desea desinstalar esta aplicación para el usuario <xliff:g id="username">%1$s</xliff:g>?"</string>
+<string name="uninstall_update_text">"¿Reemplazar esta aplicación con la versión de fábrica? Todos los datos serán eliminados."</string>
+<string name="uninstall_update_text_multiuser">""¿Reemplazar esta aplicación con la versión de fábrica? Todos los datos serán eliminados, lo que afecta a todos los usuarios de este dispositivo, incluidos aquellos con perfiles de trabajo"."</string>
+<string name="uninstalling">"Desinstalando\u2026"</string>
+<string name="uninstall_done">"La desinstalación finalizó."</string>
+<string name="uninstall_failed">"Desinstalación incorrecta"</string>
+<string name="uninstall_failed_device_policy_manager">"No se puede desinstalar este paquete porque es un administrador de dispositivos activo."</string>
+<string name="uninstall_failed_device_policy_manager_of_user">"No se puede desinstalar este paquete porque es un administrador de dispositivo activo para el usuario <xliff:g id="username">%1$s</xliff:g>."</string>
+<string name="uninstall_all_blocked_profile_owner">"Esta aplicación es necesaria para algunos perfiles de usuarios y se desinstaló para otros"</string>
+<string name="uninstall_blocked_profile_owner">"Esta aplicación es necesaria para su perfil y no se puede desinstalar."</string>
+<string name="uninstall_blocked_device_owner">"El administrador del dispositivo necesita esta aplicación y no se puede desinstalar."</string>
+<string name="manage_device_administrators">"Administrar los administradores de dispositivos"</string>
+<string name="manage_users">"Administrar usuarios"</string>
+<string name="uninstall_failed_msg">"<xliff:g id="app_name">%1$s</xliff:g> no se pudo instalar."</string>
+<string name="Parse_error_dlg_text">"Se produjo un error durante el análisis del paquete."</string>
+<string name="newPerms">"nueva"</string>
+<string name="allPerms">"Todos"</string>
+<string name="privacyPerms">"Privacidad"</string>
+<string name="devicePerms">"Acceso al dispositivo"</string>
+<string name="no_new_perms">"Esta actualización no requiere nuevos permisos."</string>
+<string name="grant_confirm_question">"¿Desea conceder los permisos indicados a continuación? Esto dará acceso a:"</string>
+<string name="grant_dialog_button_deny">"Denegar"</string>
+<string name="grant_dialog_button_deny_anyway">"Negar de todos modos"</string>
+<string name="current_permission_template">" <xliff:g id="current_permission_index" example="1">%1$s</xliff:g> de <xliff:g id="permission_count" example="2">%2$s</xliff:g>"</string>
+<string name="permission_warning_template">"¿Permitir <b><xliff:g id="app_name" example="Gmail">%1$s</xliff:g></b> a <xliff:g id="acción" example="haga algo">%2$s</xliff:g>?"</string>
+<string name="grant_dialog_button_allow">"Permitir"</string>
+<string name="app_permissions_breadcrumb">"Aplicaciones"</string>
+<string name="app_permissions">"Permisos de aplicaciones"</string>
+<string name="never_ask_again">"No solicitar de nuevo"</string>
+<string name="no_permissions">"Sin permisos"</string>
+<string name="additional_permissions">"Permisos adicionales"</string>
+<plurals name="additional_permissions_more">
+<item quantity="one">"<xliff:g id="count" example="1">%1$d</xliff:g> más"</item>
+<item quantity="other">"<xliff:g id="count" example="2">%1$d</xliff:g> más"</item>
+</plurals>
+<string name="old_sdk_deny_warning">"Esta aplicación se diseñó para una versión de Android anterior. Si deniega el permiso, es posible que deje de funcionar de la forma prevista."</string>
+<string name="default_permission_description">"realizar una acción desconocida"</string>
+<string name="app_permissions_group_summary">"<xliff:g id="count" example="10">%1$d</xliff:g> de <xliff:g id="count" example="10">%2$d</xliff:g> aplicaciones permitidas"</string>
+<string name="menu_show_system">"Mostrar sistema"</string>
+<string name="menu_hide_system">"Ocultar sistema"</string>
+<string name="permission_title">"<xliff:g id="permission" example="Camera">%1$s</xliff:g> permisos"</string>
+<string name="no_apps">"Ninguna aplicación"</string>
+<string name="location_settings">"Configuración de la ubicación"</string>
+<string name="location_warning">"<xliff:g id="app_name" example="Package Installer">%1$s</xliff:g> provee servicios de ubicación a este dispositivo. El acceso a la ubicación puede modificarse desde la configuración de la ubicación."</string>
+<string name="system_warning">"Si no concede este permiso, es posible que algunas funciones básicas del dispositivo dejen de funcionar correctamente."</string>
+<string name="permission_summary_enforced_by_policy">"Se aplica en función de la política"</string>
+<string name="loading">"Cargando\u2026"</string>
+<string name="all_permissions">"Todos los permisos"</string>
+<string name="other_permissions">"Otras funciones de la aplicación"</string>
+<string name="permission_request_title">"Solicitud de permiso"</string>
+<string name="screen_overlay_title">"Se detectó una superposición de pantalla"</string>
+<string name="screen_overlay_message">"Para cambiar esta configuración de permisos, primero debe desactivar la superposición de pantalla en Configuración \u003e Aplicaciones"</string>
+<string name="screen_overlay_button">"Abrir configuración"</string>
+<string name="wear_not_allowed_dlg_text">""Acciones de instalación/desinstalación no compatibles con el desgaste"."</string>
+<string name="permission_review_warning_title_template_update">" <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> se ha actualizado. ¿Permitir <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> para acceder lo siguiente?"</string>
+<string name="permission_review_title_template_install">"Elija qué permitir<xliff:g id="app_name" example="Gmail">%1$s</xliff:g> para el acceso"</string>
+<string name="permission_review_title_template_update">" <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> se ha actualizado. Elija qué para permitir para que esta aplicación tenga acceso."</string>
+<string name="review_button_cancel">"Cancelar"</string>
+<string name="review_button_continue">"Continuar"</string>
+<string name="new_permissions_category">"Nuevos permisos"</string>
+<string name="current_permissions_category">"Permisos actuales"</string>
+<string name="message_staging">"Aplicación de puesta en escena&#8230;"</string>
+<string name="app_name_unknown">"Desconocido"</string>
+<string name="delete">"Eliminar"</string>
+<string name="delete_apk">"Eliminar aplicación o no?"</string>
+</resources>

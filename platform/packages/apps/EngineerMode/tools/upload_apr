@@ -1,0 +1,57 @@
+#!/system/bin/sh
+
+cmd=$1
+opt1=$2
+opt2=$3
+
+AUTOUPLOAD_ACTION="android.intent.action.ACTION_START"
+AUTOUPLOAD_COMPONENT="com.sprd.engineermode/.debuglog.APRService"
+REFRESH_ACTION="com.sprd.engineermode.debuglog.refresh_ui"
+
+function usage
+{
+  echo "Usage: upload_apr enable"
+  echo "       upload_apr disable"
+  echo "       upload_apr setting <Group> <Detect-time>"
+}
+
+if [ "$cmd" = "" ] ; then
+  usage
+  exit 1
+fi
+
+if [ "$cmd" = "enable" ] ; then
+  # enable upload apr
+  setprop persist.sys.apr.autoupload 1
+  am startservice -a $AUTOUPLOAD_ACTION $AUTOUPLOAD_COMPONENT
+elif [ "$cmd" = "disable" ] ; then
+  # disable upload apr
+  setprop persist.sys.apr.autoupload 0
+  am stopservice -a $AUTOUPLOAD_ACTION $AUTOUPLOAD_COMPONENT
+elif [ "$cmd" = "setting" ] ; then
+  # setting upload paramers
+  group=$opt1
+  time=$opt2
+
+  if [ "$group" = "" ] ; then
+    echo "no Group given!!!"
+    usage
+    exit 1
+  fi
+
+  if [ "$time" = "" ] ; then
+    echo "no Detect time given!!!"
+    usage
+    exit 1
+  fi
+
+  setprop persist.sys.apr.testgroup $group
+  setprop persist.sys.apr.intervaltime $time
+  # refresh ui
+  am broadcast -a $REFRESH_ACTION
+else
+  # error
+  echo "not support commond!"
+  usage
+  exit 1
+fi

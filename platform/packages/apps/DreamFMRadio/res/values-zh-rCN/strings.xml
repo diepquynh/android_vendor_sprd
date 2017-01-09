@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="6295623783273502721">"FM 电台"</string>
+    <string name="toast_station_searched" msgid="4804871039582320419">"搜索到的可收听电台数量："</string>
+    <string name="toast_cannot_search" msgid="8816492120732683772">"搜不到可收听的电台。"</string>
+    <string name="optmenu_speaker" msgid="3726411287495057671">"扬声器"</string>
+    <string name="optmenu_earphone" msgid="5400875884296655508">"耳机"</string>
+    <string name="save" msgid="7204164791719833151">"保存"</string>
+    <string name="toast_sdcard_missing" msgid="3707819946661311504">"找不到您的 SD 卡！"</string>
+    <string name="toast_sdcard_insufficient_space" msgid="1150004976629615550">"SD 卡存储空间不足！"</string>
+    <string name="toast_recorder_internal_error" msgid="8218803072221129182">"录音器发生内部错误！"</string>
+    <string name="btn_save_recording" msgid="7888937971238580699">"保存"</string>
+    <string name="btn_discard_recording" msgid="4316913232405323087">"舍弃"</string>
+    <string name="edit_recording_name_hint" msgid="3582848435650002280">"请在此处输入文件名"</string>
+    <string name="already_exists" msgid="3665755106404888637">"已存在"</string>
+    <string name="not_available" msgid="6709882926236090124">"当前无法收听"</string>
+    <string name="talk_prev_station" msgid="8940546148820098004">"上一个电台"</string>
+    <string name="talk_decrease" msgid="6796562419095928389">"调低频率"</string>
+    <string name="talk_increase" msgid="7207549524364881559">"调高频率"</string>
+    <string name="talk_next_station" msgid="2711772562090360378">"下一个电台"</string>
+    <string name="talk_add_favorite" msgid="1560744966239678417">"添加到收藏"</string>
+    <string name="talk_start_recording" msgid="2081128687917550957">"开始录音"</string>
+    <string name="more" msgid="8975740653205119861">"更多"</string>
+    <string name="recording_tips" msgid="9013420338482370789">"正在录音…"</string>
+    <string name="fm_symbol" msgid="2254633383284842986">"FM"</string>
+    <string name="fm_turn_on" msgid="407678074231499621">"播放或停止播放 FM 电台"</string>
+    <string name="fm_over_start_record" msgid="2072548132520550718">"开始录音"</string>
+    <string name="fm_over_record_list" msgid="8958996187616432424">"已保存的录音"</string>
+    <string name="fm_station_list_menu_refresh" msgid="1351081387336325789">"刷新"</string>
+    <string name="fm_no_headset_text" msgid="6831656307562812248">"要开始收听，请插上耳机（用作天线）。"</string>
+    <string name="station_title" msgid="4027617747760605320">"电台"</string>
+    <string name="station_searching_tips" msgid="6970095710072278870">"正在搜索电台"</string>
+    <string name="station_empty_text" msgid="6847327406626186898">"未找到任何电台"</string>
+    <string name="minutes_label" msgid="3225846493097986594">"分"</string>
+    <string name="seconds_label" msgid="3998011734682420096">"秒"</string>
+    <string name="timer_default" msgid="8062388403825907344">"00"</string>
+    <string name="record_title" msgid="8695283158200902780">"录音"</string>
+    <string name="record_notification_message" msgid="4999850730062263290">"目前正在录音"</string>
+    <string name="stop_record" msgid="4787351642158009287">"结束"</string>
+    <string name="save_dialog_title" msgid="6977508764748097072">"要保存录音吗？"</string>
+    <string name="save_dialog_caption" msgid="8618327604827517841">"要收听录音，请打开音乐播放器。"</string>
+    <string name="favorites" msgid="2732520024474501799">"收藏"</string>
+    <string name="rename" msgid="1770973764866255260">"重命名"</string>
+    <string name="station_rename_hint" msgid="4291305834497293746">"输入电台名称"</string>
+    <string name="remove_favorite" msgid="3128670507986192468">"取消收藏"</string>
+    <string name="toast_record_saved" msgid="2543677492878715874">"录音已保存"</string>
+    <string name="toast_record_not_saved" msgid="6526674547687611282">"录音未保存"</string>
+    <string name="toast_listen" msgid="2014315478895754055">"收听"</string>
+    <string name="toast_station_renamed" msgid="2185292052267585710">"此电台已重新命名"</string>
+    <string name="station_freq">频道(MHz)</string>
+    <string name="change_frequency">更改频道</string>
+    <string name="button_ok">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="range_error">超出频道范围(87.5MHz-108MHz)</string>
+    <string name="freq_input_info">请输入频道</string>
+    <string name="fm_over_record_format">录音格式</string>
+    <string name="select_file_type">请选择录音格式</string>
+    <string name="storage_phone">内置存储</string>
+    <string name="storage_sd">外置存储</string>
+    <string name="select_file_path">选择存储路径 </string>
+    <string name="record_path">设置保存路径</string>
+    <string name="from_current_search">从当前频道开始搜台</string>
+    <string name="error_permissions">"此应用缺少运行所需的必要权限。请检查您的权限设置。"</string>
+    <string name="dialog_dismiss">"关闭"</string>
+    <string name="fm_play">播放 FM 电台</string>
+    <string name="fm_stop">停止播放 FM 电台</string>
+    <string name="toast_record_not_saved_fortime">"录音时间小于1秒，未保存"</string>
+    <string name="toast_record_not_saved_tmpfile_deleted">"录音文件已不存在，未保存"</string>
+    <string name="station_change_freq_hint">"输入电台频点"</string>
+    <string name="toast_station_freq_changed">"此电台频点已更新"</string>
+    <string name="toast_play_fm">"要开始录音，请播放 FM 电台。"</string>
+    <string name="same_application_running">"录音设备正在被其它程序使用中，请先关闭此类程序！"</string>
+    <string name="rds_switch_off">"禁用RDS"</string>
+    <string name="rds_switch_on">"启用RDS"</string>
+    <string name="rds_af_switch_off">"禁用AF"</string>
+    <string name="rds_af_switch_on">"启用AF"</string>
+    <!-- new feature,FM new UI @{-->
+    <string name="fm_regularly_poweroff">"定时关闭"</string>
+    <string name="cancel_regularly_poweroff">"取消定时关闭"</string>
+    <string name="time_10min">"15分钟后"</string>
+    <string name="time_20min">"30分钟后"</string>
+    <string name="time_30min">"60分钟后"</string>
+    <string name="time_60min">"90分钟后"</string>
+    <string name="time_units">"分钟后"</string>
+    <string name="time_scustom_setting">"自定义"</string>
+    <string name="fm_record_list">"录音列表"</string>
+    <string name="search_hint">"搜索FM录音&#8230;"</string>
+    <string name="favorite_station_tag">"收藏频道"</string>
+    <string name="other_station_tag">"其他频道"</string>
+    <string name="station_edit">"编辑"</string>
+    <string name="station_batch_operation">"批量操作"</string>
+    <string name="station_name">"命名"</string>
+    <string name="select_all">"选择全部"</string>
+    <string name="cancel_select_all">"取消全选"</string>
+    <string name="progress_deleting">"正在删除"</string>
+    <string name="no_storage_permission">"没有存储权限！"</string>
+    <string name="no_allow_play_calling">"通话时不允许播放音乐（收音机/视频）。"</string>
+    <string name="playback_failed">"抱歉，播放文件失败。"</string>
+    <string name="play_error">播放错误</string>
+    <string name="list_exists">该频道已经存在频道列表里</string>
+    <string name="batch_operation">批量操作</string>
+    <string name="input_error">请输入正确的时间</string>
+    <string name="record_start">开始</string>
+    <string name="edit_freq">编辑频道</string>
+    <string name="toast_storage_device_missing">"找不到您的存储设备！"</string>
+    <!-- new feature,FM new UI @}-->
+    <string name="fm_prevstation_title">上一个</string>
+    <string name="fm_stopplay_title">停止</string>
+    <string name="fm_nextstation_title">下一个</string>
+    <string name="airplane_title">飞行模式提示</string>
+    <string name="airplane_message">飞行模式下不能使用收音机。</string>
+    <string name="delete_title_tip">删除</string>
+    <string name="playmode_title_tip">播放路径选择</string>
+</resources>

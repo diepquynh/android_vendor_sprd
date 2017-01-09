@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <string-array name="auto_time_name">
+        <item>30秒</item>
+        <item>30分钟</item>
+        <item>1小时</item>
+        <item>12小时</item>
+    </string-array>
+    
+    <string-array name="auto_time_value">
+        <item>30000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>43200000</item>
+    </string-array>
+
+    <string-array name = "upgrade_time_setting">
+        <item>1小时后询问安装</item>
+        <item>2小时后询问安装</item>
+        <item>4小时后询问安装</item>
+        <item>24小时后询问安装</item>
+        <item>从不询问</item>
+    </string-array>
+    
+   
+
+    <declare-styleable name="ThisStyle">
+        <attr name="time" format="integer" />
+    </declare-styleable>
+
+
+
+</resources>

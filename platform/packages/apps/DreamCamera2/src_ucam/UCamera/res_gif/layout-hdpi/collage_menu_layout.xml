@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2012,2013 Thundersoft Corporation
+    All rights Reserved
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/collage_framelayout_scroller_nav_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:paddingBottom="120dip"
+    android:background="@drawable/ic_menu_bg" >
+
+    <HorizontalScrollView
+        android:id="@+id/collage_scroller_nav_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:scrollbars="horizontal" >
+
+            <GridView
+                android:id="@+id/collage_gv_nav_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="3dip"
+                android:paddingBottom="3dip"
+                android:paddingLeft="6dip"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="horizontal" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+     android:id="@+id/gif_pic_progress_text"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="bottom|right"
+     android:textColor="#A6A1A1"
+     android:textSize="14dip"
+     android:textStyle="bold"
+     android:paddingRight="10dip"
+     android:gravity="center_vertical"
+     />
+</FrameLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:camera="http://schemas.android.com/apk/res/com.android.camera2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        <com.android.camera.ui.RotateImageButton
+            android:id="@+id/qrcode_back_button"
+            style="@style/QrCodeTopPanelIcon"
+            android:scaleType="center"
+            android:src="@drawable/ic_ab_back_material" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/qrcode_flash_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <com.android.camera.MultiToggleImageButton
+            android:id="@+id/qrcode_flash_toggle_button"
+            style="@style/QrCodeTopPanelIcon"
+            android:scaleType="center"
+            camera:imageIds="@array/pref_camera_qrcode_flash_indicators" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <com.android.camera.MultiToggleImageButton
+            android:id="@+id/qrcode_gallery_toggle_button"
+            style="@style/QrCodeTopPanelIcon"
+            android:scaleType="center"
+            camera:imageIds="@array/pref_camera_qrcode_gallery_indicators" />
+    </FrameLayout>
+
+</LinearLayout>

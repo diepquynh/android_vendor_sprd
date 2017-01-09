@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="hello">"Bună ziua tuturor!"</string>
+  <string name="app_name">CallFireWall</string>
+  <string name="blackcalls_add_phone_tip_error">Introduceţi numărul corect de telefon mobil</string>
+  <string name="blackcalls_add_phone_tip_error_existed_phone">Acest număr există deja, nu poate fi adăugat din nou </string>
+  <string name="blackcalls_add_phone_tip_success">Numărul a fost adăugat cu succes pe lista neagră</string>
+  <string name="blackcalls_edit_phone_tip_success">Numărul a fost editat cu succes pe lista neagră</string>
+  <string name="blackcalls_delete_phone_tip_error_not_select">Selectaţi numărul de telefon pe care doriţi să-l ştergeţi</string>
+  <string name="blackCallsLogIconLabel">Jurnal listă neagră</string>
+  <string name="blackcalls_delete_not_select">Selectaţi elementele şterse</string>
+  <string name="black_calls_add_number_label">Număr telefon mobil </string>
+  <string name="black_calls_add_type_label">Interceptare conţinut </string>
+  <string name="blacklist_radioButtonCall">Apelare</string>
+  <string name="blacklist_radioButtonVideoCall">Apel video</string>
+  <string name="blacklist_radioButtonSms">"SMS"</string>
+  <string name="blacklist_radioButtonAll">Toate apelurile şi SMS-urile</string>
+  <string name="blackcalls_list_phone_number_text">Număr interceptat: </string>
+  <string name="blackcalls_list_Intercept_type_text">Tip interceptat: </string>
+  <string name="blackcalls_add_phone_tip_error_input">"Introduceţi numărul corect" </string>
+  <string name="blackCallsIconLabel">Lista neagră</string>
+  <string name="blackCallslog_empty">Jurnal apeluri listă neagră gol.</string>
+  <string name="blackCalls_empty">Apel listă neagră gol.</string>
+  <string name="blackCalls_menu_add">"Adăugaţi"</string>
+  <string name="blackCalls_menu_delete">Ştergere părţi</string>
+  <string name="blackCalls_add_button_save">"Salvaţi"</string>
+  <string name="blackCalls_add_button_Cancel">"Anulaţi"</string>
+  <string name="blackCalls_del_button_ok">"OK"</string>
+  <string name="blackCalls_del_button_Cancel">"Anulaţi"</string>
+  <string name="blackCalls_all_button_Selected">Toate selectate</string>
+  <string name="blackCalls_all_button_UnSelected">Anulare selectate</string>
+  <string name="blackCalls_logs_del_button_ok">"OK"</string>
+  <string name="blackCalls_logs_del_button_Cancel">"Anulaţi"</string>
+  <string name="blackCalls_logs_all_button_Selected">"Toate"</string>
+  <string name="blackCalls_logs_all_button_UnSelected">"Ştergeţi"</string>
+  <!-- SPRD: motify for bug519684 @{ -->
+  <string name="blackCalls_smslog_content">Nume:%1$s\r\nNumăr:%2$s\r\nConţinut:%3$s\r\nTimp:%4$s </string>
+  <!-- @} -->
+  <string name="launcherDialer">Lista neagră</string>
+  <string name="SmsCallsLogIconLabel">Jurnal listă SMS</string>
+  <string name="Sms_all_button_Selected">Toate selectate</string>
+  <string name="Sms_log_empty">Jurnal SMS gol.</string>
+  <string name="BlaclList_Menu_Add">"Adăugaţi"</string>
+  <string name="BlaclList_Menu_Delede_Some">Ştergere unele</string>
+  <string name="BlaclList_Menu_Confirm_delete">Confirmarea ștergerii</string>
+  <string name="BlaclList_Menu_Cancel">"Anulaţi"</string>
+  <string name="BlaclList_conMenu_edit">"Modificaţi"</string>
+  <string name="BlaclList_conMenu_title">Selectaţi</string>
+  <string name="confirm_delete_number">Numărul va fi şters.</string>
+  <string name="ok">"OK"</string>
+  <string name="cancel">"Anulaţi"</string>
+  <string name="blackcalls_add_type_tip_error">"Va rugam selectati tipul"</string>
+  <string name="black_calls_add_name_label">Nume</string>
+  <string name="blackSmsLigIconLabel">Jurnal listă SMS</string>
+  <string name="blackCalls_blacklist_detail">"Nume:%1$s\r\nNumar:%2$s"</string>
+  <string name="blackCalls_calllog_detail">"Nume:%1$s\r\nNumar:%2$s\r\nTimp:%3$s"</string>
+  <string name="BlaclList_conMenu_delete">Ştergeţi</string>
+  <string name="BlackList_conMenu_detail">"Detaliu"</string>
+  <string name="SmsList_conMenu_delete">Ştergeţi</string>
+  <string name="SmsList_conMenu_content">"continut "</string>
+  <string name="confirm_delete_number_title">"Inlaturare lista neagra?"</string>
+  <string name="CallLog_confirm_delete_title">Ştergeţi?</string>
+  <string name="CallLog_confirm_delete">"Inregistrarea va fi stearsa"</string>
+  <string name="selectContact">selectarea unei persoane din agendă</string>
+  <string name="blackcalls_update_phone_tip_fail">"Reactualizare esuata a numarului de pe lista neagra "</string>
+  <string name="black_call_detail_time">Timp</string>
+  <string name="black_sms_detail_contacts">"continut "</string>
+  <string name="sqlite_full">baza de date sau partitia lista neagra sunt pline</string>
+  <string name="no_subject">Fără subiect</string>
+  <string name="intercept_mms">"MMS %1$s dimensiune:%2$s"</string>
+  <string name="add_contacts">Adăugaţi o persoană în agendă</string>
+    <string name="blackCalls_all_button_Unselected">"deselectati toate"</string>
+    <string name="done">"Terminat"</string>
+
+    <string-array name="BlackList_list_stringArray">
+        <item>"SMS"</item>
+        <item>"Apeluri"</item>
+        <item>"Apeluri video"</item>
+    </string-array>
+     <string name="Add_Blacklist_title">"Se importă lista neagră."</string>
+     <string name="Delete_Blacklist_title">"Se șterge lista neagră."</string>
+     <string name="Delete_CallLog_title">"Se șterge jurnalul de apeluri."</string>
+     <string name="Delete_SmsLog_title">"Se șterge jurnalul de sms-uri."</string>
+     <string name="BlackList_Menu_Add_Call_Some">"Întrerupere apel"</string>
+     <string name="BlackList_Menu_Add_Sms_Some">"Întrerupere SMS"</string>
+     <string name="BlackList_Menu_Add_Call_With_Sms_Some">"Întrerupere apel și SMS"</string>
+     <string name="Contact_error">"Aplicația contacte a fost dezactivată"</string>
+     <string name="adding_blacklist_hold_on">"Operațiune în curs, așteptați ..."</string>
+     <string name="refuse_in_guest">"CallFireWall nu este suportat în modul oaspete"</string>
+    <string name="blocked_numbers_butter_bar_title">"Blocarea este dezactivată temporar"</string>
+     <string name="blocked_numbers_butter_bar_body">"După ce formați un număr sau scrieți un text către un număr de urgență, blocarea este oprită pentru a vă asigura că serviciile de urgență vă pot contacta. Blocarea se va reactiva automat în %1$s."</string>
+     <string name="blocked_numbers_butter_bar_button">"Reactivați acum"</string>
+     <string name="refuse_after_close_blocked_storage">"CallFireWall nu se poate utiliza după oprirea stocării numerelor blocate"</string>
+</resources>

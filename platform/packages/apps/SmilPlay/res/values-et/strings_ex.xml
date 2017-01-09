@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+   -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- SPRD: add strings of MUI {@ -->
+<!-- @} -->
+    <string name="call_number">"Asukohta:"</string>
+    <string name="cancel_call">"Tühista"</string>
+    <string name="delivery_toast_body_fail">"Sõnumit ei saadud kätte %s poolt."</string>
+    <string name="read_report_toast_body">"Sõnum on loetud %s poolt."</string>
+    <string name="read_report_toast_body_fail">"Sõnum lugemata %s poolt."</string>
+    <string name="delivery_toast_body_fail_rejected">"Sõnumist keelduti %s poolt."</string>
+    <string name="user_not_exist">"Kasutajat pole olemas."</string>
+    <string name="menu_resend">"Saada uuesti"</string>
+    <string name="low_storage_toast">"Ruumi on vähe! Kustuta mõned failid, et ruumi juurde saada."</string>
+    <string name="failed_to_download_mms">"mms allalaadimine nurjus, Proovi hiljem uuesti"</string>
+    <string name="failed_to_send_mms">"mms saatmine nurjus, Proovi hiljem uuesti"</string>
+    <string name="success_to_send_mms">"mms saatmine õnnestus"</string>
+    <string name="sim_x">"SIM%s"</string>
+    <string name="sim_card_not_ready">"Sim kaart pole valmis"</string>
+    <string name="sim_is_invalid">"Sim kaart pole valmis"</string>
+    <string name="on_progress">"Töötlen, Palun oota..."</string>
+    <string name="pref_internal_memory_usage_title">"MMS/Saadaval/Kogumaht"</string>
+    <string name="pref_internal_memory_usage_progress_summary">"Arvestan Mäluruumi..."</string>
+    <string name="please_wait_title">"Palun oota..."</string>
+    <string name="sim_card_setting">"SIM kaardi sätted"</string>
+    <string name="multi_sim_manage_messages_title">"SIM kaardi sõnumid<xliff:g id="COUNT">%1$S</xliff:g>"</string>
+    <string name="pref_title_manage_sim_setting">"Halda SIM Sätteid"</string>
+    <string name="pref_summary_manage_sim_setting">"Halda SIM-ile salvestatud sõnumeid, Saatmisteateid, Kehtivusaega, Smsc Sätteid jne."</string>
+    <string name="pref_summary_notification_ringtone">"Vaikimisi Helinatoon"</string>
+    <string name="pref_summary_notification_ringtone_silent">"Vaikus"</string>
+    <string name="menu_sim_capacity">"SIM Mahutavus"</string>
+    <string name="pref_title_manage_multi_sim_messages">"Halda SIM sõnumeid<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+    <string name="pref_summary_manage_multi_sim_messages">"Halda SIM-ile salvestatud sõnumeid<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+    <string name="toast_copy_to_sim_success">"Kopeerimine SIM-ile õnnestus"</string>
+    <string name="toast_copy_to_sim_failure">"Kopeerimine SIM-ile nurjus"</string>
+    <string name="toast_sim_memory_full">"SIM mälu on täis"</string>
+    <string name="toast_copy_to_multi_sim_success">"SIM-ile kopeerimine õnnestus<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+    <string name="toast_copy_to_multi_sim_failure">"SIM-ile kopeerimine nurjus<xliff:g id="COUNT">%1$s<xl></xl></xliff:g>"</string>
+    <string name="toast_multi_sim_memory_full">"SIM <xliff:g id="COUNT">%1$S</xliff:g> mälu on täis"</string>
+  <plurals name="conversation_num">
+<item quantity="one">"Sul on 1 vestlus."</item>
+<item quantity="other">"Sul on <xliff:g id="number">%1$s</xliff:g> vestlust."</item>
+  </plurals>
+    <string name="count_of_new_mms">"%s uut sõnumit"</string>
+    <string name="pref_summary_store_sms_on_sim">"Kui uus sms saabub, salvesta see SIM-ile või mitte"</string>
+    <string name="pref_title_store_sms_on_sim">"Salvesta SMS SIM-ile"</string>
+    <string name="pref_title_sms_validity">"SMS Kehtivus"</string>
+    <string name="done_slide_show">"Tehtud"</string>
+    <string name="smsc_check_fdn_failure">"Sinu sõnumikeskuse number ei kuulu fdn nimekirja."</string>
+    <string name="muti_select_all">"Vali kõik"</string>
+    <string name="menu_select_none">"Tühista kõik valikud"</string>
+    <string name="Conversation_check_type_selected_all">"Vali kõik"</string>
+    <string name="menu_msg_folder">"Kausta vaade"</string>
+    <string name="menu_msg_list">"Sõnumi vaade"</string>
+    <string name="folder_inbox">"Sissetulnud"</string>
+    <string name="folder_outbox">"Väljaläinud"</string>
+    <string name="folder_sent">"Saadetud"</string>
+    <string name="folder_drafts">"Mustandid"</string>
+    <string name="folder_empty">"Selles kaustas sõnumid puuduvad."</string>
+    <string name="folder_display_all">"Kuva kõik sõnumid"</string>
+    <string name="folder_delete_messages">"Kustuta sõnumid"</string>
+    <string name="folder_loading">"Laen.."</string>
+    <string name="folder_reply">"Vasta"</string>
+    <string name="folder_forward">"Edasi"</string>
+    <string name="no_msg_del">"Ühtegi sõnumit ei kustutatud"</string>
+    <string name="exceed_slides_number_limitation">"Slaidide arvu limiit on täis"</string>
+    <string name="has_vcard_or_vcalendar_attachment">"Juba on olemas <xliff:g id="TYPE">%1$s</xliff:g>, teist ei saa lisada"</string>
+    <string name="folder_sortby">"Sorteerimisalus"</string>
+  <string-array name="sort_type">
+    <item>"Aja järgi"</item>
+    <item>"Aadressi järgi"</item>
+  </string-array>
+    <string name="OTAConfig_title">"OTAKonfiguratsiooni sätted"</string>
+    <string name="OTAConfig_Message">"Kas oled kindel, et soovid salvestada OTA konfiguratsiooni?"</string>
+    <string name="OTAConfiy_Success">"OTA sõnumi seadistus õnnestus"</string>
+    <string name="OTAConfiy_Error">"OTA konfiguratsioon nurjus""</string>
+    <string name="ota_pin_error">"OTA turvaviga"</string>
+    <string name="ota_retry">"salasõna viga"</string>
+    <string name="ota_pin_exception">"OTA konfiguratsioon nurjus：programmi viga."</string>
+    <string name="ota_mime_error">"OTA konfiguratsioon nurjus：sõnumi andmete viga."</string>
+    <string name="ota_support_not">"OTA konfiguratsioon nurjus：<xliff:g id="OTATYPE">%1$s</xliff:g> tüüp ei ole toetatud."</string>
+    <string name="pref_reply_path_title">"Vastuse teekonna sätted"</string>
+    <string name="pref_title_reply_path">"Vastuse teekond"</string>
+    <string name="pref_summary_reply_path">"Vasta sama keskuse kaudu"</string>
+    <string name="cannot_add_picture_and_vcard">"Ei saa lisada vkaarti ja pilti ühele slaidile."</string>
+    <string name="mms_setting">"Mms Sätted"</string>
+    <string name="pref_title_font_size">"Fondi Suuruse Sätted"</string>
+    <string name="font_size_setting">"Fondi Suuruse Sätted"</string>
+    <string name="font_size">"Fondi suurus on: <xliff:g id="font_size_id">%1$s</xliff:g>"</string>
+    <string name="menu_copy_to_sim_memory">"Kopeeri sõnum SIM-ile"</string>
+    <string name="menu_add_recipient_to_contacts">"Lisa <xliff:g id="name">%s</xliff:g>kontaktidesse"</string>
+    <string name="action_done">"Tehtud"</string>
+    <string name="message_signature_setting">"Allkirja sätted"</string>
+    <string name="pref_signature_enable_title">"Valikuline allkiri"</string>
+    <string name="pref_signature_enabl_summary">"Lisa automaatselt allkiri igale saadetud Mms sõnumile"</string>
+    <string name="pref_signature_input_title">"Muuda allkirja"</string>
+    <string name="pref_signature_input_summary">"allkirja määramiseks sisene"</string>
+    <string name="pref_signature_input_limited">"Allkirja limiit on täis"</string>
+    <string name="pref_hint_signature_edittext">"Palun sisesta oma allkiri"</string>
+    <string name="toast_append_signature_failed">"Allkirja lisamine Mms-ile nurjus, Slaidi suuruse limiit on täis"</string>
+    <string name="pageIndex">"Lehekülg %s"</string>
+    <string name="remove_subject">"Eemalda teema"</string>
+    <string name="toast_message_when_memory_full">"Mälu on täis, Palun vabasta osa mälust ja alusta uuesti"</string>
+    <string name="toast_save_classzero_message_failed">"Ruumi pole, sõnumi salvestamine nurjus"</string>
+    <string name="toast_shared_file_failed">"Ebasobiv meedia fail, jagamine nurjus."</string>
+    <string name="message_too_many_recipients_picked">"Vabandust, sa ei saa lisada rohkem kui <xliff:g id="COUNT">%1$s</xliff:g> kontakti korraga""</string>
+    <string name="pref_title_manage_sim_smsc">"SMS Teenuse Keskus"</string>
+    <string name="smsc_set_fails">"Smsc Määramine nurjus"</string>
+    <string name="smsc_set_success">"Määramine õnnestus."</string>
+    <string name="smsc_change_success">"Muutmine õnnestus."</string>
+    <string name="smsc_add_success">"Lisamine õnnestus"</string>
+    <string name="received_new_wap_contact">"Laekus SMS Vkaardi sõnum"</string>
+    <string name="save_new_wap_contact">"Salvesta"</string>
+    <string name="cancle_new_wap_contact">"Tühista"</string>
+    <string name="menu_sim_message">"Sõnumid SIM-il"</string>
+    <string name="folder_display_option">"Kuva valik"</string>
+    <string name="confirm_open_browser_dialog_title">"Sõnum"</string>
+    <string name="confirm_open_browser_dialog_message">"Brauser avatakse, kas jätkata?"</string>
+  <plurals name="delete_confirm">
+<item quantity="one">"Vali 1 objekt"</item>
+<item quantity="other">"Vali <xliff:g id="del_count">%1$s</xliff:g> objekti"</item>
+  </plurals>
+    <string name="select_sim_card">"Palun vali SIM kaart"</string>
+    <string name="menu_video_call_back">"Video kõne <xliff:g id="name">%s</xliff:g>"</string>
+    <string name="menu_edit_before_call_back">"Muuda Enne Kõnet <xliff:g id="name">%s</xliff:g>"</string>
+    <string name="min_zoom">"miinimumtase"</string>
+    <string name="max_zoom">"maksimumtase"</string>
+    <string name="sms_merge_forward">"Ühenda ja Edasi"</string>
+    <string name="sms_merge_dialog_title">"Vahetu"</string>
+    <string name="sms_merge_dialog_content">"Sa saad ühendada vaid 2 kuni 30 SMS sõnumit. Palun kontrolli."</string>
+    <string name="sms_merge_forward_empty">"Puuduvad sms sõnumid ühendamiseks ja edastamiseks."</string>
+    <string name="sms_forwarding_number">"SMS Edastamise Sätted"</string>
+    <string name="pref_sms_forwarding_number_title">"SMS edastamise number"</string>
+    <string name="pref_sms_forwarding_number_summary">"SMS edastamine adressaadi numbriga"</string>
+    <string name="sim_list_title">"Palun vali SIM kaart"</string>
+    <string name="type_vcard">"kontakt"</string>
+    <string name="type_vcalendar">"kalender"</string>
+    <string name="attach_vcard">"Kontakt"</string>
+    <string name="attach_vcalendar">"Kalender"</string>
+    <string name="add_slide_before">"Lisa slaid(ette)"</string>
+    <string name="add_slide_after">"Lisa slaid(taha)"</string>
+    <string name="re_take_picture">"Pildi salvestamine nurjus, palun tee pilt uuesti."</string>
+    <string name="exceed_text_length_limitation">"Teksti pikkuse limiit on ületatud."</string>
+    <string name="move_message_to_phone_memory">"Sõnumi kopeerimine telefoni õnestus"</string>
+    <string name="can_not_copy_the_message">"Ei saa sõnumit kopeerida"</string>
+    <string name="confirm_import_vcard">"Impordi see VKaart？"</string>
+    <string name="pref_title_manage_simx_smsc">"SIM<xliff:g id="COUNT">%1$s</xliff:g> SMS Teenuse Keskus"</string>
+    <string name="simx_settings_title">"SIM<xliff:g id="COUNT">%1$s</xliff:g> Sätted"</string>
+    <string name="pref_summary_sms_validity">"lühike sõnumi kehtivus"</string>
+  <string-array name="prefEntries_mms_validity">
+    <item>"1 tund"</item>
+    <item>"12 tundi"</item>
+    <item>"24 tundi"</item>
+    <item>"2 päeva"</item>
+    <item>"Maksimum"</item>
+  </string-array>
+  <string-array name="prefEntries_mms_priority">
+    <item>"Kõrge"</item>
+    <item>"Normaalne"</item>
+    <item>"Madal"</item>
+  </string-array>
+    <string name="pref_title_mms_validity">"Multimeedia Sõnumi Kehtivus"</string>
+    <string name="pref_summary_mms_validity">"Multimeedia Sõnumi Kehtivus"</string>
+    <string name="pref_title_mms_priority">"Prioriteetsus"</string>
+    <string name="pref_summary_mms_priority">"Prioriteetsuse Sätted"</string>
+    <string name="sim_settings_title">"SIM kaardi sätted"</string>
+    <string name="toast_copy_to_simx_success">"Kopeerimine õnnestus asukohta <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+    <string name="toast_copy_to_simx_failure">"Kopeerimine asukohta <xliff:g id="COUNT">%1$s</xliff:g> nurjus"</string>
+    <string name="toast_simx_memory_full">"<xliff:g id="COUNT">%1$s</xliff:g>on täis"</string>
+    <string name="pref_title_manage_sim_x_setting">"Halda SIM<xliff:g id="COUNT">%1$s</xliff:g> Sätteid"</string>
+    <string name="pref_title_mms_creation_mode">"Loomise olek"</string>
+  <string-array name="mms_creation_mode_entries">
+    <item>"Piiratud"</item>
+    <item>"Hoiatus"</item>
+    <item>"Vaba"</item>
+  </string-array>
+    <string name="exceed_resolution_limit">"Resolutsiooni limiit ületatud"</string>
+    <string name="want_to_add_media">"Kas soovid seda  <xliff:g id="NAME">%1$s</xliff:g> lisada oma sõnumile?"</string>
+    <string name="mms_can_not_add_vcard">"Kustuta olemasolev manus, et lisada kontakte"</string>
+    <string name="mms_can_not_add_vcalendar">"Kustuta olemasolev manus, et lisada slaidi"</string>
+    <string name="converting_to_text_message">"Teisendan tekstisõnumiks\u2026"</string>
+    <string name="select_calendar">"Vali päevakord"</string>
+    <string name="no_calendar">"Päevakord puudub"</string>
+    <string name="exceed_slides_number_message">"Valitud <xliff:g id="NUMBER">%1$s</xliff:g> päevakord，Maksimaalne on <xliff:g id="NUMBER">%2$s</xliff:g> päevakord"</string>
+    <string name="add_to_blacklist">"Lisa musta nimekirja"</string>
+    <string name="failed_addToBlacklist">"Musta nimekrja lisamine nurjus."</string>
+    <string name="creating_slideshow_title">"Slaidiprogrammi loomine"</string>
+    <string name="attachment_vcalendar">"Vkalender"</string>
+    <string name="attachment_vcard">"Vkaart"</string>
+    <string name="text_limited_warning">"Sisestuse piirang"</string>
+    <string name="subject_text_length_limitation">"Teema pikkuse piirang on täis."</string>
+    <string name="attach_commonPhrases">"Levinud fraasid"</string>
+    <string name="commonphrase_empty">"Pole levinud fraase"</string>
+    <string name="quick_reply">"Kiirvastus"</string>
+    <string name="common_messages">"Levinud fraas"</string>
+    <string name="common_add_text">"Uus"</string>
+    <string name="common_delete_text">"Kustuta"</string>
+    <string name="common_delete_message">"Kinnita kustutamine?"</string>
+    <string name="common_delete">"Kustuta"</string>
+    <string name="common_phrase_contextmenu_title">"Operatsiooni Menüü"</string>
+    <string name="common_edit">"Muuda"</string>
+    <string name="commonphrase_delete_empty">"Ühtegi fraasi ei saa kustutada"</string>
+    <string name="common_phrase_edit_dialog_title">"Valikud"</string>
+    <string name="common_phrase_edit_dialog_inform">"Salvesta muudatused ?"</string>
+    <string name="common_phrase_edit_max_length">"sisestuse piirang on täis!"</string>
+    <string name="common_messages_edit">"Muuda levinud fraasi"</string>
+    <string name="common_save">"Salvesta"</string>
+    <string name="common_cancel">"Tühista"</string>
+    <string name="add_empty_common_messages">"Sisesta suvaline tähemärk"</string>
+    <string name="pref_other_settings_title">"Muu"</string>
+    <string name="pre_key_title_common_messages">"Levinud fraas"</string>
+    <string name="common_phrase_selection">"Vali levinud fraase"</string>
+    <string name="wap_push_message_dialog_title">""Wap Vajuta Sõnum"</string>
+    <string name="open_website">"Ava veebileht"</string>
+    <string name="activity_not_found">"sobivat rakendust ei leitud"</string>
+    <string name="add_contact">"Sisesta Kontaktid"</string>
+    <string name="receive_from">"vastuvõetud allikast %s"</string>
+    <string name="send_from">"Saada allikast %s"</string>
+    <string name="dl_expired_wap_push">" <xliff:g id="COUNT">%1$s</xliff:g> wap sõnumit on aegunud, kustutan."</string>
+    <string name="invalid_recipient">"Kehtetu Adressaat"</string>
+    <string name="max_recipients_count">"Adressaatide piirarv on <xliff:g id="MAXCOUNT">%1$s</xliff:g>."</string>
+    <string name="no_media_selected">"Ühtegi meediafaili pole valitud!"</string>
+    <string name="search_max_length">"Otsingulause on liiga pikk, piirarvuks on 512."</string>
+    <string name="sim_capacity_used">"Kasutatud:"</string>
+    <string name="sim_capacity_total">"Kogumaht:"</string>
+    <string name="too_many_contacts">"Adressaatide limiit on <xliff:g id="MAXLIMIT">%1$s</xliff:g>, lisa  <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> adressaati lisatakse."</string>
+    <string name="delivery_toast_body_expired">"Sõnum on aegunud %s."</string>
+    <string name="discard_dialog">"Kas tõesti soovid sellest informatsioonist loobuda?"</string>
+    <string name="contacts_count_excceeds">"Sa oled juba lisanud <xliff:g id="MAXLIMIT">%1$s</xliff:g> adressaati, rohkem ei saa lisada."</string>
+    <string name="copy">"kopeeri"</string>
+    <string name="received_new_wap_vcalendar">"Laekus SMS Vkalendri sõnum"</string>
+    <string name="remove_vcalendar_first">"Kustuta manustatud vkalender, et seda muuta."</string>
+    <string name="remove_vcard_first">"Kustuta manustatud vkaart, et seda muuta."</string>
+    <string name="import_vcalendar">"Impordi VKalender"</string>
+    <string name="no_vcalendar">"Ühtegi VKalendrit ei leitud"</string>
+    <string name="import_vcalendar_fail">"Vkalendrit ei saanud importida."</string>
+    <string name="unable_to_add_all">"Sõnumi suuruse limiit on täis, mõnesid osasid ei lisatud."</string>
+    <string name="replce_slideshow_dilaog_dismiss">"Slaidiprogrammi asendamine kustutab praeguse manuse, kas soovid jätkata?"</string>
+    <string name="pref_title_sms_retry_times">"Võimalda SMS uuestisaatmine"</string>
+    <string name="smsc_list">"SMS keskuste nimekiri"</string>
+    <string name="smsc_list_empty">"SMS keskuste numbrid puuduvad"</string>
+    <string name="smsc_list_loading">"Laadin"</string>
+    <string name="smsc_list_menu_edit">"Muuda"</string>
+    <string name="smsc_list_menu_activate">"Aktiveeri"</string>
+    <string name="smsc_list_not_allow_to_clear">"Keela numbri tühjendamine"</string>
+    <string name="smsc_list_empty_number">"Kliki, et lisada uus number"</string>
+    <string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g> manus salvestatud asukohta<xliff:g id="path">%2$s</xliff:g>,<xliff id="fail">%3$d</xliff> manuse salvestamine nurjus"</string>
+    <string name="box_msg_list_menu_addtocontacts">"Lisa Kontaktidesse"</string>
+    <string name="box_msg_list_menu_call">"Kõne"</string>
+    <string name="box_msg_list_menu_editbeforecall">"Muuda enne kõnet"</string>
+    <string name="box_msg_list_menu_videocall">"Videokõne"</string>
+    <string name="soundrecorder_fail_msg">"HeliSalvestit ei saanud käivitada."</string>
+    <string name="camera_fail_msg">"Kaamerat ei saanud käivitada."</string>
+    <string name="video_fail_msg">"Videot ei saanud käivitada."</string>
+    <string name="pref_encode_type_setting_title">"Kodeeri tüübi sätted"</string>
+    <string name="pref_encode_type_title">"Kodeeri tüüp"</string>
+  <string-array name="prefEntries_sms_validity">
+    <item>"1 tund"</item>
+    <item>"6 tundi"</item>
+    <item>"24 tundi"</item>
+    <item>"2 päeva"</item>
+    <item>"1 nädal"</item>
+    <item>"Maksimum"</item>
+    <item>"Maksimum"</item>
+  </string-array>
+    <string name="confirm_convert_to_mms">"Vastuvõtjad sisaldavad e-maili, sõnum saadetakse mms-ina"</string>
+    <string name="send_as_mms">"MMS-i saatmine"</string>
+    <string name="send_as_sms">"Saada ainult sms"</string>
+    <string name="protected_file">"Kaitstud faili ei saa lisada"</string>
+    <string name="success_to_send_sms">"Sms edukalt saadetud"</string>
+    <string name="confirm_ota_message">"Kinnitan OTA Sätted?"</string>
+    <string name="confirm_ota">"OK"</string>
+    <string name="cancel_ota">"Tühista"</string>
+    <string name="ota_cancelled">"OTA Sätted tühistati."</string>
+    <string name="message_too_big_for_audio">"Sõnum on liiga suur audio manustamiseks."</string>
+
+</resources>

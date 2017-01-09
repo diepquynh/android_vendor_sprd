@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/itemTextKeyStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status"
+                android:textColor="#ffffff" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/statusTextView"
+                style="@style/itemTextValueStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="10px"
+                android:textColor="#ffffff" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView"
+                style="@style/itemTextKeyStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/voltage"
+                android:textColor="#ffffff" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/voltageTextView"
+                style="@style/itemTextValueStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="10px"
+                android:textColor="#ffffff" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView"
+                style="@style/itemTextKeyStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plugged"
+                android:textColor="#ffffff" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/pluggedTextView"
+                style="@style/itemTextValueStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="10px"
+                android:textColor="#ffffff" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/electronicnoteTV"
+                style="@style/itemTextKeyStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/charger_Voltage"
+                android:textColor="#ffffff" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/electronicTextView"
+                style="@style/itemTextValueStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="10px"
+                android:textColor="#ffffff" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/batteryelectronicnoteTV"
+                style="@style/itemTextKeyStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/charger_electronic"
+                android:textColor="#ffffff" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/batteryelectronicTextView"
+                style="@style/itemTextValueStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="10px"
+                android:textColor="#ffffff" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/test_resultTextView"
+                style="@style/itemTextValueStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/charging_test"
+                android:paddingLeft="10px"
+                android:visibility="gone"
+                android:textColor="#ffffff" >
+            </TextView>
+        </TableRow>
+    </LinearLayout>
+
+</LinearLayout>

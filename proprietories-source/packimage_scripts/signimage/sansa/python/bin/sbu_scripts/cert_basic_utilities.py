@@ -1,0 +1,146 @@
+#****************************************************************
+#*  Copyright 2014 (c) Discretix Technologies Ltd.              *
+#*  This software is protected by copyright, international      *
+#*  treaties and various patents. Any copy, reproduction or     *
+#*  otherwise use of this software must be authorized in a      *
+#*  license agreement and include this Copyright Notice and any *
+#*  other notices specified in the license agreement.           *
+#*  Any redistribution in binary form must be authorized in the *
+#*  license agreement and include this Copyright Notice and     *
+#*  any other notices specified in the license agreement and/or *
+#*  in materials provided with the binary distribution.         *
+#****************************************************************
+import sys
+import os
+import re
+import global_defines
+from global_defines import *
+from ctypes import *
+import binascii
+
+
+CURRENT_PATH = sys.path[0]
+
+####################################################################
+# Filename - basic_utilites.py
+# Description - This file contains basic utilities functions
+####################################################################
+
+# log functions
+# Create a log file handle
+def create_log_file (log_file_path):
+    try:
+        log_file = open(log_file_path, 'w')
+    except IOError as Error7:
+        (errno, strerror) = Error7.args
+        print("Error in openning file - %s" %log_file_path)
+        sys.exit(1)
+    return log_file;
+
+# Print (stdout) and output also to log file given text
+def print_and_log (log_file, text):
+#print(text)
+    log_file.write(text)
+    sys.stdout.flush()
+    log_file.flush()
+
+# Do synchronous write to log file
+def log_sync (log_file, text):
+        log_file.write(text)
+        log_file.flush()
+
+# Convert bytes to string
+def byte2stringBytesArray(DataBinBytes):
+    ResStr = str()
+    for i in range(len(DataBinBytes)):        
+        ResStr = ResStr + chr(DataBinBytes.raw[i])
+    return ResStr
+
+# The ReverseBytesinBinString function takes a binary string and reverse it
+def ReverseBytesinBinString(binStr): 
+    return binStr[::-1]
+# End of ReverseBytesinBinString
+
+# The ReverseBytesInString function reverse the bytes in a string and returns the reversed string
+def ReverseBytesInString(str1, strSize):   
+    str2 = str() 
+    if isinstance(str1, str):
+        TempStr = str1
+    else:              
+        TempStr = str1.decode("utf-8")
+    for i in range(strSize//2):
+        str2 = str2 + TempStr[strSize-i*2-2:strSize-i*2]
+    return str2
+# End of ReverseBytesInString
+
+# The ReverseBytesInString function reverse the bytes in a string and returns the reversed string
+def ReverseBytesInBytesArray(array, size):   
+
+    reversedArray = c_ubyte * size
+    revArray = reversedArray()
+    for i in range(size//4):
+        # reverse each word
+        for j in range(4):
+            revArray[4*i + j] = array[4*i + 3 - j]
+    return revArray
+# End of ReverseBytesInString
+
+
+# The function returns the path of the DLL - fixed path (relative to script path)
+def GetDLLPath(FileName):
+	
+    path = str()    
+    path = CURRENT_PATH    
+    # split according to dir names
+    if sys.platform != "win32" :
+        path_div = "/"    
+    else : #platform = win32
+        path_div = "\\"
+    
+    path_new = path + path_div + ".." + path_div
+        
+    path_new = path_new + FileName        
+    return path_new
+# End of GetDLLPath
+        
+# The function loads the crypto DLL and returns its handle
+def LoadDLLGetHandle():
+    # Load the crypto libraries
+    if sys.platform != "win32" : # Unix paths
+        global_defines.SBU_LibName = SBU_CRYPTO_LIB_Name
+        global_defines.SBU_OpenSSLCrypto_LibName = SBU_OSSL_CRYPTO_LIB_Name
+        global_defines.SBU_OpenSSLSSL_LibName = SBU_OSSL_LIB_Name
+    SBU_Crypto = cdll.LoadLibrary(GetDLLPath(global_defines.SBU_LibName))
+    return SBU_Crypto
+# End of LoadDLLGetHandle
+
+# Convert bytes to string
+def byte2string (DataBinStr):
+    if type(DataBinStr).__name__ == 'str' :
+        return DataBinStr
+    ResStr = str()
+    for i in range(len(DataBinStr)) :
+        ResStr = ResStr + chr(DataBinStr[i])
+    return ResStr
+
+# parse configuration file according to list of parameters
+def parseConfFile(FileName, listOfDefines):
+    try:
+        fob = open(FileName,'r')
+        lines = fob.readlines()
+        valuesList = list()
+        for line in lines:
+            for define in listOfDefines:
+                if re.match(define,line):
+                    tmpList=line.split("=")
+                    valuesList.append(int(tmpList[len(tmpList)-1],16))
+        fob.close()
+    except IOError as Error1:
+        (errno, strerror) = Error1.args
+        print("\n Error in openning file - %s" %FileName)
+        sys.exit(1)
+        
+    return valuesList
+# End of parseConfFile
+
+

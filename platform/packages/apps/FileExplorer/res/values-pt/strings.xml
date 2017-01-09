@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"Explorador de Arquivo"</string>
+<string name="action_settings">Configurações</string>
+<string name="title_section_overview">"Vista Rápida"</string>
+<string name="title_section_external">"Guarda External"</string>
+<string name="title_section_internal">"Guarda Internal"</string>
+<string-array name="select_dest">
+    <item name="title_phone">"Guarda Internal"</item>
+    <item name="title_sdcard">"Guarda External"</item>
+</string-array>
+<string name="title_section_all">Todos</string>
+<string name="descrip_actionbar_logo">"Nível para cima"</string>
+<string name="descrip_actionbar_search">Pesquisar</string>
+<string name="descrip_actionbar_overflow">Menu</string>
+<string name="quickscan_audio">Áudio</string>
+<string name="quickscan_image">Imagens</string>
+<string name="quickscan_record">"Gravações"</string>
+<string name="quickscan_video">Vídeo</string>
+<string name="quickscan_doc">"Documentos"</string>
+<string name="quickscan_apk">Aplicativos</string>
+<string name="file_list_flodermsg">"Data:%1$s "</string>
+<string name="file_list_filemsg">"Data:%1$s\tTamanho:%2$s"</string>
+<string name="dialog_hint_title">a carregar</string>
+<string name="dialog_hint_msg">A abrir...</string>
+<string name="menu_search">Pesquisar</string>
+<string name="menu_back_home">"Voltar para Principal"</string>
+<string name="menu_mkdir">Nova Pasta</string>
+<string name="menu_newfile">"Novo arquivo"</string>
+<string name="menu_mkdir_succeed">"Criar pasta %1$s  com sucesso"</string>
+<string name="menu_mkdir_failed">"Falha criar pasta %1$s"</string>
+<string name="menu_newfile_succeed">"Criar arquivo %1$s  com sucesso"</string>
+<string name="menu_newfile_failed">"Falha criar arquivo %1$s"</string>
+<string name="menu_select_more">"Selecionar mais"</string>
+<string name="menu_copy">Copiar</string>
+<string name="menu_cut">Recortar</string>
+<string name="menu_sort_type">Classificar por</string>
+<string name="menu_storage_status">Armazenamento</string>
+<string name="operate_delete">Excluir</string>
+<string name="operate_clear">Limpar</string>
+<string name="operate_delete_file_ask">"Tem certeza quer deletar %1$s?"</string>
+<string name="operate_delete_file_succeed">"Deletar arquivo %1$s  com sucesso"</string>
+<string name="operate_delete_file_failed">"Falha deletar arquivo %1$s"</string>
+<string name="operate_viewdetails">"Propriedades"</string>
+<string name="operate_viewdetails_date">"Data: %1$s "</string>
+<string name="operate_viewdetails_size">"Tamanho: %1$s"</string>
+<string name="operate_viewdetails_type_folder">"Tipo: Pasta"</string>
+<string name="operate_viewdetails_type_file">"Tipo: Arquivo"</string>
+<!-- SPRD 411878 use xliff to transfer parmmeter @{ -->
+<string name="operate_folder_attribute">"Incluindo: <xliff>%1$d</xliff> Arquivos, <xliff>%2$d</xliff> Pastas\nTamanho: <xliff>%3$d</xliff>"</string>
+<string name="operate_rename">Mudar o nome</string>
+<string name="operate_rename_hint">"Entre o novo nome de pasta"</string>
+<string name="operate_rename_succeed">"Renomear com sucesso"</string>
+<string name="operate_rename_failed">"Falha renomear arquivo %1$s"</string>
+<string name="operate_share">partilhar</string>
+<string name="msg_file_input_empty">"O nome de arquivo é vázio"</string>
+<string name="msg_file_input_repeat">"O nome %1$s já existe, entre um outro."</string>
+<string name="msg_folder_empty">"A Pasta é vázia"</string>
+<string name="msg_invalid_intent">"O sistema não suporta este tipo de arquivo"</string>
+<string name="msg_issure_clear">"Apagar esta pasta corrente?"</string>
+<string name="bluetooth">Bluetooth</string>
+<string name="copying">"Copiando, favor espere."</string>
+<string name="clipboard_empty">"A prancheta é vázia"</string>
+<string name="text_exit_file_explore_title">Sair</string>
+<string name="text_exit_file_explore_prompt">"Tem certeza quer sair?"</string>
+<string name="common_text_ok">Ok</string>
+<string name="common_text_cancel">Cancelar</string>
+<string name="common_text_paste">Colar</string>
+<string name="file_option">"Opções de Arquivo"</string>
+<string name="folder_option">"Opções de Pasta"</string>
+<string name="file_detail">Detalhes</string>
+<string name="caculating">"Tamanho: Calculando..."</string>
+<string name="copy_finish">"A operação completa"</string>
+<string name="now_copying">"Copiando, espere..."</string>
+<string name="delete_finish">"Acabar deletar"</string>
+<string name="delete_fail">"Falha deletar arquivo<xliff:g id="NAME">%s</xliff:g>"</string>
+<string name="now_deleting">"Removendo, espere..."</string>
+<string name="cancel_copy">"A operação foi cancelada"</string>
+<string name="exist">"O arquivo é existe"</string>
+<string name="select_destination">"Selecione a locação para guardar"</string>
+<string name="empty_view_prompt">"Pasta vázia, você pode adquirir mais documentos via PC ou Internet"</string>
+<string name="fragment_search_key_hint">"Entre a tecla que quer buscar"</string>
+<string name="fragment_search_location">"Locação de busca:"</string>
+<string name="fragment_search_location_ex">"Buscar Locação"</string>
+<string name="fragment_search_type">"Tipo de Arquivo"</string>
+<string name="fragment_search_result">"Resultado de busca"</string>
+<string name="fragment_search_searching">"Buscando..."</string>
+<string name="fragment_search_noresult">"Procurar nada"</string>
+<string name="common_text_other">Outros</string>
+<string name="common_text_search">Pesquisar</string>
+<string name="fragment_search_invalid_result">"O arquivo é fora de data, verifique."</string>
+<string name="overview_menu_multiselect">"Selecionar mais"</string>
+<string name="overview_menu_sort">Classificar</string>
+<string name="overview_menu_install_all">"Instalar tudo"</string>
+<string name="overview_menu_install">Instalar</string>
+<string name="overview_menu_delete">Excluir</string>
+<string name="sort_by_name">Por nome</string>
+<string name="sort_by_type">"Por tipo"</string>
+<string name="sort_by_time_desc">"Por tempo (adsc)"</string>
+<string name="sort_by_time_asc">"Por tempo (asc)"</string>
+<string name="sort_by_size_desc">"Por nome(adsc)"</string>
+<string name="sort_by_size_asc">"Por nome(asc)"</string>
+<string name="sort_by_asc">"Ascendendo pedido"</string>
+<string name="sort_by_desc">"Descendendo pedido"</string>
+<string name="display_setting">Configurações da tela</string>
+<string name="hide_file_display">"Mostrar os arquivos escondidos"</string>
+<string name="display_hide_file">"Mostrar os arquivos escondidos"</string>
+<string name="operate_viewdetails_path">"Percurso de arquivo: %1$s"</string>
+<string name="operate_viewdetails_canread">"Pode ler: Sim"</string>
+<string name="operate_viewdetails_can_not_read">"Pode ler: Não"</string>
+<string name="operate_viewdetails_can_not_write">"Pode escrever: Não"</string>
+<string name="operate_viewdetails_can_write">"Pode escrever: Sim"</string>
+<string name="operate_viewdetails_hide">"É esconder arquivo: Sim"</string>
+<string name="operate_viewdetails_not_hide">"É esconder arquivo: Não"</string>
+<string name="select_text">"Sele arquivo"</string>
+<string name="select_all">Sele Todos</string>
+<string name="unselect_all">Selecionar nada</string>
+<string name="length_limited">"O nome até máx comprimento"</string>
+<string name="cannot_copy_to_itself">"Não pode copiar diretório para si próprio nem seu subdiretório"</string>
+<string name="confirm_delete">"Se quer deletar?"</string>
+<string name="search_empty">"Há nenhum texto nesta página. Verifique a sua entrada."</string>
+<string name="dialog_back">Voltar</string>
+<string name="set_as">Definir como</string>
+<string name="invalid_char">"O nome de arquivo tem carácter inválido como %s"</string>
+<string name="no_enough_sapce">"Sem espaço suficiente"</string>
+<string name="file_type_wrong">"O tipo de arquivo é errado"</string>
+<string name="failed_set_wallpaper">"Falha ajustar Papel de Parede"</string>
+<string name="unsupport_type">"Tipo de melodia não suportado"</string>
+<string name="now_moving">"Movendo, espere..."</string>
+<string name="badname_as_point">"Não pode ser nomeado como...nem..., que pode confundir com o sistema do seu arquivo"</string>
+<string name="cut_filename_duplicate">"O percurso corrente de arquivo ou pasta tem o mesmo nome, favor re-seleccione o directório!"</string>
+<string name="share_file_limited">"O limite de arquivo compartilhado é %1$d"</string>
+<string name="install_apk_limited">"O limite de instalar apk é %1$d."</string>
+    <string-array name="copyfileWarning">
+        <item>Substituir</item>
+        <item>"Guardar ambos"</item>
+    </string-array>
+     <string-array name="copydirWarning">
+        <item>Unir</item>
+        <item>Substituir</item>
+        <item>"Guardar ambos"</item>
+    </string-array>
+     <string-array name="sort_type">
+        <item>Por nome</item>
+        <item>"Por tipo"</item>
+        <item>"Por Data"</item>
+        <item>Por tamanho</item>
+    </string-array>
+    <string name="invalid_char_of_filename">"<xliff:g id="SECTION">%s</xliff:g> nome de arquivo de sistema de arquivos tem carácter inválido como <xliff:g id="INVALIDCHAR">%s</xliff:g>"</string>
+     <string name="now_calculate">"Calculando, favor aguarde..."</string>
+     <string name="now_cleared">"Sendo limpado, favor aguarde..."</string>
+     <string name="not_replace">"Não pode ser substituido devido a mesmo nome de pasta parente"</string>
+     <string name="sdcard_had_unmounted">"O arquivo de operação é inválido"</string>
+     <string name="common_text_ignore">"Ignorar"</string>
+     <string name="cannot_copyfolder_itself">"Você não pode copiar pasta na si própria"</string>
+     <string name="cannot_cutfolder_itself">"Você não pode mover pasta no si própria"</string>
+     <string name="cannot_paste_reason">"A pasta de destino é no interior de pasta de recurso %s"</string>
+
+    <string name="badname_endwith_point">"O fim de nome de pasta não pode ser com."</string>
+     <string name="failed_option">"Opção falhada"</string>
+    <string name="failed_query">"Database não pode pesquisar este arquivo"</string>
+    <string name="drm_consume_title">"Consumir Drm Direitos"</string>
+    <string name="drm_consume_hint">"Sua Operação vai consumir Drm Direitos"</string>
+    <string name="drm_info">"Informação de Proteção"</string>
+    <string name="drm_file_name">"Nome de Arquivo: %1$s"</string>
+    <string name="drm_rights_validity">"Validade de Direitos: válido"</string>
+    <string name="drm_rights_invalidity">"Validade de Direitos: inválido"</string>
+    <string name="drm_rights_status_transfer">"Estado de Direitos: permitido para ser transferido"</string>
+    <string name="drm_rights_status_untransfer">"Estado de Direitos: não permitido para ser transferido"</string>
+    <string name="drm_start_time">"Tempo de Iniciar: %1$s"</string>
+    <string name="drm_end_time">"Tempo de Acabar: %1$s"</string>
+    <string name="drm_expiration_time">"Tempo de Expiração: %1$s"</string>
+    <string name="drm_remain_times">"Vezes Restantes: %1$s"</string>
+    <string name="drm_invalid_rights">"Este arquivo tem nenhuma licença válida"</string>
+    <string name="drm_invalid_select">"O arquivo limitado não é selecionado, favor selecione o outro tipo de arquivo"</string>
+    <string name="drm_invalid_copy">"O arquivo limitado não é copiado"</string>
+    <string name="drm_invalid_folder_copy">"Pasta contida arquivos de limitada não pode ser copiada"</string>
+    <string name="drm_invalid_share">"O arquivo limitado não é compartilhado"</string>
+    <string name="drm_unlimited_rights">"Não limitado"</string>
+    <string name="drm_inactive_rights">"Direitos inativos"</string>
+    <string name="drm_unknow_rights">"Desconhecido"</string>
+    <string name="drm_time_unit">"s"</string>
+    <string name="drm_protect_viewdetails">"Informação de proteção"</string>
+    <string name="drm_no_application_open">"Não pode abrir o arquivo"</string>
+</resources>

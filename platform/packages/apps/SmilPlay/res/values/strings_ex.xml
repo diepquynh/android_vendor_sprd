@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by SPreadst -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="call_number">To: </string>
+    <string name="cancel_call">Cancel</string>
+    <string name="delivery_toast_body_fail">Message not received by %s.</string>
+    <string name="read_report_toast_body">Message read by %s.</string>
+    <string name="read_report_toast_body_fail">Message not read by %s.</string>
+    <string name="delivery_toast_body_fail_rejected">Message rejected by %s.</string>
+    <string name="user_not_exist">The user does not exist.</string>
+    <!-- Menu Resend -->
+    <string name="menu_resend">Resend</string>
+    <string name="low_storage_toast">Low on space!Delete some files to free space.</string>
+    <string name="failed_to_download_mms">Download MMS failed, Try again later</string>
+    <string name="failed_to_send_mms">Send MMS failed, Try again later</string>
+    <string name="success_to_send_mms">Send MMS successfully</string>
+    <string name="sim_x">SIM%s</string>
+    <string name="sim_card_not_ready">Sim card is not ready</string>
+    <string name="sim_is_invalid">Sim card is not ready</string>
+    <!-- SPRD: add for process -->
+    <string name="on_progress">Processing, Please wait...</string>
+    <string name="pref_internal_memory_usage_title">MMS/Avaliable/Total</string>
+    <string name="pref_internal_memory_usage_progress_summary">Counting Memory Space...</string>
+    <!-- SPRD: add a new configuration -->
+    <string name="please_wait_title">Please wait...</string>
+    <!-- SPRD: Add for Multi-sim mode @{ -->
+    <string name="sim_card_setting">SIM Card Setting</string>
+    <string name="multi_sim_manage_messages_title">Messages on SIM<xliff:g id="COUNT">%1$S</xliff:g></string>
+    <string name="pref_title_manage_sim_setting">Manage SIM Settings</string>
+    <string name="pref_title_manage_sim_1_setting">Manage SIM1 Settings</string>
+    <string name="pref_title_manage_sim_2_setting">Manage SIM2 Settings</string>
+    <string name="pref_summary_manage_sim_setting">Manage messages stored in SIM, Delivery Reports, Expired Time, SMSC Setting etc.</string>
+    <string name="pref_summary_notification_ringtone">Default Ringtone</string>
+    <string name="pref_summary_notification_ringtone_silent">Silence</string>
+    <!-- @} -->
+    <!-- SPRD: Option menu item on Manage sim messages Activity -->
+    <string name="menu_sim_capacity">SIM Capacity</string>
+    <string name="pref_title_manage_multi_sim_messages">Manage messages on SIM<xliff:g id="COUNT">%1$s</xliff:g></string>
+    <string name="pref_summary_manage_multi_sim_messages">Manage messages stored on SIM<xliff:g id="COUNT">%1$s</xliff:g></string>
+    <!-- SPRD: Toast messages of copying results. @{ -->
+    <string name="toast_copy_to_sim_success">Successfully copied to SIM</string>
+    <string name="toast_copy_to_sim_failure">Failed to copy to SIM</string>
+    <string name="toast_sim_memory_full">SIM memory is full</string>
+    <string name="toast_copy_to_multi_sim_success">Successfully copied to SIM<xliff:g id="COUNT">%1$s</xliff:g></string>
+    <string name="toast_copy_to_multi_sim_failure">Failed to copy to SIM<xliff:g id="COUNT">%1$s<xl></xl></xliff:g></string>
+    <string name="toast_multi_sim_memory_full">SIM <xliff:g id="COUNT">%1$S</xliff:g> memory is full</string>
+    <!-- SPRD: @} -->
+    <!-- SPRD: add new prompting of message  @{ -->
+    <plurals name="conversation_num">
+        <!-- Case of 1 result. -->
+        <item quantity="one">You have 1 conversation.</item>
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other">You have <xliff:g id="number">%1$s</xliff:g> conversations.</item>
+    </plurals>
+    <string name="count_of_new_mms">%s new messages</string>
+    <!-- @} -->
+    <!-- SPRD: add for saving Sms to SIM. @{ -->
+    <string name="pref_summary_store_sms_on_sim"> When new SMS comes, save it on SIM or not</string>
+    <string name="pref_title_store_sms_on_sim">Save SMS On SIM</string>
+    <string name="store_sms_to_sim_failed">Stored SMS Message on SIM Failed</string>
+    <!-- @} -->
+    <!-- SPRD: add for the setting of sms_validity.  @{ -->
+    <string name="pref_title_sms_validity">SMS Validity</string>
+    <string-array name="prefEntries_sms_validity">
+        <item>Not Set</item>
+        <item>1 hour</item>
+        <item>6 hours</item>
+        <item>24 hours</item>
+        <item>2 days</item>
+        <item>1 week</item>
+        <item>Maximum</item>
+    </string-array>
+    <!-- @} -->
+    <string name="done_slide_show">Done</string>
+    <string name="menu_video_call">Video Call</string>
+    <string name="smsc_check_fdn_failure">You message center number does not belong to fdn list.</string>
+
+    <string name="muti_select_all">Select All</string>
+    <string name="menu_select_none">Cancel All</string>
+    <string name="Conversation_check_type_selected_all">Select All</string>
+    <string name="menu_msg_folder">Folder view</string>
+    <string name="menu_msg_list">Message view</string>
+    <string name="folder_inbox">Inbox</string>
+    <string name="folder_outbox">Outbox</string>
+    <string name="folder_sent">Sent</string>
+    <string name="folder_drafts">Drafts</string>
+    <string name="folder_empty">No Messages on this Folder.</string>
+    <string name="folder_display_all">Display all Messages</string>
+    <string name="folder_delete_messages">Delete messages</string>
+    <string name="folder_loading">Loading..</string>
+    <string name="folder_reply">Reply</string>
+    <string name="folder_forward">Forward</string>
+    <string name="no_msg_del">No messages deleted</string>
+    <string name="exceed_slides_number_limitation">Reach slides number limitation</string>
+    <string name="has_vcard_or_vcalendar_attachment">Already has <xliff:g id="TYPE">%1$s</xliff:g>, can not add other more</string>
+    <string name="folder_sortby">Sort By</string>
+    <string-array name="sort_type">
+        <item>By time</item>
+        <item>By address</item>
+    </string-array>
+
+    <!-- For OTA 2013-01-29 -->
+    <string name="OTAConfig_title">OTAConfig settings</string>
+    <string name="OTAConfig_Message">Sure to save the OTA config?</string>
+    <string name="OTAConfiy_Success">OTA message setting succeed</string>
+    <string name="OTAConfiy_Error">OTA config failure"</string>
+    <string name="ota_pin_error">OTA security failure</string>
+    <string name="ota_retry">password error</string>
+    <string name="ota_pin_exception">OTA config failure:program error.</string>
+    <string name="ota_mime_error">OTA config failure:message data error.</string>
+    <string name="ota_support_not">OTA config failure:<xliff:g id="OTATYPE">%1$s</xliff:g> not supported type.</string>
+    <string name="pref_reply_path_title">"Reply path settings"</string>
+    <string name="pref_title_reply_path">"Reply path"</string>
+    <string name="pref_summary_reply_path">"Reply via same center"</string>
+    <string name="cannot_add_picture_and_vcard">Can\'t add vcard and picture to one slide.</string>
+    <string name="mms_setting">MMS Setting</string>
+    <string name="pref_title_font_size">Font Size Setting</string>
+    <string name="font_size_setting">Font Size Setting</string>
+    <string name="font_size">The font size is: <xliff:g id="font_size_id">%1$s</xliff:g></string>
+
+    <!-- Context menu item on Copying messages to sim cards -->
+    <string name="menu_copy_to_sim_memory">Copy message to SIM</string>
+
+    <string name="menu_add_recipient_to_contacts">Add <xliff:g id="name">%s</xliff:g>to contacts</string>
+    <string name="action_next">"Next"</string>
+
+    <!-- SIGNATURE FUNC -->
+    <string name="message_signature_setting">Signature Setting</string>
+    <string name="pref_signature_enable_title">Optional signature</string>
+    <string name="pref_signature_enabl_summary">Automatically append signature to every MMS message you send</string>
+    <string name="pref_signature_input_title">Edit signature</string>
+    <string name="pref_signature_input_summary">Enter here to set your signature</string>
+    <string name="pref_signature_input_limited">The signature has reached its limit </string>
+    <string name="pref_hint_signature_edittext">Please enter your signature</string>
+    <string name="toast_append_signature_failed">Append signature to MMS failed, Slides size has been reached</string>
+
+    <string name="pageIndex">Page %s</string>
+    <string name="remove_subject">Remove subject</string>
+    <!-- Toast message for entering Mms app when memory is full -->
+    <string name="toast_message_when_memory_full">Memory is full, Please release some and restart</string>
+    <string name="toast_save_classzero_message_failed">No space left, save message failed</string>
+    <string name="toast_shared_file_failed">Unsupported media file, share failed.</string>
+    <string name="message_too_many_recipients_picked">Sorry, You can not add more than <xliff:g id="COUNT">%1$s</xliff:g> contacts Per time"</string>
+
+    <!-- Settings item description for modifying Sim smcs screen -->
+    <string name="pref_title_manage_sim_smsc">SMS Service Center</string>
+    <string name="smsc_set_fails">Smsc Set fails</string>
+    <string name="smsc_set_success">Set successfully.</string>
+    <string name="smsc_change_success">Change successfully.</string>
+    <string name="smsc_add_success">Add successfully</string>
+
+    <string name="received_new_wap_contact">Received an SMS Vcard Message</string>
+    <string name="save_new_wap_contact">Save</string>
+    <string name="cancle_new_wap_contact">Cancel</string>
+    <string name="menu_sim_message" >Messages in SIM</string>
+    <string name="folder_display_option" >Display option</string>
+    <string name="confirm_open_browser_dialog_title">Message</string>
+    <string name="confirm_open_browser_dialog_message">It will open the browser,continue?</string>
+    <!-- SPRD: add for deleting messages  @{ -->
+    <plurals name="delete_confirm">
+        <!-- Case of 1 message. -->
+        <item quantity="one">1 Chosen item</item>
+        <!-- Case of 0 or 2 or more messages. -->
+        <item quantity="other"><xliff:g id="del_count">%1$s</xliff:g> Chosen items</item>
+    </plurals>
+    <!-- @} -->
+    <string name="select_sim_card" >Please select SIM card</string>
+    <string name="menu_video_call_back">Video Call <xliff:g id="name">%s</xliff:g></string>
+    <string name="menu_edit_before_call_back">Edit Before Call <xliff:g id="name">%s</xliff:g></string>
+    <string name="min_zoom">reached the minimum</string>
+    <string name="max_zoom">reached the maximum</string>
+    <string name="sms_forward">Forward</string>
+    <string name="sms_merge_forward">Merge and Forward</string>
+    <string name="sms_merge_dialog_title">Prompt</string>
+    <string name="sms_merge_dialog_content">You can only merge between 2 and 30 SMS messages. Please check it.</string>
+    <string name="sms_merge_forward_empty">No SMS message to merge and forward.</string>
+    <string name="sms_merge_forward_loading">loading...</string>
+    <string name="sms_forwarding_number">SMS Forwarding Setting</string>
+    <string name="pref_sms_forwarding_number_title">SMS forward number</string>
+    <string name="pref_sms_forwarding_number_summary">Forwarding SMS with the recipients number</string>
+
+    <string name="sim_list_title">"Please select SIM card"</string>
+    <string name="type_vcard">contact</string>
+    <string name="type_vcalendar">calendar</string>
+    <string name="attach_vcard">Contact</string>
+    <string name="attach_vcalendar">Calendar</string>
+    <string name="add_slide_before">Add slide(before)</string>
+    <string name="add_slide_after">Add slide(after)</string>
+    <string name="re_take_picture">Save the picture fails,please capture picture again.</string>
+    <string name="exceed_text_length_limitation">Exceed text length limitation.</string>
+    <string name="move_message_to_phone_memory">Message copied to phone memory successfully</string>
+    <string name="can_not_copy_the_message">Unable to copy the message</string>
+    <string name="confirm_import_vcard">Import this VCard？</string>
+
+    <string name="pref_title_manage_simx_smsc">"SIM<xliff:g id="COUNT">%1$s</xliff:g> SMS Service Center"</string>
+    <string name="simx_settings_title">"SIM<xliff:g id="COUNT">%1$s</xliff:g> Setting"</string>
+    <string name="prefDefault_sms_longest_time" translatable="false">Maximum</string>
+    <string name="prefDefault_sms_not_set" transalatable="false">Not Set</string>
+    <string name="pref_summary_sms_validity">Short message validity</string>
+    <string-array name="prefValues_sms_validity" translatable="false">
+        <!-- TP_VP Not Set -->
+        <item>-1</item>
+        <!-- (TP_VP +1)*5min -->
+        <item>11</item>
+        <item>71</item>
+        <!-- (TP_VP-166)*1day -->
+        <item>167</item>
+        <item>168</item>
+        <!-- (TP_VP-192)*1week -->
+        <item>193</item>
+        <item>255</item>
+    </string-array>
+	<string-array name="prefEntries_mms_validity">
+        <item>1 hour</item>
+        <item>12 hours</item>
+        <item>24 hours</item>
+        <item>2 days</item>
+        <item>Maximum</item>
+    </string-array>
+        <string-array name="prefValues_mms_validity">
+        <item>"3600"</item>
+        <item>"43200"</item>
+        <item>"86400"</item>
+        <item>"172800"</item>
+        <item>"604800"</item>
+    </string-array>
+	<string-array name="prefEntries_mms_priority">
+        <item>High</item>
+        <item>Normal</item>
+        <item>Low</item>
+    </string-array>
+	<string-array name="prefValues_mms_priority">
+        <item>130</item>
+        <item>129</item>
+        <item>128</item>
+    </string-array>
+    <string name="prefDefault_longest_time">604800</string>
+    <string name="pref_title_mms_validity">Multimedia Message Validity</string>
+    <string name="pref_summary_mms_validity">Multimedia message validity</string>
+    <string name="pref_Default_mms_priority">129</string>
+    <string name="pref_title_mms_priority">Priority</string>
+    <string name="pref_summary_mms_priority">Priority Setting</string>
+    <string name="sim_settings_title">SIM%s Setting</string>
+
+    <string name="toast_copy_to_simx_success">"Successfully copied to <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+    <string name="toast_copy_to_simx_failure">"Failed copy to <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+    <string name="toast_simx_memory_full">"<xliff:g id="COUNT">%1$s</xliff:g> is full"</string>
+    <string name="pref_title_manage_sim_x_setting">"Manage SIM<xliff:g id="COUNT">%1$s</xliff:g> Settings"</string>
+
+    <string name="pref_title_mms_creation_mode">"Creation mode"</string>
+    <string-array name="mms_creation_mode_entries">
+        <item>Restricted</item>
+        <item>Warning</item>
+        <item>Free</item>
+    </string-array>
+    <string-array name="mms_creation_mode_values">
+        <item>"1000"</item>
+        <item>"2000"</item>
+        <item>"3000"</item>
+    </string-array>
+    <string name="exceed_resolution_limit">"Resolution exceed limit"</string>
+    <string name="want_to_add_media">Do you want add this <xliff:g id="NAME">%1$s</xliff:g> to your message?</string>
+    <string name="mms_can_not_add_vcard">Delete existing attachment to add contacts</string>
+    <string name="mms_can_not_add_vcalendar">Delete existing attachment to add slide</string>
+    <string name="converting_to_text_message">Converting to text message\u2026</string>
+    <string name="select_calendar">Select Agenda</string>
+    <string name="no_calendar">No Agenda</string>
+    <string name="exceed_slides_number_message">Selected <xliff:g id="NUMBER">%1$s</xliff:g> agenda, Max is <xliff:g id="NUMBER">%2$s</xliff:g> agenda</string>
+    <string name="unselect_all">UnSelect All</string>
+    <string name="add_to_blacklist">"Add to blacklist"</string>
+    <string name="failed_addToBlacklist">Add to blacklist failed.</string>
+    <string name="creating_slideshow_title">Creating Slideshow</string>
+
+    <string name="attachment_vcalendar">Vcalendar</string>
+    <string name="attachment_vcard">Vcard</string>
+    <string name="text_limited_warning">The Restriction to input</string>
+    <string name="subject_text_length_limitation">Has reached the restriction to subject length.</string>
+    <string name="attach_commonPhrases">Common phrases</string>
+    <string name="commonphrase_empty">No common phrases</string>
+    <string name="quick_reply">Quick responses</string>
+    <string name="common_messages">Common phrase</string>
+    <string name="common_add_text">New</string>
+    <string name="common_delete_text">Delete</string>
+    <string name="common_delete_message">Confirm delete?</string>
+    <string name="common_delete">Delete</string>
+    <string name="common_phrase_contextmenu_title">Operation Menu</string>
+    <string name="common_edit">Edit</string>
+    <string name="commonphrase_delete_empty">No phrase can be deleted</string>
+    <string name="delete_common_message_content">Deleting common phrase..</string>
+    <string name="common_phrase_edit_dialog_title">Options</string>
+    <string name="common_phrase_edit_dialog_inform">Save your edited ?</string>
+    <string name="common_phrase_edit_max_length">Has reached the restriction to input!</string>
+    <string name="common_messages_edit">Edit common phrase</string>
+    <string name="common_save">Save</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="add_empty_common_messages">Input any character</string>
+    <string name="pref_other_settings_title">Other</string>
+    <string name="pre_key_title_common_messages">Common phrase</string>
+    <string name="common_phrase_selection">Select common phrases</string>
+    <string name="wap_push_message_dialog_title">"Wap Push Message</string>
+    <string name="open_website">Open website</string>
+    <string name="activity_not_found">Not found a suitable application</string>
+    <string name="add_contact">"Insert Contacts"</string>
+    <string name="receive_from">"Receive from %s"</string>
+    <string name="send_from">"Send from %s"</string>
+    <!-- The default vibrateWhen value, when none is set -->
+    <string translatable="false" name="prefDefault_vibrateWhen">never</string>
+    <string name="dl_expired_wap_push">There are <xliff:g id="COUNT">%1$s</xliff:g> wap messages expired, will be deleted.</string>
+    <string name="invalid_recipient">Invalid Recipient</string>
+    <string name="max_recipients_count">Recipients Limitation is <xliff:g id="MAXCOUNT">%1$s</xliff:g>.</string>
+    <string name="no_media_selected">No media is selected!</string>
+    <string name="search_max_length">Search sentence is too long, will limited to 512.</string>
+    <string name="sim_capacity_used">Used:</string>
+    <string name="sim_capacity_total">Total:</string>
+    <string name="too_many_contacts">Recipients limitation is <xliff:g id="MAXLIMIT">%1$s</xliff:g>, will add the fore <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> recipients will be added.</string>
+    <!-- SPRD:Add this for bug  219243 begin-->
+    <string name="delivery_toast_body_expired">"Message is expired %s."</string>
+    <!-- SPRD:Add this for bug  219243 end-->
+    <string name="discard_dialog">"You really want to give up this information?"</string>
+    <string name="contacts_count_excceeds">"You have already add <xliff:g id="MAXLIMIT">%1$s</xliff:g> recipients,not allowed to adding more."</string>
+    <!-- SPRD:Add this for bug  447659 begin -->
+    <!--  <string name="copy">Copy</string> -->
+    <!-- SPRD:Add this for bug  447659 end -->
+    <string name="received_new_wap_vcalendar">"Received an SMS Vcalendar Message"</string>
+    <string name="remove_vcalendar_first">"Delete vcalendar attached first to edit this."</string>
+    <string name="remove_vcard_first">"Delete vcard attached first to edit this."</string>
+    <string name="import_vcalendar">Import VCalendar</string>
+    <string name="no_vcalendar">No VCalendar Find</string>
+    <string name="import_vcalendar_fail">Couldn\'t import VCalendar.</string>
+    <string name="unable_to_add_all">Message size limit reached, some parts are not added.</string>
+    <string name="replce_slideshow_dilaog_dismiss">Replace the slideshow will delete the current attachment,will you try to continue?</string>
+    <string name="pref_title_sms_retry_times">Enable SMS retry</string>
+
+    <!-- SPRD: Add for bug 261680 start -->
+    <string name="smsc_list">SMS center list</string>
+    <string name="smsc_list_empty">No SMS center numbers</string>
+    <string name="smsc_list_loading">Loading</string>
+    <string name="smsc_list_menu_edit">Edit</string>
+    <string name="smsc_list_menu_activate">Activate</string>
+    <string name="smsc_list_not_allow_to_clear">Not allow to clear number</string>
+    <string name="smsc_list_empty_number">Click to add new number</string>
+    <!-- SPRD: Add for bug 261680 end -->
+    <string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g> attachment saved to<xliff:g id="path">%2$s</xliff:g>,<xliff id="fail">%3$d</xliff> attachment save fail"</string>
+    
+     <!-- SPRD: Add for folder view start -->
+     <string name="box_msg_list_menu_addtocontacts">Add to Contacts</string>
+     <string name="box_msg_list_menu_call">Call</string>
+     <string name="box_msg_list_menu_editbeforecall">Edit before call</string>
+     <string name="box_msg_list_menu_videocall">Video call</string>
+     <!-- SPRD: Add for folder view end -->
+     <string name="soundrecorder_fail_msg">Couldn\'t start SoundRecorder.</string>
+     <string name="camera_fail_msg">Couldn\'t start Camera.</string>
+     <string name="video_fail_msg">Couldn\'t start Video.</string>
+    <!-- SPRD: Add for bug 281864 start -->
+    <string name="pref_encode_type_setting_title">"Encode type setting"</string>
+    <string name="pref_encode_type_title">"Encode type"</string>
+    <string name="pre_encode_type_default">0</string>
+    <!-- SPRD: Add for bug 281864 end -->
+     <string name="confirm_convert_to_mms">Recipients contain email,the message will send as MMS</string>
+     <string name="send_as_mms">Send MMS</string>
+     <string name="send_as_sms">Send SMS only</string>
+     <string name="protected_file">"Protected File can't be added"</string>
+     <string name="success_to_send_sms">Sent SMS successfully</string>
+     <string name="confirm_ota_message">Confirm OTA Settings?</string>
+     <string name="confirm_ota">OK</string>
+     <string name="cancel_ota">Cancel</string>
+     <string name="ota_cancelled">OTA Settings Cancelled.</string>
+     <!-- SPRD: add for adding audio -->
+     <string name="message_too_big_for_audio">The message is too big to attach a audio.</string>
+     <string name="contacts_count_can_send">"Dear customer, recipients exceeded system limit, only allowed to send <xliff:g id="MAXLIMIT">%1$s</xliff:g> , please send in batches."</string>
+     <string name="attach_common_messages">Common Phrases</string>
+     <string name="attach_subject">Subject</string>
+    <!-- SPRD: Add for bug 381267. @{ -->
+    <string name="valid_sub">invalid SIM card</string>
+    <string name="add_contacts_dialog_title">Add Contacts</string>
+    <string name="add_contact_as_vcard">vCard</string>
+    <string name="add_contact_as_text">Text Message</string>
+    <!-- @} -->
+
+    <!-- Add for Bug 447934 begin -->
+    <string name="confirm_import_vcalendar">"Import this Vcalendar?"</string>
+    <string name="confirm_save_otherfiles">"Save this attachment?"</string>
+    <string name="attach_vdatas">"VDATAS"</string>
+    <!-- Add for Bug 447934 end -->
+
+    <!-- Add for bug 437487 begin : add Multiple Cards Notification Setting -->
+    <string name="pref_notification_settings_title_sim1">sim1 Notifications</string>
+    <string name="pref_notification_settings_title_sim2">sim2 Notifications</string>
+    <!-- Add for bug 437487 end -->
+
+    <!-- Add for bug 501364 begin -->
+    <string name="pref_notification_settings_title_sim">sim Notifications</string>
+    <!-- Add for bug 501364 end -->
+
+    <!--add for bug 455763 begin-->
+    <string name="attach_other_file">"OtherFile"</string>
+    <string name="attach_unknown_type">"UnKnown"</string>
+    <!--add for bug 455763 end-->
+    <!-- And by SPRD for Bug:467017  2015.09.02 Start -->
+    <string name="dlg_media_removed">"Media without correct path in attachment was removed, continue to send it?"</string>
+    <string name="toast_media_removed">"Media without correct path in attachment was removed, please check!"</string>
+    <!-- And by SPRD for Bug:467017  2015.09.02 End -->
+    <!-- Add by SPRD for Bug:451924  2015.08.26 Start -->
+    <string name="dl_failure_roaming">Roaming status, couldn\'t download message!</string>
+    <!-- Add by SPRD for Bug:451924  2015.08.26 End -->
+    <!-- Add by SPRD for Bug:519188  2016.01.11 Start -->
+    <string name="recipient_invalid">"<xliff:g id="invalid_number" example="1">%1$s</xliff:g> Recipient(s) Invalid"</string>
+    <string name="recipient_invalid_detail">"Invalid(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+    <string name="recipient_changed_detail">"Changed(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+    <!-- Add by SPRD for Bug:519188  2015.01.11 End -->
+</resources>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"จัดการแฟ้ม"</string>
+<string name="action_settings">การตั้งค่า</string>
+<string name="title_section_overview">"ดูอย่างรวดเร็ว"</string>
+<string name="title_section_external">"พื้นที่เก็บข้อมูลภายนอก"</string>
+<string name="title_section_internal">"พื้นที่เก็บข้อมูลภายใน"</string>
+<string-array name="select_dest">
+    <item name="title_phone">"พื้นที่เก็บข้อมูลภายใน"</item>
+    <item name="title_sdcard">"พื้นที่เก็บข้อมูลภายนอก"</item>
+</string-array>
+<string name="title_section_all">ทั้งหมด</string>
+<string name="descrip_actionbar_logo">"ขึ้นระดับ"</string>
+<string name="descrip_actionbar_search">ค้นหา</string>
+<string name="descrip_actionbar_overflow">เมนู</string>
+<string name="quickscan_audio">เสียง</string>
+<string name="quickscan_image">รูป</string>
+<string name="quickscan_record">"บันทึก"</string>
+<string name="quickscan_video">วิดีโอ</string>
+<string name="quickscan_doc">"เอกสาร"</string>
+<string name="quickscan_apk">แอปพลิเคชัน</string>
+<string name="file_list_flodermsg">"วันที่:%1$s"</string>
+<string name="file_list_filemsg">"วันที่:%1$s\tขนาด:%2$s"</string>
+<string name="dialog_hint_title">ฟังตัวอย่าง</string>
+<string name="dialog_hint_msg">กำลังโหลด...</string>
+<string name="menu_search">ค้นหา</string>
+<string name="menu_back_home">"กลับสู่หน้าหลัก"</string>
+<string name="menu_mkdir">โฟลเดอร์ใหม่</string>
+<string name="menu_newfile">"แฟ้มใหม่"</string>
+<string name="menu_mkdir_succeed">"สร้างโฟลเดอร์%1$sสำเร็จ"</string>
+<string name="menu_mkdir_failed">"สร้างโฟลเดอร์%1$sผิดพลาด"</string>
+<string name="menu_newfile_succeed">"สร้างโฟลเดอร์%1$sสำเร็จ"</string>
+<string name="menu_newfile_failed">"สร้างโฟลเดอร์%1$sผิดพลาด"</string>
+<string name="menu_select_more">"เลือกเพิ่มขึ้น"</string>
+<string name="menu_copy">คัดลอก</string>
+<string name="menu_cut">ตัด</string>
+<string name="menu_sort_type">จัดเรียงตาม</string>
+<string name="menu_storage_status">พื้นที่เก็บข้อมูล</string>
+<string name="operate_delete">ลบ</string>
+<string name="operate_clear">ล้างข้อมูล</string>
+<string name="operate_delete_file_ask">"คุณแน่ใจหรือว่าต้องการลบหรือไม่%1$s ?"</string>
+<string name="operate_delete_file_succeed">"ลบไฟล์ที่%1$sสำเร็จ"</string>
+<string name="operate_delete_file_failed">"ลบไฟล์ที่%1$sผิดพลาด"</string>
+<string name="operate_viewdetails">"คุณสมบัติ"</string>
+<string name="operate_viewdetails_date">"วันที่:%1$s"</string>
+<string name="operate_viewdetails_size">"ขนาด:%1$s"</string>
+<string name="operate_viewdetails_type_folder">"ประเภท: โฟลเดอร์"</string>
+<string name="operate_viewdetails_type_file">"ประเภท: ไฟล์"</string>
+<string name="operate_folder_attribute">"รวมถึง:%1$dไฟล์,%2$d โฟลเดอร์\nขนาด:%3$s"</string>
+<string name="operate_rename">เปลี่ยนชื่อ</string>
+<string name="operate_rename_hint">"โปรดใส่ชื่อโฟลเดอร์ใหม่"</string>
+<string name="operate_rename_succeed">"เปลี่ยนชื่อสำเร็จ"</string>
+<string name="operate_rename_failed">"ไม่สามารถเปลี่ยนชื่อแฟ้ม%1$s"</string>
+<string name="operate_share">แบ่งปัน</string>
+<string name="msg_file_input_empty">"ชื่อแฟ้มว่างเปล่า"</string>
+<string name="msg_file_input_repeat">"ชื่อ%1$s อยู่แล้วกรุณาใส่อีกครั้งหนึ่ง"</string>
+<string name="msg_folder_empty">"โฟลเดอร์ที่ว่างเปล่า"</string>
+<string name="msg_invalid_intent">"ระบบไม่สนับสนุนแฟ้มชนิดนี้"</string>
+<string name="msg_issure_clear">"ลบโฟลเดอร์นี้?"</string>
+<string name="bluetooth">บลูทูธ</string>
+<string name="copying">"กำลังคัดลอกกรุณารอสักครู่ ..."</string>
+<string name="clipboard_empty">"คลิปบอร์ดว่าง"</string>
+<string name="text_exit_file_explore_title">ออก</string>
+<string name="text_exit_file_explore_prompt">"คุณแน่ใจหรือว่าคุณต้องการที่จะออก?"</string>
+<string name="common_text_ok">ตกลง</string>
+<string name="common_text_cancel">ยกเลิก</string>
+<string name="common_text_paste">วาง</string>
+<string name="file_option">"ตัวเลือกไฟล์"</string>
+<string name="folder_option">"ตัวเลือกโฟลเดอร์"</string>
+<string name="file_detail">รายละเอียด</string>
+<string name="caculating">"ขนาด: คำนวณ ..."</string>
+<string name="copy_finish">"การดำเนินเรียบร้อย"</string>
+<string name="now_copying">"กำลังคัดลอกกรุณารอสักครู่ ..."</string>
+<string name="delete_finish">"การลบเสร็จสิ้น"</string>
+<string name="delete_fail">"ไม่สามารถลบไฟล์<xliff:g id="NAME">%s</xliff:g>"</string>
+<string name="now_deleting">"การถอดกรุณารอสักครู่ ..."</string>
+<string name="cancel_copy">"การดำเนินงานที่ถูกยกเลิก"</string>
+<string name="exist">"ไฟล์นี้เป็นไฟล์ที่มีอยู่"</string>
+<string name="select_destination">"เลือกพื้นที่จัดเก็บ"</string>
+<string name="empty_view_prompt">"โฟลเดอร์ว่างเปล่าคุณอาจได้รับเอกสารเพิ่มเติม ผ่านเครื่องคอมพิวเตอร์หรืออินเทอร์เน็ต"</string>
+<string name="fragment_search_key_hint">"รูปแบบที่คุณต้องการค้นหา"</string>
+<string name="fragment_search_location">"ค้นหาสถานที่"</string>
+<string name="fragment_search_location_ex">"ค้นหาสถานที่"</string>
+<string name="fragment_search_type">"รูปแบบไฟล์"</string>
+<string name="fragment_search_result">"ผลการค้นหา"</string>
+<string name="fragment_search_searching">"ค้นหา…"</string>
+<string name="fragment_search_noresult">"ไม่พบข้อมูล"</string>
+<string name="common_text_other">อื่นๆ</string>
+<string name="common_text_search">ค้นหา</string>
+<string name="fragment_search_invalid_result">"ไฟล์ที่ไม่สามารถออกจากวันที่,กรุณาตรวจสอบ"</string>
+<string name="overview_menu_multiselect">"เลือกเพิ่มขึ้น"</string>
+<string name="overview_menu_sort">จัดเรียงตามชื่อ</string>
+<string name="overview_menu_install_all">"ติดตั้งทั้งหมด"</string>
+<string name="overview_menu_install">ติดตั้ง</string>
+<string name="overview_menu_delete">ลบ</string>
+<string name="sort_by_name">โดยใช้ชื่อ</string>
+<string name="sort_by_type">"โดยรูปแบบ"</string>
+<string name="sort_by_time_desc">"โดยเวลา (desc)"</string>
+<string name="sort_by_time_asc">"โดยเวลา (asc)"</string>
+<string name="sort_by_size_desc">"โดยใช้ชื่อ(desc)"</string>
+<string name="sort_by_size_asc">"โดยใช้ชื่อ(asc)"</string>
+<string name="sort_by_asc">"เรียงลำดับขึ้น"</string>
+<string name="sort_by_desc">"เรียงลำดับลง"</string>
+<string name="display_setting">การตั้งค่าการแสดงผล</string>
+<string name="hide_file_display">"แสดงไฟล์ที่ซ่อน"</string>
+<string name="display_hide_file">"แสดงไฟล์ที่ซ่อน"</string>
+<string name="operate_viewdetails_path">"เส้นทางแฟ้ม:%1$s"</string>
+<string name="operate_viewdetails_canread">"สามารถอ่าน: ใช่"</string>
+<string name="operate_viewdetails_can_not_read">"สามารถอ่าน: ไม่"</string>
+<string name="operate_viewdetails_can_not_write">"สามารถเขียน: ไม่"</string>
+<string name="operate_viewdetails_can_write">"สามารถเขียน: ใช่"</string>
+<string name="operate_viewdetails_hide">"ไฟล์ที่ซ่อน: ใช่"</string>
+<string name="operate_viewdetails_not_hide">"ไฟล์ที่ซ่อน: ไม่"</string>
+<string name="select_text">"เลือกไฟล์"</string>
+<string name="select_all">เลือกทั้งหมด</string>
+<string name="unselect_all">ยกเลิก</string>
+<string name="length_limited">"ชื่อกับความยาวสูงสุด"</string>
+<string name="cannot_copy_to_itself">"ไม่สามารถคัดลอกไดเรกทอรีกับตัวเองหรือไดเรกทอรีย่อย"</string>
+<string name="confirm_delete">"คุณแน่ใจที่จะลบ?"</string>
+<string name="search_empty">"ไม่มีข้อความในหน้านี้ กรุณาตรวจสอบการพิมพ์ของคุณ"</string>
+<string name="dialog_back">ย้อนกลับ</string>
+<string name="set_as">ตั้งค่าเป็น</string>
+<string name="invalid_char">"ชื่อแฟ้มที่มีอักษรที่ไม่ถูกต้อง%s"</string>
+<string name="no_enough_sapce">"พื้นที่ไม่เพียงพอ"</string>
+<string name="file_type_wrong">"ชนิดของแฟ้มที่ไม่ถูกต้อง"</string>
+<string name="failed_set_wallpaper">"ไม่สามารถตั้งวอลล์เปเปอร์"</string>
+<string name="unsupport_type">"ไม่รองรับประเภทริงโทน"</string>
+<string name="now_moving">"กำลังย้ายกรุณารอสักครู่ ..."</string>
+<string name="badname_as_point">"ไม่ตั้งชื่อเป็น.หรือ ..,อาจสร้างความสับสนให้กับระบบไฟล์ของคุณ"</string>
+<string name="cut_filename_duplicate">"ปัจจุบันไฟล์หรือโฟลเดอร์ที่มีชื่อเดียวกันโปรดเลือกไดเรกทอรีอีกครั้ง!"</string>
+<string name="share_file_limited">"ข้อจำกัดของไฟล์ที่ใช้ร่วมกัน %1$d"</string>
+<string name="install_apk_limited">"ข้อจำกัดของการติดตั้ง apk คือ %1$d"</string>
+    <string-array name="copyfileWarning">
+        <item>แทนที่</item>
+        <item>"บันทึกทั้งสอง"</item>
+    </string-array>
+     <string-array name="copydirWarning">
+        <item>เข้าร่วม</item>
+        <item>แทนที่</item>
+        <item>"บันทึกทั้งสอง"</item>
+    </string-array>
+     <string-array name="sort_type">
+        <item>โดยใช้ชื่อ</item>
+        <item>"โดยรูปแบบ"</item>
+        <item>"โดยวัน"</item>
+        <item>ตามขนาด</item>
+    </string-array>
+    <string name="invalid_char_of_filename">"<xliff:g id="SECTION">%s</xliff:g> ระบบแฟ้ม \ เป็นชื่อไฟล์มีอักขระที่ไม่ถูกต้องเช่น<xliff:g id="INVALIDCHAR">%s</xliff:g>"</string>
+     <string name="now_calculate">"การคำนวณกรุณารอสักครู่ ... "</string>
+     <string name="now_cleared">""ถูกล้าง,กรุณารอสักครู่ ..." "</string>
+     <string name="not_replace">"ไม่สามารถถูกแทนที่เพราะชื่อเดียวกับของโฟลเดอร์หลัก"</string>
+     <string name="sdcard_had_unmounted">"แฟ้มดำเนินงานไม่ถูกต้อง"</string>
+     <string name="common_text_ignore">"ไม่สนใจ"</string>
+     <string name="cannot_copyfolder_itself">"คุณไม่สามารถคัดลอกตัวเองลงในโฟลเดอร์"</string>
+     <string name="cannot_cutfolder_itself">"คุณไม่สามารถย้ายโฟลเดอร์ในตัว"</string>
+     <string name="cannot_paste_reason">"โฟลเดอร์ปลายทางที่อยู่ภายในโฟลเดอร์ต้นทาง %s"</string>
+
+    <string name="badname_endwith_point">"ตอนท้ายของชื่อโฟลเดอร์ไม่สามารถอยู่"</string>
+     <string name="failed_option">""ทางเลือกที่ิผิดพลาด"</string>
+    <string name="failed_query">"ฐานข้อมูลที่ไม่เกี่ยวกับไฟล์นี้"</string>
+    <string name="drm_consume_title">"ผลาญDrmสงวน"</string>
+    <string name="drm_consume_hint">"การทำงานของคุณจะใช้สงวนDrm"</string>
+    <string name="drm_info">"ข้อมูลการป้องกัน"</string>
+    <string name="drm_file_name">"ชื่อไฟล์：%1$s"</string>
+    <string name="drm_rights_validity">"ตั้งแต่วันสงวนสิทธิ: ถูกต้อง"</string>
+    <string name="drm_rights_invalidity">"ตั้งแต่วันสงวนสิทธิ: ไม่ถูกต้อง"</string>
+    <string name="drm_rights_status_transfer">"สิทธิสถานะ: อนุญาตให้มีการถ่ายโอน"</string>
+    <string name="drm_rights_status_untransfer">"สิทธิสถานะ: ไม่อนุญาตให้มีการถ่ายโอน"</string>
+    <string name="drm_start_time">"เวลาเริ่มต้น：%1$s"</string>
+    <string name="drm_end_time">"เวลาจบ：%1$s"</string>
+    <string name="drm_expiration_time">"เวลาหมดอายุ：%1$s"</string>
+    <string name="drm_remain_times">"ยังคงเวลา：%1$s"</string>
+    <string name="drm_invalid_rights">"แฟ้มนี้ไม่มีใบอนุญาต"</string>
+    <string name="drm_invalid_select">"แฟ้มที่ถูก จำกัด ไม่ได้เลือกโปรดเลือกไฟล์หมวดอื่น ๆ "</string>
+    <string name="drm_invalid_copy">"แฟ้มถูก จำกัดไม่ได้คัดลอก"</string>
+    <string name="drm_invalid_folder_copy">"โฟลเดอร์ที่มีไฟล์จำกัดไม่สามารถคัดลอก"</string>
+    <string name="drm_invalid_share">"แฟ้มถูก จำกัด ไม่ได้ใช้ร่วมกัน"</string>
+    <string name="drm_unlimited_rights">"ไม่ จำกัด "</string>
+    <string name="drm_inactive_rights">"ไม่ได้ใช้สิทธิ"</string>
+    <string name="drm_unknow_rights">"ไม่ทราบ”</string>
+    <string name="drm_time_unit">"ว."</string>
+    <string name="drm_protect_viewdetails">"ข้อมูลของการป้องกัน"</string>
+    <string name="drm_no_application_open">"ไม่สามารถเปิดไฟล์"</string>
+    <string name="msg_folder_input_empty">ชื่อโฟลเดอร์เป็นที่ว่าง</string>
+     <string name="search_type_empty">"เลือกประเภทของไฟล์."</string>
+     <string name="invalid_char_of_foldername">"<xliff:g id="SECTION">%s</xliff:g>ชื่อโฟลเดอร์ของระบบแฟ้มมีถ่านที่ไม่ถูกต้องเช่น<xliff:g id="INVALIDCHAR">%s</xliff:g>"</string>
+     <string name="failed_select_event">"เลือกเพียง 500 รายการเพื่อดำเนินการนี้".</string>
+     <string name="error_permissions">"แอปไม่มีสิทธิ์ที่จำเป็นในการเรียกใช้ โปรดตรวจสอบการตั้งค่าสิทธิ์ของคุณ"</string>
+     <string name="dialog_dismiss">"เลิกแสดง"</string>
+     <string name="toast_fileexplorer_internal_error">"ข้อผิดพลาดภายในขึ้นในแฟ้มสำรวจ!"</string>
+
+    <string name="title_section_usbdisk">"USB ดิสก์"</string>
+     <string name="error_choose_drm_for_gallery">"แฟ้ม DRM ไม่สามารถตั้งค่าเพื่อเลื่อนเพลงโปรดเลือกอีกครั้ง"</string>
+
+</resources>

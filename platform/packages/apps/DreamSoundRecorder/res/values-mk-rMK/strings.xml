@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Снимач на звук"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Снимете ја вашата порака"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Снимена порака"</string>
+    <string name="review_message" msgid="201616012287839474">"Прегледај порака"</string>
+    <string name="recording" msgid="4426791467211376099">"Снимање"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Снимањето е запрено"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"Меморијата е полна"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"Максималната должина е достигна"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Монтирај УСБ меморија"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Вметни СД картичка"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> мин. се достапни"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g>сек. на располагање"</string>
+    <string name="accept" msgid="1888285552128743656">"Готово"</string>
+    <string name="discard" msgid="761613433029406319">"Отфрли"</string>
+    <string name="button_ok" msgid="3004911343723076226">"Во ред"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Ваши снимки"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Аудио снимки"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Мои снимки"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"Не може да се пристапи кон УСБ меморијата."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"Не може да се пристапи кон СД картичката."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Внатрешна грешка на апикација."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"Не може да се зачува снимено аудио."</string>
+    <string name="recording_save">Снимката е зачувана</string>
+     <string name="recording_nosave">Снимката не е зачувана</string>
+     <string name="phone_message">Не може да го вклучите Снимачот на звук за време на повик.</string>
+     <string name="min_and_time_available">За <xliff:g id="minutes">%d</xliff:g> достапни минути и <xliff:g id="seconds">%d</xliff:g> секунди</string>
+     <string name="press_record">Притисни на сними</string>
+     <string name="save">Зачувај</string>
+     <string name="select_file_type">Избери го типот на снимената датотека</string>
+     <string name="record_amr">"тип на amr(низок квалитет)"</string>
+     <string name="record_3gpp">"тип 3gpp(висок квалитет)"</string>
+     <string name="button_cancel">Откажи</string>
+     <string name="path_save">Стандардната патека е зачувана</string>
+     <string name="path_nosave">Стандардната патека не е зачувана</string>
+     <string name="path_default">Тековната патека не може да се прочита или е неважечка, тоа е патеката до внатрешна меморија</string>
+     <string name="menu_set_save_path">Нагоди патека за зачувување</string>
+     <string name="back">Оди назад..</string>
+     <string name="path_label">Избери патека за зачувување</string>
+     <string name="pause">Пауза</string>
+     <string name="storage_is_not_enough">Меморијата не е доволна</string>
+     <string name="menu_recording_file_list">Лист на снимени датотеки</string>
+     <string name="recording_list_empty">Празна листа</string>
+     <string name="menu_recording_list_select_all">Избери сè</string>
+     <string name="menu_recording_list_delete">Избриши</string>
+     <string name="menu_recording_list_deselect_all">Отштиклирај</string>
+     <string name="recording_file_delete_success">Снимањето е избришано</string>
+     <string name="recording_file_database_failed">Бришењето на датотека од базата на податоци е неуспешно</string>
+     <string name="recording_file_delete_failed">Бришењето на снимената датотека е неуспешно</string>
+     <string name="confirm_del">Сигурни ли сте дека сакате да ги избришете датотеките?</string>
+     <string name="button_delete">Избриши</string>
+     <string name="recording_file_delete_alert_title">Избриши</string>
+     <string name="recording_file_delete_alert_message">Сигурни ли сте дека сакате да избришете %1$s ?</string>
+     <string name="recording_file_list">Лист на снимени датотеки</string>
+     <string name="less_than_one_second">1 секунда</string>
+     <string name="is_scanning">"Скенерот за музички датотеки моментално скенира, почекајте..."</string>
+     <string name="emptylist">Листата е празна</string>
+     <string name="choose_file">"Изберете ги снимките коишто прво сакате да ги избришете"</string>
+     <string name="error_path">"Патеката којашто ја избравте не постои, повторно нагодете ја!"</string>
+     <string name="path_miss">"Зачуваната патека не постои или не може да се отвори!"</string>
+     <string name="low_memory">Нема доволно простор во меморијата на телефонот,снимањето ќе запре!</string>
+     <string name="record_error">"Настанува исклучок при снимање!"</string>
+     <string name="play_error">Музичкиот плеер е оневозможен, не може да се отвори！</string>
+     <string name="dialog_title">"Изберете"</string>
+     <string name="dialog_message">"Зачувај го снименото?"</string>
+     <string name="same_application_running">"Уредот за снимање го користи друг програм, затворете го овој програм!"</string>
+     <string name="recording_time_short">"Времето на снимката е помало од 1 секунда, не е зачувано"</string>
+     <string name="file_path_button">Патека на датотека</string>
+     <string name="file_name">Име на датотека：</string>
+     <string name="file_path">"Пат на датотеката："</string>
+     <string name="rename">Преименувај</string>
+     <string name="rename_save">Преименувањето е успешно</string>
+     <string name="rename_nosave">Преименувањето е неуспешно</string>
+     <string name="filename_is_not_modified">Името на датотеката не е променето</string>
+     <string name="duplicate_name">двојно име на датотека</string>
+     <string name="soundpicker_label">Избери снимена датотека</string>
+     <string name="error_sdcard_path">sd картичката не постои. Стандардната патека за зачувување е променета во внатрешна меморија.</string>
+     <string name="input_length_overstep">Внесувањето ја достигна максималната должина</string>
+     <string name="filename_empty_error">Името на датотеката не смее да биде празно, зачувајте го оригиналното име</string>
+     <string name="please_choose_files">изберете датотеки</string>
+     <string name="selected_files_count">"избравте<xliff:g id="COUNTS">%d</xliff:g>"</string>
+     <string name="use_default_path">Зачуваната патека не постои, користете ја стандардната патека</string>
+     <string name="stroage_not_mounted">Просторот за складирање не е вграден</string>
+     <string name="special_char_exist">"Специјалните знаци <xliff:g id="COUNTS">%s</xliff:g> не се поддржани"</string>
+     <string name="menu_select_more">Избери повеќе</string>
+     <string name="menu_select_type">Нагоди тип на датотека</string>
+     <string name="path_miss_nosave">"Зачуваната патека не постои, снимката не е зачувана！"</string>
+     <string name="dialog_dismiss">Откажи</string>
+     <string name="error_permissions">"Апликацијата нема критични дозволи што се потребни за да се извршува. Проверете ги поставките за дозволи."</string>
+
+    <string name="internal_sdcard">"внатрешна sd картичка"</string>
+     <string name="external_sdcard">"Надворешна sd картичка"</string>
+    <string name="internal_storage">Внатрешена меморија</string>
+     <string name="external_storage">Надворешна меморија</string>
+     <string name="set_as_ring">"Поставете како мелодии на ѕвонење"</string>
+     <string name="read_file_path">"Проверете ја патеката на датотеката"</string>
+     <string name="operate_share">Сподели</string>
+     <string name="ringtone_title_sim1">SIM1 тон на звонење на телефон</string>
+     <string name="ringtone_title_sim2">"SIM2 ѕвонење на телефонот""</string>
+     <string name="ringtone_menu_short">Употреби како тон на ѕвонење.</string>
+     <string name="please_insert_sim_card">"Последно, вметнете SIM картичка"</string>
+     <string name="ring_set_silent_vibrate">"Приспособените тонови на звонење не се поддржани во тековниот режим"</string>
+     <string name="ringtone_set_sim1">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" постави како SIM1 тон на звонење на телефон.</string>
+     <string name="ringtone_set_sim2">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" постави како SIM2 тон на звонење на телефон.</string>
+     <string name="ringtone_set">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" постави го тонот на звонење на телефонот.</string>
+     <string name="ring_set_fail">"Жал ни е, песната не може да се репродуцира. Изберете друга песна како тон на звонење"</string>
+     <string name="tag_limit">"Бројот на ознаките го достигна максимумот"</string>
+     <string name="no_allow_play_calling">"Не е дозволено да репродуцира музика за време на повик (радио/видео)".</string>
+     <string name="playback_failed">"Уредот не го поддржува овој тип на аудио датотеки."</string>
+     <string name="tag">Ознака</string>
+     <string name="previous_tag">"Последна ознака"</string>
+     <string name="next_tag">"Следна ознака"</string>
+     <string name="recording_play">"Пуштање на снименото"</string>
+     <string name="clip_duration_tip">"Уреди должина"</string>
+     <string name="record_setting">"Прилагодување на записот"</string>
+     <string name="file_type">Тип на датотека</string>
+     <string name="type_amr">amr тип</string>
+     <string name="type_3gpp">3gpp тип</string>
+     <string name="save_path">"Зачувана патека"</string>
+     <string name="set_timer_recording">"Прилагоди го тајмерот на снимањето"</string>
+     <string name="timer_recording_detail">"Започни запис на <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> за <xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">Прегледај детали</string>
+     <string name="file_size">"Големина на датотеката："</string>
+     <string name="file_date">"Датум на датотеката："</string>
+     <string name="recording_start_time">"Почетно време на снимањето"</string>
+     <string name="recording_duration">"Час на траење на снимањето"</string>
+     <string name="tuned_timer_recording">"Вклучен тајмер на снимање"</string>
+     <string name="miss_timer_recording">"Пропуштен тајмер на снимање"</string>
+     <string name="miss_timer_time">"Време: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>" час"</item>
+        <item>" часови"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"Тајмерот на снимање е поставен на помалку од 1 минута од сега."</item>
+        <item>"Тајмерот на снимање е поставен на <xliff:g id="HOURS">%1$s</xliff:g> од сега."</item>
+        <item>"Тајмерот на снимање е поставен на <xliff:g id="MINUTES">%2$s</xliff:g> од сега."</item>
+        <item>"Тајмерот на снимање е поставен на <xliff:g id="HOURS">%1$s</xliff:g> и <xliff:g id="MINUTES">%2$s</xliff:g> од сега."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">1 час</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> часа"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">1 минута</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> минути"</item>
+    </plurals>
+     <string name="start_record">"започни запис"</string>
+     <string name="resume_record">"продолжи запис"</string>
+     <string name="start_play">"започни пуштање"</string>
+     <string name="resume_play">"продолжи пуштање"</string>
+     <string name="reset_timer_recording">"Уредот за снимање се користи од друга програма, ве молиме ресетирајте го тајмерот на снимање!"</string>
+     <string name="storage_not_enough">"Недоволно простор за складирање, неупешно започнување на тајмерот на снимање!"</string>
+     <string name="phone_storage_not_enough">"Просторот за складирање во телефонот не е доволен!"</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ ** Copyright © 2016 Spreadtrum Communications Inc.
+ */
+-->
+<resources>
+    <!--SPRD: 474587 Feature for PhoneBook @{ -->
+    <java-symbol type="bool" name="config_supportorangeCapable" />
+    <java-symbol type="bool" name="config_updateadnuidCapable" />
+    <java-symbol name="Pin2Mmi" type="string" />
+    <java-symbol name="PukMmi" type="string" />
+    <java-symbol name="Puk2Mmi" type="string" />
+    <java-symbol name="badPin2" type="string" />
+    <java-symbol name="badPuk2" type="string" />
+    <java-symbol name="mismatchPin2" type="string" />
+    <java-symbol name="mismatchPuk" type="string" />
+    <java-symbol name="mismatchPuk2" type="string" />
+    <java-symbol name="puklengthlimit" type="string" />
+    <!--SPRD: add for UMS @{ -->
+    <java-symbol type="string" name="ext_media_status_shared" />
+    <!-- } -->
+    <!--SPRD: add for Contacts @{ -->
+    <java-symbol type="string" name="phoneFixedNumber" />
+    <!-- } -->
+    <!--SPRD: add for UMS @{ -->
+    <java-symbol type="string" name="ext_media_status_shared" />
+    <!-- } -->
+    <!-- SPRD: Add feature of low battery for Reliance @{ -->
+    <java-symbol type="string" name="feature_AddonLowBatteryCallUtils"/>
+    <!-- @} -->
+    <!--SPRD Add For Feature Bug 474988:
+        Add symbol for carrier customized LTE RSRP threshold -->
+    <java-symbol type="array" name="config_LTE_RSRP_threshold_overlay" />
+    <java-symbol type="array" name="usim_notify_packages" />
+    <java-symbol type="string" name="addon_usim_notify" />
+    <java-symbol type="string" name="feature_ecc_list_customized_by_operator" />
+
+  <!-- SPRD: Bug#474381 support GPS automatic update time BEG -->
+  <java-symbol type="string" name="gps_time_sync_fail_str" />
+  <!-- support GPS automatic update time END -->
+
+  <!-- SPRD: Bug#412262 Add for SPRD USB Feature BEG -->
+  <java-symbol type="string" name="usb_cdrom_notification_title" />
+  <java-symbol type="string" name="usb_storage_stop_title" />
+  <java-symbol type="string" name="sim_card_activation_warning" />
+  <java-symbol type="string" name="sim_ready_title_for_usb" />
+  <java-symbol type="string" name="usb_ok" />
+  <!-- Add for SPRD USB Feature END -->
+
+  <!-- SPRD: Bug#474460 Add for SPRD USB Feature BEG -->
+  <java-symbol type="string" name="tetheredPC_notification_title" />
+  <!-- Add for SPRD USB Feature END -->
+
+  <java-symbol type="string" name="station_state_msg" />
+
+  <!-- SPRD: Bug #474443 Porting cmcc wifi features to AndroidN -->
+  <java-symbol type="string" name="config_wifi_operator" />
+  <!-- Porting cmcc wifi features to AndroidN END -->
+  <!-- SPRD: Bug#474381 support GPS automatic update time BEG -->
+  <java-symbol type="string" name="config_location_support_operator" />
+  <!-- support GPS automatic update time END -->
+  <!-- SPRD: Add for bug601753 @{ -->
+  <java-symbol type="bool" name="config_showEmergencyCallOnly" />
+  <!-- @} -->
+  <!-- SPRD: Bug 565443 add broadcast to cts queue -->
+  <java-symbol type="array" name="special_broadcast_actions" />
+  <!-- SPRD: Bug 569231 add broadcast to foreground queue -->
+  <java-symbol type="array" name="broadcast_put_foreground_actions" />
+  <java-symbol type="array" name="hide_packages" />
+  <!-- SPRD: Add for sprd Stk feature begin -->
+  <java-symbol type="string" name="stk_refresh_sim_init_message" />
+  <!-- SPRD: Add for sprd Stk feature end -->
+
+  <!--SPRD: used in AMS for cache protecting feature BEGIN-->
+  <java-symbol type="array" name="cache_protect_processes"/>
+  <!--SPRD: used in AMS for cache protecting feature END-->
+  <java-symbol type="string" name="wifidisplay_disconnected_cause_wifi_off" />
+</resources>

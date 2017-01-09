@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/search_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_view_bg_sprd" >
+
+        <EditText
+            android:id="@+id/search_view"
+            style="@style/ContactLSearchStyleNewUI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="8dip"
+            android:hint="@string/menu_search"
+            android:imeOptions="actionSearch"
+            android:inputType="textFilter"
+            android:maxLength="84"
+            android:paddingLeft="40dip"
+            android:paddingRight="40dip"
+            android:textColor="@color/search_view_edit_display_text_color"
+            android:textColorHint="@color/search_view_edit_hint_text_color" />
+
+        <ImageView
+            android:id="@+id/search_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/search_view"
+            android:layout_alignLeft="@+id/search_view"
+            android:layout_alignTop="@+id/search_view"
+            android:paddingLeft="6dip"
+            android:src="@drawable/magnifying_glass_sprd" />
+
+        <ImageView
+            android:id="@+id/clear_all_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/search_view"
+            
+            android:layout_alignRight="@+id/search_view"
+            android:layout_alignTop="@+id/search_view"
+            android:paddingRight="2dip"
+            android:src="@drawable/ic_clear_all_sprd"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_search_location_parent"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_search_view_search_location_height"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/fragment_search_location_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:clickable="false"
+            android:gravity="center_vertical"
+            android:paddingLeft="53dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip"
+            android:paddingRight="3dip"
+            android:text="@string/fragment_search_location"
+            android:textColor="@color/search_view_location_tag_text_color"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/fragment_search_location_type"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/fragment_search_location_tag"
+            android:clickable="false"
+            android:gravity="center_vertical"
+            android:paddingRight="10dip"
+            android:text="@string/fragment_search_location"
+            android:textColor="@color/search_view_location_type_text_color"
+            android:textSize="20dip" />
+
+        <ImageView
+            android:id="@+id/fragment_search_location_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:paddingRight="52dip"
+            android:paddingTop="20dip"
+            android:src="@drawable/search_extend" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/fragment_search_type_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="24dip"
+        android:background="@drawable/folder_path_background"
+        android:ellipsize="start"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="55dip"
+        android:paddingRight="5dip"
+        android:singleLine="true"
+        android:text="@string/fragment_search_type"
+        android:textColor="@color/folder_path_text_color"
+        android:textIsSelectable="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip" >
+
+            <CheckBox
+                android:id="@+id/fragment_search_type_image"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:ellipsize="end"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                android:text="@string/quickscan_image"
+                android:textColor="@color/search_view_check_box_text_color" />
+
+            <CheckBox
+                android:id="@+id/fragment_search_type_vedio"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:ellipsize="end"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                android:text="@string/quickscan_video"
+                android:textColor="@color/search_view_check_box_text_color" />
+
+            <CheckBox
+                android:id="@+id/fragment_search_type_audio"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:ellipsize="end"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                android:text="@string/quickscan_audio"
+                android:textColor="@color/search_view_check_box_text_color" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dip" >
+
+            <CheckBox
+                android:id="@+id/fragment_search_type_document"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:ellipsize="end"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                android:text="@string/quickscan_doc"
+                android:textColor="@color/search_view_check_box_text_color" />
+
+            <CheckBox
+                android:id="@+id/fragment_search_type_apks"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:ellipsize="end"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                android:text="@string/quickscan_apk_short"
+                android:textColor="@color/search_view_check_box_text_color" />
+
+            <CheckBox
+                android:id="@+id/fragment_search_type_other"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:ellipsize="end"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                android:text="@string/common_text_other"
+                android:textColor="@color/search_view_check_box_text_color" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

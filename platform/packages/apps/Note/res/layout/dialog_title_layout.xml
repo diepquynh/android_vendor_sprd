@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/note_editor_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_toStartOf="@+id/char_count"
+        android:paddingTop="10dp"
+        android:singleLine="true"
+        android:text="@string/edit_title"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/char_count"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/note_editor_title"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="-10dp"
+        android:hint="@string/edit_title"
+        android:singleLine="true"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="15dp" />
+
+</RelativeLayout>

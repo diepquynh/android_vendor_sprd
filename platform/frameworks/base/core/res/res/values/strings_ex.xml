@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ ** Copyright © 2016 Spreadtrum Communications Inc.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD add the reboot -->
+    <string name="global_action_restart">Restart</string>
+    <string name="reboot_device_title">Restart</string>
+    <string name="global_reboot_close_apps">Close all apps and restart phone</string>
+    <string name="reboot_device_confirm">Would you like to restart your phone now ?</string>
+    <!-- } -->
+
+    <!-- SPRD: add for storage @{ -->
+    <!-- Short summary of storage media status when shared [CHAR LIMIT=32] -->
+    <string name="ext_media_status_shared">UMS Shared</string>
+    <!-- @} -->
+   <!-- SPRD: Add feature of low battery for Reliance @{ -->
+   <string name="feature_AddonLowBatteryCallUtils" translatable="false">
+       plugin.sprd.CallUtilsPlugin.AddonLowBatteryCallUtils</string>
+   <!-- @} -->
+   <!-- SPRD add usim phone type display @{ -->
+   <string name="phoneFixedNumber">"Fixed Number"</string>
+   <!-- @} -->
+
+    <!-- SPRD: Bug#474381 support GPS automatic update time BEG -->
+    <string name="gps_time_sync_fail_str">Fail to get GPS time</string>
+    <!-- support GPS automatic update time END -->
+
+    <!-- SPRD: Bug#474460 Add for SPRD USB Feature BEG -->
+    <string name="tetheredPC_notification_title">USB-Internet Tethering active</string>
+    <!-- Add for SPRD USB Feature END -->
+
+    <!-- SPRD: Bug#412262 Add for SPRD USB Feature BEG -->
+    <string name="usb_cdrom_notification_title">Virtual Driver is on</string>
+    <string name="usb_storage_stop_title">USB storage in use</string>
+    <string name="sim_card_activation_warning">"In case of install applications by third parties, please input SIM/USIM card to activate USB."</string>
+    <string name="sim_ready_title_for_usb">"Warning"</string>
+    <string name="usb_ok">"ok"</string>
+    <!-- Add for SPRD USB Feature END -->
+
+    <string name="station_state_msg">%1$s connected, %2$s blocked</string>
+    <!-- SPRD: Add for sprd Stk feature begin -->
+    <string name="stk_refresh_sim_init_message">SIM card is updating</string>
+    <!-- SPRD: Add for sprd Stk feature end -->
+
+    <!--SPRD: used in AMS for cache protecting feature BEGIN-->
+    <string-array translatable="false" name="cache_protect_processes">
+        <item>com.android.settings</item>
+        <item>android.process.media</item>
+    </string-array>
+    <!--SPRD: used in AMS for cache protecting feature END-->
+    <string name="wifidisplay_disconnected_cause_wifi_off">"Network error.Multi-screen not available right now."</string>
+</resources>

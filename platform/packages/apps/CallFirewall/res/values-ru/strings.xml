@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="hello">Привет, мир!</string>
+  <string name="app_name">FireWall звонков </string>
+  <string name="blackcalls_add_phone_tip_error">Пожалуйста, введите правильный номер телефона</string>
+  <string name="blackcalls_add_phone_tip_error_existed_phone">Этот номер уже существует, вы не можете добавить его повторно</string>
+  <string name="blackcalls_add_phone_tip_success">Номер черного списка был успешно добавлен</string>
+  <string name="blackcalls_edit_phone_tip_success">Номер черного списка был успешно изменен</string>
+  <string name="blackcalls_add_phone_import_type">0123456789</string>
+  <string name="blackcalls_delete_phone_tip_error_not_select">Выберите номер телефона, который вы хотите удалить</string>
+  <string name="blackCallsLogIconLabel">Log-файл черного списка</string>
+  <string name="blackcalls_delete_not_select">Выберите объекты для удаления</string>
+  <string name="black_calls_add_number_label">Номер мобильного</string>
+  <string name="black_calls_add_type_label">Перехватывать содержание</string>
+  <string name="blacklist_radioButtonCall">Вызов</string>
+  <string name="blacklist_radioButtonVideoCall">"Видео-звонок"</string>
+  <string name="blacklist_radioButtonSms">Смс</string>
+  <string name="blacklist_radioButtonAll">Все вызовы и SMS</string>
+  <string name="blackcalls_list_phone_number_text">Перехваченный номер:</string>
+  <string name="blackcalls_list_Intercept_type_text">Перехваченный тип:</string>
+  <string name="blackCallsIconLabel">Черный список</string>
+  <string name="blackCallslog_empty">Загрузка черного списка пуста.</string>
+  <string name="blackCalls_empty">Черный список пуст.</string>
+  <string name="blackCalls_menu_add">добавить</string>
+  <string name="blackCalls_menu_delete">Удалить частично</string>
+  <string name="blackCalls_add_button_save">Сохранить</string>
+  <string name="blackCalls_add_button_Cancel">"Отмена"</string>
+  <string name="blackCalls_del_button_ok">Ок</string>
+  <string name="blackCalls_del_button_Cancel">"Отмена"</string>
+  <string name="blackCalls_all_button_Selected">Все выделенное</string>
+  <string name="blackCalls_all_button_UnSelected">Удалить выделенное</string>
+  <string name="blackCalls_logs_del_button_ok">Ок</string>
+  <string name="blackCalls_logs_del_button_Cancel">"Отмена"</string>
+  <string name="blackCalls_logs_all_button_Selected">Все</string>
+  <string name="blackCalls_logs_all_button_UnSelected">"Очистить"</string>
+  <!-- SPRD: motify for bug519684 @{ -->
+  <string name="blackCalls_smslog_content">Фамилия и имя: %1$s\r\nНомер:%2$s\r\nСодержание:%3$s\r\nВремя:%4$s </string>
+  <!-- @} -->
+  <string name="launcherDialer">Черный список</string>
+  <string name="SmsCallsLogIconLabel">Список регистрации сообщений</string>
+  <string name="Sms_all_button_Selected">Все выделенное</string>
+  <string name="Sms_log_empty">Регистрация сообщений пуста.</string>
+  <string name="BlaclList_Menu_Add">"Добавить"</string>
+  <string name="BlaclList_Menu_Delede_Some">Удалить некоторые элементы</string>
+  <string name="BlaclList_Menu_Confirm_delete">Подтвердить удаление</string>
+  <string name="BlaclList_Menu_Cancel">"Отмена"</string>
+  <string name="BlaclList_conMenu_edit">"Правка" </string>
+  <string name="BlaclList_conMenu_title">Пожалуйста, выберите</string>
+  <string name="blackcalls_add_phone_tip_error_input">"Пожалуйста, введите правильный номер"</string>
+  <string name="confirm_delete_number">Номер будет удален.</string>
+  <string name="ok">"ОК"</string>
+  <string name="cancel">Отменить</string>
+  <string name="blackcalls_add_type_tip_error">Выберите тип данных</string>
+  <string name="black_calls_add_name_label">Имя</string>
+  <string name="blackSmsLigIconLabel">Список регистрации сообщений</string>
+  <string name="blackCalls_blacklist_detail">Имя:%1$s\r\nНомер:%2$s</string>
+  <string name="blackCalls_calllog_detail">"Имя:%1$s\r\nНомер:%2$s\r\nВремя:%3$s"</string>
+  <string name="BlaclList_conMenu_delete">Удалить</string>
+  <string name="BlackList_conMenu_detail">Сведения</string>
+  <string name="SmsList_conMenu_delete">Удалить</string>
+  <string name="SmsList_conMenu_content">Содержание</string>
+  <string name="confirm_delete_number_title">Удалить черный список?</string>
+  <string name="CallLog_confirm_delete_title">Удалить?</string>
+  <string name="CallLog_confirm_delete">Запись будет удалена.</string>
+  <string name="selectContact">выбрать контакт</string>
+  <string name="blackcalls_update_phone_tip_fail">Ошибка обновления черного списка </string>
+  <string name="black_call_detail_time">Время</string>
+  <string name="black_sms_detail_contacts">Содержание</string>
+  <string name="sqlite_full">Черный список или диск уже заполнен</string>
+  <string name="no_subject">Без темы</string>
+  <string name="intercept_mms">Размер %1$s MMS:%2$s</string>
+  <string name="add_contacts">Добавить контакт</string>
+     <string name="blackCalls_all_button_Unselected">"Снять все выделения"</string>
+     <string name="done">"Готово"</string>
+
+    <string-array name="BlackList_list_stringArray">
+        <item>"SMS"</item>
+        <item>"Видео звонки"</item>
+        <item>Все входящие вызовы и SMS</item>
+    </string-array>
+     <string name="Add_Blacklist_title">"Импортируется "Черный список"</string>
+     <string name="Delete_Blacklist_title">"Черный список удаляется."</string>
+     <string name="Delete_CallLog_title">"Журнал вызовов удаляется"</string>
+     <string name="Delete_SmsLog_title">"Журнал SMS удаляется"</string>
+     <string name="BlackList_Menu_Add_Call_Some">"Прерывание вызова"</string>
+     <string name="BlackList_Menu_Add_Sms_Some">"Прерывание SMS"</string>
+     <string name="BlackList_Menu_Add_Call_With_Sms_Some">"Прерывание вызова и SMS"</string>
+     <string name="Contact_error">"Приложение "Контакты" было остановлено"</string>
+     <string name="adding_blacklist_hold_on">"Пакетная обработка данных, пожалуйста подождите ..."</string>
+     <string name="refuse_in_guest">"Функция "CallFireWall" не поддерживается в гостевом режиме"</string>
+    <string name="blocked_numbers_butter_bar_title">"Блокировка временно снята"</string>
+     <string name="blocked_numbers_butter_bar_body">"После набора или сообщения на номер экстренного вызова, блокировка отключается, чтобы гарантировать, что аварийные службы могут связаться с вами. Блокировка будет автоматически активирована через %1$s."</string>
+     <string name="blocked_numbers_butter_bar_button">"Включить блокировку"</string>
+     <string name="refuse_after_close_blocked_storage">"Невозможно использовать программу CallFireWall после остановки работы Места хранения заблокированных номеров"</string>
+
+</resources>

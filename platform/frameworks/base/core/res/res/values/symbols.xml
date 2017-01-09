@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright © 2016 Spreadtrum Communications Inc.
+*/
+-->
+<resources>
+  <!-- Private symbols that we need to reference from framework code.  See
+       frameworks/base/core/res/MakeJavaSymbols.sed for how to easily generate
+       this.
+  -->
+
+  <!--  SPRD add the reboot  { -->
+  <java-symbol type="string" name="global_action_restart" />
+  <java-symbol type="string" name="reboot_device_title" />
+  <java-symbol type="string" name="reboot_device_confirm" />
+  <java-symbol type="string" name="global_reboot_close_apps"/>
+  <java-symbol type="drawable" name="ic_lock_reboot" />
+  <!-- } -->
+  <java-symbol type="string" name="feature_create_icc_policy" />
+  <java-symbol type="array" name="config_actions_to_hook" />
+  <java-symbol type="array" name="config_components_to_hook" />
+  <java-symbol type="string" name="network_unknown" />
+  <java-symbol type="string" name="network_inhibit" />
+  <!-- SPRD: Add for bug589508 @{ -->
+  <java-symbol type="bool" name="config_enableDtmfLocalTone" />
+  <!-- @} -->
+  <!-- SPRD pocket mode { -->
+  <java-symbol type="drawable" name="disable_touch_mode_pic" />
+  <java-symbol type="layout" name="disable_touch_mode_panel" />
+  <!-- } -->
+  <java-symbol type="bool" name="config_enableNonRoamingInDomesticNetwork" />
+  <java-symbol type="string" name="app_as_launch" />
+  <java-symbol type="string" name="app_as_launch_warning" />
+  <java-symbol type="string" name="special_pkg" />
+  <java-symbol type="drawable" name="ic_settings_appaslaunch" />
+  <java-symbol type="drawable" name="appas_btn_check_on" />
+  <java-symbol type="drawable" name="appas_btn_check_off" />
+  <java-symbol type="string" name="app_as_launch_allow" />
+  <java-symbol type="string" name="app_as_launch_forbidden" />
+  <java-symbol type="string" name="notification_summery" />
+  <java-symbol type="string" name="notification_open" />
+  <java-symbol type="string" name="notification_close" />
+  <java-symbol type="layout" name="layout_custom_notifycation" />
+  <java-symbol type="id" name="noti_icon" />
+  <java-symbol type="id" name="noti_title" />
+  <java-symbol type="id" name="noti_description" />
+  <java-symbol type="id" name="noti_hint" />
+  <java-symbol type="id" name="btn_app_as_launch" />
+</resources>

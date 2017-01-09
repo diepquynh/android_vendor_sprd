@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">Tig-install sa sertipiko</string>
+<string name="pick_file_title">Pili ug sertipiko</string>
+<string name="pkcs12_password_dialog_title">Magkuha ug sertipiko</string>
+<string name="extracting_pkcs12">Nagkuha\2026</string>
+<string name="pkcs12_file_password_dialog_title">Magkuha gikan sa %s</string>
+<string name="name_credential_dialog_title">Panganlan ang sertipiko</string>
+<string name="credential_name">Pangan sa sertipiko:</string>
+<string name="credential_password">I-type ang password para mukuha ug mga sertipiko.</string>
+<string name="credential_info">Ang pakete nagsulod ug:</string>
+<string name="p12_description">Mga sertipiko sa PKCS12 keystore.</string>
+<string name="one_userkey">Usa ka user ka key</string>
+<string name="one_usercrt">Usa ka user nga sertipiko</string>
+<string name="one_cacrt">usa ka CA nga sertipiko</string>
+<string name="n_cacrts">%d CA nga mga sertipiko</string>
+<string name="password_error">I-type ang sakto nga password.</string>
+<string name="password_empty_error">\'I-type ang password</string>
+<string name="name_empty_error">Type ug pangalan.</string>
+<string name="name_char_error">I-type ang pangalan na nagsulod ra ug mga letra ug mga numero.</string>
+<string name="unable_to_save_cert">Dili maka-save sa sertipiko. Ang kredensyal sa imbakan kay wala gipagana o wala namao pagsugod.</string>
+<string name="cert_not_saved">Wala na-install ang sertipiko.</string>
+<string name="no_cert_to_saved">Walay sertipiko nga I-install</string>
+<string name="invalid_cert">Ang sertipiko kay dili mao.</string>
+<string name="cert_is_added"><xliff:g id="credential">%s</xliff:g>kay na-install.</string>
+<string name="cert_too_large_error">Dili maka-install tungod kay dako ra kaayo ang file.</string>
+<string name="cert_missing_error">Dili maka-install tungod dili mapangita ang file sa sertipiko.</string>
+<string name="cert_read_error">Dili maka-install tungod dili mabasa ang file sa sertipiko.</string>
+<string name="no_cert_file_found" product="nosdcard">Walay nakit-an nga file sa sertipiko sa imbakan sa USB.</string>
+<string name="no_cert_file_found" product="default">Walay nakit-an nga file sa sertipiko sa SD card.</string>
+<string name="sdcard_not_present" product="nosdcard">Imbakan sa USB dili pa pwede</string>
+<string name="sdcard_not_present" product="default">SD card kay wala.</string>
+<string name="only_primary_user_allowed">"Ang tagiya ra ani nga debays ang mahimong maginstol ug mga sertipiko."</string>
+<string name="credential_usage_label">"Gigamit nga kredesyal:"</string>
+<string-array name="credential_usage">
+<item>"VPN ug mga apps"</item>
+<item>Wi-Fi</item>
+</string-array>
+<string name="wifi_title">"Wi-Fi nga Propayl"</string>
+<string name="wifi_detail_title">"Detalye para %s"</string>
+<string name="wifi_detail_label">Mga detalye</string>
+<string name="wifi_install_label">"I-install"</string>
+<string name="wifi_installing_label">"Nag-instol"</string>
+<string name="wifi_cancel_label">"Kansela"</string>
+<string name="wifi_dismiss_label">"Buhii"</string>
+<string name="wifi_no_config">Wala</string>
+<string name="wifi_config_text">"Pangalan: %1$s\nFQDN: %2$s\nMga Consortium sa Pagsuroy-suroy: %3$s\ngingharian: %4$s\nPaagi sa Awtoridad: EAP-%5$s\n"</string>
+<string name="wifi_ttls_config_text">"Ngalan sa tiggamit: %s\n"</string>
+<string name="wifi_tls_config_text">"Sertipiko sa Kliyente:\n%1$s\nNag-una: %2$s\n"</string>
+<string name="wifi_sim_config_text">"SIM: %s\n"</string>
+<string name="wifi_trust_config_text">"Sertipiko sa Pagsalig:\n%s\n"</string>
+<string name="install_done_title">"Mga Kredensyal nga gitaud"</string>
+<string name="install_done">"<xliff:g id="name">%1$s</xliff:g> mga kredensyal gidugang ngadto sa Wi-Fi nga mga nahipos nga networks&amp;#46;"</string>
+<string name="done_label">"Human"</string>
+<string name="wifi_installer_detail">"Itaud ang mga krensyal sa Wi -Fi aron makakonekta sa mga network nga makuha pinaagi sa <xliff:g id="name">%1$s</xliff:g>&amp;#46;"</string>
+<string name="wifi_installer_download_error">"Ang mga gikaarga nga payl adunay mga problema ug dili mataud&amp;#46; Seguradoha nga mataud nimo ang payl gikan sa husto nga gikuhaan&amp;#46;"</string>
+<string name="wifi_installer_fail">"Dili makataud og mga kredensyal sa Wi-Fi&amp;#46; Sulayi ang pagkarga sa payl pag-usab&amp;#46;"</string>
+<string name="wifi_installer_fail_no_wifi_title">"Ang pagtaud gikansela"</string>
+<string name="wifi_installer_fail_title">"Dili makataud"</string>
+<string name="wifi_installer_fail_no_wifi">"I-on ang Wi-Fi ug sulayi pag-usab&amp;#46;"</string>
+</resources>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- application name and title of error dialogs-->
+    <string name="app_name">Sound Recorder</string>
+
+    <!-- Screen title before and during recording -->
+    <string name="record_your_message">Record your message</string>
+    <!-- Screen title after recording -->
+    <string name="message_recorded">Message recorded</string>
+    <!-- Screen title while playing back a recording -->
+    <string name="review_message">Message Lyrics</string>
+    <!-- Label shown during recording -->
+    <string name="recording">Recording</string>
+    <!-- Label shown when the recording is stopped for a reason other than the user stopping it (e.g. the sd card was removed) -->
+    <string name="recording_stopped">Recording stopped</string>
+    <string name="recording_save">Recording saved</string>
+    <string name="recording_nosave">Recording was not saved</string>
+    <!-- label shown when there is not enough space to record something -->
+    <string name="storage_is_full">Storage is full</string>
+    <!-- label shown when the recording has reached maximum allowed file size -->
+    <string name="max_length_reached">Maximum length reached</string>
+    <!-- label shown when there is no sd card available to record to [CHAR LIMIT=30] -->
+    <string name="insert_sd_card">Please insert an SD card</string>
+    <string name="phone_message">Can not turn on Sound Recorder while calling.</string>
+    <!-- label shown when there is more than 1 minute but less than 9 minutes of space left to record -->
+    <string name="min_available">About <xliff:g id="minutes">%d</xliff:g> min available</string>
+    <string name="min_and_time_available">About <xliff:g id="minutes">%d</xliff:g> min and <xliff:g id="seconds">%d</xliff:g> sec available</string>
+    <!-- label shown when there is less than 1 minute of space left to record -->
+    <string name="sec_available">About <xliff:g id="seconds">%d</xliff:g>s available</string>
+
+    <!-- button to accept the current recording and return it to the caller -->
+    <string name="accept">save</string>
+    <!-- button to discard the current recording and return to the caller -->
+    <string name="discard">Discard</string>
+    <!-- acknowlegement button in a number of dialogs -->
+    <string name="button_ok">OK</string>
+    <!-- Do not translate. Format of the timer that shows how much has been recorded so far -->
+    <string name="timer_format" translatable="false"><xliff:g id="format">%02d:%02d:%02d</xliff:g></string>
+    <!-- label shown before the user has recorded anything -->
+    <string name="press_record">Press record</string>
+
+    <!-- the name under which recordings will be visible in the media database is formatted like this -->
+    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+    <!-- all recordings will show up in the media database with this 'artist' name -->
+    <string name="audio_db_artist_name">Your recordings</string>
+    <!-- all recordings will show up in the media database with this 'album' name -->
+    <string name="audio_db_album_name">Audio recordings</string>
+    <!-- all recordings will show up in the media database in a playlist with this name -->
+    <string name="audio_db_playlist_name">My recordings</string>
+
+    <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card [CHAR LIMIT=NONE] -->
+    <string name="error_sdcard_access">Unable to access SD card</string>
+    <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
+    <string name="error_app_internal">Internal application error</string>
+    <!-- shown as the message in a dialog when the recording could not be added to the media database -->
+    <string name="error_mediadb_new_record">Unable to save recorded audio</string>
+        <!-- add by liguxiang 10-28-11 for NEWMS00110073 begin -->
+    <string name="save">Save</string>
+    <string name="select_file_type">Select the record file type</string>
+    <string name="record_amr">amr type(low-quality)</string>
+    <string name="record_3gpp">3gpp type(high-quality)</string>
+    <!-- add by liguxiang 10-28-11 for NEWMS00110073 end -->
+    <string name="button_cancel">Cancel</string>
+    <string name="path_save">Default path saved</string>
+    <string name="path_nosave">Default path not saved</string>
+    <string name="path_default">The current path is not writable or invalid, it is the path to the internal storage path</string>
+    <string name="menu_set_save_path">Set save path</string>
+    <string name="back">Back..</string>
+    <string name="path_label">Please select save path</string>
+    <string name="pause">pause</string>
+    <string name="storage_is_not_enough">Storage is not enough</string>
+    <string name="menu_recording_file_list">Recording file list</string>
+    <string name="recording_list_empty">Empty list</string>
+    <string name="menu_recording_list_select_all">Select all</string>
+    <string name="menu_recording_list_delete">Delete</string>
+    <string name="menu_recording_list_deselect_all">Deselect</string>
+    <string name="recording_file_delete_success">Recording Deleted</string>
+    <string name="recording_file_database_failed">Failed to delete database file</string>
+    <string name="recording_file_delete_failed">Failed to delete recording file</string>
+    <string name="list_recorder_item_time_format">%1$s \n %2$s</string>
+    <string name="list_recorder_item_size_format_b">%1$s\u0020B</string>
+    <string name="list_recorder_item_size_format_kb">%1$s\u0020KB</string>
+    <string name="list_recorder_item_size_format_mb">%1$s\u0020MB</string>
+    <string name="confirm_del">Are you sure to delete the files?</string>
+    <string name="button_delete">Delete</string>
+    <string name="recording_file_delete_alert_title">Delete</string>
+    <string name="recording_file_delete_alert_message">Sure to delete %1$s ?</string>
+    <string name="recording_file_list">Recording file list</string>
+    <string name="less_than_one_second">"1 second"</string>
+    <string name="is_scanning">"MediaScanner is scanning now,please wait..."</string>
+    <string name="emptylist">List is empty</string>
+    <string name="choose_file">"Please select the recording you want to delete files!"</string>
+    <string name="error_path">"The path you selected does not exist,please re-set!"</string>
+    <string name="path_miss">"The stored path does not exist or can not be accessed!"</string>
+    <string name="file_is_corrupt">File is corrupt</string>
+    <string name="low_memory">Memory is not enough,Recording will stop!</string>
+    <string name="record_error">"Recording an exception occurs!"</string>
+    <string name="play_error">Music player has been disabled,unable to open！</string>
+    <string name="dialog_title">"Please select"</string>
+    <string name="dialog_message">"Save the recording?"</string>
+    <string name="same_application_running">"The recording device is use by another program,please close this program!"</string>
+    <string name="recording_time_short">"Recording time less than 1 second, not saved"</string>
+    <string name="file_path_button">File path</string>
+    <string name="file_name">File name：</string>
+    <string name="file_path">File path：</string>
+    <string name="rename">Rename</string>
+    <string name="rename_save">Rename successfully</string>
+    <string name="rename_nosave">Rename failure</string>
+    <string name="filename_is_not_modified">Filename is not modified</string>
+    <string name="duplicate_name">file name duplicate</string>
+    <string name="soundpicker_label">Please select recording file</string>
+    <string name="error_sdcard_path">sdcard does not exist. Default save path is changed to internal storage.</string>
+    <string name="input_length_overstep">Input reached the max length</string>
+    <string name="filename_empty_error">Filename can not be empty , save the original name</string>
+    <string name="please_choose_files">please choose files</string>
+    <string name="selected_files_count">"has selected<xliff:g id="COUNTS">%d</xliff:g>"</string>
+    <string name="use_default_path">The stored path does not exist,use default path</string>
+    <string name="stroage_not_mounted">The storage is not Mounted</string>
+    <string name="special_char_exist">"Special characters <xliff:g id="COUNTS">%s</xliff:g> are not supported"</string>
+    <string name="menu_select_more">Select more</string>
+    <string name="menu_select_type">Set file type</string>
+    <string name="path_miss_nosave">"The stored path does not exist,Recording was not saved！"</string>
+    <string name="dialog_dismiss">Dismiss</string>
+    <string name="error_permissions">The app does not have critical permissions needed to run. Please check your permissions settings.</string>
+    <string name="internal_sdcard">Internal sdcard</string>
+    <string name="external_sdcard">External sdcard</string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="external_storage">External storage</string>
+
+    <string name="set_as_ring">Set as ring tones</string>
+    <string name="read_file_path">Check the file path</string>
+    <string name="operate_share">Share</string>
+    <string name="ringtone_title_sim1">SIM1 Phone ringtone</string>
+    <string name="ringtone_title_sim2">SIM2 Phone ringtone"</string>
+    <string name="ringtone_menu_short">Use as ringtone</string>
+    <string name="please_insert_sim_card">Please insert a SIM card at least</string>
+    <string name="ring_set_silent_vibrate">Custom ringtones is not supported in the current mode</string>
+    <string name="ringtone_set_sim1">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" set as SIM1 Phone ringtone.</string>
+    <string name="ringtone_set_sim2">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" set as SIM2 Phone ringtone.</string>
+    <string name="ringtone_set">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" set as phone ringtone.</string>
+    <string name="ring_set_fail">"Sorry, the song could not be played. Please select another song as ringtone"</string>
+    <string name="tag_limit">The number of tags has reached the maximum</string>
+    <string name="no_allow_play_calling">"Not allowed to play music during a call (radio/video)."</string>
+    <string name="playback_failed">The player doesn\'t support this type of audio file.</string>
+    <string name="tag">Tag</string>
+    <string name="previous_tag">Last tag</string>
+    <string name="next_tag">Next tag</string>
+    <string name="recording_play">Recording play</string>
+    <string name="clip_duration_tip">Edit length</string>
+    <string name="record_setting">Record Setting</string>
+    <string name="file_type">File type</string>
+    <string name="type_amr">amr type</string>
+    <string name="type_3gpp">3gpp type</string>
+    <string name="save_path">Stored path</string>
+    <string name="set_timer_recording">Set timer recording</string>
+    <string name="timer_recording_detail">Start record at <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> for <xliff:g id="COUNTS">%s</xliff:g></string>
+    <string name="view_file_details">View details</string>
+    <string name="file_size">File size：</string>
+    <string name="file_date">File date：</string>
+    <string name="recording_start_time">Recording start time</string>
+    <string name="recording_duration">Recording duration hour</string>
+    <string name="tuned_timer_recording">Timer recording tuned on</string>
+    <string name="miss_timer_recording">Missed timer recording</string>
+    <string name="miss_timer_time">Time: <xliff:g id="TIME">%s</xliff:g></string>
+    <string name="duration_half_hour">0.5</string>
+    <string name="duration_one_hour">1</string>
+    <string name="duration_two_hour">2</string>
+    <string name="duration_three_hour">3</string>
+    <string-array name="duration_hours">
+        <item>" hour"</item>
+        <item>" hours"</item>
+    </string-array>
+    <string-array name="timer_recording_time">
+        <item>Timer recording set for less than 1 minute from now.</item>
+        <item>Timer recording set for <xliff:g id="HOURS">%1$s</xliff:g> from now.</item>
+        <item>Timer recording set for <xliff:g id="MINUTES">%2$s</xliff:g> from now.</item>
+        <item>Timer recording set for <xliff:g id="HOURS">%1$s</xliff:g> and <xliff:g id="MINUTES">%2$s</xliff:g> from now.</item>
+    </string-array>
+    <plurals name="hours">
+        <item quantity="one">1 hour</item>
+        <item quantity="other"><xliff:g id="number">%s</xliff:g> hours</item>
+    </plurals>
+        <plurals name="minutes">
+        <item quantity="one">1 minute</item>
+        <item quantity="other"><xliff:g id="number">%s</xliff:g> minutes</item>
+    </plurals>
+     <string name="start_record">start record</string>
+     <string name="resume_record">resume record</string>
+     <string name="start_play">start play</string>
+     <string name="resume_play">resume play</string>
+     <string name="reset_timer_recording">"The recording device is use by another program,please reset timer recording!"</string>
+     <string name="storage_not_enough">"Storage is not enough,failed to start timer recording!"</string>
+     <string name="phone_storage_not_enough">"Phone storage is not enough!"</string>
+</resources>

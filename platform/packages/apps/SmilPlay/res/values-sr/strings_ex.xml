@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_number">"Коме:"</string>
+<string name="cancel_call">"Откажи"</string>
+<string name="delivery_toast_body_fail">"Поруку није примио %s."</string>
+<string name="read_report_toast_body">"Поруку је прочитао %s."</string>
+<string name="read_report_toast_body_fail">"Поруку није прочитао %s."</string>
+<string name="delivery_toast_body_fail_rejected">"Поруку је одбио %s."</string>
+<string name="user_not_exist">"Корисник не постоји."</string>
+<string name="menu_resend">"Поновно пошаљи"</string>
+<string name="low_storage_toast">"Имате мало простора! Избришите неке документе како бисте ослободили простор."</string>
+<string name="failed_to_download_mms">"Преузимање MMS-а није успело, покушајте поновно касније"</string>
+<string name="failed_to_send_mms">"Слање MMS-а није успело, покушајте поновно касније"</string>
+<string name="success_to_send_mms">"Успешно послан MMS"</string>
+<string name="sim_card_not_ready">"SIM картица није спремна"</string>
+<string name="sim_is_invalid">"SIM картица није спремна"</string>
+<string name="on_progress">"Обрађује се, молимо сачекајте..."</string>
+<string name="pref_internal_memory_usage_title">"MMS/Доступно/Укупно"</string>
+<string name="pref_internal_memory_usage_progress_summary">"Рачунам простор меморије..."</string>
+<string name="please_wait_title">"Молимо сачекајте..."</string>
+<string name="sim_card_setting">"Пoдешавање SIM картице"</string>
+<string name="multi_sim_manage_messages_title">""Поруке на SIM<xliff:g id="COUNT">%1$S</xliff:g>"</string>
+<string name="pref_title_manage_sim_setting">"Управљај SIM поставама"</string>
+<string name="pref_summary_manage_sim_setting">""Управљај порукама похрањеним у SIM. Извештаји о достави, истекло време, SMS подешавања итд. "</string>
+<string name="pref_summary_notification_ringtone">"Подразумевана мелодија звона"</string>
+<string name="pref_summary_notification_ringtone_silent">"Тишина"</string>
+<string name="menu_sim_capacity">"SIM капацитет"</string>
+<string name="pref_title_manage_multi_sim_messages">"Управљајте порукама на SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="pref_summary_manage_multi_sim_messages">"Управљајте порукама похрањеним на SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_sim_success">"Успешно снимљено на SIM"</string>
+<string name="toast_copy_to_sim_failure">"Није успело копирање на SIM"</string>
+<string name="toast_sim_memory_full">"SIM меморија је пуна"</string>
+<string name="toast_copy_to_multi_sim_success">"Успешно снимљено на SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_multi_sim_failure">"Није успело копирање на SIM<xliff:g id="COUNT">%1$s<xl></xl></xliff:g>"</string>
+<string name="toast_multi_sim_memory_full">"SIM <xliff:g id="COUNT">%1$S</xliff:g> меморија је пуна"</string>
+<plurals name="conversation_num">
+<item quantity="one">"Имате један разговор"</item>
+<item quantity="other">"Имате <xliff:g id="number">%1$s</xliff:g>  разговора."</item>
+</plurals>
+<string name="count_of_new_mms">"%s нове поруке"</string>
+<string name="pref_summary_store_sms_on_sim">""Када дође нови SMS, снимити га на SIM или не?"</string>
+<string name="pref_title_store_sms_on_sim">"Сними SMS на SIM"</string>
+<string name="pref_title_sms_validity">"Важење SMS-а"</string>
+<string-array name="prefEntries_sms_validity">
+<item>"Није подешено"</item>
+<item>"1 сат"</item>
+<item>"6 сати"</item>
+<item>"24 сата"</item>
+<item>"2 дана"</item>
+<item>"1 недеља"</item>
+<item>"Макsimум"</item>
+</string-array>
+<string name="done_slide_show">"Готово"</string>
+<string name="smsc_check_fdn_failure">"Ваш број средишта за поруке не припада фдн листи."</string>
+<string name="muti_select_all">"Изабери све"</string>
+<string name="menu_select_none">"Поништи све изборе"</string>
+<string name="Conversation_check_type_selected_all">"Изабери све"</string>
+<string name="menu_msg_folder">"Преглед фолдера"</string>
+<string name="menu_msg_list">"Преглед поруке"</string>
+<string name="folder_inbox">"Пријемно сандуче"</string>
+<string name="folder_outbox">"За слање"</string>
+<string name="folder_sent">"Послате"</string>
+<string name="folder_drafts">"Недовршене поруке"</string>
+<string name="folder_empty">"Нема порука на овом фолдеру."</string>
+<string name="folder_display_all">"Прикажи све поруке"</string>
+<string name="folder_delete_messages">"Брисање порука"</string>
+<string name="folder_loading">"Пуњење.."</string>
+<string name="folder_reply">"Одговори"</string>
+<string name="folder_forward">"Проследи"</string>
+<string name="no_msg_del">"Нема избрисаних порука"</string>
+<string name="exceed_slides_number_limitation">"Достигнут је максимални број слајдова"</string>
+<string name="has_vcard_or_vcalendar_attachment">"Већ има <xliff:g id="TYPE">%1$s</xliff:g>, не може се додати више"</string>
+<string name="folder_sortby">"Сортирај према"</string>
+<string-array name="sort_type">
+<item>"Према времену"</item>
+<item>"Према адреси"</item>
+</string-array>
+<string name="OTAConfig_title">"ОТА конфигурацијска подешавања"</string>
+<string name="OTAConfig_Message">"Сигурно имате ОТА конфигурацију?"</string>
+<string name="OTAConfiy_Success">"Успело подешавање ОТА поруке"</string>
+<string name="OTAConfiy_Error">"Није успело подешавање ОТА поруке"</string>
+<string name="ota_pin_error">"Није успело ОТА осигуравање"</string>
+<string name="ota_retry">"Грешка у шифри"</string>
+<string name="ota_pin_exception">"Грешка у ОТА конфигурацији: програмска грешка."</string>
+<string name="ota_mime_error">"Грешка у ОТА конфигурацији: грешка у подацима поруке."</string>
+<string name="ota_support_not">"Грешка у ОТА конфигурацији：<xliff:g id="OTATYPE">%1$s</xliff:g> врста није подржана."</string>
+<string name="pref_reply_path_title">"Поставке путање одговора"</string>
+<string name="pref_title_reply_path">"Путања одговора"</string>
+<string name="pref_summary_reply_path">"Одговори од истог центра"</string>
+<string name="cannot_add_picture_and_vcard">"Није могуће додати вкартицу и слику на један слајд."</string>
+<string name="mms_setting">"MMS подешавања"</string>
+<string name="pref_title_font_size">"Подешавања величине слова"</string>
+<string name="font_size_setting">"Подешавања величине слова"</string>
+<string name="font_size">"Величина слова је:  <xliff:g id="font_size_id">%1$s</xliff:g>"</string>
+<string name="menu_copy_to_sim_memory">"Копирај поруку на SIM"</string>
+<string name="menu_add_recipient_to_contacts">"Додајте <xliff:g id="name">%s</xliff:g>у контакте"</string>
+<string name="action_done">"Готово"</string>
+<string name="message_signature_setting">"Подешавања потписа"</string>
+<string name="pref_signature_enable_title">"Опционални потпис"</string>
+<string name="pref_signature_enabl_summary">"Аутоматски ставите потпис на сваку MMS поруку коју пошаљете"</string>
+<string name="pref_signature_input_title">"Измени потпис"</string>
+<string name="pref_signature_input_summary">"Уђите овде да подесите свој потпис"</string>
+<string name="pref_signature_input_limited">"Потпис је досегао свој лимит"</string>
+<string name="pref_hint_signature_edittext">"Молимо унесите свој потпис"</string>
+<string name="toast_append_signature_failed">"Стављање потписа на MMS није успело, досегнута је горња величина слајдова"</string>
+<string name="pageIndex">"Страница %s"</string>
+<string name="remove_subject">"Уклоните предмет"</string>
+<string name="toast_message_when_memory_full">"Меморија је пуна. Молимо обришите један део и покрените поново"</string>
+<string name="toast_save_classzero_message_failed">"Нема слободног простора, снимање поруке није успело"</string>
+<string name="toast_shared_file_failed">"Ова медиа датотека није подржана, дељеније није успело."</string>
+<string name="message_too_many_recipients_picked">"Жао нам је, не можете додати више од <xliff:g id="COUNT">%1$s</xliff:g> контаката одједном""</string>
+<string name="pref_title_manage_sim_smsc">"SMS Сервисни центар"</string>
+<string name="smsc_set_fails">"Подешавање SMS-а није успело"</string>
+<string name="smsc_set_success">"Успешно подешавање."</string>
+<string name="smsc_change_success">"Успешна измена."</string>
+<string name="smsc_add_success">"Успешно додавање"</string>
+<string name="received_new_wap_contact">"Примили сте SMS Vcard поруку"</string>
+<string name="save_new_wap_contact">"Сачувај"</string>
+<string name="cancle_new_wap_contact">"Откажи"</string>
+<string name="menu_sim_message">"Порука у SIM"</string>
+<string name="folder_display_option">"Опција приказа"</string>
+<string name="confirm_open_browser_dialog_title">"Порука"</string>
+<string name="confirm_open_browser_dialog_message">""Ово ће отворити прегледник, наставити?"</string>
+<plurals name="delete_confirm">
+<item quantity="one">"Одаберите једну ставку"</item>
+<item quantity="other">"Одаберите <xliff:g id="del_count">%1$s</xliff:g> ставке"</item>
+</plurals>
+<string name="select_sim_card">"Молимо одаберите SIM картицу"</string>
+<string name="menu_video_call_back">"Видео позив<xliff:g id="name">%s</xliff:g>"</string>
+<string name="menu_edit_before_call_back">"Измените пре позива <xliff:g id="name">%s</xliff:g>"</string>
+<string name="min_zoom">"достигнут је минимум"</string>
+<string name="max_zoom">"достигнут је максимум"</string>
+<string name="sms_merge_forward">"Спајање и прослеђивање"</string>
+<string name="sms_merge_dialog_title">"Брз"</string>
+<string name="sms_merge_dialog_content">"Можете пребацити само између 2 и 30 SMS порука. Молимо проверите то."</string>
+<string name="sms_merge_forward_empty">"Нема SMS поруке коју бисте пребацили и проследили."</string>
+<string name="sms_forwarding_number">"Подешавање прослеђивања SMS-ова"</string>
+<string name="pref_sms_forwarding_number_title">"Број за прослеђивање SMS-а"</string>
+<string name="pref_sms_forwarding_number_summary">"Прослеђивање SMS-а са бројем приматеља"</string>
+<string name="sim_list_title">"Молимо одаберите SIM картицу"</string>
+<string name="type_vcard">"контакт"</string>
+<string name="type_vcalendar">"Календар"</string>
+<string name="attach_vcard">"Kонтакт"</string>
+<string name="attach_vcalendar">"Календар"</string>
+<string name="add_slide_before">"Додајте слајд (пре)"</string>
+<string name="add_slide_after">"Додајте слајд (после)"</string>
+<string name="re_take_picture">"Снимање слике није успело, молимо поново усликајте слику."</string>
+<string name="exceed_text_length_limitation">"Досегли сте ограничење дужине текста."</string>
+<string name="move_message_to_phone_memory">"Копирање поруке на меморију телефона је успело"</string>
+<string name="can_not_copy_the_message">"Није могуће копирати поруку"</string>
+<string name="confirm_import_vcard">"Убаците ову ВКартицу?"</string>
+<string name="pref_title_manage_simx_smsc">"SIM<xliff:g id="COUNT">%1$s</xliff:g> SMS Сервисни центар"</string>
+<string name="simx_settings_title">"SIM<xliff:g id="COUNT">%1$s</xliff:g>; Подешавање"</string>
+<string name="pref_summary_sms_validity">"Важење кратке поруке"</string>
+<string-array name="prefEntries_mms_validity">
+<item>"1 сат"</item>
+<item>"12 сати"</item>
+<item>"24 сата"</item>
+<item>"2 дана"</item>
+<item>"Макsimум"</item>
+</string-array>
+<string-array name="prefEntries_mms_priority">
+<item>"Висок"</item>
+<item>"Нормалан"</item>
+<item>"Ниска"</item>
+</string-array>
+<string name="pref_title_mms_validity">"Важење мултимедијалне поруке"</string>
+<string name="pref_summary_mms_validity">"Важење мултимедијалне поруке"</string>
+<string name="pref_title_mms_priority">"Приоритет"</string>
+<string name="pref_summary_mms_priority">"Подешавања приоритета"</string>
+<string name="sim_settings_title">"Пoдешавање SIM%s картице"</string>
+<string name="toast_copy_to_simx_success">"Успело копирање <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_simx_failure">"Није успело копирање на<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_simx_memory_full">"<xliff:g id="COUNT">%1$s</xliff:g>је пун"</string>
+<string name="pref_title_manage_sim_x_setting">"Управљајте SIM<xliff:g id="COUNT">%1$s</xliff:g> подешавањима"</string>
+<string name="pref_title_mms_creation_mode">"Начин креирања"</string>
+<string-array name="mms_creation_mode_entries">
+<item>"Oграничена"</item>
+<item>"Упозорење"</item>
+<item>"Слободна"</item>
+</string-array>
+<string name="exceed_resolution_limit">"Резолуција је прекорачила лимит"</string>
+<string name="want_to_add_media">"Желите ли додати  <xliff:g id="NAME">%1$s</xliff:g>  у вашу поруку?"</string>
+<string name="mms_can_not_add_vcard">"Избришите постојећи прилог како бисте додали контакте"</string>
+<string name="mms_can_not_add_vcalendar">"Избришите постојећи прилог како бисте додали слајд"</string>
+<string name="converting_to_text_message">"Претварање у текстуалну поруку... "</string>
+<string name="select_calendar">"Одаберите записник"</string>
+<string name="no_calendar">"Нема записника"</string>
+<string name="exceed_slides_number_message">"Одабрани<xliff:g id="NUMBER">%1$s</xliff:g> записник，максимални број <xliff:g id="NUMBER">%2$s</xliff:g> записника"</string>
+<string name="add_to_blacklist">"ДОДАЈТЕ У ЦРНУ ЛИСТУ"</string>
+<string name="failed_addToBlacklist">"Додавање у црну листу није успело."</string>
+<string name="creating_slideshow_title">"Креирање слајдшоуа"</string>
+<string name="attachment_vcalendar">"Вкалендар"</string>
+<string name="attachment_vcard">" VCard"</string>
+<string name="text_limited_warning">"Ограничење које треба поставити"</string>
+<string name="subject_text_length_limitation">"Дужина предмета је досегла ограничење"</string>
+<string name="attach_commonPhrases">"Уобичајене реченице"</string>
+<string name="commonphrase_empty">"Нема уобичајених реченица"</string>
+<string name="quick_reply">"Брзи одговори"</string>
+<string name="common_messages">"Уобичајена реченица"</string>
+<string name="common_add_text">"Ново"</string>
+<string name="common_delete_text">"Избриши"</string>
+<string name="common_delete_message">"Потврдите брисање?"</string>
+<string name="common_delete">"Избриши"</string>
+<string name="common_phrase_contextmenu_title">"Радни мени"</string>
+<string name="common_edit">"Измени"</string>
+<string name="commonphrase_delete_empty">"Ни једна реченица се не може избрисати"</string>
+<string name="common_phrase_edit_dialog_title">"Опције"</string>
+<string name="common_phrase_edit_dialog_inform">"Снимити промене?"</string>
+<string name="common_phrase_edit_max_length">"Досегнуто је ограничење које се сме ставити"</string>
+<string name="common_messages_edit">"Измени уобичајену реченицу"</string>
+<string name="common_save">"Сачувај"</string>
+<string name="common_cancel">"Откажи"</string>
+<string name="add_empty_common_messages">"Ставите било који карактер"</string>
+<string name="pref_other_settings_title">"Други"</string>
+<string name="pre_key_title_common_messages">"Уобичајена реченица"</string>
+<string name="common_phrase_selection">"Одаберите уобичајене реченице"</string>
+<string name="wap_push_message_dialog_title">" "Wап пусх порука"</string>
+<string name="open_website">"Отворите интернет страницу"</string>
+<string name="activity_not_found">"Није пронађена одговарајућа апликација"</string>
+<string name="add_contact">"Убаците контакте"</string>
+<string name="receive_from">"Примите од %s"</string>
+<string name="send_from">"Пошаљите ка %s"</string>
+<string name="dl_expired_wap_push">"Има <xliff:g id="COUNT">%1$s</xliff:g> истеклих wап порука, оне ће бити избрисане."</string>
+<string name="invalid_recipient">"Неисправан прималац"</string>
+<string name="max_recipients_count">"Ограничење примаоца је <xliff:g id="MAXCOUNT">%1$s</xliff:g>."</string>
+<string name="no_media_selected">"Ни један медиј није одабран!"</string>
+<string name="search_max_length">"Реченица за претрагу је предуга, ограничење је 512"</string>
+<string name="sim_capacity_used">"Кориштемо:"</string>
+<string name="sim_capacity_total">"Укупно:"</string>
+<string name="too_many_contacts">"Ограничење прималаца је  <xliff:g id="MAXLIMIT">%1$s</xliff:g>, напред ће бити додано<xliff:g id="CURRENTCOUNT">%2$s</xliff:g> прималаца ће бити додано."</string>
+<string name="delivery_toast_body_expired">"Порука је истекла %s."</string>
+<string name="discard_dialog">"Заиста желите одустати од ове информације?"</string>
+<string name="contacts_count_excceeds">"Већ сте додали  <xliff:g id="MAXLIMIT">%1$s</xliff:g>  примаоца, није дозвољено додавати више."</string>
+<string name="copy">"Копирај"</string>
+<string name="received_new_wap_vcalendar">"Примили сте SMS Вцалендар поруку"</string>
+<string name="remove_vcalendar_first">"Најпре избришите приложени вкалендар како бисте ово изменили."</string>
+<string name="remove_vcard_first">"Најпре избришите приложену вкартицу како бисте ово изменили."</string>
+<string name="import_vcalendar">"Унесите Вкалендар"</string>
+<string name="no_vcalendar">"Није пронађен ВКалендар"</string>
+<string name="import_vcalendar_fail">"Није могуће унети ВКалендар."</string>
+<string name="unable_to_add_all">"Управљајте досегнутим ограничењем величине, неки делови нису додати."</string>
+<string name="replce_slideshow_dilaog_dismiss">"Заменом слајдшоуа, обрисат ћете тренутни прилог, хоћете ли да наставите?"</string>
+<string name="pref_title_sms_retry_times">"Покрени поновно слање SMS-а"</string>
+<string name="smsc_list">"Централна листа SMS-ова"</string>
+<string name="smsc_list_empty">"Нема централне листе  SMS-ова"</string>
+<string name="smsc_list_loading">"Пуњење"</string>
+<string name="smsc_list_menu_edit">"Измени"</string>
+<string name="smsc_list_menu_activate">"Активирај"</string>
+<string name="smsc_list_not_allow_to_clear">"Није дозвољено обрисати број"</string>
+<string name="smsc_list_empty_number">"Кликните за додавање новог броја"</string>
+<string name="save_attachment_msg">"<xliff:g id="success">%1$d</xliff:g> прилог је снимлјен на<xliff:g id="path">%2$s</xliff:g>,<xliff id="fail">%3$d</xliff> снимање прилога није успело"</string>
+<string name="box_msg_list_menu_addtocontacts">"Додај у Људе"</string>
+<string name="box_msg_list_menu_call">"Позови"</string>
+<string name="box_msg_list_menu_editbeforecall">"Измени пре позива"</string>
+<string name="box_msg_list_menu_videocall">"Видео поз."</string>
+<string name="soundrecorder_fail_msg">"Нисмо могли покренути снимач звука."</string>
+<string name="camera_fail_msg">"Нисмо могли покренути камеру."</string>
+<string name="video_fail_msg">"Нисмо могли покренути видео."</string>
+<string name="pref_encode_type_setting_title">"Подешавање врсте кодирања"</string>
+<string name="pref_encode_type_title">"Врста кодирања"</string>
+<string name="confirm_convert_to_mms">"Поље за примаоца садржи адресу е-поште, порука ће бити послана као MMS"</string>
+<string name="send_as_mms">"Пошаљи MMS"</string>
+<string name="send_as_sms">"Пошаљи само SMS"</string>
+<string name="protected_file">"Заштићена датотека се не може додати"</string>
+<string name="success_to_send_sms">"Успешно послан SMS"</string>
+<string name="confirm_ota_message">"Потврдите ОТА подешавања?"</string>
+<string name="confirm_ota">"Потврди"</string>
+<string name="cancel_ota">"Откажи"</string>
+<string name="ota_cancelled">"ОТА подешавања су отказана."</string>
+<string name="message_too_big_for_audio">"Порука је превелика за прилагање аудио снимка."</string>
+<string name="contacts_count_can_send">"Поштовани, број промаоца је досегао лимит система, дозвољено је слање само <xliff:g id="MAXLIMIT">%1$s</xliff:g>, молимо пошаљите у серијама."</string>
+<string name="attach_common_messages">"Уобичајене реченице"</string>
+<string name="attach_subject">"Наслов"</string>
+<string name="add_contacts_dialog_title">"Додајте контакте"</string>
+<string name="add_contact_as_text">"SMS"</string>
+    <string name="action_next">"Следеће"</string>
+     <string name="sms_forward">"Проследи"</string>
+     <string name="valid_sub">"неисправна SIM картица"</string>
+     <string name="confirm_import_vcalendar">"Увести Vcalendar"</string>
+     <string name="confirm_save_otherfiles">"Спремити овај прилог?"</string>
+     <string name="pref_notification_settings_title_sim1">"sim1 обавештења"</string>
+     <string name="pref_notification_settings_title_sim2">"sim2 обавештења"</string>
+     <string name="pref_notification_settings_title_sim">"sim обавештења"</string>
+     <string name="dlg_media_removed">"Медијум без исправне путање у прилогу је био уклоњен, желите ли продужити са слањем?"</string>
+     <string name="toast_media_removed">""Медијум без исправне путање у прилогу је био уклоњен, молимо вас проверите!"</string>
+     <string name="dl_failure_roaming">"Роаминг статус, није се могла преузети порука!"</string>
+     <string name="recipient_invalid">"<xliff:g id="invalid_number" example="1">%1$s</xliff:g> Прималац(оци) неисправан (ни)"</string>
+     <string name="recipient_invalid_detail">"Неисправан(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+     <string name="recipient_changed_detail">"Промењен(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+
+</resources>

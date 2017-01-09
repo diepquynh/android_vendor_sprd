@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (C) 2010,2013 Thundersoft Corporation
+  All rights Reserved
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="140dip"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pupo_background"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+  <!--   <TextView
+        android:id="@+id/popup_menu_rotate_left"
+        android:layout_width="200dip"
+        android:layout_height="44dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:singleLine="true"
+        android:text="@string/rotate_left"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/qrcode_list_text" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/gallery_line_separation" />
+ -->
+    <TextView
+        android:id="@+id/popup_menu_rename"
+        android:layout_width="140dip"
+        android:layout_height="44dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:singleLine="true"
+        android:text="@string/text_image_rename"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/pupo_list_text" />
+
+    <View
+        android:id="@+id/popup_menu_line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/pupo_background_line" />
+
+    <TextView
+        android:id="@+id/popup_menu_details"
+        android:layout_width="140dip"
+        android:layout_height="44dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:singleLine="true"
+        android:text="@string/text_image_details"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/pupo_list_text" />
+
+    <View
+        android:id="@+id/popup_menu_line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/pupo_background_line" />
+
+    <TextView
+        android:id="@+id/popup_menu_setas"
+        android:layout_width="140dip"
+        android:layout_height="44dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:singleLine="true"
+        android:text="@string/setImage"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/pupo_list_text" />
+
+</LinearLayout>

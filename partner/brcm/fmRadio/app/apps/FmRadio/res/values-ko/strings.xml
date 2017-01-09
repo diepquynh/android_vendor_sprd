@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright 2009 Broadcom Corporation
+**
+** This program is the proprietary software of Broadcom Corporation and/or its
+** licensors, and may only be used, duplicated, modified or distributed 
+** pursuant to the terms and conditions of a separate, written license 
+** agreement executed between you and Broadcom (an "Authorized License").  
+** Except as set forth in an Authorized License, Broadcom grants no license 
+** (express or implied), right to use, or waiver of any kind with respect to 
+** the Software, and Broadcom expressly reserves all rights in and to the 
+** Software and all intellectual property rights therein.  
+** IF YOU HAVE NO AUTHORIZED LICENSE, THEN YOU HAVE NO RIGHT TO USE THIS 
+** SOFTWARE IN ANY WAY, AND SHOULD IMMEDIATELY NOTIFY BROADCOM AND DISCONTINUE 
+** ALL USE OF THE SOFTWARE.  
+**
+** Except as expressly set forth in the Authorized License,
+** 
+** 1.     This program, including its structure, sequence and organization, 
+**        constitutes the valuable trade secrets of Broadcom, and you shall 
+**        use all reasonable efforts to protect the confidentiality thereof, 
+**        and to use this information only in connection with your use of 
+**        Broadcom integrated circuit products.
+** 
+** 2.     TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SOFTWARE IS PROVIDED 
+**        "AS IS" AND WITH ALL FAULTS AND BROADCOM MAKES NO PROMISES, 
+**        REPRESENTATIONS OR WARRANTIES, EITHER EXPRESS, IMPLIED, STATUTORY, 
+**        OR OTHERWISE, WITH RESPECT TO THE SOFTWARE.  BROADCOM SPECIFICALLY 
+**        DISCLAIMS ANY AND ALL IMPLIED WARRANTIES OF TITLE, MERCHANTABILITY, 
+**        NONINFRINGEMENT, FITNESS FOR A PARTICULAR PURPOSE, LACK OF VIRUSES, 
+**        ACCURACY OR COMPLETENESS, QUIET ENJOYMENT, QUIET POSSESSION OR 
+**        CORRESPONDENCE TO DESCRIPTION. YOU ASSUME THE ENTIRE RISK ARISING OUT
+**        OF USE OR PERFORMANCE OF THE SOFTWARE.
+**
+** 3.     TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL BROADCOM OR
+**        ITS LICENSORS BE LIABLE FOR 
+**        (i)   CONSEQUENTIAL, INCIDENTAL, SPECIAL, INDIRECT, OR EXEMPLARY 
+**              DAMAGES WHATSOEVER ARISING OUT OF OR IN ANY WAY RELATING TO 
+**              YOUR USE OF OR INABILITY TO USE THE SOFTWARE EVEN IF BROADCOM 
+**              HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES; OR 
+**        (ii)  ANY AMOUNT IN EXCESS OF THE AMOUNT ACTUALLY PAID FOR THE 
+**              SOFTWARE ITSELF OR U.S. $1, WHICHEVER IS GREATER. THESE 
+**              LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF 
+**              ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
+*/
+-->
+<resources>
+<!--  Added for 1.1.94 09/24/2009 -->
+<string name="app_name">"FM 라디오"</string>
+<string name="menu_text_presets_title">"사전 설정"</string>
+<string name="menu_text_power_off_title">"종료"</string>
+<string name="menu_text_settings_title">"설정"</string>
+<string name="pref_menu_text_main_menu">"FM 라디오 설정"</string>
+<string name="pref_menu_text_radio_enabled">"FM 라디오 사용"</string>
+<string name="pref_menu_text_radio_enabled_summary">"FM 하드웨어 사용/사용 안 함"</string>
+<string name="pref_menu_text_audio_mode">"오디오 모드"</string>
+<string name="pref_menu_text_audio_mode_summary">"자동, 스테레오, 모노 또는 스위치 모드 선택"</string>
+<string name="pref_menu_text_audio_mode_dialog_title">"오디오 모드 선택"</string>
+<string name="pref_menu_text_scan_step">"검색 단계"</string>
+<string name="pref_menu_text_scan_step_summary">"검색 시 사용하기 위한 주파수 간격 크기 설정"</string>
+<string name="pref_menu_text_scan_step_dialog_title">"검색 단계 선택"</string>
+<string name="pref_menu_text_rds_settings">"RDS 설정"</string>
+<string name="pref_menu_text_rds_settings_summary">"RDS 특정 설정"</string>
+<string name="pref_menu_text_rds_enabled">"RDS 모드"</string>
+<string name="pref_menu_text_rds_enabled_summary">"RDS 모드 지정"</string>
+<string name="pref_menu_text_rds_enabled_dialog_title">"RDS 모드 선택"</string>
+<string name="pref_menu_text_af_enabled">"AF 사용"</string>
+<string name="pref_menu_text_af_enabled_summary">"AF 사용/사용 안 함"</string>
+<string name="pref_menu_text_advanced_settings">"고급 설정"</string>
+<string name="pref_menu_text_advanced_settings_summary">"위치, 디엠퍼시스, 라이브 오디오 음질 샘플링 설정"</string>
+<string name="pref_menu_text_world_region">"세계 지역"</string>
+<string name="pref_menu_text_world_region_summary">"정확한 주파수 대역을 위한 위치 선택"</string>
+<string name="pref_menu_text_world_region_dialog_title">"세계 지역 선택"</string>
+<string name="pref_menu_text_deemphasis">"디엠퍼시스"</string>
+<string name="pref_menu_text_deemphasis_summary">"디엠퍼시스 시간 선택"</string>
+<string name="pref_menu_text_deemphasis_dialog_title">"디엠퍼시스 선택"</string>
+<string name="pref_menu_text_live_polling">"라이브 폴링"</string>
+<string name="pref_menu_text_live_polling_summary">"라이브 오디오 샘플링 사용/사용 안 함"</string>
+<string name="pref_menu_text_live_poll_int">"폴링 간격"</string>
+<string name="pref_menu_text_live_poll_int_summary">"라이브 오디오 샘플링 간격 선택"</string>
+<string name="pref_menu_text_live_poll_int_dialog_title">"폴링 간격 선택"</string>
+<string name="pref_menu_text_nfl_mode">"소음 최저 한도 예상 수준"</string>
+<string name="pref_menu_text_nfl_mode_summary">"NFL 예상 모드 선택"</string>
+<string name="pref_menu_text_nfl_mode_dialog_title">"NFL 모드 선택"</string>
+<string name="pref_preset_menu_text_main_menu">"FM 사전 설정"</string>
+<string name="pref_menu_text_preset_0">"1. 비어 있음으로 사전 설정"</string>
+<string name="pref_menu_text_preset_1">"2. 비어 있음으로 사전 설정"</string>
+<string name="pref_menu_text_preset_2">"3. 비어 있음으로 사전 설정"</string>
+<string name="pref_menu_text_preset_3">"4. 비어 있음으로 사전 설정"</string>
+<string name="pref_menu_text_preset_4">"5. 비어 있음으로 사전 설정"</string>
+<string name="pref_menu_text_preset_5">"6. 비어 있음으로 사전 설정"</string>
+<string name="pref_menu_text_preset_6">"7. 비어 있음으로 사전 설정"</string>
+<string name="pref_menu_text_preset_7">"8. 비어 있음으로 사전 설정"</string>
+<string name="pref_menu_text_click_here_stores">"현재 스테이션을 저장하려면 여기를 클릭하십시오."</string>	
+<!--  End 1.1.94 additions -->
+<string name="pref_menu_text_audio_path_summary">"없음, 스피커 또는 유선 헤드셋 경로 선택"</string>
+<string name="pref_menu_text_audio_path_dialog_title">"오디오 경로 선택"</string>
+</resources>

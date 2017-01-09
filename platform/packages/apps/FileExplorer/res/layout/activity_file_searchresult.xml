@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ListView 
+        android:id="@+id/list_paste"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></ListView>
+
+    <LinearLayout android:id="@+id/emptyView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:gravity="center">
+        <TextView android:id="@+id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="28dip"
+            android:paddingRight="28dip"
+            android:drawableTop="@drawable/file_empty"
+            android:text="@string/empty_view_prompt"
+            android:textSize="16sp"
+            android:textColor="@color/file_explore_empty_view_text_color" />
+   	</LinearLayout>
+</LinearLayout>

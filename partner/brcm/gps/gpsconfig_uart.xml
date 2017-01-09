@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<glgps xmlns="http://www.glpals.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.glpals.com/ glconfig.xsd" >
+
+<!-- It is highly recommended to view/edit this file with syntax-highlighting 
+    editors such as notepad++ or vim. This way, one can easily distinguish 
+    comments and valid code.
+    
+    This file is a primary template for Linux-like platforms.
+-->
+
+<!-- HAL essentials: Serial port, log, NMEA, IRM, NVRAM, LTO -->
+<hal 
+	acPortName="/dev/ttyS2" 
+    lBaudRate="115200" 
+	cLogEnabled="true" 
+	cLogEnableInitState="true" 
+	acLogDirectory="/data/gps/log"
+    acSuplLogFullName="/data/gps/log/agpsLog.txt"	
+	ltoFileName="lto.dat" 
+    lcsApiSockName="/dev/socket/gps"	
+	acNmeaOutName="/data/gpspipe" 
+    ctrlPipe="/data/gps/glgpsctrl"
+    acNvStoDir="/data/gps/"
+    
+/>
+
+<!-- GPIO is essential for reliable host interface reset and power saving.
+    There are currently two mutually exclusive mechanisms (sysfs or rfkill) to 
+    GPIO control the REGPU or NSTANDBY pin on the GNSS chipset.
+-->
+
+<!-- GPIO sysfs (in most cases) -->
+<hal
+    gpioNStdbyPath="/sys/class/gpio/gpio174/value"
+    gpioNResetPath="/sys/class/gpio/gpio167/value"
+    gpioDelayMs="100"
+/>
+
+
+<!--  (Re)aiding configuration options for LBS, SUPL (depending on type selected) -->
+<hal 
+    ReAidingType="1"
+    ReAidingRetryIntervalSec="2000"
+    ReAidingIntervalSec="2000"
+/>
+
+<!-- SUPL: only applicable to devices with cellular modem
+    "arp-supl-use-apn" is attribute used in Android only
+ -->
+<hal 
+    arp-supl-enable="true"
+    arp-supl-cap-msb="true"
+    arp-supl-cap-msa="true"
+    arp-supl-cap-ecid="false"
+    enhanced-assisted="false"
+    arp-supl-use-apn="true"
+    arp-supl-ssl-verify="none"
+    acSuplServer="supl.google.com"
+    SuplPort="7275"
+    tlsCertPath="/system/bin/gpsd/"
+    TISEnabled="false" 
+    RILEnabled="true" 
+    NoDataStandalone="true"
+/>
+
+
+
+<!-- GLL Engine: See glgpsapi.h for supported parameters -->
+<gll 
+    LogPriMask="LOG_DEBUG"
+    LogFacMask="LOG_GLLAPI | LOG_NMEA"
+    FrqPlan="FRQ_PLAN_26MHZ_2PPM"   
+    RfType="GL_RF_4751_DANUBE"
+    WarmStandbyTimeout1Seconds="20"
+    WarmStandbyTimeout2Seconds="20"
+/>
+
+<!-- Pulse-Per-Second (PPS) -->
+<gll
+    pps-enable="false" 
+    pps-offset-ms="0" 
+    pps-width-ns="100" 
+/>
+
+<!-- List of jobs can be performed by the GPS controller    -->
+
+<!-- Periodic Position Fix using default settings -->
+<job id="Periodic">
+    <task>
+        <req_pos/>
+    </task>
+</job>
+
+<!-- Periodic Position with the ROM almanac ignored for simulator testing -->
+<job id="Simulator_Periodic">
+    <task id="cont" repeat="1">
+        <startup ignore_rom_alm="true" />
+        <req_pos validfix="2000" duration_sec="2000"/>      
+    </task>
+</job>
+
+
+<!--  Systematic Test: Repetitive cold starts -->
+<job id="Cold_Starts">
+    <task repeat="20">
+        <startup
+            ignore_osc="false"
+            ignore_rom_alm="false"
+            ignore_ram_alm="false"
+            ignore_pos="true"
+            ignore_nav="true"
+            ignore_time="true"
+        />
+	<req_pos validfix="1"/> 
+    </task>
+</job>
+
+<!-- Systematic Test: Repetitive cold starts with the ROM almanac ignored for 
+        simulator testing -->
+<job id="Simulator_Cold_Starts">
+    <task repeat="20">
+            <startup
+                ignore_osc="false"
+                ignore_rom_alm="true"
+                ignore_ram_alm="false"
+                ignore_pos="true"
+                ignore_nav="true"
+                ignore_time="true"
+            />
+        <req_pos validfix="1"/>
+    </task>
+</job>
+
+<!-- Systematic Test: Repetetive warm starts  
+     Stored ephemeris data is discarded before the start begins
+     This simulates GPS receiver start after it was left off for more that 4 hours
+-->
+<job id="Warm_Starts">
+    <task repeat="20">
+        <startup ignore_nav="true"/>
+        <req_pos validfix="1"/>
+    </task>
+</job>
+
+<!-- Systematic Test: Repetetive warm starts performed on GPS simulator -->
+<job id="Simulator_Warm_Starts">
+    <task repeat="20">
+        <startup 
+            ignore_rom_alm="true"
+            ignore_nav="true" 
+        />
+        <req_pos validfix="1"/>
+    </task>
+</job>
+
+<!-- Systematic Test: Repetetive hot starts  -->
+<job id="Hot_Starts">
+    <task repeat="100">
+        <req_pos validfix="1"/>
+    </task>
+</job>
+
+
+<!-- This job starts signle chanel factory test mode 
+     The signal is expected to be in the range from -125 dBm to -145 dBm 
+     with the frequency offset range from -2 ppm to +2 ppm 
+     for this mode to provide reliable results.
+
+     The name Factory_High_SNR is legacy only. The recommended name is
+     Factory_Track_Test.     
+-->    
+<job id="Factory_High_SNR">
+    <task id="test" repeat="1">
+        <startup
+            ignore_osc="true"
+            ignore_rom_alm="true"
+            ignore_ram_alm="true"
+            ignore_pos="true"
+            ignore_nav="true"
+            ignore_time="true"
+        />
+        <req_ftest
+            PRN="1"
+            GL_FACT_TEST_MODE="GL_FACT_TEST_CONT"
+            GL_FACT_TEST_ITEMS="GL_FACT_TEST_WER" 
+            avg_int_sec="10" 
+            duration_sec="60"
+        />
+     </task>
+</job>
+
+<!-- This job is intended to be ran after the Factory_High_SNR job 
+     It uses the TCXO offset stored in NVRAM during the Factory_High_SNR job.
+
+     This is a low-signal strength acquisition only test. It performs repeated 
+     acquisitions but no tracking, hence it cannot be used to produce, for 
+     example, WER measurements.     
+-->
+<job id="Factory_Low_SNR">
+    <task id="test" repeat="1">
+        <startup
+            ignore_osc="false"
+            ignore_rom_alm="true"
+            ignore_ram_alm="true"
+            ignore_pos="true"
+            ignore_nav="true"
+            ignore_time="true"
+        />
+        <req_ftest
+            PRN="1"
+            GL_FACT_TEST_MODE="GL_FACT_TEST_CONT"
+            GL_FACT_TEST_ITEMS="GL_FACT_TEST_WER" 
+            avg_int_sec="10" 
+            duration_sec="200"
+        />
+     </task>
+</job>
+
+</glgps>

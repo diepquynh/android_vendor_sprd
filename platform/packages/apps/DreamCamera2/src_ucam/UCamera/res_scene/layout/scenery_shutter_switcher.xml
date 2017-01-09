@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2010,2012 Thundersoft Corporation
+  All rights Reserved
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camera_switcher_controller"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_control"
+        android:visibility="invisible" >
+
+        <LinearLayout
+            android:id="@+id/shutter_button_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_control_capture" >
+
+            <com.ucamera.ucam.modules.ui.ShutterButton
+                android:id="@+id/shutter_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="center"
+                android:src="@drawable/ic_control_camera_mode" />
+        </LinearLayout>
+
+        <RelativeLayout android:id="@+id/review_thumbnail_layout"
+            android:layout_width="@dimen/review_thumbnail_width"
+            android:layout_height="@dimen/review_thumbnail_height"
+            android:layout_marginLeft="10dip"
+            android:layout_marginBottom="2dip"
+            android:padding="5dip"
+            android:layout_alignBottom="@id/shutter_button_frame"
+            android:background="@drawable/bg_control_thumbnail">
+<!--
+            <com.ucamera.ucam.ui.RotateImageView
+                android:id="@+id/review_thumbnail_substitute"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"
+                android:paddingLeft="@dimen/review_thumbnail_pading_left"
+                android:paddingRight="@dimen/review_thumbnail_pading_right"
+                android:paddingBottom="@dimen/review_thumbnail_pading_button"
+                android:clickable="true"
+                android:focusable="false"
+                android:background="@drawable/bg_thumbnail"/>
+            <com.ucamera.ucam.ui.RotateImageView
+                android:id="@+id/review_thumbnail"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"
+                android:paddingLeft="@dimen/review_thumbnail_pading_left"
+                android:paddingRight="@dimen/review_thumbnail_pading_right"
+                android:paddingBottom="@dimen/review_thumbnail_pading_button"
+                android:clickable="true"
+                android:focusable="false"
+                android:background="@drawable/bg_thumbnail"/>
+-->
+        </RelativeLayout>
+
+        <ImageView android:layout_width="@dimen/review_thumbnail_width"
+            android:layout_height="@dimen/review_thumbnail_height"
+            android:layout_marginLeft="10dip"
+            android:layout_marginBottom="2dip"
+            android:layout_alignBottom="@id/shutter_button_frame"
+            android:src="@drawable/bg_control_thumbnail_shadow"/>
+
+<!--
+        <com.ucamera.ucam.ui.RotateImageView
+            android:id = "@+id/module_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="false"
+            android:layout_marginRight="12dip"
+            android:layout_marginBottom="9dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@id/shutter_button_frame"
+            android:src="@drawable/ic_scenery"/>
+-->
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_label">"Orasan"</string>
+<string name="alarm_list_title">"Mga alarma"</string>
+<string name="add_alarm">"Dugang ug alarma"</string>
+<string name="menu_desk_clock">"Orasan sa lamisa"</string>
+<string name="menu_edit_alarm">Usbon ang alarma</string>
+<string name="delete_alarm">"I-delete ang alarma"</string>
+<string name="enable_alarm">"Paandaron ang alarma"</string>
+<string name="disable_alarm">"Pagngon ang alarma"</string>
+<string name="delete_alarm_confirm">"Panason ni nga alarma?"</string>
+<string name="show_clock">"Ipakita ang orasan"</string>
+<string name="hide_clock">"Itago ang orasan"</string>
+<string name="label">ilahanan</string>
+<string name="on_switch">"Pagana"</string>
+<string name="off_switch">"Pawng"</string>
+<string name="default_label">Alarma</string>
+<string name="set_alarm">"Takda ug alarma"</string>
+<string name="alarm_vibrate">Mangurog</string>
+<string name="alarm_repeat">"Balik"</string>
+<string name="alert">"Tingog sa alarma"</string>
+<string name="default_timer_ringtone_title">"Taymer mi-ekspayr na"</string>
+<string name="silent_timer_ringtone_title">Hilomon</string>
+<string name="ringtone">Ringtone</string>
+<string name="time">"Oras"</string>
+<string name="alarm_tomorrow">"ugma"</string>
+<string name="alarm_today">"Karon"</string>
+<string name="alarm_alert_wake_up">"Bangon\u0021"</string>
+<string name="alarm_alert_off_action_text">"Pawng"</string>
+<string name="alarm_alert_dismiss_text">"Buhii"</string>
+<string name="alarm_alert_dismiss_now_text">"Undangon karon"</string>
+<string name="alarm_missed_title">"Nasipyat nga alarma"</string>
+<string name="alarm_alert_snoozed_text">"Idlip"</string>
+<plurals name="alarm_alert_snooze_duration">
+<item quantity="one">"1 ka min"</item>
+<item quantity="other">"<xliff:g id="number" example="7">%d</xliff:g> minuto"</item>
+</plurals>
+<string name="alarm_alert_off_text">"Alarma pawng"</string>
+<string name="alarm_alert_snooze_text">"Pa-unyaon"</string>
+<plurals name="alarm_alert_snooze_set">
+<item quantity="one">"Pagidlip sulod sa 1 ka minuto."</item>
+<item quantity="other">"Nagpahulay sa <xliff:g id="minutes">%d</xliff:g> ka minutos."</item>
+</plurals>
+<string name="alarm_alert_snooze_until">"Tulog hangtod <xliff:g id="time">%s</xliff:g>"</string>
+<string name="alarm_alert_predismiss_title">"Umaabot nga alarma"</string>
+<string name="missed_alarm_has_been_deleted">"Ang imong nasipyat nga alarma kay napanas na"</string>
+<string name="timer_notifications_less_min">"Wala pa sa usa ka minuto ang nahabilin"</string>
+<string name="timer_notifications_hours">"<xliff:g id="HOURS" example="2 hours">%1$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g>"</string>
+<string name="timer_notifications_minutes">"<xliff:g id="MINUTES" example="2 minutes">%2$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g>"</string>
+<string name="timer_notifications_hours_minutes">"<xliff:g id="HOURS" example="2 hours">%1$s</xliff:g> <xliff:g id="MINUTES" example="2 minutes">%2$s</xliff:g> nahabilin"</string>
+<string name="timer_remaining_single">"nahabilin"</string>
+<string name="timer_remaining_multiple">"nahabilin"</string>
+<string-array name="alarm_set">
+<item>"Kini nga alarma kay gitakda ubos sa 1 ka minuto gikan karon."</item>
+<item>"Alarma gitakda para <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> sukad karon."</item>
+<item>"Alarma gitakda para <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> sukad karon."</item>
+<item>"Alarma gitakda para <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> ug <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> sukad karon."</item>
+<item>"Alarma gitakda para <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> sukad karon."</item>
+<item>"Alarma gitakda para <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> ug <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> sukad karon."</item>
+<item>"Alarma gitakda para <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> ug <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> sukad karon."</item>
+<item>"Alarma gitakda para <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>, ug <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> sukad karon."</item>
+</string-array>
+<plurals name="days">
+<item quantity="one">"1 ka adlaw"</item>
+<item quantity="other">"<xliff:g id="number" example="7">%s</xliff:g>  ka adlaw"</item>
+</plurals>
+<plurals name="hours">
+<item quantity="one">"1 ka oras"</item>
+<item quantity="other">"<xliff:g id="number" example="7">%s</xliff:g>  ka oras"</item>
+</plurals>
+<plurals name="minutes">
+<item quantity="one">1 ka minuto</item>
+<item quantity="other">"<xliff:g id="number" example="7">%s</xliff:g>  ka minutos</item>
+</plurals>
+<string name="every_day">"Europa"</string>
+<string name="clock_instructions">"Pili ug orasan"</string>
+<string name="analog_gadget">"Analog nga orasan"</string>
+<string name="help">Tabang</string>
+<string name="settings">Mga setting</string>
+<string name="snooze_duration_title">"Pagidlip nga katason"</string>
+<plurals name="snooze_duration">
+<item quantity="one">1 ka minuto</item>
+<item quantity="other">"<xliff:g id="number" example="7">%s</xliff:g>  ka minutos</item>
+</plurals>
+<plurals name="snooze_picker_label">
+<item quantity="one">"minuto"</item>
+<item quantity="other">"minuto"</item>
+</plurals>
+<string name="crescendo_duration_title">"Anam-anam og pakusgi ang bolyum"</string>
+<string name="no_crescendo_duration">"Pawng"</string>
+<string name="crescendo_duration">"<xliff:g id="number" example="7">%s</xliff:g> ka mga segundos"</string>
+<string name="crescendo_picker_label">"segundo"</string>
+<string name="auto_silence_title">"Hilom pagkahuman"</string>
+<plurals name="auto_silence_summary">
+<item quantity="one">1 ka minuto</item>
+<item quantity="other">"<xliff:g id="number" example="7">%s</xliff:g> ka minutos"</item>
+</plurals>
+<string name="auto_silence_never">Dili jud</string>
+<string-array name="auto_silence_entries">
+<item>1 ka minuto</item>
+<item>5 ka minutos</item>
+<item>10 ka minutos</item>
+<item>15 ka minutos</item>
+<item>20 ka minutos</item>
+<item>25 ka minutos</item>
+<item>Dili jud</item>
+</string-array>
+<string name="week_start_title">"Sugod ang semana sa"</string>
+<string-array name="week_start_entries">
+<item>"Sabado"</item>
+<item>"Dominggo"</item>
+<item>"Lunes"</item>
+</string-array>
+<string name="done">"Human"</string>
+<string name="revert">"Balihon"</string>
+<string name="delete">"Panas"</string>
+<string name="alarm_volume_title">"Alarma nga volume"</string>
+<string name="silent_ringtone_title">Hilomon</string>
+<string name="unknown_ringtone_title">Wala mailhan</string>
+<string name="alarm_notify_text">"Pili para pa-unyaon o tiwalagon kini nga alarma."</string>
+<string name="alarm_notify_snooze_label">"<xliff:g id="label">%s</xliff:g> (gipatulog)"</string>
+<string name="alarm_notify_snooze_text">"Alarma gitakda para <xliff:g id="time">%s</xliff:g>. Hikapa aron ma-kansela."</string>
+<string name="volume_button_setting_title">"Volume ug Camera"</string>
+<string name="volume_button_dialog_title">"Epekto sa pislitanan"</string>
+<string-array name="volume_button_setting_entries">
+<item>"Pa-unyaon"</item>
+<item>"Buhii"</item>
+<item>"Himu ug wala"</item>
+</string-array>
+<string name="default_ringtone_setting_title">I butang ang daang ringtone</string>
+<string name="alarm_button_description">"Mga alarma"</string>
+<string name="gallery_button_description">Galerya</string>
+<string name="music_button_description">"Tukar"</string>
+<string name="nightmode_button_description">"Ngitngit"</string>
+<string name="home_button_description">"Tigsugod"</string>
+<string name="desk_clock_button_description">"Pakita ang orasan"</string>
+<string name="label_description">ilahanan</string>
+<string name="ringtone_description">Ringtone</string>
+<string name="weather_fetch_failure">"Ang impormasyon sa panahon kay dili pa magamit sa pagkakaron."</string>
+<string name="alarm_klaxon_service_desc">"Serbisyo sa playback sa Tingog para sa mga alarma nga gitakda sa DeskClock."</string>
+<string name="loading_ringtone">"Nagload ug ringtone\u2026"</string>
+<string name="timer_ring_service_desc">"Itingog ang pagbalik usab nga serbis para sa tig-oras nga gitakda sa orasan."</string>
+<string name="control_set_alarm">"Takda ug alarma"</string>
+<string name="menu_alarm">Alarma</string>
+<string name="menu_timer">Tig-oras</string>
+<string name="menu_clock">"Orasan"</string>
+<string name="menu_stopwatch">Hunong nga Oras</string>
+<string name="button_alarms">"Dugang ug alarma"</string>
+<string name="button_cities">"Mga siyudad"</string>
+<string name="button_menu">Daghang mga opsyon</string>
+<string name="menu_item_settings">Mga setting</string>
+<string name="menu_item_help">Tabang</string>
+<string name="menu_item_night_mode">"Gabii nga metodo"</string>
+<string name="menu_item_sort_by_gmt_offset">"Han-ayon gamit ang oras"</string>
+<string name="menu_item_sort_by_name">"I-han-ay"</string>
+<string name="selected_cities_label">"Mga napili nga siyudad"</string>
+<string name="sw_resume_button">ipadayon</string>
+<string name="sw_reset_button">"Pagusab"</string>
+<string name="sw_start_button">sugod</string>
+<string name="sw_pause_button">Hunong</string>
+<string name="sw_lap_button">Lap</string>
+<string name="sw_share_button">bahagi</string>
+<string name="hours_label">"h"</string>
+<string name="minutes_label">"m"</string>
+<string name="seconds_label">"S"</string>
+<string name="hours_label_description">"mga oras"</string>
+<string name="minutes_label_description">"minuto"</string>
+<string name="seconds_label_description">"segundo"</string>
+<string name="sw_share_main">"Ang akong oras kay <xliff:g id="time">%s</xliff:g>"</string>
+<string name="sw_share_laps">"Kapila nga hugna:"</string>
+<string name="sw_notification_lap_number">"Hugna <xliff:g id="number">%d</xliff:g>"</string>
+<plurals name="Nhours_description">
+<item quantity="one">"1 ka oras"</item>
+<item quantity="other">"<xliff:g id="number" example="7">%d</xliff:g> ka mga oras"</item>
+</plurals>
+<plurals name="Nminutes_description">
+<item quantity="one">1 ka minuto</item>
+<item quantity="other">"<xliff:g id="number" example="7">%d</xliff:g> ka mga minuto"</item>
+</plurals>
+<plurals name="Nseconds_description">
+<item quantity="one">1 ka segundo</item>
+<item quantity="other">"<xliff:g id="number" example="7">%d</xliff:g> ka mga segundo"</item>
+</plurals>
+<string name="timer_add_timer">"Dugang ug tig-oras"</string>
+<string name="timer_start">sugod</string>
+<string name="timer_delete">"Panas"</string>
+<string name="timer_descriptive_delete">"Papasa <xliff:g id="number_string">%s</xliff:g>"</string>
+<string name="timer_plus_one">"Dugang ug 1 ka minuto"</string>
+<string name="timer_plus_1_min">"Dugang ug  1 ka minuto"</string>
+<string name="timer_stop">Hunong</string>
+<string name="timer_stop_all">"Pahunonga ang tanang mga taymer"</string>
+<string name="timer_reset">"Pagusab"</string>
+<string name="timer_cancel">"Kansela"</string>
+<string name="timer_canceled">"Taymer gikansela"</string>
+<string name="timer_times_up">"Oras na"</string>
+<string name="timer_multi_times_up">"<xliff:g id="NUM_TIMERS" example="2">%d</xliff:g> ka mga taymer ang nihunong na"</string>
+<string name="timer_notification_label">Tig-oras</string>
+<string name="timers_max_count_reached">"4 ka tig-ihap ang pinakadaghan"</string>
+<string name="timer_pause">Hunong</string>
+<string name="timer_reset_all">"I-reset ang tanang mga taymer"</string>
+<string-array name="sw_share_strings">
+<item>"Usa ka nga paspas nga demonyo."</item>
+<item>"Tagamtama ang bunga sa imong kahago."</item>
+<item>"Ang mga Androyd kay nailhan nga mga paspas, pero dili mas paspas pareho nimo!"</item>
+<item>"Pyew."</item>
+<item>"L33t nga balik."</item>
+<item>"Ang ingon ani nga kaanindot sa tulin."</item>
+<item>"Himuon nato pagbalik ang paglindog sa oras."</item>
+<item>"Ambak lang padulong sa wala."</item>
+<item>"Anaa kay palet sa kapaspas."</item>
+<item>"Photonic nga tulin."</item>
+</string-array>
+<string name="home_label">Home</string>
+<string name="cities_activity_title">"Mga siyudad"</string>
+<string name="clock_settings">"Orasan"</string>
+<string name="clock_style">"Estilo"</string>
+<string name="open_date_settings">"Ilisi ang petsa \u0026 oras"</string>
+<string-array name="clock_style_entries">
+<item>"Analogo"</item>
+<item>"Digital"</item>
+</string-array>
+<string name="automatic_home_clock">"Awtomatik nga orasan sa balay"</string>
+<string name="automatic_home_clock_summary">"Samtang nagbiyahe sa lugar nga lahi ang oras, pagdugang ug oras para sa balay"</string>
+<string name="home_time_zone">"Balay nga sona sa oras"</string>
+<string name="home_time_zone_title">"Balay nga sona sa oras"</string>
+<string name="time_picker_cancel">"Kansela"</string>
+<string name="time_picker_set">"OK"</string>
+<string name="city_checked">"<xliff:g id="city_name">%s</xliff:g> nasusi na"</string>
+<string name="city_unchecked">"<xliff:g id="city_name">%s</xliff:g> wala pa masusi"</string>
+<string-array name="timezone_labels">
+<item>"Mga isla sa Marshall"</item>
+<item>"Isla sa Midway"</item>
+<item>"Hawaii"</item>
+<item>"Alaska"</item>
+<item>"Oras sa Pasipiko"</item>
+<item>"Tijuana"</item>
+<item>"Arizona"</item>
+<item>"Chihuahua"</item>
+<item>"Oras sa Mountain"</item>
+<item>"Centro sa Amerika"</item>
+<item>"Centro nga Oras"</item>
+<item>"Siyudad sa Mehiko"</item>
+<item>"Saskatchewan"</item>
+<item>"Bogota"</item>
+<item>"Oras sa silangan"</item>
+<item>"Venezuela"</item>
+<item>"Oras sa Atlantiko (Barbados)"</item>
+<item>"Oras sa Atlantiko (Canada)"</item>
+<item>"Manaus"</item>
+<item>"Santiago"</item>
+<item>"Newfoundland"</item>
+<item>"Brasilia"</item>
+<item>"Buenos Aires"</item>
+<item>"Greenland"</item>
+<item>"Montevideo"</item>
+<item>"Mid-Atlantic"</item>
+<item>"Azores"</item>
+<item>"Mga isla sa Cape Verde"</item>
+<item>"Casablanca"</item>
+<item>"London, Dublin"</item>
+<item>"Amsterdam, Berlin"</item>
+<item>"Belgrade"</item>
+<item>"Brussels"</item>
+<item>"Sarajevo"</item>
+<item>"Windhoek"</item>
+<item>"Oras sa W. Aprika"</item>
+<item>"Amman, Jordan"</item>
+<item>"Athens, Istanbul"</item>
+<item>"Beirut, Lebanon"</item>
+<item>"Cairo"</item>
+<item>"Helsinki"</item>
+<item>"Jerusalem"</item>
+<item>"Minsk"</item>
+<item>"Harare"</item>
+<item>"Baghdad"</item>
+<item>"Moscow"</item>
+<item>"Kuwait"</item>
+<item>"Nairobi"</item>
+<item>"Tehran"</item>
+<item>"Baku"</item>
+<item>"Tbilisi"</item>
+<item>"Yerevan"</item>
+<item>"Dubai"</item>
+<item>"Kabul"</item>
+<item>"Islamabad, Karachi"</item>
+<item>"Ural\'sk"</item>
+<item>"Yekaterinburg"</item>
+<item>"Kolkata"</item>
+<item>"Sri Lanka"</item>
+<item>"Kathmandu"</item>
+<item>"Astana"</item>
+<item>"Yangon"</item>
+<item>"Krasnoyarsk"</item>
+<item>"Bangkok"</item>
+<item>"Beijing"</item>
+<item>"Hong Kong"</item>
+<item>"Irkutsk"</item>
+<item>"Kuala Lumpur"</item>
+<item>"Perth"</item>
+<item>"Taipei"</item>
+<item>"Seoul"</item>
+<item>"Tokyo, Osaka"</item>
+<item>"Yakutsk"</item>
+<item>"Adelaide"</item>
+<item>"Darwin"</item>
+<item>"Brisbane"</item>
+<item>"Hobart"</item>
+<item>"Sydney, Canberra"</item>
+<item>"Vladivostok"</item>
+<item>"Guam"</item>
+<item>"Magadan"</item>
+<item>"Auckland"</item>
+<item>"Fiji"</item>
+<item>"Tonga"</item>
+<item>"Jakarta"</item>
+</string-array>
+<string name="alarm_settings">"Mga alarma"</string>
+<string name="timer_service_desc">"Moproseso sa mga aksyon gikan sa mga notipikasyon sa taymer."</string>
+<string name="stopwatch_service_desc">"Moproseso sa mga aksyon gikan sa mga notipikasyon sa stapwats."</string>
+<string name="swn_paused">Hunong</string>
+<string name="description_direction_right">"Ipadanas sa tuo para mapahawa"</string>
+<string name="description_direction_left">"Ipadanas sa wala para sa pagidlip"</string>
+<string name="description_direction_both">"Ipahid padulong sa wala aron sa pagpatulog o padulong sa tuo aron sa pag-dismiss"</string>
+<string name="timer_settings">"Mga taymer"</string>
+<string name="timer_ringtone_title">"Rington sa taymer"</string>
+<string name="timer_stopped">"Nahunong ang tig-oras"</string>
+<string name="timer_paused">"Taymer gipahunong"</string>
+<string name="timers_stopped">"<xliff:g id="number" example="7">%d</xliff:g> ka mga taymer gipahunong"</string>
+<string name="all_timers_stopped_notif">"Hikapa para makita ang imong mga tig-oras"</string>
+<string name="timers_in_use">"<xliff:g id="number" example="7">%d</xliff:g> nga kabalik"</string>
+<string name="next_timer_notif">"Sunod nga tig-oras: <xliff:g id="time_remaining" example="2 minutes remaining">%s</xliff:g>"</string>
+<string name="screensaver_settings">"Damgo nga mga gitakda"</string>
+<string name="night_mode_title">"Gabii nga metodo"</string>
+<string name="night_mode_summary">"Ngitngit kaayo nga ipakita (para sa ngitngit nga mga kwarto)"</string>
+<string name="expand_alarm">"Ipalapad ang alarma"</string>
+<string name="collapse_alarm">"Ihugno ang alarma"</string>
+<string name="alarm_undo">"IBALIK"</string>
+<string name="alarm_deleted">"Alarma napapas"</string>
+<string name="next_alarm_description">"Sunod nga alarma: <xliff:g id="alarm_time" example="Wed 8:00am">%s</xliff:g>"</string>
+<string name="alarms_selected">"<xliff:g id="alarms">%d</xliff:g> ang napili"</string>
+<string name="deleted_message">"nadelete"</string>
+<plurals name="alarm_delete_confirmation">
+<item quantity="one">"Panason ang napili nga alarma?"</item>
+<item quantity="other">"Panason ang napili nga mga alarma?"</item>
+</plurals>
+<string name="timer_delete_confirmation">"Panason ni nga tig-oras?"</string>
+<string name="city_delete_confirmation">"Tangtangon ni nga siyudad?"</string>
+<string name="digital_gadget">"Digital nga orasan"</string>
+<string name="no_alarms">"Walay nga alarma"</string>
+<string name="no_alarms_set">"Walay mga alarma ang natakda"</string>
+<string name="no_upcoming_alarms">"Walay umaabot nga mga alarma"</string>
+<string name="invalid_time">"Inbalido nga takna <xliff:g id="invalid_hour" example="25">%d</xliff:g>:<xliff:g id="invalid_minutes" example="63">%d</xliff:g> <xliff:g id="invalid_ampm" example="PM">%s</xliff:g>"</string>
+<string name="no_alarm_at">"Walay alarma sa <xliff:g id="alarm_time_hour" example="14">%d</xliff:g>:<xliff:g id="alarm_time_minutes" example="23">%d</xliff:g>"</string>
+<string name="no_scheduled_alarms">"Walay nakatakdang mga alarma"</string>
+<string name="no_label_specified">"Walay label nga gihinganlan"</string>
+<string name="no_alarms_with_label">"Walay mga alarma nga nabutang sa label"</string>
+<string name="stopwatch_isnt_running">"Ang stopwatch wala magdagan"</string>
+<string name="stopwatch_paused">"Ang stapwats gipahunong"</string>
+<string name="stopwatch_reset">"Ang stopwatch itakda"</string>
+<string name="stopwatch_lapped">"Ang stopwatch naga-lap"</string>
+<string name="stopwatch_started">"Ang stopwatch nagsugod na"</string>
+<string name="no_alarm_scheduled_for_this_time">"Walay alarma nga nakatakda niinng taknaa"</string>
+<string name="alarm_is_dismissed">"<xliff:g id="alarm_time" example="14:20">%s</xliff:g> alarma gi-dismiss"</string>
+<string name="alarm_is_set">"Alarma gitakda para <xliff:g id="alarm_time" example="14:20">%s</xliff:g>"</string>
+<string name="no_timers_exist">"Walay mga taymer nga anaa"</string>
+<string name="too_many_timers_exist">"Sobra sa usa ka taymer ang anaa"</string>
+<string name="timer_does_not_exist">"Ang taymer gikuha."</string>
+<string name="timer_created">"Timer gimugna"</string>
+<string name="timer_was_reset">"Timer itakda"</string>
+<string name="timer_deleted">"Timer gikuha"</string>
+<string name="timer_started">"Timer nagsugod na"</string>
+<string name="invalid_timer_length">"Inbalido nga gitas-on sa timer"</string>
+<string name="no_city_selected">"Walay siyudad nga napili"</string>
+<string name="the_city_you_specified_is_not_available">"Ang siyudad nga imong napili dili makita"</string>
+<string name="the_city_already_added">"Ang mao nga siyudad human na nadugang"</string>
+<string name="city_added">"<xliff:g id="city_name" example="Paris">%s</xliff:g> nadugang"</string>
+<string name="city_deleted">"<xliff:g id="city_name" example="Paris">%s</xliff:g> napapas na"</string>
+<string name="alarm_cant_be_dismissed_still_more_than_24_hours_away">"<xliff:g id="alarm_time" example="14:20">%s</xliff:g> ang alarma dili pa ma-dismiss, aduna pay sobra sa 24 ka takna ang paaboton"</string>
+<string name="dismiss_alarm">"Alarma sa pag-dismiss"</string>
+<string name="pick_alarm_to_dismiss">"Pilia unsa nga alarma ang i-dismiss"</string>
+<string name="no_firing_alarms">"Walay mga alarma nga pangtirada"</string>
+<string name="alarm_is_snoozed">"<xliff:g id="alarm_time" example="14:20">%s</xliff:g> alarma natulog og 10 ka minutos"</string>
+<string name="pause">Hunong</string>
+<string name="alarm_shutdown_cancal_open">"Kansela"</string>
+<string name="alarm_shutdown_cancal_close">"Kansela ug palong sa pawer"</string>
+<string name="sw_stop_button">Hunong</string>
+<string name="reorder_city">Usbon ang han-ay</string>
+<string name="delete_city">"Panas"</string>
+<string name="delete_alarm_cancel">"Kansela"</string>
+<string name="delete_alarm_done">"Human"</string>
+<string name="cancel_select">Kanselahon tanan</string>
+<string name="all_select">Pili tanan</string>
+<string name="repeat_every_days">"kada adlaw"</string>
+<string name="repeat_work_days">"tingtrabaho nga mga adlaw"</string>
+<string name="repeat_single">"Nag-inusara"</string>
+<string name="repeat_dialog_done">"OK"</string>
+<string name="repeat_dialog_cancel">"Kansela"</string>
+<string name="auto_silence_cancel">"Kansela"</string>
+<string name="title_too_long">"Ang gisulod kay taas ra kaau."</string>
+</resources>

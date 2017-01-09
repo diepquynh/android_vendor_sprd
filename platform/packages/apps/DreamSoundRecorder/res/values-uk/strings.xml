@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Звукозаписувач"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Запишіть повідомл."</string>
+    <string name="message_recorded" msgid="381539460921872233">"Повідомл. записано"</string>
+    <string name="review_message" msgid="201616012287839474">"Перегл. повідом."</string>
+    <string name="recording" msgid="4426791467211376099">"Запис"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Запис зупинено"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"Пам\'ять заповнена"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"Досягнуто максим. довжини"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Підключіть пам’ять USB"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Вставте карту SD"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> хв. доступно"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g>сек. доступно"</string>
+    <string name="accept" msgid="1888285552128743656">"Готово"</string>
+    <string name="discard" msgid="761613433029406319">"Відхилити"</string>
+    <string name="button_ok" msgid="3004911343723076226">"OK"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Ваші записи"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Аудіозаписи"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Мої записи"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"Неможливо отримати доступ до пам’яті USB."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"Неможливо отримати доступ до карти SD."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Внутрішня помилка програми."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"Не вдається зберегти записане аудіо."</string>
+    <string name="recording_save">"Запис збережених"</string>
+     <string name="recording_nosave">"Запис не була збережена"</string>
+     <string name="phone_message">"Неможливо активувати режим звукозапису під час виклику"</string>
+     <string name="min_and_time_available">"Доступно більше <xliff:g id="minutes">%d</xliff:g> хвил і <xliff:g id="seconds">%d</xliff:g> сек"</string>
+     <string name="press_record">"Натисн. запис."</string>
+     <string name="save">"Використ. цей запис"</string>
+     <string name="select_file_type">"Виберіть тип запису файлу"</string>
+     <string name="record_amr">""Тип AMR (низька якість")"</string>
+     <string name="record_3gpp">""Тип 3GPP (висока якість")"</string>
+     <string name="button_cancel">"    скасувати"</string>
+     <string name="path_save">"шлях за замовченням збережений"</string>
+     <string name="path_nosave">"шлях за замовченням не збер."</string>
+     <string name="path_default">"шлях веде до архіву не доступний для запису або недійсний.</string>
+     <string name="menu_set_save_path">"Встановити шлях для збереження"</string>
+     <string name="back">"Назад .."</string>
+     <string name="path_label">"Будь ласка, виберіть шлях для збереження"</string>
+     <string name="pause">"пауза"</string>
+     <string name="storage_is_not_enough">"Зберігання не вистачає"</string>
+     <string name="menu_recording_file_list">"Запис списку файлів"</string>
+     <string name="recording_list_empty">"список порожній"</string>
+     <string name="menu_recording_list_select_all">"Вибрати все"</string>
+     <string name="menu_recording_list_delete">"видалити "</string>
+     <string name="menu_recording_list_deselect_all">"Скасувати"</string>
+     <string name="recording_file_delete_success">"запис Дистанційні"</string>
+     <string name="recording_file_database_failed">"Не вдалося видалити файл бази даних"</string>
+     <string name="recording_file_delete_failed">"Не вдалося видалити файл запису"</string>
+     <string name="confirm_del">"Ви впевнені, що хотите видалити ці файли?"</string>
+     <string name="button_delete">"видалити "</string>
+     <string name="recording_file_delete_alert_title">"видалити "</string>
+     <string name="recording_file_delete_alert_message">Ви впевнені, що хочете видалити %1$s?</string>
+     <string name="recording_file_list">"Запис списку файлів"</string>
+     <string name="less_than_one_second">"1 сек."</string>
+     <string name="is_scanning">"Медіа-сканер сканує, будь ласка, зачекайте ..."</string>
+     <string name="emptylist">"Список порожній"</string>
+     <string name="choose_file">"Будь ласка, виберіть запис, яку ви хочете видалити файли!"</string>
+     <string name="error_path">"Шлях, який ви обрали, не існує, будь ласка, набір!"</string>
+     <string name="path_miss">"шлях не існує або недійсний"</string>
+     <string name="low_memory">Пам\'ять телефону не вистачає, Запис зупиниться!</string>
+     <string name="record_error">"Запис відбувається виключення!"</string>
+     <string name="play_error">"Файл пошкоджений.немождиво відкрити муз.плеєр"</string>
+     <string name="dialog_title">"Будь ласка, виберіть"</string>
+     <string name="dialog_message">"Зберегти запис?"</string>
+     <string name="same_application_running">"Пристрій для запису використовується іншою програмою, будь ласка, закрийте цю програму!"</string>
+     <string name="recording_time_short">"Час запису - менш, ніж 1 секунда, не збережено"</string>
+     <string name="file_path_button">"Шлях файлу"</string>
+     <string name="file_name">"Ім\'я файлу："</string>
+     <string name="file_path">"Шлях файлу："</string>
+     <string name="rename">Змінити ім\'я</string>
+     <string name="rename_save">"Перейменування успішне"</string>
+     <string name="rename_nosave">"перейменувати помилку"</string>
+     <string name="filename_is_not_modified">"ім\'я файлу не встановлено"</string>
+     <string name="duplicate_name">"повторне ім\'я файлу"</string>
+     <string name="soundpicker_label">"Будь-ласка, виберіть файл для запису"</string>
+     <string name="error_sdcard_path">"карта пам\'яті не існує. Шлях за замовч.змінений"</string>
+     <string name="input_length_overstep">"введення перевищує макс. К-сть"</string>
+     <string name="filename_empty_error">"ім\'я файлу не має бути пусте. Збережіть початкове ім\'я"</string>
+     <string name="please_choose_files">"оберіть файли"</string>
+     <string name="selected_files_count">"обрано;<xliff:g id="COUNTS">%d</xliff:g>"</string>
+     <string name="use_default_path">"Збережений маршрут не існує, використовуйте маршрут за замовчуванням"</string>
+     <string name="stroage_not_mounted">"Сховище не встановлено"</string>
+     <string name="special_char_exist">"спец. Символи  <xliff:g id="COUNTS">%s</xliff:g>не підтримуються"</string>
+     <string name="menu_select_more">Обрати інше</string>
+     <string name="menu_select_type">"оберіть тип файлу"</string>
+     <string name="path_miss_nosave">"шлих не існує!запис не збережений"</string>
+     <string name="dialog_dismiss">"Відхилити"</string>
+     <string name="error_permissions">"Додаток не має обов’язкових дозволів, потрібних для роботи. Перегляньте налаштування дозволів."</string>
+
+    <string name="internal_sdcard">"Внутрішня SD-карта"</string>
+     <string name="external_sdcard">"Зовнішня SD-карта"</string>
+
+    <string name="internal_storage">Внутр. пам\'ять</string>
+     <string name="external_storage">"пристрої зберігання даних"</string>
+     <string name="set_as_ring">"Встановити в якості мелодії дзвінка"</string>
+     <string name="read_file_path">"Перевірити маршрут файлу"</string>
+     <string name="operate_share">"Надісл."</string>
+     <string name="ringtone_title_sim1">"SIM1 Мелодія телефону"</string>
+     <string name="ringtone_title_sim2">"Мелодія дзвінка SIM2" "</string>
+     <string name="ringtone_menu_short">"Викор. як мелодію"</string>
+     <string name="please_insert_sim_card">"Будь ласка, вставте SIM-карту принаймні"</string>
+     <string name="ring_set_silent_vibrate">"стандартні пісні не підтримуються в цьому режимі"</string>
+     <string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" встановлене як SIM1 Мелодія телефону."</string>
+     <string name="ringtone_set_sim2">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" встановлено як Рінгтон SIM1-карти телефону.</string>
+     <string name="ringtone_set">"\"<xliff:g id="NAME">%s</xliff:g>\" встан. як мелодію телеф."</string>
+     <string name="ring_set_fail">"Вибачте, пісня не відтворюється. Будь-ласка, виберіть іншу пісню в якості телефонного дзвінка"</string>
+     <string name="tag_limit">"Кількість закладок досягло максимуму"</string>
+     <string name="no_allow_play_calling">"Не можна програвати музику під час дзвінка (радіо / відео)."</string>
+     <string name="playback_failed">"Плеєр не підтримує цей тип звукового файлу."</string>
+     <string name="tag">"Тег"</string>
+     <string name="previous_tag">"Остання закладка"</string>
+     <string name="next_tag">"Наступна закладка"</string>
+     <string name="recording_play">"Відтворення запису"</string>
+     <string name="clip_duration_tip">"Змінити тривалість"</string>
+     <string name="record_setting">"Налаштування запису"</string>
+     <string name="file_type">Тип файлу</string>
+     <string name="type_amr">Тип AMR</string>
+     <string name="type_3gpp">"Тип 3gpp"</string>
+     <string name="save_path">"Збережений маршрут"</string>
+     <string name="set_timer_recording">"Установити таймер запису"</string>
+     <string name="timer_recording_detail">"Почати запис о <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> для <xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">"Переглянути деталі"</string>
+     <string name="file_size">"Розмір файлу:"</string>
+     <string name="file_date">"Дата файлу:"</string>
+     <string name="recording_start_time">"Час початку запису"</string>
+     <string name="recording_duration">"Тривалість запису"</string>
+     <string name="tuned_timer_recording">"Запис за таймером увімкнено"</string>
+     <string name="miss_timer_recording">"Пропущений за таймером запис"</string>
+     <string name="miss_timer_time">"Час: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>"година"</item>
+        <item>"годин"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"Початок запису за таймером менш ніж за 1 хвилину з цього моменту."</item>
+        <item>"Запис по таймеру встановлений на <xliff:g id="HOURS">%1$s</xliff:g> з цього моменту."</item>
+        <item>"Запис по таймеру встановлений на  <xliff:g id="MINUTES">%2$s</xliff:g> з цього моменту."</item>
+        <item>"Запис по таймеру встановлений на <xliff:g id="HOURS">%1$s</xliff:g> та <xliff:g id="MINUTES">%2$s</xliff:g> з цього моменту."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">"1 год."</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> годин"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"1 хв."</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> хвилин"</item>
+    </plurals>
+     <string name="start_record">"почати запис"</string>
+     <string name="resume_record">"відновити запис"</string>
+     <string name="start_play">"Почати відтворення"</string>
+     <string name="resume_play">"Відновити відтворення"</string>
+     <string name="reset_timer_recording">"Записуючий пристрій використовується іншою програмою, будь ласка, встановіть таймер запису заново!"</string>
+     <string name="storage_not_enough">"Недостатньо пам\'яті, не вдалося запустити запис за таймером!"</string>
+     <string name="phone_storage_not_enough">"Недостатньо пам\'яті на телефоні!"</string>
+</resources>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="new_message">Nova mensagem</string>
+  <string name="menu_add_address_to_contacts">Adicionar <xliff:g id="contactEmailOrNumber">%s</xliff:g> para Contatos</string>
+  <string name="menu_delete_all">Deletar todas as conversas</string>
+  <string name="menu_debug_dump">DEBUG DUMP</string>
+  <string name="refreshing">Refrescando\u2026</string>
+  <string name="has_draft">Rascunho</string>
+  <string name="view_slideshow">Ver slide de apresentação</string>
+  <string name="view_message_details">Ver detalhes</string>
+  <string name="view_delivery_report">Ver relatório</string>
+  <string name="expire_on">"Expiração: <xliff:g id="date">%s</xliff:g>"</string>
+  <string name="undelivered_msg_dialog_body">Não pode enviar esta mensagem.\nTentativa feita: <xliff:g id="message">%s</xliff:g>.</string>
+  <string name="undelivered_sms_dialog_body">Não pode enviar esta mensagem.</string>
+  <string name="downloading">Descarregando</string>
+  <string name="inline_subject">"&lt;Sujeito: <xliff:g id="subject">%s</xliff:g>&gt;"</string>
+  <string name="copy_message_text">Copiar texto</string>
+  <string name="move_up">Mover para cima</string>
+  <string name="move_down">Mover para baixo</string>
+  <string name="remove_slide">Remover slide</string>
+  <string name="add_slide">Adicionar slide</string>
+  <string name="add_slide_hint">Toque para criar novo slide.</string>
+  <string name="discard_slideshow">Slide de apresentação descartado</string>
+  <string name="slide_show_part">Parte <xliff:g id="part">%1$s</xliff:g>/<xliff:g id="total">%2$s</xliff:g></string>
+  <string name="remove_text">Remover texto</string>
+  <string name="add_picture">Adicionar imagem</string>
+  <string name="remove_picture">Remover imagem</string>
+  <string name="remove_music">Remover música</string>
+  <string name="add_video">Adicionar vídeo</string>
+  <string name="remove_video">Remover vídeo</string>
+  <string name="add_subject">Adicionar sujeito</string>
+  <string name="type_to_compose_text_enter_to_send">Entrar mensagem</string>
+  <string name="open_keyboard_to_compose_message">Abrir teclado para entrar mensagem</string>
+  <string name="compressing">Imagem tão larga. Compressando\u2026</string>
+  <string name="unsupported_media_format">Não suportado <xliff:g id="name">%1$s</xliff:g> formato.</string>
+  <string name="select_different_media">Escolher um diferente <xliff:g id="name">%1$s</xliff:g>.</string>
+  <string name="exceed_message_size_limitation">Limite de tamanho de mensagem alcançado</string>
+  <string name="message_too_big_for_video">A mensagem é tão grande para anexar um vídeo.</string>
+  <string name="failed_to_add_media">Você não pode adicionar este <xliff:g id="name">%1$s</xliff:g> para sua mensagem.</string>
+  <string name="failed_to_resize_image">Imagem não redimensionada.</string>
+  <string name="resize_image_error_information">Esta imagem é tão larga para enviar, mesmo quando redimensionada.</string>
+  <string name="forward_prefix">Fwd:\u0020</string>
+  <string name="discard_message_reason">Sua mensagem será descartada devido a tiver nenhum recipiente válido.</string>
+  <string name="has_invalid_recipient">Recipiente(s) inválido: &lt;<xliff:g id="name">%1$s</xliff:g>&gt;</string>
+  <string name="invalid_destination">Endereço de destino inválido</string>
+  <string name="service_not_activated">Serviço não ativado no rede.</string>
+  <string name="service_message_not_found">Mensagem expirada ou não disponível.</string>
+  <string name="service_network_problem">Não pode enviar devido a problema de rede.</string>
+  <string name="cannot_send_message">Não pode enviar mensagem</string>
+  <string name="converting_to_picture_message">Convertendo para a mensagem de multimedia\u2026</string>
+  <string name="cannot_add_slide_anymore">Não pode adicionar mais slides.</string>
+  <string name="cannot_add_picture_and_video">Não pode adicionar vídeo nem imagem para um slide.</string>
+  <string name="cannot_save_message">Não pode guardar mensagem.</string>
+  <string name="too_many_recipients">Mensagem tem tantos recipientes (<xliff:g id="currentCount">%1$s</xliff:g>). Há um limite de <xliff:g id="maxLimit">%2$s</xliff:g> recipientes.</string>
+  <string name="too_many_attachments">Há um limite de <xliff:g id="maxLimit">%1$s</xliff:g> anexos. Apenas o primeiro <xliff:g id="currentCount">%2$s</xliff:g> será adicionado.</string>
+  <string name="cannot_play_audio">Não pode play audio.</string>
+  <string name="replace_image">Substituir imagem</string>
+  <string name="duration_sec">Duração (<xliff:g id="duration">%s</xliff:g> segundo)</string>
+  <string name="duration_selector_title">"Duração para slide"</string>
+  <string name="layout_selector_title">"Disposição de slide de apresentação"</string>
+  <string name="layout_top">Disposição (cima)</string>
+  <string name="layout_bottom">Disposição (fundo)</string>
+  <string name="type_to_compose_text_or_leave_blank">Entrar mensagem, ou deixar branco</string>
+  <string name="duration_not_a_number">A duração deve ser um número.</string>
+  <string name="duration_zero">A duração deve ser maior do que zero segundo.</string>
+  <string name="menu_add_to_contacts">Adicionar para Pessoas</string>
+  <string name="hidden_sender_address">Endereço de enviador escondido</string>
+  <string name="restore_default">"Recuperar ajuste de default"</string>
+  <string name="pref_mms_settings_title">"Mensagens de Multimedia (MMS) "</string>
+  <string name="pref_sms_settings_title">"Texto (SMS) mensagens"</string>
+  <string name="pref_summary_manage_sim_messages">Administrar as mensagens guardadas no seu SIM cartão</string>
+  <string name="pref_summary_mms_read_reports">Solicitar um relatório de leitura para cada mensagem que manda</string>
+  <string name="pref_summary_auto_delete">Deletar as mensagens antigas como limites são alcançados</string>
+  <string name="pref_title_manage_sim_messages">Administrar as mensagens de SIM cartão</string>
+  <string name="pref_title_mms_read_reports">Ler os relatórios</string>
+  <string name="pref_title_auto_delete">Deletar as mensagens antigas</string>
+  <string name="pref_title_sms_delete">Limite de mensagem de texto</string>
+  <string name="pref_title_mms_delete">Limite de mensagem de multimedia</string>
+  <string name="pref_messages_to_save">Ajuste número de mensagens para guardar</string>
+  <string name="pref_title_mms_auto_retrieval">Auto-buscar</string>
+  <string name="pref_summary_mms_auto_retrieval">Buscar automaticamente as mensagens</string>
+  <string name="pref_title_mms_retrieval_during_roaming">Voando auto-buscar</string>
+  <string name="pref_summary_mms_retrieval_during_roaming">Buscar automaticamente as mensagens quando está voando</string>
+  <string name="confirm_delete_all_conversations">Todas as conversas serão deletadas.</string>
+  <string name="confirm_delete_locked_message">Deletar esta mensagem trancada?</string>
+  <string name="confirm_delete_SIM_message">Esta mensagem no SIM cartão será deletada.</string>
+  <string name="delete_unlocked">Deletar as mensagens trancadas</string>
+  <string name="select_conversations">Escolher as conversações</string>
+  <string name="no_conversations">Nenhuma conversação</string>
+  <string name="loading_conversations">Descarregando as conversações.</string>
+  <string name="cannot_get_details">Não pode obter os detalhes.</string>
+  <string name="message_type_label">Entrada:\u0020</string>
+  <string name="multimedia_message">Mensagem de multimedia</string>
+  <string name="multimedia_notification">Notificação de mensagem de multimedia</string>
+  <string name="from_label">De:\u0020</string>
+  <string name="to_address_label">Para:\u0020</string>
+  <string name="bcc_label">Bcc:\u0020</string>
+  <string name="sent_label">Enviado:\u0020</string>
+  <string name="received_label">Recebido:\u0020</string>
+  <string name="saved_label">Guardado:\u0020</string>
+  <string name="subject_label">Sujeito:\u0020</string>
+  <string name="message_size_label">Tamanho de mensagem:\u0020</string>
+  <string name="priority_label">Prioridade:\u0020</string>
+  <string name="message_class_label">Classe de mensagem:\u0020</string>
+  <string name="error_code_label">Código de erro:\u0020</string>
+  <string name="menu_lock">Trancar</string>
+  <string name="sim_copy_to_phone_memory" product="tablet">Copiar para a memória de tablete</string>
+  <string name="sim_copy_to_phone_memory" product="default">Copiar para a memória de telefone</string>
+  <string name="sim_manage_messages_title">Mensagens de texto no SIM cartão </string>
+  <string name="sim_empty">Nenhuma mensagem no SIM cartão</string>
+  <string name="status_none">(Nada)</string>
+  <string name="status_pending">Enviando</string>
+  <string name="status_read">Ler</string>
+  <string name="status_received">Recebido</string>
+  <string name="status_rejected">Recusado</string>
+  <string name="recipient_label">Recipiente:\u0020</string>
+  <string name="status_label">Estado:\u0020</string>
+  <string name="delivered_label">Enviada:\u0020</string>
+  <string name="select_bottom_text">Texto no fundo</string>
+  <string name="select_top_text">Texto na cima</string>
+  <string name="delivery_toast_body">Mensagem recebida por %s</string>
+  <string name="notification_failed_multiple_title">Mensagens não enviadas</string>
+  <string name="sim_full_title">SIM cartão cheio</string>
+  <string name="sim_full_body">Deletar algumas mensagens para fazer mais espaço.</string>
+  <string name="sms_full_title">Memória de mensagem de texto cheia</string>
+  <string name="sms_full_body">Uma mensagem entrada foi recusada devido a memória cheia. Delete algumas mensagens antigas.</string>
+  <string name="sms_rejected_title">Mensagem de texto recusada</string>
+  <string name="sms_rejected_body">Uma mensagem entrada foi recusada devido a uma razão desconhecida.</string>
+  <string name="message_send_read_report">Um relatório de leitura será enviada.</string>
+  <string name="message_queued">Atualmente não pode enviar sua mensagem. A qual será enviada quando o serviço fica disponível.</string>
+  <string name="fdn_check_failure">Você pode apenas enviar as mensagens para os seus números de chamada fixa.</string>
+  <string name="unknown_sender">Enviador desconhecido</string>
+  <string name="dl_failure_notification">Não pode descarregar a mensagem <xliff:g id="subject">%1$s</xliff:g> from <xliff:g id="from">%2$s</xliff:g>.</string>
+  <string name="confirm_rate_limit">Um número largo de mensagens de multimedia está sendo enviado. É OK?</string>
+  <string name="message_download_failed_title">Mensagem não descarregada</string>
+  <string name="message_send_failed_title">Mensagem não enviada</string>
+  <string name="message_failed_body">Toque para rever a mensagem e tente de novo.</string>
+  <string name="download_later">Não pode descarregar agora. Tente de novo mais tarde.</string>
+  <string name="select_audio">Escolher audio</string>
+  <string name="copy_to_sdcard">Guardar anexo</string>
+  <string name="copy_to_sdcard_success">"Anexo guardado para "<xliff:g id="copy_to_sdcard_success_id">%s</xliff:g></string>
+  <string name="copy_to_sdcard_fail">Não pode guardar anexo.</string>
+  <string name="save_ringtone">Guardar como melodia</string>
+  <string name="saved_ringtone">Melodia guardada.</string>
+  <string name="saved_ringtone_fail">Não pode guardar melodia.</string>
+  <string name="select_link_title">Escolher ação</string>
+  <string name="slide_number">Deslizar <xliff:g id="number" example="5">%s</xliff:g></string>
+  <string name="delivery_report_activity">Relatório de entrega</string>
+  <string name="storage_limits_activity">Limites de guarda</string>
+  <string name="change_duration_activity">Mudar duração</string>
+  <string name="edit_slideshow_activity">Editar slide de apresentação</string>
+  <string name="edit_slide_activity">Editar slide</string>
+  <string name="class_0_message_activity">Mensagem de classe 0</string>
+  <string name="search_hint">Buscar mensagem</string>
+  <string name="search_setting_description">Texto nas suas mensagens</string>
+  <string name="search_empty">Nenhuma combinação.</string>
+  <string name="confirm_clear_search_text">A história de busca será limpada.</string>
+  <string name="storage_limits_message">Limitar o número de mensagens que guarda per conversação?</string>
+  <string name="storage_limits_setting">Ajuste os limites</string>
+  <string name="storage_limits_setting_dismiss">Sem limite</string>
+  <string name="too_many_unsent_mms">Não pode enviar mensagem agora. Tantas mensagens de multimedia não enviadas.</string>
+  <string name="pick_too_many_recipients">Tantos recipientes</string>
+  <string name="adding_recipients">Adicionando recipientes\u2026</string>
+  <string name="message_count_format">\u00a0<xliff:g id="number" example="1">%1$s</xliff:g></string>
+  <string name="error_state">Estado inconsistente</string>
+  <string name="error_state_text">O estado de tópicos e recipientes é inconsistente. Captura um relatório de bug e publique-o via http://go/droidanizer </string>
+  <string name="disable_notifications_dialog_message">Parar duplicar as notificações de mensagem de texto de aplicação de mensagem default?</string>
+  <string name="view_more_conversations">Ver mais conversações </string>
+  <string name="notification_separator">\u0020\u0020</string>
+  <string name="app_label">"Mensagem"</string>
+  <string name="menu_call_back">Chamar <xliff:g id="name"> %s </xliff:g></string>
+  <string name="menu_preferences">Configurações</string>
+  <string name="menu_call">Chamar</string>
+  <string name="menu_search">Pesquisar</string>
+  <string name="menu_cell_broadcasts">Transmissões de célula</string>
+  <string name="no_subject_view">"(Sem sujeito)"</string>
+  <string name="messagelist_sender_self">Eu</string>
+  <string name="delete_message">Apagar</string>
+  <string name="delete_thread">"Deletar conversa"</string>
+  <string name="menu_forward">Para a frente</string>
+  <string name="download">Download</string>
+  <string name="message_options">Opções de mensagem</string>
+  <string name="done">Concluído</string>
+  <string name="add_music">Adicionar música</string>
+  <string name="to_hint">Para</string>
+  <string name="subject_hint">Assunto</string>
+  <string name="add_attachment">"Anexo"</string>
+  <string name="discard">Descartar</string>
+  <string name="view">Visualizar</string>
+  <string name="replace">Substituir</string>
+  <string name="remove">Remover</string>
+  <string name="send">Enviar</string>
+  <string name="mms">mms</string>
+  <string name="message_saved_as_draft">Mensagem salva como rascunho.</string>
+  <string name="adding_attachments_title">Adicionando anexos</string>
+  <string name="preview">Pré-visualização</string>
+  <string name="preview_slideshow">Pré-visualização</string>
+  <string name="secs">"segundos"</string>
+  <string-array name="select_dialog_items">
+<item>1 segundo</item>
+<item>2 segundos</item>
+<item>"3 segundo "</item>
+<item>4 segundos</item>
+<item>5 segundos</item>
+<item>6 segundos</item>
+<item>"7 segundos"</item>
+<item>8 segundos</item>
+<item>"9 segundos"</item>
+<item>10 segundos</item>
+<item>Outros</item>
+</string-array>
+  <string name="menu_view_contact">Visualizar contato</string>
+  <string name="yes">OK</string>
+  <string name="no">Cancelar</string>
+  <string name="set">Definir</string>
+  <string name="play">Reproduzir</string>
+  <string name="edit">Editar</string>
+  <string name="preferences_title">Configurações</string>
+  <string name="pref_notification_settings_title">Notificações</string>
+  <string name="pref_sms_storage_title">Armazenamento</string>
+  <string name="pref_summary_mms_delivery_reports">"Solicitar um relatório de envia para cada mensagem que mandou"</string>
+  <string name="pref_summary_sms_delivery_reports">"Solicitar um relatório de envia para cada mensagem que mandou"</string>
+  <string name="pref_summary_delete_limit">"<xliff:g id="count">%1$s</xliff:g> mensagens per conversação"</string>
+  <string name="pref_title_mms_delivery_reports">"Relatório de envia"</string>
+  <string name="pref_title_sms_delivery_reports">"Relatório de envia"</string>
+  <string name="pref_title_notification_enabled">Notificações</string>
+  <string name="pref_title_notification_vibrateWhen">Vibrar</string>
+  <string name="pref_title_notification_ringtone">Escolha tom de toque</string>
+  <string name="confirm_dialog_title">"Deletar ?"</string>
+  <string name="confirm_dialog_locked_title">"Deletar as mensagens trancadas"</string>
+  <plurals name="confirm_delete_conversation">
+<item quantity="one">"Uma conversação será deletada."</item>
+<item quantity="other">"<xliff:g example="15" id="number">%1$s</xliff:g> conversações serão deletadas."</item>
+</plurals>
+  <string name="confirm_delete_message">A mensagem será apagada.</string>
+  <string name="delete">Apagar</string>
+  <string name="message_details_title">"Detalhes de mensagem"</string>
+  <string name="text_message">Mensagem de texto</string>
+  <string name="priority_high">Alto</string>
+  <string name="priority_normal">Normal</string>
+  <string name="priority_low">Baixo</string>
+  <string name="menu_edit">Editar</string>
+  <string name="menu_unlock">"Desbloquear"</string>
+  <string name="sim_delete">Apagar</string>
+  <string name="delivery_header_title">Reportar</string>
+  <string name="status_failed">Sem êxito</string>
+  <string name="status_expired">"Expirado"</string>
+  <string name="status_unread">"Não lido"</string>
+  <string name="attach_image">Fotos</string>
+  <string name="attach_take_photo">"Imagem de captura"</string>
+  <string name="attach_video">Vídeos</string>
+  <string name="attach_record_video">"Capturar vídeo"</string>
+  <string name="attach_sound">Áudio</string>
+  <string name="attach_record_sound">"Gravar áudio"</string>
+  <string name="attach_slideshow">Exibir slide</string>
+  <string name="notification_failed_multiple">"<xliff:g id="count">%s</xliff:g> mensagens não podem ser enviadas."</string>
+  <string name="type_audio">Áudio</string>
+  <string name="type_picture">"imagem"</string>
+  <string name="type_video"></string>
+  <string name="confirm">Confirmar</string>
+  <string name="no_subject">"(Sem sujeito)"</string>
+  <string name="rate_limit_surpassed">Confirmar</string>
+  <string name="slideshow_activity">Exibir slide</string>
+  <string name="search_label">"Mensagem"</string>
+  <string name="search">"Mensagem"</string>
+  <plurals name="search_results_title">
+<item quantity="one">"<xliff:g example="1" id="number">%1$s</xliff:g> result for \<xliff:g example="???" id="search">%2$s</xliff:g>\""</item>
+<item quantity="other">"<xliff:g example="15" id="number">%1$s</xliff:g> results for \<xliff:g example="???" id="search">%2$s</xliff:g>\""</item>
+</plurals>
+  <string name="search_history">"<xliff:g id="count">%1$s</xliff:g> results for \<xliff:g id="search">%2$s</xliff:g>\"</string>
+  <string name="confirm_clear_search_title">Limpar</string>
+  <string name="save">Salvar</string>
+  <string name="sending_message">"Enviando\u2026"</string>
+  <string name="message_count_notification">"<xliff:g example="3" id="number">%1$s</xliff:g> novas mensagens"</string>
+  <plurals name="recipient_count">
+<item quantity="other">"<xliff:g example="15" id="number">%1$s</xliff:g> pessoa"</item>
+</plurals>
+  <string name="attachment_audio">Áudio</string>
+  <string name="attachment_slideshow">Exibir slide</string>
+  <string name="attachment_video"></string>
+  <string name="attachment_picture">"imagem"</string>
+  <string name="enumeration_comma">",\u0020"</string>
+  <string name="category_mms">mms</string>
+  <string name="category_sms">SMS</string>
+    <string name="menu_send_email">"Enviar email para <xliff:g id="name">%s</xliff:g>"</string>
+    <string name="menu_compose_new">"Compor"</string>
+    <string name="menu_delete">"Deletar conversa"</string>
+    <string name="menu_view">"Ver linha"</string>
+    <string name="undelivered_msg_dialog_title">"Mensagem não mandada"</string>
+    <string name="drm_protected_text">"* DRM texto protegido *"</string>
+    <string name="insufficient_drm_rights">"DRM direitos insuficientes detetados."</string>
+    <string name="slideshow_options">"Opções de aplicação"</string>
+    <string name="send_mms">"Enviar MMS"</string>
+    <string name="all_threads">"Todas as linhas"</string>
+    <string name="sending_disabled_not_default_app">"Enviando desativado"</string>
+    <string name="compose_disabled_toast">"Não pode compor. Não default SMS aplicação."</string>
+    <string name="invalid_recipient_message">"Corrigir os recipientes ou eles não vão receber a mensagem."</string>
+    <string name="cannot_send_message_reason">"Sua mensagem tem nenhum recipiente válido."</string>
+    <string name="cannot_forward_drm_obj">"O DRM objeto incluido na mensagem não pode ser transferido."</string>
+    <string name="adding_attachments">"Aguarda quando os itens são adicionados para a apresentação."</string>
+    <string name="building_slideshow_title">"Apresentação de edifício"</string>
+    <string name="try_to_send">"Tentar para enviar"</string>
+    <string name="pref_title_sms_disabled">"SMS Desativada"</string>
+    <string name="pref_summary_sms_disabled">"Toque para fazer a Mensagem a sua default SMS aplicação."</string>
+    <string name="pref_title_sms_enabled">"SMS Ativada"</string>
+    <string name="pref_summary_sms_enabled">"Toque para mudar a sua default SMS aplicação"</string>
+    <string name="pref_summary_mms_group_mms">"Usar MMS para enviar uma mensagem singular quando há recipientes multíplos"</string>
+    <string name="pref_title_mms_group_mms">"Mensagem de grupo"</string>
+    <string name="silent_ringtone">"Silencioso"</string>
+    <string name="confirm_delete_all_SIM_messages">"Todas as mensagens no SIM cartão serão deletadas."</string>
+    <string name="menu_delete_messages">"Deletar as mensagens"</string>
+    <string name="sim_view">"Visualizar"</string>
+    <string name="notification_multiple">"<xliff:g id="count">%s</xliff:g> mensagens não lidas."</string>
+    <string name="notification_multiple_title">"Novas mensagens"</string>
+    <string name="no_apn">"Sem APN específico no aparelho."</string>
+    <string name="menu_group_participants">"Participantes de grupo"</string>
+    <string name="recipient_list_activity">"Participantes de grupo"</string>
+    <string name="pref_mms_clear_search_history_title">"Limpar histórico de pesquisa"</string>
+    <string name="pref_mms_clear_search_history_summary">"Limpar as buscas de Mensagem anterior de mostrar na caixa de Busca"</string>
+    <string name="storage_limits_title">"Limitar as mensagens"</string>
+    <string name="draft_separator">",\u0020"</string>
+  <plurals name="message_count_notification_overflow">
+<item quantity="one">"+<xliff:g id="number" example="1">%1$s</xliff:g> outras mensagens"</item>
+<item quantity="other">"+<xliff:g id="number" example="15">%1$s</xliff:g> outras mensagens"</item>
+  </plurals>
+    <string name="message_timestamp_format">"<xliff:g id="string" example="Fred Flinstone">%1$s</xliff:g>\u0020-\u0020<xliff:g id="string" example="9:39AM">%2$s</xliff:g>"</string>
+    <string name="storage_warning_title">"A guarda do seu telefone é cheia"</string>
+    <string name="storage_warning_content">"Você não vai receber novas mensagens de SMS/MMS"</string>
+    <string name="label_mms_send_outbox_msg">"Acorda de MMS"</string>
+    <string name="desc_mms_send_outbox_msg">"Enviar todas as MMSs de caixa de saída para rede"</string>
+    <string name="banner_sms_promo_title_initial">"A mensagem não é sua aplicação de SMS"</string>
+    <string name="banner_sms_promo_title_application">"<xliff:g id="appName">%s</xliff:g> é sua aplicação de SMS"</string>
+    <string name="banner_sms_promo_message">"Você pode mudar isso no Ajuste"</string>
+  <plurals name="slide_duration">
+<item quantity="one">"<xliff:g example="1" id="number">%s</xliff:g> sec"</item>
+<item quantity="few">"<xliff:g example="2" id="number">%s</xliff:g> secs"</item>
+<item quantity="other">"<xliff:g example="3" id="number">%s</xliff:g> secs"</item>
+  </plurals>
+    <string name="compresstojpeg">"Gif é demasiado grande. Comprima para jpeg\u2026"</string>
+
+</resources>

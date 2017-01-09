@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Ääninauhuri"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Tallenna viesti"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Viesti tallennettu"</string>
+    <string name="review_message" msgid="201616012287839474">"Tarkista viesti"</string>
+    <string name="recording" msgid="4426791467211376099">"Tallennetaan"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Tallennus lopetettu"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"Tallennustila on täynnä"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"Enimmäispituus saavutettu"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Ota USB-tallennustila käyttöön"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Aseta SD-kortti"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> min käytettävissä"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> s käytettävissä"</string>
+    <string name="accept" msgid="1888285552128743656">"Valmis"</string>
+    <string name="discard" msgid="761613433029406319">"Hylkää"</string>
+    <string name="button_ok" msgid="3004911343723076226">"OK"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Omat tallenteet"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Äänitallenteet"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Omat tallenteet"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"USB-tallennustilaa ei voi käyttää."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"SD-korttia ei voi käyttää."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Sisäinen sovellusvirhe."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"Nauhoitettua ääntä ei voitu tallentaa."</string>
+    <string name="recording_save">"Nauhoitus tallennettu"</string>
+     <string name="recording_nosave">"Nauhoitusta ei tallennettu"</string>
+     <string name="phone_message">"Ei voi käynnistää Äänentallenninta soittaessa."</string>
+     <string name="min_and_time_available">"Noin <xliff:g id="minutes">%d</xliff:g> min ja <xliff:g id="seconds">%d</xliff:g> sek kätettävissä"</string>
+     <string name="press_record">"Paina nauhoitus"</string>
+     <string name="save">"Tallenna"</string>
+     <string name="select_file_type">"Valitse tallennustiedostotyyppi"</string>
+     <string name="record_amr">"amr tyyppi (matala laatu)"</string>
+     <string name="record_3gpp">"3gpp tyyppi (korkea laatu)"</string>
+     <string name="button_cancel">"Peruuta"</string>
+     <string name="path_save">"Tehtaan asentama polku tallennettu"</string>
+     <string name="path_nosave">"Tehtaan asentama polku ei tallennettu"</string>
+     <string name="path_default">"Nykyinen polku ei ole kirjoitettavissa tai voimassa, se on sisäisen tallennuspolun polku"</string>
+     <string name="menu_set_save_path">"Aseta polun tallennus"</string>
+     <string name="back">"Takaisin.."</string>
+     <string name="path_label">"Valitse tallenna polku"</string>
+     <string name="pause">"Tauko"</string>
+     <string name="storage_is_not_enough">"Varasto ei ole riittävä"</string>
+     <string name="menu_recording_file_list">"Nauhoitustiedoston lista"</string>
+     <string name="recording_list_empty">"Tyhjä lista"</string>
+     <string name="menu_recording_list_select_all">"Valitse kaikki"</string>
+     <string name="menu_recording_list_delete">"Poista"</string>
+     <string name="menu_recording_list_deselect_all">"Poista valinta"</string>
+     <string name="recording_file_delete_success">"Nauhoitus pyyhitty"</string>
+     <string name="recording_file_database_failed">"Ei pystynyt pyyhkimään tietokannan tiedostoa "</string>
+     <string name="recording_file_delete_failed">"Ei pystynyt pyyhkimään nauhoitustiedostoa "</string>
+     <string name="confirm_del">"Haluatko varmasti pyyhkiä tiedostot?"</string>
+     <string name="button_delete">"Poista"</string>
+     <string name="recording_file_delete_alert_title">"Poista"</string>
+     <string name="recording_file_delete_alert_message">"Pyyhitkö varmasti %1$s ?"</string>
+     <string name="recording_file_list">"Nauhoitustiedoston lista"</string>
+     <string name="less_than_one_second">"1 sekunti"</string>
+     <string name="is_scanning">"MediaScanner skannaa nyt, odota..."</string>
+     <string name="emptylist">"Luettelo on tyhjä"</string>
+     <string name="choose_file">"Valitse nauhoitus, jonka tiedostot haluat pyyhkiä!"</string>
+     <string name="error_path">"Valitsemasi polku ei ole olemassa, aseta uudelleen!"</string>
+     <string name="path_miss">"Tallennettu polku ei ole olemassa tai siihen ei päästä!"</string>
+     <string name="low_memory">"Puhelimen muisti ei riitä, nauhoitus pysähtyy!"</string>
+     <string name="record_error">"Poikkeuksen nauhoitus ilmenee!"</string>
+     <string name="play_error">"Musiikin soitin on kytketty pois, ei pysty avaamaan！"</string>
+     <string name="dialog_title">"Valitse"</string>
+     <string name="dialog_message">"Tallennetaanko nauhoitus?"</string>
+     <string name="same_application_running">"Nauhoituslaitetta käyttää toinen ohjelma, sulje tämä ohjelma!"</string>
+     <string name="recording_time_short">"Nauhoitusaika on vähemmän, kuin 1 sekunti, ei tallennettu "</string>
+     <string name="file_path_button">"Tiedostopolku"</string>
+     <string name="file_name">"Tiedostonimi："</string>
+     <string name="file_path">"Tiedostopolku："</string>
+     <string name="rename">"Nimeä uudelleen"</string>
+     <string name="rename_save">"Uudelleennimeäminen epäonnistui"</string>
+     <string name="rename_nosave">"Nimeä epäonnistuminen uudelleen"</string>
+     <string name="filename_is_not_modified">"Tiedostonimeä ei muokattu"</string>
+     <string name="duplicate_name">"tiedoston nimen kaksois"</string>
+     <string name="soundpicker_label">"Valitse tallennustiedosto"</string>
+     <string name="error_sdcard_path">"sdkortti ei ole olemassa. Tehtaan asettama tallennuspolku muuttuu sisätallennukseksi."</string>
+     <string name="input_length_overstep">"Syöttö saavutti maksimipituuden"</string>
+     <string name="filename_empty_error">"Tiedostonimi ei saa olla tyhjä, tallenna alkuperäinen nimi "</string>
+     <string name="please_choose_files">"valitse tiedostot"</string>
+     <string name="selected_files_count">"on valittu<xliff:g id="COUNTS">%d</xliff:g>"</string>
+     <string name="use_default_path">"Tallennettu polku ei ole olemassa, käytä tehtaan asentamaa polkua "</string>
+     <string name="stroage_not_mounted">"Varasto ei ole kiinnitetty"</string>
+     <string name="special_char_exist">"Erikoismerkit <xliff:g id="COUNTS">%s</xliff:g> ei ole tuettuja"</string>
+     <string name="menu_select_more">"Valitse enemmän"</string>
+     <string name="menu_select_type">"Aseta tiedostotyyppi"</string>
+     <string name="path_miss_nosave">"Tallennettu polku ei ole olemassa, Nauhoitusta ei tallennettu！"</string>
+     <string name="dialog_dismiss">"Hylkää"</string>
+     <string name="error_permissions">"Sovelluksella ei ole sen suorittamiseen tarvittavia oikeuksia. Tarkista käyttöoikeusasetuksesi."</string>
+
+    <string name="internal_sdcard">"Anna järjestelmän päättää"</string>
+     <string name="external_sdcard">"Ulkoinen sd-kortti"</string>
+    <string name="internal_storage">"Sisäinen tallennustila"</string>
+     <string name="external_storage">"Ulkoinen tallennustila"</string>
+     <string name="set_as_ring">"Aseta soittoääniin"</string>
+     <string name="read_file_path">"Tarkista tiedostopolku"</string>
+     <string name="operate_share">"Jaa"</string>
+     <string name="ringtone_title_sim1">"SIM1 puhelimen soittoääni"</string>
+     <string name="ringtone_title_sim2">"SIM2 puhelimen soittoääni""</string>
+     <string name="ringtone_menu_short">"Käytä soittoäänenä"</string>
+     <string name="please_insert_sim_card">"Liitä ainakin SIM-kortti"</string>
+     <string name="ring_set_silent_vibrate">"Räätälöidyt soittoäänet ei ole tuettuja nykyisessä tilassa "</string>
+     <string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\"aseta SIM1 puhelimen soittoääneksi."</string>
+     <string name="ringtone_set_sim2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" aseta SIM2 puhelimen soittoääneksi."</string>
+     <string name="ringtone_set">"<xliff:g id="NAME">%s</xliff:g> asetettu puhelimen soittoääneksi."</string>
+     <string name="ring_set_fail">"Valitettavasti laulua ei voitu soittaa. Valitse toinen laulu soittoääneksi "</string>
+     <string name="tag_limit">"Tunnisteiden määrä on täynnä"</string>
+     <string name="no_allow_play_calling">"Puhelun aikana se saa soittaa musiikkia (radio/video)."</string>
+     <string name="playback_failed">"Soitin ei tue tämäntyyppisiä äänitiedostoja."</string>
+     <string name="tag">"Tagi"</string>
+     <string name="previous_tag">"Viimeinen tunniste"</string>
+     <string name="next_tag">"Seuraava tunniste"</string>
+     <string name="recording_play">"Tallennetaan toistoa"</string>
+     <string name="clip_duration_tip">"Muokkaa pituutta"</string>
+     <string name="record_setting">"Tallenteen asetus"</string>
+     <string name="file_type">"Tiedostotyyppi”</string>
+     <string name="type_amr">"amr tyyppi"</string>
+     <string name="type_3gpp">"3gpp tyyppi"</string>
+     <string name="save_path">"Tallennettu polku"</string>
+     <string name="set_timer_recording">"Aseta nauhoitusajastus"</string>
+     <string name="timer_recording_detail">"Aloita tallennus <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> <xliff:g id="COUNTS">%s</xliff:g> carten"</string>
+     <string name="view_file_details">"Näytä tiedot"</string>
+     <string name="file_size">"Tiedoston koko:"</string>
+     <string name="file_date">"Tiedoston päiväys:"</string>
+     <string name="recording_start_time">"Tallennuksen aloitusaika"</string>
+     <string name="recording_duration">"Tallennetaan tuntia"</string>
+     <string name="tuned_timer_recording">"Ajastin käynnsitetty"</string>
+     <string name="miss_timer_recording">"Ajastin missattu"</string>
+     <string name="miss_timer_time">"Aika: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>"tunti"</item>
+        <item>"tuntia"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"Ajastin on asetettu alle minuutin päähän."</item>
+        <item>"Tallennus ajastettu <xliff:g id="HOURS">%1$s</xliff:g> tästä lähtien."</item>
+        <item>"Tallennus ajastettu <xliff:g id="MINUTES">%2$s</xliff:g> tästä lähtien."</item>
+        <item>"Tallennus ajastettu <xliff:g id="HOURS">%1$s</xliff:g> ja <xliff:g id="MINUTES">%2$s</xliff:g> tästä lähtien."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">"1 tunti"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g>  tuntia"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"1 minuutti"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g>  minuuttia"</item>
+    </plurals>
+     <string name="start_record">"aloita tallennus"</string>
+     <string name="resume_record">"palaa tallennukseen"</string>
+     <string name="start_play">"aloita toisto"</string>
+     <string name="resume_play">"palaa toistoon"</string>
+     <string name="reset_timer_recording">"Toinen ohjelma käyttää tallennuslaitetta, aseta ajastin uudelleen!"</string>
+     <string name="storage_not_enough">"Tallennustilaa ei ole riittävästi, ajastus epäonnistui!"</string>
+     <string name="phone_storage_not_enough">"Puhelimen muisti ei riitä!"</string>
+</resources>

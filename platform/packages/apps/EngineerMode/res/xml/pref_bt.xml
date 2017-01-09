@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="bt_eut"
+        android:title="BT EUT" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <Preference
+        android:key="bt_nosignal_test"
+        android:title="BT_NOSIGNAL_TEST"
+        android:summary="please close BT EUT to test" >
+    </Preference>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="bqb_mode"
+        android:title="BQB MODE" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="no_ssp"
+        android:summary="重启蓝牙生效"
+        android:title="NON SSP" />
+</PreferenceScreen>

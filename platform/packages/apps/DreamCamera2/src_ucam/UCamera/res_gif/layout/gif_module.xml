@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2012,2013 Thundersoft Corporation
+    All rights Reserved
+
+    Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--
+  Copyright (C) 2010,2012 Thundersoft Corporation
+  All rights Reserved
+-->
+<!-- This layout is shared by phone and tablet in landscape orientation. -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/preview_module_frame"/>
+    <RelativeLayout android:id="@+id/gif_preview_bg_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_gif_preview">
+    </RelativeLayout>
+    <include layout="@layout/collage_menu_layout"/>
+
+    <RelativeLayout android:id="@+id/gif_progress_layout"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingBottom="120dip">
+        <ImageView android:layout_width="fill_parent"
+            android:layout_height="68dip"
+            android:layout_alignBottom="@+id/gif_progress_text"
+            android:background="@drawable/bg_vedio_process"/>
+        <TextView
+            android:id="@id/gif_progress_text"
+            android:layout_height="61dip"
+            android:layout_width="wrap_content"
+            android:textColor="#A6A1A1"
+            android:textSize="14dip"
+            android:textStyle="bold"
+            android:paddingRight="10dip"
+            android:paddingBottom="27dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:background="#00000000"/>
+        <ProgressBar android:id="@+id/gif_progress_bar"
+            style="@style/UGif.ProgressBar"
+            android:layout_above= "@id/gif_progress_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+        />
+    </RelativeLayout>
+    <include layout="@layout/gif_shutter_switcher"/>
+    <FrameLayout android:id="@+id/gif_black_frame"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+    />
+</merge>

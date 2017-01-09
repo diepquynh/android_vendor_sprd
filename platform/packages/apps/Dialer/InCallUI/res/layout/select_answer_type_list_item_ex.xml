@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout of a single item in the InCallUI Account Chooser Dialog. -->
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="72dp"
+    android:padding="10dp" >
+
+    <ImageView android:id="@+id/icon"
+               android:layout_width="32dp"
+               android:layout_height="32dp"
+               android:scaleType="center" />
+
+    <LinearLayout
+              android:id="@+id/text"
+              android:gravity="start|center_vertical"
+              android:layout_marginLeft="8dp"
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+         <TextView android:id="@+id/label"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:textColor="#333333"
+                   android:includeFontPadding="false"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:singleLine="true"
+                   android:ellipsize="end" />
+         <TextView android:id="@+id/info"
+                   android:textAppearance="?android:attr/textAppearanceSmall"
+                   android:includeFontPadding="false"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:visibility="gone"
+                   android:singleLine="true"
+                   android:ellipsize="end" />
+    </LinearLayout>
+
+    </LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- android:stretchMode="columnWidth" -->
+    <!-- SPRD: modify for bug598660 -->
+    <GridView
+        android:id="@+id/fast_dial_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="6dip"
+        android:verticalSpacing="6dip"
+        android:paddingBottom="8dip"
+        android:paddingTop="8dip"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:numColumns="5"
+        android:stretchMode="columnWidth"
+        android:background="#ffffff"
+        android:listSelector="#00000000"
+        >
+    </GridView>
+
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Helisalvesti"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Oma sõnumi salvestamine"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Sõnum on salvestatud"</string>
+    <string name="review_message" msgid="201616012287839474">"Sõnumi läbivaatamine"</string>
+    <string name="recording" msgid="4426791467211376099">"Salvestamine"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Salvestamine peatunud"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"Mäluruum on täis"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"Suurim pikkus on saavutatud"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Paigalda USB-mäluseade"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Sisestage SD-kaart"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> min saadaval"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> s saadaval"</string>
+    <string name="accept" msgid="1888285552128743656">"Valmis"</string>
+    <string name="discard" msgid="761613433029406319">"Loobu"</string>
+    <string name="button_ok" msgid="3004911343723076226">"OK"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Teie salvestused"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Helisalvestused"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Minu salvestused"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"Ei saa juurdepääsu USB-mäluseadmele."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"Ei saa juurdepääsu SD-kaardile."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Sisemine rakenduse viga."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"Salvestatud heli ei õnnestunud salvestada."</string>
+    <string name="recording_save">"Salvestis Salvestatud"</string>
+     <string name="recording_nosave">"Salvestist ei salvestatud"</string>
+     <string name="phone_message">"Helistamise ajal ei saa käivitada Heli Salvestajat."</string>
+     <string name="min_and_time_available">"Umbes <xliff:g id="minutes">%d</xliff:g> minutit ja <xliff:g id="seconds">%d</xliff:g> sekundit saadaval"</string>
+     <string name="press_record">"Vajuta salvesta"</string>
+     <string name="save">"Salvestamine"</string>
+     <string name="select_file_type">"Vali salvestise failitüüp"</string>
+     <string name="record_amr">"amr type(low-quality)"</string>
+     <string name="record_3gpp">"3gpp tüüp (kõrgkvaliteet)"</string>
+     <string name="button_cancel">"Tühista"</string>
+     <string name="path_save">"Vaikimisi asukoht salvestatud"</string>
+     <string name="path_nosave">"Vaikimisi asukohta ei salvestatud"</string>
+     <string name="path_default">"Praegusesse asukohta ei saa kirjutada või see on vigane, see on sisemälu asukoht"</string>
+     <string name="menu_set_save_path">"määra salvestamise asukoht"</string>
+     <string name="back">"Tagasi.."</string>
+     <string name="path_label">"Palun vali salvestamise asukoht"</string>
+     <string name="pause">"Peata"</string>
+     <string name="storage_is_not_enough">"Mälu pole piisavalt"</string>
+     <string name="menu_recording_file_list">"Salvestan faili nimekirja"</string>
+     <string name="recording_list_empty">"Tühi list"</string>
+     <string name="menu_recording_list_select_all">"Vali kõik"</string>
+     <string name="menu_recording_list_delete">"Kustuta"</string>
+     <string name="menu_recording_list_deselect_all">"Eemalda valikust"</string>
+     <string name="recording_file_delete_success">"Salvestis kustutatud"</string>
+     <string name="recording_file_database_failed">"Andmebaasi faili kustutamine nurjus"</string>
+     <string name="recording_file_delete_failed">"Salvestise faili kustutamine nurjus"</string>
+     <string name="confirm_del">"Kas oled kindel, et soovid faile kustutada?"</string>
+     <string name="button_delete">"Kustuta"</string>
+     <string name="recording_file_delete_alert_title">"Kustuta"</string>
+     <string name="recording_file_delete_alert_message">"Kindel, et kustutada %1$s ?"</string>
+     <string name="recording_file_list">"Salvestan faili nimekirja"</string>
+     <string name="less_than_one_second">"1 sekund"</string>
+     <string name="is_scanning">"MeediaSkänner skännib praegu,palun oota..."</string>
+     <string name="emptylist">"Nimekiri on tühi"</string>
+     <string name="choose_file">"Palun vali salvestise fail mida soovid kustutada!"</string>
+     <string name="error_path">"Asukoht mille valisid ei eksisteeri,palun määra uuesti!"</string>
+     <string name="path_miss">"Salvestatud asukohta ei eksisteeri või sinna ei pääse ligi!"</string>
+     <string name="low_memory">"Telefoni mälu pole piisavalt,Salvestamine peatatakse!"</string>
+     <string name="record_error">"Erand salvestamisel!"</string>
+     <string name="play_error">"Muusikamängija on keelatud,ei saa avada！"</string>
+     <string name="dialog_title">"Palun vali"</string>
+     <string name="dialog_message">"Salvesta salvestis?"</string>
+     <string name="same_application_running">"Salvestusseadet kasutab teine programm,palun sulge see programm!"</string>
+     <string name="recording_time_short">"salvestusaega vähem kui 1 sekund, ei salvestatud"</string>
+     <string name="file_path_button">"Faili asukohariba"</string>
+     <string name="file_name">"Faili nimi："</string>
+     <string name="file_path">"Faili asukohariba："</string>
+     <string name="rename">"NIMETA ÜMBER"</string>
+     <string name="rename_save">"Ümbernimetamine õnnestus"</string>
+     <string name="rename_nosave">"Nimeta ümber nurjumine"</string>
+     <string name="filename_is_not_modified">"Failinime ei muudetud"</string>
+     <string name="duplicate_name">"Faili nime kordus"</string>
+     <string name="soundpicker_label">"Palun vali salvestusfail"</string>
+     <string name="error_sdcard_path">"sdkaart ei eksisteeri. Vaikimisi salvestuskohaks muudeti sisemälu."</string>
+     <string name="input_length_overstep">"Sisestus jõudis maksimaalse pikkuseni"</string>
+     <string name="filename_empty_error">"Failinimi ei saa olla tühi , salvesta originaalnimi"</string>
+     <string name="please_choose_files">"palun vali failid"</string>
+     <string name="selected_files_count">"valiti<xliff:g id="COUNTS">%d</xliff:g>"</string>
+     <string name="use_default_path">"Salvestuskohta ei eksisteeri, kasuta vaiketeed"</string>
+     <string name="stroage_not_mounted">Mälu ei ole paigaldatud</string>
+     <string name="special_char_exist">"Erimärke <xliff:g id="COUNTS">%s</xliff:g> ei toetata"</string>
+     <string name="menu_select_more">"Vali Rohkem"</string>
+     <string name="menu_select_type">"Määra faili tüüp"</string>
+     <string name="path_miss_nosave">"Salvestatud asukohta ei eksisteeri,Salvestist ei salvestatud！"</string>
+     <string name="dialog_dismiss">"Loobu"</string>
+     <string name="error_permissions">"Rakendusel pole käitamiseks kriitilise tähtsusega lube. Kontrollige lubade seadeid."</string>
+
+    <string name="internal_sdcard">"Sisemine sdkaart"</string>
+     <string name="external_sdcard">"Välimine sdkaart"</string>
+    <string name="internal_storage">"Sisemälu"</string>
+     <string name="external_storage">"Väline mäluruum"</string>
+     <string name="set_as_ring">"Määra helinaks"</string>
+     <string name="read_file_path">"Kontrolli faili asukohta"</string>
+     <string name="operate_share">"Jaga"</string>
+     <string name="ringtone_title_sim1">"SIM1 Telefoni helinatoon"</string>
+     <string name="ringtone_title_sim2">"SIM2 telefoni helin""</string>
+     <string name="ringtone_menu_short">"Kasuta helinana"</string>
+     <string name="please_insert_sim_card">"Palun sisesta vähemalt SIM kaart"</string>
+     <string name="ring_set_silent_vibrate">"Praegune olek ei toeta tavalisi helinatoone"</string>
+     <string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Äratuskell">%s</xliff:g>\" määratud SIM1 Telefoni helinatooniks."</string>
+     <string name="ringtone_set_sim2">"\"<xliff:g id="name" example="Äratuskell">%s</xliff:g>\" määratud SIM2 Telefoni helinatooniks."</string>
+     <string name="ringtone_set">"„<xliff:g id="NAME">%s</xliff:g>” määratud telefoni helinaks."</string>
+     <string name="ring_set_fail">"Vabandust, laulu ei saanud esitada. Palun vali muu laul helinatooniks"</string>
+     <string name="tag_limit">"Siltide arv on maksimaalne"</string>
+     <string name="no_allow_play_calling">"Kõne ajal ei saa muusikat mängida (raadio/video)."</string>
+     <string name="playback_failed">"Mängija ei toeta seda helifaili tüüpi."</string>
+     <string name="tag">"Märgend"</string>
+     <string name="previous_tag">"Viimane silt"</string>
+     <string name="next_tag">"Järgmine silt"</string>
+     <string name="recording_play">"Salvestise esitamine"</string>
+     <string name="clip_duration_tip">"Redigeeri pikkust"</string>
+     <string name="record_setting">"Salvestise säte"</string>
+     <string name="file_type">"Faili Tüüp"</string>
+     <string name="type_amr">"amr tüüp"</string>
+     <string name="type_3gpp">"3gpp tüüp"</string>
+     <string name="save_path">"Salvestatud asukoht"</string>
+     <string name="set_timer_recording">"Määra taimeriga salvestus"</string>
+     <string name="timer_recording_detail">"Alusta salvestamist <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> jaoks <xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">"Vaadake üksikasju"</string>
+     <string name="file_size">"Faili suurus:"</string>
+     <string name="file_date">"Faili kuupäev:"</string>
+     <string name="recording_start_time">"Salvestuse algusaeg"</string>
+     <string name="recording_duration">"Salvestuse kestvuse tund"</string>
+     <string name="tuned_timer_recording">"Taimeriga salvestamine on aktiveeritud"</string>
+     <string name="miss_timer_recording">"Taimeriga salvestamine jäi vahele"</string>
+     <string name="miss_timer_time">"Aeg: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>" tund"</item>
+        <item>" tunnid"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"Taimeriga salvestamine on nüüdsest seatud vähem kui 1 minuti peale."</item>
+        <item>"Taimeriga salvestamine on seatud <xliff:g id="HOURS">%1$s</xliff:g> alates käesolevast hetkest."</item>
+        <item>"Taimeriga salvestamine on seatud <xliff:g id="MINUTES">%2$s</xliff:g> alates käesolevast hetkest."</item>
+        <item>"Taimeriga salvestamine on seatud <xliff:g id="HOURS">%1$s</xliff:g> ja <xliff:g id="MINUTES">%2$s</xliff:g> alates käesolevast hetkest."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">"1 tund"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> tundi"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"1 minut"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> minutit"</item>
+    </plurals>
+     <string name="start_record">"alusta salvestust"</string>
+     <string name="resume_record">"jätka salvestust"</string>
+     <string name="start_play">"alusta taasesitust"</string>
+     <string name="resume_play">"jätka taasesitust"</string>
+     <string name="reset_timer_recording">"Salvestusseadet kasutab teine programm,palun lähtesta taimeriga salvestamine!"</string>
+     <string name="storage_not_enough">"Salvestusruum ei ole piisav, taimeriga salvestamist ei õnnestunud alustada!"</string>
+     <string name="phone_storage_not_enough">"Telefoni mälu ei ole piisav!"</string>
+</resources>

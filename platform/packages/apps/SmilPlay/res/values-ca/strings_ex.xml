@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_number">"Per a:"</string>
+<string name="cancel_call">"Cancel·la"</string>
+<string name="delivery_toast_body_fail">"%s no ha rebut el missatge."</string>
+<string name="read_report_toast_body">"%s ha llegit el missatge."</string>
+<string name="read_report_toast_body_fail">"%s no ha llegit el missatge."</string>
+<string name="delivery_toast_body_fail_rejected">"%s ha rebutjat el missatge."</string>
+<string name="user_not_exist">"L\'usuari no existeix."</string>
+<string name="menu_resend">"Reenviat"</string>
+<string name="low_storage_toast">"Queda poc espai lliure! Borreu alguns fitxers per obtenir més espai lliure."</string>
+<string name="failed_to_download_mms">"No s\'ha pogut descarregar el MMS, torneu a provar-ho més tard"</string>
+<string name="failed_to_send_mms">"No s\'ha pogut enviar el MMS, torneu a provar-ho més tard"</string>
+<string name="success_to_send_mms">"El MMS s\'ha enviat correctament"</string>
+<string name="sim_card_not_ready">"La targeta SIM no està llesta"</string>
+<string name="sim_is_invalid">"La targeta SIM no està llesta"</string>
+<string name="on_progress">"S\'està processant, espereu…"</string>
+<string name="pref_internal_memory_usage_title">"MMS/Disponible/Total"</string>
+<string name="pref_internal_memory_usage_progress_summary">"S\'està calculant l\'espai disponible a la memòria"</string>
+<string name="please_wait_title">"Espereu…"</string>
+<string name="sim_card_setting">"Configurant targeta SIM"</string>
+<string name="multi_sim_manage_messages_title">"Missatges a la SIM<xliff:g id="COUNT">%1$S</xliff:g>"</string>
+<string name="pref_title_manage_sim_setting">"Gestionar la configuració de la targeta SIM"</string>
+<string name="pref_summary_manage_sim_setting">"Gestionar els missatges guardats a la targeta SIM, Enviament d\'informes, Temps d\'espera ha expirat, Configuració SMS, etc."</string>
+<string name="pref_summary_notification_ringtone">"To predeterminat"</string>
+<string name="pref_summary_notification_ringtone_silent">"Silenci"</string>
+<string name="menu_sim_capacity">"Capacitat de SIM"</string>
+<string name="pref_title_manage_multi_sim_messages">"Gestionar missatges de la targeta SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="pref_summary_manage_multi_sim_messages">"Gestionar missatges desats a la targeta SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_sim_success">"S\'ha transmès correctament la informació a la SIM"</string>
+<string name="toast_copy_to_sim_failure">"No s\'ha pogut copiar a la targeta SIM"</string>
+<string name="toast_sim_memory_full">"La memòria SIM està plena"</string>
+<string name="toast_copy_to_multi_sim_success">"S\'ha transmès correctament la informació a la SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_copy_to_multi_sim_failure">"No s\'ha pogut copiar a la memòria SIM<xliff:g id="COUNT">%1$s<xl></xl></xliff:g>"</string>
+<string name="toast_multi_sim_memory_full">"La memòria SIM <xliff:g id="COUNT">%1$S</xliff:g> està plena"</string>
+<plurals name="conversation_num">
+<item quantity="one">"Teniu 1 conversa."</item>
+<item quantity="other">"Teniu <xliff:g id="number">%1$s</xliff:g> converses."</item>
+</plurals>
+<string name="count_of_new_mms">"%s missatges nous"</string>
+<string name="pref_summary_store_sms_on_sim">"Quan arribi un SMS, guardar-lo a la SIM o no"</string>
+<string name="pref_title_store_sms_on_sim">"Guardar el SMS a la SIM"</string>
+<string name="pref_title_sms_validity">"Validesa de SMS"</string>
+<string-array name="prefEntries_sms_validity">
+<item>"No definida"</item>
+<item>"1 hora"</item>
+<item>"6 hores"</item>
+<item>"24 hores"</item>
+<item>"2 dies"</item>
+<item>"1 setmana"</item>
+<item>"Màxim"</item>
+</string-array>
+<string name="done_slide_show">"Fet"</string>
+<string name="smsc_check_fdn_failure">"El número del vostre centre de missatges no pertany a la llista FDN."</string>
+<string name="muti_select_all">"Selec. tot"</string>
+<string name="menu_select_none">"Anul·la tota la selecció"</string>
+<string name="Conversation_check_type_selected_all">"Selec. tot"</string>
+<string name="menu_msg_folder">"Vista de la carpeta"</string>
+<string name="menu_msg_list">"Vista del missatge"</string>
+<string name="folder_inbox">"Safata d\'entrada"</string>
+<string name="folder_outbox">"Bústia de sortida"</string>
+<string name="folder_sent">"Enviat"</string>
+<string name="folder_drafts">"Esborranys"</string>
+<string name="folder_empty">"En aquesta carpeta no hi ha missatges."</string>
+<string name="folder_display_all">"Mostra tots els missatges"</string>
+<string name="folder_delete_messages">"Suprimeix missatges"</string>
+<string name="folder_loading">"S\'està carregant..."</string>
+<string name="folder_reply">"Respon"</string>
+<string name="folder_forward">"Reenvia"</string>
+<string name="no_msg_del">"No s\'ha esborrat cap missatge"</string>
+<string name="exceed_slides_number_limitation">"S\'ha arribat al número màxim de diapositives"</string>
+<string name="has_vcard_or_vcalendar_attachment">"Ja hi ha un <xliff:g id="TYPE">%1$s</xliff:g>, no se\'n pot afegir un altre"</string>
+<string name="folder_sortby">"Ordena per"</string>
+<string-array name="sort_type">
+<item>"Per temps"</item>
+<item>"Per adreça"</item>
+</string-array>
+<string name="OTAConfig_title">"Configuració OTA"</string>
+<string name="OTAConfig_Message">"Esteu segurs de desar la configuració OTA?"</string>
+<string name="OTAConfiy_Success">"La configuració del missatge OTA s\'ha realitzat correctament"</string>
+<string name="OTAConfiy_Error">"No s\'ha pogut configurar OTA"</string>
+<string name="ota_pin_error">"S\'ha produït un error de seguretat OTA"</string>
+<string name="ota_retry">"S\'ha produït un error de contrasenya"</string>
+<string name="ota_pin_exception">"S\'ha produït un error de configuració OTA: error de programació."</string>
+<string name="ota_mime_error">"S\'ha produït un error de configuració OTA: error de dades de missatge."</string>
+<string name="ota_support_not">"S\'ha produït un error de configuració OTA: <xliff:g id="OTATYPE">%1$s</xliff:g> tipus no compatible."</string>
+<string name="pref_reply_path_title">"Configuració de camí de resposta"</string>
+<string name="pref_title_reply_path">"Camí de resposta"</string>
+<string name="pref_summary_reply_path">"Respondre pel mateix centre"</string>
+<string name="cannot_add_picture_and_vcard">"No es pot afegir una vTargeta i una imatge a la mateixa diapositiva."</string>
+<string name="mms_setting">"Configuració MMS"</string>
+<string name="pref_title_font_size">"Configuració del cos de la lletra"</string>
+<string name="font_size_setting">"Configuració del cos de la lletra"</string>
+<string name="font_size">"El cos de la lletra és: <xliff:g id="font_size_id">%1$s</xliff:g>"</string>
+<string name="menu_copy_to_sim_memory">"Copia el missatge a la SIM"</string>
+<string name="menu_add_recipient_to_contacts">"Afegeix <xliff:g id="name">%s</xliff:g>a contactes"</string>
+<string name="action_done">"Fet"</string>
+<string name="message_signature_setting">"Configuració de la signatura"</string>
+<string name="pref_signature_enable_title">"Signatura opcional"</string>
+<string name="pref_signature_enabl_summary">"Afegir automàticament la signatura a tots els MMS que envieu"</string>
+<string name="pref_signature_input_title">"Edita signatura"</string>
+<string name="pref_signature_input_summary">"Entreu aquí per editar la signatura"</string>
+<string name="pref_signature_input_limited">"Heu arribat al límit d\'espai de la signatura"</string>
+<string name="pref_hint_signature_edittext">"Introduïu la vostra signatura"</string>
+<string name="toast_append_signature_failed">"No s\'ha pogut afegir la signatura al MMS, s\'ha arribat a la mida màxima de diapositives"</string>
+<string name="pageIndex">"Pàgina %s"</string>
+<string name="remove_subject">"Eliminar subjecte"</string>
+<string name="toast_message_when_memory_full">"La memòria està plena, feu espai i torneu-ho a provar"</string>
+<string name="toast_save_classzero_message_failed">"No queda espai lliure, no s\'ha pogut desar el missatge"</string>
+<string name="toast_shared_file_failed">"Fitxer multimèdia no compatible, no s\'ha pogut compartir."</string>
+<string name="message_too_many_recipients_picked">"Disculpeu les molèsties, no podeu afegir més de <xliff:g id="COUNT">%1$s</xliff:g> contactes cada vegada""</string>
+<string name="pref_title_manage_sim_smsc">"Centre de serveis de SMS"</string>
+<string name="smsc_set_fails">"No s\'ha pogut realitzar la configuració de SMS"</string>
+<string name="smsc_set_success">"S\'ha configurat correctament."</string>
+<string name="smsc_change_success">"S\'ha modificat correctament."</string>
+<string name="smsc_add_success">"S\'ha afegit correctament"</string>
+<string name="received_new_wap_contact">"Heu rebut un missatge SMS de la vTargeta"</string>
+<string name="save_new_wap_contact">"Desa"</string>
+<string name="cancle_new_wap_contact">"Cancel·la"</string>
+<string name="menu_sim_message">"Missatges a la SIM"</string>
+<string name="folder_display_option">"Opció de visualització"</string>
+<string name="confirm_open_browser_dialog_title">"Missatge"</string>
+<string name="confirm_open_browser_dialog_message">"S\'obrirà el navegador, voleu continuar?"</string>
+<plurals name="delete_confirm">
+<item quantity="one">"Escollir un element"</item>
+<item quantity="other">"Escolliu <xliff:g id="del_count">%1$s</xliff:g> elements"</item>
+</plurals>
+<string name="select_sim_card">"Seleccioneu la targeta SIM"</string>
+<string name="menu_video_call_back">"Videotrucada <xliff:g id="name">%s</xliff:g>"</string>
+<string name="menu_edit_before_call_back">"Editeu abans de la trucada <xliff:g id="name">%s</xliff:g>"</string>
+<string name="min_zoom">"s\'ha arribat al mínim"</string>
+<string name="max_zoom">"s\'ha arribat al màxim"</string>
+<string name="sms_merge_forward">"Combinar i reenviar"</string>
+<string name="sms_merge_dialog_title">"Ràpid"</string>
+<string name="sms_merge_dialog_content">"Només podeu combinar entre 2 i 30 missatges SMS. Comproveu-ho"</string>
+<string name="sms_merge_forward_empty">"No hi ha cap missatge SMS per combinar o reenviar."</string>
+<string name="sms_forwarding_number">"Configuració de reenviament de SMS"</string>
+<string name="pref_sms_forwarding_number_title">"Número de reenviament de SMS"</string>
+<string name="pref_sms_forwarding_number_summary">"Reenviar SMS amb el número del destinatari"</string>
+<string name="sim_list_title">"Seleccioneu la targeta SIM"</string>
+<string name="type_vcard">"contacte"</string>
+<string name="type_vcalendar">"Calendari"</string>
+<string name="attach_vcard">"Contacte"</string>
+<string name="attach_vcalendar">"Calendari"</string>
+<string name="add_slide_before">"Afegir diapositiva (abans)"</string>
+<string name="add_slide_after">"Afegir diapositiva (després)"</string>
+<string name="re_take_picture">"No s\'ha pogut desar la imatge, torneu a capturar-la"</string>
+<string name="exceed_text_length_limitation">"El text ha excedit la limitació de longitud"</string>
+<string name="move_message_to_phone_memory">"El missatge s\'ha desat correctament a la memòria del telèfon."</string>
+<string name="can_not_copy_the_message">"No s\'ha pogut copiar el missatge"</string>
+<string name="confirm_import_vcard">"Voleu importar aquesta vTargeta? "</string>
+<string name="pref_title_manage_simx_smsc">"Centre de serveis SMS de SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="simx_settings_title">"Configuració de SIM<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="pref_summary_sms_validity">"Validesa del missatge curt"</string>
+<string-array name="prefEntries_mms_validity">
+<item>"1 hora"</item>
+<item>"12 hores"</item>
+<item>"24 hores"</item>
+<item>"2 dies"</item>
+<item>"Màxim"</item>
+</string-array>
+<string-array name="prefEntries_mms_priority">
+<item>"Alt"</item>
+<item>"Normal"</item>
+<item>"Baixa"</item>
+</string-array>
+<string name="pref_title_mms_validity">"Validesa del missatge multimèdia"</string>
+<string name="pref_summary_mms_validity">"Validesa del missatge multimèdia"</string>
+<string name="pref_title_mms_priority">"Prioritat"</string>
+<string name="pref_summary_mms_priority">"Configuració de prioritat"</string>
+<string name="sim_settings_title">"Configurant targeta SIM"</string>
+<string name="toast_copy_to_simx_success">"La còpia a <xliff:g id="COUNT">%1$s</xliff:g> s\'ha realitzat correctament"</string>
+<string name="toast_copy_to_simx_failure">"No s\'ha pogut realitzar la còpia a<xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="toast_simx_memory_full">"Està ple <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+<string name="pref_title_manage_sim_x_setting">"Gestió de SIM<xliff:g id="COUNT">%1$s</xliff:g> Configuració"</string>
+<string name="pref_title_mms_creation_mode">"Mode creació"</string>
+<string-array name="mms_creation_mode_entries">
+<item>"Restringit"</item>
+<item>"Advertiment"</item>
+<item>"Disponible"</item>
+</string-array>
+<string name="exceed_resolution_limit">"La resolució supera els límits"</string>
+<string name="want_to_add_media">"Voleu afegir aquest <xliff:g id="NAME">%1$s</xliff:g> al missatge?"</string>
+<string name="mms_can_not_add_vcard">"S\'ha eliminat els adjunts existents per afegir contactes"</string>
+<string name="mms_can_not_add_vcalendar">"S\'ha eliminat els adjunts existents per afegir una diapositiva"</string>
+<string name="converting_to_text_message">"S\'està convertint a missatge de text…"</string>
+<string name="select_calendar">"Selecciona agenda"</string>
+<string name="no_calendar">"No hi ha agenda"</string>
+<string name="exceed_slides_number_message">"Agenda <xliff:g id="NUMBER">%1$s</xliff:g> seleccionada，el màxim és <xliff:g id="NUMBER">%2$s</xliff:g> agenda"</string>
+<string name="add_to_blacklist">"AFEGIR A LA LLISTA NEGRA"</string>
+<string name="failed_addToBlacklist">"No s\'ha pogut afegir a la llista negra."</string>
+<string name="creating_slideshow_title">"S\'està creant la presentació de diapositives"</string>
+<string name="attachment_vcalendar">"vCalendari"</string>
+<string name="attachment_vcard">"vCard"</string>
+<string name="text_limited_warning">"Restricció d\'entrada"</string>
+<string name="subject_text_length_limitation">"El subjecte ha arribat a la restricció de longitud"</string>
+<string name="attach_commonPhrases">"Frases habituals"</string>
+<string name="commonphrase_empty">"Frases poc habituals"</string>
+<string name="quick_reply">"Respostes ràpides"</string>
+<string name="common_messages">"Frase habitual"</string>
+<string name="common_add_text">"Nous"</string>
+<string name="common_delete_text">"Suprimeix"</string>
+<string name="common_delete_message">"Confirmeu l\'eliminació?"</string>
+<string name="common_delete">"Suprimeix"</string>
+<string name="common_phrase_contextmenu_title">"Menú d\'operacions"</string>
+<string name="common_edit">"Edita"</string>
+<string name="commonphrase_delete_empty">"No es pot esborrar cap frase"</string>
+<string name="common_phrase_edit_dialog_title">"Opcions"</string>
+<string name="common_phrase_edit_dialog_inform">"Voleu guardar els elements editats?"</string>
+<string name="common_phrase_edit_max_length">"S\'ha arribat a la restricció d\'entrada!"</string>
+<string name="common_messages_edit">"Edita frase habitual"</string>
+<string name="common_save">"Desa"</string>
+<string name="common_cancel">"Cancel·la"</string>
+<string name="add_empty_common_messages">"Introduïu un caràcter qualsevol"</string>
+<string name="pref_other_settings_title">"Altres"</string>
+<string name="pre_key_title_common_messages">"Frase habitual"</string>
+<string name="common_phrase_selection">"Seleccioneu frases habituals"</string>
+<string name="wap_push_message_dialog_title">""Missatge Wap Push"</string>
+<string name="open_website">"Pàgina web oberta"</string>
+<string name="activity_not_found">"No s\'ha trobat una aplicació adequada"</string>
+<string name="add_contact">"Inserir contactes"</string>
+<string name="receive_from">"Rebut de %s"</string>
+<string name="send_from">"Enviat per %s"</string>
+<string name="dl_expired_wap_push">"Hi ha <xliff:g id="COUNT">%1$s</xliff:g> missatges wap que han expirat, s\'eliminaran."</string>
+<string name="invalid_recipient">"El destinatari no és vàlid"</string>
+<string name="max_recipients_count">"La limitació de destinataris és <xliff:g id="MAXCOUNT">%1$s</xliff:g>."</string>
+<string name="no_media_selected">"No s\'ha seleccionat cap mitjà!"</string>
+<string name="search_max_length">"La frase de cerca és massa llarga, es limita a 512."</string>
+<string name="sim_capacity_used">"Utilitzat:"</string>
+<string name="sim_capacity_total">"Total:"</string>
+<string name="too_many_contacts">"La limitació de destinataris és <xliff:g id="MAXLIMIT">%1$s</xliff:g>, s\'afegirà i els següents <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> destinataris s\'afegiran."</string>
+<string name="delivery_toast_body_expired">"El missatge ha expirat $s."</string>
+<string name="discard_dialog">"Esteu segurs de voler descartar aquesta informació?"</string>
+<string name="contacts_count_excceeds">"Ja heu afegit <xliff:g id="MAXLIMIT">%1$s</xliff:g> destinataris, no en podeu afegir més."</string>
+<string name="copy">"Copia"</string>
+<string name="received_new_wap_vcalendar">"Heu rebut un missatge SMS del vCalendari"</string>
+<string name="remove_vcalendar_first">"Elimina el vCalendari adjunt, abans d\'editar."</string>
+<string name="remove_vcard_first">"Elimina la vTargeta adjunta, abans d\'editar."</string>
+<string name="import_vcalendar">"Importa vCalendari"</string>
+<string name="no_vcalendar">"No s\'ha trobat cap vCalendari"</string>
+<string name="import_vcalendar_fail">"No s\'ha pogut importar cap vCalendari."</string>
+<string name="unable_to_add_all">"S\'ha arribat al límit de mida del missatge, algunes parts no s\'han afegit."</string>
+<string name="replce_slideshow_dilaog_dismiss">"Si substituiu la presentació de diapositives actual s\'eliminaran les dades adjuntes, voleu continuar?"</string>
+<string name="pref_title_sms_retry_times">"Activar reintent de SMS"</string>
+<string name="smsc_list">"Llista de centres SMS"</string>
+<string name="smsc_list_empty">"No hi ha números de centres SMS"</string>
+<string name="smsc_list_loading">"Carregant"</string>
+<string name="smsc_list_menu_edit">"Edita"</string>
+<string name="smsc_list_menu_activate">"Activa"</string>
+<string name="smsc_list_not_allow_to_clear">"No es pot esborrar el número"</string>
+<string name="smsc_list_empty_number">"Feu clic per a afegir un número nou"</string>
+<string name="save_attachment_msg">"El fitxer adjunt <xliff:g id="success">%1$d</xliff:g> s\'ha desat a<xliff:g id="path">%2$s</xliff:g>,<xliff id="fail">%3$d</xliff> no s\'ha pogut desar el fitxer adjunt"</string>
+<string name="box_msg_list_menu_addtocontacts">"Afegeix a persones"</string>
+<string name="box_msg_list_menu_call">"Truca"</string>
+<string name="box_msg_list_menu_editbeforecall">"Edita abans de la trucada"</string>
+<string name="box_msg_list_menu_videocall">"Videotrucada"</string>
+<string name="soundrecorder_fail_msg">"No s\'ha pogut iniciar l\'enregistrament de sons."</string>
+<string name="camera_fail_msg">"No s\'ha pogut iniciar la càmera."</string>
+<string name="video_fail_msg">"No s\'ha pogut iniciar el vídeo."</string>
+<string name="pref_encode_type_setting_title">"Configuració de codificació"</string>
+<string name="pref_encode_type_title">"Codifica tipus"</string>
+<string name="confirm_convert_to_mms">"En els destinataris hi ha un correu electrònic, el missatge s\'enviarà com a MMS"</string>
+<string name="send_as_mms">"Envia un MMS"</string>
+<string name="send_as_sms">"Enviar només SMS"</string>
+<string name="protected_file">"Fitxer protegit, no es pot adjuntar"</string>
+<string name="success_to_send_sms">"S\'ha enviat correctament el SMS"</string>
+<string name="confirm_ota_message">"Confirmar configuració OTA?"</string>
+<string name="confirm_ota">"D\'acord"</string>
+<string name="cancel_ota">"Cancel·la"</string>
+<string name="ota_cancelled">"S\'ha cancel·lat la configuració OTA."</string>
+<string name="message_too_big_for_audio">"El missatge és massa gran per afegir àudio."</string>
+<string name="contacts_count_can_send">"Estimat client, el nombre de destinataris supera el límit del sistema, només es poden enviar <xliff:g id="MAXLIMIT">%1$s</xliff:g> , envieu-ho per grups."</string>
+<string name="attach_common_messages">"Frases habituals"</string>
+<string name="attach_subject">"Assumpte"</string>
+<string name="add_contacts_dialog_title">"Afegeix contactes"</string>
+<string name="add_contact_as_text">"missatge de text"</string>
+    <string name="action_next">"Següent"</string>
+     <string name="sms_forward">"Reenvia"</string>
+     <string name="valid_sub">"La targeta SIM no és vàlida."</string>
+     <string name="confirm_import_vcalendar">"Voleu importar aquest Vcalendari?"</string>
+     <string name="confirm_save_otherfiles">"Voleu desar el fitxer adjunt?"</string>
+     <string name="pref_notification_settings_title_sim1">"Notificacions de la SIM1"</string>
+     <string name="pref_notification_settings_title_sim2">"Notificacions de la SIM2"</string>
+     <string name="pref_notification_settings_title_sim">"Notificacions de la SIM"</string>
+     <string name="dlg_media_removed">"El camí del fitxer adjunt no és correcte i s\'ha eliminat, encara el voleu enviar?"</string>
+     <string name="toast_media_removed">"El camí del fitxer adjunt no és correcte i s\'ha eliminat, comproveu-ho"</string>
+     <string name="dl_failure_roaming">"Mode d\'itinerància, no s\'ha pogut descarregar el missatge!"</string>
+     <string name="recipient_invalid">"<xliff:g id="invalid_number" example="1">%1$s</xliff:g> Destinatari(s) incorrecte(s)"</string>
+     <string name="recipient_invalid_detail">"No és correcte(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+     <string name="recipient_changed_detail">"Modificat(<xliff:g id="invalid_number" example="1">%1$s</xliff:g>):"</string>
+
+</resources>

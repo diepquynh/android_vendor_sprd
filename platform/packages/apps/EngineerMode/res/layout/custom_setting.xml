@@ -1,0 +1,69 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_log_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="@string/custom_last_cmd"
+            android:textSize="15dip" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edit_log_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textFilter"
+            android:textSize="17dip" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/text_trace_module"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="@string/custom_now_cmd"
+            android:textSize="15dip" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edit_trace_module"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textFilter"
+            android:textSize="17dip" >
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button_custom_set"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5dip"
+                android:layout_weight="1"
+                android:text="@string/custom_set" />
+
+            <Button
+                android:id="@+id/button_custom_default_set"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5dip"
+                android:layout_weight="1"
+                android:text="@string/custom_default_set" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

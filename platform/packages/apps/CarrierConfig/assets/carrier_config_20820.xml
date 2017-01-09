@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="supportHttpCharsetHeader" value="false"/>
+        <int name="maxImageHeight" value="1944"/>
+        <int name="maxMessageSize" value="614400"/>
+        <int name="maxImageWidth" value="2592"/>
+    </carrier_config>
+    <carrier_config>
+        <string name="vmnumber">660</string>
+    </carrier_config>
+    <carrier_config spn="Simyo">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Simyo</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="Lebara">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Lebara</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="Numericable">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Numericable</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

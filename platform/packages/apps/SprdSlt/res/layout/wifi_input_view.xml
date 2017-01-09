@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+     <TextView
+         style="?android:attr/textAppearanceSmall"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="4dip"
+         android:text="@string/input_wifi_ssid" />
+
+     <EditText android:id="@+id/ssid"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:singleLine="true"
+         android:maxLength="63"
+         android:imeOptions="flagForceAscii"
+         android:focusable="true" />
+
+     <TextView
+         style="?android:attr/textAppearanceSmall"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="4dip"
+         android:text="@string/wifi_password" />
+
+     <EditText android:id="@+id/password"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:singleLine="true"
+         android:password="true"
+         android:maxLength="63"
+         android:imeOptions="flagForceAscii" />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+
+         <Button
+             android:id="@+id/cancel"
+             android:layout_width="0px"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:text="@string/cancel" >
+         </Button>
+
+         <Button
+             android:id="@+id/connect"
+             android:layout_width="0px"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:text="@string/connect" >
+         </Button>
+     </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"ხმის ჩამწერი"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"ჩაწერეთ შეტყობინება"</string>
+    <string name="message_recorded" msgid="381539460921872233">"შეტყობინება ჩაწერილია"</string>
+    <string name="review_message" msgid="201616012287839474">"შეტყობინების გადახედვა"</string>
+    <string name="recording" msgid="4426791467211376099">"მიმდინარეობს ჩაწერა"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"ჩაწერა შეჩერდა"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"მეხსიერება გაივსო"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"მაქსიმუმი სიგრძე მიღწეულია"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"USB მეხსიერების მიერთება"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"ჩადეთ SD ბარათი"</string>
+    <string name="min_available" msgid="5493947690062988925">"ხელმისაწვდომია <xliff:g id="MINUTES">%d</xliff:g> წუთი"</string>
+    <string name="sec_available" msgid="2297020788861694399">"დარჩენილია <xliff:g id="SECONDS">%d</xliff:g> წმ"</string>
+    <string name="accept" msgid="1888285552128743656">"დასრულდა"</string>
+    <string name="discard" msgid="761613433029406319">"გაუქმება"</string>
+    <string name="button_ok" msgid="3004911343723076226">"კარგი"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"თქვენი ჩანაწერები"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"აუდიო ჩანაწერები"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"ჩემი ჩანაწერები"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"USB მეხსიერება მიუწვდომელია."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"SD ბარათზე წვდომა ვერ ხერხდება."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"აპლიკაციის შიდა შეცდომა."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"ჩაწერილი აუდიოს შენახვა ვერ მოხერხდა."</string>
+    <string name="recording_save">"ჩაწერა შენახული"</string>
+     <string name="recording_nosave">"ჩანაწერის შენახვა არ მოხდა"</string>
+     <string name="phone_message">"ზარის განხორციელებისას შეუძლებელია ხმის ჩამწერის ჩართვა."</string>
+     <string name="min_and_time_available">"დაახლოებით <xliff:g id="minutes">%d</xliff:g> წუთი და <xliff:g id="seconds">%d</xliff:g> წამი არის ხელმისაწვდომი"</string>
+     <string name="press_record">"დააჭირეთ ჩაწერას"</string>
+     <string name="save">"შენახვა"</string>
+     <string name="select_file_type">"ჩანაწერის ფაილის ტიპის არჩევა"</string>
+     <string name="record_amr">"amr ტიპი (დაბალი ხარისხის)"</string>
+     <string name="record_3gpp">"3gpp ტიპი (მაღალი ხარისხის)"</string>
+     <string name="button_cancel">"გაუქმება"</string>
+     <string name="path_save">"ნაგულისხმევი მარშრუტი დამახსოვრებულია"</string>
+     <string name="path_nosave">"ნაგულისხმევი მარშრუტი დამახსოვრებული არ არის"</string>
+     <string name="path_default">"არსებულ მდებარეობაზე ჩაწერა შეუძლებელია ან ის არ მოწმედებს, ეს არის შიდა მახსოვრობის მდებარეობა"</string>
+     <string name="menu_set_save_path">"დამახსოვრების მარშრუტის დაყენება"</string>
+     <string name="back">"უკან.."</string>
+     <string name="path_label">"გთხოვთ აირჩიეთ დამახსოვრების არხი"</string>
+     <string name="pause">"პაუზა"</string>
+     <string name="storage_is_not_enough">"არ არის საკმარისი სივრცე"</string>
+     <string name="menu_recording_file_list">"ჩაწერილი ფაილების ჩამონათვალი"</string>
+     <string name="recording_list_empty">"ცარიელი ჩამონათვალი"</string>
+     <string name="menu_recording_list_select_all">"ყველას არჩევა"</string>
+     <string name="menu_recording_list_delete">"წაშლა"</string>
+     <string name="menu_recording_list_deselect_all">"გადარჩევა"</string>
+     <string name="recording_file_delete_success">"ჩანაწერი წაშლილია"</string>
+     <string name="recording_file_database_failed">"მონაცემთა ბაზის ფაილის წაშლა ვერ მოხერხდა"</string>
+     <string name="recording_file_delete_failed">"ჩანაწერი ფაილის წაშლა ვერ მოხერხდა"</string>
+     <string name="confirm_del">"დარწმუნებული ხართ, რომ გსურთ ამ ფაილების წაშლა?"</string>
+     <string name="button_delete">"წაშლა"</string>
+     <string name="recording_file_delete_alert_title">"წაშლა"</string>
+     <string name="recording_file_delete_alert_message">"გსურთ %1$s-ის წაშლა ?"</string>
+     <string name="recording_file_list">"ჩაწერილი ფაილების ჩამონათვალი"</string>
+     <string name="less_than_one_second">"1 წამი"</string>
+     <string name="is_scanning">"Media Scanner ამჟამად ასკანირებს, გთხოვთ დაელოდეთ..."</string>
+     <string name="emptylist">"ჩამონათვალი ცარიელია"</string>
+     <string name="choose_file">"გთხოვთ აირჩიეთ ჩანაწერი, რომლის ფაილის წაშლაც გსურთ!"</string>
+     <string name="error_path">"მარშრუტი, რომელიც თქვენ აირჩიეთ, არ არსებობს,გთხოვთ დააყენეთ ხელახლა!"</string>
+     <string name="path_miss">"შენახული მარშრუტი არ არსებობს ან მასზე წვდომა შეუძლებელია!"</string>
+     <string name="low_memory">"მახსოვრობა საკმარისი არ არის, ჩაწერა შეწყდება!"</string>
+     <string name="record_error">"მოხდა გამონაკლისის ჩაწერა!"</string>
+     <string name="play_error">"ფლეიერი გამორთულია, შეუძლებელია მისი გახსნა！"</string>
+     <string name="dialog_title">"გთხოვთ, აირჩიოთ"</string>
+     <string name="dialog_message">"გსურთ ჩანაწერის დამახსოვრება?"</string>
+     <string name="same_application_running">"ჩამწერ მოწყობილობას იყენებს სხვა პროგრამა, გთხოვთ,დახურეთ ეს პროგრამა!"</string>
+     <string name="recording_time_short">"ჩაწერის დრო 1 წამზე ნაკლებია, დამახსოვრება არ მოხდა"</string>
+     <string name="file_path_button">"ფაილის მარშრუტი"</string>
+     <string name="file_name">"ფაილის სახელი："</string>
+     <string name="file_path">"ფაილის მარშრუტი："</string>
+     <string name="rename">"გადარქმევა"</string>
+     <string name="rename_save">"სახელის წარმატებით შეიცვალა"</string>
+     <string name="rename_nosave">"სახელის შეცვლა ვერ მოხერხდა"</string>
+     <string name="filename_is_not_modified">"ფაილის სახელი არ შეცვლილა"</string>
+     <string name="duplicate_name">"ფაილის სახელის დუბლიკატი"</string>
+     <string name="soundpicker_label">"გთხოვთ, აირჩიეთ ჩაწერის ფაილი"</string>
+     <string name="error_sdcard_path">"sd ბარათი არ არსებობს. ნაგულისხმევი შენახვის მარშრუტი შეიცვალა შიდა საცავით."</string>
+     <string name="input_length_overstep">"შეყვანილმა მონაცემმა მიაღწია მაქსიმალურ სიგრძეს"</string>
+     <string name="filename_empty_error">"ფაილის სახელი შეუძლებელია იყოს ცარიელი , დაიმახსოვრეთ თავდაპირველი სახელწოდება"</string>
+     <string name="please_choose_files">"გთხოვთ, აირჩიეთ ფაილები"</string>
+     <string name="selected_files_count">"აირჩია<xliff:g id="COUNTS">%d</xliff:g>"</string>
+     <string name="use_default_path">"შენახული მარშრუტი არ არსებობს, გამოიყენეთ ნაგულისხმევი მარშრუტი"</string>
+     <string name="stroage_not_mounted">"მახსოვრობა დაყენებული არ არის"</string>
+     <string name="special_char_exist">"სპეციალური სიმბოლოები <xliff:g id="COUNTS">%s</xliff:g> მხარდაჭერილი არ არის"</string>
+     <string name="menu_select_more">"აირჩიეთ მეტი"</string>
+     <string name="menu_select_type">"ფაილის ტიპის დაყენება"</string>
+     <string name="path_miss_nosave">"შენახული მარშრუტი არ არსებობს, ჩანაწერის შენახვა არ მოხდა！"</string>
+     <string name="dialog_dismiss">"იგნორირება"</string>
+     <string name="error_permissions">"აპს არ გააჩნია გაშვებისათვის აუცილებელი ნებართვები. გთხოვთ, შეამოწმოთ ნებართვების პარამეტრები."</string>
+     <string name="internal_sdcard">"შიდა sd ბარათი"</string>
+     <string name="external_sdcard">"გარე sd ბარათი"</string>
+     <string name="internal_storage">"შიდა მეხსიერება"</string>
+     <string name="external_storage">"გარე მეხსიერება"</string>
+     <string name="set_as_ring">"ზარის მელოდიად დაყენება"</string>
+     <string name="read_file_path">"ფაილის არხის შემოწმება"</string>
+     <string name="operate_share">"გაზიარება"</string>
+     <string name="ringtone_title_sim1">"SIM1 სატელეფონო ზარის მელოდია"</string>
+     <string name="ringtone_title_sim2">"SIM2 ტელეფონის ზარის მელოდია""</string>
+     <string name="ringtone_menu_short">"ზარის მელოდიის სახით გამოყენება"</string>
+     <string name="please_insert_sim_card">"გთხოვთ, ჩადეთ SIM ბარათი"</string>
+     <string name="ring_set_silent_vibrate">"მიმდინარე რეჟიმში ზარის პერსონალიზირებული მელოდიები მხარდაჭერილი არ არის"</string>
+     <string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" SIM1 სატელეფონო ზარის მელოდიად დაყენება."</string>
+     <string name="ringtone_set_sim2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" SIM2 სატელეფონო ზარის მელოდიად დაყენება."</string>
+     <string name="ringtone_set">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" სატელეფონო ზარის მელოდიად დაყენება."</string>
+     <string name="ring_set_fail">"ბოდიში, ამ სიმღერის დაკვრა შეუძლებელია. გთხოვთ, ზარის მელოდიისთვის შეარჩიეთ სხვა სიმღერა"</string>
+     <string name="tag_limit">"თეგების რაოდენობამ მაქსიმუმს მიაღწია"</string>
+     <string name="no_allow_play_calling">"მუსიკის დაკვრა დაუშვებელია ზარის (რადიო/ვიდეო) დროს."</string>
+     <string name="playback_failed">"ფლეიერი არ უჭერს მხარს ამ ტიპის აუდიო ფაილს."</string>
+     <string name="tag">"თეგი"</string>
+     <string name="previous_tag">"ბოლო თეგი"</string>
+     <string name="next_tag">"შემდეგი თეგი"</string>
+     <string name="recording_play">"ჩანაწერის ჩართვა"</string>
+     <string name="clip_duration_tip">"სიგრძის რედაქტირება"</string>
+     <string name="record_setting">"ჩაწერის პარამეტრები"</string>
+     <string name="file_type">"ფაილის ტიპი"</string>
+     <string name="type_amr">"amr ტიპი"</string>
+     <string name="type_3gpp">"3gpp ტიპი"</string>
+     <string name="save_path">"შენახული არხი"</string>
+     <string name="set_timer_recording">"თაიმერის ჩაწერის დაყენება"</string>
+     <string name="timer_recording_detail">"ჩაწერის დაწყება <xliff:g id="hours">%s</xliff:g>:<xliff:g id="minutes">%s</xliff:g> -თვის <xliff:g id="COUNTS">%s</xliff:g>"</string>
+     <string name="view_file_details">"დეტალების ნახვა"</string>
+     <string name="file_size">"ფაილის ზომა："</string>
+     <string name="file_date">"ფაილის თარიღი："</string>
+     <string name="recording_start_time">"ჩაწერის დაწყების დრო"</string>
+     <string name="recording_duration">"ჩაწერის ხანგრძლიობა საათებში"</string>
+     <string name="tuned_timer_recording">"თაიმერის ჩაწერა ჩართულია"</string>
+     <string name="miss_timer_recording">"თაიმერის ჩანაწერი დაკარგულია"</string>
+     <string name="miss_timer_time">"დრო: <xliff:g id="TIME">%s</xliff:g>"</string>
+     <string-array name="duration_hours">
+        <item>" საათი"</item>
+        <item>" საათი"</item>
+    </string-array>
+     <string-array name="timer_recording_time">
+        <item>"თაიმერის ჩაწერა დაყენებულია 1 წუთზე ნაკლებზე ამ მომენტიდან."</item>
+        <item>"თაიმერის ჩაწერა დაყენებულია <xliff:g id="HOURS">%1$s</xliff:g> ამ მომენტიდან."</item>
+        <item>"თაიმერის ჩაწერა დაყენებულია <xliff:g id="MINUTES">%2$s</xliff:g> ამ მომენტიდან."</item>
+        <item>"თაიმერის ჩაწერა დაყენებულია <xliff:g id="HOURS">%1$s</xliff:g> და <xliff:g id="MINUTES">%2$s</xliff:g> ამ მომენტიდან."</item>
+    </string-array>
+     <plurals name="hours">
+<item quantity="one">"1 საათი"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> საათი"</item>
+    </plurals>
+     <plurals name="minutes">
+<item quantity="one">"1 წუთი"</item>
+<item quantity="other">"<xliff:g id="number">%s</xliff:g> წუთი"</item>
+    </plurals>
+     <string name="start_record">"ჩაწერის დაწყება"</string>
+     <string name="resume_record">"ჩაწერის განახლება"</string>
+     <string name="start_play">"დაკვრის დაწყება"</string>
+     <string name="resume_play">"დაკვრის განახლება"</string>
+     <string name="reset_timer_recording">"ჩამწერ მოწყობილობას იყენებს სხვა პროგრამა,გთხოვთ, ხელახლა დააყენეთ თაიმერის ჩაწერა!"</string>
+     <string name="storage_not_enough">"მახსოვრობა საკმარისი არ არის,თაიმერის ჩაწერის დაწყება ვერ მოხერხდა!"</string>
+     <string name="phone_storage_not_enough">"ტელეფონის მახსოვრობა საკმარისი არ არის!"</string>
+
+</resources>

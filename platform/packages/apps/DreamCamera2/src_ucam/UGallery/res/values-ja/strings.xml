@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name = "text_nav_to_album">アルバム</string>
+    <string name = "text_nav_to_gallery">ギャラリー</string>
+    <string name = "text_image_empty">ファイルが見つかりませんでした</string>
+    <string name = "text_del_image_empty">アイテムがありません</string>
+    <string name = "text_no_more_pictures_first">最初の写真です</string>
+    <string name = "text_no_more_pictures_last">最後の写真です</string>
+    <string name = "text_image_details">詳細情報</string>
+    <string name = "text_details_file_size">ファイルサイズ:</string>
+    <string name = "text_details_image_resolution">解像度:</string>
+    <string name = "text_details_image_make">メーカー:</string>
+    <string name = "text_details_image_model">モデル:</string>
+    <string name = "text_details_image_whitebalance">ホワイトバランス:</string>
+    <string name = "text_details_image_longitude">GPS経度:</string>
+    <string name = "text_details_image_latitude">GPS緯度:</string>
+    <string name = "text_details_image_location">位置:</string>
+    <string name = "text_details_duration">連続時間:</string>
+    <string name = "text_details_date_taken">時間:</string>
+    <string name = "text_details_aperture">アパーチャ:</string>
+    <string name = "text_details_focal_length">焦点距離:</string>
+    <string name = "text_details_frame_rate">フレームレート:</string>
+    <string name = "text_details_bit_rate">ビットレート:</string>
+    <string name = "text_details_codec">コーデック:</string>
+    <string name = "text_details_format">フォーマット:</string>
+    <string name = "text_waiting">"お待ちください"</string>
+    <string name = "text_gif_max_select_count"><xliff:g id="MAX_SELECT_COUNT">%s</xliff:g>枚まで選択してください！</string>
+
+    <string name = "text_camera_bucket_name">カメラで撮った写真</string>
+    <string name = "text_no_sdcard">SDカードがありません。挿入してください。</string>
+    <string name = "text_sdcar_no_space">"SDカードの空き領域ありません"</string>
+    <string name = "text_delete_image_title">写真削除</string>
+    <string name = "text_delete_multi_message">本当に写真を削除しますか？</string>
+    <string name = "text_delete_single_message">本当に写真を削除しますか？</string>
+    <string name = "text_delete_video_title">ビデオを削除する</string>
+    <string name = "text_delete_multi_video_message">本当にビデオを削除しますか？</string>
+    <string name = "text_delete_single_video_message">本当にビデオを削除しますか？</string>
+    <string name = "picture_delete_ok">はい</string>
+    <string name = "picture_delete_cancel">いいえ</string>
+    <string name="details_ok" msgid="6848594369924424312">"はい"</string>
+    <string name="camera_application_stopped">カメラは止まりました</string>
+    <string name="str_camera_crash">カメラアプリはクラッシュしました、こちらをクリックしてください</string>
+    <string name="str_receive">カメラアプリにはエラーが発生しています、クリックしてエラーレポートを送信します</string>
+    <string name="sns_msg_network_unavailable">ネットワークに接続できませんでした。 もう一度試してください</string>
+
+    <string name = "text_no_network_available">ネットワークはご利用いただけません</string>
+    <string name = "text_service_starting_notification">ダウンロード中、暫く置いてやり直してください。</string>
+    <string name="already_update">"最新バージョンです"</string>
+    <string name = "text_service_started_notification">バックグラウンドダウンロードを始めます</string>
+    <string name = "text_download_apk_success">ダウンロード完了</string>
+    <string name = "update_info">新バージョンあり</string>
+    <string name = "update_ok">はい</string>
+    <string name = "update_cancel">キャンセル</string>
+    <string name="market_software_missing">先にGoogle Playをインストールしてください。</string>
+    <string name = "text_settings_title">設定</string>
+    <string name="text_feedback_title">フィードバック</string>
+<!--     <string name = "menu_info_version">「万能カメラ」について</string> -->
+    <string name="hint_feedback_topic">トピック (必須)</string>
+    <string name="hint_feedback_email">E-メール（オプション）</string>
+    <string name="hint_feedback_description">記述 (必須)</string>
+    <string name = "text_feedback_send_action">送信</string>
+    <string name="message_feedback_send_success">首尾よく送られるフィードバック</string>
+    <string name="message_feedback_send_fail">フィードバックは失敗する送った</string>
+    <string name = "text_not_installed_market_app">Google Playストアがインストールされていません.Google Playストアのインストールをご推奨します</string>
+    <string name="crop_save_text">"保存"</string>
+    <string name="crop_discard_text">"キャンセル"</string>
+    <string name="runningFaceDetection">"お待ちください…"</string>
+    <string name="wallpaper">"壁紙を設定しています。しばらくお待ちください…"</string>
+    <string name="loading_video">"ビデオを読み込んでいます..."</string>
+    <string name="resume_playing_title">"ビデオを再開"</string>
+    <string name="resume_playing_message">"から <xliff:g id="DURATION">%s</xliff:g> それを再生し続ける？"</string>
+    <string name="resume_playing_resume">"再生し続ける"</string>
+    <string name="resume_playing_restart">"再起動"</string>
+    <string name="details_ms">"<xliff:g id="MINUTES">%1$02d</xliff:g>:<xliff:g id="SECONDS">%2$02d</xliff:g>"</string>
+    <string name="details_hms">"<xliff:g id="HOURS">%1$d</xliff:g>:<xliff:g id="MINUTES">%2$02d</xliff:g>:<xliff:g id="SECONDS">%3$02d</xliff:g>"</string>
+    <string name="savingImage">"写真を保存中…."</string>
+    <string name="multiface_crop_help">"顔をタップして開始します。"</string>
+    <string name = "text_activity_is_not_found">適切なアプリがありません</string>
+    <string name = "text_select_photos">画像を選択</string>
+    <string name = "text_select_item">項目を選択</string>
+    <string name="all_videos" msgid="3380966619230896013">"ビデオ"</string>
+    <string name="setImage" msgid="7246975856983303047">"登録"</string>
+    <string name="sendVideo" msgid="3598567735831863073">"動画を共有"</string>
+    <string name="no_way_to_share_video" msgid="4506167265329982928">"動画を共有できるアプリがありません。"</string>
+    <string name="video">"ビデオ"</string>
+    <string name = "text_no_more_videos_first">最初のビデオです</string>
+    <string name = "text_no_more_videos_last">最後のビデオです</string>
+    <string name=  "text_collage_selected_pictures">現在%1$s枚(最大9枚)</string>
+    <string name=  "text_collage_max_select_notice">最大9枚まで選択できます</string>
+    <string name=  "text_collage_min_select_notice">少なくとも二つの絵</string>
+    <string name = "text_backhome">ホーム</string>
+    <string name = "text_select_albums">アルバムを選択</string>
+    <string name = "text_start_puzzle">パズルを開始</string>
+    <string name = "text_back">戻る</string>
+    <string name="rotate" msgid="460017689320955494">"回転"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"左に回転"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"右に回転"</string>
+    <string name="slide_show" msgid="1965192737233824143">"スライドショー"</string>
+    <string name="ugallery_setas_wallpaper" msgid="797463183863414289">"壁紙"</string>
+    <string name="crop_label" msgid="521114301871349328">"トリミング"</string>
+    <string name = "text_lock_image_title">アルバムを非表示に</string>
+    <string name = "text_unlock_image_title">アルバムを表示させます</string>
+    <string name="text_lock_image_message">指定したアルバムをシークレットアルバムに設定できます。右上の設定メニューで表示、非表示の設定ができます。シークレットアルバムに設定しますか？</string>
+    <string name="text_unlock_image_message">指定したアルバムをシークレットアルバムから解除できます。変更しますか？</string>
+    <string name="text_popup_settings">設定</string>
+    <string name="text_settings_password">シークレットアルバム</string>
+    <string name="text_settings_password_sub">シークレットアルバムがありません</string>
+    <string name="text_settings_show_hiden_files">指定したアルバムを表示する</string>
+
+    <string name="text_settings_hide_hiden_files">指定したアルバムを表示しない</string>
+    <string name="text_settings_pwdset">パスワードの設定</string>
+    <string name="text_settings_use_pwd">パスワードを利用する</string>
+    <string name="text_settings_close_pwd">パスワードを利用しない</string>
+    <string name="text_settings_setpassword">パスワードの設定</string>
+    <string name="text_settings_intput_pwd"> パスワードを入力してください</string>
+    <string name="text_settings_intput_pwd_again">パスワードを確認してください</string>
+    <string name = "text_secret_ablum_hint_title">アイコンの長押しでアルバムをドラッグできます。ドラッグしてシークレット指定、削除ができます。</string>
+    <string name = "text_settings_no_password">パスワードが入力されていません。</string>
+    <string name = "text_settings_different_password">入力されたパスワードが一致しません。再度入力してください。</string>
+    <string name = "text_settings_wrong_password">パスワードが正しくありません。</string>
+    <string name = "text_secret_ablum_hint_msg">タップで戻る</string>
+    <string name = "secret_ablum_setting_way">シークレットアルバム指定方法</string>
+    <string name="secret_ablum_add">シークレット指定</string>
+    <string name="secret_ablum_remove">シークレット解除</string>
+    <string name="text_select_image">複数の選択</string>
+    <string name="text_delete_image">削除</string>
+    <string name="text_collage_image">コラージュ</string>
+    <string name="text_all_select">全選択</string>
+    <string name="text_all_cancel">キャンセル</string>
+    <string name="text_share_action">シェア</string>
+    <string name="text_edit_action">編集</string>
+    <string name="text_more_action">もっと</string>
+    <string name = "picture_select_ok">確定</string>
+    <string name = "picture_select_cancel">キャンセル</string>
+    <string name="text_settings_setpassword_warning">パスワードを忘れた場合、パスワードを再設定することはできません。</string>
+    <string name="text_image_rename">リネーム</string>
+    <string name="text_image_rename_file_exist">ご指定のファイル名は既に存在します </string>
+    <string name="text_image_rename_file_success">ファイル名は変更しました </string>
+    <string name="text_image_rename_file_failed">ファイル名の変更は失敗しました </string>
+    <string name="text_image_unlock_failed">アンロックは失敗しました。SDカードを挿入して再度試してください.</string>
+    <string name=" text_image_lock_failed">画像のシークレット指定は失敗しました.</string>
+    <string name="text_image_damage">画像をロードできません</string>
+    <string name="text_backup_allimages_title">シークレットフォルダをお使いのお客様へ</string>
+    <string name="text_backup_allimages_msg">お使いのAndroid OS 4.0.3、4.0.4では本機能が使えません。シークレットフォルダも通常のフォルダとして表示されます 。\n本機能を使いたい方は、OSを最新版にしてください。最新版にできるかどうかはメーカーにお問い合わせください。</string>
+    <string name="text_title_next">次</string>
+    <string name="text_title_back">バック</string>
+</resources>

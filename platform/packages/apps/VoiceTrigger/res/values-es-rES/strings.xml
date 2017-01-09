@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"Disparador de la Voz"</string>
+<string name="audio_voicetrigger_words">"Palabra de activación"</string>
+<string name="audio_voicetrigger_sensibility">"Reconocimiento de sensibilidad"</string>
+<string name="audio_voicetrigger_support_fun">"Descripción de las funciones de apoyo"</string>
+<string name="audio_voicetrigger_connect_headset">“Conectar auriculares a utilizar”</string>
+<string name="audio_voicetrigger_language_choose">“Seleccionar comando de voz del idioma”</string>
+<string name="audio_voicetrigger_help">"ayuda"</string>
+<string name="audio_voicetrigger_subtitle_wakeup_default">"El Contexto de palabras para activar"</string>
+<string name="audio_voicetrigger_subtitle_wakeup_userdefine">"Definido por el Usuario"</string>
+<string name="audio_voicetrigger_subtitle_language_choose">“Establecer comando de voz del idioma”</string>
+<string name="audio_voicetrigger_subtitle_help">"Audición personalizada de la palabra de activación"</string>
+<string name="voicetrigger_connect_headset_content">"Cuando se conecta a los auriculares con cable o auricular Bluetooth, \ aún así puede activar el teléfono y usarlo normalmente, \ pero su voz se recoge a través del micrófono del teléfono, \ y el micrófono del auricular no  puede activar el teléfono"</string>
+<string name="voicetrigger_wakeup_title">"Registro de las palabras de activación"</string>
+<string name="voicetrigger_input_title">"Grabando las palabras de activación"</string>
+<string name="voicetrigger_describe">"Cuando el teléfono no está cerca del cuerpo o tiene incovenientes de sostenerlo con la mano,\tal como llamadas, al escuchar música, etc. puede utilizar las palabras de activación para activar su dispositivo y hacer algo con su voz."</string>
+<string name="change_language_progress_dialog_message">"Cambiando idioma, por favor espere..."</string>
+<string name="info_press_to_start">"Haga clic en el botón para grabar la voz"</string>
+<string name="info_default">"Por favor, hable en un lugar tranquilo"</string>
+<string name="info_recording">"Grabando..."</string>
+<string name="info_please_wait">"Por favor espere…"</string>
+<string name="info_talk_louder">"Hable más fuerte"</string>
+<string name="info_pause_before">"Pause 1-2 segundos antes de hablar"</string>
+<string name="info_too_noisy">"Demasiado ruidoso. Trasládese a un lugar más tranquilo"</string>
+<string name="info_talk_softer">"Hable más suave"</string>
+<string name="info_bad_recording">"mala grabación"</string>
+<string name="info_talk_slower">"Hable despacio"</string>
+<string name="info_too_many_sound">"Demasiadas repeticiones de sonidos"</string>
+<string name="info_check_rec">"Generando el disparador. Por favor, espere..."</string>
+<string name="info_problems_in_rec">"Problemas en una o más grabaciones. Debe grabar de nuevo"</string>
+<string name="generate_voicetrigger_words_success">"Haciendo que se genere el disparador de la voz."</string>
+<string name="voicetrigger_wakeup_item_1">"%1$s (por defecto)"</string>
+<string name="voicetrigger_wakeup_item_2">"definir por el usuario"</string>
+<string name="prompting_user_defined_text">"el contenido personalizado de las palabras de activación"</string>
+<string name="prompting_text_default">"Por favor diga：%1$s"</string>
+<string name="prompting_text_1">"Por favor：%1$s nuevamente"</string>
+<string name="prompting_text_2">"Completado"</string>
+<string name="error_app_internal">"Error interno de la aplicación"</string>
+<string name="dialog_dismiss">"Descartar"</string>
+<string name="error_permissions">"La aplicación no tiene permisos críticos necesarios para funcionar. Se recomienda consultar los permisos de configuración."</string>
+<string name="dialog_title">"Advertencia"</string>
+<string name="dialog_firstuse_info">"Usted es el primer usuario de esta función, debe configurar la voz por defecto para activar este dispositivo"</string>
+<string name="no_wakeup_words_recoded">"usted no ha grabado las palabras de activación definidas por el usuario"</string>
+<string name="dialog_title_notice">"Notificación"</string>
+<string name="dialog_change_language_first">"verificado que usted no grabó su voz con la palabra de activación del idioma actual,\ usted debe grabar de nuevo su voz para activar el dispositivo, ¿desea continuar?"</string>
+<string name="same_application_running">"El dispositivo de grabación es utilizado por otro programa, ¡por favor, cierre ese programa!"</string>
+<string name="is_not_systemuser">"En la actualidad no es usuario del sistema, no puede utilizar la voz para activarla."</string>
+<string-array name="hello_trigger_text_title_array">
+<item>"Hola ¿puedo ayudarle?"</item>
+<item>"Por favor, siga adelante, estoy escuchando..."</item>
+<item>"Me puede preguntar así:"</item>
+</string-array>
+<string name="support_find_phone">"Encontrar el teléfono"</string>
+<string name="support_find_phone_summary">"Grite en voz alta：\' [Las palabras de activación] + ¿Dónde estás?\', el teléfono le responderá con los tonos de llamada personalizados"</string>
+<string name="support_call_phone">"Hacer llamadas telefónicas"</string>
+<string name="support_call_phone_summary">"Dígale al teléfono：\' [Las palabras de activación] + Llama a Xiao Wang\'，se llamará a alguien."</string>
+<string name="support_send_mms">"Enviar mensajes"</string>
+<string name="support_send_mms_summary">"Dígale al teléfono：\' [Las palabras de activación] + Enviar mensaje de texto a Xiao Wang\'，abrirá las aplicaciones de mensajería para enviar un mensaje."</string>
+<string name="support_camera">"Tomar fotos"</string>
+<string name="support_camera_summary">"Dígale al teléfono：\' [Las palabras de activación] + Toma una foto por mí\'，abrirá la cámara y tomará fotos directamente."</string>
+<string name="support_open_music">"Tocar Música"</string>
+<string name="support_open_music_summary">"Dígale al teléfono：\' [Las palabras de activación] + Toca Wang Fei\'s \"Hong Dou\"\'，abrirá el reproductor de música y reproducirá la canción."</string>
+<string name="support_open_app">"Lanzar aplicaciones"</string>
+<string name="support_open_app_summary">"Dígale al teléfono：\' [Las palabras de activación] + Abre WeChat\'，el teléfono activará la aplicación WeChat."</string>
+<string name="find_phone_content">"Puede preguntarme：\n\n Dónde estás\n Me oyes\n Dame una respuesta"</string>
+<string name="call_phone_content">"Puede preguntarme：\n\n Llamar a Xiao Wang\n Llamar de nuevo a Xiaomin\n Llamar a Servicio al Cliente de China Mobile\n Marcar 114"</string>
+<string name="send_mms_content">"Puede preguntarme：\n\n Enviar a Xiao Wang un mensaje de texto\n Enviar un mensaje de texto a Xiaomin\n Responder un mensaje de texto a mamá\n Enviar la hora de la reunión a Xiaoming por SMS"</string>
+<string name="open_camera_content">"Puede preguntarme：\n\n Toma una foto por mí\n Toma una foto del paisaje\n Toma una foto del anuncio."</string>
+<string name="open_music_content">"Puede preguntarme：\n\n Toca Wang Fei\'s \"Hong Dou\"\n Toca una canción aleatoria\n Quiero oír a "Pao Mo"\n Toca una canción de Zhang Xueyou"</string>
+<string name="open_app_content">"Puede preguntarme：\n\n Abre WeChat\n Descarga una aplicación de la "brújula\n Lanza el notepad"</string>
+<string name="default_trigger">"Disparador: Hello Blue Genie v17 (US English)"</string>
+<string name="default_command">"Comando: Fitness v2.2 (US English)"</string>
+<string name="default_command_sen">"Sensibilidad: Normal"</string>
+<string name="trigger_prompt">"Dí Hola Dulce Genio"</string>
+<string name="command_prompt1">""Ahora dí lo\nsiguiente…"</string>
+<string name="command_prompt2">"Ahora dí un comando"</string>
+<string name="cmd_step_count">"Cuenta escalones"</string>
+<string name="cmd_calories">"Calorías"</string>
+<string name="cmd_floors">"Pisos"</string>
+<string name="cmd_distance">"Distancia"</string>
+<string name="cmd_active_minutes">"Minutos Activos"</string>
+<string name="cmd_sleep_pattern">"Patrón de Dormir"</string>
+<string name="cmd_outside_temperature">"Temperatura Exterior"</string>
+<string name="cmd_outside_humidity">"Humedad Exterior"</string>
+<string name="cmd_what_time_is_it">"Qué hora es"</string>
+<string name="cmd_heart_rate">"Latidos del Corazón"</string>
+<string name="resp_step_count">"Contar escalones = 4306"</string>
+<string name="resp_calories">"Calorías quemadas hoy = 1445"</string>
+<string name="resp_floors">Pisos subidos hoy = 8"</string>
+<string name="resp_distance">"Distancia Hoy = 2.52 millas"</string>
+<string name="resp_active_minutes">"Minutos activos hoy = 17"</string>
+<string name="resp_sleep_pattern">"Sueño Profundo Hoy = 3h 25m"</string>
+<string name="resp_outside_temperature">"Temperatura Exterior = 74 F"</string>
+<string name="resp_outside_humidity">"Humedad exterior = 41 %"</string>
+<string name="resp_what_time_is_it">"Hora actual ="</string>
+<string name="resp_heart_rate">"Latidos del corazón = 74 bpm"</string>
+<string name="time_left">"Tiempo transcurrido: X s"</string>
+<string name="language_changed_success">"Idioma cambió con éxito!"</string>
+<string name="save_file_to_device_error">El cambio de la palabra de activación falló, ¡por favor inténtelo más tarde!</string>
+<string name="language_changed_failed">"el cambio del idioma falló, por favor inténtelo más tarde"</string>
+<string name="language_change_has_canceled">"Se ha cancelado, también puede utilizar los idiomas antiguos"</string>
+<string name="finished">"Terminar"</string>
+<string name="sensibility_text">"Ajuste la sensibilidad de la palabra de activación en el reconocimiento \n \ Cuando se ajusta la sensibilidad más alta, la tasa de la palabra de activación es más alta\n \ Cuando se ajusta la sensibilidad más baja, la tasa de la palabra de activación es más baja"</string>
+<string name="update_phrass_success">"Actualización de frase con éxito"</string>
+</resources>

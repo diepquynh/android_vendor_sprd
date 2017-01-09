@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="ut_app_name">"USB ટ્યુનર ટીવી ઇનપુટ"</string>
+<string name="ut_setup_on">"ચાલુ"</string>
+<string name="ut_setup_off">બંધ </string>
+<string name="ut_setup_cancel">"કૃપા કરીને પ્રક્રિયા સમાપ્ત કરવા માટે રાહ જુઓ"</string>
+<string name="ut_select_channel_map">"તમારી ચેનલનો સ્ત્રોત પસંદ કરો"</string>
+<string name="ut_no_signal">"સિગ્નલ નથી"</string>
+<string name="ut_fail_to_tune">"ટયુન  કરવામાં નિષ્ફળ ગયેલ છે <xliff:g id="channel_name">%s</xliff:g>"</string>
+<string name="ut_fail_to_tune_to_unknown_channel">"ટ્યુન કરવામાં નિષ્ફળ"</string>
+<string name="ut_rescan_needed">"USB ટ્યુનર સોફ્ટવેર તાજેતરમાં અપડેટ કરવામાં આવ્યું છે. ચેનલો રીસ્કેન કરો."</string>
+<string name="ut_ac3_passthrough_unavailable">"AC3 ઓડિયો ઉપલબ્ધ નથી"</string>
+<string name="ut_setup_breadcrumb">"ચેનલ ટ્યુનર સેટઅપ"</string>
+<string name="ut_setup_new_title">"USB ચેનલ ટનલ સેટઅપ"</string>
+<string name="ut_setup_new_description">"એ ચકાસો કે USB ટ્યુનર પ્લગમાં છે અથવા નહીં, અને તે ટીવી સિગ્નલ સ્ત્રોત સાથે જોડાયેલ છે. \n\n  જો તમે ઓવર ધ એર એન્ટેનાનો ઉપયોગ કરો છો તો મોટા ભાગની ચેનલો પ્રાપ્ત કરવા માટે તેની સ્થિતિ અથવા દિશા સંતુલિત કરવાની જરૂર પડી શકે છે. શ્રેષ્ઠ પરિણામો માટે તેને ઉચ્ચ જગ્યાએ અને બારી નજીક મૂકો."</string>
+<string-array name="ut_setup_new_choices">
+<item>ચાલુ રાખો</item>
+<item>હમણાં નહીં</item>
+</string-array>
+<string name="ut_setup_again_title">"ચેનલ સેટઅપ ફરીથી ચલાવવું છે?"</string>
+<string name="ut_setup_again_description">"આ ચેનલો USB ટ્યુનરથી મળેલ ચેનલો દૂર કરશે અને નવી ચેનલો માટે ફરીથી સ્કેન કરશે. \n\n એ ચકાસશે કે USB ટ્યુનર પ્લગમાં છે અથવા નહીં, અને તે ટીવી સિગ્નલ સ્ત્રોત સાથે જોડાયેલ છે. \n\n જો તમે ઓવર ધ એર એન્ટેનાનો ઉપયોગ કરો છો તો મોટા ભાગની ચેનલો પ્રાપ્ત કરવા માટે તેની સ્થિતિ અથવા દિશા સંતુલિત કરવાની જરૂર પડી શકે છે. શ્રેષ્ઠ પરિણામો માટે તેને ઉચ્ચ જગ્યાએ અને બારી નજીક મૂકો."</string>
+<string-array name="ut_setup_again_choices">
+<item>ચાલુ રાખો</item>
+<item>"રદ્દ"</item>
+</string-array>
+<string name="ut_connection_title">"જોડાણનો પ્રકાર પસંદ કરો"</string>
+<string name="ut_connection_description">"જો ટ્યુનર સાથે બાહ્ય એન્ટેના જોડાયેલ હોય તો એન્ટેના પસંદ કરો.  જો તમારી ચેનલ્સ કેબલ સેવા પ્રદાતા પાસેથી આવે છે તો કેબલ પસંદ કરો. જો તમે ચોક્કસ નથી તો, બંને પ્રકારના સ્કેન કરવામાં આવશે, પરંતુ એ લાંબો સમય લઇ શકે છે."</string>
+<string-array name="ut_connection_choices">
+<item>"એન્ટેના"</item>
+<item>"કેબલ"</item>
+<item>"ચોક્કસ નથી"</item>
+</string-array>
+<string name="ut_channel_scan">"USB ચેનલ ટ્યુનર સેટઅપ"</string>
+<string name="ut_channel_scan_time">"આમાં થોડી મિનિટોનો સમય લાગી શકે છે"</string>
+<plurals name="ut_channel_scan_message"></plurals>
+<string name="ut_stop_channel_scan">"ચેનલ સ્કેન કરવાનું બંધ કરો"</string>
+<plurals name="ut_result_found_title"></plurals>
+<string-array name="ut_result_found_choices">
+<item>"પૂર્ણ"</item>
+<item>"ફરીથી સ્કેન કરો"</item>
+</string-array>
+<string name="ut_result_not_found_title">"કોઈ ચૅનલો મળી નથી"</string>
+<string name="ut_result_not_found_description">"સ્કેન કોઈપણ ચેનલો શોધી શક્યા ન હતા.યુએસબી ટ્યુનરમાં પ્લગ થયેલ છે અને ટીવી સિગ્નલ સ્ત્રોત સાથે જોડાયેલ છે તે ચકાસણી કરો.\n\nજો તમે ઓવર-ધ-એર એન્ટેના વાપરત હો તો તેની મદદથી,તેના સ્થાન નિયોજન અથવા દિશાને સંતુલિત કરો.શ્રેષ્ઠ પરિણામો માટે,તેને ઊંચું અને બારી નજીક મૂકો અને ફરી સ્કેન કરો. "</string>
+<string-array name="ut_result_not_found_choices">
+<item>"ફરીથી સ્કેન કરો"</item>
+<item>"પૂર્ણ"</item>
+</string-array>
+<string name="ut_setup_recommendation_card_focused_title">"ટીવી ચેનલો માટે સ્કેન કરો"</string>
+<string name="ut_setup_recommendation_card_title">"USB ચેનલ ટ્યુનર સેટઅપ"</string>
+</resources>

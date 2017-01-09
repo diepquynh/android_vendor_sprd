@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">"Certificado del Instalador"</string>
+<string name="pick_file_title">"Elegir un certificado"</string>
+<string name="pkcs12_password_dialog_title">"Extraer certificado"</string>
+<string name="extracting_pkcs12">"Extrayendo\u2026"</string>
+<string name="pkcs12_file_password_dialog_title">"Extrae desde %s"</string>
+<string name="name_credential_dialog_title">"Nombre el certificado"</string>
+<string name="credential_name">"Nombre del certificado:"</string>
+<string name="credential_password">"Escriba la contraseña para extraer los certificados."</string>
+<string name="credential_info">"El paquete contiene:"</string>
+<string name="p12_description">"Certificados en almacén de claves PKCS12".</string>
+<string name="one_userkey">"una clave de usuario"</string>
+<string name="one_usercrt">"un certificado de usuario"</string>
+<string name="one_cacrt">"un certificado CA"</string>
+<string name="n_cacrts">"Certificados CA %d""</string>
+<string name="password_error">"Escriba la contraseña correcta."</string>
+<string name="password_empty_error">"Escriba la contraseña."</string>
+<string name="name_empty_error">"Escriba un nombre"</string>
+<string name="name_char_error">"Escriba un nombre que contenga sólo letras y números."</string>
+<string name="unable_to_save_cert">"No se pudo guardar el certificado. El almacenamiento de credenciales no está habilitado o inicializado correctamente."</string>
+<string name="cert_not_saved">"No se ha instalado el certificado."</string>
+<string name="no_cert_to_saved">"No existe certificado para instalar."</string>
+<string name="invalid_cert">"El certificado no es válido."</string>
+<string name="cert_is_added">"<xliff:g id="credential">%s</xliff:g> está instalada."</string>
+<string name="cert_too_large_error">"No fue posible realizar la instalación porque el certificado es demasiado grande."</string>
+<string name="cert_missing_error">"No fue posible realizar la instalación porque no se pudo ubicar el archivo del certificado."</string>
+<string name="cert_read_error">"No fue posible realizar la instalación porque no se pudo leer el archivo del certificado."</string>
+<string name="no_cert_file_found" product="nosdcard">"No se ha encontrado un archivo de certificado en el almacenamiento USB."</string>
+<string name="no_cert_file_found" product="default">"No se ha encontrado un archivo de certificado en el tarjeta SD."</string>
+<string name="sdcard_not_present" product="nosdcard">"Almacenamiento USB no disponible"</string>
+<string name="sdcard_not_present" product="default">"La tarjeta SD no está presente."</string>
+<string name="only_primary_user_allowed">"Sólo el propietario de este dispositivo puede instalar certificados."</string>
+<string name="credential_usage_label">"Uso de credenciales:"</string>
+<string-array name="credential_usage">
+<item>"VPN y aplicaciones"</item>
+<item>"Wi-Fi"</item>
+</string-array>
+<string name="wifi_title">"Perfil de Wi-Fi"</string>
+<string name="wifi_detail_title">"Detalles de %s"</string>
+<string name="wifi_detail_label">"Detalles"</string>
+<string name="wifi_install_label">"Instalar"</string>
+<string name="wifi_installing_label">"Instalando"</string>
+<string name="wifi_cancel_label">"Cancelar"</string>
+<string name="wifi_dismiss_label">"Descartar"</string>
+<string name="wifi_no_config">"Ninguno"</string>
+<string name="wifi_config_text">"Nombre: %1$s\nFQDN: %2$s\nConsorcios de Itinerancia: %3$s\nDominio: %4$s\nMétodo de autorización: EAP-%5$s\n"</string>
+<string name="wifi_ttls_config_text">"Nombre de usuario: %s\n"</string>
+<string name="wifi_tls_config_text">"Certificado de cliente:\n%1$s\nClave: %2$s\n"</string>
+<string name="wifi_sim_config_text">"SIM: %s\n"</string>
+<string name="wifi_trust_config_text">"Certificado de confianza:\n%s\n"</string>
+<string name="install_done_title">"Credenciales instaladas"</string>
+<string name="install_done">"<xliff:g id="name">%1$s</xliff:g> las credenciales se han añadido a las redes guardadas Wifi&amp;#46;"</string>
+<string name="done_label">"Hecho"</string>
+<string name="wifi_installer_detail">"Instale credenciales Wifi para conectarse a las redes disponibles a través de <xliff:g id="name">%1$s</xliff:g>&amp;#46;"</string>
+<string name="wifi_installer_download_error">"El archivo descargado tiene problemas y no se puede instalar&amp;#46; Asegúrese de que ha descargado el archivo de la fuente correcta&amp;#46;"</string>
+<string name="wifi_installer_fail">"No se pueden instalar credenciales Wifi&amp;#46; Trate de descargar el archivo de nuevo&amp;#46;"</string>
+<string name="wifi_installer_fail_no_wifi_title">"Se canceló la instalación"</string>
+<string name="wifi_installer_fail_title">"No se puede realizar la instalación"</string>
+<string name="wifi_installer_fail_no_wifi">"Activar Wi-Fi y vuelva a intentarlo&amp;#46;"</string>
+</resources>

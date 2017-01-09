@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="false" />
+
+    <LinearLayout
+        style="@android:style/ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/start_service"
+            android:layout_width="140dip"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="@string/connectivity_start_service" />
+        <!-- Placeholder to get blank space between the two buttons -->
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/stop_service"
+            android:layout_width="140dip"
+            android:layout_height="wrap_content"
+            android:drawablePadding="3dip"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="@string/connectivity_stop_service" />
+    </LinearLayout>
+
+</LinearLayout>

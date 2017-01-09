@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD: FEATURE_OF_APN_AND_DATA_POP_UP @{ -->
+    <string name="apn_popup_title">"移动接入点配置"</string>
+    <string name="apn_popup_summary">"为了确保稳定的数据链接，请为SIM卡选择默认的网络配置。注意：数据链接被激活后，网络运营商会向您收取额外的费用。"</string>
+    <string name="apn_popup_change">"修改"</string>
+    <string name="apn_popup_close">"关闭"</string>
+    <string name="data_popup_title">"数据业务"</string>
+    <string name="data_popup_summary">"如果您的流量不是无限制的话，默认数据打开，网络运营商会收取额外的费用。"</string>
+    <string name="data_popup_enable">"打开"</string>
+    <string name="data_popup_disable">"关闭"</string>
+    <!-- @} -->
+    <!-- SPRD: add for bug603142 new featrue:Smart Dual SIM @{ -->
+    <string name="smart_dual_sim_title">"智能双卡"</string>
+    <string name="smart_dual_sim_summary">"管理智能双卡状态"</string>
+    <string name="smart_dual_sim_number_null">"SIM卡为空号，请输入SIM卡号码。"</string>
+    <string name="smart_forwarding_show_dialog">"请勿再显示。"</string>
+    <string name="number_sim1">"SIM1 号："</string>
+    <string name="number_sim2">"SIM2 号："</string>
+    <string name="cfu_is_on">"始终来电转接已开启。"</string>
+    <string name="smart_call_forward_error">"网络或SIM卡出错。"</string>
+    <string name="updating_settings">"更新设置..."</string>
+    <string name="reading_settings">"读取设置..."</string>
+    <string name="smart_dual_sim_hint">"请输入SIM卡号码。"</string>
+    <string name="smart_dual_sim_warning_message">"启用双卡?\n因某些服务功能，此功能可能无法正常工作或者可能需要收取费用。"</string>
+    <string name="response_error">网络响应异常。</string>
+    <string name="radio_off_error">查看这些设置之前，请先打开无线网络。</string>
+    <string name="fdn_check_failure">固定拨号设置已开启，导致一些拨打电话相关的功能无法正常工作。</string>
+    <string name="exception_error">网络活SIM卡异常。</string>
+    <!-- @} -->
+    <!-- @Need to clearly distinguish between the main and gsm card -->
+    <string name="main_card_slot">"主卡 "</string>
+    <string name="gsm_card_slot">"副卡 "</string>
+    <!-- @} -->
+</resources>

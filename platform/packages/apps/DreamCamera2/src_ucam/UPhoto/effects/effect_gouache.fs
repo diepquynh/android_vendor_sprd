@@ -1,0 +1,54 @@
+precision mediump float;
+uniform sampler2D texture;
+varying vec2 vTextureCoord;
+
+const vec2 imgSize = vec2(1000.0);
+void main()
+{
+vec4 grayMat = vec4(0.299,0.587,0.114,0.0);
+vec4 color = texture2D(texture,  vTextureCoord);
+vec4 src = color;
+float g = dot(color,grayMat);
+float tx;
+float ty;
+tx = 1.0 / imgSize.x;
+ty = 1.0 / imgSize.x;
+vec4 tmp = vec4(0.0);
+vec4 c1;
+c1 = texture2D(texture,  vTextureCoord + vec2(-1.0*tx,-1.0*ty));
+tmp = max(tmp,c1);
+c1 = texture2D(texture,  vTextureCoord + vec2(0.0*tx,-1.0*ty));
+tmp = max(tmp,c1);
+c1 = texture2D(texture,  vTextureCoord + vec2(1.0*tx,-1.0*ty));
+tmp = max(tmp,c1);
+c1 = texture2D(texture,  vTextureCoord + vec2(-1.0*tx,0.0*ty));
+tmp = max(tmp,c1);
+c1 = color;
+tmp = max(tmp,c1);
+c1 = texture2D(texture,  vTextureCoord + vec2(1.0*tx,0.0*ty));
+tmp = max(tmp,c1);
+c1 = texture2D(texture,  vTextureCoord + vec2(-1.0*tx,1.0*ty));
+tmp = max(tmp,c1);
+c1 = texture2D(texture,  vTextureCoord + vec2(0.0*tx,1.0*ty));
+tmp = max(tmp,c1);
+c1 = texture2D(texture,  vTextureCoord + vec2(1.0*tx,1.0*ty));
+tmp = max(tmp,c1);
+vec4 dd;
+float threshold = 100.0/255.0;
+dd = color/tmp;
+g = clamp(g,0.0,threshold);
+float ratio = g/threshold;
+dd = ratio*dd + (1.0 - ratio)*color;
+vec4 d1;
+g = dot(color,grayMat);
+threshold = 20.0/255.0;
+d1 = color/tmp;
+g = clamp(g,0.0,threshold);
+ratio = g/threshold;
+d1 = ratio*d1 + (1.0 - ratio)*color;
+vec4 rgb = d1 * d1 * dd;
+rgb = 1.0-(1.0-src)*(1.0-rgb);
+rgb = .9 * rgb + .1 * src;
+rgb.a = 1.0;
+gl_FragColor = rgb;
+}
